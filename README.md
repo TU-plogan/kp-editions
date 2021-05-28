@@ -1,5 +1,5 @@
 # Nineteenth-Century Knowledge Project
-## Machine-readable full-text historical editions of the _Encyclopedia Britannica_ 
+## Machine-readable text of historical editions of the _Encyclopedia Britannica_ 
 
 ### Download the latest version of text from the following editions:
  * 3rd ed. 18 vols. + 2 suppl. vols. Edinburgh: A. Bell and C. MacFarquhar, 1788-1797. 
