@@ -8,7 +8,7 @@
  * 11th ed. 29 vols. NY: Cambridge University Press, 1910-1911.
 
 Available formats: TXT, XHTML, EPUB, TEI-XML, DOCX
-Licensing: CC0 1.0 Universal
+Licensing: CC4-BY-SA
 
 ## Updates
 (27 May 2021) Text is in preparation for release in late 2021. See https://tu-plogan.github.io/index.html for more information.
