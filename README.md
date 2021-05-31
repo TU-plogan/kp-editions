@@ -9,7 +9,7 @@
 
 Available formats: TXT, XHTML, EPUB, TEI-XML, DOCX
 
-Licensing: CC4-BY-SA
+ CC-BY-SA-4.0 License 
 
 ## Updates
 (27 May 2021) Text is in preparation for release in late 2021. See https://tu-plogan.github.io/index.html for more information.
