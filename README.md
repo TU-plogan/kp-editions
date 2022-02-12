@@ -9,9 +9,9 @@
 
 Available formats: TXT, XHTML, TEI-XML
 
-CC-BY-SA-4.0 License 
+CC-BY-4.0 License 
 
 ## Updates
-(27 May 2021) Text is in preparation for release in early 2022. See https://tu-plogan.github.io/index.html for more information.
+(1 Feb 2022) Text is in preparation for release in early 2022. See https://tu-plogan.github.io/index.html for more information.
 
 Funding from the National Endowment for the Humanities. Created in 1965 as an independent federal agency, the National Endowment for the Humanities supports research and learning in history, literature, philosophy, and other areas of the humanities by funding selected, peer-reviewed proposals from around the nation. Additional information about the National Endowment for the Humanities and its grant programs is available at: www.neh.gov. 
