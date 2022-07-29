@@ -7,7 +7,7 @@
  * 9th ed. 25 vols. NY: Charles Scribner's Sons, 1875-1889.
  * 11th ed. 29 vols. NY: Cambridge University Press, 1910-1911.
 
-Available formats: TXT, XHTML, TEI-XML
+Available formats: PDF, TEI-XML, TXT, XHTML
 
 CC-BY-4.0 License 
 
