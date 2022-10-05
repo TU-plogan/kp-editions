@@ -10,10 +10,12 @@
 Planned formats: PDF, TEI-XML, TXT, XHTML
 
 ## Updates
-4-Oct-2022: The complete text version of the 7th edition is finally available!
+4-Oct-2022: The text version of the complete 7th edition (v1.0) is now available.
+
 1-Feb-2022: Text is in preparation for release in summer 2022. See https://tu-plogan.github.io/index.html for more information.
 
-Contact us: [nckp@temple.edu](mailto://nckp@temple.edu)
+Contact us: [nckp@temple.edu](mailto:nckp@temple.edu)
+
 Online: [The Nineteenth-Century Knowledge Project](https://tu-plogan.github.io/)
 
 CC-BY-4.0 License 
