@@ -14,6 +14,8 @@
 * **Footnotes** and marginal notes are included inline at the point of the siglum, as *^[1. This is note text.]* 
 * **Tables** are out of scope and indicated in the text with *[table]*.
 * **Formulae** are out of scope and are left uncorrected.
+* **Dissertations.** Vol. 1, which contains book-length dissertations, rather than entries, is planned for later release.
+* **Further information** is available at https://tu-plogan.github.io/source/c_editorial_standards.html.
 
 ##### Format
 * **Files.** Entries are in individual TXT files with a header for the Knowledge Project.
