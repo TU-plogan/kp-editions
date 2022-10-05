@@ -1,5 +1,6 @@
 # Nineteenth-Century Knowledge Project
-## Machine-readable text of historical editions of the _Encyclopedia Britannica_ 
+
+## Machine-readable transcriptions of historical editions of the _Encyclopedia Britannica_ 
 
 ### Transcribing text from four editions:
  * 3rd ed. 18 vols. + 2 suppl. vols. Edinburgh: A. Bell and C. MacFarquhar, 1788-1797. 
@@ -10,7 +11,7 @@
 Planned formats: TEI, TXT, HTML
 
 ### Updates
-4-Oct-2022: The TXT version of the complete [https://github.com/TU-plogan/KnowledgeProject/tree/main/eb07](7th edition) (v1.0) is now available in the _eb07_ directory.
+4-Oct-2022: The TXT version of the complete [7th edition](https://github.com/TU-plogan/KnowledgeProject/tree/main/eb07) (v1.0) is now available in the _eb07_ directory.
 
 Contact us: [nckp@temple.edu](mailto:nckp@temple.edu)
 

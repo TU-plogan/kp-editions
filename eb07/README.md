@@ -7,7 +7,7 @@
 | 4-Oct-2022 | Plain text | 129 MB | 20,986 |
 
 ### Release Notes: v1.0
-4-Oct-22. We're excited to publish the complete text for this edition.
+4-Oct-22. We're excited to publish the text of this edition as TXT files.
 
 #### Content
 * **Page breaks** are indicated inline as *[edition:volume:page]*.
