@@ -8,6 +8,7 @@
 
 ### Release Notes: v1.0
 5-Oct-22. Release v1.01: 3 entries corrected or separated, 1 entry removed. Updated ZIP archive.
+
 4-Oct-22. We're excited to publish the text of this edition as TXT files.
 
 #### Content
