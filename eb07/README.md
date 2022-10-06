@@ -4,7 +4,7 @@
 
 | date | format | size | files
 | --- | --- | --- | --- |
-| 4-Oct-2022 | Plain text | 129 MB | 20,986 |
+| 4-Oct-2022 | Plain text | 129 MB | 20,984 |
 
 ### Release Notes: v1.0
 5-Oct-22. Release v1.01: 3 entries fixed, 2 removed. 
