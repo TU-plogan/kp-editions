@@ -14,6 +14,7 @@ Planned formats: TEI, TXT, HTML
 ### Updates
 
 7-Oct-2022: v1.1 of text for 7th edition is now in [7th edition](https://github.com/TU-plogan/KnowledgeProject/tree/main/eb07) directory.
+
 4-Oct-2022: The TXT version of the complete [7th edition](https://github.com/TU-plogan/KnowledgeProject/tree/main/eb07) (v1.0) is now available in the _eb07_ directory.
 
 Contact us: [nckp@temple.edu](mailto:nckp@temple.edu)
