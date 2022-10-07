@@ -1,12 +1,14 @@
 # Nineteenth-Century Knowledge Project
 
-## _Encyclopedia Britannica, Seventh Edition: A Machine-Readable Text Transcription_, v1.0
+## _Encyclopedia Britannica, Seventh Edition: A Machine-Readable Text Transcription_, v1.1
 
 | date | format | size | files
 | --- | --- | --- | --- |
-| 4-Oct-2022 | Plain text | 129 MB | 20,984 |
+| 7-Oct-2022 | Plain text | 129 MB | 20,983 |
 
-### Release Notes: v1.0
+### Release Notes:
+7-Oct-22. Release v1.1: correct cite for source text; remove space before end punctuation.
+
 5-Oct-22. Release v1.01: 3 entries fixed, 2 removed. 
 
 4-Oct-22. We're excited to publish the text of this edition as TXT files.

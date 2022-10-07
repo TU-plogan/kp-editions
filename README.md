@@ -3,7 +3,8 @@
 ## Machine-readable transcriptions of historical editions of the _Encyclopedia Britannica_ 
 
 ### Transcribing text from four editions:
- * 3rd ed. 18 vols. + 2 suppl. vols. Edinburgh: A. Bell and C. MacFarquhar, 1788-1797. 
+
+  * 3rd ed. 18 vols. + 2 suppl. vols. Edinburgh: A. Bell and C. MacFarquhar, 1788-1797. 
  * 7th ed. 21 vols. Edinburgh: Adam and Charles Black, 1830-1842.
  * 9th ed. 25 vols. NY: Charles Scribner's Sons, 1875-1889.
  * 11th ed. 29 vols. NY: Cambridge University Press, 1910-1911.
@@ -11,6 +12,8 @@
 Planned formats: TEI, TXT, HTML
 
 ### Updates
+
+7-Oct-2022: v1.1 of text for 7th edition is now in [7th edition](https://github.com/TU-plogan/KnowledgeProject/tree/main/eb07) directory.
 4-Oct-2022: The TXT version of the complete [7th edition](https://github.com/TU-plogan/KnowledgeProject/tree/main/eb07) (v1.0) is now available in the _eb07_ directory.
 
 Contact us: [nckp@temple.edu](mailto:nckp@temple.edu)
