@@ -7,6 +7,8 @@
 | 7-Oct-2022 | Plain text | 129 MB | 20,983 |
 
 ### Release Notes:
+1-Nov-22: Release v1.2: remove space before closing bracket.
+
 7-Oct-22. Release v1.1: correct cite for source text; remove space before end punctuation.
 
 5-Oct-22. Release v1.01: 3 entries fixed, 2 removed. 
@@ -19,7 +21,7 @@
 * **Tables** are out of scope and indicated in the text with *[table]*.
 * **Formulae** are out of scope and are left uncorrected.
 * **Dissertations.** Vol. 1, which contains book-length dissertations, rather than entries, is planned for later release.
-* **Further information** is available at https://tu-plogan.github.io/source/c_editorial_standards.html.
+* **Further information** is available at [Editorial Standards](https://tu-plogan.github.io/source/c_editorial_standards.html.)
 
 #### Format
 * **Files.** Entries are in individual TXT files with a header for the Knowledge Project.
