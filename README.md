@@ -4,7 +4,7 @@
 
 ### Transcribing text from four editions:
 
-  * 3rd ed. 18 vols. + 2 suppl. vols. Edinburgh: A. Bell and C. MacFarquhar, 1788-1797. 
+ * 3rd ed. 18 vols. + 2 suppl. vols. Edinburgh: A. Bell and C. MacFarquhar, 1788-1797. 
  * 7th ed. 21 vols. Edinburgh: Adam and Charles Black, 1830-1842.
  * 9th ed. 25 vols. NY: Charles Scribner's Sons, 1875-1889.
  * 11th ed. 29 vols. NY: Cambridge University Press, 1910-1911.

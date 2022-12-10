@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0721-0425-0403-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">TUNNEL (7th edition, volume 21, page 403)</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0">Version 1.0, initial release <date when="2022"
+                    >2022</date></edition>
+            </editionStmt>
+            <extent>411 MB; 20,984 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2020">2022</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol"> 21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                    <item>Encoding has been done using the recommendations for Level 3 of the TEI in
+                        Libraries Guidelines.</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Running headers and side descriptions are not included.</item>
+                    <item>Some font formatting is preserved: italic, small caps, strike through,
+                        subscript, superscript, underline. The following formatting is ignored:
+                        bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                    (<link target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>The first release is a reproduction of text matter for all entries. It does not
+                    include images, tables, formulae, front- or back-matter. It omits volume 1,
+                    which consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                        of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b43b5wb41">Tunneling</term>
+                    <term ref="lcsh1910:b4cf9j822">Tunnels</term>
+                    <term ref="lcsh1910:b4cc0tv2w">Canals</term>
+                    <term ref="lcsh1910:b4xk84s4r">Contractors</term>
+                    <term ref="lcsh1910:b4513v11w">Water</term>
+                    <term ref="lcsh1910:b4f18sp5w">Shafting</term>
+                    <term ref="lcsh1910:b4d50g11r">Top</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:876929">Contractors</term>
+                    <term ref="fast:1171139">Water</term>
+                    <term ref="fast:1115061">Shafting</term>
+                    <term ref="fast:1152704">Tops</term>
+                    <term ref="fast:845230">Canals</term>
+                    <term ref="fast:1100116">Romans</term>
+                    <term ref="fast:1158996">Tunnels</term>
+                    <term ref="fast:1158972">Tunneling</term>
+                    <term ref="fast:910709">English</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ht:chi.12945678&amp;view=1up&amp;seq=425" type="entry">
+                <p><label type="entry">TUNNEL</label>. A tunnel is simply a hole bored through a
+                    hill, in order to carry a canal, a road, or a railway, in an advantageous
+                    course, and is generally resorted to as a means of lessening the expense which
+                    would ensue if an open cutting were made. There are other reasons which may
+                    render this mode of proceeding advisable; such as gaining the consent of a
+                    landholder, who would object to a cutting through his property, but would have
+                    no dislike to a tunnel; and various other local causes: but the general reason
+                    for such a mode of proceeding is the consideration of expense. In order to enter
+                    into this inquiry, the first step is to make plenty of borings, for the purpose
+                    of examining the geological structure of the proposed hill. If these are
+                    considered satisfactory, trial shafts should be sunk quite to the intended
+                    bottom, as by these the quantity of water to be expected will be discovered. It
+                    should be particularly attended to, as water is one of the greatest annoyances
+                    to be encountered in tunnelling. The readiest way is to measure the water into a
+                    cask, and ascertain the number of gallons per minute. To do it readily, the
+                    shaft should be about four feet in diameter, rather more than less; and no loss
+                    will be occasioned by making it large, as, if the situation is properly chosen,
+                    it may afterwards be converted into a working shaft.</p>
+                <p>The necessary power to drain being taken into account, and the geological
+                    structure of the ground being ascertained by the borings, we have thus the
+                    elements for making an estimate of the relative expense of forming a tunnel or
+                    an open cutting. Questions of expediency will also have to be taken into the
+                    account; such as, how the spoil from a tunnel can be deposited, and at what
+                    expense in the purchase of land; whether earth in large quantities is requisite
+                    for an adjacent embankment; and if we lose this by making a tunnel, at what
+                    price can a side-cutting be made to complete the embankment; and various other
+                    questions connected with the locality, which can only be determined on the spot.
+                    Sometimes the earth for the tunnel can be taken out laterally, the working
+                    shafts being horizontal; and in this case the work is called a gallery, and not
+                    a tunnel. This process will in general lessen the expense.</p>
+                <p>In the present state of civil engineering, a tunnel can be made through any
+                    object, from a rock to a quicksand; and the question of making it turns chiefly
+                    on the expense, which will vary from L.20 a yard in sandstone, which is easy to
+                    cut, and which will stand without brick-work, up to L.100 and L 140 a yard in
+                    quicksand and bad ground, requiring twenty-seven inches thickness in the
+                    brick-work, and mostly to be laid in concrete. The Thames tunnel has cost about
+                    L.1200 a yard. Here, however, there have been severe difficulties of a peculiar
+                    nature to contend with, and it is a double tunnel. In general the rocky strata
+                    will be cheapest, as no brick-work will be required. Hard shale, and in fact any
+                    thing which will not cut by a spade, is best removed by blasting, and not by the
+                    pickaxe. In some cases tough clays will be found, against which a pickaxe is
+                    nearly useless, as it merely indents a hole where it sticks, without loosening
+                    any thing. Blasting will have no effect on this: hatchets will answer very well,
+                    and cross-cut saws best of all. The borings should be numerous, so as to give
+                    all the strata. Chalk, for instance, will often contain large holes filled with
+                    gravel, which on being opened during the execution of the work, will pour in on
+                    the unsuspecting miner like water.</p>
+                <p>After due consideration, having determined on a tunnel at the place proposed, the
+                    engineer next decides on the size and shape, both being in some measure
+                    regulated by what the tunnel is intended to carry. But, as respects the shape,
+                    this is also dependent on the nature of the ground, and the degree of weight
+                    which the brick-work will have to support. For instance, in a wet quicksand,
+                    which approaches the nature of a fluid, with an equal pressure all round, the
+                    shape should approximate as nearly as possible to that of a circle; and for any
+                    other kind of pressure, the form of the tunnel should be proportionally
+                    modified. Curves and rises or falls should by all means be avoided if
+                    practicable.<note anchored="true" place="bottom" type="authorial"><p>When it is
+                    for a canal, the form is generally an entire: oval, tile lower portion forming
+                    the water-way; and on one or both side· a retaining wall is built, and filled in
+                    behind, to form the towing-path. Sometimes a wood camsheet is substituted for
+                    the wall, and cross sleepers laid on it. In a canal, of course, every thing must
+                    be level from lock to lock.</p></note></p>
+                <p>In setting out a tunnel, the engineer should have a transit instrument, placed in
+                    a fixed observatory, and standing on a pier insulated from the building; and if
+                    there is any road near it, the pier must be insulated from the ground to a depth
+                    of six, eight, or ten feet, according to the nature of the traffic on the road,
+                    in order to insure stability and a freedom from vibration. A distant mark should
+                    then be taken in the line of the tunnel, and a fixed point placed as the
+                    adjusting spot for the line of direction: the farther this is off the better.
+                    Intermediate marks for the working and ventilating shafts may then be set out
+                    correctly; and as these are sunk, plummets, suspended from points accurately set
+                    out by the transit instruments, may be constantly tried as to the proper
+                    direction. These plummets should be of iron, and should be let down into buckets
+                    of water, to check the vibration; or, what is better, they should hang in cups
+                    of mercury. When the shafts are cleared out to the bottom, other transit
+                    instruments may be placed in them, the plumb-line and transit being kept as far
+                    from each other as possible. The intersection of the vertical hairs in the
+                    transit with the plumb-line, will then enable the engineer properly to set out
+                    the work.</p>
+                <p>Tunnels have been known to draw water off the wells as far as a mile distant.
+                    This may generally be remedied in every case except that of a canal containing
+                    salt water, by sinking the wells deeper, which for the most part restores them
+                    to nearly their original state. When a salt-water canal is to pass through a
+                    tunnel, compensation had better be made to the parties as soon as it is
+                    discovered that an injury has been done. In all cases of canal tunnels, care
+                    must be taken that they are run deep enough to insure a proper supply of water
+                    to allow for waste, lockage, and leakage, where the supply is contingent on a
+                    tideway. It will be very expensive to remedy this afterwards, and will most
+                    probably require the erection of a steam-engine to pump up a sufficient
+                    quantity.</p>
+                <p>Some of the old canal tunnels, through an injudicious economy, were constructed
+                    without a towing-path. The boats are in these cases pushed through by men lying
+                    on their back on the deck, or on a projecting board placed for the purpose. They
+                    then set their feet against the side-walls of the tunnel, and advancing them
+                    alternately, foot the boat along, the helmsman steering against them. This
+                    barbarous plan, which has occasioned serious loss of life, is now generally
+                    abandoned; but no tunnel or canal can be called perfect unless it has a
+                    towing-path on both sides. In the tunnels, an iron hand-rail should invariably
+                    be set up next the edge of the towing-path; and if there is but one of these,
+                    its width should be so increased as readily to admit the horses to pass each
+                    other. Some of the old tunnels above described were completed for less than four
+                    pounds per yard; and one, the old tunnel on the Grand Trunk Canal at Harccastle,
+                    in Staffordshire, constructed by Brindley, only cost L.3. 10s. 8d. It was ten
+                    feet in diameter, and consisted merely of a semicircular brick arch, which
+                    sprung from the water-line of the canal. The variation in </p>
+                <pb break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=426"
+                    xml:id="kp-eb0721-0426-0404"/>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="4" role="data" rows="1"> size from this may be judged of by the
+                            following examples on railways. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"> Yards long </cell>
+                        <cell cols="1" role="data" rows="1"> Ft. high. </cell>
+                        <cell cols="1" role="data" rows="1"> Ft. wide. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Liverpool and Manchester Railway
+                            tunnels—Wapping to Edge Hill </cell>
+                        <cell cols="1" role="data" rows="1"> 2200 </cell>
+                        <cell cols="1" role="data" rows="1"> 16 </cell>
+                        <cell cols="1" role="data" rows="1"> 22 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Lime Street </cell>
+                        <cell cols="1" role="data" rows="1"> 1 mile </cell>
+                        <cell cols="1" role="data" rows="1"> 19 </cell>
+                        <cell cols="1" role="data" rows="1"> 25 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Primrose Hill, London, and Birmingham
+                            Railway.... </cell>
+                        <cell cols="1" role="data" rows="1"> 1250 </cell>
+                        <cell cols="1" role="data" rows="1"> 25 </cell>
+                        <cell cols="1" role="data" rows="1"> 22 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Kilsby ditto </cell>
+                        <cell cols="1" role="data" rows="1"> 2420 </cell>
+                        <cell cols="1" role="data" rows="1"> 27 </cell>
+                        <cell cols="1" role="data" rows="1"> 23½ </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Canterbury and Whitstable </cell>
+                        <cell cols="1" role="data" rows="1"> 880 </cell>
+                        <cell cols="1" role="data" rows="1"> 12 </cell>
+                        <cell cols="1" role="data" rows="1"> 12 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Leeds and Selby </cell>
+                        <cell cols="1" role="data" rows="1"> 700 </cell>
+                        <cell cols="1" role="data" rows="1"> 17 </cell>
+                        <cell cols="1" role="data" rows="1"> 22 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Whitby and Pickering </cell>
+                        <cell cols="1" role="data" rows="1"> 130 </cell>
+                        <cell cols="1" role="data" rows="1"> 14 </cell>
+                        <cell cols="1" role="data" rows="1"> 10 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Leicester and Swannington </cell>
+                        <cell cols="1" role="data" rows="1"> 1760 </cell>
+                        <cell cols="1" role="data" rows="1"> 13½ </cell>
+                        <cell cols="1" role="data" rows="1"> 10¾ </cell>
+                    </row>
+                </table>
+                <p>In the agreement entered into with the contractor, the price of the contract, and
+                    a schedule, by which any extra or additional works are to be executed, should be
+                    stated; and likewise the mode of payment, and the nature of any retentions. The
+                    time for completion, and fines for exceeding this time, should be clearly and
+                    distinctly laid down; with the condition that all payments are subject to the
+                    engineer’s approval of the work. The contractor should find all tools,
+                    machinery, labour, and materials of an approved kind, getting out all
+                    foundations, excavations, shafts, culverts, drains, roads, &amp;c.; and he
+                    should provide all centrings, coffer-dams, pumping apparatus, scaffolding,
+                    fencing, and other requisite materiais of every description, according to the
+                    specifications, plans, and drawings, and the instructions which he may from time
+                    to time receive from the engineer. In the case of a railway, he should lay the
+                    permanent way, the materials being in this case found for him; and io a canal he
+                    should construct all the locks and gates, if there arc any at either end of the
+                    tunnel, and form the towing-path. When he does not employ a sufficient number of
+                    men on the work, the engineer should have power to engage more, after giving him
+                    a week’s notice of his intention. These may be retained temporarily or
+                    permanently, as may be required, and in all cases using the contractor’s
+                    materials, the men’s pay being deducted from the price of his contract. The
+                    engineer should also have the power of ordering the discharge of any foreman or
+                    workman acting improperly, or doing his work with carelessness; a power which he
+                    should be cautious not to use without strong reasons. The ground over the tunnel
+                    should be fenced off previously to commencing the work. The contractor should be
+                    restricted from entering on any adjoining land without leave; and if this should
+                    be necessary after the leave is obtained, the required land should be
+                    immediately fenced in. Temporary roads, for the conveyance of materials from the
+                    high roads, when required, should be formed by the contractor; as also those
+                    necessary for conveying away the spoil-earth. If the company who are forming the
+                    tunnel are called upon by any of the surrounding occupiers, they should have
+                    power to compensate them for any damages, and to place the suras thus paid to
+                    the contractor’s account.</p>
+                <p>The contractor should not be allowed to sublet any portion of the work without
+                    permission in writing from the engineer. He should also be bound to take down or
+                    otherwise alter any work not approved of by the engineer, and to remove all
+                    unsound materials. All materials, from the moment they arc brought on the site
+                    of the works, become the property of the persons for whom the tunnel is made,
+                    and the contractor must not remove them again without permission; but the
+                    company or other persons making the tunnel are not to be answerable for the
+                    damages which any materials may sustain. These and similar clauses in the
+                    agreement, are of course only provided for cases of emergency, and would seldom
+                    require to be acted on. The contractor should make all the alterations and
+                    additions which he may be instructed to do by the engineer, and no others. He is
+                    to be furnished with copies of the plans, sections, and other drawings, also of
+                    the specification, and is himself to see if these are correct; he is also to do
+                    all that may be reasonably implied, although not actually expressed, in the
+                    drawings and specification. It is usual to deduct ten per cent. from the
+                    payments; the whole of which is not returned to the contractor till twelve
+                    months after the completion of the work, he being bound to keep it in repair for
+                    that length of time. The payments are in general made monthly, including those
+                    for extra and additional works, after being approved by the engineer, who is to
+                    certify the same. It is also usual in large works of this kind, when the
+                    contractor has more than two millions of bricks on the site of the work, to
+                    allow him half or two thirds of their cost.</p>
+                <p>' When the tunnel is for a railway, the company deliver the permanent-way
+                    materials at the nearest convenient place, and the contractor brings them to the
+                    works, defraying the charge of wharfage, if any. In the event of any disputes,
+                    the decision of the principal engineer is in all cases to be final.</p>
+                <p>The drawings should consist of, 1. a general section of the tunnel
+                    longitudinally, containing all the measurements to an exact scale; the positions
+                    of any ventilating shafts if such are required; their length, breadth, thickness
+                    of brickwork, &amp;c.</p>
+                <p>2. Views of the fronts and wings, with plans and sections of the foundations and
+                    wing-walls, showing the curves and batters.</p>
+                <p>3. Plans and sections of the ventilating shafts, and the iron-work connected with
+                    them on the working shafts.</p>
+                <p>4. Transverse sections of the tunnel, with any other details as to drains, and
+                    all other necessary information; and plan and section of fronts.</p>
+                <p>5. A general plan of the property through which the tunnel passes, showing the
+                    width to be fenced in.</p>
+                <p>6. If for a railway, plans of the rails, blocks, and the mode of laying them. If
+                    for a canal, plans of the locks and gates, with all other necessary details.</p>
+                <p>The specification should define in words the situation and termini of the tunnel,
+                    and the number and dimensions of the locks, if for a canal; and should then
+                    enumerate the various works, such as fencing off the ground above, one chain in
+                    width, till the tunnel is completed; sinking ventilating and working shafts;
+                    excavating and building the tunnel; building the fronts; laying the drainage;
+                    excavating in open cutting at each end, if required; forming and turfing the
+                    slopes, and fencing and ditching them, and the tops of the fronts; depositing
+                    all the earth in a given place, so as, when soiled, to he fit for agricultural
+                    purposes; ballasting and laying the way, if for a railway; but if for a canal,
+                    making all the necessary locks and feeders, forming the towing-path, building
+                    lock-houses, deviating roads if required, and keeping the whole in repair for
+                    one year.</p>
+                <p>The temporary fencing should be on each side of the tunnel one chain in width,
+                    between which all work and materials arc to be comprised. It should be of split
+                    oak posts nine feet apart, mortised for the reception of three horizontal oak or
+                    larch bars; the posts three and a half feet above ground, and the bars having
+                    one intermediate stay or prickpost firmly nailed to each of them. This fencing
+                    should be substantially fixed previously to the commencement of any other work,
+                    so as to exclude sheep and cattle from the intermediate space, and protect the
+                    surrounding land from damage. On the outside of the fencing a ditch should be
+                    formed, four feet wide at the top, one foot wide at the bottom, and one and a
+                    half foot deep, communicating with any existing water-courses or drains, so as
+                    effectually to prevent any of the shafts which may be sunk from injury by the
+                    overflow of water during the progress of the work. The strictest attention
+                    should be paid to this stipulation<pb break="no"
+                    facs="ht:chi.12945678&amp;view=1up&amp;seq=427" xml:id="kp-eb0721-0427-0405"/>
+                    near every shaft; and should the situation of any shaft require for its
+                    protection a larger ditch in the line of fencing, or a puddled ditch round its
+                    site, the contractor should be required to make it at his own cost.</p>
+                <p>When ventilating shafts are necessary, they may be built of any required size. In
+                    railway tunnels from 2000 to 2500 yards long, two shafts sixty feet diameter
+                    will he sufficient. They are best built from the top; for instance, excavate ten
+                    feet down, and build the shaft for that height, then divide the circumference
+                    into parts about ten feet wide, and excavate every alternate one of these,
+                    leaving the others to support the ring of brick-work; and when these alternate
+                    ones are bricked up to the ring above, the remaining earth is all taken away,
+                    and the bricking continued till the second ring is completed and connected with
+                    the first, when the same process is repeated till the whole is continued to the
+                    required depth.</p>
+                <p>The thickness of the brick-work is of course in proportion to the size and
+                    height. For a shaft sixty feet diameter and 120 feet high, the following would
+                    be sufficient in unfavourable ground. The tunnel, where the shaft intersects it,
+                    should be entirely of stone, and on this a course of stone four feet square, on
+                    which the shaft stands; then the first forty-six feet to be three feet thick;
+                    the next seventeen feet, two feet eight inches thick; the next seventeen feet,
+                    two feet three inches thick; and the last or upper sixteen feet, one foot ten
+                    inches thick, coped with stone for the railing. the boundary wall might be one
+                    foot one and a half inch thick, with footings, and an increase in the
+                    foundations, if thought necessary.</p>
+                <p>They should be built in alternate courses of headers and stretchers, each brick
+                    being well flushed up; and where the tunnel intersects the shaft it should be
+                    faced with stone, each stone to be eighteen inches upon the curve of the soffit,
+                    toothing into the brick-work in the soffit of the tunnel by being three and four
+                    feet long alternately; the whole truly fitted in their beds, and neatly
+                    hammer-dressed, each being secured to the adjoining one with malleable iron
+                    dowels run in with lead.</p>
+                <p>Stone coping should be set upon the shafts a little above the level of the
+                    ground, into which iron railing may be fixed. The stones to be secured by lead
+                    joggles, three fourths of an inch square, and run one inch into each stone. The
+                    iron railing should be about three feet high, of malleable iron, three fourths
+                    of an inch square, and five inches distant from centre to centre, set three
+                    inches into the coping, and run with lead. A half-round hand-rail should be
+                    riveted on each upright, an inch and a half wide, as a finish.</p>
+                <p>Shafts of the above size should be enclosed with a circular wall seventy-two feet
+                    in diameter, twelve feet high, and fourteen inches thick, with a plinth of
+                    eighteen inches, and a stone coping sixteen inches wide and four inches thick,
+                    weathered and throated. In this wall there should be a doorway. The space or
+                    path between the wall and the shaft should be paved with bricks, having a gentle
+                    slope outwards, with holes through the wall about every three feet, to let out
+                    the water.</p>
+                <p>The whole bottom of the shaft should be soundly filled in, sufficiently deep,
+                    with good concrete beaten firmly down; and whenever the excavation is larger
+                    than the dimensions of the shaft, the space should be filled perfectly solid
+                    with brick-bats, and grouted with Roman cement, with which the shafts are to be
+                    built; but the enclosing wall may be built with mortar. Whenever water occurs in
+                    sinking any of the shafts, it must be completely excluded from them by a lining
+                    of puddle, or Roman cement if necessary.</p>
+                <p>In short tunnels it may sometimes be advisable to drive a heading, about four
+                    feet wide and five feet high, right through, before excavating it; and the
+                    contractor should be allowed to sink what air-shafts he thinks proper, provided
+                    they are not in the line of any road, nor within fifty feet of any working
+                    shaft. They may be from three to four feet diameter in the clear, supported on
+                    iron curbs, carried up ten feet above the surface, and coped with stone.</p>
+                <p>To determine the number of working shafts, regard must be had to the time allowed
+                    for the completion of the work, and the nature of the part to be excavated. The
+                    shafts must be just so close together that every face can be raised and bricked
+                    half the distance to the next shaft, two months before the given time for
+                    completion, leaving these two months for building the fronts, and laying the way
+                    if for a railway; and in all cases a larger allowance had better be made, in
+                    case of accidents.</p>
+                <p>the number having been determined on, their places should be shown on the
+                    drawings. They should be nine feet in diameter inside, and nine inches thick;
+                    the bricks to be all heading, and to be well bedded in Roman cement. The shafts
+                    should be kept free from all bulges and imperfections; they should rest on an
+                    iron curb-ring, forming a key between the bottom of the shaft and the top of the
+                    tunnel; and they should be carried up ten feet above the surface, and coped with
+                    stone.</p>
+                <p>In excavating where the ground is bad, the contractor should not, without
+                    permission, advance beyond the completed brick-work more than six feet. Ten feet
+                    will in most cases be a convenient length; but in this the engineer must form
+                    his judgment from the nature of the ground. The space excavated must be well
+                    secured, in the maimer to be hereafter stated. The dimensions of these supports
+                    are to be approved of by the engineer. The invert, sides, and roof, should be
+                    cut out as nearly as possible of the size the tunnel will be when finished. When
+                    more than this is taken out, it should be securely made good; in every case one
+                    man being employed at each face solely in filling and ramming in, if under the
+                    invert, with well-pounded clay, and if on the sides or top, with suitable
+                    materials, rammed in with every other course of bricks at the sides, and, as
+                    soon as the succeeding excavation will allow it, at the top. But when the ground
+                    is very bad, the bars are to be left in, at the pleasure of the engineer. The
+                    cills should not in general rest on the brick-work, but on trestles, so as to be
+                    independent of the side-walls. If this is not done, the holes where they have
+                    rested should be made good, whenever they are withdrawn, with brick and
+                    cement.</p>
+                <p>When any two faces are within fifty yards of each other, a heading should be
+                    driven to connect them, and insure the proper direction of the line at the
+                    junction. The contractor should also be bound to drive any headings the engineer
+                    may direct, either for drainage or' otherwise. The engineer should, at the
+                    contractor’s expense, from time to time give the contractor marks, in the way to
+                    be hereafter shown, to let him know how the line of the work is to be
+                    regulated.</p>
+                <p>Twenty-seven inches thick in the sides and top, and eighteen inches in the
+                    invert, in Roman cement, will be the most ever required, even in a quicksand;
+                    and as the nature of the ground improves, this may be lessened, till we arrive
+                    at the point where it will stand of itself. Each brick should be well bedded
+                    with a wooden mallet, and every joint thoroughly flushed when mortar is used.
+                    When the shape of the tunnel requires it, the bricks must be moulded taper. In
+                    the arch they are laid in concentric rings, half a brick thick, taking care that
+                    the additional number of bricks requisite for each additional ring is put in,
+                    which is easily calculated. In a tunnel twenty-seven feet high, and twenty-three
+                    wide, it will be five more for every ring. A course of stone should be laid in
+                    at the springing of the side-walls from the invert; the stones about three feet
+                    long, well bedded in mortar, on four courses of very sound and hard bricks.</p>
+                <p>It will generally happen that excavations are to be made <pb break="no"
+                    facs="ht:chi.12945678&amp;view=1up&amp;seq=428" xml:id="kp-eb0721-0428-0406"/>
+                    at each end after the tunnelling has sufficiently advanced. These excavations
+                    should be turfed, if possible, as soon as they are finished; and if turf is not
+                    to be had, they must be soiled at least eight inches thick, and sown at the
+                    proper season with equal parts of rye and clover seed, in the proportions of
+                    three pounds of the mixed seed per acre.</p>
+                <p>The top of the slopes and the ends of the tunnel should be protected with a
+                    ditch, a wood-railing, and a line of quicks. The ditch should be five feet wide
+                    at the top, two feet deep, and with slopes that will stand according to the
+                    nature of the soil, which, if very bad, will render it necessary to widen the
+                    top. The earth from the ditch will form a mound to be neatly turfed, having the
+                    best of the vegetable soil in its middle, where a double row’ of three years old
+                    quicks, two years transplanted, should be set in the proportion of twelve
+                    quicksets to a lineal yard. The fence of split oak is to be set on the inner
+                    edge of the ditch, as before described. The quicks should be weeded and cleaned
+                    twice a year, and others planted in the room of those which have not taken
+                    root.</p>
+                <p>A brick drain should be laid the whole length of the tunnel, in Roman cement,
+                    with the end-joints open half an inch for the passage in of water from the
+                    ballasting; and if the shafts let in water, a conveyance half-round pipe must be
+                    fitted to the bottom of them, to lead the water down the side of the tunnel into
+                    the drain.</p>
+                <p>With respect to the spoil, if made into banks, the turf should first be removed,
+                    to be afterwards put on the top. Convenient sites should be found, so that the
+                    spoil shall be useable for agricultural purposes; and where turf enough to cover
+                    it cannot be had, it must be soiled and sown with seed at the proper season.</p>
+                <p>All damages to the adjoining land must be paid by the contractor; but if the
+                    parties making the tunnel arc, as is usually the case, a public company, under
+                    an act of parliament, they should assist the contractor in getting the necessary
+                    land, with the powers of their act. It is understood that the contractor has the
+                    full use of the one chain in width along the line of the tunnel, free of all
+                    charge, on which to erect any buildings or machinery he may require, laying
+                    railways or roads for conveying away spoil and bringing in materials,
+                    lifting-engines, pumping-engines, or any other apparatus; and it is also
+                    understood, that if any material turns up fit for making bricks, he is to have
+                    the advantage of applying it to that purpose.</p>
+                <p>In case of having any roads to divert, or new ones to make, the ground should be
+                    excavated the required width, and one foot deep; when, if it is moist, brushwood
+                    should be placed upon the bottom, and then gravel, till the centre, when the
+                    whole is well beaten, is two feet above the excavated bottom, with a rounding of
+                    six inches on the surface. None of the gravel or broken stones should be larger
+                    than will go through a two-inch ring. A ditch, railing, and quicks, as before
+                    described, are then to be put up.</p>
+                <p>The engineer is in all cases to be the judge of the thickness of the brick-work,
+                    which should be provided for in the schedule of prices; as also, whether laid in
+                    cement or mortar. It should also be clearly defined whether or not the
+                    contractor is to be liable for any damage done to the land from the falling of
+                    the surface during the execution of the works, or if the regular continuity of
+                    the brick-work is destroyed, arising from irregular shrinking or settlement in
+                    the arch, imperfection in the centring, or any other cause. He should also be
+                    bound to remove all the temporary fencing, and clear the surface after the works
+                    are completed.</p>
+                <p>The materials should all be of the very best kind. The bricks should be sound,
+                    hard, and well shaped, being moulded taper wherever the form of the tunnel
+                    requires it. The sides may be built in English bond, or alternate heading and
+                    stretching; but the arch and the invert must be in concentric half-brick rings.
+                    The mortar should be of the best lime and sharp sand, in the proportions of
+                    three to one, and passed through a pug-mill, the lime being ground under
+                    edge-stones in its dry or unslacked state. The Roman cement should be perfectly
+                    fresh burnt, and capable of setting hard; it should be mixed with an equal
+                    quantity of sand, and none used which has set. The stone should be of a sound
+                    and hard quality, perfectly free from flaws. The cast iron employed in the curbs
+                    for the shafts should be of the best No. 2 iron, and the castings perfectly
+                    clean and cleared from air-bubbles or pin-holes, and no stopping or packing
+                    should be allowed. The whole of the malleable iron-bolts, &amp;c. employed,
+                    should be made of the best scrap-iron. The bolts for retaining the tunnel fronts
+                    should he tested to twenty-five tons, and tested in pairs to try the couplings.
+                    When concrete is used, it should be five measures of clean riddled gravel, and
+                    one measure of lime, and not mixed till immediately before it is required to be
+                    placed in its intended situation.</p>
+                <p>There should be a specified time for the contractor to begin and finish each
+                    portion, such as the working shafts, the ventilating shafts, the excavation,
+                    &amp;c.; and he should be bound to execute a given quantity of tunnelling per
+                    week, sending the engineer a weekly return of all descriptions of men employed
+                    on the works, distinguished into classes.</p>
+                <p>When the rails, chairs, blocks, and other permanent-way materials are delivered
+                    to the contractor, he is then responsible for them. They need not be delivered
+                    till the tunnel is complete. Ballasting is to be used of broken stone or gravel
+                    for bringing up the blocks to the required height, without any mixture of clay
+                    or other substance capable of containing water; it should set quite hard. If
+                    broken stones are used, they should be passed through a two-inch ring. The
+                    ballasting, which may, if required, be shot down the shafts, an inclined plane
+                    at the bottom canting it the right way, should be spread over the invert, and
+                    beaten into a firm and solid mass, by means of heavy beaters, worked by at least
+                    two men, till it is consolidated at the proper height to receive the blocks or
+                    sleepers, which are also to be imbedded as firmly as possible. The contractor
+                    will have to drill two holes in each block to receive the treenails, and to cut
+                    a proper bed for the chairs on the sleepers. No spikes should be driven into
+                    sleepers till proper holes are bored. The sleepers should be imbedded by
+                    beaters, and the blocks by lifting them one foot high by a spring lever, and
+                    then letting them fall till no difference of level is perceived. The rails must
+                    be laid perfectly level and parallel, and the joints even and true, with an
+                    allowance for expansion and contraction suitable to the temperature to be
+                    furnished by the engineer. The utmost care and attention should be paid to so
+                    essential a point as the laying of the permanent way.</p>
+                <p>ln excavating the working or ventilating shafts, it will be the best method to
+                    sink with a roll till they are fifty or sixty feet deep: this is worked by hand,
+                    and then with a horse-gin. Fig. 13, Plate CCCCXCIV. If the ground is hard, the
+                    roll should be used longer, as this will be the cheapest way. The roll is worked
+                    by two men, and if they have to stand still occasionally for the bucket, or skip
+                    as it is termed, to be filled, it will be a less expense than if a horse,
+                    horseboy, and bank-man (to land the skip), have to wait for the fillers. In
+                    working rocks, they will frequently have to wait for the blast.</p>
+                <p>A working shaft of nine feet diameter will be found sufficient; and in commencing
+                    it, place four cills across, as represented in the drawing, fig. 13, about
+                    twelve or fourteen inches square. On them place the standards for the winch, as
+                    shown; then begin the excavation, going on till the ground discovers signs of
+                    weakness; then put in a curb (<hi rend="italic">a</hi>), which is a wooden ring
+                    the size of the shaft, three inches thick, and as wide as the intended
+                    brick-work, for which four inches and a half will in most cases be sufficient.
+                    But if the ground is very soft, cut back into it and make the curb wider; then
+                    brick the shaft from the curb to the top, and go on excavating<pb break="no"
+                    facs="ht:chi.12945678&amp;view=1up&amp;seq=429" xml:id="kp-eb0721-0429-0407"/>
+                    down the dotted line (<hi rend="italic">cc</hi>), leaving the earth at (cc) to
+                    support the curb <hi rend="italic">(a).</hi> Timber props (<hi rend="italic"
+                    >d</hi>) may also be set up for further support, if thought necessary.</p>
+                <p>When the ground again shows signs of weakness, excavate inwards, as at <hi
+                    rend="italic">(a),</hi> and filling up with another curb, proceed as before,
+                    according to the nature of the ground, faking out one fourth, one sixth, or one
+                    eight of the circumference, and putting in the same quantity of the curb, brick
+                    it up to the curb nbove, and then take out another portion of the earth; or, if
+                    possible, proceed in pairs.</p>
+                <p>When it is found expedient to use the gin, two pulleys must be fixed, as shown in
+                    the drawing, fig. 13, for the rope to run over, and the supports or standards
+                    made proportionally stronger. Having in this way completed the working shafts,
+                    the next process is to sink down to the bottom of the tunnel: it is of no
+                    consequence whether enough is taken out for the invert or not. The excavation
+                    should then be commenced at the top of the tunnel, first running a heading at
+                    the upper part, a little exceeding the length intended to be put in. This length
+                    must depend entirely on the nature of the ground, varying from three to fifteen
+                    feet up to rock, which wants no brick-work. The excavating is then continued
+                    downwards from the heading; and when got out, the earth is propped up by the
+                    mining centres, mostly composed of round timber, as shown in Plate CCCCXLIV. All
+                    this propping is above the centring; it is composed of two cills (<hi
+                    rend="italic">aa</hi>), fig. 10, close to the face of the tunnel, between which
+                    are the props (<hi rend="italic">bb</hi>). These cills might be fastened by an
+                    earth-screw (c), fig. 16, worming into the face of the tunnel. The crown and
+                    side bars <hi rend="italic">(dd)</hi> are then introduced: the two upper ones
+                    are called crown-bars, and all the rest side-bars. The thick end of the bars
+                    rests on the props, and the smaller end on the last length of brick-work in the
+                    tunnel. From each cill stretchers <hi rend="italic">(ee),</hi> fig. 16 and 10,
+                    are fixed, the other end taking the last brick-work; also raking stretchers or
+                    rakers (<hi rend="italic">ff</hi>) <hi rend="italic">,</hi> figs. 10 and 16, the
+                    ends of which are let in so as to have a firm hold on the last brick-work. The
+                    cills may be from twelve to fourteen inches square when the ground is bad; the
+                    crown-bars fourteen inches diameter at the thick end, the stretchers, rakers,
+                    and props, being in proportion; and their thickest ends placed as shown in the
+                    drawing, reducing their sizes in better ground. It is advisable to buy the
+                    timber whole, and cut it up according as the strain is found to vary.</p>
+                <p>The number of side-bars depends entirely on the nature of the ground. Sometimes
+                    they will only be required down to the top cill, and in other grounds they must
+                    be carried down to the invert. Sometimes, when, from the weight of the face, it
+                    is seen that many stretchers must be used, three cills are put in. The props
+                    also to the crown and side bars vary with the pressure; and for this purpose,
+                    they are made to radiate to a point, which changes accordingly. Thus the prop
+                    (<hi rend="italic">g</hi>), fig. 10, would in rock be perpendicular; and if the
+                    ground at the prop (<hi rend="italic">h</hi>) was bad, and likely to come in,
+                    the prop (<hi rend="italic">h</hi>) would be inclined in the position of the
+                    dotted line. The props between and under the cills are all perpendicular;
+                    between each crown and side bar there are stretchers to keep them apart at the
+                    proper distance. When the propping is completed, the next object is to get up
+                    the centring for the brick-work (which is formed in the manner shown in fig.
+                    15), of the required shape for the tunnel, leaving a space just enough to take
+                    the brick-work and laggins between the centring and the propping apparatus. The
+                    invert is the first thing built, then the side-walls, by means of the leading
+                    frame (<hi rend="italic">ff</hi>), which goes up to the springing, having
+                    supports <hi rend="italic">(gg).</hi> This leading frame, which is in fact a
+                    template, is set up next the face of the tunnel, and from it the bricklayers
+                    string their lines; and when finished, the leading frame takes to pieces, and is
+                    got out till a new length of the work is excavated, and it is then put together
+                    as before.</p>
+                <p>When the side-walls are raised to the springing of the arch, acill(e), fig. 15,
+                    is built in with them; then the centring, which, with its cill (i), is all fixed
+                    together, is got up and wedged to the required height. The laggins <hi
+                    rend="italic">(kk)</hi> are pieces of quartering which go from centre to centre,
+                    and on them the bricks are laid; (<hi rend="italic">cc</hi>) are the
+                    queen-posts, <hi rend="italic">(d)</hi> is the straining-piece, (<hi
+                    rend="italic">aa</hi>) principal beams butting against <hi rend="italic">(b),
+                    (mm)</hi> are the ribs on which the laggins lie; and if the centring is large,
+                    these may be joined over the queen-posts and struts.</p>
+                <p>In some rare cases the cill (<hi rend="italic">e</hi>) is not laid on the
+                    side-walls and bricked in, as leaving a hole would, if the weight was great, be
+                    dangerous. Whenever this happens, trestles are set up from the bottom to support
+                    the cill (e).</p>
+                <p>Sometimes in quicksands or other bad ground, a slip will happen, in spite of all
+                    exertions to the contrary. This occurrence will perhaps take place, if the
+                    rakers are not got up, although the crown-bars, side-bars, anil cills are up. It
+                    arises principally from a pressure on the face, throwing the cill back and
+                    letting the bars down. When it does happen, a shaft must be sunk from above, and
+                    the ground beaten perfectly firm and solid from bottom to top, and the work then
+                    proceeded with as in any other new length. The slip will often extend to the
+                    surface, and will then take the appearance of a hollow dome.</p>
+                <p>In the upper portion of the arch, where the bars cannot be withdrawn, and the
+                    vacancy between the brick-work and the excavation filled up and rammed in till
+                    the completion of the brick-work, it should invariably be done at the very
+                    earliest possible period, which will be when the next length of excavation has
+                    proceeded far enough to let the workmen have sufficient space to perform it with
+                    soundness; and whenever the material through which the tunnel is making is of so
+                    bad a nature as not to admit the withdrawal of the bars and planking, without a
+                    risk of disturbing either the form or stability of the brick-work, they must be
+                    left in, according to the judgment of the engineer; consequently their value
+                    should invariably form an item in tire schedule of prices under which the
+                    contractor is constructing his work.</p>
+                <p>Tunnelling under rivers presents considerable difficulty, as has been experienced
+                    in that under the Thames. the first tunnel was commenced at Gravesend in the
+                    year 1799, but the scheme was speedily abandoned. In 1804 another was commenced
+                    from Rotherhithe to Limehouse; but after sinking an eleven-feet shaft forty-two
+                    feet, the difficulties were such that the work was suspended. The diameter was
+                    then reduced to eight feet, and at seventy-six feet deep a drift was carried 923
+                    feet under the river, which was only 150 feet from the opposite shore: the
+                    engineer then reported that farther progress was impracticable. Several other
+                    plans were devised, till in 1823 Mr Brunel proposed his for a double tunnel
+                    between Rotherhithe and Wapping, the soil there being a tenacious blue clay. The
+                    Rotherhithe shaft is fifty feet diameter 150 feet distant from the river, being
+                    forty-two feet high and three thick, built on the surface and excavated
+                    afterwards; the earth and water being drawn out by a steam-engine on the top. It
+                    was thus sunk in its place in a body, and by this means passed through a bed of
+                    gravel and sand twenty-six feet deep, which had caused great inconvenience in
+                    the former attempt. Sec fig. 11.</p>
+                <p>The fifty-feet shaft was sunk sixty-five feet, and from the lower level a
+                    twenty-five feet shaft was sunk to eighty feet for drainage. At sixty-three feet
+                    the tunnel commences dipping two and a quarter feet per 100 feet. The excavation
+                    was thirty-eight feet wide and twenty-two and a half high, or a sectional area
+                    of 850 feet; and the bottom, at the deepest part of the river, is seventy-six
+                    feet below high water. The excavation was effected by a shield composed of
+                    twelveframes close together, having each three cells above one another for the
+                    miners (fig. 18): 400 feet were bricked <pb break="no"
+                    facs="ht:chi.12945678&amp;view=1up&amp;seq=430" xml:id="kp-eb0721-0430-0408"/>
+                    complete in ten and a half months. In May 1827 and January 1828 the river burst
+                    in. These accidents were overcome by throwing down bags of clay from above. The
+                    work was however suspended for several years, not from any doubt of its success,
+                    but from want of funds. It has again been commenced, and has now reached the
+                    wharf-wall on the Wapping side.</p>
+                <p>The shafts will contain easy flights of steps for foot-passengers, and the
+                    descents for carriages are intended to be circular, to give them an easy slope.
+                    The middle wall was first built solid for greater strength; but openings were
+                    then made, so that each tunnel has ready communication with the other. The
+                    entire length will be 1300 feet. During the excavation each portion of the
+                    shield advances separately; and in front, polling boards are pressed firm
+                    against the earth by screws. These boards are removed singly to excavate, and
+                    the first is always replaced before a second is taken down. Fig. 17 shows
+                    through the tunnel a view of the twelve parts of the shield as worked. They, of
+                    course, are all of a length, extending to the outer parts of the brick-work in
+                    all parts.</p>
+                <p>In Plate CCCCXCIV., fig. 14 shows the mode of supporting the shafts in a canal or
+                    railway tunnel when finished, by the iron curb, separate drawings of which are
+                    given in figs. 6, 7, 8, and 9; fig. 12 shows the mode of drawing the curves for
+                    the tunnel exemplified in North Church Tunnel on the London and Birmingham
+                    Railway; fig. 5 is the front of Stowehill Tunnel; fig. 1 is the front, fig. 2 is
+                    a section of the wing-walls, fig. 3 a section through the centre, and fig. 4
+                    plans at top and bottom of Linslade Tunnel. All the figures are to the same
+                    scale, that under fig. 11; except figs. 17 and 18, which are to the scales near
+                    them. <hi rend="smallcaps">(b. η.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

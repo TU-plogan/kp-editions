@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0715-9872-0051-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">MICROSCOPIC OBJECTS (7th edition, volume 15, page
+                    51)</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0">Version 1.0, initial release <date when="2022"
+                    >2022</date></edition>
+            </editionStmt>
+            <extent>411 MB; 20,984 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2020">2022</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol"> 21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                    <item>Encoding has been done using the recommendations for Level 3 of the TEI in
+                        Libraries Guidelines.</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Running headers and side descriptions are not included.</item>
+                    <item>Some font formatting is preserved: italic, small caps, strike through,
+                        subscript, superscript, underline. The following formatting is ignored:
+                        bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                    (<link target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>The first release is a reproduction of text matter for all entries. It does not
+                    include images, tables, formulae, front- or back-matter. It omits volume 1,
+                    which consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                        of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4d21rn1g">Light</term>
+                    <term ref="lcsh1910:b4q23r31v">Lighting</term>
+                    <term ref="lcsh1910:b4j09wd22">Teething</term>
+                    <term ref="lcsh1910:b4hh6c56c">Teeth</term>
+                    <term ref="lcsh1910:b4wd3q47s">Eye</term>
+                    <term ref="lcsh1910:b48c9r443">Journalism</term>
+                    <term ref="lcsh1910:b4rj4928x">Potters</term>
+                    <term ref="lcsh1910:b4c24qn5t">Atlases</term>
+                    <term ref="lcsh1910:b47p8tc5z">Abbeys</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:984032">Journalism</term>
+                    <term ref="fast:1042815">Objectivity</term>
+                    <term ref="fast:1026445">Morpho</term>
+                    <term ref="fast:996315">Lepisma</term>
+                    <term ref="fast:838047">Brassica</term>
+                    <term ref="fast:998642">Lighting</term>
+                    <term ref="fast:998476">Light</term>
+                    <term ref="fast:1750261">Inch</term>
+                    <term ref="fast:1145710">Teeth</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193819872?mode=fullsize" type="entry">
+                <p><label type="entry">MICROSCOPIC OBJECTS</label>.</p>
+                <p>If a simple and easily applied system of monochromatic illumination, that is, of
+                    illuminating objects with homogeneous light, which a prism, and consequently a
+                    lens, is not capable of dispersing or refracting in different directions, could
+                    be contrived, we should neveragain hearof compound achromatic microscopes. We
+                    believe it will be admitted, that in Sir John Herschel’s doublet of no
+                    aberration, the spherical aberration is more completely corrected than in any
+                    double or even triple achromatic object-glass. Hence it follows, that in
+                    homogeneous light such a doublet would be a better microscope than the compound
+                    lens. But in the best system of achromatic compensation that can be executed,
+                    the secondary spectrum still remains without a remedy; and hence the doublet of
+                    no aberration, in which there can be no secondary colour in homogeneous light,
+                    must be a superior instrument to the compound achromatic lens. Now, in
+                    telescopes it is impossible, except in viewing the sun’s disc,<note
+                    anchored="true" place="bottom" type="authorial"><p>A solar telescope should
+                    never be an achromatic one, but should consist of a compound lens of no
+                    aberration, all the colours of the spectrum being corrected by the dark
+                    glass.</p></note> to work with homogeneous light; but in microscopes, where the
+                    quantity of light is in our power, it is perfectly practicable to make that
+                    quantity so great that all the yellow or red rays which it contains may give
+                    sufficient light for microscopical observations. This insulation of homogeneous
+                    light may be effected in two ways; <hi rend="italic">∖</hi><hi rend="italic"
+                    >st,</hi> by a monochromatic lamp, as proposed and constructed by Sir David
+                    Brewster; <hi rend="italic superscript"> c</hi><hi rend="italic">½dly,</hi> by
+                    the absorption of coloured media; and, <hi rend="italic">3dly,</hi> by the
+                    prism.</p>
+                <p>The monochromatic lamp is shown in the annexed figure, where AB is a lamp having
+                    its globe A filled with diluted alcohol, which descends gradually through the
+                    tube C, into a thin platina or metallic cup, in which it burns. A strong heat is
+                    kept up by a spirit lamp L enclosed in a dark lanthorn, and when the diluted
+                    alcohol is inflamed, it will burn with a fierce and powerful yellow flame. If
+                    the flame should not be perfectly yellow, or rather of a <hi rend="italic"
+                    >nankeen</hi> colour, owing to an excess of alcohol, a small proportion of salt
+                    thrown into the cup D will have the same effect as a farther dilution of the
+                    alcohol. Sometimes a little blue light will be found mixed with the yellow, but
+                    this may be easily absorbed by a piece of yellow glass placed on any part of the
+                    microscope through which the rays pass. Although this light is feeble compared
+                    with that of white flames, yet, by using larger lenses for condensing it, it is
+                    quite easy to obtain a pencil sufficiently powerful for all microscopic
+                    observations.<note anchored="true" place="bottom" type="authorial"><p>Edinburgh
+                    Transactions, voL ix. p. 435.</p></note></p>
+                <p>A stronger flame may be produced by using a gas lamp, or, what is still better, a
+                    portable gas one containing compressed gas. This gas, when rushing out in a full
+                    stream, explodes when burned with atmospheric air, emitting much heat, and a
+                    faint bluish and reddish light. As the force of the issuing gas is sufficient to
+                    blow out the flame, a contrivance for sustaining it becomes necessary. The
+                    method which we contrived for this purpose is shown in the annexed figure, where
+                    PQ is the main body of the lamp, MN the principal burner, and A the screw which
+                    opens the main cock. A small gas tube <hi rend="italic">abc,</hi> communicating
+                    with the main burner, terminates above the burner, and has a short tube <hi
+                    rend="italic">de</hi> moveable up and down within it, but so <pb break="no"
+                    facs="nls:193819885?mode=fullsize" xml:id="kp-eb0715-9885-0052"/> as to be gas
+                    light. This tube <hi rend="italic">de,</hi> closed at <hi rend="italic">d,</hi>
+                    communicates with the hollow ring <hi rend="italic">fg,</hi> in which four
+                    apertures are perforated so as to throw their jets of gas to the apex of a cone
+                    whose base is <hi rend="italic">fg.</hi> When the gas is made to issue from the
+                    burner Μ, it rushes also into the tube <hi rend="italic">abcdg,</hi> and issues
+                    in four small flames at the apertures in the ring <hi rend="italic">fg</hi>; and
+                    the height of these flames is regulated by the stopcock at. <hi rend="italic"
+                    >b.</hi> The explosive mixture of air and gas which rushes up through the ring
+                    is sustained in combustion by these small flames, through which it passes. A
+                    broad collar, made of coarse cotton-wick, and thoroughly soaked in a saturated
+                    solution of common salt, is fixed on a ring <hi rend="italic">h</hi><hi
+                    rend="italic">;</hi> and when the bluish flame of the explosive mixture rises
+                    above <hi rend="italic">h,</hi> it will be converted by the salted collar into a
+                    strong mass of homogeneous yellow light. A hollow cylinder of sponge, with
+                    numerous projecting tufts, may be substituted for the cotton collar, or a collar
+                    of asbestos cloth might be used, and supplied from a capillary fountain
+                    containing a saturated solution of salt.<note anchored="true" place="bottom"
+                    type="authorial"><p>Edinburgh Journal of Science, new series, No. I. p.
+                    108.</p></note></p>
+                <p>When the few blue rays which sometimes mingle themselves with this yellow light
+                    are absorbed, every part of the light will be found to have a definite
+                    refrangibility greateι∙ than any other artificial light that can be produced.
+                    The minutest objects, and the smallest type, will appear perfectly distinct in
+                    this light when seen or read through the largest possible angle of the greatest
+                    dispersive prism, an irrefragable proof of the perfect homogeneity of the
+                    light.</p>
+                <p>2. The second method of producing homogeneous light, and by far the simplest and
+                    most easily applicable to microscopes, is that of absorption; and the best rays
+                    to leave unabsorbed or insulated are the red. It requires some experience and
+                    scientific knowledge of the action of different absorbing media to select those
+                    which will leave the <hi rend="italic">narι'owestandbrightestband</hi> of the
+                    <hi rend="italic">red</hi> space in the spectrum. We have now under our
+                    microscope (a grooved sphere of garnet executed by Mr Blackie<note
+                    anchored="true" place="bottom" type="authorial"><p>This sphere, which we have
+                    already mentioned, is made of the purest garnet, and is executed in the most
+                    admirable manner; and though we cannot say that we see any defect in it, yet if
+                    the groove were still deeper, both its spherical and achromatic aberration would
+                    be diminished.</p></note>), two scales of a moth lying in sulphuric acid, and
+                    covering each other. With solar light the spaces between the lines glitter with
+                    all the hues of the rainbow; but when a thickish plate of red mica is combined
+                    with another plate of red glass, and placed beneath the object, all these
+                    colours instantly disappear, and a perfection of vision is obtained, which can
+                    be disturbed only by the very small portion of spherical aberration which must
+                    exist in the sphere, and which an increased depth of the groove would render
+                    almost insensible. Blue glasses, and green and yellow, as well as coloured
+                    fluids, may be successfully used in narrowing the range of refrangibility of the
+                    red space.</p>
+                <p>3. The third method, or that of prismatic refraction, is perhaps the surest and
+                    the best method, of obtaining homogeneous light with the smallest extent of
+                    refrangibility. A certain effect may be produced by small prisms; but in order
+                    to have a perfect apparatus, the <hi rend="italic">microscope should form part
+                    of the apparatus for examining the lines of the solar spectrum;</hi> that is, it
+                    should screw into the eyepiece of the telescope, in front of the object-glass of
+                    which is placed a fine large prism, for forming the spectrum within the
+                    telescope. By this method, which we have put to the test of experiment,
+                    microscopical observations can be carried on with an accuracy and satisfaction
+                    which nothing can exceed. We enjoy the luxury of perfectly monochromatic vision,
+                    which the most perfect achromatic compensation cannot give; and while we have
+                    the spherical aberration corrected, we have no secondary colours, and none of
+                    the imperfections of vision which must arise in transmitting light through six
+                    or eight lenses of plate and flint glass.</p>
+                <p>Although we hope that the scientific reader will admit that the preceding views
+                    are ‘demonstrably correct, yet Dr Goring has pronounced a most unfavourable
+                    opinion of the system of monochromatic illumination.<note anchored="true"
+                    place="bottom" type="authorial"><p>Edinburgh Journal of Science, new series, No.
+                    IX. p. 52.</p></note> We have already endeavoured to convert him from this
+                    heresy, and hoped that we had succeeded;<note anchored="true" place="bottom"
+                    type="authorial"><p><hi rend="italic">ibid.</hi> p. 143.</p></note> but in the
+                    <hi rend="italic">Micrographia,</hi> just published, he has devoted a whole
+                    chapter to the reproduction and support of his former views.<note
+                    anchored="true" place="bottom" type="authorial"><p>Page 73.</p></note> We shall
+                    therefore again examine his objections in their order, as they obstruct the
+                    progress of improvement among those who justly admire Dr Goring’s ingenuity and
+                    knowledge in every thing which relates to the microscope.</p>
+                <p>1. Dr Goring’s first objection to monochromatic illumination is, that it is too
+                    weak, and must be about one seventh of the whole beam of light. This we are not
+                    disposed to dispute; but Dr Goring is too well acquainted with the resources of
+                    optical science, to forget that this monochromatic seventh of a beam of light
+                    may be made <hi rend="italic">seven</hi> times more intense than the whole beam.
+                    The objection, however, does not apply to the solar spectrum, for one seventh of
+                    the sun’s light is too intense for any eye to bear.</p>
+                <p>2. The second objection of our author is, that the colours of the spectrum, when
+                    separated by the prism, are actually separated into different colours when they
+                    are refracted in oblique pencils by a microscope. If this observation is
+                    correct, then we must denounce the prism that produced such a spectrum as
+                    utterly useless. Dr Goring, however, conceives his observation and his prism to
+                    be good, and endeavours to explain the result by referring to Sir David
+                    Brewster’s analysis of the spectrum, in which it is shown that white light
+                    exists at every point of it; but this white light, which has been rendered
+                    visible by absorption, cannot be decomposed by refraction of any kind, as it
+                    consists of red, yellow, and blue rays, of the same refrangibility. Such white
+                    light is the light that is wanted for the microscope; and there can be little
+                    doubt that absorptive media will yet be discovered to effect its insulation in
+                    sufficient quantity for practical purposes.</p>
+                <p>3. Another objection to monochromatic light is, that it will not show the real
+                    colours of microscopic bodies. This is true; but the object of the microscope is
+                    not to find out colours, but structures. A common glass lens, with common light,
+                    will let the observer have all that he wants of the colours of objects; and when
+                    he has learned this, he will then gladly avail himself of coloured light for
+                    more important purposes. We can truly say, that though we have wrought with the
+                    microscope for thirty years, we do not at present recollect a single case where
+                    we required to know any thing of the precise colours of minute bodies.
+                    Notwithstanding this discussion, Dr Goring concludes his chapter with the
+                    following observation, in which we entirely concur. “A monochromatic light,
+                    therefore, being once obtained <hi rend="italic">in a sufficient state of
+                    intensity for practical purposes,</hi> bids fair to conduct us to the highest
+                    perfection of which aplanatic object-glasses and magnifiers are susceptible.” It
+                    may be proper to add, that the best system of compound achromatic object-glasses
+                    now in use would be freed of all their secondary colours, by using monochromatic
+                    light; and they may be also greatly improved by employing suitable coloured
+                    media to absorb what are called the outstanding rays in an achromatic
+                    combination.</p>
+                <pb break="no" facs="nls:193819898?mode=fullsize" xml:id="kp-eb0715-9898-0053"/>
+                <p>CHAP. VI.—ON THE PREPARATION OF THE OBJECT AND THE EYE FOR MICROSCOPICAL
+                    OBSERVATIONS.</p>
+                <p>In using lenses of short focus, either singly or in doublets and triplets, the
+                    object is so near the lens, and its thickness, even when very small, forms’such
+                    a considerable part of its distance from the nearest refracting surface, that
+                    any bend or want of flatness in the object completely interferes with the
+                    distinct vision of its parts. When the object will bear pressure, the best way
+                    is to lay above it a thin transparent film, with perfectly parallel and polished
+                    surfaces, such as a splinter of New Holland topaz, a thin plate of sulphate of
+                    lime, or a film of mica. If these plates are a little less thick than the
+                    distance between the lens and the object, a little bees-wax should be interposed
+                    between the" brass setting of the lens and the plate, so that the lens in the
+                    act of adjustment would press the wax against the plate, and the plate against
+                    the object, till distinct vision is obtained. The object should be placed upon a
+                    deeply curved concave surface.</p>
+                <p>The proper flattening of the object, when it is tender, may be effected by
+                    pressing a thick balsam above it, and allowing the lens to dip into the balsam.
+                    If the surface of the lcns is flat, its magnifying power will suffer no
+                    diminution.</p>
+                <p>When grooved spheres are used, such as the garnet one above mentioned, the object
+                    requires to be very near its surface. It should therefore be placed in a concave
+                    lens of glass, of a little greater radius than the sphere, and pressed into the
+                    concave form by interposing a narrow strip of a thin film of mica, and, if
+                    necessary, pieces of wax or India-rubber, as before; the pieces filling up the
+                    space between the lens and the mica, so as not to interfere with the part of the
+                    object under examination.</p>
+                <p>If a diminution of the magnifying power can be permitted, a fluid maybe placed
+                    between the concave object-plates and the grooved sphere, and the chromatic
+                    aberrati on greatly reduced. By the interposition of a fluid a grooved diamond
+                    sphere may be used; for though its focus for parallel rays falls within the
+                    sphere when the refractions are made from air and into air, yet when the first
+                    refraction is made from a suitable fluid, the focus will fall without the
+                    sphere.</p>
+                <p>When the object is put into the best possible condition for observation, and the
+                    illuminator applied in the best possible manner, the observer will have every
+                    advantage in his researches; but still the structure which he seeks to dcvelope
+                    may escape his eager research. Under these circumstances, he must perform his
+                    part of the observation in the best possible manner.</p>
+                <p>Unless particular arrangements are made by the observer for his own comfort,
+                    there is no bodily fatigue to be compared with that of the use of the
+                    microscope. The eye, the mind, and the whole frame, are on the stretch. The
+                    observer must therefore first try if his own eye is in a right state for
+                    observation. The fluid which lubricates the cornea, which must be considered as
+                    a lens, and as part of the microscope, is sometimes in such a viscid state, that
+                    when the eyelids roll over the cornea by that beautiful provision of nature by
+                    which it is kept smooth and clean, the lubricating fluid, which is pushed into a
+                    ridge between the eyelids, does not quickly recover a convex surface. This state
+                    of the cornea is incompatible with delicate microscopic observations, and its
+                    existence may be ascertained by viewing the expanded image of a luminous point
+                    held close to the eye, and, after shutting the eyelids and again opening them
+                    slowly, observing if the luminous disc recovers its uniform luminosity quickly
+                    or slowly. If the luminous line produced by the fluid accumulated between the
+                    eyelids continues to be visible, and the general surface mottled and spotted,
+                    the lubricating secretion should be excited by exposing the eye to the vapour of
+                    hartshorn, raised by pouring a few drops on the surface of boiling water. The
+                    secretion will now flow copiously, the cornea will be swept clean by the purer
+                    and less viscid fluid, and the vision of the observer greatly improved. But this
+                    moveable fluid surface of the cornea generates another imperfection of vision,
+                    which has already been referred to. This fluid, when undisturbed by the eyelids,
+                    descends by the influence of gravity in vertical lines, and the minute ridges
+                    thus formed obliterate and render indistinct all horizontal lines seen by the
+                    eye, but have a tendency rather to improve the vision of vertical lines. In
+                    proof of this, we may state the unquestionable fact, that if we take a striped
+                    pattern of any fabric, and bend part of it into a horizontal direction, while
+                    the rest remains vertical, or <hi rend="italic">vice versa,</hi> the vertical
+                    part will always appear the most distinct. Hence, in viewing lined objects, when
+                    the position of the observer’s head is either vertical or oblique, the lines of
+                    the lined object should be always placed parallel to the direction of the
+                    descending fluid. If the axis of the lenses is vertical, and the eye looks
+                    downwards, the lubricating fluid will collect irregularly at the apex of the
+                    cornea, and injure vision. If the axis of the lenses is horizontal, and the
+                    observer’s head in its natural position, the fluid will descend in vertical
+                    lines; but if the observer lies on his back and looks into the microscope
+                    upwards, a position, we admit, not favourable for research, the fluid will flow
+                    equally in all directions from the apex to the margin of the cornea, and leave a
+                    clear centre well fitted for distinct vision. We may here notice the beautiful
+                    contrivance, not mentioned by natural theologians, that the effect of vertical
+                    descent of the lubricating fluid is counteracted by the eyelids opening
+                    horizontally, and consequently effacing the tendency of the fluid to form
+                    vertical currents. Had the eyelids opened vertically, the vertical ridges would
+                    have been increased, and vision greatly impaired.</p>
+                <p>When every thing has been done to fit the <hi rend="italic">cornea</hi> (the only
+                    part of the eye over which we have any direct command) for accurate vision, the
+                    general state of the health, or any casual irregularity of diet, will be
+                    sometimes found to affect the state of the organ, and unfit it for nice
+                    observation. To remedy'this defect of vision, we must refer the patient to the
+                    simplest prescriptions of his physician.</p>
+                <p>When these precautions have been taken, the observer must protect his eye from
+                    all extraneous light; and the most effectual way of doing this is to use the
+                    snow spectacles of the Greenlanders, which are cut out of wood so as to exclude
+                    all light whatever, except what enters through a circular aperture the size of
+                    the pupil, and directly in front of it.<note anchored="true" place="bottom"
+                    type="authorial"><p>In the snow spectacles a long narrow slit is used to enable
+                    the wearer to look on each side of him. An interesting account of the great
+                    value of these spectacles, by the celebrated Professor Blumenbach, will be found
+                    in the Edinburgh Phil. Journal, vol. viii. p. 261.</p></note> A cast should be
+                    taken in plaster of Paris from the part of the face to which they are to be
+                    applied, to enable the artist to cut them of a proper shape; and when finished
+                    they should be lined with black velvet.</p>
+                <p>The last requisite for accurate microscopical observation is steadiness in the
+                    microscope, and a steady and comfortable position for the observer. The first is
+                    easily attained. The second may be accomplished by the observer resting his
+                    doubled arms upon a stool or frame nearly the height of the eye-glass of the
+                    microscope, but unconnected with it, while his chin rests either upon his arms
+                    or upon his breast.</p>
+                <p>When all these means and precautions fail in unravelling a mysterious structure,
+                    we have often derived advantage<pb break="no" facs="nls:193819911?mode=fullsize"
+                    xml:id="kp-eb0715-9911-0054"/>, in the case of lined objects, by looking through
+                    cylindrical lenses or good prisms; the length of the cylinder, or the refracting
+                    edge of the prism, being at right angles to the lines. Narrow slits may also be
+                    used with advantage next the eye; but in all these cases, while we improve and
+                    give a finer definition to the lines and the spaces between them, we deteriorate
+                    vision for other parts of the structure.</p>
+                <p>CHAP. VII. ON TEST OR PROOF OBJECTS FOR TRYING THE</p>
+                <p>PERFORMANCE OF MICROSCOPES.</p>
+                <p>This class of objects, and their application to the microscope, we owe to Dr
+                    Goring; and to their introduction we must ascribe much of the rapid improvement
+                    which this instrument has undergone. The finest test-objects are the scales of
+                    butterflies and moths, which were suggested to Dr Goring by the following
+                    passage in Leewenhoeck. “If we examine the wings of this creature (the silk-worm
+                    moth) by the microscope, we shall find them covered with an incredible number of
+                    feathers (scales), of such various forms, that if an hundred or more of them
+                    were to be seen lying together, each would appear of a different shape. To show
+                    more clearly this wonderful object, I caused eight feathers to be delineated,
+                    for I do not remember that I ever saw them of so curious a make in any flying
+                    insect.</p>
+                <p>“Although the microscope, by which these feathers were drawn, represented objects
+                    very distinctly, <hi rend="italic">the limner could not through it see the ribs
+                    or streaks in each feather until I pointed them out to him</hi>; therefore, I
+                    put into his hands a microscope which magnified objects almost as much as that
+                    by which the silk worm’s thread was drawn, desiring him to give the figure of
+                    that feather which through it he could see the most distinct.”<note
+                    anchored="true" place="bottom" type="authorial"><p>Select Works, p.
+                    63.</p></note></p>
+                <p>From this passage, Dr Goring naturally inferred, that there were some peculiar
+                    properties in the lines on the feathers and scales of insects, which rendered
+                    them more difficult to be discovered than other microscopic objects; and hence
+                    he discovered their properties as <hi rend="italic">test</hi> or proof objects
+                    for trying the penetrating powers of microscopes. Mr Pritchard regards the <hi
+                    rend="italic">penetrating</hi> power of a microscope as dependent on its angle
+                    of aperture, and its <hi rend="italic">defining</hi> power as in the inverse
+                    ratio of the quantity of chromatic and spherical aberration. When the angle of
+                    aperture was less than a certain quantity, he found that the lined structure of
+                    the scales could not be rendered visible, however perfect the instrument was.
+                    ’The following is his list of test objects, arranged in relation to <hi
+                    rend="italic">penetrating</hi> and <hi rend="italic">defining</hi> power*
+                    Several of these are represented in Plate CCCLXII.</p>
+                <p>I.— <hi rend="italic">Penetrating Power.</hi></p>
+                <p>Sect. I. <hi rend="italic">Easy.</hi> 1. Petrobius Maritimus, scales of, fig;
+                    1∙</p>
+                <p>2. Lepisma Saccharina, scales of. Sect. II. <hi rend="italic">Standard.</hi> 1.
+                    Morpho Menelaus, feathers of, fig. 2.</p>
+                <p>2. Alacita Pentadactyla, feathers of the.</p>
+                <p>3. Alacita Hexadactyla, feathers from the body of it.</p>
+                <p>4. Lycaenae Argus, feathers of the.</p>
+                <p>5. Tenea Vestianella, or clothes moth, feathers from under ends of the wing, fig.
+                    3.</p>
+                <p>Sect. III. <hi rend="italic">Difficult.</hi> I. Pieris or Pontia Brassica, or
+                    cabbage butterfly, feathers from the, fig. 4, 4α, 4c.</p>
+                <p>2. Podnra Plumbea, scales from the, fig. 5, 6, 7, 8, 9, 10, 11.</p>
+                <p>II.— <hi rend="italic">Defining Power.</hi></p>
+                <p>1. Hair of the common mouse, fig. 12-15.</p>
+                <p>2. Hair of the bat genus, fig. 16, 17. 3. Leaf of the moss <hi rend="italic"
+                    >Hypnum</hi><hi rend="italic subscript"> i</hi> species unknown.</p>
+                <p>4. Spotted scales of the <hi rend="italic">Lycaenae</hi> Argus, fig. 24.</p>
+                <p>Besides these test objects, which are copied from Mr Pritchard’s drawings in the
+                    Microscopic Cabinet, we have added from the same source the following
+                    interesting objects:</p>
+                <p>1. A hair from the larva of the common Dermestes, fig. 18.</p>
+                <p>2. A white hair from a young cat, fig. 19.</p>
+                <p>3. The hair of á Siberian fox, fig. 20.</p>
+                <p>4. The hair of a common caterpillar, fig. 21.</p>
+                <p>5∙ A scale from the under side of the wing of the blue butterfly, the Lycaenae
+                    argus, fig. 22.</p>
+                <p>In some of the preceding figures of the lined proof objects the reader will
+                    perceive diagonal or oblique lines, as in fig. 9, 10, different from the
+                    longitudinal ones seen in fig. 1, 2, 3, 4, &amp;c. These lines are reckoned more
+                    difficult to be seen than the longitudinal ones; and Dr Goring has mentioned
+                    those on the scales of the white-cabbage butterfly as a difficult test object.
+                    Mr Potter, who has seen these diagonal lines, mentions also his having observed
+                    them on the scales of the wing of the small housemoth. As the nature of these
+                    oblique lines is far from being understood, and as their real existence is in
+                    our opinion questionable, we shall lay before our readers Mr Pritchard’s
+                    observations on those observed in the scales of the <hi rend="italic"
+                    >Podura</hi><hi rend="italic">plumbea</hi> and <hi rend="italic">Pieris
+                    brassica.</hi></p>
+                <p>“In the foregoing account,” says he, “of the different scales from the wings and
+                    bodies of insects, the design has been to give their <hi rend="italic"
+                    >appearances</hi> under microscopes or engiscopes without in the least
+                    determining their actual structure. When it is considered that these lines are
+                    less than the twenty thousandth of an inch distant, it must be allowed there is
+                    some difficulty in accurately determining their construction. The Morpho
+                    menelaus and Lepisma saccharina are of sufficient size to distinctly perceive
+                    they are composed of two delicate tissues with longitudinal cords (probably
+                    tabular) disposed between them; but in the two delicate ones, the subject of
+                    these remarks, we perceive other systems of }ines disposed obliquely; and as
+                    they are extremely delicate, it becomes à question whether they actually exist,
+                    or whether they are appearances produced under certain modifications of the
+                    illumination. As there is only one set shown at a time, and I have never been
+                    able to see them in the decided way of the longitudinal lines, I have been
+                    induced to consider them as appearances only, and not real lines. To determine
+                    this point, it became necessary to ascertain the cause that would produce such
+                    an effect; and it immediately occurred to me that these oblique lines were
+                    occasioned by the disposition and pressure of the superambient scales, in the
+                    same manner as the watering or wavy appearance communicated to-corded silks and
+                    moreens by the pressure of two pieces passed between rollers.<note
+                    anchored="true" place="bottom" type="authorial"><p>I have since examined the <hi
+                    rend="italic">Ρetrοlius</hi><hi rend="italic">Maritimus</hi> as an opaque
+                    object, which confirms this view of the nature of the oblique lines on its
+                    scales.</p></note> In examining the <pb break="no"
+                    facs="nls:193819924?mode=fullsize" xml:id="kp-eb0715-9924-0055"/> scales of the
+                    <hi rend="italic">Pieris brassica</hi> under a deep power and large angle of
+                    aperture, I found them broad in some parts and almost invisible in others; and
+                    the same appearance presented itself in the curved lines on the scale of the <hi
+                    rend="italic">Podura</hi><hi rend="italic">plumbea,</hi> some idea of which may
+                    be obtained by examining figs. 9 and 10 of Plate CCCLXIL</p>
+                <p>“The motive that has induced me to offer the above remark is, that it may lead to
+                    a complete investigation of the subject. What is here given is merely the crude
+                    idea that presented itself in the course of their examination as
+                    proof-objects.”<note anchored="true" place="bottom" type="authorial"
+                    ><p>Microscopic Cabinet, p. ICO, 161.</p></note></p>
+                <p>Dr Goring has published, in the Journal of the Royal Institution, vol. xxii. and
+                    also in the <hi rend="italic">Micrographia,</hi><note anchored="true"
+                    place="bottom" type="authorial"><p>Hall, 159, &amp;c.</p></note> many
+                    interesting observations on lined objects, of which it is necessary to give some
+                    account. In order to explain the effects of aperture on lined objects, he has
+                    represented in the <hi rend="italic">seven</hi> circles shown in fig. 23, Plate
+                    CCCLXII. the different appearances of a portion of the scale of the <hi
+                    rend="italic">Mοr-plιο menelaus,</hi> shown in fig. 1, produced by increasing
+                    the aperture. He used a triple achromatic object-glass nine tenths of an inch
+                    focus, and half an inch in aperture, with a negative eye-piece of one fourth of
+                    an inch.</p>
+                <p>No. 1. shows the appearance of the scale when the aperture was one tenth of an
+                    inch, not a vestige of lines being visible.</p>
+                <p>No. 2. Aperture three twentieths; Dr Goring fancied he saw indications of lines
+                    or scratches.</p>
+                <p>No. 3. Aperture one fifth; traces of irregular scratches seen.</p>
+                <p>No. 4. Aperture three tenths; nascent lines recognised by a practised eye, like
+                    an aggregation of dots, but interrupted and broken.</p>
+                <p>No.5. Aperture four tenths; the lines resolved, but not fairly. They are very
+                    faint, and seem rugged, as if still composed of dots and points.</p>
+                <p>No. 6. Aperture five tenths; the full aperture of the lens. The lines appear in
+                    their true character, as if drawn by a pen with some blue pigment on
+                    light-violet coloured paper.</p>
+                <p>No. 7. Same aperture. When the object is turned one fourth round, the cross
+                    striae become perceptible.</p>
+                <p>Our limits will not permit us to give Dr Goring’s excellent observations on the
+                    lines of the <hi rend="italic">Pοntia brassica,</hi> as seen also with apertures
+                    of different sizes in a reflecting microscope. With a well-figured metal, three
+                    tenths of an inch focus, and an angle of 55½ <hi rend="superscript"> o</hi>
+                    aperture, the lines and cross striae he found never to be resolved into dots and
+                    points, but to appear in what he supposes to be their proper character. “The two
+                    sets of diagonal lines,” he remarks, “will be shown with a force and effect
+                    which will leave no doubt of their existence in the mind of a candid observer;
+                    the various lines, the longitudinal, the cross striae, and the two sets of
+                    diagonals, being all observable <hi rend="italic">successively</hi> by a slight
+                    change of illumination, though we can scarcely see two of the systems well at
+                    the same instant.”<note anchored="true" place="bottom" type="authorial"><p><hi
+                    rend="italic superscript"> λ</hi><hi rend="italic">Μicrogrαρhiα,</hi> p.
+                    1G3.</p></note></p>
+                <p>Dr Goring elsewhere observes,<note anchored="true" place="bottom"
+                    type="authorial"><p><hi rend="italic">Micrographie,</hi> p. 130 and
+                    144.</p></note> that the reflecting microscope invariably shows the diagonal
+                    lines on the <hi rend="italic">brassica</hi> as distinct as the eye sees the
+                    ruled lines on a copy-book; that in some “pet scales” one of the systems of
+                    oblique lines may be seen by looking into the instrument <hi rend="italic"
+                    >directly,</hi> and the other by looking into it <hi rend="italic">obliquely,
+                    without any alteration in the illumination;</hi><note anchored="true"
+                    place="bottom" type="authorial"><p>Ibid. p. 102, note.</p></note> and that if
+                    one instrument shows the lines dotty, broken, interrupted, or ragged, while
+                    another shows them clearly made out as veritable lines or stripes drawn with a
+                    pen and ink, the latter is the best.<note anchored="true" place="bottom"
+                    type="authorial"><p>Ibid. p. 104.</p></note></p>
+                <p>Notwithstanding these repeated decisions of Dr Goring, he seems, in an earlier
+                    part of his volume,<note anchored="true" place="bottom" type="authorial"><p><hi
+                    rend="italic">Micrographie!,</hi> p. 44.</p></note> to have had some misgivings
+                    on the subject. In speaking of the lined tests, he says, “<hi rend="italic"
+                    >There is an inexplicable mystery about them, for if their lines are in reality
+                    pι oduced on the same principle as those of micrometers, why are they not as
+                    easily seen</hi><hi rend="italic">?</hi> No penetrating power or large angular
+                    aperture is requisite to bring out the lines on a micrometer, though divided
+                    nearly as finely as ordinary tests, to the extent perhaps of 10,000 in an inch.”
+                    These observations are just and philosophical, and we would add only a single
+                    observation in support of them, that Dr Wollaston made platina wires the
+                    18,000th of an inch in diameter, and saw them distinctly; and we venture to say,
+                    that in no instrument whatever would such lines appear either dotted or
+                    ragged.</p>
+                <p>Such was the state of this subject when these lined objects were examined by Sir
+                    David Brewster, both in reference to their action upon light when examined by
+                    the naked eye, and when placed under the microscope as test objects. Having been
+                    occupied for several years in a series of analogous observations on the lines
+                    which apparently separate the component fibres of the crystalline lenses of
+                    animals, he was familiar with the class of optical illusions which interfere
+                    with the accurate development of such structures.</p>
+                <p>Upon exposing the finest lined objects to a bright light, and excluding as much
+                    as possible all other extraneous rays, he saw distinctly the fringes of colour
+                    produced by inte.rference; and on measuring the angular distances of the first
+                    red fringe from the light, he found that the distance of the lines, or rather
+                    the diameter of one black line and half the bright space between the lines,
+                    varied from the 10,000th to the 22,000th of an inch. Hence, if we take the black
+                    lines and their intervals to be equal, the diameter of each will vary from about
+                    the 13,000th to the 29,000th of an inch.</p>
+                <p>Although these apparent lines give colours by interference, exactly like the
+                    analogous lines in the laminae of the crystalline lens, yet neither of them are
+                    <hi rend="italic">real lines,</hi> as decided upon by Dr Goring. With small
+                    apertures the lines in the crystalline lens appear <hi rend="italic">dotty,
+                    interrupted, uneven,</hi> and <hi rend="italic">ragged,</hi> and exhibit, in
+                    short, all the general phenomena of the lines on proof objects; but with a good
+                    microscope and ajarge aperture, we discover the true secret of all these
+                    appearances. They are not lines, but a succession of teeth arranged in lines;
+                    and from the great number of lines forming the sides of the teeth, they appear
+                    dark. Each fibre, in short, has teeth on each side of it,<note anchored="true"
+                    place="bottom" type="authorial"><p>See Phil. Trans. 1830.</p></note> and the
+                    teeth of one fibre lock into the spaces between the teeth of the adjacent
+                    fibres. When we trace these fibres towards the pole to which they converge, they
+                    become smaller and smaller, the teeth diminishing in the same proportion, so
+                    that they become as difficult, and finally more difficult to resolve than the
+                    lines in the proof objects.</p>
+                <p>After a laborious examination of the lined tests, and the use of every optical
+                    resource which he could command, Sir David Brewster has found that the
+                    mysterious lines on these test objects are only apparent lines, being composed
+                    of a succession of interlocking teeth, by which the fibres to which they are
+                    attached form that delicate film which composes the scale of a moth. We now see
+                    the source of all the perplexities which have beset this class of observations.
+                    We understand why such lines are not seen so distinctly as the real lines on
+                    micrometers, and the dots and the raggedness are all explained. In the lenses of
+                    quadrupeds the teeth of the fibres are not round like those of fishes, but are
+                    often sharp pointed and extremely short, like a jagged line, or a line with <pb
+                    break="no" facs="nls:193819937?mode=fullsize" xml:id="kp-eb0715-9937-0056"/>
+                    points projecting from it. In like manner, the separation of the teeth is much
+                    more distinct in some of the lined objects than in others. See fig. 24, in which
+                    we have given a rude representation of the lines.</p>
+                <p>With regard to the diagonal or oblique lines, which have been such a source of
+                    perplexity to microscopical observers, we have little hesitation in pronouncing
+                    <hi rend="italic">those which we have seen</hi> to be optical illusions from the
+                    accidental <hi rend="italic">alignement</hi> of the sides of the teeth in
+                    different grooves, when similarly illuminated by oblique rays. When the scales
+                    are immersed in diluted sulphuric acid, we have never seen the diagonal lines.
+                    When the sulphuric acid is too strong, the scales curl up, and often in this
+                    state exhibit the lines very beautifully. We have observed diagonal lines
+                    singularly developed in the laminae of the crystalline, and clearly arising from
+                    the interference of the rays acted upon by the lines on one side of the lamina,
+                    with the rays acted upon by the lines on the other side, and therefore we have
+                    been the more confirmed in our opinion. As we have not had the advantage,
+                    however, of using any of the fine reflecting microscopes with which Dr Goring
+                    observed the oblique lines so distinctly brought out, it is still with
+                    considerable diffidence that we place our conclusions in opposition to so direct
+                    and distinct an observation, made by such skilful and experienced observers as
+                    he and Mr Pritchard.<note anchored="true" place="bottom" type="authorial"><p>Mr
+                    Pritchard informs us that the diagonal lines or cross striae are most easily
+                    seen in the scales from the wing of the <hi rend="italic">Euplceα
+                    limniacoe,</hi> and in the blue scales from the <hi rend="italic">Papiliο
+                    Paris,</hi> where they “are strongly and easily developed under a power of from
+                    100 to 200 times.” In speaking of the ordinary lines, Mr Pritchard remarks, that
+                    these lines or “markings,” with his best instruments, “appear detached like
+                    short hairs or spines covering the delicate tissue of the scale. This latter
+                    appearance is correct, the prominent portions of the lines which have escaped
+                    the pressure of those of the surrounding scales being in a plane above the other
+                    portions of the lines.” This opinion of the structure of the lines, published in
+                    1835, is not repeated in the <hi rend="italic">Micrographia,</hi> published in
+                    1837, where Dr Goring decides that they are real lines. See <hi rend="italic"
+                    >List</hi> o∕ ’ 2000 <hi rend="italic">Microscopic Objects,</hi> p. 10. Lond.
+                    1835.</p></note></p>
+                <p>With the view of arriving at a just decision respecting the nature of the lines,
+                    Sir David Brewster endeavoured to ascertain the disposition of the colouring
+                    matter on the scales. Owing to the great brightness of the lines on the black
+                    scales, especially near their root, he was at first disposed to infer that, at
+                    least in these scales, the colouring matter was arranged along the black lines,
+                    the particles being more readily detained in their places by the edges of the
+                    teeth. He has found, however, that in other scales the colouring matter lies
+                    also along the bright lines; and it is only when this colouring matter is
+                    removed, or its effect masqued, by removing the refraction at its surface by
+                    immersion in a fluid, that the lines of proof objects are developed with perfect
+                    distinctness.</p>
+                <p>Sir David Brewster has made an attempt to count the number of scales and teeth in
+                    the wing of a brown moth, or in one superficial inch, the area of the two
+                    surfaces of each wing. He supposes, of course, all the scales to be the same in
+                    size and structure, and he finds that there are</p>
+                <p>Scales 158,400</p>
+                <p>Teeth 19,800,000,000</p>
+                <p>or nineteen thousand eight hundred million.</p>
+                <p>CHAP. Vlll.—ON MICROSCOPIC OBJECTS.</p>
+                <p>In the preceding chapter we have already described some of the most interesting
+                    objects for microscopical observation. Every department of nature is full of
+                    objects, from the examination of which the most important discoveries may be
+                    expected; bnt though the zealous observer can never be at any loss for subjects
+                    of research, it is desirable to know what has been done by our predecessors, and
+                    what trains of inquiry are most likely to prove of general interest. There are
+                    subjects of microscopic inquiry which are closely connected with the most
+                    interesting parts of physiology; and even geology itself, conversant with the
+                    grandest subjects of research, has recently been illustrated by the aid of the
+                    microscope.</p>
+                <p>Μ. Ehrenberg, to whom we are indebted for so many important discoveries
+                    respecting the organisation of infusorial animalcules, has lately made the most
+                    remarkable discovery of <hi rend="italic">infusorial organic remains.</hi> These
+                    remains are the siliceous shells of animalcules belonging to the division
+                    Bacillaria, and form strata of Tripoli, or poli-schiefer (polishing-slate), at
+                    Franzenbad, in Bohemia.<note anchored="true" place="bottom" type="authorial"
+                    ><p>- Poggendorff ’ s <hi rend="italic">Annalen der Physik,</hi> 1836, No. V. p.
+                    225.</p></note> Μ. Ehrenberg has still more recently discovered them in the
+                    semiopal found along with the polishing-slate in the tertiary strata of Bilin,
+                    in the chalk flints, and even in the semiopal or noble opal of the porphyritic
+                    rocks.<note anchored="true" place="bottom" type="authorial"><p><hi rend="italic"
+                    >Ibid.</hi> No. VI. p. 464.</p></note> The size of a single individual of these
+                    animals is about -&lt;j⅛th of a line, or <hi rend="strikethrough">y¾⅜¾</hi> th
+                    of an inch. In the polishing-slate from Bilin, in which there appear to be no
+                    vacuities, <hi rend="italic">a cubic line</hi> contains, in round numbers, 23
+                    millions of these animals, and <hi rend="italic">a cubic inch</hi> contains
+                    41,000 millions of them!</p>
+                <p>The weight of a cubic inch of the polishing-slate is 270 grains. There are,
+                    therefore, 187 millions of these animals in a single grain, or the siliceous
+                    coat of one of these animals weighs the 187 millionth part of a grain!</p>
+                <p>In Plate CCCLXII. figs. 24 and 25, we have given representations of these
+                    singular microscopic objects, as seen by Ehrenberg.</p>
+                <p>Another example of the value of microscopical observations may be drawn from the
+                    discovery of the teeth of the fibres, which compose the crystalline lenses of
+                    almost all animals. The crystalline lens is composed of innumerable fibres of
+                    nearly the same length, each of which tapers from its middle to its two
+                    extremities, where it comes to the sharpest point. The sides of each of these
+                    fibres are furnished with teeth like those of a watch-wheel, and the teeth of
+                    the one lock into those of the adjacent ones, as shown in fig. 28, Plate CCCLXH.
+                    When the power is small, or the microscope not good, or the laminae too thick
+                    and not nicely detached, each row of interlocking teeth appears as a dark line,
+                    sometimes as sharp as a black line drawn upon paper with a pen. Sometimes the
+                    lines appear rough and ragged, and as the fibres become less and less in
+                    approaching the poles, the black lines are as difficult to resolve into teeth as
+                    the lines on test-objects already described. The following measures, taken by
+                    Sir David Brewster, will show what a wonderful structure in the eye has been
+                    thus disclosed to us by the microscope. The calculations refer to the lens∙of a
+                    cod, four tenths of an inch in diameter.</p>
+                <p>Number of fibres in each lamina or spherical coat....2,500</p>
+                <p>Number of teeth in each fibre 12,500</p>
+                <p>Number of teeth in each spherical coat 31,250,000</p>
+                <p>Number of fibres in the whole lens 5,000,000</p>
+                <p>Number of teeth in the lens' 62,500,000,000</p>
+                <p>or the lens of a cod contains five millions of fibres, and sixty-two thousand
+                    five hundred millions of teeth; and if we reckon the curved end of the tooth as
+                    one surface, each tooth will have six surfaces,<note anchored="true"
+                    place="bottom" type="authorial"><p>This includes the concave surface between two
+                    adjacent teeth.</p></note> which come into contact with the corresponding
+                    surfaces of the adjacent tooth, so that the number of touching surfaces will be
+                    <hi rend="italic">three hundred and seventy five thousand millions;</hi><note
+                    anchored="true" place="bottom" type="authorial"><p><hi rend="superscript">
+                    ŭ</hi> Philosophical Transactions, 1833, p. 329.</p></note> “and yet this little
+                    sphere of tender jelly is as transparent as a drop of the purest water, and
+                    allows a beam of light to pass across these almost<pb break="no"
+                    facs="nls:193819950?mode=fullsize" xml:id="kp-eb0715-9950-0057"/> innumerable
+                    joints without obstructing or reflecting a single ray !”</p>
+                <p>There is another class of objects of extreme interest, which Mr Pritchard has
+                    omitted to notice, and the development of which called forth all the resources
+                    of optical knowledge and practical experience with the microscope. These objects
+                    are the microscopic cavities in minerals, containing two fluids unknown to the
+                    chemist, groups of crystals, floating balls, and exhibiting actual chemical
+                    operations going on in these minute laboratories when exposed to changes of
+                    temperature. These various phenomena have been described and represented in
+                    drawings, in two papers by Sir David Brewster, published in the Transactions of
+                    the Royal Society of Edinburgh. In some of the precious stones, particularly in
+                    diamond, garnet, &amp;c. these cavities are perfect spheres; but, owing to the
+                    great refractive power of the gem, they appear completely black and opaque,
+                    though the microscope descries a small spot of light in their centre, which is
+                    the pencil of light which they refract. These spherical cavities, and this
+                    central spot, are the finest objects for examining the aberration of lenses and
+                    specula, and are infinitely preferable to the reflected patches of light from
+                    small spherules of quicksilver. Dr Goring has observed spherical cavities or
+                    air-bubbles in fluids, and, with his usual ingenuity, recognised their utility
+                    for indicating the effects of aberration. Those which we have used in the gems
+                    are, however, permanent instruments of much greater utility, not only from our
+                    being able to use the same bright spot with all instruments and on all
+                    occasions, but from the dark ring round the bright spot being incomparably
+                    greater in the gems than in fluids.<note anchored="true" place="bottom"
+                    type="authorial"><p>The ratio between the diameter of the dark sphere and of the
+                    small luminous spot gives a measure of the refractive power of the solid or
+                    fluid.</p></note> Representations of some of the cavities in fluids are given in
+                    Plate CCCLXIL fig. 29, 30, 31. Fig. 29 shows the cavities containing the two new
+                    fluids, which will not mix, though in the same cavity. The little circle is the
+                    bubble either of gas or of vacuity. The fluid round it is a highly evaporable
+                    fluid, and the fluid in the angles and ends of long cavities is a thick and
+                    unevaporable fluid, which indurates when exposed to the air. Figs. 29 and 30 are
+                    beautifully formed cavities in topaz.</p>
+                <p>Our limits will not permit us to pursue this subject farther, and we shall
+                    conclude the article with a very brief selection of microscopic objects from Mr
+                    Pritchard’s admirable little pamphlet, entitled a List of 2000 Microscopic
+                    Objects.</p>
+                <p>1. <hi rend="smallcaps">Insects,</hi> —Eggs, wings, tongues, antennae, and scales
+                    of.</p>
+                <p>Eyes of, Agrion, 12,000 eycs; Bombyx Mer, 6236 eyes; Phalaena cossus, 11,300;
+                    Scarabaeus,. 3180; Hawk-moth, 20,000; Libellula, 12,544; Melalontha, 8820;
+                    Mordella, 25,088; Papilio, 17,000.</p>
+                <p>2. <hi rend="smallcaps">Hairs of Animals.</hi> Hair of an infant, Ornithorynchus,
+                    mouse, bat, bee, Acilius canaliculatus, Melecta punctatus, Siberian fox, spider,
+                    wing of Tipalis, stagbeetle, white cat, dormouse, dermestes, caterpillar,
+                    badger, ant-eater, civet cat.</p>
+                <p>3. <hi rend="smallcaps">Scales of Insects.</hi> Podura plumbea, Pontia brassica,
+                    Pieris brassica, Parnassus Apollo, Atlas moth, diamondbeetle, Euploea limniace,
+                    house-moth, Lepisma saccharina, 10-plumed moth, 20-plumed moth, Morpho Menelaus,
+                    Papilio Apollo, Papilio Paris, Urania lei-lus, privet moth.</p>
+                <p>4. <hi rend="smallcaps">Circulation in Plants,</hi> or <hi rend="italic"
+                    >Cyclosis.</hi> Nitella hyalina» Nitella translucens, Chara vulgaris, Caulinia
+                    frigalis, Hydrocharis or frog-bit in the stipulae of the leaves and the ends of
+                    the roots, Tradescantia virginica or spiderwort in the filaments around the
+                    stamina, Senecio vulgaris or groundsel in the hairs surrounding the stalks and
+                    flowers.</p>
+                <p>5. <hi rend="smallcaps">Circulation in Animals.</hi> In the arachnoida or spider
+                    tribe at the joints of the legs, Peria viridis and Semblis bilineata on the
+                    antennae and wings when they have just emerged from the chrysalis, larva of the
+                    Ephemera, larva of Hydrophilus, small Dysticus, Agrion puella, Libellula, round
+                    Lynceus, fresh-water shrimp, water-hog (Oniscus), Ligia, water-flea (Daphnia
+                    pulex). (See Pritchard’s Microscopic Illustrations, and Microscopic
+                    Cabinet.)!</p>
+                <p>6. <hi rend="smallcaps">Circulation in Zoophytes.</hi> Mr Lister has discovered a
+                    circulation resembling that in plants in some of the polypiferous zoophytes, as
+                    the Tabularia indivisa, Sertulariae, Campanulariae, Plumulariae, &amp;c.</p>
+                <p>7. <hi rend="smallcaps">Crystals.</hi> For an account of various interesting
+                    microscopic phenomena observed by H. F. Talbot, Esq. of Lacock Abbey, we must
+                    refer the reader to a series of interesting papers in the recent numbers of the
+                    London and Edinburgh Philosophical Magazine. The oxalate of chromium and potash
+                    dissolvedin water and rapidly crystallised is a fine object. ’ In polarised
+                    light the most splendid object is the Faro Apophyllite when the prisms are
+                    complete, as represented by Sir D. Brewster in a coloured drawing in the
+                    Edinburgh Transactions, vol. ix. p. 317, plate xxi. fig. 1.</p>
+                <p>Size.</p>
+                <p>8. <hi rend="smallcaps">Animalcules.</hi> Monas Termo, 18,000th of an inch. Monas
+                    atomus, 4000th of an inch. Monas volvox, 3456th to 1728th of an inch.</p>
+                <p>Volvox globator, found in stagnant water, 30th of an inch.</p>
+                <p>Vibrio, bipunctatus, 200th of an inch.</p>
+                <p>Vibrio spirillum, like a screw, 2000th to 1000th of an inch.</p>
+                <p>Vibrio glutinis.<note anchored="true" place="bottom" type="authorial"><p>Figured
+                    by Dr Goring in the Microscopic Cabinet.</p></note></p>
+                <p>Kolpoda cucullus, 28th of an inch. Cercaria podura.</p>
+                <p>Cercaria viridis.</p>
+                <p>Cercaria hirta.</p>
+                <p>Leucophrys fluida, 400th of an inch. Trichoda vulgaris, 1200th to 240th of an
+                    inch.</p>
+                <p>Trichoda longicauda.</p>
+                <p>Vorticella polymorpha.</p>
+                <p>Vorticella convallaria.</p>
+                <p>Vorticella senta, 100th of an inch.</p>
+                <p>Vorticella rotatoria.<note anchored="true" place="bottom" type="authorial"><p>The
+                    Rotifer vulgaris. See Microscopic Cabinet, chap. vi.</p></note></p>
+                <p>The reader will find beautiful drawings and full descriptions of these and many
+                    other animalcules in Mr Pritchard’s interesting work entitled The Natural
+                    History of Animalcules, London, 1834. In the Microscopical Illustrations of Mr
+                    Pritchard and Dr Goring, and in the Microscopic Cabinet by the same authors, he
+                    will find every thing that he desires respecting microscopic objects.</p>
+                <p><hi rend="smallcaps">(n. n. n.)</hi><pb break="no"
+                    facs="nls:193819963?mode=fullsize" xml:id="kp-eb0715-9963-0058"/></p>
+            </div>
+        </body>
+    </text>
+</TEI>

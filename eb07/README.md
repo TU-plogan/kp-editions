@@ -1,19 +1,22 @@
 # Nineteenth-Century Knowledge Project
 
-## _Encyclopedia Britannica, Seventh Edition: A Machine-Readable Text Transcription_, v1.1
+## _Encyclopedia Britannica, Seventh Edition: A Machine-Readable Text Transcription_
 
-| date | format | size | files
-| --- | --- | --- | --- |
-| 7-Oct-2022 | Plain text | 129 MB | 20,983 |
+| date | format | size | zip | files
+| --- | --- | --- | --- | --- |
+| 8-Dec-22 | XML | 437 MB | 129 MB | 20,984
+| 7-Oct-22 | Plain text | 129 MB | 56 MB | 20,984 |
 
 ### Release Notes:
-1-Nov-22: Release v1.2: remove space before closing bracket.
+8-Dec-22: XML Release v1.0 (TEI encoding)
 
-7-Oct-22. Release v1.1: correct cite for source text; remove space before end punctuation.
+1-Nov-22: TXT Release v1.2: remove space before closing bracket.
 
-5-Oct-22. Release v1.01: 3 entries fixed, 2 removed. 
+7-Oct-22. TXT Release v1.1: correct cite for source text; remove space before end punctuation.
 
-4-Oct-22. We're excited to publish the text of this edition as TXT files.
+5-Oct-22. TXT Release v1.01: 3 entries fixed, 2 removed. 
+
+4-Oct-22. TXT We're excited to publish the text of this edition as TXT files.
 
 #### Content
 * **Page breaks** are indicated inline as *[edition:volume:page]*.
@@ -25,7 +28,7 @@
 
 #### Format
 * **Files.** Entries are in individual TXT files with a header for the Knowledge Project.
-* **ZIP file.** To easily download the complete edition, use the ZIP file.
+* **ZIP file.** To easily download the complete edition, use the ZIP files.
 * **Directories.** Files are organized in directories named for the letter of the entry + the volume number of the print edition. So 'j12' contains all entries in volume 12 beginning with the letter 'j'.
 * **File names.** Example: _kp-eb0710-022203-6853-v1.txt_
     * _kp_ = Knowledge Project
