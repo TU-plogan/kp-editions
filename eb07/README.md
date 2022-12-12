@@ -2,46 +2,4 @@
 
 ## _Encyclopedia Britannica, Seventh Edition: A Machine-Readable Text Transcription_
 
-| date | format | size | zip | files
-| --- | --- | --- | --- | --- |
-| 8-Dec-22 | XML | 437 MB | 129 MB | 20,984
-| 7-Oct-22 | Plain text | 129 MB | 56 MB | 20,984 |
-
-### Release Notes:
-8-Dec-22: XML Release v1.0 (TEI encoding)
-
-1-Nov-22: TXT Release v1.2: remove space before closing bracket.
-
-7-Oct-22. TXT Release v1.1: correct cite for source text; remove space before end punctuation.
-
-5-Oct-22. TXT Release v1.01: 3 entries fixed, 2 removed. 
-
-4-Oct-22. TXT We're excited to publish the text of this edition as TXT files.
-
-#### Content
-* **Page breaks** are indicated inline as *[edition:volume:page]*.
-* **Footnotes** and marginal notes are included inline at the point of the siglum, as *^[1. This is note text.]* 
-* **Tables** are out of scope and indicated in the text with *[table]*.
-* **Formulae** are out of scope and are left uncorrected.
-* **Dissertations.** Vol. 1, which contains book-length dissertations, rather than entries, is planned for later release.
-* **Further information** is available at [Editorial Standards](https://tu-plogan.github.io/source/c_editorial_standards.html.)
-
-#### Format
-* **Files.** Entries are in individual TXT files with a header for the Knowledge Project.
-* **ZIP file.** To easily download the complete edition, use the ZIP files.
-* **Directories.** Files are organized in directories named for the letter of the entry + the volume number of the print edition. So 'j12' contains all entries in volume 12 beginning with the letter 'j'.
-* **File names.** Example: _kp-eb0710-022203-6853-v1.txt_
-    * _kp_ = Knowledge Project
-    * _eb0710_ = 7th ed., vol. 10
-    * _022203_ = page 222, 3rd entry on the page
-    * _6853_ = last 4 digits of the source image filename (makes filenames unique)
-    * _v1_ = version 1.0
-
-Comments are welcome at [nckp@temple.edu](mailto:nckp@temple.edu). 
-        
-
-
-        
-
-
-
+This page is superseded by [Knowledge Project / Releases / Seventh Edition](https://tu-plogan.github.io/source/r_7th_edition.html)
