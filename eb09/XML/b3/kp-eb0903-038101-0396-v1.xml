@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kp-eb0903-0396-0381-01" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">BAROMETER (9th edition, volume 3, page 381)</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 9th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0">Version 1.0, initial release <date when="2023"
+                    >2023</date></edition>
+            </editionStmt>
+            <extent>387 MB; 17,772 XML files in 47 folders </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://tu-plogan.github.io/index.html"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2020">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/12465694" xml:id="mn">Baynes, T.
+                                Spencer (Thomas Spencer), <date from="1823" to="1887"
+                                    >1823-1887</date></persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Ninth Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="25" unit="vol">25 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Charles Scribner's Sons</publisher>
+                        <authority>Authorized reprint from Edinburgh plates</authority>
+                        <pubPlace>New York</pubPlace>
+                        <date from="1875" to="1889">1875-1889</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="ia-uc"><title>Encyclopaedia Britannica: a dictionary of arts,
+                                sciences, and general literature</title><publisher><orgName
+                                    ref="https://archive.org/">Internet Archive</orgName><orgName
+                                    ref="https://archive.org/details/cdl">University of California
+                                    Libraries, California Digital Library</orgName></publisher><date
+                                when="2019">2006</date><idno type="OCLC">592355607</idno><idno
+                                type="ark">13960/t0ks6j612</idno><availability>
+                                <p>Internet Archive: NOT_IN_COPYRIGHT</p>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <desc>Alternate images of the same print editions were substituted when the
+                        primary source had unusable images for those pages.</desc>
+                    <bibl xml:id="um-ht">Hathi Trust, from print source at the University of
+                        Michigan: vol. 14, pp. 34-35; vol. 15, pp. 170-171.</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for future entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding uses the recommendations for Level 3 of the TEI in Libraries
+                            Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike-through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>The first release is a reproduction of text matter for all entries. It does not
+                    include images, tables, formulae, front- or back-matter. It omits volume 1,
+                    which consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b48s4jt2v">Heights</term>
+                    <term ref="lcsh1910:b4s17sw59">Essays</term>
+                    <term ref="lcsh1910:b4jd4pp0f">Air</term>
+                    <term ref="lcsh1910:b4j38kh5s">Columns</term>
+                    <term ref="lcsh1910:b4bz61762">Leveling</term>
+                    <term ref="lcsh1910:b4513v11w">Water</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1219920">England</term>
+                    <term ref="fast:1207312">Russia</term>
+                    <term ref="fast:1239786">America</term>
+                    <term ref="fast:1204556">Norway</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:934209">French</term>
+                    <term ref="fast:939255">Gays</term>
+                    <term ref="fast:916820">Europeans</term>
+                    <term ref="fast:1165420">Verniers</term>
+                    <term ref="fast:802066">Air</term>
+                    <term ref="fast:861723">Cisterns</term>
+                    <term ref="fast:1750261">Inch</term>
+                    <term ref="fast:868845">Columns</term>
+                    <term ref="fast:996970">Levellers</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-02-28" who="#pml">v.1 published</change>
+            <change status="public" when="2023-02-27" who="#pml">v.1 teiHeader XSL finished</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ia:encyclopediabrit03newyrich/page/n396/mode/1up" type="entry">
+                <p><label type="entry">BAROMETER</label>, the instrument by which the weight or
+                    pressure of the atmosphere is estimated. The barometer was invented by
+                    Torricelli, a pupil of Galileo, in 1643. It had shortly before been found, in
+                    attempting to raise water from a very deep well near Florence, that, in spite of
+                    all the pains taken in fitting the piston and valves, the water could by no
+                    effort be made to rise higher in the pump than about 32 feet. This remarkable
+                    phenomenon Torricelli accounted for by attributing pressure to the air. He
+                    reasoned that water will rise in a vacuum only to a certain height, so that the
+                    downward pressure or weight of the column of water will just balance the
+                    pressure of the atmosphere; and he further argued that if a fluid heavier than
+                    water be used it will not rise so high in the tube as the water. To prove this,
+                    he selected a glass tube about a quarter of an inch in diameter and 4 feet long,
+                    and hermetically sealed one of its ends; he then filled it with mercury and,
+                    applying his finger to the open end, inverted it in a basin containing mercury.
+                    The mercury instantly sank to nearly 30 inches above the surface of the mercury
+                    in the basin, leaving in the top of the tube an apparent vacuum, which is,
+                    indeed, one of the most perfect that can yet be produced, and is called after
+                    this great experimenter, the <hi rend="italic">Torricellian vacuum.</hi> He next
+                    converted the mercurial column into a form suited for observation by bending the
+                    lower end of the tube, thus constructing what has since been called the siphon
+                    barometer. The fundamental principle of the barometer cannot be better
+                    illustrated than by his experiment (see fig. 2). In truth, a scale is all that
+                    is required to render this simple apparatus a perfect barometer.</p>
+                <p>The heights of the columns of two fluids in equilibrium are inversely as their
+                    specific gravities; and as mercury is 10,784 times heavier than air, the height
+                    of the atmosphere would be 10,784 times 30 inches, or nearly five miles, if it
+                    were composed of layers equally dense throughout. But since air becomes less
+                    dense as we ascend, owing to its great elasticity and the diminished pressure,
+                    the real height of the atmosphere is very much greater. From observations of
+                    luminous meteors, it has been inferred that the height is at least 120 miles,
+                    and that, in an extremely attenuated form, it may even considerably exceed 200
+                    miles.</p>
+                <p>Various fluids might be used in constructing barometers. If water were used, the
+                    barometric column would be about 35 feet long. The advantages, however, which
+                        <hi rend="italic">water barometers</hi> might be supposed to possess in
+                    showing changes of atmospheric pressure on a large scale, are more than
+                    counterbalanced by a serious objection. The space in the tube above the column
+                    of water is far from being a vacuum, being filled with aqueous vapour, which
+                    presses on the column with a force varying with the temperature. At a
+                    temperature of 32° Fahr, the column would be depressed half an inch, and at 75°
+                    a foot. Since in mercurial barometers the space at the top of the column is one
+                    of the most perfect vacuums that can be produced, the best fluid for the
+                    construction of barometers is mercury. It is therefore the only fluid used where
+                    scientific accuracy is aimed at. Pure mercury must be used in filling the tubes
+                    of barometers; because if it be impure, the density will not be that of mercury,
+                    and, consequently, the length of the columns will not be the same as that of a
+                    column composed of pure mercury alone. Even should the density happen to be the
+                    same as that of pure mercury the impurities would soon appear, impeding the
+                    action of the fluid as it rises and falls, and thus rendering the instrument
+                    unfit for accurate observation. In filling barometer tubes, air and moisture get
+                    mixed with the mercury, and must be expelled by boiling the mercury in the tube.
+                    It being essential that the mercury be quite freed from air and moisture, no
+                    barometer should be used till it has been well ascertained that this has been
+                    done. Some time after the instrument has been hung in an observing position, let
+                    it be inclined gently and with care, so that the mercury may strike against the
+                    top of the glass tube; if there is no air within, a sharp metallic click will be
+                    heard, but if the sound is dull, the air and moisture have not been entirely
+                    expelled. If the mercury should appear at any time to adhere somewhat to the
+                    tube and the convex surface assume a more flattened form, it may be concluded
+                    that air or moisture is present. If on examining the mercury with a lens minute
+                    bubbles are visible, air is present. In all these cases the instrument must be
+                    rectified.</p>
+                <pb break="no" facs="ia:encyclopediabrit03newyrich/page/n397/mode/1up"
+                    xml:id="kp-eb0903-0397-0382"/>
+                <p>The best barometers are usually fitted with an <hi rend="italic">air-trap,</hi>
+                    originally proposed by Gay-Lussac for the purpose of arresting the ascent to the
+                    Torricellian vacuum of any air that may have found its way into the column by
+                    the cistern. The air-trap is fitted into the tube somewhere between the scale
+                    and the cistern. Barometers furnished with an air-trap can be conveyed from
+                    place to place with more safety, and they remain longer in good working
+                    order.</p>
+                <p>There are two classes of barometers— <hi rend="italic">Siphon Barometers</hi> and
+                        <hi rend="italic">Cistern Barometers.</hi> The <hi rend="italic">Siphon
+                        Barometer</hi> (fig. 1) consists of a tube bent in the form of a siphon, and
+                    is of the same diameter throughout. A graduated scale passes along the whole
+                    length of the tube, and the height of the barometer is ascertained by taking the
+                    difference of the readings of the upper and lower limbs respectively. This
+                    instrument may also be read by bringing the zero-point of the graduated scale to
+                    the level of the surface of the lower limb by means of a screw, and reading off
+                    the height at once from the surface of the upper limb. This barometer requires
+                    no correction for errors of capillarity or capacity. Since, however, impurities
+                    are contracted by the mercury in the lower limb, which is usually in open
+                    contact with the air, the satisfactory working of the instrument comes soon to
+                    be seriously interfered with.</p>
+                <p>Fig. 2. shows the <hi rend="italic">Cistern Barometer</hi> in its essential and
+                    its simplest form. This barometer is subject to two kinds of error, the one
+                    arising from capillarity, and the other from changes in the level of the surface
+                    of the cistern as the mercury rises and falls in the tube, the latter being
+                    technically called the <hi rend="italic">error of capacity.</hi> If a glass tube
+                    of small bore be plunged into a vessel containing mercury, it will be observed
+                    that the level of the mercury in the tube is not in the line of that of the
+                    mercury in the vessel, but somewhat below it, and that the surface is convex.
+                    The capillary depression is inversely proportional to the diameter of the tube.
+                    If the diameter of the tube be 0T inch, the capillary depression of mercury in
+                    boiled tubes, or <hi rend="italic">error of capillarity, is</hi> 0Ό70 inch; if
+                    0'2 inch, the error is 0Ό29 inch; if 0 <hi rend="superscript"> -</hi> 3 inch, it
+                    is 0Ό14 inch; and if 0'5 inch, it is only 0Ό03 inch. Since capillarity depresses
+                    the height of the column, cistern barometers require an addition to be made to
+                    the observed height, in order to give the true pressure, the amount depending,
+                    of course, on the diameter of the tube.</p>
+                <p>The error of capacity arises in this way. The height of the barometer is the
+                    perpendicular distance between the surface of the mercury in the cistern and the
+                    upper surface of the mercurial column. Now, when the barometer falls from 30 to
+                    29 inches, an inch of mercury must flow out of the tube and pass into the
+                    cistern, thus raising the cistern level, and, on the other hand, when the
+                    barometer rises, mercury must flow out of the cistern into the tube, thus
+                    lowering the level of the mercury in the cistern. Since the scales of barometers
+                    are usually engraved on their brass cases, which are fixed (and, consequently,
+                    the zero-point from which the scale is graduated is also fixed), it follows
+                    that, from the incessant changes in the level of the cistern, the readings would
+                    be sometimes too high and sometimes too low, if no provision were made against
+                    this source of error.</p>
+                <p>A simple way of correcting the error of capacity is—· to ascertain (1) the
+                    neutral point of the instrument, or that height at which the zero of the scale
+                    is exactly at the height of the surface of the cistern, and (2) the rate ot
+                    error as the barometer rises or falls above this point, and then apply a
+                    correction proportional to this rate. In many of the barometers used on the
+                    Continent the surface area of the cistern is 100 times greater than that of the
+                    tube, in which case the error is small, and can, besides, be easily calculated.
+                    This is a good barometer for ordinary observers, inasmuch as no error arises in
+                    bringing the surface of the mercury of the cistern to the zero-point of the
+                    scale, which one requires to have some skill as a manipulator and good light to
+                    do correctly. Another way of getting rid of this error is effected by the <hi
+                        rend="italic">Board of Trade Barometer,</hi> constructed originally by Adie
+                    of London. In this barometer the error of capillarity is allowed for in fixing
+                    the zeropoint of the scale, and the error of capacity is obviated by making the
+                    scale-inches not true inches, but just so much less as exactly to counterbalance
+                    the error of capacity.</p>
+                <p>But the instrument in which the error of capacity is satisfactorily (indeed,
+                    entirely) got rid of is <hi rend="italic">Fortiris Barometer.</hi> Fig. 3 shows
+                    how this is effected. The cistern is formed of a glass cylinder, through which
+                    the level of the mercury may be seen. The bottom is made like a bag, of flexible
+                    leather, against which a screw works. At the top of the interior of the cistern
+                    is a small piece of ivory, the point of which coincides with the zero of the
+                    scale. By means of the screw, which acts on the flexible cistern bottom, the
+                    level of the mercury can be raised or depressed so as to bring the ivory point
+                    exactly to the surface of the mercury in the cistern. In some barometers the
+                    cistern is fixed, and the ivory point is brought to the level of the mercury in
+                    the cistern by raising or depressing the scale.</p>
+                <p>What is called the <hi rend="italic">Fitzroy Barometer</hi> is only a modified
+                    form of the siphon barometer, with the lower limb blown into a moderately-sized
+                    bulb, resembling a cistern in some respects, and thus giving a larger range to
+                    the readings of the upper limb. It is only suited for popular, not for
+                    scientific purposes. The common <hi rend="italic">Wheel Barometer,</hi> the
+                    popular form of the <hi rend="italic">weather glass,</hi> is also a modification
+                    of the siphon barometer. A small weight, glass or iron, floats on the mercury in
+                    the lower limb; to this weight a thread is attached, which is led round a
+                    horizontal axis, a small weight being suspended at its free extremity to keep it
+                    tight. The float rises and falls with the fluctuations of the barometer, and a
+                    pointer fixed to a horizontal axis being turned by this means indicates the
+                    height of the barometer by figures on a dial. Since the mercury only rises or
+                    falls in the open end of the siphon to the extent of half the oscillation, a
+                    cistern is added to the top of the upper limb to increase the amount of the
+                    oscillation in the lower limb. This form of the barometer is only suited for
+                    very rough purposes, since large and uncertain errors arise from the shortening
+                    and lengthening of the thread with the varying dampness or dryness of the air,
+                    and from the friction of the different parts of the mechanism of the
+                    instrument.</p>
+                <p>Since in working out the great atmospheric problem of the force of the wind in
+                    its relation to the barometric gradient <hi rend="italic">(i.e.,</hi> the
+                    differences of the pressures at different places, reduced to the same level)
+                    readings from about the <pb break="no"
+                        facs="ia:encyclopediabrit03newyrich/page/n398/mode/1up"
+                        xml:id="kp-eb0903-0398-0383"/> hundredth of an inch (0Ό10), or even ιess,
+                    require to be observed and stated with great accuracy, the extreme importance of
+                    accurate sensitive barometers will be apparent,—instruments not only possessing’
+                    a great range of scale, but a scale which will truly indicate the real
+                    atmospheric pressure at all times. The two barometers which best satisfy this
+                    requirement are <hi rend="italic">King’s Barometer,</hi> which has been in use
+                    for many years at the Liverpool Observatory, and <hi rend="italic">IIowson</hi>
+                    ’ <hi rend="italic">s Barometer.</hi> Fig. 4 shows the essential and peculiar
+                    parts of Howson’s barometer. A is the barometer tube, which is of large
+                    diameter, and longer than ordinary in order to admit of a greater length of
+                    range. B is a movable cylindrical cistern, having attached to its bottom a long
+                    hollow tube or stalk <hi rend="italic">c,</hi> hermetically sealed, springing to
+                    a height of about 28 inches above the fixed level of the mercury in the cistern.
+                    This stalk terminates a little below the upper level of the mercury, and its
+                    upper end is thus exposed to no more downward pressure than that of the mercury
+                    above it; consequently, there is an excess of upward pressure of the air which
+                    tends to raise the cistern. When the excess of upward pressure is exactly
+                    balanced by the weight of the cistern with its stalk and contained mercury up to
+                    δ, an equilibrium will be established, which will keep the apparatus stationary
+                    or hanging in suspension. If now the atmospheric pressure acting on the cistern
+                    be increased, and if the thickness of the glass tube A be supposed to be
+                    nothing, the cistern would continue to ascend to an indefinite extent, since
+                    there is nothing to stop it. But as the glass is a substance of some thickness,
+                    mercury is displaced by the glass as it is plunged further into the cistern; and
+                    as it thus offers a resistance to the ascent of the cistern, the cistern will
+                    come to rest when the quantity of mercury displaced is equivalent to the
+                    increase of pressure. The extent of range which this barometer possesses over
+                    the ordinary barometer is determined by the ratio of the internal area of the
+                    tube A to that of the annulus of glass which bounds it,—the range increasing as
+                    the internal area is increased, or as the thickness of the glass is
+                    diminished.</p>
+                <p>The liability of the barometer to be broken in carriage is great. This risk is
+                    considerably lessened in the <hi rend="italic">Board of Trade Barometer,</hi>
+                    which has the tube very much reduced in diameter for a part of its length,
+                    breakage from “pumping” being so much lessened thereby that the instrument may
+                    be sent as a parcel by rail, if only very ordinary care be taken in the
+                    carriage. This is essentially the principle of the <hi rend="italic">Marine
+                        Barometer,</hi> which, however, has the tube still more contracted. For
+                    rougher modes of transit an ingeniously constructed iron barometer has been
+                    invented by Mr T, Stevenson, C.E.</p>
+                <p>The sympiezometer was invented by Adie of Edinburgh. It consists of a glass tube,
+                    with a small chamber at the top and an open cistern below. The upper part of the
+                    tube is filled with air, and the lower part and cistern with glycerine. When
+                    atmospheric pressure is increased, the air is compressed by the rising of the
+                    fluid; but when it is diminished the fluid falls, and the contained air expands.
+                    To correct for the error arising from the increased pressure of the contained
+                    air when its temperature varies, a thermometer and sliding-scale are added, so
+                    that the instrument may be adjusted to the temperature at each observation. It
+                    is a sensitive instrument, and well suited for rough purposes at sea and for
+                    travelling, but not for exact observation. It has been for some time superseded
+                    by the <hi rend="italic">Aneroid,</hi> which far exceeds it in handiness,
+                    portability, and correctness. The <hi rend="italic">Aneroid Barometer</hi> was
+                    invented by Vidi, and patented in England in 1844. Its action depends on the
+                    effect produced by the pressure of the atmosphere on a circular metallic chamber
+                    partially exhausted of air and hermetically sealed. Fig. 5 represents the
+                    internal construction, as seen when the face is removed, but with the hand still
+                    attached, <hi rend="italic">a</hi> is a flat circular metallic box, having its
+                    upper and under surfaces corrugated in concentric circles. This box or chamber
+                    being partially exhausted of air, through the short tube δ, which is
+                    subsequently made air-tight by soldering, constitutes a spring, which is
+                    affected by every variation of pressure in the external atmosphere, the
+                    corrugations on it3 surface increasing its elasticity. At the centre of the
+                    upper surface of the exhausted chamber there is a solid cylindrical projection
+                        <hi rend="italic">X,</hi> to the top of which the principal lever <hi
+                        rend="italic">cde</hi> is attached, as shown in the drawing. This lever
+                    rests partly on a spiral spring at <hi rend="italic">cl;</hi> it is also
+                    supported by two vertical pins, with perfect freedom of motion. The end <hi
+                        rend="italic">e</hi> of the lever is attached to a second or small lever <hi
+                        rend="italic">f,</hi> from which a chain <hi rend="italic">g</hi> extends to
+                        <hi rend="italic">ħ,</hi> where it works on a drum attached to the axis of
+                    the hand, connected with a hair spring at ∕q changing the motion from vertical
+                    to horizontal, and regulating the hand, the attachments of which are made to the
+                    metallic plate <hi rend="italic">i.</hi> The motion originates in the corrugated
+                    elastic box <hi rend="italic">a,</hi> the surface of which is depressed or
+                    elevated as the weight of the atmosphere is increased or diminished, and this
+                    motion is communicated through the levers to the axis of the hand at <hi
+                        rend="italic">h.</hi> The spiral spring on which the lever rests at <hi
+                        rend="italic">d</hi> is intended to compensate for the effects of
+                    alterations of temperature. The actual movement at the centre of the exhausted
+                    box, from whence the indications emanate, is very slight, but by the action of
+                    the levers this is multiplied 657 times at the point of the hand, so that a
+                    movement of the 22Oth part of an inch in the box carries the point of the hand
+                    through three inches on the dial. The effect of this combination is to multiply
+                    the smallest degrees of atmospheric pressure, so as to render them sensible on
+                    the index.</p>
+                <p>The instrument requires, however, to be repeatedly compared with a mercurial
+                    barometer, being liable to changes from the elasticity of the brass chamber
+                    changing, or from changes in the system of levers which work the pointer. Though
+                    aneroids are constructed showing great accuracy in their indications, yet none
+                    can lay any claim to the exactness of mercurial barometers. The mechanism is
+                    liable to get fouled and otherwise go out of order, so that they may change
+                    0’300 inch in a few weeks, or even indicate pressure so inaccurately and so
+                    irregularly that no confidence can be placed in them for even a few days, if the
+                    means of comparing them with a mercurial barometer be not at hand.</p>
+                <pb break="no" facs="ia:encyclopediabrit03newyrich/page/n399/mode/1up"
+                    xml:id="kp-eb0903-0399-0384"/>
+                <p>Of the <hi rend="italic">self-registering barometers,</hi> the best are those
+                    which accomplish this object by photography. This is done by concentrating the
+                    rays of a gas flame by means of a lens, so that they strike the top of the
+                    mercurial column. A sheet of prepared paper is attached to a frame placed behind
+                    a screen, with a narrow vertical slit in the line of the rays. The mercury being
+                    opaque throws a part of the paper in the shade, while above the mercury the rays
+                    from the flame pass unobstructed to the paper. The paper being carried steadily
+                    round on a drum at a given rate per hour, the height of the column of mercury is
+                    photographed continuously on the paper. From the photograph the height of the
+                    barometer at any instant may be taken. <hi rend="italic">King's, Hardfs,
+                        Hough's, Hipps,</hi> and <hi rend="italic">Thorell's self-registering
+                        barometers</hi> may also be referred to as giving continuous records of the
+                    pressure. In all continuously registering barometers, however, it is necessary,
+                    as a check, to make eye-observations with a mercury standard barometer hanging
+                    near the registering barometer from four to eight times daily.</p>
+                <p>In constructing the best barometers three materials are employed, viz. :—(1)
+                    brass, for the case, on which the scale is engraved; (2) glass, for the tube
+                    containing the mercury; and (3) the mercury itself. Brass is the best material
+                    for the case and scale, inasmuch as its co-efficient of expansion is well known,
+                    and is practically the same though the alloy be not in all cases exactly alike.
+                    It is evident that if the co-efficient of expansion of mercury and brass were
+                    the same, the height of the mercury as indicated by the brass scale would be the
+                    true height of the mercurial column. But this is not the case, the co-efficient
+                    of expansion for mercury being considerably greater than that for brass. The
+                    result is that if a barometer stand at 30 inches when the temperature of the
+                    whole instrument, mercury and brass, is 32°, it will no longer stand at 30
+                    inches if the temperature be raised to 69°; in fact, it will then stand at 30Ί
+                    inches. This increase in the height of the column by the tenth of an inch is not
+                    due to any increase of pressure, but altogether to the greater expansion of the
+                    mercury at the higher temperature, as compared with the expansion of the brass
+                    case with the engraved scale by which the height is measured. In order,
+                    therefore, to compare with each other with exactness barometric observations
+                    made at different temperatures, it is necessary to reduce them to the heights at
+                    which they would stand at some uniform temperature. The temperature to which
+                    such observations are now almost everywhere reduced is 32° Fahr.</p>
+                <p>The following is Schumacher’s formula for computing the corrections for
+                    barometers, whose heights are noted in English inches, for temperature <hi
+                        rend="italic">t,</hi> according to Fahrenheit’s scale :—</p>
+                <p><hi rend="italic subscript"> 1</hi><hi rend="italic">m(t-</hi> 32°) <hi
+                        rend="italic">-s(</hi><hi rend="italic                     subscript">
+                        t</hi><hi rend="italic">t-</hi> 62°) <hi rend="superscript"> x</hi> ~ ~ <hi
+                        rend="superscript"> A</hi> l + m(i-32°) ’</p>
+                <p>where <hi rend="italic">h =</hi> height of barometer, <hi rend="italic">m</hi> =
+                    expansion of mercury for l <hi rend="superscript"> 0</hi> Fahr. = 0'0001001, s =
+                    expansion of brass for l <hi rend="superscript"> o</hi> Fahr. = 0'00001041.</p>
+                <p>The standard temperature of the English yard being 62° and not 32°, it will be
+                    found in working out the corrections from the above formula that the temperature
+                    of no correction is not 32° but 28° '5. If the scale be engraved on the glass
+                    tube, or if the instrument be furnished with a glass scale or with a wooden
+                    scale, different corrections are required These may be worked out from the above
+                    formula by substituting for the co-efficient of the expansion of brass that of
+                    glass which is assumed to be 0Ό0000498, or that of wood, which is assumed to be
+                    0. Wood, however, should not be used, its expansion with temperature being
+                    unsteady, as well as uncertain.</p>
+                <p>If the brass scale be attached to a wooden frame and be free to move up and down
+                    the frame, as is the case with many siphon barometers, the corrections for brass
+                    scales are to be used, since the zero-point of the scale is brought to the level
+                    of the lower limb; but if the brass scale be <hi rend="italic">fixed</hi> to a
+                    wooden frame, the corrections for brass scales are only applicable provided the
+                    zero of the scale be iixed at (or nearly at) the zero line of the column, and be
+                    free to expand upwards. In siphon barometers, with which an observation is made
+                    from two readings on the scale, the scale must be free to expand in one
+                    direction. Again, if only the upper part of the scale, say from 27 to 31 inches,
+                    be screwed to a wooden frame, it is evident that not the corrections for brass
+                    scales, but those for wooden scales must be used. No account needs to be taken
+                    of the expansion of the glass tube containing the mercury, it being evident that
+                    no correction for this expansion is required in the case of any barometer the
+                    height of which is measured from the surface of the mercury in the cistern.</p>
+                <p>In fixing a barometer for observation, it is indispensable that it be hung in a
+                    perpendicular position, seeing that it is the <hi rend="italic">perpendicular
+                        distance</hi> of the surface of the mercury in the cistern and that of the
+                    top of the column which is the true height of the barometer. Hence it is
+                    desirable that the barometer swing in position; or if this be attended with risk
+                    or inconvenience, it must be seen that it be clamped or permanently fixed in a
+                    position exactly vertical. The surface of the mercurial column is convex, and in
+                    noting the height of the barometer, it is not the chord of the curve,—an error
+                    not unfrequently made,—but its tangent which is taken. This is done by setting
+                    the straight lower edge of the vernier, an appendage w’ith which the barometer
+                    is furnished, as a tangent to the curve. The vernier is made to slide up and
+                    down the scale, and by it the height of the barometer may be read true to 0Ό02
+                    or even to 0Ό01 inch. See <hi rend="smallcaps">Vernier.</hi></p>
+                <p>In hanging a barometer the following points should be attended to :—(1), That it
+                    be hung so that the mercurial column be quite perpendicular; (2), that the scale
+                    be about 5 feet high, for facility of reading; (3), that the whole instrument,
+                    particularly the scale and the cistern, be hung in a good light; and (4), that
+                    it be hung in a position in which it will be exposed to as little fluctuation of
+                    temperature as possible. A wall heated by a flue, and positions which expose the
+                    instrument to the heat of the sun or to that of a fire, are very objectionable.
+                    It is to be kept in mind that no barometric observation can be regarded as good
+                    unless the <hi rend="italic">attached thermometer</hi> indicates a temperature
+                    differing from that of the whole instrument not more than a degree. For every
+                    degree of temperature the attached thermometer differs from the barometer, the
+                    observation will be faulty to the extent of about 0'003 inch, which in
+                    discussions of diurnal range, barometric gradients, lunar range, and many other
+                    questions, is a serious amount.</p>
+                <p>Before being used, barometers should be thoroughly examined as to the state of
+                    the mercury, the size of cistern (so as to admit of low readings), and their
+                    agreement with some known standard instrument at different points of the scale.
+                    The pressure of the atmosphere is not expressed by the weight of the mercury
+                    sustained in the tube by it, but by the perpendicular height of the column.
+                    Thus, when the height of the column is 30 inches, it is not said that the
+                    atmospheric pressure is 14'7 ft) on the square inch, or the weight of the
+                    mercury filling a tube at that height whose transverse section equals a square
+                    inch, but that it is 30 inches, meaning that the pressure will sustain a column
+                    of mercury of that height.</p>
+                <p>The height of the barometer is expressed in English inches in England and
+                    America. In France and most European countries, the height is given in
+                    millimètres,, a millimètre being the thousandth part of a mètre, which equals 39
+                        <hi rend="superscript"> -</hi> 37O79 English inches. Up to 1869 the
+                    barometer <pb break="no" facs="ia:encyclopediabrit03newyrich/page/n400/mode/1up"
+                        xml:id="kp-eb0903-0400-0385"/> was given in half-lines in Russia, which,
+                    equalling the twentieth of an English inch, were readily reduced to English
+                    inches by dividing by 20. The metric barometric scale is now used in Russia. In
+                    a few countries on the Continent the French or Paris line, equalling 0Ό88814
+                    inch, still continues to be used. Probably millimètre and English inch scales
+                    will soon be exclusively in use. The English measure of length being a standard
+                    at 62° Fahr., the old French measure at 61° '2, and the metric scale at 32°, it
+                    is necessary, before comparing observations made with the three barometers, to
+                    reduce them to the same temperature, so as to neutralize the inequalities
+                    arising from the expansion of the scales by heat.</p>
+                <p>The barometer is a valuable instrument as an indicator of coming weather,
+                    provided its readings be interpreted with intelligence. High pressures generally
+                    attend fine weather, but they not unfrequently accompany wet stormy weather; on
+                    the other hand, low pressures, which usually occur with wet and stormy weather,
+                    not unfrequently accompany fine mild w eather, particularly in winter and in the
+                    northern parts of Great Britain. The truth is, the barometer merely indicates
+                    atmospheric pressure directly, whilst it indicates weather only inferentially.
+                    The chief points to be attended to are its fluctuations taken in connection with
+                    the wind and the state of the sky, but above all, the readings of the barometer
+                    as compared with those at neighbouring places, since it is <hi rend="italic"
+                        >difference</hi> of pressure, or the amount of the barometric gradient,
+                    which determines the strength of the wind and the weather generally.</p>
+                <p><hi rend="italic">Barometrical Measurements of Heights.</hi></p>
+                <p>The decisive experiment by which Pascal established the reality of atmospheric
+                    pressure suggested to him the method of measuring heights by means of the
+                    barometer. The first attempts to effect this were necessarily rude and
+                    inaccurate, since they went on the assumption that the lower mass of air is of
+                    uniform density. The discovery, however, of the actual relation subsisting
+                    between the density of air and its elasticity by Boyle in England, and about the
+                    same time by Mariotte in France, laid a sure foundation for this branch of
+                    atmospheric physics —the relation being that, at the same temperature, the
+                    pressure of a gas is exactly proportional to its density.</p>
+                <p>The truth of this law may be shown by the following experiment. Take a glass
+                    tube, of equal bore throughout, closed at one end, and bent in the form of a
+                    siphon (fig. 1), and let us suppose that it contains in the closed limb a
+                    portion of air AB, shut off from the atmosphere by mercury filling the lower
+                    portion of the tube, and that the enclosed portion of air exists at the ordinary
+                    pressure of the atmosphere or 30 inches. In this case the mercury in each limb,
+                    being subject to the same pressure, will stand at the same level. If we now pour
+                    mercury into the long limb (fig. 2) till the level in this limb stands 30 inches
+                    above the level in the closed limb, the additional mercury will tend to compress
+                    the air in A'B' with a pressure equal to that exerted by a column of 30 inches
+                    of mercury. In the latter case, therefore, the air is subjected to a pressure of
+                    two atmospheres, or GO inches, while in the former it was only subjected to a
+                    pressure of one atmosphere or 30 inches. It will be found that the space A <hi
+                        rend="superscript"> ,</hi> B' under the pressure of two atmospheres is only
+                    half the space AB where the pressure is only one atmosphere. If mercury had been
+                    filled in till the difference of level of the mercury in the two limbs was GO
+                    inches, or a pressure of three atmospheres, the space occupied by the air in the
+                    closed limb would have been only a third of the original space when the pressure
+                    was only that of one atmosphere. Generally, Boyle’s law or Mariotte’s law is
+                    this :—The volume of a gas varies inversely as the pressure. Since the same
+                    quantity of air has been experimented with, it follows that the density is
+                    doubled with a pressure of two atmospheres, and trebled with that of three, and
+                    hence the pressure of a gas is proportional to its density.</p>
+                <p>This law, however, only holds provided the temperature is the same. The familiar
+                    illustration of a bladder, partially filled with air, expanding on being placed
+                    near a fire, shows that if the pressure remains the same,—the pressure in this
+                    case being that of the atmosphere,—the gas will occupy a larger space if its
+                    temperature be raised. If the temperature be increased and the air be confined
+                    so as to occupy the same space, the pressure will be increased.</p>
+                <p>The relation between the temperature and pressure of gases was first discovered
+                    by Gay-Lussac; and more recently our knowledge of this branch of the subject has
+                    been greatly enlarged by the beautiful and accurate experiments of Régnault.
+                    From those experiments it has been concluded that the co-efficient which denotes
+                    increase of elasticity for l <hi rend="superscript"> o</hi> Fahr, of air whose
+                    volume is constant equals Ό02036; and that the co-efficient which denotes
+                    increase of volume for l <hi rend="superscript"> o</hi> Fahr, of air whose
+                    elasticity is constant equals '002039. It may further be added that the
+                    co-efficient of expansion for carbonic acid gas, hydrogen, and all other gasee,
+                    is as nearly as possible the same.</p>
+                <p>When a fluid is allowed to evaporate in the exhausted receiver of an air-pump,
+                    vapour rises from it until its pressure reaches a certain point, after which all
+                    further evaporation is arrested. This point depends on the nature of the fluid
+                    itself and on the temperature, and it indicates the greatest vapour pressure
+                    possible for the fluid at the particular temperature. Regnaυlt has shown the
+                    amount of the vapour pressure of water at different temperatures, thus—</p>
+                <table>
+                    <row>
+                        <cell><p>Temp.</p></cell>
+                        <cell><p>Max. Pressure</p></cell>
+                        <cell><p>Temp.</p></cell>
+                        <cell><p>Max. Pressure</p></cell>
+                    </row>
+                    <row>
+                        <cell><p>Fahr.</p></cell>
+                        <cell><p>of Vapour.</p></cell>
+                        <cell><p>Fahr</p></cell>
+                        <cell><p>of Vapour.</p></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><p>inch.</p></cell>
+                        <cell/>
+                        <cell><p>inch.</p></cell>
+                    </row>
+                    <row>
+                        <cell><p>0</p></cell>
+                        <cell><p>0Ό44</p></cell>
+                        <cell><p>50</p></cell>
+                        <cell><p>0'361</p></cell>
+                    </row>
+                    <row>
+                        <cell><p>10</p></cell>
+                        <cell><p>0Ό68</p></cell>
+                        <cell><p>60</p></cell>
+                        <cell><p>0'518</p></cell>
+                    </row>
+                    <row>
+                        <cell><p>20</p></cell>
+                        <cell><p>0Ί08</p></cell>
+                        <cell><p>70</p></cell>
+                        <cell><p>0'733</p></cell>
+                    </row>
+                    <row>
+                        <cell><p>30</p></cell>
+                        <cell><p>0165</p></cell>
+                        <cell><p>80</p></cell>
+                        <cell><p>1Ό23</p></cell>
+                    </row>
+                    <row>
+                        <cell><p>40</p></cell>
+                        <cell><p>C'248</p></cell>
+                        <cell><p>90</p></cell>
+                        <cell><p>1'410</p></cell>
+                    </row>
+                </table>
+                <p>If gases of different densities be put into the same vessel it is found that they
+                    do not arrange themselves according to their densities, but are ultimately
+                    diffused through each other in the most intimate manner. Each gas tends to
+                    diffuse itself as in a vacuum, the effect of the presence of other gases being
+                    merely to retard the process of their mutual diffusion. As regards the
+                    atmosphere, evaporation goes on until the maximum vapour pressure for the
+                    temperature has been attained, at which point the air is said to be saturated,
+                    and whilst the temperature remains the same further evaporation is arrested.
+                    Thus, at a temperature of 50° evaporation goes on until the vapour pressure
+                    reaches 0'361 inch, but if the temperature were raised to G0° the process of
+                    evaporation would be renewed, and go on till the vapour pressure rose to 0'518
+                    inch. If at a vapour pressure of 0'518 inch the temperature were to fall from
+                    60° to 50°, the air would no longer be capable of retaining the whole of the
+                    aqueous vapour in suspension, but the surplus part would be condensed and fall
+                    as rain. In tho change from the aeriform to the liquid state a quantity of
+                    latent heat is given out. The yet uncertain effect of these changes,
+                    particularly the change of form from the aeriform to the liquid state, on the
+                    pressure, temperature, and movements of the air, renders it peculiarly desirable
+                    that barometeric observations for the determination of <pb break="no"
+                        facs="ia:encyclopediabrit03newyrich/page/n401/mode/1up"
+                        xml:id="kp-eb0903-0401-0386"/> heights should not he made when clouds are
+                    forming or raiu is falling.</p>
+                <p>Dalton has shown<note anchored="true" place="bottom" type="authorial"><p><hi
+                                rend="italic">Meteorological Observations and Essays,</hi> 2d ed.,
+                            p. 100.</p></note> that air charged with vapour is specifically lighter
+                    than when it wants the vapour; in other words, the more vapour any given
+                    quantity of air has in it the less is its specific gravity; and Sir William
+                    Thomson has shown<note anchored="true" place="bottom" type="authorial"><p><hi
+                                rend="italic">Mem, Lit. and Phil. Soc. Manchester,</hi> vol. ii. 3d
+                            series, j&gt;, 131.</p></note> that the condensation of vapour in
+                    ascending currents of air is the chief cause of the cooling effect being so much
+                    less than that which would be experienced by dry air. From these ascertained
+                    effects of aqueous vapour in modifying the pressure and temperature of the
+                    atmosphere, the importance in the barometric measurement of heights of full and
+                    accurate observations of the hygrometry of the atmosphere and of the weather
+                    will be apparent.</p>
+                <p>Since the equilibrium of the vapour atmosphere is being constantly disturbed by
+                    every instance of condensation, by the ceaseless process of evaporation, and by
+                    every change of-temperature, and since the presence of oxygen and nitrogen
+                    greatly obstructs the free diffusion of the aqueous vapours, it follows that
+                    Dalton’s law of the independent pressure of the vapour and the dry air does not
+                    absolutely hold good. From the constant effort of the vapour to attain to a
+                    state of equilibrium there is, however, a continual tendency to approach this
+                    state. Since the equal diffusion of the dry air and the vapour is never reached,
+                    observations can only indicate local humidity, and therefore as regards any
+                    considerable stratum of air can only be regarded as approximate. Though
+                    particular observations may often indicate a humidity wide of the mark, yet in
+                    long averages a close approximation is reached, except in confined localities
+                    which are exceptionally damp or dry. Hence in observations for the determination
+                    of heights, the results of a long-continued series of observations should be
+                    employed, and those hours should be chosen whose mean is near the daily
+                    mean.</p>
+                <p>The most recent results arrived at by Régnault are the best, but it is to be
+                    regretted that the whole subject of the hygrometry, both as regards the methods
+                    of observation and the methods of discussing the observations, is still in an
+                    unsatisfactory state. This consideration, taken in connection with our defective
+                    knowledge of the relation of aqueous vapour to radiant heat, of the mode of its
+                    diffusion both vertically and horizontally, and of the influence exerted by its
+                    condensation into cloud and rain, and with our ignorance of the merely
+                    mechanical effects of ascending, descending, and horizontal currents of air in
+                    increasing or diminishing barometric pressure, renders it evident that heights
+                    deduced from barometric observations can only be regarded as approximate. It is
+                    much to be desired, in stating results, that the limit of error were taken into
+                    account, and the nearest round number in accordance therewith should alone be
+                    given as the calculated result. Thus, it is a mistake to give as the height of a
+                    place 1999 feet "when the calculation is based wholly on barometric
+                    observations, and the limit of error amounts to 30 feet or more. The height 2000
+                    should be given as the result.</p>
+                <p>The correction for decrease of gravity at the higher station, as compared with
+                    the force of gravity at the lower station or at ;ea-level, must also be taken
+                    into .account. Its amount is small, being, roughly speaking, only about 0Ό01
+                    inch per 400 feet. Since⅛he force of gravity is diminished in proportion to the
+                    square of the distance from the centre of gravity, the rate of its decrease with
+                    the height varies in different latitudes. Places at the equator being farther
+                    from the earth’s centre than places at the poles, it follows that the force of
+                    gravity diminishes at a less rapid rate as we ascend at the equator than it does
+                    at the poles. Now, since at the equator gravity diminishes less rapidly with the
+                    height, the air at any given height will exert a higher pressure there than
+                    anywhere else on the globe at the same height as compared with what it does at
+                    the sea-level of the latitude. Hence a subtraction requires to be made at the
+                    equator, and the amount to be subtracted diminishes as we proceed into higher
+                    latitudes, till it falls to zero at latitude 45°, where the force of gravity is
+                    assumed to be the mean. For higher latitudes an addition is required which
+                    constantly increases till it reaches the maximum at the poles. This correction
+                    is also small, being for 1000 feet less than 0Ό01 inch in Great Britain, and
+                    less than 0Ό03 at the equator and the poles.</p>
+                <p>Various formulae for the barometrical measurement of heights, based on these
+                    principles, have been, given by Laplace and others, not a few of them being
+                    unnecessarily refined and intricate when the real character of the data is taken
+                    into consideration. The following formula by Rühlmann<note anchored="true"
+                        place="bottom" type="authorial"><p><hi rend="italic">Lie</hi><hi
+                                rend="italic">Barometrischen Hühenmessungen und ihre Bedeutung für
+                                die Physik der Atmosphäre,</hi> von Dr Richard Rühlmann, Leipsic,
+                            1870.</p></note> is given as the simplest and best, being based on the
+                    most recent results which have been arrived at ;— ⅛=18400∙2ζl∙00157 +
+                    0∙003675-^-^ ∕ ^ + &lt;'∖</p>
+                <p><hi rend="italic">( V V'∖</hi></p>
+                <p>∖ 1 + 0'378—x— ) (1 + 0Ό02623 cos. 2&lt;f&gt;)</p>
+                <p>Λ <hi rend="superscript"> 2z + h</hi> λ <hi rend="italic superscript"> b</hi><hi
+                        rend="italic">L</hi> ∏x in which <hi rend="italic">h</hi> is the difference
+                    in mètres of level betw een thθ two stations <hi rend="italic">; t'</hi> and <hi
+                        rend="italic">t"</hi> the temperature centigrade of the air at the two
+                    stations; <hi rend="italic">b'</hi> and <hi rend="italic">b"</hi> the heights of
+                    the barometer in millimètres, corrected for temperature and for all instrumental
+                    errors; <hi rend="italic">σ</hi> and σ" the elastic force of vapour; &lt;5 the
+                    mean of the latitudes of the two stations; and <hi rend="italic">z</hi> the
+                    height of the lower station above the sea. Making—</p>
+                <p><hi rend="italic">( t</hi> ’ <hi rend="italic">+t</hi><hi
+                        rend="italic                     superscript"> ,,</hi><hi rend="italic"
+                        >}</hi></p>
+                <p>A = log. 18400,2(1 Ό0157 + 0 003675)—£— i, <hi rend="subscript"> rt</hi>, (
+                    0'378∕&lt;√ <hi rend="italic">σ"X )</hi></p>
+                <p>C—log. jl + <hi rend="subscript"> 2</hi> (<hi rend="subscript"> i</hi>
+                    j∕+j∕∕Jp</p>
+                <p>D = log. {l + 0 002623 cos. 2≠},</p>
+                <p>„ , ( , 2z + Λ )</p>
+                <p>E-log. j l + <hi rend="subscript"> 6</hi> 37 <hi rend="subscript"> 8150</hi> ∫
+                    ·</p>
+                <p>Rühlmann has calculated the values A, C, D, and E for the different values of the
+                    respective arguments, which are given in the tables appended to the -work.</p>
+                <p>From formula (1) we obtain—</p>
+                <p>log. ⅛=log. {log. <hi rend="italic">b</hi> ’ <hi rend="italic">-</hi> log. δ"} +
+                    (A + C + D + E) . . . (2).</p>
+                <p>It is assumed that the whole stratum of air between the two heights is in a state
+                    of rest, and that the means of the temperature and humidity observed at the two
+                    stations are the means respectively of the stratum of air between them.</p>
+                <p>If great accuracy is desired, both barometers. must be read from the zeros of
+                    their scales, and the observations must be corrected for all merely instrumental
+                    errors, and must be made strictly at the same time or times, seeing that a very
+                    small error, arising either from imperfect observations, or from their not being
+                    comparable, produces a comparatively large error in the calculated results.</p>
+                <p>In deducing heights from <hi rend="italic">long-continued observations</hi> it
+                    should be ascertained that the barometers and observations are good, and
+                    observations should if possible be used which have been made at the same hours
+                    of the day and during the same years. Observations at different hours of the day
+                    are not comparable, since, owing to our imperfect knowledge of the differences
+                    of daily barometric range, the <pb break="no"
+                        facs="ia:encyclopediabrit03newyrich/page/n402/mode/1up"
+                        xml:id="kp-eb0903-0402-0387"/> necessity for the application of any
+                    so-called corrections for daily range must necessarily lead to error. The
+                    comparison should also only be between observations made during the same years,
+                    since the means of different years often differ widely from each other. Thus the
+                    difference of height between two places at which barometrical observations were
+                    made, from 1830 to 1859 and from 1850 to 1869 respectively, could be more
+                    accurately ascertained from the ten years’ averages from 1850 to 1859 during
+                    which observations were made at both places, than from the longer averages of
+                    thirty and twenty years. Inattention to this point has often led to error,
+                    especially in cases where at one of the places only a few years were available.
+                    To secure greater accuracy, the calculations should be made on the mean for the
+                    year, the two extreme months, January and July, and that month during which the
+                    distribution of pressure is most uniform over the region where the places are
+                    situated. Owing to the great differences in the distribution of atmospheric
+                    pressure in different parts of the globe (see <hi rend="smallcaps"
+                        >Atmosphere),</hi> comparison of the observations at the higher station with
+                    those at more than one lower station is in some cases indispensable. Thus, if it
+                    -were desired to compute the height of Dovre, in Norway, barometrically, it
+                    should be compared both with Christiania and with Christiansund on the west
+                    coast; for if compared with Christiania alone the calculated height would be too
+                    high, and if with Christiansund too low, the reason being that the mean annual
+                    pressure diminishes from Christiania to Christiansund. The same remark applies
+                    to a large portion of Hindustan and to many other regions of the globe.</p>
+                <p>The more special precautions to be taken in deducing heights from one or a few
+                    observations, that is, from such data as travellers observe, are these :—that
+                    the observations be made in as settled weather as possible, at those hours of
+                    the day, at least, at which observations are made at the nearest meteorological
+                    stations, and be repeated as long as possible from day to day; that the
+                    barometer hang perpendicιdarly and in shade; and that the observations be not
+                    made till the whole instrument has acquired the temperature of the surrounding
+                    air. For, for every degree which the temperature indicated by the attached
+                    thermometer differs from the temperature of the whole instrument, there is an
+                    error of about 0Ό03 inch.</p>
+                <p>From their portability and handiness the aneroid barometer, and the thermometer
+                    for ascertaining the point at which water boils, are of great use in determining
+                    heights,— the thermometer, if properly managed, being the more accurate of the
+                    two. Since, owing to the sluggishness with which the aneroid often follows the
+                    changes of pressure, especially low pressures, its readings should not be
+                    recorded till it has hung for some hours at the place of observation, and if
+                    this be not possible, the time w hich elapsed from arriving at the place and
+                    making the observations should be stated. It may not be unnecessary to add that
+                    every opportunity which presents itself should be taken of comparing it with a
+                    standard mercurial barometer, owing to the variations, irregular or permanent,
+                    to which aneroids are subject, and that the instrument should always be read in
+                    one position, since the difference between the reading in a horizontal position
+                    and the reading in a vertical position is often considerable.</p>
+                <p>At a pressure of 29 ’ 905 inches distilled water boils at 212°. The temperature
+                    of the boiling point varies with the nature of the vessel. Thus, if the interior
+                    of the glass vessel be varnished with shell-lac, the temperature may rise to
+                    221°; and if iron filings be dropped into the water, the temperature is lowered.
+                    But in all these cases the temperature of the vapour arising from the water is
+                    as nearly as possible the same. Hence in making observations with the
+                    thermometer for hypsometrical purposes, the instrument is not plunged into the
+                    water, but the whole instrument, bulb and stem, are by an apparatus used for the
+                    purpose plunged into the vapour arising from the boiling water. The degrees on
+                    the thermometer used aro greatly enlarged, thus admitting of a minute
+                    subdivision of the scale and, consequently, of very precise readings. The
+                    following are a few of the barometric heights corresponding to different
+                    temperatures at which distilled water boils, taken from Regnault’s tables
+                    revised by Moritz :—</p>
+                <table>
+                    <row>
+                        <cell><p>Boiling Point.</p></cell>
+                        <cell><p>Barometer.</p></cell>
+                        <cell><p>Boiling Point</p></cell>
+                        <cell><p>Barometer.</p></cell>
+                    </row>
+                    <row>
+                        <cell><p><hi rend="subscript"> o</hi></p></cell>
+                        <cell><p>inches.</p></cell>
+                        <cell><p>,</p></cell>
+                        <cell><p>inches.</p></cell>
+                    </row>
+                    <row>
+                        <cell><p>211</p></cell>
+                        <cell><p>29'331</p></cell>
+                        <cell><p>205</p></cell>
+                        <cell><p>25-990</p></cell>
+                    </row>
+                    <row>
+                        <cell><p>210</p></cell>
+                        <cell><p>28'751</p></cell>
+                        <cell><p>204</p></cell>
+                        <cell><p>25'465</p></cell>
+                    </row>
+                    <row>
+                        <cell><p>209</p></cell>
+                        <cell><p>28∙180</p></cell>
+                        <cell><p>203</p></cell>
+                        <cell><p>24-949</p></cell>
+                    </row>
+                    <row>
+                        <cell><p>208</p></cell>
+                        <cell><p>27∙618</p></cell>
+                        <cell><p>202</p></cell>
+                        <cell><p>24'442</p></cell>
+                    </row>
+                    <row>
+                        <cell><p>207</p></cell>
+                        <cell><p>27-066</p></cell>
+                        <cell><p>201</p></cell>
+                        <cell><p>23'943</p></cell>
+                    </row>
+                    <row>
+                        <cell><p>206</p></cell>
+                        <cell><p>26-523 1</p></cell>
+                        <cell><p>200</p></cell>
+                        <cell><p>23-453</p></cell>
+                    </row>
+                </table>
+                <p>The temperature of the vapour of the boiling water being observed, the pressure
+                    is ascertained from the table, whence the height may be calculated, just as in
+                    the case of pressures obtained by means of a mercurial barometer.</p>
+                <p>The remark made by Sir John Leslie many years ago still holds good, that it is
+                    preposterous, in the actual state of physical science, to effect any high
+                    refinement in the formula for computing barometrical heights. What is required
+                    on the part of the computer of heights from barometrical observations is
+                    carefully to weigh the <hi rend="italic">limits of error</hi> due to the
+                    instrument and methods of observations, to the hour of the day and the month of
+                    the year (see <hi rend="smallcaps">Atmosphere,</hi> p. 28), and to the degree of
+                    unsettledness of the weather at the time the observations were made, and to give
+                    effect to these in the calculated results. From inattention to these simple
+                    considerations a large proportion of important heights given in w orks of travel
+                    and of physical geography are very erroneously stated, and consequently require
+                    careful revision.</p>
+                <p>For very rough approximations to the real height from observations of pressure
+                    and temperature, Sir G. B. Airy has prepared a table showing the differences of
+                    level corresponding to differences of pressure. It is from this table that the
+                    heights corresponding to pressures engraved on many aneroids are usually taken.
+                    The heights read off from the pressures should be corrected for observations of
+                    temperature carefully taken at the upper and lower stations, the mean of these
+                    two observations being assumed as the mean of the stratum of air occupying the
+                    interval between the two heights. <hi rend="smallcaps">(a. b.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>
