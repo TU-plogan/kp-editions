@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0706-6350-0719-08" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">CLACKMANNANSHIRE</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1206715">Scotland</term>
+                    <term ref="fast:1219920">England</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4513v11w">Water</term>
+                    <term ref="lcsh1910:b4fb4wm7s">Coal</term>
+                    <term ref="lcsh1910:b4js9h942">Coaling</term>
+                    <term ref="lcsh1910:b4319s59c">Foot</term>
+                    <term ref="lcsh1910:b4qr4nq8b">Tides</term>
+                    <term ref="lcsh1910:b4x34mr95">Art</term>
+                    <term ref="lcsh1910:b4q815225">Trade</term>
+                    <term ref="lcsh1910:b4jh3db66">Trades</term>
+                    <term ref="lcsh1910:b4j67915v">Handicraft</term>
+                    <term ref="lcsh1910:b48g8fk98">Devil</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1171139">Water</term>
+                    <term ref="fast:865087">Coal</term>
+                    <term ref="fast:865671">Coaling</term>
+                    <term ref="fast:931268">Foot</term>
+                    <term ref="fast:1150792">Tides</term>
+                    <term ref="fast:1109125">Scots</term>
+                    <term ref="fast:934209">French</term>
+                    <term ref="fast:839044">British</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:817721">Arts</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193356350?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">CLACKMANNANSHIRE</label>, one of the counties of
+                    Scotland, situated between 56° 5' and 56° 14' north latitude, and between 3° 33'
+                    and 3° 56'west longitude from Greenwich, is bounded on the south and south-west
+                    by the river Forth, which separates it from Stirlingshire, by Fifeshire on the
+                    south-east, and in every other quarter by Perthshire. It is the smallest county
+                    in Scotland, being littje more than eight miles in length, and, at a medium, six
+                    miles and <hi rend="italic">a</hi> half in breadth; thus extending over
+                    fifty-two square miles, or 33,280 acres. But its value is much greater than in
+                    the ratio of its extent. About three fourths of its surface are under
+                    cultivation, a greater proportion, with the <pb break="no"
+                        facs="nls:193356363?mode=fullsize" xml:id="kp-eb0706-6363-0720"/>exception
+                    of East Lothian, than that of any other county of Scotland; and it abounds in
+                    the useful minerals, which have long been wrought upon a very extensive
+                    scale.</p>
+                <p part="N">Between the Ochil Hills, which form the northern boundary of this
+                    district, <hi rend="subscript"> ι</hi> and the rich alluvial tracts on the banks
+                    of the Forth, which winds along in a very irregular line on its opposite
+                    extremity, there is a considerable variety of surface. An elevated ridge rises
+                    on the west, and, running through the middle of the county, spreads itself
+                    gradually till it reaches the eastern boundary, skirting the alluvial or carse
+                    lands on the south, and the vale of Dovan on the north. And still farther to the
+                    north, the OEhil Hills, the highest of which, Beneloch, in the parish of
+                    Tillicoultry, rises nearly 2500 feet above the level of the sea, form a very
+                    picturesque landscape, having their generally verdant surface broken by bold
+                    projecting roeks, and deeply indented ravines, the beds of many a pellucid
+                    stream, with coppice and thriving plantations occasionally interspersed. These
+                    hills protect the lower grounds from the piercing winds which blow from the
+                    north and north-east, and give Clackmannanshire some advantage, in regard to
+                    climate, over the adjoining counties.</p>
+                <p part="N">The only streams worthy of notice which traverse this county are the
+                    Dovan and the Black Dovan, or, as they are often called, the North Devon and
+                    South Devon. The Dovan rises in the county of Perth, and, descending with
+                    impetuosity from the Ochils, where its course is to the east, makes a very sharp
+                    turn towards the west, and, proceeding placidly in that direction through the
+                    pleasant vale already mentioned, falls into the Forth at the village of Cambus.
+                    Exclusive of its windings, the course of this river is more than twenty-six
+                    miles, though the distance in a direct line from its source to its embouchure
+                    does not exceed six miles. It has long been remarkable for the deep and dark
+                    chasms which it has worn in the rocks, and through which it flows in the earlier
+                    part of its course, being in some places hardly visible. The <hi rend="italic"
+                        >Devil's Mill,</hi> so called from the supposed resemblance of the sound of
+                    the water to that of machinery; the <hi rend="italic">Rumbling 13 ridge,</hi> a
+                    very narrow and unguarded pass across a chasm ninety feet deep; and the <hi
+                        rend="italic">Cauldron Lynn,</hi> where the water is perpetually agitated in
+                    the immense cauldron-like excavations which it has formed in the rock, have been
+                    frequently visited by the lovers of natural scenery. Though this river is liable
+                    to be suddenly swelled by rains, and frequently descends in torrents overflowing
+                    its banks, it is in general of no great depth, but might be rendered navigable
+                    for small vessels at a moderate expense, to the effect of bringing 10,000 aeres
+                    of coal within reach of water-carriage.</p>
+                <p part="N">The Black Dovan has its source in the county of Fife, flows westward in
+                    a direction nearly parallel to the Dovan, and falls into the Forth near
+                    Clackmannan. This river is extensively employed in turning mills and coal
+                    engines, its whole course being over coal strata. In a dry season it is an
+                    inconsiderable stream, the greater part of its waters being then collected into
+                    reservoirs for the supply of machinery.</p>
+                <p part="N">The Forth is navigable as far as it forms the boundary of this county.
+                    Ships of 500 tons burden run up as far as Alloa. Its windings, or <hi
+                        rend="italic">links</hi> as they are called, are very remarkable. The
+                    distance from the quay of Alloa to that of Stirling, measured in the middle of
+                    the stream, is seventeen miles, and to the bridge of Stirling it is nineteen and
+                    a half, whereas the distance by land from the latter place to Alloa does not
+                    exceed seven miles. A little above Alloa there are three islets in the river,
+                    the largest containing more than seventy aeres. A remarkable ledgc of roek
+                    stretches across the Forth below the two smaller islets, which obstructs the
+                    passage of vessels of more than sixty tons burden, and where it is fordable at
+                    low water of spring tides. The breadth at this place being only about 500 yards,
+                    it was long since proposed to throw a bridge over it, the expense of which was
+                    estimated at L.70,000. Mr Rennie, the celebrated engineer, made a survey with a
+                    view to a bridge at the Alloa ferry, which he declared to be pracfieable at an
+                    expense of L. 150,000; a work which has never been attempted. The passage,
+                    however, has of late been improved by means of new piers and a steam boat. The
+                    estuary of the Forth, for several miles above and below Clackmannan, exhibits a
+                    singular phenomenon in its tides, which rise there from sixteen to twenty-two
+                    feet. During neap tides in good weather, and sometimes also during spring tides,
+                    if the weather be uncommonly fine, after the water has flowed for three hours,
+                    it retires in an hour and a half, nearly as far as the line from which it had
+                    begun t□ flow, but returns immediately, and, in an hour and a half more, reaches
+                    the same height it had attained before. This flux and reflux takes place both in
+                    the flood and ebb tides, so that double the usual number of tides occur in this
+                    part of the river. In very boisterous weather, however, these <hi rend="italic"
+                        >lecky tides,</hi> as they are called by sailors, are not regular, the water
+                    then only rising without any perceptible current, as if two tides were acting
+                    against each other.</p>
+                <p part="N">The soils of the arable land of Clackmannanshire arc in general
+                    productive and well cultivated; though the greater part of the elevated range
+                    which is interposed between the earse lands on the Forth, and the vale of Dovan
+                    at the base of the OEhils on the north, consists of inferior soils, often
+                    incumbent on an impervious elay. All the crops commonly raised in Scotland grow
+                    luxuriantly on either side of this tract, which also contains within itself a
+                    considerable proportion of valuable soil. From the rental of the abbacy of
+                    Cambuskenneth, founded in 1147, it appears, that wheat was cultivated on the <hi
+                        rend="italic">links</hi> of the Forth at a very early period; yet it is
+                    certain that fifty years ago fields of this grain were only occasionally to be
+                    met with in the county. As a proof how early and well the earse lands near Alloa
+                    had been cultivated, it may bc mentioned, that more than a century ago some
+                    farms in that quarter paid as much grain and 6ther kinds of produce, in name of
+                    rent, as the present money-rent of similar soils would purchase at the average
+                    prices of the last twenty-five years. The farms would be thought small in other
+                    counties; few of the arable ones exceeding 200 Scotch or 250 English acres, and
+                    the far greater number being below 100 acres. The rent of the county was
+                    returned to the collector of the property-tax for the year ending in April 1811,
+                    at L.32,047. 12s., so that, after making allowance for that part of the surface
+                    which is covered by water, or otherwise altogether unproductive, every acre must
+                    have paid at least 20s. upon an average of all soils and situations. At the same
+                    time, the rent of the houses was stated at L.2827. 5s. The old valuation, by
+                    which the land-tax and county-rates are apportioned, is L.26,482.10s. 10d.
+                    Scots, or L.2206. 17s. 7d. sterling, of which somewhat more than a third belongs
+                    to estates held under entail. The richest earse land under current leases now
+                    (1832) lets for three bolls a Scotch acre, half wheat and half barley, payable
+                    by the fiars, and in the measure of the county. Good carse land commonly rents
+                    at three bolls an acre, one of which is wheat, one barley, and one oats. The
+                    first effective thrashing machine in Scotland was constructed at Kilbagie, in
+                    the parish of Clackmannan, in 1787, by Mr Georgc Meikle, the son of its
+                    celebrated inventor; and the last one, it is believed, at which old Meikle
+                    himself worked, is on the estate of the Earl of Mar, near Alloa. One of the
+                    greatest disadvantages which the agriculture of this district labours under is
+                    the want of limestone, of which, however, very large quantities are <pb
+                        break="no" facs="nls:193356376?mode=fullsize" xml:id="kp-eb0706-6376-0721"/>
+                    brought from Dunbar and other places on the Forth, and afterwards calcined in
+                    the county, where coal is always plentiful and cheap. Limeshells are also
+                    imported to a considerable extent from the Earl of Elgin’s works in Fife.</p>
+                <p part="N">This small county is rich in minerals. Silver, copper, lead, iron-ore
+                        <hi rend="italic">(Jiaematites),</hi> cobalt, and arsenic, have all been
+                    discovered in the Ochil Mountains, between Λirthry and Dollar; but, after having
+                    been wrought for a time with little success, the labour was discontinued. The
+                    operations, however, were not conducted upon an extensive scale; in no instance
+                    did the miners penetrate below the level of the plain from which the Ochils
+                    rise; and it is still believed that these hills abound in valuable metallic
+                    veins, ready to reward more skilful and enterprising adventurers. The hazard
+                    would be in working for silver, as it is found chiefly in detached nodules.
+                    Ironstone is wrought to a considerable extent for the Devon iron-works, in the
+                    parish of Clackmannan. It is found either in strata, or in detached oblate
+                    balls, imbedded in the schist, and yields from 25 to 30 per cent, of iron. That
+                    obtained from the mine now opened at Vicar’s Bridge, near Dollar, affords, it is
+                    said, above 40 per cent. The quantity of ironstone extracted in 1830 was 14,500
+                    tons.</p>
+                <p part="N">The Abbey Craig, near Stirling, a great mass of greenstone rock,
+                    crystallized in the internal structure, and rudely columnar in its external
+                    appearance, deserves to be particularly noticed, in this view of
+                    Clackmannanshire, from its having afforded a very useful substitute, in the
+                    manufacture of flour, for the French bur-stones, which it was so difficult to
+                    procure during the late war. This discovery was made by a miller of the name of
+                    James Brownhill, then employed at the Alloa mills. Several hundreds of these
+                    millstones are now working both in England and Scotland, and are found to be in
+                    some respects superior to the burs. The Society for the Encouragement of Arts in
+                    London presented this ingenious person with a hundred guineas for his discovery,
+                    after they had received the most satisfactory proofs of its great
+                    importance.</p>
+                <p part="N">Coal has been wrought for two hundred years in this county. The quantity
+                    at present annually obtained may be estimated at 160,000 tons, of which a great
+                    part is shipped for Leith, Dunbar, Tay water, and foreign ports. In the scale of
+                    working, the collieries stand thus: 1. Alloa; 2. Sauchy; 3. Clackmannan; 4.
+                    Dollar; 5. Tillicoultry; 6. Kennet. It is all either cubical or slate coal, both
+                    being often found in the same bed, of an open burning quality; and no smithy or
+                    caking coal has yet been discovered. The thinnest seam which has been wrought is
+                    twenty-seven inches thick; and in a depth of 105 fathoms there are nine scams of
+                    more than this thickness. The pit opened this year (1832) at Hill End, near
+                    Clackmannan, contains a seam six feet eight inches in thickness. The strata
+                    which compose the coal-field are varieties of sandstone, argillaceous schistus,
+                    fire-clay, and argillaceous ironstone. Limestone is found among the lowest veins
+                    of the coal strata. Organic remains of shell-fish and plants abound in them; and
+                    of the latter, many are of a kind now found only in the equatorial regions.
+                    Carbonic acid gas, termed choke-damp, is the most abundant of the noxious
+                    vapours found in the coal mines of this field. Hydrogen gas, or inflammable air,
+                    was never known here till lately, and it is still in small quantity. The great
+                    coal-field of Scotland, which passes in a diagonal line from the mouths of the
+                    Forth and Tay to the Irish Sea, is bounded by the Ochils. No coal has been found
+                    to the north of them, excepting at Brora, in the county of Sutherland.</p>
+                <p part="N">Machinery for drawing water from the mines was constructed and much
+                    improved in this county, before the invention of the steam-engine. The Alloa
+                    colliery is drain ed by an overshot water-wheel, 30 feet diameter, which lifts
+                    the water from the depth of 300 feet. The Sauchy collieries are drained by
+                    powerful steam-engines; that employed by the Devon Company is capable of raising
+                    10,000,000 gallons of water in twenty-four hours, from the depth of 280 feet. At
+                    the Alloa colliery there is an improved cast-iron railway, of about two and a
+                    half miles in length, upon which a horse takes down eight waggons with as many
+                    tons of coals. The general price paid for working great coal is from 2s. to 3s.
+                    per ton; and the selling price on the hill 6s. 8d., which is said to yield but a
+                    very small return to the coal-master.</p>
+                <p part="N">At the Alloa colliery the workmen have fora great number of years had a
+                    court, composed of five of their own number, appointed annually by the
+                    proprietor of the works. By this court all differences amongst themselves are
+                    settled. The highest fine exacted is half a guinea, and all the fines are put
+                    into a general fund for the support of the poor.</p>
+                <p part="N">Under the head of manufactures, the distilleries of this county form by
+                    far the most prominent and considerable branch. In this small district there
+                    were, twenty years ago, no fewer than six large distilleries. Of these, Kilbagie
+                    and Kennetpans paid to government an excise-duty greater than the land-tax of
+                    Scotland; the former alone ξ&gt;aying no less at one time than about half a
+                    million sterling. <hi rend="superscript"> 3</hi> reviously to 1788, the quantity
+                    of grain annually consumed at Kilbagie exceeded 60,000 bolls (45,000 quarters);
+                    while 7000 cattle and 2000 swine were fattened upon the grains and dreg. The
+                    saving in the stock of food for man, effected by the stoppage of the
+                    distilleries, is therefore much less considerable than has been imagined; an
+                    acre of barley used in distillation yielding nearly as much animal food as an
+                    acre of middling pasture. It is understood that cattle may be fattened in a
+                    complete manner, in the proportion of two, of 50 stones avoirdupois each, for
+                    every gallon of a still, when working from grain; affording the means, at the
+                    same time, of enriching the soil for future crops, by the abundance and good
+                    quality of the manure they produce. The effects which distilleries produce on
+                    the morals of the neighbourhood is another question.</p>
+                <p part="N">The other manufactures of Clackmannanshire, though numerous, are not
+                    conducted upon so very extensive a scale. At the Devon iron-works, already
+                    noticed, about sixty tons of pig iron are prepared weekly, only a small part of
+                    which is used by the foundery at these works. In the parish of Dollar, on the
+                    banks of the Dovan, a bleachfield was established in 1787, of which the water
+                    and the machinery are excellent. The cloth bleached here consists chiefly of the
+                    fine table linen manufactured at Dunfermline. There is a very complete set of
+                    corn-mills at Alloa, and there are mills for various purposes in several parts
+                    of the county. In the same town, and in the neighbourhood, there are five
+                    breweries, a glass work, a copper work, a rope and sail manufactory, a tannery,
+                    a tile and brick work; and this year (1832) a steam-engine manufactory has been
+                    commenced.</p>
+                <p part="N">The port of Alloa is well situated for commerce, and has a substantial
+                    well-built quay, and, a little above the harbour, a dry dock capable of
+                    receiving vessels of large burden; the depth of the water at spring-tides being
+                    sixteen feet, and the width of the gates thirty-four and a half. There is a
+                    custom-house here, which comprehends the ports of Stirling and Kincardine, and
+                    Clackmannan Pow, and at which 155 vessels were registered in 1831, carrying
+                    19,000 tons, and navigated by 1020 men. There are cleared outwards annually, on
+                    an average, from 1100 to 1200 vessels, carrying 55,000 tons, and employing about
+                    3300 seamen; and inwards, about 700 vessels, carrying 32,000 tons, and 1800 men.
+                    The principal exports are <pb break="no" facs="nls:193356389?mode=fullsize"
+                        xml:id="kp-eb0706-6389-0722"/>eoals, about 65,000 tons, pig and cast iron,
+                    alcs for London, and British spirits. In 1830, 430,000 gallons of spirits were
+                    shipped for the English market; and in the same year, the excise duties,
+                    customs, and taxes rceeived in Alloa, and paid into the exchequer, amounted to
+                    L.244,097. The annual imports consist, for the most part, of grain for the
+                    distilleries and breweries, of which a great proportion is barley from the
+                    county of Norfolk, and goods from Leith, Glasgow, Greenock, and London. Timber,
+                    iron, and other commodities, arc occasionally imported from the Baltic. The
+                    establishment of packets betwixt Alloa and Leith is likely to prove of much
+                    benefit to this district, from the low rates at which goods are transported. A
+                    most convenient and expeditious conveyance for passengers, by means of
+                    steam-boats, has been recently introduced, with great success, between Newhaven
+                    and Alloa, and other places on the Forth.</p>
+                <p part="N">Among the antiquities of this county may be mentioned the ruins of
+                    Castle Campbell, originally called Castlc Gloom, in a singularly wild and almost
+                    inaccessible situation, within a recess of the mountains, above the village of
+                    Dollar. The period of its erection and its early history are unknown. It became
+                    the property of the Argyll family in 1465, from whom it derived its present
+                    name, and was the ordinary residence of Archibald earl of Argyll at the time of
+                    the Reformation. In this stronghold John Knox found a temporary retreat. In 1644
+                    it was burned by Montrose, and since that time it has been suffered to remain in
+                    ruins. The tower of Alloa, built prior to the year 1300, the residence of the
+                    Erskines, earls of Mar, and now belonging to the representative of that noble
+                    family, is in good preservation. -The walls are eleven feet in thickness, and
+                    the highest turret is eighty-nine feet above the ground. The tower of
+                    Clackmannan was long the scat of the chief of the Bruces after the failure of
+                    the male line. There is a charter, dated the 9th of December 1359, quoted by
+                    Douglas, in which Dgvid II. grants to Sir Robert Bruce, whom he there styles his
+                    dearly beloved re-∣ lation, the castle and manor of Clackmannan, with divers
+                    other lands within the county. Since the death of Henry Bruce of Clackmannan, in
+                    1772, leaving no male representative, it has been made a question whether the
+                    Earl of Elgin or Bruce of Kennet be now the chief of that royal race.</p>
+                <p part="N">Clackmannanshire sends a member to parliament, conjunctly with the
+                    county of Kinross. By the reform bill, there are annexed to Clackmannanshire,
+                    for the purposes of election, the parishes of Culross and Tullyallan, formerly
+                    comprehended in the county of Perth; Alva, formerly belonging to Stirling; and
+                    the Perthshire portion of Logie. This arrangement will increase the population
+                    to 21,392 souls. Clackmannanshire thus comprehends eleven parishes, the
+                    constituency of which, as determined by the sheriff, is as follows :—</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Alloa parish</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">172</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Clackmannan</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">60</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Dollar</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">36</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Logie, part of</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">51</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Tillicoultry</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">27</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Alva</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">27</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Culross</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">31</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Tullyallan</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">87</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">491</p></cell>
+                    </row>
+                </table>
+                <p part="N">There is no royal burgh in this county. Clackmannan, which gives its
+                    name to the county, is the only town in it besides Alloa deserving of
+                    notice.</p>
+                <p part="N">There is no legal assessment here for the poor. The total number of poor
+                    in 1812 was 193, who received L.677, or nearly L.3. 10s. each, from interest of
+                    money, collections at the church doors, and voluntary contributions by the
+                    heritors and inhabitants. The population of Clackmannanshire in 1811, 1821, and
+                    1831, is exhibited in the following abstracts:—</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N"><hi rend="smallcaps"
+                                    >years'.</hi></p></cell>
+                        <cell cols="3" role="data" rows="1"><p part="N">HOUSES.</p></cell>
+                        <cell cols="3" role="data" rows="1"><p part="N">OCCUPATIONS.</p></cell>
+                        <cell cols="3" role="data" rows="1"><p part="N">PERSONS.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N"><hi rend="superscript">
+                                    r</hi> 0</p><p part="N">0»</p><p part="N">’JS</p><p part="N"
+                                >G5</p><p part="N">AE</p><p part="N">Ö</p><p part="N">HH</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">By how many Families
+                                occupied.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N"><hi rend="superscript">
+                                    r</hi> c3</p><p part="N">α&gt;</p><p part="N">⅛ +3</p><p
+                                part="N">S</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Families chiefly employed in
+                                Agriculture.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Families chiefly employed in
+                                Trade, Manufactures, or Handicraft.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">All other Families not
+                                comprised in the two preceding classes.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Males.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Females.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Total of Persons.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1811</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1995</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2781</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">99</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">280</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">893</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1608</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">5715</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">6295</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">12,010</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1821</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2145</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2881</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">62</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">434</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1418</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1029</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">6356</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">6907</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">13,263</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1831</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2391</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">3354</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">85</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">385</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1302</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1665</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">7095</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">7634</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">14,729</p></cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI>

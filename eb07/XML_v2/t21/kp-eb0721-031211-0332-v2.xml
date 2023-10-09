@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0721-0332-0312-11" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">TIPPERARY</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1028334">Mountaineering</term>
+                    <term ref="fast:1028364">Mountaineers</term>
+                    <term ref="fast:1028366">Mountains</term>
+                    <term ref="fast:931268">Foot</term>
+                    <term ref="fast:835558">Bogs</term>
+                    <term ref="fast:1079920">Protestantism</term>
+                    <term ref="fast:978902">Irish</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:843075">Butlers</term>
+                    <term ref="fast:1126696">Sons</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1205427">Ireland</term>
+                    <term ref="fast:1219920">England</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b43n20j3f">Mountains</term>
+                    <term ref="lcsh1910:b4wm1410b">Mountaineering</term>
+                    <term ref="lcsh1910:b4319s59c">Foot</term>
+                    <term ref="lcsh1910:b4kk94c35">Extents</term>
+                    <term ref="lcsh1910:b4dr2p79d">Land</term>
+                    <term ref="lcsh1910:b4bk16r27">Protestantism</term>
+                    <term ref="lcsh1910:b4tt4fz4p">Irish</term>
+                    <term ref="lcsh1910:b4rr1pp2k">Cross</term>
+                    <term ref="lcsh1910:b4bg2hb1f">Bogs</term>
+                    <term ref="lcsh1910:b4z892g7x">Chapels</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ht:chi.12945678&amp;view=1up&amp;seq=332" org="uniform" part="N"
+                sample="complete" type="entry">
+                <p part="N"><label type="entry">TIPPERARY</label>, an inland county in the province
+                    of Munster, in Ireland, is bounded on the north by Galway and King’s counties;
+                    on the east by King’s, Queen's, and Kilkenny; on the south by Waterford and
+                    Cork; and on the west by Cork, Limerick, and Clare. It extends from 52° 11’ to
+                    53° 10' north latitude, and from 7° 23’ to 8° 25’ west longitude; being about
+                    seventy miles in its greatest length, on a meridional line, from the confluence
+                    of the Lesser Brosna and Shannon, north, to the Knockmeledown Mountains, south,
+                    and forty miles from O’Brien’s Bridge, on the Shannon, west, to Urlingford,
+                    east, and comprehending an area of 1583 square miles, or 1,013,173 acres, of
+                    which 819,618 are cultivated, 182.147 mountain and bog, and 11,328 under water.
+                    It ranks as the sixth county in Ireland as to its total extent, and the fourth
+                    as to its extent of cultivated land.</p>
+                <p part="N">According to the statement of Ptolemy, this district was inhabited in
+                    the second century by the tribes of the Darini and Coriundi, but Whitaker
+                    attributes it to the Scoti. It was afterwards possessed by various native septs,
+                    the principal of which were those of O’Kennedy, O’Mulrian, O’Fogarty,
+                    O’Heffernan, O’Hickey, M'Egan, Everard, <pb break="no"
+                        facs="ht:chi.12945678&amp;view=1up&amp;seq=333" xml:id="kp-eb0721-0333-0313"
+                    />Mathew, and Woulfe. Subsequently to the year 1172, it was granted by Henry
+                    1I., who obtained possession of it after several sanguinary contests, to
+                    Theobald Fitz-Walter, surnamed Butler, from the office which he held in the
+                    king’s household. It was reduced to the form of an English county by King John
+                    in 1210, and in 1328 Edward III. erected it into a county palatine, in favour of
+                    the first earl of Ormond; and though that king shortly after re-assumed the
+                    regal prerogatives, they were regranted in 1337, and in 1372 confirmed, to James
+                    the son of Theobald, and his heirs male for ever. This grant affected only the
+                    lay lands of the county, those belonging to the church being a separate
+                    jurisdiction, with its own courts and officers, under the name of the county of
+                    the Cross of Tipperary. The county continued to be thus divided both in fact and
+                    name until after the restoration, when the grant of the regalities was not only
+                    confirmed to the duke of Ormond by Charles II., but extended over the whole of
+                    the county. The jurisdiction continued in the family till the attainder of the
+                    last duke of Ormond, in consequence of which the whole of the ducal property
+                    reverted to the crown, the palatinal rights were abolished, and the records
+                    belonging to it deposited in the king’s courts of chancery and common pleas,
+                    where they still remain. The county suffered greatly during the civil wars of
+                    1641, in the course of which the town of Clonmell, after a gallant resistance,
+                    obtained honourable terms from Cromwell, who conducted the siege in person.</p>
+                <p part="N">The surface is much varied. To the south it. rises into the range of the
+                    Knockmeledown Mountains, the highest summit of which is 2698 feet above sea
+                    level. North of these are the Galtees, the highest of which, Galtymore, rises to
+                    an elevation of 3008 feet. Proceeding still farther north, are the
+                    Slievenamanagh Mountains, 2582 feet high: the Keeper, 2265; Arragh, 1558; and a
+                    portion of the Devil’s Bit, 1572; the remainder of which last-named range
+                    extends north-easterly, forming the line of demarcation between King’s and
+                    Queen’s counties. The rest of the county presents an undulating surface, seldom
+                    perfectly level, and in some parts rising into hills of some elevation, the most
+                    considerable of which are the Slieveardagh Hills, bordering Kilkenny county, and
+                    Slievenamuck, near the base of which the town of Tipperary is situate. The only
+                    large river that passes through the county is the Suir, which has its source in
+                    the last-named range of mountains, near Roscrea, and after flowing in a southern
+                    direction, by Templemore, Thurles. and Cahir, to Ardfinnan, takes a western
+                    course by Clonmell, and, passing through Carrick-on-Snir, enters the county of
+                    Waterford, and discharges itself into the Atlantic through the estuary of
+                    Waterford harbour. The Shannon forms part of the western boundary of the county,
+                    from its most northern point, at the junction of this river with the Lesser
+                    Brosna, through its expansion called Lough Derg, and thence to O’Brien’s Bridge.
+                    The Lesser Brosna is the northern boundary from Parsonstown to the Shannon, and
+                    the Nore traverses a small portion of the north-east of the county. There are no
+                    lakes of any extent; three of small size, worthy of notice chiefly from their
+                    shape and romantic position, lie in the glens of the Galtees.</p>
+                <p part="N">The mountains are mostly composed of clay-slate, surrounded by
+                    sandstone; those of Knockmeledown are also capped with horizontal strata of this
+                    latter mineral. The part of the Devil’s Bit range which projects into the county
+                    is wholly sandstone, as are also the groups of the Galtees and Slievenamuck. The
+                    beds of the latter range horizontally, so as to furnish large quantities of
+                    excellent flags from the quarries there. Slates of good quality are raised in
+                    the district adjoining the southern extremity of Lough Derg, and carried in
+                    large quantities to various distant places by the Shannon navigation. There is
+                    also a very extensive and valuable slate-quarry near Clonmell, which enjoys
+                    cqual fa cilities of transport by the Suir. In the east of the county, from
+                    Killenaub eastward, is a coal-field, generally considered to be an offset or
+                    continuation of that in Kilkenny and Queen’s counties. The seams, which lie
+                    between slrata of sandstone and shale, are in some cases single, in others
+                    double, and even treble. The thickness of those in the Coal-brook mines, which
+                    have been long worked, is from one to two feet. The produce of these works
+                    consists of one fourth coal and three fourths culm. The former is in
+                    considerable demand for manufacturing purposes, being highly esteemed on account
+                    of the large portion of pure carbon contained in it; the latter is equally so
+                    for making lime, and is also used for culinary purposes when wrought up into
+                    balls with clay. Ironstone, though found in large quantities in the Coalbrook
+                    works, is not applied to any profitable account. The village of Silvermines, on
+                    the northern side of the Keeper Mountains, derives its name from the mines of
+                    silver in its neighbourhood, which at a former period had been largely worked,
+                    as were copper-mines in the same neighbourhood; but both have been relinquished.
+                    Copper was also raised at Lacka-more, near Newport, but with a similar result.
+                    Zinc, manganese, malachite, galena, and white lead, have been found in various
+                    places. The natural caves discovered in 1833 in a low limestone hill, near the
+                    southern base of the Galtee Mountains, and about midway between Cahir and
+                    Mitchels-town, present a peculiar feature in the geology of the county. They are
+                    entered by a passage sloping downwards, about 200 feet in length, which opens
+                    into a subterraneous chamber nearly eighty feet long and upwards of thirty at
+                    its greatest height; whence proceed other passages communicating with a number
+                    of interior caves of various sises, that have obtained names chiefly from their
+                    discoverers, or from some peculiar resemblance, whether real or fanciful, to
+                    objects of general notoriety. Their roofs, sides, and floors are adorned with a
+                    great variety of stalactites of singular appearance, and in some parts there are
+                    small reservoirs of the purest water. The number of these apartments has not yet
+                    been accurately ascertained; nor has a detailed geological account of the
+                    interior yet appeared. They are generally known by the name of the Mitchelstown
+                    caves from their vicinity to that town, and are objects of much care to Lord
+                    Kingsborough, on whose estate they were discovered. The level part of the county
+                    is chiefly limestone, constituting one extremity of the great field of that
+                    formation, which spreads over all the central portion of Ireland. Its most
+                    striking peculiarity is the rock of Cashel, consisting of a mass of limestone
+                    arranged in concentric strata, rising precipitously from the surrounding
+                    plain.</p>
+                <p part="N">The soil in the plain country, and in the extended valleys, is a rich
+                    calcareous loam, capable of producing the finest crops with little aid from
+                    human industry. The town of Tipperary forms the centre of a tract of flat
+                    country lying between the Galtee and Slievenamanagh ranges, and extending from
+                    the county of Limerick westward to Golden and the Slieveardagh Hills in the
+                    opposite direction, which, from its extraordinary fertility, has been called the
+                    Golden Vale. Another tract of similar character, but not so extensive, lies in
+                    the northern baronies of Ormond. The soil on the hills and mountain sides is
+                    light and poor, partaking much of the character of the substrata of clay-slate
+                    and sandstone on which it rests. The southern extremity of the great Bog of
+                    Allen spreads itself into this county in its north-eastern quarter, from Roscrea
+                    to Holycross, not however in one continuous sheet, but in detached portions. It
+                    appears to have owed its origin to the obstructions in the channel of the Nore,
+                    a small portion of which skirts the county here. The whole of these detached
+                    portions of be; contains 35,000 acres, the most elevated part of their surface
+                    being about 400 feet above the sea, and therefore perfectly capable of drainage.
+                    The timber found here is chiefly fir. yew, and oak, the latter perfectly black,
+                    from the action of <pb break="no"
+                        facs="ht:chi.12945678&amp;view=1up&amp;seq=334" xml:id="kp-eb0721-0334-0314"
+                    /> the iron in the bog-water, or the gallic acid in the tree. The substratum is
+                    universally limestone or gravel. In one of these bogs three growths of timber
+                    have been found lying under one another; the upper about five feet from the
+                    surface, the middle about two feet lower, and the third, which is always in a
+                    more or less decomposed state, near the gravelly bottom. The land in the
+                    neighbourhood of the bog tract is generally swampy, producing little but reeds
+                    and other aquatic vegetables. The sides of the valleys, watered by the streams
+                    that pass through the bog and marshes, throw up a good herbage without any
+                    artificial aid, except that of setting fire to the surface in the heat of
+                    summer. The heath and moss are thus destroyed, and scope is given to a
+                    spontaneous growth of grass, on which cattle feed eagerly in all seasons, bat
+                    chiefly in summer, the cool and moist sward being peculiarly grateful to their
+                    feet. Several tracts near the margin of the bog have been reclaimed, and the
+                    process is extending, although slowly, owing to the obstructions arising from
+                    individual interests, to a general and effective system of drainage. There is
+                    little, if any, native timber; but plantations, sometimes very extensive, are to
+                    be seen around all the gentlemen’s seats and the residences of the wealthier
+                    farmers. The growth of timber thus raised is as yet by no means sufficient to
+                    remove the appearance of bareness which the landscape, otherwise abounding in
+                    natural beauties, exhibits.</p>
+                <p part="N">The progressive increase of the number of inhabitants appears from the
+                    following table of the population as taken at different periods.</p>
+                <p part="N">Year. Authority. No,</p>
+                <p part="N">1760 De Burgo 101,370</p>
+                <p part="N">1792 Beaufort 169,000</p>
+                <p part="N">1812 Parliamentary census...290,531</p>
+                <p part="N">1821 Ditto 346,896</p>
+                <p part="N">1831 Ditto 402,538</p>
+                <p part="N">According to the latest of these returns, the population is to the
+                    entire surface as 1 to 2∙517, and to that of the number of cultivated acres as 1
+                    to 2∙036. There is therefore a family of six individuals to every fifteen acres
+                    of the total surface, and to every twelve acres of cultivated land. According to
+                    the census taken by the commissioners of public instruction in 1834, which being
+                    calculated by dioceses, allows only an approximation to accuracy as compared
+                    with those calculated by counties, the total population amounted, in round
+                    numbers, to 413,000, of which 16,840 were of the established church, 660
+                    Protestant dissenters, and the remaining 395,500 were Roman Catholics, who were
+                    then to the total Protestant population as twenty-three to one. The number of
+                    children receiving instruction in the public schools, according to returns made
+                    under the population act in 1821, the commission of education in 1824·6, and the
+                    latest rcturn of the commission of national education, was,</p>
+                <p part="N">Year. Males. Females. Sex not ascertained. Total.</p>
+                <p part="N">1821 14,160 6,586 20,746</p>
+                <p part="N">1824·6 29,941 12,188 547 33,676</p>
+                <p part="N">1837 3,694 2,588 6,282</p>
+                <p part="N">The return of 1824·6 is the only one in which the religious persuasion
+                    of the pupils is noticed. According to it the numbers were, members of the
+                    established church 2871, Protestant dissenters eighty-four, Roman Catholics
+                    30,407, religion not ascertained 314, which gives an average of thirty Roman
+                    Catholics to one Protestant. In the same return the total number of schools is
+                    stated to be 657, of which forty-three, affording instruction to 2747 pupils,
+                    were maintained wholly by grants of public money; seventy-one, with 5256 pupils,
+                    by voluntary subscriptions; and the remaining 543, with 25,673 pupils, wholly by
+                    the fees of the pupils.</p>
+                <p part="N">The county is divided into the eleven baronies of Clan william,
+                    Eliogarty, Iffa and Offa East, Iffa and Offa West, Ikerrin, Kilnemanagh,
+                    Middlethird, Lower Ormond, Upper Ormond, and Slieveardagh, which are subdivided
+                    into 189 parishes, of which ninety-six were in the diocese of Cashel, twenty in
+                    that of Emly, thirty-two in Lismore, and forty-one in Killaloe. The cathedrals
+                    of the dioceses of Cashel and Emly are both within the county, in places from
+                    which the sees have received their names. The former, which retains the rank of
+                    a city, is still a place of some note; the latter, though said to be the ancient
+                    Imlagh, noted by Ptolemy as one of the three principal cities in the island, is
+                    now an inconsiderable village, with a population of 701 souls. Under a late
+                    order of council, the county has been divided into two ridings. It returned
+                    eight members to the Irish parliament, two for the county, and two for each of
+                    the boroughs of Cashel, Clonmell, and Fethard. The number was reduced to four by
+                    the act of union, which disfranchised the last-named borough, and deprived each
+                    of the others of one of its members. The constituency of the county, at several
+                    periods since the disfranchisement of the forty-shilling freeholders in 1829, is
+                    as follows:</p>
+                <p part="N">Year. L.50. L.20. L.10. Total.</p>
+                <p part="N">1831 2015 411 475 2901</p>
+                <p part="N">1832 2360</p>
+                <p part="N">1834 2369</p>
+                <p part="N">The local government is under the control of a lord lieutenant,
+                    twenty-eight deputy-lieutenants, and 118 other magistrates, besides eight
+                    stipendiaries specially appointed, and receiving salaries from the crown; under
+                    whom is a constabulary force, which in 1836 consisted of twelve chief constables
+                    and 686 constables and subconstables, and, since the division of the county, of
+                    one county inspector, six sub-inspectors, seven head constables, and 351
+                    constables and subconstables for the north riding, and one county inspector,
+                    seven subinspectors, ten head constables, and 391 constables and subconstables
+                    for the south. The county prison, at Clonmell, is ill adapted for carrying into
+                    effect the improvements now generally introduced into the prisons of Ireland. A
+                    prison for the north riding is at present building in Nenagh. The number of
+                    committals in 1839 was 2110, of whom 1164 were acquitted or liberated for want
+                    of prosecution, and 946 were convicted. Of this latter class, 256 were fined or
+                    liberated on securities, 608 imprisoned, seventy-three transported, and nine
+                    sentenced to death, of whom four were executed. Besides the convictions above
+                    stated, 583 were convicted before the magistrates at petty sessions for trivial
+                    offences, and 3889 for intoxication. The total number of convictions is to the
+                    population as one to sixty-three, and of convictions for capital or
+                    transportable offences as 1 to 5037. The county infirmary, fever hospital, and
+                    lunatic asylum, are also in Clonmell. The last-named institution maintains
+                    ninety-nine patients, fifty-five male and forty-one female. Of the cases there
+                    are, idiots four, epileptic one, curable maniacs sixty, incurable thirty-one;
+                    besides which there are in the Clonmell house of industry nineteen cases of
+                    idiocy and seven of epilepsy. The sites of the work-houses under the new
+                    poor-law act have been fixed at Carrick-on-Suir, Cashel, Clogheen, Clonmell,
+                    Nenagh, Roscrea, Thurles, and Tipperary.</p>
+                <p part="N">The modes of agriculture are regulated by the character of the soil and
+                    the face of the country. Tillage prevails in the lowland districts, and is
+                    carried on with much spirit, and in general according to the most modern
+                    systems. The size of the farms is generally small, averaging at about fifty
+                    acres, and in many instances diminishing to eight or ten, in consequence of the
+                    subdivision of land among the under tenants. The rotation adopted on the rich
+                    lands in the Golden Vale, and in the almost equally fertile districts in the
+                    northern parts of the county, is, potatoes, wheat, and oats; in the lighter
+                    soils, as on the Slieveardagh Hills, and the mountain sides, on which the use of
+                    the plough is yearly <pb break="no"
+                        facs="ht:chi.12945678&amp;view=1up&amp;seq=335" xml:id="kp-eb0721-0335-0315"
+                    />encroaching on the ancient pasturages, as far up as the nature of the soil
+                    favours the exertion of agricultural industry, the crops are potatoes, barley or
+                    bere, and oats. In too many instances the repetition of the oat crop is
+                    continued until the land is completely exhausted, when it is allowed to rest
+                    until the renovating powers of nature clothe it with a new sward. Artificial
+                    grasses are much encouraged; clover of both kinds, rye and other grass-seeds,
+                    are sown, as are rape, vetches, and turnips. Flax is seldom to be seen but in
+                    detached patches, or along the head-lands of the corn-fields. Lime, and
+                    limestone gravel, the latter taken from the escars in the eastern parts of the
+                    county, are the principal manures. The fences are stone-walls, or mounds of
+                    earth eight or ten feet broad at the base, and tapering upwards to a
+                    considerable height, with a topping of furze or whitethorn. The latter plant is
+                    also employed as a ground fence in the best-regulated estates. Owing to the
+                    undulating character of the surface, drainage is less necessary. Where it is
+                    adopted, and especially in the pasture lands, a covered drain is used, which is
+                    so narrow, and sunk so low, as not to be injured by the pressure of the feet of
+                    the cattle on the surface sod. Agricultural instruments of the most approved
+                    construction are in use among the better classes of farmers, and machines for
+                    the abridgement of human labour arc employed in many places. The rich low lands
+                    along the banks of the river are generally under meadow, and produce abundant
+                    crops of hay. The lands appropriated to pasture are used both as grazing and
+                    dairy farms. Butter, which is made to a great extent, finds a ready market at
+                    Clonmell, Waterford, and Limerick. The manufacture of cheese is almost unknown.
+                    The breed of Irish cows is still kept up, in consequence of the quantity of milk
+                    which they yield. They are sometimes reared without any mixture of other breeds,
+                    sometimes with a cross of the Holderness or Devon. The horses bred in the county
+                    are highly esteemed, and bring good prices. For agricultural purposes, asses and
+                    mules are much used by the small farmers, as being more hardy, and thriving on
+                    coarser food. The former of these are of larger size than those in other parts
+                    of the country. Swine are to be met with everywhere; they form an important part
+                    of the farming stock of the landholders, from the highest to the lowest, and are
+                    exported in great numbers to England. Sheep are less numerous, either because
+                    the quality of the soil is not well suited to them, or because the subdivision
+                    of the lands into small fields, and the want of substantial fences in the
+                    smaller farms, prevent their being much encouraged. Though a great deal has been
+                    latterly effected in the way of agricultural improvement in both its main
+                    branches of tillage and pasturage, much more is still required in order to draw
+                    forth all the capabilities with which the bountiful hand of nature has enriched
+                    this tract.</p>
+                <p part="N">The manufacture of woollen cloth was formerly carried on to a great
+                    extent, particularly in the neighbourhood of Clonmell and Carrick, which were
+                    the two principal marts of the trade; but in consequence of the legislative
+                    arrangements made after the revolution, for the suppression of that branch of
+                    national industry in Ireland, it has declined so as now to be nearly extinct; a
+                    small trade in blankets, flannels, and a mixed light cloth called ratteens,
+                    being the only vestige of its existence. Many efforts have been made to
+                    introduce the linen manufacture as a substitute. Grants of implements and
+                    premiums were offered by the Irish linen board appointed to encourage and foster
+                    the manufacture. Much of the funds sent into the country from England during
+                    periods of famine were employed to turn the course of industry, particularly
+                    among the females, into this channel, but to no purpose. The culture of flax, as
+                    already stated, is but little attended to, the plant being raised in small
+                    quantities, and manufactured merely for domestic use, in which it is also more
+                    and more superseded every year by the increasing demand for cotton fabrics.
+                    There is a cotton factory at Clonmell. The staple manufacture of the county is
+                    that of flour, for which there are numerous mills. The abundant supply of the
+                    raw material from the rich valleys and champaign lands, and the numerous sites,
+                    with a great command of water-power on the many branch-streams that feed the
+                    main rivers, afford facilities of which due advantage has been taken; and the
+                    export of flour is consequently the main stimulus to industry, and a great
+                    source of internal wealth. Many plans have been devised to increase this wealth
+                    by increasing the facilities for transmitting agricultural produce throughout
+                    the country, and to the great marts. The generally level yet undulating surface
+                    of the land affords adequate scope for carrying on lines of inland navigation,
+                    and extending railway communications. Both have been subjects of consideration.
+                    A canal was projected to form a continuation of that already existing from
+                    Dublin to Monastereven. It was to proceed by Roscrea and Cashel to Carrick,
+                    whence there is a river-navigation to Waterford. Others of minor extent were
+                    projected to pass through the northern and western parts of the Shannon, which
+                    is navigable all along the verge of the county; but none has yet been
+                    undertaken. Several lines of railroad have also been latterly proposed. Besides
+                    others laid down by private engineers at the suggestion of individuals or
+                    intended joint-stock companies, the commissioners for inquiring into the
+                    expediency of introducing the system of railroads into Ireland, have suggested a
+                    line in continuation of that proposed to be carried from Dublin to Kilkenny,
+                    which, after passing Maryborough in Queen’s county, is to enter Tipperary near
+                    Templemore, and to pass by Thurles. to Holycross, whence one branch is to tend
+                    southwards by Cashel, Goldenbridge, Cahir, and Mitchelstown, to Cork, and the
+                    other along the southern base of the Slieve-Phelim Mountains, by Pallasgreine,
+                    to Limerick. These lines are laid down in the map lately published by the
+                    conductors of the trigonometrical survey of Ireland, but no steps have as yet
+                    been taken for their accomplishment. Several new lines of road have however been
+                    executed, some of which, being cut through the mountainous districts on the
+                    north-west of the country, have produced the double effect of facilitating the
+                    transmission of goods, and, what is of much greater importance, the improvement
+                    and welfare of the country, by throwing open a tract hitherto impassable for
+                    carriages, and consequently the almost inaccessible place of refuge for
+                    desperate characters of every description, who here set at defiance the laws,
+                    and made the place a centre from which to make inroads, on favourable
+                    opportunities, into the open country. One of the great lines of mail-coach roads
+                    to Cork passes through the county; and the intercourse for travellers
+                    unencumbered with much luggage hns been increased in a great degree by the
+                    establishment of one-horse travelling cars, which ply between all the principal
+                    market-towns and places of resort. For this great improvement the county is
+                    indebted to the exertions of an intelligent foreigner, M. Bianconi, who devised
+                    and has carried on the system as a private speculation on his own account. In
+                    the county there are thirteen banking establishments, of which three are in
+                    Clonmell, two each in Nenagh, Roscrea, Thurles, and Tipperary, and one each in
+                    Carrick-on-Suir and Cashel.</p>
+                <p part="N">The remains of antiquity are numerous, but, with few exceptions, not of
+                    a very remarkable character. There are two round towers, one at Cashel, the
+                    other at Roscrea, both in good preservation. Among the remains of ancient
+                    monastic buildings, many of which are still in existence, the most worthy of
+                    notice are those on the Rock of Cashel, consisting of the ancient cathedral, a
+                    fine Gothic structure, exhibiting a combination of the military with the
+                    ecclesiastical style of architecture; and Cormac's Chapel, a venerable building,
+                    with a fine groined roof, and having in the interior <pb break="no"
+                        facs="ht:chi.12945678&amp;view=1up&amp;seq=336" xml:id="kp-eb0721-0336-0316"
+                    />some very ancient paintings in fresco, and a number of statues supposed to
+                    represent the apostles. The remains of ancient castles are also numerous, as
+                    might be expected in a part of the country so often the seat of intestine wars.
+                    Several old fortresses are still kept in repair, and improved so as to form the
+                    residences of the proprietors of the surrounding lands. There is also a number
+                    of elegant mansions and villas belonging to the resident noblemen and gentry.
+                    The dwellings of the peasantry differ little from those in other agricultural
+                    districts, nor are there any very marked variations in their manners, dress, or
+                    mode of living. The lower classes have long been notorious for their spirit of
+                    lawless turbulence, which has been attributed, among other causes affecting the
+                    country in general, to the neglect of absentee landlords, and to the almost
+                    total want of communication through the mountainous districts. The latter of
+                    these has been considerably diminished within the last few years; and the
+                    projected commercial facilities designed by the railroads, if carried into
+                    execution, will tend to complete this desirable change.</p>
+                <p part="N">The county town is Clonmell, on the Suir; a large and populous place,
+                    partly in this county and partly in Waterford, with a population of 17,838
+                    souls. It is a parliamentary borough, returning one member, and one of the great
+                    marts for the agricultural produce of the county. It was also the seat of the
+                    woollen manufacture until its failure throughout Ireland, after which that of
+                    cotton has been introduced, but with partial success. Its chief channel of
+                    export is by the Suir to Waterford, by means of boats of fifty tons and under.
+                    One of its principal articles of export is butter, for the sale of which a large
+                    building has been erected. Brewing and distillation are extensively carried on
+                    here or in the vicinity. The public buildings are those usual in county towns;
+                    the parish church, a large old building; two Roman Catholic chapels, and other
+                    places of worship; a court-house, prison, public school-house, infirmaries, and
+                    the county lunatic asylum. Some vestiges of the ancient fortifications still
+                    remain. One of the four gates, which is still kept in repair, forms an
+                    ornamental entrance to the town on the western side. Since the division of the
+                    county into two ridings, Nenagh, the place appointed for holding the assizes in
+                    the north riding, has received some improvement. A prison is there in progress
+                    of erection. The population of this town amounts to 8446. Cashel, a city with a
+                    population now reduced to 6971 souls, was anciently the royal residence of the
+                    kings of Munster, the most celebrated of whom, Brian Born, built its
+                    fortifications. It was also the seat of the archiepiscopal residence, and so
+                    continued until the see was reduced to a bishopric and united with those of
+                    Waterford and Lismore, under the provisions of the church temporalities act of
+                    1833. The archbishop’s palace is in this city. It has a small library, chiefly
+                    of theological works, attached to it. Cashel is also a parliamentary borough,
+                    returning one member. The other larger towns are Carrick-on-Suir, a place of
+                    some trade by means of its site on that navigable river. Population 9626.
+                    Thurles, the seat of the Roman Catholic see of Cashel, having in it the
+                    cathedral and the archiepiscopal residence, 7084; Tipperary, 6972; Roscrea.
+                    5512; Cahir, 3408; Fethard, 3400; and Temple-more, 2936. (<hi rend="smallcaps"
+                        >c.p.</hi>)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

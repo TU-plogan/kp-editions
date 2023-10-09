@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0707-6502-0710-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">DEMPSTER, Thomas</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4tt4fz4p">Irish</term>
+                    <term ref="lcsh1910:b4vm42z9s">Jesuits</term>
+                    <term ref="lcsh1910:b4dz0399k">Towers</term>
+                    <term ref="lcsh1910:b4qr4nr79">Carding</term>
+                    <term ref="lcsh1910:b4qf8jj4b">Cards</term>
+                    <term ref="lcsh1910:b4v11vw02">Work</term>
+                    <term ref="lcsh1910:b4d795b2n">Authors</term>
+                    <term ref="lcsh1910:b4ns0kz00">Authority</term>
+                    <term ref="lcsh1910:b4zp3w922">Writers</term>
+                    <term ref="lcsh1910:b4k649s3x">Accountants</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1180188">Work</term>
+                    <term ref="fast:821688">Authors</term>
+                    <term ref="fast:821653">Authority</term>
+                    <term ref="fast:795344">Accountants</term>
+                    <term ref="fast:795379">Accounting</term>
+                    <term ref="fast:1100116">Romans</term>
+                    <term ref="fast:978902">Irish</term>
+                    <term ref="fast:980750">Italians</term>
+                    <term ref="fast:1737291">Italianization</term>
+                    <term ref="fast:1153279">Towers</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1206715">Scotland</term>
+                    <term ref="fast:1754964">Rome</term>
+                    <term ref="fast:1219920">England</term>
+                    <term ref="fast:1204303">Spain</term>
+                    <term ref="fast:1205427">Ireland</term>
+                    <term ref="fast:1239717">Alps</term>
+                    <term ref="fast:1205401">Switzerland</term>
+                    <term ref="fast:1207555">Montana</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194756502?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">DEMPSTER, <hi rend="smallcaps">Thomas</hi></label>,
+                    one of the most learned men whom Scotland has produced, was born at Cliftbog in
+                    Aberdeenshire, on the 23d of August 1579, being the twenty-fourth out of
+                    twenty-nine children by the same mother. His father, who bore the same name with
+                    himself, he describes as proprietor of Muresk, Auchterless, and Killesmont, and
+                        <hi rend="italic">prorex,</hi> or lieutenant, of the eounty of Banff and the
+                    district of Buchan. His mother was Jane, the sister of Lesley of Balquhain; and
+                    one grandmother was daughter to the last earl of Buehan, of the family of
+                    Stewart, and the other<note anchored="true" place="bottom" type="authorial"><p
+                            part="N">Laurus Leslaeana explicata, § Gl. Graecii, 1692,
+                        fol.</p></note> was sister to Lord Forbes. He was born during the lifetime
+                    of his grandfather; at whose decease, the family, more distinguished by its
+                    gentility than its opulence, was left in very unprosperous circumstances.</p>
+                <p part="N">According to his own aecount, his first step in learning was as
+                    wonderful as any part of his subsequent progress; for, at the age of three
+                    years, he completely mastered the alphabet in the space of a single hour. He was
+                    afterwards committed to the care of Andrew Ogston, a schoolmaster at Turreff,
+                    and was next removed to Aberdeen, where he was initiated in classical learning
+                    by Thomas Cargill, an excellent grammarian. In the mean time, the family was
+                    involved in ruin, chiefly by the miseonduet of James, his eldest brother; of
+                    whom he has given an aeeount whieh it would have been much wiser to suppress.
+                    This brother took the extraordinary step of marrying his father’s concubine,
+                    Isabella Gordon of AEhavaeh; and having consequently been disinherited, he
+                    attempted to revenge himself by eolleeting a band of Gordons, and making a
+                    violent assault upon his father when he was one morning proceeding on horseback,
+                    with the view of transacting some publie business. Several attendants of the
+                    latter were slain in this encounter, and, amongst others, his brother-in-law
+                    Gilbert Lesley; he was himself dangerously wounded. Two of the Gordons were
+                    likewise left dead on the field, and several were wounded on both sides.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">L)empsteri
+                            Historia Ecclesiastica, p. G73 Tn the dedication of his <hi
+                                rend="italic">Antiquitates</hi><hi rend="italic">Romance</hi> to
+                            King James, he alludes to the same atrocious attempt. Here his father is
+                            described as “Banfiae et Buchaniae praefectus atque
+                        irenarcha.”</p></note> In order to eut off all hope of succession from sueh
+                    an heir, he sold to the earl of Errol his estate of Muresk, situated in the
+                    county of Aberdeen; but the bargain was never fulfilled by the other party, and
+                    he was unable to recover either his lands or their price. Thus, we are told, he
+                    only left to his son Thomas an empty title. But Thomas, who represents himself
+                    as the twenty-fourth child, does not venture to assert that, if the estate had
+                    still remained in the family, he was next in the order of succession; and when
+                    in various works he styled himself baron of Muresk, he must have been aware,
+                    even taking baron in the sense of <hi rend="italic">laird,</hi> that his title
+                    was as empty as could well be imagined. After this act of atrocious violence,
+                    his brother James fled to the northern islands, and having there eolleeted a
+                    band of ruffians, he lived in open defianee of the laws, till he at length set
+                    fire to the bishop of Orkney’s palace, and then returned to the eountry whieh he
+                    had been compelled to abandon. His wife, who had beeome the mother of seven
+                    children, was now discarded; and having made ehoice of another companion, he
+                    sought an asylum in the Netherlands, where <pb break="no"
+                        facs="nls:194756515?mode=fullsize" xml:id="kp-eb0707-6515-0711"/>he served
+                    as a captain of horse. But the divine vengeance at last overtook him; for having
+                    been guilty of some gross act of violence towards his colonel, he was executed
+                    at Utrecht in the most appalling manner; he was torn limb from limb by four
+                    horses, and thus, according to his brother’s account, ended a career of more
+                    than common crime and infamy.</p>
+                <p part="N">In the progress of these events, Thomas, by the advice of his uncle John
+                    Dempster, whom he describes as an eminent lawyer of Edinburgh, was induced to
+                    seek in another country that fortune from which he seemed to be precluded in his
+                    own. In the tenth year of his age, he repaired to Cambridge, where he for some
+                    time studied in Pembroke Hall. He afterwards directed his course to France; and
+                    having on his journey been robbed of his money and stript of his clothes, he
+                    with difficulty made his way to Paris. Here he was kindly treated by some of his
+                    countrymen, and was beginning to think of resuming his studies, when he was
+                    seized with a contagious disease, which deprived the schools of their auditors,
+                    and the city of its inhabitants. When he at length recovered from this dangerous
+                    malady, he hastened to the university of Louvain, which was then adorned by the
+                    erudition of Lipsius; but not long after his arrival he found that William
+                    Crichton, a Jesuit, principal of the Scotish College, had received instructions
+                    to send some of his young countrymen to Rome; and those whom he selected,
+                    besides Dempster himself, were Patrick Anderson, who was already a Jesuit,
+                    Robert Hill, who died professor of philosophy at Montpellier, and Thomas Lyon,
+                    who was blind from his infancy. He reached the papal city after a dangerous
+                    journey, for the plague was raging in Germany, and Italy was the scene of
+                    military operations. By the kindness of Cardinal Cajetano, protector of the
+                    Scotish nation, he was admitted as a student in the Roman seminary, and, under
+                    the tuition of Stephoni, began the study of poetry, that is, the art of Latin
+                    versification: but having again been attacked by a dangerous disease, the
+                    physicians recommended a change of climate; and, in company with Andrew
+                    Crichton, proceeding by way of Switzerland, he directed his wandering steps
+                    towards the Netherlands. At Tournay he experienced the kindness of his
+                    countryman James Cheyne, who sent him to the university of Douay, where he was
+                    maintained by a pension from the king of Spain and the archduke Albert. He now
+                    prosecuted the study of poetry with new vigour, but did not neglect the other
+                    branches of learning. In poetry he obtained the first, and in philosophy the
+                    second prize. Having taken the degree of A. Μ. he for a short time taught
+                    humanity at Tournay; but as his prospects were not there very encouraging, he
+                    again presented himself at Paris, and having taken the degree of doctor of the
+                    canon law, he succeeded David Sinclair as a regent in the College of Navarre. At
+                    that period, according to his own statement, he had not attained the age of
+                    seventeen; and he must therefore have obtained his preferment in the year 1596.
+                    In what university he afterwards took the degree of doctor of the civil law, he
+                    has omitted to mention; but in several of his works he describes himself as <hi
+                        rend="italic">Juris utriusque Doctor,</hi> or doctor of both laws, civil and
+                    canon.</p>
+                <p part="N">From the beginning to the end of his career he was a restless wanderer,
+                    and he soon quitted Paris with the intention of settling at Toulouse. On his
+                    route, he halted for some time at St Maixant in Poitou. At Toulouse he began to
+                    teach humanity; but his zeal in contending for the interests of the university
+                    excited the resentment of certain individuals of rank or influence, and he again
+                    thought it expedient to change his place of residence. His views were next
+                    directed to a professorship of philosophy at Montpellier, whither he appears to
+                    have been invited by his countrymen Adam Abernethy and Andrew Currie, the former
+                    of whom is still remembered as an author; but, in the mean time, he made his
+                    appearance at Nismes, where the professorship of eloquence was to be awarded to
+                    the most deserving competitor, and where only one of twenty-four judges decided
+                    against him. As this was a seminary appropriated to the Huguenots, Bayle
+                    conjectures that he must have suspended his zeal for the Romish faith.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">Bayle,
+                            Dictionaire Historique et Critique, tom ii. p. 986.</p></note> One of
+                    the unsuccessful candidates, Jacob Grasser of Basel, sought to avenge himself by
+                    making a violent assault upon Dempster, by publishing a libel against him, and
+                    by applying for a legal interdict to prohibit him from discharging the duties of
+                    his office; but the professor, who possessed courage as well as strength,
+                    repelled the joint attack of Grasser and some of his associates, and found means
+                    to have him committed to prison, first at Nismes, and afterwards, when he had
+                    made his escape, at Montpellier, and again at Paris. After a tedious litigation
+                    of two years, the cause was at length decided in his favour by the parliament of
+                    Toulouse, and the libel published against him was ordered to be burnt at Nismes
+                    by the hands of the executioner.</p>
+                <p part="N">Nor did he long retain his professorship of eloquence. After making a
+                    journey into Spain, he accepted the appointment of preceptor to Artus d’Espinay,
+                    subsequently bishop of Marseille, a son of the famous Sainte Luc, grandmaster of
+                    the artillery of France, who was killed at the siege of Amiens in the year 1597.
+                    But a quarrel in which he involved himself at Brissac with one of his pupil’s
+                    relations, hastened the termination of this engagement, and he now adopted the
+                    resolution of returning to his native country. With the view of recovering some
+                    portion of the family property, he brought an action in the court of session,
+                    and, according to his own impression, would ultimately have succeeded, if he had
+                    not found it expedient to withdraw before the decision was pronounced. His
+                    relations were either reduced to poverty, or were unwilling to assist him, on
+                    account of his adherence to the popish faith; and for the same reason he was
+                    exposed to persecution from the Scotish clergy, chiefly, as he conceives, at the
+                    instigation of William Cowper, afterwards bishop of Galloway. With this divine
+                    he was for three days engaged in a theological disputation at Perth, and he
+                    appears to have been extremely well satisfied with the manner in which he
+                    acquitted himself. To the resentment of Cowper in being foiled, not by a
+                    theologian, but by a lawyer, he imputes the injurious representations which were
+                    made to the king.<note anchored="true" place="bottom" type="authorial"><p
+                            part="N">Dempsteri Historia Ecclesiastica, p. 195. 677∙</p></note> He
+                    again bad adieu to Scotland, and, returning to Paris, was for seven years
+                    employed, with honour as well as emolument, as a regent in four different
+                    colleges, those of Lisieux, Grassins, Du Plessis, and Beauvais.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">A. du Saussay,
+                            bishop of Tulle, in his continuation of Bellarmia, has mentioned
+                            Dempster in the following terms: “Docuit magno discipulorum concursu,
+                            nec minori omnium doctorum aestimatione et plausu: inter ejus auditores
+                            in mea juventute constiti. Caeterum tantus vir pugnaci animo et
+                            contentioso ac instabili fuit, quo genio ductus plerumque domicilia
+                            mutavit.” (De Scriptoribus Ecclesiasticis, p. 82. edit. Colon. 1684,
+                            4to.)</p></note></p>
+                <p part="N">Of the decision and ferocity of his character he exhibited a notable
+                    instance in the last of these colleges. Gran-gier, the principal, having
+                    occasion to absent himself from Paris, appointed Dempster to act as his
+                    substitute, being no doubt persuaded that he had sufficient energy to maintain
+                    the most rigid discipline. A student challenged one <pb break="no"
+                        facs="nls:194756528?mode=fullsize" xml:id="kp-eb0707-6528-0712"/>of his
+                    companions to fight a duel: the vice-principal was moved with indignation at
+                    such a proceeding; and having seized the offender and untrussed his points, he
+                    placed him on the back of a sturdy knave, and, in the presence of the whole
+                    college, gave him a sound flogging. The young gentleman, burning with
+                    resentment, brought one day to the college thrcc of his kinsmen who served in
+                    the guards; but Dempster, undismayed at this military invasion, put arms into
+                    the hands of the servants, and having ordered them to kill the horses which were
+                    left at the gate, made so formidable an attack on the soldiers, that they were
+                    speedily reduced to the necessity of begging for mercy. Their lives were spared
+                    by the victor, who however detained them for a short time as prisoners in the
+                    college belfry. When they had thus ascertained that he was a match for them at
+                    their own weapons, they endeavoured to find a more competent remedy; and as he
+                    was not persuaded that a legal enquiry into his proceedings would tend to his
+                    advantage, he quitted his station in the College of Beauvais, and sailed for
+                        England.<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >Erythraei Pinacotheca Imaginum illustrium Doctrinae vel Ingenii Lauđe
+                            Virorum, tom. i. p. 24. Colon. Agrip. 1645-8, 3 torn. 8vo.—This account
+                            seems to receive some confirmation from Dempster’s more brief statement:
+                            “A Joanne 1lobillardo Normano Cađomensi periculum vitae adiit, qui
+                            frequenti stationario milite comitante sub noctem irrumpens, armis cum
+                            suis exutus ac in custodiam datus, iter conceptum Thomae acceleravit.”
+                            (Historia Ecclesiastica, p. 677·)</p></note> According to one of his
+                    Irish antagonists, the cause of his flight was of a much more foul
+                        description;<note anchored="true" place="bottom" type="authorial"><p
+                            part="N">Hiberniae, sive Antiquioris Scotiae, Vindiciae, p. 52-8.
+                            Antverp. 1621, 8vo.</p></note> but the work which contains this
+                    statement displays such a fierce spirit of detraction, as must deprive it of all
+                    historical credit. He had been invited to England by King James, who bestowed
+                    upon him the title of historiographer royal, and made him a present of two
+                    hundred pounds, which at that period was no inconsiderable sum. This gift he
+                    received in the thirteenth year of the king’s reign, namely, in 1615 or
+                        1616.<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >Nichols’s Progresses of King James the First, vol. ii. p.
+                        136.</p></note> At London he married Susannah Waller, a woman of great
+                    beauty and elegance, who afterwards proved a very precarious acquisition. His
+                    hopes of obtaining preferment were defeated by the remonstrances of the clergy,
+                    particularly Dr Montague, bishop of Bath and Wells: they endeavoured to impress
+                    the king with a sense of the impropriety of thus taking under his protection,
+                    and into his favour, a known and zealous catholic. He therefore took his leave
+                    of the learned monarch, and again directed his course towards Italy. When he
+                    arrived at Rome, he was suspected of being a spy, and for a single night was
+                    detained in custody; but his character and pretensions were easily ascertained,
+                    and from the pope and several cardinals he obtained letters of recommendation to
+                    the grand duke of Tuscany, Cosmo II. Being likewise befriended by Guicciardini,
+                    the duke’s ambassador at the court of Rome, he proceeded to Florence, and in the
+                    year 1616 was appointed professor of the Pandects in the university of
+                        Pisa.<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >Fabronii Historia Academiae Pisanae, tom. ii. p. 234. Pisis, 1791-5, 3
+                            tom. 4to.</p></note> He had previously distinguished himself by the
+                    publication of various works in prose and verse, and had earned the reputation
+                    of extensive erudition. At an early period of his life he had betaken himself to
+                    the study of the law; and by his edition of the <hi rend="italic"
+                        >Antiquitates</hi><hi rend="italic">Romance</hi> of Rosinus, printed in the
+                    year 1613, he had evinced his proficiency as a civilian. The study of the Roman
+                    law is so closely blended with the study of Roman history and antiquities, that
+                    the one cannot be safely disjoined from the other.</p>
+                <p part="N">Soon after he had been admitted to this office, he was furnished with
+                    letters and money by the grand duke, and returned to England for the purpose of
+                    conveying his wife to Italy. They proceeded by way of Paris; and when they were
+                    one day walking in the street, his lady attracted a crowd of gazers, not merely
+                    by the beauty of her person, but chiefly by exhibiting a more ample portion of
+                    her bosom and shoulders than suited the established usages of the country. So
+                    great was the concourse of people, that they were obliged to fly for shelter to
+                    an adjoining house.<note anchored="true" place="bottom" type="authorial"><p
+                            part="N">Erythraei Pinacotheca, tom. i. p. 25.</p></note> In due time he
+                    returned to Pisa, and read his inaugural lecture on the second of November. His
+                    salary was augmented to four hundred ducats, and he now appeared to have a fair
+                    prospect of honour and emolument. He recommended himself to the duke by
+                    undertaking his great work <hi rend="italic">De Etruria</hi><hi rend="italic"
+                        >Regali,</hi> which he must have completed with wonderful energy and
+                    dispatch. In the year 1617, he paid another visit to Britain, with the view of
+                    arranging some private affairs. But his restless and turbulent disposition did
+                    not long permit him to enjoy tranquillity. He involved himself in an angry and
+                    pertinacious dispute with an Englishman, whose name he has not thought proper to
+                    mention, nor is the origin or progress of this dispute rendered in any degree
+                    intelligible by his abrupt narrative. It however appears that his antagonist,
+                    who was probably an ecclesiastic, succeeded in producing a favourable impression
+                    on the grand duke, who only left Dempster the alternative of making an apology
+                    or quitting the Tuscan dominions. The learned civilian was of too stubborn a
+                    nature to be readily convinced that he was in the wrong, and too proud to stoop
+                    to what he considered as an unworthy compliance: he accordingly accepted the
+                    latter part of this alternative, and took his departure from Pisa on the 21st of
+                    July 1619.</p>
+                <p part="N">Disgusted with Italy, he now reverted to the plan of settling in his
+                    native country; but on arriving at Bologna, he paid his respects to Cardinal
+                    Capponi, legate of that papal city, who prevailed upon him to abandon his
+                    intention, and within the short space of twelve days procured him the
+                    appointment of professor of humanity. This was an honourable and a lucrative
+                    office, which had been held by men of high reputation, by P. Manutius, Sigonius,
+                    and Robortellus. A new office naturally involved such a person in new
+                    contentions: the professor of humanity was entitled to take precedence of other
+                    professors; and as this place of honour was fiercely contested, he maintained
+                    his own rights with his usual pertinacity, and with more than his usual
+                    success.</p>
+                <p part="N">More serious evils awaited him. The Englishman who had interrupted his
+                    tranquillity at Pisa, still infested him at Bologna: he accused the professor of
+                    being a catholic of dubious faith, and of being guilty of the crime of having
+                    heretical books in his library. Dempster addressed to his adversary a letter,
+                    which appears to have been so intemperate as to incur the censure of some of the
+                    cardinals; but he proceeded to Rome in person, and after obtaining more than one
+                    audience of the pope, was enabled to remove any aspersions which had been aimed
+                    at his character. A formal reconciliation was at length effected between these
+                    pertinacious antagonists, but the spirit of reconciliation was probably wanting
+                    in both parties. The professor mentions that he had prepared a full statement of
+                    his case, and that if his adversary recurred to his former practices, it should
+                    be transmitted to posterity. In the mean time, he discharged his duty in the
+                    university <pb break="no" facs="nls:194756541?mode=fullsize"
+                        xml:id="kp-eb0707-6541-0713"/>with diligence and ability. His reputation
+                    attracted pupils of a higher rank, and his salary was augmented to eight hundred
+                    crowns. His love of wandering seems at length to have abated; for hc declined an
+                    offer of a thousand crowns a year as professor of the civil law in the
+                    university of Padua. Pope Urban VIII. who was himself a Latin poet, treated him
+                    with more than usual distinction, by conferring upon him the honour of
+                    knighthood, and accompanying this honour with an annual pension of one hundred
+                    pieces of money, but of what denomination, is not sufficiently apparent.
+                    Dempster likewise became a member of the Accademia della Notte, in which,
+                    according to the Italian fashion, hc assumed the name of Evantius, and in the
+                    proceedings of which he is said to have taken a great interest. He now appeared
+                    to have reached a place of rest, when he was overtaken by the severest of all
+                    his calamities. After his arrival in Italy, his wife had born a daughter, who
+                    did not survive many days, and this was fortunately the only offspring of such a
+                    mother. On returning from one of his lectures, he discovered that she had made
+                    an elopement, in which one or more of his own pupils were either concerned as
+                    principals or accessories. He immediately commenced a pursuit of the fugitives,
+                    who seem to have added robbery to their other crime; but when he had proceeded
+                    as far as Vicenza, a city of Lombardy, he found that they must already have
+                    passed the Alps. This painful journey had been performed during the heat of the
+                    dog-days. Oppressed with fatigue of body and anguish of mind, he sought repose
+                    and tranquillity at Bu-tri, in the neighbourhood of Bologna; but having been
+                    suddenly attacked with a fever, he was removed to his own residence, and there
+                    died on the 6th of September 1625, soon after he had completed the forty-sixth
+                    year of his age. His remains were interred in the church of St Dominic, where
+                    his brethren of the Accademia della Notte erected a monumental stone to his
+                    memory, and added a Latin inscription written in a very quaint style. One of
+                    their number, Ovidio Montalbani, pronounced his funeral oration, which was
+                    published in the course of the following year.<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">Ragionamento funebre havuto
+                            publicamente nelľ Accademia della Notte, per la Morte dell’
+                            eccellentissimo Tomaso Demstero. Bologna, 1626 This publication, which
+                            we have never seen, is mentioned by Bayle, and likewise by Niceron,
+                            Mémoires pour servir</p><p part="N">à l’Histoire des Hommes illustres
+                            dans la République des Lettres, tom. xxviii. p. 314.</p></note></p>
+                <p part="N">Such was the turbulent life, and such the premature death, of Thomas
+                    Dempster, a man distinguished by some eminent endowments of body as well as
+                    mind. In his person, he was above the ordinary size, and was possessed of
+                    proportional strength. He had an ample head, with black hair, and a dark
+                    complexion, so that in Italy he might easily have been mistaken for an Italian.
+                    He was a man of a noble aspect, and was possessed of undaunted courage. The
+                    irritability of his temperament involved him in many quarrels, nor was his sword
+                    less formidable than his pen. He never acquired the habit of restraining the
+                    natural impetuosity of his mind, and was equally decided and undisguised in his
+                    friendships and in his resentments. To his friends he was very pleasant, and
+                    equally odious to his enemies. Little inclined to forgive injuries, he pursued
+                    his enemies with the most violent animosity, and expressed his tumultuous
+                    feelings without any scrupulous regard to decency.<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">“Moribus ferox fuit, apertus
+                            omnino, et simulandi nescius, sive enim amore, sive odio aliquem
+                            prosequeretur, utrumque palam; consuetudine jucundissimus, amicis
+                            obsequentissimus, ita inimicis maxime infensus, acceptaeque injuriae
+                            tenax, eam aperte agnoscens ac repetens.” These are the expressions of
+                            Matthaeus Peregrinus, who has completed the account of Dempster which
+                            occurs at the end of his <hi rend="italic">IIistοriα</hi><hi
+                                rend="italic">Ecclesiastica.</hi></p></note> In several of his
+                    works, we find sufficient evidence of his being somewhat loose in his
+                    assertions; J and indeed men of a violent and perverse disposition seem '
+                    frequently to be incapable of distinguishing falsehood from truth: they are much
+                    inclined to embrace as true whatever is best suited to the state of their mind
+                    during its morbid excitement.</p>
+                <p part="N">Dempster’s intellectual endowments were likewise of a mixed character.
+                    He was endowed with such extraordinary powers of memory, and read with such
+                    indefatigable diligence, that he was regarded as a speaking library. It was
+                    customary with him to devote fourteen hours a day to study. He was allowed to
+                    possess an equal knowledge of the Greek and Latin languages; and his knowledge
+                    of both was so familiar, that in either language he undertook to dictate verses
+                    as. rapidly as the pen of a ready writer could commit them to paper. He was a
+                    poet and philologer, as well as a civilian and historian. He evinces no mean
+                    portion of poetical fancy, and his verse is more elegant than his prose. His <hi
+                        rend="italic">Musca</hi> is one of the few Latin poems, written by natives
+                    of Scotland, which the learned Wasse has recommended for republication.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">Wasse’s Memorial
+                            concerning the Desiderata of Learning: Ľibliotheca Literaria, No. iii.
+                            p. 11.—See likewise Borrichii Dissertationes Academicae de Poetis, p.
+                            lõl. A selection from Dempster’s poems may be found in the Delitiae
+                            Poetarum Scotorum, tom. i. p. 306.</p></note> In his more elaborate
+                    works, he displays very extensive and diversified erudition, but in many
+                    instances his learning appears superior to his judgment. The life which he led
+                    was subject to many vicissitudes, and his writings partake of the same desultory
+                    character. His style is unequal, and frequently unpolished, nor is he
+                    sufficiently scrupulous in selecting words of the purer ages of Latinity.</p>
+                <p part="N">His principal work, <hi rend="italic">De Etruria</hi><hi rend="italic"
+                        >Regali,</hi> was completed in the space of about three years; and when we
+                    consider its great extent, and its ample stores of recondite knowledge, we
+                    cannot but regard it as a wonderful performance. Errors and defects may
+                    naturally be expected to occur in a work relating to such a subject, and
+                    executed with so much rapidity; but sufficient room is still left for our
+                    admiration of the author’s vivacity of mind, and resources of learning. His
+                    edition of Rosinus likewise displays the copiousness of his reading, and it has
+                    supplied materials to all those who have subsequently laboured in the department
+                    of Roman antiquities. His juridical works entitle him to a respectable place
+                    among civilians. Ludewig, who is himself an able writer, has expressed a wish
+                    that his notes on the Institutes of Justinian should be reprinted.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">J. P. de Ludewig
+                            Vita Justiniani, p. 45. Halae Salicae, 1731, 4to.</p></note> As a
+                    classical critic, his character is chiefly to be ascertained from his editions
+                    of Claudian and Corippus, two poets who belong to the declining ages of Roman
+                    literature, and one of them indeed belongs to the latter part of the sixth
+                        century.<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >Leyseri Historia Poetarum Međii AEvi, p. 172. Halae Magdeb. 1721,
+                            8vo.</p></note> The editor might easily have selected purer models of
+                    language and taste; but on various occasions he chose to travel in a by-path of
+                    his own, and his annotations on Corippus, as well as on Claudian, have
+                    contributed to his reputation as a man of miscellaneous erudition. Among his own
+                    works he enumerates notes on Statius and a commentary on AElian, but there seems
+                    no reason to believe that they were ever printed.</p>
+                <p part="N">On the ecclesiastical and literary history of Scotland, some of his
+                    publications are very slight and unsatisfactory. His <hi rend="italic"
+                        >Menologium</hi> and <hi rend="italic">Scotia</hi><hi rend="italic"
+                        >Illustrior</hi> are so much occupied<pb break="no"
+                        facs="nls:194756554?mode=fullsize" xml:id="kp-eb0707-6554-0714"/> with
+                    fierce contentions “de lana caprina,” that they can now excite little interest
+                    or curiosity. His <hi rend="italic">Nomenclatura</hi> is a mere catalogue of
+                    names, which were to be illustrated in a subsequent work. In his native country,
+                    he is most generally known as the author of a book on which he has bestowed the
+                    title of <hi rend="italic">Historia Ecclesiastica Gentis Scotorum,</hi> a title
+                    which is by no means descriptive of its contents. It contains a long enumeration
+                    of Scotish saints, writers, and other worthies, who lived, or are supposed to
+                    have lived, at periods very remote from each other. Of many of his saints and
+                    writers, the very existence is considered as more than doubtful, and many of the
+                    rest belong, not to Scotland, but to other countries. It is not always easy to
+                    distinguish the early Scotish from the early Irish writers. The name of Scotia
+                    or Scotland has not been traced in any author who flourished before the third
+                        century.<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >Usserit Britannicarum Ecclesiarum Antiquitates, p. 728. Dublin. 1639,
+                            4to.</p></note> At first it was exclusively applied to the country now
+                    called Ireland; but after the descendants of the Irish' had established
+                    themselves in the north of Britain, they still retained the appellation of
+                    Scots; although it was not before the eleventh century that the name of Scotland
+                    was transferred from the one country to the other.<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">Pinkerton’s Enquiry into the
+                            History of Scotland, vol. ii. p∙ 228.</p></note> After that period, the
+                    green island gradually lost its ancient designation. Some degree of confusion
+                    may therefore be supposed to be connected with this identity of names, nor has
+                    it always been avoided by writers more accurate than Dempster. His notices of
+                    persons who lived in earlier times are necessarily very scanty, and are often
+                    very erroneous. Nor are his catalogues of books less remarkable than his list of
+                    writers: he ascribes various works to various individuals who flourished long
+                    before the art of writing was introduced into Scotland; and nothing can be more
+                    ludicrous than his formal enumeration of the productions of such imaginary
+                    authors. The principal value of his book consists in its notices of those
+                    writers who belonged to his own time, and particularly of those who passed the
+                    better part of their lives on the continent.<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">“Post hos, rem literariam aggressus Dempsterus,
+                            omnia ad criticam severitatem minime exegit, sed multa futilia undique
+                            corrasit; et quo fidem suam sacrificulis Romanis probaret, non potuit
+                            non religionis et libertatis vindices identidem latrare. Nec tamen sua
+                            laude fraudandus est. De meliore nota multa congessit, de iis praesertim
+                            scriptoribus qui, exules patriae, interiores et reconditas literas in
+                            academiis Gallorum, Italorumque et Germanorum, non sine gloria
+                            docuerunt. Alii literas humaniores, mathematicas disciplinas alii
+                            jurisprudentiamve colentes, laudem haud mediocrem adepti sunt;
+                            professores vel etiam gymnasiorum praesides sunt facti, nomeuque
+                            Scoticum late per orbem terrarum propagarunt. Viderat ipse Dempsterus
+                            multos, quorum meminit, sacerdotes, professores, milites, et interdum
+                            mores hominum notat.” (Praef in Hist. Ecclesiast. editionem alteram, p.
+                            xii.)</p></note> Relative to these, he presents us with many curious
+                    gleanings of information, which is nowhere else to be found; and on many
+                    occasions his information is more authentic than his readers may be inclined to
+                    suppose. According to Bishop Lloyd, lie “was as well inclined to believe a lye
+                    as any man in his time ;”<note anchored="true" place="bottom" type="authorial"
+                            ><p part="N">Lloyd’s Historical Account of Church-Government as it was
+                            in Great Britain and Ireland, when they first received the Christian
+                            Religion, p. 153. sec. edit. Lond. 1684, 8vo.</p></note> and to Dr
+                    Towers he <hi rend="superscript"> ii</hi> seems to have thought it highly
+                    meritorious to advance the grossest falsehoods, if those falsehoods would, in
+                    any degree, contribute to the honour of his country.”<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">Biographia Britannica, vol. v.
+                            p. 94.</p></note> A person convicted of many errors is naturally
+                    suspected of many more. Thus, when Dempster speaks of Kidd, or Ca-danus, as
+                    being an eminent professor of law in the university of Toulouse, and the author
+                    of several works in prose and verse, he has perhaps by some readers been
+                    suspected of introducing an imaginary character; and yet: the same individual,
+                    utterly forgotten in his native country, is mentioned by Baluze as a professor
+                    of great ability and reputation.<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">“Deinde per tres continuos annos in academia
+                            Tolosana, quae tum injure docendo ceteras Europae facillime anteibat,
+                            jus civile et canonicum audivit, usus magnis doctoribus, Gulielmo
+                            Marano, Gulielmo Cadano Scoto, Vincentio Chabotio, et Jano a Costa, qui
+                            tum publice jus utrumque in ea civitate profitebantur. Sed in primis
+                            secutus est Cadanum, tunc interpretantem Novellam Constitutionem cxxiii.
+                            Imperatoris Justiniani, virum, ut ipse aiebat, in utroque jure
+                            consultissimum, sed qui canonicum calleret ad miracu-lum, bonasque
+                            literas legum ac canonum cognitioni addidisset; eorumque tarditatem
+                            deplorabat, qui obscuritatem in Cadano deprehenderent.” (Baluzii
+                            Epistola de Vita Petri de Marea, Archiepiscopi Parisiensis, p. 1Ò.
+                            Paris. 1663, 8vo.) Dempster calls him James, instead of
+                        William.</p></note> On the continent there were many Latin poems and tracts
+                    published by natives of Scotland, during the age of Dempster and a short period
+                    immediately preceding; and such of them as were written by individuals who did
+                    not acquire any considerable celebrity, have in various instances left but few
+                    traces behind them.</p>
+                <p part="N">The works of Dempster are very numerous and very miscellaneous. We
+                    subjoin a list, which is as complete as we have been able to render it; but he
+                    has himself enumerated various others, which do not appear to have been
+                    published. All the articles from No. 29 to No. 47 inclusive, are copied from his
+                    own list; and it is to be regretted that he has not described them in a more
+                    satisfactory manner.</p>
+                <p part="N">1. Cl. Claudiani quae extant, cum notis Thomae Demp-</p>
+                <p part="N">steri Scoti. Flexiae, 1607, 16to. &gt;</p>
+                <p part="N">2. In Claudianum Commentarius lib. i. Lugduni, et alibi.—This commentary
+                    we have never seen, and it escaped the researches of the younger Burman.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">P. Burmanni
+                            Secundi praef. in Claudianum, p, xi.</p></note></p>
+                <p part="N">3. Epithalamion in Nuptiis generosissimorum Jacobi Comitis Perthani,
+                    Domini Drommondi, Baronis Stobhalliae, &amp;c. et Isabellae, unicae Roberti
+                    Comitis Wintonii, Domini Setonii, &amp;c. filiae. Edinburgi, 1608, 4to.</p>
+                <p part="N">4. In desideratissimum Rectoratum clariss. viri D. D. Jacobi Vassorii,
+                    SS. Theologiae Baccalaurei primae Licen tiae, Noviodunensis Ecclesiae
+                    Episcopalis Archidiaconi meritissimi, &amp;c. Panegyris extemporanea. Parisiis,
+                    1609, 4to.</p>
+                <p part="N">5. Eucharisticon, dictum post Telemachum cl. v. D.D. Petri Valentis in
+                    Aula Montana Cal. Septemb. Paris. 1609, 8vo.</p>
+                <p part="N">6. Corippi Africani Grammatici de Laudibus Justini Minoris Augusti libri
+                    quatuor: Thomas Dempsterus a Muresk, J. C. recensuit, lacunas supplevit, mendis
+                    expurgavit, commentarium adjecit, quo historia et antiquarii ritus elucidantur,
+                    variique scriptores explicantur, restituuntur; item loca variorum reduxit, qui
+                    Corippum citarunt, illustrarunt: cum indice pene omnium dictionum. .His accessit
+                    pro corollario Constantini Manassis Gr. Carmen politicum in Justinum Minorem
+                    Imp. quod nunc primum prodit, cum versione metrica Fed. Morelli Interpr. Reg.
+                    Paris. 1610, 8vo.</p>
+                <p part="N">7. Musca; sive Strena Kal. Jan. ad illustrem nobilissi-mumque virum D.
+                    Petrum Huraldum Hospitalium Fayum, Dominum de Bel-ebate, Magni Consilii
+                    Senatorem Regium, &amp;c. Ejusdem Muscae Partes, ab excellentissimis ingeniis.
+                    Paris. 1610, 4to.—There are other two editions.</p>
+                <p part="N">8. Epinicion; seu Victrix Academia. Natalium splendore, <pb break="no"
+                        facs="nls:194756567?mode=fullsize" xml:id="kp-eb0707-6567-0715"/>nec minus
+                    eruditionis gloria insigni viro ac domino, D. Richardo de Pichon, causarum in
+                    summo Senatu Galliarum patrono eloquentissimo. Paris. 1612, 4to.</p>
+                <p part="N">9. Tragoedia Decemviratus abrogatus. Ad illustriss. D. Jacobum Augustum
+                    Thuanum, &amp;c. Paris. 1613, 8vo.</p>
+                <p part="N">10. ‘Antiquitatum Romanarum Corpus absolutissimum, in quo praeter ea
+                    quae Joannes Rosinus delineaverat, infinita supplentur, mutantur, adduntur; ex
+                    criticis et omnibus utriusque linguae auctoribus collectum, poetis, oratoribus,
+                    historicis, jurisconsultis, qui laudati, explicati, cor-rectique; Thoma
+                    Dempstero a Muresk, J. C. Scoto, auctore. Ad potentissimum augustissimumque
+                    Principem Jacobum I. Monarcham Magnae Britanniae, &amp;c. Lutetiae Parisiorum,
+                    1613, fol.—Of this work there are many subsequent editions. One of these was
+                    published by Pitiscus, and another, which bears the following title, by J. F.
+                    Reitz: “Johannis Rosini Antiquitatum Romanarum Corpus absolutissimum, cum notis
+                    doctissimis ac locupletissimis Thomae Dempsteri.” Amst. 1743, 4to. The edition
+                    is correct and elegant. Under the title of “Thomae Dempsteri Kalendarium
+                    Romanum,” an extract from this work is inserted in Graevius’s <hi rend="italic"
+                        >Thesaurus</hi><hi rend="italic">Antiquitatum</hi><hi rend="italic"
+                        >Romαηa-rum,</hi> tom. viii. col. 115.</p>
+                <p part="N">11. Panegyricus augustiss. potentiss. q. Principi Jacobo</p>
+                <p part="N">I. Britanniar. Franciae, et Hiberniae Regi, &amp;c. Domino suo
+                    clementiss. dictus a Thoma Dempstero a Muresk, J. C. Historico Regio. Londini,
+                    1615, 4to.</p>
+                <p part="N">12. Strena Kal. Januar, ad Jacobum Hayum, Dominum ac Baronem de Saley.
+                    Lond. 1616, 4to.</p>
+                <p part="N">13. Votum illustriss. generosiss. q. D. Roberto Caro, Periscelidis
+                    Equiti, Regi ab Arcanis Consiliis, Regiae Domus Majori, Somerseti Comiti,
+                    &amp;c. 4to.—This publication consists of two leaves, without a title-page, and
+                    seems to have been printed in London.</p>
+                <p part="N">14. Licitatio Professorum; sive Praefatio solemnis habita Pisis
+                    postridie Kal. Novembris M.DC.XVI. Ad illustrissimum reverendissimumque virum D.
+                    Franciscum Bon-cianum, Archiepiscopum Pisanum, &amp;c. Pisis, 1616, 4to.</p>
+                <p part="N">15. Troia Hetrusca; sive Gamelia Ludicra, sereniss. Federico Urbinatium
+                    Principi decursa, sereniss. Cosmo</p>
+                <p part="N">II. Magno Hetruriae Duce edente. Ad sereniss. Franc. Mariam Urbinatium
+                    Ducem. Florcntiae, 1616, 4to.</p>
+                <p part="N">16. Bandum Mediceum; sive Strena Kl. Jan. MDCXVII. de Stemmate, Pila,
+                    Hercule, Leone. Sereniss. Princip. Cosm. II. Magn. Hetruriae Duc. Florent. 1617,
+                    4to.</p>
+                <p part="N">17. Bononia; sive Praefatio solemnis, habita ix. Cal. Novembris.
+                    Bononiae, 1619, 4to.</p>
+                <p part="N">18. Scotorum Scriptorum Nomenclatura, &amp;c. Bonon. 1619, 4to. </p>
+                <p part="N">19. Scotia Illustrior; seu Mendicabula repressa, modesta Parecbasi: qua
+                    libelli famosi impudentia detegitur, mendacia ridicula confutantur, Scotiae
+                    Sancti sui vindicantur, ac bona fide asseruntur. Lugduni, 1620, 8vo.—The
+                    title-page is without a date, but the dedication is dated at Rome on the fourth
+                    of October 1620. This work is chiefly directed against a publication bearing the
+                    title of “Bri-gida Thaumaturga; sive Dissertatio partim encomiastica in laudem
+                    ipsius Santae,” &amp;c. Paris. 1620, 8vo. The anonymous author has subjoined a
+                    tract entitled “De Scriptorum Scotorum Nomenclatura a Thoma Dempstero edita
+                    Praecidaneum.” This Irishman and his country Dempster treated with the utmost
+                    scorn and contempt; and in the following work he was answered in a similar
+                    strain: “Hiberniae, sive Antiquioris Scotiae, Vindiciae adversus immodestam
+                    Parecbasim Thomae Dempsteri, moderni Scoti, nuper editam: in quibus currente
+                    calamo innumerae ipsius Dempsteri imposturae et mendacia deteguntur, atque ipse
+                    levi penicillo depingitur, ut intelligat qui quae vult dicit, quae non vult
+                    audit. His accessit Nomenclatura Scotorum et Scotiae, &amp;c. Authore G. F.
+                    Veridico Hiberno.” Antverpiae, 1621, 8vo. Sir Thomas Pope Blount has stated that
+                    in 1623 both Dempster’s work and this answer were prohibited by the church. In
+                    1621 his edition of Rosinus was prohibited till it should be corrected.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">Pope Blount,
+                            Censura celebriorum Authorum, p. 643. Lond. 1690, fol.</p></note></p>
+                <p part="N">20. Asserti Scotiae Cives sui, S. Bonĩfacius Rationibus ix. Joannes Duns
+                    Rationibus xii. Excerptum e libris de Scriptoribus Scotis. Bonon. 1621, 4to.</p>
+                <p part="N">21. Ulyssis Aldrovandi Quadrupedum omnium Bisulcorum Historia: Joannes
+                    Cornelius Uterverius Belga colligere incoepit, Thomas Dempsterus, Baro a Muresk
+                    Scotus, J. C. perfecte absolvit, Hieronymus Tamburinus in lucem edidit. Bonon.
+                    1621, fol. Bonon. 1642, fol.</p>
+                <p part="N">22. Menologium Scotorum; in quo nullus nisi Scotus gente aut
+                    conversatione; quod ex omnium gentium monimentis, pio studio Dei Gloriae,
+                    Sanctorum Honori, Patriae Ornamento, colligit, publicat, et inscribit
+                    illustriss. Principi, Moecaenati suo, D. Maphaeo S. R. E. Card. Barberino,
+                    Scotorum Protectori. Opus ecclesiasticae hierarchiae ac monasticae vitae
+                    dignitati augendae, haeresi in Scotia vigenti confundendae, operose utile.
+                    Bonon. 1622, 4to.</p>
+                <p part="N">23. Apparatus ad Historiam Scoticam lib. ii. Accesserunt Martyrologium
+                    Scoticum Sanctorum DCLXXIX. Scriptorum Scotorum MDC11I. Nomenclatura. Opus e
+                    peregrinis omnium gentium historiis collectum, omnia orbis regna pio studio
+                    lustrantur, religiosae S. R. E. familiae nobilitantur, historia patria augetur,
+                    sectarii admonentur, catholica veritas contra hostes Dei et Scotiae firmatur.
+                    Justi et parati operis praenuntia. Bonon. 1622, 4to.—The first book treats “De
+                    Religione,” and the second “De Regno.” The work was intended as a prelude to his
+                        <hi rend="italic">Historia Ecclesiastica.</hi></p>
+                <p part="N">24. <hi rend="italic">Κίξαυνος και</hi> OCsλoς in Glossas lib. iv.
+                    Institutionum Justiniani. Bonon. 1622, 8vo.</p>
+                <p part="N">25. De Juramento lib. iii. Locus ex Antiq. Rom. retractatus. Satisfactum
+                    Famae ill <hi rend="superscript"> mi</hi>. b. m. Cardinalis Bellarmini, qui
+                    falso insimulabatur, theologice, juridice, historice, antiquaric, ex utriusque
+                    linguae, omnium gentium, omnis aetatis monimentis. Illustriss. Principi, Jo.
+                    Gar-siae S. R. E. Card. Millino, S. D. N. Vicario Generali, Mecaenati suo.
+                    Bonon. 1623, 8vo.</p>
+                <p part="N">26. Benedicti Accolti de Bello a Christianis contra Barbaros gesto, pro
+                    Christi Sepulchro et Judaea recuperandis, libri iiii. Thomas Dempsterus, J. C.
+                    Baro a Muresk Scotus, cum aliis scriptoribus collatos, et mendis expurgavit, et
+                    notis non vulgaribus illustravit. Florentiae, 1623, 4to. Nunc denuo ad exemplar
+                    Florentinum C1□I□CXXIII. ab innumeris et foedissimis mendis expurgatum,
+                    emaculatius recudendos curavit Henricus Hofsnider, cum indice satis luculento.
+                    Groningae, 1731, 8vo.</p>
+                <p part="N">27. Lessus; sive Laudatio Funebris illustriss. D. Julio Caesari Signio,
+                    Episcopo Reatino, dicta ad Divi Joannis in Monte: Extemporale Thomae Dempsteri,
+                    J. C. Scoti, Baronis a Muresk, Profess. Eminentis. Bonon. 1623, 4to.</p>
+                <p part="N">28. Votum Divae Virgini Sanlucianae. Bonon. 1623, 8vo.</p>
+                <p part="N">29. Tragoedia Stilico lib. i. Sammaxentii.—His own list likewise
+                    contains the following titles: “Tragicomoedia Maximilianus lib. i.” “Tragoedia
+                    Maximilianus lib. i. Duaci acta, scripta a puero.” As he does not mention any
+                    place of printing, we may suppose these dramas to have been unpublished.</p>
+                <p part="N">30. Epithalamium Marchionis Brandeburgici lib. i. Francofurti.</p>
+                <pb break="no" facs="nls:194756580?mode=fullsize" xml:id="kp-eb0707-6580-0716"/>
+                <p part="N">31. Epithalamium Vicecomitis Hadintonii lib. i. Londini.</p>
+                <p part="N">32. Pancgyricus Clementi VIII. Pontifici lib. i. Romae.</p>
+                <p part="N">33. Panegyricus Paulo V. Pontifici lib. i. Romae.</p>
+                <p part="N">34. Expostulatio eum Musis et Senatu Aremorico, dum custodiam suae
+                    innocentiae ultro subivit. Nemausi.</p>
+                <p part="N">35. Divinatio ad Regem lib. i. Londini.</p>
+                <p part="N">36. Eucharisticon Alberto Archiduci lib. i. Duaci et Lovanii.</p>
+                <p part="N">37. Actio Scholastica de S. Catharina lib. i. Lutetiae.</p>
+                <p part="N">38. Poemata de S. Thoma Aquinate lib. i. Tolosae.</p>
+                <p part="N">39. Acrosticha de Europae Principibus lib. i. Duaci.</p>
+                <p part="N">40. In Elizabetham Angliae Reginam lib. i. Duaci.</p>
+                <p part="N">4L Lachrymae ad Timoleontem d’Espinay Sanlucium in Funere Uxoris lib. i.
+                    Parisiis et Lugduni.</p>
+                <p part="N">42. Judicium de omnibus omnium Gentium et Temporum Historicis lib. i.
+                    Parisiis.</p>
+                <p part="N">43. .Notae in Sphaeram lib. i. Francofurti.</p>
+                <p part="N">44. Politicae Parecbases, nuncupatae Alexandro Razi-villo, Principi
+                    Polono, auditori suo, lib. i. Parisiis.</p>
+                <p part="N">45. Genethliacon Delphini Franciae, nunc Regis Ludo-viei XIII. lib. i.
+                    Flexiae.</p>
+                <p part="N"> 46. De Inundatione Anglicana lib. i. Flexiae.</p>
+                <p part="N">47. Votum Scipioni Burghesio, S. R. E. Cardinali, lib. i. Romae.</p>
+                <p part="N">• 48. Historia Ecclesiastica Gentis Scotorum lib. xix. qua viri
+                    sanctitate, literis, dignitatibus, toto orbe illustres, et ſamiliae Scoticae, in
+                    varias urbes transmissae, et praecipue Placentiam, recensentur. Illustrissimo
+                    viro Fabio Scoto Plac <hi rend="superscript"> o</hi>. Miceni Com. dicata.
+                    Bononiae, 1627, 4to.—This posthumous work is printed in the most negligent
+                    manner, insomuch that very many passages are scarcely intelligible. It has
+                    recently been reprinted for the use of the Bannatyne Club: “Thomae Dempsteri
+                    Historia Ecclesiastica Gentis Scotorum: sive, de Scriptoribus Scotis. Editio
+                    altera.” Edinb. 1829, 2 tom. 4to. This edition was superintended by Dr Irving,
+                    who, in a preface of considerable length, has given an account of the author and
+                    his singular performance. He has endeavoured to amend a great variety of
+                    passages, by referring to writers whom Dempster quotes, by altering the vicious
+                    punctuation, by attending to the ordinary rules of grammar, and sometimes, where
+                    the sense seemed perfectly clear, by substituting one letter for another. Of the
+                    more material changes, he has given a detailed statement in the preface.</p>
+                <p part="N">49. Cerasum et Sylvestre Prunum; opus poematicum, de Virtutum et
+                    Vitiorum Pugna; sive Electio Status in Adolescentia: authore primo nobili Domino
+                    Alexandro Montgomrio Scoto, poeta regio, idiomatis materni laureato: nune rursus
+                    auctum et in Latinos versus translatum, per T. D. S. P. Μ. B. P. P. in gratiam
+                    illustris et generosi herois D. Alexandri Brussii, Capitanei Cohortis Peditum
+                    Scotorum, Domini de Kinkawil. Arctauni Francorum, 1631, 8vo. Edinburgi, 1696,
+                    8vo.</p>
+                <p part="N">50. De Etruria Regali libri vii. nunc primum editi, curante Thoma Coke,
+                    Magnae Britanniae Armigero. Florentiae, 1723-4, 2 tom. fol.—The title-page of
+                    the first volume bears an inscription “Regiae celsitudini Cosmi III. Magni Ducis
+                    Etruriae,” that of the second, “Regiae celsitudini Jo. Gastonis, Magni Ducis
+                    Etruriae;” and Dr Towers has erroneously supposed that the work was published at
+                    their expense. It was published at the expense of the editor, Sir Thomas Coke,
+                    afterwards earl of Leicester, whose library contained the original manuscript,
+                    nor is the book unworthy of so magnificent an editor: it is elegantly printed,
+                    and is illustrated with engravings. A supplement to this work was published by
+                    Giambattista Passeri under the subsequent title: “In Thomae Dempsteri libros de
+                    Etruria Regali Paralipomena, quibus Tabulae eidem operi additae illustrantur.
+                    Accedunt Dissertationes de Re Num maria Etruscorum, de Nominibus Etruscorum, et
+                    Notae in Tabulas Eugubinas.” Lucae, 1767, fol. (x.)</p>
+                <p part="N"><hi rend="smallcaps">Dempster</hi><hi rend="italic">of Court,</hi> the
+                    name formerly given in Scotland to the common executioner or hangman.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0702-8558-0673-08" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">ANA</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:808411">Anas</term>
+                    <term ref="fast:934209">French</term>
+                    <term ref="fast:830184">Bells</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:980750">Italians</term>
+                    <term ref="fast:1180188">Work</term>
+                    <term ref="fast:1198505">Life</term>
+                    <term ref="fast:1015978">Men</term>
+                    <term ref="fast:1182566">Year</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1219920">England</term>
+                    <term ref="fast:1754964">Rome</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4x05xc2x">Ana</term>
+                    <term ref="lcsh1910:b4v11vw02">Work</term>
+                    <term ref="lcsh1910:b42j68511">Life</term>
+                    <term ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term ref="lcsh1910:b4kh0f02c">Death</term>
+                    <term ref="lcsh1910:b4s46hf7s">Talking</term>
+                    <term ref="lcsh1910:b4gm81p0j">Bells</term>
+                    <term ref="lcsh1910:b48p5vb0p">Caesars</term>
+                    <term ref="lcsh1910:b48g8fh7d">Greeks</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193038558?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">ANA</label>, a Latin plural termination,
+                    appropriated to various collections of the observations and criticisms of <pb
+                        break="no" facs="nls:193038571?mode=fullsize" xml:id="kp-eb0702-8571-0674"
+                    />674 ANA.</p>
+                <p part="N">Ana. eminent characters delivered in conversation and recorded by their
+                    friends, or discovered among their papers after their decease. Though the term
+                    Ana is but of modern origin, the species of composition to which it has been
+                    applied is not of such recent date as some persons have imagined. It appears,
+                    from D’Herbeloťs <hi rend="italic">Bibliothèque Orientale,</hi> that, since the
+                    earliest periods, the eastern nations have been in the habit of preserving the
+                    maxims of their sages. From them this practice passed to the Greeks and Romans.
+                    Plato and Xenophon treasured up and recorded the sayings of their master
+                    Socrates. From their example Arrian, in the concluding books of his <hi
+                        rend="italic">Enchiridion,</hi> which have not descended to posterity,
+                    collected the casual observations which had dropped from Epictetus. The numerous
+                    apophthegms seattered in Plutarch, Diogenes Laertius, and other writers, evince
+                    that it had been customary in Greece to preserve the ideas delivered by
+                    illustrious characters. It appears that Julius Caesar compiled a book of
+                    apophthegms, in which he related the <hi rend="italic">bon-mots</hi> of Cicero;
+                    and Quintilian informs us, that a freedman of that celebrated wit and orator
+                    composed three books of a work entitled <hi rend="italic">De</hi><hi
+                        rend="italic">Jocis Ciceronis.</hi> We are told by Suetonius, that Caius
+                    Melissus, originally the slave, but afterwards the freedman and librarian, of
+                    Maecenas, collected the sayings of his master; and Aulus Gelliuś has filled his
+                        <hi rend="italic">Noctes</hi><hi rend="italic">Atticae</hi> with anecdotes
+                    which he heard from those distinguished characters whose society he frequented
+                    in Rome. Were the books compiled by the freedmen of Cicero and Maecenas now
+                    extant, they might be entitled Ana; and it is certainly to be regretted that we
+                    possess no authentic record of the conversational remarks or hints which dropped
+                    from the sages, orators, or statesmen of Greece and Rome. How interesting would
+                    be a <hi rend="italic">Colloquia Mensalia</hi> of Atticus or Caesar!</p>
+                <p part="N">But though vestiges of this species of composition may be traced in the
+                    classical ages, it is only in modern times that it has attained to full
+                    popularity and perfection. Literary anecdotes, critical reflections, and
+                    historical incidents, came to be mingled with the detail of <hi rend="italic"
+                        >bon-mots</hi> and ludicrous tales; so that instruction and entertainment
+                    were agreeably blended. The term Ana seems to have been applied to such
+                    collections as far back as the beginning of the fifteenth century. Thus,
+                    Francesco Barbaro, in a letter to Poggio, says, that the information and
+                    anecdotes which Poggio and Barthelemi Monteρolitiano had picked up during a
+                    literary excursion through Germany, will be called <hi rend="italic">Ana:</hi>
+                    “Quemadmodum mala ab Appio e Claudia gente <hi rend="italic">Appiana,</hi> et
+                    pira a Mallio <hi rend="italic">Malliana</hi> cognominata sunt, sic haec
+                    literarum quae vestra ope et opera Germania in Italiam deferetur, aliquando et
+                        <hi rend="italic">Pog-giana</hi> et <hi rend="italic">Montepolitiana</hi>
+                    vocabuntur.”</p>
+                <p part="N">Poggio Bracciolini, to whom this letter is addressed, and to whom the
+                    world is indebted for the preservation of so many classical remains, is the
+                    first eminent person of modern times whose jests and opinions have been
+                    transmitted to posterity. Poggio was secretary to five successive popes. During
+                    the pontificate of Martin V., who was chosen in 1417, Poggio and other members
+                    of the Roman chancery were in the habit of assembling in a common hall adjoining
+                    the Vatican, in order to converse freely on all subjects. Being more studious of
+                    wit than of truth, they termed this apartment <hi rend="italic">Buggiale,</hi> a
+                    word signifying a place of recreation where tales are related, and which Poggio
+                    himself interprets <hi rend="italic">Mendaciorum Officina.</hi> At these
+                    meetings Poggio and his friends discussed the news and scandal of the day, and
+                    communicated to each other entertaining anecdotes; they attacked what they did
+                    not approve, and they approved of little; they also indulged in the utmost
+                    latitude of satiric remark, dealing out their <hi rend="smallcaps">a∣,</hi>
+                    sarcasms with such impartiality, that they did not spare ''-*~ k even the pope
+                    and cardinals. The pointed jests and hu- ' morous stories which occurred in
+                    these unrestrained conversations were collected by Poggio, and formed the chief
+                    materials of his <hi rend="italic">Facetiae,</hi> first printed, according to De
+                    Bure, in 1470. This celebrated collection, which forms a principal part of the
+                        <hi rend="italic">Poggiana,</hi> is chiefly valuable as recording
+                    interesting anecdotes of eminent men of the fourteenth and fifteenth centuries.
+                    It also contains a number of quibbles or <hi rend="italic">jeux-de-τηots,</hi>
+                    and a still greater number of idle and licentious stories. Many of these,
+                    however, are not original, some of them being taken from ancient authors, and a
+                    still greater number from the <hi rend="italic">Fabliaux</hi> of the <hi
+                        rend="italic">Trοu∙ veurs.</hi> Thus, the <hi rend="italic">Fabliau</hi><hi
+                        rend="italic">La Culotte</hi><hi rend="italic">des Cordeliers</hi> is the
+                        <hi rend="italic">Braccae Divi Francisci</hi> of Poggio; <hi rend="italic"
+                        >Le</hi><hi rend="italic">Meunier dΛleus</hi> is Poggio’s <hi rend="italic"
+                        >Quinque Ova</hi><hi rend="italic">; Du Vilain et de sa Femme</hi> is his
+                        <hi rend="italic">Mulier Demersa;</hi><hi rend="italic">and Du Pre</hi><hi
+                        rend="italic">Tondu</hi> is the <hi rend="italic">Pertinacia Muliebris</hi>
+                    of the <hi rend="italic">Facetiae.</hi> On the other hand, Poggio has suggested
+                    much to succeeding writers. Hans Carvel’s <hi rend="italic">Bing</hi> is his <hi
+                        rend="italic">Visio</hi><hi rend="italic">Francisci Filelfi</hi><hi
+                        rend="italic smallcaps"> ĵ</hi> and Fontaine’s fables, <hi rend="italic"
+                        >Le</hi><hi rend="italic">Charlatan,</hi><hi rend="italic">Le Coq et le
+                        Renard,</hi> and that of the <hi rend="italic">ĩVolf and Fox pleading before
+                        the Ape,</hi> are from stories originally related by Poggio. The <hi
+                        rend="italic">Facetiae</hi> forms, upon the whole, the most amusing and
+                    interesting part of the Į <hi rend="italic">Poggiaηa</hi> printed at Amsterdam
+                    in 1720; but this collec-Poggι a. tion also comprehends some further anecdotes
+                    of his life, and a few scattered maxims extracted from his graver
+                    compositions.</p>
+                <p part="N">Though Poggio was the first person whose remarks and <hi rend="italic"
+                        >bon-mots</hi> were collected under the name of Ana, the ŵo- <hi
+                        rend="superscript"> 1</hi><hi rend="italic">ligerana,</hi> which contains
+                    the opinions of Joseph Scaliger, was the first work <hi rend="italic"
+                        >published</hi> under that appellation; and, accordingly, may be regarded as
+                    having led the way to that class of publications.</p>
+                <p part="N">There are two collections called Scaligerana—a <hi rend="italic"
+                        >ρrirnα</hi> Scali; and <hi rend="italic">secunda</hi> Scaligerana. The
+                    first was compiled bya <hi rend="superscript"> ana</hi> ∙ physician named
+                    Francis Vertun ien, Sieur de Lavau, who attended the family of the Messieurs
+                    Chateigner, in whose house Joseph Scaliger resided. He, in consequence, had
+                    frequent opportunities of meeting that celebrated critic, and was in the custom
+                    of committing to paper the learned or ingenious observations which dropped from
+                    him in the course of conversation; to which he occasionally added remarks of his
+                    own. This collection, which was chiefly Latin, remained in manuscript many years
+                    after the death of the compiler. It was at length purchased by Μ. de Sigogne,
+                    who published it in 1669, under the title of <hi rend="italic">Prima</hi><hi
+                        rend="italic">Scaligerana,</hi><hi rend="italic">nusquam antehac edita;</hi>
+                    bestowing upon it the title <hi rend="italic">prima,</hi> in order to preserve
+                    its claim of priority over another Scaligerana which had been published three
+                    years before, but had been more recently compiled. This second work, known by
+                    the name of <hi rend="italic">Secunda</hi><hi rend="italic">Scaligerana,</hi>
+                    was collected by two brothers of the name of Vassau, who went to complete their
+                    studies at the university of Ley den, of which Scaliger was at that time one of
+                    the professors. Being particularly recommended to Scaliger, they were received
+                    in his house, and daily enjoyed his conversation; in the course of which, he
+                    gave them much information concerning various topics of history and criticism.
+                    The Vassans immediately wrote down what they had heard, and soon made up a large
+                    manuscript volume, in which, however, there was neither connection nor
+                    arrangement of any description. In this state the manuscript was delivered by
+                    one of the Vassans, on his retirement to a monastery, to Μ. de Puy; and after
+                    passing through various hands, it came into the possession of Μ. Daillé, who for
+                    his own use arranged in alphabetical order the articles which it con-taineđ<pb
+                        break="no" facs="nls:193038584?mode=fullsize" xml:id="kp-eb0702-8584-0675"
+                    />. Isaac Vossius having come to Paris on a visit to Μ. 'DaiΠe, obtained the
+                    loan of the manuscript, which he transcribed, and afterwards published at the
+                    Hague, under the title of <hi rend="italic">Scaligerana,</hi><hi rend="italic"
+                        >sive Excerpta</hi><hi rend="italic">ex ore Josephi Scαligeri.</hi> This
+                    edition was full of inaccuracies and blunders; but a more correct impression was
+                    afterwards published by Μ. Daillé, with a preface complaining of the use that
+                    Vossius had made of the manuscript, which he declares was never intended for
+                    publication, and was not of a nature to be given to the world. Indeed most
+                    literary men in that age conceived that the <hi rend="italic">Scaligerana,</hi>
+                    particularly the <hi rend="italic">second,</hi> detracted considerably from the
+                    reputation of the great scholar whose sentiments they recorded. They are full of
+                    mistakes and contradictions; and Baylė has remarked, that the Vassans attribute
+                    to him observations which it is almost impossible he could have uttered. Joseph
+                    Scaliger, with more extensive erudition, but less genius than his father Julius
+                    Caesar Scaliger, had inherited his ridiculous vanity and dogmatical spirit. He
+                    wished it to be thought that he knew every thing, and that his opinions were
+                    infallible. Conversing with two young students of a university, of which he
+                    formed the principal ornament, he would probably be but little cautious in the
+                    opinions he expressed, as his literary errors could not be detected or exposed.
+                    Unfortunately the blind admiration of his pupils led them to regard even his
+                    most absurd opinions as the responses of an oracle, and his most unmerited
+                    censures as just condemnations. The <hi rend="italic">Scaligerana,</hi>
+                    accordingly, contains many falsehoods, with much unworthy personal abuse, of the
+                    most distinguished characters of the age. Thus, he calls Cardinal Bellarmin a
+                    mere atheist <hi rend="italic">{plane atheus),</hi> and compares the duke of
+                    Sully to Sejanus. Indeed Μ. Daillé, in his preface to the <hi rend="italic"
+                        >Secunda</hi><hi rend="italic">Scaligerana,</hi> confesses that it contains
+                    “multa futilia, scurrilia, obscoena; quaedam manifeste falsa. Ubique de se
+                    suisque magnifice, ne dicam thrasonice, loquitur; laudum parcus, conviciorum
+                    largus, in omnes contumeliosissime invehitur: denique, neminem sibi de manibus
+                    elabi patitur,, cujus non errata, vitia, nae-vos etiam levissimos, acerrime
+                    insectetur, et plusquam cynica licentia arrodat.”</p>
+                <p part="N">In imitation of the <hi rend="italic">Scaligerana,</hi> a prodigious
+                    number of similar works appeared in France towards the end cf the seventeenth
+                    and beginning of the eighteenth century. At first these collections were
+                    confined to what had fallen from eminent men in conversation; but they were
+                    afterwards made to embrace fragments found among their papers, and even passages
+                    extracted from their works and epistolary correspondence. Of those which merely
+                    record the conversations of eminent men, the best known, the fullest, and most
+                    valuable, is the <hi rend="italic">Meηαgiana.</hi> Menage was a person of good
+                    sense, of various and extensive information, and of a most communicative
+                    disposition. He lived during the greater part of his life in the best society.
+                    An assembly of literary characters met, during a long period of time, at his
+                    house every Wednesday; and, during his latter years, he daily received persons
+                    of that description. Much of his time was thus spent in conversation; and those
+                    of his friends who habitually enjoyed it were at pains to record his opinions,
+                    which were generally founded on a correct taste and judgment, and were always
+                    delivered in a manner the most interesting and lively. A collection of his oral
+                    opinions was published in 1693, soon after his death; and this collection, which
+                    was entitled <hi rend="italic">Meηagiaηa,</hi> was afterwards corrected and
+                    enlarged by Μ. la Monnoye, in an edition published by him in 1715. Among the
+                    most curious articles in the <hi rend="italic">Menagiana</hi> may be numbered
+                    the dissertation on <hi rend="italic">Le Moyen de Parvenir,</hi> a work
+                    attributed to Beroalde de Verreville; that on <hi rend="italic">Le Songe de
+                        Poliphile;</hi> as also a letter of La Monnoye on the existence of a book
+                    supposed to have been entitled <hi rend="italic">De</hi><hi rend="italic">Tribus
+                        Impostoribus,</hi> concerning which there has been much discussion and
+                    controversy.</p>
+                <p part="N">The <hi rend="italic">Pcτroniana,</hi> which exhibits the opinions of
+                    Cardinal Perron, was composed from his familiar conversation by Μ. de Puy, and
+                    published by Vossius, by the same contrivance which put him in possession of the
+                        <hi rend="italic">Scaligerana.</hi> Some parts of this collection are useful
+                    in illustrating the literary and ecclesiastical history of the age in which
+                    Perron lived; but it also contains many puerile, imprudent, and absurd remarks,
+                    which it is generally supposed he never uttered, and many of which were proved
+                    by Μ. Chevreau (<hi rend="italic">Chevroeana)</hi> to have been the
+                    interpolations of his friends. Some of his assertions,—as that Luther denied the
+                    immortality of the soul, and that every English peasant drinks from a silver
+                    goblet,—are evidently false. Nor can much reliance be placed on the judgment or
+                    taste of an author who has elsewhere declared that a page of Quintus Curtius is
+                    worth thirty of Tacitus, and that, next to Quintus Curtius, Florus is the
+                    greatest Roman historian. The <hi rend="italic">Thuana,</hi> or observations of
+                    the president De Thou, have usually been published along with the <hi
+                        rend="italic">Perroηiana.</hi> This collection is not extensive, and by no
+                    means of such value as might have been expected from a man so able and
+                    distinguished.</p>
+                <p part="N">The <hi rend="italic">Valcsiana</hi> is a collection of the literary
+                    opinions of the historiographer Adrian Valois, published by his son. Μ. Valois
+                    was a great student of history, and the <hi rend="italic">Valesi-ana,</hi>
+                    accordingly, comprehends many valuable historical observations, particularly on
+                    the works of Du Cange.</p>
+                <p part="N">The <hi rend="italic">Eureteriana</hi> contains the <hi rend="italic"
+                        >bon-mots</hi> of Μ. Furetiere, of the French academy, the stories which he
+                    was in the habit of telling, and a number of anecdotes and remarks found among
+                    his papers after his decease. This production, however, consists chiefly of
+                    short stories, and comprehends but few thoughts, opinions, or criticisms on
+                    books. Furctiere, it is well known, had a violent quarrel with the French
+                    Academy, of which he was a member, concerning his <hi rend="italic">Dictionnaire
+                        Universel de la Langue Françoise.</hi> Having published a preliminary
+                    discourse, the further printing was interdicted by the French Academy, which
+                    accused him of purloining materials they had amassed for a similar work. This
+                    controversy subsisted during the rest of the life of Furctiere, who spent his
+                    concluding years in writing and publishing libels on his associates. The <hi
+                        rend="italic">Eureteriana,</hi> accordingly, is replete with allusions to a
+                    subject with which his thoughts were so completely engrossed: in particular we
+                    find there the plan and outline of an allegorical and burlesque poem, entitled
+                        <hi rend="italic">Les Couches de l'Academic</hi><hi rend="italic">;</hi> in
+                    which he has satirized different members of the academy, especially Μ.
+                    Charpentier, one of his bitterest foes, whom he has designated by the name of
+                        <hi rend="italic">Marmentier.</hi></p>
+                <p part="N">The <hi rend="italic">Chevraeana,</hi> so called from Μ. Chevreau,
+                    exhibits more research than most works of a similar description, and is probably
+                    more accurate, as it was published during the life of the author, and revised by
+                    himself. Among other interesting articles, it contains a learned and ingenious
+                    commentary on the works of Malherbe, to whom the French language and poetry were
+                    highly indebted for the perfection to which they attained.</p>
+                <p part="N"><hi rend="italic">Parrhasiana</hi> is the work of Jean le Clerc, a
+                    professor of Amsterdam, who bestowed this appellation on his miscellaneous
+                    productions with the view of discussing various topics of philosophy and
+                    politics with more freedom than he could have employed under his own name. This
+                    work is not of the light and unconnected description of <pb break="no"
+                        facs="nls:193038597?mode=fullsize" xml:id="kp-eb0702-8597-0676"/>most of the
+                    Ana whieh have been above enumerated, as it contains much learned philological
+                    disquisition, and a long dissertation on poetry and eloquence. In the first
+                    volume there is a list of his published works, and a bitter reply to all those
+                    who had censured them.</p>
+                <p part="N">The <hi rend="italic">Huetiana,</hi> whieh has always held a
+                    distinguished plaee among the Ana, contains the detached thoughts and criticisms
+                    of Huet, bishop of Avranches, whieh he himself committed to writing during his
+                    life. This author was well fitted to produce a valuable work in this department
+                    of literature. He enjoyed the friendship of a number of distinguished
+                    characters, and his reading was various and extensive. This collection, however,
+                    was not begun by him till he was far advanced in life. Huet was born in 1630,
+                    and in 1712 he was attacked by a malady which impaired his memory, and rendered
+                    him incapable of the sustained attention necessary for the completion of a long
+                    or laborious work. In this situation he employed himself during the concluding
+                    years of his life in throwing his detached observations on paper. These were
+                    published by the Abbé d’Olivet the year after his death, under the name of <hi
+                        rend="italic">Huetiana,</hi><hi rend="italic">—</hi> a work which is not,
+                    like some other Ana, a succession of <hi rend="italic">bon-mots</hi> or
+                    anecdotes, but forms a series of thoughts and criticisms on various topies of
+                    morals, philosophy, and literature, and also comprehends pretty long
+                    dissertations on the origin of rhyme, the comparative merit of the ancients and
+                    moderns, with similar topics. One of the most instructive discussions to a
+                    scholar, in this collection, is that on the Latinization of names and surnames;
+                    in whieh he points out and criticises the different modes of this process. His
+                    eritieal judgments on Montaigne, Rochefoucauld, and Taeitus, seem also well
+                    founded; and if some of his opinions in matters of taste betray singular or
+                    defective feelings, there are others whieh appear equally just and refined. But
+                    were there no other literary memorials of the bishop of Avranehes, he certainly
+                    would not derive high reputation from the <hi rend="italic">Huetiana.</hi>
+                    D’Alembert has treated this collection with contempt; and has selected some
+                    articles to show the bishop’s incompetent judgment and frivolous taste. It may
+                    be suspected, indeed, from the circumstances in which the articles contained in
+                    the <hi rend="italic">Huetiana</hi> were composed, that they do not always
+                    display that correct judgment which distinguishes many of the other works of
+                    this learned writer.</p>
+                <p part="N">The <hi rend="italic">Casauboniana</hi> presents us with the
+                    miscellaneous observations, chiefly philological, of the celebrated Isaac
+                    Casaubon. During the eourse of a long life, that eminent commentator was in the
+                    daily practice of committing to paper any thing remarkable which he heard in
+                    conversation with his friends, especially if it bore on the studies in which he
+                    was engaged. He also made diurnal annotations on the works he was employed in
+                    reading, with which he connected his judgments concerning the author and his
+                    writings. This compilation, whieh was styled <hi rend="italic">Ephemerides,</hi>
+                    together with his <hi rend="italic">Adversaria,</hi> and materials amassed for a
+                    refutation of the <hi rend="italic">Ecclesiastical Annals of Earonius,</hi>
+                    came, at his death, into the possession of his son Merie Casaubon, who
+                    bequeathed the whole to the Bodleian library at Oxford. These were shown to
+                    Christopher Wolfius during a visit whieh he paid to that university; and having
+                    been transcribed by him, were published under the title of <hi rend="italic"
+                        >Casauboniana.</hi> This collection consists of opinions concerning various
+                    eminent writers, illustrations of passages in Scripture, and philological
+                    observations and animadversions on the first thirty-four years of the <hi
+                        rend="italic">Annals of Baronius.</hi> The materials and information which
+                    it contains are probably more accurate than is usually the case in works of the
+                    same description, as they were not communicatëd in Casual conversation, and
+                    reported by others, but were daily committed to writing by Casaubon himself,
+                    while the works from which they were derived remained fresh in his
+                    recollection.</p>
+                <p part="N">Besides the above, a great many works, under the title of Ana, appeared
+                    in Franee about the same period. Thus, the opinions and conversation of
+                    Charpentier, Colomesius, and St Evremond, were recorded in the <hi rend="italic"
+                        >Carpeηteriαηα, Colomesiana,</hi> and <hi rend="italic">St
+                        Evremoniana</hi><hi rend="italic">;</hi> and those of Segrais in the <hi
+                        rend="italic">Segraisiana,</hi><hi rend="italic">—</hi> a collection formed
+                    by a person stationed behind the tapestry in a house where Segrais was
+                    accustomed to visit, and of which Voltaire has declared, “que de tous les Ana
+                    e’est eelui qui merite le plus d’être mis au rang des mensonges imprimés, et
+                    surtout des mensonges insipides.” The Ana, indeed, from the popularity which
+                    they now enjoyed, were compiled in sueh numbers, and with so little care, that
+                    they beeanιe almost proverbial for inaeeuraey. About the middle of the
+                    eighteenth century they were sometimes made the vehicles of political squibs, as
+                    in the <hi rend="italic">Maupeouana,</hi> and of heretical opinions, as in the
+                        <hi rend="italic">Longueruana.</hi> Thus the evil naturally began to eure
+                    itself, and by a re-action, which is very general in regard to all productions
+                    of literature, the Freneh Ana sunk in publie esteem as much below their
+                    intrinsic value as they had formerly been exalted above it.</p>
+                <p part="N">Although these conectĩons have been ehiefly formed from the oral
+                    opinions of eminent men on the Continent, particularly in France, England has
+                    also produced one or two examples of this species of composition, whieh are not
+                    altogether undeserving of attention. Of these, perhaps the most eurious is the
+                        <hi rend="italic">Walpolianα,</hi> which is a transcript of the literary
+                    conversation of Horace Walpole. That multifarious author was distinguished for
+                    his resources of aneedote, wit, and judicious remark, as well as for his
+                    epistolary qualifications. From his father, Sir Robert Walpole, he had learned
+                    many anecdotes concerning the political characters who figured during the period
+                    of his administration. He was himself personally acquainted with all the eminent
+                    literary characters of his own day in England; and his repeated visits to Paris,
+                    and constant correspondence with friends in that capital, supplied him with the
+                    most interesting information with regard to Franee. A great part of his life was
+                    devoted to conversation. While residing at Strawberry-hill, he generally rose
+                    from table about five o’clock, and taking his place on his drawing-room sofa, to
+                    which his gout in a great measure confined him, he passed the time, till two
+                    o’clock in the morning, in miscellaneous chit-ehat, full of singular anecdotes,
+                    strokes of wit, and aeute observations. As he possessed, and was daily
+                    eommunieating, such stores of instruction and amusement, it was suggested to him
+                    that he ought to form a collection of these anecdotes and observations. This he
+                    declined, but he furnished the editor of the <hi rend="italic">Walpoliana</hi>
+                    with many anecdotes in his own handr writing. After his death, several specimens
+                    of this miscellany were published in the <hi rend="italic">Monthly
+                        Magazine·,</hi> and being afterwards enlarged by anecdotes retained in the
+                    memory of the editor, or communicated by others, were published in two volumes,
+                    under the title of <hi rend="italic">Wαlροliαnα,</hi> Most other works which, in
+                    this country, have been published under the name of <hi rend="italic">Ana,</hi>
+                    as <hi rend="italic">Eaconiana, Atterbury-ana,</hi> are rather extracts from the
+                    writings and correspondence of eminent men, than memorials of their
+                    conversation.</p>
+                <p part="N">There are some works whieh, though they do not bear the title, belong
+                    more strictly to the elass of Ana than many of those eolleetions which are known
+                    under that appellation. Such are the <hi rend="italic">Mélange</hi><hi
+                        rend="italic">d’</hi><hi rend="italic">Histoire et</hi><hi rend="italic">de
+                        Littcrαr</hi><pb break="no" facs="nls:193038610?mode=fullsize"
+                        xml:id="kp-eb0702-8610-0677"/><hi rend="italic">ture,</hi> published under
+                    the name of <hi rend="italic">Vigneul Marυille</hi><hi rend="italic">;</hi> and
+                    the <hi rend="italic">Locorum Communium Collectanea,</hi><hi rend="italic"
+                        >ex</hi><hi rend="italic">Lectionibus</hi><hi rend="italic">Philippi
+                        Melanchthonis,</hi><hi rend="italic">—</hi> a work which was published as
+                    far back as the sixteenth century, and has. obtained considerable reputation on
+                    account of its theological learning, and the information it communicates
+                    concerning the early state of the reformed church. But of those productions
+                    which belong to the class, though they do not bear the name, of Ana, the most
+                    celebrated are the <hi rend="italic">Colloquia Mensalia</hi> of Luther, and
+                    Selden’s <hi rend="italic">Table-Talk,</hi> both of which merit particular
+                    notice. The first, which comprehends the conversation of Luther with his friends
+                    and coadjutors in the great work of the Reformation, was first published in
+                    1566. Captain Henry Bell, who translated it into English in the time of the
+                    Commonwealth, informs us that, at the instigation of the pope, the emperor of
+                    Germany had promulgated an edict commanding the works of Luther to be destroyed.
+                    It was for some time supposed that all the copies of the <hi rend="italic"
+                        >Colloquia Mensalia</hi> had been burned in consequence of this order; but
+                    at length, in 1626, a German called Van Sparr, having occasion to build on the
+                    old foundation of a house in which his grandfather dwelt when the imperial edict
+                    was issued, he found lying in a deep hole, and wrapped up in a linen cloth, a
+                    printed copy of the <hi rend="italic">Colloquia Mensalia.</hi> Captain Bell
+                    having formerly become acquainted with Van Sparr during a long residence in
+                    Germany, his friend transmitted the work to him in England, where he executed a
+                    translation of it; an undertaking to which he pretends that he was urged by the
+                    vision of an old man with a long white beard, arrayed in white, who spoke these
+                    words: “Sirrah, will you not take time to translate that book ?” The
+                    -extraordinary book translated by Bell, at the instance of this vision, is said
+                    to have been originally collected by Dr Anthony Lauterbach, “out of the holy
+                    mouth of Luther ;” and was afterwards digested into common-places by Dr John
+                    Aurifaber. It chiefly contains observations and discussions on idolatry,
+                    auricular confession, mass, excommunication, clerical jurisdiction, general
+                    councils, and all the points agitated by the reformed church in those early
+                    periods. With such topics there is intermixed many diatribes against Antichrist
+                    and the Cardinals, and much sarcasm on popish miracles and relics. Occasionally,
+                    however, it must be confessed that our great reformer expresses a belief in
+                    superstitions fully as wild and monstrous as those which he derides, and which
+                    he was called to overthrow. Thus, he asserted that he was repeatedly kept from
+                    sleep by the devil cracking nuts in his chamber; and he affirmed that there was
+                    a child at Dessau, which had been substituted by the arch-fiend instead of one
+                    he had stolen away, and which child Luther earnestly advised the prince of
+                    Anhalt to throw into the river Moldaw.</p>
+                <p part="N">If the collection of Selden’s apophthegms and sayings, entitled <hi
+                        rend="italic">Table-Talk,</hi> be regarded of good authority, we shall find
+                    in it a more genuine and undisguised expression of the sentiments of that
+                    eminent man, than in his more studied productions. This work was published,
+                    after the death of Selden, by Richard Milward, his amanuensis, who, in his
+                    dedication to Selden’s executors, affirms that, for twenty years, he enjoyed the
+                    opportunity of daily hearing his discourse, during which long period he made it
+                    his practice, from time to time, faithfully to commit to writing “the excellent
+                    things that usually fell from him.” Dr Wilkins, in his introductory discourse to
+                    the Works of Selden, has attempted to throw discredit on the genuineness of this
+                    compilation, asserting that it contains many things derogatory from Selden’s
+                    erudition, and foreign from his manners and principles. It is not improbable,
+                    indeed, that the memory of the amanuensis may have occasionally failed him, and
+                    that he may have recorded sayings which inadvertently escaped his master in the
+                    heat of conversation, and such as he probably would not have deliberately
+                    maintained. But, on the whole, the work has completely an air of genuineness;
+                    and although the familiarity of his illustrations and parallels may appear to
+                    clash with the idea formed of so great a scholar, they are characteristic of a
+                    man who had been conversant with scenes of common life, no less than the
+                    speculations of the closet. That such was the usual manner of Selden’s
+                    conversation, the editor of the <hi rend="italic">Table-Talk</hi> recalls to the
+                    recollection of those friends of his patron to whom the work is dedicated; and
+                    this appeal forms a presumption of his veracity. The <hi rend="italic"
+                        >Table-Talk</hi> contains many curious facts and opinions concerning the
+                    political and ecclesiastical history of the interesting period during which
+                    Selden lived, and in the important events of which he bore a considerable share.
+                    To judge from this work, Selden had great contempt for the theologians of his
+                    day; and seems to have been of opinion that the state should invariably keep a
+                    rein on the church. He was partial to the Episcopal form of worship; but was
+                    evidently not very strict in doctrinal points, as appears from what he is
+                    reported to have said on the subject of <hi rend="italic">heresy.</hi> In his
+                    political opinions he seems to have entertained a high respect for the
+                    sacredness of the social contract; and he justified the resistance to the
+                    Stewarts, on the ground that they had infringed and violated this compact
+                    between prince and people. Besides religious and political opinions, the <hi
+                        rend="italic">Table-Talk</hi> contains much of a lighter description; in
+                    consequence of which, Selden has been accused of showing more laxness, in point
+                    of moral principle, than might have been expected from so grave and respectable
+                    a character. Many of those sentiments, however, which have been considered
+                    objectionable, may have been merely advanced as plausible deductions from
+                    principles assumed for the sake of argument. But whatever difference of opinion
+                    may exist with regard to the matter of the <hi rend="italic">Table-Talk,</hi>
+                    the manner in which the sentiments are there expressed must be universally
+                    admitted to be perspicuous and agreeable. The style of Selden, in most of the
+                    works published under his own care, is harsh and obscure; but Clarendon, who
+                    differed from him so widely in political opinions, acknowledges that he was “a
+                    clear discourser, and that he possessed the faculty of making difficult things
+                    easy, and presenting them clearly to the understanding.” Accordingly, this
+                    talent for elucidation shines chiefly in his <hi rend="italic">Table-Talk,</hi>
+                    which is filled with the stores of his extensive reading, delivered without any
+                    pretensions to that order and method, the want of which has been attributed to
+                    his other productions.</p>
+                <p part="N">It thus appears that, although the compilations designated by the name
+                    of Ana belong more particularly to France, they have not been wholly unknown in
+                    this country. In their <hi rend="italic">Motti e Burle,</hi> and sometimes in
+                    their novels, the Italians also have recorded the witticisms of their
+                    distinguished poets and artists. The novels of Sacchetti are full of repartees
+                    attributed to Dante and the painters Giotto and Buffalmacco. Almost every
+                    Italian biographical work of the sixteenth and seventeenth centuries, like
+                    Boswell’s <hi rend="italic">Life of Johnson,</hi> records at great length the
+                    conversational remarks of the individual whose life is detailed. Thus, Manso has
+                    dedicated one of the books of his life of Torquato Tasso to an account of the
+                    wise and witty sayings of that illustrious poet, who, towards the close of his
+                    days, had become the intimate friend of his biographer. The conversation of the
+                    poet, however, was neither gay nor brilliant. One of the characters in
+                        Goldoni<pb break="no" facs="nls:193038623?mode=fullsize"
+                        xml:id="kp-eb0702-8623-0678"/>’s drama of Torquato Tasso thus contrasts his
+                    writings and conversation:</p>
+                <lg part="N">
+                    <l part="N"> Ammiro il suo talento, gradisco i carmi suoi; </l>
+                    <l part="N"> Ma piacer non trovo a conversar con lui. </l>
+                </lg>
+                <p part="N">It also unfortunately happens that the greater part of the sayings
+                    recorded by Manso may be found in the Apophthegms of Erasmus, which were
+                    published before the birth of Tasso. Indeed Manso seems to have been aware of
+                    the want of originality in the <hi rend="italic">bon-mots</hi> of his friend;
+                    for, after mentioning one, he says, “questo motto fu da alcuni ad <hi
+                        rend="italic">Epiteto</hi> attribuito.” It was usual, indeed, among the
+                    biographers of those times to pillage Xenophon or Plutarch for good things to
+                    put into the mouths of their heroes; a practice from which Machiavel could not
+                    abstain in his short account of the illiterate soldier Cas-truccio Castracani.
+                    In those ages of pedantry, however, it is not improbable that many sayings of
+                    the old philosophers might have been repeated as their own by the learned men of
+                    the times; and that the Italian <hi rend="italic">literati</hi> might
+                    occasionally attempt to make their hearers merry with the jests of Socrates or
+                    Diogenes. The genius and character of the people rendered any collection of this
+                    nature less agreeable than the Ana of the neighbouring nation. In Italy, gravity
+                    was numbered among the virtues, and, in the eulogy of an illustrious man, is
+                    always mentioned as one of his most commendable qualities. There seems, in that
+                    country, to have been no medium between the most fantastic buffoonery and a
+                    certain tragic solemnity. The Italians wanted that “mobility of imagination,”
+                    that facility, rapidity, abandonment, and gaiety, which seems almost peculiar to
+                    the French, and forms the chief charm of social intercourse, as well as of those
+                    works in which it is represented; though, no doubt, when reduced into writing,
+                    much of its grace and spirit must evaporate and disappear.</p>
+                <p part="N">The existence of similar causes, and perhaps in a stronger degree,
+                    prevented the popularity of Ana among the Spaniards; though they too have
+                    related the jests and opinions of the duke d’Ossuna, and of some others. Indeed,
+                    whatever may be the genius or disposition of a people, traces of this mode of
+                    composition may in some shape or other be discovered among them.</p>
+                <p part="N">When presented in their most perfect form, which is that of the French
+                    Ana, these collections are certainly entertaining from their variety, and
+                    curious, as presenting a lively image of the distinguished 'characters whose
+                    sentiments they record. If men reason more correctly on paper, they usually
+                    display their feelings and convictions with more truth in unpremeditated
+                    conversation. Few are so cautious or hypocritical that they do not sometimes
+                    drop the mask in the society of their friends, and express what they think or
+                    feel, when they no longer entertain apprehensions that their sentiments will be
+                    communicated to the vulgar. In general, however, the Ana should rather be
+                    regarded as affording a notion of the spirit and turn of thinking of those whose
+                    conversation they detail, than as authorities for particular opinions. A spirit
+                    of contradiction, a wish to display ingenuity, to astonish by paradoxes, or even
+                    to support conversation, may often lead men to maintain opinions in colloquial
+                    intercourse which they perhaps never seriously held, or at least would be ready
+                    to disclaim on mature consideration. It also unfortunately happens that, in many
+                    of the Ana, those who collected the conversations which they presented to the
+                    world interpolated their own opinions; which, of course, greatly diminishes
+                    their authority as characteristical records. It has also been objected to this
+                    species of composition, that every subject is treated superficially; but it
+                    should be recollected that the Ana do not profess to contain profound
+                    dissertations; and in fact no one consults them with the view of being deeply
+                    informed on any topic. A better founded objection is, that many subjects are
+                    treated, not merely superficially, but inaccurately. Such compositions are
+                    liable to a double risk of error; first, of the person who delivers opinions in
+                    the heat of discourse, or relates anecdotes from vague recollection; and,
+                    secondly, of the person who records them, who must be liable to mistake what he
+                    has only heard in the course of conversation. From these causes, and from their
+                    wide and general circulation, many of the most current literary errors may be
+                    traced to the Ana. When read, however, with discrimination, they may prove
+                    highly useful in illustrating various points of literary history, as they
+                    certainly contain a great deal which is not to be found in the formal
+                    compositions of the learned.</p>
+                <p part="N">Wolfius has given a histbry of the <hi rend="smallcaps">Ana</hi> in a
+                    preliminary discourse to his edition of the <hi rend="italic">Casaubσniana,</hi>
+                    published in 1710. In the <hi rend="italic">Repertoire de Bibliographies
+                        Speciales,</hi><hi rend="italic">Curieuses, et Instructives,</hi> by
+                    Peignot, there is a <hi rend="italic">Notice</hi><hi rend="italic"
+                        >Bibliographique</hi> of these collections; but many of the books there
+                    enumerated consist of mere extracts from the writings of popular authors, and do
+                    not, therefore, belong to that class of literary works described in the
+                    preceding article. <hi rend="smallcaps">(q.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0709-2304-0542-03" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">FIFESHIRE</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1206715">Scotland</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:923951">Fife</term>
+                    <term ref="fast:1182566">Year</term>
+                    <term ref="fast:1180188">Work</term>
+                    <term ref="fast:933281">Founding</term>
+                    <term ref="fast:865087">Coal</term>
+                    <term ref="fast:934209">French</term>
+                    <term ref="fast:807480">Americanisms</term>
+                    <term ref="fast:807485">Americanization</term>
+                    <term ref="fast:807488">Americans</term>
+                    <term ref="fast:821510">Australians</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4vh5ch72">Americanisms</term>
+                    <term ref="lcsh1910:b4cr5nn0v">Swan</term>
+                    <term ref="lcsh1910:b4wh2df3t">Moon</term>
+                    <term ref="lcsh1910:b4m90280p">Law</term>
+                    <term ref="lcsh1910:b49z90g16">Fife</term>
+                    <term ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term ref="lcsh1910:b4q23r724">Presents</term>
+                    <term ref="lcsh1910:b4tt4fw6r">East</term>
+                    <term ref="lcsh1910:b4v11vw02">Work</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193752304?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">FIFESHIRE</label> is situated between 56° 3' and 56°
+                    25'north latitude, and bounded by the River and Frith of Tay on the north, by
+                    the German Ocean on the east, by the Frith of Forth on the south, and by parts
+                    of Kinross, Perth, and Clackmannan on the west. Its greatest length is about
+                    fifty miles, and its greatest breadth about twenty miles; but its medium length
+                    from east to west is only about thirty-six miles, and its breadth from north to
+                    south about fourteen miles. Its area, therefore, contains about 504 square
+                    miles, or 322,560 English acres.</p>
+                <p part="N">The most prominent features in Fifeshire, when viewed at a distance from
+                    the south, are the two Lomond Hills, in the middle of the county, the westmost
+                    of which rises 1721 feet above the level of the sea; Largo Law, farther east,
+                    952 feet; and Kelly Law, 810 feet. Besides these, there are numerous other
+                    elevations scattered throughout the county; and indeed it is everywhere found to
+                    present a pleasant variety of hill and valley, stretching in general from west
+                    to east, parallel to the Tay and the Forth. The principal valley is that through
+                    which the river Eden flows, and is called the Howe of Fife. It lies to the north
+                    of the Lomond range of hills, and divides the county into the northern and
+                    southern portions. The valleys of the Leven and the Ore, and the valleys
+                    connected with, or as it were opening into, the Howe of Fife, are of much
+                    smaller extent and appearance. The hills and country on the north of the Hoιve
+                    of Fife seem to be a continuation of the Ochil Hills, and have been considered
+                    by geologists as belonging to the old red sandstone formation. The prevailing
+                    rocks found there are red and white sandstone, amygdaloid, compact felspar,
+                    claystone, clinkstone, greenstone, basalt, traptuff, and wacke. Limestone is
+                    also found near Newburgh, and shell marl in abundance at Rossie and Lords
+                    Carnie.</p>
+                <p part="N">The mineral structure of the Howe of Fife, and of some of the other
+                    valleys, has never yet been minutely explored. Sandstone quarries, however, have
+                    been opened at different <pb break="no" facs="nls:193752317?mode=fullsize"
+                        xml:id="kp-eb0709-2317-0543"/>places, and here and there are to be seen
+                    eminences of ' gravel regularly stratified. The rocks of the southern division
+                    of Fifeshire chiefly belong to the eoal formation of geologists, and form a
+                    portion of the great eoal field of the Forth. Here glanee eoal, or blind eoal as
+                    it is sometimes called, is met with occasionally; and slate coal, piteh eoal,
+                    and cannel eoal, are oecasionally found together in the same bed, and sometimes
+                    in separate strata in the same pit.</p>
+                <p part="N">From a charter dated in Mareh 1291, it would appear that coal has been
+                    worked in this eounty for more than five centuries. William de Oberville there
+                    grants liberty to the convent of Dunfermline to open a eoal-pit in his lands of
+                    Pityncreiff. But it has been alleged that this is not the first instance of a
+                    Seottish charter containing a right to work coal; for one dated 1284-85 is said
+                    to exist, from which it may be inferred that coal was worked in the lands of
+                    Tranent before that period. The prineipal eoal works in the county at present
+                    are those in the parishes of Dunfermline, Dysart, Wemyss, and Markineh; but eoal
+                    is also worked at present, or has been so formerly, in the parishes of
+                    Torryburn, Inverkeithing, Dalgety, Burntisland, Abbotshall, Auchterderran,
+                    Seoonie, Largo, and Pittenweem.</p>
+                <p part="N">In the southern division of Fifeshire limestone is aιso abundant. The
+                    lime works at Charleston, belonging to the Earl of Elgin, are perhaps the
+                    greatest in Scotland. Upwards of 100,000 tons are said to be raised annually in
+                    his lordship’s quarries; whieh quantity is either shipped or sold in its native
+                    state, or after being caleined. The Carron Company also work out extensively the
+                    lime on their estate of Newbigging, in the parish of Burntisland, and ship it at
+                    the harbour of Starleyburn, on the Forth, for their works at Carron, where it is
+                    used for smelting iron. The great iron work on the Devon is also supplied for a
+                    similar purpose with limestone from Whinnyhall, in the parish of Burntisland.
+                    The limestone in the interior of the county is likewise transported aeross the
+                    Howe of Fife, and by the way of Newburgh, to the Carse of Gowrie, and
+                    Forfarshire and Perthshire.</p>
+                <p part="N">Sandstone abounds in the southern division of the county; and, in many
+                    plaees, it is of a fine grain and durable nature. The prineipal quarry in the
+                    eounty is at Cullello, in the parish of Aberdour. The stone obtained from it, in
+                    consequence of its superior quality, has been used for some of the finest
+                    buildings in Edinburgh, as well as carried over land to great distances.
+                    Ironstone also abounds in the eoal field, and was once worked extensively at
+                    Balgonie, where it was smelted. But it is now chiefly worked at Dysart, and sold
+                    to the Carron Company. The other roeks found in this coal field are bituminous
+                    shale, slate elay, flinty slate, wacke, traptuff, amygdaloid, greenstone, and
+                    basalt. Stones somewhat resembling the preeious garnet are sometimes found
+                    imbedded in the traptnff at Ely, and are known by the name of the Ely rubies.
+                    Copper and zine are also said to have been met with in different plaees, and
+                    lead has been worked in the Lomond Hills. Marl is also often found in the
+                    marshes and in the lakes, and sometimes in dry seasons it is carried away for
+                    agricultural purposes.</p>
+                <p part="N">There are none of the mineral springs in the county so remarkable as to
+                    be at present frequented as watering plaees. those which arise in the coal
+                    fields are frequently chalybeate. One of the two mineral springs at Dysart
+                    yields a chalybeate water of considerable strength. In the Howe °l Fife springs
+                    issuing from the sandstone or gravel are said to be frequently saline. But in
+                    the portions of the county where the trap-roeks abound, the springs, whatever
+                    virtues they are supposed to possess, seldom yield any thing <hi
+                        rend="superscript"> 5ut</hi> pure water. From the Inkcraig of Carnoek,
+                    adjoining tθ a dam dike, there is said to issue a spring of petroleum, <hi
+                        rend="superscript"> ro</hi> 5J which there constantly drops a liquid
+                    resembling ink.</p>
+                <p part="N">the only streams of any note in the county are the Leven and the Eden.
+                    The former, which issues fromLoeh Leven, in Kinross-shire, flows eastward,
+                    through a beautiful strath, by Leslie, Balgonie, and Balfour, and, after a
+                    course of about twelve miles, during which it receives the Lothrie and the Orr,
+                    falls into the Frith of Forth at the town of Leven. From the declivity of its
+                    channel, it is well fitted for impelling machinery; and accordingly a great many
+                    mills and other works have been erected on its banks. An act of parliament was
+                    lately obtained, the ehief object of whieh was the erection of works and the
+                    construction of mechanism, to regulate the rise or fall of the water in the
+                    lake, and to restrain or increase the flow of the river for the benefit of the
+                    bleaehfields and other manufactories ereeted upon its banks; and these objects
+                    have been accomplished at a sum considerably exceeding L.30,000. The Leven
+                    abounds in salmon and sea trout, and where it falls into the sea there is a
+                    salmon fishery. The Eden is formed by the confluence of several small streams in
+                    the parish of Strathmiglo on the west, near the boundary of Fife with
+                    Kinross-shire, and winding slowly through the level valley, and sometimes
+                    overflowing its banks, passes the town of Cupar, and loses itself in the German
+                    Ocean about eighteen miles from its souree. It contains trout, pike, and eels,
+                    and has also a salmon fishery where it discharges itself into the sea. The Guard
+                    Bridge over this river, consisting of six arehes, was built in the beginning of
+                    the fifteenth century.</p>
+                <p part="N">There are a number of lakes in the eounty, none of them very large, but
+                    some of them very beautiful, such as those at Lindores,Kilconquhar, Kinghorn,
+                    Loehgellie, Camilla, Lochfittie, and Otterston. Most of these lakes abound in
+                    pike, perch, and eels, and are frequented by ducks, coots, and other water fowl.
+                    The county onee contained many more lakes, whieh have been drained at great
+                    expense. Amongst these, the most considerable are the lakes of Rossie and
+                    Lochore. Their beds are now used in raising valuable erops.</p>
+                <p part="N">From the extensive drainage of the lakes, and the general improvement of
+                    the eounty, its elimate within the last forty years has been considerably
+                    ameliorated, and is more free than formerly from the injurious fogs whieh used
+                    to arise from the lochs and damp lands. At present the elimate may be described
+                    as mild. The harvests are early, and snow seldom lies long. As the direction of
+                    the hills in the eounty is from east to west, it is mueh exposed to the easterly
+                    winds, whieh often eheck vegetation in the spring months; and hoar frosts are
+                    not unfrequent so late as the middle of June. The heaviest rains are from the
+                    south-west, the south-east, and the north-east, and the winds from the two last
+                    points bring the heaviest falls of snow. The driest and most steady weather
+                    comes from the north-west and east.</p>
+                <p part="N">Four fifths of the county at least are considered at present as arable,
+                    and the remainder consists of hills, marshes, moors, lands covered with drifted
+                    sand and ehiefly bearing bent, extensive plantations, and high roads. Along the
+                    banks of the Forth, above the trap-roeks, and the traet of country on the north
+                    of the Howe of Fife, the soil is for the most part of excellent quality, being
+                    rieh loam, good clay, and gravel mixed with loamy earth. The soil from St
+                    Andrews to the western parts of the county, where the strata underneath consist
+                    of freestone, eoal, or slate, is in general greatly inferior. The Howe of Fife
+                    contains a eonsiderable proportion of moor and moss, besides a tract of loam
+                    partly deep and moist, and partly light and dry.</p>
+                <p part="N">Within the last forty years extensive woods haye been planted in the
+                    eounty. For instance, there is a forest of Seoteh firs in the Howe of Fife,
+                    stretching for many miles in length, on the Leven, Crawfurd, and other estates.
+                    I o-rests of all kinds of trees have also been planted on the Raith estate, by
+                    Mr Ferguson, the proprietor; and a princely ride along the Cullello Hills, of
+                    considerable Iengt , <pb break="no" facs="nls:193752330?mode=fullsize"
+                        xml:id="kp-eb0709-2330-0544"/>was formed and adorned with plantation several
+                    years ago by Mr Stuart of Dunearn. Indeed there is hardly a proprietor in
+                    Fifeshire of the least consequence who has not contributed extensively to the
+                    creation of forests and pleasure grounds on his estate. The oldest woods in Fife
+                    are round Leslie House, the seat of the Earl of Rothes.</p>
+                <p part="N">There are a great number of splendid mansions in the county belonging to
+                    the nobility and gentry, and situated upon their estates. There are some of
+                    these estates pretty large, and a greater number above L.500 Scotch of valuation
+                    than in any other county in Scotland. But of the 638 estates which it contained
+                    in 1811, 491 were below that amount. The annual value of the real property, as
+                    assessed in April 1815, amounted to L.405,770 sterling.</p>
+                <p part="N">In the year 1811, the number of freeholders entitled to vote for a
+                    county member of parliament was only 207. In 1832, the roll of these voters last
+                    made up under the old law contained 234 names, and of this number sixty-three
+                    were considered as paper voters; that is, two or three were apparent heirs of
+                    owners who were on the roll, and the remainder of the sixty-three were merely
+                    nominal owners of the estates from which they derived their privilege. The
+                    number of voters for the county member at present on the roll, under the act 2
+                    and 3 William IV. cap. 65, is 2228.</p>
+                <p part="N">The average size of the farms in Fife used to be about 150 acres; few of
+                    them were what might be called large, the greater number were small. Of late
+                    years, however, the tendency has been to join several together under one tenant.
+                    Many of the farmers are now men of capital and enterprise; and under their
+                    direction, supported by the liberality of the proprietors, the recent extensive
+                    agricultural improvements, which are visible throughout every part of the
+                    county, have been undertaken. The most improved implements of husbandry are
+                    everywhere in use. Thrashing-mills are to be found on most farms, some of them
+                    moved by horses, a few by wind-mills, others by waterwheels, and of late a
+                    number by steam-engines, a power which seems to be in progress of superseding
+                    all others. The farm-steadings, and the dwellings of the peasantry, have in a
+                    great measure been renewed within the last thirty years, and much improved and
+                    enlarged; and the greater part of the fields in the county are well enclosed
+                    either with stone dikes or hedges.</p>
+                <p part="N">All the farm crops common in the south of Scotland are cultivated here
+                    upon a large scale, and almost always according to the most approved system.
+                    Flax is now seldom raised. The crops commonly cultivated are, different kinds of
+                    oats, barley, wheat, rye, beans, peas, and tares; clover and ryegrass, potatoes,
+                    and turnips; and mangel worzel has in some places been recently introduced.
+                    Farm-yard dung, the cleanings of the streets of the many towns and villages, and
+                    the sea-weed cast ashore and cut upon the rocks, are the principal manures. Lime
+                    is universally used, and marl in a few places. Bone dust has also been tried
+                    within the last few years, and, upon the whole, very successfully.</p>
+                <p part="N">Cattle of the Fife breed have long been in high repute both as fattening
+                    and dairy stock. The prevailing colour is black; limbs short and body round;
+                    horns small, white, and turned up at the points; bone small in proportion to the
+                    carcass; and weighing, when fat, and from three to four years old, from forty to
+                    sixty stone. The cows, when well fed, yield from ten to fourteen Scotch pints of
+                    milk dąily during the best of the grass season, and continue long in milk; yet,
+                    except in the neighbourhood of the considerable towns, the dairy is considered
+                    as a secondary object. The oxen were formerly much employed in labour, but they
+                    are now seldom to be seen at work. Flocks of sheep are not very numerous. The
+                    horses are much the same as in all the lowlands of Scotland. A great many pigs
+                    have of late years been reared in the county, and many of them are killed and
+                    shipped in a fresh state for the London market. Pigeons are very numerous, the
+                    pigeon-houses being lately estimated at no less than 300. Rabbits are in some
+                    places protected; and hares, pheasants, and partridges are plentiful. There are
+                    few grouse or black-cock; and fallow deer have been frequently seen at
+                    Lochfittie, Torbain, and other places.</p>
+                <p part="N">Grain is sold in stock and sample at various weekly markets in Fife, of
+                    which the most considerable are at Anstruther, Auchtermuchty, Kirkaldy, Largo,
+                    and Newburgh. There are also weekly markets at Dunfermline, Cupar, and other
+                    places, for the same purpose; and every town of any consequence has one or two
+                    yearly fairs for the sale of cattle, &amp;c. although it must be admitted that
+                    the number of the yearly fairs in Fife has been much diminished.</p>
+                <p part="N">The staple manufacture of this county is linen. Dunfermline has long
+                    been famous for its extensive and almost exclusive manufacture of damasks and
+                    diapers. Of late years, by the introduction of French improvements in the
+                    machinery, and the ingenuity of the workmen, the quality of the fabrics has been
+                    much improved, and the trade greatly enlarged. Ticks, checks, sail-cloth,
+                    dowlas, and other plain linens and sheetings of every, quality, are made in
+                    several towns in the county, but the great seat of the manufacture is Kirkaldy.
+                    In 1812, no less than 4,500,000 yards of linen cloth were made by the
+                    manufacturers, and stamped of the value of L.280,000; and in 1800, about 600,000
+                    yards of plain linen were supposed to have been made by private families for
+                    their own use, which were not stamped. The number of hands employed in all the
+                    branches of this manufacture in 1800 was computed at 23,192; but the number of
+                    hands now employed is greatly increased. No part of the work of weaving in this
+                    county is at present, however, carried on with the aid of steam power. There was
+                    one steam-loom factory lately in Kirkaldy, but it has been converted into a
+                    spinning mill.</p>
+                <p part="N">Flax has seldom or never been spun by the hand since the introduction of
+                    spinning mills. These now amount to forty-five in number, and include in all
+                    upwards of 29,000 spindles. Of these, Mr Fergus of Strathore employs at present,
+                    in his great work at Prinlaws, 2684 spindles; and erections have been made at
+                    the same work for receiving about 3000 more. Messrs C. Arthur and Sons at
+                    Kinghorn run upwards of 2000; Nelson and Co. at Kirkland 1800; Mr John
+                    Rutherford, Dunfermline, 1376; Henry Balfour and Co. Leven, 1240; Arthur Aitken
+                    and Co. Dunfermline, 1066; W. &amp; J. Yule, Ceres, 1048; Mr Swan, Kinghorn,
+                    1026; Mr George Moon, Russel Mill, 1012; but the various other mills have less
+                    than 1000 spindles each at work. Supposing each spindle to spin half a spyn-dle
+                    daily, making suitable allowances for stoppages and holidays, the various mills
+                    in Fife will spin 13,000 spyn-đles daily, 78,000 per week, or 3,900,000 per
+                    mill-spinner’s year of fifty weeks; producing yarn to the value of L.438,750,
+                    and consuming 6500 tons of flax. The persons employed at these mills consist of
+                    hecklers, male and female preparers, spinners, reelers, &amp;c.; and allowing
+                    one individual for each twelve spindles, there will be employed at the spinning
+                    mills in Fife, of all ages and in all the departments, about 2240 people. Messrs
+                    Nelson and Company, at the Kirkland works, manufacture a large proportion of
+                    their yarns into sail-cloth and other fabrics, and Mr Rutherford, Dunfermline,
+                    converts the greater part of his yarns into threads of all colours. Tlιe yarns
+                    at the other mills are generally sold as they are spun.</p>
+                <p part="N">Besides the trades and manufactures of the county ∏ <hi
+                        rend="superscript"> ιa</hi> y be mentioned ship-building, which is carried
+                    on at Dysart, where there is a wet dock, and a Morton’s slip for raising the
+                    vessels out of the water for repair; and at Burntιslan , <pb break="no"
+                        facs="nls:193752343?mode=fullsize" xml:id="kp-eb0709-2343-0545"/>where there
+                    is a good harbour and dry dock; as also at Kirkaldy, Anstruther, and Scotscraig.
+                    There are, besides, in the county, forty-eight brewers of ale and beer, the
+                    greater part of whom also make malt; fifty-six other maltsters, six extensive
+                    distilleries, 1140 retailers of ale and spirits, about 200 retailers of foreign
+                    wines, twenty-two dealers in vinegar, 900 dealers in tea, ten manufacturers of
+                    tobacco, and about 800 dealers in that article; one soap work and eighteen
+                    tallow chandlers; two papermills on the water of Leven, and nine bleachfields on
+                    the same stream, four in the neighbourhood of Kirkaldy, and six in other parts
+                    of the county; ten brick and tile manufactories, and two potteries; four iron
+                    founderies, numerous smiths and wrights, ten works for tanning leather, about as
+                    many curriers, two skinners, and two glue manufacturers.</p>
+                <p part="N">The shipping of the county is pretty extensive, and the vessels
+                    belonging to it are of such burden as to trade to all parts of the world; a
+                    number of them being engaged in the whale fisheries, and others in the Baltic,
+                    American, and Australian trade. The exports are the manufactures already
+                    mentioned, and the produce of the whale fisheries, coal, limestone, lime,
+                    potatoes, and grain of all sorts; and the imports from foreign parts are timber,
+                    bark, hides, tallow, flax, hemp, tar, iron, &amp;c.; and coastwise, pavement and
+                    slates, groceries, and other articles required for home consumption. For the
+                    state of the harbours and the extent of their trade, see the articles <hi
+                        rend="smallcaps">Forth</hi> and <hi rend="smallcaps">Tay.</hi></p>
+                <p part="N">The banking business of the county is extensive. It is managed by
+                    branches of the Bank of Scotland at Dunfermline, Kirkaldy, and St Andrews; of
+                    the Commercial Bank of Scotland at Cupar, Colinsburgh, Dunfermline, and
+                    Kirkaldy; of the National Bank of Scotland and of the Glasgow Bank at Kirkaldy;
+                    and of the British Linen Company at Cupar.</p>
+                <p part="N">Fifeshire contains thirteen royal burghs with parliamentary privileges.
+                    St Andrews, Cupar, Anstruther Easter, Pittenweem, Crail, Kilrenny, and
+                    Anstruther Wester, with a constituency at present of 635, send one member to
+                    parliament; Kirkaldy, Dysart, Burntisland, and Kinghorn, with a constituency of
+                    415, send another; and Dunfermline, having a constituency of 500, and
+                    Inverkeithing of thirtyeight, join with Stirling, Q,ueensferry, and Culross in
+                    electing a member to represent them. The voters in these thirteen Fife burghs
+                    have now increased their constituency to 1588, instead of the 304 individuals
+                    who formerly composed their corporations.</p>
+                <p part="N">The courts in the county for the trial of crime and civil suits consist,
+                    1+ of the burgh courts, the magistrates of which have jurisdiction within their
+                    respective royalties or burgh territory only; 2&lt;7Zy, of the sheriff courts,
+                    for similar purposes, which are held at Dunfermline for the parishes in that
+                    presbytery, and at Cupar for the other parts of the county, at each of which
+                    towns the cases are tried either by the sheriff in person, or by substitutes, of
+                    whom he has for the purpose one constantly resident at Cupar, and another at
+                    Dunfermline, he himself being usually resident in Edinburgh; <hi rend="italic"
+                        >⅛dly,</hi> of the justice of peace courts, which are held periodically at
+                    Cupar, Auchtermuchty, Anstruther, Colinsburgh <hi rend="subscript"> 4</hi>
+                    Kirkaldy, and Dunfermline, for trying actions θf debt under five pounds, and
+                    petty criminal matters.</p>
+                <p part="N">The principal jails in the county are at Dunfermline, Kirkaldy, Cupar,
+                    and St Andrews. There is also a small jail attached to the town-hall of almost
+                    every burgh in the county, but many of these are seldom used for the recep-t <hi
+                        rend="superscript"> on</hi> °f prisoners. With the exception of the jails of
+                    Cupar, ⅛kaldy, and Kinghorn, which are the best in the county, having been
+                    erected within the last twenty-five years, none of them have airing ground
+                    attached to them for the use of ae prisoners, or are well fitted as places of
+                    confinement.</p>
+                <p part="N">The great turnpike-roads of the county, which are madfe and maintained
+                    by the revenue of the toll-bars, and the ∣ye-roads, which are maintained by a
+                    tax on householders, on carriages, and on each plough-gate of land, are under
+                    the charge of parliamentary trustees, consisting chiefly of the justices of the
+                    peace, and commissioners of supply for the county. Each of the four presbyteries
+                    forms a district for managing its own roads. The accounts of the turnpike
+                    trustees are printed and published annually. The accounts of the bye-road trusts
+                    have however not yet been published. The turnpike-roads and many of the
+                    bye-roads are in excellent order, great attention being paid to the introduction
+                    of the most recent improvements in road-making. Private railways of wood or iron
+                    have been used for many years in transporting for several miles the produce of
+                    the coal and lime quarries to the harbours where they are shipped. The most
+                    extensive of these railroads is that belonging to the Earl of Elgin. It proceeds
+                    from near Dunfermline to Charleston harbour, and has been lately opened to the
+                    public for the use of rail coaches carrying passengers.</p>
+                <p part="N">Fifeshire is divided into sixty-one parishes, belonging to the four
+                    presbyteries of St Andrews, Cupar, Kirkaldy, and Dunfermline, which compose the
+                    synod of Fife; but there are four parishes besides in the presbytery of
+                    Dunfermline, and one in the presbytery of Kirkaldy, which are not situated in
+                    this county.</p>
+                <p part="N">The population of Fifeshire in 1801 was 93,743; in 1811, 101,272, an
+                    increase of eight percent.; in 1821, 114,550, an increase of thirteen per cent.;
+                    and in 1831, 128,800, an increase above the preceding census of twelve per
+                    cent.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

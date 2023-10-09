@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0704-7869-0658-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">BLACK SEA, or Euxine Sea</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4kk94m4s">Sea</term>
+                    <term ref="lcsh1910:b4q815225">Trade</term>
+                    <term ref="lcsh1910:b4jh3db66">Trades</term>
+                    <term ref="lcsh1910:b4q52fm3g">Ports</term>
+                    <term ref="lcsh1910:b4513v11w">Water</term>
+                    <term ref="lcsh1910:b4p26qc7r">Turks</term>
+                    <term ref="lcsh1910:b4513v00z">Travelers</term>
+                    <term ref="lcsh1910:b4rr1pw5q">Travels</term>
+                    <term ref="lcsh1910:b49p2wf9z">Travel</term>
+                    <term ref="lcsh1910:b48g8fh7d">Greeks</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1110395">Seas</term>
+                    <term ref="fast:1171139">Water</term>
+                    <term ref="fast:1159574">Turks</term>
+                    <term ref="fast:878993">Corn</term>
+                    <term ref="fast:1116352">Shipping</term>
+                    <term ref="fast:934209">French</term>
+                    <term ref="fast:1102429">Russians</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:1155691">Travelers</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1207312">Russia</term>
+                    <term ref="fast:1212489">Bulgaria</term>
+                    <term ref="fast:1208963">Turkey</term>
+                    <term ref="fast:1204622">Georgia</term>
+                    <term ref="fast:1207170">Malta</term>
+                    <term ref="fast:1206891">Poland</term>
+                    <term ref="fast:1204303">Spain</term>
+                    <term ref="fast:1208755">Egypt</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193197869?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">BLACK SEA, or <hi rend="smallcaps">Euxine
+                        Sea</hi></label>, <hi rend="italic">Pontus Euxinus</hi> of the ancients, is
+                    a large inland sea, bounded on the west by Rumelia, Bulgaria, and Bessarabia; on
+                    the north by Russian Tartary; on the east by Mingrelia, Circassia, and Georgia;
+                    and on the south by Anatolia. It is entered from the Mediterranean through the
+                    channel of the Dardanelles, anciently the <hi rend="italic">Hellespont,</hi> the
+                    Sea of Marmora or <hi rend="italic">Propontis,</hi> and the channel of
+                    Constantinople or <hi rend="italic">Thrαdαη Bosphorus;</hi> and it is connected
+                    with the Sea of Azof, or <hi rend="italic">Palus Moeotis,</hi> by the strait
+                    between the Crimea and the isle of Taman, anciently the <hi rend="italic"
+                        >Cimmerian Bosphorus,</hi> and known by the various modern names of the
+                    Strait of Caffa, of Yenikale, and of Taman.</p>
+                <p part="N">Till within less than half a century, the extent of the Black Sea, and
+                    the position of several of its principal capes, gulfs, and ports, were very
+                    imperfectly ascertained. But soon after the commencement of the French
+                    Revolution, the National Institute sent Μ. Beauchamp to examine this sea, and
+                    especially its southern shores. In this enterprise he was much impeded by the
+                    jealousy of the Turks: nevertheless, he ascertained that Cape Kerempe, <hi
+                        rend="italic">Cαrαrnbis,</hi> was placed in the charts too far to the south;
+                    that the Gulf of Sansoun, <hi rend="italic">Amisenus Sinus,</hi> was deeper
+                    tlián it is commonly represented; and that Trebizond, the Tarabagan of the
+                    Turks, anciently <hi rend="italic">Trapezus,</hi> was five or six leagues
+                    farther to the west than it appeared in the charts. But recent travellers have
+                    discovered that even the Parisian charts are inaccurate. According to Dr Clarke,
+                    the Isle of Serpents, the Ulan-Adassi of the Turks, the Fidonisi of the modern
+                    Greeks, and anciently <hi rend="italic">Leuce,</hi> lies fifteen minutes, and
+                    the port of Odessa twenty-seven minutes, too far towards the north (Clarke’s <hi
+                        rend="italic">Travels,</hi> i. 653); and Mr Macgill ascertained, from two
+                    observations of his own, compared with those of some captains who had navigated
+                    this sea, that, in the French charts, even Cape Kerempe is set down fifteen
+                    miles too far north, whilst Cape Aria, or Careza, <hi rend="italic"
+                        >Kriu-Metopou,</hi> in the Crimea, is placed twenty-two miles too far south.
+                    This, of course, makes a difference in the width of the sea at this place of
+                    thirty-seven miles. (Macgilľs <hi rend="italic">Travels,</hi> i. 195.)</p>
+                <p part="N">According to the best authorities, which Mr Arrowsmith has followed in
+                    his maps of this sea, it lies between 41 and 46^ degrees of north latitude (the
+                    bottom ot the Bay of Sansoun penetrating nearly to the 40th degree, and Cape
+                    Kerempe stretchingout nearly to the 42d), and between 28 and 41~∙ degrees of
+                    east longitude from Greenwich. This will give for its extreme breadth, from Cape
+                    Baba in Anatolia to Odessa, about 380 miles, and for its extreme length, from
+                    the coast of Rumelia to the mouth of the Phasis, 932 miles. The Black Sea,
+                    however, may be considered as divided into two parts, by Cape Ana on the south
+                    of the Crimea, and Cape Kerempe on the coast of Paphlagonia; the former lying in
+                    about 44⅜, and the latter in about 42 degrees of north latitude. Both these
+                    capes being high land, vessels sailing between them can discover the coast on
+                    either side. The circumference of the Black Sea is about 3800 miles. .</p>
+                <p part="N">The first navigators of Greece who ventured into this sea having been
+                    repulsed or massacred by some of the fierce tribes inhabiting its coasts, their
+                    countrymen gav e it the name of <hi rend="italic">Pontus Axenos,</hi> or “sea
+                    unfriendly to strangers.” But when the repeated visits of the Greeks had
+                    rendered these tribes more familiar with strangers, <pb break="no"
+                        facs="nls:193197882?mode=fullsize" xml:id="kp-eb0704-7882-0659"/>and
+                    commercial intercourse had softened down the original ferocity of their
+                    character, Grecian colonies were established at different points on the shores
+                    of this sea, and the epithet <hi rend="italic">Axenus</hi> was changed into <hi
+                        rend="italic">Euxinus,</hi> which has a direct contrary import, and means
+                    “friendly to strangers.” It derives its modern name either from the dense fogs
+                    which frequently cover it, or from the dangers of its navigation arising from
+                    these fogs; from the sudden and violent storms to which it is exposed; and from
+                    the shallows hitherto unnoticed in any chart.</p>
+                <p part="N">The opinion of the ancients, that the Black Sea was formerly much more
+                    extensive than it is at present, and that it did not originally communicate with
+                    the Mediterranean, is adopted by many modern authors of note, particularly by
+                    Tournefort, Buffon, Pallas, and Dr Clarke, and seems to be confirmed by several
+                    circumstances. Immense strata of limestone, consisting almost entirely of
+                    mineralized sea-shells, may be traced from the Black Sea to the northward as far
+                    as the 48th degree of latitude, or about a degree and a half beyond the most
+                    northerly point of its northern shore; and Pallas, in the third and seventh
+                    volumes of his <hi rend="italic">Travels,</hi> has pointed out traces of its
+                    having formerly extended over the whole desert of Astracan and Jaik. The
+                    evidences derived from the appearance of the present coast of this sea are still
+                    less equivocal in support of the diminution of its waters. Pliny expressly
+                    states that <hi rend="italic">Taurida</hi> or the Crimea was not only once
+                    surrounded by the sea, but that the sea covered all that portion of it which is
+                    at present champaign country. Now, from the mouths of the Dnieper to those of
+                    the Don there are found continuous layers of marine shells; and if we suppose
+                    the waters of the Black Sea to be restored only to the level of these layers,
+                    the Crimea will again appear as an island. The alluvial nature of more than
+                    three fourths of the soil of Crimea Proper to the north, the numerous salt lakes
+                    and marshes, and the remains of marine productions of various kinds which are
+                    found there, sufficiently confirm the latter part of Pliny’s statement.</p>
+                <p part="N">The ancients also believed that the communication between the Black Sea
+                    and the Mediterranean, and the consequent diminution of the waters of the
+                    former, was effected by the bursting of the Thracian Bosphorus, at the period of
+                    the great deluge which inundated Greece; and this tradition seems to be
+                    confirmed by a reference to existing natural phenomena. The cliffs and hills at
+                    the mouth of the Bosphorus are composed of enormous pebbles, which appear to
+                    have undergone the action of fire, and afterwards to have been rounded by long
+                    attrition in water. On the point of the European light-house there are immense
+                    masses of hard and compact lava; and the rock of which the Cyanean Isles consist
+                    appears to have been more or less modified by fire, and to have been cemented
+                    during the boiling of a volcano. On the Asiatic side of the strait, a little to
+                    the eastward of the Anatolian light-house, there is also a range of basaltic
+                    pillars, exhibiting very regular prismatic forms. From the consideration of all
+                    these circumstances, and from comparing events recorded in history with the
+                    phenomena of nature, Dr Clarke considers it more than a conjectural position,
+                    “that the bursting of the Thracian Bosphorus, the deluge mentioned by Diodorus
+                    Siculus, and the draining of the waters which once united the Black Sea to the
+                    Caspian, and covered the great oriental plain of Tartary, were all the
+                    consequences of earthquakes caused by subterranean fires, described as still
+                    burning at the time of the passage of the Argonauts, and the effects of which
+                    are visible even at this hour.” (Vol. i. p. 680.) It is proper to mention, that
+                    Olivier does not coincide with other naturalists respecting the former extent of
+                    the Black Sea, or the bursting of the Thracian Bosphorus.</p>
+                <p part="N">The northern and western coasts of this sea have under gone, and are
+                    still undergoing, considerable changes; but the southern coast, consisting
+                    chiefly of calcareous rocks, is nearly in the same state in which it was in the
+                    time of the ancients. According to Valerius Flaccus, the gulfs and bays in the
+                    northern and western coasts were extremely deep; most of these, however, are now
+                    all either entirely filled up or very much contracted. In proof that the Black
+                    Sea and the Sea of Azof are still sustaining a diminution of their waters, it
+                    may be stated that ships which formerly sailed to Taganrog and the mouths of the
+                    Don, are now unable to approach either the one or the other; that the Sea of
+                    Azof has become so shallow, that, during certain winds, a passage may be
+                    effected by land from Taganrog to Azof, through the bed of the sea; and that the
+                    isthmus connecting the Cyanean Isles with the Continent, which does not appear
+                    to have existed in the time of Strabo, appears to be increasing. On the southern
+                    coast of the Black Sea there is, as far as we know, only one instance of a
+                    recession of the waters: the channel which formerly divided the village of
+                    Amasrah, <hi rend="italic">Amastris,</hi> is now entirely filled up, and forms a
+                    low isthmus.</p>
+                <p part="N">A rapid current, which generally flows at the rate of a league an hour,
+                    the influence of which is felt at the distance of ten miles from land, where it
+                    begins to take another direction, sets from the Black Sea into the Bosphorus.
+                    Sometimes, however, the long continuance of a strong south-westerly wind
+                    effectually counteracts this current. The Black Sea, from its particular form,
+                    being like a basin, into which many large rivers pour their streams, is full of
+                    currents, particularly in summer, when the rivers are increased by the melting
+                    of the snows; and when strong winds act against these currents, a high sea is
+                    produced. North-east winds prevail from June to August inclusive; but the most
+                    prevalent winds at other seasons of the year are from the south and south-west.
+                    The general climate of the Black Sea is cold and humid; the winters are long,
+                    and frequently very severe; but the navigation is free of impediment from ice
+                    till the beginning of November, and often much later. The quantity of fresh
+                    water conveyed into this sea renders it brackish, and liable to freeze with a
+                    moderate degree of cold. It is calculated by some authors, particularly
+                    Tournefort (ii. 404), and the abbé Barthélemy (<hi rend="italic">Voyage
+                        d'Aηacharse,</hi> tome i. c. 1), that the volume of water it receives is
+                    much greater than that which it discharges into the Mediterranean. Dr Clarke,
+                    however, is of opinion that the rivers which fall into the Black Sea and the Sea
+                    of Azof do not communicate more water than flows through the canal of
+                    Constantinople; and hence he concludes, that, admitting the effect of
+                    evaporation, the level of the Black Sea is insensibly falling.</p>
+                <p part="N">The Black Sea receives a considerable portion of the fresh waters of
+                    Europe, as well as of Asia Minor. The Danube collects the waters of a great part
+                    of Germany, Hungary, Bosnia, Servia, Transylvania, Moldavia, Wallachia, and
+                    Bulgaria. The Dniester, Bog, Don, and Dnieper, discharge into it those of a part
+                    of Russia and Poland. The Phasis collects those of Mingrelia; and the Sangaris,
+                    and Kisil-Irmak, or <hi rend="italic">Halys,</hi> part of those of Anatolia.</p>
+                <p part="N">In the Black Sea are found the tunny fish, which enters it to spawn;
+                    sturgeon, sterlet, porpoise, mackarel, sole, turbot of two kinds, whiting, and
+                    roach. Some writers also speak of herrings entering this sea in shoals, but it
+                    is probable that they are only large sprats. Their appearance, however, is
+                    considered symptomatic of a good sturgeon season. It abounds with a species of
+                    sea-worm, four or five inches long, with a head like an arrow, and a body
+                    consisting of a whitish mucilage. These worms are very destructive to ships.</p>
+                <p part="N">We shall begin our survey of the coasts and ports of this <pb break="no"
+                        facs="nls:193197895?mode=fullsize" xml:id="kp-eb0704-7895-0660"/>sea; at its
+                    entrance from the Bosphorus, and proceed along its western shores. Off each
+                    point of the entrance of the Bosphorus from the Black Sea is a group of rocky
+                    islets, which retain their ancient name of Cyanean dands. These have been
+                    already described. From the Bosphorus to Kara-Kerman, which lies within a few
+                    miles of the southernmost branch of the Danube, the coast is lined by the
+                    mountainous ridge of the Balkan or <hi rend="italic">Hoemus,</hi> which
+                    terminates at Cape Emeniah, <hi rend="italic">Hcεmi extrema.</hi>
+                    Thevalleysbetween these mountains form little coves, where vessels are laden
+                    with the timber of theBalkan for Constantinople. The forest of Belgrade, which
+                    takes its name from a village near Constantinople, extends along the
+                    south-western side of the Black Sea for about 100 miles. Incada, <hi
+                        rend="italic">Themas,</hi> lies on this coast in 41° 52' north latitude. On
+                    the northern side of the harbour there is good anchorage; it is only exposed to
+                    winds from the east and south-east, and is sufficiently spacious to contain a
+                    fleet; but a heavy sea enters it when those winds blow to which it is exposed.
+                    Its chief export is charcoal to Constantinople. At the head of the Gulf of
+                    Foros, which is bounded on the south by Cape Emeniah, and runs into the land
+                    nearly the same distance, is Bourgas, which exports a considerable quantity of
+                    wool, iron, corn, butter, cheese, and wine, to Constantinople. The Gulf of
+                    Foros, which is four or five leagues wide, contains several roads fit for the
+                    largest ships.</p>
+                <p part="N">On the coast of Bulgaria is Varna, or Barna, anciently <hi rend="italic"
+                        >Odessas,</hi> or, as some think, <hi rend="italic">Dionysiopolis,</hi>
+                    situated at the mouth of a river, which forms a large lake called Dewina, and
+                    extensive marshes. This town, which derives its modern name from the small river
+                    that discharges itself into the sea below its ramparts, anciently <hi
+                        rend="italic">Ziras,</hi> is celebrated for the siege it sustained, and the
+                    long and gallant defence it made, during the late war between Russia and Turkey.
+                    The possession of the place was indispensable to the Russians, in order to
+                    insure their communications by sea; but, had it not been for the treason of
+                    Jussuf Pasha, the second in command, there is no reason to believe they would
+                    ever have succeeded in making themselves masters of it. Varna formerly exported
+                    provisions to Constantinople. Kara-Kerman, <hi rend="italic">Istropolis,</hi> is
+                    a large village on the beach, off which lie several shoals that oblige vessels
+                    to anchor about a league to the south. Its principal export is corn.</p>
+                <p part="N">From Kara-Kerman to Actiar, in the Crimea, the coast is very low, and
+                    the shoals formed by the rivers run off to a considerable distance. The Danube
+                    discharges itself into the Black Sea between Bulgaria and Bessarabia, by seven
+                    mouths, among swampy islands and shifting banks. The most frequented mouth is
+                    abouta hundred fathoms wide and three fathoms deep; its stream runs out at the
+                    rate of three miles an hour. So great is the extent over which the waters of
+                    this river diffuse themselves, from the shallowness of the sea, that at the
+                    distance of three leagues from its mouth the water is almost fresh, and within
+                    one league it is perfectly fit for use. A very singular appearancetakes place
+                    near the mouths of the Danube: The porpoise, which everywhere else exhibits a
+                    dark colour, is there perfectly white; and hence, as soon as the Greek mariners
+                    descry the white porpoise, they have no doubt that they are in the current of
+                    the Danube, although in thirty fathoms water, and many leagues distant from its
+                    mouth. Opposite the mouths of this river is Serpents Island, already noticed.
+                    Kilia-nova is a port of small consequence, at one of the mouths: it might,
+                    however, be rendered highly important for exporting the productions of Hungary,
+                    if the navigation of the river were not obstructed by the jealousy of the
+                    Turks.</p>
+                <p part="N"><hi rend="smallcaps">į</hi> The Russian province of Cherson is divided
+                    from Bessarabia by the Dniester, anciently <hi rend="italic">Tyras.</hi> A bank
+                    before it forms two channels; that on the west being called the channel of
+                    Constantinople, and that on the east the] channel of Ockzakoff. The one is 150
+                    fathoms broad and the other eighty fathoms; but neither has more than eight feet
+                    water. Akerman, on the south bank of this river has some export trade in corn,
+                    wool, wine, wood, hides, and butter. Between the Dniester and Dnieper stands
+                    Odessa, the most flourishing port in the Black Sea. It owes its prosperity, not
+                    so much to any natural advantages, as to the wise administration of the Duke of
+                    Richelieu while he was governor of this province. It is situated close to the
+                    coast, which is here very lofty, and much exposed to the winds, especially from
+                    the east. In order to render it a safe and commodious port, the duke caused a
+                    harbour to be formed, in which ships of no small burden might ride secure from
+                    every storm. He also built a large mole, extending half a werst into the sea;
+                    with several small ones, and a handsome quay, a werst and a half in length. The
+                    roads without the port are safe in summer, and the anchorage is good. Odessa
+                    labours under the want of a navigable river, and a great scarcity of fresh
+                    water. In the year 1805 the number of vessels entered at this port was 595, of
+                    which twenty-seven were under the English flag, and 264 Austrian, owned by the
+                    merchants of Trieste, but employed as the carriers of Spain and Portugal. In the
+                    year 1816, up to the 28th of June, 498 ships had entered Odessa, bringing
+                    merchandise to the value of one and a half million of rubles, besides a very
+                    large quantity of specie. During the same period, there sailed 246 ships laden
+                    with Russian produce, to the amount of 15,22.0,000 rubles, including above
+                    324,000 quarters of wheat. The principal imports are wine, chiefly French, some
+                    rum, raw silk, coffee, sugar, oil, soap, sulphur, fruit, linen cloth, &amp;c.
+                    but all in rather limited quantities. The great article of export is wheat,
+                    which, however, in the opinion of Mr Macgill, is very far inferior to that of
+                    Taganrog, being soft, and apt to heat; besides this, grain, rye, barley, oats,
+                    tallow, and tallow candles, bees-wax, iron, hemp, &amp;c. are exported.</p>
+                <p part="N">The Dnieper; <hi rend="italic">Borysthenes,</hi> which separates the
+                    Russian provinces of Cherson and Taurida, forms, near its mouth, a shallow and
+                    marshy lake, two and a half miles broad abreast of Ockzakoff, but more at the
+                    confluence of the Bog. The entrance is almost closed by shifting sand banks,
+                    between which there are seldom more than five feet water. The river continues
+                    frozen from the middle of Decembertill the middle of February; and in the month
+                    of May it overflows its banks, leaving stagnant lagoons in all the low country.
+                    The Bog, <hi rend="italic">Hypanis,</hi> falls into the Gulf of Leman, or
+                    estuary of the Dnieper. There is a very small island opposite the mouth of the
+                    latter river, almost inaccessible on account of its perpendicular cliffs of rock
+                    and clay. Ockzakoff is an inconsiderable port, lying at the junction of these
+                    rivers; its harbour is perfectly secure, but the little trade it formerly
+                    possessed has been drawn away to Odessa. Opposite to Ockzakoff is Kinburn,
+                    which, before the building of Cherson, was intended by the Russians as their
+                    principal depot for the merchandise sent from the provinces bordering on the
+                    Dnieper. The extension of the Russian dominions in the west has caused even
+                    Cherson, on the right bank of the Dnieper, to be superseded by Odessa. Yet corn,
+                    hemp, and other articles of exportation, are so much cheaper and more plentiful
+                    here, that many foreign vessels still prefer this port, though they are obliged
+                    first to perform quarantine, and unload their cargoes at Odessa. The Dnieper is
+                    five miles wide at Cherson, but only vessels drawing six feet can ascend to it.
+                    The Russians, however, have a large arsenal here, and build line-of-battle
+                    ships, which are floated down the river on machines, and afterwards conveyed to
+                    Ockzakoff to be equipped· Nicolaïef, on the Bog, a fine river, without bar or
+                    cataract, <pb break="no" facs="nls:193197908?mode=fullsize"
+                        xml:id="kp-eb0704-7908-0661"/>and with deep, still water, is the station for
+                    vessels when built; and here they are laid up to be repaired. It has extensive
+                    marine arsenals, and, next to Sevastopol, is one of the most important naval
+                    stations on the Black Sea.</p>
+                <p part="N">The southern coast of the Crimea is lofty and precipitous; the mountains
+                    beginning at Balacklava, <hi rend="italic">Portus Symbolorum,</hi> and extending
+                    to Caffa, <hi rend="italic">Theodosia.</hi> Some of these are celebrated in
+                    antiquity, and are no less remarkable for their formation and appearance. The
+                    mountain Tchedir-dagh, <hi rend="italic">Trapezus,</hi> rises abruptly from the
+                    coast about Alusta to the height of 1200 or 1300 feet; it exhibits a mass of
+                    limestone very compact, of a gray colour, and, according to Pallas, yielding a
+                    slightly fetid odour on being rubbed. The most remarkable headland of the Crimea
+                    is Cape Tar-chanskoi, called by the Tartars Aya Burun, or the Sacred Promontory,
+                    probably the <hi rend="italic">Parthenium</hi> of Strabo; one of the loftiest
+                    mountains in the Crimea, terminating abruptly in the sea, and forming the
+                    western point of the peninsula. It consists entirely of marble. On the southern
+                    point is Cape Aria, <hi rend="italic">Kriu-Metopon,</hi> formerly noticed.</p>
+                <p part="N">The first port of note on the western coast of the Crimea is Kosloff, or
+                    Eupatoria, from which, in 1793, 176 vessels were freighted with corn, salt, and
+                    leather; but at present its commerce is nearly annihilated. Sebastopol, formerly
+                    Actiar, <hi rend="italic">Ctenus,</hi> is the chief station of the Russian Black
+                    Sea fleet, to which indeed it is exclusively appropriated, no merchant ship
+                    being allowed to enter it except in distress. The natural advantages of this
+                    harbour are very great. The largest vessels may lie within a cable’s length of
+                    the shore. The harbour is divided into three coves, something resembling that of
+                    Malta. The principal branch runs eastward, and is terminated by the valley and
+                    little river of Inkerman. Here the fleets of the world might ride in security,
+                    and have convenient anchorage; and in any of the ports, vessels find from 21 to
+                    70 feet depth of water, and good anchorage. On a tongue of high land between the
+                    two southern creeks stands the admiralty and store-houses. The great bay of
+                    Actiar also bears the name of the roads, and here the Russian fleet is
+                    frequently at anchor. The port of Balacklava is separated from that of Actiar by
+                    a narrow peninsula. It is one of the most remarkable in the Crimea, appearing
+                    from the town landlocked by high precipitous mountains. Its entrance is so
+                    extremely narrow, that only one ship can pass at a time; but within the port it
+                    is three quarters of a mile long and 400 yards broad. It is secure from storms
+                    in all weather, and ships of war of any size or rate may find in it sufficient
+                    depth of water. The mountains which surround it are of red and white marble, and
+                    the shore in some parts is covered with gold-coloured mica, in a state of
+                    extreme division. This port is closed against the vessels of all nations, not
+                    excepting Russians, to prevent smuggling. CafFa lies on a bay capable of
+                    containing several hundred merchant vessels, but is exposed towards the east and
+                    south-west. It formerly carried on an extensive trade in the Black Sea, but it
+                    is now of very little consequence. Kert-ché, <hi rend="italic">Ρoηticαρeum,</hi>
+                    on a peninsula, <hi rend="italic">Chersonesus Cimmeria,</hi> stretching into the
+                    strait of Taman, and Yenikale at the extremity of the same peninsula, are small
+                    ports, chiefly inhabited by fishermen.</p>
+                <p part="N">The coast of Anatolia, on the Black Sea, extends to the Kisil-Irmak,
+                    which falls into the sea a little to the west of the Gulf of Sansoun. It is
+                    lined by high mountains, terminating in lofty promontories, and forming a steep
+                    and clean coast, with numerous little coves, into most of which small rivulets
+                    fall. The most remarkable headlands are Cape Kιh∙Mili <hi rend="subscript">
+                        j</hi> east of Erekli; Cape Kerempe, the north point <hi rend="superscript">
+                        0</hi> * Asia Minor, very high land, with breakers off it; and tape Indji, a
+                    low point to the west of Sinope. The prin- <hi rend="superscript"> cι</hi> pal
+                    rivers on this coast, besides the Kisil-Irmak, <hi rend="italic">Halys,</hi> and
+                    the Sakaria, <hi rend="italic">Sangarius,</hi> already noticed, are the Falios,
+                    1 <hi rend="italic">Billoeus,</hi> and the Barthin, <hi rend="italic"
+                        >Parthemus.</hi> The only port of consequence is Sinope or Sinoub, strongly
+                    situated on the narrow and low isthmus of a rocky peninsula. The mole which
+                    formed its port is nearly in ruins. The depth of water is twelve feet. There is,
+                    however, a good road for the largest ships, and Turkish vessels of war were
+                    formerly built here. Sinope is the nearest port on the Black Sea to Angora, the
+                    only place hitherto known that supplies the fine goats’ hair of commerce.</p>
+                <p part="N">From the Kisil-Irmak to Vona the coast is named Roum ι by the Turks. The
+                    chief places are Sansoun, <hi rend="italic">Amisus,</hi> onthe Jekyl Irmak,
+                    which falls into the deep Gulf of Sansoun; Fatsa, <hi rend="italic"
+                        >Polemoηium,</hi> at the mouth of the Sidemus; Budjiah and Vona, <hi
+                        rend="italic">Eoona,</hi> on the cape of the same name.</p>
+                <p part="N">From Vona the coast takes the name of the tribes that« inhabit it. The
+                    Laziens, <hi rend="italic">Lazi,</hi> occupy the coast from Vona ≈ to the
+                    Batouni. The principal port on this coast is Trebizond, which, although it can
+                    admit only small vessels, has nevertheless a considerable trade. One hundred and
+                    fifty or two hundred small craft annually sail to Taganrog, with <hi
+                        rend="italic">ηardeh,</hi> a marmalade of grapes, and <hi rend="italic"
+                        >beckmiss,</hi> a syrup made for the use of the distilleries there. Next to
+                    the Laziens, ( the Gurions occupy the coast as far as the Rioni or <hi
+                        rend="italic">Phasis.</hi> ’ At its mouth this river is sixty fathoms deep
+                    and half a <hi rend="superscript"> 1</hi> league broad, but there is a small
+                    island in the midst of its channel. The only port in the country of the Gurions
+                    is Poti, to which the merchants of Georgia resort. The ∣ Mingrelians occupy the
+                    country of the ancient Colchians. In this tract there is no port of consequence.
+                    The Abasses occupy the coast from Isgarur to the Strait of Yenikale, as far as
+                    Anaffa or Anapa. This coast is very elevated, the Caucassian mountains
+                    approaching close to the sea. Near Soudjuk is a very lofty promontory called
+                    Varda. From Anapa to the straits the coast is low. Some small vessels were built
+                    at Anapa by the Turks. The Kuban, <hi rend="italic">Hy- &lt; panis,</hi>
+                    receives most of the waters of the western side ofl Caucasus. Near its mouth it
+                    divides into two branches, one of which falls into the sea of Azof, and the
+                    other into the Black Sea. The marshy isle of Taman is formed by it; and on this
+                    island is Fana Jona, a place of some trade.</p>
+                <p part="N">The commerce of the Black Sea, in ancient times, was « successively in
+                    the possession.of the Phoenicians, Egyp-&lt; tians, Greeks, and Romans. From the
+                    last it passed to the-Greeks of the Lower Empire; and from them to the Venetians
+                    and the Genoese. Caffa was the principal entrepôt of the commerce of the Genoese
+                    with the East, and the port at which was deposited all the merchandise which had
+                    been transported to the Black Sea. By the capture of Constantinople in 1454,
+                    this commerce was nearly destroyed; and by the capture of Caffa in 1476 it was
+                    completely annihilated. One of the favourite objects of Peter the Great was to
+                    obtain a share in the commerce of this sea, which the subjects of the Porte were
+                    alone permitted to navigate. In 1699 he succeeded in subduing Azof and the
+                    country round it; but by the unfortunate battle of Pruth, in 1711, he was
+                    compelled to relinquish his conquests. His successors, however, especially
+                    Catherine IL, aimed at the same object. This enterprising sovereign, by the
+                    treaty of Kaïnardgy in 1774, and afterwards by the treaty of Jassy in 1791,
+                    completely accomplished her object; the Turks being obliged to surrender a part
+                    of Lesser Tartary and the Crimea, to allow the Russians to establish a navy in
+                    the Black Sea, and to permit their flag a free passage through the Dardanelles.
+                    In 1784 the Porte granted the privilege of navigating the Black Sea to the
+                    Austrians. But no other European nation obtained this privilege, although the
+                    French carried on a considerable trade under the Russian and Imperial flags,
+                    till after the conquest of Egypt by the French, when a treaty was concluded
+                        between<pb break="no" facs="nls:193197921?mode=fullsize"
+                        xml:id="kp-eb0704-7921-0662"/> the French government and the Porte, by which
+                    the latter granted to the former the free navigation of this sea. At the peace
+                    of Amiens the navigation was opened to the Prussian, Spanish, Neapolitan, Dutch,
+                    Ragusan, and English merchant flags; and all these nations were allowed to have
+                    resident consuls in the Turkish ports of this sea. The English, however, by
+                    secret treaties with the Turks, in the reign of James I. and Charles I., had
+                    been allowed to navigate this sea; and in 1799 this privilege was renewed.</p>
+                <p part="N">Soon after the peace of Amiens, the commerce of this sea increased
+                    considerably, and in 1803 no less than 815 vessels entered the Russian ports
+                    from the Mediterranean, most of them coming in ballast and returning with corn.
+                    Of these 815 vessels, 421 were Austrians, 329 Russians, 18 Ragusans, 16 Ionian
+                    Islanders, 15 French, 7 English, 6 Hydriots, and 3 Spaniards; while 552 loaded
+                    at Odessa, 210 at Taganrog, 23 at Caffa, 19 at Kosloff, 7 at Sebastopol, and 4
+                    at Cherson; and there were destined, 186 for Trieste, 144 for Messina, 103 for
+                    Cephalonia, 72 for Genoa, 57 for Leghorn, 26 for Corfu, 24 for Barcelona, 19 for
+                    Marseilles, 10 for Naples, 8 for Malta, 7 for Tchesmé, 4 for Zante, and 155
+                    sailed without declaring their destination, on account of the war. But in order
+                    to give a strictly accurate view of the commerce of the Black Sea at this
+                    period, the 210 vessels which loaded at Taganrog ought to be deducted from the
+                    total number of 815 above mentioned.</p>
+                <p part="N">The Russian exports from and imports to the different places on this sea
+                    were, in</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Exports. </cell>
+                        <cell cols="1" role="data" rows="1"> Imports. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1802 </cell>
+                        <cell cols="1" role="data" rows="1"> 3,000,000 rubles.... </cell>
+                        <cell cols="1" role="data" rows="1"> ,... 2,055,000 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1804 </cell>
+                        <cell cols="1" role="data" rows="1"> 5,000,000 </cell>
+                        <cell cols="1" role="data" rows="1"> ...4,200,000 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1805 </cell>
+                        <cell cols="1" role="data" rows="1"> 7,400,000 </cell>
+                        <cell cols="1" role="data" rows="1"> ....5,356,000 </cell>
+                    </row>
+                </table>
+                <p part="N">In the year 1802, thirty-six vessels, and 266 small craft, were employed
+                    by Russia in the coasting trade of this sea. There is also a considerable trade
+                    between the Russian ports and Constantinople and Smyrna, carried on entirely by
+                    Greek vessels under Russian colours.</p>
+                <p part="N">We have not been able to procure accurate returns of the total amount of
+                    exports and imports since the year 1805, owing to the loose and inaccurate
+                    manner in which the different writers on the commerce of the Black Sea,
+                    subsequently to that period, treat of the subject; but all the particulars we
+                    have been able to. collect appear to warrant the inference, that it has latterly
+                    been greatly extended. This is clearly demonstrable in regard to the trade with
+                    Odessa; and although that with the other commercial ports may not have received
+                    a corresponding extension, it nevertheless seems reasonable to conclude that a
+                    considerable improvement has also taken place. In the year 1817 there entered
+                    the harbour of Odessa no less than 1925 vessels of all descriptions. Of these
+                    480 were Russian, 188 Austrian, 154 English, 43 French, 18 Spanish, 7 Danish, 31
+                    Sardinian, 7 Neapolitan, 49 Swedish, 2 Sicilian, and 65 Turkish vessels, or 1044
+                    in all, most of which arrived in ballast; besides 881 Russian vessels employed
+                    in the coasting trade: thus making a total of 1925, as already mentioned. Those
+                    which cleared out were 420 Russian, 182 Austrian, 147 English, 43 French, 18
+                    Spanish, 7 Danish, 31 Sardinian, 6 Neapolitan, 48 Swedish, 1 Sicilian, and 30
+                    Turkish vessels, or 933 in all, besides 852 Russian vessels engaged in the
+                    coasting trade, which sailed for the different ports on the shores of this sea;
+                    whilst 140 wintered at Odessa. From this statement it appears, that, taking the
+                    increase in the number of ships which entered and cleared out as a rough measure
+                    of the extension of traffic, the commerce of Odessa alone, in the year 1817,
+                    more than doubled the entire commerce of the Black Sea in the year 1803;—a rapid
+                    advancement, certainly, in the short space of fourteen or fifteen years. In the
+                    coursé of the late war. between Turkey and Russia, however, this' improvement,
+                    which, up to the declaration of hostilities, had continued steadily progressing,
+                    received a severe check, and a great number of mercantile houses were in
+                    consequence completely ruined. But since the re-establishment of peace at
+                    Adrianople in 1829, trade and commerce have begun to revive, and will probably
+                    soon resume their former activity. The resources of the countries along the
+                    shores of this sea are, in fact, incalculable, and require only the security of
+                    peace and the stimulus of commercial enterprise fully to develope them.</p>
+                <p part="N">The principal articles of commerce afforded by the countries on the
+                    Black Sea are wheat, rice, tobacco, hides, tallow, hare-skins, honey, wax, iron,
+                    and yellow grains for dyeing, from Rumelia and Bulgaria, by the ports of Varna
+                    and Bourgas. The same articles, with the addition of wool, butter, hemp, masts,
+                    ship-timber, and pitch, are exported from Moldavia and Wallachia, by Rutschuk
+                    and Galatzon the Danube. From Bessarabia by Ovidopol, and from the province of
+                    Cherson by Odessa, Akermann, and Cherson, come corn, oak-timber, hides, tallow,
+                    tar, shagreen, wax, honey, hemp, sail-cloth, and wool ;—from the Crimea by the
+                    ports of Actiar, Kosloff, and Caffa, corn, wool, wax, honey, dried and salted
+                    hides, deer-skins, morocco leather, sheepskins, salted and dried fish, potash,
+                    felt, caviar, wine, silk, and saltpetre;—from the countries on the Sea of Azof
+                    by the port of Taganrog and Mariapol, iron, of which Constantinople and Smyrna
+                    require about 60,000 quintals each, dried fish, caviar, butter, hides, tallow,
+                    wheat, timber, furs, sail-cloth, cordage, hemp, linens, wax, and wool;— from
+                    Anatolia by the ports of Erekli, Amasreh, Ineboli, Sinope, and Uniah, hides,
+                    dried fruits, linens, linen thread, wax, honey, hemp, copper, and ship-timber
+                    ;—from the countries of the Laziens and Gurions, principally by Trebizond, all
+                    the above articles, except ship-timber;— and from Mingrelia, and the country of
+                    the Abasses, principally by Soudjuk and Anapa, slaves, timber, box-wood, wool,
+                    silk, furs, butter, hides, wax, and honey. The trade to those coasts is entirely
+                    carried on by a few Greeks of Constantinople, and is very insignificant.</p>
+                <p part="N">In 1807 the Russian Black Sea fleet consisted of twelve sail of the
+                    line, four frigates, seven brigs and cutters, and eighteen small craft, besides
+                    a flotilla composed of forty gun-boats and eighty falconets. In 1829 it was
+                    composed of eleven sail of the line, of which two (the <hi rend="italic"
+                        >Paris</hi> and the <hi rend="italic">Emperor of Eraĩice)</hi> were of 110
+                    guns each, being built after the model of the <hi rend="italic">Poyal
+                        Sovereign,</hi> Lord Collingwood’s vessel; of three sixty gun ships; five
+                    forty-four gun frigates, a twenty-eight gun sloop, four corvettes of twenty-four
+                    guns each, eight brigs of from sixteen to twenty guns, two brigantines of ten
+                    guns, two bomb-vessels, two schooners and four cutters of twelve guns each, four
+                    yachts, four steam-vessels, and twenty-one armed transports; making a total of
+                    seventy-one sail. Every ship of this fleet was built at Nicolaïef, under the
+                    direction of Admiral Grieg. The vessels were manned in the same way as the
+                    Russian Baltic fleet; that is, an equipage or crew of a thousand men was
+                    allotted for a ship of the line, a frigate, and a brig. The officers consisted
+                    of Russians, Germans, French, Greeks, and Italians; the admiral being the only
+                    officer of British extraction on board. This force performed essential services
+                    during the late contest between Russia and Turkey; and as the fleet of the
+                    latter had been destroyed at Navarin, it enjoyed a complete and undisputed
+                    ascendency in the Black Sea. ,</p>
+                <p part="N">See Oddy’s <hi rend="italic">European Commerce,</hi> p. 169; Clarkes
+                    Lrű- <hi rend="italic">vels,</hi> vol. i. 4to edition; Macgilľs <hi
+                        rend="italic">Travels in Turhelh ^</hi><hi rend="italic superscript">
+                        c</hi><hi rend="italic">∙</hi> vol. i.; Coxe’s <hi rend="italic"
+                        >Travels,</hi> vol. iii. 8vo edition; Tuckey s J/«- <hi rend="italic">τitime
+                        Statistics,</hi> vol. ii.; <hi rend="italic">Essai Historique sur le
+                        Commerce</hi><pb break="no" facs="nls:193197934?mode=fullsize"
+                        xml:id="kp-eb0704-7934-0663"/><hi rend="italic">et la Navigation de la Mer
+                        Noire,</hi> par le Baron de Saint Joseph, Paris, 1820; Rottier, <hi
+                        rend="italic">Itinéraire de Tiflis à Constantinople,</hi> 1829; and
+                    Alexander’s <hi rend="italic">Travels to the Seat of War in the East through
+                        Russia and the Crimea in</hi> 1829.</p>
+                <p part="N"><hi rend="italic smallcaps"> Black-</hi><hi rend="italic">Tin,</hi> a
+                    denomination given by the miners to the tin-ore when dressed, stamped, washed,
+                    and ready for being smelted. It is prepared by means of beating and washing; and
+                    when it has passed through several buddles or washing-troughs, it is taken up in
+                    the form of a black powder, like fine sand, called <hi rend="italic"
+                        >blach-tiìi.</hi><hi rend="italic smallcaps"> Black-</hi><hi rend="italic"
+                        >Wad,</hi> an ore of manganese, of which, according to Klaproth, it contains
+                    sixty-eight per cent. It is of a brown or black colour, opake, very sectile, and
+                    soils the fingers on being touched. Though its specific gravity is as high as
+                    3∙706, it appears very light when lifted in the hand, but imbibes water with
+                    violence, and is no sooner immersed in it than it sinks. Mixed with linseed oil
+                    it undergoes a spontaneous combustion. The localities of black-wad are
+                    particularly Devonshire and Cornwall, where it occurs accompanying other ores of
+                    manganese. The dentritic delineations, often so beautiful upon limestone,
+                    steatite, and other substances, are supposed to derive their colouring matter
+                    from this mineral.</p>
+                <p part="N"><hi rend="italic smallcaps"> Black-</hi><hi rend="italic">Whytlof,</hi>
+                    in our old writers, bread of a middle fineness, between white and brown, called
+                    in some parts “ravel-bread.” In religious houses it was the bread made for
+                    ordinary guests, and distinguished from their household loaf, or <hi
+                        rend="italic">panis conventualis,</hi> which was pure manchet, or white
+                    bread.</p>
+                <p part="N"><hi rend="italic smallcaps"> Black-</hi><hi rend="italic">Work,</hi>
+                    iron wrought by the blacksmiths, and so called in contradistinction to that
+                    wrought by whitesmiths.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

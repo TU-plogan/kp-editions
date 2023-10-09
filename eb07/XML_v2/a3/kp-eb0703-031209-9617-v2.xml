@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0703-9617-0312-09" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">AQUA</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4513v11w">Water</term>
+                    <term ref="lcsh1910:b4v97zt6b">Poisoners</term>
+                    <term ref="lcsh1910:b48w3821v">Poisons</term>
+                    <term ref="lcsh1910:b4s17sx86">Personality</term>
+                    <term ref="lcsh1910:b4kh0f02c">Death</term>
+                    <term ref="lcsh1910:b4m90251t">Opera</term>
+                    <term ref="lcsh1910:b4st7dw9m">Popes</term>
+                    <term ref="lcsh1910:b4q23r39q">Franks</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1171139">Water</term>
+                    <term ref="fast:1068139">Poisoners</term>
+                    <term ref="fast:1068184">Poisons</term>
+                    <term ref="fast:1068142">Poisoning</term>
+                    <term ref="fast:1058777">Personals</term>
+                    <term ref="fast:1921429">Sicilians</term>
+                    <term ref="fast:1046191">Operas</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1754964">Rome</term>
+                    <term ref="fast:1211813">Luxembourg</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193099617?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">AQUA</label>, a term frequently met with in the
+                    writings of physicians, chemists, &amp;c. for certain medicines or menstruums,
+                    in a liquid form, distinguished from each other by peculiar epithets.</p>
+                <p part="N"><hi rend="italic">AQUA</hi><hi rend="italic">Exstincta,</hi> or <hi
+                        rend="italic">Extinguished Water,</hi> is aqua fortis into which some river
+                    water has been poured, in order to qualify it, and render it less corrosive.</p>
+                <p part="N"><hi rend="italic">AQUA Fortis,</hi> a name given by artists to nitric
+                    acid ol a certain strength, from its dissolving power.</p>
+                <p part="N"><hi rend="italic">AQ,UA Marina,</hi> a name by which the jewellers call
+                    the beryl, on account of its sea-green colour.</p>
+                <p part="N"><hi rend="italic smallcaps"> Aqua</hi><hi rend="italic">Pegia,</hi> a
+                    compound of nitric and muriatic acid, in different proportions, according to the
+                    purpose for which it is intended. It is usually made by dissolving in nitric
+                    acid either sal ammoniac or common salt, both of which are combinations of
+                    muriatic acid with alkali.</p>
+                <p part="N"><hi rend="italic">AQUA</hi><hi rend="italic">Secunda,</hi> aqua fortis
+                    diluted with much pure water. It is employed in several arts to clear the
+                    surface of metals and certain stones.</p>
+                <p part="N"><hi rend="italic">AQUA Tofana,</hi> called also <hi rend="italic">Aqua
+                        della Toffaninα,</hi> or <hi rend="italic">Aqua della Tofa,</hi> from its
+                    supposed inventress,— <hi rend="italic">Aqua</hi><hi rend="italic superscript">
+                        f</hi><hi rend="italic">ld petesino,</hi><note anchored="true"
+                        place="bottom" type="authorial"><p part="N">Lanzoni <hi rend="italic"
+                                >Opera,</hi> vol. 1. p. 69. Lausannae, 1738, 3 vols.
+                        4ŧo.</p></note><hi rend="italic">—</hi><hi rend="italic">Aquetta di
+                        Napoli,</hi> or simply <hi rend="italic">Aquetta,</hi><hi rend="italic"
+                        >—</hi> a pθ <hi rend="superscript"> 1</hi> '</p>
+                <pb break="no" facs="nls:193099630?mode=fullsize" xml:id="kp-eb0703-9630-0313"/>
+                <p part="N">sonous liquor which was used to a very great extent at Naples and Rome
+                    during the latter half of the 17th century. Gmelin<note anchored="true"
+                        place="bottom" type="authorial"><p part="N"><hi rend="italic">Allgemeine
+                                Geschichte der mineralischen Gifte,</hi> 1st edit. 8vo, Nurnberg,
+                            1777, p∙ 132; 2d edit. 8vo, Erfurt, 1811, p. 243.</p></note> says that
+                    more people were destroyed hv it than by the plague, which had prevailed a short
+                    time before it came into use; and Garelli, chief physician to the emperor, wrote
+                    to Hoffmann that Tofania confessed she had used it to poison more than 600
+                    persons. This he learnt from the emperor himself, to whom the whole criminal
+                    process instituted against her was transmitted.<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">In ĭlofĩinanni <hi rend="italic"
+                                >Med.</hi><hi rend="italic">liât.</hi><hi rend="italic">Syst.</hi>
+                            P. il. cap. ii. sect. 19. <hi rend="italic">Opera</hi><hi rend="italic"
+                                >Omnia,</hi><hi rend="italic">G</hi> vols, folio, Gfenevae, 1748,
+                            vol. i. p. 198.</p></note></p>
+                <p part="N">It is to be regretted that Garel] i, who had such an authentic source of
+                    information, has not given us some details of the infamous Tofana or Tofania, as
+                    the little that we know of her rests upon the authority of travellers, and is
+                    evidently exaggerated, and sometimes irreconcilable with established facts. She
+                    was a Sicilian by birth, and resided first at Palermo, and then at Naples. When
+                    she began to exercise her horrible profession, is nowhere stated; but it will
+                    presently appear that it must have been at a very early age, and before 1659.
+                    She was extremely liberal of her preparation, chiefly, it is said, to ladies
+                    tired of their husbands; and the better to conceal the nature of her gift, it
+                    was put up in small flat phials, inscribed <hi rend="italic">Manna of St
+                        Nicholas of Pari,</hi> ornamented on one side with an image of the saint,
+                    that it might pass for a liquid said to drop from his tomb at Bari, which was in
+                    great request on account of the medicinal virtues ascribed to it. Nor is it
+                    ascertained how long she carried on her murderous practices with impunity and
+                    undiscovered. Labat<note anchored="true" place="bottom" type="authorial"><p
+                            part="N"><hi rend="italic">! oyageen Espagne et en Italie,</hi> 8 tomes
+                            8vo, Paris, 1730, vol. iv. p. 33.</p></note> says, that when he was at
+                    Civita Vecchia in 1709, the viceroy of Naples, then Count Daun, made the
+                    discovery. It was long before she was secured, as she was extremely cautious,
+                    and often changed her abode or retired into convents. At last she was betrayed,
+                    and, although in a convent, was seized and carried to the Castel del Uovo, where
+                    she was examined. Cardinal Pigna-telli, then archbishop of Naples, indignant at
+                    the violation of a religious sanctuary, threatened to excommunicate the whole
+                    city if she was not delivered up to him; and the people were ready to rise. But
+                    the sagacious viceroy caused a report to be spread that she and her accomplices
+                    had determined upon the same day to poison all the springs in the city, the
+                    fruits brought to market, and the public granaries. The manoeuvre succeeded. The
+                    credulous people were now clamorous for her punishment, and saw with
+                    satisfaction the persons whom she accused of having purchased her <hi
+                        rend="italic">Aquetta</hi> taken from the churehes and monasteries. Some of
+                    inferior birth were executed publicly, those of higher rank secretly in prison;
+                    and the whole city resounded with the praises of the viceroy, whose energy had
+                    saved it from general destruction. A kind of compromise was entered into with
+                    the cardinal; m consequence of which, after being strangled, her body was thrown
+                    at night into the court of the convent, by way of testifying some respect for
+                    the rights of the church. But the reverend traveller must have either been
+                    misinformed as to the actual execution of this Medea, or she must have been
+                    resuscitated; for Garelli expressly says that she was alive in prison at Naples
+                    when he wrote to Hoffmann, not long before 1718; and Keysler, who visited Naples
+                    in 1730,<note anchored="true" place="bottom" type="authorial"><p part="N"><hi
+                                rend="italic">Travels through Germany,</hi> cjŗc. 4 vols. 4to, 2d
+                            edit. London, 1756, vol. ii. p. 368.</p></note> likewise asserts that
+                    she was then living in prison, and that few strangers left the city without
+                    going to see her. He describes her as a little and very old woman.</p>
+                <p part="N">The Roman ladies very quickly availed themselves of Tofania’s discovery;
+                    for it was remarked in 1659, that many husbands died when they became
+                    disagreeable to their wives; and several of the clergy also gave information
+                    that, for some time past, various persons had confessed themselves guilty of
+                    poisoning. This led to the detection of a society of young married women (who
+                    had for their president an old woman of the name of Hiero-nyma Spara, a
+                    pretended fortune-teller), as the perpetrators of these murders. On being put to
+                    the torture they all confessed except Spara, who seemed to rely upon the
+                    protection of powerful individuals whom she had formerly served. But she was
+                    left to her fate, and was hanged along with her assistant, one Gratiosa. Others
+                    were afterwards hanged, or whipt and banished. Spara, who was a Sicilian, had
+                    acquired her knowledge from Tofania at Palermo.<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">J∙ l·. Le Bret, <hi
+                                rend="italic">Magazin zum Gebrauche der
+                                Staaten-kirchengeschichtc,</hi> iv. Frank. 1774, p. 131-141, as
+                            quoted in the curious chapter on <hi rend="italic">Secret Poisons,</hi>
+                            in Beckmann's <hi rend="italic">History of Inventions and
+                                Discoveries</hi> —a work which has been of great assistance to us in
+                            pointing out authorities.</p></note></p>
+                <p part="N">Pope Alexander VII., immediately on the discovery and punishment of
+                    those who dealt in poison in his capital, published an edict forbidding the
+                    distillation of aqua fortis, or the purchase of any of its ingredients, without
+                    the permission of the government; which Gmelin considers as an artifice to
+                    mislead the people as to the real composition of the poison, or as originating
+                    in the absurd nomenclature of the chemists of former times, who called arsenic
+                    concrete aqua fortis. But the prudence of the Pope was rendered fruitless; for
+                    we are informed by Gayot di Pitaval <hi rend="italic">{Causes</hi><hi
+                        rend="italic">Celebres,</hi> vol. i. p. 317, Am-sterd. 1764), on what
+                    authority he does not state, that Tofania’s fatal secret was disclosed by the
+                    indiscretion of the judges at Naples, to whom she had made confession of her
+                    crime. The whole city soon knew that she employed in its composition a very
+                    common herb, and that its preparation was otherwise easy; and in this way the
+                    art of poisoning became very common in Naples, where, Keysler says, it was still
+                    secretly practised when he visited Italy; and Archenholz,<note anchored="true"
+                        place="bottom" type="authorial"><p part="N"><hi rend="italic">I</hi><hi
+                                rend="italic">talien,</hi> 5ter Theil, 8vo, Carlsruhe, 1787, p∙
+                            184.</p></note> who was there in 1780, states, that Aqua Tofana was then
+                    in use, although its composition was only known to a few; but Joseph Frank, who
+                    was long professor in Pavia, and has written a work on toxicology <hi
+                        rend="italic">{Handbuch der</hi><hi rend="italic">Toxicologie,</hi> p. 168,
+                    Wien, 1803), regards this as an unfounded calumny, and asserts that it no longer
+                    exists or is heard of.</p>
+                <p part="N">Aqua Tofana is described as being as limpid as rock water, and without
+                    taste, and hence it could be administered without exciting suspicion. The Abbé
+                    Gagliani adds,<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >kherli∏ <hi rend="superscript"> ,</hi> s <hi rend="italic"
+                                >Chronologen,</hi> 12ter Band, p. 146— <hi rend="italic">L</hi> ’
+                                <hi rend="italic">Espion Dévalisé.</hi><hi rend="italic"
+                                >Feliciter</hi><hi rend="italic">Audaχ,</hi> London, 1782, p. 61;
+                            also Behrends, in Pyľs o, <hi rend="italic">κi</hi><hi rend="italic"
+                                >ιfa,·</hi><hi rend="italic">gerichtliche</hi><hi rend="italic"
+                                >Arzncïkunde</hi><hi rend="italic">und</hi><hi rend="italic"
+                                >mcdicinischc</hi><hi rend="italic">Polizei/,</hi> book i. st. 3,
+                            1784, p. 428-477—Beckmann.</p></note> that there was not a lady in
+                    Naples who had not some of it lying openly on her toilet among her perfumes, in
+                    a phial known only to herself.</p>
+                <p part="N">It was generally believed that the effect of this poison was certain
+                    death, and that it could be so tempered or managed as to prove fatal in any
+                    determinate time, from a few days to a year or upwards. Four or six drops were
+                    reckoned a sufficient dose, and they were said to produce no violent symptoms,
+                    no vomiting, or but very seldom; <pb break="no"
+                        facs="nls:193099643?mode=fullsize" xml:id="kp-eb0703-9643-0314"/>no pains,
+                    convulsions, inflammation, or fever;<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">Bertholinus alone enumerates very violent fever
+                            as its first effect. See J. J. Wepferi <hi rend="italic">Histοriα
+                                Cicutoe Aquatlcoe,</hi> p∙ 37- ’ ∙ Lugd. Bat. i733, 8vo.</p></note>
+                    but only a feeling of indisposition, without any very definite symptoms, except
+                    sometimes inextinguishable thirst: the victim, however, sunk into a languid
+                    state, and his weakness increased daily. Disgust at all kinds of food, and
+                    weariness of life, succeeded: the nobler organs were then attacked, the lungs
+                    were wasted by suppuration, and death closed the miserable scene. This
+                    termination was the more certain, that the true cause of these symptoms was not
+                    at first suspected, and the remedies commonly prescribed rather aggravated the
+                    evil. Indeed, even when known, no treatment was of any avail, although a Dr
+                    Branchaletti, according to Keysler, wrote a book on its remedies, until it was
+                    discovered by aecident that lemonjuice, when very early administered in large
+                    doses, sometimes proved effectual (Bertholinus), after which Keysler tells us
+                    that the poison fell into some disrepute.</p>
+                <p part="N">Various accounts of the composition of this detestable liquor have been
+                    given. Abbé Gagliani, and more lately Archenholz, state it to be a preparation
+                    of cantharides and opium; but this is perfectly inconsistent both with its
+                    appearance and effects. By no preparation can the smell and taste of opium, if
+                    the quantity be sufficient to produce any effect, be concealed; and the acrimony
+                    of cantharides is equally connected with its activity. The one of these drugs is
+                    highly stimulant, the other a sedative, and neither of them capable of remaining
+                    latent in the system, or injuring the constitution. Erndtel,<note
+                        anchored="true" place="bottom" type="authorial"><p part="N"><hi
+                                rend="italic">Dissert, de</hi><hi rend="italic">Veneno salutem
+                                sistens,</hi> Lĩpsiae, i7θl, § 21.</p></note> but without any
+                    probability, has conjectured that the chief ingredient was lead: Halle <hi
+                        rend="italic">(Die deutchen</hi><hi rend="italic">Giftpflanzen,</hi> Berlin,
+                    1703) believes that it was prepared from the frothy saliva gathered round the
+                    mouth of a person tortured to death. Garelli, on the contrary, positively
+                    asserts it to have been nothing but a solution of crystallized arsenic in a
+                    large quantity of water, with the addition, for some unknown reason, of a very
+                    innocent herb, the <hi rend="italic">Antirrhinum cymbalaria.</hi> The same
+                    account is given by Bertholinus, Lobei <hi rend="italic">(Der</hi><hi
+                        rend="italic">freymiithige Heilkunstler,</hi> Berlin, 1786), Plenk <hi
+                        rend="italic">(Toxicologia,</hi> p. 335), Haller,<note anchored="true"
+                        place="bottom" type="authorial"><p part="N"><hi rend="italic">Vorlesungen
+                                über</hi><hi rend="italic">die</hi><hi rend="italic">gerichtliche
+                                Arzneikunde,</hi> 2ter Band, p. 190.</p></note> Molitor <hi
+                        rend="italic">(Commerce Lit. None.</hi> 1737, p. 132), and Mohsen,<note
+                        anchored="true" place="bottom" type="authorial"><p part="N"><hi
+                                rend="italic">Beschreibung einer Berlinischen</hi><hi rend="italic"
+                                >Međallien-Sammíung,</hi> 1. Th. p. 148.</p></note> and is received
+                    by the most judicious systematic writers, as Gmelin and Hahnemann. (<hi
+                        rend="italic">Ueber die Arsemihvergiftung,</hi> p. 35. Leipzig, 1786, 8vo.)
+                        Wildberg,<note anchored="true" place="bottom" type="authorial"><p part="N"
+                                ><hi rend="italic">Handbuch der gerichtlichen
+                                Arzeneymssenehaft,</hi> p. 224. .Berlin, 1812, 8vo.</p></note>
+                    however, considers its composition to be unknown.</p>
+                <p part="N">From Italy this poison seems to have found its way to Paris. In 1672
+                    Godin de Sainte Croix, an adventurer, who lived in a scandalous intimacy with
+                    the Marchioness Brinvilliers, was suddenly killed by suffocation, as it is said,
+                    in consequence of the falling off of a mask of glass, which he wore to protect
+                    him from the fumes of certain chemical operations about which he was employed.
+                    As he had no known relations, his effects were examined by a public officer, and
+                    among them was found a casket, containing many packets of poisonous articles,
+                    sealed up in a mysterious manner, together with a kind of last will, directing
+                    the whole to be delivered to the marchioness, and, in case of her having
+                    predeceased him, to be burnt unopened. This led to the discovery of his having
+                    been instructed in the art of preparing poison by an Italian, called Exili, with
+                    whom he had become acquainted when confined in the Bastile; and of his having
+                    furnished the marchioness with the means of poisoning her father and her two
+                    brothers, besides others on whom she tried the effect of her preparations. One
+                    of these afterwards was called from her by the name <hi rend="italic">Eau de
+                        Brinvilliers.</hi> She is also said to have employed a powder called <hi
+                        rend="italic">Poudre</hi><hi rend="italic">de Succession.</hi><note
+                        anchored="true" place="bottom" type="authorial"><p part="N">Heucher, <hi
+                                rend="italic">Mithridates,</hi><hi rend="italic">sistens</hi><hi
+                                rend="italic">ρrccserυationem</hi><hi rend="italic">principis a
+                                veneno.</hi> Vide ejus Opera, 4to, Lipsiae, 1745, vol. 1. p. 421;
+                            also, J. G. <hi rend="italic">At-</hi> nold pr. C. G. Stentzell <hi
+                                rend="italic">De Venenis terminatis et extemporaneis, quae
+                                Galli</hi> les Poudres de Succession <hi rend="italic">vocant.</hi>
+                            This powder was probably an arsenical composition; but it was supposed
+                            by Erndtel and Haller to be acetate of lead, and by Brendel <hi
+                                rend="italic">(Institutiones Medicina Legalis,</hi> Halae, 1768) to
+                            consist of lead and bismuth.</p></note> La Chaussée, who had been valet
+                    to Sainte Croix, was convicted of being accessory to these murders, and was
+                    broken alive on the wheel. The marchioness hersclf, who had escaped to Liege,
+                    was also seized; and hcr execution, which took place on the 17th of July 1676,
+                    is described with revolting levity by Madame de Sevigné in a letter to her
+                    daughter of that date.</p>
+                <p part="N">The practice of poisoning, however, did not seem to terminate with the
+                    death of this infamous woman; and a particular court called <hi rend="italic"
+                        >Chambre</hi><hi rend="italic">des Poisons,</hi> or <hi rend="italic"
+                        >Chambre Ardente,</hi> was established in 1679, to endeavour to put an end
+                    to it. In consequence of the investigations which took place in it, many
+                    persons, some of the highest rank, especially the Duc de Luxembourg, were
+                    implicated. More than 40 persons were at one time confined in the Bastile; but
+                    it was aseertained that almost all of them had been guilty of no crime, but were
+                    merely the dupes of a few impostors, who pretended to raise spirits, foretell
+                    future events, and to possess many secrets of a similar nature. Two women, La
+                    Vigoreux and La Voisin, with the brother of the former, and a priest called Le
+                        Sage<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >Voltaire, <hi rend="italic">Sièele de Louis XIV.</hi> chap,
+                        xxvi.</p></note>, <hi rend="superscript"> 7</hi> pretended fortune-tellers,
+                    were convicted of being dealers in poi-j son, and burnt alive on the 22d of
+                    February 1680; some others were hanged, and others acquitted. This closed' the
+                    proceedings of this inquisitorial court, which has been accused of being a
+                    political engine, contrived to serve the purposes of Louvois and the Marchioness
+                    de Montespan. Voltaire, however, admits that the crime of poisoning infected
+                    Paris from 1670 to 1680.</p>
+                <p part="N">Concerning the effects of the <hi rend="italic">Eau de
+                        Brinvilliers,</hi> Pitaval tells us (p. 271) that the marchioness’s father
+                    experienced violent effects from the poison,—extraordinary <hi
+                        rend="superscript"> 1</hi> vomiting, insupportable pain at the stomach, and
+                    great heat in the bowels. He died soon after his return from his country-seat to
+                    Paris. The brothers and five other per-, sons were all taken ill, and affected
+                    with vomiting, after partaking of a tart at dinner. On their return from the
+                    country to Paris, the brothers had the appearance of per sons who had been long
+                    ill; and after suffering, the onι for two, and the other for three months, from
+                    nausea and vomiting, they died extremely emaciated, and as it were dried up,
+                    without fever, though experiencing a burning sensation in the stomach. On
+                    opening the bodies, the stomach and duodenum were black and tender, and the
+                    liver gangrenous and burnt. Madame Sevigné relates that the marchioncss often
+                    poisoned-her husband, that she might marry Sainte Croix; but that the gallant,
+                    having no desire for a wife of her disposition, as often gave the poor husband
+                    an antidote. She is also said to have attempted to poison her sister, but did
+                    not succeed; and <pb break="no" facs="nls:193099656?mode=fullsize"
+                        xml:id="kp-eb0703-9656-0315"/>^that she was in the habit of trying the
+                    effects of her poisons on the poor, and even on the patients in the Hotel Dieu,
+                    under pretence of charitably supplying them with biscuits. But Voltaire
+                    positively denies this horrible imputation, and says that she never attempted
+                    the life of her husband, who overlooked a connection of which he was the
+                    cause.</p>
+                <p part="N">The information concerning the nature of the <hi rend="italic">Eau
+                        de</hi><hi rend="italic">Brinvilliers,</hi> derived from the examination of
+                    Sainte Croix’s famous casket, is not satisfactory. It contained poisons enough
+                    to have killed a whole community; besides opium, lunar caustic, antimony, and
+                    vitriol, more than 75 lbs. of corrosive sublimate, and two bottles of a liquid
+                    like water, with a sediment in one. The clear liquid was probably his real
+                    poison; as none of the other substances could have been given so as to produce
+                    death, without instantly being detected by their abominable taste; but what this
+                    liquid was, we can now only conjecture; for its examination, as reported by
+                    Pitaval, shows that the physicians at that time had not the slightest notion of
+                    the mode of detecting arsenic even in substance, much less in solution; and
+                    accordingly, although both the liquor and powder killed the animals to which
+                    they were given, it is candidly admitted that the poison of Sainte Croix
+                    surpassed the art and capacity of the physicians, and that it baffled all their
+                    experiments to discover its composition. We have, however, no doubt that arsenic
+                    was the only active ingredient of all these pretended secret poisons, as it is
+                    the only substance capable of explaining all the credible circumstances related
+                    of them. From the mode of administering them in small but repeated and perhaps
+                    increased doses, there was some foundation for the belief that they could be
+                    given so as to kill in any determinate time, while their failing in any instance
+                    to produce death was easily accounted for by supposing antidotes to have been
+                    administered. But although the progress of knowledge has proved that there is no
+                    such thing as such antidotes, it has on the other hand, by rendering the
+                    detection of poison easy and certain, put a stop for ever to the trade of <hi
+                        rend="italic">poisoner,</hi> and, what is perhaps of equal importance, to
+                    the general alarm and cruel punishment of individuals, which have often resulted
+                    from natural deaths being ascribed to poison. It is not because we know less,
+                    but because we know ä great deal more than our forefathers, that the art of
+                    secret poisoning seems to be lost. (x.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

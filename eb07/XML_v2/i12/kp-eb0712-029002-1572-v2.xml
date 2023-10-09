@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0712-1572-0290-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">INSCRIPTION</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1210276">India</term>
+                    <term ref="fast:1754964">Rome</term>
+                    <term ref="fast:1208755">Egypt</term>
+                    <term ref="fast:1208757">Syria</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term ref="lcsh1910:b4xd0r50f">Phoenicians</term>
+                    <term ref="lcsh1910:b4x34mt4n">Jews</term>
+                    <term ref="lcsh1910:b4tt4fw77">Egyptians</term>
+                    <term ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term ref="lcsh1910:b44j09z32">Founding</term>
+                    <term ref="lcsh1910:b4086358z">Medals</term>
+                    <term ref="lcsh1910:b41j9770v">State</term>
+                    <term ref="lcsh1910:b4wp9tb5s">Historians</term>
+                    <term ref="lcsh1910:b49882p6v">Methodism</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1100116">Romans</term>
+                    <term ref="fast:947546">Greeks</term>
+                    <term ref="fast:1061214">Phoenicians</term>
+                    <term ref="fast:983135">Jews</term>
+                    <term ref="fast:903991">Egyptians</term>
+                    <term ref="fast:933281">Founding</term>
+                    <term ref="fast:1013537">Medals</term>
+                    <term ref="fast:957686">Historians</term>
+                    <term ref="fast:1018631">Methodism</term>
+                    <term ref="fast:1032344">Names</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:192941572?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">INSCRIPTION</label>, in Latin <hi rend="italic"
+                        >Inscriptio</hi> (a word formed from the preposition <hi rend="italic"
+                        >in</hi> and <hi rend="italic">scribere</hi> to write), and signifying
+                    something written or engraved on any substance, whether of wood, stone, metal,
+                    or other material, and having for its object to transmit to posterity the record
+                    of some important event or transaction.</p>
+                <p part="N">It is well known that the ancients engraved on temples and columns the
+                    principles of science, as well as the events of history. In the early ages of
+                    the world this was the only means by which valuable truths could be preserved,
+                    and the memory of important transactions transmitted to succeeding ages.
+                    Sanchoniathon, a Phoenician historian, born at Berytus in Syria, and who
+                    flourished about the time of the Trojan war, is said to have drawn most of the
+                    materials of his history from inscriptions which he found in temples and on
+                    columns, both in his own country and in Palestine. But however this may have
+                    been, the circumstances mentioned by Herodotus shew, that the first method of
+                    instructing men, and of transmitting sciences as well as history to posterity,
+                    was by inscriptions. And this is confirmed by Plato; who, in his <hi
+                        rend="italic">Hippias,</hi> informs us that Pisistratus caused to be
+                    engraved on stone, for the benefit of his countrymen, useful precepts in
+                    husbandry. Pliny assures us that the earliest public monuments consisted of
+                    plates of lead, on which were engraved the records of public transactions; and,
+                    in corroboration of this, he mentions, by way of exception, that the treaty of
+                    confederacy concluded between the Romansand the Jews, was inscribed on plates of
+                    brass, in order that the record of the compact might be less liable to be
+                    effaced, and that the Jewish people might always have something to remind them
+                    of the alliance which they had formed with the Romans. Nor were inscriptions
+                    discontinued in proportion as the art of writing was improved and facilitated.
+                    On the contrary, amongst the Greeks and Romans especially, this method of
+                    preserving the memory of important events, in connexion with distinguished
+                    names, continued to be employed long after it had ceased to be a matter of
+                    necessity; and hence the multitude of inscriptions, or fragments of
+                    inscriptions, which has outlasted the injuries of time, and the still more
+                    destructive dilapidations of barbarism-</p>
+                <p part="N">inscriptions are of different kinds, and they have been variously
+                    classed. Spohn, for instance, has divided archaeography into no less than eight
+                    parts, viz. numismatography, epigrammatography, architectonography, iconography,
+                    glyptography, toreumatography, bibliography, and angiography. But this
+                    classification, which Boeckh has denominated rude, appears to be extremely
+                    unscientific and arbitrary, and not being founded upon any clear or definite
+                    principle, it is calculated to involve the subject in inextricable perplexity. A
+                    more natural and obvious division readily suggests itself. Inscriptions,
+                    generally considered, may be arranged in two classes, namely, <hi rend="italic"
+                        >numismatic</hi> and <hi rend="italic">monumental</hi><hi rend="italic"
+                        >;</hi> the former including the legends preserved on ancient coins and
+                    medals; the latter, the texts engraved on palaces, temples, and other edifices,
+                    together with those on columns, obelisks, statues, and such like monuments. The
+                    one of these branches is entirely distinct from, and can never be confounded
+                    with the other. In numismatics, our attention is exclusively confined to simple
+                    legends, consisting merely of names, titles, and dates. In monumental
+                    inscriptions we meet with texts, or the remains of texts, which, besides names
+                    and titular or official designations, contain, in a more or less perfect form,
+                    records of particular transactions or events, the memory of which it was
+                    intended thus to perpetuate. But the latter, with reference to their subjects,
+                    may nevertheless be subdivided into four different kinds. These are, first, the
+                    inscriptions relating to public affairs and civil institutions, which it is the
+                    principal object of the historian to investigate; secondly, those which respect
+                    private affairs, or the economy and intercourse of common life; thirdly, those
+                    which relate to the ceremonies of religion, and the arts or observances
+                    therewith connected; and, lastly, those which have reference to the history of
+                    science, whether as respects philosophy, mythology, or any other branch of
+                    knowledge. Under one or other of these heads may be included every kind of
+                    monumental inscription.</p>
+                <p part="N">The most remarkable inscriptions in the world are those sculptured on
+                    the temples, palaces and obelisks, or painted on the interior of the <hi
+                        rend="italic">hypogoeaox</hi> burial-vaults of the ancient Egyptians; the
+                    texts, in cuneiform characters, observed on the ruins of Persepolis, as well as
+                    on vitrified bricks found amidst the ruins of Babylon; and those preserved on
+                    the pillars and ornamental parts of the rock-temples of Elephanta, Ellora,
+                    Carli, and other ancient monuments in India. Of the first of these, some account
+                    has already been given in the article <hi rend="smallcaps">Hieroglyphics,</hi>
+                    to which the reader is accordingly referred. In this interesting field of
+                    inquiry, modern sagacity has, in part, triumphed over the difficulties, so
+                    numerous and formidable, which seemed destined to oppose an insuperable barrier
+                    to all investigation. But much, very much, yet remains to be done; indeed, the
+                    task may be said to have only been commenced. Proper names have been deciphered,
+                    legends have been interpreted and explained, dates have also been determined;
+                    but the body of those texts, to which the history of ancient Egypt has probably
+                    been consigned, still remains as great a mystery as ever. To a double or perhaps
+                    triple lock only one key has as yet been found. With regard to the Persepolitan
+                    characters, again, various attempts have been made to decipher them, though
+                    hitherto without any certain or assignable success. By a fortunate accident or
+                    rather conjecture, Μ. Saint-Martin has, we understand, been enabled to detect
+                    the name of <hi rend="italic">Xerxes</hi> upon a vase in the cabinet of the King
+                    at Paris. But whilst <pb break="no" facs="nls:192941585?mode=fullsize"
+                        xml:id="kp-eb0712-1585-0291"/>little reliance can be placed on such
+                    divinations, it is plain that the interpretation, even if well-founded, cannot
+                    afford sufficient data for advancing a single step beyond it. No parasite
+                    translations into any known language have been discovered, as in Egypt, where
+                    the pillar of Rosetta and the monument of Philae afforded the means of
+                    instituting tentative comparisons, and furnished the elements of an alphabet;
+                    nor is it at all probable that, without some such accessory helps, any progress
+                    will ever be made in determining the values of the nail-headed characters. The
+                    Indian inscriptions, also, still remain in a great measure undeciphered; nor has
+                    there yet been found any certain or safe clew calculated to lead to the
+                    interpretation of the characters in wlιich they are written, much less of the
+                    texts which these characters have been employed to express. The discovery of
+                    such a key, indeed, is a question in the theory of probabilities, where the
+                    chance of failure is to that of success, within a given time, as a number
+                    incalculably great to unity. Some interpretations have, indeed, been published,
+                    as for example of the Allahabad and Delhi inscriptions, and also of those found
+                    in the caves of Carli; but none of the interpreters, so far as we know, has
+                    condescended to state the data on which he proceeded, or to explain the process
+                    by which he was enabled to construct an alphabet; and it must be evident that,
+                    without the most distinct and precise information on this point, no confidence
+                    can be placed in the results alleged to have been obtained.<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">With regard to the Carli
+                            inscriptions, the Rev. Mr Stevenson of Poonah, having directed his
+                            attention to the subject, employed a year and a half in searching for a
+                            key amongst the natives; but as the latter were wholly unacquainted with
+                            the characters in which these inscriptions were written, his researches
+                            proved fruitless. He then made a collection of alphabets used on the
+                            western side of India, and attempted, by means of these, to decipher the
+                            inscriptions; but still with indifferent success. The publication of the
+                            Allahabad inscription, however, gave a new impulse and direction to his
+                            studies, and at length he was enabled, though we are not informedhow, to
+                            read and translate the Carli inscriptions. It would certainly have been
+                            much more satisfactory, and, in appearance at least, far less empirical,
+                            had Mr Stevenson condescended to state the data on which his method of
+                            interpretation is founded.</p><p part="N">But be this as it may, the
+                            results alleged to have been obtained from the Carli inscriptions
+                            deciphered are curious. These are, first, that the rock temple in
+                            question was excavated about sixteen centuries ago; secondly, that the
+                            empire of Shalivahana, in the Deccan, continued at least a hundred years
+                            after his time; thirdly, that Buddhism was the religion at that time
+                            favoured by the ruling party; fourthly, that the Shakas, so far from
+                            supplanting the language and literature of the Brahmins, adopted the
+                            Sanscrit as the vehicle for transmitting the memory of their own deeds
+                            to posterity; fifthly, that a simpler character than the Devanagari was
+                            probably used at the time when the Vedas and other ancient compositions
+                            were committed to writing; sixthly, that the Arabic numeral ciphers had
+                            been introduced into India at the period above mentioned; and, lastly,
+                            that great caution must be observed in admitting local traditions as of
+                            authority in regard to the condition of society or the state of
+                            knowledge and manners in such remote times.</p><p part="N">These
+                            results, however, though probable enough, require confirmation. We have
+                            already observed that Mr Stevenson’s scheme of an alphabet is not
+                            satisfactorily developed; and Mr Princep found that, when applied to the
+                            Allahabad inscription, it did not convert the text of that monument into
+                            intelligible Sanscrit. Besides, Mr Hodgson, resident in Nepaul, has
+                            expressed his conviction that the characters of this incription, so far
+                            from having preceded, are in fact derived from the Devanagari, or
+                            literal symbols of the learned Hindus. It appears, also, that the
+                            Allahabad and Delhi inscriptions are identical with one discovered at
+                            Mattia-lath, on the Nepaul frontier.</p></note></p>
+                <p part="N">Inscriptions in an unknown character have also been found cut upon
+                    granite and sandstone rocks, between Mount Sinai and the Red Sea. Several
+                    specimens of these now lie before us, copied from the rocks at Wady Magara,
+                    Gebel Mokaťteb, Mount Horeb, Wady Maggup, and Nasby. With the exception of a
+                    mixed inscription, and also one in Greek, and another Cufic, they are all in the
+                    same character. In those found at W <hi rend="superscript"> τ</hi> ady Magara
+                    and Geb el Mokaťteb, we discover rude delineations of the camel, the horse, the
+                    goat, and the antelope, with, in one instance, the figure of a man holding a
+                    club or staff in his hand. The characters bear a considerable analogy to the
+                    Cufic, though much more distinct; and, judging from the figures of loaded
+                    camels, with their heads all turned in the same direction, it seems not
+                    improbable, that the texts record the transits of different caravans. In one of
+                    these inscriptions, a number of characters are marked out in such a manner, by a
+                    line underneath, as to suggest the idea that they represent the name of some
+                    distinguished person, upon a principle analogous to that which was observed in
+                    the royal scrolls of the Egyptian writing; and this conjecture is somewhat
+                    countenanced by the circumstance that, amongst the characters thus defined,
+                    there is one which occurs thrice. But there exist no data upon which to found an
+                    attempt at interpretation; nor can any opinion be formed as to their relative
+                    antiquity.</p>
+                <p part="N">In the countries of the west, where civilization is comparatively but of
+                    recent origin, few remains of extinct forms of writing have been discovered.
+                    This is easily accounted for, because, in Europe, the origin of letters is of
+                    much more recent date than in those countries where such interesting relics are
+                    found. The language of the Eugubian tables is, no doubt, an exception, inasmuch
+                    as all the learning and ingenuity of scholars have as yet been insufficient to
+                    analyze its structure, or to penetrate the meaning of the texts in which it has
+                    been partially preserved. But, by a singular anomaly, the characters on these
+                    tables have been resolved into an alphabet; and it may not unreasonably be
+                    hoped, that the power thus obtained of combining words, will ultimately lead to
+                    the discovery of their respective values. The Runic characters and the Runic
+                    language are now pretty well understood.</p>
+                <p part="N">But the category of inscriptions to which the most direct interest and
+                    the greatest importance are naturally attached, whether with reference to the
+                    subjects of history, antiquities, or philology, is that which includes the
+                    monumental remains of Greece and Rome, particularly of the former.</p>
+                <p part="N">Not to mention the writers who, between the age of Herodotus and that of
+                    Cosmas Indopleustes, or even later, make frequent mention of inscriptions,
+                    Philochorus of Athens, who flourished between the 118th and the 129th Olympiad,
+                    and was deeply skilled in Attic antiquities, appears to have been the first who
+                    applied himself to this subject; and, on the authority of Suidas we learn that
+                    he published <hi rend="italic">’Επίγραμμα™</hi> ’ Aττ&lt;⅛α, or Attic
+                    inscriptions of different kinds. He was succeeded by Polemo Graecanicus, the son
+                    of Euegetus, and the contemporary of Aristophanes of Byzantium, who, on account
+                    of his indefatigable study of inscriptions, was denominated ∑∙∏1λoκa7rαj. His
+                    principal works on this subject were, first, <hi rend="italic">πtζ</hi><hi
+                        rend="italic">∣</hi><hi rend="italic">rωv</hi><hi rend="italic smallcaps">
+                        ×.xt»</hi><hi rend="italic">πoλtις tτrιγξccμμc&lt;,τωv</hi>; secondly, <hi
+                        rend="italic">τrtζ</hi><hi rend="italic">∣</hi><hi rend="italic">τuv tv
+                        Λot,κtδcoμοvι eivctθvιftetτav</hi><hi rend="italic">;</hi> thirdly, four
+                    books <hi rend="italic">πtζi</hi><hi rend="smallcaps">t»í</hi><hi rend="italic"
+                        >Ahm&lt;rιv</hi><hi rend="italic">άκ-ξοπολιωζ</hi><hi rend="italic">∙,</hi>
+                    and, lastly, <hi rend="italic">τrtζi</hi><hi rend="italic">rav</hi><hi
+                        rend="italic">ùv»ē-ĄuoíTuv tv</hi><hi rend="italic smallcaps"> th</hi><hi
+                        rend="italic">&lt;iκζoτraλt</hi><hi rend="italic">∣</hi><hi rend="italic"
+                        >.</hi> Mention is also made of a book <hi rend="italic">τrtζi rωv Qη∕3Mχav
+                        tτr</hi><hi rend="italic">∣</hi><hi rend="italic">γξχμμct,τωv,</hi> by
+                    Aristodemus, a writer on Theban affairs, whose works have utterly perished. To
+                    these succeeded Alcetas <hi rend="italic">πtξ</hi><hi rend="italic">∣</hi><hi
+                        rend="italic">τωv</hi> ’ <hi rend="italic">ev</hi> ∆sλ&lt;pβ&lt;i <hi
+                        rend="italic">à.va- 6nμaτωv,</hi> Menetor <hi rend="italic">πtζi
+                        uvadhuarav,</hi> Apellas Ponticus, and Neoptolemus Parianus <hi
+                        rend="italic">τrtξi</hi><hi rend="italic">Ιττιγξαμμαοτων,</hi> who were
+                    afterwards followed by the authors of the Anthologies. Of the collections of
+                    Philochorus, Polemo, and others, however, nothing remains excepting some
+                    expressions, such as <hi rend="italic">rrctê-yta</hi><hi rend="italic"
+                        >γρίλχ.»</hi> and <hi rend="italic">Ktįcíį tΛ7rωμct iiξγvξovv,</hi> with a
+                    few others; but it appears that, anciently, there existed a repository or
+                    collection of confiscated goods, arranged according to a method copied from the
+                    inscriptions, and that this fact was known both to Athenaeus and to Pollux. The
+                    book of Heliodorus, <hi rend="italic                         superscript">
+                        ι</hi><hi rend="italic">x</hi> ’ <hi rend="italic">tξi τav tv A‰vv</hi><hi
+                        rend="italic">∣</hi><hi rend="italic">a∙ι τξ</hi><hi rend="italic">∣</hi><hi
+                        rend="italic">7rι&gt;∂a&gt;v,</hi> must also have embraced inscriptions, as
+                    we find that the ancients early employed the denomination<pb break="no"
+                        facs="nls:192941598?mode=fullsize" xml:id="kp-eb0712-1598-0292"/> of tripod.
+                    Lastly, Craterus Macedo, whom Niebuhr considers to have been the brother of
+                    Antigonus Gonatas, son of Craterus and Phila, published <hi rend="italic"
+                        >∙γnφιrμuτωv σ-vvuγωγr</hi><hi rend="italic                     subscript">
+                        l</hi><hi rend="italic">v,</hi> or books <hi rend="italic">πiζt fr</hi><hi
+                        rend="italic subscript"> l</hi><hi rend="italic">φιrμxτωv,</hi> in which he
+                    sought to confirm public transactions by extracts of decrees and other
+                    documents, the greater part of which he, doubtless, derived from inscriptions,
+                    whilst as to the remainder, it was in all probability obtained from the Attic
+                    rolls or registers. From this collection of Craterus, indeed, and from others of
+                    a similar description, derived from the same sources, those who have preserved
+                    to us the Attic decrees copied the documents which we find embodied in their
+                    works; and to it also may be referred the greater part of the decrees inserted
+                    by the orators, particularly those cited by Demosthenes in his celebrated
+                    oration for the crown.</p>
+                <p part="N">The first modern work on inscriptions was that of Cyria-cus Anconitanus,
+                    who, in the early part of the fifteenth century, applied himself to collect
+                    those remains which had escaped the ravages of the barbarous ages, and who,
+                    whatever some critics may allege to the contrary, displayed equal diligence and
+                    fidelity in the execution of this laborious undertaking. He was succeeded, at
+                    intervals, by a long series of learned men, extending downwards even to our own
+                    time, who devoted their talents and industry to the collecting, interpreting,
+                    and illustrating of the monumental remains of antiquity. Amongst these a
+                    distinguished place must be assigned to Gruter, whose <hi rend="italic"
+                        >Corpus</hi><hi rend="italic">Inscriptionum</hi> (Heidelberg, 1601, in
+                    folio) is still a work of high importance. It is an immense collection of Greek
+                    and Latin inscriptions, which having been commenced by Smetius, was considerably
+                    augmented by Gruter, who subjoined to it the <hi rend="italic">Notae</hi><hi
+                        rend="italic">Romanorum veterum Tulli Tironis</hi><hi rend="italic">et
+                        Annoei Senecae,</hi> a work which has since been much surpassed. Gruter was
+                    followed by Reinesius, who compiled another large volume of inscriptions; and
+                    Reinesius was succeeded by Fabretti, who also published at Rome, in 1609, a
+                    large volume, in which he corrected numerous errors that had escaped preceding
+                    antiquarians, and added a number of inscriptions which they had omitted. The
+                    next collection which appeared was that of Graevius, in three volumes folio; a
+                    work of extensive erudition, and, in all respects, more complete than any which
+                    had preceded it. In the course of the last century, Scipio Maffei, a man of
+                    various learning, and eminently skilled in this branch of archaeology, undertook
+                    to make a more complete collection than had yet appeared of Greek and Roman
+                    inscriptions, the former of which he proposed to include in the first volume of
+                    his work; but after the expenditure of much labour and research, he found that
+                    the enterprise exceeded in magnitude his powers of execution, and at length, in
+                    his old age, abandoned it in despair. The project of Carcanius, who meditated an
+                    universal collection of inscriptions, proved equally abortive; as did also that
+                    of Raponus, a man who, by his knowledge of Greek, was not unequal to the task,
+                    though he published only one commentation on Greek inscriptions, written in
+                    indifferent Latin. The first volume of Boeckh’s splendid work, entitled <hi
+                        rend="italic">Corpus</hi><hi rend="italic">Inscriptionum</hi><hi
+                        rend="italic">Groecarum,</hi> in folio, was published at Berlin in 1828, and
+                    at once established the author’s claim to rank in the very first class of
+                    scholars and critics. It is indeed a masterpiece of learning, research, critical
+                    sagacity, and philosophical acuteness; nor, in point of typographical elegance
+                    and accuracy, is it equalled, or perhaps even approached, by any work which has
+                    yet appeared on the subject. This volume is divided into six parts, which treat
+                    respectively, of, 1. <hi rend="italic">Tituli antiquissima Scripturae</hi><hi
+                        rend="italic">forma</hi><hi rend="italic">insigniores</hi><hi rend="italic"
+                        >;</hi> 2. <hi rend="italic">Inscriptiones</hi><hi rend="italic"
+                        >Atticoe</hi><hi rend="italic">;</hi> 3. <hi rend="italic"
+                        >Inscriptiones</hi><hi rend="italic">Megaricoe</hi><hi rend="italic">;</hi>
+                    4. <hi rend="italic">Inscriptiones</hi><hi rend="italic"
+                        >Pe-loponnesiacoe</hi><hi rend="italic">;</hi> 5. <hi rend="italic"
+                        >Inscriptiones</hi><hi rend="italic">Boeoticae</hi><hi rend="italic">;</hi>
+                    and, 6. <hi rend="italic">Inscriptiones</hi><hi rend="italic">Phocicae,
+                        Locreae,</hi><hi rend="italic">Thessalicae.</hi> Of the second volume, only
+                    a small portion has as yet been published. Boeckh has drawn his materials not
+                    only from the larger collections of Gruter,. Reinesius, Spohn, Fabretti,
+                    Muratori Donius, Donatus, and others, but also from diaries, catalogues and
+                    descriptions of museums, itineraries, in a word, from books of every kind; and
+                    he acknowledges having been aided in his inquiries at the commencement of his
+                    undertaking by Bekker, Buttmann, Niebuhr, and Schleiermacher, as well as by
+                    Gerhard, Kliitze, Müller, Bischoff, Steinhart, and other young men who have
+                    since distinguished themselves by their erudition. For full information as to
+                    the nature and object of the work, the method of treating the subject, the art
+                    of interpreting and emendins· inscriptions, examples of the most difficult and
+                    obscure fragments, and how the genuine are to be distinguished from the
+                    spurious, the entire from the corrupted or interpolated, the reader is referred
+                    to the general preface, which is full of curious and original learning.</p>
+                <p part="N">Those persons who desire to study the Roman inscriptions, may consult
+                    any of the large collections already referred to; and they will also do well to
+                    bestow a careful perusal on Funccius <hi rend="italic">de</hi><hi rend="italic"
+                        >Origine, Pueritia, et Adolescentia</hi><hi rend="italic">Linguae
+                        Latinae</hi> (Francfort, 1720, in small 4to), a work of great learning,
+                    ingenuity, and research, in which the progress of the Latin language from
+                    infancy to maturity is distinctly traced, and appropriately illustrated. This
+                    magnificent idiom, which was gradually formed and perfected by grafting on the
+                    rude original stock of an uncouth and barbarous dialect successive improvements,
+                    suggested by converse with a refined people, who had made considerable advances
+                    in civilization, whilst Rome remained in a state of comparative barbarism, and
+                    which derived nearly all its peculiar excellences of form, structure, and
+                    expression, from the transfusion, partly of the vocabulary, and partly of the
+                    spirit of the ancient Greek, presents altogether one of the most interesting
+                    subjects of inquiry in the annals of philology; and it is chiefly by the aid of
+                    inscriptions that such an investigation can be successfully prosecuted. The
+                    history of the language, in short, reflects, like a glass, that of the progress
+                    of social and intellectual improvement. With regard to ancient Roman
+                    numismatics, the best manual, perhaps, which has yet appeared on the subject, is
+                    the work of Μ. Hennin (Paris, 1830, in two vols. 8vo), containing the elements
+                    of the science, and the nomenclatures, with an indication of the degrees of
+                    rarity of the antique monies and medals, and tables of their actual values. The
+                    first volume treats of the origin of monies, an invention which followed the
+                    introduction of commerce by exchange; of the epochs distinguishable in the style
+                    of the art, the legend, the form of the characters, and the metal employed in
+                    the coins; of the titles and functions of the persons entrusted with the
+                    direction of the fabrication of coins; of the materials employed in ancient
+                    coins and medals, their names, values, weights, dimensions, inscriptions or
+                    legends, and dies, with the method of detecting spurious medals; and, lastly, of
+                    the history of numismatical science. The second volume is occupied with four
+                    nomenclatures, which comprehend the whole of numismatics. The first is that of
+                    peoples, cities, and kings, arranged in the geographical order adopted in the
+                    cabinets; the second is that of the Roman <hi rend="italic">as</hi><hi
+                        rend="italic">;</hi> the third is that of the medals of Roman families; and
+                    the fourth is that of the Roman emperors, of the Caesars and the Tyrants,
+                    classed in chronological order. Each nomenclature is accompanied with a table of
+                    the value of the medals, which, however, is not remarkable for its accuracy. The
+                    works of Jobert, Patin, and Mangeart, though they contain excellent things, are
+                    antiquated; the Introduction of Millin, the Summary of Champollion-Figeac in the
+                    Portable Encyclopaedia, and the Essay on the science of Medals by Dumersan, in
+                    the Numismatics of Anacharsis, are merely abridgments, which can scarcely
+                    satisfy those who desire to make themselves thoroughly masters of the
+                    subject.</p>
+                <pb break="no" facs="nls:192941611?mode=fullsize" xml:id="kp-eb0712-1611-0293"/>
+                <p part="N">As to the study of inscriptions, little need be said to shew its
+                    indispensable importance to the historian and philosopher, as well as to the
+                    antiquary and philologist. The records thus preserved contain much information
+                    which is not to be found in ancient authors; and they afford the best tests by
+                    which the accuracy of historians may be tried, their fidelity proved or
+                    impeached, their errors corrected, and their defects supplied. They determine
+                    dates, establish facts, and throw light on the modes and habits of civil life,
+                    as well as the observances of religion; whilst in many of them the most
+                    important historical documents have been preserved. In fact, it is only
+                    necessary to consult the Roman History of Niebuhr, to be satisfied as to the
+                    importance of inscriptions, considered as materials of history, and how greatly
+                    they may contribute, when skilfully interpreted and rightly understood, to
+                    elucidate obscurities, dispel doubts, correct mistakes, and reduce to their true
+                    value the fabulous legends of romancing chroniclers and poetical historians.
+                    Again, it is in inscriptions that the various phases, changes, and transitions
+                    of language are reflected as in a glass; it is by means of them alone that we
+                    are enabled to trace the progressive steps by which it advanced from its
+                    primitive state, characterized by a rude simplicity, to the more refined,
+                    perfect, and complicated form which, by a course of gradual improvement, it
+                    afterwards attained. The text of the Duilian column, for example, is an
+                    invaluable monument to the historian of the Latin language, which it exhibits in
+                    a state of transition from the rugged and uncouth form of a barbarous and
+                    dissonant dialect, such as that of the <hi rend="italic">Carmen</hi><hi
+                        rend="italic">Saliare</hi> and the Fescennine verses, to the finished
+                    regιflarity of structure, and philosophical precision and elegance of
+                    arrangement, which we discover in the great writers of after times. As to the
+                    learned antiquary, again, he lives, moves, and has his being amidst these
+                    interesting monuments of the past; and whilst pursuing his minute
+                    investigations, perchance contributes in no unimportant degree to throw a new
+                    light on facts of more pith and moment than any of those which more immediately
+                    engage his attention. In a word, we may say to the historian, the scholar, and
+                    the antiquary, in regard to inscriptions, <hi rend="italic">Nocturna versate
+                        manu, versate diurna.</hi><hi rend="smallcaps">(a.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

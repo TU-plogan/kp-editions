@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0716-9699-0218-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">NIGER</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:933281">Founding</term>
+                    <term ref="fast:1110395">Seas</term>
+                    <term ref="fast:865801">Coasts</term>
+                    <term ref="fast:1098312">Rivers</term>
+                    <term ref="fast:1136568">Subjectivity</term>
+                    <term ref="fast:839044">British</term>
+                    <term ref="fast:1053705">Parks</term>
+                    <term ref="fast:799938">Africans</term>
+                    <term ref="fast:799932">Africanization</term>
+                    <term ref="fast:916820">Europeans</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4x921m3r">Parks</term>
+                    <term ref="lcsh1910:b44f1ms2d">Reviews</term>
+                    <term ref="lcsh1910:b48c9r443">Journalism</term>
+                    <term ref="lcsh1910:b4dz0329f">Britons</term>
+                    <term ref="lcsh1910:b48c9r41n">Arabs</term>
+                    <term ref="lcsh1910:b4tt4fw6r">East</term>
+                    <term ref="lcsh1910:b4q815225">Trade</term>
+                    <term ref="lcsh1910:b4jh3db66">Trades</term>
+                    <term ref="lcsh1910:b44j09z32">Founding</term>
+                    <term ref="lcsh1910:b4kk94m4s">Sea</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1239509">Africa</term>
+                    <term ref="fast:1205480">Niger</term>
+                    <term ref="fast:1206464">Benin</term>
+                    <term ref="fast:1219920">England</term>
+                    <term ref="fast:1208755">Egypt</term>
+                    <term ref="fast:1202705">Gambia</term>
+                    <term ref="fast:1240375">Moon</term>
+                    <term ref="fast:1207649">Wales</term>
+                    <term ref="fast:1204303">Spain</term>
+                    <term ref="fast:1206715">Scotland</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194559699?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">NIGER</label>, or, more properly, <hi
+                        rend="smallcaps">Quorra,</hi> a great river of Central Africa, the course
+                    and termination of which, for upwards of forty years, excited an interest beyond
+                    any other question connected with the geography of the globe, excepting perhaps
+                    that of the north-west passage. This arose not only from the importance which
+                    naturally belongs to the solution of any great geographical problem, but from
+                    the various and conflicting theories which had been formed relative to the
+                    Niger. The points which so long remained undecided were, whether the large
+                    interior river of Africa, first mentioned by Herodotus, and afterwards by Pliny,
+                    Ptolemy, Leo Africanus, and others, could be identified with that which we now
+                    call the Quorra or the Joliba, which latter is its name during the earlier part
+                    of its course; and whether this river lost itself in the great Lake Tshad,
+                    Tshadda, or Shary, or terminated in the Atlantic Ocean. These were the main
+                    questions which were agitated by geographers; but there were others which
+                    occupied no inconsiderable degree of attention, such as, whether it carried its
+                    waters under ground through the Great Desert, into the Gulf of Syrtis, or
+                    whether it flowed in an easterly direction, and formed a branch of the Nile. But
+                    every difficulty has at length been cleared away by the enterprise and
+                    perseverance of Britons, and we can now trace the entire line of this great
+                    river. To the first question, whether the Quorra be the Niger, meaning by that
+                    the river so named in the works of ancient geographers and historians, a
+                    negative answer has been very generally given; and with regard to the
+                    termination of the Quorra, it has been found to flow into the Atlantic through a
+                    number of mouths situated in a delta, at the head of the great gulf of the
+                    western coast of Africa. The discovery of the termination of the river which has
+                    been so long and so improperly called the Niger, was made by Mr Richard Lander,
+                    a very humble but intelligent individual, who, without having any prejudices to
+                    gratify, or theory to support, set about the task in a straightforward manner,
+                    and accomplished, not without difficulty and danger, an undertaking in which all
+                    former travellers had failed, from having fallen victims either to the
+                    insalubrity of the climate or the more fatal barbarity of the natives. But
+                    before tracing Lander’s voyage along the Quorra, it may be necessary to give a
+                    short account of what was previously known respecting that river.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">It is singular
+                            enough, that two persons in the humble sphere of the brothers Lander
+                            should have succeeded in resolving the great problem of African
+                            geography, after so many able, accomplished, and adventurous men had
+                            failed, or perished in the attempt. Their good fortune entitles them to
+                            the distinction of a biographical notice.</p><p part="N">Richard Lander
+                            was born at Truro, in Wales, on the 8th of February 1804. His parents
+                            were in humble circumstances, and his education was accordingly of the
+                            most ordinary description. He had an early propensity to wandering. “My
+                            rambling inclinations,” says he, “began to display themselves in early
+                            youth. I was never easy a great while together in one place, and used to
+                            be delighted to play truant, and stroll from town to town, and from
+                            village to village, whenever I could steal an opportunity; as well as to
+                            mix in the society of boys possessing restless habits and inclinations
+                            similar to my own. I used also to listen with unmixed attention to old
+                            women’s tales about the ceremonies and manners of the nations of distant
+                            regions of the earth.” Domestic calamities compelled him to quit his
+                            paternal abode when he was only nine years of age, and at the early age
+                            of eleven he accompanied a mercantile gentleman to the West Indies. He
+                            was absent three years, and returned to his native country in 1818,
+                            where he entered into the service of several individuals, one of whom he
+                            accompanied to France and other countries on the Continent. An
+                            opportunity having again occurred of visiting distant regions, he
+                            traversed the colony of the Cape of Good Hope, as servant to Major
+                            Colebrooke, one of his majesty’s commissioners of inquiry into the state
+                            of the British colonies. On his return to England in 1824, he accepted a
+                            situation in the establishment of a kinsman of the Duke of
+                            Northumberland, “where,” says he, “my time passed away pleasantly and
+                            thoughtlessly enough, till the return of Captain Clapperton and Major
+                            Denham from the interior of Africa in the following year again roused my
+                            rambling propensities.” Having heard that it was the intention of the
+                            British government to send out another expedition for the purpose of
+                            exploring the yet undiscovered parts of Central Africa, he waited upon
+                            Captain Clapperton, and was engaged by that enterprising traveller as
+                            his confidential servant. The results of this expedition are well known.
+                            After the death of Clapperton, on the IQth of April 1827, Lander sought
+                            every opportunity of conveying himself home, which, however, he did not
+                            accomplish in less than a twelvemonth, having had to make his way
+                            defenceless and alone from Saccatoo, in Houssa, to Badagry, on the
+                            western coast of Africa, a long, difficult, and dangerous journey. At
+                            length he arrived safely at Portsmouth, on the 30th of April 1828,
+                            bringing with him Captain Clapperton’s journal, as well as a great deal
+                            of valuable information of his own. Being unable, from ill health, to
+                            superintend the printing of his journal, it was published in the first
+                            instance in a rough unfinished form; but it was subsequently revised and
+                            given to the world in two volumes octavo. Meanwhile the British
+                            government had engaged him to proceed to Fundah, and trace the river
+                            Quorra from that place to the sea. It was in this second expedition that
+                            he secured to his name the distinguished place which it must ever hold
+                            in the history of African discovery.</p><p part="N">Accompanied by his
+                            brother John, who undertook the expedition rvithout any promise of
+                            reward, Richard Lander embarked at Portsmouth on the 9th of January
+                            1830, and arrived at Cape Coast Castle on the 22d of the following
+                            month. On the 22d of March the travellers landed at Badagry, where they
+                            were detained nine days by the mercenary chief of the place. At length
+                            they set out on their toilsome journey; and, after undergoing a variety
+                            of privations and sufferings, they, on the 17th of June, reached Boossa,
+                            on the western bank of the Quorra, which place no European had before
+                            visited except the unfortunate Park, and Captain Clapperton when he was
+                            accompanied by Lander. FromJ3oossa the Landers proceeded up the river
+                            about one hundred miles to Vaoori, the ex <pb break="no" n="219"/>treme
+                            point of the expedition, where they arrived on the 27th of June. The
+                            descent of the river commenced on the 2d of August, and the results of
+                            the expedition are related in the text· In their voyage downwards to the
+                            sea, their adventures were sometimes of an amusing, sometimes of an
+                            alarming character. As they proceeded, however, their difficulties and
+                            dangers increased; but these were met with the most manly and determined
+                            resolution. At Kirree they were plundered, and nearly lost their lives.
+                            On their arrival at Eboe, they were made prisoners by the king of the
+                            place, who would not consent to their liberation except on the condition
+                            of receiving a large ransom. For this sum they gave a bill on the
+                            captain of a Liverpool trader, which they ascertained was lying in the
+                            river Nun, one of the mouths of the Quorra. An obligation of a similar
+                            nature was exacted from them by the king of Brasstòwn, and John Lander
+                            was retained as a hostage; but he contrived to persuade the natives to
+                            allow him to proceed. The captain of the Liverpool trader treated them
+                            in a most brutal manner, and refused to make any advance whatever,
+                            although he was assured of repayment by the British government. Their
+                            bills were consequently protested, but the demand was afterwards ordered
+                            to be paid bv government. On the 20th of January 1831 the travellers
+                            proceeded from Fernando Po to Rio de Janeiro, whence they set sail for
+                            England, where they arrived on the 9th of June.</p><p part="N">The safe
+                            return of the brothers Lander, and the triumphant discovery which they
+                            had made, was the subject of warm and general congratulation. The Royal
+                            Geographical Society awarded Richard Lander a premium of fifty guineas,
+                            and for the journal of the brothers one thousand guineas was given by a
+                            London bookseller. In the disaster which befell them at Kirree, portions
+                            of the journals of both brothers were lost; but fortunately that part of
+                            each journal which was saved supplied what had been lost of the other,
+                            and a connected narrative was published in three volumes, entitled
+                            “Journal of an Expedition to explore the course and termination of the
+                            Niger, by Richard and John Lander.” The domestic disposition of John
+                            Lander induced him to settle permanently at home; but Richard’s love of
+                            hazardous enterprise had not yet been gratified. An expedition for the
+                            purpose of ascending the Quorra having been fitted out by some merchants
+                            of Liverpool, he was requested to undertake the direction of it, and he
+                            accepted the offer. The results of this expedition, which has been
+                            mentioned in the text, were quite unsatisfactory to the projectors, and
+                            most fatal to those who undertook it, very few Europeans having survived
+                            it. Amongst the victims was Richard Lander. The expedition which entered
+                            the river consisted of two steam-vessels, in one of which he ascended
+                            the Quorra to the junction of the Tshadda or Shary, where he left the
+                            vessel, and returned to Fernando Po, for the purpose of obtaining some
+                            medicines and other necessaries. After rejoining his companions, he
+                            penetrated up the Tshadda to a considerable distance; but want of
+                            provisions compelled him to relinquish any attempt to penetrate to the
+                            sources of this river. He proceeded up the Quorra as far as Rabba, where
+                            he prosecuted an advantageous trade with the inhabitants. For the
+                            purpose of obtaining a particular species of goods for the markets in
+                            the interior, he once more descended the river to Fernando Po, from
+                            which place his last letter to his friends in England, written in high
+                            spirits, was dated. He mentioned that he was then “on his way to the
+                            interior for the third and <hi rend="italic">lent time."</hi> It was the
+                            last time. The party, which ascended the Quorra in two canoes, was
+                            attacked by the natives at a part of the river about seventy miles
+                            inland. Several were killed and a number wounded; amongst the latter was
+                            Richard Lander, who appears to have behaved on the occasion with the
+                            greatest bravery and self-possession. Whilst cheering his comrades, and
+                            inspiring them by his heroic example, he received a musket-ball in the
+                            hip, which made him stagger; but he continued to direct the movements of
+                            his party until the canoes were out of reach of the enemy’s shot, when
+                            he sunk down exhausted from loss of blood. Having succeeded in escaping
+                            down the river to Fernando Po, every possible attention was paid to his
+                            wound, and symptoms became at last so favourable, that no doubts were
+                            entertained of Lander’s recovery. But on the 6th of February 1834
+                            mortification ensued, and so rapid was the prostration of the sufferer,
+                            that he died soon after midnight. Thus perished, in the thirty-first
+                            year of his age, Richard Lander, the humblest, but in one respect the
+                            most fortunate, of all those whose names are associated with the subject
+                            of African discovery, and who have fallen victims to their zeal in that
+                            exciting but fatal pursuit. His widow received a pension from William
+                            IV., and his daughter a handsome donation.</p></note></p>
+                <p part="N">Herodotus, in his geographical notice of Africa, informs us, that some
+                    young persons belonging to a people who dwelt in the north of Africa, on the
+                    borders of the Mediterranean, travelled in a westerly direction from a part of
+                    Egypt, until<pb break="no" facs="nls:194559712?mode=fullsize"
+                        xml:id="kp-eb0716-9712-0219"/> they came to a large river full of
+                    crocodiles, and flowing towards the rising sun; and that they were conducted by
+                    the natives to a considerable city situated on its banks. The fact of the Nile
+                    flowing from the west in an early part of its course, led the Father of History
+                    to conclude that this river was a distant branch or source of the Nile. Thus
+                    originated the first error regarding the Niger, and the weight which was
+                    attached to the opinions of Herodotus (scarcely less than belonged to those of
+                    Aristotle in a still more important branch of human knowledge) continued for
+                    ages to involve the subject in the greatest obscurity. The successive facts
+                    discovered relative to the hydrography of Africa were bent and twisted to answer
+                    the conditions of a vague hypothesis, for the truth of which there was no proof,
+                    and only the authority of a <hi rend="italic">name.</hi> Notice is taken of the
+                    Niger by Strabo, but Pliny treats largely of this river, conducting it in an
+                    easterly direction, through sandy deserts, to the Nile of Egypt, and thus
+                    coinciding in opinion with Herodotus. Mela, another geographer, had the candour
+                    to confess, that when the Niger reached the middle of the continent, no one knew
+                    what became of it. Ptolemy was the first who demolished the notion that the Nile
+                    and the Niger are the same; but his account of the Niger is vague, and somewhat
+                    unintelligible. He adhered to the former opinion regarding its general
+                    direction, and considered as one river streams that were entirely distinct. But
+                    to return to Herodotus. The difficulty has been to identify the track of the
+                    travellers which he mentions, and their account of what they saw, with what is
+                    now known of the river lately discovered, and the part of Africa in which it is
+                    situated. Without going into the details of this subject, we may briefly state
+                    how the facts stand. Herodotus distinctly mentions, that the Nasamonian youth
+                    travelled directly westward; and if so, they certainly could never have reached
+                    the Joliba or Quorra. But others assert, that as the ancients were not very
+                    accurate with regard to their bearings, the words of Herodotus are not to be
+                    interpreted strictly; and consequently, if we allow that they proceeded, not
+                    directly westward, but a little to the south, the travellers might have arrived
+                    at the river. The city to which they were conducted has been surmised to have
+                    been no other than Timbuctoo itself.<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">Such is the view taken of this disputed point
+                            by Lieutenant-Colonel Leake, in the second volume of the Journal of the
+                            Geographical Society. But a writer in the Quarterly Review, whose
+                            opinion is entitled to the greatest deference, takes an opposite view,
+                            asserting that Herodotus “knew of no such river, nor even mentioned the
+                            name.” <hi rend="italic">(Quarterly Review,</hi> No. xci. p.
+                        80.)</p></note> But it is clear, that if we allow of such latitude of
+                    meaning to the terms employed by the ancients, either in geography or any other
+                    science, there will be no end to conjecture regarding what they did or what they
+                    did not know. If Herodotus is to be taken as authority at all, we must accept of
+                    him without any emendation whatever, just as he stands; and if so, we must
+                    certainly come to the conclusion, that the Joliba or Quorra is not the great
+                    river to which he alludes. It may have been one of the many streams flowing in
+                    an easterly direction in that part of Africa which was called Segelmessa; and
+                    what seems to confirm this conjecture is, that Pliny evidently points to one of
+                    these. The celebrated Arabian geographers Abulfeda and Edrisi, and Leo
+                    Africanus, a native of Spain, all assigned to the Niger of Ptolemy a westerly
+                    course; and the two former gave it a source identical with that of the Nile, but
+                    Leo supposed it to take its rise in a lake situated to the south of Bornou,
+                    whence it was believed to flow westward to the Atlantic Ocean. The early
+                    European navigators, in their discoveries on the western coast of Africa, found
+                    successively the estuaries of the Senegal, Gambia, and Rio Grande, and believed
+                    them to be the mouths of the Niger, which was described as traversing nearly the
+                    entire breadth of Africa. In course of time they were tempted to explore the
+                    Senegal and Gambia, for the purpose of reaching <pb break="no"
+                        facs="nls:194559725?mode=fullsize" xml:id="kp-eb0716-9725-0220"/>the
+                    far-famed city of Timbuctoo, the immense wealth of which excited their cupidity.
+                    They traced these rivers so near to their sources as to decrease almost to
+                    rivulets, yet still they found themselves very far from the object of their
+                    wishes, and the vast central plain through which the Niger was understood to
+                    flow. In the meanwhile the French geographers De Lisle and D’Anville devoted
+                    their attention to Africa. De Lisle, in a map published in 1714, gave the
+                    sources both of the Niger and Senegal, the former being made to flow eastward
+                    and the latter westward, which was an approximation to the truth. D’Anville
+                    followed up this view in his map of Africa, published in 1749; and thus far a
+                    correct knowledge of the source and direction of the Niger was obtained, by its
+                    being separated in the east from the Nile, and in the west from the Senegal, and
+                    by having an easterly course at first assigned to it.</p>
+                <p part="N">These views, however, appear to have been lost sight of, and the belief
+                    that the Niger followed a westerly course was generally entertained. But the
+                    formation of the African Association in England marks the commencement of a new
+                    era in the history of African geography. The first and principal object which
+                    occupied the attention of this body was the course and termination of the Niger;
+                    and a reward was held out to the person, whoever he might be, that should
+                    succeed in determining them. We pass over the names of Ledyard and Lucas, the
+                    former having died at Cairo before accomplishing any thing, and the latter
+                    having only gathered some information from the Arabs, which tended rather to
+                    perplex than elucidate the subject. The honour of determining the course of the
+                    Niger was reserved for the celebrated Mr Mungo Park, a native of Scotland, who,
+                    in the year 1795, offered to the Association his services, which were accepted.
+                    In his first journey, Mr Park explored the course of the Niger from Bammakoo to
+                    Silla, the former being, according to his account, about ten days’ journey
+                    distant from its source, and the latter two hundred miles from Timbuctoo. In his
+                    second journey, undertaken at the instance of the British government, he traced
+                    the Niger as far as Boossa, where he unfortunately perished in the river, as was
+                    afterwards satisfactorily ascertained by Clapperton and Lander. After that of
+                    Park, the names of Laing, De Caille, Clapperton, and Lander, who all ascertained
+                    important facts regarding the Quorra, occur in connection with the discovery of
+                    its termination. Clapperton crossed the river at the point where Park perished,
+                    and soon afterwards died himself at Saccatoo. But Richard Lander, his faithful
+                    servant, on his return to England, volunteered to navigate the river from Boossa
+                    to its termination; his offer was accepted by the British government, and in a
+                    few months this enterprising individual accomplished the work of ages, having
+                    entered the Atlantic by the River Nun, one of the branches by which this great
+                    river discharges itself into the sea.</p>
+                <p part="N">The source of the Quorra or Joliba, although not yet actually explored,
+                    has been ascertained by Laing to be situated in the high country of Kissi, about
+                    two hundred miles north-east by east of Sierra Leone. The branch of it which is
+                    best known is said to originate in the eastern side of Mount Loma, one of the
+                    range called the Mountains of Kong, and which appears to be a continuation of
+                    the Gibel el Kumri, or Mountains of the Moon, in latitude 9. 15. north, and
+                    longitude 9. 36. west. From Loma, this stream, under the name of Joliba, bends
+                    its course northeast through Foota Jallo and Kankan, to Couroussa, a town
+                    situated about eighty miles east from Timboo, where De Caille, travelling
+                    eastward, crossed it, and found it, before the inundation commenced, to be 900
+                    French feet in breadth, and nine feet in depth, with a current of two miles and
+                    a half per hour. From its great size here, only one hundred miles from its
+                    reputed source, it must have received the waters of some tributary streams;
+                    indeed, before reaching Bammakoo, it receives the Tankisso and Sarano, both of
+                    which are large rivers, one of them, flowing from Sankari in Manding, having
+                    been mistaken by Park for the Joliba itself. At Bammakoo it commences its course
+                    over the plain of Bambarra, flowing still in an easterly direction, by Yamina,
+                    Sansanding, and Sego, the capital, where it forms a noble stream, equal to the
+                    Thames at Westminster. It pursues the same course till it reaches Jinne, when it
+                    takes a bend nearly due north, in which direction it flows till it reaches Lake
+                    Dibbie, when it reverts to its easterly bearing, and continues to run in that
+                    direction till it reaches Timbuctoo. De Caille navigated the river from Jinne to
+                    Timbuctoo, and represents the banks between these places as low and marshy. Lake
+                    Dibbie is of very considerable magnitude, and stretches from east to west
+                    instead of from north to south. Below this the river was found very deep, and
+                    from half a mile to a mile in breadth, with a considerable current. Near Kabra,
+                    the port of Timbuctoo, the Joliba separates into two branches, the larger, which
+                    is about three fourths of a mile broad, bending its course east-south-east, and
+                    the smaller, about a hundred feet broad, but very deep, taking its course east
+                    by north to Kabra. The celebrated city of Timbuctoo is about eight miles north
+                    from Kabra, and, from the most accurate information which has as yet been
+                    obtained, stands in latitude 17. 30. north, and longitude 2. 30. east. From
+                    Kabra the smaller branch of the Joliba turns south-east, and joins the parent
+                    stream to the eastward, from which point there is reason to believe, although
+                    its course has not been delineated, that the Joliba flows in the general
+                    direction of its course south-east till it reaches Yaoori. From Timbuctoo to
+                    Yaoori, however, very little is known of this great river; but the fact that
+                    Park sailed down from the one place to the other fully establishes the
+                    continuity. From Yaoori to the sea it was navigated by the Landers, and was
+                    found to flow at first nearly due south, then to take a rapid bend to the east,
+                    and afterwards gradually to return and take a south-south-westerly direction to
+                    the Atlantic Ocean. Of these fortunate discoverers we shall now proceed to give
+                    some account.<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >When the articles <hi rend="smallcaps">Africa, Benin,</hi> and some
+                            others connected with the geography of this quarter of the globe, passed
+                            through the press, the result of the Landers’ expedition was not known;
+                            so that a more ample narrative of their discoveries is necessary in this
+                            place, to supply any deficiency which may be found in our geography of
+                            Africa.</p></note></p>
+                <p part="N">Boossa, the first city in the vicinity of the Quorra, at which the
+                    Landers arrived, is situated on its right bank, about a mile from the river, in
+                    latitude 10. 14. north, and longitude 6. 11. east. Black rocks were seen to rise
+                    abruptly from the centre of the stream; its surface was agitated by whirlpools;
+                    and in the dry season its largest branch was not more than a stone’s throw
+                    across. The travellers proceeded in a canoe from Boossa to Yaoori, between which
+                    places the river was found divided into many channels, by rocks, sand-banks, and
+                    low islands, covered with tall rank grass; and some of the channels were so
+                    shallow that their canoe was constantly grounding. They were told at Yaoori,
+                    however, that above that place, and below Boossa, the navigation was not
+                    interrupted either by rocks or sandbanks; and that after the <hi rend="italic"
+                        >malea</hi> or wet season, which sets in with fourteen days of incessant
+                    rain, canoes of all kinds pass to and fro between Yaoori, Nouff’e, Boossa, and
+                    Fundah. Yaoori is a large flourishing kingdom, ruled by a hereditary sovereign,
+                    who exercises absolute despotism. The capital city, which bears the same name,
+                    is of great extent, being between twenty and thirty miles in circuit, and very
+                        populous<pb break="no" facs="nls:194559738?mode=fullsize"
+                        xml:id="kp-eb0716-9738-0221"/>; but, from the low nature of the banks of the
+                    river, it was found very swampy. Returning to Boossa, and sailing downwards, the
+                    Quorra was found completely navigable to a finely-wooded island called Patashie;
+                    but from thence to Lever or Layaba, a distance of about twenty miles, the
+                    channel is so full of rocks and sand-banks, as to render the passage very
+                    difficult. From Lever all the way down to the ocean, the Quorra is a broad and
+                    noble stream, varying from one to six, but being most commonly between two and
+                    three miles in breadth. The banks in some places were flat and marshy, but
+                    elsewhere presented the most pleasing aspect. They are described as “embellished
+                    with mighty trees and elegant shrubs, which were clad in thick and luxuriant
+                    foliage, some of lively green, others of darker hues; and little birds were
+                    singing merrily among the branches. Magnificent festoons of creeping plants,
+                    always green, hung from the tops of the tallest trees, and, drooping to the
+                    water’s edge, were pleasing and grateful to the eye.” Further down, the river is
+                    bordered by lofty mountains, seemingly forming part of the great chain which
+                    crosses Africa in this latitude, but which has not been sufficient to arrest the
+                    course of this mighty stream. These eminences are described as gloomy and
+                    romantic, fringed with stunted shrubs, which overhang immense precipices; and
+                    their recesses are tenanted only by wild beasts and birds of prey. Even in the
+                    mid-channel, a rocky islet called Mount Kesa rises to the height of 300 feet;
+                    and its steep sides, fringed with magnificent trees, present a majestic
+                    appearance. The island Zagoshie is one of the most remarkable spots in all
+                    Africa. It is about fifteen miles in length and three in breadth, in the midst
+                    of the Quorra, the broad channel of which on either side separates it from the
+                    continent. The surface is very low, and muddy, yet throughout well cultivated,
+                    and extremely productive. The manufactures of this place are highly valued, and
+                    superior to any in the kingdom of Nouffe or Tappa, to which it belongs. The
+                    largest and most flourishing city of this domain is Rabba, situated about two
+                    miles from Zagoshie, in latitude 9. 14., and between five and six hundred miles
+                    from the sea. The surrounding country abounds in the most valuable grains, in
+                    horned cattle of remarkable size, and in horses much admired for their strength
+                    and beauty.</p>
+                <p part="N">Below Zagoshie and Rabba the Quorra flows almost due east for upwards of
+                    a hundred and twenty miles, presenting throughout a magnificent body of water,
+                    at one place nearly eight miles broad. The shores are generally well cultivated
+                    and inhabited; and at one point two very large cities appeared on the opposite
+                    banks. Towards the end of this reach the Quorra is joined by a large stream from
+                    the north-east, called the Coodonia. About twenty miles lower is Egga, a very
+                    large town built close to the river, in a situation low, and liable to
+                    inundation. The inhabitants trade both up and down the river; and here were
+                    found Portuguese cloths, brought from Benin. Egga is the boundary town of
+                    Nouffe, and closes on the south that range of flourishing and comparatively
+                    well-governed countries which here extend along both banks of the Quorra. The
+                    river now flows east-south-east along a fine country, covered with numerous
+                    villages, the principal heing Kacunda, which consists of three large villages,
+                    all under the absolute sway of a single chief. The river then takes a direction
+                    nearly due south, and, at the distance of three or four days’journey below Egga,
+                    is joined by another river nearly as large as itself, falling in from the
+                    north-eastward. This is the Tshadda, Shar, or Shary; and Lander was informed
+                    that Fundah, of which Clapperton heard so much when at Saccatoo, was at the
+                    distance of three days’ journey on the banks of this river, and not, as had been
+                    supposed, on those of the Quorra. This fact was verified some years afterwards
+                    by Mr Laird,<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >See Narrative of an Expedition into the Interior of Africa, by the
+                            River Niger, in the steam-vessels Quorra and Alburkah, in 1832-33-34, by
+                            Macgregor Laird and R. A. K. Oldfield, surviving officers of the
+                            expedition, London, 1837, in two vols. 8vo. With regard to the source of
+                            the Tshadda our information is meagre and inconclusive. Mr Laird made
+                            many inquiries respecting it, and the invariable answer was, that it
+                            came from the great Lake Tshad or Tchad. One person, indeed, a native of
+                            Kooka, offered to take him up there in twelve days, without changing the
+                            canoe. The confidence of this assertion is very much like that of a
+                            person who had already performed the voyage; but, from the mendacious
+                            propensities of the natives, Mr Laird is not inclined to admit the
+                            correctness of this account, and thinks that the river has its rise in
+                            another and very different quarter. Fortunately he assigns his reasons
+                            for drawing this conclusion, by which we are enabled to form an
+                            independent judgment on the point.</p><p part="N">“The water of the
+                            Shary,” says he, “is colder than that of the Niger. The rise of the
+                            river commences sooner and more suddenly than the Niger. There is little
+                            trade upon the Shary in comparison with the Niger, which, if it
+                            communicated with the Sea of Soudan, would naturally be immense. From
+                            the three first reasons, I should think that its rise is in a
+                            mountainous country, and that that country lies very near the equator.”
+                            With∙all deference to this judicious traveller, we think that at least
+                            two of his reasons for differing from the popular opinion go directly to
+                            confirm it. In the first place, the water of the Shary being colder than
+                            that of the Quorra, is just what would happen if the source of the river
+                            were a large reservoir of water, such as we know the Lake Tshad to be. A
+                            great body of water, as is well known, is kept permanently colder than a
+                            small one under the same circumstances; the stream issuing from the
+                            former, therefore, and flowing only 500 miles (which is probably more
+                            than the limit that ought to be assigned to the course of the Shary,
+                            supposing it to originate in Lake Tshad), will beyond all doubt be
+                            colder than one which has traversed nearly 3000 miles in a tropical
+                            climate, becoming swelled during its long course only by a great number
+                            of small tributaries, and, from its shallow depth when compared to a
+                            large inland sea, having its temperature raised considerably higher by
+                            the influence of the solar beams. Secondly, the rise of the river taking
+                            place <hi rend="italic">sooner</hi> than is the case with the Niger, and
+                            also more <hi rend="italic">suddenly,</hi> clearly proves, that at the
+                            commencement of the wet season it receives all at once a great accession
+                            to its waters, which would be the case if itflowed from a large lake
+                            into which a number of large rivers, having short courses, discharged
+                            their waters simultaneously; and, according to the best authorities,
+                            Lake Tshad is the basin into which a great number of streams from the
+                            surrounding country are poured, these, when compared with the Quorra, or
+                            even with the Shary, having but short courses. The river Quorra, on the
+                            contrary, becomes augmented in size by a multitude of smaller streams
+                            which enter it at different intervals during a course'of nearly 300Ò
+                            miles; consequently they must affect the main stream, at its confluence
+                            with the Shary, slowly and gradually, <hi rend="italic">not all at
+                                once.</hi> Besides, it appears from the facts of the case, that
+                            before the tributaries which join it previously to its reaching
+                            Timbuctoo have taken effect at the point referred to, a considerable
+                            portion of what may be called the overplus waters received during the
+                            rainy season, and joining the Quorra <hi rend="italic">below</hi>
+                            Timbuctoo. has already partially augmented the parent stream at its
+                            junction with the Shary, and passed on to the Atlantic. The two reasons
+                            which Mr Laird brings forward as opposed to the opinion of the Shary
+                            being a river flowing from Lake Tshad, seem to us therefore to be
+                            remarkably favourable to such an hypothesis. Indeed, in the absence of
+                            direct evidence to the contrary, we are strongly inclined to think that
+                            this is the fact. With regard to Mr Laird’s third reason, that the trade
+                            on the Shary is smaller than it would be if it communicated with Lake
+                            Tshad, nothing satisfactory can be advanced until we know more of the
+                            countries in the interior. Lander was informed that the Tshadda or Shary
+                            flowed through large and fruitful kingdoms, and that an extensive
+                            commerce and active navigation were carried on by means of it. We can
+                            see nothing in its mere trade to make either for or against its
+                            originating in a great lake, providing it be navigable to a great
+                            distance into the interior of a populous country; and this is certainly
+                            the case.</p></note> who, in his voyage up the Quorra, ascended the
+                    river Tshadda (uniformly designated Shary in his work) for six or seven days,
+                    λvhen he entered a creek, from the extremity of which a land journey of about
+                    ten miles conducted him to Fundah, a large and populous town. Below the
+                    confluence of the rivers Quorra and Tshadda the course of the river is
+                    south-south-west, and <pb break="no" facs="nls:194559751?mode=fullsize"
+                        xml:id="kp-eb0716-9751-0222"/>its width, as usual, varies from two to five
+                    or six miles. Opposite to Bocqua, a considerable town situated below the
+                    junction of the Tshadda, is the common path to the city ofFundah;and here both
+                    banks of the river continue hilly and well wooded, and are thickly studded with
+                    towns and villages. Of this town Mr Laird observes, « Bocqua, or Hickory, as the
+                    natives call it, is the centre of this trade (in slaves, cloth, and ivory), and
+                    a fair of three days’ duration is held there every ten days, attended by Eboe,
+                    and Attah, and even Bonny traders from the south, and those from Egga,
+                    Outturn-Curaffe, and Fundah on the north [north-east ?], besides great numbers
+                    from the interior country on both banks of the river. The traders from the upper
+                    country bring cloths of native manufacture, beads, ivory, rice, straw-hats, and
+                    slaves, all of which they sell for cowries, and buy European goods, chiefly
+                    Portuguese and Spanish. About twenty-five large canoes passed us every ten days,
+                    on their way to this market, each containing from forty to sixty people. The
+                    trade is carried on by money, not by barter; cowries are the circulating medium,
+                    and their sterling value on an average may be taken at one shilling per
+                    thousand.” Still farther down is the town of Attah or Iddoh, picturesquely
+                    situated on a hill overhanging the river, in some places with cliffs 300 feet in
+                    height. Standing above the alluvial soil at the entrance of the valley of the
+                    Quorra, and thus removed from damp, it is healthy, and, according to Mr Laird,
+                    commands at present the whole trade of the interior. The same traveller informs
+                    us, that above this town the river forces its way through a chain of mountains
+                    which he calls Kong, being in all likelihood a part of the range already
+                    mentioned as traversing this part of Africa. They seemed to be of nearly equal
+                    height, apparently from 2500 to 3000 feet above the level of the river, and had
+                    all flat summits. They are probably composed of sandstone resting upon granite,
+                    of which latter rock large masses were found in the vicinity of the river. About
+                    forty-five miles below the junction of the Tshadda with the Quorra, and on the
+                    left bank of the latter river, stands the town of Abbazacca; and still farther
+                    down Damuggoo, at which place Lander found that the Quorra fell two feet in as
+                    many days, yet still overflowed the town. European goods here made their
+                    appearance in considerable abundance, consisting of powder, muskets, soap,
+                    Manchester cottons, and other manufactures, together with large quantities of
+                    diluted rum, in all which articles the natives trade to Bocqua, where they
+                    receive in exchange ivory and slaves, which, again, are sold to European
+                    traders. Some ten or fifteen miles below Damuggoo a stream flows in from the
+                    eastward; but this, Lander thinks, is a branch previously separated from the
+                    main stream, and on his map it is made to enclose the large towns of Abbazacca
+                    and Damuggoo, together with a number of villages. At the reunion of this stream
+                    with the Quorra stands Kirree, a large market-town, at which place the great
+                    delta of the Quorra may be said to commence, extending south-westerly to the
+                    mouth of the river Benin, and south-south-east to that of Old Calabar. At Kirree
+                    a great branch was seen to go off to Benin; but it is not till the traveller
+                    reaches Eboe, a large town seventy miles farther down the river, that it begins
+                    to separate into those numerous channels which intersect the country in every
+                    direction, and enter the Atlantic by so many estuaries. At a little distance
+                    above Eboe a large branch runs to the westward, terminating also, it is said, at
+                    Benin, but more probably in one of the numerous rivers to the south-southeast of
+                    that estuary. Another large branch goes off at the same place, flowing to the
+                    south-east, apparently towards Old Calabar and the Rio del Rey, two large
+                    estuaries. At the point where these two arms of the Quorra strike off, the river
+                    spreads out into a vast lake, which is said to receive a number of small
+                    rivers.</p>
+                <p part="N">In sailing down from Kirree to Eboe, the Landers found a complete change
+                    from the beautiful and smiling aspect which nature had presented on the upper
+                    banks of the stream. The country became almost throughout an alluvial swamp,
+                    covered with vast entangled forests, which concealed the villages. Grain and
+                    cattle had disappeared from the fields, and the sole subsistence of the
+                    inhabitants was derived from the produce of the trees, from roots, the banana,
+                    the plantain, the yam, and from the fish caught in the river. The Quorra abounds
+                    in fish, and the inhabitants of the banks are expert and persevering fishermen.
+                    They make immense nets of grass, which they use as seines with great dexterity.
+                    The palm-tree, also, is not only an extensive article of trade, but affords a
+                    refreshing juice. Eboe is situated on the side of a creek running parallel with
+                    the Quorra, and in the flooded season communicating with it at both extremities.
+                    It may contain about six thousand inhabitants, who are the most enterprising and
+                    industrious traders on the river. The town itself, with the immediate vicinity,
+                    is unhealthy, owing to the swampy nature of the ground. The staple trade of Eboe
+                    consists of slaves and palm-oil, the latter being produced in immense
+                    quantities; and yet so plentiful are the trees which yield it, that, Mr Laird
+                    says, not the twentieth part of the natural produce is collected. But as long as
+                    the slave-trade exists, it is vain to look for the development of industry and
+                    commerce in these countries. Is it likely that the nativeswill explore the palm
+                    forests whilst the atrocious practice of kidnapping them on every convenient
+                    occasion is carried on by Europeans and Americans? Industry, however, would soon
+                    follow security, and the trade in palm-oil might be rendered exceedingly
+                    valuable to Europe. Below Eboe, the branches thrown off by the Quorra on both
+                    sides are large and numerous, and that which forms the Bonny may perhaps claim
+                    to be considered as the main stream. The Brass River, however, flowing in a
+                    direction nearly south-west from Eboe, and entering the Atlantic at Cape
+                    Formosa, was that by which the Landers reached the sea. The next points to be
+                    considered are, the extent of the Quorra, its tributaries, and the size and
+                    character of its delta.</p>
+                <p part="N">“If we measure two distances,” says an able writer on this subject,<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">Edinburgh
+                            Review, No. cx. p. 415.</p></note> “one from the source to Timbuctoo,
+                    and the other from that city to the sea, we shall have nearly 2000 miles, which
+                    may be considered as the direct course; and the various windings must raise the
+                    whole line of the stream to upwards of 3000 miles. For several hundred miles of
+                    its lower course it forms a broad and magnificent expanse, resembling an inland
+                    sea. The Niger must, after all, yield very considerably to the Missouri and
+                    Orellana, those stupendous rivers of the new world; but it appears as great as
+                    any of those which water the old continents. There can rank with it only the
+                    Nile and the Yang-tse-kiang, or Great River of China. But the upper course of
+                    neither is yet very fully ascertained; and the Nile can compete only in length
+                    of course, not in the magnitude of its stream, or the fertility of the regions
+                    which it waters. There is one feature in which the Niger may defy competition
+                    with any river, either of the old or new world. This is in the grandeur of its
+                    delta. Along the whole coast, from the river of Formosa or Benin, to that of Old
+                    Calabar, about three hundred miles in length, there open into the Atlantic its
+                    successive estuaries, which navigators have scarcely been able to number. Taking
+                    this coast as the base of the triangle or delta, and its vertex at Kirree, about
+                    a hundred and seventy miles inland, where the Formosa branch separates, we have
+                    a space of upwards of 25,000 square miles, <pb break="no"
+                        facs="nls:194559764?mode=fullsize" xml:id="kp-eb0716-9764-0223"/>equal to
+                    the half of England. Had this delta, like that of the Nile, been subject only to
+                    temporary inundations, leaving behind a layer of fertilizing slime, it would
+                    have formed <hi rend="subscript"> i</hi> the most fruitful region on the earth,
+                    and might have been almost the granary of a continent. But unfortunately the
+                    Niger rolls down its waters in such excessive abundance, as to convert the whole
+                    into a huge and dreary swamp, covered with dense forests of mangrove and other
+                    trees of spreading and luxuriant foliage. The equatorial sun, with its fiercest
+                    rays, cannot penetrate these dark recesses; it only exhales from them
+                    pestilential vapours, which render this coast the theatre of more fatal epidemic
+                    diseases than any other, even of Western Africa. That human industry will one
+                    day level these forests, drain these swamps, and cover this soil with luxuriant
+                    harvests, we may confidently anticipate; but many ages must probably elapse
+                    before man, in Africa, can achieve such a victory over nature.”</p>
+                <p part="N">These broad estuaries of the Quorra communicate with each other by
+                    creeks, and, frequently overflowing their banks, render the shore a vast
+                    alluvial wooded morass for more than twenty miles inland. The natives, having
+                    thus far extended water communications, are the most active traders anywhere in
+                    Africa; but, excepting slaves, the commodities in which they deal are now
+                    entirely changed. Gold has given place to ivory, which is collected in
+                    considerable quantities; but palm-oil is the great staple of the eastern
+                    districts. A vast quantity of salt is made at the mouths of the rivers, both for
+                    consumption at the spot and in the interior. The first leading feature is the
+                    river Formosa, which is two miles wide at its mouth; and on a creek tributary to
+                    it stands the capital of Benin. The surrounding territory is well cultivated,
+                    although not so completely cleared of wood as it might be. Jatto, about fifty
+                    miles below, is the port of Benin, and is accessible to vessels of sixty tons.
+                    The trade on this river has greatly declined from what it once was. Warré or
+                    Owarri is another state and city, situated on another creek, communicating with
+                    the Formosa on its opposite side. It consists of a somewhat elevated and
+                    beautiful island, surrounded by vast woods and swamps. After doubling Cape
+                    Formosa, and passing several estuaries, we come to that of the Brass River,
+                    called by the Portuguese the river of Nun. This, though not the largest estuary
+                    of the Quorra, is most directly in the line of the main stream, and being that
+                    by which Lander entered the Atlantic, it at present enjoys the reputation of
+                    being the principal channel. It is divided into two branches; but the navigation
+                    is greatly impeded, and the trade limited by a dangerous bar at its mouth. Brass
+                    Town is not built on either of the great branches, but on one of the numerous
+                    creeks connected with both, and in a country overgrown with impenetrable
+                    thickets of mangrove. It is a poor place, divided by a lagoon into two parts,
+                    each of which contains about a thousand inhabitants. Bonny River forms the next
+                    important estuary, having on its opposite sides the towns of Bonny and New
+                    Calabar, which, being only a few miles up, are situated in the midst of the
+                    morassses which overspread all this country. The people support themselves by
+                    the manufacture of salt, and they likewise trade in slaves and palm-oil. To the
+                    eastward of Bonny is the estuary of Old Calabar River, the broadest of all, and
+                    navigable for large vessels sixty miles up to Ephraim Town, which is governed by
+                    a chief who assumes the title of duke. It carries on a considerable trade, and
+                    contains about four thousand inhabitants. To this river succeeds that of Rio del
+                    Rey, and then the Rio Cameroons. The country yields a good deal of ivory and
+                    palm-oil. The continuity of the vast wooded flat which extends along the coast
+                    for more than two hundred miles is now broken by some very lofty mountains, the
+                    principal of which is supposed to reach the height of 13,000 feet. <hi
+                        rend="superscript"> 0</hi></p>
+                <p part="N">We have seen that, besides its own ample stream, the Quorra has a number
+                    of tributaries. Not far above the point where the delta commences, the Tshadda
+                    enters, being nearly equal in magnitude to the Quorra itself. A little higher up
+                    the Coodonia enters; it is a smaller river, but still of great importance in a
+                    commercial point of view, as Lander had seen it flowing through a very fertile
+                    and highly cultivated country. Considerably higher up is the Cubbie, a large
+                    stream from the country and city of that name; and higher up still is the
+                    Quarrama, which passes by Zirmie and Saccatoo. Between this point and Timbuctoo
+                    we are ignorant of how many or what streams join the Quorra, nor is the
+                    tributary which passes that city of any great importance. But, at the eastern
+                    boundary of Bambarra, Mr Park describes the influx from the south of two great
+                    streams, the Maniand and Nimma; and it seems very doubtful if De Caille was not
+                    mistaken in supposing the latter to be a mere branch of the Quorra. The higher
+                    tributaries descending from the mountains swell the stream, without themselves
+                    affording any important navigation.</p>
+                <p part="N">An interesting question, and one which has occupied a considerable
+                    degree of attention, here presents itself, namely, what prospect does this great
+                    interior communication open to British commerce? Our intercourse with this part
+                    of Africa has hitherto been almost exclusively with the coast, which is
+                    comparatively unproductive, whilst its inhabitants are idle and miserable.
+                    Inland, however, we find the people improve, and the country become fertile to
+                    luxuriance, and gradually more healthy. The territories rendered accessible by
+                    the Quorra and its tributaries are undoubtedly the most productive and
+                    industrious in all Africa; and their population, notwithstanding the difficulty
+                    of forming any precise estimate, can scarcely be rated at less than about
+                    twenty-five millions. Considerable results might reasonably be anticipated, from
+                    British enterprise having found access to such a region. But there are two great
+                    drawbacks to active intercourse with the interior of Africa; the insalubrity of
+                    the climate, and the inhuman traffic in slaves, which last is a thousand times
+                    more destructive to trade than all the forms which disease ever assumed. If this
+                    were removed and the cónfidence of the natives restored, our commerce with
+                    Africa by means of the Quorra might be greatly increased. In the mean time, the
+                    late failure of Macgregor Laird and Oldfield will probably for a time damp the
+                    ardour of enterprise, and our commercial relations with this quarter of Africa
+                    may remain, for years to come, on nearly the same footing as before. <hi
+                        rend="smallcaps">(r. r. r.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

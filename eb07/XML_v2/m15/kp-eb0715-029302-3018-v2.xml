@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0715-3018-0293-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">MIRACLE</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:983135">Jews</term>
+                    <term ref="fast:1050321">Paganism</term>
+                    <term ref="fast:859599">Christianity</term>
+                    <term ref="fast:859760">Christians</term>
+                    <term ref="fast:915437">Essays</term>
+                    <term ref="fast:944037">God</term>
+                    <term ref="fast:944223">Gods</term>
+                    <term ref="fast:1015978">Men</term>
+                    <term ref="fast:1158235">Truth</term>
+                    <term ref="fast:1093898">Religions</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4sq8qk1s">Christ</term>
+                    <term ref="lcsh1910:b4x34mt4n">Jews</term>
+                    <term ref="lcsh1910:b40p0wv7t">Paganism</term>
+                    <term ref="lcsh1910:b49c6s277">Christianity</term>
+                    <term ref="lcsh1910:b4s17sw59">Essays</term>
+                    <term ref="lcsh1910:b41v5bf9q">God</term>
+                    <term ref="lcsh1910:b4jw86m8z">Man</term>
+                    <term ref="lcsh1910:b43f4kr4b">Falsehood</term>
+                    <term ref="lcsh1910:b47m04609">Power</term>
+                    <term ref="lcsh1910:b49k45t2j">Truth</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1754964">Rome</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193823018?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">MIRACLE</label>, in its original sense, is a word of
+                    the same import with <hi rend="italic">woĭider;</hi> but in its usual and more
+                    appropriate signification it denotes “an effect contrary to the established
+                    constitution and course of things, or a sensible deviation from the known laws
+                    of nature.”</p>
+                <p part="N">That the visible world is governed by stated general rules, or that
+                    there is an order of causes and effects established in every part of the system
+                    of nature which falls under our observation, is a fact which cannot be
+                    controverted. If the Supreme Being, as some have supposed, be the only real
+                    agent in the universe, we have the evidence of experience, that, in the
+                    particular system to which we belong, he acts by stated rules. If he employs
+                    inferior agents to conduct the various motions from which the phenomena result,
+                    we have the same evidence that he· has subjected those agents to certain fixed
+                    laws, commonly called the laws of nature. Upon either hypothesis, effects which
+                    are produced by the regular operation of these laws, or which are conformable to
+                    the established course of events, are properly called <hi rend="italic"
+                        >natural</hi><hi rend="italic">;</hi> and every contradiction to this
+                    constitution of the natural system, and the corresponding course of events in
+                    it, is called a <hi rend="italic">miracle.</hi></p>
+                <p part="N">If this definition of a miracle be just, no event can be deemed
+                    miraculous merely because it is strange, or even to us unaccountable; since it
+                    may be nothing more than a regular effect of some unknown law of nature. In th⅛
+                    country earthquakes are rare; and for monstrous births perhaps no particular and
+                    satisfactory account can be given; yet an earthquake is as regular an effect of
+                    the established laws of nature as any of those with which we are most intimately
+                    acquainted; and, under circumstances in which there would always be the same
+                    kind of production, tire monster is nature’s genuine issue. It is therefore
+                    necessary, before we can pronounce any effect to be a true miracle, that the
+                    circumstances under which it is produced be known, and that the common course of
+                    nature be in some degree understood; for in all those cases in which we are
+                    totally ignorant of nature, it is impossible to determine what is, or what is
+                    not, a deviation from its course. Miracles, therefore, are not, as some have
+                    represented them, appeals to our ignorance. They suppose some antecedent
+                    knowledge of the course of nature, without which a proper judgment cannot be
+                    formed concerning them, though with it their reality may be so apparent as to
+                    prevent all possibility of a dispute.</p>
+                <p part="N">Thus, were a physician to cure a blind man of a cataract by anointing
+                    his eyes with a chemical preparation which we had never before seen, and to the
+                    nature and effects of which we were absolute strangers, the cure would
+                    undoubtedly be wonderful; but we could not pronounce it miraculous, because, for
+                    any thing known to us, it might be the natural effect of the operation of the
+                    unguent upon the eye. But were he to recover his patient merely by commanding
+                    him to see, or by anointing his eyes with spittle, we should with the utmost
+                    confidence pronounce the cure to be a miracle, because we know perfectly that
+                    neither the human voice nor human spittle have, by the established constitution
+                    of things, any such power over the diseases of the eye. No one is now ignorant,
+                    that persons apparently dead are often restored to their families and friends by
+                    being treated in the manner recommended by the Humane Society. To the vulgar,
+                    and sometimes even to men of science, these effects appear very wonderful; but
+                    as they are known to be produced by physical agency, they can never be
+                    considered as miraculous deviations from the laws of nature. On the other hand,
+                    no one could doubt of his having witnessed a real miracle who had seen a person
+                    that had been four days dead come alive out of his grave at the call of another,
+                    or who had even beheld a person exhibiting all the symptoms of death instantly
+                    resuscitated merely by being desired to live. So easy is it, in all cases in
+                    which the course of nature is understood, to determine whether any particular
+                    event be really a miracle; whilst in circumstances where we know nothing of
+                    nature and its course, even a true miracle, were it performed, could not be
+                    admitted as such, nor carry any conviction to the mind of a philosopher.</p>
+                <p part="N">If miracles be effects contrary to the established constitution of
+                    things, we are certain that they will never be performed on trivial occasions.
+                    The constitution of things was established by the creator and governor of the
+                    universe, and is undoubtedly the offspring of infinite wisdom pursuing a plan
+                    for the best of purposes. From this plan no deviation can be made but by God
+                    himself, or by some powerful being acting with his permission. The plans devised
+                    by wisdom are steady in proportion to their perfection, and the plans of
+                    infinite wisdom must be absolutely perfect. From this consideration some men
+                    have ventured to conclude that no miracle was ever wrought, nor can rationally
+                    be expected; but maturer reflection must soon satisfy us that all such
+                    conclusions are hasty.</p>
+                <p part="N">Man is unquestionably the principal creature in this world, and
+                    apparently the only one in it who is capable of being made acquainted with the
+                    relation in which he stands to his Creator. We cannot, therefore, doubt but that
+                    such of the laws of nature as extend not their operation beyond the limits of
+                    this earth were established chiefly, if not solely, for the good of mankind; and
+                    if, in any particular circumstances, that good can be more effectually promoted
+                    by an occasional deviation from those laws, such a deviation may reasonably be
+                    expected. Were man, in the exercise of his mental and corporeal powers,
+                    subjected to the laws of physical necessity, the circumstances supposed would
+                    indeed never occur, and of course no miracle could be admitted. But such is not
+                    the nature of man.</p>
+                <p part="N">Without repeating what has been said elsewhere (see <hi rend="smallcaps"
+                        >Metaphysics,</hi> part iii. chap. 5) of necessity and liberty, we shall
+                    here take it for granted that the relation between motives and actions is
+                    different from that between cause and effect in physics; and that mankind have
+                    such a command over themselves as that by their voluntary conduct they can make
+                    themselves in a great degree either happy or miserable. We know likewise from
+                    history, that, by some means or other, almost all mankind were once sunk in the
+                    grossest ignorance of the most important truths; that they knew not the Being by
+                    whom they were created and supported; that they paid divine adoration to stocks,
+                    stones, and the vilest reptiles; and that they were slaves to the most impious,
+                    cruel, and degrading superstitions.</p>
+                <pb break="no" facs="nls:193823031?mode=fullsize" xml:id="kp-eb0715-3031-0294"/>
+                <p part="N">From this depraved state it was surely not unworthy of the common Father
+                    of all to rescue his helpless creatures, to enlighten their understandings that
+                    they might perceive what is right, and to present to them motives of sufficient
+                    force to engage them in the practice of it. But the understandings of ignorant
+                    barbarians cannot be enlightened by arguments, because of the force of such
+                    arguments as regard moral science they are not qualified to judge. The
+                    philosophers of Athens and Rome inculcated, indeed, many excellent moral
+                    precepts, and they sometimes ventured to expose the absurdities of the reigning
+                    superstition; but their lectures had no influence upon the multitude; and they
+                    had themselves imbibed such erroneous notions respecting the attributes of the
+                    Supreme Being, and the nature of the human soul, and converted these notions
+                    into first principles, of which they would not permit an examination, that even
+                    amongst them a thorough reformation was not to be expected from the powers of
+                    reasoning. It is likewise to be observed, that there are many truths of the
+                    utmost importance to mankind which unassisted reason could never have
+                    discovered. Amongst these we may confidently reckon the immortality of the soul,
+                    the terms upon which God will be reconciled to sinners, and the manner in which
+                    that all-perfect Being may be acceptably worshipped; about all of which
+                    philosophers were in such uncertainty, that, according to Plato, “whatever is
+                    set right, and as it should be, in the present evil state of the world, can be
+                    so only by the particular interposition of God.”</p>
+                <p part="N">An immediate revelation from heaven seemed, therefore, the only method
+                    by which infinite wisdom and perfect goodness could reform a bewildered and
+                    vicious race. But this revelation, at whatever time we suppose it given, must
+                    have been made directly either to some chosen individuals commissioned to
+                    instruct others, or to every man and woman for whose benefit it was ultimately
+                    intended. Were every person instructed in the knowledge of his duty by immediate
+                    inspiration, and were the motives to practise it brought home to his mind by God
+                    himself, human nature would be wholly changed: Men would not be masters of their
+                    own actions; they would not be moral agents, nor by consequence be capable
+                    either of reward or of punishment. It remains, therefore, that if God has been
+                    graciously pleased to enlighten and reform mankind, without destroying.that
+                    moral nature which is essential to virtue, he can have done it only by revealing
+                    his truth to certain chosen instruments, who were the immediate instructors of
+                    their contemporaries, and through them have been the instructors of succeeding
+                    ages.</p>
+                <p part="N">Let us suppose this to have been actually the case, and consider how
+                    those inspired teachers could communicate to others every truth which had been
+                    revealed to themselves. They might easily, if it was part of their duty, deliver
+                    a sublime system of natural and moral science, and establish it upon the common
+                    basis of experiment and demonstration; but what foundation could they lay for
+                    those truths which unassisted reason cannot discover, and which, when they are
+                    revealed, appear to have no necessary relation to any thing previously known? To
+                    a bare affirmation that they had been immediately received from God, no rational
+                    being could be expected to assent. The teachers might be men of known veracity,
+                    whose simple assertion would be admitted as sufficient evidence for any fact in
+                    conformity with the laws of nature; but as every man has the evidence of his own
+                    consciousness and experience that revelations from heaven are deviations from
+                    these laws, an assertion so apparently extravagant would be rejected as false,
+                    unless supported by some better proof than the mere affirmation of the teacher.
+                    In this state of things, we cannot conceive any evidence sufficient to make such
+                    doctrines be received as the truths of God, except the power of working miracles
+                    committed to him who taught them. This would, indeed, be fully adequate to the
+                    purpose. For if there were nothing in the doctrines themselves impious, immoral,
+                    or contrary to the truths already known, the only thing which could render the
+                    teacher’s assertion incredible, would be its implying such an intimate communion
+                    with God as is contrary to the established course of things, by which men are
+                    left to acquire all their knowledge by the exercise of their own faculties. Let
+                    us now suppose one of those inspired teachers to tell his countrymen that he did
+                    not desire them, upon his <hi rend="italic">ipse dixit,</hi> to believe that he
+                    had any preternatural communion with the Deity, but that for the truth of his
+                    assertion he would give them the evidence of their own senses; and after this
+                    declaration, let us suppose him immediately to raise a person from the dead in
+                    their presence, merely by calling upon him to come forth out of his grave. Would
+                    not the only possible objection to the man’s veracity be removed by this
+                    miracle? and would not his assertions that he had received such and such
+                    doctrines from God be as fully credited as if it had related to the most common
+                    occurrence? Undoubtedly it would; for when so much preternatural power was
+                    visibly communicated to this person, no one could possibly have reason to
+                    question his having received an equal portion of preternatural knowledge. A
+                    palpable deviation from the known laws of nature in one instance, is a sensible
+                    proof that such a deviation is possible in another; and in such a case as this,
+                    it is the witness of God to the truth of a man.</p>
+                <p part="N">Miracles, then, under which we also include prophecy, are the only
+                    direct evidence which can be given of divine inspiration. When a religion, or
+                    any religious truth, is to be revealed from heaven, they appear to be absolutely
+                    necessary to enforce its reception amongst men; and this is the only case in
+                    which we can suppose them necessary, or believe for a moment that they ever have
+                    been or will be performed.</p>
+                <p part="N">The history of almost every religion abounds with relations of prodigies
+                    and wonders, and of the intercourse of men with the gods; but we know of no
+                    religious system, those of the Jews and the Christians excepted, which appealed
+                    to miracles as the sole evidence of its truth and divinity. The pretended
+                    miracles mentioned by Pagan historians and poets are not said to have been
+                    publicly wrought in order to enforce the truth of a new religion contrary to the
+                    reigning idolatry. Many of them may be clearly shown to have been mere natural
+                    events; others of them are represented as having been performed in secret, upon
+                    the most trivial occasions, and in obscure and fabulous ages long prior to the
+                    era of the writers by whom they are recorded; and such of them as at first view
+                    appear to be best attested, are evidently tricks contrived for interested
+                    purposes, to flatter power, or to promote the prevailing superstitions. For
+                    these reasons, as well as on account of the immoral character of the divinities
+                    by whom they are said to have been wrought, they are altogether unworthy of
+                    examination, and carry in the very nature of them the completest proofs of
+                    falsehood and imposture.</p>
+                <p part="N">But the miracles recorded of Moses and of Christ bear a very different
+                    character. None of them is represented as wrought upon trivial occasions. The
+                    writers who mention them were eye-witnesses of the facts, which they affirm to
+                    have been performed publicly, in attestation of the truth of their respective
+                    systems. They are, indeed, so incorporated with these systems, that the miracles
+                    cannot be separated from the doctrines; and if the miracles were not really
+                    performed, the doctrines cannot possibly be true. Besides all this, they were
+                    wrought in support of revelations which opposed all the religious systems,
+                    superstitions, and prejudices of the age in which they were given; a
+                    circumstance which of itself sets them, in point of authority, <pb break="no"
+                        facs="nls:193823044?mode=fullsize" xml:id="kp-eb0715-3044-0295"/>infinitely
+                    above the Pagan prodigies, as well as the pretended miracles of the church of
+                    Rome.</p>
+                <p part="N">It is indeed, we believe, universally admitted, that the miracles
+                    mentioned in the book of Exodus and in the four Gospels might, to those who saw
+                    them performed, be sufficient evidence of the divine inspiration of Moses and of
+                    Christ; but to us it may be thought that they are no evidence whatever, as we
+                    must believe in the miracles themselves, if we believe in them at all, upon the
+                    bare authority of human testimony. Why, it has been sometimes asked, are not
+                    miracles wrought in all ages and countries? If the religion of Christ was to be
+                    of perpetual duration, every generation of men ought to have complete evidence
+                    of its truth and divinity.</p>
+                <p part="N">To the performance of miracles in every age and in every country,
+                    perhaps the same objections would lie as to the immediate inspiration of every
+                    individual. Were those miracles universally received as such, men would be so
+                    overwhelmed with the <hi rend="italic">number</hi> rather than with the <hi
+                        rend="italic">force</hi> their authority, as hardly to remain masters of
+                    their own conduct; and in that case the very end of all miracles would be
+                    defeated by their frequency. The truth, however, seems to be, that miracles so
+                    frequently repeated would not be received as such, and of course would have <hi
+                        rend="italic">no</hi> authority; because it would be difficult, and in many
+                    cases impossible, to distinguish them from natural events. If they recurred
+                    regularly at certain intervals, we could not prove them to be deviations from
+                    the known laws of nature, because we should have the same experience for the one
+                    series of events as we have for the other; for the regular succession of
+                    preternatural effects, as for the established constitution and course of
+                    things.</p>
+                <p part="N">Be this, however, as it may, we shall take the liberty to affirm, that,
+                    for the reality of the Gospel miracles, we have evidence as convincing to the
+                    reflecting mind, though not so striking to vulgar apprehension, as those had who
+                    were contemporary with Christ and his apostles, and actually saw the mighty
+                    works which he performed. To the admirers of Mr Hume’s philosophy this assertion
+                    will appear an extravagant paradox; but we hope to demonstrate its truths from
+                    principles which, consistently with himself, that author could not have denied.
+                    He has indeed endeavoured to prove,<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">Essay on Miracles.</p></note> that “no
+                    testimony is sufficient to establish a miracle ;” and the reasoning employed for
+                    this purpose is, that “a miracle being a violation of the laws of nature which a
+                    firm and unalterable experience has established, the proof against a miracle,
+                    from the very nature of the fact, is as entire as any argument from experience
+                    can be; whereas our experience of human veracity, which (according to him) is
+                    the sole foundation of the evidence of testimony, is far from being uniform, and
+                    can therefore never preponderate against that experience which admits of no
+                    exception.” This boasted and plausible argument has been examined by Dr
+                        Campbell,<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >Dissertation on Miracles.</p></note> who justly observes, that so far
+                    is experience from being the sole foundation of the evidence of testimony, that,
+                    on the contrary, testimony is the sole foundation of by far the greater part of
+                    what Mr Hume calls firm and unalterable experience; and that if in certain
+                    circumstances we did not give an implicit faith to testimony, our knowledge of
+                    events would be confined to those which had fallen under the immediate
+                    observation of our own senses.</p>
+                <p part="N">But although Dr Campbell has exposed the sophistry of his opponent’s
+                    reasoning, and overturned the principles from which he reasons, we are persuaded
+                    tlιat he might safely have joined issue with him upon those very principles. To
+                    us, at least, it appears that the testimony upon which we receive the Gospel
+                    miracles is precisely of that kind which Mr Hume has acknowledged sufficient to
+                    establish even a miracle. “No testimony,” says he, “is sufficient to establish a
+                    miracle, unless the testimony be of such a kind that its falsehood would be more
+                    miraculous than the fact which it endeavours to establish. When one tells me
+                    that he saw a dead man restored to life, I immediately consider with myself
+                    whether it be more probable that this person should either deceive or be
+                    deceived, or that the fact which he relates should really have happened. 1 weigh
+                    the one miracle against the other; and according to the superiority which I
+                    discover, I pronounce my decision, and always reject the greater miracle.” In
+                    this passage every reader may remark, what did not escape the perspicacious eye
+                    of Dr Campbell, a strange confusion of terms; but as all miracles are equally
+                    easy to the Almighty, and as Mr Hume has elsewhere observed, that “the raising
+                    of a feather, when the wind wants ever so little of a force requisite for that
+                    purpose, is as real a miracle as the raising of a house or a ship into the air,”
+                    candour obliges us to suppose, that by talking of greater and less miracles, and
+                    of always rejecting the greater, he meant nothing more but that, of two
+                    deviations from the known laws of nature, he always rejects that which in itself
+                    is least probable.</p>
+                <p part="N">If, then, it can be shown that the testimony given by the apostles and
+                    other first preachers of Christianity to the miracles of their Master, would,
+                    upon their supposition that those miracles were not really performed, have been
+                    as great a deviation from the known laws of nature as the miracles themselves,
+                    the balance must be considered as equally poised by opposite miracles; and
+                    whilst it continues so, the judgment must remain in a state of suspense. But if
+                    it shall appear, that in this case the false testimony would have been a
+                    deviation from the laws of nature less probable in itself than the miracles
+                    recorded in the Gospels, the balance will instantly be destroyed; and, by Mr
+                    Hume’s maxim, we shall be obliged to reject the supposition of falsehood in the
+                    testimony of the apostles, and admit the miracles of Christ to have been really
+                    performed.</p>
+                <p part="N">In this argument we need not waste time in proving that those miracles,
+                    as they are represented in the writings of the New Testament, were of such a
+                    nature, and performed before so many witnesses, that no imposition could
+                    possibly be practised upon the senses of those who affirm that they were
+                    present. From every page of the Gospels this is so evident, that the
+                    philosophical adversaries of the Christian faith never suppose the apostles to
+                    have been themselves deceived, but boldly accuse them of bearing false witness.
+                    But if this accusation be well founded, their testimony itself is as great a
+                    miracle as any which they record of themselves or of their Master.</p>
+                <p part="N">It has been shown elsewhere (see the article <hi rend="smallcaps"
+                        >Metaphysics),</hi> that by the law of association, which is one of the laws
+                    of nature, mankind, in the very process of learning to speak, necessarily learn
+                    to speak the truth; that ideas and relations are in the mind of every man so
+                    closely associated with the words by which they are expressed in his native
+                    tongue, and in every other language of which he is master, that the one cannot
+                    be entirely separated from the other; that therefore no man can on any occasion
+                    speak falsehood without some <hi rend="italic">effort</hi><hi rend="italic"
+                        >;</hi> that by no effort can a man give consistency to an unpremeditated
+                    detail of falsehood, if it be of any length, and include a number of
+                    particulars; and that it is still less possible for several men to agree in such
+                    a detail, when at a distance from each other, and cross-questioned by their
+                    enemies.</p>
+                <p part="N">This being the case, it follows, if the testimony of the apostles to
+                    their own and their Master’s miracles be false, <pb break="no"
+                        facs="nls:193823057?mode=fullsize" xml:id="kp-eb0715-3057-0296"/>either that
+                    they must have concerted a consistent scheme of falsehood, and agreed to publish
+                    it at every hazard; or that God, or some powerful agent appointed by him, must
+                    have dissolved all the associations formed in their minds between ideas of sense
+                    and the words of language, and arbitrarily formed new associations, all in exact
+                    conformity to each other, but all, at the same time, in direct contradiction to
+                    truth. One or other of these events must have taken place, because, upon the
+                    supposition of falsehood, there is no other alternative. But such a dissolution
+                    and formation of associations as the latter implies must, to every man who shall
+                    attentively consider it, appear to be as real a miracle, and to require as great
+                    an exertion of power, as the resurrection of the dead. Nor is the supposed
+                    voluntary agreement of the apostles in a scheme of falsehood an event less
+                    miraculous. When they sat down to fabricate their pretended revelation, and to
+                    contrive a series of miracles to which they were unanimously to appeal for its
+                    truth, it is plain, since they proved successful in their daring enterprise,
+                    that they must have clearly foreseen every possible circumstance in which they
+                    could be placed, and have prepared consistent answers to every question which
+                    could be put to them by their most inveterate and most enlightened enemies; by
+                    the statesman, the lawyer, the philosopher, and the priest. That such
+                    foreknowledge as this would have been miraculous, will not surely be denied;
+                    since it forms the very attribute which we find it most difficult to allow even
+                    to God himself. It is not, however, the <hi rend="italic">only</hi> miracle
+                    which this supposition would compel us to swallow. The very <hi rend="italic"
+                        >resolution</hi> of the apostles to propagate the belief of false miracles
+                    in support of such a religion as that which is taught in the New Testament, is
+                    about as great a miracle as human imagination can easily conceive.</p>
+                <p part="N">When they formed this design, either they must have hoped to succeed, or
+                    they must have foreseen that they would fail in their undertaking; and, in
+                    either case, they chose evil for its own sake. They could not, if they foresaw
+                    that they would fail, look for any thing but that contempt, disgrace, and
+                    persecution, which were then the inevitable consequences of an unsuccessful
+                    endeavour to overthrow the established religion. Nor could their prospects be
+                    brighter upon the supposition of their success. As they knew themselves to be
+                    false witnesses and impious deceivers, they could have no hopes beyond the
+                    grave; and by determining to oppose all the religious systems, superstitions,
+                    and prejudices of the age in which they lived, they wilfully exposed themselves
+                    to inevitable misery in the present life, to insult and imprisonment, to stripes
+                    and death. Nor can it be said that they might look forward to power and
+                    affluence when they should, through sufferings, have converted their countrymen;
+                    for so desirous were they of obtaining nothing but <hi rend="italic">misery</hi>
+                    as the end of their mission, that they made their own persecution a test of the
+                    truth of their doctrines. They introduced the Master from whom they pretended to
+                    have received these doctrines, as telling them, “that they were sent forth as
+                    sheep in the midst of wolves; that they should be×delivered up to councils, and
+                    scourged in synagogues; that they should be hated of all men for his name’s
+                    sake; that the brother should deliver up the brother to death, and the father
+                    the child; and that he who took not up his cross and followed after him was not
+                    worthy of him.” The very system of religion, therefore, which they invented and
+                    resolved to impose upon mankind, was so contrived, that the worldly prosperity
+                    of its first preachers, and even their exemption from persecution, was
+                    incompatible with its success. Had these clear predictions of the Author of that
+                    religion, under whom the apostles acted only as ministers, not been verified,
+                    all mankind must have instantly perceived that their pretence to inspiration was
+                    false, and that Christianity was a scandalous and impudent imposture. All this
+                    the apostles could not but foresee when they formed their plan for deluding the
+                    world. Hence it follows, that when they had resolved to support their pretended
+                    revelation by an appeal to forged miracles, they wilfully, and with their eyes
+                    open, exposed themselves to inevitable misery, whether they should succeed or
+                    fail in their enterprise; and that they concerted their measures so as not to
+                    admit of a possibility of recompense to themselves, either in this life or in
+                    that which is to come. But if there be a law of nature, for the reality of which
+                    we have better evidence than we have for that of others, it is, that “no man can
+                    choose misery for its <hi rend="italic">own sake,”</hi> or make the acquisition
+                    of it the ultimate end of his pursuit. The existence of other laws of nature we
+                    know by testimony and our own observation of the regularity of their effects.
+                    The existence of this law is made known to us not only by these means, but also
+                    by the still clearer and more conclusive evidence of our own consciousness.</p>
+                <p part="N">Thus, then, do miracles force themselves upon our assent in every
+                    possible view which we can take of this interesting subject. If the testimony of
+                    the first preachers of Christianity was true, the miracles recorded in the
+                    Gospel were certainly performed, and the doctrines of our religion are derived
+                    from heaven. On the other hand, if that testimony was false, either God must
+                    have miraculously effaced from the minds of those by whom it was given all the
+                    associations formed between their sensible ideas and the words of language, or
+                    he must have endowed those men with the gift of prescience, and have impelled
+                    them to fabricate a pretended revelation for the purpose of deceiving the world,
+                    and involving themselves in certain and foreseen destruction.</p>
+                <p part="N">The power necessary to perform the one series of these miracles may, for
+                    any thing known to us, be as great as that which would be requisite for the
+                    performance of the other; and, considered merely as exertions of preternatural
+                    power, they may seem to balance each other, and to hold the mind in a state of
+                    suspense. But when we take into consideration the different purposes for which
+                    these opposite and contending miracles were wrought, the balance is instantly
+                    destroyed. The miracles recorded in the Gospels, if real, were wrought in
+                    support of a revelation which, in the opinion of all by whom it is received, has
+                    brought to light many important truths which could not otherwise have been made
+                    known to men; and which, by the confession of its adversaries, contains the
+                    purest moral precepts by which the conduct of mankind was ever directed. The
+                    opposite series of miracles, if real, was performed to enable, and even to
+                    compel, a company of Jews, of the lowest rank and of the narrowest education, to
+                    fabricate, with the view of inevitable destruction to themselves, a consistent
+                    scheme of falsehood, and, by an appeal to forged miracles, to impose it upon the
+                    world as a revelation from heaven. The object of the former miracles is worthy
+                    of a God of infinite wisdom, goodness, and power. The object of the. latter is
+                    absolutely inconsistent with wisdom and goodness, which are demonstrably the
+                    attributes of that Being by whom alone miracles can be performed. Hence it
+                    follows, that the supposition of the apostles bearing false testimony to the
+                    miracles of their Master, implies a series of deviations from the laws of nature
+                    infinitely less probable in themselves than those miracles; and therefore, by Mr
+                    Hume’s maxim, we must necessarily reject the supposition of falsehood in the
+                    testimony, and admit the reality of the miracles. So true it is, that for the
+                    reality of the Gospel miracles we have evidence as convincing to the reflecting
+                    mind, as those had who were contemporary with Christ and his apostles, and
+                    witnesses to their mighty works. <hi rend="smallcaps">(h.h. ii.h.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

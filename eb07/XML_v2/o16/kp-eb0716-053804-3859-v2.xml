@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0716-3859-0538-04" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">ORKNEY Islands, or Orcades</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1106456">Scandinavianism</term>
+                    <term ref="fast:1106459">Scandinavians</term>
+                    <term ref="fast:960068">Hope</term>
+                    <term ref="fast:919892">Fairs</term>
+                    <term ref="fast:919882">Fairings</term>
+                    <term ref="fast:980104">Islands</term>
+                    <term ref="fast:1126696">Sons</term>
+                    <term ref="fast:1133812">Stone</term>
+                    <term ref="fast:1133955">Stoning</term>
+                    <term ref="fast:1182566">Year</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4kp7tx0f">Islands</term>
+                    <term ref="lcsh1910:b4db7vr13">Stone</term>
+                    <term ref="lcsh1910:b4kd1qn6g">Crowns</term>
+                    <term ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term ref="lcsh1910:b4319s59c">Foot</term>
+                    <term ref="lcsh1910:b47941291">Scandinavians</term>
+                    <term ref="lcsh1910:b4gm81x15">Scandinavianism</term>
+                    <term ref="lcsh1910:b4xw4804p">Fairs</term>
+                    <term ref="lcsh1910:b4pv6b75c">Rowing</term>
+                    <term ref="lcsh1910:b4n58cs8z">Norwegians</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1206715">Scotland</term>
+                    <term ref="fast:1204556">Norway</term>
+                    <term ref="fast:1204558">Denmark</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194563859?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">ORKNEY <hi rend="smallcaps">Islands</hi>, or <hi
+                            rend="smallcaps">Orcades</hi></label>, a group of islands in the North
+                    Sea, belonging to and forming with the Zetland Islands one of the counties of
+                    Scotland. They are sepa <pb break="no" facs="nls:194563872?mode=fullsize"
+                        xml:id="kp-eb0716-3872-0539"/>rated from Caithness by the Pentland Firth, a
+                    strait of about twelve miles in breadth, and are situated between the parallels
+                    58. 44. and 59. 24. north latitude, and between 2. 24. and 3. 20. west longitude
+                    from the meridian of Greenwich. In number they amount to sixty-seven, of which
+                    twenty-seven are inhabited; and the others, known by the name of <hi
+                        rend="italic">holms,</hi> are employed as grazing grounds for sheep and
+                    cattle, and for the manufacture of kelp. The islands are divided into two
+                    groups, called, in reference to Pomona, the principal island, the North and
+                    South Isles. The following are the names of the inhabited islands in the
+                    southern division, with their population according to the census taken in
+                    1831:</p>
+                <p part="N">South Ronaldshay 2265</p>
+                <p part="N">Walls and Hoy 1388</p>
+                <p part="N">Flotay and Faray 369</p>
+                <p part="N">Burray 357</p>
+                <p part="N">Graemsay 225</p>
+                <p part="N">Swanay and the Skerries 89</p>
+                <p part="N">Copinshay 7</p>
+                <p part="N">4700</p>
+                <p part="N">The following are the names and population of the North Isles:</p>
+                <p part="N">Sanday 1839</p>
+                <p part="N">Westray 1702</p>
+                <p part="N">Stronsay, Papa Stronsay, and Lingholm 1071</p>
+                <p part="N">Rousay 921</p>
+                <p part="N">Shapinshay 809</p>
+                <p part="N">Eday and Pharay 756</p>
+                <p part="N">North Ronaldshay 522</p>
+                <p part="N">Papa Westray 330</p>
+                <p part="N">Egilshay 228</p>
+                <p part="N">Weir 93</p>
+                <p part="N">Gairsay 69</p>
+                <p part="N">Enhallow 20</p>
+                <p part="N">8360</p>
+                <p part="N">Pomona, or the Mainland, has a population of 15,787, and thus the whole
+                    number of inhabitants røiounts to 28,847.</p>
+                <p part="N">Orkney has been computed to contain 150,000 square acres, and, of these,
+                    100,000 are said to be waste, or covered by water. But the very irregular form
+                    of the islands, penetrated by arms of the sea in all directions, renders these
+                    estimates, in absence of any accurate survey, nothing more than approximations.
+                    The general appearance of the islands is bleak, and upon the whole
+                    uninteresting. The total want of wood, and the immense tracts of waste,
+                    uncultivated land, present a very forbidding aspect.</p>
+                <p part="N">The climate is exceedingly moist, and, though the cold is not very
+                    intense, the variable weather renders the winter disagreeable in the extreme.
+                    For several months there is a succession of rain, sleet, and storms. Spring is
+                    late, damp, and cold; but an Orkney summer, though short, has many and peculiar
+                    charms. The length of the day, the duration of twilight, the rapid vegetation,
+                    and, above all, the stillness of the sleeping ocean on a calm evening,
+                    compensate in no small degree for the dreariness of the other seasons.</p>
+                <p part="N">Orkney is divided into twenty parishes, composing three presbyteries and
+                    one synod. Together with Zetland, these islands constitute one sheriffdom or
+                    stewartry, under the jurisdiction of a sheriff-depute and two substitutes, whose
+                    courts are held at Kirkwall in Orkney, and Lerwick in Zetland. Till the passing
+                    of the reform bill, Orkney alone had the privilege of sending a member to
+                    parliament; the landholders of Zetland, owing to the want of a separate
+                    valuation of their estates, having no vote in the election. Of the land-tax
+                    payable for the county, two thirds are levied from Orkney, and one third from
+                    the other division of the stewartry.</p>
+                <p part="N">We shall now proceed to notice the principal islands, pointing out the
+                    most remarkable objects in them. The most southerly is South Ronaldshay,
+                    containing twenty-four square miles, and a population of 2265 persons, chiefly
+                    employed in agriculture, and the lobster, cod, and herring fisheries. There are
+                    two'commodious and secure harbours in this island, Widewall Bay on the west, and
+                    St Margaret’s Hope on the north. The antiquities of the island are several
+                    Picts’ houses, three or four monumental stones of large size, and the How of
+                    Hoxa, an ancient stronghold. To the north-west of South Ronaldshay lies Hoy, an
+                    island of twice the extent, but containing only 1388 inhabitants, the greater
+                    part of it being high land covered with heath. This is in many respects the most
+                    interesting of all the islands. The Wart Hill, the highest mountain in Orkney,
+                    its towering precipices washed by the fury of the Western Ocean, the huge
+                    isolated rock called “the Old Man of Hoy,” the meadows of the Kaim, the
+                    beautiful vale o. Berrydale, through which flows a stream whose banks are
+                    fringed with birches, creeping juniper, and willows, and the dwarfie stone,
+                    present to the spectator objects which will amply repay a lengthened visit.
+                    Forming part of the island of Hoy, but constituting a different parish, is Waas,
+                    or Walls, distinguished chiefly for its excellent harbour, Long Hope, which is
+                    now protected by a small battery and a couple of martello towers. Burray,
+                    situated to the north of South Ronaldshay, and separated from it by a channel of
+                    a mile in breadth, has an area of only three square miles, but produces grain,
+                    green crops, and good pasture, and has, moreover, a valuable rabbit warren.
+                    Farther north is the largest island of the group, Pomona, or Mainland, extending
+                    to thirty miles in length, and containing upwards of two hundred square miles.
+                    The towns of Kirkwall and Stromness are in this island (see articles <hi
+                        rend="smallcaps">Kirkwall</hi> and <hi rend="smallcaps">Stromness).</hi>
+                    Pomona is divided into thirteen parishes, which are supplied by eleven
+                    clergymen. Of these divisions, if we except St Ola, or Kirkwall, Stennis has the
+                    greatest claims on the attention of the traveller or the antiquary. Here are the
+                    Stones of Stennis, two collections of what at one time must have been upright
+                    pillars, forming a circle and a semicircle. Many of these stones are now
+                    overthrown; but the circle, when complete, seems to have been formed of
+                    thirty-five blocks; its diameter is three hundred feet, and the stones of which
+                    it is composed vary from ten to sixteen feet in height, and from two and a half
+                    to five feet in breadth. There have been many conjectures as to the purpose of
+                    these erections, and it is by no means certain even by whom they were raised.
+                    One opinion is that they are of Druidicaí, and another that they are of
+                    Scandinavian origin. A very probable conjecture is, that the circle was
+                    dedicated to the sun, and the semicircle to the moon, the frequent objects of
+                    Scandinavian worship. Of these stones the most interesting was one which stood
+                    near to, but did not form part of, the circle; it was perforated by a small
+                    hole, through which the heads of children were passed in order to secure them
+                    against palsy in after-life, and through which also lovers’ hands were joined,
+                    in token that the vows then made should be faithfully kept. The contracts or
+                    agreements here made were peculiarly binding, and the promise of Odin was
+                    regarded by an Orkneyman as of too solemn a nature to be trifled with. The
+                    malice or stupidity of a stranger, who rented a neighbouring farm, induced him,
+                    in 1814, to overthrow and break to pieces this curious relic of ancient times.
+                    In front of the circle there is a large horizontal stone, conjectured to have
+                    been used for sacrificial purposes; and it has been thought that it was on this
+                    altar that Einar, jarl of Orkney, son of Ronald, about the year 893, or,
+                    according to other accounts, 930, stretched Halfdan, the son of Harold the
+                    fair-haired, king of Norway, and, tearing out his lungs, presented the reeking
+                    gift to his god. In the adjoining parish of Sandwick, the gran*</p>
+                <pb break="no" facs="nls:194563885?mode=fullsize" xml:id="kp-eb0716-3885-0540"/>
+                <p part="N">deur of the rocks must attract the attention of the visitor; and one
+                    huge archway, formed by the restless fury of the waves, called the Hollow Row,
+                    or the Hole of Row, is particularly deserving of attention. Robert Steuart, earl
+                    of Orkney, had a palace in Birsaý, the next parish on the north-west, the ruins
+                    of which still remain. Brand, who visited the county in 1700, says, “the palace
+                    is two stories high, the upper hath been prettily decored, the ceiling being all
+                    painted, and that for the most part with schems holding forth Scripture
+                    histories, as Noah’s flood, Christ’s riding to Jerusalem, &amp;c. and the
+                    Scripture is set down beside the figure. It was inhabited within these twenty
+                    years, but is now fast decaying.” The writer of this article saw it in 1820. All
+                    the decorations, the roof, and a great part of the walls, were then gone; and
+                    the clergyman of the parish informed him that the palace was regarded as a
+                    common quarry, whence every intending builder drew materials for the erection of
+                    his house. It was over the gateway of this building that the inscription was
+                    placed which is said to have been adduced as evidence of the treasonable designs
+                    of the family on the trial of Patrick, Earl Robert’s son: “Dominus Robertus
+                    Stuartus, filius Jacobi quinti, <hi rend="italic">rex</hi> Scotorum, hoc opus
+                    instruxi.” The two islands of Shapinshay and Rousay, each containing from ten to
+                    twelve square miles, lie to the north of the Mainland. In the former lead ore
+                    has been found, but not in quantities sufficient to remunerate the miner; and
+                    the latter presents to the antiquary for his investigation, tumuli, Picts’
+                    houses, standing stones, and a number of ancient graves. To the east of Rousay
+                    is the beautiful island of Egilshay, the favourite summer residence of the
+                    ancient jarls, and, at a later period, of the bishops of Orkney. It was here
+                    that St Magnus, the tutelar saint of the islands, was basely murdered by his
+                    cousin Hacon, in 1110. Beyond these, to the north-east, lie Stronsay, where
+                    there is an extensive fishing station; and Eday, an island that can boast of a
+                    burgh of barony. Still farther north lie Sanday on the east, and Westray on the
+                    west. The former, because of its superior productiveness, has been called the
+                    granary of Orkney; and it produces, or rather did produce, fully one fifth of
+                    the kelp manufactured in all the islands. It is a flat, low-lying island; and,
+                    till the erection of a lighthouse in the year 1806, proved fatal to many a
+                    vessel. Westray is, with the exception of Sanday, the largest of the north
+                    isles. In it are the remains of a strong castle, of which Ben, who wrote in
+                    1529, thus speaks: “Est excellentissima arx sive castellum, sed nondum tamen
+                    adhuc completa.” A great many graves, generally formed of five flat stones, four
+                    standing on their edges, and resting on the fifth, have been lately uncovered,
+                    in consequence of sand blowing. In them have been found the remains of human
+                    bones, and of various weapons, offensive and defensive. In all probability they
+                    are the graves of natives and strangers, who had fallen in some of the many
+                    battles of which tradition preserves the remembrance. Separated from Westray by
+                    a frith of a mile in breadth, is the small island of Papa Westray, with its
+                    beautiful fresh-water loch, in the middle of which is a small island, whereon
+                    stood the chapel of St Tredwall. The most northerly of the islands is North
+                    Ronaldshay, containing an area of from four to six square miles, with a
+                    population of 522. It was on a reef near this island that the Suetia of
+                    Gottenburg, an Indiaman, valued at half a million sterling, was wrecked in 1740;
+                    and here, too, four years afterwards, another Indiaman, the Crown Prince of
+                    Denmark, with thirty chests of treasure on board, was cast away. About the year
+                    1790, a lighthouse, seventy feet in height, was erected on the north-east point
+                    of the island; but this light being often mistaken for that in Sanday, misled
+                    mariners, and it is now discontinued, the latter being regarded as
+                    sufficient.</p>
+                <p part="N">The geology of these islands offers little to attract our attention. The
+                    Orkneys are said to consist of an assemblage of secondary strata, disposed round
+                    a high central nucleus of primitive rocks; but Professor Traill remarks, that
+                    “the mineral history of Orkney is singularly monotonous and uninteresting; the
+                    whole islands, with slight exception, consisting of horizontal or slightly
+                    inclined strata of sandstone, flag, and a species of slaty clay, occasionally
+                    intermixed with thick beds of red and gray sandstone, and, in a few places,
+                    containing beds of limestone, with some traces of marine remains.”</p>
+                <p part="N">The Orkney Flora is known to consist of 545 species, to which it is
+                    probable that a careful examination will make some additions. The <hi
+                        rend="italic">chara aspera,</hi> discovered by the Rev. Charles Clouston,
+                    minister of Sandwick, is the only Orkney plant new to the British Flora.</p>
+                <p part="N">The zoology of Orkney, according to the <hi rend="italic">Fauna Orca·
+                        densis</hi> of Low, is as follows: Quadrupeds, eleven genera; birds,
+                    thirty-four genera; reptiles, two genera; and fishes, twenty-three genera. To
+                    these a few additions, we believe, have been made.</p>
+                <p part="N">The history of the islandswill not detain us long. They seem to have
+                    been originally peopled by a Scandinavian tribe; but little certain is known
+                    till the year 870, when the Norwegian chiefs, who had fled from home because of
+                    the victories of Harold the Fair-haired, arrived thĕre. Harold pursued them six
+                    years afterwards, defeated them, and appointed Ronald count of Moere jarl or
+                    earl of Orkney. He was succeeded, after an interval and some changes, by his son
+                    Einar; whilst another son of his, Rollo, wrested Normandy from Charles the
+                    Simple, king of France, and, becoming duke of that province, was the
+                    greatgreat-great-grandfather of William the Conqueror. The descendants of Ronald
+                    ruled as jarls for upwards of four hundred years, when the male line terminated
+                    in the person of Magnus, the fifth earl of that name. He died about 1320 or
+                    1330, leaving one daughter, Matilda, who became the wife of Malise, earl of
+                    Stratherne, and had issue Isa-bell, who married Sir William St Clair, baron of
+                    Rosslyn; and the son of this marriage, Sir Henry, was the first of the <hi
+                        rend="italic">Scottish</hi> Earls of Orkney. His title was admitted by Hacon
+                    VI., king of Norway, in 1379. By a treaty entered into before this period,
+                    between the courts of Scotland and Norway, the latter ceded to the former Man
+                    and the Western Islands, for the payment of a certain yearly sum called the
+                    “Annual of Norway.” This tribute, not having been regularly rendered, soon
+                    amounted to a large sum; but, after much negotiation on the subject, it was
+                    arranged that the arrears of the <hi rend="italic">annual</hi> should be held as
+                    discharged, that James III. should marry Margaret of Norway, that her dowry
+                    should be 60,000 florins, and that Orkney should be impignorated to Scotland for
+                    five sixths of that sum, the islands to be redeemed on the payment of the money.
+                    This treaty was entered into in 1468. The marriage-portion was never paid, and
+                    it has given rise to much controversy, whether the claim of Norway to these
+                    islands has been ever formally relinquished; a question into which we shall not
+                    enter, as it has been for centuries practically resolved. The earldom remained
+                    in the family of St Clair till 1471, when it and the title merged in, or rather
+                    was united to, the crown of Scotland, never again to be alienated, except in
+                    favour of a lawful son of the king. For almost a century the crown-lands were
+                    leased to various tenants, till at length, in May 1564, Queen Mary granted a
+                    charter to Lord Robert Stuart, her father’s son by Dame Euphemia Elphinstone,
+                    constituting him Earl of Orkney. Afterwards, by her marriage-contract with
+                    Bothwell, dated May 1567, Mary bound herself to create him Duke of Orkney, and
+                    to put him in possession of the islands. He appears never to have been infeft,
+                    or, at all events, a month after the marriage, he fled, and the dukedom<pb
+                        break="no" facs="nls:194563898?mode=fullsize" xml:id="kp-eb0716-3898-0541"/>
+                    was at an end. Earl Robert had no concern with Orkney from 1567 to 1581, but in
+                    the latter year he had another grant of the earldom made to him. This was
+                    revoked by King James upon his attaining his majority in 1587. Again, a farther
+                    grant was executed in favour of him and his heirs in 1591, which in 1592 was
+                    confirmed by parliament. Earl Robert died in that year, and the earldom was once
+                    more resumed by the crown; and once more, in March 1600, Patrick, the son of
+                    Robert by the Lady Jean Kennedy, got a grant of it in his favour; and in May of
+                    the same year he got a grant of the bishopric. Earl Patrick’s crimes brought him
+                    to the scaffold in 1615; and after his death ‘the Orkneys were again unalienably
+                    annexed to the crown, and again they were alienated in 1643. This deed was
+                    declared null and void in 1669; and once more, in 1707, they were mortgaged to
+                    the Morton family, burdened with an annual payment of L.500 to the crown. In
+                    1742, this mortgage was declared irredeemable, and Lord Morton in 1766 sold his
+                    rights for L.60,000, to Sir Laurence Dundas, in whose family they still remain.
+                    From a calculation made by Sheriff in his agricultural survey, printed in 1814,
+                    it would appear that Lord Dundas draws annually from his vassals in the earldom
+                    L.2187. Ils. 9j∣d., payable partly in money and partly in produce. In addition
+                    to this he has a large private property in the county.</p>
+                <p part="N">Of the trade and manufactures of Orkney, it is not easy to give any
+                    thing like an accurate estimate; but the following may be looked upon as
+                    generally correct.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Years.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Exports.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Shipping.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Ships.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Sailors.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">L.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Tons.</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1770</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">12,018</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">825</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">17</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">76</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1780</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">23,257</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">940</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">20</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">90</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1790</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">26,598</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">23</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">170</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1800</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">39,677</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1375</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">21</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">119</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1820</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">• ∙ ∙</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2841</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">46</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">300</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1833</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">4049</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">78</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">319</p></cell>
+                    </row>
+                </table>
+                <p part="N">The exports consist chiefly of grain, fish, cattle and sheep, butter,
+                    hides, rabbit-skins, and eggs. In 1833, it is said, 100,000 dozens of eggs were
+                    exported, which, at 6d. a dozen, brought L.2500. The imports are of a most
+                    miscellaneous description, and we have seen no probable estimate of their
+                    value.</p>
+                <p part="N">Till lately, the principal manufacture in the islands was that of kelp,
+                    which at one time brought L.12, L.16, and even L.20 a ton; but now the prices
+                    obtained barely suffice to cover the expenses of making and carrying it to
+                    market. The greatest quantity ever made in one year was in 1826, when 3500 tons
+                    were manufactured, which, on an average, sold at L.7 a ton. The expense of
+                    cutting, drying, and burning the sea-weed, amounts to about L.3 or L.3. 3s. a
+                    ton of kelp, and it costs about L.l more to bring it to market; and, for some
+                    years, the price has scarcely exceeded L.4. 10s. or L.5.</p>
+                <p part="N">In 1833 there were forty vessels of about thirty tons each engaged in
+                    the cod-fishery, and they caught and cured 560 tons of fish, valued at L.13 per
+                    ton. During the same year, the produce of the lobster-fishery, in which there
+                    were engaged 216 boats and 432 men, amounted to L.1800. The principal fishery,
+                    however, is the herringfishery. In 1820 there were exported from Orkney 17,989
+                    barrels of herrings, which, at 10s. a barrel, would amount to about L.8000; and
+                    in 1833 the number had amounted to 34,000 barrels, valued at L.17,000. The
+                    principal stations for this fishery are Huip in Stronsay, and St Margaret’s Hope
+                    in South Ronaldshay.</p>
+                <p part="N">The chief manufacture in Orkney at present is that of straw-plaiting.
+                    Twenty years ago, from six to seven thou sand females were employed in this
+                    branch of trade; and they are calculated to have drawn in wages L.20,000
+                    annually. Since that time the plaiting of common straw has been almost entirely
+                    discontinued, and that of the unsplit straw of rye or wheat has been introduced.
+                    In 1833 there were plaited 489,560 yards of Orkney straw, and 240,900 yards of
+                    foreign straw. The former is thought tougher than the latter, but the colour is
+                    not so pleasing. A bonnet that will cost L.4 contains about 140 yards of the
+                    finest plait.</p>
+                <p part="N">In Kirkwall there are two licensed distilleries, and there is one in
+                    Stromness. In 1833 there were distilled 13,947 gallons of whisky, yielding to
+                    the revenue L.2324. 10s. of duty. It has been calculated, that during the year
+                    to which these estimates chiefly refer (viz. 1833), upwards of L.60,000 was
+                    received in Orkney, principally from fisheries, farm produce, and
+                    manufactures.</p>
+                <p part="N">When Dr Barry wrote his history of Orkney, more than thirty years ago,
+                    he pointed out many defects in the system of Orkney farming. Some of these still
+                    remain, but many of them have disappeared; and, as old prejudices wear away, and
+                    landlords see that it is for their own no less than for their tenants’ advantage
+                    to grant leases of some duration, and when both parties arc convinced that a
+                    proper rotation of crops should be insisted on, and when fencing and draining
+                    have been carried to a greater extent than has yet been done, we may hope to
+                    witness a still more marked improvement. The grain almost exclusively raised in
+                    Orkney is barley, or rather bear or big <hi rend="italic">(hor∙</hi><hi
+                        rend="italic subscript"> r</hi><hi rend="italic">deum tetrastechon),</hi>
+                    and gray oats <hi rend="italic">(avena strigosa).</hi> We have seen wheat tried,
+                    but the result of the experiment was not encouraging.</p>
+                <p part="N">In conclusion, we would remark, that the inhabitants of these islands
+                    are in general not overmuch inclined to labour when at home, but that when
+                    abroad they can be made to exert themselves. They are somewhat superstitious,
+                    but are nevertheless well informed on many subjects; whilst the upper classes,
+                    as a body, are not inferior to their equals in station in any part of Scotland.
+                    All classes are universally acknowledged to be kind, courteous, and most
+                    attentive to strangers.</p>
+                <p part="N"><hi rend="italic">( Orkηeyinga Saga</hi><hi rend="italic">;</hi> Torfaei
+                        <hi rend="italic">Perum</hi><hi rend="italic">Orcadensium</hi><hi
+                        rend="italic">Historia</hi><hi rend="italic">;</hi> Brand’s <hi
+                        rend="italic">Brief Description of Orkney, fyc.;</hi> Wallace’s <hi
+                        rend="italic">Description of Orkney</hi><hi rend="italic">;</hi> M <hi
+                        rend="superscript"> t</hi> Kenzie <hi rend="superscript"> ,</hi> s <hi
+                        rend="italic">Greevances of Orkney</hi><hi rend="italic">;</hi> Fea <hi
+                        rend="italic">On the Fisheries of Orkney</hi><hi rend="italic">;</hi> Low’s
+                        <hi rend="italic">Fauna Orcadensis</hi><hi rend="italic">;</hi> Barry’s <hi
+                        rend="italic">History</hi><hi rend="italic">;</hi> Sheriff’s <hi
+                        rend="italic">Agricultural Scenery</hi><hi rend="italic">;</hi> Neill’s <hi
+                        rend="italic">Tour;</hi> Peterkin’s <hi rend="italic">Pentals and
+                        Notes</hi><hi rend="italic">;</hi> Groat’s <hi rend="italic">Thoughts on
+                        Orkney.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

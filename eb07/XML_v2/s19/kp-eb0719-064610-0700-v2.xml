@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0719-0700-0646-10" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">SARDINIA</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:980104">Islands</term>
+                    <term ref="fast:1110395">Seas</term>
+                    <term ref="fast:1028334">Mountaineering</term>
+                    <term ref="fast:1028364">Mountaineers</term>
+                    <term ref="fast:1028366">Mountains</term>
+                    <term ref="fast:1105547">Sardinians</term>
+                    <term ref="fast:934209">French</term>
+                    <term ref="fast:848005">Carthaginians</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:1140558">Swiss</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4ff3m81r">Swiss</term>
+                    <term ref="lcsh1910:b4x34n208">Vandals</term>
+                    <term ref="lcsh1910:b4ks6jd02">Spaniards</term>
+                    <term ref="lcsh1910:b4x34mt4n">Jews</term>
+                    <term ref="lcsh1910:b4bk16r27">Protestantism</term>
+                    <term ref="lcsh1910:b4kp7tx0f">Islands</term>
+                    <term ref="lcsh1910:b4kk94m4s">Sea</term>
+                    <term ref="lcsh1910:b43n20j3f">Mountains</term>
+                    <term ref="lcsh1910:b4wm1410b">Mountaineering</term>
+                    <term ref="lcsh1910:b44j09z32">Founding</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1239717">Alps</term>
+                    <term ref="fast:1205401">Switzerland</term>
+                    <term ref="fast:1219920">England</term>
+                    <term ref="fast:1204303">Spain</term>
+                    <term ref="fast:1207312">Russia</term>
+                    <term ref="fast:1211569">Montserrat</term>
+                    <term ref="fast:1204901">Austria</term>
+                    <term ref="fast:1754964">Rome</term>
+                    <term ref="fast:1205427">Ireland</term>
+                    <term ref="fast:1210278">Belgium</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ht:chi.28490931&amp;view=1up&amp;seq=700" org="uniform" part="N"
+                sample="complete" type="entry">
+                <p part="N"><label type="entry">SARDINIA</label>. This kingdom is composed of two
+                    portions. One is the island bearing that name, which has long been entitled to
+                    the distinctive title of a kingdom; and the other consists of portions of the
+                    north-west of Italy, which at different periods had been distinguished as feudal
+                    or independent sovereignties under various forms of government as well as
+                    titles.</p>
+                <p part="N">The existence of the island of Sardinia is noticed casually in the
+                    ancient writers, so as to justify the opinion of some authors on its
+                    antiquities, that it was peopled about 1700 years before our era, by a party of
+                    Etruscans; but others have contended for an origin 500 years later, and for its
+                    first colonists having been Libyans under Sardis, a descendant of the Theban
+                    Hercules, who gave his name to the island. Without entering on the dark subject
+                    of the first peopling of this island, the high antiquity of its settlement is
+                    attested by durable monuments, the materials, height, and construction of which
+                    are different from almost any other that are to be found. These Cyclopean
+                    structures are very numerous, between five and six hundred of them being to be
+                    seen on the island. They are called <hi rend="italic">nuraggis,</hi> both by
+                    ancients and moderns, being in height about fifty feet, and in diameter at the
+                    base about ninety feet. They are strong buildings, in the form of a truncated
+                    cone, composed of masses of stone from two to five or six feet square, arranged
+                    in layers, without cement. The materials are lava, freestone, porphyry’, or such
+                    other substances as the respective sites afford; and they generally crown the
+                    summits of hills, commanding plains where they are seen in every state, some
+                    being nearly complete, and others a mere heap of rubbish. On entering these
+                    edifices, which is effected by a low door, the structure is found to extend
+                    below the surface of the surrounding earth. The interior space is almost
+                    invariably divided into two floors, each consisting of a vaulted room, to which
+                    access is gained from a ramp between two concentric walls, and leading to the
+                    summit, where a flight of steps completes the ascent. The nuraggis are of two
+                    distinct kinds. Those which are the most common have no marks of the chisel, and
+                    are constructed of massive blocks, with irregular faces, and smaller stones in
+                    the interstices; the materials of the others exhibit exteriors formed by tools,
+                    though the stones are not exactly square, but are placed with a stricter regard
+                    to keeping the horizontal layers, and gradually diminish in size towards the
+                    summit.</p>
+                <p part="N">There have been various conjectures respecting the probable object of
+                    these buildings. The darkness of their interior, and the fragments of terracotta
+                    found in them, would indicate their having been monuments for the dead, a belief
+                    so general that they have obtained in their neighbour-<pb break="no"
+                        facs="ht:chi.28490931&amp;view=1up&amp;seq=701" xml:id="kp-eb0719-0701-0647"
+                    /> hood the name of <hi rend="italic">Domu de Orcu,</hi> or the house of death;
+                    but the pottery being evidently Roman, and in some instances accompanied by
+                    coins of the lower empire, indicates only that such was the use made of them at
+                    a late period. Captain Smyth, who examined these ancient monuments, says, “From
+                    their laborious construction, their number, and their general situation on <hi
+                        rend="italic">curureddus</hi> or eminences, more or less distant from each
+                    other, I cannot but suppose they were designed to answer the double purpose of
+                    mausolea for the eminent dead, and as asyla for the living, especially as many
+                    of them are flanked with smaller nuraggis having a subterraneous communication.
+                    But the mystery in which they are involved will probably remain impenetrable,
+                    since none of them exhibit the least trace of either literal or symbolical
+                    characters.”</p>
+                <p part="N">At whatever periods these remarkable works were erected, a long time
+                    elaspsed before any precise notice is to be discovered of the history of
+                    Sardinia, until about the year 560 before Christ, when the Carthaginians under
+                    Machaeus, after a victorious campaign in Sicily, attempted the conquest of the
+                    island. They were repulsed with such loss, however, as left it in repose until
+                    the contests commenced between the Punic and Roman republics.</p>
+                <p part="N">By successive conquests it passed into the hands of the Vandals, the
+                    Mahommedans, and the Spaniards, in whose power it remained from 1324 till the
+                    period of the disputed succession of the crown of Spain between the houses of
+                    Bourbon and Austria in 1708, when the Austrian party, with the assistance of the
+                    English fleet under Sir John Leake, succeeded in obtaining possession of the
+                    island. In 1720 it was ceded by treaty to Victor Asmodeus, who assumed the title
+                    of king of Sardinia. After this event, notwithstanding the wars which agitated
+                    the rest of Europe, Sardinia experienced a peace of seventy years, during which
+                    period the princes of the house of Savoy, especially Charles Emanuel, made the
+                    greatest exertions to ameliorate the condition of the people.</p>
+                <p part="N">The success of the French arms in Italy by the year 1798 had been such
+                    as to compel the king, Charles Emanuel IV., to abandon the capital, Turin, and
+                    the whole of his continental dominions. He withdrew to Leghorn, where he
+                    received with delight deputies from the stamente of Sardinia, assuring him of
+                    the entire devotion of the people to his person and government. Satisfied with
+                    these assurances, he embarked, and, escorted by an English frigate, arrived at
+                    Cagliari on the 3d of March 1799, where he was welcomed with the most
+                    enthusiastic affection.</p>
+                <p part="N">The successes of the Russian General Suwarof induced his majesty to
+                    return to the Continent, till, hearing in Tuscany of the battle of Marengo, and
+                    being inconsolable for the death of his wife, the sister of Louis XVI., he
+                    abdicated in favour of the Duke of Aosta in March 1802, and resided in privacy
+                    at Rome, where he died in 1819. His successor, Victor Emanuel, remained some
+                    time in Italy in the hope of gaining his continental dominions; but seeing
+                    little prospect of succeeding, he left Naples, where he had resided since his
+                    accession, and arrived in Sardinia on the 17th of February 1806, where he
+                    remained secure under the protection of England.</p>
+                <p part="N">The son of Charles Emanuel followed the footsteps of his father in
+                    opposing the principles of the French revolution, which was then spreading its
+                    direful effects over all Europe, and nowhere more generally than in the
+                    continental part of the kingdom of Sardinia. The events of that period are to be
+                    found in this work in the historical parts of the two articles <hi
+                        rend="smallcaps">Europe</hi> and <hi rend="smallcaps">France.</hi> We need
+                    only state here, therefore, that the king of Sardinia returned to his
+                    continental capital in 1814, and by the treaty of Vienna the duchy or ancient
+                    republic of Genoa was added to his dominions; and that by the same treaty he
+                    ceded to the state of Geneva the circles of Carouge and Chesne, containing</p>
+                <p part="N">12,700 inhabitants. On the restoration of Victor Emanuel, he
+                    re-established, as far as could be done, the old constitution; again introducing
+                    the Jesuists, and becoming a zealous member of the Holy Alliance. He confirmed
+                    to those who had made purchases under the French confiscation the property they
+                    had gained; restored to their owners the few estates that had not been sold; and
+                    allotted the annual sum of 400,000 lire as some compensation for the plunder
+                    which they had suffered. He however established a very severe censorship of the
+                    press, and introduced such restrictions on the process of education in the
+                    universities and the other seminaries as he judged necessary to check the
+                    prevailing tendency to infidelity and immorality. These measures, and the
+                    predisposition to revolution indulged throughout Italy, caused an insurrection
+                    in 1821, the particulars of which are narrated in this work under the head of
+                        <hi rend="smallcaps">Italy.</hi> The prosperity of the kingdom has been
+                    proceeding with regularity since the return of tranquillity, owing in a great
+                    measure to the increased demand for silk in England, Germany, France, and
+                    Russia, and in no inconsiderable degree from the annexation of Genoa to the
+                    territory, by which a trade is now carried on to almost every part of the
+                    habitable world.</p>
+                <p part="N">The extent of the several divisions of this kingdom, and their
+                    population in 1833, were as follow :—</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Provinces.</cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Extent in</p><p part="N"
+                                >Square</p><p part="N">Miles.</p></cell>
+                        <cell cols="1" role="data" rows="1">Population.</cell>
+                        <cell cols="1" role="data" rows="1">Cities.</cell>
+                        <cell cols="1" role="data" rows="1">Towns.</cell>
+                        <cell cols="1" role="data" rows="1">Villages</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Turin</cell>
+                        <cell cols="1" role="data" rows="1">3,278</cell>
+                        <cell cols="1" role="data" rows="1">808,526</cell>
+                        <cell cols="1" role="data" rows="1">12</cell>
+                        <cell cols="1" role="data" rows="1">54</cell>
+                        <cell cols="1" role="data" rows="1">347</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Cuneo</cell>
+                        <cell cols="1" role="data" rows="1">2,684</cell>
+                        <cell cols="1" role="data" rows="1">521,631</cell>
+                        <cell cols="1" role="data" rows="1">13</cell>
+                        <cell cols="1" role="data" rows="1">53</cell>
+                        <cell cols="1" role="data" rows="1">303</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Alessandro.</cell>
+                        <cell cols="1" role="data" rows="1">2,420</cell>
+                        <cell cols="1" role="data" rows="1">547,622</cell>
+                        <cell cols="1" role="data" rows="1">11</cell>
+                        <cell cols="1" role="data" rows="1">40</cell>
+                        <cell cols="1" role="data" rows="1">453</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Novara</cell>
+                        <cell cols="1" role="data" rows="1">2,596</cell>
+                        <cell cols="1" role="data" rows="1">437,576</cell>
+                        <cell cols="1" role="data" rows="1">5</cell>
+                        <cell cols="1" role="data" rows="1">44</cell>
+                        <cell cols="1" role="data" rows="1">426</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Aosta</cell>
+                        <cell cols="1" role="data" rows="1">1,408</cell>
+                        <cell cols="1" role="data" rows="1">71,096</cell>
+                        <cell cols="1" role="data" rows="1">1</cell>
+                        <cell cols="1" role="data" rows="1">1</cell>
+                        <cell cols="1" role="data" rows="1">78</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Savoy</cell>
+                        <cell cols="1" role="data" rows="1">4,092</cell>
+                        <cell cols="1" role="data" rows="1">504,165</cell>
+                        <cell cols="1" role="data" rows="1">19</cell>
+                        <cell cols="1" role="data" rows="1">36</cell>
+                        <cell cols="1" role="data" rows="1">594</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Nice</cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1,496</p><p part="N"
+                                >2,288</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">204,538</p><p part="N"
+                                >583,233</p></cell>
+                        <cell cols="1" role="data" rows="1">6</cell>
+                        <cell cols="1" role="data" rows="1">16</cell>
+                        <cell cols="1" role="data" rows="1">160</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Genoa</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1">19</cell>
+                        <cell cols="1" role="data" rows="1">25</cell>
+                        <cell cols="1" role="data" rows="1">700</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Island of Sardinia.</cell>
+                        <cell cols="1" role="data" rows="1">19,856</cell>
+                        <cell cols="1" role="data" rows="1">491,050</cell>
+                        <cell cols="1" role="data" rows="1">9</cell>
+                        <cell cols="1" role="data" rows="1">15</cell>
+                        <cell cols="1" role="data" rows="1">377</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Island of Capraja..</cell>
+                        <cell cols="1" role="data" rows="1">484</cell>
+                        <cell cols="1" role="data" rows="1">1,500</cell>
+                        <cell cols="1" role="data" rows="1">0</cell>
+                        <cell cols="1" role="data" rows="1">1</cell>
+                        <cell cols="1" role="data" rows="1">3</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1">30,602</cell>
+                        <cell cols="1" role="data" rows="1">4,170,937</cell>
+                        <cell cols="1" role="data" rows="1">95</cell>
+                        <cell cols="1" role="data" rows="1">285</cell>
+                        <cell cols="1" role="data" rows="1">3441</cell>
+                    </row>
+                </table>
+                <p part="N">The whole of the inhabitants of this kingdom adhere to the Roman
+                    Catholic church, with the exception only of about 30,000 Jews, who have a
+                    restricted toleration, and some Protestants, well known under the name of
+                    Waldenses, who are settled, after long and frequent persecutions, in the valleys
+                    of Lucerne, Perusa, and St Martin, in the western part of Piedmont. According to
+                    their own account, they occupy thirteen villages, and number nearly 20,000
+                    souls, who are allowed the free exercise of their own mode of religious
+                    worship.</p>
+                <p part="N">The religious establishment of the kingdom is very extensive,
+                    comprehending no less than nine archbishoprics and thirty-four bishoprics, who
+                    have under them ninety-seven chapters of ecclesiastics in the cities, with 3619
+                    parish priests in the towns and villages, besides 300 monasteries of various
+                    orders, and about eighty nunneries for females. The state of education is
+                    generally very low, and few of the peasantry can either read or write. There is
+                    a university at Turin with about eight hundred students, another at Genoa with
+                    about four hundred, and a third in the island of Cagliari with two hundred and
+                    fifty. There are also about eighty colleges where Latin is taught, and forty
+                    seminaries for the education of the ecclesiastics.</p>
+                <p part="N">The government is an absolute and hereditary monarchy, although in the
+                    island of Sardinia the assembly of the<pb break="no"
+                        facs="ht:chi.28490931&amp;view=1up&amp;seq=702" xml:id="kp-eb0719-0702-0648"
+                    /> ancient states is still continued; but their power extends only to objects of
+                    a local and insignificant nature. In Genoa, too, some shadow of the ancient
+                    republican aristocracy exists, but it has little or no influence on the
+                    determinations of the monarch. The revenues of the kingdom are stated to amount
+                    to about two millions sterling annually, and the expenditure to be nearly the
+                    same. In the latter is included the interest on a national debt of five
+                    millions, a large portion of which is owing to foreigners, and among others to
+                    the capitalists of Geneva and other parts of Switzerland; but by means of a
+                    sinking fund it is yearly diminishing. An army of thirty-five thousand men is
+                    maintained in time of peace, and a naval force, consisting of six frigates,
+                    three corvettes, six brigs, and several schooners and other small craft.</p>
+                <p part="N">The continental parts of this kingdom present a face of the greatest
+                    possible variety. The part to the north, formerly the duchy of Savoy, is in
+                    appearance more a part of Switzerland than of ltaly. It is an alpine land,
+                    separated from the plains of the peninsula by an enormous chain of mountains
+                    known as the Gray Alps. It is peculiarly interesting, from the lofty heights,
+                    whose tops are covered with snow and ice, from the narrow and deep valleys, from
+                    its perpendicular cliffs, from the numerous cascades, and from the deep lakes;
+                    and it is especially distinguished by the raging winds and violent storms of
+                    hail, rain, and snow, which occur with frequency in the more elevated
+                    regions.</p>
+                <p part="N">The provinces of Piedmont, Milan, and Montserrat, form a vast valley, or
+                    rather plain, which was probably once covered with water, and which begins at
+                    the pass of Susa, and only terminates on the easternmost frontier of Italy. The
+                    river Po divides this valley into two nearly equal portions. Its northern side
+                    extends to the foot of the Alps, which separate it from Switzerland, some great
+                    projections of which enter it at Aosta and Ossola. The southern part of this
+                    valley is bordered in its whole length by the range of the Apennines, which
+                    separates it from the provinces on the sea-coast-This valley is bounded on the
+                    part in contact with France by the Cottian Alps.</p>
+                <p part="N">The provinces on the sea-shore, comprehending Genoa and Nice, which
+                    surround the Gulf of Genoa, are separated from the other parts of the kingdom by
+                    the Apennines. They are collectively mountainous districts, which extend to the
+                    sea, and have only narrow valleys or strips on the shore, in which marshes,
+                    heaths, and sandy tracts of land, yielding but little, and thinly inhabited, are
+                    in fact the most cold, dreary, and uncomfortable of any part of the Apennine
+                    ranges.</p>
+                <p part="N">The soil of Savoy is everywhere stony, and consequently not favourable
+                    to agriculture upon a great scale. There are few plains of any extent, the
+                    valleys are narrow, and the earth is very thin on the rocks, which, by the force
+                    of the mountain torrents, is often washed away, leaving the bare stone. The
+                    deposited soil in the great valley which contains Piedmont, Montserrat, and
+                    Milan, is in most parts rich and deep, except that at the foot of both the
+                    Apennines and the Alps there are vast accumulations of banks of pebbles, to
+                    which the practices of agriculture cannot be applied with any profit. The height
+                    of the mountains, which enclose the valley, give such force to the streams of
+                    water that rush down, as to prevent them from being generally under the
+                    direction of human art; but in many instances the water has been turned into
+                    channels and canals, where, by the help of sluices, it has been applied
+                    beneficially to the purpose of irrigation, and, as far as it has been
+                    accomplish, ed, with beneficial effect.</p>
+                <p part="N">The provinces on the borders of the Mediterranean Sea have no
+                    resemblance to Piedmont, either in respect to the soil, the climate, or the
+                    vegetation. The soil is stony and poor, the stones are in enormous blocks, and
+                    in a few parts only is it adapted for cultivation; but the olive and the vine
+                    are found to flourish.</p>
+                <p part="N">In the island of Sardinia the land is generally rather hilly than
+                    mountainous. Several ranges of hills intersect the whole land, and two large
+                    streams cause in many parts extensive marshes, while the scarcity of water in
+                    other parts causes cultivation to be much neglected. The soil is, however,
+                    productive, and is capable of becoming, with good management, much more than
+                    sufficient for the subsistence of the inhabitants. At present it is said that
+                    scarcely one third of the land is cultivated, whereas, if the whole were, it
+                    might become, as in the time of the Romans and Carthaginians, a granary for the
+                    countries on the Continent.</p>
+                <p part="N">The mountains within the Sardinian dominions are objects which excite
+                    the greatest interest; but a description of them will be found in this work
+                    under the general article <hi rend="smallcaps">Alps.</hi> The chains of
+                    mountains may be viewed as the cisterns for collecting those vast bodies of
+                    water which empty themselves into the Mediterranean and Adriatic Seas. The first
+                    of these seas receives the waters of the Rhone, which rises in Savoy, and at
+                    first forms the boundary towards France.</p>
+                <p part="N">The river Var constitutes the boundary between Nice and France; and the
+                    Paglion is a river of short course in the province of Nice, which rises near to
+                    Luce, and falls into the sea at a short distance from the capital. The great
+                    river of Sardinia, however, is the winding and lengthened Po, of which an
+                    account has been given under that head.</p>
+                <p part="N">The larger lakes of the Alps belong only in part to this kingdom. The
+                    Leman, or lake of Geneva, is divided between Sardinia and the canton of
+                    Switzerland, the southern bank of it only belonging to the kingdom. Lake
+                    Maggiore has also only its western shores in the Sardinian dominions, the
+                    eastern side belonging to the Austro-Venetian kingdom of Lombardy, and the upper
+                    part forming a portion of Switzerland. The lakes exclusively Sardinian are of
+                    smaller extent than those which are but partly in the kingdom. The lake of
+                    Bourget, in Savoy, scarcely exceeds 100,000 acres in extent, but is about 240
+                    feet in depth, and being connected by the Canal of Savières, discharges much
+                    water into the Rhone. The lake of Annency, in Savoy, is 1350 feet above the
+                    level of the sea, and is 180 feet in depth. It has an outlet by the rivers Thon
+                    and Fier into the Rhone. The lake of Orta is a long narrow piece of water by the
+                    side of Lake Maggiore, into which its surplus water is discharged. There are
+                    some smaller lakes, a few of which are dried up in the summer; and others of
+                    them are on elevations of great height, the most remarkable of which is one on
+                    Mont Cenis, 5740 feet above the level of the sea.</p>
+                <p part="N">The several states abound in mineral springs of great use to the healing
+                    art. In Savoy the sulphureous wells of Bonneval have attained great celebrity;
+                    but their reputation is excelled by that of the warm baths of Aix. In the valley
+                    of Aosta are the medicinal springs of St Vincenzio and of Cor-maggiore, and the
+                    baths of Pre and of St Didier. In the province of Piedmont are the baths of
+                    Aqui, Balieri, and Vi-nadio, and the springs of St Genesio.</p>
+                <p part="N">The mountains on the island are small chains. The most remarkable of
+                    them are, Monti di Limbara in Gallura; Monti di Villanova, between Alghieri and
+                    Bosa; Monti Genargento, between Oleastra and the Barbagien; and the Monti Arizzo
+                    and Founi, in the Barbagien itself. None of the mountains are of a height to be
+                    covered with perpetual snow. The general elevation of the range is from 1000 to
+                    3000 feet; but the peak of Limbara is 3686 feet, and that of Genargento has an
+                    altitude of 5276, and enables the people of the neighbouring town, Aritzu, to
+                    trade in snow for the consumption of the capital. These mountains are almost
+                    covered with wood to their summits, and the lower parts have olive-woods,
+                    yielding good oil.</p>
+                <p part="N">The rivers of the island are the Oristano, which rises<pb break="no"
+                        facs="ht:chi.28490931&amp;view=1up&amp;seq=703" xml:id="kp-eb0719-0703-0649"
+                    /> near Buboso, runs from north-east to south-east, and enters ' the sea at the
+                    town of its name; the Flumendoso, which springs from Monti Genargento, waters
+                    the district of Bar-bagien, and falls into the sea at Muravera; and the
+                    Quoqui-nos, which rises near Tirso, and, taking a northerly direction, falls
+                    into the sea about seven miles from Castel Sardo. The lakes of Sardinia are
+                    insignificant; they are mostly formed by rain in winter, and are dried up in
+                    summer; or by the overflowing of the sea from the dilapidated state of the
+                    embankments.</p>
+                <p part="N">Mineral springs are numerous on the island, but are for the most part
+                    neglected. The principal are those of Sar-dara, Villa Cidro, and Fordongianus,
+                    in the Capo de Sotto; and those at the foot of Castel Doria, at Codrongianus,
+                    and the Benetutti springs of the Goceana Mountains, on the Capo di Sopra. In a
+                    secondary rank may be noticed the thermal waters of Marrubin, of Iglesias, and
+                    of St Antonio. Aqua Cotta, at the eastern base of an insulated hillock near
+                    Villa Cidro, is a small but constantly limpid spring, of about 105° of
+                    Fahrenheit, close by a stream of potable water having a temperature of 60°,
+                    whilst that of the atmosphere is 64°. Here most of the cloth of the Campe-dano
+                    is fulled, the makers of it paying to the proprietor for the use of the
+                    water.</p>
+                <p part="N">The climate of this kingdom varies excessively in the different
+                    provinces which compose it. In Savoy, in the valley of Aosta, and between the
+                    Alps of Piedmont, a real Swiss climate prevails. Often is to be seen in those
+                    valleys the summer in its glorious garb, when the surrounding hills have their
+                    tops and sides covered with snow. The air on them is too raw to bring forth the
+                    more tender fruits of Italy; but in favoured spots the grapes ripen, and the
+                    sides of the hills yield abundance of chestnuts. Though changeable, the air in
+                    these districts is on the whole pure and healthful. The valley of Piedmont,
+                    according to Saussure’s division, has the climate of the north region of Italy,
+                    where the quicksilver falls below ten degrees. Even in the midst of summer the
+                    benumbing Tramonta winds descend from the heights, and night-frosts, which begin
+                    in November, continue till April. It is not unusual, in the neighbourhood of the
+                    mountains, to see the ground covered with snow during ten or twelve days. It is,
+                    however, not subject to the inconveniences of Southern Italy; and neither the
+                    burning atmosphere of Calabria, nor the Sirocco, nor earthquakes, are
+                    experienced, nor the annoyance of the sharp-biting musquito. The mulberry trees,
+                    the vines, and the maize, flourish; and the air, when not in the vicinity of
+                    rice-fields, has a balmy fragrance, and is remarkably pure and healthful. The
+                    coasts of the kingdom, from Nice to Genoa, are protected by the Apennines from
+                    the Tramonta winds, and the climate is that distinguished by Saussure as the
+                    second region of Italy, in which the olives and the agrumens attain perfection;
+                    but the evils of the Sirocco or Mistrol winds are too often felt in the whole of
+                    the district.</p>
+                <p part="N">The island of Sardinia has some peculiarities of climate. In times of
+                    antiquity, the unhealthiness of the island is alluded to by Martial, Cicero,
+                    Pausanias, Cornelius Nepos, Strabo, Tacitus, and Claudian; and in later times
+                    the same character is given it by Dante. The chief agent of this insalubrity is
+                    found in the feculent miasma of marshes, beds of rivers and torrents, stagnant
+                    pools, and putrescent vegetation, in the vicinity of which it is always found
+                    deleteriously active, and which are well known to be quite adequate to the
+                    generation of malignant fevers. The common disease, called here <hi
+                        rend="italic">intemperie,</hi> appears to be somewhat different from the <hi
+                        rend="italic">malaria</hi> of Sicily and Italy; for although equally or more
+                    acrimonious in effect, it does not produce the swelled bodies and sallow skins
+                    which are the pathognomonic symptoms of the latter. Both diseases usually
+                    commence when the summer heat, assisted by slight showers, disengages the impure
+                    gases from the low grounds; and continue till the end of No vember, when the
+                    heavy rains have precipitated the miasma, and purified the air. But they differ,
+                    in as much as malaria is generally supposed to be weak in its effects, unless
+                    imbibed during sleep; whereas <hi rend="italic">intemperie,</hi> though worst at
+                    night, is dangerous at all times. Instances have been known of strangers landing
+                    for a few hours only, from Italian coasters, who were almost immediately carried
+                    off by its virulence; indeed the very breathing of the air by a foreigner at
+                    night, or in the cool of the evening, is considered as certain a death in some
+                    parts, as if he had swallowed some poisonous drug. While the atmosphere is in
+                    this state, the natives never move abroad until an hour after sunrise, and they
+                    hasten home before sunset, carefully closing every door and window, or, if
+                    obliged to go out, carefully holding a handkerchief before the mouth. The
+                    extreme heat of the day is also carefully avoided, for they are apprehensive of
+                    the <hi rend="italic">colpo di sole,</hi> or stroke of the sun, attributing its
+                    frequency and fatal effects to the malignancy of the <hi rend="italic"
+                        >intemperie.</hi></p>
+                <p part="N">It is agreed on all sides that fire is an excellent antidote to this
+                    evil; and it is recorded that the Lords of Oristano were wont, during the
+                    unhealthy season, to burn large fires around the town every night, to rarefy the
+                    mephitic exhalations. Most of the people remove from the plains to the higher
+                    grounds on St John’s day in June, when the air begins to be unsafe, although it
+                    does not become dangerous before August. Those who, from their circumstances,
+                    are obliged to remain, keep themselves well clad in thick woollens, to avert the
+                    ardent rays of the sun. Exertion, exposure to summer showers, and fatigue of
+                    every kind, are studiously avoided; and a spare but good diet is adopted, with
+                    cool acidulated drinks. The migrations consequent on this distressing
+                    visitation, with the want of cottages, pastures, and enclosures, and the many
+                    extensive commons, give the plains of Sardinia a depopulated aspect, and may be
+                    adduced, among other causes, as a reason for the comparatively low consideration
+                    in which this once most fertile of the Tyrrhenian islands has been held. The
+                    contempt in which the inhabitants of the plains are held by those of the
+                    mountains, with the large fiefs in the hands of some of the nonresident nobles,
+                    are also serious obstacles to improvement.</p>
+                <p part="N">The chief occupation of the inhabitants of this kingdom consists in the
+                    cultivation of the land, and is accordingly as varied as the surface of the
+                    soil, and as that of the climate, which depends on the elevation. Under the head
+                    of <hi rend="smallcaps">Lombardy</hi> will be found a detailed account of the
+                    agriculture of this district, the greater part of which may be adverted to as a
+                    description of what takes place in the richer portion of Sardinia, which belongs
+                    to the basin of the river Po, comprehending the greater part of the provinces of
+                    Turin, Cuneo, and Alessandria. In Savoy generally the cultivation is badly
+                    conducted. The cultivable land is divided into large portions, belonging to a
+                    few great proprietors, and is subdivided into smaller portions to tenants, who,
+                    without leases, transmit their lots from one generation to another, who pay
+                    neither money-rent nor labour to their superiors, but deliver to them or their
+                    agents one half the produce of the fields, whatever it may be, in its several
+                    kinds. The cattle on these lands are commonly the property of the lord, and are
+                    maintained on the produce of the soil, before the division is made of what it
+                    yields. The power of the tenants to transmit the land to their successors is
+                    combined with the power of subdividing it among their several children; and this
+                    is carried to such an extent, as in Ireland and in some other countries, that it
+                    has led, and is leading, to such a subdivision that a great number of the farms
+                    barely raise sufficient food for the occupants, though their provisions are of
+                    the most humble and penurious kind. Savoy is annually deficient in corn to the
+                    extent of nearly one third of its consumption. This is in some measure made up
+                    by using chestnuts and potatoes as substitutes for bread; though in Aosta and in
+                    some other<pb break="no" facs="ht:chi.28490931&amp;view=1up&amp;seq=704"
+                        xml:id="kp-eb0719-0704-0650"/> parts the potato is little cultivated, and in
+                    them corn must be drawn from the neighbouring countries. The land on the coast
+                    of Nice and Liguria consists chiefly of narrow strips of valley, which in the
+                    greater portion is composed of sand, and not very appropriate for the growth of
+                    grain, though a little is grown in some of the more fertile of the valleys; but
+                    the common people only eat bread on Sundays and holidays, and at other times
+                    subsist on chestnuts obtained from the Apennines, and on inferior cheese made by
+                    themselves. They derive a part of their subsistence from fish, especially
+                    sardinias, which at some seasons are abundant; and oil, a useful accompaniment,
+                    is at a very moderate price.</p>
+                <p part="N">The agriculture of the island of Sardinia differs so much from that of
+                    the rest of the kingdom, that it merits a special notice, the more so from its
+                    having been, in ancient times, the source of supplies of grain to the continent
+                    of Italy, and occasionally of Spain. The lands are divided into feudal and
+                    non-feudal. The former comprise those belonging to the respective nobles, as
+                    well as those sold to individuals, but recognising the feudal lord. Those not
+                    feudal belong to communities or to individuals; for landed property can be let
+                    or sold, or given away, with the consent of the tribunals, or of the husband if
+                    belonging to married females. The first lands as to importance, though the least
+                    in extent, are those called <hi rend="italic">tanche,</hi> or enclosed lands,
+                    which are generally well cultivated. But the far larger proportion are those
+                    called <hi rend="italic">vidazzone,</hi> or belonging to communities. They are
+                    chiefly divided into three parts, each of which is cultivated in its turn, and,
+                    while under culture, is enclosed with a line of hurdles; but the rest being
+                    fallow, lies open to the ravages of wandering flocks, and the blast of every
+                    wind that blows.</p>
+                <p part="N">The foreign commerce of Sardinia, both by sea and by land, with the
+                    countries contiguous to it, naturally demands observation. The number and
+                    tonnage of the vessels belonging to the kingdom are shown in the following
+                    table, furnished by the British consul.</p>
+                <p part="N"><hi rend="italic">Vessels belonging to the Kingdom of Sardinia,</hi></p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Year.</cell>
+                        <cell cols="1" role="data" rows="1">From one to thirty tons.</cell>
+                        <cell cols="1" role="data" rows="1">From thirty to sixty tons.</cell>
+                        <cell cols="1" role="data" rows="1">From sixty to a hundred tons.</cell>
+                        <cell cols="1" role="data" rows="1">Above a hundred tons.</cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Number of the</p><p part="N"
+                                >. Crews.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">1827</cell>
+                        <cell cols="1" role="data" rows="1">1874</cell>
+                        <cell cols="1" role="data" rows="1">172</cell>
+                        <cell cols="1" role="data" rows="1">232</cell>
+                        <cell cols="1" role="data" rows="1">546</cell>
+                        <cell cols="1" role="data" rows="1">31,201</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">1828</cell>
+                        <cell cols="1" role="data" rows="1">1899</cell>
+                        <cell cols="1" role="data" rows="1">161</cell>
+                        <cell cols="1" role="data" rows="1">222</cell>
+                        <cell cols="1" role="data" rows="1">595</cell>
+                        <cell cols="1" role="data" rows="1">30,671</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">1829</cell>
+                        <cell cols="1" role="data" rows="1">1931</cell>
+                        <cell cols="1" role="data" rows="1">170</cell>
+                        <cell cols="1" role="data" rows="1">214</cell>
+                        <cell cols="1" role="data" rows="1">602</cell>
+                        <cell cols="1" role="data" rows="1">31,577</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">1830</cell>
+                        <cell cols="1" role="data" rows="1">1903</cell>
+                        <cell cols="1" role="data" rows="1">158</cell>
+                        <cell cols="1" role="data" rows="1">214</cell>
+                        <cell cols="1" role="data" rows="1">616</cell>
+                        <cell cols="1" role="data" rows="1">32,176</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">1831</cell>
+                        <cell cols="1" role="data" rows="1">1965</cell>
+                        <cell cols="1" role="data" rows="1">157</cell>
+                        <cell cols="1" role="data" rows="1">215</cell>
+                        <cell cols="1" role="data" rows="1">629</cell>
+                        <cell cols="1" role="data" rows="1">32,842</cell>
+                    </row>
+                </table>
+                <p part="N">The accounts for the last seven years are not to be procured; but there
+                    is reason to believe that no very material increase has taken place during that
+                    period, and that the proportion of the national vessels of the larger class has
+                    been more augmented, while that of the smaller class has somewhat declined, as
+                    is observable in the preceding table of the five years from 1827 to 1831.</p>
+                <p part="N">The chief articles which Sardinia imports from foreign countries are
+                    sugar, coffee, spices, cotton wool, cotton manufactured, indigo, cochineal, and
+                    other dyeing drugs, corn chiefly from the Black Sea, salted fish, salt, hides
+                    and leather, iron, steel, lead, copper, pitch and tar, tobacco, and timber.
+                    There are many smaller articles of luxury, whose aggregate amount bears hut a
+                    trifling proportion in value to those here enumerated. The commerce in grain is
+                    casual, depending in a great degree on the productiveness of the harvests in
+                    Switzerland, to which country, when the domestic supply is found to be
+                    insufficient, the corn, chiefly wheat from the ports of Odessa and Taganrog, is
+                    transmitted to the Swiss districts bordering on the Sardinian territory.</p>
+                <p part="N"><hi rend="italic">A Statement of the Number and Tonnage of Vessels,
+                        distinguishing the countries to which they belonged, which entered inwards
+                        and cleared outwards at the port of Genoa in the year</hi> 1834, <hi
+                        rend="italic">exclusive of Coasters.</hi></p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Countries.</cell>
+                        <cell cols="2" role="data" rows="1">Inwards.</cell>
+                        <cell cols="2" role="data" rows="1">Outwards.</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1">Ships.</cell>
+                        <cell cols="1" role="data" rows="1">Tons.</cell>
+                        <cell cols="1" role="data" rows="1">Ships.</cell>
+                        <cell cols="1" role="data" rows="1">Tons.</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">British</cell>
+                        <cell cols="1" role="data" rows="1">96</cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">15,014</p><p part="N"
+                                >121,000</p><p part="N">3,800</p><p part="N">1,390</p><p part="N"
+                                >695</p></cell>
+                        <cell cols="1" role="data" rows="1">95</cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">14,973</p><p part="N"
+                                >117,000</p><p part="N">5,398</p><p part="N">1,673</p><p part="N"
+                                >695</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Sardinian</cell>
+                        <cell cols="1" role="data" rows="1">998</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1">996</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">American -</cell>
+                        <cell cols="1" role="data" rows="1">18</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1">25</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Austrian</cell>
+                        <cell cols="1" role="data" rows="1">8</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1">8</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Danish....</cell>
+                        <cell cols="1" role="data" rows="1">4</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1">4</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Dutch</cell>
+                        <cell cols="1" role="data" rows="1">11</cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1,400</p><p part="N"
+                                >19,000</p><p part="N">83</p></cell>
+                        <cell cols="1" role="data" rows="1">15</cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1,836</p><p part="N"
+                                >18,597</p><p part="N">83</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">French</cell>
+                        <cell cols="1" role="data" rows="1">258</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1">256</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Greek</cell>
+                        <cell cols="1" role="data" rows="1">1</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1">1</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Neapolitan</cell>
+                        <cell cols="1" role="data" rows="1">149</cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">19,100</p><p part="N"
+                                >420</p></cell>
+                        <cell cols="1" role="data" rows="1">151</cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">19,334</p><p part="N"
+                                >1,077</p><p part="N">6,491</p><p part="N">2,918</p><p part="N"
+                                >4,882</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Russian</cell>
+                        <cell cols="1" role="data" rows="1">1</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1">3</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Spanish</cell>
+                        <cell cols="1" role="data" rows="1">148</cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">6,400</p><p part="N"
+                                >2,100</p><p part="N">3,900</p></cell>
+                        <cell cols="1" role="data" rows="1">153</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Swedish</cell>
+                        <cell cols="1" role="data" rows="1">10</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1">16</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Tuscan, Roman, and Lucchese...</cell>
+                        <cell cols="1" role="data" rows="1">160</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1">179</cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Bremen and Lubeck.</cell>
+                        <cell cols="1" role="data" rows="1">4</cell>
+                        <cell cols="1" role="data" rows="1">610</cell>
+                        <cell cols="1" role="data" rows="1">6</cell>
+                        <cell cols="1" role="data" rows="1">733</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1">Hanoverian</cell>
+                        <cell cols="1" role="data" rows="1">1</cell>
+                        <cell cols="1" role="data" rows="1">167</cell>
+                        <cell cols="1" role="data" rows="1">2</cell>
+                        <cell cols="1" role="data" rows="1">278</cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N">The variations in the years preceding and succeeding 1834 are so little
+                    as to render our filling the pages of this work with lengthened accounts quite
+                    unnecessary; and the particular year selected is sufficient to show the general
+                    nature and extent of the trade, and the respective countries with which it is
+                    carried on.</p>
+                <p part="N">The cities of this kingdom whose population amounts to more than 10,000
+                    souls, are the following.</p>
+                <p part="N">Turin 120,596 Chieri 14,000</p>
+                <p part="N">Genoa 94,000 Savona 13,400</p>
+                <p part="N">Alessandria 36,000 Carmagnola. 13,200</p>
+                <p part="N">Cagliari 29,000 Saluzzo 13,200</p>
+                <p part="N">Nice 27,000 Pinerola 12,500</p>
+                <p part="N">Asti 23,000 Boghera 12,147</p>
+                <p part="N">Sassari 21,000 Chamberi 12,060</p>
+                <p part="N">Cuneo 20,000 Bra 11,300</p>
+                <p part="N">Savigliano 19,000 St Remo 11,200</p>
+                <p part="N">Casale 18,000 Novi 11,100</p>
+                <p part="N">Mondovi 17,000 Racconigi 11,000</p>
+                <p part="N">Novara 16,400 Chiavari 10,800</p>
+                <p part="N">Bercelli 16,000 Rapello 10,150</p>
+                <p part="N">Vigevano 15,000 Tortona 10,015</p>
+                <p part="N">Fossano 14,300</p>
+                <p part="N">The most valuable product of Sardinia which is exported is silk, but it
+                    has little connection with maritime commerce. The greater part of it, which goes
+                    to other countries, is transported by land-carriage, in order to supply the
+                    manufacturers of France, of Prussia, of Belgium, of Holland, and in some measure
+                    of England; for even to the latter country much is now sent by land through
+                    France, or by the Rhine. Oil is one of the greater productions exported from
+                    Genoa, after being collected there by means of the numerous coasting vessels
+                    with which the shores of Sardinia abound. The larger portion of this article is
+                    sent to England, where it is used by the wool-combers in the manufacture of
+                    cloth; but a considerable quantity of it is sent to Holland, and from thence
+                    into the interior of Germany, where it is applied to the same purposes. Rice is
+                    also exported by sea to France, though it can scarcely sustain the competition
+                    with that which is produced in the East Indies or in Carolina. Though much wine
+                    is made, it is almost wholly consumed at home, the quantity exported being
+                    trifling. Fruit is an article of foreign trade; and soap, white lead, essences,
+                    and perfumery, may he enumerated as the most prominent of the smaller<pb
+                        break="no" facs="ht:chi.28490931&amp;view=1up&amp;seq=705"
+                        xml:id="kp-eb0719-0705-0651"/> articles of export. There is, however, a
+                    considerable transit trade carried on through Genoa, by which many of the
+                    products of the other parts of Italy are exchanged with those of France, to the
+                    advantage of the commission-houses in that city.</p>
+                <p part="N">Before the seventeenth century, Genoa was the centre or channel of all
+                    the supply of manufactured silks and velvets to the other parts of Europe; but
+                    at present the manufacturing industry, as regards silk, is reduced to the point
+                    which the internal consumption demands, or to the process of preparing the raw
+                    material for the manufacturers of France, England, Holland, Germany, and Russia.
+                    For domestic use, Sardinia has sufficient manufactories to supply with silk,
+                    linen, or woollen goods, the demand for clothing. Their silks are handsome and
+                    strong, especially the stockings; but, in the absence of the best descriptions
+                    of machinery, they are dearer than elsewhere. Leather, iron goods, copper ware,
+                    glass, pottery, and the smaller articles of the household, are made at home.</p>
+                <p part="N">As to the islanders, they are in so rude a state, that, in a commercial
+                    view, they scarcely require to be noticed; as must be the case where every man
+                    is his own tailor, shoemaker, spinner, weaver, tanner, carpenter, mason, and
+                    blacksmith, and wants nothing but his fire-arms, or other weapons of
+                    defence.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

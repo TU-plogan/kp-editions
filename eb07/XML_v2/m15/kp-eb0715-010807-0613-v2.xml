@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0715-0613-0108-07" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">MINAS GERAES</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term ref="lcsh1910:b4vm42z9s">Jesuits</term>
+                    <term ref="lcsh1910:b4gq6r76k">Martins</term>
+                    <term ref="lcsh1910:b44j09z32">Founding</term>
+                    <term ref="lcsh1910:b44m91b3s">Gold</term>
+                    <term ref="lcsh1910:b4hq3s746">Towns</term>
+                    <term ref="lcsh1910:b4tt4fw6r">East</term>
+                    <term ref="lcsh1910:b4n00zz70">Iron</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:933281">Founding</term>
+                    <term ref="fast:944368">Gold</term>
+                    <term ref="fast:868919">Comarcas</term>
+                    <term ref="fast:979089">Iron</term>
+                    <term ref="fast:892595">Diamonds</term>
+                    <term ref="fast:969307">Indians</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:838162">Brazilians</term>
+                    <term ref="fast:916820">Europeans</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1242088">Sahara</term>
+                    <term ref="fast:1206830">Brazil</term>
+                    <term ref="fast:1239717">Alps</term>
+                    <term ref="fast:1239786">America</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193820613?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">MINAS GERAES</label>, an important interior province
+                    of . Brazil, in South America. On the south it is separated from the provinces
+                    of Rio and St Paulo by a mountain chain called the Serra Mantiqueira; on the
+                    north the rivers Verde and Carynhenha divide it from Bahia and Pernambuco; on
+                    the east it is bounded by part of Bahia, Porto Seguro, and Espiritu Santo; and
+                    on the west by Goyaz. It is situated between the thirteenth and twenty-second
+                    parallels of south latitude, and is above six hundred miles in length by about
+                    three hundred and fifty in average breadth. This is the most mountainous
+                    province in Brazil. Hills swell up in every direction, forming an elevated
+                    table-land, and the country gradually assumes the features of a romantic alpine
+                    region. The golden mountains traverse the whole extent of the province, but they
+                    do not rise more than 4000 feet above the level of the sea; nor are they
+                    characterised by rugged cliffs or gigantic rocky summits, such as the Alps or
+                    Cordilleras exhibit. They consist of long series of detached ranges, having
+                    agreeable campos on their summits, and are separated from one another by sloping
+                    and pastoral, but not very deep valleys. Owing to the elevation of its
+                    table-land, the climate of Minas Geraes is temperate when compared with other
+                    countries under the torrid zone; and none of the provinces of Brazil abound more
+                    with rivers and mountain torrents. Of these, the greater part have their origin
+                    in the Serra Mantiqueira, and are received by four general channels. Two of
+                    them, the Rio Doce and the Jequitinhonha, flow to the eastward, the former
+                    irrigating the comarca of Villa Rica, and the latter that of Serro do Frio. The
+                    St Francisco has a northerly course, and waters the comarca of Sahara; whilst
+                    the Rio Grande, or Para, takes a westerly direction, after receiving the Rio das
+                    Mortes, which gave its former name to the comarca of St Joao del Rey. The soil
+                    in general is very fertile, yielding in abundance, and with little trouble, the
+                    grains and fruits of Europe; besides the aromatic plants and other vegetable
+                    productions characteristic of such regions, such as cotton, tobacco, sugar,
+                    maize, mandioc, coffee, indigo, ipecacuana, columbo root, jalap, liquorice,
+                    vanilla, various gums, and Jesuits’ bark. The grape yields a delicious wine, but
+                    the inhabitants of the gold and diamond districts drink a humbler liquor, and
+                    neglect their vineyards. The forests in this province have only been partially
+                    explored, and they still constitute strongholds of the Indians. The trees of
+                    which they consist are consequently little known, but many of them are well
+                    adapted for dyeing and tanning. These arts, however, have hitherto made little
+                    progress, as the inhabitants are averse to employments of this nature, their
+                    attention being chiefly directed to the glittering but often useless treasures
+                    found in the bowels of the earth. The adraganth, or dragon’s gum, in this
+                    district, is of the best quality. The sugar-cane grows in a wild state; the
+                    roads are covered with arcades formed by its branches, which reach in many parts
+                    to the height of thirty feet. The cattle are allowed to go at large on the open
+                    tracts of the country, and left to subsist on whatever they can find. In the
+                    summer months, when the grass throughout the wide extent is withered and burnt,
+                    they flock to the margins of brooks; but this resource soon fails them, and vast
+                    numbers perish from hunger. This province is very rich in mineral productions,
+                    and here the principal mines of gold and diamonds are situated. The following
+                    metals and minerals are also found: Platina, silver, copper, iron, lead,
+                    mercury, antimony, bismuth, fossilcoal, sulphur, emeralds, rubies, topazes,
+                    chrysolites, sapphires, agates, aqua-marinas, amethysts, and almost all the
+                    precious stones.</p>
+                <p part="N">Minas Geraes is divided into five comarcas; namely, St Joao del Rey,
+                    Sahara, Paracatu, Villa Rica, and Serro do <pb break="no"
+                        facs="nls:193820626?mode=fullsize" xml:id="kp-eb0715-0626-0109"/>Frio. In
+                    drawing up an account of these, we have been chiefly indebted for information
+                    regarding them to the works of Mr Mawe, Mr Luccock, and Drs Von Spix and
+                    Martins. We shall follow the route of the first-named traveller from the
+                    frontier to Villa Rica. At rather more than a league’s distance from the river
+                    Paraibuna is Rosinha do Negro, a small village, situated, like others in this
+                    part of the country which are connected with a large plantation, at the bottom
+                    of a deep hollow, and by the side of a small stream. Two leagues farther on is
+                    another register, called Mathias Barboza, formed by mud-walls, enclosing a large
+                    area, with a gateway at each end, through which the public road passes. This
+                    place is the great toll-house of Minas Geraes, and the duties collected,
+                    amounting to L.25,000 annually, are every three months remitted to Villa Rica.
+                    The road, which lies through extensive tracts of wood, continues to ascend in a
+                    direction north-west by north; and there is a very sensible change in the
+                    temperature. Amongst the trees are the pine and the common box-tree, the latter
+                    attaining a height of more than twelve feet. As the road continues to ascend,
+                    the trees get smaller, the heaths and ferns larger and more vigorous, and the
+                    air becomes cool and fresh, except between the hours of two and four p. <hi
+                        rend="smallcaps">μ.</hi> Several fazendas succeed one another at intervals
+                    as the traveller proceeds on his journey to the capital. That called Mantequeira
+                    is situated in a large plain, consisting of rich land, watered by numerous
+                    streams, but overrun with weeds and brushwood. Some leagues further inland is
+                    Barbazena, which consists of between three and four hundred houses, and where a
+                    considerable traffic was at one time carried on with the interior in baize,
+                    cotton goods, salt, and iron. Much of the trade, however, is now removed to St
+                    John’s. Barbazena is pleasantly situated on the southern declivity of a
+                    considerable hill, and here the two great roads from the mining country unite;
+                    the one to the westward leading to St Joao del Rey, Sahara, and Cujaba; the
+                    other in a northerly direction, conducting to Villa Rica, Tijuco, and Minas
+                    Novas. In the vicinity of a place called Louza there is a hill covered with
+                    micaceous iron ore, and the road for above half a mile is strewed with a rich
+                    oxide of iron. At Alto de Virginia and S. Antonio do Ouro Branco are extensive
+                    gold washings; but between these places and the capital the route lies oyer
+                    bleak and sterile mountains.</p>
+                <p part="N">Villa Rica, the capital of Minas Geraes, dates its title as a town no
+                    further back than 1711, previously to which period it bore the name of Piro
+                    Oreto (black gold), which is still retained by the mountain on the eastern
+                    declivity of which it is situated. It occupies two hills, and part of the
+                    circumjacent valley or hollow. The principal street runs for nearly two miles in
+                    a straight line along the slope of the Morro. Several streets lead from the
+                    lower part of the city to that situated on the high ground; and they are all
+                    paved, and connected by four stone bridges. The houses are built of stone, two
+                    stories high, covered with tiles, and in general white-washed. It is well
+                    supplied with water from a number of public fountains distributed through the
+                    town. Amongst the public buildings, some of which are not without a claim to
+                    splendour, is the governor’s palace, which is situated on the highest projection
+                    of the hill; and opposite is a group, of which the inhabitants are particularly
+                    proud, formed by the town-house, the prison, and the theatre. In one of the
+                    lower parts of the town stands the treasury, attached to which are the mint and
+                    the custom-house. There are ten churches, several of which are richly
+                    ornamented, and contain paintings and images. Villa Rica enjoys a very
+                    considerable trade. Almost every week large convoys set out with the productions
+                    of the country, consisting of cotton, hides, marmalade, cheese, precious stones,
+                    bars of gold, and other articles. In exchange they bring back salt, wines,
+                    calicoes, handkerchiefs, hams, iron-ware, and negroes to be employed in the gold
+                    washings and other occupations. Almost all kinds ot trades are here carried on;
+                    the principal are saddlers, tinmen, and blacksmiths. There are likewise
+                    manufactories of gunpowder, hats, and pottery; and they spin and weave wool,
+                    worsted, and cotton; but the trade of the goldsmith is prohibited. All the
+                    manufactures are purely domestic: ,and the implements and modes of using them
+                    are of the oldest and most unimproved description. The climate of this city is
+                    delightful, being equal, it is said, to that of Naples. The range of the
+                    thermometer in summer is from 64° to 80°; and in winter it rarely descends below
+                    50° of Fahrenheit. From the great elevation of the city, however, it is subject
+                    to sudden alternations of temperature during the course of a single day, and
+                    thunder-storms are frequent. Both soil and climate are remarkably .favourable to
+                    fruits and vegetables, and numerous orchards are situated on the side of the
+                    mountain. The system of horticulture, however, is very bad; and, notwithstanding
+                    the fertility of the country, the market is but ill supplied with culinary
+                    articles. Of the population it is difficult to form an estimate, as the amount
+                    is given by different travellers at from eight thousand to twenty thousand; and
+                    Mr Luccock states that it is continually fluctuating. According to one
+                    traveller, the greater part of the inhabitants consist of blacks and mulattoes;
+                    another says there are more whites than blacks; and a third states that there is
+                    a considerable proportion of Portuguese.</p>
+                <p part="N">This is the very centre of the gold country, and a somewhat particular
+                    description of this extraordinary spot is necessary. “To contemplate the gold
+                    mines of Villa Rica with advantage,” says Mr Luccock, “it will be necessary to
+                    recollect, that the land is composed of schist, or a sort of slaty clay, resting
+                    upon a core of granite, gneiss, or sandstone, sometimes laminated, at other
+                    times solid, the gold being scattered in small particles amid the su- .perjacent
+                    schist and clay;<note anchored="true" place="bottom" type="authorial"><p
+                            part="N">Dr Von Spix, however, denominates the superjacent stratum an
+                            ironstone floetz, consisting partly of clay coloured by oxide of iron,
+                            but principally of lithomarge, generally of a reddish-brown colour. In
+                            this mass there is a large quantity of compact brown ironstone: and also
+                            detached nodules of quartz, mica slate, and, though rarely, fragments of
+                            topazes. The gold in this formation occurs either in very small grains
+                            and crystals within the layers of clay and lithomarge, or as a coating
+                            on brown ironstone, or imbedded in it in folia. Below this ironstone
+                            floetz is a species of mica slate, containing a large proportion of
+                            iron; and through the mass there is disseminated a considerable quantity
+                            of gold, particularly in the quartz veins by which it is traversed. Gold
+                            in abundance is likewise found in other formations.</p></note><hi
+                        rend="superscript"> l</hi> and that the town is placed at the junction of
+                    several streams, whose waters have only one outlet by a narrow bason, cut by
+                    their force through the surface down to the more firm component parts. Before
+                    this outlet, called the Rio do Carino, became so deep as it is, a small lake
+                    must have existed among the hills, through which all the waters of the upper
+                    country passed, bringing with them and depositing in the bottom a variety of
+                    heavy matter.” By this means the ground was raised, whilst the outlet was
+                    deepened, until the water was entirely drained off; thus leaving the bottom dry,
+                    in the shape of a level plain, composed of the debris of various kinds, mingled
+                    with which was a considerable quantity of gold. This plain is surrounded by
+                    mountains containing, it is supposed, much gold, notwithstanding what has been
+                    washed down or extracted from them. A stream traverses the plain, and, when
+                    flooded by rain, small trenches are formed on its banks, into which the water
+                    runs, and, <pb break="no" facs="nls:193820639?mode=fullsize"
+                        xml:id="kp-eb0715-0639-0110"/>depositing the sediment suspended in it, more
+                    or less gold is generally mingled with the mass; and on the occasion of a flood
+                    the whole of the inhabitants turn out and pursue the search for the precious
+                    metal. On the side of the hill the bottoms of the natural streams are searched,
+                    and where these do not exist, excavations are formed, and the courses of streams
+                    are turned and made to pass through them. So numerous are the perforations of
+                    this kind, that the side of the mountain presents the appearance of a
+                    honey-comb. The greatest quantity of gold has been found on the eastern
+                    declivity of the Mono of Villa Rica, and here the search for it is conducted
+                    more systematically. Sieves and raw ox hides are placed at certain distances in
+                    trenches full of water, which is conducted from the summit; the first is
+                    intended to stop the coarser sand, and the second is to catch the gold dust in
+                    the hair, which stands erect; sometimes woollen cloths are used for this
+                    purpose. The gold found here varies in colour according to the nature of the
+                    other metals or minerals with which it is mixed. The Morro of Villa Rica extends
+                    in a direction east and west along the valley of the Ribeiro do Oiro Preto or do
+                    Carmo, to Passagem, a village containing about one hundred and fifty houses,
+                    situated about two leagues from the capital. Gold mines or washings are likewise
+                    situated in the vicinity of the episcopal city of Mariana (see <hi
+                        rend="smallcaps">Mariana),</hi> at the Presidio de St Joao Baptista, on the
+                    Rio de San Joze, where it washes the base of the Altos de St Miguel, at the
+                    aldeaof St Joze de Barra Louga, and at various other places throughout the
+                    province. A district in which the beautiful fazenda of Capao is situated, is
+                    that where the well-known Brazilian topazes are found. What is called the topaz
+                    mine is only an open quarry, consisting of two breaks or slips in the mountain
+                    side. These precious stones are found in three different places. The mine which
+                    Dr Von Spix examined was a hill immediately behind the fazenda of Lana, which,
+                    on one side, for a considerable breadth and to a height of sixty feet, had
+                    become so softened by rains, and by water conducted upon it by art, that it had
+                    become like a marsh. The soil is thrown up into long heaps with shovels, and
+                    washed, by means of water conducted over it, into a narrow channel, with some
+                    wooden lattices fixed in it, so that only the more solid parts remain behind,
+                    which are then broken with hoes, and with the hands in search of topazes. The
+                    quantity found here annually may amount to between fifty and sixty arrobas,, but
+                    many of them are of an inferior, quality. The greater part of these topazes is
+                    exported from this place to Rio de Janeiro, and a smaller portion to Bahia. The
+                    euklase is also found here, and has attracted the attention of the mineiros
+                    since mineralogists have inquired after it. This stone is in general scarce, and
+                    is more frequently met with in the mine of Capao than in that of Lana. Five
+                    leagues to the westward of Çapao is the iron foundery of De Prata, which
+                    produces annually about one thousand arrobas of iron. The ore is a rich iron
+                    glance, but particularly magnetic iron stone, the very thick beds of which stand
+                    out near the foundery. The rock is mica slate. A league and a half to the
+                    south-southeast of De Prata are the gold and lead mines of Senhor Romualdo Joze
+                    Monteiro do Barros. The gold mine is a cream-coloured clay slate traversed by
+                    auriferous veins of quartz, amongst which the metal is disseminated, along with
+                    manganese. The mine of Cujabeira, in which the chromate of lead is found, is a
+                    low hill of clay, scarcely a league distant from the fazenda. The red lead ore
+                    is found in a vein of friable, grayish-white, granular quartz, amongst pretty
+                    much integrated, white, scaly lithomarge. The crystals of the chromate of lead
+                    are very small, and seldom show well-defined terminal planes. Not far from this
+                    estate is the arraial of Matozinho, which contains about one hundred and fifty
+                    houses, with several churches; and on the opposite side of the river Paraopeba
+                    is situated Congon-has, containing about two hundred houses, and several
+                    chapels, one of which, although small in dimensions, vies in the splendour of
+                    its ornaments with any ecclesiastical edifice in the country. It has indeed been
+                    designated the Loretto of Brazil. ìn external appearance it is not more than
+                    respectable, but the interior decorations and emblazonry, consisting of the
+                    precious stones of Brazil, are on the most splendid scale. Eight miles to the
+                    north-east of Marianna is the arraial of Antonio Perreira, where gold mines are
+                    situated; but we must now quit the land of gold for the land of diamonds,
+                    situated in the comarca of Serro do Frio.</p>
+                <p part="N">The comarca of Serro do Frio is divided from that of Villa Rica by the
+                    river Doce. Villa do Principe, the capital, is situated about one hundred and
+                    ten miles northnorth-east of Marianna, close upon the confines of the diamond
+                    district. Like the other provincial capitals of Minas, this town has its
+                    smelting-house, with the usual appointments, its ouvidor, who holds also the
+                    office of mint master, and a <hi rend="italic">juiz de fora.</hi> It contains a
+                    church, five chapels, and about five thousand inhabitants, a considerable
+                    portion of whom are shopkeepers, the rest being artizans, farmers, and miners.
+                    The country around Villa do Principe is very fine and open, being free from
+                    those impenetrable forests which occur so frequently in other parts of the
+                    province. The climate is mild and salubrious; the soil is productive, yielding
+                    Indian corn, legumes, cotton, and sugar. A few leagues beyond this town the
+                    aspect of the country changes, and the district in which Tejuco is situated is
+                    sterile and unproductive. This town is irregularly built on the side of a hill,
+                    and contains a church, several chapels, and a number of shops stocked with
+                    English cottons, baizes, and cloths, with other kinds of manufactured goods.
+                    What is termed the diamond ground extends about sixteen leagues from north to
+                    south, and about eight from east to west; and several thousand negroes, who are
+                    superintended by about two hundred whites, are employed in searching for the
+                    precious mineral. The largest of the diamond works, called Mandango, is situated
+                    on the river Jequitinhonha, which in this part is about nine feet deep, and
+                    about as broad as the Thames at Windsor. .Mr Mawe has minutely described the
+                    process by which the diamonds are obtained, the chief object of his visit being
+                    to examine the mines. The part of the river which was then worked was a curve or
+                    elbow from which the current had been diverted by means of a canal. The deeper
+                    parts of the channel were laid dry by means of chain-pumps worked by a
+                    waterwheel, and the <hi rend="italic">cascalho</hi> was then removed by means of
+                    machinery. This stratum of debris consists of similar materials to that found in
+                    the gold district. During the dry season sufficient cascalho is dug up to occupy
+                    all the hands during the rainy months. This gravelly matter is washed in troughs
+                    placed under sheds erected for the purpose. The negroes are formed into working
+                    parties called troops, containing two hundred each, under the direction of an
+                    administrator and inferior officers. Besides the precious stone, which is
+                    principally sought, gold is found in the debris. Diamonds are by no means
+                    peculiar to the beds of rivers or deep ravines; they have been found in cavities
+                    and water-courses, even on the summits of the loftiest mountains. They of course
+                    vary exceedingly in size. Some are so small that four or five are required to
+                    weigh one grain, consequentlysixteenor twenty to the carat. There are seldom
+                    found more than two or three diamonds of from seventeen to twenty carats in the
+                    course of a year; and not once in two years is there found throughout the whole
+                    washings a stone of thirty carats. There are other diamond works in this comarca
+                    besides Mandango, particularly those of Monteiro, and those situated on the Rio
+                    Pardo. Thirty-five leagues from Tejuco, in a north-easterly<pb break="no"
+                        facs="nls:193820652?mode=fullsize" xml:id="kp-eb0715-0652-0111"/> direction,
+                    is Tocaya, the principal place in the district of Minas Novas. The road to it
+                    runs nearly parallel with the Jequitinhonha, in the numerous rivulets flowing,
+                    into which river are found white and blue topazes, aqua-marinas, and the
+                    chrysoberyl, a stone held in high estimation in Brazil. Twenty-five miles
+                    north-north-east of Villa do Principe is the town of Fanado or Bom Succeso, in
+                    the neighbourhood of which diamonds of an inferior quality are found. There are
+                    several other arraials in this comarca, amongst which may be mentioned Bara do
+                    Rio das Velhas, a place of considerable commerce, and, but for its insalubrity,
+                    likely to become one of the largest places in the province.</p>
+                <p part="N">The great river San Francisco is the boundary line between the comarca
+                    of Serro do Frio and that of Paracatu. This almost Unknown district, prior to
+                    1815, was included in the comarca of Sahara. A new ouvidor was then appointed
+                    for the township and circuit of Paracattf, the villages of Desemboque and Araxa
+                    being subsequently detached from the comarca of Villa Boa in Goyaz, and annexed
+                    to the new ouvidoria. Paracatu do Principe, the only town, owes its origin to
+                    its mines, first discovered in 1744. These consist of gold and lead; but
+                    diamonds have also been found in some places.</p>
+                <p part="N">The comarca of Sahara, which-formerly included all the western part of
+                    Minas Geraes north of the comarca of Rio das Mortes, takes its name from its
+                    head town, the Villa Real do Sahara. This town stands near the confluence of the
+                    small river of the same name with the Das Velhas, about thirty-five miles
+                    north-north-west of Marianna, and is surrounded with mountains. About twelve
+                    miles from Sahara there is said to be a tepid lake, two miles in length by one
+                    in breadth. It has acquired the name of the Holy Lake, from its waters having
+                    been found to possess medicinal virtue in various diseases. Fifteen miles north
+                    of Sahara is the flourishing parish of St Luzia, which contains a considerable
+                    population, and is ornamented with five Roman Catholic temples. The only towns
+                    in the comarca besides Sahara are Villa Nova da Raynha, better known by its
+                    Indian name of Caethe, containing about 5000 inhabitants; it is twelve miles
+                    east-south-east of Sahara, and has in its suburbs good potteries; and Pi-tangui,
+                    situated on the right margin of Para, about eighty miles west-north-west of
+                    Sahara. Its inhabitants, about 20,000 in number, breed horses, cattle, hogs, and
+                    sheep, and cultivate cotton and the sugar-cane.</p>
+                <p part="N">The comarca of St Joao del Rey or Rio das Mortes occupies the southern
+                    extremity of the province adjoining those of St Paulo and Rio. It is itself
+                    larger than the whole kingdom of Portugal, and the land is for the most part
+                    rich and fertile in a high degree. From March to November the climate is fine
+                    and dry, the nights being sometimes sharp and frosty. Ice is occasionally
+                    formed, and snow falls, but they disappear before the noon-day sun. About the
+                    middle of November the rainy season is ushered in by violent thunder and
+                    lightning. Rain comes invariably from the south, and in continued damp weather
+                    the air is unpleasantly cold. The Villa St Joao del Rey, antecedently called Rio
+                    das Mortes, is a handsome little town, surrounded by a bulwark of romantic hills
+                    and broken rocks, with tracts entirely sterile, and others covered with the most
+                    luxuriant verdure. Its situation is so agreeable and central, that an intention
+                    was once formed of making it the capital. There are in St Joao about 6000
+                    inhabitants, of whom only one third are white people, the rest being negroes and
+                    mulattoes. For their employment and support there are no manufactures, except a
+                    small one of hats of a peculiar kind. In the adjoining country a large quantity
+                    of woollen cloth is made from native produce, and serves for ordinary clothing.
+                    Yet the trade of St Joao del Rey must be considerable; for Dr Von Spix informs
+                    us that four constantly employed caravans, each of fifty mules, annually go
+                    backwards and forwards to the capital, conveying thither bacon, cheese, some
+                    cottons, woollen hats, horned cattle, mules, and gold bars; and bringing back in
+                    return European goods, chiefly Portuguese and English, such as calicoes,
+                    handkerchiefs, lace, iron-ware, wine, porter, and liqueurs. The gold mine, to
+                    which the town owes its origin and celebrity, and whence such masses of mineral
+                    wealth have been extracted, is situated within the town. It is nothing more than
+                    a deep pit, and is now little resorted to. St Joao del Rey is situated eighty
+                    miles south-west of Villa Rica, about the same distance south-south-west of
+                    Sahara, and upwards of two hundred miles north-west of Rio. The population of
+                    Minas Geraes has been computed at between six and seven hundred thousand
+                    inhabitants, of whom nearly a fourth are slaves. Indians are found only upon the
+                    eastern confines of the province, or in the impenetrable forests of the Serra do
+                    Alar.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

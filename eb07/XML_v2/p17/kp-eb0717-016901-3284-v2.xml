@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0717-3284-0169-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">PEEBLESSHIRE, or Tweeddale</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1206715">Scotland</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1159786">Tweed</term>
+                    <term ref="fast:931268">Foot</term>
+                    <term ref="fast:933281">Founding</term>
+                    <term ref="fast:1115460">Sheep</term>
+                    <term ref="fast:1053582">Parishes</term>
+                    <term ref="fast:1100116">Romans</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:950959">Handicraft</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4mw28p24">Scotch</term>
+                    <term ref="lcsh1910:b4q815225">Trade</term>
+                    <term ref="lcsh1910:b4jh3db66">Trades</term>
+                    <term ref="lcsh1910:b4j67915v">Handicraft</term>
+                    <term ref="lcsh1910:b4tt4fw6r">East</term>
+                    <term ref="lcsh1910:b4319s59c">Foot</term>
+                    <term ref="lcsh1910:b4dr2p79d">Land</term>
+                    <term ref="lcsh1910:b4kk94c35">Extents</term>
+                    <term ref="lcsh1910:b44j09z32">Founding</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193493284?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">PEEBLESSHIRE, or <hi rend="smallcaps"
+                        >Tweeddale</hi></label>, a county in Scotland, situated between 55. 24. and
+                    55. 50. north latitude, and between 2. 45. and 3. 23. west longitude from
+                    Greenwich. It is bounded on the north by Mid-Lothian or Edinburghshire, on the
+                    east by the county of Selkirk, on the south by Dumfriesshire, and on the west by
+                    Lanarkshire. Its greatest extent from north to south is about thirty miles, and
+                    its greatest breadth from east to west about twenty-two; the contents being
+                    229,778 English acres, of which only about a tenth part is fit for cultivation.
+                    It is divided into sixteen parishes, twelve of whieh form the presbytery of
+                    Peebles, and four belong to that of Biggar, but all are under the synod of
+                    Lothian and Tweeddale.</p>
+                <p part="N">The surface of this eounty is hilly, and towards the south mountainous,
+                    several of the high grounds in that quarter, such as Hartfield, Harstane,
+                    Broadlaw, and Dollarlaw, being from 2800 to nearly 3000 feet above the level of
+                    the sea. The general elevation of the pasture lands is about 1200 feet; yet,
+                    with few exceptions, the hills are covered with green herbage, heath being
+                    almost confined to a few of the highest ridges on the south-east. On the banks
+                    of its streams are many pleasant and fertile spots; but, from the want of wood,
+                    the general appearance is naked and uninteresting; though of late great
+                    attention has been paid to planting, and it is estimated that there are now
+                    nearly 7000 aeres under wood. The soil of the cultivated land, lying chiefly on
+                    the sides of the lower hills and the banks of the streams, is for the most part
+                    a light loam, with elay, moss, and moor on the high grounds. Coal, limestone,
+                    and freestone abound in the parishes of Linton and Newlands, on the north side
+                    of the county, and in the latter ironstone is also found. Limestone and
+                    freestone are worked profitably in the parish of Linton; but the eoal formerly
+                    obtained from Newlands has been abandoned, as not repaying the eost of outlay.
+                    Lime, however, may still be purchased at Magbiehill, the eoal for burning which
+                    is brought from Linton. At Stobo, slate of a good quality is quarried, and sold
+                    with advantage to the proprietor. In the parish of Traquair there is also a
+                    slate quarry in aetive operation. The river Tweed, from whieh this district is
+                    often called Tweeddale, rises from a well of the same name, in the parish of
+                    Tweedsmuir, in the south-western extremity of the eounty, about 1500 feet above
+                    the level of the sea, and, flowing first north-east and then east, dividing the
+                    eounty into two nearly equal parts, it passes into Selkirkshire at Gatehaup
+                    Burn, after a winding course of about thirty-six miles. The Annan and the Clyde
+                    have their souree in the same hill. Of the other streams, here ealled <hi
+                        rend="italic">waters,</hi> the most considerable are Biggar, Lyne, Peebles
+                    or Eddlestone, Leithan, Mannor, and Q,uair, which fall into the Tweed; and the
+                    North and South Esks, whieh pursue their eourse into Mid-Lothian. The lakes or
+                    loehs are St Mary’s, Waterloeh, and Slipperfield. These, as well as the
+                    rivulets, abound in the eommon fresh-water fish, and most of the streams are
+                    occasionally frequented by salmon; but salmon are not found in such numbers,
+                    even in the Tweed, within the bounds of this eounty, as to afford a fishery that
+                    will pay rent.</p>
+                <p part="N">The elimate of Peeblesshire, owing to its elevation and want of shelter,
+                    is perhaps more rigorous than that of any other of the southern eounties of
+                    Scotland. Cold easterly winds prevail in spring, and greatly retard vegetation;
+                    whilst in summer frosts often oeeur, whieh injure the potato and other erops;
+                    and the winters are frequently so severe as to destroy turnips, the snow lying
+                    so deep and so long as sometimes to occasion great loss amongst the floeks.</p>
+                <p part="N">As this is almost exclusively a pastoral eountry, the farms are in
+                    general large, most of them being from 1000 to 4000 acres. On the arable land
+                    they are small, the greater number being below 100 acres. These are in general
+                    held on leases for nineteen years, as in other parts of Seotland. Taking the
+                    extent and rental as before stated, the average would be nearly five shillings
+                    the English aere. This is ehiefly derived from live stock, especially sheep, of
+                    whieh there may be about 120,000. These were formerly of the black-faced heath
+                    variety, sometimes ealled Tweeddale sheep, from the name of the eounty, or
+                    Linton sheep, from the name of a village on the northern side of the district,
+                    where great fairs are held for the sale of them; but of late years the Cheviot
+                    breed, whieh bears a mueh more valuable fleeee, has been established on many of
+                    the lower hills, and the majority of those now fed in the eounty are of this
+                    variety. The erops are the same as in other parts of Scotland, excepting that
+                    wheat is cultivated only upon a very small seale. A variety of oats ealled the
+                        <hi rend="italic">red oat,</hi> and sometimes the <hi rend="italic"
+                        >Mag-</hi><pb break="no" facs="nls:193493297?mode=fullsize"
+                        xml:id="kp-eb0717-3297-0170"/><hi rend="italic">biehill oat,</hi> from its
+                    being first cultivated here on that estate, is very well adapted to high and
+                    exposed situations, both because it ripens earlier than the common kind, and is
+                    less liable to be beaten out by wind, whilst on good land it is found to be
+                    highly productive.</p>
+                <p part="N">Many of the proprietors have seats distinguished either for their
+                    antiquity or their beauty; but the Earl of Traquair is the only nobleman who now
+                    resides in the county. Peeblesshire, in 1811, was divided into about eighty
+                    estates, many of them large, but not valuable in proportion. The valuation of
+                    the whole is L.51,937.13s. 10d. Scotch; and the real rent, as assessed for the
+                    property-tax that year, was, for the lands L.57,382 sterling, and for the houses
+                    L.2568. Two thirds of the estates are valued under L.500 Scotch, a sum which may
+                    indicate pretty nearly their present yearly value in sterling money; and little
+                    less than two thirds of the whole are entailed.</p>
+                <p part="N">In the county there are several remains of Roman camps. Drochil Castle
+                    in the parish of Newlands, and Nedpath Castle in the parish of Peebles, are the
+                    only two which are in tolerable preservation; but vestiges of ancient castles or
+                    towers abound in the whole valley of the Tweed. The remains of the Castle of
+                    Tinnes or Thanes are six feet in thickness, and the mortar is as hard as the
+                    stone.</p>
+                <p part="N">The inhabitants are generally educated, intelligent, and attentive to
+                    religious duties, though few of the labouring classes or shepherds consider
+                    poaching as in any degree criminal, and accordingly practise it to a
+                    considerable extent, both by land and water. To this they are tempted by the
+                    abundance of the game, which in some districts is most destructive to the poor.
+                    The principal towns or villages in Peeblesshire are, Peebles, Linton,
+                    Eddlestone, Skirling, Broughton, and Innerleithen. At this latter place, Lord
+                    Traquair, the proprietor of the village, has erected a neat building with
+                    corridor over a mineral well, which for some years past has attracted numerous
+                    visitors to the village during the summer.</p>
+                <p part="N">The royal burgh of Peebles formerly joined with Selkirk, Lanark, and
+                    Linlithgow, in returning a member for the burghs; but since the passing of the
+                    reform act, the burgh is merged in the county, and both united return a member
+                    to serve in parliament; the qualification to vote for a candidate being the same
+                    in the burgh as in the county, viz. ten pounds property, or fifty pounds rental
+                    per annum. At the passing of the reform act there were, of old constituency
+                    forty-seven, new constituency 300; but, in consequence of the creation of votes
+                    for party purposes, there are now 760 electors on the poll-books.</p>
+                <p part="N">Population in 1831.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Parish or Burgh.</p></cell>
+                        <cell cols="4" role="data" rows="1"><p part="N">HOUSES.</p></cell>
+                        <cell cols="3" role="data" rows="1"><p part="N">OCCUPATIONS.</p></cell>
+                        <cell cols="3" role="data" rows="1"><p part="N"><hi>
+                            PERSONS</hi>.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">Inhabited.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Families.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Building.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Uninhabited.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Families chiefly employed in
+                                i Agriculture.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Families chiefly employed in
+                                Trade, Manufactures, and Handicraft.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">All other Families not
+                                comprised in the two preceding classes. ∣</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Males.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Females.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Total of Persons.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Broughton</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">49</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">51</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">13</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">15</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">23</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">154</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">145</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">299</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Drumelzier</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">42</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">42</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">26</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">107</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">116</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">223</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Eddlestone</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">144</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">144</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">3</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">80</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">29</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">35</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">439</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">397</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">836</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Glenholm</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">48</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">50</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">30</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">13</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">127</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">132</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">259</p><p part="N">746</p><p
+                                part="N">353</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Innerleithen (part
+                            of)</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">138</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">150</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">51</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">33</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">66</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">357</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">389</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Kilbucho</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">59</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">59</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">31</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">11</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">17</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">163</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">190</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Kirkurd</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">58</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">58</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">31</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">10</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">17</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">161</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">157</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">318</p><p part="N"
+                            >1577</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Linton, West</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">269</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">297</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">63</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">92</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">142</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">867</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">710</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Lyne and Thiggate</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">25</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">26</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">20</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">83</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">73</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">156</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Manor</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">35</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">41</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">34</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">129</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">125</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">254</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Newlands</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">186</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">205</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">11</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">109</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">38</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">58</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">523</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">555</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1078</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Peebles (part of burgh and ì
+                                parish) <hi rend="italic">j</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">455</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">643</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">15</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">93</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">365</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">185</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1366</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1384</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2750</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Skirling</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">61</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">64</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">22</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">17</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">25</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">172</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">186</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">358</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Stobbo</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">66</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">85</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">41</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">36</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">213</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">227</p><p part="N">307</p><p
+                                part="N">143</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">440</p><p part="N">643</p><p
+                                part="N">288</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Traquair</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">105</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">108</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">68</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">20</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">20</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">336</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Tweedsmuir</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">49</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">49</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">24</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">20</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">145</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">1789</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2072</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">14</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">58</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N"><hi rend="subscript"> l</hi>
+                                736</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">666</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">670</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">5342</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">5236</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">10578</p></cell>
+                    </row>
+                </table>
+                <p part="N"><hi rend="smallcaps">Peebles,</hi> the county-town, is not distinguished
+                    for any particular trade or manufacture. The majority of the operatives are
+                    hand-loom weavers, whose wages do not average more than from five to seven
+                    shillings per week; the remainder of their living being procured by fishing,
+                    harvestwork, &amp;c. It is not known when Peebles was erected into a royal
+                    burgh; but in 1357 the burgh sent two members to parliament. The property of the
+                    burgh, consisting of lands, mills, &amp;c. yields an annual revenue of L.1343.
+                    Ils. 2d., which is expended in salaries to teachers, in paving and lighting the
+                    streets, supplying the town with water, and other useful purposes. The whole
+                    matters of police are regulated by a provost, two bailies, a treasurer, dean of
+                    guild, and twelve councillors, chosen by the inhabitants. Considerably more
+                    property was secured to the burgesses and inhabitants by charter of James VI.
+                    dated the 10th of November 1621; but, as in most of the other burghs, this was
+                    dissipated by the members of the corporation. Peebles is divided into the old
+                    and the new town; and it is bounded on the south by the Tweed, and on the north
+                    by the Eddlestone Water. It is worthy of remark, that the Tweed runs almost from
+                    due west to east, whilst the Eddlestone Water, on the other side of the town,
+                    flows exactly in the contrary direction. The population returns for the burgh
+                    and parish were, in 1811, 2485; in 1821, 2701; andin 1831, 2750. The real value
+                    is estimated at L.9255. Peebles is distant twenty-two miles south of
+                    Edinburgh.</p>
+                <pb break="no" facs="nls:193493310?mode=fullsize" xml:id="kp-eb0717-3310-0171"/>
+            </div>
+        </body>
+    </text>
+</TEI>

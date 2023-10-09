@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0707-9911-0203-05" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">CONDILLAC, Etienne Bonnot de</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:821688">Authors</term>
+                    <term ref="fast:821653">Authority</term>
+                    <term ref="fast:1042815">Objectivity</term>
+                    <term ref="fast:1180188">Work</term>
+                    <term ref="fast:1078723">Progress</term>
+                    <term ref="fast:934209">French</term>
+                    <term ref="fast:947546">Greeks</term>
+                    <term ref="fast:1069177">Polishes</term>
+                    <term ref="fast:910709">English</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4jw86m8z">Man</term>
+                    <term ref="lcsh1910:b4d795b2n">Authors</term>
+                    <term ref="lcsh1910:b4ns0kz00">Authority</term>
+                    <term ref="lcsh1910:b4348gn83">Mind</term>
+                    <term ref="lcsh1910:b41j9770v">State</term>
+                    <term ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term ref="lcsh1910:b4ns0m53j">Polishing</term>
+                    <term ref="lcsh1910:b4804xp4n">Polishes</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1227863">Lithuania</term>
+                    <term ref="fast:1204303">Spain</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194749911?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">CONDILLAC, <hi rend="smallcaps">Etienne Bonnot
+                            de</hi></label>, Abbé de Mu-reaux, well known as an eminent writer on
+                    metaphysics and education, was born at Grenoble in 1715. He was brother <pb
+                        break="no" facs="nls:194749924?mode=fullsize" xml:id="kp-eb0707-9924-0204"/>
+                    to the Abbé đe Mably; and, like him, arrived at high celebrity, though in a
+                    different line of pursuit. He seems to have been actuated by the purest motives
+                    of utility to his species, in directing his exertions to the elucidation of
+                    those subjects in metaphysical science, the imperfect state of which had
+                    involved the studies, as well as the public pursuits, of the thinking world, in
+                    perplexity, and had retarded the attainment of that degree of sound knowledge
+                    and of happiness for which the faculties of man entitled him to hope. The field
+                    of metaphysical research had been for some time laid open by the destruction of
+                    the imperious authority of Aristotle and the schools; a variety of contending
+                    doctrines, which had made their appearance, created in active minds a spirit of
+                    independence; and no admiration of the genius of another prevented the
+                    suggestions of the philosophic critic from mingling themselves with the
+                    illustrations of the enlightened pupil. Locke had led the way to a mode of
+                    investigation now rising into favour, and promising to impart a luminous
+                    simplicity to the science of mind; and philosophers emulated one another in
+                    their efforts to correct or to extend the doctrines of this author, or to found
+                    upon them others distinguished by new improvements. Condillac was one of the
+                    first who introduced this style of metaphysical inquiry into French literature.
+                    His earliest work was his <hi rend="italic">Essai sur</hi><hi rend="italic"
+                        >ι</hi><hi rend="italic">Origine des Connaissances Humaines,</hi> which
+                    appeared in 174G. This work contains those favourite opinions which are
+                    exhibited with more correct taste in his subsequent productions. It is not,
+                    however, superseded by the latter, as it contains a variety of interesting
+                    illustrations peculiar to itself; and although here we find his errors
+                    particularly prominent, that circumstance seems rather to proceed from the
+                    absence of art and of plausibility, than from the subsequent adoption of views
+                    more radically correct. From the outline which he first formed of philosophic
+                    methods, he seems never to have departed. The object of the first part of this
+                    essay is to confirm and extend the doctrine of Locke, that all ideas originate
+                    in the senses, and consist of sensations variously modified. Readers who
+                    conceive that Locke’s doctrine, when followed to its consequences, tends to
+                    lower the estimation in which the human mind ought to be held, will probably
+                    attach the same blame to Condillac. His curious saving clause will not vindicate
+                    his opinions among the philosophers of this country, however convenient it might
+                    be found among the adherents of the Roman Catholic church, that the dependence
+                    of the soul on the senses is one of the effects of the fall of man, and a proof
+                    of his present state of degradation. Readers who are not ambitious of possessing
+                    a fixed theory in a department of metaphysics so abstruse, will be pleased with
+                    those traits of acuteness in the observation of mental phenomena which abound in
+                    this essay, and which are often expressed with great felicity, even while the
+                    slight distortions communicated to some of his representations of facts by the
+                    tendencies of his theories obtrude themselves on our notice. The doctrine now
+                    mentioned is followed up by two other leading positions, “that the association
+                    of ideas is the foundation of the most important mental operations,” and “that
+                    language is absolutely necessary to the development of the human faculties.”
+                    Ideas, he asserts, cannot be associated with one another, except by being
+                    associated with words or other signs which become the materials of a language.
+                    On this doctrine he establishes a definition of memory, which is altogether
+                    unique, that it consists in the recalling of words or circumstances relating to
+                    a perception; the recalling of the perception itself belongs to imagination,
+                    while it is reminiscence that makes us recognise it as one which we have
+                    formerly entertained. He denies all memory to animals, because they have no
+                    language. Thus a futile fallacy led him to form a verbal distinction, founded on
+                    no difference in the nature of things. A person destitute of language, and
+                    wishing to have it in his power, on future occasions, to recal a particular
+                    idea, might certainly find means adapted to his purpose, by associating it with
+                    different objeets. These objects would serve the same purpose as the signs of
+                    which our languages consist. Some such associations are essential to memory. The
+                    slightest attention will show us that words or signs serve no other purpose than
+                    is done by all kinds of ideas, in assisting the mind to make use of one another.
+                    λVhat this author calls a sign, is merely another idea intentionally associated
+                    with that which we principally wish to recollect. We may give the latter
+                    numerous associations, that it may have many chances of being recalled. We
+                    associate it either with the most important or with the readiest of our
+                    perceptions, that it may be recalled more perfectly, or with greater certainty.
+                    The only circumstances that render some perceptions better adapted to this end
+                    than others, are their importance, their familiarity, and their analogy with
+                    those which have been previously used. We generally choose our instruments of
+                    private recollection from the materials of language, because these materials are
+                    already employed for communication. They are rendered convenient by their
+                    variety, and by the classifications and analogies which were followed in the
+                    first formation of them, as necessary for rendering them the media of
+                    communication, and which, by connecting them powerfully together, give them a
+                    high adaptation for extensive arrangements. Language, in that state of
+                    improvement in which it exists in a cultivated age, extends intellectual
+                    operations; but it neither adds any radically distinct faculty, nor gives origin
+                    to any new genus of mental exercise. Condillac says, that “a man without
+                    language could not recal his ideas, except when placed in the same circumstances
+                    in which they had been formerly presented.” The obvious answer to this is, that
+                    language, in so far as it serves this purpose, consists in the multiplication of
+                    the assisting circumstances in which a man is placed when a perception is
+                    formed. Many ingenious illustrations are subjoined, which are deserving of
+                    attention; but when well considered they will lead to conclusions diíFering from
+                    those which the author endeavours to establish. In viewing the mind in its
+                    active state, he justly observes, that objects attract its attention only as
+                    they are connected with our temperament, our passions, our condition, and our
+                    wants; and this principle is afterwards beautifully applied to the illustration
+                    of the earliest acquisitions of knowledge, and of the difference of character
+                    between them and many that succeed at a later period. But no person would affirm
+                    that our wants are the signs of our perceptions, though various perceptions are
+                    powerfully recalled by their means.</p>
+                <p part="N">The opinions of the author certainly led him to ascribe too much to
+                    language. It is to the want of signs that he traces the whole disadvantages of
+                    the deaf, whereas we know that they are entirely owing to the deficiencies of
+                    their mental intercourse with others, that is, to their privation, not of the
+                    private, but of the social use of language. We find that the great improvements
+                    now made in the art of communicating with the deaf have made these disadvantages
+                    to disappear. The young man of Chartres, who was born deaf, but acquired the
+                    faculty of hearing when of adult age, and was therefore able to describe the
+                    state of his understanding during his former deafness, declared, that when he
+                    made the sign of the cross, and joined in the other ceremonies of the Roman
+                    Catholic religion, he had never attached to them any meaning, or supposed that
+                    any thing was represented by them. Thus, for want of language, he is represented
+                    as destitute of ideas. In this instance, however, we only perceive <pb
+                        break="no" facs="nls:194749937?mode=fullsize" xml:id="kp-eb0707-9937-0205"
+                    />the facility with which men imitate one another’s acts and professions,
+                    without exercising independent thought. The difference between this deaf man and
+                    most other persons was, that he took the propriety of the ceremonies for
+                    granted, being entirely led by example, while those who had heard their meaning
+                    explained acquiesced with reverence and complacency in certain verbal positions
+                    connected with them, without ever inquiring into their meaning or their merits.
+                    Another illustration is taken from a man, who, though lie enjoyed the faculty of
+                    hearing, had lived apart from all association with his species in the forest of
+                    Lithuania. But it is easy to show that the great mental deficiencies of that
+                    individual arose from the want of society, and not simply from the want of a
+                    language to supply his private meditations with signs.</p>
+                <p part="N">It is in the art of calculation that the utility of signs is most
+                    conspicuous in forwarding the progress of intellectual operation, and it is
+                    there that we find a language presented to the eye, which is adapted in a most
+                    perfect degree to the purposes of the mind. Hence the use of signs for
+                    expressing our ideas of number is a favourite topic with Condillac and the other
+                    adherents of the doctrines of the Nominalists. The number ninety-nine could not
+                    be distinguished from a hundred, except by language. Ninety-nine objects placed
+                    together would not convey a different perception from a number varying from it
+                    by one less or one more. It is an error, however, to imagine, that the words one
+                    hundred, or the ciphers (100) by which the number is represented, give us a
+                    perfect idea of any number. They only represent one relation of it to a certain
+                    mode of accumulation, the decimal series. Independently of all language, general
+                    features may be perceived to characterize objects too complicated to be
+                    comprehended by any human mind.</p>
+                <p part="N">Condillac, seduced by his favourite theories, condemns one of the most
+                    profound and useful of the practical observations of Locke, that the best way of
+                    arriving at correct knowledge is to consider ideas by themselves, independently
+                    of their signs. This exercise our author pronounces to be utterly impracticable;
+                    and all that he attempts to recommend in its stead is the precaution of
+                    employing only such words as are well understood. How can words be understood,
+                    unless the ideas which they represent are considered as detached from all
+                    association with them, and thus exempted from the embarrassing influence of
+                    fallacious analogies?</p>
+                <p part="N">Regarding language as a necessary instrument of mental operations, he
+                    makes some observations on the parts of speech, and the manner in which they are
+                    connected in sentences. He describes with ingenuity the steps by which words
+                    pass from expressing sensible qualities to become the names of mental faculties.
+                    Here we perceive a glimmering of some truths which have been since luminously
+                    displayed in the <hi rend="italic">Philosophical Essays</hi> of. Mr Dugald
+                    Stewart. He introduces at the same time some speculations on the origin of
+                    abstract terms, which are not entitled to equal approbation. He takes occasion,
+                    however, to make one remark which is both beautiful and just, that men have too
+                    often imagined that words perfectly explain the essence and nature of tilings,
+                    whereas they express in reality nothing more than some imperfect analogies. This
+                    position, followed to its consequences, would suggest a correction of a great
+                    part of the author’s errors.</p>
+                <p part="N">In describing the pronoun, he gives way to a species of metaphysical
+                    mysticism, by which he is grievously misled. He conceives that this class of
+                    words must be of late formation, because some difficulty must have occurred in
+                    substituting another word for the proper name of an object. He did not here
+                    consider that nothing of the essence of an object, nothing but qualities,
+                    circumstances, or accidents, is expressed by the proper name, more than by the
+                    pronoun. The same man may be “John,” “father,” “brother,” “master,” “subject,”
+                    “I,” “thou,” or “he,” according to the occasions on which the mention of him is
+                    introduced. All the designations applied to him are equally proper and easily
+                    made.</p>
+                <p part="N">Yet this work is well worthy of an attentive perusal. We find in it a
+                    brilliancy of expression which renders it more amusing than metaphysical
+                    dissertations often are; although it must be confessed that there is in some
+                    instances a false simplicity, arising from an attempt to represent metaphysical
+                    science as easier than it really is. In his subsequent works he acknowledges
+                    that he had fallen into some errors from the precipitate views which he took of
+                    the mental powers; but he specifies no particulars; and a reader who does not
+                    acquiesce in all his improved views will not easily see the exact corrections
+                    which the author made on those contained in his <hi rend="italic"
+                    >Essai.</hi></p>
+                <p part="N">In 1749 he published his <hi rend="italic">Traité des Systèmes,</hi> the
+                    object of which was to show the futility of the doctrines derived from those
+                    hypothetical systems which were the offspring of an erroneous mode of procedure
+                    in the pursuit of knowledge; such as those which set out with general or
+                    abstract maxims, and pretend to establish on them a body of profound science.
+                    Another kind consists of arbitrary suppositions, laid down as principles for the
+                    explanation of things which cannot be otherwise accounted for. These are a
+                    convenient resource for ignorance; they are formed with so much pleasure and so
+                    little trouble, that a man in bed may, by their aid, create and govern the
+                    universe. He illustrates the conspicuous influence which this mode of
+                    systematizing had on opinions in metaphysics. He takes a view of the system of
+                    innate ideas as maintained by Descartes; that of Malebranche, who reduced all
+                    knowledge and all mental activity to operations which had the divine essence for
+                    their objects; that of Leibnitz, who explained the laws both of matter and of
+                    mind by general functions pertaining to simple and indivisible beings, which he
+                    called <hi rend="italic">monades;</hi> and that of Spinoza, who reduced all
+                    nature and all existence to one simple substance, of which the various
+                    phenomena, material and mental, are only modifications. The last of these
+                    systems had created some commotion in the philosophical and religious world, as
+                    adverse to a belief in moral distinctions. Condillac treats the argument with a
+                    dignified delicacy, as having received a wrong direction in the writings of that
+                    author, in consequence of the erroneous methods of investigation which he
+                    employed. His words are, “Does Baylc believe that he has refuted Spinoza, by
+                    exposing the consequences which he himself draws from the system of that
+                    philosopher? If these are not really its consequences, he does not attack
+                    Spinoza. If they are, Spinoza will reply that they are not at all absurd, and
+                    only appear so to persons who are unable to ascend to the principles of things.
+                    Destroy, he will say, my principles, if you would overthrow my system; or if you
+                    let my principles alone, assent to the propositions which are their necessary
+                    consequences.” “My object,” says Condillac, “has been to show that Spinoza had
+                    no idea of the positions which he advanced; that his definitions are vague, his
+                    axioms inaccurate, and his propositions entirely the work of imagination, and
+                    include nothing that can lead to the knowledge of things. Having done this, I
+                    proceed no farther. To attack the phantoms which arise from his principles,
+                    would be as preposterous as the feats of the knights-errant, who combated the
+                    spectres of the sorcerers. The wisest plan is to destroy the enchantment.”
+                    Having shown the radical fallacy of the principles adopted by the preceding
+                    writers, he points out the cases in which hypotheses assist human knowledge. The
+                    first is, <pb break="no" facs="nls:194749950?mode=fullsize"
+                        xml:id="kp-eb0707-9950-0206"/>when we can exhaust all the hypotheses that
+                    can be formed on any subject, and possess a rule for distinguishing that which
+                    is admissible. Of this we have examples in the pure mathematics. A second kind
+                    of hypothesis includes those which are employed in astronomy, provided they are
+                    limited to the object of accounting for the revolutions of the heavenly bodies.
+                    A third occasion on which they ought not to be rejected is, when they facilitate
+                    observation, by giving greater palpability to truths attested by experience, lie
+                    mentions the importance of general systems formed by a process of induction. He
+                    points out the necessity of general systems in politics, founded on the
+                    character and condition of the different classes of men who constitute the body
+                    politic; and concludes with a view of the advantage derived from system in the
+                    arts. He gives some useful practical observations on the application of
+                    mathematical and metaphysical analysis. This treatise abounds in excellent
+                    remarks on human character, as displayed both in intellectual pursuits and in
+                    the business of life. His comparison of Locke and Malcbranche is a masterpiece
+                    of description.</p>
+                <p part="N">Next in order, his <hi rend="italic">Traité</hi><hi rend="italic">des
+                        Sensations</hi> made its appearance in 1754∣; a work which displays a truly
+                    philosophical spirit, uniting boldness with circumspection. The mode in which he
+                    investigates the origin of ideas of sense, and the progress of intellectual
+                    operation, bad the merit of some originality, and afforded an undoubted
+                    advantage to the prosecution of the most interesting inquiries. He considers the
+                    sense in a separate state, by forming the supposition of a being created without
+                    sensations. He supposes this being in the first instance to be endowed with the
+                    sense of smell, and describes the mental character which would thus be formed.
+                    He gives a similar account of the other senses, and examines successively the
+                    effects of their combinations, till he arrives at the description of a complete
+                    human being.</p>
+                <p part="N">His uniform aim is to show <hi rend="italic">that all ideas and</hi><hi
+                        rend="italic">alimentai</hi><hi rend="italic">phenomena consist of
+                        sensations transformed.</hi> Those who reject that doctrine will still
+                    acknowledge the beauty and ingenuity of his train of description. The conclusion
+                    itself is refuted by the slightest reflection on the very scope of the author.
+                    He evidently supposes the man who becomes thus complete by receiving his
+                    different external senses in succession, to have been previously in possession
+                    of dormant intellectual faculties; for his descriptions, while they apply to
+                    man, will not apply to many other animated beings whose senses are equally
+                    perfect, because the use which they are able to make of the impressions received
+                    is cither incomparably more limited or different in kind. If the results of
+                    intellectual operation are nothing else than sensations transformed, the
+                    transformation is certainly more important than the original materials, and the
+                    transforming power cannot be lightly esteemed by any one who values extended
+                    knowledge. The favourite theme of the author, however, detracts but little from
+                    the pleasure which this ingenious work imparts. Some would pronounce the
+                    discussions which it contains to be not strictly analytical. Analysis should
+                    begin with man as he exists in a complicated state, with all his senses as well
+                    as his faculties entire, and proceed to separate his constituent powers by
+                    successive subdivisions, till, in its progress downwards, it arrives at the
+                    description of each sense and each species of intellectual operation in a
+                    separate and simple state. The description of a man endowed in that kind of
+                    succession which Condillac describes, is a purely hypothetical process, more
+                    allied to arbitrary synthesis than to analysis. By analysis, however, the author
+                    means, in a general way, the task of surveying in succession the parts of which
+                    compound objects consist, and examining separately the relations by which they
+                    are connected, without any reference to the order of procedure. Decomposition
+                    and recomposition he, in a subsequent work, represents as alike belonging to
+                    analysis; and though from etymology the Greek word <hi rend="italic"
+                        >synthesis</hi> is the same with that of the Latin word <hi rend="italic"
+                        >composition,</hi> he limits the former term to that mode of composition
+                    which he condemns, that which begins with general or abstract doctrines, and
+                    which regards these as the ground of systems pretending to explain the existing
+                    world. Although his order of description of the senses is so far hypothetical as
+                    to have nothing corresponding to it in the natural history of man, he regarded
+                    it as sufficiently capable of being substantiated by close comparison with every
+                    man’s experience, and thus distinguished from the offspring of an arbitrary
+                    synthesis.</p>
+                <p part="N">These works having procured for the author a distinguished character in
+                    the philosophical world, he was appointed preceptor to the infant Duke of Parma,
+                    grandson of Louis XV.; and, in applying himself to the discharge of the duties
+                    of that office, he brought into exercise the same talents which had shone so
+                    conspicuously in his writings. He composed a course of studies <hi rend="italic"
+                        >(Cours ďEtudes']</hi> in thirteen volumes, including <hi rend="italic"
+                        >Grammaire,</hi><hi rend="italic">ÎArt dEcrire, ïArt</hi><hi rend="italic"
+                        >de Raisonner,</hi><hi rend="italic">ľArt</hi><hi rend="italic">de
+                        Penser,</hi> occupying the first four volumes, succeeded by nine volumes <hi
+                        rend="italic">On Ancient and Modern History.</hi> His <hi rend="italic"
+                        >Grammaire</hi> exhibits, in his own able manner, doctrines in universal
+                    grammar nearly allied to those which generally prevailed, and which we find in
+                    the <hi rend="italic">Grammaire Générale et</hi><hi rend="italic"
+                        >Raisoìinée</hi> of the Port Royal. The author’s favourite principle, that
+                    every language is an analytical method, runs through the body of his work, and
+                    probably leads him to pay too great respect to the technical differences of the
+                    parts of speech, as indicating thoughts of different classes. <hi rend="italic"
+                        >ĽArt d'</hi><hi rend="italic">Ecrire</hi> is a most agreeable and
+                    enlightened system of general criticism, and adds to this the merit of
+                    exhibiting an interesting view of French literature, in the examples of good and
+                    of faulty writing by which the precepts contained in it are illustrated. The
+                    whole rules relative to style are referred to one principle, that a writer ought
+                    to conform his diction and his imagery to the most fundamental associations <hi
+                        rend="italic">of</hi> ideas. His rules thus deduced do not exhibit any such
+                    difference from those of other authors as to form in his readers a style marked
+                    by any singularities. On the contrary, we find him exempting literature from the
+                    shackles of some rules, the close observance of which secures an apparent
+                    accuracy at the expense of a natural ease, and showing his susceptibility to the
+                    influence of a pure taste by bestowing approbation on passages which a critic of
+                    a more formal cast would have thought himself called upon to censure. His <hi
+                        rend="italic">Art</hi><hi rend="italic">de Raisonner</hi> is a work of
+                    singular excellence and utility. It is a luminous exemplification of the rules
+                    of reasoning, in the steps of that mental progress by which physical
+                    philosophers have unfolded the laws of motion, the principles of mechanics, and
+                    the theory of the heavenly bodies. He discriminates w ith just and beautiful
+                    effect the different kinds of evidence on which the various doctrines of those
+                    branches of natural philosophy rest. This treatise is well worthy of being known
+                    in our language, as it exhibits an uncommonly pleasing road to an elegant
+                    department of physical knowledge, and furnishes a model for the prosecution of
+                    other studies. His^4r∕ <hi rend="italic">de Penser,</hi> notwithstanding all the
+                    ability which it displays, will probably be found the least interesting part of
+                    the <hi rend="italic">Cours dEtudes,</hi> as it chiefly consists in an
+                    explanation and recommendation of the author’s peculiar notions on the nature of
+                    mind. His <hi rend="italic">Ancient and Modern History</hi> forms a body of
+                    morality and legislation. His details are not inspirited with the ardent
+                    eloquence of a popular historian who excites a deep interest in individual<pb
+                        break="no" facs="nls:194749963?mode=fullsize" xml:id="kp-eb0707-9963-0207"/>
+                    characters or insulated events. He does not exhibit paintings to the
+                    imagination, but contents himself with furnishing leading principles to the
+                    understanding. His style, though pure, is without ornament and without fire, and
+                    hence his history lias been much less read than his other works.</p>
+                <p part="N">In 1768 he was admitted into the Academy of Sciences, on the death of
+                    the Abbé d’Olivet; but he never afterwards appeared at any of the meetings of
+                    that body.</p>
+                <p part="N">His attention being habitually directed to those subjects in which
+                    intellectual exertion was most wanted, for the advancement of objects of general
+                    utility, he published, in 1776, the results of his studies on Political Economy,
+                    in a work entitled <hi rend="italic">Le</hi><hi rend="italic">Commerce</hi><hi
+                        rend="italic">et le Gouvernement, considérés relativement l'un à
+                        l'autre.</hi> This work became an object of attack to the Economists; and
+                    the author, no doubt, like most others who have written on that subject,
+                    committed some mistakes. Yet he essentially improved the discussions connected
+                    with it, and he exhibits a model of luminous arrangement in his mode of
+                    delivering his opinions.</p>
+                <p part="N">The extended fame of Condillac procured for him a most honourable
+                    testimony of esteem from the Polish nation. The council of public instruction of
+                    that nation requested him, through the medium of Count Ignatius Potocki, to draw
+                    up an elementary treatise on logic, for the use of their palatinal schools. This
+                    gave birth to liis <hi rend="italic">Logique,</hi> which was published in 1780,
+                    a few months before his death. The object of this work is to give a condensed
+                    account of the principles of <hi rend="italic">analysis,</hi> taken in the
+                    acceptation already mentioned. This process, he observes, is taught by nature,
+                    and is always conducted with accuracy when man is in quest of the means of
+                    supplying the urgent necessities of his being. It is when curiosity forms to him
+                    a separate order of objects for his gratification, that he becomes precipitate
+                    in grasping at conclusions, and embraces them with readiness, though not the
+                    produce of that rigorous correctness of method which necessity imposes on his
+                    earlier pursuits. In giving an account of the origin of ideas and the mental
+                    faculties, he exemplifies his views of analysis, and, at the same time, prepares
+                    the way for further applications of the mental powers of his pupils. He adheres
+                    to his doctrine of the supreme and exclusive influence of language in conducting
+                    all intellectual pursuits. Generalization and classification arc, with him,
+                    nothing more than the contrivance of generic names. The art of reasoning is made
+                    to consist in the formation of an appropriate language for the different
+                    sciences. He considers the justness of our reasonings as depending on the degree
+                    of perfection of the languages which we possess. The superior certainty of
+                    mathematical compared with other knowledge is ascribed by him to the superior
+                    accuracy of mathematical language. Hence his favourite illustrations of the
+                    progress of the mind are taken from arithmetic and algebra.. This principle is
+                    certainly carried by' him to great excess in the framing of his general
+                    positions; yet we find him on other occasions recommending to his readers to
+                    cultivate the unbiassed study of nature, and to choose their words rather from
+                    the correctness of their application to objects, as they have fallen under
+                    actual observation, than from having their meaning fixed by the unsatisfactory
+                    formality of verbal definitions. He lays down some highly useful rules for the
+                    prosecution of knowledge. His errors arise chiefly from a strained effort to
+                    give to his subject a degree of simplicity not adapted to its nature. Hence some
+                    of his maxims are more quaint than just; but, compared with the complicated
+                    systems of logic previously in use, that of our author formed an improvement
+                    which merited the grateful reception that was given to it; and, even at the
+                    present day, if we pardon the paradoxical generalities by which it is
+                    disfigured, we may profitably trace, in company with the author, the steps by
+                    which many intellectual attainments are made, and the means by which the process
+                    admits of being facilitated.</p>
+                <p part="N">The last work of Condillac, his posthumous treatise, entitled <hi
+                        rend="italic">La Langue</hi><hi rend="italic">des Calculs,</hi> formed an
+                    important acquisition to science, which has not in this country been duly
+                    appreciated. In some subordinate points it is not unexceptionable; for example,
+                    he here, as in some of his former works, particularly his <hi rend="italic"
+                        >Art</hi><hi rend="italic">de Raisonner,</hi> perpetually repeats the
+                    assertion as of the greatest importance, that just reasoning consists in tracing
+                    identical propositions, and in passing from identity to identity. Aware of the
+                    objection to which this assertion was exposed, that identical propositions can
+                    amount to nothing more than futile and stagnant truisms, he imagines that this
+                    objection is answered by stating that, in the different steps of a process of
+                    calculation, there is <hi rend="italic">an identity of ideas,</hi> but <hi
+                        rend="italic">a difference in words,</hi> which is certainly a gross
+                    paralogism. In one or two passages he states with greater truth, though
+                    apparently by accident, that a process of calculation consists in considering
+                    the same objects in different points of view; a proposition which ought to have
+                    had that conspicuous place in his treatise which he gives to his doctrine of
+                    perfect identity. If this single alteration is made in the mind of the reader,
+                    the <hi rend="italic">Langue des Calculs</hi> will be perused with the highest
+                    profit. An English translation of it would form an important accession to the
+                    means of an enlightened education in this country', as leading, by pleasant
+                    steps, to the highest scientific attainments.</p>
+                <p part="N">Condillac is to be considered as in the soundest sense of the word an
+                    amiable man. If he had an apparent reserve, and in some respects a want of
+                    fervour, these apparent defects were more than compensated by the steadiness of
+                    his conduct. In early life he was intimate with J. J. Rousseau, Diderot, and
+                    Duclos. But he indulged no hazardous speculations on the general interests of
+                    mankind, and cherished no modes of thinking which tended to divide or distract
+                    the age. He was sincerely public-spirited; and his conciliating sentiments will,
+                    perhaps, among those who most accurately weigh them, be respected as morally
+                    sublime. As a well-wisher to the fortunes of his species, he acted on a
+                    principle which he considers as having uniformly operated in the production of
+                    former improvements. He dwells on the value of the attainments already made, as
+                    an exercise fitted to create a spontaneous disposition to extend them, divested
+                    of the spirit of party, and exempt from rashness. Hence his works were not only'
+                    much read by individuals, but were employed in many of the continental
+                    seminaries of education, and, without exciting discontent or apprehension,
+                    except among the inflexible scholastics of Spain, proved successful in
+                    illuminating the age in which they appeared. He died in August 1780, on his
+                    estate near Bangenci, where he had cultivated a life of retirement, though not
+                    more allied to solitude than as it was exempt from the scenes of public bustle
+                    and prevalent ambition.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

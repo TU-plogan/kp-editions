@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0707-4578-0562-04" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">CUTCH</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:839044">British</term>
+                    <term ref="fast:1025853">Months</term>
+                    <term ref="fast:1171139">Water</term>
+                    <term ref="fast:1025743">Monsoons</term>
+                    <term ref="fast:1124682">Soils</term>
+                    <term ref="fast:957175">Hindus</term>
+                    <term ref="fast:916820">Europeans</term>
+                    <term ref="fast:812571">Arabism</term>
+                    <term ref="fast:812576">Arabs</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4tt4fw6r">East</term>
+                    <term ref="lcsh1910:b4513v11w">Water</term>
+                    <term ref="lcsh1910:b48g8fq16">Monsoons</term>
+                    <term ref="lcsh1910:b4028pc5x">Soils</term>
+                    <term ref="lcsh1910:b4j96094w">Seasons</term>
+                    <term ref="lcsh1910:b4qn5zh77">Mahommedanism</term>
+                    <term ref="lcsh1910:b44q7qq38">Hindus</term>
+                    <term ref="lcsh1910:b4gh9bg6t">Mussulmans</term>
+                    <term ref="lcsh1910:b48c9r41n">Arabs</term>
+                    <term ref="lcsh1910:b44f1mm3n">Courts</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1210276">India</term>
+                    <term ref="fast:1206073">China</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194754578?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">CUTCH</label>, a province of the south-western
+                    extremity of Hindustan, situated between the 68th and 72d degrees of east
+                    longitude, and the 22d and 24th of north latitude. It is a peninsulated tract of
+                    land, inclosed towards the west by the eastern branch of the Indus or the Koree;
+                    on the south by the Indian Ocean and the Gulf of Cutch; <pb break="no"
+                        facs="nls:194754591?mode=fullsize" xml:id="kp-eb0707-4591-0563"/>and on the
+                    north and east, towards the interior, by the great Northern Runn, an extensive
+                    salt morass or lake, which from May to October is flooded with salt water, and
+                    communicates in its greatest extent with the Gulf of Cutch on the west, and the
+                    Gulf of Cambay on the east, these two divisions being united during the
+                    monsoon.</p>
+                <p part="N">The interior of Cutch is studded with hills of considerable elevation,
+                    and a range of mountains runs through it from east to west, many of them of the
+                    most fantastic shapes, with large insulated masses of rock scattered in all
+                    directions. In the intervening valleys the country is not deficient in fertility
+                    and verdure, and is sufficiently productive in all cases where the nature of the
+                    government permits the cultivator to enjoy the fruits of his labour. But this
+                    very seldom happens. Many of the hills are covered with jungle, and with the
+                    strongholds and dens of petty chiefs, who sometimes protect, but more frequently
+                    issue forth to plunder, the lower country. The general appearance of Cutch is
+                    barren and uninteresting; the greater part is a rock destitute of soil, and
+                    presenting the wildest aspect; the ground is cold, poor, and sterile; the rains
+                    are generally scanty, and often fail altogether; and the whole face of the
+                    country bears marks of volcanic action. From the violence of tyranny, and the
+                    rapine of a disorderly banditti, by which this district has from time immemorial
+                    been infested, as well as from shocks of earthquakes, the villages have a
+                    ruinous and dilapidated appearance; and, with the exception of a few fields in
+                    their neighbourhood, the country presents a rocky and sandy waste, with in many
+                    places scarcely a show of vegetation. Water is scarce and brackish, and is
+                    chiefly found at the bottom of low ranges of hills, which abound in some parts;
+                    and the inhabitants of the extensive sandy tracts suffer greatly from the want
+                    of it. Mrs Elwood, who visited this country in her overland journey to India,
+                    observes, that “she could imagine that Cutch had been originally a rocky island
+                    of volcanic production, thrown up at some great convulsion of nature, and that
+                    in the course of ages soil had been washed down by the Indus, the Bhunni, the
+                    Puddar, and other streams, which now lose themselves in the sand.” Owing to the
+                    uncertainty of the periodical rains in Cutch, the country is liable to severe
+                    famines, which, along with the internal broils by which it has been harassed,
+                    have greatly obstructed cultivation, and thinned the inhabitants, many of whom
+                    have been induced to emigrate to Bombay and Gujerat; and, in addition to all
+                    these evils, an uncommonly violent earthquake, which occurred on the 16th of
+                    June 1819, nearly destroyed Bhooj, the capital, and greatly injured the towns of
+                    Anjar, Mandavie, and Moondria or Mundra. The soil of Cutch produces grain,
+                    cotton, tobacco, ghee, &amp;c.; and iron and coal have been discovered, the
+                    latter near the surface <hi rend="italic">of</hi> the ground, on the banks of
+                    one of the rivers, seven miles north-east of Bhooj, but it is not in general use
+                    as fuel.</p>
+                <p part="N">The Runn, which communicates with the Gulf of Cutch, and sweeps round
+                    the northern side of that province, is a very extensive salt morass, varying in
+                    breadth from five to eighty miles across, and during the rains nearly impassable
+                    for horsemen. The total area of this immense morass may be estimated at about
+                    8000 square miles, without including any portion of the Gulf of Cutch, which is
+                    in many parts so shallow as to resemble a marshy fen rather than an arm of the
+                    sea. The Runn is said to be formed by the overflow of the river Puddar and the
+                    Gulf of Cutch I during the monsoon; but in December it is quite dry, and in most
+                    places hard. The wild ass is very common on the borders of this lake, being seen
+                    in herds of from sixty to seventy at a time.</p>
+                <p part="N">The temperature of Cutch during the hot season is high, the thermometer
+                    frequently rising to 100° or 105°; and in the months of April and May, clouds of
+                    dust and sand, blown about by hurricanes, which are common in these months,
+                    envelope the houses, and the glass windows scarcely afford any protection. The
+                    hot wind in May is so scorching that it has been compared to the feeling which
+                    would be experienced on standing near a quantity of burning grass. For nine
+                    months of the year the climate is comparatively temperate and agreeable; but the
+                    approach of October is equally dreaded both by the native and European
+                    population as extremely unhealthy, and at the close of the monsoon the
+                    oppression of the atmosphere is described as being excessive. The influence of
+                    the monsoon is greatly moderated before it reaches this country, and the rains
+                    sometimes fail altogether; but although in this case the necessary consequences
+                    are want and misery to the great body of the people, yet these dry seasons are
+                    far more favourable to the health of Europeans. In 1825, when the monsoon rains
+                    were copious, the country was extremely unhealthy; and, on the other hand, the
+                    years 1823 and 1824 were equally remarkable for salubrity and for drought. The
+                    monsoon generally sets in with great violence from the north-east before it
+                    settles in the south-west. The prevailing wind is westerly, and it blows west by
+                    south and west by north ten months in the year. The easterly winds, which do not
+                    blow more than a month in the year, are always unhealthy and unpleasant, and
+                    bring with them, if they continue long, epidemics and locusts. Cutch is
+                    considered unhealthy by the natives from other parts of the country; and <hi
+                        rend="smallcaps">Df</hi> Burnes, who was stationed there, and gives an
+                    account of its medical topography, mentions that he has known many persons from
+                    Bombay, especially servants, who were perfectly useless from continued sickness
+                    in Cutch, but who recovered their health the moment they had left it. He also
+                    adds, that he never was at any station where recoveries from fever were so
+                    tedious and incomplete. The hospital returns do not, however, he adds, show any
+                    extraordinary sickness. The cholera, that dreadful scourge of Europe as well as
+                    of India, has made no progress in Cutch. The most common diseases among the
+                    natives are fever and rheumatism; and fever is also the prevailing disease among
+                    Europeans, the first attacks of which are always the most dangerous.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">See Narrative of
+                            a Visit to the Court of Sinde; also a Sketch of the History of Cutch,
+                            &amp;c. By J. Burnes, Surgeon to the Presidency at Bhooj.
+                        1831.</p></note> “These,” Dr Burnes mentions, “are generally in the form of
+                    bilious remittents, leaving a tendency behind them to intermittent fever, liable
+                    to produce a paroxysm on any exciting cause ;” and in elucidation of this, he
+                    mentions, that of five officers resident in Cutch, of whom he is himself one,
+                    they are all subject to periodical attacks, and scarcely at any time enjoy six
+                    months uninterrupted health. These, however, are not severe, and easily yield to
+                    the remedy of sulphate of quinine, without any serious injury to the
+                    constitution. There are some stations at Cutch particularly noxious, such as
+                    Narrona, a village in a marsh twenty-four miles north-east of Bhooj, near the
+                    Runn; and Luckput Bunder, remarkable for the badness of its water.</p>
+                <p part="N">The principal towns are Bhooj, Anjar, Jharrah, Kunt-cote, and Kuttaria.
+                    The principal sea-ports are Mandavie and Mundra. The town best known to
+                    Europeans is Bhooj, which is situated inland, and is surrounded by an
+                    amphitheatre of hills, some of which approach within <pb break="no"
+                        facs="nls:194754604?mode=fullsize" xml:id="kp-eb0707-4604-0564"/>three or
+                    four miles of the city. The hill of Bhoojeah, on which the fort is situated, and
+                    under the south-west angle of which is the cantonment of the Cutch brigade,
+                    rises to the height of 500 feet in the middle of the plain, and is detached from
+                    other high ground. The residency is four miles distant in a westerly direction.
+                    There are many mountain streams, but no navigable rivers. They scarcely contain
+                    any water except in the rainy season, when they are very full and rapid, and
+                    discharge themselves into the Runn, all along the coast of which the wells and
+                    springs are more or less impregnated with common salt, and other saline
+                    ingredients.</p>
+                <p part="N">Various causes have contributed to thin the population of this country.
+                    In 1812 it was ravaged by a famine and pestilence, which destroyed a great
+                    proportion of its inhabitants; according to some accounts nearly one half. This,
+                    joined to the tyranny and violence of the government until the year 1819, and
+                    more lately to a succession of unfavourable seasons, has forced many of the
+                    cultivators to remove to Sinde and other countries. At present the inhabitants
+                    may be estimated at 350,000, of whom one third are Mahommedans, and the
+                    remainder Hindus of various castes, resembling in their habits and manners those
+                    of other parts of India. The Jharejah Rajpoots form a particular class, being
+                    the aristocracy of the country; and all are more or less connected with the
+                    .family of the Rao or prince. There are in Cutch about 250 of these Jharejah
+                    chiefs, who all claim their descent from Sacko Goraro, a prince who reigned in
+                    Sinde about a thousand years ago. From him also the prince is lineally
+                    descended, and he is the liege lord of whom all the chiefs or nobles hold their
+                    lands in feu, for services which they or their ancestors had performed, or in
+                    virtue of their relationship to the family. They are all termed the brotherhood
+                    of the Rao, and supposed to be his hereditary advisers, and their possessions
+                    arc divided among their male children; and to prevent the breaking down of their
+                    properties, the necessary consequence of this law <hi rend="subscript"> vj</hi>
+                    of inheritance, there is no doubt that infanticide is common among them, and
+                    that it extends to the male as well as the female descendants. The British have
+                    exerted their influence to check this inhuman practice; but it is so interwoven
+                    with the state of manners and property, that it is still carried on in the
+                    private recesses of the Jharejah’s forts, where it is impossible to watch them.
+                    They consider it as unlawful to marry any female of their own tribe, being all
+                    descended from a common parent. They accordingly marry into the families of
+                    other Rajpoots; and to this unfortunate regulation may be chiefly ascribed the
+                    destruction of all the female children. The Jharejabs have a tradition that when
+                    they entered Cutch they were Mahommedans, but that they afterwards adopted the
+                    customs and religion of the Hindus. It is certain, indeed, that they still
+                    retain many Mahommedan customs. They take oaths equally on the Koran or on the
+                    Shastras; they employ Mussulman books; they eat from their hands; the Rao, when
+                    he appears in public, alternately worships God in a Hindu pagoda and a
+                    Mahommedan mosque; and he fits out annually at Mandavie a ship for the
+                    conveyance of pilgrims to Mecca, who are maintained during the voyage chiefly by
+                    the liberality of the prince. The Mahommedans in Cutch are of the same
+                    degenerate castc with those usually found in the western parts of India. The
+                    Meeanahs form a particular class, who claim the same descent as the Jharejabs,
+                    and boast of their constancy to the Mahommedan creed, while the latter
+                    apostatized; but they have now entirely degenerated, being little better than
+                    banditti, always ready to commit outrages, and to sally out in disorderly bands
+                    to plunder the peaceful country. Such has been the weakness and tyranny of the
+                    rulers of Cutch, that they have frequently had recourse to these wretched
+                    auxiliaries in order to aid them in their inordinate exactions, while at ' other
+                    times they recruited the army from the same race. They were nearly extirpated
+                    under the rigorous rule of Futteh Mahommed, but of late years they have returned
+                    in considerable numbers to their villages among the hills. In the seasons of
+                    scarcity of 1823 and 1824 many of them emigrated to Sindc, where, joining with
+                    other adventurers, they formed disorderly bands, who made forays into Cutch,
+                    several villages of which they plundered and burned. The natives are in general
+                    of a stronger and stouter make, and even handsomer, than those of western India;
+                    and the women of the higher classes are also handsome. The Ryots are described
+                    as intelligent, and the workmen are justly celebrated for their ingenuity and
+                    mechanical skill. The palace at Mandavie, and a tomb of one of their princes at
+                    Bhooj, are fair specimens of their architectural skill. In the manufacture of
+                    gold and silver ornaments they display a taste and nicety far beyond any Asiatic
+                    artists, except those of China; and there is scarcely any piece of mechanism
+                    which, with some instruction, may not be imitated by the goldsmiths and
+                    carpenters at Bhooj. The natives of this country are in general peaceable and
+                    obedient subjects, for robberies and murders are seldom committed except by the
+                    Meeanahs. They are universally addicted to the use of opium,and the hookah. The
+                    quantity of opium which they take is enormous; and its effects, according to Dr
+                    Burnes, are less deleterious to their constitution than might be supposed;
+                    though he mentions, that from being continually under its influence, they appear
+                    to be of a dull and phlegmatic character.</p>
+                <p part="N">The country of Cutch was invaded about the ninth century by a body of
+                    Mahommedans of the Summa tribe, who under the guidance of five brothers
+                    emigrated from Sinde, and who gradually subdued or expelled the original
+                    inhabitants, consisting of three distinct races. The descendants of these five
+                    leaders assumed the name of Jharejah, from a chief named Jharrah, who set an
+                    example of female infanticide by putting to death his seven daughters in one
+                    day. Cutch continued tranquil under their sway for many years, until some family
+                    quarrel arose, in which the chief of an elder branch of the tribe was murdered
+                    by a rival brother. His son fled to Ahmedabad to seek the assistance of the
+                    viceroy, who was married to his sister, and who reinstated him in the
+                    sovereignty of Cutch, and Moorvee in Kattiwar, with the title of Rao, or Rawul,
+                    in the year 1519.</p>
+                <p part="N">The succession continued in the same line from the time of this prince
+                    until the year 1666, when a younger brother, Pragjee, murdered bis elder
+                    brother, and usurped the sovereignty. This line of princes continued till the
+                    year 1760 without any remarkable event, when, in the reign of Rao Gore, the
+                    country was invaded four times by the Sindians, who wasted it with fire and
+                    sword. The reign of this prince, as well as that of his son Rao Rahi-den, by
+                    whom he was succeeded in 1778, was marked by cruelty and blood. The latter
+                    prince was dethroned, and, being in a state of mental derangement, was during
+                    his lifetime confined by Futteh Mahommed, a native of Sinde, who continued, with
+                    a short interval, in which the party of the legal heirs, Bhyjee Bawa, gained the
+                    ascendency, to rule the country until his death in 1813. It was in the reign of
+                    Futteh Mahommed that a communication first took place With the British
+                    government. During the contests for the sovereignty between this usurper and the
+                    legal heir, the leader of the royal party, Hunsraj, the governor of Mandavie,
+                    sought the aid of the British. But no closer connection followed at that time
+                    than an agreement for the suppression of piracy, or of any inroads of troops to
+                    the eastward of the Runn, or Gulf of Cutch; <pb break="no"
+                        facs="nls:194754617?mode=fullsize" xml:id="kp-eb0707-4617-0565"/>and in
+                    return the Company’s government agreed to warn the rulers of Sinde against any
+                    attempt to invade the neighbouring country of Cutch. But the Gulf of Cutch,
+                    notwithstanding this agreement, continued to swarm with pirates, who were openly
+                    encouraged or connived at by the son of Hunsraj, who had succeeded his father,
+                    as well as by Futteh Mahommed, who also permitted bodies of banditti to cross
+                    into Kattiwar, which they laid waste, and even proceeded to lead a force across
+                    the Ruŋn into Purkur, with a view of extending his authority in that quarter.
+                    Futteh Mahommed left several sons by different wives, who were competitors for
+                    the vaeant throne. Hussein Meyan succeeded to a considerable portion of his
+                    father’s property and power. Jugjevan, a Brahmin, the late minister of Futteh
+                    Mahommed, also received a considerable share of influence; and the hatred of
+                    these two factions was embittered by religious animosities, the one being Hindu
+                    and the other Mahommedan. The late Rao had declared himself a Mahommedan, and
+                    his adherents were preparing to inter his body in a magnificent tomb, when the
+                    Jharejabs and other Hindus seized the corpse and consigned it to the flames,
+                    according to the forms of their superstition. The two factions declared, the one
+                    for Ladoba, the nephew of the late prince Rao Kahiden; the other for Maun Sing,
+                    his son by a slave girl, who was elevated to the throne under the name of Rao
+                    Bharra, or Bharmuljee.</p>
+                <p part="N">The administration of affairs was nominally in the hands of Hussein
+                    Meyan and his brother Ibrahim Meyan. Many sanguinary broils now ensued, in the
+                    course of whieh Jugjevan, with several of his family, were murdered, and the
+                    executive authority was much weakened by the usurpations of the Arabs and other
+                    chiefs. In the mean time lbrahim Meyan was stabbed by an assassin; and after
+                    various other scenes of anarchy and blood, the RaoBharmul-jee, by general
+                    consent, resumed his lawful power. But lιis reign was one continued series of
+                    the grossest enormities; his hostility to the British was no longer concealed;
+                    and his inroads into their territories were continued with increased activity.
+                    There was no longer, therefore, any room for hesitation; and accordingly a force
+                    of 10,500 men crossed the Runn in November 1815, and were within five miles of
+                    Bhooj, the capital of the country, when a treaty was concluded, by which the Rao
+                    Bharmuljee was confirmed in his title to the throne, and agreed to pay for the
+                    losses sustained by the chieftains of Kattiwar from predatory ineursions; to
+                    re-imburse the expenses of the expedition, which, however, was not insisted on
+                    by the British; to make himself responsible for the good conduct of his
+                    subjects; to disband the Arab mercenaries; and to fix the Runn and the Gulf of
+                    Cutch as the eastern boundaries of his principality, and to cede in perpetuity
+                    to the British, Anjar and its dependencies. The Rao, however, was far from
+                    fulfilling the terms of this treaty. He gave himself up to intemperance and the
+                    grossest indulgences; and being a tool in the hands of an unprincipled faction,
+                    he gave orders for the murder of his cousin Ladoba, the nephew of the late Rao;
+                    and on every occasion he displayed his hostility to the British. On these
+                    grounds, it was determined to depose him, and an army was assembled at Anjar
+                    under the command of Sir William Keir, where it was joined by the five principal
+                    Jharejah chiefs. The British force soon approached the capital, and having taken
+                    the fort of Bhorjeah by assault, the Rao Bharmuljee surrendered his person to
+                    the British, and was immediately plaeed under a guard. He has since been
+                    detained as a state prisoner; and his only son, a child of three years of age,
+                    was elected sovereign. A regency was appointed, of which the British resident,
+                    Captain M <hi rend="superscript"> i</hi> Murdo, was declared president; and
+                    since this period the country, under the superintending influence of the
+                    British, has enjoyed comparative tranquillity.</p>
+                <p part="N">Cuτcιι <hi rend="smallcaps">Gunda</hi><hi rend="smallcaps">va,</hi> a
+                    district in the province of Beloo- , chistan, situated at the bottom of the
+                    mountains lying south-east of Kelat. It is about 150 miles in length, and forty
+                    or fifty in breadth. The soil is rich, black, and loamy, and produces every
+                    species of grain, as also cotton, indigo, madder, and other commodities. The
+                    rains are heavy in June, July, and August; it rains also, but not so heavily, in
+                    the spring months. The climate during the summer is unhealthy, owing to the
+                    simoom or pestilential wind which blows at that time, by which many people lose
+                    their lives. Great quantities of grain are exported from this district to the
+                    sea-ports of Curaċhee and Sonmeanyq whence it is shipped to Muscat, on the coast
+                    of Mekran. In unfavourable seasons it is also sent to the mountainous
+                    country.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0705-3360-0792-04" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">CALDERWOOD, David</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:860364">Church</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:796146">Acting</term>
+                    <term ref="fast:996769">Lettering</term>
+                    <term ref="fast:996779">Letters</term>
+                    <term ref="fast:833378">Bishops</term>
+                    <term ref="fast:1182566">Year</term>
+                    <term ref="fast:881747">Courts</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4r49gb4d">Church</term>
+                    <term ref="lcsh1910:b47d2q898">Churches</term>
+                    <term ref="lcsh1910:b4pn8xd98">Acting</term>
+                    <term ref="lcsh1910:b4v40jz59">Lettering</term>
+                    <term ref="lcsh1910:b4cj87n8t">Letters</term>
+                    <term ref="lcsh1910:b42804z62">Bishops</term>
+                    <term ref="lcsh1910:b44f1mm3n">Courts</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1206715">Scotland</term>
+                    <term ref="fast:1219920">England</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193743360?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">CALDERWOOD, <hi rend="smallcaps">David</hi></label>,
+                    an industrious historian of the church of Scotland, and a strenuous defender of
+                    its discipline, was born in the year 1575. He was educated in the university of
+                    Edinburgh, where he took the degree of A. Μ. in the year 159∣ig and having been
+                    early destined for the ehurch, he devoted much attention to the requisite<pb
+                        break="no" facs="nls:193743373?mode=fullsize" xml:id="kp-eb0705-3373-0793"/>
+                    studies, and acquired a large fund of theological learning. Soon alter the
+                    commencement of the ensuing century, he became minister of Crailing near
+                    Jedburghζ and he speedily began to take a very conspicuous part in the
+                    ecclesiastical proceedings of that period.</p>
+                <p part="N">The king, who seems to have considered prelacy as a convenient
+                    instrument of arbitrary power, was extremely anxious to assimilate the church of
+                    Scotland to the church of England. Having succeeded in obtruding episcopacy,
+                    which was a very unwelcome guest, it was the next object of his solicitude to
+                    enlarge the authority and jurisdiction of the bishops; and regarding the end as
+                    highly desirable, he was not extremely scrupulous as to the means. His schemes
+                    were however opposed by many of the clergy, and were not relished by the great
+                    body of the people; nor was any individual more resolute or more consistent in
+                    his opposition than Calderwood, who spent the best years of his life in
+                    contending for purity of doctrine and simplicity of discipline. In the year
+                    1608, when Law, bishop of Orkney, made his appearance in the capacity of visitor
+                    of the presbytery of Jedburgh, Calderwood, together with George Johnston,
+                    minister of Ancram, took a formal protest against his authority, and drew up a
+                    declinature, divided into various heads. Dr Abernethy, minister of Jedburgh,
+                    professed at first to support them in their opposition; but his zeal having very
+                    speedily abated, he was appointed perpetual moderator of the presbytery, and in
+                    due time became bishop of Caithness. Calderwood and Johnston had been elected
+                    members of the general assembly; but in order to exclude them from this and
+                    other ecclesiastical courts, the visitor ordered them to be “put to the horn”
+                    the very same night. The registration of the writ in the sheriff’s books was
+                    with great difficulty prevented; but in consequence of Bishop Law’s information,
+                    the king directed the privy council to punish them in an exemplary manner. By
+                    the intercession of the earl of Lothian with the chancellor and the earl of
+                    Dunbar, their punishment was restricted to confinement within the limits of
+                    their respective parishes.<note anchored="true" place="bottom" type="authorial"
+                            ><p part="N">Calderwood's Hist. of the Church ofr Scotland, p. 578,
+                            599.</p></note></p>
+                <p part="N">With the benefit of episcopacy the king imparted to his native country
+                    the benefit of a Court of High Commission; an illegal and despotic tribunal,
+                    which, though not vested with such terrific powers, bore some resemblance to the
+                    Spanish inquisition. The English court was erected in the reign of Elizabeth,
+                    and was intended to maintain the dignity and peace of the church, by reforming,
+                    ordering, and correcting the ecclesiastical state and persons, and all manner of
+                    errors, heresies, schisms, abuses, offences, contempts, and enormities: but it
+                    is admitted by a writer who commonly touches despotism with a very gentle hand,
+                    that under the shelter of these general expressions, “means were found in that
+                    and the two succeeding reigns, to vest in the high commissioners extraordinary
+                    and almost despotic powers, of fining and imprisoning; which they exerted much
+                    beyond the degree of the offence itself, and frequently over offences by no
+                    means of spiritual cognizance.”<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">Blackstones Commentaries on the Laws of
+                            England, vol. iii. p. 68.—" What is this,” says Calderwood, “but the
+                            Spanish inquisition? Set me up this throne, Satan shall set up papistry,
+                            or any other religion whatsoever, in short processe of time." (<hi
+                                rend="italic">Altar of Damascus,</hi> p. 39.)</p></note> This court
+                    was erected by virtue of an act of parliament; but, in 1610, James, of his
+                    sovereign authority, issued under the great seal of Scotland a commission for
+                    erecting a similar court in each of the two archbishoprics of St Andrews and
+                    Glasgow. It is very justly observed by Calderwood, who did not entirely escape
+                    the fangs of this new instrument of persecution, that “this commission put the
+                    king in possession of that which he had long time hunted for; to wit, of
+                    absolute power to use the bodies and goods of his subjects at pleasure, without
+                    form or processe qf the common law·”<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">Calderwooďs Hist. p. 619.</p></note></p>
+                <p part="N">James paid a visit to Scotland in the year 1617. During the sitting of
+                    the parliament, which assembled on the 17th of June, the clergy held several
+                    meetings in the Little Church, one or more of the bishops being always present.
+                    Calderwood, whose zeal was never dormant, repaired to the church in order to
+                    learn the nature of their deliberations; and on hearing Knox, bishop of the
+                    Isles, make some allusion to the English convocation, he protested that such a
+                    meeting should not be acknowledged as a general assembly, or any other meeting
+                    equivalent to it, “or any wayes answerable to the English convocation-house,
+                    where the clergie conveened in time of their parliaments.” It is by no means
+                    improbable that such an innovation was secretly contemplated. Their chief
+                    consultations related to the temporal emoluments of the clergy, and he attempted
+                    to direct their attention to matters of greater importance than the augmentation
+                    of stipends, evidently alluding to what he conceived to be the danger of the
+                    church from foreign ceremonies and observances. He was assured that no
+                    alteration was to be apprehended, and that the bishops had given such a promise.
+                    Of their fidelity in keeping their promises, said the inflexible presbyter, we
+                    have had sufficient proofs for the last sixteen years; and he was proceeding to
+                    enlarge on some kindred topics, when he was interrupted by Dr Whitford and Dr
+                    Hamilton, who reverted to the more interesting subject of stipends. Finding that
+                    they were not disposed to listen to his suggestions, he left the meeting with
+                    this expression of his indignation: “It is absurd to see men sitting in silks
+                    and sattins, and to cry povertie in the kirk, when puritie is departing.” The
+                    two archbishops, on being informed of what had taken place, attended the meeting
+                    next day,, and solemnly declared that no innovations were intended: but this
+                    declaration was so much at variance with unequivocal facts, that many of the
+                    clergy felt no small degree of alarm; and a considerable number of them having
+                    assembled in the music-school, resolved upon drawing up a remonstrance to his
+                    majesty. Two of the Edinburgh clergy, Hewat and Struthers, were appointed to
+                    prepare it; and when it was finally adjusted, Archibald Simson, minister of
+                    Dalkeith, was directed to sign it as clerk of the meeting; but the names of all
+                    those who attended were subscribed in a separate paper, which was delivered to
+                    him as a voucher to be used according to circumstances. He presented a copy to
+                    the clerk register, who refused to read it in parliament; and having been
+                    summoned before the High Commission, he declined to produce the signatures, and
+                    was committed as a prisoner to the castle of Edinburgh. This paper he had
+                    entrusted to the master of the music-school, Patrick Henryson, who delivered it
+                    to Calderwood. The minister of Crailing was therefore cited to appear at St
+                    Andrews on the eighth of July, and there to exhibit the roll of names, and “to
+                    answer for his mutinous and seditious assistance to the said assembly.” Hewat
+                    and Simson were summoned at the same time, and they all made their appearance;
+                    but their examination was deferred till the twelfth, in order that it might take
+                    place in his majesty’s presence. James conducted himself in his usual manner,
+                    but the stern and undaunted Calderwood was not to be overawed by any earthly
+                    authority which he conceived to be unjustly exercised. The king having at length
+                    whispered in the primate’s ear, "his majesty," he stated, “saith that if ye will
+                    not be content to be suspend<pb break="no" facs="nls:193743386?mode=fullsize"
+                        xml:id="kp-eb0705-3386-0794"/>ed spiritually, ye shall be suspended
+                    corporally.” Undismayed by tíiis declaration, he replied, “Sir, my bodie is in
+                    your majesty’s hands to do with it as it pleaseth your majesty; but as long as
+                    my bodie is free, I will teach, notwithstanding of their sentence.” Spotswood
+                    describes him as “carrying himself unreverently, and breaking forth into
+                    speeches not becoming a subject nor is it difficult to conceive that the
+                    archbishop of St Andrews and the minister of Crailing may have formed a very
+                    different estimate of the speeches which became a subject placed in such
+                    circumstances.</p>
+                <p part="N">Hewat, adhering to the protestation, was deprived, and confined in the
+                    town of Dundee; but as he had obtained a grant of the temporalities of
+                    Crossragwell abbey, he was not left without a provision. Simson, who had
+                    aggravated the original offence by writing a letter in which he disparaged the
+                    English bishops, likewise received sentence of deprivation, and was for several
+                    months detained in prison; but on making his submission, he was at length
+                    reinstated. A similar sentence was pronounced on Calderwood, who was committed
+                    to prison at St Andrews, and was afterwards removed to Edinburgh. The privy
+                    council, which long exercised an undefined and despotic jurisdiction, ordained
+                    him to be banished from the kingdom for refusing to acknow ledge the sentence of
+                    the High Commission; and the whole proceedings in this case exhibit a curious
+                    example of the arbitrary and iniquitous administration of that period. On giving
+                    security to banish himself from the kingdom before the ensuing Michaelmas, and
+                    not to return without the royal license, he was released from prison. He
+                    accompanied Lord Cranstoun to Carlisle, where that nobleman presented to the
+                    king a petition in his favour; but although the suit appears to have been very
+                    zealously urged, it was followed by no beneficial result. The king inveighed
+                    against Calderwood, and at last repelled the noble baron with his elbow. The
+                    application was however renewed after<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">Spotswood’s Hist, of the Church of Scotland, p.
+                            ð34.</p></note> an interval of two hours: his lordship entreated him to
+                    permit the petitioner to remain in Scotland till the last day of April, on
+                    account of the danger of a winter voyage, and in order to receive his stipend
+                    for the current year; but his majesty was graciously pleased to declare, that it
+                    was no matter if he begged his bread, and “as for the season of the year, if he
+                    drowned in the seas, he might thank God that he hath escaped a worse death a
+                    princely answer, and full of Christian comfort! The subsequent application of
+                    Lord Cranstoun to the privy council, and to the bishops, was attended with no
+                    better success; and if they had been more inclined to lenient measures, the
+                    unbending spirit of Calderwood, who would neither make an unqualified confession
+                    of his supposed errors of conduct, nor promise strict obedience to the new
+                    regulations in the church, left very little room to hope for the remission of
+                    his sentence.</p>
+                <p part="N">He continued for a considerable time to linger in his native country;
+                    and during this interval he began the publication of his anonymous works in
+                    support of the presbyterian cause. In the year 1618 he printed a Latin tract on
+                    the polity of the church of Scotland. The general assembly, which met at^Perth
+                    on the 25th of August, gave a new impulse to his mind; and in 1619 he produced
+                    an English work, in which he undertook to demonstrate the nullity of the
+                    assembly itself, and the unlawfulness of its five articles, relating to kneeling
+                    at the communion, the observance of festivals, confirmation, private baptism,
+                    and private communion. They who hazarded the peace of the church and kingdom by
+                    such innovations as these, had not sufficiently reflected on all the
+                    consequences which ensued; nor are we disposed to blame the faithful presbyters
+                    for their very strenuous opposition to some of the articles of Perth. Kneeling
+                    at the communion, for example, may in itself be a very harmless ceremony: but
+                    this was not the position of the apostles when our Saviour instituted the sacred
+                    rite; and such a position was considered by many of our ancestors as too much
+                    connected with the adoration of the host, and the doctrine of
+                    transubstantiation. Some of the episcopalians still indulge in certain obsolete
+                    speculations as to the eucharist being a feast upon a sacrifice.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">See Bishop
+                            Jolly’s Christian Sacrifice in the Eucharist. Aberdeen, 1831, 12ιno. See
+                            likewise Dr Geddes’s Modest Apology for the Roman Catholics of Great
+                            Britain, p. 1G4. Lonđ. 1800, 8vo.</p></note> A sacrifice requires a
+                    priest, a priest can only be ordained by a bishop; and without a bishop, a
+                    priest, and an altar of sacrifice, they suppose that no church can stand on a
+                    secure foundation. But the character and destiny of churches are not to be
+                    decided by earthly judges; and we leave them in the quiet possession of their
+                    mystical reveries, which nevertheless we cannot help suspecting of a very
+                    intimate connexion with the spirit of popery.</p>
+                <p part="N">While Calderwood was still lurking in Scotland, an attempt was made to
+                    apprehend him at Edinburgh in the house of James Cathkin, a bookseller; but the
+                    officers neither found him nor any copies of his obnoxious publication relative
+                    to the <hi rend="italic">Perth Assembly.</hi> Cathkin had visited London in the
+                    prosecution of his business; and being immediately taken into custody, he
+                    underwent two examinations, one of them in presence of his majesty, who was
+                    moved with violent indignation.<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">Of his examination Cathkin has given a curious
+                            account, printed in the Bαnnαtync Miscellany, vol. i. p∙ 199. Edinb.
+                            1827, 4to.</p></note> His alleged offence was that of being concerned in
+                    printing or publishing the book, and receiving the author into his house. In
+                    reference to the people of Edinburgh, whom he had not found sufficiently
+                    submissive to the royal will, James uttered the following paternal wish: “The
+                    Devill ryve ther soules and bodies all in collops, and cast them in hell !” The
+                    worthy bookseller, who conducted himself with manly firmness, was released from
+                    prison after having been detained for eight days. Calderwood was in the mean
+                    time concealed at Cranstoun, in a secret apartment allotted to him by Lady
+                    Cranstoun, who rendered him many services. He afterwards removed from one place
+                    to another, till the 27th of August 1619, when he embarked at Newhaven, and
+                    sailed for Holland, “with his purse well filled by the wives of Edinburgh.”<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">Calderwooďs
+                            Hist. p. 750. lie imputes this expression to the archbishop of St
+                            Andrews.</p></note> Where he chiefly resided in that country, we are not
+                    informed; but Bishop Guthry states, “in the time of his exile he had seen the
+                    wild follies of the English Brownists in Arnheim and Amsterdam.”<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">Memoirs of Henry
+                            Guthry, late Bishop of Dunkeld, p. 78. edit. Glasg. 1748,
+                        12mo.</p></note> His exile may have been attended with some advantages, by
+                    enabling him to extend his acquaintance with men of learning, and to collect
+                    books in his own department of study. His controversial ardour was still
+                    unabated: during his residence in Holland he published various works, and, among
+                    the rest, his <hi rend="italic">Altar of Damascus.</hi> At one period, his
+                    enemies supposed him to be dead; and he has recorded a very extraordinary
+                    attempt to impose upon the world a recantation fabricated in his name.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">Calderwoods
+                            Recantation: or, a tripartite Discourse, directed to svch of the
+                            Ministerie, and others in Scotland, that refuse Con-íormitie ţo the
+                            Ordinances of the Church; wherein the Causes and bad Effects of such
+                            Separation, the legal! Proceedings against the refractarie, and Nullitie
+                            of their Cause, are softly launceđ, and they louingly inuited to the
+                            Vniformitie∙of the Chvrch. Bond. 1622, 4to. ’ <hi rend="superscript"> j
+                                a j</hi></p></note> “Patrick <pb break="no"
+                        facs="nls:193743399?mode=fullsize" xml:id="kp-eb0705-3399-0795"/>Scot, a
+                    landed gentleman beside Falkland, having wasted his patrimonie, had no other
+                    meane to recover his estate, but by some unlawful shift at court. He set forth a
+                    recantation under the name of a banished minister, Mr David Calderwood, who,
+                    because of his long sickness before, was supposed by many to have been dead. The
+                    king, as he alledged himself to some of his friends, furnished him the matter,
+                    and he set the matter down in forme. This course failing, he went over to
+                    Holland, and sought the said Mr David in sundrie townes, specially in
+                    Amsterdame, in the moncth of November. It appeareth his purpose was to dispatch
+                    the said Mr David. After lie had stayed at Amsterdame 20 dayes, and made
+                    diligent inquiric, he was informed that the said Mr David was returned home
+                    privatly to his own native countrey. How he cusened a distressed Englishman
+                    after his returning, I passe by. After the death of King James, he set out ä
+                    pamphlet full of lies, entituled <hi rend="italic">Vox vera,</hi> but as true as
+                    Lucian’s <hi rend="italic">Vera</hi><hi rend="italic">Historia.</hi>
+                    Notwithstanding of all his godless and unlawful shifts, he died soon after so
+                    poore that he had not wherwith to bear the charges of his burial; but it behoved
+                    the bishop of Ross, being then present where he departed, to bear the charges,
+                    for the good service he had done to the king and the bishops.”<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">Calđerwooďs
+                            Hist, of the Church of Scotland, p. 802.</p></note></p>
+                <p part="N">From the date of this narrative, Calderwood appears to have returned to
+                    Scotland in the year 1624. He was still found to be the most redoubtable
+                    champion of presbytery; and after the abolition of episcopacy, he was appointed
+                    minister of Pencaitland, in the county of Haddington, but the date of this
+                    appointment has not been ascertained. The following statement proceeds from an
+                    episcopalian writer: “David Calderwood, a man of great reading and study, but
+                    very unhappy in his way of expressing himself, both which appeared in his <hi
+                        rend="italic">Altare Damascenum.</hi> He was at first very factious, and
+                    banished the kingdom by King James, yet was afterwards much neglected by that
+                    violent party, who judged him too moderate, though, from his book, none would
+                    imagine him guilty of it.”<note anchored="true" place="bottom" type="authorial"
+                            ><p part="N">Middleton's Appendix to Spotswood’s Hist, of the Church of
+                            Scotland, p. 20.</p></note> Baillie, in relating the proceedings of the
+                    general assembly in 1641, remarks, “it was regretted by the moderator that Mr
+                    David Catherwood, who deserved so well of our church, was so long neglected. He
+                    was recommended to the first commodious room. Likely he shall not be in haste
+                    provided. The man is sixty-six years old; his utterance is unpleasant; his
+                    carriage about the meetings of this assembly and before, has made him less
+                    considerable to divers of his former benefactors.”<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">Baillie's Letters and Journals,
+                            vol. i. p. 311.</p></note> Though not a member, he had repeatedly spoken
+                    with too much pertinacity. Henderson the moderator treated him with great
+                    forbearance, but at length the commissioner commanded him to be silent. In 1643
+                    the assembly appointed Henderson, Calderwood, and Dickson, to prepare a
+                    directory for public worship. During the remainder of his life, he continued to
+                    take an active part in the affairs of the church; and as firmness may be nearly
+                    allied to obstinacy, he appears to have maintained his own opinions with
+                    habitual keenness. It was he that introduced the practice, which is now
+                    confirmed by long usage, of dissenting from the decision of the assembly, and
+                    requiring the protest to be entered in the record. In 1649, an act having been
+                    introduced respecting the election of ministers, he proposed that the right of
+                    electing should be vested in the presbytery, leaving to the people the power of
+                    declaring their dissent, upon reasons of which it should be competent for the
+                    presbytery to judge; but this suggestion was not adopted; and, according to
+                    Baillie’s statement, “Calderwood entered a very sharp protestation against our
+                    act, which he required to be registered. This is the first protestation we heard
+                    of in our time; and had it come from any other, it had not escaped
+                        censure.”<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >Baillie, vol. ii. p. 340.</p></note></p>
+                <p part="N">He devoted many years to the preparation of a history of the church of
+                    Scotland. In 1648 the general assembly urged him to complete the design, and
+                    voted him a yearly pension of eight hundred pounds.<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">Baillie, vol. ii. p.
+                        307.</p></note> He left behind him an historical work of great extent, and
+                    of great value, not indeed as a masterly composition, but as a storehouse of
+                    authentic materials for history. The laborious author has incorporated many
+                    original documents which are not otherwise preserved, and has recorded an
+                    immense multiplicity of facts, which illustrate the civil as well as the
+                    ecclesiastical annals of the period to which his work relates. An abridgment,
+                    which appears to have been prepared by himself,<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">See Dr M'Crie's Appendix to the
+                            Memoirs of Veitch and Brysson, p. 495, 501.</p></note> was published
+                    after his death; but it is much to be regretted that his great work still
+                    remains in manuscript. Proposals for printing it were issued many years ago, but
+                    the plan did not meet with adequate encouragement; and, unless a similar plan
+                    should be adopted by the Bannatyne Club, we despair of seeing it carried into
+                    execution. The author’s manuscript, which lately belonged to General Calderwood
+                    Durham, has been presented to the British Museum. A copy, transcribed under the
+                    inspection of Wodrow, is among the archives of the church; another belongs to
+                    the library of the university of Glasgow; and, as Dr M <hi rend="superscript">
+                        ζ</hi> Crie has stated, “in the Advocates Library, besides a complete copy
+                    of that work, there is a folio volume of it, reaching to the end of the year
+                    1572. It was written in 1634, and has a number of interlineations and marginal
+                    alterations, differing from the other copies, which, if not made by the author’s
+                    own hand, were most probably done under his eye.”<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">M'Crie's Life of Know, vol. i.
+                            p. vi.—Some of his papers are preserved among Wodrow's MSS. in the
+                            Advocates Library. Two original letters from John Paget to Calderwood
+                            occur in M. 6. 9. No. 107-8.</p></note></p>
+                <p part="N">Calderwood died at Jedburgh on the 29th of October 1650,<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">Bannatyne
+                            Miscellany, vol. i. p. 205. Baillie, in a passage already quoted,
+                            mentions that Calderwood was sixty-six years old in 1841.</p></note> at
+                    the age of seventy-five. He appears to have been a man of unbending integrity,
+                    fearless in maintaining his opinions, and uniformly consistent in his
+                    professions; but as human virtues are never perfect, his decision of character
+                    had some tendency to deviate into that obstinacy of humour from which good men
+                    are not always exempted. With his honesty and piety he united no small portion
+                    of acuteness and learning. He was conversant with the fathers, schoolmen, and
+                    canonists, as well as the more recent theologians; and the shrewdness of his
+                    understanding enabled him to apply his learning with due effect.</p>
+                <p part="N">His works are numerous; and as they were almost all published without
+                    the author’s name, it is not easy to form a complete and accurate catalogue. The
+                    place of printing is omitted in all the original editions, but several, if not
+                    most of them, appear to have been printed in Holland. The following is a list of
+                    publications which we believe may be safely ascribed to Calderwood.</p>
+                <p part="N">1. De Regimine Ecclesias’ Scoticanae brevis Relatio. 1618, 8vo.—To this
+                    tract an answer was published by Archbishop Spotswood, under the title of
+                    “Refutatio Libelli<pb break="no" facs="nls:193743412?mode=fullsize"
+                        xml:id="kp-eb0705-3412-0796"/> de Regimine Ecclesiae Scoticanae.. Lond. H
+                    cO, 8vo. Calderwood replied in the <hi rend="italic">Vindicioe</hi> subjoined to
+                        <hi rend="italic">his Altare Damascenum.</hi></p>
+                <p part="N">2. A Solvtion of Doctor Resolvtvs his Resolutions for Kneeling. 1619,
+                    4to.—This is an answer to a book written by David Lindsay, D.D. who became
+                    bishop of Brechin, and afterwards of Edinburgh: “The Reasons of a Pastors
+                    Resolution, touching the reuerend Receiuing of the holy Commvnion.” Lond. 1619,
+                    8vo.</p>
+                <p part="N">3. Perth Assembly, &amp;c. 1619, 4to.—This publication was followed by "
+                    A true Narration of all the Passages of the Proceedings in the Generall Assembly
+                    of the Church of Scotland, holden at Perth the 25 of August <hi rend="italic"
+                        >anno Dom.</hi> 1618: wherein is set downe the copy of his Maiesties Letters
+                    to the said Assembly; together with a iust Defence of the Articles therein
+                    concluded, against a seditious Pamphlet. By Dr Lyndesay, Bishop of Brechen.”
+                    Lond. 1621,4to.</p>
+                <p part="N">4. A Defence of our Arguments against Kneeling in the act of Receiving
+                    the sacramentall Elements of Bread and Wine, impugned by Mr Michelsone. 1620,
+                    8vo. 1638, 8vo.—This is an answer to a book entitled, “The Lawfvlnes of Kneeling
+                    in the act of Receiuing the Sacrament of the Lordes Supper. Written by Μ. ĭohn
+                    Michaelson, Preacher of Gods Word at Bvrnt-Yland.” Sainct Andrewes, 1620, 8vo.
+                    In his preface, Calderwood remarks of his antagonist, “he hath given so notable
+                    proofe of profound knowledge in divinitie, and subtilitie in handling this
+                    contro-versie in this worthie work of his, that the bishop of St Andros (a man
+                    as voyd of learning as of good manners) hath made him a doctor.” This is not a
+                    very decent manner of treating Spotswood, who was neither destitute of talents
+                    nor of learning.</p>
+                <p part="N">5. A Dialogve betwixt Cosmophilus and Theophilus anent the urging of new
+                    Ceremonies upon the Kirke of Scotland. 1620, 8vo.</p>
+                <p part="N">6. The Speach of the Kirk of Scotland to her beloved Children. 1620,
+                    8vo.</p>
+                <p part="N">7. Quaeres concerning the State of the Chvrch of Scotland. 1621, 8vo.
+                    1638, 8vo.</p>
+                <p part="N">8. The Altar of Damascus; or the Patcrn of the English Hierarchie and
+                    Church-Policie obtruded upon the Church of Scotland. 1621, 8vo.</p>
+                <p part="N">9. The Course of Conformitie, as it hath proceeded, is concluded, should
+                    be refused. 1622, 4to.</p>
+                <p part="N">10. A Reply to Dr Mortons generall Defence of the three nocent
+                    Ceremonies, &amp;c. 1622, 4to.</p>
+                <p part="N">11. A Reply to Dr Mortons particular Defence of the three nocent
+                    Ceremonies, &amp;c. 1623,4to.—Dr Morton, who was successively bishop of Chester,
+                    Lichfield, and Durham, had published “A Defence of the Innocencie of the three
+                    Ceremonies of the Chvrch of England; viz. the Surplice, Crosse after Baptisme,
+                    and Kneeling at the Receiuing of the blessed Sacrament.” Lond. 1619, 4to. This
+                    is the second impression.</p>
+                <p part="N">12. Altare Damascenum; scu Politia Ecclesiae Anglican® obtrusa Ecclesiae
+                    Scoticanae, a formalista quodam delineata, illustrata et examinata studio et
+                    opera Edwardi Didoclavii. Cui locis suis inserta Confutatio Paraeneseos Tileni
+                    ad Scotos, Genevensis, ut ait, Disciplinae Zelotas: et adjecta Epistola
+                    Hieronymi Philadelphi de Regimine Ecclesiae Scoticanae; ejusque Vindiciae contra
+                    Calumnias Johannis Spotsuodi, Fani Andreae Pscudoarchiepiscopi, per anonymum.
+                    1623, 4to. Lugd. Bat. 1708, 4to.—The application of the title may be learned
+                    from 2 Kings, xvi. 10. The work itself, which is an enlargement of his English
+                        <hi rend="italic">Altar of Damascus,</hi> contains a most formidable attack
+                    on the polity of the church of England; and, as Mr Peirce remarks, “the patrons
+                    of episcopacy have never yet answer’d it, how much soever their cause requires
+                        it.”<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >Peirce’s Vindication of the Dissenters, p. 176, second edit. Lond.
+                            1718, 8vo.</p></note> A late writer, by some unaccountable inadvertency,
+                    has stated that “this book is a refutation of Linwood’s Description of the
+                    Policy of the Church of England.” William Lyndewode, an eminent canonist who
+                    became bishop of St David’s, could certainly write no book about the protestant
+                    church of England, inasmuch as he died in 1446, nearly a century before the
+                    reformation. He is the compiler of a well-known work, entitled <hi rend="italic"
+                        >Provinciale, seu Constitutiones</hi><hi rend="italic">Anglioe,</hi> to
+                    which Calderwood frequently refers, among many other juridical and theological
+                    authorities. One of the books which he undertakes to refute bears the title of
+                    “Paraenesis ad Scotos, Genevensis Disciplinae Zelotas, au tore Dan. Tileno
+                    Silesio.” Lond. 1620, 8vo. Another able refutation was written by Sir James
+                    Semple: “Scoti του τuχovτoς Paraclesis contra Danielis Tileni Silesii Paraenesin
+                    ad Scotos, Genevensis Disciplinae Zelotas, conscriptam: cujus prima pars est, de
+                    Episcopali Ecclesiae Regimine.” <hi rend="italic">Anno</hi> 1622, 4to.</p>
+                <p part="N">13. An Exhortation of the particular Kirks of Christin Scotland to their
+                    sister Kirk in Edinburgh. 1624, 8vo.</p>
+                <p part="N">14. An Epistle of a Christian Brother, exhorting an other to keepe
+                    himselfe vndcfiled from the present Corruptions brought in to the Ministration
+                    of the Lords Supper. 1624, 8vo.</p>
+                <p part="N">15. A Dispvte vpon Commvnicating at ovr confused Communions. 1624,
+                    8vo.</p>
+                <p part="N">16. The Pastor and the Prelate; or Reformation ana Conformitie shortly
+                    compared by the Word of God, by Antiquity and the Proceedings of the ancient
+                    Kirk, &amp;c. 1628, 4to.</p>
+                <p part="N">17. A Re-examination of the five Articles enacted at Perth <hi
+                        rend="italic">anno</hi> 1618; to wit, concerning the Communicants Gesture in
+                    the act of Receaving, the Observation of Festival! Dayes, episcopall
+                    Confirmation or Bishopping, the Administration of Baptisme and the Supper of the
+                    Lord in privat Places. 1636, 4to.</p>
+                <p part="N">18. The Re-examination of two of the Articles abridged; to wit, of the
+                    Communicants Gesture in the act of Receaving, Eating, and Drinking; and the
+                    Observation of Festivall Dayes. 1636, 8vo.</p>
+                <p part="N">19. An Answerc to Μ. I. Forbes of Corse his Peaceable Warning. 1638,
+                    4to.—This is an answer to a tract written by Dr Forbes, professor of divinity in
+                    Kings College, Aberdeen: “A peaceable Warning to the Subjects in Scotland; given
+                    in the yeare of God 1638.” Aberđene, 4to.</p>
+                <p part="N">20. The true History of the Church of Scotland, from the beginning of
+                    the Reformation, unto the end of the Reigne of King James VI. &amp;c. 1678, fol.
+                        (<hi rend="smallcaps"> x</hi>.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

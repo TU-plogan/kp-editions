@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0706-7224-0017-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">CALENDER</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4n00zz70">Iron</term>
+                    <term ref="lcsh1910:b4mw28g7v">Cloth</term>
+                    <term ref="lcsh1910:b41j9770v">State</term>
+                    <term ref="lcsh1910:b4ww7751w">Press</term>
+                    <term ref="lcsh1910:b4513v11w">Water</term>
+                    <term ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term ref="lcsh1910:b4tt4fz4p">Irish</term>
+                    <term ref="lcsh1910:b4vh5ch72">Americanisms</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1210276">India</term>
+                    <term ref="fast:1206715">Scotland</term>
+                    <term ref="fast:1239786">America</term>
+                    <term ref="fast:1219920">England</term>
+                    <term ref="fast:1205427">Ireland</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:839044">British</term>
+                    <term ref="fast:969307">Indians</term>
+                    <term ref="fast:934209">French</term>
+                    <term ref="fast:978902">Irish</term>
+                    <term ref="fast:916820">Europeans</term>
+                    <term ref="fast:979089">Iron</term>
+                    <term ref="fast:1047359">Order</term>
+                    <term ref="fast:1046386">Operationalism</term>
+                    <term ref="fast:1075837">Press</term>
+                    <term ref="fast:1171139">Water</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193347224?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">CALENDER</label>, a mechanical engine employed by
+                    cloth-lappers, for dressing and finishing cloths and stuffs of various
+                    descriptions and fabrics, before exposure to sale, or delivery to purchasers. It
+                    is also used by calico-printers, in order to extend and smooth the surface of
+                    their cloths, after they have been bleached, and before they are subjected to
+                    the operations of the printing table or copperplate press.</p>
+                <p part="N">In all cases two, and in many three requisites must be attained, in
+                    order to give to cloth that appearance which it is deemed necessary that it
+                    should possess, to attract the eye and gratify the fancy of the purchaser and
+                    consumer.</p>
+                <p part="N">The <hi rend="italic">first</hi> of these requisites consists in as
+                    perfect extension and smoothness of surface as can be attained; so that no
+                    wrinkle or doubled folding may remain in it, excepting such as shall afterwards
+                    be intentionally made, in order to the reducing of it to the proper form and
+                    shape.</p>
+                <p part="N">The <hi rend="italic">second</hi> requisite acquired by the calendering
+                    of cloth, is the compression of the yarn or threads of which the texture is
+                    composed, which in some degree divests them of their cylindrical shape, and
+                    reduces them to a degree of flatness, which, by bringing them more closely into
+                    contact with each other, gives to the fabric a greater appearance of closeness
+                    and strength than it would otherwise possess. The operation of the calender also
+                    improves the superficial appearance, by flattening down all knots, lumps, and
+                    other imperfections, from which no material from which cloth is fabricated can
+                    ever be entirely freed during the previous processes of spinning and
+                    weaving.</p>
+                <p part="N">And, <hi rend="italic">thirdly,</hi> in many fabrics it is desirable,
+                    and esteemed a great addition to the effect and beauty of the superficial
+                    appearance, that cloth should receive, by means of friction, an additional
+                    lustre or polish, which is generally distinguished by the appellation of
+                    glazing, and is chiefly required in those stuffs which are employed in the
+                    ornamental descriptions of female attire.</p>
+                <p part="N">Such, in a strictly limited sense, are the sole and exclusive effects
+                    resulting from the mechanical operation of the calender; but, as other
+                    operations besides smoothing or glazing are necessary for the proper preparation
+                    of cloths for the market, these also are carried on by the same persons, and in
+                    the same premises. Hence by a natural, although not strictly correct, extension
+                    of its acceptation, the term calender, which really means only the chief
+                    mechanical engine employed, gives the general name to the whole establishment
+                    where all the varied operations of cloth-lapping are carried on; and it is as
+                    usual to say that goods are <hi rend="italic">packed,</hi> as that goods are <hi
+                        rend="italic">dressed,</hi> at a calender. In the illustration, therefore,
+                    of those operations which the limits of this article will admit, the first
+                    object will be to convey a distinct idea of the principles, construction, and
+                    operation of the principal machinery employed; and then to add such general and
+                    miscellaneous observations as may serve to elucidate how the business of
+                    cloth-lapping is carried on in its present extended form.</p>
+                <p part="N">For the purpose of smoothing both surfaces of a piece <pb break="no"
+                        facs="nls:193347237?mode=fullsize" xml:id="kp-eb0706-7237-0018"/>of cloth,
+                    it is necessary that they should be exposed to ’ universal contact and pressure
+                    in every point, with some body of sufficient density to acquire the requisite
+                    degree of superficial polish. Such equality of surface, however, as will produce
+                    this effect, is not very easily attainable in large plane surfaces. Hence the
+                    contact of cylinders in this operation has been found to be in all respects
+                    infinitely preferable to that of planes, both in the speed and the effect of the
+                    operation. The common domestic smoothing iron is the most simple of all
+                    calendering utensils; but, even in the application of its small and limited
+                    surface, it would be difficult to procure any table or board sufficiently level
+                    to bring the whole cloth into equal contact with the iron, without the
+                    intervention of a few folds of blanket, or some other thick and soft woollen
+                    cloth.</p>
+                <p part="N">The old and now almost entirely superseded machine termed a <hi
+                        rend="italic">mangle</hi> gives the most simple and rude approximation
+                    towards cylindrical calendering, and the substitution of circular for plane
+                    surfaces. Its operation is that of a cylinder applied to a plane, upon which it
+                    is rolled backward and forward, until some degree of smoothness is produced by
+                    this reciprocating motion. It is, therefore, very analogous in principle to the
+                    common gardener’s roller, with which land is resmoothed after having been dug up
+                    for sowing or other agricultural purposes.</p>
+                <p part="N">The smoothing calender completes the substitution of cylindrical for
+                    plane surfaces, all the parts which operate upon the cloth being of that form.
+                    This ingenious engine, which was introduced into Britain from Flanders and
+                    Holland, during the persecution of the Huguenots, has, since its introduction
+                    and adoption here, undergone no very material or important alteration or
+                    improvement in point of theoretical principle; nor, until the extension of the
+                    cotton manufacture had introduced a general spirit of mechanical improvement,
+                    had it received any great amelioration in practical execution. Two very
+                    important improvements have, however, since that period been introduced and
+                    adopted. The first of these, which originated in Lancashire, is now almost
+                    universally employed. The second was invented at Glasgow.</p>
+                <p part="N">The scope of the former of these improvements consists in the
+                    substitution of pasteboard in the place of wood, in constructing three out of
+                    the five cylinders of which the engine is composed. These cylinders, when
+                    previously composed of wood, were found to be liable to two serious and
+                    important objections. Calenders employed in general business are necessarily
+                    subjected to frequent alternations and vicissitudes of heat and cold. These are
+                    entirely unavoidable, because, in smoothing or dressing cloths of the denser
+                    fabrics, the effect, as in the common operation of ironing linens, is found to
+                    be greatly heightened by the application of as great a degree of heat as can
+                    safely be communicated without danger to the fabrics which are to be
+                    smoothed.</p>
+                <p part="N">The expansion of every thread which composes a given extent of cloth,
+                    although individually indistinguishable, even with microscopic aid, produces
+                    very considerable general effect, when exerted upon eight or ten thousand of
+                    these minute cylindrical substances, all combined together in the space of one
+                    single square yard. In this expanded state, the pressure of the calender divests
+                    them more easily of their cylindrical form, and flattens them down until they
+                    come more closely into contact than before. This effect, which is in exact
+                    unison with the general theories of expansion and contraction, will at once
+                    produce an apparent increase of closeness and density to the texture, as well as
+                    of gloss to the surfaces; although the former is in fact deceptive, as no <hi
+                        rend="italic">real</hi> acquisition of strength to the fabric can thus be
+                    obtained. The apparent density of fabric, as well as a higher accession of
+                    gloss, is also frequently obtained by impregnating and stiffening the cloth,
+                    after ' it has been bleached, with a mucilage of starch; and this is ’ too
+                    frequently carried to a very unfair height, for the purposes of deception, which
+                    is not very easily detected, until the cloth be again exposed to moisture, when
+                    the delusive appearance instantly vanishes. Hence, in all dense fabrics, the
+                    calender is generally used in a heated state; whilst in flimsy fabrics, in which
+                    transparency of appearance is more the requisite than strength, the operation is
+                    conducted with the calender perfectly cold.</p>
+                <p part="N">The effect of these frequent and sudden transitions upon wooden
+                    cylinders was necessarily productive both of <hi rend="italic">fissure</hi> and
+                        <hi rend="italic">warping</hi> or <hi rend="italic">twisting</hi><hi
+                        rend="italic">;</hi> and no care in drying or seasoning the wood before
+                    turning could entirely remove these defects. The substitution of pasteboard,
+                    however, afforded a radical cure for both, as well as a collateral advantage
+                    arising from its being susceptible of a much higher degree of superficial
+                    polish, which is always transferred to the cloth.</p>
+                <p part="N">The paper or pasteboard cylinder, besides total exemption from all
+                    defects incidental to ligneous substances, from the immense density of which it
+                    is susceptible by compression, presents a superficies capable of receiving and
+                    retaining an almost unparalleled smoothness and polish.</p>
+                <p part="N">In order to construct cylinders of this description, an axis of
+                    malleable iron, and two circular plates of cast iron, are, in the first place,
+                    provided. In these plates, which must be at least from one to two inches thick,
+                    there are six equidistant perforations near to the circumference, each capable
+                    of admitting a rod of malleable iron at least three fourths of an inch in
+                    diameter. The entire space between the two iron plates is then to be filled with
+                    circular pieces of the strongest pasteboard, exceeding by about one inch in
+                    diameter the iron plates, and having each a correspondent perforation, through
+                    which the six iron rods may pass parallel to the axis. A cylinder is thus
+                    formed, the substance of which is of pasteboard locked together by plates of
+                    iron at the extremities, and susceptible, by means of screws on the extremities
+                    of the six connecting rods, of immense compression. After undergoing this
+                    preparation, the cylinder is exposed to strong beat in a confined apartment;
+                    and, as the pasteboard daily contracts, the screws are every day tightened for
+                    the space of some weeks. The density of the cylinder is thus increased, whilst
+                    it is contracted in length upon the axis, for which contraction adequate
+                    allowance must be made in its original measure, and the operation is continued
+                    until it has gradually acquired the requisite compression. It is then re-exposed
+                    to the ordinary temperature of the atmosphere, and by its re-expansion presents
+                    a body almost inconceivably compact, its specific gravity in this state being
+                    greater than even that of silver. The only operation now required is that of
+                    turning its superficies until correctly cylindrical; and this is a work of
+                    immense labour and patience.</p>
+                <p part="N">The rotatory motion in turning does not exceed forty or fifty
+                    revolutions per minute; and the turner requires two or three assistants
+                    constantly employed in sharpening his tools. When properly finished and
+                    smoothed, a pasteboard cylinder, however, amply compensates, by its strength,
+                    its gloss, and its durability, for the great labour and expense which its
+                    construction has created.</p>
+                <p part="N">A second practical improvement in calenders of the common description
+                    consists in the substitution of cast iron for wood in the construction of the
+                    connecting frames. This improvement is now common to almost every description of
+                    machinery; and when applied to the calender, it is of more than usual advantage,
+                    because, independently of the accession* of strength and diminution of space
+                    occupied, the total exemption of iron from warping is of <pb break="no"
+                        facs="nls:193347250?mode=fullsize" xml:id="kp-eb0706-7250-0019"/>peculiar
+                    advantage in an engine so rapidly exposed to alteration of temperature as the
+                    calender must be. The entire exemption of iron framing from combustion forms
+                    also another advantage of some importance in an engine frequently heated by the
+                    application of red-hot cylinders of iron. With this cursory outline of general
+                    improvement, the next object of the present article is to afford a description
+                    of the new glazing calender.</p>
+                <p part="N">Previously to the introduction of this improvement, the operation of
+                    glazing, although performed sufficiently well, was somewhat tedious, being
+                    effected almost exclusively by the mere application of manual labour. It was
+                    performed upon a table, the cover of which was oblique to the horizon, forming
+                    with it an angle of 15° or 20°. The cloth being stretched on this, and a
+                    quantity of wax being thinly spread on its surface, the glazing was effected by
+                    the reciprocation of a smoothed flint, vibrating at the end of a rod, somewhat
+                    similar to the oscillations of a pendulum. The centre of oscillation was also
+                    movable on a spring, in order to reduce the arc of vibration to a plane, and
+                    keep the flint in uniform contact with the cloth. But a man’s power was
+                    competent to glaze only a few inches in breadth at once, and it was only by
+                    successive shiftings that the whole breadth was successively brought under the
+                    friction of the flint. The glazing calender produces the same effect, with
+                    increased uniformity, simply by changing the relative velocities of the
+                    cylinders to each other, and generating friction, as well as pressure, at the
+                    points of contact. The process of flint glazing is still practised in
+                    Manchester, but on a large scale, the operation being carried on by means of
+                    steam power.</p>
+                <p part="N">The following is a description of the new glazing calender. Fig. 1,
+                    Plate CXLIII. is en elevation of a five-rollered calender for finishing cloth.
+                    AA are two paper rollers, of twenty inches diameter each. BB are two cast-iron
+                    cylinders, externally turned until perfectly smooth; their diameter is eight
+                    inches, allowing the substance of iron to be two inches, and leaving a
+                    perforation of four inches diameter. C is a paper roller of fourteen inches
+                    diameter; DD is the framing of cast iron for containing the bushes in which the
+                    journals of the rollers revolve; EE are two levers by which the rollers are
+                    firmly pressed together while the cloth is passing through.</p>
+                <p part="N">Fig. 2 is an end view of the same calender, with the wheels for glazing
+                    cloth. The wheel on the upper cylinder is ten inches diameter, the wheel on the
+                    under cylinder is thirteen inches diameter, both connected by the wheel F, which
+                    communicates the speed of the upper cylinder, so that the wheel on the under
+                    cylinder being nearly one third of an inch more in diameter, the difference of
+                    their motions retards the centre paper roller, by which means the upper cylinder
+                    passes over the cloth one third faster than the cloth passes through the
+                    calender, and polishes it in consequence.</p>
+                <p part="N">Fig. 3 is a perspective view of a hydrostatic press. A, the piston,
+                    eight inches diameter, working in the cylinder B, and kept water-tight by
+                    passing through a collar of leather; D, a cast-iron plate raised by the piston
+                    A, between which and the entablature EE the goods to be pressed arc laid; CCCC,
+                    four malleable iron columns, 2f th inches diameter, having screwed ends, with
+                    nuts, by which the entablature and the base FF are firmly connected together. G,
+                    a cistern for holding water to supply the two force-pumps HI, the largest of
+                    which has a piston 11 inch diameter, and the other one of half an inch diameter,
+                    which is used to give the highest pressure; KK, weights to balance the
+                    pump-handles which fit into the sockets at <hi rend="italic">ll.</hi> The
+                    pistons of the force-pumps are made water-tight by collars of leather, kept in
+                    their place by the screwed pieces <hi rend="italic">m</hi> and <hi rend="italic"
+                        >n. eee,</hi> a pipe communicating with the pumps and the large cylinder B;
+                    there is a stopcock at <hi rend="italic">f</hi> which shuts this communication
+                    when required.</p>
+                <p part="N">Fig. 4 is an enlarged view of the largest piston, to show the method of
+                    keeping the rod parallel.</p>
+                <p part="N">For dressing muslins, gauzes, lawns, and other goods of the light and
+                    transparent fabrics, a smaller species of calender is employed. It consists of
+                    only three cylinders of equal diameters (generally about six inches), and is
+                    easily moved by a common winch or handle. The middle cylinder is iron, and the
+                    others are wood or pasteboard. They are of equal diameters, and are moved with
+                    equal velocities by small wheels. This machine is always used in a cold
+                    state.</p>
+                <p part="N">The folding of cloth is so entirely regulated by fashion, that no
+                    precise rules can be laid down for its regulation. In general, as all the
+                    different manufactures of cloth have been imported from other countries, the
+                    original foldings have been copied to complete the resemblance. In the infant
+                    state of.imitation there was probably some policy in this, but the continuance
+                    may be ascribed almost exclusively to the power of habit. Preservation and
+                    portability are the main requisites to be attained by folding; and these are
+                    attained by subjecting the cloth, when folded, to a very powerful
+                    compression.</p>
+                <p part="N">Water-presses upon the forcing principle of Mr Bramah, or acted upon by
+                    the pressure of a column of water, arc now in general use in Glasgow and
+                    Manchester. Besides the immense power thereby procured, the labour of pressing
+                    is much lessened. No improvements that have taken place in calendering can
+                    exceed the power and facility of the water-press; one of these presses is
+                    generally wrought by two men, who can with great ease work the press so as to
+                    produce a pressure of four hundred tons; and thereby the appearance and finish
+                    of the goods, in consequence of such an immense weight acting on them, are
+                    materially improved. Not only this, but the Bramah press is also used for the
+                    purpose of packing, which has increased the method of packing in bales
+                    considerably. The bale is commonly packed, roped, &amp;c. while in a compressed
+                    state; the dimensions are therefore greatly diminished from what they would
+                    otherwise be by any other method; for instance, the same quantity of goods
+                    packed in a bale would be one third less in size than if they were packed in a
+                    box.</p>
+                <p part="N">To the mechanical art of calendering it is found expedient, in the
+                    extended states of commerce, to add many of the operations of packing, sheeting,
+                    and preparing goods for shipment; and these generally form a branch of the
+                    establishment. In order to suit the great extent and va·« ricty of manufacture
+                    practised in Britain, and to adapt these to the prevalent tastes and views of
+                    the extensive range of consumers to be supplied, a multiplicity of foldings or
+                    lappings has been necessarily adopted, few of which probably possess much claim
+                    to entire originality. The high, and perhaps pre-eminent, station which the
+                    productions of the British looms have gradually attained, seem to be rather the
+                    effect of assiduous and enterprising industry, than of great originality of
+                    invention, or precedence in mechanical improvement. Certainly she can, at the
+                    utmost, boast of only one <hi rend="italic">raιv material,</hi> from which cloth
+                    is manufactured, as peculiarly indigenous.</p>
+                <p part="N">At an early period, no doubt, the British wool had attracted the
+                    peculiar attention of economistsand statesmen as of paramount value; and the
+                    prohibition of its exportation became an object of legislative enactment. That
+                    manufacture, therefore, has long been the staple of England, as the linen trade,
+                    at a later period, has become that of Ireland.</p>
+                <p part="N">The attempts to introduce both of these branches of industry into
+                    Scotland, although, during the latter part of <pb break="no"
+                        facs="nls:193347263?mode=fullsize" xml:id="kp-eb0706-7263-0020"/>the last
+                    century, they engrossed much of the attention both of public bodies and of
+                    patriotic individuals, cannot be regarded as having proved eminently successful;
+                    and the progress actually made has been almost entirely superseded and
+                    extinguished by the more recent introduction of the cotton manufacture.</p>
+                <p part="N">The latter branch of industry, since the splendid invention of spinning
+                    by the aid of machinery, has indeed made most rapid advances in every part of
+                    the united kingdom, and has attained to a height which has, perhaps, absorbed a
+                    greater portion of national industry than consumers can easily be found to
+                    employ. The extension of external commerce has constantly supplied the raw
+                    material at easy and generally moderate rates; and even the India Company have
+                    long ceased to oppose to it any very formidable competition in the market.</p>
+                <p part="N">The silk manufactures of Britain formerly were not carried on to a very
+                    great extent; they have now, however, increased considerably. Whatever may have,
+                    directly or indirectly, tended to regulate the finishing, folding, and preparing
+                    of British goods for the various markets of consumption, will chiefly refer to
+                    the three former branches of manufacture.</p>
+                <p part="N">Extensively as the woollen trade is carried on, it is in a great measure
+                    absorbed either by internal or colonial consumption, and docs not, therefore,
+                    enter so generally into actual competition with the cloths of other nations, as
+                    to render it either peculiarly desirable that its marketable aspect should be
+                    either servilely copied from those of other countries, or very peculiarly
+                    distinguished from them. The chief object appears to have generally been, to
+                    prevent the intrusion of foreign cloths and stuffs into our own markets; and
+                    hence adopting their usual folds into such rolls as most effectually preserve
+                    the dressed surface from acute cresses, is found to be most expedient and
+                    convenient, the goods being distinguished by letters denoting them to be
+                    “British manufacture” on the ends of the pieces.</p>
+                <p part="N">In the Irish manufactures of cambrics and linens, the case is almost
+                    entirely reversed. From the superiority of climate, the French flax is admitted
+                    to be of finer appearance; and although the importation of manufactured cambrics
+                    be strictly prohibited, the restraint during periods of peace has always been
+                    considerably evaded, in consequence of the demand experienced, and the
+                    reputation in which they are held. Indeed it was found generally most expedient,
+                    by many retailers, to sell Irish cambrics under the title of French, and hence
+                    the fold was correctly imitated. The pieces, after being folded into lengths of
+                    about twelve inches, and twice laterally doubled, until the whole breadth of
+                    thirty-four inches was reduced to about eight and a half inches, were subjected
+                    to a powerful compression in the press until fully flattened. They were then
+                    packed in purple coloured wrappers or papers, and a small engraved card or
+                    ticket was attached to each piece, specifying the length, generally about eight
+                    or eight and a half yards. The cards were attached by a silken string, so as to
+                    be easily cut away with a penknife or pair of scissors, in order to avoid
+                    seizure; and French or Irish goods were sold indiscriminately as “foreign
+                    cambrics.” Custom has even carried this practice farther; and cotton cambrics,
+                    which are avowedly <hi rend="italic">British manufacture,</hi> and subjected to
+                    no risk whatever, because easily distinguishable from any cambric manufactured
+                    from flax, are put up into the same folds, papered, and ticketed, in exactly the
+                    same manner.</p>
+                <p part="N">In linens, hollands, and sheetings, whether of foreign or Irish
+                    manufacture, the same fold is also employed; and in cotton shirtings and
+                    sheetings it is closely imitated. The form iş that of a cylindric roll, somewhat
+                    flattened by subsequent compression; and, in general, all dense fabrics, whether
+                    of linen or of cotton, are rolled up and compressed in a similar manner, the
+                    object of which is evidently safety and diminution of space in land carriage or
+                    exportation.</p>
+                <p part="N">In others of the extensive varieties of cotton cloths of British
+                    manufacture, some are avowed imitations of the manufactures of Hindustan, whilst
+                    others profess no such imitation. Very few among the manufactures of Lancashire
+                    are either distinguished by Indian names, or copied from Indian cloths, although
+                    some of great extent are directly so. Calicoes, cossacs, and jaconets, for
+                    printing, as well as Ballusore, Bandana, and Pullicate handkerchiefs, are
+                    amongst the leading articles of the latter description; whilst among the former
+                    may be classed the very extensive manufactures of corduroys, thicksetts,
+                    velverctts, velveteens, &amp;c. although their origin is also probably Asiatic,
+                    but because well known and manufactured by the Genoese, French, and other
+                    European nations, even before the discoveries of De Gama and other mariners had
+                    first laid open the maritime intercourse with India by the Cape of Good
+                    Hope.</p>
+                <p part="N">When, at a period infinitely more recent; the splendid invention of
+                    spinning cotton by the agency of machinery to any degree of fineness afforded
+                    new scope to the British weaver, the imitation of the lighter Indian fabrics
+                    fell chiefly into the hands of the Scottish weavers, for executing which they
+                    had been in a considerable degree previously prepared, by their habits of
+                    weaving lawns in imitation of the French, as well as their lighter fabrics of
+                    silk and thread gauzes. To their share, in consequence, fell the bouks, mulls,
+                    and japuns, almost exclusively, as well as the lighter jaconets, designed for
+                    ornament from the needle and tambour frame. And whilst they have made no
+                    successful attempt to compete with their Lancashire brethren in the dense
+                    fabrics of corduroys, quiltings, and other ponderous articles, they have shared
+                    with them the manufacture of the middling textures of cambrics, Pullicates, and
+                    ginghams.</p>
+                <p part="N">Indeed, whatever prepossession may, at an early period, have existed in
+                    favour of the real Indian fabrics, it has now so. entirely subsided as to
+                    possess no influence whatever in swaying general opinion. The British
+                    workmanship has proved itself long ago so decisively superior to the Indian,
+                    both in spinning· and weaving, as to eradicate every doubt in the minds of all
+                    who are really competent to decide the question of comparative superiority.
+                    Still, however, candour will compel us to allow that the Indian possesses
+                    advantages in the rich qualities of his cotton, and the brilliancy of some of
+                    his dyes, which, in some degree, compensate for the immense superiority of the
+                    British skill and machinery, and which, to those who examine superficially, may
+                    appear to entitle him to the preference.</p>
+                <p part="N">Nothing, therefore, exists in the cotton manufacture which could, in
+                    general cases, prompt to a servile imitation of external appearance for the
+                    purposes of deception; and the Indian mode of lapping their cloth is too rude
+                    and laborious to admit of its being copied as a matter of convenience. Their
+                    method consists merely in doubling a piece of twenty yards, to reduce its length
+                    to ten yards, which is again doubled, in order to reduce it to five; and thus
+                    they continue to redouble, until the piece be reduced to a moderate length,
+                    capable of being contained in a chest or bale. Thus often redoubled, an Indian
+                    piece cannot be examined throughout unless the whole piece be again unfolded;
+                    and this, in large transactions, would be utterly impracticable.</p>
+                <p part="N">British muslins are folded generally to a yard in length, with a small
+                    allowance for extra measure; and as the folding is alternately from right to
+                    left, every part can be <pb break="no" facs="nls:193347276?mode=fullsize"
+                        xml:id="kp-eb0706-7276-0021"/>instantly examined upon a table or counter,
+                    every fold opening as easily as the leaves of a book in its uncut state. The
+                    piece, when folded, is reduced by doubling it longitudinally to about nineteen
+                    inches, and it is then folded across to the breadth of about thirteen inches. An
+                    ordinary sized trunk, 39 × 19 inches, thus contains three layers of pieces, in
+                    which package goods for exportation to the colonies are generally packed, the
+                    trunk there forming an article of merchandise as much in general demand as the
+                    muslins which it contains.</p>
+                <p part="N">Even the Indian ornaments of gilt silver threads which were at first
+                    woven into one end of each piece, although they did not exceed the value of
+                    twopence each, have been either greatly curtailed, or totally given up upon
+                    principles of economy. Even the cost of this trivial ornament has been computed
+                    to have amounted annually in Glasgow and Paisley to about L.30,000.</p>
+                <p part="N">Pullicate and other handkerchiefs are most commonly folded up in dozens.
+                    For the African and some other foreign trades, pieces containing only eight
+                    handkerchiefs are preferred. These are still imitations of Indian precedents,
+                    confined to markets where competition continues to exist, not only with the
+                    British Company, but with Americans and others trading to India. A species of
+                    pale orange-coloured India handkerchiefs, distinguished by the name of <hi
+                        rend="italic">Mudxus,</hi> being in extensive reputation in the Caraccas and
+                    other Spanish settlements in South America at the period of the capture of
+                    Trinidad in 1795, patterns were procured by some British traders, who ordered
+                    very large quantities to be manufactured in Scotland of the same quality and
+                    appearance. With such effect were these imitated in texture, in dye, in
+                    finishing, and even in the packages, that some hundreds of pieces sent to London
+                    for exportation were actually seized at the customhouse as India goods, either
+                    illegally imported, or stolen from some of the Company’s ships in the river. A
+                    scrutiny, however, clearly ascertained that these goods were not Indian, but
+                    British, and that no trespass against either the privileges or the property of
+                    the Company had been even attempted. The goods were of course released, and
+                    permitted to proceed to their destination, where, after examination and trial,
+                    it was found totally unnecessary longer to conceal their real origin; and a very
+                    extensive trade, through direct channels, has been since carried on for similar
+                    goods.</p>
+                <p part="N">From the above general and cursory sketch, it will be obvious that the
+                    management of an extensive calendering establishment will require, on the part
+                    of its conductor, not only a competent knowledge and experience of the
+                    mechanical operations and duties of his particular profession, but that a more
+                    extensive mercantile acquaintance with the demands, habits, and tastes of
+                    particular markets, will conduce equally to his own interests and those of his
+                    employers. From the variations of markets, and fluctuations of mercantile
+                    transactions, there can be no precise or definite limit to the extent of such
+                    knowledge. It is only by constant attention and sedulous inquiry that he can
+                    preserve accuracy in what is liable to almost daily change. His immediate
+                    employers will no doubt be often both able and desirous to supply him with this.
+                    But as even they must sometimes be liable to error or deception, he ought to
+                    omit no opportunity of extending his inquiries, and arriving, as nearly as he
+                    can, at the most comprehensive and unambiguous information.</p>
+                <p part="N"><hi rend="smallcaps">Calender</hi><hi rend="italic">of Monteith,</hi> a
+                    district in the south-west corner of Perthshire, in Scotland, from which a
+                    branch of the ancient family of Livingstone had the title of earl. Both estate
+                    and title were forfeited in consequence of the possessor being engaged in the
+                    rebellion of 1715.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

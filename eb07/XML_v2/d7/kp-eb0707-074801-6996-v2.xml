@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0707-6996-0748-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">DEW</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4st7f04z">Dew</term>
+                    <term ref="lcsh1910:b4jd4pp0f">Air</term>
+                    <term ref="lcsh1910:b4j38kn24">Glass</term>
+                    <term ref="lcsh1910:b4q52ff6p">Heat</term>
+                    <term ref="lcsh1910:b4g44hr3b">Heating</term>
+                    <term ref="lcsh1910:b4tx35b4z">Wells</term>
+                    <term ref="lcsh1910:b45m62b4v">Germans</term>
+                    <term ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term ref="lcsh1910:b4xd0r400">Memoirs</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1173723">Wells</term>
+                    <term ref="fast:942100">Germans</term>
+                    <term ref="fast:942099">Germanization</term>
+                    <term ref="fast:892063">Dew</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:802066">Air</term>
+                    <term ref="fast:943029">Glass</term>
+                    <term ref="fast:1037627">Night</term>
+                    <term ref="fast:954023">Heating</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1240375">Moon</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194756996?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">DEW</label> is the humidity which the air, under
+                    certain circumstances, deposits, in the form of minute globules, on <hi
+                        rend="superscript"> r</hi> the surfaces of the bodies in contact with it.
+                    The Greek term <hi rend="italic">δgo&lt;roς</hi> was evidently derived from <hi
+                        rend="italic">i</hi><hi rend="italic">∣</hi><hi rend="italic">δωg,
+                        aqua,</hi> implying simply <hi rend="italic">watering</hi> or <hi
+                        rend="italic">humifaction.</hi> The Latin name <hi rend="italic">ros</hi> is
+                    of the same descent. Our English word is obviously borrowed from the German <hi
+                        rend="italic">than,</hi> akin to the verb which signifies to <hi
+                        rend="italic">melt,</hi> and conveying the idea therefore, in the
+                    Shaksperian phraseology, of air “<hi rend="italic">melting, thawing, and
+                        resolving itself into a dew.”</hi> The Swedish term <hi rend="italic"
+                        >dag</hi> is no doubt of the same origin, though it likewise denotes low <hi
+                        rend="italic">mist</hi> or floating vapour. It is remarkable that the French
+                    language, though certainly not remarkable for its copiousness, has two distinct
+                    terms for dew: <hi rend="italic">serein</hi> for the humidity which collects in
+                    the evening; and <hi rend="italic">rosée,</hi> for what appears accumulated in
+                    the morning; the latter being derived from the Latin word <hi rend="italic"
+                        >vos,</hi> and the former intimating that <hi rend="italic">clearness</hi>
+                    and <hi rend="italic">serenity</hi> of the sky which is most conducive to the
+                    formation of dew.</p>
+                <p part="N">When the atmosphere has a temperature below the point of congelation,
+                    the <hi rend="italic">dew</hi> which might adhere to the substances exposed to
+                    it passes into the form of <hi rend="italic">hoarfrost.</hi> This was called by
+                    the Greeks <hi rend="italic">πaγm</hi><hi rend="italic">,</hi> from its <hi
+                        rend="italic">hard</hi> or <hi rend="italic">consolidated</hi> nature. The
+                    French term is exactly the same compound as our own, <hi rend="italic">white
+                        frost</hi> or <hi rend="italic">gelee blanche.</hi> But the German language
+                    has a simple and primitive word to denote it, <hi rend="italic">reif;</hi>
+                    which, in the Swedish, has been slightly modified into <hi rend="italic"
+                        >rim,</hi> a word likewise adopted by the older English writers, and still
+                    retained in the Scottish dialect, or dilated into <hi rend="italic"
+                        >rimefrost,</hi> and thence probably corrupted into <hi rend="italic"
+                        >raw-frost.</hi></p>
+                <p part="N">As dew appears to collect only during fine clear nights, when the
+                    heavens glow with sparkling constellations, the ’ancients, in the infancy of
+                    science, imagined it to be actually shed from the stars, and, therefore, to
+                    partake of a pure and celestial essence. Hence the vulgar notion that <hi
+                        rend="italic">dew falls,</hi> which has prevailed through all ages, and
+                    continues to tincture every language.<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">Gesner, Facciolatus, and other lexicographers,
+                            blend this idea in their definition of dew. Ros, <hi rend="italic">Humor
+                                coelo</hi><hi rend="italic">defluens noctu,</hi><hi rend="italic"
+                                >cum</hi><hi rend="italic">sudum est, et omnis</hi><hi rend="italic"
+                                >aura</hi><hi rend="italic">quiescit</hi><hi rend="italic">;
+                                qui</hi><hi rend="italic">si gelu concrescat, est</hi><hi
+                                rend="smallcaps">Pruina.</hi></p></note> The mythologists described
+                    dew as the daughter of Jove and of the Moon;<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">∆∕oj <hi rend="italic">t}υγaτr</hi><hi
+                                rend="italic">1&gt; loŗŗa τζiφir</hi><hi rend="italic">και</hi><hi
+                                rend="italic">&lt;rιλaνas</hi><hi rend="italic"
+                        >αία;.</hi></p></note> and Plutarch asserts it to be most abundant in the
+                    time of full moon. The lunar beams themselves were supposed to contribute some
+                    influence, being of a cold nature, and therefore possessed of a humifying
+                        quality.<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >Statius has the expression <hi rend="italic">rorifera
+                        luna.</hi></p></note> The moon, it was imagined, performed merely the office
+                    of an imperfect mirror, reflecting the softened lustre of the sun without any
+                    portion of his heat.</p>
+                <p part="N">The dew of heaven has always been regarded as a fluid of the purest and
+                    most translucid nature. Hence it was celebrated for that abstergent property
+                    which, according to the vulgar persuasion, enables it to remove all spots and
+                    stains, and to impart to the skin the bloom and freshness of virgin beauty. Like
+                    the elixir of later times, it was conceived to possess the power of extending
+                    the duration of human life; and Ammianus Marcellinus ascribes the longevity and
+                    robust health of mountaineers, in comparison with the inhabitants of the plains,
+                    chiefly to the frequent aspersion of dew on their gelid bodies. Dew was also
+                    employed as a most powerful agent, in all their operations, by the alchemists;
+                    some of whom pretended that it possessed such a subtile and penetrating efficacy
+                    as to be capable of dissolving gold itself. Following out the same idea, the
+                    people of remote antiquity fancied that the external application of dew had some
+                    virtue in correcting any disposition to corpulence. The ladies of those days,
+                    anxious to preserve their fine forms, procured this celestial wash, by exposing
+                    clothes or fleeces of wool to the humifaction of the night. It was likewise
+                    imagined that grasshoppers feed wholly on dew, and owe their lean features
+                    perhaps to such spare diet.<note anchored="true" place="bottom" type="authorial"
+                            ><p part="N"><hi rend="italic">Ilore aluntur</hi><hi rend="italic"
+                                >cicada.</hi><hi rend="smallcaps">Plin.</hi> xi. 26. <hi
+                                rend="italic">Dumque thymo pascentur apes, dum rore cicadce.</hi><hi
+                                rend="smallcaps">Virg.</hi> Eclog.</p></note></p>
+                <p part="N">The philosophers of Greece, after genuine knowledge ∣ had illumined that
+                    interesting region, entertained far just-, er notions concerning the nature and
+                    formation of dew. Aristotle, whose universal genius ranged over both the
+                    physical and the intellectual world, studied facts closely, and sought to reason
+                    accurately from the phenomena actually observed. In his book <hi rend="italic"
+                        >De Mundo,</hi> he defines “dew to be humidity detached in minute particles
+                    from the clear chill atmosphere.”<note anchored="true" place="bottom"
+                        type="authorial"><p part="N"><hi rend="italic">∆ζam&gt;s tmν iιγζnν</hi> iξ
+                                <hi rend="italic">aiåpa; ×aτa &lt;τυaτaσιν</hi><hi rend="italic"
+                                >λίπτον.</hi></p></note> In his treatise of <hi rend="italic"
+                        >Meteorology,</hi> he states that “dew is only formed beneath a calm and
+                    cloudless sky, but never in windy weather.”<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">The same observation is repeated by Pliny, <hi
+                                rend="italic">Nat. Hist.</hi> xviii. 29 <hi rend="italic"
+                                >-Neque</hi><hi rend="italic">in</hi><hi rend="italic">nube
+                                neque</hi><hi rend="italic">in</hi><hi rend="italic">flatu cadunt
+                                rores;</hi> and in another place, still more explicitly, thus: <hi
+                                rend="italic">Iiores</hi><hi rend="italic">neque gelu, neque
+                                ardoribus, neque ventis, nec nisi serena nocte.</hi> Id. ii.
+                        7θ∙</p></note> He further subjoins, that it collects in low places, and not
+                    on the summits of mountains. Vapour, which, according to him, is only heat
+                    combined with water, rises in the atmosphere during the day; but when the cold
+                    begins to prevail at night it again discharges its humidity. This vapour,
+                    however, he thinks can never ascend high above the surface of the earth, both
+                    because it must soon lose its buoyant heat, and because in lofty situations it
+                    would be scattered and dissolved by the agitation of the air. Dew is hence most
+                    copious in fine weather, and in low damp situations. A north wind checks its
+                    production, but a gentle southern gale, charged with humidity, will occasion a
+                    copious deposit. When a more intense cold prevails in the atmosphere, the vapour
+                    precipitates its humidity in a congealed form, and the dew passes immediately
+                    into hoar-frost. Cold occasions this consolidation. Dew has hence the same
+                    relation to hoar-frost that rain bears to snow, the frozen mass of clouds
+                    constituting the one, and attenuated low vapour, seized by frost, forming the
+                    other. The heat of the sun’s rays thus first raises the vapour from below; but,
+                    in all its subsequent changes and modifications, the moon and stars, contrary to
+                    the earlier and more popular notions, exert no sort of influence.</p>
+                <p part="N">The Aristotelian opinions seem to have given place among the Romans to
+                    the ruder notions which prevailed: in remote antiquity respecting the mode of
+                    its formation. Pliny invariably speaks of a dew as <hi rend="italic"
+                        >falling</hi> from the heavens; <hi rend="italic">cum</hi><hi rend="italic"
+                        >ros cecidisset.</hi> We might expect, therefore, that the poets would
+                    continue in their verses to perpetuate the same idea.</p>
+                <p part="N">Sparsaque coelesti rore madebit humus. <hi rend="smallcaps">Ovxd,</hi>
+                    Fast. i. 312.</p>
+                <p part="N">Vitreoque madentia rore, Tempora noctis eunt. Id. Fast. iii. 880.</p>
+                <p part="N">qua prata jacent, Quae rorifera mulcens aura, Zephyrus vernas evocat
+                    herbas. <hi rend="smallcaps">Seneca</hi> Trag.</p>
+                <p part="N">Hinc ubi roriferis terram nox obruit umbris. <hi rend="smallcaps"
+                        >Lucret,</hi> vi. 4. 64.</p>
+                <p part="N">Virgil marks the cold which always accompanies the formation of dew, and
+                    which, when it becomes more intense, converts the lucid globules into spicular
+                    shoots of hoar-frost.</p>
+                <p part="N">Cum primum gelidos rores aurora remittit. Eclog, viii. 15.</p>
+                <pb break="no" facs="nls:194757009?mode=fullsize" xml:id="kp-eb0707-7009-0749"/>
+                <p part="N">The opinion that dew falls from the sky maintained its credit during the
+                    course of the middle ages. The alchemists even carried this idea so far as to
+                    fancy that, since the dew gradually evanishes in the progress of the day under
+                    the action of the solar rays, it then merely seeks by sympathy to regain its
+                    native seat in the highest heavens. Nay, some of those ingenious enthusiasts
+                    have not scrupled, in confirmation of their wild hypothesis, broadly to assert
+                    that a few drops of morning dew, being inclosed in an empty egg-shell, which is
+                    placed at the foot of a ladder resting against the roof of a house, the shell
+                    will become buoyant while the sun shines, and will mount along the ladder till
+                    it reaches the very top. The famous Van Helmont, who refined on the notions of
+                    the alchemists, considered the lights of heaven as of two distinct kinds, the
+                    one which flows from the sun and rules the day, being intrinsically warm, and
+                    possessing masculine virtue; the other, which rules the night, and emanates from
+                    the moon and stars, being of a feminine nature, and having a cool or
+                    refrigerating influence. This cold light, he imagined, produces the purest
+                    essence of water, which is stored in the moon, to recruit the waste of the
+                    nether world; and he supposed the allegory of Jacob’s ladder might represent
+                    that perpetual ascent and descent of aqueous matter, by which the revolution of
+                    the system is constantly maintained. That the moon’s beams are naturally cold,
+                    he thought sufficiently established by the prevailing belief of the common
+                    people, who carefully avoid sleeping in the open air, without some screen to
+                    protect them from the chilling impressions which are shot down upon the
+                    ground.</p>
+                <p part="N">Baptista Porta asserted that air is actually converted into water from
+                    the accession of cold, and thought this transmutation proved by the fact that,
+                    on the approach of severe weather, tlιe windows of an apartment have the inside
+                    of the panes of glass covered with moisture. Gaspar Schott, as late nearly as
+                    the middle of the seventeenth century, was so much persuaded of the coldness of
+                    the moon’s rays, that he stoutly appealed to the effects of their concentration
+                    in the focus of a reflector. This experiment, however, was made sixty years
+                    before, and with an opposite result, by the famous Sanctorio, the founder of
+                    scientific medicine, and the inventor of the thermometer. He actually employed
+                    the air thermometer for the first time; but this very ingenious inquirer must
+                    have been deceived by some extraneous circumstances, when lie saw the liquor
+                    sink so considerably as he asserts, under the calorific action of the moon’s
+                    light. The philosophical ideas of Sanctorio were perhaps in some instances too
+                    refined for his age, and the vulgar notion concerning the production of dew
+                    continued afterwards, for more than an hundred years, to be still generally
+                    retained. But the progress of horticulture near the latter part of the
+                    seventeenth century brought out some unexpected facts, which seemed at variance
+                    with the popular belief. It was remarked that a bell-glass being placed in the
+                    evening over a plant, was in the morning profusely covered with dew on the
+                    inside, though scarcely any moisture appeared to adhere to the external surface.
+                    The humidity which formed the minute globules must therefore have risen from the
+                    plant or the ground, and adhered against the glass.</p>
+                <p part="N">Such, however, was the very slow advance of sound philosophy, that
+                    Perlicius, who proposed what he calls a <hi rend="italic">Drososcope,</hi>
+                    consisting of an oblique balance playing in a soft rack, for indicating the
+                    quantity of dew accumulated in the absence of the observer, concludes the
+                    discourse which, under the direction of Professor Weidler, he delivered in
+                    scholastic form on taking out his degree at Wurtemberg in 1727, with the general
+                    inference that dew descends to us from the atmosphere of Jupiter, Venus, the
+                    Moon, Mars, and Saturn; but that, though it falls from the air, it by no means
+                    originates in this fluid. He had found in the month of August that 250 grains of
+                    dew formed on the surface of a square foot in the country, while only
+                    ninety-four, and at other times seventy-six, or even sixty-four grains, were
+                    deposited in the town.</p>
+                <p part="N">The first person, however, who appears to have openly' rejected the
+                    inveterate opinion of the descent of dew, was <hi rend="superscript"> 1</hi>
+                    Gersten, another German professor, who made several experiments on the subject,
+                    and printed at Giessen, in 1733, an academical thesis, in which he advanced the
+                    opposite hypothesis. He found that all plants exhale, in various proportions,
+                    the moisture which forms the aqueous deposit; and remarked, that plates of
+                    copper exposed during the night have only their under surface bedewed. This
+                    dissertation led the celebrated Professor Muschenbroeck to repeat the same
+                    observations at Utrecht. Having obtained similar results, he communicated the
+                    main facts to his Parisian correspondent, Μ. du Fay, who planned immediately a
+                    series of experiments on a large scale. This ingenious philosopher caused two
+                    tall ladders to be set up, reclining against each other, in a vacant space,
+                    remote from all trees and lofty buildings; and on the 25th October 1736, at four
+                    o’clock in the evening, the weather being clear and calm, he laid panes of glass
+                    on the steps at the different heights of six, thirteen, seventeen, twenty-five,
+                    and thirty-one feet above the ground. These he visited at certain intervals
+                    during the progress of the night. By five o’clock a pane close to the ground had
+                    its under side completely wet, while its upper side was only slightly dewed. At
+                    six o’clock the pane, six feet above the surface, was covered with dew; and at
+                    seven o’clock the effect had reached the highest pane. During the whole night
+                    the dew continued to form; but it appeared always more copious on the lower
+                    panes.</p>
+                <p part="N">These facts might be deemed sufficiently conclusive; but M. du Fay
+                    sought likewise to ascertain the relative quantities of moisture deposited at
+                    different altitudes. He procured several rectangular bits of green cloth, cut
+                    six inches long and four inches broad, and adjusted all to the same weight.
+                    These he suspended in horizontal positions at four o’clock in the evening, one
+                    of them only half a foot above the ground, and the rest at the heights of six,
+                    thirteen, and twenty-five feet. On weighing them next morning he found that they
+                    had respectively imbibed fifty-three, sixty-six, fifty-six, and fifty-four
+                    grains of dew. The subsequent night having proved windy, they gained only seven,
+                    nine, ten, and six grains. It was evident, therefore, that dew is formed not
+                    only sooner, But more copiously, near the surface of the ground than at greater
+                    elevations.</p>
+                <p part="N">To determine still more precisely the several quantities of moisture
+                    imbibed at different heights, M. du Fay took three linen towels, each three and
+                    a half feet long and two and a half broad, and having dried them thoroughly in
+                    the sun, he stretched them horizontally at one foot, and seventeen, and
+                    twenty-eight feet above the ground. After exposure during the whole night, the
+                    air being quite clear and calm, the lowest one was found to have gained 3060
+                    grains, the next only 2346, and the highest 2742. There occurs some slight
+                    anomaly in this result; but on reducing the greatest effect to English measures,
+                    it corresponds almost exactly to a cubic inch of dew for each square foot of the
+                    surface. This might appear to be rather a low estimate for the climate of Paris
+                    in the autumnal season, since, at the same rate, it would give only a deposit of
+                    about two and a half inches during the whole year.</p>
+                <p part="N">In the mean time, Muschenbroeck made observations on the humifaction of
+                    substances placed above the leaden platform of his observatory at Utrecht. The
+                    dew formed <pb break="no" facs="nls:194757022?mode=fullsize"
+                        xml:id="kp-eb0707-7022-0750"/>in such a situation, he thought, could not
+                    have risen from the ground, but must have fallen from the atmosphere. But,
+                    pushing these experiments further, he was conducted to a most curious and
+                    interesting discovery. He found that dew forms in very different proportions on
+                    different bodies, and that it will scarcely adhere to a surface of polished
+                    metal, while it streams profusely over glass or porcelain. Even the colour of
+                    the substance appeared, in some instances, to alter the effect. Thus, a piece of
+                    red morocco, leather acquired, by exposure through the night, twice as much dcw
+                    as another piece of the same size, whether black or blue. A closer examination,
+                    however, convinced him that this modification was not caused by the mere colour
+                    itself, but was occasioned by the addition or infusion of the matter employed to
+                    produce it.</p>
+                <p part="N">Μ. du Fay, on his part, repeated those experiments with the same
+                    success. He likewise performed others of a similar description. Electricity was
+                    at this period in high vogue, and he had distinguished himself in that
+                    department. It, therefore, struck Μ. du Fay that the disposition of certain
+                    bodies to attract or to repel dew was somehow connected with the distinction
+                    into electrics and conductors. in the prosecution of this idea he sought to
+                    compare the humifying action of vitreous with that of resinous substances, lie
+                    took a tin basin, of the same shape and dimensions as one of glass, and having
+                    coated it on both sides with forty or fifty applications of a solution of
+                    shell-lac in alcohol, he exposed the two vessels during a fine clear night; but
+                    the surface of the glass was found to gather twice as much dew as the resinous
+                    coating. In the course of his researches, he likewise noticed another curious
+                    fact, the explication of which must be referred to a recent discovery. Having
+                    selected two large and equal watch-glasses, he sct their convex faces
+                    horizontally, the one on a porcelain and the other on a silver saucer, and
+                    exposed them both, in this position, to the influence of the night-air; when the
+                    former was always observed to collect five or six times more dew than the
+                    latter. The metallic surface must have, therefore, in some way or other,
+                    contributed by its presence to check the precipitation of humidity, though its
+                    direct action is confined to a very narrow limit, since, under a reşinous
+                    coating of only the hundredth part of an inch in thickness, the effect is
+                    precisely the same as with a cake of wax. In confirmation of this remark, having
+                    composed a square plate, by cementing at the edge a polished rectangle of brass,
+                    six inches long and three inches broad, to a similar piece of glass, he found,
+                    on exposing it to the atmosphere at night, the vitreous surface covered as usual
+                    with dew, while the metallic one was scarcely at all affected; but, on laying
+                    another slip of glass across these plates, the end which rested on the brass
+                    remained quite dry, while the other end soon became profusely wetted.</p>
+                <p part="N">It seemed to follow from the experiments of Muschenbroeck and Du Fay,
+                    that, strictly speaking, dew neither falls nor rises, but, according to the
+                    doctrine of Aristotle, only separates, under a certain change of circumstances,
+                    from the air, and attaches itself to some substances in preference to others.
+                    The theory of vapour, proposed afterwards by Le Roy of Montpellier, threw
+                    further light on the subject. Moisture is suspended in the atmosphere by a real
+                    chemical solution, in the same manner as nitre and other salts are dissolved in
+                    water. The solvent energy is in both cases augmented by the addition of heat. A
+                    rise of temperature enables the air to support a larger portion of humidity,
+                    while the decrease of it enfeebles the attractive power, and occasions a
+                    precipitation in the shape of mist or dew. This perspicuous explication, as we
+                    have seen, had been already anticipated, though but vaguely stated, by
+                    Aristotle.</p>
+                <p part="N">A deposition entirely similar to dew or hoar-frost is hence formed,
+                    whenever the air becomes suddenly chilled, by touching any surface much colder
+                    than itself, and not consisting of polished metal. Thus the walls of long
+                    passages, vaults, or massive buildings, generally drip with wet during the early
+                    part of the summer, before the external heat has sufficiently penetrated. In
+                    like manner, it is observed, that when a severe and long-continued frost is
+                    succeeded by a thaw, the backs of houses are quickly incrustcd with shoots of
+                    hoary icicles.</p>
+                <p part="N">The formation of dew is hence easily produced artificially in a close
+                    room, without waiting for exposure under a clear nocturnal sky. If a caraffe,
+                    filled with water from a spring or well, be carried into a warm apartment, the
+                    outside of the glass will become soon covered over with an aqueous deposit,
+                    which must increase till the body of water has acquired nearly the temperature
+                    of the encircling air, and will afterwards gradually disappear. But if a piece
+                    of tin-foil be applied to the bottle, it will remain dry, while the rest of the
+                    surface appears humified with dew.</p>
+                <p part="N">It is a curious fact, that air always begins to deposit its moisture on
+                    glass, even before it has reached the point of saturation, or become absolutely
+                    damp. This property, and the circumstances connected with it, Professor Leslie
+                    discovered, in the year 1798, by help of his hygrometer, which he had already
+                    brought nearly to a state of perfection. On exposing wine-glasses at the
+                    approach of evening, they were soon covered with dew, while this instrument
+                    still indicated several degrees of dryness. The difference was yet greater in
+                    summer than in winter. The hygrometer being inclosed within a small glass
+                    receiver, placed on a wetted plate likewise of glass, stood, after the whole
+                    internal surface had become lined with dew, at 5° in a very cold room, but at
+                    15° when the apartment was kept warm.</p>
+                <p part="N">The general observation is explained by Professor Leslie’s researches
+                    into the propagation of beat. No adjoining substances can ever come into
+                    absolute contact; but air approaches much nearer to the boundary of glass,
+                    porcelain, or paper, than to a surface of polished metal. By an extension,
+                    therefore, of the principle of capillary action, the suspended aqueous
+                    particles, which have a strong adhesion to glass, to which they are brought so
+                    close, readily detach themselves from their union with tb.e air. But the same
+                    particles being held back from the proximity of a metallic surface to which they
+                    have little attraction, are never deposited on it unless the air is actually
+                    overloaded with them. The hygrometer will accordingly reach the absolute zero
+                    when it is shut up within a case of polished tin.</p>
+                <p part="N">Professor Leslie afterwards made several occasional observations
+                    relative to the production of dew, particularly during a series of clear warm
+                    days in the month of May 1801, at Easbury, in Dorsetshire, where he placed his
+                    instruments both on the lawn and on the balustrade of a tower sixty feet in
+                    height. Without entering into details, it may be sufficient here to mention the
+                    principal results. The periodical variations, both of the hygrometer and
+                    thermometer, were much greater near the surface than at some elevation. On the
+                    approach of sunset the thermometer on the ground sunk rapidly; the hygrometer
+                    relapsed to about five degrees, and the dew began to form on the blades of
+                    grass. During the night, the thermometer descended still lower, the hygrometer
+                    indicated absolute humidity, and the lawn was covered with a profusion of dew.
+                    But a little after sunrise, the thermometer again mounted, the hygrometer began
+                    to act,-and the sheet of moisture gradually exhaled. In the progress of the day
+                    the heat and dryness increased; and, about two o’clock, the thermometer and
+                    hygrometer, both of them screened from the <pb break="no"
+                        facs="nls:194757035?mode=fullsize" xml:id="kp-eb0707-7035-0751"
+                    />directaction of the sun, stood generally, the former at 75°, and the latter at
+                    85°. But, on the top of the tower, all those changes were less violent. The
+                    thermometer, which at that altitude seldom rose in the course of the day to 70°,
+                    or the hygrometer to 65°, indicated, as night again closed, a depression, though
+                    very moderate in comparison with what was shown at the surface of the ground.
+                    The thermometer stood several degrees higher than below, the hygrometer remained
+                    at a dryness of 15° or 20°, and no dew was deposited on the balustrade. But
+                    similar differences of effect, although on a smaller scale, were exhibited at
+                    very moderate heights. On lifting those instruments in the evening only a foot
+                    from the ground, the thermometer would rise a degree or two, and the hygrometer
+                    mount from the verge of moisture to perhaps 10°. At an elevation of four feet
+                    those changes were nearly doubled. The dew thus always began, as in Du Fay’s
+                    experiments, to form at the surface of the earth, and continued to mount upwards
+                    with the progress of the night.</p>
+                <p part="N">It is hence easy to explain the general phenomena of <hi
+                        rend="smallcaps">î</hi> dew. “In fine calm weather, after the rays of the
+                    declining sun have ceased to warm the surface of the ground, the descent of the
+                    higher mass of air gradually chills the undermost stratum, and disposes it to
+                    dampness, till their continued intermixture produces a fog, or low cloud. Such
+                    fogs aŗe, towards the evening, often observed gathering in narrow vales, or
+                    along the course of sluggish rivers, and generally hovering within a few inches
+                    of the surface. But in all situations, these watery deposits, either to a
+                    greater or a less degree, occur in the same disposition of the atmosphere. The
+                    minute suspended globules, attaching themselves to the projecting points of the
+                    herbage, form dew in mild weather, or shoot into hoar-frost when cold
+                    predominates. They collect most readily on glass, but seem to be repelled by a
+                    bright surface of metal.”<note anchored="true" place="bottom" type="authorial"
+                            ><p part="N">Leslie <hi rend="italic">On the Relations of Air to Heat
+                                and Moisture,</hi> p. 132.</p></note> The unequal heating of the
+                    surface during the day thus occasions, on statical principles, a perpetual
+                    interchange between the higher and the lower atmosphere, which is prolonged
+                    through the night, the warm portions of air still continuing to ascend, and
+                    leaving their place to be occupied by the descent of similar cold portions of
+                    that fluid. This vertical play is a provision of nature for the attempering of
+                    the diurnal vicissitudes of climate. “In clear and calm weather, the air is
+                    always drier near the surface during the day than at a certain height above the
+                    ground, but it becomes damper on the approach of evening, while, at some
+                    elevation, it retains a moderate degree of dryness through the whole of the
+                    night. If the sky be clouded, less alteration is betrayed in the state of the
+                    air, both during the progress of the day and at different distances from the
+                    ground; and if wind prevail, the lower strata of the atmosphere, thus agitated
+                    and intermingled, will be reduced to a still nearer equality of condition.”<note
+                        anchored="true" place="bottom" type="authorial"><p part="N"><hi
+                                rend="italic">Ibid.</hi> p. 92.</p></note></p>
+                <p part="N">The descent of chill air caused by superior density, explains the
+                    formation of dew in low situations, and its progressive elevation as the cold
+                    accumulates. But some further explication was wanted to reconcile the concluding
+                    observations of M. du Fay. The subject was in consequence resumed by Μ. Benedict
+                    Prevost, who performed a curious set of experiments, described in a Memoir read
+                    before the Philosophical Society of Montauban in 1803. The results are certainly
+                    perplexing, and would almost seem anomalous. 1. Tin or copper foil, and gold or
+                    silver leaf, being applied to plates of glass, and exposed to dew, were
+                    observed, as before, to remain generally dry, while the vitreous surface became
+                    bathed with moisture. 2. After exposure to the night air, not only a dry border
+                    appeared, extending a little way beyond the film of metal, but the side opposite
+                    to that coating continued still dry, ' though all the rest of the glass was
+                    profusely wetted. 3. A piece of glass, being laid above the metallic leaf,
+                    destroyed its effect. 4. A rectangular piece of tin-foil being pasted on the
+                    inside, at the top of a pane of glass, in a window having a northern exposure,
+                    and a similar piece applied at the bottom on the outside; when the dewing began
+                    first against the inside, the interior coating appeared wetter than the naked
+                    surface, and the portion of this immediately behind the exterior coating seemed
+                    always drier than the rest. The facts were exactly reversed when the dewing
+                    commenced on the outside of the window. 5. Opposite to the middle of a
+                    rectangular leaf of metal, a similar but smaller piece being applied on the
+                    outside of the pane, when the dew began to form within the apartment, the space
+                    behind the exterior coating still remained dry. 6. In all cases, whether on the
+                    inside or the outside of the pane, on covering the metallic leaf with a piece of
+                    glass of the same dimensions, the effect was exactly the same as if no metal had
+                    been interposed. 7. Similar appearances were produced by combining gilt paper or
+                    quicksilvered glass, the results depending wholly on the nature of the extreme
+                    surfaces, according as they consisted of metal, or of glass or paper.</p>
+                <p part="N">On reviewing these curious facts, Μ. Prevost was struck with thcir
+                    apparent analogy to the phenomena of electricity. He thought they might all be
+                    comprised under a single proposition: <hi rend="italic">That glass which
+                        separates two masses of air of unequal temperatures attracts or repels
+                        humidity according as it is armed with metal on the lιot or on the cold
+                        side.</hi> To account for these very singular yet interesting facts, he
+                    proposed a random and strained hypothesis, grounded on some loose notions of
+                    chemical affinities. But we need not stop to examine it.</p>
+                <p part="N">Dr Thomas Young, in his <hi rend="italic">Lectures on Natural
+                        Philosophy,</hi> published in 1806, concludes a short abstract of the
+                    experiments of Prevost with suggesting, that they would derive their explication
+                    from Professor Leslie’s <hi rend="italic">Discoveries on. Heat.</hi> The
+                    anticipation was perfectly just, though the discoveries themselves required then
+                    a little further extension to embrace the whole phenomena. Professor Leslie had
+                    carefully investigated the laws which modify the propagation of hot or cold
+                    pulses through an aerial medium from a solid or a liquid boundary. But he did
+                    not contemplate the pulsation excited at the conterminous surface of two strata
+                    of air having different temperatures. It was indeed impossible to devise an
+                    experiment in which the opposite layers of fluid could be kept distinct, for the
+                    warmer portions of air would seek always to rise, while its colder and denser
+                    portions would endeavour to sink downwards, and thus form, by insensible shades,
+                    a vertical gradation of temperature. But though the pulsatory action excited at
+                    each successive horizontal stratum might singly escape observation, it seemed
+                    probable that the accumulated impressions transmitted from numerous boundaries
+                    would become very sensible. Accordingly, in a close heated room, the <hi
+                        rend="italic">pyroscope,</hi> or differential thermometer, having one of its
+                    balls gilt, which is susceptible of such pulses only, marks, near the floor,
+                    perhaps four or five degrees of calorific impression, yet, when lifted higher,
+                    it indicates an effect always diminishing in proportion to the proximity of the
+                    ceiling. The entire action exerted, or the amount of the intermediate energies,
+                    was therefore, as the excess of the temperature of the stratum of air next the
+                    ceiling above that of the stratum in which the instrument happened to be placed.
+                    Carried out of doors in clear and <pb break="no"
+                        facs="nls:194757048?mode=fullsize" xml:id="kp-eb0707-7048-0752"/>calm
+                    weather, after the sun had withdrawn his beams, it betrayed a much stronger
+                    tendency the contrary way, and marked a copious frigorifie impression, evidently
+                    produced by the coldness which must pervade the upper regions of the atmosphere.
+                    But to fit the pyroscope for making observations during the day, it was
+                    converted into the <hi rend="italic">AEtlirioscope,</hi> in which the influence
+                    of light is neutralized; a combination of great delicacy, and, therefore, a
+                    valuable acquisition to meteorological science. (Sce the article <hi
+                        rend="smallcaps">Climate.)</hi> The application of this new instrument has
+                    not only ascertained the existence, but measured the intensity, of the cold
+                    pulses which are at all times darted downwards from the successive strata of
+                    air, though often partially intercepted by clouds, or more completely obstructed
+                    by low fogs. But since the spheroidal cup, which concentrates the various
+                    oblique impressions on the upper ball of the aethrioscopc, can do little more
+                    than double the direct action against a horizontal surface, it may hence be
+                    computed that, in fine bright evenings, those cold pulses rained from the sky
+                    arc sufficient alone to depress the temperature of the ground, according to the
+                    seasons, sometimes eight degrees, but generally about three degrees, by
+                    Fahrenheit’s scale. The blades of grass, thus chilled from exposure, cool in
+                    their turn the damp air which touches them, and cause it to drop its moisture.
+                    For the same reason, the naked ball of the aetlirioscope, as it is still more
+                    cooled, appears much sooner affected, being commonly covered with profuse liquid
+                    globules long before the dew has begun to form on the surface of the ground.</p>
+                <p part="N">All the difficulties and seeming anomalies of the observations of Du Fay
+                    and Prevost now vanish away. The various phenomena proceed chiefly from the cold
+                    induced by exposure under a clear sky; but other causes will often essentially
+                    modify the results. 1. The impression received on a plate of polished metal
+                    scarcely amounts to the tenth part of what is communicated to a surface of
+                    glass, wood, cloth, paper, earth, or grass. 2. When the action continues the
+                    same, the corresponding depression of temperature yet depends on the slowness
+                    with which the cold is subsequently dispersed. In calm weather a plate of glass,
+                    or a sheet of paper, if covered on both sides with a leaf of metal, will gain or
+                    lose heat twice as slow as before, and if coated only on one side, its progress
+                    will be a half slower. But high winds greatly assist the dispersion of heat, and
+                    often reduce the effects of external impressions to the third or the fourth part
+                    of their ordinary measure.</p>
+                <p part="N">Hence the reason why scarcely any dew is formed in windy weather, though
+                    the sky be clear; for the frigorifie pulses must then have little efficacy, not
+                    cooling the ground perhaps more than one or two degrees. In the last observation
+                    of Du Fay, the slip of glass laid across the rectangle, composed of alternate
+                    bars of glass and of brass, being greatly chilled by exposure, had by contact
+                    communicated its coldness to the matter under it, and thus enabled the metal to
+                    assist in the deposition of dew. In Prevost’s second experiment, the metallic
+                    leaf, being scarcely affected by the frigorifie impressions, checked by its
+                    presence the progress of cold along the vitreous surface, and therefore
+                    maintained a dry border all around it. Hence, in his third experiment, a piece
+                    of glass covering the metal received the entire impressions, and restored the
+                    former effect. The application of a metallic coating against the inside of a
+                    pane, must, in the fourth experiment, have augmented by one half the efficacy of
+                    the external pulses of cold, and thus made the dew to attach more profusely. For
+                    a like reason, while a leaf of metal on the outside of a pane became, in the
+                    fifth experiment, slightly dewed, the addition of a smaller metallic leaf
+                    against the inside increased the effect, by promoting the accumulation of
+                    cold.</p>
+                <p part="N">The remarkable experiments which the late Dr Patrick Wilson, professor
+                    of practical astronomy in the university of Glasgow, performed during the severe
+                    frost of January 1780, are easily explained on the same principles. In the <hi
+                        rend="superscript"> 1</hi> declivity of a garden, a thermometer laid, in a
+                    clear star’ light, on the surface of the snow, stood from eight to ten degrees
+                    lower than when suspended at the height of a few inches. This excessive cold was
+                    evidently not occasioned by evaporation; for, on blowing with bellows against
+                    the bulb when it lay on the snow, so far from sinking more, the mercury actually
+                    rose two degrees higher than its station in the free air. The intensity was no
+                    doubt in part owing to the low position of the snow; for a thermometer suspended
+                    at a pole projecting from a window twenty-four feet above the surface indicated
+                    four degrees less cold than below. But, besides the accumulating action of the
+                    descent of cold air, the snow must have been also chilled extremely by the
+                    frigorifie pulses darted from an azure sky. This inference, though not perceived
+                    at the time, or, indeed, likely to have been admitted then as philosophical, is
+                    distinctly supported by an experiment of Dr Wilson. Having screened a spot of
+                    the garden by a sort of sharp roof formed with two inclined sheets of brown
+                    paper, and laid a thermometer under it on the surface of the snow, the
+                    instrument soon marked six degrees of less cold than before, or than another
+                    exposed at only a short distance. But this open screen, since it could not
+                    impede the mere descent and influx of cold air, must have intercepted a more
+                    powerful frigorifie influence.</p>
+                <p part="N">Dr Wilson afterwards performed other similar experiments, which are
+                    detailed in his paper on hoar-frost, drawn up in 1788, and inserted in the first
+                    volume of the <hi rend="italic">Transactions</hi><hi rend="italic">of the Royal
+                        Society of Edinburgh.</hi> He made the important remark, that during a fog
+                    there was no difference of temperature between the surface of snow and the
+                    incumbent air. But he neglected to pursue the consequences, and was disposed,
+                    from the various facts which he had observed, to conclude vaguely that
+                    hoar-frost is always accompanied by a production of cold.</p>
+                <p part="N">About the same time Mr Six of Canterbury, the inventor of the
+                    self-registering thermometer, employed that« very useful instrument in making
+                    similar but more exten-&lt; sivc observations. He found, in a clear summer
+                    evening, his thermometer, when laid on the grass, to sink five degrees lower
+                    than when suspended freely near the surface. But he had occasion afterwards to
+                    remark still greater differences. On a clear and still night in winter, the
+                    thermometer which had been supported in the air fell no fewer than thirteen and
+                    a half degrees when placed flat on a meadow. He likewise noticed, as Dr Wilson
+                    had done, that thick fogs always impede, and often wholly prevent, the peculiar
+                    cooling of the ground.</p>
+                <p part="N">It seemed therefore ascertained that, in the absence of the sun, the
+                    surface of the earth, and especially its projecting herbage, acquire, in calm
+                    weather, from the mere aspect of a bright and unclouded sky, a very notable
+                    degree of cold. This cold appears likewise connected evidently with the
+                    formation of dew. But what is the nature of that relation? Is the coldness
+                    contracted by substances on exposure to the nocturnal air to be considered as
+                    the effect or as the cause of their dewing? The former opinion, we have seen,
+                    was espoused by Dr Wilson, though sound theory should make us expect that the
+                    deposition of dew, or the conversion of humidity from a gaseous to the liquid
+                    state, must, on the contrary, occasion a small extrication of heat. But constant
+                    experience shows that cold bodies, not sheathed with metallic lustre, become
+                    always sprinkled with minute aqueous globules, from the contact of damp air. The
+                    simplest truths, however, are very seldom the soonest perceived, and the late
+                    ingenious <pb break="no" facs="nls:194757061?mode=fullsize"
+                        xml:id="kp-eb0707-7061-0753"/> and learned Dr Wells has the merit of being
+                    the first who distinctly attributed the formation of dew to the previous cold
+                    induced on the ground from the aspect of the sky. He had early conceived an
+                    opposite idea, but a closer examination of the subject led him to adopt juster
+                    views. Being once engaged in the research, he prosecuted his observations with
+                    assiduity and ardour for upwards of two years, at a friend’s villa on the skirts
+                    of London, in spite of his professional avocations, and at the evident risk of
+                    his precarious health. The numerous facts thus collected are detailed in his <hi
+                        rend="italic">Essay on Dew,</hi> which appeared in 1814, and immediately
+                    attracted a very considerable share of public notice. This little work, however,
+                    does not add much to our stock of accurate information, but it is rendered
+                    interesting by the variety of collateral objects which it embraces. The
+                    experiments themselves rarely display address or delicacy; and Dr Wells, without
+                    ever employing the hygrometer or the pyroscope, instruments which he could have
+                    then easily procured, generally contents himself with stating merely rude
+                    approximations. Fortunately, such coarse results were sufficient to support the
+                    main principle, for otherwise they would have required much correction. But we
+                    must still regret that the worthy author should have frequently trusted to
+                    conjectural reasoning, instead of appealing to direct experiment.</p>
+                <p part="N">∣f The chief observations collected by Dr Wells may be reduced to a
+                    narrow compass. The coldness of the objects exposed was always found to <hi
+                        rend="italic">precede</hi> the formation of dew, which continued, in
+                    favourable circumstances, to accumulate somewhat progressively during the whole
+                    night, so that, from midnight to sunrise, the deposition was even greater than
+                    from sunset to midnight. Dew was more abundant in the spring and autumn than at
+                    other seasons, and it was always very copious when the atmosphere inclined to
+                    humidity; for instance, in clear nights succeeding to misty mornings, or in
+                    clear mornings succeeding to misty nights.</p>
+                <p part="N">The coldness which bodies contract from exposure must be augmented by
+                    every circumstance which retards the communication of heat. Hence loose and
+                    spongy materials are mostly affected. Thus, in a clear night the grass was
+                    twelve degrees colder than the garden mould, and sixteen and a half degrees
+                    colder than a hard gravel walk. In another bright evening, the surface of snow
+                    being nine degrees colder than the air, a piece of swandown laid on it became
+                    still four degrees colder. Again, a lock of wool placed on a small table in the
+                    garden became nine and a half degrees colder than the air, while swandown, in
+                    the same situation, acquired a coldness of eleven and a half degrees.</p>
+                <p part="N">The quantities of dew which attach to different substances appear to
+                    follow the proportions of their relative coldness. Parcels of wool, each
+                    weighing ten grains, being teased out into flattened balls of two and a half
+                    inches diameter, and laid on a grass plot, on a gravel walk, and on fresh garden
+                    mould, acquired, during a clear calm night, respectively, sixteen, nine, and
+                    eight grains of humidity. In another favourable night ten grains of wool laid on
+                    the table attracted sixteen grains of dew, while another similar parcel,
+                    suspended at the same height in the free air, acquired only ten grains; but the
+                    former must have also been much colder than the latter, since its confined
+                    situation, unlike the open exposition, would check the dissipation of the
+                    frigorifie impressions. Hence dew is always denser on grass than on the leaves
+                    of shrubs.</p>
+                <p part="N">But the cooling of substances from exposure, though one great source of
+                    dew, is not the only cause of its formation. In low fogs, while the ground is
+                    scarcely colder than the incumbent bed of air, the humidity yet settles
+                    profusely on all bodies, even on the polished surface of metals. From Six’s
+                    experiments, it appears that, from the height of 200 fect, the temperature of
+                    the atmosphere, in fine evenings, decreases regularly about ten degrees, the
+                    colder and therefore denser portions being always thrown down to the surface.
+                    Hence the reason of the ancient remark, that dew is more copious in low vales
+                    than on the tops of hills. But the observations of Dr Wells serve to confirm the
+                    general statement. A lock of wool exposed on a table, imbibed, during a clear
+                    night, sixteen grains of dew; but a similar parcel, placed immediately under the
+                    table, and consequently screened from the aspect of the sky, attracted four
+                    grains. In the latter case, the mere accumulation of cold air below must have
+                    occasioned the aqueous deposition.</p>
+                <p part="N">It might perhaps have been judged sufficient if Dr Wells had contented
+                    himself with assuming the coldness induced on the ground as merely an
+                    experimental fact. At any rate, we cannot help regretting that hc should have
+                    sought the explication of this primary phenomenon from the very loose, cumbrous,
+                    and visionary hypothesis of M. Prevost of Geneva, concerning what is
+                    gratuitously called <hi rend="italic">radiant heat.</hi> We are at a loss indeed
+                    to conceive how a speculation so repugnant to all the principles of sound
+                    philosophy should at this time have procured any favour, unless it proceeds from
+                    the blind admiration which the multitude are prone to entertain for whatever
+                    lulls the reasoning faculty, and appears cloudy and mysterious. See <hi
+                        rend="smallcaps">Meteorology. (b.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

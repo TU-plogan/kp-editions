@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0713-4868-0265-05" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">LEYDEN</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1182566">Year</term>
+                    <term ref="fast:1198505">Life</term>
+                    <term ref="fast:836401">Books</term>
+                    <term ref="fast:860364">Church</term>
+                    <term ref="fast:1136041">Students</term>
+                    <term ref="fast:1198483">Brown</term>
+                    <term ref="fast:916820">Europeans</term>
+                    <term ref="fast:969307">Indians</term>
+                    <term ref="fast:964151">Hunters</term>
+                    <term ref="fast:1075567">Presbyterians</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1206715">Scotland</term>
+                    <term ref="fast:1210276">India</term>
+                    <term ref="fast:1239509">Africa</term>
+                    <term ref="fast:1240495">Asia</term>
+                    <term ref="fast:1219920">England</term>
+                    <term ref="fast:1226682">Albania</term>
+                    <term ref="fast:1207649">Wales</term>
+                    <term ref="fast:1206073">China</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b42j68511">Life</term>
+                    <term ref="lcsh1910:b43775w28">Books</term>
+                    <term ref="lcsh1910:b4n58cs1k">Manners</term>
+                    <term ref="lcsh1910:b4r49gb4d">Church</term>
+                    <term ref="lcsh1910:b47d2q898">Churches</term>
+                    <term ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term ref="lcsh1910:b4r20rx5q">Presbyterianism</term>
+                    <term ref="lcsh1910:b49c6s277">Christianity</term>
+                    <term ref="lcsh1910:b4z892m1t">Celtic</term>
+                    <term ref="lcsh1910:b48g8fh7d">Greeks</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193204868?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">LEYDEN</label>, a circle of Holland, divided into
+                    three cantons, viz. Leyden, Noordwyk, and Woubrugge, and containing about 60,000
+                    inhabitants. The city of Leyden, which gives its name to the circle, is situated
+                    on both sides of a branch of the river Rhine, which, though diminished by other
+                    branches that take their course to the sea before it arrives at this city, still
+                    retains its original name. It receives here the water of the smaller streams of
+                    the Does, the Bliet, the Mare, and the Zyl, and is, besides, intersected by
+                    several canals, thus dividing the city into numerous islands, which are
+                    connected together by nearly 100 bridges. The streets are broad, clean, and well
+                    paved; ιnd the high street, which runs through the whole city, is perhaps one of
+                    the finest in Europe. The walks in and wound the city are distinguished by their
+                    pleasing neatness. The most striking building is the stadthouse, in which is the
+                    fine picture of the last judgment by Lucas. St Peter's church is remarkable for
+                    the sarcophagus to the memory of Boerhaave, and monuments to three of the most
+                    distinguished citizens who lost their lives by the explosion of a vessel laden
+                    with gunpowder in 1807. There are, besides, sixteen other churches, and two fine
+                    hospitals, one of the finest of which is that which belonged to the Catholics a
+                    few years ago. The university, founded in 1575, has long maintained a high rank
+                    amongst the best institutions for education in Europe, and has produced the nost
+                    distinguished men in every branch of knowledge. It now contains about twenty
+                    professors in the four detriments of law, theology, medicine, and philosophy,
+                    and from 300 to 400 students. Attached to the university is library, containing
+                    60,000 volumes of books, and 14,000 ιanuscripts, some of them of the most
+                    valuable and curious kinds. It has also an observatory, an anatomical ιeatre, a
+                    botanic garden, a chemical laboratory, and several collections of natural and
+                    physical curiosities. The trade and manufactures of Leyden were once very
+                    extensive, but have much declined of late years. It has still, however, some
+                    considerable manufactures of woollen and linen cloths, and the black and scarlet
+                    cloths are much admired for their beautiful and permanent colours. The printing
+                    of books, especially of classical books, was once a great branch of industry,
+                    though now it is much diminished. Leyden has been the birth-place or residence
+                    of some of the most distinguished individuals, especially of Rembrandt and
+                    Lucas, painters; of Muschenbroeck and Boerhaave, naturalists; and of Scaliger,
+                    Salmasius, Heinsius, and others, critical and classical scholars. In 1816, the
+                    population was 28,600, but since that time it has increased, and, by the census
+                    of 1830, appears to be 34,564, viz. 16,131 males, and 18,433 females. It is
+                    situated in latitude 52. 8. 25. north, and longitude 4. 22. east. The environs
+                    of the city are ornamented with many seats of the inhabitants. The soil is rich,
+                    but, from its moisture, more appropriate for pasture than for grain. The dairies
+                    are numerous, and afford butter excellent for its flavour; and, from being
+                    capable of being kept a long time, it, along with cheese, forms an important
+                    part of the exportable commodities of Holland.</p>
+                <p part="N"><hi rend="smallcaps">Leyden</hi><hi rend="italic">Isle,</hi> an island
+                    situated off the north-west coast of Ceylon, about thirteen miles in length by
+                    two and a half in breadth. It contains excellent pasture for cattle and
+                    horses.</p>
+                <p part="N"><hi rend="smallcaps">Leyden,</hi><hi rend="italic">John,</hi> a
+                    celebrated linguist, antiquary, and poet, was born on the 8th of September 1775,
+                    at Denholm, a village on the banks of the Teviot, nearly opposite to Minto
+                    House, in the parish of Cavers and county of Roxburgh. His father was able to
+                    trace back his pedigree through a line of shepherds and husbandmen who had long
+                    occupied small farms on the estate of Douglas of Cavers, one of whom, Adam
+                    Ledan, in Little Cavers, a stern Presbyterian, had been denounced as a rebel, in
+                    a royal proclamation, in 1684. From his second to his sixteenth year, young
+                    Leyden lived with his parents in a retired cottage near the bottom of the
+                    “stormy Ruberslaw,” where he was taught to read by his father’s mother, and
+                    where he had no companions except the inmates of that rustic dwelling, and no
+                    books except the Bible, and such other volumes as are commonly possessed by the
+                    Scottish peasantry. His chief delight in the years of childhood was to listen to
+                    the tales of martial adventure and supernatural agency, recited by a blind uncle
+                    of his mother, and to read such works as the Metrical Histories of Bruce and
+                    Wallace, the Poems of Sir David Lindsay, and the <hi rend="italic">Arabian
+                        Nights Entertainments.</hi> In his tenth year, he went first to school at
+                    Kirktown, a distance of two miles from his father’s house, and there, under
+                    three successive schoolmasters, he learned writing, arithmetic, and the elements
+                    of Latin grammar. After having spent three years in this manner, he was placed
+                    under the charge of Mr Duncan, a Cameronian minister at Denholm; and at the end
+                    of two years, not unprofitably employed in this small seminary, he entered the
+                    university of Edinburgh in November 1790. Mr Dalzel, then professor of Greek,
+                    has repeatedly stated to the writer of this article, that he had seldom known
+                    any young man who at first appeared worse prepared for college, and who so
+                    speedily surmounted the disadvantages of imperfect tuition. He had accumulated a
+                    great stock of knowledge by a process of study peculiar to himself; but he had
+                    not thought it necessary to make himself master of grammatical rules; and, with
+                    all his strength and acuteness of mind, he at this time expressed his meaning in
+                    terms exceedingly awkward, and in a tone of voice so dissonant and loud as to
+                    set his fellow-students in a roar. He attended three winter sessions at the
+                    classes for languages <pb break="no" facs="nls:193204881?mode=fullsize"
+                        xml:id="kp-eb0713-4881-0266"/>and philosophy, applying with extraordinary
+                    ardour to every branch of inquiry connected with his academical studies, and to
+                    many other pursuits in which none of his instructors could have guided him. The
+                    vacations were generally passed in his native wilds amongst bis own relations,
+                    with the exception of the summer 1792, when he acted as assistant in a village
+                    school at Whitebanklee, or Clovenfords, on Cadon Water, a mountain stream which
+                    falls into the Tweed below Ashiesteel, on the skirts of Ettrick Forest. The
+                    charge of the school was left almost entirely to him; but the management of
+                    thirty boys and girls, from six to twelve years of age, appeared to be a task
+                    for which be possessed no manner of aptitude. Two of his pupils, who were
+                    learning Latin, looked up to him with deference and admiration; one of whom did
+                    not long survive him, and the other has held various appointments in the church
+                    and the universities; but the children in general were in a state of
+                    insubordination and tumult, which he endured with a degree of calmness, of which
+                    those who knew him in maturer life would have conceived him to be incapable. At
+                    this time his appearance was very prepossessing. He was ruddy and fair, with a
+                    frame rather delicate than robust, and an expression of great good-nature and
+                    gentleness in his features.</p>
+                <p part="N">In November 1793, he entered on the study of divinity, church history,
+                    and Hebrew, and passed through the usual course of four years’ attendance,
+                    before he was proposed for trials as a licentiate or probationer of the church
+                    of Scotland. Much of his attention was in the mean time devoted to historical
+                    research, to philology, to metaphysical speculations, and to natural history and
+                    medicine. He was a member of various debating societies, in all of which he
+                    distinguished himself by the fluency and copiousness of his unpremeditated
+                    harangues, rather than by any graceful or polished eloquence. In one of these
+                    institutions, he contracted an intimacy with Mr Henry Brougham, and with the
+                    late Dr Thomas Brown and Mr Francis Horner, as well as with several other
+                    individuals, who subsequently attained no inconsiderable distinction. About the
+                    same time he formed an acquaintance with some literary men farther advanced in
+                    life, as Mr Thomson, author of <hi rend="italic">Whist,</hi> a poem, and Dr
+                    Robert Anderson, editor of the British Poets, and then supposed to be connected
+                    with the <hi rend="italic">Edinburgh Magazine,</hi> to which both Leyden and Mr
+                    Thomas Campbell, one of his youthful friends, contributed some of their earliest
+                    poetical essays.</p>
+                <p part="N">When be had completed his theological education, he accompanied one or
+                    two pupils to St Andrews in 1797, where he eagerly embraced the opportunity of
+                    attending the lectures of Dr Hunter, professor of humanity, and of Principal
+                    Hill, one of the divinity professors. He became also a member of the Theological
+                    Society, in which he delivered a number of discourses, one <hi rend="italic">On
+                        the Argument a priori for the Existence of God;</hi> another <hi
+                        rend="italic">On Thanksgiving</hi><hi rend="italic">;</hi> and two <hi
+                        rend="italic">On Regeneration.</hi> He also engaged at almost every meeting
+                    in the discussion of some controverted point in divinity or philosophy; and it
+                    cannot be doubted that these discussions must often have been highly
+                    interesting, when such persons engaged in them as Dr Chalmers, whose speeches
+                    differed from most of the others in being generally read. Amongst the members at
+                    that period were, Mr Duncan, now professor of mathematics at St Andrews, and Sir
+                    John Campbell, now attorney-general of England. In one respect Leyden felt and
+                    acknowledged his inferiority to the students at St Andrews, namely, in having
+                    paid scarcely any attention to mathematics; a study for which he had so little
+                    turn, that, by his own account, he could never comprehend the definition of a
+                    straight line, owing to some metaphysical difficulty, which nobody could solve
+                    to his satisfaction. He appears to have disliked the style of society in St
+                    Andrews, where, however, he acquired more than one of his most valued friends,
+                    particularly Dr Hunter, and another gentleman of high intellectual capacity and
+                    scientific attainments. From the presbytery of St Andrews be received license to
+                    preach, in May 1798- and on this occasion he was much disgusted by a vulgar
+                    piece of waggery, attempted to be practised, at his expense, by one of the
+                    members, who told him, that, as he would be called upon to return thanks after
+                    dinner, it was expected that, according to established custom, he should give a
+                    specimen of his gifts in prayer, by using a form of words comprehending all the
+                    leading doctrines of the Christian faith. When the expected signal was given,
+                    Leyden stood up and began to pronounce such a prayer as might have been very
+                    suitable for the church; but after having proceeded at some length, and in a
+                    very sonorous voice, to enumerate the Divine attributes, he perceived that the
+                    company was astonished by this unusual exhibition, and sitting down abruptly in
+                    no very placid humour, he was more than half disposed to inflict personal
+                    chastisement on the offending individual, with whom he felt enraged, not merely
+                    on account of the indignity offered to himself, but for the indecent mockery of
+                    one of the solemnities of religion. About this time he returned to Edinburgh,
+                    where he frequently preached, not indeed so as to attract popular admiration,
+                    but in a manner which satisfied his numerous friends that he possessed a
+                    serious, as well as a philosophical mind. His memory was retentive; but, in
+                    conducting the devotions of a religious assembly, he was apt to be disconcerted
+                    by circumstances which would have given him no uneasiness if he had been
+                    addressing a learned society.</p>
+                <p part="N">In the winter of 1798, he attended some of the medical classes, and at
+                    this period nearly lost his life, in consequence of his rash and unskilful
+                    treatment of a complaint which he believed to be an attack of colic. He
+                    swallowed a glass of spirits, in the expectation of receiving immediate relief;
+                    but the disorder proved to be <hi rend="italic">enteritis,</hi> or inflammation
+                    of the intestines, and his constitution was so much weakened by venesection,
+                    blistering, and evacuations, that he never afterwards recovered the bloom of
+                    health. In addition to his duties as a tutor in a family, by which much of his
+                    time was engrossed, he had been engaged as a writer in the <hi rend="italic">New
+                        London Review,</hi> and, amongst other articles, contributed those on Horne
+                    Tooke’s <hi rend="italic">Diversions of Parley,</hi> on Dr Thomas Brown’s <hi
+                        rend="italic">Observations on Zoonomia,</hi> and on Vallancey’s <hi
+                        rend="italic">Sanscrit History of Ireland.</hi></p>
+                <p part="N">In the summer of 1799, he published a volume, entitled <hi rend="italic"
+                        >A Historical and Philosophical Sketch of the Discoveries and Settlements of
+                        the Europeans in Northern and Western Africa, at the Close of the Eighteenth
+                        Century.</hi> This interesting piece (an octavo of 442 pages) was written in
+                    about six weeks, whilst the author was in bad health, and at a distance from
+                    books; but it exhibits proofs of extensive information, as well as of sound
+                    reflection. In the course of the autumn he engaged to publish <hi rend="italic"
+                        >The Comρlαyηt of Scotland,</hi> a very rare anonymous work in the Scottish
+                    language, written early in the sixteenth century. It did not appear for nearly
+                    two years; but the preliminary dissertation, extending to nearly 300 pages, as
+                    well as the notes and glossary, indicated a compass of antiquarian lore, and a
+                    depth of research in various other unfrequented walks of erudition, which could
+                    not easily be rivalled. He also displayed great acuteness and ingenuity in
+                    attempting to prove, from internal evidence, that <hi rend="italic">The
+                        C°</hi><hi rend="italic superscript"> m</hi><hi rend="italic">' playnt</hi>
+                    was the production of Sir David Lindsay.</p>
+                <p part="N">Through Mr Richard Heber, to whom he was introduced by Mr Constable, he
+                    became acquainted with the most distinguished literary characters in Edinburgh,
+                    and, <pb break="no" facs="nls:193204894?mode=fullsize"
+                        xml:id="kp-eb0713-4894-0267"/>amongst others, with Sir Walter Scott, who at
+                    this time was engaged in collecting the ancient traditionary rhymes published in
+                    the <hi rend="italic">Minstrelsy of the Scottish Border</hi><hi rend="italic"
+                        >;</hi> a collection which Leyden contributed largely to enrich, both by
+                    recovering unedited fragments of antiquity, and by communicating imitations,
+                    written in the spirit and manner of the age of chivalry, as well as by
+                    furnishing materials for many of the notes, and particularly for the
+                    introduction to the tale of <hi rend="italic">Tamlane,</hi> containing a learned
+                    dissertation on the Fairies of popular superstition.</p>
+                <p part="N">In the year 1800, a plan was formed to establish him as assistant and
+                    successor to the minister of his native parish'; but it failed, in consequence
+                    of the reluctance of the incumbent to agree to an arrangement on which the
+                    heritors and parishioners had set their hearts. Soon afterwards, he was anxious
+                    to obtain the professorship of rhetoric and belles lettres in Edinburgh; but
+                    here also he was doomed to experience a disappointment.</p>
+                <p part="N">About this time he made two successive tours through the Highlands, and
+                    collected much curious information, which was once intended for publication. He
+                    wrote several poems, founded on the remains of Celtic story, two of which have
+                    been inserted in the <hi rend="italic">Border Minstrelsy.</hi> In 1801, he also
+                    contributed to Lewis’s <hi rend="italic">Tales of Wonder.</hi></p>
+                <p part="N">The year 1802, the last which he spent in Scotland, was one of the
+                    busiest of his life. About the beginning of the year, he had carried through the
+                    press nearly half a volume of an enlarged <hi rend="italic">Account of the
+                        Progress of Discovery in Africa.</hi> At the same time he engaged to conduct
+                    the <hi rend="italic">Scots Magazine,</hi> on an improved plan; and the volume
+                    for that year contains many articles furnished by him, and by another eminent
+                    orientalist, the late Dr Alexander Murray. He was also employed in correcting
+                    the papers of the Highland Society for publication; and he edited a volume
+                    entitled <hi rend="italic">Scottish Descriptive Poems, with some Illustrations
+                        of Scottish Literary Antiquities,</hi> containing <hi rend="italic"
+                        >Clyde,</hi> by John Wilson, schoolmaster of Greenock; <hi rend="italic"
+                        >Albania,</hi> addressed to the Genius of Scotland; <hi rend="italic">The
+                        Day Estival,</hi> by Alexander Hume; and <hi rend="italic">Poems,</hi> by
+                    William Fowler. Early in this year, he offered to the African Society to explore
+                    the interior of those obscure and inhospitable regions in which so many
+                    Europeans have perished. His friends, alarmed at this apparently fatal
+                    resolution, became eager to obtain for him an Indian appointment, that might
+                    give him access to the treasures of eastern learning, which his past attainments
+                    peculiarly qualified him to appreciate. Through the interest of Mr William
+                    Dundas, he was nominated assistant surgeon; and though it was privately
+                    stipulated, that, on his arrival in India, he was to devote himself chiefly to
+                    literary inquiries, he could not be permitted to go out as a passenger in that
+                    capacity, without producing a surgeon’s diploma, and undergoing an examination
+                    before the Medical Board. He had attended many of the medical classes, but he
+                    had hitherto paid little attention to the practice of surgery, and it was
+                    therefore necessary to prepare himself for passing through the strict trials
+                    prescribed by the college of surgeons. It reflects no slight credit on his
+                    capacity and application, that hc accomplished this task within six months. He
+                    was not equally successful in procuring the degree of doctor of physic from the
+                    university of Edinburgh; but having gone to St Andrews with certificates of his
+                    character and regular education, and having satisfied the Senatus Academicus at
+                    a*private examination, as well as by reading several exercises prescribed to him
+                    in the Latin language, that degree was conferred on him there, on the 7th of
+                    August 1802. Whilst he was occupied in these ’ ∙inpoetical avocations, he
+                    continued at every interval of leisure to court the inspiration of the muses,
+                    and he gave the finishing hand to the <hi rend="italic">Scenes of Infancy,
+                        descriptive of Te-νiotdαle,</hi> a poem which had been partly written
+                    before, but which was now enlivened by some of its most touching passages, and
+                    left for publication in the hands of Dr Thomas Brown, who, in the revision of
+                    the sheets, suppressed a number of verses which the author conceived ought to
+                    have been retained.</p>
+                <p part="N">Leyden spent the winter in London, having narrowly escaped the
+                    misfortune of sailing in the Hindostan, which was wrecked in its passage down
+                    the Thames. He sailed from Portsmouth in the Hugh Inglis, on the 7th of April
+                    1803, and soon after his arrival at Madras, was attached as surgeon and
+                    naturalist to the commission for surveying the districts of the Mysore, in which
+                    capacity he was expected to turn his attention, not only to the natural history
+                    of the country, but to the manners, institutions, and language of the
+                    inhabitants. His constitution had nearly sunk under the labours to which he
+                    subjected himself, and he was under the necessity of removing to Prince of
+                    Wales’s Island. FIere he was befriended by the governor, Mr Dundas, and here too
+                    he procured the chief materials of the <hi rend="italic">Essay on the Languages
+                        and Literature of the Indo-Chinese Nations,</hi> contained in the tenth
+                    volume of the <hi rend="italic">Asiatic Researches.</hi></p>
+                <p part="N">He removed in 1806 from Prince of Wales’s Island to Calcutta, where,
+                    through the favour of the governor-general, Lord Minto, he was appointed one of
+                    the professors in the Bengal College, from which station he was soon transferred
+                    to the office of judge of the Twenty-four Pergunnahs of Calcutta. The income
+                    attached to this charge was applied chiefly in purchasing manuscripts, and
+                    rewarding the native teachers whose instructions he solicited; and all his
+                    leisure hours were spent in the eager investigation of the languages, the laws,
+                    and history of the East. In 1809 he was appointed a commissioner of the court of
+                    requests in Calcutta, and, in the end of the following year, having resigned
+                    this office, he obtained the office of assaymaster of the mint. Soon afterwards,
+                    he was required to attend Lord Minto upon the expedition to Java, that he might
+                    be employed in collecting information with respect to the learning and
+                    institutions of the native tribes, and that the governor-general might enjoy the
+                    benefit of his services in negotiating with the local authorities, and in
+                    adjusting the future government of the country. After the British troops took
+                    possession of the city of Batavia, he ventured rashly into an ill-aired library,
+                    supposed to contain many Indian manuscripts, and, on leaving it, was immediately
+                    seized with a fever, which proved fatal three days after its accession, and a
+                    few days before the conquest of the island was completed. He died on the 21st of
+                    August 1811.</p>
+                <p part="N">A very high tribute to his memory was paid by Lord Minto, on occasion of
+                    a visitation of the College of FortWilliam, after his lordship’s return from the
+                    conquest of Java. “To speak of all that Dr Leyden had already performed,
+                    especially in the prosecution of Asiatic learning—. to compute the treasures
+                    which his incomparable genius, urging and sustaining his invincible powers of
+                    mental labour, presented the fair promise of acquiring and accumulating—would be
+                    to relate a history of the short Ιbut memorable life he was allowed to live, and
+                    to expatiate into the yet more ample fields of inquiry of which he had projected
+                    the survey. I need not remind those who hear me, of the zeal he had long
+                    nourished for exploring the philology of the more eastern regions of Asia; of
+                    the first steps he had already made in the prosecution of that purpose, by the
+                    construction of vocabularies, but, above all, by methodising and reducing into
+                    system the classification of the various languages spoken on the continent
+                    intermediate between India and China; the various kingdoms and districts of
+                    which, as they recede from each of these extreme points, appear, with some
+                    relation to their local approximation, or to historical affinities, gradually to
+                    have blended and assi <pb break="no" facs="nls:193204907?mode=fullsize"
+                        xml:id="kp-eb0713-4907-0268"/>milated their respective languages into
+                    compound dialects, partaking of both the distinct and primitive tongues. To this
+                    just and authorized tribute to the literary merits of Dr Leyden, I must yet add
+                    a personal testimony, prompted by personal experience, to virtues of a higher
+                    class, neither connected with the talents and toils of a student, nor so
+                    uniformly the companions of learned reputation, as it would be natural perhaps
+                    to wish and to expect. But I speak it in the presence of many who can attest it
+                    with myself, that, founder as he was of his own fortunes and reputation, and
+                    climbing, by many laborious steps, from the lowest stage of social life, to an
+                    eminence which many cannot even maintain, though placed yet higher by their
+                    birth; no man, whatever his condition might be, ever possessed a mind so
+                    entirely exempt from every sordid passion, so negligent of fortune and all its
+                    grovelling pursuits, in a word, so entirely disinterested, nor ever owned a
+                    spirit more firmly and nobly independent. I speak of these things with some
+                    knowledge, and wish to record a competent testimony to the facts, that, within
+                    my experience, Dr Leyden never, in any instance, solicited an object of personal
+                    interest, nor, as I believe, ever interrupted his higher pursuits, to waste a
+                    moment’s thought on those minor cares. To this exemption from cupidity was
+                    allied every generous virtue worthy of those smiles of fortune which he
+                    disdained to court; and amongst many estimable features of his character, an
+                    ardent love of justice, and a vehement abhorrence of oppression, were not less
+                    prominent than the other higher qualities I have already described.”</p>
+                <p part="N">Sir John Malcolm bears testimony, in terms equally strong, to the
+                    purity, disinterestedness, and independence of his character, as well as to the
+                    indefatigable perseverance and ardour with which he devoted himself to literary
+                    and scientific acquirements; and, after adverting to some rather unpleasing
+                    oddities of manner, “How trivial,” he adds, “do these appear, at a moment when
+                    we are lamenting the loss of such a rare combination of virtues, learning, and
+                    genius, as were concentrated in the late Dr Leyden.”</p>
+                <p part="N">(See <hi rend="italic">Edinburgh Annual Register for</hi>]811; and <hi
+                        rend="italic">The Poetical Remains of the late Dr John Leyden, with Memoirs
+                        of his Life,</hi> by the Rev. James Morton, 8vo, London, 1819.) (p. p.
+                    p.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

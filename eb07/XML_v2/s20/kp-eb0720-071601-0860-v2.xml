@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0720-0860-0716-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">STENOGRAPHY</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4x34mr95">Art</term>
+                    <term ref="lcsh1910:b4p843w5c">Hand</term>
+                    <term ref="lcsh1910:b4qj77x65">Sound</term>
+                    <term ref="lcsh1910:b4v40jz59">Lettering</term>
+                    <term ref="lcsh1910:b4cj87n8t">Letters</term>
+                    <term ref="lcsh1910:b4tt4fw77">Egyptians</term>
+                    <term ref="lcsh1910:b4fj29h67">Hebrews</term>
+                    <term ref="lcsh1910:b48g8fh7d">Greeks</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1169292">Vowels</term>
+                    <term ref="fast:817721">Arts</term>
+                    <term ref="fast:815177">Art</term>
+                    <term ref="fast:950823">Hand</term>
+                    <term ref="fast:1127099">Sounds</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:903991">Egyptians</term>
+                    <term ref="fast:947546">Greeks</term>
+                    <term ref="fast:1100116">Romans</term>
+                    <term ref="fast:934209">French</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ht:chi.28490924&amp;view=1up&amp;seq=860" org="uniform" part="N"
+                sample="complete" type="entry">
+                <p part="N"><label type="entry">STENOGRAPHY</label>.<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">The value of stenography is not
+                            unknown to the learned; and the care and success with which it has been
+                            lately cultivated in these kingdoms will, in all probability, soon
+                            render it an object of general attention. No one, however, appears to us
+                            to have simplified and improved the art so much as Dr Mavor, author of
+                                <hi rend="italic">Universal Stenography.</hi></p></note> The art of
+                    stenography, or short writing, was known and practised by most of the ancient
+                    civilized nations. The Egyptians, who at an early period were distinguished for
+                    learning, at first expressed their words by a delineation of figures called <hi
+                        rend="italic">hieroglyphics.</hi> A more concise mode of writing seems to
+                    have been afterwards introduced, in which only a part of the symbol or picture
+                    was drawn. This answered the purpose of short-hand in some degree. After them
+                    the Hebrews, the Greeks, and the Romans, adopted different methods of
+                    abbreviating their words and sentences, suited to their respective languages.
+                    The initials, the finals, or radicals, often served for whole words; and various
+                    combinations of these sometimes formed a sentence. Arbitrary marks were likewise
+                    employed to determine the meaning, and to assist legibility; and it seems
+                    probable that every writer and every author of antiquity had some peculiar
+                    method of abbreviation, calculated to facilitate the expression of his own
+                    sentiments, and intelligible only to himself. It is also probable that some
+                    might by these means take down the heads of a discourse or oration; but few,
+                    very few, it is presumed, could have followed a speaker through all the meanders
+                    of rhetoric, and, in a manner legible even to themselves, could have noted with
+                    precision every syllable as it dropt from his month. To arrive at such
+                    consummate perfection in the art was reserved for more modern times, and is
+                    still an acquisition by no means general.</p>
+                <p part="N">In every language of Europe, till about the close of the sixteenth
+                    century, the Roman plan of abbreviating (viz. substituting the initials or
+                    radicals, with the help of arbitraries, for words) appears to have been
+                    employed. Till then no regular alphabet had been invented expressly for
+                    stenography, when an English gentleman of the name of Willis invented and
+                    published one.<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >• Mr Locke says, u regular method of short writing seems to be known
+                            and practised only in Britain. This is not now the case; and indeed
+                            there is no reason to doubt whether characters may not be invented to
+                            express the various sounds or letters employed in any language, either
+                            ancient or modern.</p></note> His plan was soon improved, or at least
+                    altered. One alteration succeeded another; and at intervals, for a series of
+                    years past, some men of ingenuity and application have composed and published
+                    systems of stenography, and doubtless have themselves reaped all the advantages
+                    that attend it. But among the various methods which have been proposed, and the
+                    different plans which have been adopted by individuals, none lias yet appeared
+                    fortunate enough to gain general approbation, or proved sufficiently simple,
+                    clear, and concise, to be universally studied and practised. Some systems are
+                    replete with unmeaning symbols, perplexing arbitraries, and ill-judged
+                    contractions; which render them so difficult to be attained by a common
+                    capacity, or ordinary application, that it is not to be wondered at if they have
+                    sunk into neglect, and are now no longer known. Other systems, by being too
+                    prolix, by containing a multiplicity of characters, and those characters not
+                    simple or easily remembered, become ineffectual to the purpose of expedition,
+                    and are only superior in obscurity to a common hand. Some, again, not only
+                    reject all arbitraries and contractions, but even prepositions and terminations;
+                    which last, if not too lavishly employed and badly devised, highly contribute to
+                    promote both expedition and legibility; and though they reduce their characters
+                    to fewer than can possibly express the various modifications of sound, yet they
+                    make nearly one half of them complex. In the disposition of the vowels there is
+                    the greatest perplexity in most systems. A dot is sometimes substituted for all
+                    the vowels indiscriminately, and the judg ment is left to determine which letter
+                    out of six any dot is intended to express; or a minute space is allotted them;
+                    so that unless they be arranged with mathematical precision; they cannot be
+                    distinguished from one another; but such a minute attention is inconsistent with
+                    the nature of shorthand, which should teach us to write down in a short time, as
+                    well as in small bounds, what we wish to preserve of what we hear. Nor is the
+                    plan of lifting the pen and putting the next consonant in the vowel’s place, in
+                    the middle of words, less liable to objections; or that of representing all the
+                    vowels by distinct characters, being obviously ill calculated for facility and
+                    despatch, and consequently inadmissible into any useful system.</p>
+                <p part="N">It is to be confessed, that the person who first proposed the omission
+                    of vowels in the middle of words,<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">Mr Byron rejected vowels entirely in the middle
+                            of words, as others before him had only done partially. Without
+                            critically examining the executive part of his performance, which is
+                            very defective, it must be owned that it is above the reach of human
+                            ingenuity to exceed his general plan, which for ever must be the basis
+                            of every future rational system.</p></note> which it is obvious are not
+                    wanted, and invented letters which could be connected as in a running hand
+                    without lifting the pen in the middle of the word, made a real improvement on
+                    the works of his predecessors. But, in fine, most systems, either in their plan
+                    or execution, labour under some capital defect, attended with circumstances
+                    highly discouraging to the learner, and which in a great measure defeat the end
+                    of their invention, by being too complicated to be learned with ease and
+                    remembered with accuracy, or to be practised with the expedition which is
+                    requisite; and so difficult to be deciphered, that a man can scarcely read wh.it
+                    he has just written. To obviate these defects, to provide against prolixity and
+                    conciseness, which might occasion obscurity, to exhibit a system founded on the
+                    simplest principles, which might be easily learned and read, and yet be capable
+                    of the utmost expedition, were the motives that gave rise to the present
+                    attempt.</p>
+                <p part="N">This method will be found different from any yet published, and superior
+                    to all in the disposition of the vowels and the facility of arranging them; the
+                    confusion in placing which seems to detract from the merit of the best
+                    performances on the subject; and it may without ostentation be affirmed, that
+                    characters simpler in their form, and more perfect in their union, have not been
+                    applied to the art of stenography. As well as it could be determined, the
+                    simplest characters are appropriated to the letters most usually employed;
+                    indeed, as far as possible, those which are complex have been rejected; but as
+                    it was an object always kept in view that the writing should be on a line, a few
+                    are admitted into the alphabet for that reason. The characters for the double
+                    and triple consonants are the easiest that could be invented, consistent with
+                    perspicuity; for care has been taken to provide against all obscurity which
+                    might arise by adopting letters too similar in their formation; and with respect
+                    to the prepositions and terminations, those which occur most frequently are
+                    expressed by the simplest characters, which will be found perfectly easy in
+                    their application. The arbitraries are few in number, and the arbitrary
+                    abbreviations, as they are entirely from the letters of the alphabet, and chosen
+                    from some thousands of words in common use, will well repay the learner for an
+                    hour’s trouble in committing them to memory.</p>
+                <p part="N">The last section lays down a scheme of abbreviation, comprised in a few
+                    rules, perfectly easy to be understood and practised by proficients in this art;
+                    and we hope it will answer the expectation of the writer, and will be found free
+                    from the perplexity complained of in many systems<pb break="no"
+                        facs="ht:chi.28490924&amp;view=1up&amp;seq=863" xml:id="kp-eb0720-0863-0717"
+                    /> where abbreviation is admitted. The principal rules are new, are so easy, so
+                    extensive in their use, and so consistent with expedition and legibility, if
+                    applied with judgment, that they alone might suffice. The learner is however
+                    advised by no means to adopt any of them till experience has convinced him that
+                    they may be used without error, or injury to legibility. All abbreviating rules
+                    are suited to those only who have made some progress in the stenographic art;
+                    for although they certainly promote expedition in a wonderful manner, and afford
+                    the greatest ease to a proficient, yet a learner, as expedition is not his
+                    first, though his ultimate view, should admit of nothing that in the least
+                    renders the reading difficult.</p>
+                <p part="N">II. The English alphabet consists of twenty-six letters; six of which
+                    are vowels, <hi rend="italic">a, e, i</hi>, <hi rend="italic">o, u,</hi> and <hi
+                        rend="italic">y;</hi> and the other twenty consonants, <hi rend="italic">b,
+                        c, d, f g, h, j, h, l, m, n, p, g, r, s, t, v, w, x,</hi> and <hi
+                        rend="italic">z</hi>. This alphabet, as is observed by the best grammarians
+                    that have written on the language, is both defective and redundant in expressing
+                    the various modifications of sound.<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">Lowth’s Grammar. Priestley’s Grammar.
+                            Sheridan's Lectures on Elocution. « Preface to Johnson’s
+                        Dictionary.</p></note> Custom or prejudice has assigned some letters a
+                    place, when others would with much more propriety express the same sound; and to
+                    this may be added, that several letters, sometimes in one word, seem to be
+                    admitted for no other reason than to perplex a young beginner or a foreigner, as
+                    an obstruction to true pronunciation, and to add to the apparent length of the
+                    word, when they are entirely quiescent and useless. That this is the genius of
+                    the orthography of our language, must be perceived by the most superficial
+                    observer; but no modern tongue is absolutely free from the same exceptions. In
+                    particular, the French has a great number of dormant etters, which, it is
+                    obvious, render the pronunciation more difficult and perplexing to learners. In
+                    this respect, the Latin and Greek claim a just superiority over the modern
+                    tongues. In them no confusion or doubt can arise from the manner of spelling;
+                    and the reader can scarcely be wrong, unless in quantity, in sounding all the
+                    letters that he sees.</p>
+                <p part="N">But as it is neither our business nor our intention to propose a mode of
+                    spelling different from that in common use, when applied to printing or
+                    long-hand writing (since several innovators in orthography have fallen into
+                    contempt, and their plans have been only preserved as beacons to warn others of
+                    the folly of endeavouring to subvert established principles<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">• By this rule likewise <hi
+                                rend="italic">q</hi> and <hi rend="italic">v</hi> in the middle of
+                            words, but never in the beginning, may be exchanged for <hi
+                                rend="italic">h</hi> and <hi rend="italic">f</hi> when they admit of
+                            an casier connecting with the following character, or will make the
+                            writing appear neater.</p></note>), we shall only observe, that in
+                    stenography, where the most expeditious and concise method is the best, if
+                    consistent with perspicuity, the following simple rules are studiously to be
+                    regarded and practised.</p>
+                <p part="N">1. All quiescent consonants in words are to be dropped, and the
+                    orthography to be directed only by the pronunciation; which being known to all,
+                    will render this art attainable by those who cannot spell with precision in
+                    long-hand.</p>
+                <p part="N">2. When the absence of consonants, not entirely dormant, can be easily
+                    known, they may often be omitted without the least obscurity.</p>
+                <p part="N">3. Two or sometimes more consonants may, to promote greater expedition,
+                    be exchanged for a single one of nearly similar sound; and no ambiguity as to
+                    the meaning ensue.’</p>
+                <p part="N">4. When two consonants of the same kind or same sound come together,
+                    without any vowel between them, only one is to be expressed; but if a vowel or
+                    vowels intervene, both arc to be written: only observe, if they arc
+                    perpendicular, horizontal, or oblique lines, they must only be drawn a size
+                    longer than usual; and characters with loops must have the size of their heads
+                    doubled.</p>
+                <p part="N">Might is to be written <hi rend="italic">mit,</hi> fight <hi
+                        rend="italic">fit,</hi> machine <hi rend="italic">mashin,</hi> enough, <hi
+                        rend="italic">enuf,</hi> laugh <hi rend="italic">laf,</hi> prophet <hi
+                        rend="italic">profit,</hi> physics <hi rend="italic">fisiks,</hi> through
+                        <hi rend="italic">thro',</hi> foreign <hi rend="italic">foren,</hi>
+                    sovereign <hi rend="italic">sοveren,</hi> psalm <hi rend="italic">sam,</hi>
+                    receipt <hi rend="italic">reset,</hi> write <hi rend="italic">rite,</hi> wright
+                        <hi rend="italic">rti</hi>, island <hi rend="italic">iland,</hi> knavery <hi
+                        rend="italic">narery,</hi> temptation <hi rend="italic">tentation,</hi>
+                    knife <hi rend="italic">nife,</hi> stick <hi rend="italic">stih,</hi> thigh <hi
+                        rend="italic">thi,</hi> honour <hi rend="italic">onoιιr,</hi> indictment <hi
+                        rend="italic">indilement,</hi> acquaint <hi rend="italic">aquaint,</hi>
+                    chaos <hi rend="italic">hαos,</hi> &amp;c.</p>
+                <p part="N">Strength <hi rend="italic">strenlh,</hi> length <hi rend="italic"
+                        >tenth,</hi> friendship <hi rend="italic">frenship,</hi> connect <hi
+                        rend="italic">conek,</hi> commandment <hi rend="italic">comanment,</hi>
+                    conjunct <hi rend="italic">conjunt,</hi> humble <hi rend="italic">hurnle,</hi>
+                    lumber <hi rend="italic">lumer,</hi> slumber <hi rend="italic">slumer,</hi>
+                    number <hi rend="italic">numer,</hi> exemplary <hi rend="italic">exemlary,</hi>
+                    &amp;c.</p>
+                <p part="N">Rocks <hi rend="italic">roτ,</hi> acts <hi rend="italic">ahs</hi> or <hi
+                        rend="italic">ax,</hi> facts <hi rend="italic">fahs</hi> or <hi
+                        rend="italic">fax,</hi> districts <hi rend="italic">dis-triks</hi> or <hi
+                        rend="italic">distrix,</hi> affects <hi rend="italic">afeks</hi> or <hi
+                        rend="italic">nfix,</hi> afflicts <hi rend="italic">afliks</hi> or <hi
+                        rend="italic">aflix,</hi> conquer <hi rend="italic">konkr,</hi> &amp;c.</p>
+                <p part="N">Letter <hi rend="italic">leter,</hi> little <hi rend="italic"
+                        >litle,</hi> command <hi rend="italic">comand,</hi> error <hi rend="italic"
+                        >eror,</hi> terror <hi rend="italic">teror,</hi> &amp;c. But in <hi
+                        rend="italic">remember, moment, sister,</hi> and such like words, where two
+                    consonants of the same name have an intervening vowel, both of them must be
+                    written.</p>
+                <p part="N">These four rules, with their examples, being carefully considered by the
+                    learner, will leave him in no doubt concerning the disposition and management of
+                    the consonants in this scheme of short writing; we shall therefore proceed to
+                    lay down rules for the application of the vowels with ease and expedition.</p>
+                <p part="N">1. Vowels, being only simple articulate sounds, though they are the
+                    connectives of consonants, and employed in every word and every syllable, are
+                    not necessary to be inserted in the middle of words; because the consonants, if
+                    fully pronounced, with the assistance of connection, will always discover the
+                    meaning of a word, and make the writing perfectly legible.</p>
+                <p part="N">2. If a vowel is not strongly accented in the incipient syllable of a
+                    word, or if it is mute in the final, it is likewise to be omitted; because the
+                    sound of the incipient vowel is often implied in that of the first consonant,
+                    which will consequently supply its place.</p>
+                <p part="N">3. But if the vowel constitutes the first or last syllable of a word, or
+                    is strongly accented at its beginning or end, that vowel is continually to be
+                    written.</p>
+                <p part="N">4. If a word begins or ends with two or more vowels though separated, or
+                    when there is a coalition of vowels, as in diphthongs and triphthongs, only one
+                    of them is to be expressed, which must be that which agrees best with the
+                    pronunciation.</p>
+                <p part="N">5. In monosyllables, if they begin or end with a vowel, it is always to
+                    be inserted, unless the vowel be <hi rend="italic">e</hi> mute at the end of a
+                    word.</p>
+                <p part="N">Such are the general principles of this art; in vindication and support
+                    of which it will be needless to offer any arguments, when it is considered that
+                    brevity and expedition are the cbief objects, if consistent with legibility; and
+                    the subsequent specimens in the orthography recommended will, we hope, be
+                    sufficient to show that there is no real deficiency in the last-mentioned
+                    particular.</p>
+                <p part="N">He who md us mst be etrnl, grt, nd mnptnt. It is or dty, as rsnl bngs,
+                    to srv, lv, nd oby hm A nm tht wd avd blm, slid be srkmspk in al hs axns, nd
+                    ndvr wth al hs mt to pls evry bdy.—I wd nt frm any knxns wth a nm who hd no rgrd
+                    fr hmslf; nthr wd 1 blv a mn who hd ons tld me a li. —Onr is of al thngs the mst
+                    dfklt to prsrv ntrnshd; nd whn ons mpchd, lk the chstty of a wmn, nvr shns wth
+                    its wntd lstr.—Wth gd mnrs, kmplsns, nd an esy pit adrs, mny mk a fgr in the
+                    wrl, whs mnl ablts wd skrsly hv rsd thm abv the mk of a ftmn.—Idins is the prnt
+                    of a thsnd msfrtns, wch ar nvr fit by the ndstrs: it is a pn nd a pnshmnt of
+                    itslf, and brngs wnt nd bgry in its trn Vrtu is the frst thng tht shd be rgrdd;
+                    it is a rwrd of itslf; mks a man rspktbl hr, nd wl mk hm etrnly hpy hrftr.—Prd
+                    is a mst pmss psn, wch yt ws plntd by hvn in ur ntr, to rs ur emlsn<pb
+                        break="no" facs="ht:chi.28490924&amp;view=1up&amp;seq=864"
+                        xml:id="kp-eb0720-0864-0718"/> to imtt grt nd wrthy krktrs or axns, to xt in
+                    us a si fr wht is rt nd gst, and a ldbl ndgnsn gnst oprsrs nd wrkrs of ny knd of
+                    nkyty; in shrt, to nιk us st a prpr vlu upn urslvs, nd dsps a wrthls flo, hu evr
+                    xltd. Ths fr prd is avrtu, nd my gstly be kid a grins of si. Bt prd, lk othr
+                    psns, gnrly fxs upn rng obgks, or is apld in rng prprsns. Hu kmn is it to sq a
+                    rtch whm evry vs hs rndrd msrbl, nd evry fly kntmbl, vlng hmslf on hs hi brtb,
+                    nd bstng ths ilstrs nsstrs, of whm he nhrts nthng bt the nm or ttl! nsstrs who,
+                    if thy nu hm, wd dsn thr dsndnt wth kntmt But al prd of ths srt is fly, nd evr
+                    to be avdd.</p>
+                <p part="N">III. As the whole of this art depends upon a regular method and a simple
+                    alphabet, we have not only endeavoured to establish the former on satisfactory
+                    principles, but have been careful to appropriate, according to the comparative
+                    frequency of their occurrence, such characters for the letters as, after
+                    repeated trials and alterations, were conceived to be the best adapted for
+                    despatch.</p>
+                <p part="N">The stenographic alphabet consists of eighteen distinct characters (viz.
+                    two for the vowels and the rest for the consonants), taken from lines and
+                    semicircular curves; the formation and application of which we shall now
+                    explain, beginning with the vowels.</p>
+                <p part="N">For the three first vowels, <hi rend="italic">a, e,</hi> and <hi
+                        rend="italic">i,</hi> a comma is appropriated in different positions; and
+                    for the other three, o, <hi rend="italic">u</hi>, and <hi rend="italic">y,</hi>
+                    a point. The comma and point, when applied to <hi rend="italic">a</hi>, and <hi
+                        rend="italic">o</hi>, are to be placed at the top of the next character;
+                    when for <hi rend="italic">e</hi> and <hi rend="italic">u,</hi> opposite to the
+                    middle; and when for <hi rend="italic">i</hi> and <hi rend="italic">y,</hi> at
+                    the bottom.</p>
+                <p part="N">This arrangement of the vowels is the most simple and distinct that can
+                    easily be imagined. Places at the top, the middle, and the bottom of characters,
+                    which make three different positions, are as easily distinguished from one
+                    another as any three separate characters could be; and a comma is made with the
+                    same facility as a point.</p>
+                <p part="N">Simple lines may be drawn four different ways; perpendicular,
+                    horizontal, and with an angle of about forty-five degrees to the right and left.
+                    An ascending oblique line to the right, which will be perfectly distinct from
+                    the rest when joined to any other character, may likewise be admitted. These
+                    characters being the simplest in nature, arc assigned to those five consonants
+                    which most frequently occur, viz. <hi rend="italic">l, r, t, c</hi> hard or <hi
+                        rend="italic">k,</hi> and <hi rend="italic">c</hi> soft or <hi rend="italic"
+                        >s.</hi></p>
+                <p part="N">Every circle may be divided with a perpendicular and horizontal line, so
+                    as to form likewise four distinct characters. These being the next to lines in
+                    the simplicity of their formation, we have appropriated them for <hi
+                        rend="italic">b, d, n,</hi> and <hi rend="italic">nι.</hi></p>
+                <p part="N">The characters expressing nine of the consonants are all perfectly
+                    distinct from one another; eight only remain which are needful, viz. <hi
+                        rend="italic">f g</hi> or <hi rend="italic">j, h, p, q, υ, w,</hi> and <hi
+                        rend="italic">x;</hi> to find characters for which we must have recourse to
+                    mixed curves and lines. The characters which we have adopted are the simplest in
+                    nature after those already applied, admit of the easiest joining, and tend to
+                    preserve lineality and beauty in the writing.</p>
+                <p part="N">It must be observed, that we have no character for <hi rend="italic"
+                        >c</hi> when it has a hard sound, as in <hi rend="italic">castle;</hi> or
+                    soft, as in <hi rend="italic">city;</hi> for it naturally takes the sound of <hi
+                        rend="italic">k</hi> or <hi rend="italic">s,</hi> which in all cases will be
+                    sufficient to supply its place.</p>
+                <p part="N"><hi rend="italic">R</hi> likewise is represented by the same character
+                    as <hi rend="italic">l;</hi> only with this difference, <hi rend="italic">r</hi>
+                    is written with an ascending stroke,<note anchored="true" place="bottom"
+                        type="authorial"><p part="N"> The character for A, when lineality requires
+                            it, may be made from the bottom and inverted. And often <hi
+                                rend="italic">h</hi> may be omitted entirely, or a vowel may be
+                            substituted in its stead, without any injury to legibility, it being
+                            rather a breathing than a letter.</p></note> and <hi rend="italic"
+                        >l</hi> with a descending; which is always to be known from the manner of
+                    its union with the following character; but in a few monosyllables where <hi
+                        rend="italic">r</hi> is the only consonant in the word, and consequently
+                    stands alone, it is to be made as is shown in the alphabet, for distinction’s
+                    sake.</p>
+                <p part="N">Z, as it is a letter seldom employed in the English language, and only a
+                    coarser and harder expression of s <hi rend="italic">,</hi> must be supplied by
+                        <hi rend="italic">s</hi> whenever it occurs; as for <hi rend="italic"
+                        >Zedekiah</hi> write <hi rend="italic">Sedekiah, Sec.</hi></p>
+                <p part="N">IV. The prepositions and terminations in this scheme are so simple, that
+                    the greatest benefit may be reaped from them, and very little trouble required
+                    to attain them; as the incipient letter or the incipient consonant of all the
+                    prepositions and of several of the terminations is used to express the whole.
+                    But in order to give every assistance, we have subjoined the following
+                    directions.</p>
+                <p part="N">1. The preposition is always to be written without joining, yet so near
+                    as plainly to show what word it belongs to; and the best way is to observe the
+                    same order as if the whole was to be connected.</p>
+                <p part="N">2. A preposition, though the same letters that constitute it may be met
+                    with in the middle or end of a w ord, is never to be used, because it would
+                    expose to obscurity.</p>
+                <p part="N">3. Observe that the preposition <hi rend="italic">omni</hi> is expressed
+                    by the vowel <hi rend="italic">o</hi> in its proper position; and for <hi
+                        rend="italic">anti, anta, ante,</hi> by the vowel <hi rend="italic">a,</hi>
+                    which the radical part of the word will easily distinguish from being only
+                    simple vowels.</p>
+                <p part="N">The first rule for the prepositions is to be observed for the
+                    terminations; and also the second, <hi rend="italic">mutatis mutandis;</hi>
+                    except that whenever <hi rend="italic">sis, sus, sys, cious, tious,</hi> and <hi
+                        rend="italic">ces</hi> occur, they are to be expressed as directed in the
+                    fourth rule for the consonants, whether in the beginning, middle, or end of
+                    words.</p>
+                <p part="N">4. The terminative character for <hi rend="italic">tion, sion, cion,
+                        dan, tian,</hi> is to be expressed by a small circle joined to the nearest
+                    letter, and turned to the right; and the plurals <hi rend="italic">lions, cions,
+                        cians, tians,</hi> by a dot on the same side.</p>
+                <p part="N">5. The terminative character for <hi rend="italic">ing</hi> is to be
+                    expressed likewise by a small circle, but drawn to the left hand; and its plural
+                        <hi rend="italic">ings</hi> by a dot.<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">In horizontal characters, by the left hand is
+                            meant the top, and by the right the space below the letter. In all other
+                            charactere the right and left positions will naturally be
+                        known.</p></note></p>
+                <p part="N">6. The plural sign <hi rend="italic">s</hi> is to be added to the
+                    terminative characters when necessary.</p>
+                <p part="N">7. The separated terminations are never to be used but in polysyllables,
+                    or words of more syllables than one.</p>
+                <p part="N">These rules duly observed will point out a method as concise and elegant
+                    as can be desired, for expressing the most frequent and longest prepositions and
+                    terminations in the English language. If it should be thought necessary to
+                    increase their number by the addition of others, it will be an easy matter for
+                    any one of the least discernment to do so, by proceeding on the principles
+                    before laid down.</p>
+                <p part="N">V. Though a more concise method of writing, or more numerous
+                    abbreviations, may not be indispensably necessary, if the foregoing directions
+                    be practised for a considerable time, yet contractions will be found extremely
+                    useful and convenient to those who have attained a proper knowledge of the
+                    subject, and w ill lead to a greater degree of expedition, at the same time that
+                    they diminish the labour of writing. It has been observed in the introduction,
+                    that abbreviations are only to be employed by proficients in this art; because
+                    expedition is not the first, though the ultimate, object in view; and that an
+                    easy legibility is of the utmost consequence to the learner; which however
+                    cannot be preserved, if he adopts too soon those very rules which in time will
+                    afford him the greatest ease when applied with judgment.</p>
+                <p part="N">The following short and practical rules will be found, we hope, fully
+                    adequate to every purpose for which they were intended, and are far superior in
+                    the facility of their application to any which we have seen.</p>
+                <p part="N">1. The usual abbreviations in long-hand are always to<pb break="no"
+                        facs="ht:chi.28490924&amp;view=1up&amp;seq=865" xml:id="kp-eb0720-0865-0719"
+                    /> be followed; as Mr for Master, Μ. D. for Doctor of Physic, and Abp. for
+                    Archbishop, &amp;c.</p>
+                <p part="N">2. Substantives, adjectives, verbs, and participles are to be expressed
+                    by their initial consonant with distinguishing marks, viz. a substantive must
+                    have a dot exactly over its initial consonant; an adjective must have a dot
+                    under it; a verb is to be expressed by a comma over its initial consonant; and a
+                    participle by a comma under.<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">The dot or comma being placed thus will never
+                            occasion them to be mistaken for vowels, because they should always be
+                            on one side or other; whereas the mark for parts of speech may
+                            constantly be placed exactly over or under.</p></note> These, being the
+                    four principal parts of speech, will be sufficient; and an adept will never be
+                    at a loss to know when he can with safety apply this rule to them.</p>
+                <p part="N">3. To render the writing more legible, the last letter of the word may
+                    be joined to the first, and the proper mark applied.</p>
+                <p part="N">4. The constituent or radical part of words, especially if they are
+                    long, will often serve for the whole or sometimes the first syllable: as we
+                    ought to moderate our <hi rend="italic">ex.</hi> by our <hi rend="italic"
+                        >circum.;</hi> a man’s <hi rend="italic">man.</hi> commonly shape his <hi
+                        rend="italic">for.</hi><hi rend="italic">5.</hi> All long words without
+                    exception may have their prepositions or terminations expressed by the incipient
+                    consonant of such preposition or termination.</p>
+                <p part="N">6. When there is a great dependence between the parts of a sentence, the
+                    initial letter will often suffice; as <hi rend="italic">L.</hi> is the capital
+                    of Great <hi rend="italic">B.;</hi> the eldest <hi rend="italic">S.</hi> of the
+                    king of Great <hi rend="italic">B.</hi> is styled prince of <hi rend="italic"
+                        >W.</hi> Every one, it is presumed, will allow this to be perfectly legible
+                    in long-hand; then why may it not in stenography?</p>
+                <p part="N">7. The terminations <hi rend="italic">ness</hi> and <hi rend="italic"
+                        >less</hi> may be omitted; as <hi rend="italic">faithfulness</hi> is only to
+                    be written <hi rend="italic">faithful; forwardness, forward; heedless, heed;
+                        stubbornness, stubborn, &amp;c.</hi></p>
+                <p part="N">8. The second and third persons of verbs, ending in <hi rend="italic"
+                        >eth</hi> and <hi rend="italic">est,</hi> may be expressed by <hi
+                        rend="italic">s;</hi> as, he <hi rend="italic">loves,</hi> thou <hi
+                        rend="italic">teaches;</hi> instead of he <hi rend="italic">loveth,</hi>
+                    thou <hi rend="italic">teachest:</hi> or even without <hi rend="italic">s;</hi>
+                    as, he <hi rend="italic">love,</hi> &amp;c.</p>
+                <p part="N">9. Words may often be entirely omitted, and yet no ambiguity ensue; as,
+                        <hi rend="italic">In beginning God created heaven and earth,</hi> fo? In <hi
+                        rend="italic">the</hi> beginning God created <hi rend="italic">the</hi>
+                    heaven and <hi rend="italic">the</hi> earth.</p>
+                <p part="N">10. When there is an immediate repetition of a sentence or word, a line
+                    is to be drawn under the sentence or word to be repeated; as, Λmen, Amen, is to
+                    be written <hi rend="italic">Amen;</hi> but if any words intervene before a word
+                    or sentence is to be repeated, the line must be drawn as before, and a Λ or mark
+                    of omission placed where the repetition should begin; as, <hi rend="italic">Is
+                        it just the innocent should be</hi> condemned Λ reviled?</p>
+            </div>
+        </body>
+    </text>
+</TEI>

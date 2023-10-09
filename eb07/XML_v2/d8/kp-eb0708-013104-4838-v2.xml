@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0708-4838-0131-04" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">DOWN</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:933281">Founding</term>
+                    <term ref="fast:1171139">Water</term>
+                    <term ref="fast:1110395">Seas</term>
+                    <term ref="fast:829042">Bays</term>
+                    <term ref="fast:1124682">Soils</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:978902">Irish</term>
+                    <term ref="fast:827162">Banns</term>
+                    <term ref="fast:839044">British</term>
+                    <term ref="fast:845230">Canals</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4tt4fz4p">Irish</term>
+                    <term ref="lcsh1910:b4cc0tv2w">Canals</term>
+                    <term ref="lcsh1910:b4vx06c7f">Welsh</term>
+                    <term ref="lcsh1910:b4bk16r27">Protestantism</term>
+                    <term ref="lcsh1910:b4j960b1w">Clay</term>
+                    <term ref="lcsh1910:b44j09z32">Founding</term>
+                    <term ref="lcsh1910:b4513v11w">Water</term>
+                    <term ref="lcsh1910:b4kk94m4s">Sea</term>
+                    <term ref="lcsh1910:b41j9770v">State</term>
+                    <term ref="lcsh1910:b4028pc5x">Soils</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1205427">Ireland</term>
+                    <term ref="fast:1206715">Scotland</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193324838?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">DOWN</label>, a county in the eastern part of the
+                    province of Ulster, in Ireland, is bounded on the north by the county of Antrim
+                    and Carrickfergus Bay, on the east by the Northern Channel and the Irish Şea, on
+                    the south by the same sea, and on the west by the county of Armagh. It measures,
+                    in its greatest length, from Cranfield Point in the south to Gray Point in the
+                    north, fifty-one miles, and in breadth, from the junction of the Newry Canal
+                    with the Bann near Portadoun, to Ballyhalbert Point in the Ardes, forty miles,
+                    comprehending an area of 611,404 acres, or 955 square miles, of which 502,677
+                    acres are, cultivable, 108,569 are mountain and bog, and 158 are covered with
+                    water.</p>
+                <p part="N">This county was anciently inhabited by the tribes of the Vínderii and
+                    voluntii. After the arrival of the English, who early formed a settlement here
+                    under the guidance of the celebrated John de Courcey, the principal families
+                    were a branch of the Oheils, distinguished by the name of Clatmeboy, the M <hi
+                        rend="superscript"> ζ</hi> Guinnesses, and the M‘Artanè, of Irish descent,
+                    and the Whites and Savages, descendants of the English settlers. Queen Elizabeth
+                    made it shire ground, but at what particular period of her reign has not been
+                    precisely ascertained. It is now divided into the eight baronies of Ardes,
+                    Castlereagh, Dufferin, Upper Iveagh, Lower Iveagh, Kinalearty, Lecale, and
+                    Mourne, and the lordship of Newry. These are again subdivided into fiftyseven
+                    parishes, and five parts of parishes, the remainders of which are in some of the
+                    adjoining counties.</p>
+                <p part="N">According to the ecclesiastical arrangements of Ireland, the county
+                    comprises the diocese of Down, the greater part of that of Dromore, and the
+                    lordship of Newry. The former of these dioceses contains forty-nine parishes,
+                    consolidated into thirty-four benefices, having thirty-one churches. The
+                    cathedral was fixed at Downpatrick by James I., with a chapter consisting of a
+                    dean, four dignitaries, and three prebendaries; but in consequence of its
+                    subsequent decayed state, Charles II. erected the church of Lisburn into the
+                    cathedral of the united dioceses of Down and Connor. The part of Dromore diocese
+                    included in this county contains 21 parishes. Its cathedral is in the town of
+                    Dromore; also within the same limits, and near it, is the bishop’s palace. The
+                    lordship of Newry is exempt from episcopal jurisdiction, a privilege which it
+                    enjoys from having appertained to a monastery before the reformation. The
+                    proprietor of the lordship exercises episcopal jurisdiction in his peculiar
+                    court, granting marriage licenses, probates of wills, &amp;c. under the ancient
+                    monastic seal.</p>
+                <p part="N">As far as inequality of surface is essential to scenic beauty, this
+                    county has strong claims to it, as it presents every variety of plain, hill, and
+                    mountain. The plains are chiefly confined to the vicinity of the rivers; the
+                    hills occupy by much the greater portion of the soil, insomuch that its
+                    appearance has been quaintly compared to a dish of spinach set over with eggs
+                    cut in two; and the mountains are piled together in one immense mass in the
+                    barony of Mourne in the south. The summit of Slieve Donard, the highest, is 2809
+                    feet above the level of the sea. Slieve Croob and Slieve-na-boly, to the north
+                    of the principal group, and in a great degree detached from it, are also of
+                    considerable elevation.</p>
+                <p part="N">The Mourne Mountains give rise to the four principal rivers, the Bann,
+                    the Lagan, the Ballynahinch, and the Newry water. The first-named of these
+                    rivers flows north-eastward by Banbridge and Portadoun into Lough Neagh. The
+                    Lagan, after flowing northwards, takes an eastern direction, and passing by
+                    Lisburn and Belfast, separates the counties of Down and Antrim. The Ballynahinch
+                    discharges itself into the southern extremity of Strangford Lough. The Newry
+                    water is an insignificant stream, except where it is affected by the influence
+                    of the tide, and would be wholly undeserving of special notice, were it not that
+                    it has been made the commencement of a communication by water with Lough Neagh.
+                    The Newry navigation, the first canal completed in Ireland, commences at Fathom,
+                    two miles and a halfbelow Newry, to which town it conveys vessels drawing nine
+                    or ten feet water. From Newry to the Bann is a canal for twelve miles, navigable
+                    for boats of from forty to sixty tons. Its summit-level is sixty-five feet above
+                    the sea, and twenty-two above the surface of Lough Neagh. The navigation thence
+                    to the lake is carried on in the river, a distance of nine miles, whence a
+                    communication by water to Belfast is maintained by the Lagan navigation. The
+                    chief trade on the Newry Canal is the import of bleaching materials, <pb
+                        break="no" facs="nls:193324851?mode=fullsize" xml:id="kp-eb0708-4851-0132"/>
+                    flax seed, iron, timber, and foreign produce; the exports ' are grain, yarn,
+                    linen, cottons, and coal in small quantities.</p>
+                <p part="N">Lakes, properly so called, are numerous, but insignificant in extent.
+                    Strangford Lough, otherwise called Lough Cone, is a spacious gulf, extending ten
+                    miles northwards into the land, and affording a secure roadstead to large
+                    vessels in its interior. Strangers, however, are unwilling to have recourse to
+                    it, through an apprehension that the rapid current of the tide, which rushes
+                    through the narrow strait between Portaferry and Strangford at the rate of eight
+                    or ten miles an hour, might drive them on some sunken rocks near its entrance.
+                    This gulf is studded with numerous islands, some beautifully wooded, others
+                    affording rich pasturage, but none inhabited. Bangor, Kil- 1ough, and Ardglass,
+                    have each a harbour for fishing boats and small craft. An artificial harbour has
+                    been constructed at Donaghadee for the accommodation of the packetboats to
+                    Scotland; but the introduction of steam navigation has rendered it comparatively
+                    useless. Near the coast of the Ardes, a long narrow peninsula between Strangford
+                    Lake and the sea, are the Grecn Island, Bird Island, and Burr Island; and at the
+                    entrance of Carrickfergus Bay is a group of three, called the Copeland Islands,
+                    upon one of which stands a lighthouse. There is another lighthouse on a sunken
+                    reef, called the South Rock, near the northern entrance of Strangford Lough.</p>
+                <p part="N">The predominating soil is a loam of little depth, but good in quality.
+                    In most places it is intermixed with considerable quantities of stones of
+                    various sizes; a circumstance easily accounted for, as quarries are to be found
+                    everywhere not far from the surface. Clay is mostly confined to the eastern
+                    coast of the Ardes, and to the northern parts of Castlereagh. Of sandy soil the
+                    quantity is small, and chiefly on the sea coasts near Dundrum, where in some
+                    places its abundance and shifting nature have prevented any attempt at
+                    improvement. Moor grounds are mostly confined to the skirts of the mountains.
+                    Bogs, though frequent, are scarcely sufficient to form a supply of fuel to the
+                    numerous and increasing population. The husbanding and apportioning of them
+                    among the tenantry forms no small part of an agent’s or land-steward’s duties.
+                    There are several quarries of fine freestone. The best is that on Scrabo Hill,
+                    where a very close-grained and clearcoloured stone is raised. The quarries of
+                    Kilwarlin afford flags of large dimensions, varying in hue from a clear stone
+                    colour to a brownish red; the former are superior in beauty and hardness. Slates
+                    are raised in several parts; and though they cannot compete with the Welsh in
+                    lightness and colour, they are superior in hardness and durability. Limestone is
+                    not very general. Large blocks of a yellowish magnesian species are found near
+                    Hollywood, but this kind is not used for manure, except where the white is not
+                    easily attainable. Near Comber, on the shores of Strangford Lough, is a very
+                    hard and sparkling kind of reddish granular limestone. But the greatest magazine
+                    of this most valuable mineral is found in the vicinity of Moira. It is supposed
+                    tobe a continuation of that mass which is perceptible, with little interruption,
+                    from Magilligan, in Londonderry, round the headlands of Antrim, to the range of
+                    mountains that lie north of Lisburn, whence turning westward, it is lost in the
+                    acclivities that border the Lagan between Moira and Magheralin. Flere the
+                    quarries lie very near the surface. They consist of horizontal strata intermixed
+                    with flints, in some cases stratified, in others in detached pieces of various
+                    form and size. It is not unusual to see three of these large flints, like
+                    rollers, each a yard long and twelve inches in diamctcr, standing
+                    perpendicularly over one another, and held together by a narrow neck of
+                    limestone, funnel-shaped, as if they had been poured in a liquid state into a
+                    cavity formed to receive them. Various kinds of shells and other marine exuviae
+                    are found in this stone. Granite occurs in many places in detached masses, but
+                    the great body of it is confined to the southern and western regions, chiefly in
+                    the barony of Mourne. Yet though it is here the prevailing mineral, it does not
+                    wholly exclude the schist or slate, which is often seen in contact with it,
+                    raising itself from out of the middle of a surrounding mass of the former stone,
+                    which is itself in turn imbedded, or, as it were, set in the schist.</p>
+                <p part="N">The mineral springs found here are of two qualities, sulphurooehalybeate
+                    and purely chalybeate. The most celebrated of the former kind is at the foot of
+                    Slieve Croob Mountain, about two miles from Ballynahinch. In appearance, taste,
+                    and effects, it strongly resembles the waters of Aix-la-Chapelle. It is used
+                    both externally and internally, and has been found peculiarly effective in
+                    scorbutic affections. The town is much frequented in summer by invalids to enjoy
+                    its benefits. The chalybeate springs are numerous, and widely scattered through
+                    the county. The richest is that of Granshaw, in the Ardes. An alum spring has
+                    been discovered near Clough.</p>
+                <p part="N">According to an account of the number of houses taken in 1751, the
+                    population, at an average of 5^ths to a house, amounted to 110,800, and, by a
+                    similar account, taken in 1791, to 220,519, thus doubling in forty years.
+                    Beaufort estimates it in the following year at 201,500. Dubourdieu, in 1802,
+                    states it to be 226,632. According to the parliamentary returns in 1812, 1821,
+                    and 1831, it increased progressively to 287,290, 325,410, and 352,571, having
+                    more than trebled itself in a period of eighty years.</p>
+                <p part="N">The state of education, as collected from the parliamentary returns in
+                    1821 and 1824-26, is as follows :—</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">Boys.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Girls.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Sex not <hi rend="subscript"
+                                    > τ</hi>, ascertained.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1821</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">13,081</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">64,65</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">19,564</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1824-26</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">13,456</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">83,75</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">997 22,828</p></cell>
+                    </row>
+                </table>
+                <p part="N">Of the total number contained in the latter of these returns, 4347 were
+                    Protestants of the established church, 6120 were Roman Catholics, and 11,615
+                    dissenters; the religious persuasion of the remaining 411 was not ascertained.
+                    The number of schools was 550; of which ninety-four, containing 6667 pupils,
+                    were educated by grants of public money; sixteen, containing 972 pupils, by the
+                    voluntary contributions of societies and individuals; the remaining 440,
+                    containing 15,595 pupils, were pay schools. The diocesan grammar school of Down
+                    is now formed into a joint district school for Down and Dromore.</p>
+                <p part="N">The presbyterian form of worship predominates, especially in the towns
+                    and low country. In the mountainous part the Roman Catholic religion prevails to
+                    a very great extent.</p>
+                <p part="N">During the existence of the Irish parliament this county returned
+                    fourteen members, two for the county at large, and two for each of the boroughs
+                    of Downpatrick, Bangor, Killyleagh, Hillsborough, Newry, and Newtownarder. Since
+                    the union it is represented by four members, two for the county, one for
+                    Downpatrick, and one for Newry. The reform act has made no change in this
+                    respect. The state of the constituency, as affected by the changes made by the
+                    disfranchisement of the forty-shilling freeholders in 1829, and the subsequent
+                    alterations which terminated in the reform act, is as follows :—</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">L.50.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">L.20. *</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">L.10.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">40s.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Total.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1st Jan. 1829,</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">713</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">176</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">• ∙ ∙</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">10,775</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">11,664</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1st Jan. 1830,</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">720</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">252</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1,018</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">• ∙ ∙</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1,990</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1st Jan. 1831,</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">267</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">189</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1,058</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1,514</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1st May 1832,</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">887</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">338</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1,902</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">• ∙∙</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">3,127</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1st Jan. 1833,</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">∙∙∙</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">∙∙∙</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">3,127</p></cell>
+                    </row>
+                </table>
+                <pb break="no" facs="nls:193324864?mode=fullsize" xml:id="kp-eb0708-4864-0133"/>
+                <p part="N">The land is very unequally portioned out among the inhabitants. There
+                    are many landed proprietors, mostly resident, each of whom holds large tracts in
+                    his own hands. Under these is a numerous tenantry of every grade, from those who
+                    deem themselves entitled to rank on an equal footing in society with the
+                    proprietors of the soil, to the holders of a few acres, who depend on their
+                    manual labour for the support of their families. The connection of all ranks
+                    hence arising has had a great effect upon the state of society. The great bulk
+                    of the population is orderly and industrious; their dwellings are better
+                    constructed and furnished than those of a similar class in most other parts of
+                    Ireland. The small farmers form a respectable body, honest, yet quickwitted and
+                    clever in their dealings, as might be expected from the density of the
+                    population, the constant intercourse, and the frequent traffic carried on in
+                    fairs and market. They are anxious to secure and to enjoy such of the comforts
+                    of life as are attainable by a vigorous exertion of industry and intellect. The
+                    processes of agriculture, owing in a great degree to the example set by the
+                    resident gentry, are as skilfully carried on as in any part of the united
+                    kingdom. The fields are well laid out and fenced, the crops laid down in a
+                    judicious succession, the progress of their growth carefully attended to, and
+                    the harvest well saved and secured. The most improved implements of husbandry
+                    are generally known, and their value is duly appreciated. The crops commonly
+                    cultivated are wheat, rye, bear, barley, oats, peas, flax, and potatoes. Barley
+                    is extensively grown, particularly in the light soil of Lecale. Green crops are
+                    also in general use. Much attention is paid to the culture of grass,
+                    particularly on the borders of the larger rivers, where extensive tracts of fine
+                    meadow land are annually enriched, by the overflowing of the banks, with
+                    deposits of the finer particles of mould washed down from the higher grounds.
+                    Lime and marl are in general use as manure. Horned cattle arc principally reared
+                    for dairies, and therefore the same attention to figure and flesh is not paid as
+                    in some other agricultural districts. The resident gentry are, however, laudably
+                    emulous in the improvement of their respective stocks. The breed of horses is
+                    also an object of much attention. In the reign of Jamcs II. a public body was
+                    incorporated under the name of the Royal Corporation of Ilorsebrccders of Down,
+                    under whose auspices races are held annually at Downpatrick and at the Maze near
+                    Hillsborough. Some of the best racers in Ireland have been bred in this county.
+                    The native breed of shcep is confined to the mountains. They are a small hardy
+                    race, mostly horned, but in some instances not so. Though born in the mountains,
+                    they are removed during the first winter after birth to the more genial
+                    atmosphere of the lower country, and brought back on the return of spring. Mauy
+                    of this breed are well made and finely woollcd. It is also much prized for the
+                    delicacy of its mutton. The various other kinds of sheep have been much improved
+                    by judicious crosses from the best British breeds. Hogs are reared in great
+                    numbers, chiefly for the Belfast market, where the large exportation occasions a
+                    constant and brisk demand for them. Hams of very superior quality are prepared
+                    from them in that town. Rabbits form a part of farm stock in the sandy southern
+                    tracts. Bces are found to thrive well, and hives have been constructed for the
+                    purpose of saving the honey without destroying the swarm.</p>
+                <p part="N">Manufactures arc carried on largely in the neighbourhood of Belfast and
+                    Newry. Several of the smaller towns also support some branches on a smaller
+                    scale. The linen manufacture still continues to be much attended to, but by no
+                    means so extensively as formerly; it is more and more superseded by the cotton
+                    every year. The finer fabrics of linen were the object of particular attention.'
+                    The woollen manufacture is confined to a coarse cloth wrought solely for home
+                    consumption. Kelp is made in large quantities along the shores.</p>
+                <p part="N">The fisheries are by no means so extensive or flourishing as the great
+                    scope of sea-coast might lead to suppose. Belfast market is chiefly supplied
+                    from Carrickfergus, yet fish of every description abounds. Shoals of herrings
+                    frequently go up Strangford Lough, but they are not so much esteemed as those
+                    caught in the open sea. Smelts are taken in large quantities at the entrance of
+                    the same lough. The fishing for sand-eels at Newcastle is deemed to be of
+                    importance sufficient to require a code of regulations, adopted and enforced by
+                    the people themselves, to prevent the injuries and losses resulting from
+                    indiscriminate fishing. Shell-fish abound along the rocky shores, particularly
+                    in the neighbourhood of the Copeland Islands. Oysters are dredged at Ringhaddy,
+                    Carlingford, and Bangor. Mussels in inexhaustible numbers cover the shallow
+                    banks that stretch out before Holy wood. They are chiefly consumed by the
+                    families in the immediate neighbourhood.</p>
+                <p part="N">Several remains of antiquity, supposed to be coeval with the rudest ages
+                    of society, are to be found in this county. At Slidderyford, near Dundrum, is a
+                    group of pillar stones, consisting of ten or twelve, forming a circle. They are
+                    from eight to ten feet in height. A remarkable cairn stands on the summit of
+                    Slieve Croob. It is nearly eighty yards in circumference at the bottom and fifty
+                    at the top, forming a platform, on which several cairns of various heights and
+                    dimensions are erected. Another cairn near the village of Anadorn was found to
+                    cover a cave containing ashes and a number of human bones. Several cromlechs or
+                    stone altars have been discovered at various times. The most remarkable is in
+                    the Giant’s Ring, on the summit of a hill between Lisburn and Belfast. The altar
+                    is formed of an unwrought stone seven feet long by six and a half broad, resting
+                    in an inclined position on several rude pillars from two to three feet high. It
+                    stands nearly in the centre of an enclosure about one third of a mile in
+                    circumference, formed of a rampart of earth about twenty feet high, sloping in
+                    on each side, and broad enough at the top for two persons to ride abreast upon
+                    it. Near Downpatrick is a rath or mount of earth three quarters of a mile in
+                    circumference. Its exterior consists of three artificial ramparts, the largest
+                    of which is thirty feet broad. The number of monastic ruins is also
+                    considerable. The most ancient and celebrated is the Abbey of Downpatrick, where
+                    the three favourite saints of the Irish, St Patrick, St Golumb, and St Bridget,
+                    are said to have been buried. Near the abbey was a round tower, which was thrown
+                    down some years ago, when the abbey, now converted into the cathedral church,
+                    was rebuilding. Beneath the foundation of the tower a wall was found to proceed,
+                    crossing it, and extending to the main building of the abbey. Struel Wells, to
+                    the east of Downpatrick, merit notice from their connection with former
+                    religious observances. They are four in number, each covered by a stone vault,
+                    and having the water conveyed from the others by subterraneous aqueducts. Great
+                    numbers assemble here at midsummer’s evc, and on the Friday before Lammas, to
+                    perform religious ceremonies, chiefly consisting of penances, and to obtain
+                    recovery from their bodily complaints. The ruins of many castles, particularly
+                    upon the coast, are still visible. Amongst the most remarkable is Greencastle,
+                    built on an islct in the barony of Mourne, and intended to maintain a
+                    communication between the English settlers in this county and those in the
+                    county of Louth. This castle was considered of such importance that no person
+                    but one of English birth was permitted to be constable of <pb break="no"
+                        facs="nls:193324877?mode=fullsize" xml:id="kp-eb0708-4877-0134"/>it. Dundrum
+                    Castle, erected on a rock near a small harbour in a bay of the same name, still
+                    preserves considerable vestiges of its former grandeur. At Ardglass are the
+                    remains of considerable fortifications.</p>
+                <p part="N">Downpatrick, the county town, is situated at the extremity of the
+                    southern branch of Strangford Lough. It is said to owe its name to St Patrick,
+                    the founder of the abbey here, in which he was interred. The town, which
+                    consists of four streets meeting in the bottom of a valley formed by hills of
+                    some elevation, comprehends a surface of 1486 acres, and contains a population
+                    of 4780, according to the latest return. Vessels coming to the town are obliged
+                    to discharge their cargoes at the Quoill Quay, about a mile distant. The public
+                    buildings are, the cathedral, the courthouse and assembly rooms, the jail, the
+                    barracks, the parish church, the Catholic chapel, some dissenting meetinghouses,
+                    the county infirmary, and the fever hospital. Near the court-house is an asylum
+                    for clergymen’s widows, and an hospital for the decayed tenants of the Southwell
+                    estate. Two miles from the town is the race course, under the superintendence of
+                    the corporation of horsebreeders. The town is an ancient manor, governed by a
+                    seneschal. Previously to the reform act it was the most open borough in Ireland,
+                    as all persons who payed scot and lot, or boiled a pot in the town, were
+                    electors. Newry, situated in the southwestern extremity, and extending into the
+                    adjoining county of Armagh, is of much greater size and of more commercial
+                    importance than Downpatrick. It covers 2500 acres, contains 13,370 inhabitants,
+                    and ranks as the twelfth of the principal towns of Ireland as to population.
+                    Situated at the extremity of Carlingford Bay, and connected by its canal with
+                    Lough Neagh and the Tyrone collieries, it enjoys peculiar advantages. Even in
+                    the earlier periods of British domination it maintained a high position, from
+                    being at the extremity of the pale, and serving as the key to the then unsubdued
+                    and generally hostile province of Ulster. In 1641 the town was taken and cruelly
+                    treated. In 1689 it was again stormed and reduced to ashes by the Duke of
+                    Berwick, to secure his retreat from Duke Schomberg. The public buildings are, a
+                    court-house, jail, exchange, assembly rooms, custom-house, theatre, and several
+                    places of worship. The environs of this town are of great beauty. The prospect
+                    towards the Bay of Carlingford is magnificent, and the villages of Narrow-water
+                    and Rosstown on its northern coast are objects of much interest to numerous
+                    visitors. The lordship, of which mention has been already made, is the property
+                    of the Needham family.</p>
+                <p part="N">Harris’s <hi rend="italic">History of the County of Down</hi><hi
+                        rend="italic">;</hi> Dubourdieu’s <hi rend="italic">Statistical Survey of
+                        Down</hi><hi rend="italic">;</hi> Shaw Mason’s <hi rend="italic">Parochial
+                        Survey</hi><hi rend="italic">;</hi> Rutty’s <hi rend="italic">Mineral
+                        Waters</hi><hi rend="italic">;</hi> Nimmo’s <hi rend="italic">Sailing
+                        Directions</hi><hi rend="italic">;</hi><hi rend="italic">Parliamentary
+                        Reports on Population, Education, and State of the Poor.</hi><hi
+                        rend="smallcaps">Down,</hi> the fine feathers on the breasts of several
+                    birds, particularly of the duck kind. Those of the eider duck are the most
+                    valuable. These birds pluck the down from their breasts and line their nests
+                    with it. Three pounds of this down may be compressed into a size scarce larger
+                    than one’s fist; yet it is afterwards so dilatable as to fill a quilt five feet
+                    square. That found in the nests is most valued, and termed <hi rend="italic"
+                        >live down</hi><hi rend="italic">;</hi> it is infinitely more elastic than
+                    that plucked from the dead bird.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

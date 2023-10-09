@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0707-5397-0625-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">DARIEN</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4ks6jd02">Spaniards</term>
+                    <term ref="lcsh1910:b4mw28p24">Scotch</term>
+                    <term ref="lcsh1910:b4vh5ch72">Americanisms</term>
+                    <term ref="lcsh1910:b4vh5cj23">Sun</term>
+                    <term ref="lcsh1910:b4pr7mw5j">Commons</term>
+                    <term ref="lcsh1910:b4d50g108">Projection</term>
+                    <term ref="lcsh1910:b4q815225">Trade</term>
+                    <term ref="lcsh1910:b4jh3db66">Trades</term>
+                    <term ref="lcsh1910:b4kk94m4s">Sea</term>
+                    <term ref="lcsh1910:b4pk0743s">Winds</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1015978">Men</term>
+                    <term ref="fast:1078828">Projection</term>
+                    <term ref="fast:1110395">Seas</term>
+                    <term ref="fast:980379">Isthmuses</term>
+                    <term ref="fast:1175820">Winds</term>
+                    <term ref="fast:1128153">Spaniards</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:899678">Dutch</term>
+                    <term ref="fast:807480">Americanisms</term>
+                    <term ref="fast:807485">Americanization</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1206715">Scotland</term>
+                    <term ref="fast:1205585">Panama</term>
+                    <term ref="fast:1219920">England</term>
+                    <term ref="fast:1211700">Mexico</term>
+                    <term ref="fast:1239786">America</term>
+                    <term ref="fast:1204303">Spain</term>
+                    <term ref="fast:1239509">Africa</term>
+                    <term ref="fast:1209745">Grenada</term>
+                    <term ref="fast:1205916">Colombia</term>
+                    <term ref="fast:1228307">Nicaragua</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194755397?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">DARIEN</label>, a province of South America, in the
+                    viceroyalty of New Grenada, bounded on the north-west by Panama, on the
+                    north-east by the Gulf of Darien, on the east by the province of Carthagena, on
+                    the south by Choco, and on the west by the Pacific Ocean. The country is for the
+                    most part mountainous and rugged, but there are interspersed plains which are
+                    very fertile, though deserted and uncultivated, and producing only a small
+                    quantity of cacao or tobacco. It is watered by a number of rivers, the streams
+                    of which wash down gold from the mountains. This province was the first place in
+                    Terra Firma where the Spaniards established themselves; but most of the
+                    settlements have since been abandoned, owing as much to the savage character of
+                    the natives as to the moist and unhealthy nature of the climate.</p>
+                <p part="N"><hi rend="smallcaps">Darien,</hi> a great gulf on the coast of Darien.
+                    It measures twenty-six leagues from north to south, and nine from east to west.
+                    Several rivers flow into it, the largest of which is the Atrato. The coast is
+                    full of sharp and inaccessible shoals, and only'· towards the west and south are
+                    there places fit for disembarking. The limits of the gulf are sometimes extended
+                    to the sea which washes the shores of the provinces of Panama and Darien.</p>
+                <p part="N"><hi rend="smallcaps">Darien,</hi><hi rend="italic">Isthmus of,</hi> a
+                    neck of land which unites North and South America, composed of the provinces of
+                    Panama and Veragua, belonging to the republic of Colombia. It sweeps in the form
+                    of a crescent about the great Bay of Panama on the south, and has the Gulf of
+                    Mexico on the north. It is about 300 miles long, and generally about sixty wide,
+                    but where narrowest, between the ports of Porto Bello and Panama, only
+                    thirty-seven. This part is sometimes called the Isthmus of Panama. The country
+                    here is made up of sickly valleys and stupendous mountains, which seem to be
+                    placed as eternal barriers between the Atlantic and Pacific Oceans, which can be
+                    distinctly seen at the same time from the summits. These mountains render it
+                    impracticable to cut a canal here, but by going to latitude 12° N. and joining
+                    the head of the lake Nicaragua to a small river which runs into the Pacific
+                    Ocean, and forming a canal thirty miles long, through a low level country, a
+                    communication might be formed between the two seas.</p>
+                <p part="N"><hi rend="smallcaps">Darien,</hi><hi rend="italic">Scottish Colony
+                        of.</hi> Of the rise, progress, and catastrophe of this ill-fated
+                    undertaking, Sir John Dalrymple, in the second volume of his Memoirs of Great
+                    Britain and Ireland, has given a very interesting account, authenticated in
+                    every particular by unquestionable documents. The projector and leader of the
+                    Darien expedition was a clergyman of the name of Paterson, who having a strong
+                    desire to see foreign countries, made his profession the means of indulging it,
+                    by going to the new western world on the pretence of converting the Indians to
+                    the <pb break="no" facs="nls:194755410?mode=fullsize"
+                        xml:id="kp-eb0707-5410-0626"/>religion of the old. During his residence
+                    there he became acquainted with Captain Dampier and Mr Wafer, who afterwards
+                    published, the one his voyages, and the other his travels in the region where
+                    the separation is narrowest between the Atlantic and the Pacific Oceans; and
+                    both of whom appear to have been men of considerable observation. But he
+                    obtained much more knowledge from men who could neither read nor write, by
+                    cultivating the acquaintance of some of the old buccaneers, who, after surviving
+                    their glories and their crimes, <hi rend="superscript"> -</hi> still, in the
+                    extremity of age and misfortune, recounted with transport the ease with which
+                    they had passed and repassed from the one sea to the other, sometimes in
+                    hundreds together, and driving strings of mules before them loaded with the
+                    plunder of friends and of foes. Paterson having examined the places, satisfied
+                    himself that on the Isthmus of Darien there was a tract of country running
+                    across from the Atlantic to the Pacific, which the Spaniards had never
+                    possessed, and inhabited by a people continually at war with them; that along
+                    the coast, on the Atlantic side, there lay a string of islands called the
+                    Sambaloes, uninhabited, and full of natural strength and of forests, from which
+                    last circumstance one of them was called the <hi rend="italic">island of the
+                        pines</hi><hi rend="italic">;</hi> that the seas there were filled with
+                    turtle and the manatee or sea cow; that midway between Porto-Bello and
+                    Carthagena, but nearly fifty leagues distant from either, at a place called
+                    Acta, in the mouth of the Darien, there was a natural harbour, capable of
+                    receiving the greatest fleets, and defended from storms by other islands which
+                    covered the mouth of it, and from enemies by a promontory which commanded the
+                    passage, and by hidden rocks in the passage itself; that on the other side of
+                    the isthmus, and in the same tract of country, there were natural harbours,
+                    equally capacious and well defended; that the two oceans were connected by a
+                    ridge of hills, which by their height created <hi rend="italic">a</hi> temperate
+                    climate in the midst of the most sultry latitudes, and were sheltered by
+                    forests, but not rendered damp, because the trees grew at a distance from each
+                    other, and had very little underwood; that, contrary to the usual barren nature
+                    of hilly countries, the soil was of a black mould two or three feet deep, and
+                    producing spontaneously the fine tropical fruits and plants, roots and herbs;
+                    that roads might be formed with ease along the ridge, by which mules, and even
+                    carriages, might pass from the one sea to the other in the space of a day, and
+                    consequently that this passage seemed to be pointed out by nature, as a common
+                    centre to connect together the trade and intercourse of the universe.</p>
+                <p part="N">Paterson knew that ships which stretch in a straight line from one point
+                    to another, and with one wind, run less risks, and require fewer hands, than
+                    ships which pass through many latitudes, follow the windings of many coasts, and
+                    require many winds; that vessels of seven or eight hundred tons burden are often
+                    to be met in the South Sea, navigated by not more than eight or ten hands,
+                    because these hands have little else to do than set their sails when they begin
+                    their voyage, and to take them in when they end it; that as soon as ships from
+                    Britain should get so far south as to reach the trade-wind, which seldom varies,
+                    that wind would carry them to Darien, and the same wind would carry ships from
+                    the Bay of Panama, on the opposite side of the isthmus, to the East Indies; that
+                    as soon as ships coming from the East Indies to the Bay of Panama got so far
+                    north as the latitude of 40°, to reach the westerly winds, which about that
+                    latitude blow almost as regularly from the west as the trade-winds do from the
+                    east, these winds would carry them, in the track of the Spanish Acapulco ships,
+                    to the coast of Mexico, whence the land-wind, which blows for ever from the
+                    north to the south, would carry them along the coast of Mexico into the Bay of
+                    Panama. Thus, in going from Britain, ships would encounter no uncertain winds,
+                    except during their passage south into the latitude of the trade-wind; and in
+                    coming from India to the Bay of Panama they would meet no uncertain winds,
+                    except in their passage north to the latitude of the westerly winds, and in
+                    going from the other side of the isthmus to the east, with no uncertain wind
+                    whatsoever. Gold was seen by Paterson in some places of the isthmus; and hence
+                    an island on the Atlantic side was called the Gold island, and a river on the
+                    side running to the Pacific was called the Golden river; but these were objects
+                    which he regarded not at that time, because far greater were in his eye, namely,
+                    the shortening of distances, the drawing of nations nearer to each other, the
+                    preservation of the valuable lives of seamen, and the saving in freight, and in
+                    time, so important to merchants, and to an animal whose life is of so short
+                    duration as that of man.</p>
+                <p part="N">By this obscure Scotchman a project was formed to settle, on this
+                    neglected spot, a great and powerful colony; not as other colonies have for the
+                    most part been settled, by chance, and unprotected by the country whence they
+                    proceeded; but by system, upon foresight, and to receive the ample protection of
+                    those governments to whom he was to offer his project. And certainly no greater
+                    idea has been formed since the time of Columbus.</p>
+                <p part="N">Paterson’s original intention was to submit his project to England, as
+                    the country which had most interest in it, not only from the benefit common to
+                    all nations, of shortening the length of voyages to the East Indies, but by the
+                    effect which it would have had in connecting the interests of her European, West
+                    Indian, American, African, and East Indian trade. Paterson, however, having few
+                    acquaintances and no protection in London, thought of drawing the public eye
+                    upon him, and ingratiating himself with moneyed men and with great men, by
+                    assisting them to model a project, which was at that time in embryo, for
+                    erecting the Bank of England. But that happened to him which has happened to
+                    many projectors in his situation; the persons to whom he applied made use of his
+                    ideas, took the credit of them to themselves, were civil to him for a while, and
+                    neglected him afterwards. He therefore communicated his project of a colony only
+                    to a few persons in London, and these few discouraged him.</p>
+                <p part="N">He next, submitted his project to the Dutch, the Hamburgers, and the
+                    elector of Brandenburg; because, by means of the passage of the Rhine and Elbe
+                    through their states, he thought that the great additional quantities of East
+                    Indian and American goods which his colony would export to Europe would be
+                    distributed throughout Germany. The Dutch and Hamburg merchants, although they
+                    had most interest in the project, heard him with indifference; while the
+                    elector, who had very little interest in it, received him with honour and
+                    kindness; but court arts and false reports soon lost him even that prince’s
+                    favour.</p>
+                <p part="N">Paterson, on his return to London, formed a friendship with Mr Fletcher
+                    of Saltoun, whose mind was inflamed with the love of public good, and all whose
+                    ideas to procure it had a sublimity about them. Fletcher brought Paterson down
+                    to Scotland, presented him to the Marquis of Tweeddale, then minister for that
+                    country; and thereafter, with that power which a vehement spirit always
+                    possesses over a diffident one, persuaded the marquis, by arguments of public
+                    good, and the honour which would redound to his administration, to adopt the
+                    project. Lord Stair and Mr Johnston, the two <hi rend="subscript"> j</hi>
+                    secretaries of state, patronised those abilities in Paterson which they
+                    possessed in themselves; and the lord advocate, Sir James Stuart, the same
+                    person who had adjusted the Prince of Orange’s <pb break="no"
+                        facs="nls:194755423?mode=fullsize" xml:id="kp-eb0707-5423-0627"/>declaration
+                    at the Revolution, and whose son had married a niece of Lord Stair, went
+                    naturally along with his connections. These persons, in June 1695, procured a
+                    statute from parliament, and afterwards a charter from the crown in terms
+                    thereof, for creating a trading company to Africa and the new world, with power
+                    to plant colonies and build forts, by consent of the inhabitants, in places not
+                    possessed by other European nations.</p>
+                <p part="N">Paterson now finding the ground firm under him, and that he was
+                    supported by almost all the power and talents of his country, the character of
+                    Fletcher, and the sanction of an act of parliament and royal charter, threw his
+                    project boldly before the public, and opened a subscription for a company. The
+                    frenzy of the Scotch nation to sign the solemn league and covenant never
+                    exceeded the rapidity with which they ran to subscribe to the Darien company.
+                    The nobility, the gentry, the merchants, the people, the royal burghs without
+                    the exception of one, and most of the other public bodies, subscribed. Young
+                    women threw their little fortunes into the stock; and widows sold their
+                    jointures to get the command of'money for the same purpose. Almost immediately
+                    L. 400,000 were subscribed in Scotland, although there was not at that time
+                    above L.800,000 of cash in the kingdom. The famous Mr Law, then a youth,
+                    afterwards confessed that the facility with which he saw the passion of
+                    speculation communicate itself, satisfied him of the possibility of producing
+                    the same effect by means of the same cause, but upon a larger scale, when the
+                    Duke of Orleans engaged him against his will to turn his bank into a bubble.
+                    Paterson’s project, which had been received by strangers with fears when opened
+                    to them in private, filled them with hopes when it came to them upon the wings
+                    of public fame; for Colonel Erskine, son of Lord Cardross, and Mr Haldane of
+                    Gleneagles, the one a generous branch of a generous stem, and the other a
+                    country gentleman of fortune and character, having been deputed to receive
+                    subscriptions in England and on the Continent, the English subscribed L.
+                    300,000, and the Dutch and Hamburgers L.200,000 more.</p>
+                <p part="N">In the mean time the jealousy of trade, which has done more mischief to
+                    the commerce of England than all other causes put together, created an alarm in
+                    England; and the Houses of Lords and Commons, without previous inquiry or
+                    reflection, on the 13th of December 1695, concurred in a joint address to the
+                    king against the establishment of the Darien company, as detrimental to the
+                    interest of the East India Company. Soon afterwards the Commons impeached some
+                    of their own countrymen for being instrumental in erecting the company, and also
+                    some of the Scotch nation, one of whom was Lord Belhaven; that is to say, they
+                    arraigned the subjects of another country for making use of their own laws.
+                    Among six hundred legislators, notone had the sense, not to say genius, to
+                    propose a committee of both parliaments to inquire into the principles and
+                    consequences of the establishment; and if these should, upon inquiry, be found
+                    sound and beneficial, that the advantage should be communicated, by a
+                    participation of rights, to both nations. The king’s answer was, that he had
+                    been ill advised in Scotland. He soon afterwards changed his Scottish ministers,
+                    and sent orders to his resident at Hamburg to present a memorial to the senate,
+                    in which he disowned the company, and warned them against all connections with
+                    it. The senate transmitted the memorial to the assembly of merchants, who
+                    returned it with the following spirited answer: “We look upon it as a very
+                    strange thing, that the king of Britain should offer to hinder us, who are a
+                    free people, to trade with whom we please; but are amazed to think that he would
+                    hinder us from joining with his own subjects in Scotland, to whom he had lately
+                    given such large privileges, by so solemn an act of parliament.” But the
+                    merchants, seeing the scheme discouraged by their governments, were soon
+                    intimidated; and the Dutch, Hamburg, and London merchants withdrew their
+                    subscriptions.</p>
+                <p part="N">The Scotch, not discouraged, were rather animated by this oppression;
+                    for they converted it into a proof of the envy of the English, and of their
+                    consciousness of the great advantages which were to flow to Scotland from the
+                    colony. The company proceeded to build six ships in Holland, from thirty-six to
+                    sixty guns, and they engaged 1200 men for the colony; amongst whom were younger
+                    sons of many of the noble and ancient families of Scotland, and sixty officers
+                    who had been disbanded at the peace, who carried with them such of their private
+                    men, generally raised on their own or the estates of their relations, as they
+                    knew to be faithful and brave, most of them being Highlanders. The Scotch
+                    parliament, on the 5th August 1698, unanimously addressed the king to support
+                    the company. The lord president Sir Hugh Dalrymple, brother of Lord Stair, and
+                    head of the bench, and the lord advocate Sir James Stuart, head of the bar,
+                    jointly drew up memorials to the king, able in point of argument, information,
+                    and arrangement, in which they defended the rights of the company upon the
+                    principles of constitutional and of public law; and neighbouring nations, with a
+                    mixture of surprise and respect, saw the poorest kingdom of Europe sending forth
+                    the most gallant and the most numerous colony which had ever set out from the
+                    old to the new world.</p>
+                <p part="N">On the 26th day of July 1698, the whole city of Edinburgh poured down to
+                    Leith to see the colony depart, amidst the tears, and prayers, and praises
+                    of.relations, and friends, and countrymen. Many seamen and soldiers, whose
+                    services had been refused, because more had offered themselves than were needed,
+                    were found hid in the ships, and, when ordered ashore, clung to the ropes and
+                    timbers, imploring to go without reward along with their companions. Twelve
+                    hundred men sailed in five stout ships, and arrived at Darien in two months,
+                    with the loss of only fifteen of their people. At that time it was in their
+                    power, most of them being well born, and all of them hardily bred and inured to
+                    the fatigues and dangers of the late war, to have marched from the northmost
+                    part of Mexico to the southmost point of Chili, and to have overturned the whole
+                    empire of Spain in South America. But modest respecting their own and their
+                    country’s character, and afraid of its being alleged that they had plunder, and
+                    not a settlement, in view, they began with purchasing lands from the natives,
+                    and sending messages of amity to the Spanish governors within their reach; and
+                    then fixed their station at Acta, calling it <hi rend="italic">New St
+                        Andrew,</hi> from the name of the tutelar saint of Scotland, and the country
+                    itself <hi rend="italic">New Caledonia.</hi> One of the sides of the harbour
+                    being formed by a long narrow neck of land which ran into the sea, they cut it
+                    across so as to join the ocean and the harbour. Within this defence they erected
+                    their fort, planting upon it fifty pieces of cannon. On the other side of the
+                    harbour there was a mountain about a mile in height, on which they placed a
+                    watch-house, which, in the rarefied air within the tropics, so favourable for
+                    vision, gave them an immense range of prospect, in order to prevent all
+                    surprise. To this place it was observed that the Highlanders often repaired to
+                    enjoy the cool air, and to talk of their friends whom they had left behind on
+                    their native hills. The first public act of the colony was to publish a
+                    declaration of freedom of trade and religion to all nations. This luminous idea
+                    originated with Paterson.</p>
+                <p part="N">But the Dutch East India Company having pressed the king, in concurrence
+                    with his English subjects, to prevent <pb break="no"
+                        facs="nls:194755436?mode=fullsize" xml:id="kp-eb0707-5436-0628"/>the
+                    settlement at Darien, orders had been sent from England to the governors of the
+                    West Indian and American colonies, to issue proclamations against giving
+                    assistance, or even holding correspondence with the colony; and these were more
+                    or less harshly expressed, according to the temper of the different governors.
+                    The Scotch, trusting to far different treatment, and to the supplies which they
+                    expected from these colonies, had not brought sufficient provisions along with
+                    them, and fell into diseases from bad or inadequate food; but the more generous
+                    savages, by hunting and fishing for them, afforded them that relief which fellow
+                    Britons had refused. They lingered eight months, waiting in vain for assistance
+                    from Scotland, and almost all of them either died out or quitted the settlement.
+                    Paterson, who had been the first to enter the ship at Leith, was the last to go
+                    on board at Darien.</p>
+                <p part="N">During the space of two years, while the establishment of his colony had
+                    been in agitation, Spain had made no complaint to England or Scotland against
+                    it. The Darien council even averred in their papers, which are in the Advocates’
+                    Library, that the right of the company was debated before the king, in presence
+                    of the Spanish ambassador, ere the colony left Scotland. But now, on the 3d of
+                    May 1698, the Spanish ambassador at London presented a memorial to the king, in
+                    which he complained of the settlement at Darien as an encroachment on the rights
+                    of his master.</p>
+                <p part="N">The Scotch, ignorant of the misfortunes of their colony, but provoked at
+                    this memorial, soon afterwards sent out another colony of 1300 men, to support
+                    an establishment which was now no more; but this last expedition having been
+                    more hastily prepared than the first, proved unlucky in its passage. One of the
+                    vessels was lost at sea, many men died on board, and the rest arrived at
+                    different times, broken in their health, and dispirited when they heard the fate
+                    of those who had gone before them. Added to the misfortunes of the first colony,
+                    the second had a misfortune peculiar to itself. The General Assembly of the
+                    Church of Scotland sent out four ministers, with orders to take charge of the
+                    souls of the colony, and to erect a presbytery, with a moderator, clerk, and
+                    record of proceedings; to appoint ruling elders, deacons, overseers <hi
+                        rend="italic">of</hi> the manners of the people, and assistants in the
+                    exercise of church discipline and government, and to hold regular kirk-sessions.
+                    When they arrived, the officers and gentlemen were occupied in building houses
+                    for themselves with their own hands, because there was no assistance to be got
+                    from others; yet the four ministers complained grievously that the council did
+                    not order houses to be immediately built for their accommodation. They had not
+                    had the precaution to bring with them letters of recommendation from the
+                    directors at home to the council abroad; and on these accounts, not meeting with
+                    all the attention they expected from the higher, they paid court to the inferior
+                    ranks of the colonists, and by this means sowed divisions in the colony. They
+                    exhausted the spirits of the people, by requiring their attendance at sermon
+                    four or five hours at a time, relieving each other by preaching alternately, but
+                    allowing no relief whatever to their hearers. The employment of one of the days
+                    set aside for religious exercise, which was Wednesday, they divided into three
+                    parts; thanksgiving, humiliation, and supplication, in which three ministers
+                    followed one another. And as the service of the church of Scotland consists of a
+                    lecture with a comment, a sermon, two prayers, three psalms, and a blessing, the
+                    work of the day, upon an average of the length of the service in that age, could
+                    not occupy less than twelve hours, during which time* the colony was collected,
+                    and kept crowded together in the guard-room, which was used as a church, in a
+                    tropical climate, and in a sickly season. The preachers presented a paper to the
+                    council, which they took care to make public, requiring them to set aside a day
+                    for solemn fasting and humiliation; and, under pretence of enumerating the sins
+                    of the people, they poured out abuse on their rulers. They damped the courage of
+                    the people by continually representing hell as the termination of life to most
+                    men, because most men are sinners. Carrying the presbyterian doctrine of
+                    predestination to an extreme, they put a stop to all exertions, by showing that
+                    the consequences of these depended not on the individuals by whom they were
+                    made, but on an all-controlling and irresistible power, by which, independently
+                    of human efforts andvolitions, everything was necessarily determined. They
+                    converted the numberless accidents to which soldiers and seamen are exposed into
+                    immediate judgments of God against their sins; and, having resolved to quit the
+                    settlement, they, in excuse for doing so, wrote bitter letters to the general
+                    assembly against the characters of the colonists, and the advantages of the
+                    colony itself. One of these men, in a kind of history <hi rend="italic">of</hi>
+                    the colony which he published, exulted with a savage triumph over the
+                    misfortunes of his countrymen. “They were such a rude company,” said he, “that I
+                    believe Sodom never declared such impudence in sinning as they. An observant eye
+                    might see that they were running the way they went; hell and judgment was to be
+                    seen upon them, and in them, before the time. Their cup was full; it could hold
+                    no more: they were ripe; they must be cut down with the sickle of the wrath of
+                    God.”</p>
+                <p part="N">The last party which joined the second colony atDarien, after it had
+                    been three months settled, was Captain Campbell of Finab, with a company of the
+                    people of his own estate, whom he had commanded in Flanders, and whom he carried
+                    to Darien in his own ship. On their arrival at New St Andrew, they found that
+                    intelligence had been received that a Spanish force of 1600 men, which had been
+                    brought from the coast of the South Sea, lay encamped at Tubucantee, waiting
+                    there till a Spanish squadron of eleven ships which was expected should arrive,
+                    when they were jointly to attack the fort. The military command was offered to
+                    Captain Campbell, in compliment to his reputation and to his birth as a
+                    descendant of the families of Breadalbane and Atholl. In order to prevent a
+                    joint attack, he resolved to attack first; and therefore on the second day after
+                    his arrival, he marched with two hundred men to Tubucantee, before his approach
+                    could be known to the enemy, stormed the camp in the nighttime, dissipated· the
+                    Spanish force with much slaughter, and returned to the fort the fifth day. But
+                    he found the Spanish ships off the harbour, their troops landed, and almost all
+                    hope of aid or of provisions cut off; yet he stood a sicge of nearly six weeks,
+                    until almost all the officers had died, the enemy by their approaches had cut
+                    off his wells, and his ammunition had been so far expended that he was obliged
+                    to melt the pewter dishes of the garrison into balls. The garrison then
+                    capitulated, and obtained not only the common honours of war and security for
+                    the property of the company, but, as if they had been conquerors, even exacted
+                    hostages for the performance of the conditions. Captain Campbell alone desired
+                    to be excepted from the capitulation, saying, that he was sure the Spaniards
+                    would not forgive him the mischief which he so lately had done them. But the
+                    brave, by their courage, often escape that death which they seem to provoke.
+                    Captain Campbell made his escape in his vessel, and arrived safely at New York,
+                    whence he proceeded to Scotland, where the company presented him with a gold
+                    medal, in which his bravery was duly commemorated. The lord-lyon king-at-arms,
+                    whose office it is in Scotland to confer badges of distinction upon honourable
+                    actions ac∙</p>
+                <pb break="no" facs="nls:194755449?mode=fullsize" xml:id="kp-eb0707-5449-0629"/>
+                <p part="N">cording to the rules of heraldry, also granted him a Highlander and an
+                    Indian as supporters to his coat of arms.</p>
+                <p part="N">But a harder fate attended those whom Captain Campbell left at Darien.
+                    They were so weak in their health as not to be able to weigh up the anchors of
+                    the <hi rend="italic">Rising Sun,</hi> one of their ships, which carried sixty
+                    guns; the generous Spaniards, however, assisted them. In going out of the
+                    harbour the vessel ran aground. The prey was tempting; and, to obtain it, the
+                    Spaniards had only to stand by and look on; but they showed that mercy to the
+                    Scotch in distress which one of their own countrymen, General Elliot, afterwards
+                    returned to the posterity of those Spaniards at the siege of Gibraltar. The
+                    Darien ships being leaky and weakly manned, were obliged in their voyage to take
+                    shelter in different ports belonging to Spain and England. But the Spaniards in
+                    the new world treated them with uniform kindness, while the English governments
+                    showed them none; and one of their ships was seized and detained. In fact, only
+                    Captain Campbell’s ship and another small one were saved. The <hi rend="italic"
+                        >Rising Sun</hi> was lost on the bar of Charlestown; and of the colony, not
+                    more than thirty, saved from war, shipwreck, or disease, ever returned to their
+                    native country.</p>
+                <p part="N">Paterson, who had withstood the blow, could not endure the reflection of
+                    misfortune. He was seized with a lunacy in his passage home, after the ruin of
+                    the first colony; but he recovered in his own country, where his spirit, still
+                    ardent and unbroken, presented a new plan to the company, founded on the idea of
+                    King William, that England should have the joint dominion of the settlement with
+                    Scotland. He survived many years in Scotland, pitied, respected, but neglected.
+                    After the union of the two kingdoms, he claimed reparation of his losses from
+                    the equivalent-money obtained by England to the Darien Company, but was paid
+                    nothing; because a grant to him from a public fund would have been only an act
+                    of humanity, and not a political job. Thus ended the colony of Darien; an
+                    adventure which, in its disastrous results, inflicted a severe blow upon
+                    Scotland, and excited feelings of deep hostility towards the English government
+                    and nation, which half a century was scarcely sufficient to extinguish.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

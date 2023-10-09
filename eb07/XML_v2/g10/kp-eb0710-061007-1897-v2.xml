@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0710-1897-0610-07" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">GOOD HOPE, Cape of</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1239509">Africa</term>
+                    <term ref="fast:1210276">India</term>
+                    <term ref="fast:1206073">China</term>
+                    <term ref="fast:1239786">America</term>
+                    <term ref="fast:1204543">Australia</term>
+                    <term ref="fast:1209332">Madagascar</term>
+                    <term ref="fast:1219920">England</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4154dt2t">Hottentots</term>
+                    <term ref="lcsh1910:b4z02zf6b">Malays</term>
+                    <term ref="lcsh1910:b4qn5zh77">Mahommedanism</term>
+                    <term ref="lcsh1910:b4k06x193">Moravians</term>
+                    <term ref="lcsh1910:b49c6s277">Christianity</term>
+                    <term ref="lcsh1910:b4hq3s746">Towns</term>
+                    <term ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term ref="lcsh1910:b4tt4fw6r">East</term>
+                    <term ref="lcsh1910:b43n20j3f">Mountains</term>
+                    <term ref="lcsh1910:b4wm1410b">Mountaineering</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:899678">Dutch</term>
+                    <term ref="fast:839044">British</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:960068">Hope</term>
+                    <term ref="fast:916820">Europeans</term>
+                    <term ref="fast:829042">Bays</term>
+                    <term ref="fast:1028334">Mountaineering</term>
+                    <term ref="fast:1028364">Mountaineers</term>
+                    <term ref="fast:1028366">Mountains</term>
+                    <term ref="fast:865801">Coasts</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193521897?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">GOOD HOPE, <hi rend="smallcaps">Cape
+                    of</hi></label>, a district of country in the southern portion of Africa, in the
+                    possession of Great Britain. In the distribution of land and water, this cape
+                    occupies a conspicuous place on the map of the globe. It separates the Indian
+                    Ocean from the Atlantic, and divides the voyage to Hindustan into two nearly
+                    equal portions. To double this Cape, and bear across the ocean to the golden
+                    shores of India, was an object of ambition to the early Portuguese navigators.
+                    It was first descried, in 1493, by Diaz, who commanded a Portuguese squadron.
+                    (See <hi rend="smallcaps">Gama.)</hi> The tempestuous nature of the sea,
+                    however, caused by the conflict of contending oceans running in opposite
+                    directions, compelled the navigator to return. By him the newly discovered land
+                    was called the Cape of Tempests; but the king of Portugal gave it the more
+                    auspicious name which it still bears. The formidable barrier, however, was not
+                    passed until 1497, when the celebrated Vasco de Gama, with his characteristic
+                    boldness, surmounted every difficulty, and carried the Portuguese flag into the
+                    Indian Sea. The Portuguese, however, found a richer spoil in the kingdoms of the
+                    East; and although they frequently touched at the Cape, they did not make any
+                    permanent settlement there. But the Dutch early saw the importance of forming a
+                    station at the Cape, and fixed upon it as a place where their vessels might take
+                    in water and provisions. But they did not, properly speaking, colonize it, until
+                    the middle of the seventeenth century, when they founded Cape Town. This led to
+                    further improvements, and the colony gradually assumed its present dimensions.
+                    The natives were either compelled to fly beyond the mountains, or they were
+                    reduced to a state of abject slavery. During the war with revolutionary France,
+                    the Cape was reduced by the British in 1797, but was ceded to Holland by the
+                    peace of Amiens. When the war recommenced, it again yielded to Britain, and the
+                    permanent possession of it was confirmed by the congress of Vienna in 1815.</p>
+                <p part="N">This colony is bounded on the north and east by the Orange and Fish
+                    Rivers, and on the west and south by the Atlantic and Southern Oceans. The
+                    country extends from latitude 26. to 33. 55. 40. south. It includes the country
+                    inhabited by the Hottentot race and the Boshuanas. The country, as represented
+                    upon the map, is of a very irregular figure; but it has been ascertained by late
+                    measurements that the Cape Colony comprehends an area of 110,256^ square miles.
+                    Of this great tract <hi rend="italic">of</hi> territory, a very considerable
+                    proportion is a sterile waste.</p>
+                <pb break="no" facs="nls:193521910?mode=fullsize" xml:id="kp-eb0710-1910-0611"/>
+                <p part="N">Chains of vast and barren mountains enclose level plains composed of a
+                    hard surface of clay, thinly sprinkled over with sand, and producing straggling
+                    tufts of stunted shrubs. The mountains generally extend in the direction of east
+                    and west, but there are exceptions to this rule.</p>
+                <p part="N">The first great chain of mountains, which runs east and west, is called
+                    Lange Kloof or Long Pass. Between it and the southern coast there lies an
+                    irregular belt of land from twenty to sixty miles in width. It is indented by
+                    several bays, and, possessing a good soil and a more mild and equable
+                    temperature than the interior parts of the colony, it is well clothed with
+                    vegetation, and is in many parts wooded with forest trees. The next great chain
+                    is the Swartebergen, or Black Mountains. It is more lofty and rugged than the
+                    first, and in many places consists of double, and sometimes treble ranges of
+                    hills. Between it and the first chain there lies a belt which is about the mean
+                    width of that between the first and the sea. Its surface is very various, being
+                    composed in some parts of barren hills; in others of arid tracts of clay land
+                    called karroo; and in some places of fertile land. This belt lies higher than
+                    the first; but the temperature is less uniform, and altogether it is not so
+                    valuable as the other. The third great range is the Nieuweveld Mountains, which,
+                    with the second, encloses the Great Karroo,<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">Th· word <hi rend="italic">karroo</hi> belongs
+                            to the Hottentot language, and signifie· dry or arid.</p></note> an arid
+                    plain 309 miles in length, and eighty in breadth. This desert, which forms the
+                    third step or terrace of Southern Africa, is greatly elevated above the second.
+                    It is destitute of inhabitants, and almost of vegetation. What there is of the
+                    latter is parched and shrivelled by the heat of the sun, and from the want of
+                    moisture. On the western coast are also elevated chains of mountains. To the
+                    northward the country is more barren and sandy than towards the eastward.
+                    Sandstone resting upon a base of granite composes all the continuous chains of
+                    mountains in Southern Africa. These are the most prevailing rocks; the next in
+                    frequency are clayslate, and there are also greywacke, quartz rock, and
+                    dolerite. In some parts the sandstone is traversed by veins of red iron ore. Dr
+                    Clarke Abel mentions a vein six feet wide, and extending for upwards of a
+                    hundred feet.</p>
+                <p part="N">On the western coast there are two principal rivers, the Berg or
+                    Mountain River, which falls into St Helena Bay, and the Olifant or Elephant’s
+                    River, which falls into the Southern Atlantic in south latitude 31. 30. Both
+                    these rivers have obstructions at their mouths, which prevent their being
+                    navigable. On the south coast are several considerable rivers, one of which is
+                    the Great Fish River.</p>
+                <p part="N">All these streams are well stocked with various kinds of fish. Breede or
+                    Braad River is navigable, by ships of 200 tons burden, and its mouth has been
+                    called Port Beaufort. Here the exports of the district are made. The Grautz is
+                    the next great river of the coast. It is a collection of waters from the Great
+                    Karroo, the Black Mountains, and the maritime chain. The other streams it is
+                    unnecessary to mention. Southern Africa possesses but few lakes, and of these
+                    some are salt. There is also a paucity of springs; and although much rain falls
+                    in Cape District, it affords comparatively few, on account of the peculiar
+                    nature and relative position of the strata.</p>
+                <p part="N">Cape Colony is divided into two provinces, the eastern and western,
+                    which are again subdivided into districts, arranged as under:</p>
+                <p part="N"><hi rend="italic">Western Province.</hi><hi rend="italic">—</hi> Cape
+                    District, Stellenbosch, Caledon, Zwellendam, Worcester (formerly Julbach),
+                    Clanwilliam.</p>
+                <p part="N"><hi rend="italic">Eastern Province.</hi><hi rend="italic">—</hi> Graaff
+                    Reynet, Beaufort, Somerset, Albany, Uitenhage, George, Fredericksburg.</p>
+                <p part="N">It is to be observed that some of these districts have been united into
+                    one, since the commissioners of inquiry into the state of the colony suggested
+                    the propriety of dividing Cape Colony into two provinces. Although they are of
+                    nearly equal superficial extent, in their physical character and productions
+                    they are very unlike. The western districts produce chiefly corn and wine, and
+                    the eastern are principally adapted for pasturage.</p>
+                <p part="N">Cape District is the most populous and prosperous of the whole. It
+                    consists of two parts; the peninsula on which the town stands, and the slip of
+                    land extending from the shore of Table Bay to the mouth of Berg River, and
+                    separated from Stellenbosch and Drakenstein by the Little Salt River, Deep
+                    River, and Mossel Bank River. This is about eighty miles from north to south,
+                    and twenty-five from east to west; whilst the Cape Peninsula is about thirty
+                    miles in length and eight in breadth. Both comprehend a surface of 3584· square
+                    miles, and in 1836 had a population of 13,180, consisting of 6943 males and 6237
+                    females.</p>
+                <p part="N">Cape Peninsula is distinguished for the richness and variety of its
+                    vegetable productions. Some of the finest botanical specimens which now adorn
+                    the gardens of Europe have been derived from this quarter of the world. In no
+                    other place do the bulbous plants in particular exhibit so many beautiful
+                    varieties. Others of the vegetable tribes, which are rather for ornament than
+                    use, are likewise numerous and beautiful; but there is a deficiency of building
+                    timber and fire wood, although forests of oak are said to exist to the east of
+                    False Bay, in that part called Hottentot Land. Many European plants have been
+                    introduced, as the vines of France, and the fruits of the north of Europe; and
+                    it is believed that the tea of China, the coffee of Java, the cotton of India,
+                    and the tobacco of America, as well as other valuable vegetable productions,
+                    might be successfully cultivated at the Cape. Of metals, copper, native iron,
+                    silver, and lead, are known to exist, and coal is said to have been discovered.
+                    This would no doubt be an invaluable acquisition to the natural wealth of the
+                    Cape; but at present the staple commodities upon which the colony depends are
+                    the produce of the wine districts; grain, hides, and skins; horses, argol,
+                    aloes, and wool. Perhaps silk might be made a source of colonial revenue, for
+                    here the wulberτy grows to perfection, and the climate is precisely adapted to
+                    the worm. With regard to the zoology of the Cape of Good Hope, as there is
+                    little peculiar to this part of Southern Africa, and as under the head of <hi
+                        rend="smallcaps">Africa</hi> sufficient details are given, it is unnecessary
+                    to recapitulate what will be found in that article. We shall commence our
+                    topographical descriptions with the seat of government, Cape Town.</p>
+                <p part="N">Cape Town, the capital of the colony, lies at the bottom of Table Bay,
+                    about thirty-two miles north from the Cape of Good Hope, and on the western side
+                    of the territory to which it gives its name, in longitude 18. 21. E. and
+                    latitude 33. 55. 56. S. The town, as we have already mentioned, was founded by
+                    the Dutch in 1650, after which it shared in the various vicissitudes which were
+                    experienced by the colony. The streets are regularly laid out in straight lines,
+                    crossing each other at right angles. Though unpaved, they are kept in excellent
+                    order, many of them being watered by canals, and planted on each side with oaks.
+                    The houses are built of brick, and faced with a stucco of lime, and they are
+                    decorated with cornices and architectural devices. Each house has in front a
+                    paved platform, called the stoep or step, usually eight or ten feet wide, and
+                    raised from two to four feet above the level of the street. It is here that the
+                    inhabitants retire to enjoy the air, or the converse of friends. The roofs have
+                    only an inclination sufficient to allow the rain to run down. Although the
+                    houses do not display the luxury and splendour of European mansions<pb
+                        break="no" facs="nls:193521923?mode=fullsize" xml:id="kp-eb0710-1923-0612"
+                    />, they are nevertheless commodious and comfortable. There are three churches
+                    here, one for the Reformed or Calvinistic congregation, the established church
+                    of the Dutch government; one for the performance of the English service, built
+                    in 1820; and a third belonging to the Lutherans, who are a numerous body.
+                    Besides these, there is a meeting-house open to preachers of various
+                    denominations; and the Malays have a place of worship, in which the Mahommedan
+                    service is performed. The public buildings of Cape Town are, the
+                    government-house, which stands in a garden surrounded with plantations; the
+                    burgher senatehouse, a large handsome building, where civic business is
+                    transacted, and which stands on one side of a square, where a market for
+                    vegetables is held; the commercé exchange, a building which contains the court
+                    of justice, the secretary’s office, and most of the principal public offices;
+                    the customhouse, and other public buildings, such as are necessary in conducting
+                    the affairs of a large town. It is defended by a castle of considerable
+                    strength, which commands the jetty or landing place, and part of Table Bay, and
+                    completely controls the only road between the town and country. Table Bay is
+                    capable of containing any number of ships; but it is exposed to the westerly
+                    winds during the months of June, July, and August, during which there is thrown
+                    in a heavy swell, which often proves very destructive. This is the great
+                    drawback upon Cape Town, otherwise so admirably adapted for a commercial
+                    station. During the prevalence of the easterly monsoon, however, Table Bay is
+                    perfectly safe; whilst the cheapness of provisions, the healthiness of the
+                    climate, and, above all, its position, render it an excellent resting place for
+                    vessels bound to or returning from India, China, Australia, and other
+                    places.</p>
+                <p part="N">Large quantities of com of a very good description are produced in the
+                    immediate neighbourhood of Cape Town; but its free exportation is restrained,
+                    none being allowed to be sent abroad, except a specified quantity decided upon
+                    by government after an investigation into the state of the crops. Large
+                    quantities of wine, and of what is called brandy, are produced at the Cape; but,
+                    with the exception of Constantia, they are very inferior. Considerable
+                    quantities of hides, skins, and horns, are exported. They are principally
+                    brought from Algoa Bay, on the eastern side of the colony; and the trade has
+                    increased very fast during the last six or seven years. Horses, butter, beef,
+                    ivory, whale oil, aloes, argol, and various other articles, are among the
+                    exports. The imports at the Cape consist of woollens, cottons, hardware, earthen
+                    ware, furniture, haberdashery, soap, paper, books, and portions of most articles
+                    used in this country. Piece-goods and teak timber are imported from India, tea
+                    from China, sugar from India and the Mauritius, &amp;c. The total revenue of the
+                    Cape Colony for the year 1832 amounted to L.130,808. 7s. 3įd.; the expenditure
+                    for the same year was L.126,889. Os. 9Jd; leaving a balance or surplus of
+                    L.3919. 6s. 10fd. The trade between the colonists and the independent natives is
+                    subjected to restraints, which do not work advantageously. According to the
+                    accounts published by the board of trade, the values of the products imported
+                    into and exported from the Cape of Good Hope in 1831 were-aşμnder.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Countries.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Imports.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Exports.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Great Britain</p><p part="N"
+                                >British colonies</p><p part="N">Foreign states</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">L.281,445</p><p part="N"
+                                >37,751</p><p part="N">25,855</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">L.127,468</p><p part="N"
+                                >70,957</p><p part="N">14,700</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">L.345,051</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">L.213,125</p></cell>
+                    </row>
+                </table>
+                <p part="N">During the same year, the ships and tonnage entering inwards from, and
+                    clearing outwards to, the under-mentioned ∞untries, were—</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Countries.</p></cell>
+                        <cell cols="2" role="data" rows="1"><p part="N">Inwards.</p></cell>
+                        <cell cols="2" role="data" rows="1"><p part="N">Outwards.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Britain ·.··.····</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Ships.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Tons.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Ships.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Tons.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">79</p><p part="N">88</p><p
+                                part="N">38</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">20,737</p><p part="N"
+                                >29,960</p><p part="N">14,769</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">104</p><p part="N">75</p><p
+                                part="N">52</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">33,393</p><p part="N"
+                                >19,097</p><p part="N">9,915</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">British colonies</p><p
+                                part="N">Foreign states</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">205</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">65,466</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">231</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">62,405</p></cell>
+                    </row>
+                </table>
+                <p part="N">According to the government returns of 1836, the population amounted to
+                    9743 males and 10,000 females, making in all 19,743.</p>
+                <p part="N"><hi rend="italic">Articles, the Produce and Manufacture of the Cape
+                        Colony, exported in</hi> 1829.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Articles.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">ļ Amount.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Aloes, 375,736 lbs. and 61
+                                casks and cases, estimated value.</p><p part="N">Argol, 22,422
+                                lbs</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2,794 0 0</p><p part="N">535
+                                0 0</p><p part="N">5,570 16 4⅜</p><p part="N">4,353 7 I⅜</p><p
+                                part="N">240 0 0</p><p part="N">228 0 0</p><p part="N">4,163 6
+                                0</p><p part="N">87 0 0</p><p part="N">121 0 0</p><p part="N">866 0
+                                0</p><p part="N">23,449 0 0</p><p part="N">31 10 0</p><p part="N"
+                                >467 12 6</p><p part="N">29 0 0</p><p part="N">383 0 0</p><p
+                                part="N">38 0 0 1,917 0 0 1,589 10 5 4,236 0 0</p><p part="N">49 0
+                                0</p><p part="N">413 2 0</p><p part="N">96 0 0 33,722 18 5ł 5,989 6
+                                0</p><p part="N">79 0 0</p><p part="N">8,753 0 0</p><p part="N"
+                                >3,759 0 0</p><p part="N">10 0 0</p><p part="N">10 0 0</p><p
+                                part="N">688 0 0</p><p part="N">4,023 6 0</p><p part="N">1,782 0
+                                0</p><p part="N">63 0 0</p><p part="N">169 0 0</p><p part="N">138 0
+                                0</p><p part="N">28 16 0</p><p part="N">1,506 10 0</p><p part="N">85
+                                0 0</p><p part="N">20 0 0</p><p part="N">24 0 0</p><p part="N"
+                                >112,508 0 10⅜</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Butter, 105,519 lbs. and 152
+                                casks and</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Beef, pork, and tongues,
+                                salted, 1780 casks and kegs ∙</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Beer, 3306 gallons
+                            .</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Biscuits and rusks, 20,000
+                                lbs</p><p part="N">Corn, grain, meal, &amp;c. viz.</p><p part="N"
+                                >Barley and oats, 13,553 muids</p><p part="N">Beans and peas, 60
+                                muids</p><p part="N">Bran, 36,332 lbs</p><p part="N">Flour, 78,224
+                                lbs</p><p part="N">Wheat, 24,236 muids</p><p part="N"
+                            >Cheese</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Curiosities</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Confectionery</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Candles, 11,584 lbs</p><p
+                                part="N">Carriages..·</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Feathers, ostrich, 539 lbs.
+                                and 31 boxes</p><p part="N">Fish</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Fruits, dried, 133,333
+                                lbs</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Garden seeds and bulbs</p><p
+                                part="N">Gum, 16,943 lbs. and 2 cases</p><p part="N">Hides, horse
+                                and ox, 79,035 pieces</p><p part="N">Horns, 244,610 in number</p><p
+                                part="N">Hay, 29,160 lbs</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Horses, 314 in number</p><p
+                                part="N">Ivory, 25,497 lbs. and 227 tusks, bundles and casks</p><p
+                                part="N">Lime· 72 half-aams</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Mules. 48 head</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Oil, whale, 34,662 gallons
+                                and 90 casks Oxen, cows, and calves, 444 head</p><p part="N"
+                                >Polonies...</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Potatoes and onions, 367
+                                muids</p><p part="N">Poultry</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Salt, 288 muids</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Sheep, 3282 in number; pigs,
+                                33; goats, 2</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Spirits, viz.</p><p part="N"
+                                >Brandy, 1408∣ gallons</p><p part="N">Liqueurs, 24 gallons</p><p
+                                part="N">Soap, 1218 lbs</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Carry forward</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <pb break="no" facs="nls:193521936?mode=fullsize" xml:id="kp-eb0710-1936-0613"/>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Articles. ’</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Amount.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Brought forward</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N"><hi rend="italic">L. ∙.
+                                    d.</hi></p><p part="N">112,508 0 lOį</p><p part="N">23 0 0</p><p
+                                part="N">514 15 0</p><p part="N">834 0 0</p><p part="N">3,795 0
+                                0</p><p part="N">169 0 0</p><p part="N">14 0 0</p><p part="N">7 10
+                                0</p><p part="N">408 0 0</p><p part="N">13 0 0 146,936 0 0 2,137 0 0
+                                1,220 0 0</p><p part="N">73 10 0</p><p part="N">1,392 0 0</p><p
+                                part="N">22 0 0</p><p part="N">148 0 0</p><p part="N">717 0 0</p><p
+                                part="N">2,859 0 0</p><p part="N">740 0 0</p><p part="N">632 0
+                                0</p><p part="N">26 0 0</p><p part="N">191 0 0</p><p part="N">83 0
+                                0</p><p part="N">306 0 0</p><p part="N">1,432 0 0</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Skins, viz.</p><p part="N"
+                                >Goat, 91,781 pieces and 55 bundles</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Sheep, 77,343
+                            pieces</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Calf, 1414 pieces and 2
+                                bundles...</p><p part="N">Rabbit and mole, 490 pieces</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Tallow, 1.3,333
+                            lbs</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Vinegar, 428 gallons
+                                ...·····················</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Wine, ordinary, 1,548,977⅜
+                                gallons</p><p part="N">Constantia, 2874 gallons ∙∙∙∙∙</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Wool, 33,280 lbs. and 11
+                                bags</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Wood</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Whalebone, 13,038 lbs. and
+                                229 bundles</p><p part="N">Wax, bees’, 910 lbs</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Zebras, 4
+                                head....,·········</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N"><hi rend="italic">Supplies
+                                    to his Majesty’s Navy.</hi> Beef, fresh, 137,662 lbs</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Biscuit, 259,616
+                            lbs</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Bread, soft, 118,480
+                            lbs</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Flour, 57,422 lbs</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Hay 5630 lbs.</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Raisins, 10,722
+                            lbs</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Sheep, 34 in number, and
+                                oxen 23</p><p part="N">Vegetables, 30,013 lbs „</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Wine, ordinary, 18,091
+                                imperial quarts</p><p part="N">Total estimated value of colonial}
+                                produce and manufactures ex- &gt; ported during the year 1829....
+                                )</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">277,200 15 lOį</p></cell>
+                    </row>
+                </table>
+                <p part="N">The whites are composed of individuals from various European nations.
+                    The most numerous of the inhabitants are the Dutch, who still occupy places of
+                    importance. The slaves are for the most part Malays, or natives of Madagascar
+                    and the eastern coast. The Hottentots prefer a country life, and are generally
+                    averse to residing in towns. In regard to the society of Cape Town, Mr Thomson
+                    observes, “Of the habits and customs of the Cape Dutch in Cape Town and its
+                    vicinity, I need only say, that they are becoming every day more decidedly
+                    English. It will be a matter of regret, if they ever so entirely change as to
+                    lose some of their present character. They are a frank and hospitable, and at
+                    the same time a prudent and thrifty race.”<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">Thomson's <hi rend="italic">Travel·</hi> hi <hi
+                                rend="italic">South Africa,</hi> voL ü. p. 42X</p></note> The old
+                    Dutch court of justice, which till within a few years administered the law, has
+                    been superseded by a court more on the English model, consisting of a chief
+                    justice and three puisne judges, with an attorney general, &amp;c. instead of
+                    the old fiscal. Landrosts and humraden have been supplanted by civil
+                    commissioners, resident magistrates, and justices of peace. A council has been
+                    appointed to assist the governor with its advice, and consists of the chief
+                    justice, the government secretary, the military officer next in command to the
+                    governor for the time being, the accountant general, and the chief commissioner
+                    of the eastern province. But the most important of all is, an order in council,
+                    by which the Hottentots and other free coloured population are placed under the
+                    equal protection of the laws, and declared to be, as subjects of the British
+                    government, in every respect upon the same footing as the white colonists,
+                    whether Dutch or English.</p>
+                <p part="N">A minute topographical description of the extended and thinly-peopled
+                    territory comprehended within the Cape Colony is unnecessary. A few particular
+                    places, however, may be described. In the vicinity of the capital there is a
+                    very conspicuous mountain called Table Mountain, which rises to the height of
+                    3582 feet above the level of the sea. It commands a view of vast extent, and its
+                    sides afford a rich treat to the botanist and geologist. In the same peninsula
+                    on which the above mountain stands, are two others nearly as conspicuous and
+                    interesting. One of them is termed the Lion’s Head, and has an elevation of 2160
+                    feet above the level of the sea; the other is denominated the Lion’s Rump, and
+                    its height is 1142 feet. About seventy-five miles from Cape Town, in the
+                    direction of south-east by east, are the warm baths of Swarteberg. To the north
+                    of these is the Guadenthal, or Bavian⅛ Mountain, where the Moravian missionaries
+                    have their principal settlement. The members of this religious colony have been
+                    highly useful to the poor proscribed Hottentots. Near Algoa Bay, and 450 miles
+                    eastward of Cape Town, is situated Bethels-dorp, the principal establishment of
+                    the London Missionary Society. Those who have visited this place describe its
+                    outward appearance as being far from prepossessing. The country around is bleak
+                    and barren, and wants water for irrigation. However, many of the Hottentot
+                    families occupy substantial and commodious houses, whilst some have reached a
+                    degree of comfort and convenience far above the average of the frontier boors.
+                    The manufactures of England are used as clothing; many native artificers are to
+                    be met with; and, altogether, from the aspect of intelligence which the
+                    inhabitants exhibit, as described by the most recent travellers, there is no
+                    room to doubt that they are rapidly rising in the scale of society. There are a
+                    number of other missionary stations scattered throughout Cape Colony, and they
+                    all appear to have done, and to be still doing some good.</p>
+                <p part="N">In 1820 a company of Scottish emigrants to the number of 5000, under the
+                    patronage of the British government, planted a colony in the district of Albany,
+                    on the frontiers of Caffreland, and conferred on it the name of Glen-Lynden. The
+                    late Mr Pringle, who headed the party, thus speaks of the settlement in 1834: “A
+                    few words in conclusion about our settlement of Glen-Lynden. Under the blessing
+                    of Providence its prosperity has been steadily progressive Without having any
+                    pretensions to wealth, and with very little <hi rend="italic">money</hi> among
+                    them, the Glen-Lynden settlers, with some few exceptions, may be said to be in a
+                    thriving, and, on the whole, in a very enviable condition.” This puts down at
+                    once the assertions which have been made in various publications, that the
+                    attempt had proved unsuccessful. It is impossible to calculate the benefits
+                    which may result from the enterprise of the intrepid Scottish emigrants. Keeping
+                    out of view entirely the moral effects which must result from their intercourse
+                    with the rude tribes around them, science seems likely to be greatly benefited
+                    by this colony. The number of the settlers has very much increased, and by their
+                    gradual diffusion over this vasl continent, they may yet be the first to convey
+                    to us information respecting the interior of Africa, all attempts to explore
+                    which have hitherto proved equally fruitless and fatal.</p>
+                <p part="N">The past history of the native races of Cape Colony, since the latter
+                    became known to Europeans, presents nothing but a dark picture of fierce tyranny
+                    on the one side, and gloomy submission on the other. Their domestic feuds also
+                    have tended greatly to enhance their miseries. The condition of the Hottentot is
+                    still very abject, <pb break="no" facs="nls:193521949?mode=fullsize"
+                        xml:id="kp-eb0710-1949-0614"/>on account of the oppression of the district
+                    authorities, although the missionaries have done much to alleviate it. But we
+                    cannot enter into details relative to the conflict which was carried on between
+                    interested rapacity on the one hand, and Christian philanthropy on the other.
+                    Ample information upon this subject will be found in Dr Phillips’ <hi
+                        rend="italic">Researches in South Africa.</hi> A late writer thus describes
+                    the personal appearance and general character of the Hottentots.</p>
+                <p part="N">“This unfortunate tribe has become noted and almost proverbial for
+                    presenting man in his lowest estate, and under tþe closest alliance with the
+                    inferior orders of creation. It must, indeed, be admitted, that they take
+                    particular pains to render their external appearance the most hideous that the
+                    human body can possibly present. Grease is poured over their persons in copious
+                    streams, which, being exposed to the perpetual action of smoke, forms on their
+                    skin a black and shining cake, through which the native colour, a yellowish
+                    brown, is scarcely ever perceptible. Grease in Africa forms the chief
+                    distinction of rank,—the rich besmearing themselves with fresh butter, while the
+                    poorer classes are obliged to tear the fat from the bowels of slaughtered
+                    animals. They assign as a reason for this singular practice an effect which has
+                    been readily admitted by judicious travellers, namely, that such a coating has
+                    in this climate a most salutary influence in defending them from the rays of the
+                    sun, and in averting many cutaneous disorders. Nature seems to have aided the
+                    task of disfiguring them, by covering the bead with irregular tufts of hard and
+                    coarse hair, and causing singular prominences, composed of fat, to jut out in
+                    parts where they are least ornamental. Nor do their habits of life present any
+                    thing to redeem this outward deformity. Their kraals consist of a confused crowd
+                    of little conical hovels, composed of twigs and earth, in which large families
+                    sit and sleep, without having room to stand upright. The fire in the middle
+                    fills these mansions with thick smoke, the floors of which are deeply covered
+                    with every species of filth. At festivals, when an ox or a sheep is killed, the
+                    Hottentots rip open the belly, tear out the entrails, which they throw on the
+                    coals, and feast on them before the animal is completely dead. Yet they are a
+                    friendly, merry, hospitable race, living together in the greatest affection and
+                    harmony. The sluggish and senseless stupidity with which they have been so
+                    generally taxed, seems to have been in a great measure produced by their
+                    degrading subjection to tire Dutch boors. In their free state they had a
+                    republican form of polity, and <hi rend="italic">kon¶uers</hi> or captains of
+                    the kraal, who led them to war, which they carried on with extreme fury. This
+                    commander usually sounded a pipe or flageolet, during which his men fought
+                    without intermission; but as soon as the music ceased they began to retreat. The
+                    Hottentots direct their darts and throwing-sticks with a sure aim, surround and
+                    attack wild animals with skill and vigour, and evade their springs with a
+                    dexterity which no European can equal. They tan, dress, and shape skins; make
+                    mats of flags and bulrushes; also twist strings for their bows out of the sinews
+                    of animals; and even mould iron into cutting instruments with considerable
+                    expertness. In their free and happy state they displayed the same passion for
+                    the dance and song which is general throughout Africa.”</p>
+                <p part="N">With respect to his religion, the unenlightened Hottentot, although he
+                    believed in a good God and a malignant power, had neither temples nor priests;
+                    but with superstitious veneration he hailed the new and full moon with dances
+                    and rejoicings, prolonged throughout the night. Certain localities were held
+                    sacred as the abodes of departed spirits. Lastly, the Hottentot had a little
+                    shining beetle, which he exalted almost to the dignity of a deity. From the
+                    cruel treatment which this unfortunate tribe has received from its provincial
+                    oppressors, their number at present in the colony does not surpass 15,000. The
+                    few kraals of independent Hottentots which still remain on its outer border are
+                    supposed to amount to about 10,000.</p>
+                <p part="N">For a further account of the Hottentots, see the article <hi
+                        rend="smallcaps">Africa,</hi> vol. i. part ii. p. 226. Under the heads <hi
+                        rend="smallcaps">Boshuanas,</hi> and <hi rend="smallcaps">Bosjesmans</hi> or
+                        <hi rend="smallcaps">Bushmen,</hi> the tribes which bear these names will be
+                    found described.</p>
+                <p part="N">According to the official returns, the population of the Cape Colony, in
+                    1831, consisted of, whites and free coloured, males 48,672, females 44,043;
+                    slaves, males 18,812, females 15,321; total, 126,848. Further returns have since
+                    been made by government, and in 1836 the population was 76,987 males, and 73,123
+                    females; total, 150,110.</p>
+                <p part="N"><hi rend="smallcaps">Good Hope,</hi> or <hi rend="italic">Hope
+                        Island,</hi> an island in the South Pacific Ocean, discovered by Le Maire
+                    and Scheuten in 1616. The land is mountainous, and covered with cocoa-nut trees.
+                    Long. 174. 50. E. Lat. 16. S.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

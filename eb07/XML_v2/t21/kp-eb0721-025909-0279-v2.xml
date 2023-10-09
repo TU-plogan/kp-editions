@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0721-0279-0259-09" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">TIDES</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1119194">Sin</term>
+                    <term ref="fast:1119629">Sins</term>
+                    <term ref="fast:1129664">Sphere</term>
+                    <term ref="fast:1150792">Tides</term>
+                    <term ref="fast:1043442">Ocean</term>
+                    <term ref="fast:947546">Greeks</term>
+                    <term ref="fast:1100116">Romans</term>
+                    <term ref="fast:1171139">Water</term>
+                    <term ref="fast:1355303">Wars</term>
+                    <term ref="fast:1170328">War</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4db7vr70">Sin</term>
+                    <term ref="lcsh1910:b4wh2df3t">Moon</term>
+                    <term ref="lcsh1910:b4df6k36b">Earth</term>
+                    <term ref="lcsh1910:b4hh6c946">Sphere</term>
+                    <term ref="lcsh1910:b4qr4nq8b">Tides</term>
+                    <term ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term ref="lcsh1910:b48p5vb0p">Caesars</term>
+                    <term ref="lcsh1910:b4513v11w">Water</term>
+                    <term ref="lcsh1910:b4zw18v1m">War</term>
+                    <term ref="lcsh1910:b4h98zp4v">Wars</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1240375">Moon</term>
+                    <term ref="fast:1204622">Georgia</term>
+                    <term ref="fast:1239509">Africa</term>
+                    <term ref="fast:1205585">Panama</term>
+                    <term ref="fast:1206715">Scotland</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ht:chi.12945678&amp;view=1up&amp;seq=279" org="uniform" part="N"
+                sample="complete" type="entry">
+                <p part="N"><label type="entry">TIDES</label>.</p>
+                <p part="N"><hi rend="smallcaps">Τηε</hi> alternate rising and falling which are
+                    observed to take place in the surface of the waters, generally twice in the
+                    course of a lunar day, or of 24 <hi rend="superscript"> h</hi> ∙ 49 <hi
+                        rend="superscript"> m</hi> ∙ of mean solar time, on most of the shores of
+                    the ocean, and in the greater part of bays, firths, and rivers which communicate
+                    freely with it, are the phenomena denominated <hi rend="italic">the tides.</hi>
+                    These form what are called a <hi rend="italic">flood</hi> and an <hi
+                        rend="italic">ebb,</hi> a <hi rend="italic">high</hi> and <hi rend="italic"
+                        >low water.</hi> The whole interval between high and low water is called a
+                        <hi rend="italic">tide;</hi> the water is said to <hi rend="italic"
+                        >flow</hi> and to <hi rend="italic">ebb;</hi> and the rising is called the
+                        <hi rend="italic">flood tide,</hi> and the falling the <hi rend="italic">ebb
+                        tide.</hi> This rise or fall of the waters is exceedingly different at
+                    different places, and is also variable everywhere. At Plymouth, for instance, it
+                    is sometimes twenty feet between the greatest and least heights of the water in
+                    one day, and sometimes only twelve feet. These different heights of tide succeed
+                    each other in a regular series, diminishing from the greatest to the least, and
+                    then increasing from the least to the greatest. The greatest is called a <hi
+                        rend="italic">spring tide,</hi> and the least a <hi rend="italic">neap
+                        tide.</hi> This series is completed in about fifteen days. More careful
+                    observation shows that two series arc completed in the time of a lunation. For
+                    the spring tide in any place happens at a certain interval of time, generally
+                    between one and two days, after new or full moon; and the neap tide at a certain
+                    interval after the quarter: or, more accurately speaking, the spring tide occurs
+                    when the moon has got a certain number of degrees eastward either from the line
+                    of conjunction with the sun or of opposition to him, and the neap tide when she
+                    is at a certain distance from her first or last quadrature. Thus the whole
+                    series of tides appears to be chiefly regulated by the moon, and seems to be
+                    only to a small extent under the influence of the sun; for it is further
+                    observed that high water happens when the moon has nearly a certain position
+                    with respect to the meridian of the place of observation, preceding or following
+                    the moon’s southing by a certain interval of time; which, at new and full moon,
+                    is generally not far from being constant with respect to the same place, but
+                    very different in different places; whereas the interval between the time of
+                    high water and noon changes almost everywhere about six hours in the course of a
+                    fortnight.</p>
+                <p part="N">The interval between two succeeding high waters is variable. It is
+                    shortest about new and full moon, being then about 12 <hi rend="superscript">
+                        h</hi> ∙ 19 <hi rend="superscript"> m</hi> ∙; and about the time of the
+                    moon’s quadra-ratures it is 12 <hi rend="superscript"> h</hi> ∙ 30 <hi
+                        rend="superscript"> m</hi> ∙ But these intervals are somewhat different at
+                    different places. The tides in similar circumstances are greatest when the moon
+                    is in the equator, and at her smallest distance from the earth, or in her
+                    perigee; and, gradually diminishing, are smallest when she is in her apogee, and
+                    farthest from the equator.</p>
+                <p part="N">Such are some of the more general and regular phenomena of the tides. In
+                    certain places there are four tides in the lunar day, in others but one; and in
+                    some there is scarcely any perceptible variation of level, which regularly keeps
+                    time with the moon. The tides being important to all commercial nations, great
+                    exertions have recently been made to obtain the means of predicting them. Some
+                    account <pb break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=280"
+                        xml:id="kp-eb0721-0280-0260"/>of these and other empirical researches, which
+                    have of late been conducted on an extensive scale and with great care, will be
+                    given in the latter part of this article.</p>
+                <p part="N">It is of tides, most probably, the Bible speaks, when God is said to set
+                    bounds to the sea, and to say, “thus far shall it go, and no farther.” Homer
+                    would be the earliest profane author who notices the tides, if indeed it be to
+                    them he refers (in the 12th book of the Odyssey) when he speaks of Charybdis
+                    rising and retiring thrice a day. Herodotus and Diodorus Siculus speak more
+                    distinctly of the tides in the Red Sea. Pytheas of Marseille is the first who
+                    says any thing of their cause. According to Strabo, he had been in Britain,
+                    where he must have observed the tides of the ocean. Plutarch says expressly that
+                    Pytheas ascribed them to the moon. It is remarkable that Aristotle says so
+                    little about the tides. The army of Alexander, his pupil, were startled at first
+                    seeing them near the Persian Gulf; and Aristotle would probably be well informed
+                    of all that had been observed there. But in all his writings there are only
+                    three passages concerning them, and these are very trivial. In one place he
+                    speaks of great tides in the north of Europe; in another, of their having been
+                    ascribed by some to the moon; and in a third, he says, the tide in a great sea
+                    exceeds that in a small one.</p>
+                <p part="N">The Greeks had little opportunity of observing the tides. The conquests
+                    and the commerce of the Romans gave them more acquaintance with them. Caesar
+                    speaks of them in the fourth book of his Gallic War. Strabo, after Posidonius,
+                    classes the phenomena into daily, monthly, and annual. He observes, that the sea
+                    rises as the moon approaches the meridian, whether above or below the horizon,
+                    and falls again as she rises or falls; that the tides increase at the time of
+                    new and full moon, and are greatest at the summer solstice. Pliny explains the
+                    phenomena at some length, and ascribes them to the sun and moon dragging the
+                    waters along with them (b. ii. c. 97). Seneca (<hi rend="italic">Nat.
+                        Quest,</hi> iii. 28) speaks of the tides with correctness; and Macrobius
+                        (<hi rend="italic">Somn. Scip.</hi> i. 6) gives a tolerable description of
+                    their motions. Such phenomena naturally exercise human curiosity as to their
+                    cause. Plutarch (<hi rend="italic">Placit. Phil.</hi> iii. 17), Galileo <hi
+                        rend="italic">(Sgsr. Mund.</hi> dial. 4), Riccioli in his <hi rend="italic"
+                        >Almagest,</hi> ii. p. 374, and Gassendi, ii. p. 27, have collected most of
+                    the notions of their predecessors on the subject; but they are of so little
+                    importance as not to deserve our notice. Kepler, in accounting for the tides
+                        (<hi rend="italic">De Stella Martis,</hi> and <hi rend="italic">Epit.
+                        Astron.</hi> p. 555), had evidently been aware of the principle of
+                    gravitation, but not of the law. He says that all bodies attract each other, and
+                    that the waters of the ocean would all go to the moon were they not retained by
+                    the attraction of the earth. He then proceeds to explain their elevation under
+                    the moon and on the opposite side, because the earth is less attracted by the
+                    moon than the nearer waters, but more than the waters which are more remote. The
+                    honour of a complete explanation of the tides in a general way was reserved for
+                    Sir Isaac Newton. He laid hold of this class of phenomena as the most
+                    incontestable proof of universal gravitation, and has given a most beautiful and
+                    synoptical view of the whole subject; contenting himself, however, with merely
+                    exhibiting the chief consequences of the general principle, and applying it to
+                    the phenomena with singular address.</p>
+                <p part="N">The investigation of the phenomena of the tides has been justly
+                    considered as uniting some of the greatest difficulties that occur in the
+                    various departments of natural philosophy and astronomy. It implies, first, a
+                    knowledge of the laws of gravitation, concerned in the determination of the
+                    forces immediately acting on the sea, and of the periods and distances of the
+                    celestial bodics, which modify the magnitudes and combinations of these forces;
+                    and, secondly, of the hydraulic theories of the resistances of fluids, and of
+                    the motions of waves and undulations of all kinds, and of the theoretical
+                    determination of the form and density of the earth, as well as of the
+                    geographical observation of the breadth and depth of the seas and lakes which
+                    occupy a part of its surface; so that the whole subject affords abundant scope
+                    for the exercise of mathematical skill, and still more for the employment of
+                    that invention and contrivance which enables its possessor to supersede the
+                    necessity of prolix com· putations wherever they can be avoided.</p>
+                <p part="N">The history of the theory of the tides is naturally divided into several
+                    periods in which its different departments have been progressively cultivated.
+                    The ancients from the times of Posidonius and Pytheas, and the moderns before
+                    Newton, were contented with observing the general dependence of the tides on the
+                    moon, as following her transit at an interval of about two hours, and their
+                    alternate increase and decrease not only every fortnight, but also in the lunar
+                    period of about eight years. The second step consisted in the determination of
+                    the magnitude and direction of the solar and lunar forces, by which the general
+                    effects of the tides were shown, in the <hi rend="italic">Principia,</hi> to be
+                    the necessary consequences of these forces. The third great point was the
+                    demonstration of Maclaurin, that the form of an elliptic spheroid affords an
+                    equilibrium under the action of the disturbing forces concerned; while the
+                    further contemporary illustrations of the subject by Euler and Bernoulli, though
+                    they afforded some useful details, involved no new principle that can be put in
+                    competition with Maclaurin’s demonstration. The fourth important step was made
+                    by Laplace, who separated the consideration of the <hi rend="italic">form</hi>
+                    affording mere equilibrium, from that of the <hi rend="italic">morion</hi>
+                    occasioned by the continual change of that form; while former theorists had
+                    taken it for granted that the surface of the sea very speedily assumed the
+                    figure of a fluid actuated by similar forces, but remaining perfectly at rest,
+                    or assuming instantly the form in question. Laplace’s computation is however
+                    limited to the case of an imaginary ocean, of a certain variable depth, assumed
+                    for the convenience of calculation, rather than for any other reason. Dr Thomas
+                    Young has extended Laplace’s mode of considering the phenomena to the more
+                    general case of an ocean covering a part only of the earth’s surface, and more
+                    or less irregular in its form; he has also attempted to comprehend in his
+                    calculations the precise effects of hydraulic friction on the times and
+                    magnitudes of the tides. As far as the resistance may be supposed to vary in the
+                    simple ratio of the velocity, Dr Young’s theory is sufficiently complete, and
+                    explains several of the peculiarities which are otherwise paradoxical in their
+                    appearance; but there still remains a difficulty to be combated with respect to
+                    the effects of a resistance proportional to the square of the velocity, and
+                    this, it is hoped, will be in great measure removed in the present article,
+                    which, however, from the space that is allotted to it, must be considered rather
+                    as a supplementary fragment than as a complete treatise. This theory will be
+                    divided into four sections: the first relating to the contemporaneous progress
+                    of the tides through the different seas and oceans, as collected from
+                    observation only; the second to the magnitude of the disturbing forces tending
+                    to change the form of the surface of the earth and sea; the third to the theory
+                    of compound vibrations with resistance; and the fourth to the application of
+                    this theory to the progress and successive magnitudes of the tides, as
+                    observable at any one port.</p>
+                <p part="N"><hi rend="smallcaps">Sect.</hi> I— <hi rend="italic">Of the Progress of
+                        Contemporary Tides, as inferred from the times of High Water in different
+                        Ports.</hi></p>
+                <p part="N">The least theoretical consideration relating to the tides, is that of
+                    their progress through the different parts of the ocean, and of its dependent
+                    seas. The analysis of these ought to be very completely attainable from direct
+                    observation, <pb break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=281"
+                        xml:id="kp-eb0721-0281-0261"/>if the time of high water had been accurately
+                    observed at a sufficient number of ports throughout the world; and, on the other
+                    hand, if the earth were covered in all parts with a fluid of great and nearly
+                    uniform depth, the tides of this fluid would be so regular, that a very few
+                    observations would be sufficient to enable us to deduce the whole of the
+                    phenomena from theory, and to trace the great waves, which would follow the sun
+                    and moon round the globe, so as to make its circuit in a day, without any
+                    material deviation from uniformity of motion and succession. Having collected,
+                    for the actual state of the sea and continents, an abundant store of accurate
+                    observations of the precise time of high water with regard to the sun and moon,
+                    for every part of the surface, and having arranged them in a table according to
+                    the order of their occurrence, as expressed in the time of any one meridian, we
+                    might then suppose lines to be drawn on a terrestrial globe, through all the
+                    places of observation, in the same order; and these lines would indicate,
+                    supposing the places to be sufficiently numerous, so as to furnish a series of
+                    tides very nearly contemporary, the directions of the great waves, to which that
+                    of the progress of the tides in succession must be perpendicular. If, however,
+                    we actually make such an attempt, we shall soon find how utterly inadequate the
+                    observations that have been recorded are, for the purpose of tracing the forms
+                    of the lines of contemporary high water with accuracy or with certainty,
+                    although they are abundantly sufficient to show the impossibility of deducing
+                    the time of high water at any given place from the Newtonian hypothesis, or even
+                    from that of Laplace, without some direct observation. It might at least be
+                    supposed very easy to enumerate the existing observations, scanty as they may
+                    be, in a correct order; but there is a number of instances in which it is wholly
+                    uncertain whether the time observed at a given port relates to the tide of the
+                    same morning in the open ocean, or to that of the preceding evening. This
+                    inconvenience may, however, in some measure be remedied, by inserting such
+                    places in two different parts of the table, at the distance of twelve and a half
+                    hours from each other. The following table is the result of an approximation
+                    obtained in this manner, the principal hour-lines having been partially traced
+                    on a map of the world, in order to afford some little direction to the correct
+                    insertion of the times of high water without the material error of half a
+                    day.</p>
+                <p part="N"><hi rend="italic">Time of High Water at the Full and change of the Moon,
+                        reduced to the Meridian of Greenwich.</hi></p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Longitude. </cell>
+                        <cell cols="1" role="data" rows="1"> H. W. Gr. T. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Longitude. </cell>
+                        <cell cols="1" role="data" rows="1"> H. W. Gr. T. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Longitude. </cell>
+                        <cell cols="1" role="data" rows="1"> H. W. Gr. T </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> S. Georgia </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">H. Μ.</p><p part="N">2.26
+                                W.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">B. Μ.</p><p part="N"
+                                >1.24</p></cell>
+                        <cell cols="1" role="data" rows="1"> Brest </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">H. Μ.</p><p part="N"
+                                >0.18</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">H. Μ.</p><p part="N"
+                                >15.36</p></cell>
+                        <cell cols="1" role="data" rows="1"> Sυcotora and C. </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Η. Μ.</p><p part="N">20.30
+                                W.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Η. Μ.</p><p part="N"
+                                >21.30</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Cape of Good Hope...</p><p
+                                part="N">St Helena</p></cell>
+                        <cell cols="1" role="data" rows="1"> 1.14 E. </cell>
+                        <cell cols="1" role="data" rows="1"> 1.20 </cell>
+                        <cell cols="1" role="data" rows="1"> Bavonne </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 6 </cell>
+                        <cell cols="1" role="data" rows="1"> 16. 6 </cell>
+                        <cell cols="1" role="data" rows="1"> Guardafui..... </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 0.23W. </cell>
+                        <cell cols="1" role="data" rows="1"> 5.13 </cell>
+                        <cell cols="1" role="data" rows="1"> C. St Vincent </cell>
+                        <cell cols="1" role="data" rows="1"> 0.36 </cell>
+                        <cell cols="1" role="data" rows="1"> 1«. 6 </cell>
+                        <cell cols="1" role="data" rows="1"> Ulietea </cell>
+                        <cell cols="1" role="data" rows="1"> 10. 6 </cell>
+                        <cell cols="1" role="data" rows="1"> 21.39 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Cape Corse </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 7 </cell>
+                        <cell cols="1" role="data" rows="1"> 3 35 </cell>
+                        <cell cols="1" role="data" rows="1"> Corunna </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">0.37</p><p part="N"
+                                >0.12W.</p></cell>
+                        <cell cols="1" role="data" rows="1"> 16. 7 </cell>
+                        <cell cols="1" role="data" rows="1"> Huaheine </cell>
+                        <cell cols="1" role="data" rows="1"> 10. 4 </cell>
+                        <cell cols="1" role="data" rows="1"> 21.55 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Rio Janeiro </cell>
+                        <cell cols="1" role="data" rows="1"> 2.53 </cell>
+                        <cell cols="1" role="data" rows="1"> 4.58 </cell>
+                        <cell cols="1" role="data" rows="1"> Belleisle </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 16.12 </cell>
+                        <cell cols="1" role="data" rows="1"> Shoreham </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 1 </cell>
+                        <cell cols="1" role="data" rows="1"> 22. 1 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. Martin Vaz </cell>
+                        <cell cols="1" role="data" rows="1"> 1.56 </cell>
+                        <cell cols="1" role="data" rows="1"> 0.41 </cell>
+                        <cell cols="1" role="data" rows="1"> Palmiras Pt </cell>
+                        <cell cols="1" role="data" rows="1"> 18.12 </cell>
+                        <cell cols="1" role="data" rows="1"> 16.12 </cell>
+                        <cell cols="1" role="data" rows="1"> Foul Pt. Mad </cell>
+                        <cell cols="1" role="data" rows="1"> 20.41 </cell>
+                        <cell cols="1" role="data" rows="1"> 22. 1 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> I. Ascension </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">0.57</p><p part="N"
+                            >4.46</p></cell>
+                        <cell cols="1" role="data" rows="1"> 6.27 </cell>
+                        <cell cols="1" role="data" rows="1"> Port Cornwallis </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">17.49</p><p part="N">0.
+                                5</p></cell>
+                        <cell cols="1" role="data" rows="1"> 16.19 </cell>
+                        <cell cols="1" role="data" rows="1"> Botany Bay </cell>
+                        <cell cols="1" role="data" rows="1"> 13.55 </cell>
+                        <cell cols="1" role="data" rows="1"> 21. 55 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Christmas Sound </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">7.10</p><p part="N"
+                                >13.34</p></cell>
+                        <cell cols="1" role="data" rows="1"> Rochelle </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 16.20 </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">St Valery en Caux....</p><p
+                                part="N">Macao</p></cell>
+                        <cell cols="1" role="data" rows="1"> 0. 3 E. </cell>
+                        <cell cols="1" role="data" rows="1"> 22.12 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> St Jago </cell>
+                        <cell cols="1" role="data" rows="1"> 1 34 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Vannes </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">0.11</p><p part="N"
+                            >0.16</p></cell>
+                        <cell cols="1" role="data" rows="1"> 16.24 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 16.26 W. </cell>
+                        <cell cols="1" role="data" rows="1"> 22.16 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Port Désiré </cell>
+                        <cell cols="1" role="data" rows="1"> 4.20 </cell>
+                        <cell cols="1" role="data" rows="1"> 8.35 </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">St Paul de Leon</p><p
+                                part="N">Morlaix</p><p part="N">Roch fort</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 16.38 or </cell>
+                        <cell cols="1" role="data" rows="1"> St Valerv sur Somme </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 6 E. </cell>
+                        <cell cols="1" role="data" rows="1"> 22.24 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> St Helena, S. A </cell>
+                        <cell cols="1" role="data" rows="1"> 4.40 </cell>
+                        <cell cols="1" role="data" rows="1"> 8.40 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 18. 0 </cell>
+                        <cell cols="1" role="data" rows="1"> Dunnose </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 5W. </cell>
+                        <cell cols="1" role="data" rows="1"> 22.20 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Quibo </cell>
+                        <cell cols="1" role="data" rows="1"> 5.29 </cell>
+                        <cell cols="1" role="data" rows="1"> 8.59 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 0. 4 </cell>
+                        <cell cols="1" role="data" rows="1"> 16.49 </cell>
+                        <cell cols="1" role="data" rows="1"> Brighton </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 1 </cell>
+                        <cell cols="1" role="data" rows="1"> 22.31 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Sierra Leone </cell>
+                        <cell cols="1" role="data" rows="1"> 0.53 </cell>
+                        <cell cols="1" role="data" rows="1"> 9. 8 </cell>
+                        <cell cols="1" role="data" rows="1"> Bear Island </cell>
+                        <cell cols="1" role="data" rows="1"> 5.20 </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">17 20</p><p part="N"
+                                >17.24</p><p part="N">17∙30</p><p part="N">16.48</p></cell>
+                        <cell cols="1" role="data" rows="1"> Dublin </cell>
+                        <cell cols="1" role="data" rows="1"> 0.25 W. </cell>
+                        <cell cols="1" role="data" rows="1"> 23.35 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Raster I </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">7∙19</p><p part="N"
+                            >4.35</p></cell>
+                        <cell cols="1" role="data" rows="1"> 9.19 </cell>
+                        <cell cols="1" role="data" rows="1"> Christmas Island....... </cell>
+                        <cell cols="1" role="data" rows="1"> 19.24 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Abbeville </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">0. 7 E.</p><p part="N">0. 1
+                                E.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">22.57</p><p part="N"
+                                >22.59</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> St Julian’s </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 9.20 </cell>
+                        <cell cols="1" role="data" rows="1"> Chiloe </cell>
+                        <cell cols="1" role="data" rows="1"> 5. 0 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Beachy Head </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Marngnon Mouth</p><p
+                                part="N">St John’s, Newf.</p></cell>
+                        <cell cols="1" role="data" rows="1"> 3.20 </cell>
+                        <cell cols="1" role="data" rows="1"> 9.20 </cell>
+                        <cell cols="1" role="data" rows="1"> Cape Clear </cell>
+                        <cell cols="1" role="data" rows="1"> 0.38 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Cowes </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 6W. </cell>
+                        <cell cols="1" role="data" rows="1"> 23. 5 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 3.30 </cell>
+                        <cell cols="1" role="data" rows="1"> 9.20 </cell>
+                        <cell cols="1" role="data" rows="1"> Annamocka </cell>
+                        <cell cols="1" role="data" rows="1"> 11.39 </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">17.39</p><p part="N">18.
+                                1</p></cell>
+                        <cell cols="1" role="data" rows="1"> Needles </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 6 W. </cell>
+                        <cell cols="1" role="data" rows="1"> 23. 6 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Guadaloupe </cell>
+                        <cell cols="1" role="data" rows="1"> 4. 7 </cell>
+                        <cell cols="1" role="data" rows="1"> 10. 7 </cell>
+                        <cell cols="1" role="data" rows="1"> St Peter and Paul Awatsha </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Anholt </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">0.47 E.</p><p part="N">0.
+                                6</p></cell>
+                        <cell cols="1" role="data" rows="1"> 23.13 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Panama </cell>
+                        <cell cols="1" role="data" rows="1"> 5.21 </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">7.47</p><p part="N"
+                                >10.51</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 13.25 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Boulogne </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 22.33 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Tortugas </cell>
+                        <cell cols="1" role="data" rows="1"> 4.01 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Kinsale </cell>
+                        <cell cols="1" role="data" rows="1"> 0.34 </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">17.3</p><p part="N"
+                                >18.18</p></cell>
+                        <cell cols="1" role="data" rows="1"> Hastings </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 3 </cell>
+                        <cell cols="1" role="data" rows="1"> 22.21 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Cape Blanco </cell>
+                        <cell cols="1" role="data" rows="1"> 8.16 </cell>
+                        <cell cols="1" role="data" rows="1"> 10.54 </cell>
+                        <cell cols="1" role="data" rows="1"> Eddistone </cell>
+                        <cell cols="1" role="data" rows="1"> 0.18 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Deal Castle </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 6 </cell>
+                        <cell cols="1" role="data" rows="1"> 22.36 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Bermudas </cell>
+                        <cell cols="1" role="data" rows="1"> 4.14 </cell>
+                        <cell cols="1" role="data" rows="1"> 11.14 </cell>
+                        <cell cols="1" role="data" rows="1"> Falmouth </cell>
+                        <cell cols="1" role="data" rows="1"> 0.20 </cell>
+                        <cell cols="1" role="data" rows="1"> 1820 </cell>
+                        <cell cols="1" role="data" rows="1"> Dover </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 5 </cell>
+                        <cell cols="1" role="data" rows="1"> 22.40 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Martinique </cell>
+                        <cell cols="1" role="data" rows="1"> 4∙ 5 </cell>
+                        <cell cols="1" role="data" rows="1"> 11.35 </cell>
+                        <cell cols="1" role="data" rows="1"> Rotterdam I </cell>
+                        <cell cols="1" role="data" rows="1"> 12.21 </cell>
+                        <cell cols="1" role="data" rows="1"> 18.21 </cell>
+                        <cell cols="1" role="data" rows="1"> Dungeness </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 4 </cell>
+                        <cell cols="1" role="data" rows="1"> 22.26 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Guayaquil </cell>
+                        <cell cols="1" role="data" rows="1"> 5.17 </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">11.17</p><p part="N"
+                                >11.36</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Drake’s I. Plymouth</p><p
+                                part="N">Plymouth</p><p part="N">Avranches.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">0.17</p><p part="N"
+                                >0.17</p><p part="N">0. 5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">17.32</p><p part="N"
+                                >17.47</p><p part="N">18.39</p></cell>
+                        <cell cols="1" role="data" rows="1"> Dieppe </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 4 </cell>
+                        <cell cols="1" role="data" rows="1"> 22.46 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Senegal </cell>
+                        <cell cols="1" role="data" rows="1"> 1. 6 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">Almirantes</p><p part="N"
+                                >Eagle I</p><p part="N">Curreuse...</p></cell>
+                        <cell cols="1" role="data" rows="1"> 21.28 W. </cell>
+                        <cell cols="1" role="data" rows="1"> 23.48 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Callao </cell>
+                        <cell cols="1" role="data" rows="1"> 5. 8 </cell>
+                        <cell cols="1" role="data" rows="1"> 10.55 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">21.17</p><p part="N">0.
+                                4W.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">25.27</p><p part="N"
+                                >23.36</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Halifax </cell>
+                        <cell cols="1" role="data" rows="1"> 4.14 </cell>
+                        <cell cols="1" role="data" rows="1"> 11.44 </cell>
+                        <cell cols="1" role="data" rows="1"> Eaoowe </cell>
+                        <cell cols="1" role="data" rows="1"> 11.38 </cell>
+                        <cell cols="1" role="data" rows="1"> 18.38 </cell>
+                        <cell cols="1" role="data" rows="1"> Portsmouth. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Marquesas </cell>
+                        <cell cols="1" role="data" rows="1"> 9.16 to </cell>
+                        <cell cols="1" role="data" rows="1"> 11.46 to </cell>
+                        <cell cols="1" role="data" rows="1"> St Maloes </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 8 </cell>
+                        <cell cols="1" role="data" rows="1"> 18.3850 ft </cell>
+                        <cell cols="1" role="data" rows="1"> Ostend </cell>
+                        <cell cols="1" role="data" rows="1"> 0.12 E. </cell>
+                        <cell cols="1" role="data" rows="1"> 24. 8 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 9.17 </cell>
+                        <cell cols="1" role="data" rows="1"> 12.16 </cell>
+                        <cell cols="1" role="data" rows="1"> Londonderry </cell>
+                        <cell cols="1" role="data" rows="1"> 0.29 </cell>
+                        <cell cols="1" role="data" rows="1"> 18.59 </cell>
+                        <cell cols="1" role="data" rows="1"> Nieuport </cell>
+                        <cell cols="1" role="data" rows="1"> 0 11 </cell>
+                        <cell cols="1" role="data" rows="1"> 23.44 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Quebec </cell>
+                        <cell cols="1" role="data" rows="1"> 4.44 </cell>
+                        <cell cols="1" role="data" rows="1"> 12.14 </cell>
+                        <cell cols="1" role="data" rows="1"> Tonga Taboo...., </cell>
+                        <cell cols="1" role="data" rows="1"> 12.20 </cell>
+                        <cell cols="1" role="data" rows="1"> 19.10 </cell>
+                        <cell cols="1" role="data" rows="1"> Gravelines </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 8 E. </cell>
+                        <cell cols="1" role="data" rows="1"> 24.22 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Cape La Hogue</p><p part="N"
+                                >Gibraltar</p></cell>
+                        <cell cols="1" role="data" rows="1"> 0. 8 </cell>
+                        <cell cols="1" role="data" rows="1"> 12.38 </cell>
+                        <cell cols="1" role="data" rows="1"> Granville </cell>
+                        <cell cols="1" role="data" rows="1"> 0. <hi rend="italic">6</hi></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">17.48</p><p part="N"
+                                >19.31</p></cell>
+                        <cell cols="1" role="data" rows="1"> Alderney </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 9W. </cell>
+                        <cell cols="1" role="data" rows="1"> 21. 0 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 0.20 </cell>
+                        <cell cols="1" role="data" rows="1"> 12.00 </cell>
+                        <cell cols="1" role="data" rows="1"> Pudyona </cell>
+                        <cell cols="1" role="data" rows="1"> 13. 1 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Bergen </cell>
+                        <cell cols="1" role="data" rows="1"> 0.21 E. </cell>
+                        <cell cols="1" role="data" rows="1"> 22. 3 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Tahoga, Pan. Bay</p><p
+                                part="N">Funchal</p></cell>
+                        <cell cols="1" role="data" rows="1"> 5.22 </cell>
+                        <cell cols="1" role="data" rows="1"> 13.10 </cell>
+                        <cell cols="1" role="data" rows="1"> St Francisco </cell>
+                        <cell cols="1" role="data" rows="1"> 8. 8 </cell>
+                        <cell cols="1" role="data" rows="1"> 19∙33 </cell>
+                        <cell cols="1" role="data" rows="1"> False Bay Bay </cell>
+                        <cell cols="1" role="data" rows="1"> 22.45 W. </cell>
+                        <cell cols="1" role="data" rows="1"> 25.16 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 1. 8 </cell>
+                        <cell cols="1" role="data" rows="1"> 13.42 </cell>
+                        <cell cols="1" role="data" rows="1"> Cork </cell>
+                        <cell cols="1" role="data" rows="1"> 0.34 </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">17.10</p><p part="N"
+                                >19.10</p></cell>
+                        <cell cols="1" role="data" rows="1"> Drontheim </cell>
+                        <cell cols="1" role="data" rows="1"> 0.41 E </cell>
+                        <cell cols="1" role="data" rows="1"> 25.34 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Portobello </cell>
+                        <cell cols="1" role="data" rows="1"> 5.19 </cell>
+                        <cell cols="1" role="data" rows="1"> 13.19 </cell>
+                        <cell cols="1" role="data" rows="1"> Bristol </cell>
+                        <cell cols="1" role="data" rows="1"> 0.10 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Rouen </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 4 W. </cell>
+                        <cell cols="1" role="data" rows="1"> 25.41 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Cape Bojador </cell>
+                        <cell cols="1" role="data" rows="1"> 0.58 </cell>
+                        <cell cols="1" role="data" rows="1"> 13.28 </cell>
+                        <cell cols="1" role="data" rows="1"> Barfleur </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 5 </cell>
+                        <cell cols="1" role="data" rows="1"> 20.55 </cell>
+                        <cell cols="1" role="data" rows="1"> Aberdeen </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 9 </cell>
+                        <cell cols="1" role="data" rows="1"> 25.34 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Churchill R. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Cherbourg </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 6 </cell>
+                        <cell cols="1" role="data" rows="1"> 19.24 </cell>
+                        <cell cols="1" role="data" rows="1"> North Cape </cell>
+                        <cell cols="1" role="data" rows="1"> 1.43 E. </cell>
+                        <cell cols="1" role="data" rows="1"> 26. 1 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> P. of Wales Fort... </cell>
+                        <cell cols="1" role="data" rows="1"> 6.17 </cell>
+                        <cell cols="1" role="data" rows="1"> 13.37 </cell>
+                        <cell cols="1" role="data" rows="1"> Venus Pt. Olah </cell>
+                        <cell cols="1" role="data" rows="1"> 9.58 </cell>
+                        <cell cols="1" role="data" rows="1"> 22. 0 </cell>
+                        <cell cols="1" role="data" rows="1"> Leith and Edinburgh Amsterdam </cell>
+                        <cell cols="1" role="data" rows="1"> 0.13 W. </cell>
+                        <cell cols="1" role="data" rows="1"> 26.33 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Terceira </cell>
+                        <cell cols="1" role="data" rows="1"> 1.49 </cell>
+                        <cell cols="1" role="data" rows="1"> 16.10 </cell>
+                        <cell cols="1" role="data" rows="1"> Mauritius </cell>
+                        <cell cols="1" role="data" rows="1"> 20.10 </cell>
+                        <cell cols="1" role="data" rows="1"> 21.12 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 0 19 E </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">27.11</p><p part="N">27
+                                12</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> New York </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">4.57</p><p part="N">5.
+                                1</p><p part="N">0.25</p><p part="N">10.24</p></cell>
+                        <cell cols="1" role="data" rows="1"> 13.33 </cell>
+                        <cell cols="1" role="data" rows="1"> Lizard. </cell>
+                        <cell cols="1" role="data" rows="1"> 0.21 </cell>
+                        <cell cols="1" role="data" rows="1"> 20.45 </cell>
+                        <cell cols="1" role="data" rows="1"> Rotterdam </cell>
+                        <cell cols="1" role="data" rows="1"> 0.18 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Cape Henlυpen, Virg.</p><p
+                                part="N">Cadiz</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">14. 1</p><p part="N">14.
+                                5</p></cell>
+                        <cell cols="1" role="data" rows="1"> Nootka Sound </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">8.27</p><p part="N">0.
+                            9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">20.47</p><p part="N"
+                                >20.54</p></cell>
+                        <cell cols="1" role="data" rows="1"> London Bridge </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 0 </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">27.15</p><p part="N"
+                                >27.24</p><p part="N">27.32</p><p part="N">29.20</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Guernsey </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Archangel </cell>
+                        <cell cols="1" role="data" rows="1"> 2.36 E. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Karakakooa Bav </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 14. 9 </cell>
+                        <cell cols="1" role="data" rows="1"> Pulo Condore </cell>
+                        <cell cols="1" role="data" rows="1"> 18.53 </cell>
+                        <cell cols="1" role="data" rows="1"> 21. 9 </cell>
+                        <cell cols="1" role="data" rows="1"> Bordeaux </cell>
+                        <cell cols="1" role="data" rows="1"> 0.2 W. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Virgin Cape, Pat</p><p
+                                part="N">Valparaiso</p></cell>
+                        <cell cols="1" role="data" rows="1"> 4.32 </cell>
+                        <cell cols="1" role="data" rows="1"> 14.32 </cell>
+                        <cell cols="1" role="data" rows="1"> Calcutta </cell>
+                        <cell cols="1" role="data" rows="1"> 16. 6 </cell>
+                        <cell cols="1" role="data" rows="1"> 21.11 </cell>
+                        <cell cols="1" role="data" rows="1"> Hamburg </cell>
+                        <cell cols="1" role="data" rows="1"> 0.40 E. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 4.49 </cell>
+                        <cell cols="1" role="data" rows="1"> 14.21 </cell>
+                        <cell cols="1" role="data" rows="1"> Seychelles Alm </cell>
+                        <cell cols="1" role="data" rows="1"> 20.18 </cell>
+                        <cell cols="1" role="data" rows="1"> 21.12 </cell>
+                        <cell cols="1" role="data" rows="1"> Bremen </cell>
+                        <cell cols="1" role="data" rows="1"> 0.35 E. </cell>
+                        <cell cols="1" role="data" rows="1"> 29.25 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Cape Charles </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">4.57</p><p part="N"
+                            >1.10</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">14.57</p><p part="N"
+                                >15.10</p></cell>
+                        <cell cols="1" role="data" rows="1"> Strom ness </cell>
+                        <cell cols="1" role="data" rows="1"> 0.14 </cell>
+                        <cell cols="1" role="data" rows="1"> 21.20 </cell>
+                        <cell cols="1" role="data" rows="1"> Antwerp </cell>
+                        <cell cols="1" role="data" rows="1"> 0.18 E. </cell>
+                        <cell cols="1" role="data" rows="1"> 23.46 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Goree Island </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">N. Zealand</p><p part="N"
+                                >Ronfleur</p></cell>
+                        <cell cols="1" role="data" rows="1"> 12.13 </cell>
+                        <cell cols="1" role="data" rows="1"> 21.23 </cell>
+                        <cell cols="1" role="data" rows="1"> Scolt Head </cell>
+                        <cell cols="1" role="data" rows="1"> Ο. 3 </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">30.17</p><p part="N"
+                                >30.43</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> York Fort </cell>
+                        <cell cols="1" role="data" rows="1"> 6. 9 </cell>
+                        <cell cols="1" role="data" rows="1"> 15.19 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 12.55 </cell>
+                        <cell cols="1" role="data" rows="1"> 23 54 </cell>
+                        <cell cols="1" role="data" rows="1"> Lvnn </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 2 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Lisbon </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">0.37</p><p part="N">0.
+                            6</p></cell>
+                        <cell cols="1" role="data" rows="1"> 15.22 </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 0. 1 E </cell>
+                        <cell cols="1" role="data" rows="1"> 21.29 </cell>
+                        <cell cols="1" role="data" rows="1"> Hague </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">0.17</p><p part="N">0.
+                            7</p></cell>
+                        <cell cols="1" role="data" rows="1"> 31.58 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Nantes, Rhè </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 15.26 </cell>
+                        <cell cols="1" role="data" rows="1"> Havre </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 0 </cell>
+                        <cell cols="1" role="data" rows="1"> 21.30 </cell>
+                        <cell cols="1" role="data" rows="1"> Leos tone </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 34.23 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Tanna </cell>
+                        <cell cols="1" role="data" rows="1"> 11.19 </cell>
+                        <cell cols="1" role="data" rows="1"> 15.41 </cell>
+                        <cell cols="1" role="data" rows="1"> Caen </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 1 </cell>
+                        <cell cols="1" role="data" rows="1"> 21.31 </cell>
+                        <cell cols="1" role="data" rows="1"> London Bridge </cell>
+                        <cell cols="1" role="data" rows="1"> 0. 0 </cell>
+                        <cell cols="1" role="data" rows="1"> (39.45) </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <pb break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=282"
+                    xml:id="kp-eb0721-0282-0262"/>
+                <p part="N">It may be immediately inferred from this table, first, that the line of
+                    contemporary tides is seldom in the exact direction of the meridian, as it is
+                    supposed to be universally in the theory of Newton and of Laplace; except,
+                    perhaps, the line for the twenty-first hour in the Indian Ocean, which appears
+                    to extend from Socotora to the Almirantes and the Isle of Bourbon, lying nearly
+                    in the same longitude. Secondly, the southern extremity of the line advances as
+                    it passes the Cape of Good Hope, so that it turns up towards the Atlantic, which
+                    it enters obliquely, so as to arrive, nearly at the same moment, at the Island
+                    of Ascension, and at the Island of Martin Vaz, or of the Trinity. Thirdly, after
+                    several irregularities about the Cape Verd Islands, and in the West Indies, the
+                    line appears to run nearly east and west from St Domingo to Cape Blanco, the
+                    tides proceeding due northwards; and then, turning still more to the right, the
+                    line seems to run north-west and south-east, till at last the tide runs almost
+                    due east up the British Channel and round the north of Scotland into the
+                    Northern Ocean, sending off a branch down the North Sea to meet the succeeding
+                    tide at the mouth of the Thames. Fourthly, towards Cape Horn, again, there is a
+                    good deal of irregularity; the hour-lines are much compressed between South
+                    Georgia and Tierra del Fuego, perhaps on account of the shallower water about
+                    the Falkland lslands and South Shetland. Fifthly, at the entrance of the Pacific
+                    Ocean, the tides seem to advance very rapidly to New Zealand and Easter Island;
+                    but here it appears to be uncertain whether the line of contemporary tide should
+                    be drawn nearly north and south from the Gallapagos to Tierra del Fuego, or
+                    north-east and south-west from Easter Island to New Zealand; or whether both
+                    these partial directions are correct: but on each side of this line there are
+                    great irregularities, and many more observations are wanting before the progress
+                    of the tide can be traced with any tolerable accuracy, among the multitudinous
+                    islands of the Pacific Ocean, where it might have been hoped that the phenomena
+                    would have been observed in their greatest simplicity, and in their most genuine
+                    form. Lastly, of the Indian Ocean the northern parts exhibit great
+                    irregularities, and among the rest they afford the singular phenomenon of one
+                    tide in the day, observed by Halley in the port of Tonkin, and explained by
+                    Newton in the <hi rend="italic">Principia:</hi> the southern parts are only
+                    remarkable for having the hour-lines of contemporary tides considerably crowded
+                    between New Holland and the Cape of Good Hope, as if the seas of these parts
+                    were shallower than elsewhere.</p>
+                <p part="N">These inferences respecting the progress of the tides are not advanced
+                    as the result of any particular theory, nor even as the only ones that might
+                    possibly be deduced from the table. Thus the supposion that the direction in
+                    which the tides advance must be perpendicular to the hour-lines of contemporary
+                    tides, is not by any means absolutely without exception, since a quadrangular
+                    lake, with steep shores in the direction of the meridian, would have the times
+                    of high water the same for every point of its eastern or western halves
+                    respectively, and there could be no correctly defined direction of the
+                    hour-lines in such a case. But if any portion of the sea could be considered as
+                    constituting such a lake, its properties would be detected by a sufficient
+                    number of observations of high water; and the existing table does not appear to
+                    indicate any such cases that require to be otherwise distinguished than as
+                    partial irregularities. There may also be some doubt respecting the propriety of
+                    the addition of twelve and a half hours that has been made to the time of high
+                    water in the north-eastern parts of the Atlantic: but it seems extremely
+                    improbable that the same tide should travel north-easterly into the English
+                    Channel and into the Northern Ocean, and at the same time westerly across the
+                    Atlantic, as it must be supposed to do, if it were considered as primarily
+                    originating in the neighbour hood of the Bay of Biscay. On the other hand, the
+                    bending of the great wave round the continents of Africa and Europe seems to be
+                    very like the sort of refraction which takes place on every shelving coast with
+                    respect to the common waves, which, whatever may have been their primitive
+                    origin, acquire always, as they spread, a direction more and more nearly
+                    parallel to that of the coast which they are approaching: and the suppositions
+                    which have been here advanced respecting the succession of the tides in
+                    different ports, allowing for the effect of a multitude of irregularities
+                    proceeding from partial causes, appear to be by far the most probable that can
+                    be immediately inferred from the table, at least in its present state of
+                    imperfection.</p>
+                <p part="N"><hi rend="smallcaps">Sect.</hi> II.— <hi rend="italic">Of the Disturbing
+                        Forces that occasion the Tides.</hi></p>
+                <p part="N">Since the phenomena of the tides, with regard to their progress through
+                    the different oceans and seas, as they exist in the actual state of the earth’s
+                    surface, appear to be too complicated to allow us to hope to reduce them to
+                    computation by means of any general theory, we must, in the next place, confine
+                    our attention to the order in which the successive changes occur in any single
+                    port; and having determined the exact magnitude of the forces that tend to
+                    change the form of the surface of the ocean at different periods, and having
+                    also examined the nature of the vibratory motions of which the sea, or any given
+                    portion of it, would be susceptible, in the simplest cases, after the cessation
+                    of the disturbing forces, we must afterwards endeavour to combine these causes,
+                    so as to adapt the result to the successive phenomena which are observed at
+                    different times in any one port.</p>
+                <p part="N"><hi rend="smallcaps">Theorem</hi> A. (“E.”—Nicholson’s Journal, July
+                    1813.) The disturbing force of a distant attractive body, urging a particle of a
+                    fluid in the direction of the surface of a sphere, varies as the sine of twice
+                    the altitude of the body.</p>
+                <p part="N">The mean attraction exerted by the sun and moon on all the separate
+                    particles composing the earth, is exactly compensated by the centrifugal force
+                    derived from the earth’s annual revolution round the sun, and from its monthly
+                    revolution round the common centre of gravity of the earth and moon; but the
+                    difference of the attractions exerted at different points of the earth, must
+                    necessarily produce a disturbing force, depending on the angular position of the
+                    point with regard to the sun or moon, since the centrifugal force is the same
+                    for them all; the disturbing force being constantly variable for any one point,
+                    and depending partly on the difference of the distance of the point from the
+                    mean distance, and partly on the difference of the direction of the luminary
+                    from its direction with respect to the centre, or, in other words, on its
+                    parallax.</p>
+                <p part="N">In the case of a sphere covered with a fluid, it will be most convenient
+                    for computation to consider both these forces as referred to the direction of
+                    the circumference of the sphere, which will differ but little from that of the
+                    fluid; and it will appear that both of them, when reduced to this direction,
+                    will vary as the product of the sine and cosine of the distance from the
+                    diameter pointing to the luminary, that is, as half the sine of twice the
+                    altitude: for the difference of gravitation, which depends on the difference of
+                    the distance, will always vary as the sine of the distance from the bisecting
+                    plane perpendicular to that diameter, and will be reduced to the direction of
+                    the surface by diminishing it in the ratio of the cosine to the radius; and the
+                    effect of the difference of direction will be originally proportional to the
+                    sine of the distance from the diameter, and will in like manner be expressed,
+                    when reduced, by the product of the sine and cosine; and each force, thus
+                    reduced, will be equal, where it is greatest, to half of its primitive
+                    magnitude, since sin. cos. 45° = ½. “Thus, the gravitation towards the <pb
+                        break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=283"
+                        xml:id="kp-eb0721-0283-0263"/> moon at the earth’s surface, is to the
+                    gravitation towards the earth as 1 to 70 times the square of 60½, or to 256 217:
+                    and the former disturbing force is to the whole of this as 2 to 60½ at the point
+                    nearest the moon, and the second as 1 to 60½ at the equatorial plane, and the
+                    sum of both, reduced to the direction of the circumference, where greatest, as 3
+                    to 121, that is, to the whole force of the earth’s gravitation, as 1 to 10 334
+                    000; and in a similar manner we find, that the whole disturbing force of the sun
+                    is to the weight of the particles as 1 to 25 736 000.” Or, if we call the moon’s
+                    horizontal parallax <hi rend="italic">p,</hi> and substitute <hi
+                        rend="superscript"> 1</hi> / <hi rend="italic subscript"> p</hi> for the
+                    distance, the whole of the lunar disturbing force in the direction of the
+                    surface will be <hi rend="superscript"> 3</hi> / <hi rend="subscript"> 2</hi> ·
+                    ***** = <hi rend="superscript"> 3</hi> / <hi rend="subscript"> 140</hi><hi
+                        rend="italic">p</hi><hi rend="superscript"> 3</hi><hi rend="italic">;</hi>
+                    or, if <hi rend="italic">z</hi> be the moon’s zenith distance from any point of
+                    the surface, <hi rend="italic">f</hi> = <hi rend="superscript"> 3</hi> / <hi
+                        rend="subscript"> 70</hi><hi rend="italic">p</hi><hi rend="italic
+                        superscript"> 3</hi> sin. cos. <hi rend="italic">z.</hi><hi rend="smallcaps"
+                        >Theorem</hi> B. [F.] The inclination of the surface of an oblong spheroid,
+                    slightly elliptical, to that of the inscribed sphere, varies as the sine of
+                    twice the distance from the circle of contact; and a particle resting on any
+                    part of it, without friction, may be held in equilibrium by the attraction of a
+                    distant body [situated in the direction of the axis].</p>
+                <p part="N">If a sphere be inscribed in an oblong spheroid, the elevation of the
+                    spheroid above the sphere must obviously be proportional, when measured in a
+                    direction parallel to the axis of the spheroid, to the ordinate of the sphere,
+                    that is, to the sine of the distance from its equator; and when reduced to a
+                    direction perpendicular to the surface of the sphere, it must be proportional to
+                    the square of that sine; and the tangent of the inclination to the surface of
+                    the sphere, which is equal to the fluxion of the elevation divided by that of
+                    the circumference, must be expressed by twice the continual product of the sine,
+                    the cosine, and the ellipticity, or rather the greater elevation <hi
+                        rend="italic">e</hi>, the radius being considered as unity: so that the
+                    elevation <hi rend="italic">e</hi> will also express the tangent of the
+                    inclination where it is greatest, since 2 sin. cos. 45° = 1; and the inclination
+                    will be everywhere as the product of the sine and cosine.</p>
+                <p part="N">If, therefore, the density of the elevated parts be considered as
+                    evanescent, and their attraction be neglected, there will be an equilibrium,
+                    when the ellipticity is to the radius as the disturbing force to the whole force
+                    of gravitation; for each particle situated on the surface will be actuated by a
+                    disturbing force tending towards the pole of the spheroid, precisely equal and
+                    contrary to that portion of the force of gravitation which urges it in the
+                    opposite direction down the inclined surface. Hence, if the density of the sea
+                    were supposed inconsiderable in comparison with that of the earth, the radius
+                    being 20 839 000 feet, the greatest height of a lunar tide in equilibrium would
+                    be 2·0166 feet, and that of a solar tide ·8097: that is, supposing the moon’s
+                    horizonal parallax about 57', and her mass <hi rend="superscript"> 1</hi> / <hi
+                        rend="subscript"> 70</hi> of that of the earth.</p>
+                <p part="N"><hi rend="smallcaps">Theorem</hi> C. [G.] The disturbing attraction of
+                    the thin shell contained between a spheroidical surface and its inscribed
+                    sphere, varies in the same proportion as the inclination of the surface, and is
+                    to the relative force of gravity depending on that inclination, as three times
+                    the density of the shell to five times that of the sphere.</p>
+                <p part="N">We may imagine the surface of the sphere to be divided by an infinite
+                    number of parallel and equidistant circles, beginning from any point at which a
+                    gravitating particle is situated, and we may suppose all these circles to be
+                    divided by a plane perpendicular to the meridian of the point, and consequently
+                    bisecting the equatorial plane of the spheroid: it is obvious, that if the
+                    elevations on the opposite sides of the plane be equal at the corresponding
+                    points of each circle, no lateral force will be produced; but when they are
+                    unequal, the excess of the elevated matter on one side above that of the other
+                    side will produce a disturbing or lateral force. Now, the elevation being
+                    everywhere as the square of the distance <hi rend="italic">x</hi> from the
+                    equatorial plane, we may call it <hi rend="italic">ex</hi><hi rend="italic
+                        superscript"> 2</hi><hi rend="italic">,</hi> and the difference
+                    corresponding to any point of that semicircle which is the nearer to the pole of
+                    the spheroid, will be <hi rend="italic">e (x'</hi><hi rend="italic
+                        superscript"> 2</hi><hi rend="italic">— x''</hi><hi rend="italic
+                        superscript"> 2</hi><hi rend="italic">)</hi> = <hi rend="italic">e (x'+ x")
+                        (x'— x'').</hi> But <hi rend="italic">x'</hi> + <hi rend="italic">x''</hi>
+                    is always twice the distance of the centre of the supposed circle from the
+                    equatorial plane; and the distance of this centre from that of the sphere will
+                    be cos. ψ, if ψ be the angular distance of the circle from its pole; and calling
+                        <hi rend="italic">φ</hi> the distance of this pole from the equatorial plane
+                    of the spheroid, the distance in question will be cos. ψ sin. <hi rend="italic"
+                        >φ,</hi> and <hi rend="italic">x' + x" =2</hi> cos. ψ sin. <hi rend="italic"
+                        >φ</hi>; and the difference <hi rend="italic">x'</hi> — <hi rend="italic"
+                        >x''</hi> is twice the actual sine of the arc <hi rend="italic">θ</hi> in
+                    the supposed circle, that is, twice the natural sine, reduced in the ratio of
+                    unit to the radius of this circle, which is sin. ψ. reduced again to a direction
+                    perpendicular to the equatorial plane; whence <hi rend="italic">x'</hi> — <hi
+                        rend="italic">x''</hi> = 2 sin. <hi rend="italic">θ</hi> sin. ψ cos. <hi
+                        rend="italic">φ</hi>; and <hi rend="italic">x'</hi><hi rend="italic
+                        superscript"> 2</hi> — <hi rend="italic">x''</hi><hi rend="italic
+                        superscript"> 2</hi> = 4 sin. <hi rend="italic">θ</hi> sin. cos. ψ sin. cos.
+                        <hi rend="italic">φ.</hi> Hence it follows, that, in different , positions
+                    of the gravitating particle, the effective elevation at each point of the
+                    surface, similarly situated with respect to it, is as the product of the sine
+                    and cosine of its angular distance <hi rend="italic">φ</hi> from the equatorial
+                    plane, the other quantities concerned remaining the same in all positions. But
+                    the inclination of the surface of the spheroid, as well as the original
+                    disturbing force, varies in the same proportion of the product of the sine and
+                    cosine of the distance <hi rend="italic">φ</hi>; consequently the sum of this
+                    disturbing attraction and the original force will also vary as the inclination
+                    of the surface, and may be in equilibrium with the tendency to descend towards
+                    the centre, provided that the ellipticity be duly commensurate to the density of
+                    the elevated parts.</p>
+                <p part="N">Now, in order to find the actual magnitude of the disturbing attraction
+                    for a shell of given density, we must compute the fluent of 4 <hi rend="italic"
+                        >e</hi> sin. <hi rend="italic">θ</hi> d <hi rend="italic">θ</hi> sin. cos.
+                    ψdψ sin. cos. <hi rend="italic">φ,</hi> reduced first according to the distance
+                    and direction of each particle from the given gravitating particle; and we
+                    must</p>
+                <p part="N">4</p>
+                <p part="N">compare the fluent with <hi rend="superscript"> 4</hi> / <hi
+                        rend="subscript"> 3</hi> π, the attraction of the whole sphere at the
+                    distance of the radius, or unity. But for the angle <hi rend="italic">6,</hi>
+                    the portion of the force acting in the common direction of sin. <hi
+                        rend="italic">θ</hi> is to the whole attraction at the same distance as sin.
+                        <hi rend="italic">θ</hi> to 1, so that the attractive force of any point of
+                    the semicircle will be 4 <hi rend="italic">e</hi> sin. <hi rend="superscript">
+                        2</hi><hi rend="italic">6</hi> sin. cos. ψ sin. cos. <hi rend="italic"
+                        >φ,</hi> and its fluxion will be as sin. <hi rend="superscript"> 2</hi><hi
+                        rend="italic">θ</hi> d <hi rend="italic">θ</hi>, of which the fluent is ½
+                        <hi rend="italic">θ —</hi> ½ sin. cos. <hi rend="italic">θ,</hi> or when <hi
+                        rend="italic">θ</hi> = 180°, ½π, and ½π sin. ψ will express the effect of
+                    the disturbing attraction of the semicircles, of which sin. ψ is the radius,
+                    reduced to the direction of the middle point, of which the distance is 2 sin.
+                    ½ψ; the reduction for this distance is as its square to 1; and for the
+                    direction, as the distance to sin. ψ, together making the ratio of ******* — <hi
+                        rend="superscript"> 8</hi>.*"* , <hi rend="subscript"> t</hi> ∙, and the
+                    ultimate fluxion of the</p>
+                <p part="N">8 sin. <hi rend="superscript"> 3</hi> I ∙Φ</p>
+                <p part="N">force will be 2 <hi rend="italic">eπ</hi> sin. ψ sin. cos. <hi
+                        rend="italic">φ</hi> sin. cos. ψ ≡*******-^!-∖⅜-r <hi rend="superscript">
+                        τ</hi> 8 sin. <hi rend="superscript"> 3</hi> 5-4&gt; dψ = **********2eτ ~
+                        <hi rend="strikethrough">2 .^^∖</hi><hi rend="superscript
+                        strikethrough"> c</hi><hi rend="strikethrough">θ</hi><hi rend="superscript
+                        strikethrough"> ι</hi><hi rend="strikethrough">∖</hi> sin. cos. <hi
+                        rend="italic">φ</hi> dψ; but sin. ψ = 2 sin.</p>
+                <p part="N">8 sm. <hi rend="superscript"> 3</hi> ⅛∙ψ</p>
+                <p part="N">, , <hi rend="subscript"> 1</hi>, <hi rend="subscript"> z</hi>, . ,
+                    ********8 sin. <hi rend="superscript"> 3</hi> cos. <hi rend="superscript">
+                        3</hi> A-ψ , *******</p>
+                <p part="N">cos. <hi rend="italic">iψ,</hi> and the fraction becomes —-—r^i . cos-
+                        <hi rend="italic">4</hi> ’ <hi rend="italic">—</hi></p>
+                <p part="N">* 8sιn. <hi rend="superscript"> 3</hi> ⅛∙ψ</p>
+                <p part="N">cos. <hi rend="superscript"> 3</hi> ∣ψ cos. ψ ≡ cos. <hi
+                        rend="superscript"> 3</hi> ∣ψ(cos. <hi rend="superscript"> l</hi> ^∙ψ — sin.
+                        <hi rend="superscript"> 2</hi> ⅛∙ψ) = cos. <hi rend="superscript">
+                    4</hi></p>
+                <p part="N">— cos. <hi rend="superscript"> 3</hi> ê ψ + cos. <hi rend="superscript">
+                        4</hi> ∣ψ = 2 cos. <hi rend="superscript"> 4</hi> ∣ψ — cos. <hi
+                        rend="superscript"> 3</hi> Jψ. Now, taking the fluent from ψ = 0 to ψ =
+                    180°, we have 2∕ <hi rend="superscript"> ,</hi> cos. <hi rend="superscript">
+                        4</hi> ⅛ψ2d∣ψ = ∣ <hi rend="superscript"> ,</hi> ∣, and∕ ’ cos. <hi
+                        rend="superscript"> 3</hi> ⅛4 × 2d∣ψ = ∣, the difference<pb break="no"
+                        facs="ht:chi.12945678&amp;view=1up&amp;seq=284" xml:id="kp-eb0721-0284-0264"
+                    /> being <hi rend="superscript"> 3</hi> / <hi rend="subscript"> 5</hi> · <hi
+                        rend="superscript"> 4</hi> / <hi rend="subscript"> 3</hi> = <hi
+                        rend="superscript"> 4</hi> / <hi rend="subscript"> 5</hi>, whence the fluent
+                    of the force is found 2 <hi rend="italic">eπ</hi> sin. cos. <hi rend="italic"
+                        >φ</hi> × <hi rend="superscript"> 4</hi> / <hi rend="subscript"> 5</hi> ×
+                        <hi rend="superscript"> 1</hi> / <hi rend="italic subscript"> n</hi>,
+                    calling the density of the fluid <hi rend="superscript"> 1</hi> / <hi
+                        rend="italic                     subscript"> n</hi>, or, where it is
+                    greatest, sin. cos. <hi rend="italic">φ</hi> being = ½, <hi rend="superscript">
+                        4</hi> / <hi rend="subscript"> 5</hi><hi rend="italic superscript"> eπ</hi>
+                    / <hi rend="italic subscript"> n</hi>, while the attraction of the sphere itself
+                    is <hi rend="superscript"> 4</hi> / <hi rend="subscript"> 3</hi><hi
+                        rend="italic">π</hi>, which is <hi rend="superscript"> 4</hi> / <hi
+                        rend="subscript"> 5</hi><hi rend="italic                     superscript">
+                        eπ</hi> / <hi rend="italic                         subscript"> n</hi> as 1
+                    to <hi rend="superscript"> 3</hi><hi rend="italic superscript"> e</hi> / <hi
+                        rend="subscript"> 5</hi><hi rend="italic subscript"> n</hi>; and since the
+                    elevation <hi rend="italic">e</hi> expresses also the maximum of the relative
+                    force of gravity depending on the tangent of the inclination (Theorem B), it is
+                    obvious that the disturbing attraction <hi rend="superscript"> 3</hi><hi
+                        rend="italic superscript"> e</hi> / <hi rend="subscript"> 5</hi><hi
+                        rend="italic subscript"> n</hi> must be to the relative force <hi
+                        rend="italic">e</hi> as <hi rend="superscript"> 3</hi> / <hi rend="italic
+                        subscript"> n</hi> to 5.</p>
+                <p part="N"><hi rend="italic">Corollary</hi> 1. If <hi rend="italic">n=</hi> 1, as
+                    in a homogeneous fluid sphere or spheroid, the disturbing attraction becomes <hi
+                        rend="superscript"> 3</hi> / <hi rend="subscript"> 5</hi><hi rend="italic"
+                        >e</hi>, and this attraction, together with the primitive force <hi
+                        rend="italic">f</hi>, must express the actual elevation <hi rend="italic"
+                        >e</hi>, or <hi rend="superscript"> 3</hi> / <hi rend="subscript"> 5</hi><hi
+                        rend="italic">e</hi> + <hi rend="italic">f = e,</hi> whence <hi
+                        rend="italic">f</hi> = <hi rend="superscript"> 2</hi> / <hi rend="subscript"
+                        > 5</hi><hi rend="italic">e</hi>, and <hi rend="italic">e</hi> = <hi
+                        rend="superscript"> 5</hi> / <hi rend="subscript"> 2</hi><hi rend="italic"
+                        >f</hi>, giving 2·024 and 5∙042 for the magnitude of the solar and lunar
+                    tides, when <hi rend="italic">f</hi> = ∙8097 and 2∙0166 respectively. But this
+                    is obviously far from the actual state of the problem.</p>
+                <p part="N"><hi rend="italic">Corollary</hi> 2. Supposing <hi rend="italic">n</hi> =
+                    5∙4 (see Quarterly Journal of Science, April 1820), we have <hi
+                        rend="superscript"> 3</hi><hi rend="italic superscript"> e</hi> / <hi
+                        rend="subscript"> 27</hi> + <hi rend="italic">f =e,</hi> and e = <hi
+                        rend="superscript"> 27</hi> / <hi rend="subscript"> 24</hi><hi rend="italic"
+                        >f</hi> = <hi rend="superscript"> 9</hi> / <hi rend="subscript"> 8</hi><hi
+                        rend="italic">f</hi>; so that the height of the primitive tides of an ocean
+                    of water, covering the whole surface of the earth, such as it actually is, ought
+                    to be ∙911 for the solar, and 2∙27 for the lunar disturbing force; that is,
+                    supposing the sen without inertia, so as to accommodate itself at once to the
+                    form of equilibrium. But, in the actual state of the irregularities of the seas
+                    and continents, it is impossible to pay any regard to this secondary force,
+                    since the phenomena do not justify us in supposing the general form of the
+                    surface of the ocean such as to give rise to it.</p>
+                <p part="N"><hi rend="smallcaps">Theorem</hi> D. [H.] When the horizontal surface of
+                    a liquid is elevated or depressed a little at a given point, the effect will be
+                    propagated in the manner of a wave, with a velocity equal to that of a heavy
+                    body which has fallen through a space equal to half the depth of the fluid, the
+                    form of the wave remaining similar to that of the original elevation or
+                    depression. Dr Young’s Elementary Illustrations of the Celestial Mechanics of
+                    Laplace, 378, p. 318.</p>
+                <p part="N"><hi rend="italic">Scholium.</hi> The demonstration of this theorem
+                    implies that water is incompressible, and that the pressure of each particle
+                    placed on the surface is instantaneously communicated through the whole depth of
+                    the fluid to the bottom. These suppositions are not indeed strictly accurate in
+                    any case, but they introduce no sensible error when the surface of the wave
+                    similarly affected is large in comparison with the depth of the fluid. A modern
+                    author of celebrity seems to have taken it for granted that the pressure is
+                    propagated with the same velocity downwards and laterally; at least, if such is
+                    not his meaning, he has been somewhat unfortunate in the choice of his
+                    expressions; but there seems no reason whatever why water should communicate
+                    force more slowly when it is perfectly confined, than ice would do; and the
+                    divergence of the pressure of a certain portion of the surface of water,
+                    elevated a little, for example, above the rest, may be compared to the <hi
+                        rend="italic">divergence</hi> of a sound entering into a detached chamber by
+                    an aperture of the same size with the given surface, which is probably <hi
+                        rend="italic">small</hi> in comparison with its direct motion, but <hi
+                        rend="italic">equally rapid,</hi> and in both cases depending on the modulus
+                    of the elasticity of the medium.</p>
+                <p part="N"><hi rend="smallcaps">Theorem</hi> E. [I.] A wave of a symmetrical form,
+                    with a depression equal and similar to its elevation, striking against a solid
+                    vertical obstacle, will be reflected, so as to cause a part of the surface, at
+                    the distance of one fourth of its whole breadth, to remain at rest; and if there
+                    be another opposite obstacle at twice that distance, there may be a perpetual
+                    vibration between the surfaces, the middle point having no vertical motion. Dr
+                    Young’s Natural Philosophy, vol. i. p. 289, 777.</p>
+                <p part="N"><hi rend="italic">Scholium</hi> 1. The elevation and depression of a
+                    spheroid, compared with the surface of the sphere of equal magnitude, exhibits a
+                    symmetrical wave in the sense of the proposition; and it is not necessary that
+                    the shores should be very rocky or perpendicular, in order to produce a strong
+                    reflection; for even the vibration of the water in the bottom of a common
+                    hemispherical basin is considerably permanent.</p>
+                <p part="N"><hi rend="italic">Corollary</hi> 3. The vibrations of the water supposed
+                    to be contained in a canal, following the direction of the equator, and 90° in
+                    length, would be synchronous with the passage of a wave 180° in breadth, over
+                    any point of a canal of the same depth, and surrounding the whole globe.</p>
+                <p part="N"><hi rend="italic">Scholium</hi> 2. It has been usual to consider the
+                    elevation of the tides as identical with that of an oblong spheroid, measured at
+                    its vertex, and therefore as amounting to twice as much as the depression of the
+                    same spheroid at the equator, considered in relation to the mean height
+                    belonging to a sphere of the same magnitude; but the supposition is by no means
+                    applicable to the case of a globe covered partially and irregularly with water,
+                    so that in almost all cases of actual tides, the elevation must be considered as
+                    little if at all greater than the depression, as far as this cause only is
+                    concerned; there are, however, some other reasons to expect that the elevation
+                    of the great wave might often arrive at a distant port in somewhat greater force
+                    than the depresssion.</p>
+                <p part="N"><hi rend="smallcaps">Theorem</hi> F. [K.] The oscillations of the sea
+                    and of lakes, constituting the tides, are subject to laws exactly similar to
+                    those of pendulums capable of performing vibrations in the same time, and
+                    suspended from points which are subjected to compound regular vibrations, of
+                    which the constituent periods are completed in half a lunar and half a solar day
+                    [or in some particular cases a whole day].</p>
+                <p part="N">Supposing the surface of the sea to remain at rest, each point of it
+                    would become alternately elevated and depressed, in comparison with the
+                    situation in which it might remain in equilibrium; its distance from this
+                    situation varying according to the regular law of the pendulum (see Theorem B);
+                    and, like all minute vibrations, it will be actuated by forces indirectly
+                    dependent on, and proportional to, this distance; so that it may be compared to
+                    a pendulous body remaining at rest in the vertical line, about which its point
+                    of suspension vibrates, and will consequently follow the motion of the temporary
+                    horizon, in the same manner as the pendulum follows the vibration of its point
+                    of suspension, either with a direct or a retrograde motion, according to
+                    circumstances, which will be hereafter explained: the operation of the forces
+                    concerned being perfectly analogous, whether we consider the simple hydrostatic
+                    pressure depending on the elevation, or the horizontal pressure derived from the
+                    inclination of the surface, or the differential force immediately producing
+                    elevation and depression, depending on the variation of the horizontal pressure,
+                    and proportional to the curvature of the surface. It becomes therefore
+                    necessary, for the theory of the tides, to investigate minutely the laws of
+                    these compound and compulsory vibrations, which, together with the resistances
+                    affecting them, will be the subject of the next section.</p>
+                <pb break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=285"
+                    xml:id="kp-eb0721-0285-0265"/>
+                <p part="N"><hi rend="smallcaps">Sect.</hi> III.— <hi rend="italic">Of the Effects
+                        of Resistance in Vibrating Motions, whether Simple or Compound.</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0715-9963-0058-09" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">MIDDLESEX</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b45x25f3j">Docks</term>
+                    <term ref="lcsh1910:b4cc0tv2w">Canals</term>
+                    <term ref="lcsh1910:b4x921m3r">Parks</term>
+                    <term ref="lcsh1910:b4b56d52v">Bones</term>
+                    <term ref="lcsh1910:b4fx73z68">Bone</term>
+                    <term ref="lcsh1910:b4kk94c35">Extents</term>
+                    <term ref="lcsh1910:b4dr2p79d">Land</term>
+                    <term ref="lcsh1910:b4x63b58d">Kindness</term>
+                    <term ref="lcsh1910:b4028pc5x">Soils</term>
+                    <term ref="lcsh1910:b47s7ht9n">Walls</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1182566">Year</term>
+                    <term ref="fast:987598">Kindness</term>
+                    <term ref="fast:1124682">Soils</term>
+                    <term ref="fast:1006685">Males</term>
+                    <term ref="fast:1170190">Walls</term>
+                    <term ref="fast:896024">Docks</term>
+                    <term ref="fast:961111">Hospitalers</term>
+                    <term ref="fast:845230">Canals</term>
+                    <term ref="fast:1053705">Parks</term>
+                    <term ref="fast:951741">Harrows</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1207649">Wales</term>
+                    <term ref="fast:1239786">America</term>
+                    <term ref="fast:1205688">Connecticut</term>
+                    <term ref="fast:1204597">Virginia</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193819963?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">MIDDLESEX</label>, an English county, and, though in
+                    extent one of the least, yet, as containing within it the metropolis of the
+                    British empire, with its numerous population, its extensive wealth, and its
+                    repositories of art and science, and being the theatre of the most interesting
+                    historical and political transactions, naturally attracts to it the attention of
+                    all who are connected with the united kingdoms.</p>
+                <p part="N">This county is bounded on the north by Hertfordshire; on the west by
+                    Buckinghamshire; on the south by Surrey, and at the eastern point by a small
+                    portion of Kent; and on the east by Essex. Its general figure is quadrangular,
+                    but rendered very irregular by the course of the rivers Thames, Coln, and Lea,
+                    which bound it on three sides, and by a considerable projection into
+                    Hertfordshire on the north. Its greatest length is twenty-three and its greatest
+                    breadth seventeen miles. Its square contents are estimated at 285 miles, or
+                    182,400 statute acres.</p>
+                <p part="N">According to the census of 1831, the whole number of inhabitants was
+                    1,358,330, of whom 631,410 were males and 726,920 were females. These composed
+                    314,039 families, of whom 9882 were chiefly occupied in agriculture; 173,822
+                    were chiefly occupied in trade, manufactures, and handicraft; and the remainder,
+                    130,335, were not comprehended in either of these two classes.</p>
+                <p part="N">A more minute classification is as follows :—</p>
+                <p part="N">Males under twenty years of age 358,521</p>
+                <p part="N">Occupiers of land, employing labourers 1,050</p>
+                <p part="N">Occupiers of land, not employing labourers 490</p>
+                <p part="N">Labourers employed in agriculture 11,376</p>
+                <p part="N">Employed in manufacture, or in making manufac turing machinery
+                    11,064</p>
+                <p part="N">Employed in retail trade, or in handicraft, as mas ters or workmen ,
+                    163,220</p>
+                <p part="N">Capitalists, bankers, professional and other educat ed men 49,457</p>
+                <p part="N">Labourers employed in labour other than agricultural 79,735</p>
+                <p part="N">Other males, twenty years of age, not servants.... 22,549 Male servants,
+                    twenty years of age 19,578</p>
+                <p part="N">Male servants under twenty years of age 5,923</p>
+                <p part="N">Female servants 87,554</p>
+                <p part="N">The baptisms of 1830 were, males 167,444, of females 165,683; the
+                    burials in the same were, of males 148,390, and of females 141,529. The
+                    marriages were 13,295. The illegitimate children born in the same year were, of
+                    males 526, of females 380.</p>
+                <p part="N">The proportion of burials to the whole population, which in 1801 was one
+                    in thirty-one, was in 1830 one in forty-two. The amount expended for the relief
+                    of the poor had varied but little during the ten years from 1820 to 1830. In the
+                    first of these years it amounted to L.625,665, and in the last to L.68l,567.</p>
+                <pb break="no" facs="nls:193819976?mode=fullsize" xml:id="kp-eb0715-9976-0059"/>
+                <p part="N">The annual value of the real property of the county, as assessed in the
+                    year 1815, was L.5,595,337. The increase of the population is shown by the
+                    several decennial enumerations to have been as follows, viz. in 1801, 818,129;
+                    in 1811, 953,276, being an increase of seventeen per cent.; in 1821, 1,144,531,
+                    being an increase of twenty per cent.; and in 1831, 1,358,200, being an increase
+                    of nineteen per cent. The whole increase in the thirty years has been sixty-five
+                    per cent. If the same rate of increase should .continue till 1841, which there
+                    seems no reason to doubt, the county will then have doubled its inhabitants in
+                    about the period of forty or forty-one years.</p>
+                <p part="N">The county is divided into six hundreds, and the three cities of London
+                    within the.,walls, London without the walls, and Westminster. The most populous
+                    of the hundreds, that of Ossulstone, is formed into four divisions.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Cities or
+                            Hundreds.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Families.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Males.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Females.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Total.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Edmonton hundred</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">4,801</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">12,969</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">13,961</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">26 930</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Elthorne ditto</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">4,224</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">9,998</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">10,093</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">20,091</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Gore ditto</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2,049</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">5,697</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">5,618</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">11,315</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Isle worth ditto</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2,871</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">6,515</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">7,053</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">13,568</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Ossulstone.</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Finsbury division</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">34,569</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">70,641</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">80,768</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">151,409</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Holborn ditto</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">83,467</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">154,743</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">191,512</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">346,255</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Kensington ditto</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">20,179</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">39,217</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">48,744</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">87,961</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Tower ditto</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">84,282</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">168,146</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">191,718</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">359,864</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Spelthorne
+                            hundred</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">3,175</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">7,325</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">7,887</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">15,212</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">London within the
+                            walls</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">11,719</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">27,327</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">28,451</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">55,778</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">London without the
+                            walls</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">15,884</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">33,413</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">34,492</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">67 905</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Westminster city</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">46,004</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">95,219</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">106,623</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">201 842</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Militia under
+                            training</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">200</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">200</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">314,039</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">631,410</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">726,920</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1,358,330</p></cell>
+                    </row>
+                </table>
+                <p part="N">The places of most note in this county, besides the cities of London and
+                    Westminster, are towns which have sprung up from their contiguity or vicinity to
+                    the metropolis, and which, in many instances, though forming only suburbs, are
+                    to all appearance, and to all practical purposes, parts of the great city. In
+                    giving the population, those places in contact with London must be first
+                    noticed.</p>
+                <p part="N">Mary-le-bone parish 122,206</p>
+                <p part="N">Paηcras, with its hamlets 103,548</p>
+                <p part="N">Paddington 14,540</p>
+                <p part="N">Bethnal Green 62,018</p>
+                <p part="N">Chelsea 32,371</p>
+                <p part="N">Kensington, with its hamlets 20,902</p>
+                <p part="N">Shadwell 9,544</p>
+                <p part="N">Stepney parish, including Poplar, Black wall, Limehouse, Mile-end, Old
+                    and</p>
+                <p part="N">New Town, and Ratcliffe 67,872</p>
+                <p part="N">Bromley .∙ 4,846</p>
+                <p part="N">The other populous places not in contact with the metropolis are,</p>
+                <p part="N">Hackney, with its hamlets 31,047</p>
+                <p part="N">Islington 37,316</p>
+                <p part="N">Fulham, with Hammersmith 17,539</p>
+                <p part="N">Hampsteed 8,588</p>
+                <p part="N">Ealing, including Old Brentford 7,783</p>
+                <p part="N">Tottenham 6,937</p>
+                <p part="N">Enfield 8,812</p>
+                <p part="N">Cheswick 4,994</p>
+                <p part="N">Twickenham 4,571</p>
+                <p part="N">Hornsey, with part of Highgate 4,857</p>
+                <p part="N">Hampton, including the court and Hamp ton Wick 3,992</p>
+                <p part="N">Hendon 3,110</p>
+                <p part="N">Uxbridge, with Hillingdon 6,885</p>
+                <p part="N">Heston, with a part of Hounslow 3,407</p>
+                <p part="N">Stoke-Newington 3,480</p>
+                <p part="N">Staines 2,486</p>
+                <p part="N">Edmonton 8,192</p>
+                <p part="N">Harrow <hi rend="smallcaps">λ</hi> 3,861</p>
+                <p part="N">Isleworth 5,590</p>
+                <p part="N">The face of this county may be described as a gently sloping tract
+                    rising from the banks of the Thames, its southern boundary, to the hills on the
+                    north, none of which rises more than 350 feet above the level of that river, and
+                    few attain even that height. In receding from the banks of the stream, the
+                    surface is gently undulated, with sufficient slope to secure the necessary
+                    drainage. The prospects in the southern division of the county, from the level
+                    nature of its surface, are not distinguished by extent or variety; and the eye
+                    is only relieved from the fatigue of uniformity, by the numerous buildings,
+                    plantations, gardens, and the rich verdure of productive grass fields. Even in
+                    the more hilly parts of the county the prospects are far less impressive than
+                    those upon the opposite banks of the Thames, or those which are to be seen upon
+                    the borders of that river before it enters Middlesex. The best prospects of a
+                    rural kind are from the range of hills stretching from Pinner, Stanmore,
+                    Elstree, Totteridge, and Barnet, to the forest scenery of Enfield Chace. The
+                    Hill of Harrow, a projection from this ridge, is one of the highest points; and
+                    the whole of the richly-cultivated valley of Middlesex is comprehended in the
+                    view from it.</p>
+                <p part="N">The original soil on the southern side of the county is of a most
+                    sterile kind of gravel; but the vast quantities of manure which have been
+                    furnished to it from the extensive cities in its vicinity, have been so spread
+                    over the surface, that a most luxuriantly-productive soil of garden mould has
+                    been created; and from the same cause it is renewed as rapidly as it becomes
+                    exhausted by the crops grown upon it. The northern part of the county generally
+                    consists of a soil of clayey loam, which, though rather difficult to plough, is,
+                    when properly pulverised, very well adapted for the cultivation of wheat, and
+                    has been long celebrated for the excellent quality of that grain which is
+                    produced upon it. The table of Queen Elizabeth was regularly furnished with
+                    white bread from the wheat grown in the vicinity of Hounslow. In several parts
+                    of the county the loamy clay, converted by the addition of cinders, technically
+                    called breeze, into bricks, becomes the most profitable application of the soil.
+                    This is peculiarly the case where such soil is found in the immediate vicinity
+                    of the metropolis, or upon the banks of the rivers or canals that communicate
+                    with it. “Round the one-mile stone on the Kingsland Road,” says Mr Middleton, «
+                    the surface is <pb break="no" facs="nls:193819989?mode=fullsize"
+                        xml:id="kp-eb0715-9989-0060"/>lowered from four to ten feet, by the earth
+                    having been dug up and manufactured into bricks, over an extent of more than
+                    1000 acres; and it has been levelled, ploughed up, and laid down to grass. It is
+                    sufficiently dry, and by the help of town manure is restored again to excellent
+                    grass land; though it had previously yielded to the community, through the
+                    medium of the brickmakers, upwards of L.4000 per acre on an average of the whole
+                    level; but there are a few acres of choice marl earth, which have produced
+                    through the same medium L.20,000 per acre.”</p>
+                <p part="N">The greater portion of the land in the county is appropriated to the
+                    cultivation of grass, which is converted into hay for the supply of the numerous
+                    horses kept in the metropolis. These upland meadows have been gradually
+                    extending as the metropolis has increased, so that at present not more than
+                    20,000 acres are under cultivation by the plough. The meadows, however, even
+                    those which have been longest laid down in herbage, discover the marks of their
+                    having been formerly ploughed. The great consumption of hay in the London
+                    markets has induced the most skill to be applied to that particular branch of
+                    rural economics which, under the term haymaking, is usually deemed the simplest
+                    of all agricultural operations, but which is here managed in so superior a way
+                    as to bring to the stack hay of a quality far better than is preserved in the
+                    more distant counties. The corn grown in this county is inconsiderable. Upon an
+                    average of years, about 10,000 acres are sown with wheat, about 4000 with
+                    barley, about 3000 with beans, and about 2000 with pease; some rye is grown, but
+                    principally for green food, and scarcely any oats are cultivated. There are
+                    fewer sheep and cows kept in Middlesex than in any other county; but of the
+                    latter some thousands are maintained solely for the purpose of supplying milk
+                    for the consumption of the metropolis. Many pigs are fattened from the offal
+                    produced in the vast breweries and malt distilleries of London and its
+                    vicinity.</p>
+                <p part="N">The horticulture of Middlesex, although it does not extend over quite so
+                    great a surface as its arable culture, produces a far greater annual return.
+                    Exclusively of the gardens attached to the houses of the nobility and gentry,
+                    the extent of land appropriated to the growth of fruit is reckoned by Mr
+                    Middleton to be 3000 acres, of that devoted to culinary vegetables 10,000, and
+                    of that used as nursery grounds and plantations 1500. The same writer estimated
+                    the annual value of the productions of horticulture at somewhat more than one
+                    million sterling. The gardeners of Middlesex practise a wonderful economy in the
+                    raising of crops. The fruit gardeners have what they call an upper and an under
+                    crop growing on the same ground at the same time. First, the ground is stocked
+                    with apples, pears, cherries, plums, walnuts, &amp;c. like a complete orchard,
+                    and Called the upper crop. It is secondly fully planted with raspberries,
+                    gooseberries, currants, strawberries, and all such fruits, shrubs, and herbs as
+                    are known to sustain the shade and drippings from the trees above them without
+                    the least injury; this they term the under crop. Some of these gardens have
+                    walls which are completely clothed with fruit-trees, such as peaches,
+                    nectarines, apricots, plums, and various others, all adapted to the aspect of
+                    the wall. In order to increase the quantity of warmth and shelter in autumn,
+                    they raise earthen banks of about three feet in height, laid to a slope of
+                    forty-five degrees to the sun. On these slopes they plant endive in the month of
+                    September; and near the bottoms of them they drill pease from October to
+                    Christmas; by this means the endive is preserved from rotting, and, as well as
+                    the pease, reaches maturity at an early period. The common routine of the best
+                    kitchen gardeners is the following: Soon after Christmas, when the weather is
+                    open, they begin by sowing the borders, and then the quarters, with radishes,
+                    spinach, onions, and all the other seed crops. As soon afterwards as the season
+                    will permit, which is generally in February, the same ground is planted with
+                    cauliflowers from the frames, as thick as if no other crop had then possession
+                    of the ground. The radishes, &amp;c. are soon sent to market; and when the
+                    cauliflowers are so far advanced as to be earthed up, sugar-loaf cabbages are
+                    planted from the before-mentioned seed crops; and daily as these crops are sent
+                    to market, the same ground is cropped with celery for winter use. The foregoing
+                    rotation is the common practice, but there are many deviations, according to the
+                    judgment of the cultivators, the state of the weather, and the demands of the
+                    market. Such a system, however, can be pursued only in the vicinity of great
+                    cities, the abundant manure of which gives the means of raising vegetable
+                    productions in defiance of the inclemency of our northern winters. A species of
+                    cultivation of a nondescript kind, partaking of the nature of agriculture and
+                    horticulture, is extensively pursued in this county. The ground is ploughed in
+                    January and February, and cropped with early pease, which are gathered green in
+                    June. The land is then sowed with turnips, which are sold in autumn, when the
+                    kind of cabbages called collards are planted, and these three crops are annually
+                    raised from the same soil.</p>
+                <p part="N">Manufactures of every kind may be ascribed to this county, in so far as
+                    the best workmen of every description are employed in London for combining,
+                    fitting, and finishing all the commodities requisite for the consumption of the
+                    metropolis, which is at the same time the seat of government, the temporary
+                    residence of the wealthiest subjects of Great Britain, and the greatest sea-port
+                    of the empire , but workmen of this kind, forming more than 400 classes, cannot
+                    be here so appropriately described as under the article <hi rend="smallcaps"
+                        >London,</hi> to which the reader is referred.</p>
+                <p part="N">In the more appropriate application of the word <hi rend="italic"
+                        >manufacture,</hi> none of importance can be attributed to Middlesex, other
+                    than that of silk, which subsists in Spittaifields, and which employs upwards of
+                    5000 males above twenty years of age. In St Mary’s parish, Whitechapel, 440 men
+                    of that age are employed in sugar-refining. Ship-building, and the various
+                    auxiliaries of that art, such as rope-making, sail-making, block-making,
+                    anchor-making, and the fabrication of copper sheathing and bolts for ships, with
+                    numerous smaller articles, employ a great number of persons. There are
+                    manufactories of chemical preparations at Bow, mustard-mills at Staines,
+                    copper-works at Harefield, and mills for throwing silk in many places.</p>
+                <p part="N">The rivers of Middlesex are, the Thames, the Coln, the Brent, and the
+                    Lea. The former of these is navigable for barges, along almost its whole extent,
+                    to Leachlade in Gloucestershire, within a few miles of its source. The tide is
+                    felt as high as Teddington, above which the navigation is performed by penning
+                    the ∖vater at various locks till a sufficient body is collected, which, by
+                    making what is locally called a <hi rend="italic">flash,</hi> permits the
+                    passage of the barges over the obstructions and shoals, which, a few hours
+                    after, become again impassable. The picturesque beauties on the banks of*this
+                    stream are too well known to need a description in this place. The Coin is not
+                    navigable. It enters Middlesex from Hertfordshire at the north-western extremity
+                    of the county, and falls into the Thames in various channels at considerable
+                    distances from each other, having in its course been applied to the working of
+                    numerous mills for paper, corn, and other purposes. The Brent, also not
+                    navigable, enters the county from Hertfordshire, and joins the Thames at
+                    Brentford. The Lea is navigable for barges along its whole course through this
+                    county. It enters from Hertfordshire, forms the eastern boundary of Middlesex,
+                    and joins the Thames at Limehouse, below London. Besides these natural streams,
+                    the artificial one called the New River belongs to this county. The artificial
+                    channel in which this stream flows towards London has a very devious<pb
+                        break="no" facs="nls:193820002?mode=fullsize" xml:id="kp-eb0715-0002-0061"/>
+                    course, in order to keep the waters at a due level. It is ultimately received
+                    into a spacious reservoir near Islington, whence, by means of pipes, its water
+                    is conveyed through the streets of the metropolis to the houses of
+                    individuals.</p>
+                <p part="N">Amongst the public works of this county, the canals deserve notice.
+                    These are, the Grand Junction, the Paddington, and the Regent’s Canal. The first
+                    forms a connection with the whole interior of the kingdom, and the second is
+                    connected with it. Through them, internal navigation is conducted to the
+                    manufacturing counties, and to the distant ports of Liverpool, Bristol, and
+                    Hull, and to the potteries, iron-fonnderies, and collieries of Staffordshire and
+                    Warwickshire. The Regent’s Canal surrounds the whole of the northern side of the
+                    metropolis, around which it describes a semicircle, commencing at the dock of
+                    the Paddington Canal, and terminating at the river Thames at Limehouse. Its
+                    principal utility is supposed to be derived from forming the means of conveying
+                    coals and other heavy commodities from the river to the more distant parts of
+                    the capital without expensive land-carriage. We may here notice two works
+                    actually in operation, which may become of vast importance. These are, the
+                    railroad from London to Birmingham, which has been considerably advanced, and a
+                    similar one to Southampton, already commenced. For another to Bristol an act of
+                    parliament has been obtained.</p>
+                <p part="N">The docks constructed of late years for the facilities of commerce are
+                    most extensive and magnificent works, and the warehouses which surround them are
+                    wonderful exhibitions of the commercial opulence of this country, having been
+                    all completed from the capitals of individuals. The West India Docks contain
+                    about sixty acres of water, in which the largest vessels can float. The London
+                    or Wapping Docks arc of nearly the same extent. The St Catherine’s Docks,
+                    finished in 1828, can accommodate annually 1400 vessels; and, being near the
+                    centre of the trading establishments, are found of vast benefit. The East India
+                    Docks are more than thirty acres; and near them is a dock belonging to private
+                    individuals (Messrs Wigram and Green), of nearly twenty acres, where the
+                    business of shipbuilding is carried on upon a scale which exceeds that of most
+                    of the establishments of the governments of Europe.</p>
+                <p part="N">The most remarkable edifices of this county are more properly described
+                    under the articles <hi rend="smallcaps">London</hi> and <hi rend="smallcaps"
+                        >Westminster</hi> in this work. Beyond the limits of these cities may be
+                    noticed the· palaces of Hampton Court and Kensington; the Hospital of Chelsea,
+                    for invalid soldiers; the Royal Military Asylum; the bridges of Staines,
+                    Vauxhall, and Waterloo; Middlesex Hospital; St George’s Hospital; Jews’
+                    Hospital; and Harrow School. The number of other erections, of a second and
+                    third order, are too numerous for recapitulation.</p>
+                <p part="N">The changes of property have been so rapid in this county, and the taste
+                    for substituting fashionable novelty in the room of venerable antiquity has been
+                    so prevalent, that very few first-rate seats are to be found, but a vast number
+                    of second and third-rate houses, which, if removed from the vicinity of the
+                    metropolis, would attract considerable notice. The most remarkable residences
+                    are, Bently Priory, Marquis of Abercorn; Bushy Park, the residence of his
+                    present majesty when Duke of Clarence; Caenwood, Earl of Mansfield; Chiswick
+                    House, Duke of Devonshire; Fulham Palace, Bishop of London; Holland House, Lord
+                    Holland; Littleton, Thomas Wood, Esq.; Osterley House, Earl of Jersey; Sion
+                    House, Duke of Northumberland; Strawberry Hill, Countess of Waldegrave; Wrothauι
+                    Park, George Byng, Esq.; Harrow, Lord Northwick; and Sion Hill, Duke of
+                    Marlborough.</p>
+                <p part="N">(See Middleton’s <hi rend="italic">View of the Agriculture of
+                        Middlesex·,</hi> and Brayley’s <hi rend="italic">Beauties of England and
+                        Wales.)</hi><hi rend="smallcaps">Middlesex</hi> is also the name of four
+                    different counties in the United States of America, one of which is in
+                    Massachusetts, another in Connecticut, a third in New Jersey, and the fourth in
+                    Virginia.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,2794 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0706-3646-0511-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">CHESS</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:833880">Blacks</term>
+                    <term ref="fast:833576">Black</term>
+                    <term ref="fast:937529">Games</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:833378">Bishops</term>
+                    <term ref="fast:852695">Checks</term>
+                    <term ref="fast:1085637">Queens</term>
+                    <term ref="fast:853777">Chess</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4ks6j808">Gaming</term>
+                    <term ref="lcsh1910:b42r3nw89">Games</term>
+                    <term ref="lcsh1910:b42804z62">Bishops</term>
+                    <term ref="lcsh1910:b40z70z6b">Clubs</term>
+                    <term ref="lcsh1910:b45717v01">Saracens</term>
+                    <term ref="lcsh1910:b41n7xn18">Checks</term>
+                    <term ref="lcsh1910:b41r6n577">Queens</term>
+                    <term ref="lcsh1910:b4pk07359">Chess</term>
+                    <term ref="lcsh1910:b47m04609">Power</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1210276">India</term>
+                    <term ref="fast:1204537">Sweden</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193353646?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">CHESS</label>,</p>
+                <p part="N">A <hi rend="smallcaps">very</hi> ancient and ingenious game, performed
+                    by two persons, with thirty-two pieces of wood or ivory called men, on a square
+                    board divided into sixty-four equal squares, usually stained black and white
+                    alternately. Each player has sixteen men, those of the one player being usually
+                    black, and those of the other white, in order to distinguish them.</p>
+                <p part="N">Of the sixteen men on either side, eight are called <hi rend="italic"
+                        >Pieces,</hi> and eight <hi rend="italic">Pawns.</hi> The eight pieces
+                    consist of a <hi rend="italic">King,</hi> a <hi rend="italic">Queen,</hi> two
+                        <hi rend="italic">Castles</hi> or <hi rend="italic">Rooks,</hi> two <hi
+                        rend="italic">Bishops,</hi> and two <hi rend="italic">Knights.</hi></p>
+                <p part="N">The men may be thus represented:</p>
+                <p part="N">The following diagram represents the board, with the men as placed on it
+                    when a game is to be played:</p>
+                <p part="N">Each row of squares running from the bottom to the top of the board is
+                    called a <hi rend="italic">file.</hi> Each row of squares running from side to
+                    side is called a <hi rend="italic">rank</hi> or <hi rend="italic">line.</hi>
+                    Four lines of squares belong to the black men, and four to the white. A row of
+                    squares running obliquely from one side of the board to the other is called a
+                        <hi rend="italic">diagonal.</hi> A diagonal consists either wholly of black
+                    squares or wholly of white.</p>
+                <p part="N">The board must be so placed between the two players, that each of them
+                    may have a white corner at his right hand. This manner of placing the board,
+                    though not essential to the game, is invariably observed.</p>
+                <p part="N">The eight pieces are ranked up on the first line of the board next each
+                    player, according to the following distribution: The two rooks occupy the two
+                    lateral squares which form the angles of the board; the two knights occupy the
+                    squares next to the rooks; the two bishops are next to the knights; and the king
+                    and queen occupy each of them one of the two centre squares of the line, <hi
+                        rend="italic">the queen being upon a square of her own colour.</hi><note
+                        anchored="true" place="bottom" type="authorial"><p part="N">Sequitur regina
+                            colorem.</p></note> It follows, that when the pieces are properly
+                    placed, the white king will be found occupying the square to the right, and the
+                    black king the square to the left, each of his respective queen.</p>
+                <p part="N">The pieces on the king’s side of the line are called the king’s bishop,
+                    the king’s knight, and the king’s rook. Those on the queen’s side are called the
+                    queen’s bishop, the queen’s knight, and the queen’s rook.</p>
+                <p part="N">The eight pawns are ranked up on the second line of squares, and take
+                    their denomination from the several pieces before -which they are respectively
+                    placed. Thus, the pawn in the square in front of the king is called the king’s
+                    pawn, the one in front of the queen is called the queen’s pawn, and so on with
+                    the rest, as king’s bishop’s pawn, queen’s bishop’s pawn, king’s knight's pawn,
+                    queen’s knight’s pawn, king’s rook’s pawn, queen’s rook’s pawn.</p>
+                <p part="N">In like manner the <hi rend="italic">squares</hi> of the board take
+                    their denomination from the several pieces. The square occupied by the king at
+                    the beginning of the game is called the king’s square, the one occupied by the
+                    queen the queen’s square, and so on. The square immediately in front of the
+                    king’s square is called the king’s second square, the one in front of his second
+                    square is his third square, and the one in front of his third is his fourth
+                    square. The eight pieces of each of the two players have thus their respective
+                    squares, and second, third, and fourth squares, exhausting among them the whole
+                    sixty-four squares of the board. For the sake of clearness, however, it is
+                    sometimes convenient to carry the numeration into the adverse side of the board.
+                    Thus, the square in front of the king’s fourth is sometimes called his <hi
+                        rend="italic">fifth</hi> square, and so on to the eighth square, which of
+                    course is the adverse king’s square.</p>
+                <p part="N">The <hi rend="italic">pawn</hi> moves straight forward on its own file,
+                    one square at a time, except at first setting off, when, in the option of the
+                    player, it may move two squares at once. For example, if it be proposed to move
+                    the king’s, pawn, which stands on its own square, being the king’s second
+                    square, it may be moved either to the king’s third or to his fourth square, but
+                    afterwards it can be moved forward only one square at a time.</p>
+                <p part="N">The pawn, although it moves straight forward, attacks and captures its
+                    adversaries diagonally or obliquely. Thus suppose a white pawn to be on its
+                    king’s fourth square, and a black pawn to be also on its king’s fourth square,
+                    the one pawn cannot attack and take the other; on the contrary, the one stops
+                    the other in its progress onward. But suppose the black pawn to be on its
+                    queen’s fourth square, then the white pawn can attack and take the black pawn.
+                    This is done by removing the black pawn from the board, and advancing the white
+                    pawn obliquely, and placing it on the square left vacant by the removal of the
+                    black pawn; that is to say, the white pawn is removed from its own king’s fourth
+                    square, and placed on the adverse queen’s fourth square. It still retains the
+                    name of the king’s pawn. When this pawn has again occasion to move, it goes
+                    straight forward on its new file, unless it should avail itself of another
+                    opportunity of making a capture, when it again passes obliquely to a square in
+                    another file. When a pawn has arrived at the eighth or last square of the file,
+                    it loses its character of a pawn, and may be converted into any piece, <pb
+                        break="no" facs="nls:193353659?mode=fullsize" xml:id="kp-eb0706-3659-0512"/>
+                    except the king, that the player chooses. He is said to <hi rend="italic"
+                        >queen</hi> his pawn when he carries it up to the ultimate square.</p>
+                <p part="N">The <hi rend="italic">hnight</hi> moves in a manner somewhat difficult
+                    to be described. It leaps obliquely over an adjoining square to one of the next
+                    squares, having a colour different from the colour of the square which it
+                    leaves. For example, let the king’s knight be on its own square; it may be moved
+                    to the king’s second square, to the king’s bishop’s third square, or to the
+                    king’s rook’s third square; or, supposing it to be-standing on its king’s fourth
+                    square, it may be moved to the king’s knight’s third square, or to the king’s
+                    bishop's second square, or to the queen’s second square, or to the queen’s
+                    bishop’s third square, or to the adverse queen’s bishop’s fourth square, or to
+                    the adverse queen’s third square, or to the adverse king’s bishop’s third
+                    square. On turning to the diagram, the reader will be able easily to follow and
+                    understand this description of the knight’s move. It is the only piece that is
+                    allowed to move <hi rend="italic">over</hi> another.</p>
+                <p part="N">The <hi rend="italic">bishop</hi> moves diagonally forward or backward
+                    any number of squares at a time, provided the course be open, by being free of
+                    other men. A bishop must necessarily continue to move over squares of a colour
+                    the same with that on which it was originally placed. The one bishop always
+                    moves upon black diagonals, the other upon white.</p>
+                <p part="N">The <hi rend="italic">rook</hi> or <hi rend="italic">castle</hi> moves
+                    straight forward, straight backward, or straight across, any number of squares
+                    at a time, provided the intermediate squares be unoccupied by other men; that is
+                    to say, a rook moves either upon <hi rend="italic">files</hi> or upon <hi
+                        rend="italic">lines.</hi></p>
+                <p part="N">The <hi rend="italic">queen</hi> can move either like a rook or like a
+                    bishop.</p>
+                <p part="N">The Λύψ can move one square only at a time, and that backwards, or
+                    forwards, or sidewise, or obliquely. He can also, once in the course of a game,
+                    make the singular move called <hi rend="italic">castling.</hi> Castling usually
+                    takes place for the double purpose of removing the king into a more secure
+                    situation, and of bringing a castle more into play; and it may be done either on
+                    the king’s side of the board or on the queen’s. When it is done on the king's
+                    side, the king and his rook are simultaneously lifted from their respective
+                    squares, and placed, the king on his knight’s square, the rook on the bishop’s.
+                    When it is done on the queen’s side, the king and the queen’s rook are lifted
+                    from their squares, and placed, the king on the queen’s bishop’s square, the
+                    rook on the queen’s.</p>
+                <p part="N">The adverse kings cannot approach each other so as to be on conterminous
+                    squares. One square at least must intervene between them. The reasen of this
+                    obviously is, that if one king were to come to a square adjoining that occupied
+                    by the other, he would be within the range of his attack.<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">In <hi rend="italic">11 Giuοcο
+                                Incomparable Degli Scacclã,</hi> this reason is given :—“<hi
+                                rend="italic">Non bene</hi><hi rend="italic">conveniunt, nec</hi><hi
+                                rend="italic">in</hi><hi rend="italic">una sede morantur Majestas,
+                                et Amor.</hi></p></note></p>
+                <p part="N">All the <hi rend="italic">pieces</hi> (it is otherwise with the pawns)
+                        <hi rend="italic">take</hi> in the direction in which they move. The manner
+                    of taking is to place the attacking piece on the square of the piece or pawn
+                    captured, the captured piece being removed from the board. A player, however, is
+                    not obliged to take a piece or pawn under attack and subject to capture. He may
+                    take it or not as he thinks fit.</p>
+                <p part="N">The principal technical terms made use of in chessplaying will now be
+                    explained.</p>
+                <p part="N"><hi rend="smallcaps">Castling.</hi> —This has been treated of
+                    already.</p>
+                <p part="N"><hi rend="smallcaps">Check.</hi> —When an attack is made upon a king by
+                    any piece oŗ pawn, he is said to be <hi rend="italic">cheched.</hi> This will be
+                    best understood from a practical illustration. Let your king be upon his own
+                    square, and let your adversary play his queen to his king’s second square. If
+                    there be no piece or pawn on any of the squares which separate the king and
+                    queen, your king is directly exposed to the action of the queen, and is said to
+                    be <hi rend="italic">checked</hi> by her. The check is to be got the better of
+                    by capturing the queen, if she happen to be within the range of any of your men,
+                    or by interposing some piece between your king and the attacking queen, or by
+                    moving the king to another square beyond the scope of her action.</p>
+                <p part="N"><hi rend="smallcaps">Check by Discovery,</hi> or <hi rend="smallcaps"
+                        >Discovered Check.</hi> —This takes place when the removal of an interposed
+                    piece opens up a check from another piece. For example, let your king be on his
+                    own square, and the adverse queen on her king’s second square, and let all the
+                    intermediate squares of the file be vacant, except the adverse king’s third,
+                    upon which third square his queen’s bishop happens to be placed. It is evident
+                    that the interposition of this bishop covers or protects your king from the
+                    action of his queen. But if your adversary should play away his bishop from his
+                    king’s third square, your king would be instantly exposed to the action of the
+                    queen; and this is called <hi rend="italic">check by discovery,</hi> or <hi
+                        rend="italic">discovered clιech.</hi><hi rend="smallcaps">Check-mate.</hi>
+                    —The object of the game is to give checkmate. When the king is so assaulted and
+                    beset that he cannot move out of check, nor take the piece or pawn that checks
+                    him, nor interpose any man for his protection, he is <hi rend="italic"
+                        >check-mated</hi><hi rend="italic">;</hi> and the party giving the
+                    check-mate wins the game.</p>
+                <p part="N"><hi rend="smallcaps">Stale-mate.</hi> —When the king is <hi
+                        rend="italic">not</hi> in check, but yet is so circumstanced that he cannot
+                    move without going into check, and when, at the same time, all his men are
+                    cither off the board, or in such a situation that none of them can move, he is
+                    said to be <hi rend="italic">stale-mated.</hi> When stalemate is given, the game
+                    is held to be drawn.</p>
+                <p part="N"><hi rend="smallcaps">Drawn Game.</hi> —A game is said to be drawn, when
+                    neither party can give check-mate to the other. This happens, Hr, where
+                    perpetual cheek is given to the adverse king without the possibility of his
+                    averting it; <hi rend="italic">%dly,</hi> where the force left on the board is
+                    not sufficient to give check-mate; <hi rend="italic">⅛dly,</hi> where the force
+                    left being sufficient, the party possessing it is unacquainted with the method
+                    of giving check-mate in fifty moves, as required by the laws;<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">See Art. xxii.
+                            of the Laws.</p></note><hi rend="italic">Athly,</hi> where both parties
+                    stand on the defensive, neither of them being inclined to hazard an attack; and,
+                        <hi rend="italic">5thly,</hi> where one of the kings is stale-mated.</p>
+                <p part="N"><hi rend="smallcaps">Doubled Pawn.</hi> —A pawn is said to be doubled,
+                    when, by having made a capture, it has passed from its own file to another file,
+                    already possessing a pawn on some other square.</p>
+                <p part="N"><hi rend="smallcaps">Passed Pawn.—</hi> A pawn is said to be passed,
+                    when there is no adverse pawn to oppose its march to queen, nor any adverse
+                    pawns on the two adjacent files; or, if there be hostile pawns on the adjacent
+                    files, when it has already passed them.</p>
+                <p part="N"><hi rend="smallcaps">• En</hi><hi rend="smallcaps">Passant.</hi> —In
+                    explaining the pawn’s moves, it was stated, that at first setting off a pawn may
+                    be played two squares at once. This statement, however, is subject to
+                    qualification. Suppose your king’s pawn to be upon its own square, and your
+                    adversary to have a pawn on your queen’s fourth square, it is evident that you
+                    cannot play your king’s pawn two squares without passing over a square exposed
+                    to the action of your adversary’s pawn, the square so exposed being your king’s
+                    third. Now, your adversary is entitled to arrest, as it were, your pawn in its
+                    passage over that square, and to capture it. <hi rend="italic smallcaps">
+                        You</hi> play your pawn from king’s second to king’s fourth; <hi
+                        rend="italic">he</hi><pb break="no" facs="nls:193353672?mode=fullsize"
+                        xml:id="kp-eb0706-3672-0513"/>lifts it up, and moves his own pawn obliquely
+                    from your queen's fourth square to your king’s third; and this operation is
+                    called taking your pawn <hi rend="italic">en</hi><hi rend="italic">passant.</hi>
+                    He may take it, however, or let it alone, just as he likes.</p>
+                <p part="N"><hi rend="smallcaps">En</hi><hi rend="smallcaps">Prise.</hi> —When a
+                    piece or pawn is liable to be taken by another, it is said to be <hi
+                        rend="italic">en</hi><hi rend="italic">prise of</hi> that other.</p>
+                <p part="N"><hi rend="smallcaps">Minor Pieces.</hi> —Knights and bishops are called
+                    minor pieces, because they are of less value than the other pieces.</p>
+                <p part="N">To <hi rend="smallcaps">Gain the Exchange or Difference.</hi> —When a
+                    player wins his adversary’s rook, in exchange for his own knight or bishop, he
+                    is said <hi rend="italic">to gain the exchange.</hi> In the Edinburgh Cheşs Club
+                    the expression used is, to <hi rend="italic">gain the difference.</hi><hi
+                        rend="smallcaps">Gambit.</hi> —This is a peculiar opening of a game, where a
+                    player sacrifices a pawn or piece, in order to remove the adverse king’s pawn
+                    from its fourth square, and thus be the better enabled to make an attack.
+                    Examples of it will be given hereafter, from which its nature will be much more
+                    easily understood than from any general description or definition.</p>
+                <p part="N"><hi rend="italic">Relative</hi><hi rend="italic">Value of the
+                        Pieces.</hi><hi rend="smallcaps">King.</hi> —As the king can never be taken,
+                    and as the very existence of the game depends upon him, he can, of course, have
+                    no relative value. But his power both of attack and defence being considerable,
+                    he should be brought forward to action as soon as the more powerful pieces,
+                    particularly the queen, are off the board.</p>
+                <p part="N"><hi rend="smallcaps">Queen.</hi> —The queen is the most powerful of all
+                    the pieces, being worth two rooks and a pawn. Towards the end of a game, when
+                    the board has become more open for the action of the rooks, her relative value
+                    is lessened a little, and she is then worth two rooks only. Properly speaking,
+                    however, this arises not from any diminution of power upon her part, but from an
+                    increase of power on the part of the rooks.</p>
+                <p part="N"><hi rend="smallcaps">Rook.</hi> —The rook is next in value to the queen,
+                    and is reckoned equal to a minor piece and two pawns, or to five pawns. A rook
+                    increases in power of action as the board gets clear of other pieces and pawns;
+                    and it is the only piece except the queen that can give check-mate with no other
+                    assistance than its own king.</p>
+                <p part="N"><hi rend="smallcaps">Bishop.</hi> —The bishop is worth more than three
+                    pawns, and less than four. It is reckoned of equal value with a knight. At the
+                    beginning of a game the king’s bishop is more serviceable for attack than the
+                    queen’s. Two bishops, with the assistance of the king, can give check-mate.</p>
+                <p part="N"><hi rend="smallcaps">Knight.</hi> —The knight, like the bishop, is worth
+                    more than three pawns, but less than four. It is distinguished by these two
+                    peculiarities: Is/, It is never <hi rend="italic">en</hi><hi rend="italic"
+                        >prise,</hi> of the piece that it attacks, except when it attacks another
+                    knight; and, <hi rend="italic">2dly,</hi> the piece attacked cannot get the
+                    better of the attack by the interposition of a third piece, but must itself move
+                    to another square. Two knights, with the assistance of the king, <hi
+                        rend="italic">cannot</hi> give check-mate. A knight and bishop <hi
+                        rend="italic">can.</hi></p>
+                <p part="N">It is usual with writers on chess to give a great many <hi rend="italic"
+                        >general</hi> instructions as to the mode of opening and conducting a game;
+                    but as such general instructions are of little or no practical use, we shall
+                    withhold them entirely, in order to make room for a few examples of the game, by
+                    going over which with the aid of a board and men, the reader will become much
+                    better acquainted with chessplaying, than if lie were to peruse whole volumes of
+                    general observations.</p>
+                <p part="N">The following are the laws usually observed in this country in playing
+                    the game:</p>
+                <p part="N">1. The chess-board must be placed in such a manner that each player may
+                    have a white square corner on his right hand. If the board be improperly placed,
+                    and the mistake not discovered till after four moves have been played on each
+                    side, it must remain as it is till the end of the game.</p>
+                <p part="N">2. If the pieces or pawns be improperly placed, the player who first
+                    perceives it may insist on the mistake’s being rectified, provided four moves on
+                    each side have not been played.</p>
+                <p part="N">3. If a player begin a game without having all his pieces, and if he do
+                    not perceive it until the fourth move has been played, he must finish the game
+                    without the pieces or pawns which he has forgotten.</p>
+                <p part="N">4. When the game is played <hi rend="italic">even,</hi> the players must
+                    draw lots for the first move; after the <hi rend="italic">first</hi> game the
+                    move belongs alternately to each player.<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">In Germany he who wins the game has the
+                            advantage of playing first the next game.</p></note></p>
+                <p part="N">5. The player who gives odds has always the advantage of the move;
+                    except, of course, in those games where the move is also given to the inferior
+                    player; such, for example, as the <hi rend="italic">pawn and move,</hi>
+                    &amp;c.</p>
+                <p part="N">6. When a player has <hi rend="italic">touched</hi> a piece he must
+                    wzore it. <hi rend="italic">N. Ľ.</hi><hi rend="italic">—</hi> If a piece be not
+                    placed exactly in the centre of its square, or if it should fall, the player
+                    must say <hi rend="italic">Radoube</hi> in placing it properly, else his
+                    adversary <hi rend="superscript"> 7</hi> may compel him to play it.</p>
+                <p part="N">7. As long as a player holds a piece, he is at liberty to play it where
+                    he chooses; but when he has <hi rend="italic">let it go,</hi> he cannot recal
+                    his move.</p>
+                <p part="N">8. If a player <hi rend="italic">touch</hi> one of his adversary’s
+                    pieces without saying· <hi rend="italic">J'adoube,</hi> he may be compelled to
+                    take it; if the piece cannot be taken, the player must move his king; and if
+                    neither the piece nor the king can be moved, no penalty shall be inflicted.</p>
+                <p part="N">9. If a player should, by mistake, play one of his adversary’s pieces
+                    instead of his own, his adversary may compel him either to take it, if it can be
+                    taken, to replace it where it was, or to let it remain where he played it.</p>
+                <p part="N">10. If a player take one of his adversary’s pieces with a piece that
+                    cannot take it without a false move, his adversary may compel him either to take
+                    it with any other piece, or to play the piece which he has touched.</p>
+                <p part="N">11. If a player take one of his pieces with another of his own, his
+                    adversary may oblige him to play either of the two pieces.</p>
+                <p part="N">12. If a player make a false move, his adversary may oblige him to let
+                    the piece remain where he played it; or to play it to some other square; or to
+                    replace the piece where it previously was, and to play the king instead of
+                    it.</p>
+                <p part="N">13. If a player should play two successive moves, it is in his
+                    adversary’s power to oblige him to put back the <hi rend="italic">second</hi>
+                    move; or, if he choose it, he may insist on continuing the game, as if only <hi
+                        rend="italic">one</hi> move had been played.</p>
+                <p part="N">14. A pawn that is pushed two squares may be taken <hi rend="italic">en
+                        passant,</hi> by the adversary’s pawn.<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">This is not the case in Italy; a pawn is
+                            allowed to pass <hi rend="italic">en</hi><hi rend="italic">prise,</hi>
+                            which is called <hi rend="italic">j&gt;assar
+                    battaglia.</hi></p></note></p>
+                <p part="N">15. The king cannot castle: Is/, If he has moved; <hi rend="italic"
+                        >2dly,</hi> if he be in check; <hi rend="italic">3dly,</hi> if any of the
+                    squares over which he moves in castling be occupied by or under the power of one
+                    of his adversary’s pieces; and, <hi rend="italic">⅛tkly,</hi> if the rook has
+                    moved. A player who castles in either of these <hi rend="italic">four</hi><pb
+                        break="no" facs="nls:193353685?mode=fullsize" xml:id="kp-eb0706-3685-0514"
+                    />cases must put back the move; and his adversary has the option of compelling
+                    him to play either the king or the rook with which he intended to castlc.</p>
+                <p part="N">16. If a player touch one of his pieces which cannot be moved without
+                    placing his king in check, he must play his king; and if the king cannot move,
+                    no penalty is to be inflicted.</p>
+                <p part="N">17. Whenever a player attacks his adversary’s king, he must say <hi
+                        rend="italic">check</hi><hi rend="italic">;</hi> and if he forget to say it,
+                    the adversary needs not move his king, or take notice of the check; and if the
+                    player who did not say <hi rend="italic">check,</hi> should, on the next move,
+                    attack the queen, or any of his adversary’s pieces, and say <hi rend="italic"
+                        >check,</hi> the player whose king is in check may put back his last move,
+                    and, instead of it, remove his king, or cover the check.</p>
+                <p part="N">18. If the king have been in check during two or more moves, and it be
+                    not possible to ascertain how it happened, he whose king is in check may, as
+                    soon as he perceives it, put back his last move, and remove his king, or cover
+                    the check.</p>
+                <p part="N">19. If a player say <hi rend="italic">check</hi> without giving check,
+                    and his adversary should in consequence move his king, or touch any piece to
+                    cover the check, and should afterwards perceive that he is <hi rend="italic">not
+                        in check,</hi> he may put back his last move, provided his opponent have not
+                    already played his next move.</p>
+                <p part="N">20. If a player has moved previously to perceiving a false move, or any
+                    other mistake which his adversary may have committed, he can no longer insist on
+                    the penalty: he should have noticed the mistake before he <hi rend="italic"
+                        >moved</hi> or <hi rend="italic">even touched</hi> a piece.</p>
+                <p part="N">21. When a player has pushed a pawn <hi rend="italic">to queen,</hi> he
+                    is at liberty to make a <hi rend="italic">second queen,</hi> a <hi rend="italic"
+                        >third rook,</hi> or any other piece which he may deem more useful for his
+                    attack or defence.</p>
+                <p part="N">22. At the end of a game, when a player remains with a rook and a bishop
+                    against a rook, with both bishops, or with a knight and bishop, against the
+                    king, &amp;c. if he cannot check-mate his adversary in <hi rend="italic"
+                        >fifty</hi> moves, the game shall be considered as a drawn game.</p>
+                <p part="N">But if a player engage to check-mate his adversary with a marked pawn,
+                    or with any particular piece, the number of moves is then unlimited.</p>
+                <p part="N">23. If the king be <hi rend="italic">stale-mated,</hi> the game is a <hi
+                        rend="italic">drawn game.</hi><hi rend="italic">Explanation of the
+                        Abbreviated Terms made use of in the Notation of the Games.</hi></p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p part="N">K. signifies King or
+                                King’s.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Q. ...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Queen or Queen’s</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">R. ...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Rook or Rook’s.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">B. ...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Bishop or
+                            Bishop’s.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Kt. ...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Knight or
+                            Knight’s.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">P.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Pawn or Pawn’s.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Sq.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Square.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Adv. ...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Adverse or
+                            Adversary’s.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Chg. ...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Checking.</p></cell>
+                    </row>
+                </table>
+                <p part="N"><hi rend="italic">First Game</hi><hi rend="italic">Of</hi> the match
+                    between the London and Edinburgh Chess Clubs. White represents the Edinburgh
+                    side, black the London.</p>
+                <table cols="2" rows="36">
+                    <row cols="1" role="label" rows="1">
+                        <cell cols="1" role="data" rows="1"> White. </cell>
+                        <cell cols="1" role="data" rows="1"> Black. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. K. P. two squares. </cell>
+                        <cell cols="1" role="data" rows="1"> 1. K. P. two squares. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. K. B. to Q. ß. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 2. K. B. to Q. B. 4th sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. Q. B. P. one sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 3. Q. to K. 2d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. K. Kt. to K. B. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 4. Q. P. one sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. Q. P. one sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 5. K. Kt. to K. B. 3d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. Q. to K. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 6. King castles. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. Q. B. to adv. K. Kt. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 7. K. R. P. one sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. Q. B. to K. R. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 8. Q. B. to K. 3d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. K. B. to Q. Kt. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 9. B. takes B. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. Q. R. P. takes B. </cell>
+                        <cell cols="1" role="data" rows="1"> 10. Q. Kt. to Q. B. 3d <hi
+                                rend="subscript"> sq</hi></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 11. Q. Kt. to Q. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> I1. Q∙ to K. 3d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 12. P. to Q. Kt. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 12. K. B. to Q. Kt. 3d so </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 13. Q. B. takes Kt. </cell>
+                        <cell cols="1" role="data" rows="1"> 13. Q. takes B. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 14. Q. Kt. to Q. B. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 14. Q. to K. 3d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 15. K. Kt. to K. R. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 15. Q. Kt. to K. 2d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 16. K. Kt. P. two sqrs. </cell>
+                        <cell cols="1" role="data" rows="1"> 16. Kt. to K. Kt. 3d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 17. K. Kt. takes Kt. </cell>
+                        <cell cols="1" role="data" rows="1"> 17. K. B. P. takes Kt. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 18. K. castles with K. R. </cell>
+                        <cell cols="1" role="data" rows="1"> 18. K. R. to adv. K. B. 4th sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 19. K. R. P. one sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 19. Q. R. to K. B. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 20. Kt. takes B. </cell>
+                        <cell cols="1" role="data" rows="1"> 20. Q. R. P. takes Kt. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 21. K. B. P. one sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 21. Q. to K. B. 3d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 22. K. to K. Kt. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 22. Q. B. P. one sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 23. K. R. to K. B. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 23. P.,to Q. Kt. 4th sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 24. Q. to K. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 24. K. R. P. one sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 25. K. to K. Kt. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 25. Q. to K. Kt. 4th sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 26. Q. R. to K. sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 26. K. to K. R. 2d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 27. Q. to K. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 27. R. to K. R. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 28. Q. to K. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 28. K. to K. Kt. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 29. R. to K. R. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 29. K. R. P. takes P. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 30. K. R. P. takes P. </cell>
+                        <cell cols="1" role="data" rows="1"> 30. R. takes K. B. P. dig. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 31. K. takes R. </cell>
+                        <cell cols="1" role="data" rows="1"> 31. Q. takes Q. chg. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 32. K. takes Q. </cell>
+                        <cell cols="1" role="data" rows="1"> 32. R. takes R. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 33. R. to Q. R. sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 33. R. to adv. K. R. 3d so. chg.
+                        </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 34. K. to K. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 34. R. to adv. K. R. 2d sq. clιg.
+                        </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 35. K. to K. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 35. K. to adv. K. R. 3d sq. chg.
+                        </cell>
+                    </row>
+                </table>
+                <p part="N">The game was here declared to be drawn.</p>
+                <p part="N">As this game happened to be drawn, we shall give a variation of it, in
+                    order to make it terminate with a checkmate. Supposing white to have played, for
+                    its 26th move, K. R. P. one square, instead of Q. R. to K. sq. the following
+                    would probably have been the train of moves:</p>
+                <table cols="2" rows="7">
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 26. K. R. P. one sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 26. K. R. takes K. Kt. P. chg. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 27. K. B. P. takes R. </cell>
+                        <cell cols="1" role="data" rows="1"> 27. Q. takes Q. chg. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 28. K. to his Kt. 2d. </cell>
+                        <cell cols="1" role="data" rows="1"> 28. R. takes K. R. chg. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 29. K. to his It. sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 29, <hi rend="smallcaps">q i-</hi><hi
+                                rend="subscript smallcaps"> 0 ad</hi><hi rend="smallcaps">.</hi> p
+                                <hi rend="subscript"> - 3d</hi> chg. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 30. K. to his Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 30. Q. t <hi rend="subscript"> 0 a</hi>
+                            d. K. Kt. 2d so. orto ad. K. R. 2d sq. giving check-mate. </cell>
+                    </row>
+                </table>
+                <p part="N"><hi rend="italic">Second Game.—(Frοm Greco.)</hi></p>
+                <table cols="2" rows="17">
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. K. P. two squares. </cell>
+                        <cell cols="1" role="data" rows="1"> 1. K. P. two squares. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. K. Kt. to K. B 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 2. Q. P. one sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. K. B. to Q. B. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 3 <hi rend="subscript"> q β t0
+                            a(k</hi>; <hi rend="subscript"> κ Kŧ 4th</hi></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. K. R. P. one sq, </cell>
+                        <cell cols="1" role="data" rows="1"> 4. Q. B. to K. R. 4th sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> S' ŋ <hi rend="superscript"> Ρ</hi> ·
+                            θ’ <hi rend="superscript"> 16</hi><hi rend="superscript"> sφ</hi></cell>
+                        <cell cols="1" role="data" rows="1"><hi rend="superscript"> 5</hi> * <hi
+                                rend="superscript"> K</hi> · <hi rend="superscript"> Kt</hi>- <hi
+                                rend="superscript"> t0 K</hi> · <hi rend="superscript"> B</hi> · <hi
+                                rend="superscript"> 3(1 S</hi> T </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. Q.P.onesq. </cell>
+                        <cell cols="1" role="data" rows="1"><hi rend="subscript"> g</hi>, <hi
+                                rend="subscript"> K</hi>. B. to K. 2d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. Q. B. to K. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"><hi rend="subscript"> 7</hi>. <hi
+                                rend="subscript"> κ cagtles</hi>. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. K. Kt. P. two squares. </cell>
+                        <cell cols="1" role="data" rows="1"><hi rend="subscript"> 8&gt; q β ŧQ κ Kŧ
+                                3d</hi></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. K. Kt. to K. R. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"><hi rend="subscript"> 9- q b</hi> p <hi
+                                rend="subscript"> one</hi></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. K. Kt takes Q. B. </cell>
+                        <cell cols="1" role="data" rows="1"><hi rend="subscript"> 1</hi> θ <hi
+                                rend="subscript"> κ r p takes κ Kt</hi>. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 11. κ ‘ 1 nn% 1 </cell>
+                        <cell cols="1" role="data" rows="1"><hi rend="superscript"> 11</hi> ∙ <hi
+                                rend="superscript"> q</hi> * <hi rend="superscript"> Kl P</hi> · <hi
+                                rend="superscript"> two s</hi> Φ' <hi rend="superscript"> s</hi> ∙
+                        </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 12. K. B. to Q. Kt. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"><hi rend="subscript"> 12 q r p
+                            two</hi></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 13' S’ ŋ <hi rend="superscript">
+                                tw</hi> ° <hi rend="superscript"> sqrs,</hi></cell>
+                        <cell cols="1" role="data" rows="1"><hi rend="superscript"> 13</hi> ∙ Q∙ Kt∙
+                            P∙ one sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 14. ⅛=∙ Jl· <hi rend="superscript">
+                                p</hi> ∙ <hi rend="superscript"> one s</hi> T </cell>
+                        <cell cols="1" role="data" rows="1"> 14. P. takes K. R. P. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 15. K. Kt. P. one sq. </cell>
+                        <cell cols="1" role="data" rows="1"> l5 κ Rŧ&gt; tθ <hi rend="subscript">
+                                adv</hi>, K. Kt. 4th sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 16. K. R takes P </cell>
+                        <cell cols="1" role="data" rows="1"> 16. κ Kŧ&gt; takes q. <hi
+                                rend="subscript"> b</hi>. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 17. K. R. to adv. K. L. sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"> 17 r takes ĸ&gt; r. </cell>
+                    </row>
+                </table>
+                <pb break="no" facs="nls:193353698?mode=fullsize" xml:id="kp-eb0706-3698-0515"/>
+                <table cols="2" rows="5">
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> White. Black. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 18. Q. to ad. K. R. 4th sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"> 18. K. to K. Kt. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 19. K. Kt. P. one sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 19. K. R. to K. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 20. Q. to adv. K. R. 2d sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"> 20. K. to K. B. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"> 21. Q. to adv. K. R. sq. giving
+                            check-mate. </cell>
+                    </row>
+                </table>
+                <p part="N"><hi rend="italic">Third Game.</hi></p>
+                <p part="N">This is an example of the king’s gambit. It is from Phi-lidor, and is
+                    his seventh back-game on the first gambit.</p>
+                <table cols="2" rows="32">
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. K. P. two squares. 1. K. P. two
+                            squares. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. K. B. P. two sqrs. 2. K. P. takes K.
+                            B. P. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. K. Kt. to K. B. 3d sq. 3. K. Kt. P.
+                            two sqrs. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. K. B. to Q. B. 4th sq. 4. K. B. to
+                            K. Kt. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. K. R. P. two sqrs. 5. K. R. P. one
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. Q. P. two sqrs. 6. Q. P. one sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. Q. B. P. one sq, 7. Q. B. P. one sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. Q. to K. 2d sq. 8. Q. B. to K. 3d. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. K. B. takes Q. B. 9. K. B. P. takes
+                            B. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. K. P. one sq. 10. Q. P. takes K. P. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 11. Q. P. takes P. 11. Q. Kt. to Q. 2d
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 12. K. Kt. P. one sq. 12. K. Kt. P. one
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 13. K. Kt. P. takes P. 13. K. Kt. P.
+                            takes Kt. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 14. Q. takes P. 14. Q. to K. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 15. Q, Kt. to Q. 2d sq. ' 15. K.
+                            castles with Q. R. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 16. Q. Kt. P. two sqrs. 16. K. R. P.
+                            one sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 17. Q. Kt. to K. 4th sq. 17. Q. Kt. to
+                            Q. Kt. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 18. B. to K. 3d sq. 18. K. Kt. to K. R.
+                            3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 19. B. to ad. Q. B. 4th sq. 19. Q. to
+                            Q. B. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 20. Q. R. P. two sqrs. 20. K. B. to its
+                            own sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 21. Q. R. P. one sq. 21. B. takes B. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 22. P. takes B. 22. Q. Kt. to Q. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 23. Kt. to ad. Q. 3dsq. chg. 23. K. to
+                            Q. Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 24. Q. R. to Q. Kt. sq. 24. Q. Kt.
+                            takes P. at Q∙ B. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 25. Kt. takes Q. Kt. P. 25. Q. Kt.
+                            takes Kt. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 26. Q. R. P. one sq. 26. K. to Q. R.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 27. R. takes Kt. 27. Q. to Q. B. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 28. K. R. to K. R. 2d sq. 28. Q. R. to
+                            Q.’s 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 29. K. R. to Q. Kt. 2d sq. 29. K. R. to
+                            K. R. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 30. Q. takes Q. B. P. 30. Q. takes Q. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 31. Q. R. to ad. Q. Kt. sq. giving
+                            check-mate. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N"><hi rend="italic">Fourth Game.</hi></p>
+                <p part="N">This is an example of Cunningham’s gambit.</p>
+                <table cols="2" rows="13">
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. K. P. two sqrs. 1. K. P. two sqrs. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. K. B. P. two sqrs. 2. K. P. takes K.
+                            B. P. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. K. Kt. to K. B. 3d sq. 3. K. B. to
+                            K. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. K. B. to Q. B. 4 sq. 4. K. B. to ad.
+                            K. R. 4 chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. K. Kt. P. one sq. 5. P. takes P. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. K. castles. 6. K. P. takes ad. K. R.
+                            P. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. K. to K. R. sq. 7. K. B. to K. 2d
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. K. B. takes K. B. P. chg. 8. K.
+                            takes B. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. Kt. to ad. K. 4th sq. chg. 9. K. to
+                            his 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> and discovering check from R. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. Q. to K. Kt. 4th sq. chg. 10. K.
+                            takes Kt. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 11. Q. to ad. K. B.4th sq.chg. 11. K.
+                            to his Q. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 12. Q. to ad. Q. 4th sq. giving
+                            check-mate. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N"><hi rend="italic">Fifth Game.</hi></p>
+                <p part="N">This is an example of Salvio’s gambit.</p>
+                <table cols="2" rows="17">
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. K. P. two sqrs. 1. K. P. two sqrs. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. K. B. P. two sqrs. 2. K. P. takes P. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. K. Kt. to K. B. 3d sq. 3. K. Kt. P.
+                            two sqrs. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. K. B. to Q. B. 4th sq. 4. K. Kt. P.
+                            one sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. K. Kt. to adv. K. 4th sq. 5. Q. to
+                            ad. K. R. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. K. to his B.’s sq. 6. K. Kt. to K.
+                            B. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. K. B. takes K. B. P. chg. 7. K. to
+                            Q. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. Q. P. two sqrs. 8. K. Kt. takes K.
+                            P. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. Q. to K. 2d sq. 9. K. Kt. to∙ad, K.
+                            Kt. 3d </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. K. R. P. takes K. Kt. 10. Q. takes
+                            K. R. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 11. K. to his B.’s 2d. 11. P. takes P.
+                            chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 12. K. takes P. 12. Q. takes Q. B. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 13. K. Kt. to ad. Q. B. 3d. sq. 13. Kt.
+                            or P. takes K. Kt. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 14. Q. to ad. K. sq. giving check-mate. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N"><hi rend="italic">Sixth Game.</hi></p>
+                <p part="N">This is an example of the Muzio gambit. This mode of opening a game is
+                    at present very much practised among the leading chess-players in London.</p>
+                <table cols="2" rows="24">
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. K. P. two sqrs. 1. K. P. two sqrs. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. K. B. P. two sqrs. 2. P. takes P. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. K. Kt. to K. B. 3d sq. 3. K. Kt. P.
+                            two sqrs. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. K. B. to Q. B. 4th sq. 4. K. Kt. P.
+                            one sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. King castles. 5. P. takes Kt. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. Q. takes P. 6. Q. to K. B. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. K. P.-one sq. 7. Q. takes K. P. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. Q. P. one sq. 8. K. B. to K. R. 3d
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. Q. B. to Q. 2d sq. 9. K. Kt. to K.
+                            2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. Q. Kt. to B. 3d sq. 10. Q. B. P.
+                            one sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 11. Q. R. to K. sq. 11. Q. to Q. B. 4th
+                            sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 12. K. to his R.’s sq. 12. Q. P. two
+                            sqrs. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 13. Q. to ad. K. R.’s 4 sq. 13. Q. to
+                            her 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 14. K. B. takes P. 14. P. takes B. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 15. Kt. takes P. 15. Q. Kt. to B. 3d
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 16. Q. B. to Q. Kt. 4th. 16. Q. toK.
+                            Kt. 3d, offering </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> an exchange ofQueens. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 17. B. takes Kt. 17. If he should take
+                            Q. with </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Q., you give him check-mate by playing
+                            Kt. to ad. K. B. 3d sq.; taking B. with Kt. would be bad, therefore he
+                            plays B. to K. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 18. Q. to K. B. 3d. 18. Kt. takes B. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 19. Kt. to ad. Q. B. 2d. chg. 19. K. to
+                            Q. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 20. Kt. takes B. 20. P. takes Kt. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 21. Q. takes Q. Kt. P. chg. 21. K. to
+                            Q. 3. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 22. You may draw the game by constantly
+                            checking, and keeping adv. K. to Q. 2d or Q. 3d sq∙, neither of which
+                            squares he can quit without losing his knight, by which he would have
+                            the worst of the game. If not satisfied with a drawn game, you may at
+                            your 22d move play Q. B. P. two squares, having an excellent game. It
+                            would take up too much space for us to continue the analysis. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N"><hi rend="italic">Seventh Game.</hi></p>
+                <p part="N">This is an example of Damiano's gambit</p>
+                <table cols="1" rows="11">
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. K. P. two sq. 1. K. P. two sq.
+                        </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. K. Kt. to K. B. 3d sq. 2. K. B. P.
+                            one sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. K. Kt. takes K. P. 3. K. B. P. takes
+                            K. Kt. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. Q. toad.K. R.4thsq.chg. 4. K. to his
+                            2d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. Q. takes K. P. chg. 5. K. to K. B.
+                            2d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. K. B. to Q. B. 4th sq. chg. 6. K. to
+                            K. Kt. 3d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. Q. toad. Q. B. 4th sq.chg. 7. K. to
+                            K. R. 3d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. Q. P. two sqrs. chg. 8. K. Kt. P.
+                            two sqrs. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. K. R. P. two sqrs. 9. K. to K. Kt.
+                            2d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. Q. to ad. K. B. 2d sq. chg. 10. K.
+                            to K. R. 3d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 11. K. R. P. takes P. giving
+                            check-mate. </cell>
+                    </row>
+                </table>
+                <p part="N"><hi rend="italic">Eighth Game.</hi></p>
+                <p part="N">We shall conclude our examples by giving the fifth and last game of the
+                    match between the London and Edinburgh Chess Clubs. It is one of the most
+                    singular and inte-</p>
+                <p part="N">White. Black.</p>
+                <pb break="no" facs="nls:193353711?mode=fullsize" xml:id="kp-eb0706-3711-0516"/>
+                <p part="N">resting games on record. It is an example of what is called the “Queen’s
+                    Pawn Two” Game. The white men represent Edinburgh, the black London.</p>
+                <p part="N">White. Black.</p>
+                <table cols="2" rows="71">
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. K. P. two sqrs. 1. K. P. two sqrs. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. K. Kt. to K. B. 3d sq. 2. Q. Kt. to
+                            Q. B. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. Q. P. two sqrs. 3. Q. Kt. takes P. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. Kt. takes Kt. 4. P. takes Kt. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. Q. takes P. 5. K. Kt. to K. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. K. B. to Q. B. 4th sq. 6. Kt. to Q.
+                            B. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. Q. to adv. Q. 4th sq. 7. Q. to K. B.
+                            3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. Kt. to Q. B. 3d sq. 8. K. B. to ad.
+                            Q. Kt. 4th </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. Q. B. to Q. 2d sq. 9. Q. P. one sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. K. B. to adv. Q. Kt. 4th 10. Q. B.
+                            to Q. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 11. Q. to Q. B. 4th sq. IL K. B. to Q.
+                            B. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 12. K. castles with K. R. 12. K.
+                            castles with K. R. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 13. Q. to Q. 3d sq. 13. Kt. to K. 4th
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 14. Q. to K. Kt. 3d sq. 14. B. takes B. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 15. Kt. takes B. 15. Q. B. P. one sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 16. Kt. to Q. B. 3d sq. 16. Kt. to adv.
+                            Q. B. 4 sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 17. B. to adv. K. Kt. 4th sq. 17. Q. to
+                            K. Kt. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 18. Q. Kt. P. one sq. 18. K. B. P. one
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 19. B. to Q. B. sq. 19. Q. takes Q. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 20. K. R. P. takes Q. 20. B. to adv. Q.
+                            4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 21. P. takes Kt. 21. B. takes Kt. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 22. Q. R. to Q. Kt. sq. 22. Q. Kt. P.
+                            one sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 23. K. R. to Q. sq. 23. Q. R. to K. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 24. Q. R. to Q. Kt. 3d sq. 24. B. to Q.
+                            R. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 25. K. B. P. one sq. 25. K. B. P. one
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 26. P. takes P. 26. Q. R. to adv. K. 2d
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 27. P. to K. Kt. 4th sq. 27. R. takes
+                            Q. B. P. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 28. B. to K. B. 4th sq. 28. R. takes P.
+                            at ad. Q. B. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 29. B. takes Q. P. 29. K. R. to K. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 30. Q. R. to Q. R. 3d sq. 30. K. R. P
+                            one sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 31. B. to adv. Q. B. 2d sq. 31. K. R.
+                            to K. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 32. K. R. to adv. Q. sq. chg. 32. K. to
+                            K. R. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 33. R. to ad. Q. B. sq. 33. Q. R. to
+                            adv. Q. B. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 34. K. to K. R. 2d sq. 34. K. R. to
+                            adv. K. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 35. K. to K. R. 3d sq. 35. R. to adv.
+                            K. R. sq∙ chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 36. B. to K. R. 2d sq. 36. B. to adv.
+                            Q. B. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 37. P. to K. B. 4th sq. 37. B. to adv.
+                            Q. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 38. P. to K. Kt. 3d sq. 38. B. to Q. R.
+                            4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 39. Q. R. to K. 3d sq. 39. Q. R. to
+                            adv. Q. B.2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 40. P. to adv. K. Kt. 4th sq. 40. K. R.
+                            takes B. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4L K. to K. Kt. 4th sq. 41. K. R. P.
+                            one sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 42. K. to K. B. 3d sq. 42. K. R. to
+                            adv. K. B. 2d </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 43. K. to K. 4th sq. 43. K. Kt. P. one
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 44. R. toadv. Q.B.2dsq. chg. 44. K. to
+                            K.,Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 45. K. to ad. K. 4th sq. 45. Q. R. to
+                            Q. B. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 46. K. to adv. K. B. 3d sq. 46. Q. R.
+                            takes P. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 47. K. takes K. Kt. P. 47. R. to K. B.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 48. R. to adv. K. Kt. 2d sq. 48. K. to
+                            K. R. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> clι° ’ ∙ </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 49. K. to adv. K. R. 3d sq. 49. B. to
+                            adv. Q. Kt. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 50. Q. R. to adv. K. 3d sq. 50. Q. R.
+                            to K. B. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 51. K. R. to adv. K. R. 2d 51. K. to K.
+                            Kt. sq. . </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> sq. chġ. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 52. Q. R. to adv. K. Kt. 3d 52. K. to
+                            K. B. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> White. Black. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 53. Q. R. takes Q. B. P. 53. Q. R. to
+                            Q. B. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 54. Q. R. to adv. K. B. 3d sq. 54. K.
+                            to K. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 55. P. to adv. K. Kt. 3d sq. 55. Q. R.
+                            to adv. Q. B. 3dsq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 56. P. to K. Kt. 4th sq. 56. B. to K.
+                            B. sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 57. Q. R. takes B. chg. 57. K. takes R. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 58. P. to adv. K. Kt. 2d sq. 58. K. to
+                            K. B. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 69. R. to adv. K. R. sq. 59. R. to Q.
+                            B. 3d sq. chg. 60. K. to adv. K. R. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N">At this point the London Club resigned the game and lost the match.</p>
+                <p part="N">It is stated in the report of the match by the Edinburgh committee, that
+                    the match, which was played by correspondence, was begun on the 23d of April
+                    1824, and finished on the 31st of July 1828. The first and third games were
+                    drawn, the fourth was won by the London Club, and the second and fifth were won
+                    by the Edinburgh Club.</p>
+                <p part="N">METHODS OF GIVING CHECK-MATE.</p>
+                <p part="N">1. <hi rend="italic">With a Pooh and King against a King.</hi></p>
+                <table cols="2" rows="10">
+                    <head> Situation of the Pieces </head>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> King at adv. King’s 4th sq. King at his
+                            second sq. King’s Rook at its own sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. R. to ad. K. R. 2d sq. 1. K. to his
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. K. to ad. K. 3d šq. 2. K. to his Q.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. R. to ad. K. Kt. 2d sq. 3. K. to Q.
+                            B. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. K. to ad. Q. 3d sq. 4. K. to Q. Kt.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. K. to ad. Q. B. 3d sq. 5. K. to Q.
+                            R. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. K. to ad. Q. Kt. 3d sq. 6. K. to Q.
+                            Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. R. to ad. K. Kt. sq. giving
+                            check-mate. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N">2. <hi rend="italic">With two Bishops and a King against a
+                    King.</hi></p>
+                <table cols="2" rows="12">
+                    <head> Situation of the Pieces. </head>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> King at ad. Q. Kt. 4th sq. King at Q.
+                            Kt.’s sq. K. B. at ad. K. B. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Q. B. at ad. King’s 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. Q. B. to ad. Q. 3d sq. 1. K. to Q.
+                            Kt. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. K. B. to ad. Q. 2d sq. 2. K. to Q.
+                            R. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. K. B. to ad. Q. B. sq. 3. K. to Q.
+                            R. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. K. to ad. Q. B. 3d sq. 4. K. to Q∙
+                            R. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. K. to ad. Q. B. 2d sq. 5. K. to Q.
+                            R. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. K. B. to ad. K. Kt. 2d 6. K. to Q.
+                            R. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. Q. B. to ad. Q. B. 4tb sq. giving
+                            check-mate. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N">3. <hi rend="italic">With a Bishop, Knight, and King, against a
+                        King.</hi></p>
+                <p part="N">This is perhaps the most difficult check-mate, and, it may also be
+                    added, the most beautiful.</p>
+                <table cols="2" rows="8">
+                    <head> Situation of the Pieces. </head>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> King at ad. K. B. 3d sq. King at K.
+                            R.’s sq.<note anchored="true" place="bottom" type="authorial"><p
+                                    part="N">The king cannot be check-mated at this corner of the
+                                    board. He must be forced over to a corner square, subject to the
+                                    action of the bishop.</p></note> K. B. at ad. K. B. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Kt. at ad. K. Kt. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. Kt. to ad. K. B. 2d sq. 1. K. to K.
+                            Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. B. to K. 4th sq. 2. K. to K. B. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. B. to ad. K. R. 2d sq. 3. K. to his
+                            own sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. Kt. to ad..K. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <pb break="no" facs="nls:193353724?mode=fullsize" xml:id="kp-eb0706-3724-0517"/>
+                <table cols="2" rows="20">
+                    <head> First Defence. </head>
+                    <row cols="1" role="label" rows="1">
+                        <cell cols="1" role="data" rows="1"> White. </cell>
+                        <cell cols="1" role="data" rows="1"> Black. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 4. K. to K. B. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. Kt. toad. Q. 2d sq. chg. 5. K. to
+                            his own sq. . </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. K. to ad. K. 3d sq. 6. K. to Q.’s
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. K. to ad. Q. 3d sq. 7. K. to his own
+                                sq.<note anchored="true" place="bottom" type="authorial"><p part="N"
+                                    >Had he gone to Q, B. sq. he would have been check-mated in
+                                    fewer moves.</p></note></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. B. to ad. K. Kt. 3d sq. 8. K. to
+                            Q.’s sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. Kt. to ad. Q. B. 4th sq. 9. K. to Q.
+                            B. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. B. to ad. K. B. 2d sq. 10. K. to Q.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 11. Kt. to ad. Q. Kt. 2d sq. 11. K. to
+                            Q. B. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 12. K. to ad. Q. B. 3d sq. 12. K. to Q.
+                            Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 13. K. to ad. Q. Kt. 3d 13. K. to Q. B.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 14. B. to ad. K. 3d sq. chg. 14. K. to
+                            Q. Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 15. Kt. to ad. Q. B. 4th. 15. K. to Q.
+                            R.’s sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 16. B. to ad. Q.’s 2d sq. 16. K. to Q.
+                            Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 17. Kt. to ad. Q. R. 3d sq. 17. K. to
+                            Q. R. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 18. B. to ad. Q. B. 3d sq. giving
+                            check-mate. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <table cols="2" rows="18">
+                    <head> Second Defence. </head>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 4. K. to Q. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. K. to ad. K. 3d sq. 5. K. to Q. B.
+                            2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. Kt. to ad. Q. 2d sq. 6. K. to Q. B.
+                            3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. B. to Q. 3d sq. 7. K. to Q. B. 2d
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. B. to ad. Q. Kt. 4th sq. 8. K. to Q.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. Kt. to ad. K. 4th sq. 9. K. to Q. B.
+                            2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. Kt. to Q. B. 4th sq. 10. K. to Q.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 11. K. to ad. Q. 3d sq. 11. K. to Q. B.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 12. Kt. to ad. Q. R. 4th. 12. K. to Q.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 13. Kt. to ad. Q. Kt. 2d sq. 13. K. to
+                            Q. B. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 14. K. to ad. Q. B. 3d sq. 14. K. to Q.
+                            Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 15. Kt. to ad. Q. 3d sq. 15. K. to Q.
+                            R. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 16. K. to ad. Q. B. 2d sq. 16. K. to Q.
+                            R. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 17. B. to Q. B. 4th sq. 17. K. to Q. R.
+                            2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 18. Kt. to ad. Q. B. sq. chg. 18. K. to
+                            Q. R. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 19. B. to ad. R. 4th sq. giving
+                            check-mate. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N">4. <hi rend="italic">With a Queen and King against a Pooh and
+                    King.</hi></p>
+                <table cols="2" rows="6">
+                    <head> Situation of the Pieces. </head>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> King at ad. K. B. 3d sq. King at K. R.
+                            2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Queen at ad. K. sq. Rook at K. Kt. 2d
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. Q. to K. 4th sq. chg. 1. K. to R.
+                            sq. or to Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. Q. to ad. Q. R. sq. chg. 2. K. to K.
+                            R. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. Q. to ad. K. sq.<note
+                                anchored="true" place="bottom" type="authorial"><p part="N">The
+                                    pieces are now in precisely the same situation as at first, with
+                                    this difference, that Black has the move. These preliminary
+                                    moves, therefore, have been made for the purpose of transferring
+                                    the move from the White to the Black.</p></note> 3. If he should
+                            play K. to </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> K. R. 3d, you play Q. to ad. K. B. sq.
+                            and at your next move you gain his Rook. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N">If he should play his R. to your K. Kt. 4th, you play Q. to ad. K. R.
+                    4th sq. checking, and then gain the Rook. Therefore he plays R. to ad. K. Kt.
+                    3d.</p>
+                <table cols="2" rows="6">
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. Q. to K∙ 4th sq. chg. 4. K. to K.
+                            Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. Q. to Q. B. 4th sq. chg. 5. K. to K.
+                            R. sq. or to K. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> R. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. Q. to K. R. 4th sq. chg. 6. K. to K.
+                            Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. Q. takes R. chg. 7. K. to K. B. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. Q. to ad. Q Kt. sq. giving
+                            check-mate. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N">If he had, at his third move, played R. to your K. Kt. 2d, you would
+                    have checked with your Q. at K. 4th sq. gaining the Rook.</p>
+                <table cols="2" rows="10">
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Again, let his move be </cell>
+                        <cell cols="1" role="data" rows="1"> 3. R. to ad. K. Kt. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. Q. to ad. Q. 2d sq. chg. 4. K. to K.
+                            R. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. Q. to ad. Q. B. sq. chg. 5. K. to K.
+                            R. 2d sq.<note anchored="true" place="bottom" type="authorial"><p
+                                    part="N">If he had interposed his Rook, you would have given him
+                                    check-mate by playing Q,ueen to King’s Rook’s 3d
+                            sq.</p></note></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. Q. to ad. Q. B. 2d sq. 6. K. to K.
+                            Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. Q. to ad. Q. Kt. sq. chg. 7. K. to
+                            K. R. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. Q. to K. R. 2d sq. chg. 8. K. to K.
+                            Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. Q. takes R. chg. 9. K. to K. B. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. Q. to ad. K. Kt. 2d sq. chg. 10. K.
+                            to his own sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 11. Q. to ad. K. 2d sq. giving
+                            check-mate. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N">5. <hi rend="italic">With a Rook, Bishop, and King, against a Rook and
+                        King.</hi></p>
+                <table cols="2" rows="7">
+                    <head> Situation of the Pieces. </head>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> K. at ad. K. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> K. at his sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> R. at Q. B. sq. R. at Q. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> B. at ad. K. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. R. to ad. Q. B. sq. chg. 1. R. to Q.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. R. to ad. Q. B. 2d sq. 2. R. to ad.
+                            Q. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. R. to ad. Q. Kt. 2d sq. 3. R. to ad.
+                            Q. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. R. to ad. K. Kt. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <table cols="2" rows="8">
+                    <head> First Defence. </head>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 4. K. to K. B. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. R. to ad. K. R. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 5. R. to ad. K. Kt. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. R. to ad. Q. B. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 6. If he were to play K. to Kt. sq. you
+                            would check with R. at ad. Q. B. sq., driving his K. to K. R. 2d; then
+                            check with R. at ad. K. R. sq.; then, when he moved his K. to K. Kt. 3d
+                            sq. you would check with Rook at ad. K. Kt. sq., gaining his Rook. To
+                            avoid this consequence he plays </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> R. to K. Kt. 3d sq. chg. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. B. to ad. K. B. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 7. K. to Kt. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. R. to ad. Q. B. sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"> 8. K. to K. R. 2d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"> 9. R. to ad. K. R. sq. giving
+                            check-mate. </cell>
+                    </row>
+                </table>
+                <table cols="2" rows="15">
+                    <head> Second Defence. </head>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 4. R. to ad. K. B. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. B. to K. Kt. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 5. If he were to play K. to K. B. sq.,
+                            he would ultimately be check-mated, as shown below. At present he plays
+                        </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> R. to ad. K. B. 3d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. B. to ad. Q. 3d sq. 6. R. to ad. K.
+                            3d sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. B. to ad. K. 4th sq. 7. R. to ad. K.
+                            B. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. R. to ad. K. 2d sq. chg. 8. K. to K.
+                            B. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. R. to ad. Q. 2d sq. 9. K. to K. Kt.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. R. to ad. K. Kt. 2d sq. 10. K. to
+                            K. B. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 11. R. to K. Kt. 4th sq. 11. K. to his
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 12. B. to K. B. 4th sq. 12. K. to K. B.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 13. B. to ad. Q. 3d sq., or to 13. K.
+                            to his sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> ad. K. R. 3d sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 14. R. to ad. K. Kt. sq. chg. 14. R.
+                            interposes. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 15. R. takes R. giving check-mate. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N">Supposing him to have played differently at his fifth move of the second
+                    defence, he would still have been check-mated. Thus,</p>
+                <table cols="2" rows="8">
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 5. K. to K. B. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. R. to K. Kt. 4th sq. 6. K. to his
+                            own sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. R. to Q. B. 4th sq. 7. R. to ad. Q.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. B. to K. R. 4th sq. 8. K. to K∙ B.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. B. to ad. K. B. 3d sq. 9. R. to ad.
+                            K. sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. B. to ad. K. 4th sq. 10. K. to K.
+                            Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 11. R. to K. R. 4th sq. 11. K. to K. B.
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 12. R. to ad.K. R.sq. giving
+                            check-mate. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <pb break="no" facs="nls:193353737?mode=fullsize" xml:id="kp-eb0706-3737-0518"/>
+                <p part="N"><hi rend="italic">Method of Playing a King and Pawn against a
+                    King.</hi></p>
+                <table cols="2" rows="15">
+                    <head> Situation. </head>
+                    <row cols="1" role="label" rows="1">
+                        <cell cols="1" role="data" rows="1"> White. </cell>
+                        <cell cols="1" role="data" rows="1"> Black. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> King at his 4th sq. King at his 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Pawn at ad. King’s 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. K. to Q. 4th sq. 1. K. to his 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. K. to ad. Q. 4th sq. 2. K. to Q. 2d
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. P. to ad. K. 3d sq. chg. 3. K. to
+                            his 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. K. to ad. K. 4th sq. 4. If he were
+                            to play King </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> to his Queen’s square, he would lose
+                            the game, as shown below; therefore he plays K. to his sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. K. to ad. Q. 3d sq. 5 K. to Q. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. If you push the Pawn, he will play
+                            King to his owns quare, and then you must either play your King to adv.
+                            King’s third square, giving stale-mate, or play your King away from the
+                            support of the Pawn; in either of which cases the game will be drawn. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> If he had played differently at his
+                            fourth move he would have lost the game. Thus. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 4. K. to Q. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. K. to ad. Q. 3d sq. 5. K. to his sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. P. to ad. K. 2d sq. 6. K. to K. B.
+                            2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. K. to ad. Q. 2d sq. 7. K. where he
+                            may. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. P. to ad. King’s sq. becoming a
+                            Queen. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N"><hi rend="italic">Example of a Smothered Mate.</hi></p>
+                <table cols="2" rows="10">
+                    <head> Situation of the Pieces. </head>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> K. at Q. Kt. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> K. at K. R. sq. K. R. at its own sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Q. at ad. K. B. 3d sq. Q. R. at Q. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Kt. at ad. Q. 4th sq. Q. R. P. at Q. R.
+                            2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> K. R. P. at K. R. 2d sq. Q. Kt. P. at
+                            Q. Kt. 2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. Q. to ad. K. 4th sq. chg. 1. K. to
+                            Q. R. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. Kt. to ad. Q. B. 2d sq. chg. 2. K.
+                            to Q. Kt. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. Kt. to ad. Q. R. 3d sq. chg. 3. K.
+                            to Q. R. sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. Q. to ad. Q. Kt. sq. chg. 4. Q. R.
+                            takes Q. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. Kt. to ad. Q. B. 2d sq. giving
+                            check-mate. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N"><hi rend="italic">The follozving curious problem was suggested by a near
+                        relative of one of our most illustrious naval heroes</hi><hi rend="italic"
+                        >:</hi></p>
+                <table cols="2" rows="8">
+                    <head> Situation. </head>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> K. at K. B. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"> K. at Q. Kt. sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Q. at ad. K. B. 2d sq. P. at Q. B. 2d
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> K. R. at Q. B. 4th sq. P. at Q. B. 3d
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Q. R. at Q. R. 4th sq. P. at Q. B. 4th
+                            sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> K. B. at ad. K. B. 4th sq. P. at Q. R.
+                            2d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Q. B. at ad. K. B. 3d sq∙ P. at Q. R.
+                            3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Q. Kt. P. at Q. Kt. 3d sq. P. at Q. R.
+                            4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N">White engages to chcck-mate Black with the <hi rend="italic">Knight's
+                        Pawn</hi> in <hi rend="italic">eleven</hi> moves, without taking any of the
+                    black pawns.</p>
+                <p part="N">It may be done in <hi rend="italic">ten</hi> moves, thus:</p>
+                <table cols="2" rows="13">
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1. Q. to ad. K. sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"> 1. K. to Q. Kt. 2d sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 2. Q. to ad. Q. B. sq. chg. 2. K. to Q.
+                            Kt. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 3. K. B. to Q. 3d sq. 3. K. to Q. Kt.
+                            4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 4. Q. B. to K. R. 4th sq. 4. K. to Q.
+                            Kt. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 5. Q. B <hi rend="subscript"> t</hi> to
+                            K. B. 2d sq. 5. K. to Q. Kt. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 6. Q. R. to Q. R. 3d sq. 6. K. to Q.
+                            Kt. 3d sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. K. R. to K. 4th sq. 7. P. to ad. Q.
+                            R. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> being his only move. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. Q. to ad. Q. Kt. sq. chg. 8. K. to
+                            Q. R. 4th, his only </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> move. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. Q. B. to K. 3d sq. 9. P. to ad. Q.
+                            B. 4th sq. his </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> only move. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 10. P. to Q. Kt. 4th sq. giving
+                            check-mate. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N">If Black had played otherwise at his sixth move, checkmate would have
+                    given in nine moves, thus:</p>
+                <table cols="2" rows="3">
+                    <row cols="1" role="label" rows="1">
+                        <cell cols="1" role="data" rows="1"> White. </cell>
+                        <cell cols="1" role="data" rows="1"> Black. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 6. P. to ad. Q. R. 4th sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 7. Q. to ad. Q. Kt. sq. chg. </cell>
+                        <cell cols="1" role="data" rows="1"> 7. K. to Q. R. 4th sq. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 8. K. R. to K. 4th sq. </cell>
+                        <cell cols="1" role="data" rows="1"> 8. P. to ad. Q. B. 4th sq. being his
+                            only move. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 9. P. to Q. Kt. 4th sq. giving
+                            check-mate </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p part="N">Sarasin has an express treatise on the different opinions as to the
+                    origin of the word <hi rend="italic">schacchi,</hi> whence the French <hi
+                        rend="italic">échecs</hi> and our <hi rend="italic">chess</hi> is formed.
+                    Menage is also very full on the same head. Leunclavius supposes it to come from
+                        <hi rend="italic">uscoches,</hi> famous Turkish robbers; P. Sirmond from the
+                    German <hi rend="italic">schache,</hi> theft, and that again from <hi
+                        rend="italic">calculus.</hi> He takes <hi rend="italic">chess</hi> to be the
+                    same with the <hi rend="italic">ludus latrunculorum</hi> of the Romans, but
+                    erroneously. This opinion is countenanced by Vossius and Salmasius, who derive
+                    the word from <hi rend="italic">calculus,</hi> as used for <hi rend="italic"
+                        >latrunculus.</hi> G. Tolosanus derives it from the Hebrew <hi rend="italic"
+                        >search,</hi><hi rend="italic">volavit,</hi> and <hi rend="italic"
+                        >mat,</hi><hi rend="italic">mortuus</hi><hi rend="italic">;</hi> whence <hi
+                        rend="italic">check</hi> and <hi rend="italic">check-mate.</hi> Fabricius
+                    says a celebrated Persian astronomer, one Schatrenscha, invented the game of <hi
+                        rend="italic">chess,</hi> and gave it his own name, which it still bears in
+                    that country. Nicod derives it from <hi rend="italic">scheeqιιe,</hi> or <hi
+                        rend="italic">xeque,</hi> a Moorish word for lord, king, and prince. Bochart
+                    adds that <hi rend="italic">scach</hi> is originally Persian; and that <hi
+                        rend="italic">scαck-ηιat</hi> in that language signifies the king is dead.
+                    The opinion of Nicod and Bochart, which is likewise thatofScri-verius, appears
+                    the most probable.</p>
+                <p part="N">With regard to the origin of the game of chess we are much in the dark.
+                    Though it came to us from the Saracens, it is by no means probable that they
+                    were the original inventors of it. According to some, it was invented by the
+                    celebrated Grecian hero Diomedes. Others say that two Grecian brothers, Ledo and
+                    Tyrrheno, were tlιe inventors; and that being much pressed with hunger, they
+                    sought to alleviate the pain by this amusement. According to Mr Irwin, it is a
+                    game of Chinese invention. During his residence in India he found that a
+                    tradition of this nature existed among the Brahmins, with whom he frequently
+                    played the game. But according to Sir William Jones, this game is of Hindoo
+                    invention. “If evidence were required to prove this fact,” says he,<note
+                        anchored="true" place="bottom" type="authorial"><p part="N"><hi
+                                rend="italic">Asiatic Researches,</hi> vol. ii. mėm. 9.</p></note>
+                    “we may be satisfied with the testimony of the Persians, who, though as much
+                    inclined as other nations to appropriate the ingenious inventions of a foreign
+                    people, unanimously agree that the game was imported from the west of <hi
+                        rend="italic">Lidia</hi> in the sixth century of our era. It seems to have
+                    been immemorially known in <hi rend="italic">Hindostan</hi> by <hi
+                        rend="superscript"> 7</hi> the name of <hi rend="italic">Cheturαηgα, i.</hi>
+                    e. the four <hi rend="italic">azιgas,</hi> or members of any army; which are
+                    these, <hi rend="italic">elephants, horses, chariots,</hi> and <hi rend="italic"
+                        >foot soldiers</hi><hi rend="italic">;</hi> and in this sense the word is
+                    frequently used by epic poets in their description of real armies. By a natural
+                    corruption of the pure Sanscrit word, it was changed by the old Persians into
+                        <hi rend="italic">Chetraηg</hi><hi rend="italic">;</hi> but the Arabs, who
+                    soon after took possession of their country, had neither the initial nor final
+                    letter of that word in their alphabet, and consequently altered it further into
+                        <hi rend="italic">Shetranj,</hi> which found its way presently into the
+                    modern <hi rend="italic">Persian,</hi> and at length into the dialects of India,
+                    where the true derivation of the name is known only to the learned. Thus has a
+                    very significant word in the sacred language of the Brahmins been transformed by
+                    successive changes into <hi rend="italic">axidrez, scacchi,</hi><hi
+                        rend="italic">échecs,</hi><hi rend="italic">chess,</hi> and, by a whimsical
+                    concurrence of circumstances, has given birth to the English word <hi
+                        rend="italic">check,</hi> and even a name to the <hi rend="italic"
+                        >exchequer</hi> of Great Britain.”</p>
+                <p part="N">The game of chess lias been generally practised by the <pb break="no"
+                        facs="nls:193353750?mode=fullsize" xml:id="kp-eb0706-3750-0519"/>greatest
+                    warriors and generals; and some have even supposed that it was necessary for a
+                    military man to be well skilled in this game. It is a game which has something
+                    in it peculiarly interesting. We read that Tamerlane was a great chess-player,
+                    and was engaged in a game during the very time of the decisive battle with
+                    Bajazet the Turkish emperor, who was defeated and taken prisoner. It is also
+                    related of Al Amin, the caliph of Bagdad, that he was engaged at chess with his
+                    freedman Kuthar at the time when Al Mamun’s forces were carrying on the siege of
+                    that city with so much vigour that it was on the point of being carried by
+                    assault. In a battle between the French and English in 1117, an English knight
+                    having seized the bridle of Louis le Gros, and crying to his comrades, “The king
+                    is taken !” the king struck him to the ground with his sword, saying, “Nc
+                    sçais-tu pas qu’aux échecs on ne prend pas le roi ?” Dr Hyde quotes an Arabie
+                    history of the Saracens, in which the caliph is said to have cried out, when
+                    warned of his danger, “Let me alone, for I see check-mate against Kuthar !” We
+                    are told that Charles I. was at chess when news were brought of the final
+                    intention of the Scotch to give him up to the English; but so little was he
+                    disturbed by this alarming intelligence, that he continued his game with the
+                    utmost composure, so that no person could have known that the letter he received
+                    had given him information of any thing remarkable. King John was playing at
+                    chess when the deputies from Rouen came to acquaint him that their city was
+                    besieged by Philip Augustus; but he would not hear them until he had finished
+                    his game.</p>
+                <p part="N">The following remarkable anecdote we have from Dr Robertson in his
+                    history of Charles V. John Frederic, elector of Saxony, having been taken
+                    prisoner by Charles, was condemned to death. The decree was intimated to him
+                    while at chess with Ernest of Brunswick, his fellow prisoner. After a short
+                    pause, and making some reflection on the irregularity and injustice of the
+                    emperor’s proceedings, he turned to his antagonist, whom he challenged to finish
+                    the game. He played with his usual ingenuity and attention; and having beat
+                    Ernest, expressed all the satisfaction that is commonly felt on gaining such
+                    victories. He was not, however, put to death, but set at liberty after five
+                    years’ confinement.</p>
+                <p part="N">Chess seems to have been in vogue at the court of Queen Elizabeth. Sir
+                    Walter Raleigh used to say that he did not wish to live longer than he could
+                    play at chess. Sir Charles Blount, afterwards Earl of Devonshire, having
+                    distinguished himself at a tilt, received from that princess a present of a
+                    chess-queen of gold enamelled, which he tied round his arm with a crimson
+                    riband. This favour from the queen produced a duel betwixt him and the Earl of
+                    Essex.</p>
+                <p part="N">Charles XII. of Sweden was fond of the game; but he was not a successful
+                    player, in consequence of his making the king take too active a share in the
+                    contest. To this day a chess-king who advances too boldly into the fight is
+                    called Charles XII.</p>
+                <p part="N">In the Chronicle of thę Moorish Kings of Granada we find it related,
+                    that in 1396 Mehemcd Baiba seized upon the crown in prejudice of his elder
+                    brother, and passed his life in one continual round of disasters. His wars with
+                    Castille were invariably unsuccessful; and his death was occasioned by a
+                    poisoned vest. Finding his case desperate, he dispatched an officer to the fort
+                    of Salabreno to put his brother Juzuf to death, lest that prince’s adherents
+                    should form any obstacle to his son’s succession. The alcade found the prince
+                    playing at chess with an <hi rend="italic">alfaqui</hi> or priest. Juzuf begged
+                    hard for two hours’ respite, which was denied him; at last, with great
+                    reluctance, the officer permitted him to finish the game; but before it was
+                    finished a messenger arrived with the news of the death of Mehemed, and the
+                    unanimous election of Juzuf to the crown.</p>
+                <p part="N">We h∙ave a curious anecdote of Ferrand, Count of Flanders, who, having
+                    been accustomed to amuse himself at chess with his wife, and being constantly
+                    beaten by her, a mutual hatred took place, which came to such a height, that
+                    when the count was taken prisoner at the battle of Bovines, she suffered him to
+                    remain a long time in prison, though she could easily have procured his
+                    release.</p>
+                <p part="N">Two Persians had engaged in such deep play, that the whole fortune of
+                    one of them w as gained by his opponent. He who played the white was the ruined
+                    man; and, made desperate by his loss, offered his favourite wife as his last
+                    stake. The game was carried on until he would have been check-mated by his
+                    adversary next move. The lady, who had observed the game from a window above,
+                    cried out to her husband to sacrifice his castle and save his wife.</p>
+                <p part="N">The game of chess has undergone considerable variations since it was
+                    first invented. We have it on good authority, that among the eastern nations the
+                    piece now called the <hi rend="italic">queen</hi> was formerly called the <hi
+                        rend="italic">vizir</hi> or king’s minister, and that the powers of the
+                    queen herself were but very small. The chess-boards used by Tamerlane were
+                    larger, and contained many more squares, than those at present in use. Carrera
+                    invented two new pieces to be added to the eight commonly in use. One of these,
+                    which he calls <hi rend="italic">Campione,</hi> is placed between the king’s
+                    knight and castle; the other, named <hi rend="italic">Centaur,</hi> between the
+                    queen’s knight and castle, has the move of the bishop and knight united. This
+                    invention, how cver, did not survive its author. In another of this kind the two
+                    additional pieces are called the <hi rend="italic">centurion</hi> and <hi
+                        rend="italic">decurion</hi><hi rend="italic">;</hi> the former situated
+                    between the king and his bishop, in its move the same with that of the queen,
+                    but only for two squares; the latter moves as the bishop, but only one square at
+                    a time. This, like the former, died with its inventor. The chessboard of
+                    Tamerlane was a parallelogram, having eleven squares one way and t∏ <hi
+                        rend="superscript"> 7</hi> elve the other. In the Memoirs of the late
+                    Marshal Keith, we find it related that he invented an amusement something
+                    similar to that of chess, with which the king of Prussia was highly entertained.
+                    Several thousand small statues were cast by a founder; and these were ranged
+                    opposite to each other as if they had been drawn up in an army, making the
+                    different movements with them as in real service in the field.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

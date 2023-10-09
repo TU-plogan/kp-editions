@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0713-9990-0659-05" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">M‘CRIE, Thomas</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b42j68511">Life</term>
+                    <term ref="lcsh1910:b4028pn8z">Synods</term>
+                    <term ref="lcsh1910:b4r49gb4d">Church</term>
+                    <term ref="lcsh1910:b47d2q898">Churches</term>
+                    <term ref="lcsh1910:b4v11vw02">Work</term>
+                    <term ref="lcsh1910:b44b2x59s">Calvinism</term>
+                    <term ref="lcsh1910:b44f1ms2d">Reviews</term>
+                    <term ref="lcsh1910:b4kk94h10">Sermons</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1206715">Scotland</term>
+                    <term ref="fast:1204303">Spain</term>
+                    <term ref="fast:1219920">England</term>
+                    <term ref="fast:1205427">Ireland</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1198505">Life</term>
+                    <term ref="fast:844591">Calvinism</term>
+                    <term ref="fast:1113216">Sermons</term>
+                    <term ref="fast:1078723">Progress</term>
+                    <term ref="fast:996769">Lettering</term>
+                    <term ref="fast:860364">Church</term>
+                    <term ref="fast:1180188">Work</term>
+                    <term ref="fast:875210">Congregationalism</term>
+                    <term ref="fast:1058072">Periodicals</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193209990?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">M‘CRIE, <hi rend="smallcaps">Thomas</hi></label>,
+                    D.D., an eminent biographer and divine, was born at Dunse, in North Britain, in
+                    the month of November 1772. His parents belonged to the class of Seceders known
+                    in Scotland as Antiburghers, and he was educated with a view to the ministry in
+                    that persuasion. After passing through the ordinary course of education afforded
+                    in a country town, he came to Edinburgh, and enrolled himself as a student in
+                    the university, in the winter of 1788.<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">Matriculation books of the University—At this
+                            time he wrote his name M <hi rend="superscript"> c</hi> Crie; and in
+                            strict arrangement this article belonged to a former sheet.</p></note>
+                    During that and the two following sessions he pursued the course of literary and
+                    philosophical study prescribed to students intending to devote themselves to the
+                    ministry; and in 1791, he entered the theological class at Whitburn, under the
+                    Rev. Archibald Bruce, the teacher or professor of divinity to the Associate
+                    Antiburgher Synod. As the attendance upon this course was only for a limited
+                    period each year, it was usual for the students, whose means were generally very
+                    scanty, to employ the intervals in teaching. In this way Mr M‘Crie, in the
+                    autumn of 1791, proceeded to Brechin, and opened a school in connection with the
+                    Associate Antiburgher congregation in that town; and he continued there,
+                    excepting the time annually required at Whitburn in the three following sessions
+                    (1792 to 1794) for completing the regular course of theological study.</p>
+                <p part="N">Towards the end of 1795, Mr M‘Crie was licensed to preach by the
+                    presbytery of Kelso. In the beginning of the next year, he received a call from
+                    the Second associate congregation of Antiburghers in Edinburgh; and some
+                    scruples having been obviated by an act of the Associate <pb break="no"
+                        facs="nls:193210003?mode=fullsize" xml:id="kp-eb0713-0003-0660"/>Synod,
+                    dated 3d May 1796, he was ordained to that charge on the 26th of that
+                        month.<note anchored="true" place="bottom" type="authorial"><p part="N">This
+                            congregation was constituted in 1791, and their meeting-house in the
+                            Potterrow was erected in 1792; but they enjoyed the advantage of a
+                            settled minister only when Mr M <hi rend="superscript"> i</hi> Crie was
+                            ordained. The sermon and address at his ordination, 26th May 1796, form
+                            part of a volume (pp. 164-202) of “Sermons preached on different
+                            occasions, by Robert Chalmers, minister of the Gospel at Haddington.”
+                            Edinburgh, 1798, 12mo, pp. 440.</p></note> In this pastoral relationship
+                    he continued for upwards of ten years, evidently with the sincere attachment of
+                    his people.</p>
+                <p part="N">At this period, Mr M‘Crie, by diligent and assiduous study, was
+                    acquiring that profound theological knowledge, and that fund of literary and
+                    ecclesiastical information, for which, in after life, he was so distinguished.
+                    The proceedings of the religious body with whom he was connected may also have
+                    had some effect in directing his pursuits towards subjects connected with the
+                    history, constitution, and polity of the reformed church. Yet, excepting a
+                    missionary sermon, which was published in 1797, at the special request of his
+                        congregation,<note anchored="true" place="bottom" type="authorial"><p
+                            part="N">“The Duty of Christian Societies towards each other, in
+                            relation to the measures for propagating the Gospel which at present
+                            engage the attention of the Religious World. A Sermon, preached in the
+                            Meeting-house, Potterrow, on occasion of a collection for promoting a
+                            Mission to Kentucky.” Edinburgh, 1797, 8vo, pp. 40. This sermon Mr M <hi
+                                rend="superscript"> ς</hi> Crie afterwards had some wish to
+                            suppress, at least he regretted its publication, from having changed his
+                            views on some points which it embraced.</p></note> we cannot trace back
+                    the commencement of his literary career farther than the year 1803, although
+                    some articles, of an earlier date, in a periodical work entitled “The Christian
+                    Magazine, or Evangelical Repository,” may have proceeded from his pen.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">This periodical
+                            work, in sixpenny numbers, was commenced in February 1797∙ In the number
+                            for April 1801 is a “Proposed Plan of a New Literary Society, to be
+                            named The Voluntary Society for Improvement in Ecclesiastical History
+                            and Biography;” and in September 1802, a translation of part of Smeton’s
+                            Life and Death of John Knox, from the Latin, 1579, both of which
+                            probably were contributions from Mr M <hi rend="superscript"> i</hi>
+                            Crie. One of the editors, the Reverend George Whytock, Dalkeith, having
+                            died about the end of 1805, Mr M <hi rend="superscript"> ς</hi> Crie
+                            became the sole editor of the volume for 1806; but a variety of
+                            circumstances led to its discontinuance, and a new series was commenced
+                            in January 1807, chiefly under the auspices of his brethren from whom he
+                            had separated, as stated above.</p></note> To this magazine he
+                    contributed a series of articles, with the signature of <hi rend="smallcaps"
+                        >Philistor</hi> (a lover of history), and these included, in 1803, “The
+                    History of the New Testament confirmed and illustrated by passages of Josephus,
+                    the Jewish historian;” “Memoir of Mr John Murray, minister of Dunfermline;
+                    “Sketch of the Progress of the Reformation in Spain, with an account of Spanish
+                    Protestant Martyrs ;” and “Illustrations of Scripture as to the grinding and
+                    parching of Corn.” In 1804, “Suppression of the Reformation in Spain, with a
+                    continuation of the Account of Spanish Protestant Martyrs ;” “Remarks on
+                    Matthew, xx. 25, 26 “On the Origin of the Taborites ;”</p>
+                <p part="N">“Life of John Wickliffe ;” “Life of John Huss “Martyrdom of Jerome of
+                    Prague “Martyrs in Britain, from the time of Wickliffe to the Reformation and
+                    “Influence of the Opinions of Wickliffe upon the English Reformation, with
+                    additional notices of Martyrs.” In 1805, “The Life of Theodore Beza ;” and the
+                    “Life of Dr Andrew Rivet,” a Protestant divine in France. In 1806, “The Life of
+                    Patrick Hamilton, the Proto-Martyr of the Reformation in Scotland ;” “The Life
+                    of Francis Lambert of Avignon ;” “Account of Bugenhagen, a German Reformer ;”
+                    “The Life of Alexander Henderson, minister of Edinburgh, and one of the
+                    commissioners from the Church of Scotland to the Assembly of Divines at
+                    Westminster ;” and “Historical Notices respecting learned Scottish Divines in
+                    England and Foreign Parts, during the sixteenth century.”</p>
+                <p part="N">We have been particular in enumerating the titles of the above articles,
+                    as they show very distinctly the peculiar bent of Mr M <hi rend="superscript">
+                        i</hi> Crie ’ s mind, at this early period, towards subjects illustrative of
+                    the history and progress of the Reformation throughout Europe, and of the
+                    biography of eminent martyrs and reformers; in fact, containing the germs of
+                    most of his subsequent publications.</p>
+                <p part="N">We have now arrived at a point in Mr M‘Crie’s history, which makes it
+                    necessary to advert to the proceedings of the Associate Synod. But to enter into
+                    such minute details as might render the subject sufficiently intelligible to a
+                    general reader, would not only occupy too much space, but might seem to be
+                    misplaced in this work. Yet it would be false delicacy, even in a sketch of his
+                    literary life like the present, to pass in silence the results of such
+                    proceedings; and the more so, as his conduct, in the painful situation in which
+                    he was placed, displayed no small degree of Christian resignation and fortitude,
+                    and evinced that he was sustained by a sense of duty and high-minded principle.
+                    Suffice it then to say, that Mr M <hi rend="superscript"> i</hi> Crie was one of
+                    five ministers<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >The other members were, the Rev. Archibald Bruce, Whitburn; Rev. George
+                            Whytock, Dalkeith; Rev. James Aitken, Kirrymuir; and the Rev. James Hog,
+                            Kelso. Mr Whytock died in October 1805, nearly twelve months before the
+                            Synod proceeded to extremities. The other protestors were afterwards
+                            joined by the Rev. Robert Chalmers, Haddington.</p></note> who felt
+                    themselves constrained to resist and protest against what they considered to be
+                    a spirit of innovation on the part of the Synod, while engaged in the révisai
+                    and enlargement of the Judicial Act and Testimony, which had hitherto served as
+                    the bond of ministerial and religious communion, in order, as it was expressed,
+                    to adapt it “more to the circumstances of the present time.” It need only be
+                    stated, that the chief points of difference related to the apparent abandonment
+                    by the Synod of some important principles of the Judicial Act and
+                    Testimony,—more especially the received doctrine on the connection between
+                    church and state, the power of the civil magistrate in matters of religion, and
+                    the lawfulness and perpetual obligation of our national covenants,—points which
+                    had hitherto been maintained by the members of Secession. In this révisai the
+                    Synod continued at their half-yearly meetings, until it was completed in April
+                    1804, and published under the title of “Narrative and Testimony agreed upon and
+                    enacted by the General Associate Synod,” &amp;c. This contained, first, “A
+                    Narrative of the State of Religion in Britain and Ireland, from the period of
+                    the Reformation to the present time,” including a history of the Secession
+                    Church, and a view “Of the progressive Defections of the Established Church of
+                    Scotland and, secondly, the Testimony, or Declaration, under several heads, of
+                    the doctrinal sentiments professed by the Associate Synod, along with a Formula,
+                    which should hereafter be “the term of admission for those who shall apply for
+                    joining in communion with us.”</p>
+                <p part="N">The case of the four surviving protestors who had disclaimed the power
+                    of the Associate Synod, either to alter their original Testimony, or to impose
+                    new terms of communion for their body, was before the meeting of the Synod at
+                    Glasgow, at the end of August 1806, and, by a formal resolution, was postponed
+                    till the ensuing meeting in April next. It happened, however, that whilst the
+                    subject was under discussion, Mr M <hi rend="superscript"> 4</hi> Crie and other
+                    two of the protestors met at Whitburn to assist Mr Bruce upon a sacramental
+                    occasion; and these four, after serious deliberation, constituted themselves
+                    into a separate presbytery or jurisdiction. Information of this having reached
+                    Edinburgh, Mr M <hi rend="superscript"> ζ</hi> Crie was interrogated by some
+                    members of <pb break="no" facs="nls:193210016?mode=fullsize"
+                        xml:id="kp-eb0713-0016-0661"/>his session, when he admitted the fact;
+                    immediately upon which a communication was transmitted to the Synod at Glasgow;
+                    and as it was considered that, “with regard to Mr M <hi rend="superscript">
+                        i</hi> Crie, forbearance could no longer be tolerated,” it was moved, and a
+                    sentence passed (2d of September), deposing him from the office of the holy
+                        ministry.<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >See “Letters on the late Transactions of the General Associate Synod at
+                            Glasgow,” in the New Series of the <hi rend="italic">Christian
+                                Magazine,</hi> vol. i. pp. 24-35, G1-72. The anonymous writer of
+                            these Letters asserts that the Protestors had all along been treated by
+                            the Synod with great lenity and forbearance.</p></note> The other
+                    protesting ministers were afterwards deposed in as peremptory a manner. It may
+                    be said that the Synod could not act otherwise in regard to their brethren who
+                    had set themselves in such direct opposition, by disclaiming the jurisdiction of
+                    that court. But, to say nothing of the precipitate manner of passing such a
+                    sentence, it was at least a harsh, if not unjustifiable proceeding, to subject
+                    to the summary punishment of deposition and excommunication, persons against
+                    whom calumny had never surmised the slightest charge, either as to moral conduct
+                    or error in doctrine; and while, by so doing, dissensions were raised in
+                    congregations, it was somewhat strange to find the very men who repudiated the
+                    doctrine of interference of the civil magistrate in matters of religion, calling
+                    in such aid to exclude from their own congregations ministers who had been
+                    regularly ordained, and who maintained all the obligations imposed upon them at
+                    ordination. Yet all this was done, according to Mr Bruce’s statement, “under
+                    high pretensions to lenity and moderation, of promoting universal liberty of
+                    conscience, and of greatly detesting and condemning all impositions and
+                    compulsion ;” and, as he elsewhere remarks, that “to dissolve a pastoral
+                    relation duly established, and while mutually acknowledged, by mere church
+                    authority, without relevant reasons, is as really oppression, and a robbing the
+                    people of their sacred privileges, as to intrude a minister upon a congregation
+                    without their consent, which was one of the chief and primary grounds of the
+                        Secession.”<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >“A Review of the Proceedings of the General Associate Synod, and of
+                            some Presbyteries, in reference to the Ministers who protested against
+                            the imposition of a New Testimony,” &amp;c.; by A. Bruce, minister in
+                            Whitburn, p. 405. Edinburgh, 1808, 8vo.</p></note></p>
+                <p part="N">The Synod having appointed one of their number to proceed to Edinburgh,
+                    to intimate, on the next Sabbath (7th September), the sentence of Mr M <hi
+                        rend="superscript"> 1</hi> Crie ’ s deposition, from his own pulpit, we must
+                    next briefly advert to the proceedings of his congregation. It appears that the
+                    leaven of the new-light doctrines had lately infected several of the leading
+                    members; yet, as it was found that the trustees and seatholders, both in point
+                    of number, and the amount paid for sittings, were nearly equal, the question
+                    arose, to whom the property of the meeting-house in the Potterrow belonged. Such
+                    disunion was the occasion of a tedious litigation in the Court of Session,
+                    during which time he was interdicted access to his pulpit on the afternoon of
+                    every Sabbath. The Court of Session having declined entering upon the question
+                    as to which party was chargeable with schism, at length pronounced a decision,
+                    24th February 1809, in favour of the new-light members, as “forming a
+                    congregation of Christians in communion with, and subject to the ecclesiastical
+                    discipline of, a body of dissenting Protestants, calling themselves the
+                    Associate Presbytery and General Associate Synod of Antiburgher Seccders.”<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">Faculty
+                            Decisions, 1808-1809, p. 221.</p></note> After this, Mr M&lt;Crie ’ s
+                    congregation assembled in the meeting-house in Carrubber’s Close, till their new
+                    chapel in Davie Street, Richmond Place, was erected, and in which he continued
+                    to officiate till the close of his life.</p>
+                <p part="N">In the meanwhile, the small party of “Old-Light Antiburghers,” as the
+                    protestors were commonly called, assumed the name of the “Constitutional
+                    Associate Presbytery ;” and, finding themselves placed in such peculiar
+                    circumstances, and their sentiments and conduct liable to misrepresentation,
+                    they resolved to publish “a fuller statement and explanation of the principal
+                    heads of controversy between the Synod and them.” For this purpose, the task was
+                    devolved upon Mr M‘Crie, as clerk of the presbytery; and, from papers partly
+                    written and wholly revised by him, there appeared, in 1807, under his name, a
+                    “Statement of the Difference between the profession of the Reformed Church of
+                    Scotland, as adopted by Seceders, and the profession contained in the New
+                    Testimony and other Acts, lately adopted by the General Associate Synod;
+                    particularly on the power of Civil Magistrates respecting Religion, National
+                    Reformation, National Churches, and National Covenants. To which are added,
+                    Reasons by the Ministers who Protested against the above Acts of Synod, for
+                    constituting themselves into a separate Presbytery, with the deed of
+                    Constitution,” &amp;c. 8vo, pp. 234. Although of a controversial nature,
+                    respecting differences which attracted no very great share of public notice at
+                    the time, this Statement is also applicable to discussions which have recently
+                    been much more widely agitated by the voluntary question; and it may be appealed
+                    to by the friends of the established church, as explaining and enforcing the
+                    true grounds of connection between the church and state, and as an able and
+                    elaborate argument of the obligation on civil rulers to make suitable provision
+                    for the religious interests of the community. Yet it was generally conceived
+                    that the protestors had displayed unnecessary zeal and obstinacy in stedfastly
+                    opposing the measures of the Synod, as if they had been contending for mere
+                    abstract theoretical points of no practical importance.</p>
+                <p part="N">In the comparatively obscure and humble situation in which Mr M <hi
+                        rend="superscript"> c</hi> Crie was now placed, he was enabled to devote his
+                    leisure hours to his favourite literary pursuits. His intention was to have
+                    published a life of Alexander Henderson, the eminent Scottish divine, of which a
+                    sketch had appeared in the Christian Magazine. In the view of giving an
+                    introductory account of the state of the reformed church, he found that the
+                    materials were amply sufficient for a separate work; and abandoning his original
+                    design, as one that might be resumed at some future time, he undertook a Life of
+                    John Knox, and in this form sought to illustrate the earlier history of the
+                    Protestant church in Scotland. The subject was felicitously chosen, not only as
+                    possessed of historical importance and of national interest, but as one which
+                    required, and which was capable of being placed in a new point of light. “The
+                    Life of John Knox, containing Illustrations of the History of the reformation in
+                    Scotland,” appeared in the beginning of 1812, in one volume 8vo, pp. 580. Such
+                    was the effect produced by this work, that although, even in Edinburgh, the
+                    author’s name was quite unknown in the literary circles, it placed him at once
+                    in the first rank of ecclesiastical biographers, and established his reputation
+                    as an historical writer, both at home and abroad. The character of the great
+                    reformer had hitherto been much calumniated and mistaken. Knox, indeed, was one
+                    of the most marked characters in Scottish history, admirably suited to the
+                    circumstances in which he was placed. He had, however, been too often
+                    represented as a fierce and sullen bigot, equally opposed to learning, liberal
+                    principles, and sound policy; coarse in manners, intolerant in conduct, and
+                    actuated by sordid and ambitious views. It remained to reverse the picture, and
+                    to show the reformer in a juster light; influenced by the purest and noblest
+                    principles; filled with apostolical zeal, and a total disregard of worldly rank
+                    and power; stern and uncompromising only <pb break="no"
+                        facs="nls:193210029?mode=fullsize" xml:id="kp-eb0713-0029-0662"/>in the
+                    cause of truth, and in reproving vice and error; distinguished for profound
+                    learning and true piety; and with that incorruptible integrity and heroic
+                    courage required for carrying on the work of reformation. All this was
+                    accomplished in Mr M <hi rend="superscript"> i</hi> Crie ’ s work, which
+                    possessed the rare quality of uniting history with biography; and it was noticed
+                    in terms of high commendation in most of the leading journals of the time. As,
+                    in fact, the “Life of Knox” must be held to be the author’s principal
+                    production, we cannot resist the opportunity of giving a quotation from an
+                    article in the Edinburgh Review for July 1812, usually ascribed to the
+                    distinguished editor.</p>
+                <p part="N">“How unfair, and how marvellously incorrect, these representations (of
+                    Knox’s character) are, may be learned from the book before us; a work which has
+                    afforded us more amusement and more instruction than any thing we ever read upon
+                    the subject; <hi rend="italic">and which,</hi> independent of its theological
+                    merits, <hi rend="italic">we do not hesitate to pronounce by far the best piece
+                        of history which has appeared since the commencement of our critical
+                        career.</hi> It is extremely accurate, learned, and concise, and at the same
+                    time very full of spirit and animation; exhibiting, as it appears to us, a rare
+                    union of the patient research and sober judgment which characterise the more
+                    laborious class of historians, with the boldness of thinking, and force of
+                    imagination, which is sometimes substituted in their place. It affords us very
+                    great pleasure to bear this public testimony to the merits of a writer who has
+                    been hitherto unknown, we believe, to the literary world, either of this or the
+                    neighbouring country; of whom, or of whose existence at least, though residing
+                    in the same city with ourselves, it never was our fortune to have heard till his
+                    volume was put into our hands; and who, in his first emergence from the humble
+                    obscurity in which he has pursued the studies and performed the duties of his
+                    profession, has presented the world with a work which may put so many of his
+                    contemporaries to the blush, for the big promises they have broken, and the vast
+                    opportunities they have neglected.”</p>
+                <p part="N">Such a favourable award had the effect of directing attention to the
+                    work, and of calling for a new edition, which appeared in an enlarged and
+                    corrected form in 1813.<note anchored="true" place="bottom" type="authorial"><p
+                            part="N">The fifth edition, carefully revised by the author, and
+                            containing his last corrections, was published in 1831. This, as well as
+                            the second, third, and fourth editions, is in two volumes
+                        8vo.</p></note> In preparing this edition, the author not only made
+                    corrections, both as to style and matter, but, as the reformer’s name is so
+                    inseparably connected with the history of public events, he introduced greater
+                    detail of public transactions, tending to vindicate the proceedings of the early
+                    reformers, and to throw light on the character and motives of the other
+                    prominent actors of the time.</p>
+                <p part="N">Before this edition was published, the Senatus of the University of
+                    Edinburgh, on the 3d of February 1813, conferred on Mr M*Crie the honorary
+                    degree of Doctor of Divinity; a compliment alike deserved by the author of the
+                    Life of Knox, and honourable to his Alma Mater, our metropolitan university.
+                    This act was the more honourable, as it was one of the first instances of such a
+                    title having been conferred on a person, though holding the same professions,
+                    not strictly belonging to the established church.</p>
+                <p part="N">Thus encouraged to pursue his literary career, the next subject in which
+                    Dr M‘Crie engaged was a Life of Andrew Melville, the able and intrepid assertor
+                    of Presbytery; which might serve as a continuation to his former work, by giving
+                    an account of ecclesiastical transactions in Scotland during the latter part of
+                    the sixteenth and beginning of the seventeenth century. It was not till the end
+                    of 1819 that the work was published, in two volumes 8vo.<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">The title is, “The Life of
+                            Andrew Melville; containing Illustrations of the Ecclesiastical and
+                            Literary History of Scotland during the latter part of the Sixteenth and
+                            beginning of the Seventeenth Century. With an Appendix, consisting of
+                            original pa, pers.” A second edition, revised, was published in 1824,
+                            also in 2 vols. 8vo.</p></note> It presented the results of
+                    long-continued, minute, and discriminating research into the literary as well as
+                    the ecclesiastical history of the period. The exertions of Melville in behalf of
+                    our national church well merited the labours of such a biographer; and as he was
+                    successively at the head of two of our principal colleges, Glasgow and St
+                    Andrews, an opportunity was also afforded of entering fully into the state of
+                    education and the progress of literature at that time. Although in no respect
+                    less valuable and important, it was not so successful as its precursor; as, in
+                    fact, the mass of literary information it conveys was not of a kind to attract
+                    public regard and secure popularity. Melville’s influence in church courts far
+                    surpassed that of any of his contemporaries, but it was not so powerfully felt,
+                    like that of Knox, in public events. Yet his character is highly interesting,
+                    and stands out in bold relief, finely contrasted with the milder dispositions of
+                    his nephew James Melville (whose Diary presents so many minute and affectionate
+                    notices of his uncle, whilst his own letters, written in exile, breathe a
+                    kindred spirit of sympathy and love), as an elegant and accomplished scholar, a
+                    profound divine, kind and affectionate in all the private relations of life, and
+                    at the same time undaunted and uncompromising in asserting and vindicating the
+                    rights and liberties of the presbyterian party. The period to which Dr M <hi
+                        rend="superscript"> i</hi> Crie <hi rend="superscript"> ,</hi> s work
+                    relates is not less important, as it embraces the contests between the church
+                    and the court, the establishment on its present basis of the presbyterian
+                    polity, and its temporary overthrow after a long and arduous struggle.</p>
+                <p part="N">Having in the life of Melville traced the progress of ecclesiastical
+                    affairs till near the close of the reign of James I., it was natural to think
+                    that Dr M <hi rend="superscript"> ζ</hi> Crie would have resumed his first
+                    intention, by publishing a Life of Alexander Henderson. But the state of his
+                    health, and the fear of engaging in such laborious and protracted researches as
+                    he had just terminated, deterred him from commencing, or at least induced him to
+                    postpone, such a task. Strong inducements, moreover, were held out to him, first
+                    to become the editor of a new edition of Wodrow’s History, and afterwards to
+                    write a new work on the same period, or a history of the religious persecutions
+                    in Scotland; but neither of these was undertaken, and he remained for a length
+                    of time undetermined in what work he should next engage. Besides Henderson’s
+                    life, he thought of Wickliffe and the precursors of Luther,—of Calvin,—and of a
+                    history of the progress of the Reformation throughout Europe. Various obstacles
+                    intervened to his successfully embarking in either of these undertakings, and
+                    therefore it is the more deeply to be regretted that any circumstances should
+                    have prevented him from pursuing his primary intention, which might for a time
+                    have happily limited his researches to his own country, and to events with which
+                    he was so conversant. We happen to know, that when Dr M <hi rend="superscript">
+                        ζ</hi> Crie was urged to this, all his old predilections would revive, and
+                    he would admit his anxious desire to continue the period of his biographies to
+                    the Restoration. He would say, however, that a life of Henderson, who died in
+                    1646, would leave such a work incomplete, and he should feel some difficulty in
+                    fixing on any person of sufficient importance, and whose principles and conduct
+                    he approved, to connect with Henderson for the subsequent events. As his own
+                    views led him to approve of the party named “Protestors,” he no doubt would, had
+                    he actually set about such a work, <pb break="no"
+                        facs="nls:193210042?mode=fullsize" xml:id="kp-eb0713-0042-0663"/>have given
+                    the preference to James Guthrie, minister of Stirling, who suffered as a martyr
+                    for his principles upon the restoration of Charles II. Besides the advantage of
+                    thus presenting, in the form of biographical narrative, a continuous history of
+                    what has been called the Second, as well as of the First Reformation, it was a
+                    subject calculated to excite very general interest; and the whole tenor of Dr M
+                        <hi rend="superscript"> i</hi> Crie ’ s pursuits eminently fitted him to
+                    render it attractive. But it was destined to be left to other hands.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">A History of the
+                            Life and Times of Henderson has lately been published by the Rev. Dr
+                            Aiton, minister of Dolphington.</p></note> We have only to express a
+                    wish, that in the publication of his miscellaneous writings, which have been
+                    announced, a conspicuous place may be assigned to his admirable sketch of
+                    Henderson’s life, which appeared in the Christian Magazine for 1806.</p>
+                <p part="N">Whilst engaged in the life of Melville, Dr M <hi rend="superscript">
+                        4</hi> Crie became an occasional, if not a stated contributor, to the
+                    “Edinburgh Christian Instructor,” a well-known monthly publication, edited by
+                    the late Reverend Dr Andrew Thomson, with whom he continued on terms of cordial
+                    intimacy and friendship till the close of his highly useful career. He also lent
+                    occasional aid to other periodicals; but as we have no means of exactly
+                    ascertaining his communications,<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">In the Edinburgh Review for April 1830, there
+                            is an article by Dr M <hi rend="superscript"> ,</hi> Crie, on the
+                            Memoirs of Sir James Turner, published for the members of the Bannatyne
+                            Club, from an original manuscript.</p></note> we shall merely allude to
+                    one article in the Instructor which excited considerable attention at the time.
+                    This was a review, in 1817, of the first series of the “Tales of my Landlord,”
+                    which appeared in three successive numbers of that magazine, and contained an
+                    elaborate defence of the persecuted covenanters, who made suçh a noble struggle
+                    for civil as well as religious freedom, against the unprincipled and tyrannical
+                    measures of the government of Charles II., whilst it exposed the erroneous and
+                    exaggerated representation of their manners and principles given in the tale of
+                    “Old Mortality.” But the most singular circumstance connected with this review
+                    was, that Sir Walter Scott, who had not then stood forth as the acknowledged
+                    author of the Waverley Novels, was prevailed upon, by the editor of the <hi
+                        rend="superscript"> tt</hi> Quarterly Review,” to become the reviewer of his
+                    own work; and thus he took an opportunity, whilst vindicating the statements
+                    contained in his novel, tacitly to answer the article in the Instructor.</p>
+                <p part="N">In February 1816, the Reverend Archibald Bruce, Antiburgher minister at
+                    Whitburn, who for upwards of thirty years had filled the office of professor of
+                    divinity, died full of years and honour, and Dr M <hi rend="superscript"> i</hi>
+                    Crie was naturally looked to as the fittest person in their body for his
+                    successor. The number of students was not considerable; but the duties of the
+                    professorship must have occupied much of his time during the ordinary terms of
+                    session. He commenced his lectures on the 1st of October 1817, with a suitable
+                    and feeling allusion to the loss the church at large had sustained by the death
+                    of his venerable friend and instructor. Two letters, written at the time of the
+                    funeral to a brother clergyman in the country, which have recently
+                        appeared,<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >In a volume of “Sermons, by the late Rev. James Aitken, Minister of the
+                            Associate Congregation of Original Seceders, Kirrymuir. With a Memoir of
+                            the Author, and a number of his Letters.” Edin. 183G, 12mo, pp.
+                            400-2.</p></note> bear strong testimony of his esteem and reverence for
+                    the worth and talents of this learned and worthy divine, who was distinguished
+                    by a congeniality of mind and fondness of literary research. Dr M <hi
+                        rend="superscript"> i</hi> Crie filled the professor’s chair until 1827,
+                    when he resigned it in consequence of an event which may be adverted to in a few
+                    words. In 1820, a union of the two largest bodies of dissenters in Scotland took
+                    place, under the title of the “United Associate Synod of the Secession Church.”
+                    Several members of the Antiburgher Synod having protested against the basis of
+                    union, and declined participating in it, formed themselves into a separate
+                    court, still retaining the name of the <hi rend="superscript"> ii</hi> Associate
+                    (Antiburgher)</p>
+                <p part="N">Synod.” From their similarity of sentiment and profession with the
+                    “Constitutional Associate Presbytery,” a proposal for re-uniting was afterwards
+                    brought forward, when Dr M <hi rend="superscript"> ζ</hi> Crie on the one side,
+                    and Professor Paxton on the other, were appointed to draw up the “Articles
+                    agreed upon, &amp;c. with a view to Union,” and the <hi rend="superscript">
+                        ii</hi> Overtures of a Testimony.” This union was effected in May 1827,
+                    under the designation of the “Associate Synod of Original Seceders ;” and it was
+                    on this occasion that Dr M&lt;Crie resigned the divinity chair to the Rev.
+                    George (now Dr) Paxton, the learned author of “Illustrations of the Holy
+                    Scriptures.” The “Testimony” then published, as agreed upon by the Synod, it is
+                    understood was the composition, in the historical part, of Dr M <hi
+                        rend="superscript"> i</hi> Crie, and in the doctrinal part, of Dr Stevenson,
+                    Ayr. Here it may be remarked, that the Church of Scotland owes no ordinary debt
+                    of gratitude to the Original Seceders, for their constant adherence to the same
+                    principles, and even for their continued testimony against error in the
+                    administration of church affairs. As to Dr M <hi rend="superscript"> i</hi> Crie
+                    individually, although he saw no prospect of being able conscientiously to join
+                    the establishment, he was ever warmly attached to the church, and felt a deep
+                    interest in her prosperity. Such attachment is manifested in all his writings,
+                    and remained unimpaired till the day of his death. A few words on this head may
+                    be quoted from a sermon on the aspect of the times, delivered in May 1834.
+                    Addressing the members of his own congregation, he says, “After long
+                    examination, I am fully convinced that, by the good hand of God, you have been
+                    led, in respect of profession and communion, to take up your ground in the safe
+                    medium between the conflicting parties in the great controversy of the day,
+                    while you continue to testify against the corruptions of the churches
+                    established by law in our native land, and at the same time keep aloof from
+                    those who condemn all recognition of Christianity by public authority, and seek
+                    to withdraw the provision which has been made by the nation for religious
+                    purposes. I cannot (he adds) flatter you with the prospect of the speedy removal
+                    of those defects in the national settlement of religion, or those practical
+                    abuses in ecclesiastical administration, which the body we are connected with
+                    have so long condemned, and which have excluded us from fellowship with the
+                    national church in Scotland... Nothing on earth would give more joy to my heart,
+                    than to see sure and decided symptoms of reformation in the national church of
+                    Scotland...I would go seven times to the top of her highest mountain to look out
+                    for the harbinger of her relief, though each time I should have to return with
+                    the message, <hi rend="superscript"> t</hi> There is nothing,’ provided at last
+                    I could hail the appearance of <hi rend="superscript"> i</hi> the little cloud
+                    out of the sea, like a man’s hand,’ the sure prelude of the plentiful rain which
+                    shall refresh the weary inheritance, make her wilderness an Eden, and her desert
+                    as the garden of the Lord.”</p>
+                <p part="N">But, to resume the series of Dr M <hi rend="superscript"> i</hi> Crie
+                        <hi rend="superscript"> ,</hi> s literary labours (of which the want of
+                    space will prevent us offering little more than a brief enumeration): In 1821 he
+                    published a little volume containing “Two Discourses on the Unity of the Church,
+                    her Divisions, and their removal. To which is subjoined, A short View of the
+                    plan of Religious Reformation originally adopted in the Secession.” 12mo, pp.
+                    174.</p>
+                <p part="N">This was followed in 1825 by a volume entitled “Memoirs of Mr William
+                    Veitch and George Bryson, written by themselves: with other narratives
+                    illustrative of the History of Scotland, from the Restoration to the Revolution:
+                    to which are added, Biographical Sketches and Notes, by Thomas M <hi
+                        rend="superscript"> t</hi> Crie, D. D.” 8vo, pp. 540. In the preface <pb
+                        break="no" facs="nls:193210055?mode=fullsize" xml:id="kp-eb0713-0055-0664"
+                    />the editor observes, “that, with a little more labour, a connected history of
+                    the period might have been produced; but I am persuaded that no account which I
+                    could draw up would present so graphic a picture of the men and measures of that
+                    time, as is exhibited in the following historical pieces.” These are indeed
+                    highly graphic and interesting, but the volume might be instanced as a proof of
+                    what Dr M‘Crie confesses, that the time and labour bestowed upon it would have
+                    gone far to produce an original work of greater importance. In reviewing this
+                    volume, the editor of the Edinburgh Christian Instructor sums up with saying,
+                    “in Dr M <hi rend="superscript"> i</hi> Crie we see all we could wish for in the
+                    historian of the presbyterian church; and if he would add to his former labours
+                    a history of that church from the beginning of Charles the First’s reign to the
+                    Revolution, we are sure the public would receive it with feelings of the highest
+                    satisfaction.”</p>
+                <p part="N">This hint, however, was not taken, as the next subject of his
+                    investigation led to the publication, in 1827, of a “History of the Progress and
+                    Suppression of the Reformation in Italy in the Sixteenth Century, including a
+                    Sketch of the Reformation in the Grisons,” 8vo, pp. 434 (of which a second
+                    edition appeared in 1828). Also, in 1829, as a sequel to that work, a “History
+                    of the Progress and Suppression of the Reformation in Spain in the Sixteenth
+                    Century,” 8vo, pp. 424. These volumes undoubtedly form a valuable accession to
+                    the history of the Reformation throughout Europe, although the author laboured
+                    under great disadvantages in having but limited access to original sources of
+                    information, compared to what was within his reach in matters of our own
+                    ecclesiastical history; and it was felt, that they tended rather to excite a
+                    desire for information than fully to gratify it, and that the materials were not
+                    equal to the skill and industry displayed. It is clear that the state of public
+                    opinion had prepared the way for a reformation even in Italy, the stronghold of
+                    the Roman Catholic church, and the progress that great cause made was indeed
+                    remarkable and extensive; but nothing could withstand the systematic, unceasing,
+                    and exterminating measures employed to arrest the progress of reformed opinions;
+                    and the more so as these were not counteracted by any opposing interests of the
+                    civil and ecclesiastical authorities either in Spain or Italy, whilst the
+                    strength of the reformers, having no unity of purpose, was wasted by unhappy
+                    divisions among themselves. Both volumes, however, present very interesting and
+                    affecting particulars of the sufferings of those who were doomed to exile,
+                    imprisonment, or death, for religious liberty and for the truth.</p>
+                <p part="N">Dr M <hi rend="superscript"> i</hi> Cric was at length induced to
+                    undertake a more arduous task, which had been looked for from his hand, and
+                    which he himself had long contemplated. This was a Life of John Calvin the
+                    reformer. To do justice to such a work, he considered a lengthened residence at
+                    Geneva, where the most importantoriginal documents are preserved, to be quite
+                    essential; but a due attention to his ordinary ministerial functions precluded
+                    him from the chance of ever being able to leave home for so long a period. The
+                    prospect of his son, Mr John M <hi rend="superscript"> ζ</hi> Crie, going
+                    abroad, and remaining several months at Geneva, in some measure obviated this
+                    difficulty, as he could not only trust to his accuracy in transcribing Calvin’s
+                    original letters, but, by regular communication, hope to obtain all the
+                    requisite information from other sources, and in as satisfactory a manner as if
+                    he himself were on the spot to direct such researches. His son accordingly set
+                    about the task most assiduously, and, with a zeal, knowledge, and perseverance
+                    worthy of all praise, transmitted such a mass of materials as could not have
+                    failed, in Dr M <hi rend="superscript"> ζ</hi> Crie ’ s hands, to have rendered
+                    his work one of the highest importance in ecclesiastical biography. He had in
+                    fact made considerable progress in writing the earlier portion, and was intently
+                    engaged upon it (in the midst of the constant interruptions to which he was
+                    subjected), at the time when all his earthly labours were brought unexpectedly
+                    to a close. It is understood that one of his sons has the intention, from the
+                    materials already collected, to complete a Life of Calvin; otherwise, even as a
+                    fragment, the portion actually written should not be withheld from the
+                        public.<note anchored="true" place="bottom" type="authorial"><p part="N">It
+                            may be noticed, that Dr M <hi rend="superscript"> i</hi> Crie, in May
+                            1834, visited London to give his evidence before the Committee of the
+                            House of Commons on Church Patronage. His evidence forms part of the
+                            voluminous Report on that question, pp. 355-374, and
+                    383-393.</p></note></p>
+                <p part="N">Dr M‘Crie’s sedentary habits and application to study were not
+                    favourable to health, if he ever could be said to have been very robust. In the
+                    summer of 1835 he had been confined for a time through indisposition, but there
+                    was no apparent change to indicate the suddenness of his decease. In fact, a
+                    short absence in the country seemed to have re-established his health, and he
+                    was so far recovered, that, on Sabbath the 2d of August, he preached as usual,
+                    both in the forenoon and afternoon, and walked out on the following Tuesday to
+                    visit a neighbour; but on the afternoon of that day, about five o’clock, he was
+                    taken alarmingly ill, and between ten and eleven at night he fell into a stupor,
+                    from which medical aid failed in recovering him. In this state he remained till
+                    half-past twelve next forenoon (Wednesday the 5th of August), when he breathed
+                    his last. His death, thus unexpected, at a time when it was hoped his life might
+                    have been spared for several years of increasing usefulness, and when his mental
+                    faculties were in full vigour, could not fail to excite a very deep interest;
+                    and many appropriate expressions of public regard were called forth, both in the
+                    pulpit and through the press.<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">See <hi rend="italic">Blackwood's
+                                Magazine,</hi> and <hi rend="italic">Edinburgh Christian
+                                Instructor,</hi> for September 1835. In the latter are extracts from
+                            the <hi rend="italic">Christian Herald,</hi> &amp;c. There has also
+                            appeared an eloquent Sermon, “occasioned by the death, and preached to
+                            the congregation, of the late Rev. Thomas M <hi rend="superscript">
+                                ς</hi> Crie, D. D.” on September 6, 1835, by Robert Shaw, minister
+                            at Whitburn, 8vo, pp. 30.</p></note> It happened that a meeting of the
+                    commission of the General Assembly was held on the day of the funeral (the
+                    12th), and, on the motion of the Reverend Dr Cook of St Andrews, a deputation,
+                    consisting of the moderator and several of the leading members, attended, as a
+                    suitable mark of respect due from the church to which he had been so zealously
+                    and consistently attached, and for which he had done so much by his writings. He
+                    was interred in the New Greyfriars burying-ground.</p>
+                <p part="N">Dr M ’ Crie was twice married. By his first wife (Mrs Janet Dickson),
+                    who died 1st June 1821, he left four sons and one daughter. His eldest son,
+                    Thomas, who has been for several years in the ministry, has recently been
+                    elected by the congregation as his father’s successor; and has also, upon Dr
+                    Paxton’s resignation, been appointed by the Synod professor of divinity. By his
+                    second wife (the daughter of his old friend and associate, the Reverend Robert
+                    Chalmers, Haddington), who survives him, he left no issue. A half-length
+                    portrait, from a picture by Mr Watson Gordon, S. A. to be engraved in
+                    mezzotinto, is in the course of publication, and cannot fail, as it is an
+                    admirable likeness, to be an acceptable memorial to his friends and admirers. A
+                    bust, also, by Alexander Ritchie, was in the last exhibition of the Scottish
+                    Academy. I∏ this year (1836) a posthumous volume of <hi rend="superscript">
+                        ii</hi> Sermons,” by Dr M <hi rend="superscript"> ζ</hi> Crie, edited by his
+                    son, has appeared, 8vo, pp. 393. A collection of his miscellaneous writings,
+                    with memoirs of his life by the Rev. Thomas M <hi rend="superscript"> i</hi>
+                    Crie, have likewise been announced for publication.</p>
+                <p part="N">It is not necessary to enlarge upon Dr M <hi rend="superscript"> ζ</hi>
+                    Crie <hi rend="superscript"> ,</hi> s general character. In private life he was
+                    kind, affable, and free <pb break="no" facs="nls:193210068?mode=fullsize"
+                        xml:id="kp-eb0713-0068-0665"/>from every thing like display or desire of
+                    notoriety; being remarkable for his cordiality of manners, cheerfulness of
+                    temper and conversation, and his unaffected simplicity. As a preacher, his style
+                    of address was rather unprepossessing, partly from want of action, and partly
+                    from his slow, monotonous, and somewhat constrained delivery, as if afraid to
+                    speak out in the natural tone of his voice. But any deficiency of artificial
+                    eloquence was amply compensated for by his profound and luminous expositions of
+                    Scripture, expressed in clear and energetic language; and his discourses were
+                    uniformly of a practical nature, and breathed a strain of great piety. In his
+                    literary character, by which he will be known in after times, it will be
+                    acknowledged that his mind was of no ordinary cast. With extensive erudition,
+                    and habits of indefatigable research, he combined sound judgment, and a singular
+                    acuteness and sagacity of intellect. Could he have remained satisfied with the
+                    researches of previous writers, he might have produced a greater number, and
+                    perhaps more popular works, but they would not have borne the peculiar impress
+                    resulting from his own minute, accurate, and extensive inquiries, and therefore
+                    there is no occasion for regret that he should have devoted much of his time in
+                    exploring the original sources of information. His learning was both profound
+                    and extensive, as he was not only skilled in what are called the learned
+                    languages, but was conversant with most of those of modern Europe. Still, with
+                    all his natural love of literary pursuits, he kept such employment in
+                    subservience to his duty as a diligent and faithful minister of Christ. For
+                    nearly forty years he laboured with the most affectionate solicitude for the
+                    spiritual interests of his flock, and much of his time was devoted to them in
+                    his week-day ministrations. It was chiefly a consideration of the paramount
+                    importance of such a charge, wc imagine, that caused him to decline the prospect
+                    of a chair in the University of Edinburgh, when a vacancy occurred in the
+                    professorship of Church History. There is every reason also to believe, that had
+                    his life been spared a few months longer, the honorary office of Historiographer
+                    Royal for Scotland would have been conferred, unsolicited, upon him, as a public
+                    testimony due to him. To conclude, the fame of Dr M*Crie as a literary writer
+                    has extended widely beyond the limits of his own country; and his name will
+                    probably be an object of greater regard in future times than even at present,
+                    though all his personal virtues are fresh in recollection. The profound
+                    research, the masculine vigour, and philosophic wisdom displayed in all his
+                    writings, added to the permanent interest of the subjects upon which the powers
+                    of his mind were usually employed, stamp them as works which will remain as
+                    landmarks in historical literature. (c. c. c.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

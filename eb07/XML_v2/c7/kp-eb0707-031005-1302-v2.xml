@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0707-1302-0310-05" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">COPPER</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:878331">Copper</term>
+                    <term ref="fast:942100">Germans</term>
+                    <term ref="fast:942099">Germanization</term>
+                    <term ref="fast:947579">Green</term>
+                    <term ref="fast:1118999">Silvering</term>
+                    <term ref="fast:1118837">Silver</term>
+                    <term ref="fast:837941">Brass</term>
+                    <term ref="fast:838042">Brasses</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1207649">Wales</term>
+                    <term ref="fast:1245970">Sun</term>
+                    <term ref="fast:1204537">Sweden</term>
+                    <term ref="fast:1208755">Egypt</term>
+                    <term ref="fast:1205190">Peru</term>
+                    <term ref="fast:1205427">Ireland</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4t727j1r">Copper</term>
+                    <term ref="lcsh1910:b4gx44v51">Silver</term>
+                    <term ref="lcsh1910:b4ng4gs6t">Brass</term>
+                    <term ref="lcsh1910:b4bv79v6s">Brasses</term>
+                    <term ref="lcsh1910:b44m91b3s">Gold</term>
+                    <term ref="lcsh1910:b45m62b4v">Germans</term>
+                    <term ref="lcsh1910:b4jw86t6p">Mining</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194751302?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">COPPER</label> must be treated both as a metaland
+                    asami-neral. Under the first head, its history and uses maybe described; and
+                    under the seeond, its charactersand combinations, as it oceurs in nature.</p>
+                <p part="N">Copper got the name of Venus among the alchymists, o∏ aecount of the
+                    facility with which it unites with other metąllic bodies,</p>
+                <p part="N">Gold, silver, and brass are the metals which are first mentioned in
+                    history, being those which oceur frequently in a native or pure state; and
+                    although the quantity thus produced may bear but a small proportion to the
+                    whole, yet the advancement of science requisite to separate the metal from its
+                    ore sufficiently accounts for the precedence whieh these have taken over all
+                    others.</p>
+                <p part="N">The metal called brass, in sacred and profane history, and whieh was
+                    employed for the purpose of money, was, in fact, the copper of modern times;
+                    whilst the brass of the present day is an alloy of copper, mixed according to
+                    the purpose for which the alloy may be required. See the article <hi
+                        rend="smallcaps">Brass.</hi></p>
+                <pb break="no" facs="nls:194751315?mode=fullsize" xml:id="kp-eb0707-1315-0311"/>
+                <p part="N">The ancients, at a very early period, discovered the benefit derivable
+                    from the mixture of copper with other metals, as the alloy constantly produced a
+                    harder and a more durable substance, and at the same time was no disadvantage to
+                    the material in melting or casting. It was employed in many of the illustrious
+                    works which the ancients left for the admiration of succeeding times. The
+                    enormous statue of the Sun, known by the name of the Colossus of Rhodes, erected
+                    by Chares of Lyndus, an elève of Lysippus, was composed entirely of this metal:
+                    and many others are m ntioned, which prove that the ancients were at least as
+                    well acquainted with the difficult art of working in brass as we are at the
+                    present time.</p>
+                <p part="N">In a pure state, copper is a very brilliant metal, and susceptible of a
+                    high polish. It is of a fine red colour, differing from every other metal except
+                    titanium. Its specific gravity varies according to its density, from 8 <hi
+                        rend="superscript"> ,</hi> 58-I to 8*9. According to Brard, the cubic foot
+                    of melted copper weighs 54∙5 lbs.</p>
+                <p part="N">Of native metal 600 lbs.</p>
+                <p part="N">Of copper medals 620 lbs.</p>
+                <p part="N">In a native state, it is not an uncommon mineral. It occurs in
+                    arborescent groups, very beautifully crystallized, in Siberia, imbedded in
+                    limestone, and in very considerable masses. In the cabinet of Ajuda, near
+                    Lisbon, a mass of native copper is said to be preserved, of the enormous weight
+                    of 2617 pounds (Brand). In Cornwall it occurs in many of the mines, and also in
+                    the island of Anglesea; and in the island of Nalsoc, one of the Faroe group, it
+                    occurs very beautifully crystallized, along with zeolite, imbedded in
+                    amygdaloidal trap.</p>
+                <p part="N">Great as the use to which copper was applied by the ancients, it was
+                    very limited compared with the uses it has been put to in modern times.</p>
+                <p part="N">Metallic copper is used for culinary vessels in many parts of Europe;
+                    but for this purpose the inner surface of the vessel should be tinned. Large
+                    vessels for distilling, brewing, dyeing, and the like processes, are made of
+                    copper. The making of these vessels constitutes the ordinary business of the
+                    coppersmith.</p>
+                <p part="N">Copper rolled into sheets is employed for covering the wooden work of
+                    the roofs of churches and large edifices in Germany, Sweden, and other
+                    countries. It is a costly covering, and does not possess any notable advantage
+                    over lead.</p>
+                <p part="N">A modern, and now a very extensive use of sheet-copper, is for the
+                    sheathing of ships. That part of the hull of the ship that is in the water is
+                    covered with sheet-copper. This'covering preserves the wood from the attacks of
+                    the worm, and thereby gives the ship the advantage of passing more rapidly
+                    through the water, as the copper bottom remains always smooth; for sea-weed and
+                    shells will not take root and attach themselves to copper, as they do to the
+                    bare planks, owing to the galvanic effect produced by the action of the sea
+                    water. As this action, however, produces a rapid decay of copper, it was
+                    proposed by Sir Humphry Davy to neutralize it hy applying metallic protectors,
+                    an object which he accomplished; but as this also deprived the copper of the
+                    effect it was intended to produce, and allowed the molluscous tribes to attach
+                    themselves, the protecting process was abandoned.</p>
+                <p part="N">Its malleability and ductility are very considerable. A wireofOO78 of an
+                    inch diameter will support 302 pounds avoirdupois.</p>
+                <p part="N">Copper bolts are used for fastening the planks and timbers of ships.
+                    This is a modern improvement in ship-building. A copper-fastened ship or boat is
+                    preferable to one with iron fastenings, because the copper baits remain
+                    unaltered by rust, and endure longer than the wood which they hold together,
+                    particularly when used in the state of alloy, which preserves it from waste by
+                    neutralizing the galvanic action.</p>
+                <p part="N">For the frames of delicate dipping needles and magnetic compasses,
+                    copper is employed; as it has been found that the brass generally used in
+                    philosophical instruments sometimes contains iron, which of course might affect
+                    the magnetic needle.</p>
+                <p part="N">Copper is drawn into wire, used for the communication with the bells in
+                    houses, and for other purposes.</p>
+                <p part="N">Small pipes for conveying the pit-coal gas from the level of the street
+                    to the aperture by which the gas issues, were made of copper or of brass till
+                    superseded by tin. These pipes were fitted· on an iron cylindrical mandril, and
+                    a cylindrical ring is drawn over the outside. By this means copper and brass
+                    tubes are drawn out. The brass tubes for telescopes are drawn out in the same
+                    manner.</p>
+                <p part="N">The mixture, consisting of a large proportion of copper and a small
+                    proportion of silver, called billon in France, is used for coins of small value
+                    in that country, in Germany, and in other parts of Europe. In Britain this alloy
+                    is not now used; all coins being made either of standard gold, of standard
+                    silver, or of copper. The use of billon is objectionable, as it renders the
+                    value of the coins uncertain.</p>
+                <p part="N">Copper may be plated; that is, its surface may be covered with a layer
+                    of silver, by rubbing the surface with a mixture of nitrate of silver, muriate
+                    of soda, and acidulous tartrate of potass (cream of tartar). But the method
+                    practised at Birmingham is the most peemanent and effectual. A plate of copper,
+                    with a plate of silver applied to it, and borax placed in the interstice, is
+                    heated to a particular degree, which it requires the skill of the workman to
+                    know; a degree of heat, in short, near that at which copper and silver melt. The
+                    two metals thus heated, and in contact, are then taken out of the furnace and
+                    passed through rollers. There is a fusion and combination of the adjacent
+                    surfaces; and their adhesion is perfected by the pressure of the rollers. Copper
+                    thus plated is manufactured at Birmingham into candlesticks, teapots, buttons,
+                    buckles, and a variety of other articles.</p>
+                <p part="N">Standard silver coins contain a small proportion of copper, for the
+                    purpose of giving them hardness. This proportion is regulated by each government
+                    in Europe, and varies a little in different countries. The combination of gold
+                    and copper in various proportions is used for making rings and other
+                    trinkets.</p>
+                <p part="N">Copper is gilded hy applying on its surface an amalgam of gold with
+                    mercury. Bronze ornaments are gilded in the same way.</p>
+                <p part="N">Copper united with tin forms bronze. This combination is hard and
+                    brittle if the proportion of tin be great; but when the proportion of tin is
+                    small, the bronze is soft, and possesses tenacity so as not to be easily broken.
+                    The ancients employed hard bronze, containing much tin, in making sword blades,
+                    spear heads, hatchets, and cutting instruments. Bronze cramps are found in
+                    ancient buildings in Egypt. Statues and bas-reliefs, various culinary vessels,
+                    and different kinds of instruments of soft bronze, are seen in the collections
+                    of antiquities. In modern times soft bronze is used for easting cannon and
+                    statues.</p>
+                <p part="N">Copper melted with a large proportion of tin constitutes bell metal,
+                    which is hard and brittle. The metal of which the Chinese gongs are made is
+                    composed of the same ingredients; and it has the property of being in some
+                    degree malleable at a certain stage of its cooling, for the gongs are covered
+                    with marks of the hammer.</p>
+                <p part="N">To obtain copper from the yellow sulphuret or copper pyrites, which is
+                    the most common copper ore, it is necessary to smelt the ore several times
+                    before the metallic copper is obtained free from sulphur. The slag or scoriae
+                        <pb break="no" facs="nls:194751328?mode=fullsize"
+                        xml:id="kp-eb0707-1328-0312"/> produced in these smeltings is formed into
+                    large bricks, used in building and coping walls in Wales and some other parts of
+                    Britain, in the vicinity of which the smelting of copper is carried on.</p>
+                <p part="N">The chief use made of the native combinations of copper found in the
+                    earth is to extract the metallic copper from them. Sulphur is sometimes
+                    manufactured in treating the copper pyrites.</p>
+                <p part="N">Oxide of copper obtained from the annealing that copper and brass wire
+                    undergoes, is used in dyeing.</p>
+                <p part="N">In enamel colouring, oxide of copper, at a low degree of oxidation,
+                    produces an opaque-red or brownish-red enamel, called porporino. When the
+                    copper∙is more oxidated, it gives a green colour in enamelling upon earthenware
+                    and porcelain, and in stained glass.</p>
+                <p part="N">Sulphate of copper, when concentrated or crystallized, is transparent
+                    and blue. It is manufactured for the use of the dyer and calico-printer.</p>
+                <p part="N">Nitrate of copper is also blue. If fragments of soft wood, such as
+                    poplar or fir, be impregnated with a solution of this salt, these sticks, when
+                    dried, burn gradually to the end, and may serve as quick-match for firing
+                    cannon.</p>
+                <p part="N">Muriate of copper is green; that which is formed by direct solution of
+                    copper in muriatic acid is transparent, and soluble in water; but the native
+                    muriate of copper, with excess of oxide, is insoluble. This is found in Peru in
+                    the form of green sand, and has got the name of atacamite, from the district of
+                    country in which it occurs. Being opaque, it is used in painting.</p>
+                <p part="N">Verdigris <hi rend="italic">(Verdlt-gris)</hi> is an acetate of copper
+                    with excess of oxide. It is prepared in the wine districts of the south of
+                    France, by laying copper plates in strata alternately with the grape stalksand
+                    husks from which the juice has been pressed. The fermentation of the husks
+                    produces vinegar, which acts upon the copper. Verdigris is used in painting,
+                    because it possesses, on account of its excess of oxide, the opacity necessary
+                    for making a coloured paste with oil; it is also used in dyeing. Crystallized
+                    acetate of copper is the acetate without excess of oxide: it is in green
+                    crystals, and is also used in dyeing.</p>
+                <p part="N">Scheele’s green is an opaque precipitate, of a grass-green colour,
+                    composed of copper and arsenic. It is used in oil-painting.</p>
+                <p part="N">Prussiate of copper is an opaque-brown precipitate, formed by adding
+                    prussiate of potash to a solution of sulphate of copper, and may be used in
+                    painting. The colour, however, wants durability.</p>
+                <p part="N">Average Quantity of Fine Copper raised in Cornwall.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N">Tons.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1799 to 1808, ten
+                            years</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">5,820 per annum.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1809 to 1818,</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">6,522</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1819 to 1828,</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">8,520</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1829 to 1832, four
+                            years</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">11,099</p></cell>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="4" role="data" rows="1"><p part="N"><hi rend="italic">Produce of
+                                    the Copper Mines of Cornwall.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Years.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Tons Ore.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Tons Metal.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Sold for</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N"><hi rend="italic">£ s.
+                                    d.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1820</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">91,473</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">7,508</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">602,441 12 0</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1825</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">107,454</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">8,226</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">726,353 12 0</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1830</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">133,904</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">10,748</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">773,846 4 0</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1831</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">144,402</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">12,043</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">806,090 15 6</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1832</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">137,357</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">11,947</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">825,612 6 0</p></cell>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="4" role="data" rows="1"><p part="N"><hi rend="italic">Sold at
+                                    Swansea, produce of Mines in Ireland, Wales, and sundry other
+                                    places.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Years.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Tons Ore.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Tons Metal.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Sold for</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1821</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">3,579</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">344</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N"><hi rend="italic">£ s.
+                                    d.</hi></p><p part="N">31,159 14 6</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1825</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">7,706</p><p part="N"
+                                >13,309</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">729</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">68,506 17 6</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1830</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p part="N"><hi rend="subscript"> t</hi>
+                                1196</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">94,968 11 0</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1831</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">12,999</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1240</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">91,509 4 6</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1832</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">15,350</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1320</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">98,224 11 6</p></cell>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="4" role="data" rows="1"><p part="N"><hi rend="italic">Copper
+                                    Imported and Exported.·</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Years.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Tons</p><p part="N">Foreign
+                                Copper imported.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Tons</p><p part="N">Foreign
+                                Copper exported.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">Tons</p><p part="N">British
+                                Copper exported.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1820</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">72</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">71</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">6096</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1821</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">398</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">167</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">6270</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1822</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">626</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">680</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">5680</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1823</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">2107</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1092</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">5322</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1824</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">137</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1240</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">5301</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1825</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">632</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">262</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">3926</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1826</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">890</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">1061</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">4799</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1827</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">575</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">625</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">7171</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1828</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">398</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">220 "</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">6206</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1829</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">850</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">841</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">7976</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1830</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">367</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">176</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">9157</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">1831</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">394</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">114</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">8536</p></cell>
+                    </row>
+                </table>
+                <p part="N"><hi rend="smallcaps">Copper,</hi> considered as a mineral. See <hi
+                        rend="smallcaps">Mineralogy,</hi><hi rend="italic">Index.</hi><hi
+                        rend="smallcaps">Copper-Black,</hi> disintegrated copper pyrites, produced
+                    by decomposition. See <hi rend="smallcaps">Mineralogy.</hi><hi rend="smallcaps"
+                        >Copper-Emerald.</hi> See <hi rend="smallcaps">Dioptase.</hi><hi
+                        rend="smallcaps">Copper-Glance,</hi> the fahlerz of the Germans. See <hi
+                        rend="smallcaps">Mineralogy.</hi><hi rend="smallcaps">Copper-Green,</hi> the
+                    chrysocolla of Jameson. See <hi rend="smallcaps">Mineralogy.</hi><hi
+                        rend="smallcaps">Copper-Mica,</hi> cuivre arseniaté lamelliform, Haiiy. See
+                        <hi rend="smallcaps">Mineralogy.</hi><hi rend="smallcaps"
+                        >Copper-Pyrites,</hi> variegated pyrites of Jameson. See <hi
+                        rend="smallcaps">Mineralogy.</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

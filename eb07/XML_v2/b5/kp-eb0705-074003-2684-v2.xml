@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0705-2684-0740-03" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">BURNS, Robert</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1206715">Scotland</term>
+                    <term ref="fast:1211575">Jamaica</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b42r3nz3s">Hunting</term>
+                    <term ref="lcsh1910:b4v40jz97">Herons</term>
+                    <term ref="lcsh1910:b47w67561">Visions</term>
+                    <term ref="lcsh1910:b43n20q1q">Vision</term>
+                    <term ref="lcsh1910:b42j68511">Life</term>
+                    <term ref="lcsh1910:b4639kc77">Poets</term>
+                    <term ref="lcsh1910:b4639k84f">Farms</term>
+                    <term ref="lcsh1910:b4kd1qp5f">Farming</term>
+                    <term ref="lcsh1910:b4gf0n262">Periodicals</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:964162">Hunting</term>
+                    <term ref="fast:844604">Calvinists</term>
+                    <term ref="fast:1109125">Scots</term>
+                    <term ref="fast:824584">Ayres</term>
+                    <term ref="fast:1067778">Poets</term>
+                    <term ref="fast:1198505">Life</term>
+                    <term ref="fast:921422">Farms</term>
+                    <term ref="fast:921865">Fathers</term>
+                    <term ref="fast:1058072">Periodicals</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193742684?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">BURNS, <hi rend="smallcaps">Robert</hi></label>, the
+                    national bard of Scotland, was born on the 25th of January 1759, in a clay-built
+                    cottage about two miles south of the town of Ayr. He was the eldest son of
+                    William Burncs, or Burness, who at the period of Robert’s birth was gardener and
+                    overseer to a gentleman of small estate; but resided on a few acres of land
+                    which he had on lease from another person. The father was a man of strict
+                    religious principles, and also distinguished for that penetration and knowledge
+                    of mankind which was afterwards so conspicuous in his son. The mother of the
+                    poet was likewise a very sagacious woman, and possessed an inexhaustible store
+                    of ballads and legendary tales, with which she nourished the infant imagination
+                    of him whose own productions were destined to excel them all.</p>
+                <p part="N">These worthy individuals laboured diligently for the support of an
+                    increasing family; nor, in the midst <hi rend="italic">of</hi> harassing
+                    struggles, did they neglect the mental improvement of their offspring; a
+                    characteristic of Scottish parents, even under the most depressing
+                    circumstances. In his sixth year Robert was put under the tuition of one
+                    Campbell, and subsequently under Mr John Murdoch, a <pb break="no"
+                        facs="nls:193742697?mode=fullsize" xml:id="kp-eb0705-2697-0741"/>very
+                    faithful and pains-taking teacher. With this individual he remained for a few
+                    years, and was accurately instructed in the first principles of composition. The
+                    poet and his brother Gilbert were the aptest pupils in the school, and were
+                    generally at the head of the class. Mr Murdoch, in afterwards recording the
+                    impressions which the two brothers made on him, says, “Gilbert always appeared
+                    to me to possess a more lively imagination, and to be more of the wit, than
+                    Robert. I attempted to teach them a little church-music. Here they were left far
+                    behind by all the rest of the school. Robert’s ear in particular was remarkably
+                    dull, and his voice untunable. It was long before I could get them to
+                    distinguish one tune from another. Robert’s countenance was generally grave, and
+                    expressive <hi rend="italic">of</hi> a serious, contemplative, and thoughtful
+                    mind. Gilbert’s face said, <hi rend="italic">Mirth, with thee I mean to
+                        live;</hi> and certainly, if any person who knew the two boys had been asked
+                    which of them was the most likely to court the muses, he would never have
+                    guessed that <hi rend="italic">Robert</hi> had a propensity of that kind.”</p>
+                <p part="N">Besides the tuition of Mr Murdoch, Burns received instructions from his
+                    father in writing and arithmetic. Under their joint care he made rapid progress,
+                    and was remarkable for the ease with which he committed devotional poetry to
+                    memory. The following extract from his letter to Dr Moore in 1787 is
+                    interesting, from the light which it throws upon his progress as a sclιolar, and
+                    on the formation of his character as a poet :—“At those years,” says he, “I was
+                    by no means a favourite with any body. I was a good deal noted for a retentive
+                    memory, a stubborn sturdy something in my disposition, and an enthusiastic idiot
+                    piety. I say <hi rend="italic">idiot</hi> piety, because I was then but a child.
+                    Though it cost the schoolmaster some thrashings, I made an excellent scholar;
+                    and by the time I was ten or eleven years of age, I was a critic in
+                    substantives, verbs, and particles. In my infant and boyish days, too, I owed
+                    much to an old woman who resided in the family, remarkable for her ignorance,
+                    credulity, and superstition. She had, I suppose, the largest collection in the
+                    country, of tales and songs concerning devils, ghosts, fairies, brownies,
+                    witches, warlocks, spunkies, kelpies, elf-candles, deadlights, wraiths,
+                    apparitions, cantrips, giants, enchanted towers, dragons, and other trumpery.
+                    This cultivated the latent seeds of poetry; but had so strong an effect on my
+                    imagination, that to this hour, in my nocturnal rambles, I sometimes keep a
+                    sharp look-out in suspicious places; and though nobody can be more sceptical
+                    than I am in such matters, yet it often takes an effort of philosophy to shake
+                    off these idle terrors. The earliest composition that I recollect taking
+                    pleasure in was <hi rend="italic">The Vision of Mirza,</hi> and a hymn of
+                    Addison’s, beginning, <hi rend="italic">How are thy servants blest, 0 Lord!</hi>
+                    I particularly remember one halfstanza, which was music to my boyish car—</p>
+                <lg part="N">
+                    <l part="N"> For though on dreadful whirls we hung </l>
+                    <l part="N"> High on the broken wave— </l>
+                </lg>
+                <p part="N">I met with these pieces in <hi rend="italic">Mason’s English
+                        Collection,</hi> one of my school-books. The first two books I ever read in
+                    private, and which gave me more pleasure than any two books I ever read since,
+                    were, <hi rend="italic">The Life of Hannibal,</hi> and <hi rend="italic">The
+                        History of Sir William Wallace.</hi> Hannibal gave my young ideas such a
+                    turn, that I used to strut in raptures up and down after the recruiting drum and
+                    bagpipe, and wish myself tall enough to be a soldier; while the story of Wallace
+                    poured a tide of Scottish prejudice into my veins, which will boil along there
+                    till the flood-gates of life shut in eternal rest.”</p>
+                <p part="N">Mr Murdoch’s removal from Mount Oliphant deprived Burns of his
+                    instructions; but they were still continued by the father of the bard. About the
+                    age of fourteen he was sent to school every alternate week for the improvement
+                    of his writing. In the meanwhile he was busily employed upon the operations of
+                    the farm; and, at the age of fifteen, was considered as the principal labourer
+                    upon it. About a year after this he gained three weeks of respite, which he
+                    spent with his old tutor Murdoch at Ayr, in revising the English grammar, and in
+                    studying the French language, in which he made uncommon progress. Ere his
+                    sixteenth year elapsed, he had considerably extended his reading. The vicinity
+                    of Mount Oliphant to Ayr afforded him facilities for gratifying what had now
+                    become a passion. Among the books which he had perused were some plays <hi
+                        rend="italic">of</hi> Shakspcare, Pope, the works of Allan Ramsay, and a
+                    collection of songs which constituted his <hi rend="italic">vade-mecum.</hi> "I
+                    pored over them,” says he, “driving my cart or walking to labour, song by song,
+                    verse by verse, carefully noticing the true tender or sublime from affectation
+                    and fustian.” So early did he evince his attachment to the lyric muse, in which
+                    he was destined to surpass all who have gone before or succeeded him.</p>
+                <p part="N">At this period the family removed to Lochlea, in the parish of
+                    Tarbolton. Some time before, however, he had made his first attempt in poetry.
+                    It was a song addressed to a rural beauty about his own age; and though
+                    possessing no great merit as a whole, it contains some lines and ideas which
+                    would have done honour to him at any age. After the removal to Lochlea his
+                    literary zeal slackened, for he was thus cut off from those acquaintances whose
+                    conversation stimulated his powers, and whose kindness supplied him with books.
+                    For about three years after this period he was busily employed upon the farm;
+                    but at intervals lie paid his addresses to the poetic muse, and with no common
+                    success. The summer of his nineteenth year was spent in the study of
+                    mensuration, surveying, &amp;c. at a small sea-port town, a good distance from
+                    home. He returned to his father’s considerably improved. “My reading,” says he,
+                    “was enlarged with the very important addition of Thomson’s and Shenstone’s
+                    works. I had seen human nature in a new phasis; and I engaged several of my
+                    school-fellows to keep up a literary correspondence with me. This improved me in
+                    composition. I had met with a collection of letters by the wits of Queen Anne’s
+                    reign, and I pored over them most devoutly; I kept copies of any of my own
+                    letters that pleased me; and a comparison between them and the composition of
+                    most of my correspondents flattered my vanity. I carried this whim so far, that
+                    though I had not three farthings worth of business in the world, yet almost
+                    every post brought me as many letters as if I had been a broad plodding son of
+                    day-book and ledger.”</p>
+                <p part="N">His mind, peculiarly susceptible of tender impressions, was continually
+                    the slave of some rustic charmer. In the “heat and whirlwind of his love,” he
+                    generally found relief in poetry, by which, as by a safety valve, his turbulent
+                    passions were allowed to have vent. He formed the resolution of entering the
+                    matrimonial state; but his circumscribed means of subsistence as a farmer
+                    preventing his taking that step, he resolved on becoming a flaxdresser, for
+                    which purpose he removed to the town of Irvine in 1781. The speculation turned
+                    out unsuccessful; for the shop catching fire, was burnt, and the poet returned
+                    to his father without a sixpence. During his stay at Irvine he had met with
+                    Ferguson’s poems. This circumstance was of some importance to Burns, for it
+                    roused his poetic powers from the torpor into which they had fallen, and in a
+                    great measure finally determined the <hi rend="italic">Scottish</hi> character
+                    of his poetry. He here also contracted some friendships, which hc himself says
+                    did him mischief; and, by his brother Gilbert's account, from this date there
+                    was a serious change in his conduct. The venerable and excellent<pb break="no"
+                        facs="nls:193742710?mode=fullsize" xml:id="kp-eb0705-2710-0742"/> parent of
+                    the poet died soon after his son's return. The support of the family now
+                    devolving upon Burns, in conjunction with his brother he took a sub-lease of the
+                    farm of Mossgiel, in the parish of Mauchline. The four years which he resided
+                    upon this farm were the most important of his life. It was here he felt that
+                    nature had designed him for a poet; and here, accordingly, his genius began to
+                    develope its energies in those strains which will make his name familiar to all
+                    future times, the admiration of every civilized country, and the glory and boast
+                    of his own.</p>
+                <p part="N">The vigour of Burns’s understanding, and the keenness of his wit, as
+                    displayed more particularly at masonic meetings and debating clubs, of which he
+                    formed one at Mauchline, began to spread his fame as a man of uncommon
+                    endowments. He now could number as his acquaintance several clergymen, and also
+                    some gentlemen of substance; amongst whom was Mr Gavin Hamilton, writer in
+                    Mauchline, one of his earliest patrons. One circumstance more than any other
+                    contributed to increase his notoriety. “Polemical divinity,” says he to Dr Moore
+                    in 1787, “about this time was putting the country half mad; and I, ambitious of
+                    shining in conversation-parties on Sundays, at funerals, &amp;c. used to puzzle
+                    Calvinism with so much heat and indiscretion, that I raised a hue-and-cry of
+                    heresy against me, which has not ceased to this hour.” The farm which he
+                    possessed belonged to the Earl of Loudon, but the brothers held it in sub-lease
+                    from Mr Hamilton. This gentleman was at open feud with one of the ministers of
+                    Mauchline, who was a rigid Calvinist. Mr Hamilton maintained opposite tenets;
+                    and it is not matter of surprise that the young farmer should have espoused his
+                    cause, and brought all the resources of his genius to bear upon it. The result
+                    was <hi rend="italic">The Holy Fair, The Ordination, Holy Willies Prayer,</hi>
+                    and other satires, as much distinguished for their coarse severity and
+                    bitterness, as for their genius.</p>
+                <p part="N">The applause which greeted these pieces emboldened the poet, and
+                    encouraged him to proceed. In his life by his brother Gilbert, a very
+                    interesting account is iven of the occasions which gave rise to the poems, and
+                    the chronological order in which they were produced. The exquisite pathos and
+                    humour, the strong manly sense, the masterly command of felicitous language, the
+                    graphic power of delineating scenery, manners, and incidents, which appear so
+                    conspicuously in his various poems, could not fail to call forth the admiration
+                    of those who were favoured with a perusal of them. But the clouds of misfortune
+                    were gathering darkly above the head of him who was thus giving delight to a
+                    large and widening circle of friends. The farm of Mossgiel proved a losing
+                    concern; and an amour with Miss Jane Armour, afterwards Mrs Burns, had assumed
+                    so serious an aspect, that he at first resolved to fly from the scene of his
+                    disgrace and misery. One trait of his character, however, must be mentioned.
+                    Before taking any steps for his departure, lie met Miss Armour by appointment,
+                    and gave into her hands a written acknowledgment of marriage, which, when
+                    produced by a person in her situation, is, according to the Scots law, to be
+                    accepted as legal evidence of an <hi rend="italic">irregular</hi> marriage
+                    having really taken place. This the lady burned at the persuasion of her father,
+                    who was adverse to a marriage; and Burns, thus wounded in the two most powerful
+                    feelings of his mind, his love and pride, was driven almost to insanity. Jamaica
+                    was his destination; but as he did not possess the money necessary to defray the
+                    expense of his passage out, he resolved to publish some of his best poems, in
+                    order to raise the requisite sum. These views were warmly promoted by some of
+                    his more opulent friends; and a sufficiency of subscribers having been procured,
+                    one of the finest volumes of poetry that ever appeared in the world issued from
+                    the provincial press of Kilmarnock.</p>
+                <p part="N">It is hardly possible to imagine with what eager admiration and delight
+                    they were everywhere received. They possessed in an eminent degree all those
+                    qualities which invariably contribute to render any literary work quickly and
+                    permanently popular. They were written in a phraseology of which all the powers
+                    were universally felt, and which being at once antique, familiar, and now rarely
+                    written, was therefore fitted to serve all the dignified and picturesque uses of
+                    poetry, without making it unintelligible. The imagery and the sentiments were at
+                    once natural, impressive, and interesting. Those topics of satire and scandal in
+                    which the rustic delights; that humorous imitation of character, and that witty
+                    association of ideas familiar and striking, yet not naturally allied to one
+                    another, which has force to shake his sides with laughter; those fancies of
+                    superstition, at which one still wonders and trembles; those affecting
+                    sentiments and images of true 'religion, which are at once dear and awful to the
+                    heart; were all represented by Burns with the magical power of true poetry. Old
+                    and young, high and low, grave and gay, learned and ignorant, alľwere alike
+                    surprised and transported.</p>
+                <p part="N">In the mean time, a few copies of these fascinating poems found their
+                    way to Edinburgh, and having been read to Dr Blacklock, obtained his warmest
+                    approbation; and he advised the author to repair to Edinburgh. Burns lost no
+                    time in complying with this request; and accordingly, towards the end of the
+                    year 1786, he set out for the capital, where he was received by Dr BJacklock
+                    with the most flattering kindness, and introduced to every person of taste among
+                    that excellent man’s friends. Multitudes now vied with each other in patronising
+                    the rustic poet. Those who possessed at once true taste and ardent philanthropy
+                    were soon united in his praise; those who were disposed to favour any good thing
+                    belonging to Scotland, purely because it was Scottish, gladly joined the cry;
+                    while those who had hearts and understandings to be charmed without knowing why,
+                    when they saw their native customs, manners, and language, made the subjects and
+                    the materials of poesy, could not suppress that impulse of feeling which
+                    struggled to declare itself in favour of Burns.</p>
+                <p part="N">Thus did Burns, ere he had been many weeks in Edinburgh, find himself
+                    the object of universal curiosity, favour, admiration, and fondness. He was
+                    sought after, courted with attentions the most respectful and assiduous,
+                    feasted, flattered, caressed, and treated by all ranks as the great boast of his
+                    country, whom it was scarcely possible to honour and reward in a degree equal to
+                    his merits.</p>
+                <p part="N">A new edition of his poems was called for; and the public mind was
+                    directed to the subject by Henry Mackenzie, who dedicated a paper in the <hi
+                        rend="italic">Lounger</hi> to a commendatory notice of the poet. This
+                    circumstance will ever be remembered to the honour of that polished writer, not
+                    only for the warmth of the eulogy he bestowed, but because it was the first
+                    printed acknowledgment which had been made to the genius of Burns. The copyright
+                    was sold to Creech for L.100; but the friends of the poet advised him to forward
+                    a subscription. The patronage of the Caledonian Hunt, a very influential body,
+                    was obtained. The list of subscribers rapidly rose to 1500; many gentlemen
+                    paying a great deal more than the price of the volume; and it was supposed that
+                    the poet derived from the subscription and the sale of his copy-right a clear
+                    profit of at least L.700.</p>
+                <p part="N">The conversation of Burns, according to the testimony of all the eminent
+                    men who heard him, was even more wonderful than his poetry. He affected no soft
+                    air nor graceful motions of politeness, which might have ill accorded <pb
+                        break="no" facs="nls:193742723?mode=fullsize" xml:id="kp-eb0705-2723-0743"
+                    />with the rustic plainness of his native manners. Conscious superiority of mind
+                    taught him to associate with the great, the learned, and the gay, without being
+                    overawed into any such bashfulness as might have rendered him confused in
+                    thought or hesitating in elocution. He possessed withal an extraordinary share
+                    of plain common sense or mother-wit, which prevented him from obtruding upon
+                    persons, of whatever rank, with whom he was admitted to converse, any of those
+                    effusions of vanity, envy, or self-conceit, in which authors who have lived
+                    remote from the general practice of life, and whose minds have been almost
+                    exclusively confined to contemplate their own studies and their own works, are
+                    but too prone to indulge. In conversation he displayed a sort of intuitive
+                    quickness and rectitude of judgment upon every subject that arose. The
+                    sensibility of his heart, and the vivacity of his fancy, gave a rich colouring
+                    to whatever opinions he was disposed to advance; and his language was thus not
+                    less happy in conversation than in his writings. Hence those who had met and
+                    conversed with him once, were pleased to meet and to converse with him again and
+                    again.</p>
+                <p part="N">For some time he associated only with the virtuous, the learned, and the
+                    wise, and the purity of his morals remained uncontaminated. But unfortunately he
+                    fell, as others have fallen in similar circumstances. He suffered himself to be
+                    surrounded by persons who were proud to tell that they had been in company with
+                    Burns, and had seen Burns as loose and as foolish as themselves. He now also
+                    began to contract something of arrogance in conversation. Accustomed to be among
+                    his associates what is vulgarly but expressively called “the cock of the
+                    company,” he could scarcely refrain from indulging in a similar freedom and
+                    dictatorial decision of talk, even in the presence of persons who could less
+                    patiently endure presumption.</p>
+                <p part="N">After remaining some months in the Scottish metropolis, basking in the
+                    noontide sun of a popularity which, as Dugald Stewart well remarks, would have
+                    turned any head but his own, he formed a resolution of returning to the shades
+                    whence he had emerged, but not before he had perambulated the southern border.
+                    On the 6th of May 1787 he set out on his journey, and, visiting all that
+                    appeared interesting on the north of the Tweed, proceeded to Newcastle and other
+                    places on the English side. He returned in about two months to his family at
+                    Mauchline; but in a short period he again set out on an excursion to the north,
+                    where he was most flatteringly received by all the great families. On his return
+                    to Mossgicl he completed his marriage with Miss Armour. He then concluded a
+                    bargain with Mr Miller of Dalswinton, for a lease of the farm of Elliesland, on
+                    advantageous terms.</p>
+                <p part="N">Burns entered on possession of this farm at Whitsunday 1788. He had
+                    formerly applied with success for an excise commission, and during six weeks of
+                    the summer of this year he had to attend to the business of that profession at
+                    Ayr. His life for some time was thus wandering and unsettled; and Dr Currie
+                    mentions this as one of his chief misfortunes. Mrs Burns came home to him
+                    towards the end of the year, and the poet was accustomed to say that the
+                    happiest period of his life was the first winter he spent in Ľlliesland. The
+                    neighbouring farmers and gentlemen, pleased to obtain for a neighbour the poet
+                    by whose works they had been delighted, kindly sought his company, and invited
+                    him to their houses. Burns, however, found an inexpressible charm in sitting
+                    down beside his wife, at his own fireside; in wandering over his own grounds; in
+                    once more putting his hand to the spade and the plough; in forming his
+                    inclosures, and managing his cattle. For some months he felt almost all that
+                    felicity which fancy had taught him to expect in his new situation. He had been
+                    Tor a time idle; but his muscles were not yet unbraced for rural toil. He now
+                    seemed to find a joy in being the husband of the mistress of his affections, and
+                    in seeing himself the father of children such as promised to attach him for ever
+                    to that modest, humble, and domestic life, in which alone he could hope to be
+                    permanently happy. Even his engagements in the service of the excise did not, at
+                    first, threaten either to contaminate the poet or to ruin the farmer.</p>
+                <p part="N">From various causes, the farming speculation did not succeed. Indeed,
+                    from the time he obtained a situation under government, he gradually began to
+                    sink the farmer in the exciseman. Occasionally he assisted in the rustic
+                    occupations of Elliesland, but for the most part he was engaged in very
+                    different pursuits. In his professional perambulations over the moors of
+                    Dumfriesshire he had to encounter temptations which a mind and temperament like
+                    his found it difficult to resist. His immortal works had made him universally
+                    known and enthusiastically admired; and accordingly he was a welcome guest at
+                    every house, from the most princely mansion to the lowest country inn. In the
+                    latter he was too frequently to be found as the presiding genius, and master of
+                    the orgies. However, he still continued at intervals to cultivate the muse; and,
+                    besides a variety of other pieces, he produced at this period the inimitable
+                    poem of Tam o’Shanter. Johnson’s Miscellany was also indebted to him for the
+                    finest of its lyrics. One pleasing trait of his character must not be
+                    overlooked. He superintended the formation of a subscription library in the
+                    parish, and took the whole management of it upon himself. These institutions,
+                    though common now, were not so at the period of which we write; and it should
+                    never be forgotten that Burns was amongst the first, if not the very first, of
+                    their founders in the rural districts of southern Scotland.</p>
+                <p part="N">Towards the close of 1791 he finally abandoned his farm; and obtaining
+                    an appointment to the Dumfries division of excise, he repaired to that town on a
+                    salary of L.70 per annum. All his principal biographers concur in stating that
+                    after settling in Dumfries his moral career was downwards. Heron, who had some
+                    acquaintance with the matter, says, “His dissipation became still more deeply
+                    habitual; he was here more exposed than in the country to be solicited to share
+                    the revels of the dissolute and the idle; foolish, young men flocked eagerly
+                    about him, and from time to time pressed him to drink with them, that they might
+                    enjoy his wit. The Caledonian Club, too, and the Dumfriesshire and Galloway
+                    Hunt, had occasional meetings in Dumfries after Burns went to reside there; and
+                    the poet was of course invited to share their conviviality, and hesitated not to
+                    accept the invitation. In the intervals between his different fits of
+                    intemperance he suffered the keenest anguish of remorse, and horribly afflictive
+                    foresight. His Jane behaved with a degree of conjugal and maternal tenderness
+                    and prudence, which made him feel more bitterly the evil of his misconduct,
+                    although they could not reclaim him.”</p>
+                <p part="N">This is a dark picture, perhaps too dark. The Rev. Mi-Gray, who, as the
+                    teacher of his son, was intimately acquainted with Burns, and had frequent
+                    opportunities of judging of his general character and deportment, gives a more
+                    amiable portrait of the bard. Being an eye-witness, the testimony of this
+                    gentleman must be allowed to have some weight. “The truth is,” says he, “Burns
+                    was seldom <hi rend="italic">intoxicated.</hi> The drunkard soon becomes
+                    besotted, and is shunned even by the convivial. Had he been so, he could not
+                    have long continued the idol of every party.” This is strong reasoning; and he
+                    goes on to mention other circumstances which seem to confirm the truth of his
+                    position. In balancing these two statements, a juster estimate of the moral
+                    deportment of Burns may be formed.</p>
+                <pb break="no" facs="nls:193742736?mode=fullsize" xml:id="kp-eb0705-2736-0744"/>
+                <p part="N">In the year 1792 party politics ran to a great height in Scotland, and
+                    the liberal and independent spirit of Burns did certainly betray him into some
+                    indiscretions. A general opinion prevails, that he so far lost the good graces
+                    of his superiors by his conduct, as to consider all prospects of future
+                    promotion as hopeless. But this appears not to have been the case; and the fact
+                    that he acted as supervisor before his death is a strong proof to the contrary.
+                    Of his political verses few have as yet been published. But in these he warmly
+                    espoused the cause of the Whigs, which kept up the spleen of the other party,
+                    already sufficiently provoked; and this may in some measure account for the
+                    bitterness with which his own character was attacked.</p>
+                <p part="N">Whatever opinion may be formed of the extent of his dissipation in
+                    Dumfries, one fact is unquestionable, that his powers remained unimpaired to the
+                    last; it was there he produced his finest lyrics, and they are the finest, as
+                    well as the purest, that ever delighted mankind. Besides Johnson’s <hi
+                        rend="italic">Museum,</hi> in which he took an interest to the last, and
+                    contributed most extensively, he formed a connection with Mr George Thomson of
+                    Edinburgh. This gentleman had conceived the laudable design of collecting the
+                    national melodies of Scotland, with accompaniments by the most eminent
+                    composers, and poetry by the most eminent writers, in addition to those words
+                    which were originally attached to them. From the multitude of songs which Burns
+                    wrote from the year 1792 till the commencement of his illness, it is evident
+                    that few days could have passed without ļvis producing some stanzas for the
+                    work. The following passage from his correspondence, which was also most
+                    extensive, proves that his songs were not hurriedly got up, but composed with
+                    the utmost care and attention. “Until I am complete master of a tune in my own
+                    singing, such as it is,” says he, “I can never compose for it. My way is this. I
+                    consider the poetic sentiment correspondent to my idea of the musical
+                    expression,— then choose my theme,—compose one stanza. When that is composed,
+                    which is generally the most difficult part of the business, I walk out,—sit down
+                    now and then,—look out for objects in nature round mc that are in unison or
+                    harmony with the cogitations of my fancy, and workings of my bosom,—humming
+                    every now and then the air, with the verses I have framed. When I feel my muse
+                    beginning to jade, I retire to the solitary fireside of my study, and there
+                    commit my effusions to paper; swinging at intervals on the hind legs of my
+                    elbow-chair, by way of calling forth my own critical strictures, as my pen goes.
+                    Seriously, this, at home, is almost invariably my way.” This is not only
+                    interesting for the light which it throws upon his method of composition, but it
+                    proves that conviviality had not as yet greater charms for him than the
+                    muse.</p>
+                <p part="N">From his y <hi rend="superscript"> r</hi> outh Burns had exhibited
+                    ominous symptoms of a radical disorder in his constitution. A palpitation of the
+                    heart, and a derangement of the digestive organs, were conspicuous. These were,
+                    doubtless, increased by <hi rend="superscript"> r</hi> his indulgences, which
+                    became more frequent as he drew towards the close of his career. In the autumn
+                    of 1795 he lost an only daughter, which was a severe blow to him. Soon
+                    afterwards he was seized with a rheumatic fever; and “long the die spun
+                    doubtful,” says he, in a letter to his faithful friend Mrs Dunlop, “until, after
+                    many weeks of a sick bed, it seems to have turned up life, and I am beginning to
+                    crawl across my room.” The cloud behind which his sun was destined to be
+                    eclipsed at noon had begun to darken above him. Before he had completely
+                    recovered, he had the imprudence to join a fescive circle; and, on his return
+                    from it, he caught a cold, which brought back his trouble upon him with
+                    redoubled severity. Seabathing was had recourse to, but with no ultimate
+                    success.</p>
+                <p part="N">He lingered until the 21st of July 1796, when he expired. The interest
+                    which the death of Burns excited was intense. All differences were forgotten;
+                    his genius only was thought of. On the 26th of the same month he was conveyed to
+                    the grave, followed by about ten thousand individuals of all ranks, many of whom
+                    had come from distant parts of the country to witness the solemnity. He was
+                    interred with military honours by the Dumfries volunteers, to which body he had
+                    belonged.</p>
+                <p part="N">Thus, at the age of thirty-seven, an age when the mental powers of man
+                    have scarcely reached their climax, died Robert Burns, one of the greatest poets
+                    whom his country has produced. It is unnecessary to enter into any lengthened
+                    analysis of his poetry or character. His works are universally known and
+                    admired, and criticism has been drawn to the dregs upon the subject; and that,
+                    too, by the greatest masters who have appeared since his death,—no mean test of
+                    the great merits of his writings. He excels equally in touching the heart by the
+                    exquisiteness of his pathos, and exciting the risible faculties by the breadth
+                    of his humour. H <hi rend="superscript">:</hi> s lyre had many strings, and he
+                    had equal command over them all; striking each, and frequently in chords, with
+                    the skill and power of a master. That his satire sometimes degenerates into
+                    coarse invective, cannot be denied; but where personality is not permitted to
+                    interfere, his poems of this description may take their place beside any thing
+                    of the kind which has ever been produced, without being cbsgraced by the
+                    comparison. It is unnecessary to re-echo the praises of his best pieces, as
+                    there is no epithet of admiration which has not been bestowed upon them. Those
+                    who had best opportunities of judging, are of opinion that his works, stamped as
+                    they are with the impress of sovereign genius, fall short of the powers he
+                    possessed. It is therefore to be lamented that he undertook no great work of
+                    fiction or invention. Had circumstances permitted, he would probably have done
+                    so; but his excise duties, and without doubt his own follies, prevented him.
+                    FIis passions were strong, and his capacity of enjoyment corresponded with them.
+                    These continually precipitated him into the vortex of pleasure, where alone they
+                    could be gratified; and the re-action consequent upon such indulgences (for he
+                    possessed the finest discrimination between right and wrong) threw him into low
+                    spirits, to which he was also constitutionally liable. His mind, being thus
+                    never for any length of time in an equable tone, could scarcely pursue with
+                    steady regularity a work of any length. His moral aberrations, as detailed by
+                    some of his biographers, have been exaggerated, as already noticed. This has
+                    been proved by the testimony of many witnesses, from whose authority there can
+                    be no appeal; for they had the best opportunities of judging. In fine, it may be
+                    doubted whether he has not, by his writings, exercised a greater power over the
+                    minds of men, and the general system of life, than has been exercised by any
+                    other modern poet. A complete edition of his works, in four vols. 8vo, with a
+                    life, was published by Dr Currie of Liverpool. Editions have been since
+                    multiplied beyond number; and several excellent accounts of his life have been
+                    published, particularly that by Mr Lockhart.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

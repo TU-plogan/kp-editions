@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0705-6417-0258-07" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">BRICK</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:899678">Dutch</term>
+                    <term ref="fast:903991">Egyptians</term>
+                    <term ref="fast:812571">Arabism</term>
+                    <term ref="fast:812576">Arabs</term>
+                    <term ref="fast:863821">Clay</term>
+                    <term ref="fast:838614">Bricks</term>
+                    <term ref="fast:1171139">Water</term>
+                    <term ref="fast:1104803">Sand</term>
+                    <term ref="fast:979089">Iron</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4j960b1w">Clay</term>
+                    <term ref="lcsh1910:b4fj29d7c">Bricks</term>
+                    <term ref="lcsh1910:b4513v11w">Water</term>
+                    <term ref="lcsh1910:b4ft8dp2t">Sand</term>
+                    <term ref="lcsh1910:b4n00zz70">Iron</term>
+                    <term ref="lcsh1910:b4tt4fw77">Egyptians</term>
+                    <term ref="lcsh1910:b48c9r41n">Arabs</term>
+                    <term ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term ref="lcsh1910:b4w669c4k">Marl</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1219920">England</term>
+                    <term ref="fast:1208755">Egypt</term>
+                    <term ref="fast:1240495">Asia</term>
+                    <term ref="fast:1754964">Rome</term>
+                    <term ref="fast:1204537">Sweden</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193736417?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">BRICK</label>, a kind of artificial stone made of
+                    baked clay.</p>
+                <p part="N">1. The art of making bricks is so simple that it must have been
+                    practised in the earliest ages of the world; probably before mankind had
+                    discovered the method of fashioning stones to suit the purposes of building. The
+                    book of Genesis informs us, that burnt bricks were employed in the construction
+                    of Babel. Now, as this structure appears to have been raised about four hundred
+                    years after the period of the Γιood, we may say, without much exaggeration, that
+                    the method of making bricks existed from the very origin of society. Bricks seem
+                    to have been in common use in Egypt while the Israelites were in subjection to
+                    that nation; for the task assigned them was the making of brick; and we are
+                    informed in Exodus that the Israelites built two Egyptian cities. No particulars
+                    are given in Scripture of the method of making bricks; but as straw was one of
+                    the ingredients, and as it very seldom rains in Egypt, it is probable that their
+                    bricks were not burnt, but merely baked by the heat of the sun. The same mode of
+                    making bricks seems still to be practised in the East; for the ruins of the
+                    tower near Bagdad are formed of unburnt bricks. We have seen specimens from that
+                    place; they are large, but thin, and have a brown colour. It is not at all
+                    likely that structures of unburnt brick should have been able to resist the
+                    weather since the time of Nebuchadnezzar; and hence it is probable that the
+                    tower in question was raised by the Arabs in comparatively modern times.</p>
+                <p part="N">The art of brick-making was carried to considerable perfection by the
+                    Greeks. Pliny informs us that they made use of bricks of three different sizes,
+                    distinguished by the following names; <hi rend="italic">didoron,</hi> or six
+                    inches long; <hi rend="italic">tetradoro», οx</hi> twelve inches long; and <hi
+                        rend="italic">pentadoron,</hi> or fifteen inches long (lib. XXXV. c. 14).
+                    That the Romans excelled in the art of making bricks we have the amplest
+                    evidence, since brick structures raised at Rome 1700 years ago still remain as
+                    entire as when first built. Brick-making has been carried to great perfection by
+                    the Dutch, who have long been in the <pb break="no"
+                        facs="nls:193736430?mode=fullsize" xml:id="kp-eb0705-6430-0259"/>habit of
+                    forming their floors, and even in some cases of paving their streets with
+                    bricks. And it is remarkable how long their bricks will continue uninjured in
+                    such situations. Though brick-making has long been carried on in England, and
+                    especially in the neighbourhood of London, upon a very great scale, and though
+                    the process upon the whole is conducted in this country with very considerable
+                    skill, yet it must be acknowledged that English bricks are by no means so
+                    durable as Dutch bricks. We are disposed to ascribe this inferiority not so much
+                    to the nature of the materials employed in the manufacture of English bricks, as
+                    to the mode most frequently employed in London in building houses. Few of the
+                    London houses, comparatively speaking, are freeholds. Most of them are built
+                    upon ground let for a lease of a certain number of years, which seldom exceeds
+                    ninety-nine years. After the expiration of this period, the house becomes the
+                    property of tlιe landlord who let the ground. Thus it becomes the interest of
+                    the builder to construct the house so that it shall last only as long as the
+                    lease. Hence the goodness of the bricks becomes only a secondary object. Their
+                    cheapness is the principal point. The object, therefore, of the brickmakers is
+                    not to furnish durable bricks, but to make them at as cheap a rate as possible.
+                    Accordingly, the saving of manual labour, and of fuel, has been carried by the
+                    makers of London bricks to very great lengths. We cannot but consider this mode
+                    of proceeding as very objectionable, and as entailing a much heavier expense
+                    upon London than would have been incurred had twice the original price been laid
+                    out upon the bricks when they were first used, and had the houses been
+                    constructed to last a thousand instead of a hundred years. No doubt, certain
+                    advantages attend these ephemeral structures. The inhabitants are enabled, once
+                    every century, to suit their houses to the prevailing taste of the day; and
+                    thus, there are no antiquated houses in London. But as the increase of the price
+                    of all the materials of building has more than kept pace with the increase of
+                    the wealth of individuals, it is to be questioned whether the houses are always
+                    improved when they are pulled down and rebuilt.</p>
+                <p part="N">2. The best material for making brick is what in the English language is
+                    called <hi rend="italic">loam,</hi> a term usually applied to a natural mixture
+                    of sand and clay. Such a mixture may be converted into brick without any
+                    addition whatever. Marl likewise answers the purpose of common bricks very well,
+                    indeed better than most other mixtures. Marl is a natural mixture of limestone
+                    and clay in variable proportions. Now, the more lime it contains, the better
+                    does it answer for a manure; and the less lime it contains, the more suitable it
+                    is to the brick-maker.</p>
+                <p part="N">It would be in vain to attempt a particular detail of the constituents
+                    of clay, because they varytoo much from each other to admit of any correct
+                    generalization. We believe, however, that clays very frequently consist of
+                    decomposed felspar, in which case we may conceive them as composed of about
+                    three parts of silica in the state of a very fine powder <hi rend="subscript">
+                        5</hi> and one part of alumina. This is the case with porcelain clay.
+                    Indeed, the porcelain clay of Cornwall appears incon trover tibly to be nothing
+                    else than decayed felspar, or perhaps felspar which never had assumed any other
+                    form than that of clay. The rock from which it is taken is an agglutinated,
+                    mixture of quartz and this clay. The quartz is separated by washing. Such a rock
+                    might probably be converted into most beautiful brick, merely by cutting it out
+                    in the proper shape, and subjecting it to the requisite heat; or rather, by
+                    kneading the whole into a paste with the requisite quantity of water, moulding
+                    it into bricks, and then drying and burning them.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p part="N">Potter’s clay is a compound
+                                of</p><p part="N">Silica</p><p part="N">Alumina</p><p part="N"
+                                >Lime</p><p part="N">Oxide of iron</p><p part="N">Water</p></cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">43∙5</p><p part="N"
+                                >33∙2</p><p part="N">3∙5</p><p part="N">1∙0</p><p part="N"
+                            >18-0</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Loss </cell>
+                        <cell cols="1" role="data" rows="1"><p part="N">99∙2</p><p part="N"
+                            >8</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Total </cell>
+                        <cell cols="1" role="data" rows="1"> 100∙0 </cell>
+                    </row>
+                </table>
+                <p part="N">When the clay proceeds from the decomposition of hornblende, as is
+                    likewise often the case, it contains about three parts and a half of silica, one
+                    of alumina, one of lime, and about one and a half of oxide of iron. Sometimes
+                    the grains of sand which exist in clay consist of fragments of felspar. In such
+                    cases the clay may be fused by heat.</p>
+                <p part="N">No mixture of alumina and silica, in any proportions whatever, can be
+                    fused by the strongest heat which can be raised in our furnaces. Hence such
+                    mixtures are best adapted for making fire-bricks, crucibles, and glass-house
+                    pots. Stourbridge clay is such a mixture, blackened by coaly matter. It answers
+                    these purposes better than any other clay in England. It is a slate clay
+                    belonging to the coal formation, and contains interspersed coaly matter. There
+                    is a similar bed of clay upon the banks of the Calder, about ten miles east from
+                    Glasgow. Mr Bπttray uses it to make the crucibles in which he fuses steel, a
+                    process requiring the most intense heat that can be raised in furnaces. Its
+                    quality seems fully equal to that of Stourbridge clay. Neither can a mixture of
+                    lime and alumina be fused, in whatever proportions the ingredients be mixed. But
+                    a mixture of silica, lime, and alumina, is very fusible, and the fusion is most
+                    readily effected when we employ two parts of silica to one of lime. The presence
+                    of oxide of iron also renders clay fusible, but not unless its proportion be
+                    much greater than ever is likely to occur in any clay used for the manufacture
+                    of bricks.</p>
+                <p part="N">For making common bricks, the most durable mixture ought to be common
+                    clay and limestone or chalk. Perhaps the best proportions would be three parts
+                    of clay, and one part of limestone or chalk in powder. When such a mixture is
+                    exposed to heat, it would experience an incipient fusion, and would thereby be
+                    rendered much harder and denser than common bricks. The consequence would be,
+                    that it would imbibe much less water, and would therefore be much less liable to
+                    crack and fall to pieces in winter, than common bricks. For when water has
+                    insinuated itself into the pores of a common brick, and is converted into ice,
+                    it undergoes an expansion which dislocates the parts of the brick and reduces it
+                    to fragments. This is often conspicuously the case with tyles, which, from their
+                    exposed situation, are more liable to be soaked with water than common bricks.
+                    Hence also covering the surface of the brick with a coating of paint has a great
+                    tendency to preserve them from cracking and breaking. This practice is
+                    frequently followed in England.</p>
+                <p part="N">It would be foreign to the object of this article to enter into any long
+                    details respecting the chemical investigations and the opinions entertained at
+                    different periods respecting the nature of clay. At first it was supposed to be
+                    a peculiar species of earth, but Hellot demonstrated that it consisted at least
+                    of two constituents; for sulphuric acid had the property of destroying its
+                    plastic nature, and of rendering it scarcely more adhesive than sand. The
+                    portion that remained behind did not effervesce with acids. It was not therefore
+                    of a calcareous nature. Mr Pott went a step farther; he showed, in the
+                    continuation of his <hi rend="italic">Lithogeognosia,</hi> that sulphuric acid
+                    formed, with the por-tîon<pb break="no" facs="nls:193736443?mode=fullsize"
+                        xml:id="kp-eb0705-6443-0260"/> of clay which it dissolved, a salt possessing
+                    the properties of alum. In the year 1769 Baumé published his <hi rend="italic"
+                        >Dissertation on Clays,</hi> which he had drawn up in consequence of a
+                    premium offered by the Academy of Sciences at Bourdeaux, for the best solution
+                    of the following question :—What are the principles and constituents of clay,
+                    and the natural changes which it experiences, and what are the methods of
+                    rendering it fertile? The academy did not consider Baumé’s solutions as
+                    satisfactory. He published his Memoir, in consequence, as a kind of defiance. He
+                    had been employed along with Macquer in making numerous experiments on clay,
+                    with a view to the improvement of the porcelain manufacture in France. Guided by
+                    these experiments, he drew as a conclusion that clay is a mixture of two
+                    different substances: 1. Silica in a state of purity; 2. Silica combined with an
+                    underdose of sulphuric acid. It was the second of these constituents that gave
+                    to clay its fattish and plastic nature. Margraaf had long before (in 1756)
+                    demonstrated that the ingredient of clay which Baumé took for a salt, and which
+                    he affirmed was soluble in water, was a peculiar species of earth, different
+                    from every other, which constitutes the basis of alum, which dissolves in
+                    sulphuric acid, but which does not form alum un.ess a portion of potash be added
+                    to the solution. Thus, by the labours of Hellot, Pott, Baumé, and Margraaf, the
+                    nature of clay was completely developed. It was ascertained to be a mixture of
+                    alumina and silica, in variable proportions. It was shown, also, that it
+                    sometimes contained sulphuric acid, and not un frequently potash. Hence the
+                    reason why, in some cases, it could be converted into alum by digestion in
+                    sulphuric aeid, without the necessity of adding any potash to the solution.
+                    Modern chemists have added considerably to these facts. They have shown that
+                    chalk, felspar, mica, hornblende, oxide of iron, coal, bitumen, &amp;c. are not
+                    unfrequently mixed with it; and that these additions alter its qualities
+                    considerably, and render it fit or unfit for the different purposes to which
+                    clay is usually applied.</p>
+                <p part="N">3. Clay intended to be made into bricks ought to be <hi
+                        rend="superscript">!</hi> dug out of the earth and exposed to the air and
+                    weather for a considerable time before it is employed. The longer this exposure
+                    is continued, so much the better will it be fitted for making bricks. This
+                    exposure answers a variety of purposes. If the stones, by the decomposition of
+                    which the clay has been formed, are not entirely decomposed, this exposure
+                    serves to complete the process, by promoting the disintegrating action of the
+                    air and rain. The exposure serves likewise to pulverize the clay, which is
+                    essential to. the making of good bricks. We have little doubt that the same
+                    amelioration in the clay would be produced by simply drying it in the open air,
+                    and then grinding it to powder in a mill. By such a process the quality of the
+                    bricks would be prodigiously improved. Nor do we conceive that such an addition
+                    would greatly enhance the expenses of the brickmaker, at least in those
+                    districts where the mill could be driven by water.</p>
+                <p part="N">When the clay has been reduced to powder, the next step is to make it
+                    into a stiff paste with water. Too much water should not be employed, because it
+                    is injurious to the strength of the bricks; and the utmost care should be taken
+                    to mix the whole of the clay as equally as possible with the water. If some
+                    parts of the paste be moister than others, it will occasion an inequality in the
+                    texture of the bricks formed of it, will render them apt to crack, and will
+                    greatly injure both their strength and their beauty. Hence the great importance
+                    of working the clay for a considerable length of time before moulding it into
+                    bricks. It is in this part of the process that we believe British brickmakers in
+                    general are most defective. As far as we have had an opportunity of witnessing
+                    the process of kneading the clay, as conducted either in the neighbourhood of
+                    London or Edinburgh, we have always found a great sparing of labour. Hence we
+                    believe the reason why so many of the English bricks appear full of cracks, even
+                    when sold to the builder. Such bricks ought never to be purchased, as it is
+                    perfectly obvious that they cannot make a durable building.</p>
+                <p part="N">The kneading of the clay is performed in some places by men’s feet, in
+                    others by the feet of horses, and in others by machinery. The last method is
+                    undoubtedly the best; and we conceive likewise that it might be rendered the
+                    cheapest. It would be easy to devise machinery for kneading the clay, upon
+                    principles similar to those employed in mashing by the London porter brewers.
+                    And, if such a machine were driven by water, we conceive that it would not be
+                    nearly so expensive as either men or horses.</p>
+                <p part="N">When the clay is sufficiently kneaded, it is moulded into the form of a
+                    brick, hy being put into a very simple wooden mould; and the upper part of the
+                    brick is made smooth and even by cutting off the superfluous part with a wooden
+                    knife. The process is very simple, and is conducted by the workmen with great
+                    rapidity. A good brickmaker would mould about 5000 bricks in a day. He
+                    disengages the bricks from the mould by a gentle stroke on the back of the
+                    mould; and the wet bricks are at first arranged in rows upon long boards. When
+                    sufficiently dry to be handled, they arc turned, and at last piled up in loose
+                    walls, which are thatched with straw to keep off the rain. In this position they
+                    are allowed to remain till they have become as dry as they can become in the
+                    open air.</p>
+                <p part="N">In many cases the clay used for brick-making is destitute of the
+                    requisite quantity of sand. If such clay were made into bricks, it would shrink
+                    so much in their burning, that the bricks would lose their shape, and would
+                    probably crack in every direction. To prevent this, it is necessary to add a
+                    certain quantity of sand. This sand should not be very fine. It answers best
+                    when the particles are of such a size as to be readily distinguished by the
+                    naked eye. Even when as large as coriander seeds, it has been found to answer
+                    better than very fine sand. The brickmakers in the neighbourhood of London bring
+                    their sand from the bottom of the Thames near Woolwich, where it is raised by
+                    boats employed for that purpose, and brought up the river for the use of the
+                    brick-makers.</p>
+                <p part="N">4. No general directions can be given respecting the quantity of sand to
+                    be mixed with the clay, because that depends upon the nature of the clay and
+                    upon the uses for whieh the bricks are intended. The more sand is added, the
+                    more accurately do the bricks retain their shape, and the less apt are they to
+                    crack during the burning, but at the same time their strength is diminished.
+                    Chemical lutes are often composed of four parts of sand and one part of clay.
+                    Such mixtures do not contract much in burning, and, therefore, are not apt to
+                    crack and drop off, which is the reason why chemists employ them. But they have
+                    not the adhesiveness of briek after being burned, and would not therefore answer
+                    the purposes of the brick-maker. In stone-ware the mixture consists of about
+                    four parts of clay and one of fine sand. It burns to a hard cohesive substance,
+                    capable of striking fire with steel. Such a proportion, then, in many cases
+                    would answer the purposes of the brick-maker.</p>
+                <p part="N">The London brick makers make another addition to the clay, which we
+                    believe is peculiar to them. They add to every three parts of the clay about one
+                    part of the ashes from the fire-places of the city of London. These ashes
+                    contain some earthy matter; but they consist in a great measure of small coal
+                    unburnt and little altered, which has fallen through the interstices of the
+                    grate. The consequence<pb break="no" facs="nls:193736456?mode=fullsize"
+                        xml:id="kp-eb0705-6456-0261"/> is, that such a mixture, when sufficiently
+                    heated, takes fire and burns of itself, though very slowly; so that the London
+                    bricks are burned in a great measure by means of the fuel mixed with the clay of
+                    which they are composed.</p>
+                <p part="N">It is essential to dry the bricks thoroughly in the open air before
+                    burning them; for when heat is applied to wet clay, the water which it contains
+                    being prevented from escaping by the adhesiveness of the mixture, is converted
+                    into steam, and cracks, and breaks the mass of clay to pieces. Indeed, after the
+                    bricks are rendered as dry as they can become in the open air, they ought to be
+                    exposed at first to a gentle heat, which ought to be raised to redness very
+                    slowly, and in proportion as the moisture of the brick is dissipated. Water
+                    adheres with such obstinacy to clay, that it is never all driven off by the heat
+                    at which bricks are burnt. But the portion which remains is so intimately
+                    combined with the clay, as to constitute one solid mass, which has no gι <hi
+                        rend="subscript"> l</hi> ’ eat tendency to absorb an additional quantity of
+                    water.</p>
+                <p part="N">Bricks are most commonly burnt in a kiln. This is a very simple
+                    structure, usually about thirteen feet long, ten and a half wide, and twelve
+                    feet high. The walls are one foot two inches thick, and incline a littlę to each
+                    other as they ascend. The bricks are placed on flat arches, having holes left in
+                    them like lattice-work. After the bricks are arranged on the kiln, to the number
+                    of about 20,000, they are covered with old bricks or tiles. Some brush-wood is
+                    then kindled in the kiln, and a moderate fire kept up till the bricks are
+                    rendered as dry as possible. The time required for this is two or three days;
+                    and the bricks are known to be dry when the smoke (which is at first black)
+                    becomes transparent. The mouth of the kiln is then filled up with pieces of
+                    brick and clay, leaving only room to introduce a faggot at a time. This
+                    structure at the mouth of the kiln is called a <hi rend="italic">shinlog.</hi>
+                    The kiln is then supplied with faggots of furze, heath, fern, or whatever
+                    vegetable substance can be procured at the cheapest rate, till the arches look
+                    white, and the fire appears at the top. The fire is then diminished, and at
+                    length allowed to go out, and the kiln is permitted to cool. This burning
+                    process usually lasts about forty-eight hours.</p>
+                <p part="N">The method of burning bricks in the neighbourhood of London is very
+                    different from this; and we do not know whether it be practised anywhere else.
+                    It obviously originated from the difficulty of procuring a sufficient quantity
+                    of vegetable matter to burn the enormous number of bricks consumed every year in
+                    London. If we consider the immense extension of houses which has taken place in
+                    London within the last fifty years, and if we consider that this vast city,
+                    containing nearly 1,500,000 inhabitants, is almost renewed every century, we may
+                    be able to form some notion of the prodigious quantity of bricks which it must
+                    consume. In the country round London there is a particular kind of clay, well
+                    known by the name of London clay. This clay is almost everywhere covered with a
+                    bed of gravel, which varies in thickness according to the elevation of the
+                    surface. Hence the whole of the country round London is fit for making bricks.
+                    Nothing more is necessary than to dig through the surface of gravel, and get to
+                    the clay.</p>
+                <p part="N">We have already mentioned, that about a fourth part of the London bricks
+                    consists of small coal kneaded up along with the clay. When the bricks are
+                    sufficiently dry, they are piled up on each other in parallelopipedons to the
+                    intended height. Between each two rows of brick there is strewed a quantity of
+                    cinders, amounting to about three inches in thickness. At the distance of about
+                    nine feet from each other, perpendicular spaces are left, about a brick wide,
+                    which serve the purpose of flues. These are made by arching the bricks over so
+                    as to leave a space between each about a brick in width. Over the whole is
+                    strewed a pretty thick covering of cinders. The flues are filled likewise with
+                    cinders, or, if they cannot be had, with coal. The fire-place is usually at the
+                    west end, and is generally three feet high. The fire, when once kindled in the
+                    fire-place, propagates itself very slowly <hi rend="superscript"> r</hi> through
+                    the whole <hi rend="italic">clamp,</hi> as bricks piled in this manner are
+                    called. So very slow is the progress, that bricks in the neighbourhood of London
+                    take about three months in the burning. The heat is very intense, and, as the
+                    fuel is mixed up with the clay itself, every part of the brick is sure to be
+                    sufficiently burnt.</p>
+                <p part="N">We conceive that the mixture of about one fourth of chalk with the clay
+                    of which the London bricks are made, would greatly improve their quality. The
+                    consequence would be an incipient fusion, which would render their surface much
+                    more compact and solid. The only difficulty would be to proportion the quantity
+                    of chalk so as to prevent complete fusion, which would run the bricks into each
+                    other, and destroy them entirely. Bricks made of materials which have undergone
+                    complete fusion would be greatly superior to common bricks. They .would
+                    perfectly resist the action of the weather, and would, therefore, last much
+                    longer than common bricks. In Sweden it is customary at some of the iron
+                    founderies to cast the scoriae into bricks, which they employ in constructing
+                    their furnaces. Such furnaces the writer of this article has seen; and he was
+                    assured by the gentleman who had the charge of the works, that they answered
+                    fully better than common bricks. It would be easy to make any quantity of such
+                    bricks in some of the large iron founderies of Great Britain. λVe are persuaded
+                    that such bricks might be brought into use for a variety of purposes with great
+                    advantage, and might even constitute a lucrative article of manufacture. Bricks
+                    made from the scoriae of iron and copper founderics would vie in beauty with
+                    marble and porphyry, and would possess a lustre of surface to which few marbles
+                    could reach.</p>
+                <p part="N">Few parts of Great Britain are so well adapted for the making of bricks,
+                    according to the London plan, as the neighbourhood of Newcastle-upon-Tyne. There
+                    the enormous heaps of small coal, which are of no use whatever, would furnish
+                    abundance of fuel at a much cheaper rate than even the London ashes; while the
+                    magnesian limestone that occurs in such plenty in the neighbourhood of
+                    Sunderland would enable the brickmaker to give the clay the requisite degree of
+                    fusibility.</p>
+                <p part="N">As bricks form an article of taxation, and furnish a considerable
+                    revenue to government, their size has been regulated by act of parliament. They
+                    must not be less than eight and a half inches long, two and a half thick, and
+                    four inches wide. But, for various purposes, they are nevertheless made of very
+                    different and very considerable sizes.</p>
+                <p part="N">Fire-bricks are made in the same way as common bricks,' but the
+                    materials are different. The best clay for their composition is Stourbridge
+                    clay; and, instead of sand, it is usual to mix the clay with a quantity of old
+                    fire-bricks, or crucibles, or glass pots, reduced previously to powder. This
+                    mixture answers the same purposes as sand, while it does not communicate the
+                    tendency to fusion when it comes in contact with various fluxes that are
+                    communicated by siliceous sand.</p>
+                <p part="N">There is a kind of bricks mentioned by Pliny as used by the ancients,
+                    which were so light as to swim in water. “Pitanae in Asia, ct in ulterioris
+                    Hispaniae civitatibus Maxilua et Calento, fiunt lateres, qui ciccati non
+                    merguntur in aqua.” (Plinii <hi rend="italic">Natur. Histor.</hi> lib. xxxv. c.
+                    14.) Pliny does not mention the part of the world in which the earth employed in
+                    the manufactures of these bricks was <pb break="no"
+                        facs="nls:193736469?mode=fullsize" xml:id="kp-eb0705-6469-0262"/>found,
+                    though in all probability it could not be far from the cities where the bricks
+                    are said by Pliny to have been made. He says that the material employed was a
+                    kind of pumice stone. But it was quite unknown to the moderns, till, in the year
+                    1791, Fabroni found a substance at Castel del Piano, not far from Santa Fiora,
+                    situated between Tuscany and the Papal dominions, which formed bricks capable of
+                    swimming in water. This is a white earthy matter, which constitutes a bed in
+                    that place, and was known in Italy by the name of <hi rend="italic">Latte di
+                        Luria.</hi> In more recent mineralogical books it is distinguished by the
+                    name of <hi rend="italic">farina fossilis (bergmehl).</hi> Iĭaiiy considers it
+                    as a variety of talc, and Brochant as a variety of meerschaum. According to the
+                    analysis of Fabbroni this substance is composed of</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Silica </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Magnesia </cell>
+                        <cell cols="1" role="data" rows="1"> 15 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Alumina </cell>
+                        <cell cols="1" role="data" rows="1"> 12 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Lime </cell>
+                        <cell cols="1" role="data" rows="1"> 3 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Iron </cell>
+                        <cell cols="1" role="data" rows="1"> 1 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Water </cell>
+                        <cell cols="1" role="data" rows="1"> 14 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 100 </cell>
+                    </row>
+                </table>
+                <p part="N">But it has been recently analysed by Klaproth, who found its
+                    constituents,</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Silica </cell>
+                        <cell cols="1" role="data" rows="1"> 79 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Alumina </cell>
+                        <cell cols="1" role="data" rows="1"> 5 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Oxide of iron </cell>
+                        <cell cols="1" role="data" rows="1"> 3 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Water </cell>
+                        <cell cols="1" role="data" rows="1"> 12 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Loss </cell>
+                        <cell cols="1" role="data" rows="1"> 1 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 100 </cell>
+                    </row>
+                </table>
+                <p part="N">We see from this analysis that this mineral is neither a variety of talc
+                    nor of meerschaum. One would be disposed to consider it as a hydrate of silica;
+                    for both the alumina and oxide of iron are present in so small proportions, that
+                    we can scarcely consider them as in chemical combination.</p>
+                <p part="N">Considering the composition of this earth, it is rather singular that it
+                    is capable of being agglutinated by a red heat. We rather suspect that the
+                    bricks of Fabbroni, which swim in water, have but very little strength. This, if
+                    it be the case, must greatly circumscribe their utility.</p>
+                <p part="N">The colour of the London bricks is not red, as is the case with common
+                    bricks and tiles, but a light brownish yellow. This colour is more pleasing to
+                    the eye than common brick red, and on that account the London bricks are
+                    preferred for building houses. The brick-makers assign a curious enough reason
+                    for this colour. According to them, their bricks are kept as much as possible
+                    from contact with the air during their burning. The consequence of this is, that
+                    the iron contained in them is not oxidized to so great a degree as in common
+                    bricks. But this mode of reasoning is far from being exact. If air were excluded
+                    entirely, the bricks would not be burnt at all, because the fire would be
+                    extinguished. But if enough of air be admitted to burn the coal mixed with the
+                    clay, which must be the case, that air must also act upon the iron, and reduce
+                    it to the state of peroxide. Indeed, there can be no doubt that the iron in the
+                    London yellow bricks is in the state of peroxide as well as in the red bricks,
+                    for the peroxide of iron gives various colours to bodies, according to
+                    circumstances. We find bodies tinged with it red, yellow, and brown, according
+                    to the substances with which the oxide is combined. We ascribe the yellow colour
+                    of the London bricks to the ashes of the coals, which, by uniting with the
+                    peroxides of iron, form a kind of yellow ochre. <hi rend="smallcaps"
+                        >(lĴ)</hi><hi rend="italic">ERicκ∙Layer,</hi> an artificer, whose business
+                    is to build with bricks, or make brick-work. The London brick-layers form a
+                    regular company, which was incorporated in 1568, and consists of a master, two
+                    wardens, twenty assistants, and seventy-eight on the livery.</p>
+                <p part="N"><hi rend="italic">ERicκ-Laying,</hi> the art of framing edifices <hi
+                        rend="italic">of</hi> bricks. Moxon has written a treatise expressly on the
+                    art of brick-laying, in which he describes the materials, tools, &lt; and
+                    methods of working, used by brick-layers.</p>
+                <p part="N">Great care is to be taken that bricks be laid joint on joint in the
+                    middle of the walls as seldom as may be; and that good bond be made there as
+                    well as on the outsides. Some brick-layers, in working a brick and half wall,
+                    lay the header on one side of the wall perpendicular to the header on the other
+                    side, and so all along the whole course; whereas, if the header on one side of
+                    the wall were toothed as much as the stretcher on the other side, it would be a
+                    stronger toothing, and the joints of the headers of one side would be in the
+                    middle of the headers of the course they lie upon of the other side. If bricks
+                    be laid in winter, they ought to be kept as dry as possible; if in summer, it
+                    will save cost to employ boys to wet them, for they will then unite better with
+                    the mortar than if dry, and make the work stronger. In large buildings, or where
+                    it is thought too much trouble to dip all the bricks separately, water may be
+                    thrown on each course after they are laid. If bricks be laid in summer they must
+                    be covered; for if the mortar dries too hastily, it will not bind so firmly to
+                    the bricks as when left to dry more gradually. If bricks be laid in winter they
+                    should also be well covered, to protect them from rain, snow, and frost; which
+                    last is a mortal enemy to mortar, especially where it has been wetted just
+                    before the frost assaults it. See <hi rend="smallcaps">Building.</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

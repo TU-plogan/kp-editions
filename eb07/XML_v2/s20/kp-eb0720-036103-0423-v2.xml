@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0720-0423-0361-03" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">SINDE</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b44f1mm3n">Courts</term>
+                    <term ref="lcsh1910:b4wh2dg8p">Rivers</term>
+                    <term ref="lcsh1910:b47m04609">Power</term>
+                    <term ref="lcsh1910:b4kk94m4s">Sea</term>
+                    <term ref="lcsh1910:b4q815225">Trade</term>
+                    <term ref="lcsh1910:b44q7qq38">Hindus</term>
+                    <term ref="lcsh1910:b4gx44t5k">Koran</term>
+                    <term ref="lcsh1910:b4599z60x">Hindoos</term>
+                    <term ref="lcsh1910:b4zk55m05">Indians</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1210276">India</term>
+                    <term ref="fast:1240495">Asia</term>
+                    <term ref="fast:1206073">China</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:839044">British</term>
+                    <term ref="fast:916820">Europeans</term>
+                    <term ref="fast:957175">Hindus</term>
+                    <term ref="fast:881747">Courts</term>
+                    <term ref="fast:969307">Indians</term>
+                    <term ref="fast:1098312">Rivers</term>
+                    <term ref="fast:1110395">Seas</term>
+                    <term ref="fast:1140675">Swords</term>
+                    <term ref="fast:839665">Brothers</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ht:chi.28490924&amp;view=1up&amp;seq=423" org="uniform" part="N"
+                sample="complete" type="entry">
+                <p part="N"><label type="entry">SINDE</label>, an extensive kingdom of Hindustan,
+                    which extends from the district of Shikarpoor on the frontier of Cabul, and the
+                    island of Bukkor in the Indus, along the level plain, watered by that river to
+                    the sea; in length about two hundred and fifty miles by eighty miles in average
+                    breadth. The general boundaries are the British principality of Cutch and the
+                    Indian ocean to the south; the kingdom of Jessulmere and the Rejistah, or Sandy
+                    Desert, to the east, which extends from the territories of Cutch five hundred
+                    and fifty miles in length by a hundred and fifty in breadth; the mountains of
+                    Belochistan on the west; and the provincesof Seewistan and Babawulpoor on the
+                    north. It is a flat alluvial country, situated between the 23d and 27th degrees
+                    of north latitude, and the 67th and 71 st degrees of cast longitude; and is
+                    crossed in a diagonal direction by the Indus and its brandies, which form
+                    adclta, in length about a hundred miles along the coast. The lower part of this
+                    delta is intersected by numerous rivers and creeks, like the delta of the
+                    Ganges, but it has no trees on it, the dry parts being covered with brush-wood,
+                    and the remainder, by much the greater part, being noisome swamps, or muddy
+                    lakes. The streams which break off from the Indus, diverge in all directions
+                    into other streams, which interlock into each other, and chequer the whole
+                    country. To trace in detail those complicated branches into which the main
+                    stream is thus divided would be useless. All those various streams which
+                    overspread the country, greatly increase its fertility; but often prove
+                    pernicious to those who dwell on the banks, by the exhalations which arise under
+                    a tropical sun, from the annual inundations. “Few countries,” says Major Rennel,
+                    “are more unwholesome to European constitutions, particularly the lower part of
+                    the delta.”</p>
+                <p part="N">Sinde may be termed a level country, intersected with rocky hills. Those
+                    tracts which are within the limits of the inundation, rival in fertility the
+                    borders of the Nile-Even those parts which are at a distance from the river, are
+                    capable of being cultivated, provided there is no failure in the periodical
+                    rains. This, however, frequently happens, as no country in the world is more
+                    subject to drought. During great part of the south-west monsoon, or at least in
+                    the months of July, August, and part of September, which is the season of the
+                    periodical rains in most parts of India, the atmosphere is generally clouded,
+                    but no rain falls, except very near the sea. At Tatta, when it was visited by
+                    Captain Hamilton, no rain had fallen for three years. Owing to this, and to the
+                    vicinity of the sandy deserts, which bound this country on the east, and on the
+                    northwest, the heats are so violent, and the winds from these quarters so
+                    unwholesome, that the houses are contrived so as to be ventilated by means of
+                    apertures on the top of them, resembling the funnels of small chimneys. During
+                    the prevalence of the hot winds, the windows are shut in order to exclude the
+                    lower and hottest current of the air, along with the clouds of dust which it
+                    sets in motion; and the cooler portion descends into the house through the
+                        funnels.<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >Rennel's Memoir of a Map of Hindostan. p. 290.</p></note> When
+                    Lieutenant now Colonel Pottinger was at Tatta with the mission that was sent to
+                    the court of Hydrabad in 1808, the rains were extremely violent; they descended
+                    so heavily that the streets frequently ran like rivulets; and in the coolest
+                    apartment, the thermometer usually ranged from 94 to 102; this was in June.
+                    Towards the middle of July it became much cooler, and strong northerly gales set
+                    in, which cooled the air; and at Hydrabad, during the summer season, the mission
+                    experienced the heaviest falls of rain, which caused the Futelee river to
+                    overflow its banks; and owing to the exhalations from a burning sun, the
+                    thermometer seldom falling below 102, and the atmosphere at night being
+                    particularly oppressive, beyond, Colonel Pottinger observes, what he had ever
+                    experienced in India, the followers of the mission were attacked by fevers and
+                    other complaints; and it was only by taking regular exercise, and using
+                    requisite precautions, that the gentlemen of the mission continued to maintain
+                    themselves in health.<note anchored="true" place="bottom" type="authorial"><p
+                            part="N">’ Pottinger's Narrative, chap. 10, p. 368.</p></note></p>
+                <p part="N">The country increases in barrenness as it recedes eastward from the
+                    Indus, and its tributaries; and in the vicinity of the Northern Runn, it is
+                    described by Dr. Burnes, who travelled through this country in 1825, as a dead
+                    unproductive flat, a perfect desert, in which not a tree, house, nor human
+                    being, was to be seen, and where it was even difficult to procure a little
+                    brackish water from the stagnant marshes that were occasionally seen. For about
+                    fifty miles eastward from Cutch, as far as the town of Ruree, and nearly the
+                    same distance from the Indus the country presents the same aspect; namely, a
+                    sterile flat. The town of Ruree, though superior to most of the towns in this
+                    country, yet being removed beyond the freshes of the Indus had suffered severely
+                    from drought, so that the inhabitants were reduced below 500.<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">See Narrative of
+                            a Visit to the Court of Sinde, by James Burnes, p 36.</p></note> The
+                    villages which are met with in this country, have also the same miserable
+                    appearance, being far inferior to those of Cutch, on the eastern side of the
+                    Runn. In place of the stone buildings, and tiled roofs, which give an air of
+                    neatness and comfort to those of the latter country, they are for the most part
+                    collections of low huts, composed of clay and thatch; and even the mosques are
+                    built of the same frail materials, of rather greater elevation indeed, and with
+                    a feeble attempt at ornament. Many of the inhabitants inhabit grass hovels in
+                    the fields, from which, by hard labour, they extort a miserable subsistence.
+                    When either food or forage fail, it is not unusual<pb break="no"
+                        facs="ht:chi.28490924&amp;view=1up&amp;seq=424" xml:id="kp-eb0720-0424-0362"
+                    /> for the whole population of a village to migrate to another station, as
+                    choice or necessity prompts them. Westward, the country gradually improves, and
+                    on approaching the region of the inundation, it presents an appearance of
+                    extensive cultivation, and the richness of the soil is everywhere remarkable, It
+                    is intersected by numerous canals from the branches of the Indus, dug for the
+                    purposes of navigation, and over which small brick bridges have been thrown, on
+                    which water wheels are placed, by which a supply of moisture is distributed over
+                    the fields. The country in the vicinity of Hydrabad assumes a hilly appearance;
+                    and westward of the Indus it is bounded by a pile of barren mountains, that are
+                    quite as inhospitable, both as to soil and climate, as the sandy desert which is
+                    seen at a distance from the Indus and its waters. Near the sea at Kurachee, in
+                    latitude 24. 52. north, longitude 67. 17. east, west of the river, the country
+                    is, for eight or ten miles, a dead flat; and as, when it was visited by
+                    Pottinger, there had been a want of rain for several seasons, the earth was
+                    quite burned, without the slightest trace of vegetation, except some small
+                    stunted bushes scattered over the plain. But the inhabitants assured him that in
+                    fortyeight hours after a plentiful fall of rain, the ground would be a perfect
+                    grass plat, moisture being here, as in other hot regions, the great agent of
+                    fertility.</p>
+                <p part="N">The climate is hot; the thermometer varying, in the months of June and
+                    July, from 90 to 100; and the country is within the range of the monsoons, and
+                    the periodical rains. It is mentioned, however, by Dr. Burnes, that in January
+                    1828, the rain fell in torrents at Hydrabad, which was attended with more
+                    piercing cold than he had ever experienced in Europe. In the northern parts of
+                    Sinde the air is pure, and refreshed by the cooling breezes from the westward,
+                    so that the heat is far from being intolerable. On the western bank of the
+                    river, from the latitude of Schwan in 26. 6., there is a variety of feature in
+                    the face of the country, some districts being mountainous, some flat, some
+                    intersected by ranges of low mountains down to the sea.<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">Pottinger'a Narrative of a
+                            Journey through Belochistan, chap. 9. p. 361.</p></note></p>
+                <p part="N">The banks of the Indus near Hydrabad, and generally throughout its lower
+                    course, are well cultivated, except where the Ameers, the rulers of the country,
+                    have converted the most fruitful fields and districts into gloomy and impervious
+                    forests for the preservation of game; those princes being unfortunately
+                    passionately fond of hunting, and like all despotic princes, gratifying their
+                    inclinations at whatever expense of misery to their subjects. It is mentioned
+                    that one of the princes, Meer Futteh Ali, depopulated one of the most fertile
+                    spots in the neighbourhood of Hydrabad, which yielded two to three lacs of
+                    rupees annually, because frequented by a peculiar species of antelope, which he
+                    found great pleasure in hunting. And the youngest brother, Mourad Ali, banished
+                    the inhabitants of an ancient village and razed it to the ground, because the
+                    crowing of cocks, and the grazing of cattle, disturbed the game in the
+                    neighbouring lands, which were contiguous. The game laws of Europe are
+                    sufficiently tyrannical; but they are fortunately corrected by the milder
+                    influence of manners. During the swelling of the river, grain and other seeds
+                    are reared; the remainder of the year is employed in the production of indigo,
+                    sugar-cane, and all kinds of grain. They have also extensive pastures; and the
+                    country would rapidly advance in wealth, but for the oppressive rapacity of the
+                    government. It is the heavy taxes which ruin industry in this, as in most other
+                    eastern countries. Every beegah of land watered by a canal or wheel, pays a
+                    revenue of from l ½ to 31/ <hi rend="subscript"> 2</hi> rupees to the
+                    government. A duty of one rupee is also charged on each kun war, or 120 pounds
+                    of gιain reaped by the farmers. Garden land producing fruit trees, pays 2 ½
+                    rupees per bee gah; and the spring crop of tobacco is rated at 4 ½ rupees per
+                    beegah. The tax on sugar is collected in kind, and is 4 ½ rupees per beegah. But
+                    these are not the only exactions with which agriculture is burdened. Its produce
+                    has to pay other dues in the market before it is allowed to be sold. Boats that
+                    arrive at Tatta are all taxed in proportion to their value; and these exactions
+                    generally exceed the original cost of the articles on which they are imposed.
+                    The revenues that are derived from Kurachee, situated west of the Indus, at the
+                    south-western extremity of Sinde, of which it has become of late years the
+                    principal sea-port, are farmed, agreeable to the wretched policy that obtains
+                    throughout this country; and in 1809, according to the information of the able
+                    and enterprising traveller, Lieutenant Pottinger, there was paid on this
+                    account, into the public treasury, 99,000 rupees, or L. 12,375; and the vender
+                    was supposed to clear 12,000 rupees. The revenues have since increased to one
+                    lack 23,000 rupees, equal to L.l5,375. This increase of revenue is ascribed
+                    solely to the local advantages of the port, being a central point between India
+                    and the dominions of Cabul, as also Khorassan, Balk, Bokhara, &amp;c. The
+                    disorderly state of the country, from the decreasing authority of the Khan of
+                    Kelat, diverted the trade into this route through Sinde, the merchants finding
+                    the heavy exactions imposed on them more tolerable than the risk of violence to
+                    which they were exposed in other parts.</p>
+                <p part="N">It has been remarked that despotic power, wielded by wisdom and
+                    goodness, would constitute the best government. But unfortunately, in Sinde it
+                    is wielded neither by wisdom nor goodness, but is a fearful instrument of
+                    rapacity and oppression, in the hands of the tyrants who rule the country, who,
+                    having no conception that it is for their own interest that the people should
+                    thrive, despoil them of their wealth, thus crushing the seeds of future
+                    accumulation, and for ever preventing any improvement of the national revenues.
+                    Under this short-sighted policy, the imposts and taxation in Sinde, according to
+                    Dr. Burnes, whose work affords valuable information on this subject, are
+                    enormous, and paralyze the whole trade and industry of the country. With the
+                    characteristic recklessness of an arbitrary government, the revenues are farmed
+                    to the highest bidders, who, as they are responsible to their task-masters for
+                    the produce, and can never expect indulgence on any pretence, are obliged to
+                    satisfy their rapacity, and to extort a revenue by whatever means from the
+                    impoverished people. Were it not for the great natural advantages with which the
+                    country is blessed, in the never-failing supply of moisture from the inundation
+                    of the Indus, which renders the cultivator independent of the tropical rains,
+                    her industry must have sunk under the manifold evils of ignorance and misrule.
+                    This is <hi rend="italic">a</hi> source of fertility, of which no tyranny can
+                    despoil this highly favoured land; and thus the bounty of Providence is here
+                    more effectual to renovate, than the wickedness of man to destroy. The
+                    cultivator looks with certainty to an abundant harvest, and is enabled to export
+                    of his abundance to other countries. “Hence,” says the judicious traveller
+                    already referred to, “there is an appearance of plenty and contentment
+                    throughout this misgoverned land, which would surprise any traveller who did not
+                    take every circumstance into consideration.” Certain checks, however imperfect,
+                    no doubt exist to the excesses of despotic power. The farmers of the revenues
+                    are generally Hindus, who have no influence with the Ameers, by whom they are
+                    despised for their religion, and envied on account of their wealth; and on this
+                    account, they are the more ready to listen to any complaints against their
+                    oppressions from the Ryots, and to grant them redress. This, however, is but a
+                    feeble safeguard against oppression; and it too often happens that the interests
+                        of<pb break="no" facs="ht:chi.28490924&amp;view=1up&amp;seq=425"
+                        xml:id="kp-eb0720-0425-0363"/> the two parties lead them to unite in the
+                    spoliation of the helpless villager.</p>
+                <p part="N">The principal articles of domestic produce, which are exported chiefly
+                    from Kurachee, are rice, ghee, hides, shark fins, potash, saltpetre,
+                    assafoetida, bdellium, madder, frankincense, Tatta-cloths, indigo, oleaginous
+                    and other seeds. From Mooltan, and the countries to the northward, are imported
+                    for re-exportation, alum, musk, horses, Kashmeer shawls, dried fruit, diamonds,
+                    lapis lazuli, turquoise, and other precious stones and gums. Other imports are
+                    tin, iron, lead, steel, ivory, European manufactures, sandal and other scented
+                    woods, from the south of India; swords and carpets from Khorasan and
+                    Candal&gt;ar, silk and other articles from the Persian Gulf. The merchants who
+                    are settled here from Mooltan are the principal traders, and the wealthiest part
+                    of the community. The exports from Sinde to Bombay consist of sharks’ fins and
+                    flesh, bdellium, ghee, potash, saltpetre, hides, oil of sesame, wheat,
+                    assafoetida, oil, raisins, almonds, colouring plants, pistachio flowers and
+                    nuts, shawls, cloths, mustard, wild saffron, black cummin seed from Kerman,
+                    white cummin seed, chintzes both from Sinde and Khorasan. In return are received
+                    from Bombay, sugar, sugar-candy, steel, iron, tin, tutenaque, lead, cochineal,
+                    betel-nut, black pepper, dried cocoa nuts, vermillion, red lead, quicksilver,
+                    Bengal and China silks and cloths, cinnamon, cardamoms, cloves, nutmegs,
+                    sandal-wood, grapes, china ware, pearls, aloes, and amuttas. A considerable
+                    trade is carried on with Muscat, Cutch, and with Mooltan and Cabul. To Muscat
+                    the exports are dressed leather, rice, wheat, sirshif oil, ghee, bdellium,
+                    chintzes, and other cloths; for which the returns are dates, limes, roses, silk
+                    from the Persian province of Ghilan, elephants’ teeth, pearls, almonds,
+                    preserved fruit, cowries, slaves, arsenic, senna from Mecca, quince seeds, and
+                    gum. From Cutch it derives a supply of cotton, snuff, unwrought iron found in
+                    Cutch, and the small Arabian aloe. The Indus affords an easy means of
+                    intercourse with this province and the countries to the northward, being
+                    navigable for small vessels to a great distance from the sea. With Mooltan and
+                    Cabul the trade is carried on chiefly by caravans, and also by merchants and
+                    travellers. It is proper to add, that the trade in the Indus had greatly
+                    decayed, and had become merely nominal, the ignorant and tyrannical policy of
+                    the Ameers having nearly crushed it in that province, and the unsettled state of
+                    the countries to the northward rendering it precarious in that quarter. In 1808
+                    it was carried on by a few boats passing up and down with grain, saltpetre,
+                    salt, and firewood; though, with the increasing ascendancy of the British in
+                    this quarter, and the restoration of order and peace in these former regions of
+                    anarchy, the former intercourse has revived, and will now be carried on with
+                    greater security than ever. A factory, established at Tatta in 1756 by the East
+                    India Company, which carried on a considerable trade with the province of Sinde,
+                    and was withdrawn, probably from the demoralised state and poverty of the
+                    country; though so late as the beginning of the present century, Mr. Crow was a
+                    commercial resident at Tatta. An unsuccessful attempt was since made in 1808 to
+                    renew the intercourse; but the haughty and jealous chieftains who ruled in this
+                    province rejected all advances on the part of the British. Ever since the
+                    occupation of Cutch by the British troops in 1819, they viewed the extension of
+                    their dominions with distrust, and maintained a cold and unfriendly attitude. No
+                    European officer was allowed to cross the frontier from Cutch; and even a
+                    special envoy, who had proceeded from Bombay in 1820, on the invitation of their
+                    own minister, was coldly received, and it was only in 1825 that a most friendly
+                    letter was received, with an invitation to Dr. Burnes to proceed without delay
+                    to Hydrabad, on account of the alleged sickness of one of the principal chiefs.
+                    The invitation vas accepted, and he was received with every mark of confidence.
+                    A treaty has been since ratified in 1838 by the Ameers of Sinde, providing for
+                    the reception of a British resident; to which office Colonel Pottinger has been
+                    appointed.</p>
+                <p part="N">The government of Sinde is a military despotism. After a long era of
+                    civil commotion, Futteh Ali Khan was called to exercise the supreme power, who
+                    generously admitted his three brothers, Ghoolam Ali, Kurm Ali, and Mourad Ali,
+                    to a participation in his high destiny. He died in 1801, and Ghoolam Ali in
+                    1811. The supreme power in Sinde is now vested in the two youngest and surviving
+                    brothers, Meers Kurm and Mourad Ali, who are known as the chief Ameers, and
+                    whose seals are affixed to all public documents issued in the name of the
+                    government. But there are others of the family who are scarcely inferior in rank
+                    to these princes, on whom has devolved the executive government. The two
+                    deceased brothers, Futteh and Ghoolam Ali, left sons, to whom they bequeathed
+                    their shares in the administration, and who, though they have been kept back by
+                    their youth, and the grasping spirit of their uncles, had, when Dr. Burnes was
+                    at Hydrabad in 1827, acquired ascendancy in the state; and since his departure,
+                    one of them had risen in successful rebellion, and had raised himself to a
+                    political equality with his relatives. The two sons of Mourad Ali, Noor Mahommed
+                    and Nusseer Khan, are also among the heads of the government. All these chiefs
+                    are in possession of respective portions of the revenues of Sinde. After the
+                    death of Futteh Ali, the province was partitioned into four shares, of which the
+                    largest belongs to Mourad Ali, who, on the plea of his having descendants,
+                    continued to despoil his brother and Meer Mahommed of much of their possessions.
+                    There are other nobles who are related to the royal family, and who are allowed
+                    to assume the title of meer, or lord, but are not permitted to interfere in the
+                    affairs of state, deriving their importance solely from their alliance with the
+                    reigning princes. The real power centres in Meer Mourad Ali, who is represented
+                    as a gloomy tyrant, a slave to avarice, and a plunderer of his people. At the
+                    court of the Ameers, every thing is conducted on a scale of magnificence
+                    scarcely equalled at any other court in Hindustan. The parade that was exhibited
+                    when Colonel Pottinger and Dr. Burnes were severally received at court, is
+                    described by these travellers; and they both agree in celebrating the surpassing
+                    richness and splendour of the scene. The princes, says the former writer, wore a
+                    vast number of jewels, beside those that were set in the hilts and scabbards of
+                    their swords and daggers; and their waist-belts displayed some extraordinary
+                    emeralds and rubies. They were seated on a thin felt, that extended all round
+                    the circle, and over which was laid a silk mattrass, about an inch thick, spread
+                    with a muslin cloth, embroidered in a most exquisite manner with gold and silver
+                    flowers. They reclined on three large pillows, covered with similar embroidery,
+                    which, with the display of jewels, gave the whole an inconceivably rich effect.
+                    “Many of the officers of government,” he continues, “appeared in very good
+                    style; and the general splendour and richness of the scene far surpassed any
+                    thing we had expected to see at the court of Hydrabad.”<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">Travel in Balochistan and in
+                            Sinde, chap. x. p. 367.</p></note> The dress of the princes, which was
+                    not ornamental, consisted in fine muslin tunics, with costly sashes tied round
+                    their waists, and their turbans of thin transparent gauze were of the largest
+                    dimensions, about 2 ½ feet in diameter, and yet so neatly folded up, as to give
+                    them a very becoming appearance. Dr. Burnes observes, that when he was first
+                    introduced at court,<pb break="no"
+                        facs="ht:chi.28490924&amp;view=1up&amp;seq=426" xml:id="kp-eb0720-0426-0364"
+                    /> the <hi rend="italic">coup d’oeil</hi> was splendid, and that the spectacle
+                    approached nearer than any thing he had seen to the fancies formed in childhood
+                    of eastern grandeur. The two principal Ameers were seated amid a group of
+                    elegantly attired figures, at the end of a lofty hall, spread with Persian
+                    carpetting, on their musnud, a slightly elevated cushion of French white satin,
+                    beautifully worked with flowers of silk and gold, the corners of which were
+                    raised by four massive and highly chased golden ornaments, resembling
+                    pineapples, and, together with a long velvet pillow behind, covered with rich
+                    embroidery, presented a very grand appearance. There was no tinsel or gaudy
+                    display of scarlet; none of the incongruities seen at the Hindoo courts, of
+                    gorgeousness and dirt; but a simple and becoming elegance, far surpassing any
+                    thing he had seen in India. The Ameers and their attendants were habited nearly
+                    alike, in tunics of fine white muslin, neatly prepared and plaited, so as to
+                    resemble dimity, with sashes of silk and gold, wide Turkish trousers of silk
+                    tied at the ankle, chiefly dark blue, and Sindian caps made of gold brocade or
+                    embroidered velvet. “A pair of Cashmere shawls,” adds Dr. Burnes, “of great
+                    beauty, generally white, thrown negligently over the arm, and a Persian dagger
+                    at the girdle, richly ornamented with diamonds or precious stones, completed the
+                    dress and decorations of each of the princes. All the officers in attendance,
+                    judging from their dress and manners, seemed to be of inferior rank. There was
+                    no crowding for places; the rabble had been shut entirely out of doors; and
+                    there was a degree of stillness and solemnity throughout the whole, and an order
+                    and decorum in the demeanour of each individual, which impressed one with a
+                    feeling of awe and respect. I could not have anticipated the brilliant
+                    collection of jewels and armour that is in possession of these princes, and is
+                    of all things calculated most to surprise a European stranger.” Colonel
+                    Pöttinger mentions with admiration the profusion of pearls which they displayed;
+                    the size of one which the prince carried in his hand, he declares was such as
+                    before be should have regarded as perfectly incredible; and a perfect emerald,
+                    suspended from the hilt of a dagger which one of the younger princes wore in his
+                    sash, was considerably larger than a pigeon’s egg. They had still this emerald
+                    in their possession when Dr. Burnes visited the court; and the immense treasure
+                    which they have accumulated from the spoil of the country which they govern,
+                    consists in rubies, diamonds, pearls, and emeralds, with which their daggers,
+                    swords, and matchlocks are adorned, or they are worn as rings and clasps, on
+                    different parts of their dresses. Many of these precious stones were purchased
+                    at reduced price, from the unfortunate princes of the Cabul monarchy and the
+                    nobility, when they were reduced to ruin by the revolutions which took place in
+                    that kingdom; and merchants are encouraged to visit Sinde from all parts, in
+                    consequence of the avidity of the princes to buy up the precious articles in
+                    which they deal. One or two Persian goldsmiths are employed at court, who
+                    continue to display to the best advantage the jewellery of their masters; and
+                    the art of inlaying letters of gold on steel has been brought to the greatest
+                    perfection by these artizans. The Ameers of Sinde are also remarkably curious in
+                    the qualities of swords and gun-barrels; and they possess a more valuable
+                    collection of these articles than is to be met with in any other part of the
+                    world. The value of a sword is estimated by the age and fineness of the steel,
+                    or by the temper and watering. One which was shewn by Kurm Ali to Dr. Burnes,
+                    dated 1122, <hi rend="smallcaps">(a.d.</hi> 1708,) was valued at 2000 rupees, or
+                    about L.125. They have in their armoury swords that have been worn by almost
+                    every prince renowned in Asiatic story; by Shah Abbas the Great, Nadir Shah,
+                    Ahmed Shah Doranee, besides other equally illustrious personages. Their blades
+                    are generally embellished with inscriptions in gold, of verses from the Koran,
+                    or short prayers for aid and protection. They manage their swords with great
+                    skill; and though they are not heavier than common English sabres, Dr. Burnes
+                    mentions that he has seen one of them cut a large sheep, with one stroke, in two
+                    pieces, a feat that depends on a certain mode of striking that requires great
+                    practice and dexterity.</p>
+                <p part="N">The Ameers are passionately fond of hunting; and for this purpose large
+                    tracts of fertile land are enclosed to prevent the egress of the quadrupeds, and
+                    are converted into jungle; and once or twice a-month they visit their different
+                    game preserves to enjoy the pleasures of the chace, though the manner of killing
+                    the game in this country does not bear the appellation. Their mode of hunting
+                    does not at all partake of the animation which belongs to that amusement in
+                    Europe. Their plan is to close up all the wells, except the one in front of
+                    their tents, to which, when the animals resort, being compelled by dire
+                    necessity, they are then shot by the Ameers, amid the acclamations of their
+                    followers. They never hunt on horseback; but sometimes, though rarely, go a deer
+                    shooting on camels, and none, except themselves, are permitted to fire at any
+                    game. There is rarely a sporting excursion which does not cost the lives of two
+                    or three of their subjects, a matter of extremely little consequence in this
+                    tyrannical country, either from their false aiming, or from the fury of the
+                    boars driven desperate. The mode in which those hunting excursions are
+                    conducted, marks the jealous policy of the tyrannical government. They are
+                    attended by large retinues; and they never previously announce in which
+                    direction they mean to travel; nor will any of the princes leave the other
+                    behind. They are afraid of leaving them this short interval for intrigue, and,
+                    perhaps, rebellion; and it was by being left for two or three hours behind, that
+                    one of the princes succeeded in his late rebellion. Though related, they place
+                    no confidence in each other. They sleep in apartments peculiarly contrived for
+                    safety, with loaded arms laid beside their uneasy pillows; though these
+                    precautions are now somewhat relaxed, in consequence of the long era of nearly
+                    forty years’ tranquillity which the country has enjoyed under the existing
+                    regime. There is nothing like the spirit of independence among the courtiers or
+                    nobility of Sinde. They only retain their places by the most implicit obedience
+                    and the most fawning adulation to their superiors; and their habitual propensity
+                    to flatter a European who is in favour at court, or even each other, is
+                    ludicrous; scarcely two persons meet without indulging in the most fulsome
+                    strain of oriental flattery; social life is burdened with this ceremonious
+                    formality, which is the mark of inferior civilization, and is common in Persia,
+                    Cabul, and generally among the semi-barbarous tribes of Asia.</p>
+                <p part="N">The whole family of the Ameers are extremely strict, and mere bigots in
+                    their intolerant religion. With one or two exceptions, they have become Sheahs,
+                    or followers of Ali; who hate the sect of the Soonees even more bitterly than
+                    Brahmins or Christians. They are remarkable for the intolerance with which they
+                    persecute the Hindus, forming a considerable proportion of their subjects, who
+                    are subjected to the most exasperating indignities, and often to the greatest
+                    cruelties; they are forced to adopt the Mahometan dress, and to allow their
+                    beards to grow. It is only lately that they have been allowed to ride on
+                    horseback, and it is only the few who are in the immediate service of government
+                    that are allowed the privilege and honour, as it is esteemed, of a saddle.
+                    Merchants of wealth and respectability may be seen mounted on asses and mules,
+                    consider ed unclean animals, such as none but the vilest outcasts in other
+                    Asiatic countries can touch with impunity; and they are obliged to descend and
+                    stand aside when any Musselman passes by. They are denied the free exercise of
+                    their religion; the tom-tom can only be beat when special permission is granted;
+                    and though images are placed in most of the temples at Hydrabad, the sound of
+                    music never<pb break="no" facs="ht:chi.28490924&amp;view=1up&amp;seq=427"
+                        xml:id="kp-eb0720-0427-0365"/> echoes from their walls; they are subjected
+                    to other shocking and degrading cruelties revolting to humanity; any two of the
+                    true believers, by declaring that they have heard a Hindoo repeat a verse in the
+                    Koran, or the words “Mahomed the prophet,” may procure his immediate
+                    circumcision, which this degraded and persecuted class consider the most cruel
+                    calamity that can befal them, in which, as it is resorted to on the slightest
+                    provocation, and performed with the deriding pretence that it is for their
+                    eternal happiness, the torture of the mind is added to that of the body. On the
+                    other hand, the most bigotted veneration is expressed for the Seynds, or
+                    descendants of the prophet. The meanest wretch who can boast a connection,
+                    however remote, with this holy stock, enjoys a station in society such as no
+                    temporal man can bestow. If any one, under whatever provocation, would dare to
+                    retaliate, by abusing or striking any one of this favoured class, he would be
+                    torn to pieces by the enraged populace; and, in consequence of this high favour
+                    which they enjoy, an idle herd of these wretches flock into Sinde from the
+                    neighbouring countries, where, besides being useless members of the community,
+                    and withal insolent and lazy, they debase the minds and drain the purses of the
+                    deluded inhabitants.</p>
+                <p part="N">The Ameers commence business about two hours before day-break, each
+                    holding a levee to hear compliments, and to adjust the affairs belonging to his
+                    department. About sun-rise they repair to their apartments to dress, and appear
+                    shortly afterwards in durbar, where the whole family regularly assemble for
+                    transacting public business; all letters are then laid before them, which, being
+                    read and considered, and some time passed in conversation, they withdraw to
+                    their morning repast about ten or eleven o’clock. They again appear abroad about
+                    two o’clock and remain together until dark, when they repair for the night to
+                    their respective apartments. At the residences of the younger princes every
+                    thing forms a contrast to the stately ceremonial of the elder Ameers; all
+                    restraint is thrown aside, and every species of amusement, such as boar-baiting,
+                    fencing, ball practice, and wrestling, are pursued with avidity. At the public
+                    audiences in the durbar the Ameers, though courteous, are for the most part
+                    haughty and reserved in their manners; nothing approaching to familiarity being
+                    allowed between them and their most favoured servants. Under such a government
+                    as has been described, justice is very imperfectly administered. The Koran is
+                    the foundation of law as it is of religion; and between man and man disputes are
+                    generally settled fairly enough by the cadi, except where bribery is employed,
+                    when the best security for justice is a weighty purse. The Hindus generally
+                    settle all disputes among themselves by punchayets or juries, as is practised in
+                    many parts of Hindustan, as they have no encouragement to come before the ruling
+                    authorities. The native inhabitants, the Beloches, according to their military
+                    notions, generally take the law into their own hands, and act on the simple
+                    principle of retaliation; nor do the authorities interfere, except where the
+                    dispute extends to whole tribes, and seriously endangers the peace of the
+                    country. In this case they interfere to settle matters by force or by
+                    conciliation. A serious quarrel of this nature occurred when Dr. Burnes was at
+                    Hydrabad, when the contending parties were sent for by the princes, who, with
+                    much flattery and address, obtained a promise from them to desist.</p>
+                <p part="N">The military force of Sinde is very inefficient; their armed retainers
+                    are few in number and contemptible in appearance. Several of the chiefs of the
+                    tribes reside at court, and they can collect in a few days their followers, who
+                    are generally employed in agriculture and other occupations. In this manner it
+                    is estimated that 40,000 men may be collected. But though the iron rod of
+                    oppression has repressed the daring spirit of the military classes, yet the
+                    anarchy which has prevailed in this, as in other parts of Hindustan, has
+                    nurtured, among the great body of the people, a spirit of disorder and a love of
+                    plunder which is ready to break out on all occasions. The country is, in short,
+                    filled with licentious banditti, and would have been, in the evil days that are
+                    passed, a fit nursery of recruits for the Pindarie bands. “Like hungry
+                    vultures,” says Dr. Burnes, “they would almost seem to scent the battle from
+                    afar, for the train of dissension is no sooner lighted than war becomes their
+                    universal cry, and it is incredible in how short time they flock to the
+                    rendezvous.” The late insurrection of the princes was settled in a few days;
+                    yet, in that short time, about 20,000 or 30,000 volunteers had joined the
+                    different standards, and they were hourly crowding in when the adjustment took
+                    place. In military qualities, the Sindian soldier ranks very low; he has no
+                    discipline nor steadiness in the field, though he is brave and hardy; and his
+                    vanity and gasconading are proverbial. The army presents, when assembled, a
+                    motley and ill-accoutred assemblage of mercenaries from all quarters, chiefly
+                    composed of ferocious adventurers from the mountains of Belochistan, to one of
+                    whose rude tribes the reigning house traces its origin. The Ameers are well
+                    aware of the inefficient state of their military force, and of the utter
+                    hopelessness of any conflict with the British arms. And this furnishes the
+                    explanation of their distance and reserve, justly fearing that any close
+                    intercourse would only expose the nakedness of the land. It is not easy to
+                    obtain any exact estimate of the revenue of Sinde. Colonel Pottinger states its
+                    total amount, including those of all the collateral branches of the reigning
+                    family, at sixty-one lacs of rupees yearly, equal to L.767,500 sterling, which
+                    shews an increase, since 1809, several years previous to his estimate, of
+                    L.232,750, the amount being, at that time, forty-two lacs and 78,000, or
+                    L.534,000 sterling.</p>
+                <p part="N">The men of Sinde are dark in colour but are an exceedingly handsome
+                    race; above the medium height of Asiatics, with good features and well-formed
+                    limbs. The beauty of the women is proverbial, and it is remarked by Pottinger in
+                    his instructive and excellent work, that though he had only casual opportunities
+                    of seeing any of the higher class of females, yet among the dancing girls who
+                    came to exhibit before them, there was not one who was not distinguished by
+                    loveliness of face or the symmetry of her figure, and in most instances both
+                    these requisites of beauty were strikingly combined. The dress of the men
+                    consists of a loose shirt, a pair of trousers, puckered at the ancles, and a
+                    quilted cotton or cloth cap, ornamented with flowers of silk or gold sewed round
+                    the bottom: that of the women, with the exception of the cap, is much the same;
+                    they wear beside, underneath their shifts, a silk jacket made to fit the form,
+                    that laces behind; and when abroad, a cloth shirt wraps round the body, having
+                    one end brought round the crown of the head, and serving as a veil to cover the
+                    face from strangers. This traveller does not, however, commend, in the same
+                    degree, the character of the people, in which the bad qualities, according to
+                    his estimate, greatly predominate. They are, he observes, avaricious, full of
+                    deceit, cruel, ungrateful, and strangers to veracity; and all the extenuation
+                    which he offers for these vices is, that the present generation has grown up
+                    under a government whose extortion, ignorance, and tyranny, is unequalled in the
+                    world. The Sindians, however, he does not rate lower in the scale of morality
+                    than the population and society of the other nations of Asia. Their good
+                    qualities consist in personal braveτy, abstinence, and obedience to their
+                    superiors; for which they are reckoned the best mercenary soldiers in Hindustan.
+                    In manners they are generally forward and unpolished; in intellect dark and
+                    inapt, and in hospitality and fidelity signally regardless and deficient.</p>
+                <p part="N">The ancient history of Sinde is involved in obscurity. When Alexander of
+                    Macedon invaded the country, it was<pb break="no"
+                        facs="ht:chi.28490924&amp;view=1up&amp;seq=428" xml:id="kp-eb0720-0428-0366"
+                    /> governed by Hindu Rajahs; and from that time little is known of its history
+                    till the rise and progress of the Mahomedan power. It was conquered by a general
+                    dispatched for this purpose by a lieutenant of the Ommade Caliph Walid in
+                    Sejestim and Candahar; and flourished under the vicegerents of the prophet till
+                    its conquest by the Sultan of Ghizni. It afterwards came under the jurisdiction
+                    of the Soomrai, a native tribe, and was again reduced by Mahommed Ghori, and
+                    annexed as a fief to the crown of Delhi, to which it remained attached for two
+                    centuries. In the various conquests and revolutions which subsequently took
+                    place in India, this country was the prize of the victor. It was finally subdued
+                    by the armies of Acbar about the year 1580, since which period its rulers have
+                    never ventured openly to avow their independence, though they have sometimes
+                    evaded the payment of the tribute fixed, and have even frequently appeared in
+                    arms against the lord paramount. Under the succeeding emperors the province of
+                    Sinde was kept under strict subjection, though the unsettled aspect of Hindustan
+                    sometimes encouraged the rulers of Sinde to withhold the tribute. In the mean
+                    time the introduction of vast tribes of Beloches as mercenaries, had changed the
+                    character of the population, and the rule of the family of Toor Khan had given
+                    place to the tribe of Caloras, sprung, it is supposed, from adventurers that
+                    followed the Persian army. The invasion of India by Nadir Shah in 1739, extended
+                    the rule of Persia over Sinde and all the provinces west of the Indus; but his
+                    assassination paved the way for the rise of the D∞ranee empire under Ahmed Khan
+                    Seedozy, who declared himself king of Cabul, to whom Sinde after a time
+                    submitted, and has ever since been considered subordinate, though frequently
+                    rebelling and refusing to pay tribute. The country was long a scene of civil
+                    dissension, different competitors contending for tire throne, the Talpoories, a
+                    tribe of Beloche origin, rebelling against the house of Calora. Their
+                    contentions were carried on with various success, and with ruin and misery to
+                    the country, which was wasted in these wars. Ahmed Shah, the conquerer of the
+                    Mahrattas in the battle of Panripart in 1761, exacted the tribute with all its
+                    arrears. In 1786, Meer Futteh Allee, the eldest of four brothers, was confirmed
+                    as ruler of the country. He admitted to a participation in his high destiny his
+                    three younger brothers, Ghoulam Ali, Kurm Ali, and Mourad Ali; and they agreed
+                    to reign together as the ameers or the lords of Sinde. Futteh Allee died in
+                    1801, and Ghoulam Ali in 1811; and the country, as has been already mentioned,
+                    is now partitioned between the surviving brothers, and their respective
+                    sons.</p>
+                <p part="N">It is scarcely possible that this outlying country of Sinde can remain
+                    long independent of British control. The late great and successful expedition,
+                    for the purpose of restoring Dost Mahommed to the throne of Cabul, however
+                    questionable its policy, has extended the power of the British in India into
+                    countries where their name was scarcely known before. All the intervening states
+                    through whose territories the army passed in its progress to the scene of
+                    action, viewed the mighty movement with a mixed feeling of jealousy and awe.
+                    Having seen the various states of India, its princes and chiefs, with their
+                    dependent tributaries, successively swallowed up in the wide extending sway of
+                    this European empire, they would willingly have joined in repelling its further
+                    advances into the interior of Asia; but they were overawed; and the late
+                    brilliant operations of the British will tend to confirm and extend their
+                    political influence, and will in the end bring all such petty states as Sinde,
+                    alternately the prey of despotism and anarchy, under the control or the direct
+                    supremacy of that great power, whose mighty empire in the east, reared up by a
+                    continued train of brilliant success for more than half a century, seems only a
+                    step in her farther progress to the dominion of Asia.</p>
+                <p part="N"><hi rend="smallcaps">SINDE</hi><hi rend="italic">River,</hi> in
+                    Hindustan, has its rise in the high table land of the Malwah province to the
+                    west of Seronge; and after a winding course, falls into the Jumna six miles to
+                    the north of Calpee.</p>
+                <p part="N"><hi rend="smallcaps">Sinde Sagor,</hi> a district of Hindustan in the
+                    province of Lahore, situated principally between the 31st and 32d degrees of
+                    north latitude. It is bounded on three sides by the Indus, the Ravey, and the
+                    Jhylum, and on the north by the mountains of Joud. Zinda Singh is the term by
+                    which the inhabitants of the districts under the Seiks bordering on the Indus
+                    are known; and the Nakai Singh is the name given to the Seiks who reside in the
+                    province of Mooltan.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

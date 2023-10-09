@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0705-5806-0211-04" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">BREAD</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b4bk16r27">Protestantism</term>
+                    <term ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term ref="lcsh1910:b4x34mt4n">Jews</term>
+                    <term ref="lcsh1910:b4sq8qk1s">Christ</term>
+                    <term ref="lcsh1910:b4x34mr95">Art</term>
+                    <term ref="lcsh1910:b4ws8hm8r">Bread</term>
+                    <term ref="lcsh1910:b46688j20">Fruit</term>
+                    <term ref="lcsh1910:b4319s59c">Foot</term>
+                    <term ref="lcsh1910:b4vd6pc2x">Planting</term>
+                    <term ref="lcsh1910:b47d2q79t">Plants</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:839044">British</term>
+                    <term ref="fast:937256">Gallicanism</term>
+                    <term ref="fast:916820">Europeans</term>
+                    <term ref="fast:1079920">Protestantism</term>
+                    <term ref="fast:947546">Greeks</term>
+                    <term ref="fast:838229">Breading</term>
+                    <term ref="fast:1198482">Bread</term>
+                    <term ref="fast:935548">Fruit</term>
+                    <term ref="fast:931268">Foot</term>
+                    <term ref="fast:1065823">Plants</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1219920">England</term>
+                    <term ref="fast:1210276">India</term>
+                    <term ref="fast:1202671">Guam</term>
+                    <term ref="fast:1211575">Jamaica</term>
+                    <term ref="fast:1208755">Egypt</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193735806?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">BREAD</label>, a mass of dough kneaded and baked in
+                    an oven. See <hi rend="smallcaps">Baking.</hi><hi rend="smallcaps">Bread, Assize
+                        of.</hi> See <hi rend="smallcaps">Baking.</hi><hi rend="smallcaps"
+                        >Bread-Fruit.</hi> Among the more valuable products of the warmer climates
+                    and the fertile islands of the Southern Pacific Ocean, is to be ranked the
+                    bread-fruit, or <hi rend="italic">Arto-cαrpus incisa</hi> of botanists. Nature
+                    has favoured the tropical regions, and those countries in their vicinity, with
+                    inexhaustible quantities of the choicest vegetables, while, the inhabitants of
+                    the north are restricted to shrivelled berries and meagre roots; and if they
+                    have obtained a supply, always precarious, of some of the finer fruits, it is
+                    the result of patience, skill, and industry.</p>
+                <p part="N">Ever since Europeans frequented the eastern world in commercial
+                    enterprise, it is probable that they were acquainted with the bread-fruit. How,
+                    indeed, could its properties be unknown to Quiros, who visited Otaheite so long
+                    ago as the year 1606? Yet the English navigator Dampier seems to have been the
+                    first European whose notice was particularly directed towards it, during his
+                    circumnavigation in the year 1688; and he expresses himself in these words: “The
+                    bread-fruit, as we call it, grows on a large tree, as big and high as our
+                    largest apple trees. It hath a spreading head, full of branches and dark leaves.
+                    The fruit grows on the boughs like apples; it is as big as a penny-loaf when the
+                    wheat is at five shillings the bushel. It is of a round shape, and hath a thick
+                    tough rind. When the fruit is ripe it is yellow and soft, and the taste is sweet
+                    and pleasant. The natives of Guam use it for bread. They gather it, when full
+                    grown, while it is green and hard; then they bake it in an oven, which scorcheth
+                    the rind, and makes it black; but they scrape off the outside black crust, and
+                    there remains a tender thin crust; and the inside is soft, tender, and white,
+                    like the crumbs of a penny loaf. There is neither seed nor stone in the inside,
+                    but all of a firm substance like bread. It must be eaten new, for if it be kept
+                    above twenty-four hours it becomes dry and eats harsh and choky; but it is very
+                    pleasant before it is too stale. This fruit lasts in . season eight months in
+                    the year, during which time the natives eat no other sort of food of bread kind.
+                    I did never see of this fruit any where but here (Guam). The natives told us
+                    that there is plenty of this fruit growing on the rest of the Lađrone Islands,
+                    and I did never hear of it anywhere else.” The bread-fruit, however, is found in
+                    still greater profusion, and in equal perfection, on many of the groups of
+                    islands scattered throughout the Southern Pacific Ocean; nor is it confined to
+                    them exclusively, but their soil and climate seem to correspond more intimately
+                    with the conditions of its vegetation.</p>
+                <p part="N">There are two leading species of this plant, which are characterized by
+                    the presence or absence of seeds; the latter being the preferable kind, and that
+                    which is cultivated more carefully for its produce. The natives of the South Sea
+                    Islands maintain, however, that eight different species, or rather varieties,
+                    may be distinguished, and for which they have the respective names of Patteah,
+                    Ľroroo, Awanna, Mi-re, Oree, Powerro, Appeere, Rowdeah. The leaf of the first,
+                    fourth, and eighth, differs from that of the rest; the fourth being more
+                    sinuated, and the eighth having a large broad leaf, not at all sinuated. In the
+                    first, also, the fruit is rather larger, and of a more oblong form, while in the
+                    last it is round, and not above half the size of the others. European observers,
+                    however, do not seem -in general disposed to recognise these as essential
+                    distinctions, although they admit other varieties.</p>
+                <p part="N">As Dampier observes, the bread-fruit is a large tree, growing to the
+                    height of forty feet or more. It is thick in the stem, and has a luxuriant
+                    foliage. The trunk is upright, the wood soft, smooth, and yellowish; and
+                    wherever the tree is wounded, a glutinous fluid exudes. The branches form an
+                    ample head, almost globular; the leaves arc eighteen inches long and eleven
+                    broad, resembling those of the oak or the fig tree, from their deep sinuosities.
+                    The younger leaves, like all the more tender plants of the tree, are glutinous
+                    to the touch. The male flowers are among the upper leaves, and the female
+                    flowers at the ends of the twigs. But it is the fruit which constitutes the
+                    value of the plant, and this is a very large berry, according to botanists, with
+                    a reticulated surface, resembling a cocoa-nut or melon in size and form, nine
+                    inches in length. It is filled with a white farinaceous fibrous pulp, which
+                    becomes juicy and yellow when the fruit is ripe; and the edible portion lies
+                    between the skin, which is green, and a core in the centre, which is about an
+                    inch in diameter.</p>
+                <p part="N">During a considerable portion of the year the breadfruit affords the
+                    chief sustenance of the Society Islanders. <hi rend="superscript"> 1</hi> It is
+                    prepared after different fashions, and its taste de-ļ pends in a great measure
+                    on the mode of preparation. It is insipid, slightly sweet, somewhat resembling
+                    wheaten bread mixed with Jerusalem artichokes, and it has been compared to a
+                    cake made of flour, egg, sugar, milk, and butter. In general it is cut in
+                    several pieces, and roasted or baked in a hole made in the ground, which is
+                    paved round with large smooth stones; and then it resembles a boiled potato, not
+                    being so farinaceous as a good one, but more so than one of ordinary quality.
+                    The stones are previously heated by a fire kindled in the excavation, <pb
+                        break="no" facs="nls:193735819?mode=fullsize" xml:id="kp-eb0705-5819-0212"/>
+                    and the bread-fruit, being wrapped in a banana leaf, ĩš laid upon them, and
+                    covered with leaves and hot stones. In Otaheite, and in the West Indian Islands,
+                    several dishes are made of it, either by thus baking it in an oven entire, when
+                    it is considered to equal or surpass any kind of bread, by adding water or the
+                    milk of the cocoa nut, by boiling it, or forming it into a paste. This last is
+                    accomplished by taking the fruit before it attains complete maturity, and laying
+                    it in heaps, closely covered üp with leaves, when it undergoes fermentation, and
+                    becomes disagreeably sweet. The core being then drawn out, the fruit or pulp is
+                    thrown into a paved excavation, and the whole covered up with leaves, whereon
+                    heavy stones are laid: it thus undergoes a second fermentation, and becomes
+                    sour, after which it will suffer no change for a long time. A leaven may thus be
+                    formed of it, which is baked as occasion requires. In the island of Nukahiwa, an
+                    agreeable beverage can be obtained from it; and in the West Indies it can be
+                    baked like biscuit, and will keep nearly as long. The fruit is in the greatest
+                    perfection about a week before beginning to ripen, which is easily recognised by
+                    the skin changing to a brownish cast, and by small granulations formed of the
+                    juice. In the West Indies it is soft and yellow when ripe, and is in taste and
+                    smell like a very ripe melon.. Hogs, dogs, and poultry then feed on it
+                    readily.</p>
+                <p part="N">Besides this, the bread-fruit tree proper, there is one that has been
+                    long known in India and the eastern islands, of which the fruit contains from
+                    forty to a hundred farinaceous seeds, in appearance resembling chestnuts. These
+                    when roasted or boiled are more grateful to many persons than the bread-fruit,
+                    and the negroes are very fond •of them. The external characters of the tree are
+                    scarcely to be distinguished from those of the other, and the chief distinction
+                    lies in the fruit, which attains nearly the size of that we have described, and
+                    is covered with prickles like a hedgehog. It grows from the seed with rapid
+                    vegetation, and attains larger dimensions than the proper bread-fruit tree.</p>
+                <p part="N">The natives of those islands producing this useful vegetable collect it
+                    with very little trouble; they have only to climb the tree and gather the fruit.
+                    Nor is nutriment the sole purpose to which it is converted; for they have a
+                    method of fabricating cloth from tlιe bark, the leaves are substituted for
+                    towels, and the wood is employed in the construction of their boats and houses.
+                    A kind of cement and birdlime is also prepared by boiling the juice exuding from
+                    the bark in cocoa-nut oil.</p>
+                <p part="N">It appears that there are other vegetables of this class, producing
+                    fruit of inferior quality, but on that account receiving less attention. The
+                    bread-fruit proper is of easy cultivation in its native soil. In some of the
+                    islands it seems an indigenous product, and springs from the root of old trees
+                    without any care; in others, it requires simply to be put into the earth. The
+                    trees flourish with the greatest luxuriance on rising grounds; and it has been
+                    remarked, that where the hills of the Sandwich Islands rise almost
+                    perpendicularly in a great variety of peaks, their steep declivities, and the
+                    deep valleys intervening, are covered with trees, among which the bread-fruit is
+                    particularly abundant. It has also been observed, that although we are
+                    accustomed to consider Otaheite as of the greatest fertility in this plant, the
+                    trees of the Sandwich Islands produce double the quantity of fruit. Though
+                    nearly of the same height, the branches begin to shoot out much lower from the
+                    trunk, and with greater luxuriance. In Otaheite, they arc propagated by suckers
+                    from the root, which are best transplanted in wet weather, when the earth forms
+                    balls around them; then they are not liable to suffer from removal. This
+                    valuable plant is widely diffused in the southern and eastern isles, and it is
+                    generally found throughout the Great Pacific Ocean. It grows on Amboyna, the
+                    Banda Islands, Timor, and the Ladrones; but it is more especially the object of
+                    care and cultivation in the Marquesas, and the Friendly and Society Islands,
+                    where it vegetates in uncommon luxuriance and profusion.</p>
+                <p part="N">The great utility of the bread-fruit as an article of subsistence for
+                    mankind has, at different times, led to speculations on the possibility of
+                    naturalizing it in places where it is not of spontaneous growth. Μ. de Poive,
+                    the philosophic governor of the Mauritius, succeeded in introducing it there,
+                    and in the Isle of Bourbon, whither it was conveyed by Μ. de Sonnerat, from
+                    Luçon, in the Philippine Islands. Being found in the greatest luxuriance under
+                    the same latitudes as the British West India Islands, and in a climate not
+                    dissimilar, government deemed the transmission of it thither, both as
+                    practicable without much difficulty, and as promising a future store of
+                    subsistence for the inhabitants. An expedition was therefore fitted out with
+                    particular care, under the command of Captain, then Lieutenant Bligh, who sailed
+                    in the Bounty storeship for the South Seas in December 1787. This vessel was
+                    prepared so as to receive a great many bread-fruit and other plants, which would
+                    have proved a valuable acquisition to the colonists of the West Indies, and some
+                    of which were expected to succeed under the culture of the curious in Great
+                    Britain. The Bounty arrived in safety at Otaheite, the principal place of her
+                    destination, and took on board 1015 bread-fruit plants, besides a great variety
+                    of different species of other plants, and after remaining twentythree weeks,
+                    which were busily occupied, set sail on the 4th of April 1789. But it is
+                    unnecessary to say more of the expedition, except that it was rendered totally
+                    abortive by a mutiny which ensued three weeks subsequently to its departure. The
+                    captain and eighteen adherents were barbarously turned adrift in an open boat,
+                    wherein they suffered incredible hardships, and, after a navigation of 3600
+                    miles, reached the island of Timor, having lost only one of their number, who
+                    was murdered by the savages of an intermediate island. Notwithstanding the
+                    unfortunate result of this voyage, the object was still kept in view, and a new
+                    expedition planned with still greater precaution than the former; and it has
+                    been said that his late majesty, King George III. took a lively interest in
+                    conferring so important a benefit on a distant portion of his people. Captain
+                    Bligh having arrived in England, was appointed to the command of the Providence
+                    and Assistance, two vessels specially fitted out as before; and part of their
+                    complement consisted of two gardeners, to take the management of the plants
+                    collected. The vessels sailed in August 1791, reached Van Diemen’s Land in
+                    February 1792, and anchored at Otaheite in February following. Here they
+                    remained above three months, and obtained even a greater store of plants than
+                    formerly; for there were now 1281 pots and tubs, whereas the first number of the
+                    bread-fruit trees, in 1789, did not exceed 887. Captain Bligh, in returning,
+                    made a dangerous voyage through Endeavour Straits, the exploring of which was
+                    part of his former instructions, and anchored at Coupang in the island of Timor,
+                    where he substituted many other plants for those that had died. He then sailed
+                    for the West Indies, and touching at St Helena, landed some breadfruit plants,
+                    and took on board those of different species. The object of his voyage was at
+                    length completed by reaching the island of St Vincent’s in January 1793, where
+                    he committed 544 plants, of which 333 were breadfruit, to the care of Dr
+                    Anderson, superintendent of the botanical garden, and substituted forthem 467 of
+                    different species, designed for his majesty’s garden at Kew. In the next place,
+                    Captain Bligh landed 623 plants, of which 347 were bread-fruit, at Port Royal in
+                    the island of Jamaica<pb break="no" facs="nls:193735832?mode=fullsize"
+                        xml:id="kp-eb0705-5832-0213"/>, and replaced them with a further collection
+                    for the king, with which he arrived in England on the 2d of August 1793. Five
+                    years and eight months had thus been occupied in accomplishing the desirable
+                    purpose of these two expeditions. But it belonged especially to Britain, by whom
+                    a familiar intercourse with the southern islanders was first opened up, to
+                    effect an object of so much importance.</p>
+                <p part="N">Nevertheless, some have been fouņd inclined to challenge the wisdom of
+                    so difficult and expensive an experiment; both because the expectations of those
+                    who looked for an inexhaustible source of subsistence were not speedily
+                    realized, and because the places best adapted for its culture already possess
+                    another vegetable, the plantain, which is much more grateful to the negroes, for
+                    whom the bread-fruit was principally designed. It has been argued that the
+                    bread-fruit tree requires considerable care in cultivation, that its progress to
+                    maturity is slow, though in Britain it would appear extremely rapid. Three years
+                    are required to reap the fruit; the plantain demands no care, while it produces
+                    its crop in fifteen months; thus giving it a decided preference in the opinion
+                    of the colonist, who is always impatient for <hi rend="italic">a</hi> return.
+                    Further, it has been said, that wherever any vegetable, already relished by the
+                    inhabitants of a district, is completely established, they will always reject
+                    what they think less agreeable. These arguments have certainly had considerable
+                    weight; probably, however, from not duly appreciating the difficulties attendant
+                    on such an experiment as the naturalization of plants. But were we to take a
+                    retrospect of all the obstacles which have opposed the cultivation of many
+                    species of grain and fruits, at present not uncommon in Britain, it would be
+                    very evident that success has resulted only from the most patient and laborious
+                    attention. Positive conclusions on this subject are perhaps as yet
+                    premature.</p>
+                <p part="N">In the year 1777 a premium was offered by the Society for the
+                    Encouragement of Arts and Manufactures, to any individuals who should bring the
+                    bread-fruit plant from the South Sea Islands in a state of vegetation to the
+                    West Indies, and the gold medal was awarded, in 1793, to Captain Bligh
+                    accordingly. That society, with the laudable design of promoting its culture,
+                    continued to offer further premiums for the greatest number of plants raised in
+                    the British settlements; and in consequence a silver medal was awarded to Dr
+                    Anderson, superintendent of the botanical garden at St Vincents in 1798; and, in
+                    1802, the gold medal to the Honourable Joseph Robley, governor of the island of
+                    Tobago. From the course adopted by these two cultivators, the history of the
+                    bread-fruit has received much elucidation, and we shall comprise it in a few
+                    observations.</p>
+                <p part="N">Mr Robley received three plants from Dr Anderson in June 1793, which he
+                    planted in very deep rich soil, and paid them every attention in hopes of
+                    procuring shoots. They flourished exceedingly, produced fruit in 1795, and
+                    continued to do so until autumn 1801, after which we have no notices respecting
+                    them. Being disappointed of obtaining suckers, Mr Robley applied to Dr Anderson,
+                    who advised him to lay bare some of the uppermost roots, and to wound them very
+                    deeply; and having followed these directions in October 1800, they almost
+                    immediately began to put forth shoots in abundance. In December, 120 fine plants
+                    were thus obtained, which Mr Robley placed in baskets containing about a gallon
+                    of good rich loose soil, and deposited in the shade in the vicinity of water.
+                    With this element also they were refreshed when the weather required it. Baskets
+                    were preferred to pots for the plants, from being lighter and more easily
+                    removed; likewise, because when deposited in the place where they were
+                    ultimately to remain, the baskets would speedily rot, and not repress the growth
+                    of the plant, which would then extend its roots. European cultivators would do
+                    well to attend to the beneficial use of baskets; for it too often happens that a
+                    tender plant is wounded in removing it from a pot, or that the earth surrounding
+                    it is so deranged and displaced, that no subsequent care can preserve it from
+                    destruction. Encouraged by the successful issue of these previous experiments,
+                    Mr Robley prepared a point of land of loose sandy soil, bounded by a salt lagoon
+                    and the sea, for receiving a large plantation. When the tide filled, brackish
+                    water was to be found everywhere at the depth of two feet and a half from the
+                    surface; but it had been observed in some of the South Sea Islands, that
+                    bread-fruit trees grew in full vigour though brackish water bathed their roots,
+                    and the point was otherwise defended from the encroachments of the sea by an
+                    artificial bank. The land being ploughed and harrowed twice, was divided into
+                    beds stretching across from the sea to the lagoon; the beds were twenty-seven
+                    feet in breadth, and the plants put into the earth in the middle of each, and
+                    exactly at the distance of twentyseven feet asunder; thus leaving a large space
+                    for their vegetation. Mr Robley’s expectations were not disappointed. In August
+                    1801 he had 153 plants in a flourishing condition; and, prosecuting the object
+                    still further, he had, in the course of the subsequent year, 371 on the point of
+                    land, of which no less than 319 plants were in a flourishing, and some of them
+                    in a productive state. He transmitted specimens of the fruit to England
+                    preserved in vinegar, as it will not keep above two days after being taken from
+                    the tree; as also of the dried leaves and blossom. Other correspondents, nearly
+                    about the same time, sent specimens of cakes made from the bread-fruit converted
+                    into flour, which were extremely well flavoured; and it seemed that a dry
+                    nutritious food, resembling tapioca in appearance and quality, might be prepared
+                    from it. The vegetation of this plant is very rapid. Ten of those committed to
+                    the care of Dr Anderson in 1793 were about two feet in height and half an inch
+                    in diameter; and he observed, that, in the year 1798, most of the trees in the
+                    botanical garden at Şt Vincents were above thirty feet in height, and the stem
+                    two feet above the ground was from three feet to three and a half in
+                    circumference. From the remarks he was enabled to make in this interval on the
+                    varieties of the tree in the botanical garden, it appeared that the fruit came
+                    out in succession during the greater part of the year, but less of it between
+                    November and March than at any other time. The number produced by a single tree
+                    was very great, being often in clusters of five and six, and bending the lower
+                    branches to the ground. According to the different varieties, the fruit was of
+                    various shapes and sizes, weighing from four to ten pounds, some smooth, others
+                    rough and tuberculated. When taken from the tree before maturity, the juice
+                    appeared of the consistence and colour of milk, and in taste somewhat similar.
+                    It issued for above ten minutes in an uninterrupted stream, and thickened into a
+                    glutinous and adhesive substance. Three months were required to bring the fruit
+                    to perfection, which, as above remarked, is about a week before it begins to
+                    ripen. Besides the Otaheitan breadfruit, Captain Bligh left some of the East
+                    India bread-fruit in the botanical garden. But this proved of infinitely
+                    inferior quality, and a very indifferent substitute for it. It was ill-shaped,
+                    of a soft pulpy substance, and, like the other, wanting seeds, and propagating
+                    itself by suckers springing from the root.</p>
+                <p part="N">A species of fruit bearing considerable analogy to those above
+                    described, is found on the Nicobar Islands, but we are unacquainted with the
+                    degree of attention it has received, <pb break="no"
+                        facs="nls:193735845?mode=fullsize" xml:id="kp-eb0705-5845-0214"/>either for
+                    the purpose of illustrating its natural history, or for economical uses. It is
+                    not less beneficial, however, to the natives. The tree producing this fruit
+                    vegetates promiscuously with others in the woods, but prefers a humid soil. Its
+                    trunk is straight, thirty or thirty-five feet in height, and from ten inches to
+                    two feet in circumference. The roots spring from it above the surface, and do
+                    not penetrate deep into the earth. The leaves are disposed like the large calyx
+                    of a flower; they are three feet long and four inches broad, of a dark green hue
+                    and tenacious substance. A long time elapses before the tree produces fruit, not
+                    less than about the period of human life. It then forms at the bottom of the
+                    leaves, from which it proceeds as it is enlarged, and, when nearly ripe, its
+                    colour changes from green to yellowish. This is the proper period for gathering
+                    it, when its weight is between thirty and forty pounds. The exterior surface is
+                    cut off, and the fruit is boiled in earthen pots covered with leaves, during
+                    several hours, on a slow fire; when, becoming soft and friable, the preparation
+                    is sufficient, and the fruit is then exposed to the air, and is next formed into
+                    a mass not unlike maize either in taste or colour. It may be preserved for a
+                    long time, but exposure to the atmosphere occasions acidity. The plant producing
+                    this fruit, however, is not of the same genus as those above described, although
+                    its fruit is converted to similar uses, but is rather a kind of palm, which it
+                    might be useful to naturalize in the eastern possessions of Britain, <hi
+                        rend="smallcaps">(n. n.)</hi><hi rend="smallcaps">Bread, Sacramental,</hi>
+                    in the Protestant churches, is common leavened bread, in conformity to the
+                    ancient practice. In the Roman Catholic mass, azymous or unleavened bread is
+                    used, particularly in the Gallican church, where a sort is provided for this
+                    purpose, called <hi rend="italic">pain a chanter,</hi> made of the purest
+                    wheaten flour pressed between two iron plates graven like wafer-moulds, and
+                    rubbed with white wax to prevent the paste from sticking. The Greeks observe
+                    divers ceremonies in making the eucharist bread. The Abyssinians have an
+                    apartment in their churches allotted for this service, being a kind of sacristy.
+                    Sirmond, in his disquisition on azymous bread, shows, from the council of
+                    Toledo, that anciently there were as many ceremonies used in the Latin church in
+                    the preparation of the unleavened bread as are still retained in the eastern
+                    churches.</p>
+                <p part="N">Ecclesiastical writers enumerate other species of bread allotted for
+                    purposes of religion; as, <hi rend="italic">first, Kalendarius,</hi> that
+                    anciently offered to the priest at the kalends; <hi rend="italic">secondly,
+                        Prebendarius,</hi> the same with <hi rend="italic">capitularis,</hi> that
+                    distributed daily to each prebendary or canon; <hi rend="italic">thirdly,
+                        Benedictus,</hi> that usually given to catechumens before baptism, instead
+                    of the eucharist bread, which they were incapable of partaking of. The <hi
+                        rend="italic">panis benedictus</hi> was called also <hi rend="italic"
+                        >panagium</hi> and <hi rend="italic">eulogiĩim,</hi> being a sort of bread
+                    blessed and consecrated by the priest, by which the catechumens were prepared
+                    for the reception of the body of Christ. The same was used afterwards, not only
+                    by catechumens, but by believers themselves, as a token of their mutual
+                    communion and friendship. Its origin is dated from the seventh century, at the
+                    council at Nantes. In the Gallican church we still find <hi rend="italic">panis
+                        benedictus, pain benit,</hi> used for that offered for benediction, and
+                    afterwards distributed to pious persons who attend divine service in chapels.
+                        <hi rend="italic">Fourthly,</hi> Consecrated bread is a piece of wax, paste,
+                    or even earth, over which several ceremonies have been performed with
+                    benedictions and other rites, to be sent in an <hi rend="italic">Agnus Bei</hi>
+                    or relic-box, and presented for veneration. <hi rend="italic">Fifthly,</hi> with
+                    regard to unleavened bread, <hi rend="italic">panis azymus,</hi> the Jews eat no
+                    other during their passover; and exact search was made in every house to see
+                    that no leavened bread had been left. The usage was introduced in memory of
+                    their hasty departure from Egypt, when they had not leisure to bake leavened
+                    bread. <hi rend="italic">Lastly,</hi> shew-bread was that offered to God every
+                    Sabbath-day, being placed on the golden table in the holy of holies.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

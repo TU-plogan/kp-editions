@@ -1,0 +1,1846 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0718-7406-0391-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v1.0">
+                <title level="a" type="main">POPE</title>
+                <title level="m" type="main">Encyclopaedia Britannica, 7th edition</title>
+                <title level="m" type="sub">A machine-readable transcription</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                        role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                            <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                            University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                            Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                        Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                        Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                        University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                        >Drexel University, College of Computing &amp;
+                    Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2.0">Version 2.0 <date when="2023">2023</date></edition>
+            </editionStmt>
+            <extent>365 MB; 21,026 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                        Project</orgName><email>nckp@temple.edu</email><link
+                        target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2023">2023</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable text
+                    transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                                Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                                [190218838]</title><publisher><orgName
+                                    ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                                    >National Library of Scotland</orgName></publisher><date
+                                when="2019">2019</date><idno type="DOI"
+                                >https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                                <p>National Library of Scotland License: CC BY 4.0</p>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY
+                                    4.0 </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print souce at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                            <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        incidated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are removed silently.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections.</p>
+                </segmentation>
+                <ab><list>
+                        <item>Encoding has been done using the recommendations for Level 3 of the
+                            TEI in Libraries Guidelines.</item>
+                        <item>Individual entries and page-breaks are encoded, but column breaks are
+                            omitted.</item>
+                        <item>Running headers and side descriptions are not included.</item>
+                        <item>Some font formatting is preserved: italic, small caps, strike through,
+                            subscript, superscript, underline. The following formatting is ignored:
+                            bold, font size, typeface.</item>
+                    </list></ab>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze.</p>
+                <p>Subject-level metadata was added to each entry using the HIVE automated
+                    vocabulary server created by the Metadata Research Center at Drexel University
+                        (<link target="https://hive2.cci.drexel.edu"
+                    />https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, tables, formulae, front- or back-matter. It omits volume 1, which
+                    consists of "Dissertations" rather than entries.</p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fast:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) subject heading schema derived
+                        from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in the
+                        volume <hi rend="italic">Subject Headings Used in the Dictionary Catalogues
+                            of the Library of Congress</hi>, 7 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term ref="lcsh1910:b4vd6p635">Swifts</term>
+                    <term ref="lcsh1910:b4s17sw59">Essays</term>
+                    <term ref="lcsh1910:b4jw86m8z">Man</term>
+                    <term ref="lcsh1910:b4bk16r27">Protestantism</term>
+                    <term ref="lcsh1910:b4st7dw9m">Popes</term>
+                    <term ref="lcsh1910:b42j68511">Life</term>
+                    <term ref="lcsh1910:b4ws8hn48">Mothers</term>
+                    <term ref="lcsh1910:b44j09z32">Founding</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:1219920">England</term>
+                    <term ref="fast:1205427">Ireland</term>
+                    <term ref="fast:1204303">Spain</term>
+                    <term ref="fast:1207034">Mississippi</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term ref="fast:947546">Greeks</term>
+                    <term ref="fast:934209">French</term>
+                    <term ref="fast:910709">English</term>
+                    <term ref="fast:1140317">Swifts</term>
+                    <term ref="fast:915437">Essays</term>
+                    <term ref="fast:1071262">Popes</term>
+                    <term ref="fast:1182566">Year</term>
+                    <term ref="fast:1198505">Life</term>
+                    <term ref="fast:1026940">Mothers</term>
+                    <term ref="fast:1126696">Sons</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change status="public" when="2023-10-11" who="#pml">v2.0 XSL updated</change>
+            <change status="public" when="2022-11-30" who="#pml">RNG schema v.1 completed. </change>
+            <change status="public" when="2022-11-28" who="#pml">v.1 XSL finished</change>
+            <change status="public" when="2022-11-18" who="#pml">RNG schema draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193537406?mode=fullsize" org="uniform" part="N" sample="complete"
+                type="entry">
+                <p part="N"><label type="entry">POPE</label>.</p>
+                <p part="N"><hi rend="smallcaps">Pope, Alexander,</hi> the most brilliant of all
+                    wits who have at any period applied themselves to the poetic treatment of human
+                    manners, to the selecting from the play of human character what is picturesque,
+                    or the arresting what is fugitive, was born in the city of London on the 21
+                        st<note anchored="true" place="bottom" type="authorial"><p part="N">Dr
+                            Johnson, however, and Joseph Warton, for reasons not stated, have placed
+                            his birth on the 22d. To this statement, as opposed to that which comes
+                            from the personal friends of Pope, little attention is due. Ruffhead and
+                            Spence, upon such questions, must always be of higher authoritythan
+                            Johnson and Warton, and <hi rend="italic">α fortiori</hi> than Bowles.
+                            But it ought not to be concealed, though hitherto unnoticed by any
+                            person, that some doubt after all remains whether <hi rend="italic">any
+                                of</hi> the biographers is right. An anonymous writer, contemporary
+                            with Pope, and evidently familiar with his personal history, declares
+                            that he was born on the 8th of June; and he connects it with an event
+                            that, having a public and a partisan interest (the birth of that Prince
+                            of Wales who was known twenty-seven years afterwards as the Pretender),
+                            would serve to check his own recollections, and give them a collateral
+                            voucher. It is true he wrote for an ill-natured purpose; but no purpose
+                            whatever could have been promoted by falsifying this particular date.
+                            What is still more noticeable, however, Pope himself puts a most
+                            emphatic negative upon all these statements. In a pathetic letter to a
+                            friend, when his attention could not have been wandering, for he is
+                            expressly insisting upon a sentiment which will find an echo in many a
+                            human heart, viz. that a birthday, though from habit usually celebrated
+                            as a festal day, too often is secretly a memorial of disappointment, and
+                            an anniversary of sorrowful meaning, he speaks of the very day on which
+                            he is then writing as his own birthday; and indeed what else could give
+                            any propriety to the passage? Now the date of this letter is January 1,
+                            1733. Surely Pope knew his own birthday better than those who have
+                            adopted a random rumour without investigation.</p><p part="N">But,
+                            whilst we are upon this subject, we must caution the readers of Pope
+                            against too much reliance upon the chronological accuracy of his
+                            editors. <hi rend="italic">Λll</hi> are scandalously careless; and
+                            generally they are faithless. Many allusions are left unnoticed, which a
+                            very little research would have illustrated; many facts are omitted,
+                            even yet recoverable, which are essential to the just appreciation of
+                            Pope’s satirical blows; and dates are constantly mis-stated. Mr Roscoe
+                            is the most careful of Pope’s editors; but even he is often wrong. For
+                            instance, he has taken the trouble to write a note upon Pope’s humorous
+                            report to Lord Burlington of his Oxford journey on horseback with
+                            Lintot; and this note involves a sheer impossibility. The letter is
+                            undated, except as to the month; and Mr Roscoe directs the reader to
+                            supply 1714 as the true date, which is a gross anachronism. For a
+                            ludicrous anecdote is there put into Lintot’s mouth, representing some
+                            angry critic, who had been turning over Pope’s Homer, with frequent <hi
+                                rend="italic">pshaws,</hi> as having been propitiated, by Mr
+                            Lintot’s dinner, into a gentler feeling towards Pope, and, finally, by
+                            the mere effect of good cheer, without an effort on the publisher’s
+                            part, as coming to a confession, that what he ate and what he had been
+                            reading were equally excellent. But in the year 1714 <hi rend="italic"
+                                >no part</hi> of Pope’s Homer was printed; June 1715 was the month
+                            in which even the subscribers first received the four earliest books of
+                            the Iliad; and the public generally not until July. This we notice by
+                            way of specimen; in itself, or as an error of mere negligence, it would
+                            be of little importance; but it is a case to which Air Roscoe has
+                            expressly applied his own conjectural skill, and solicited the attention
+                            of his reader. We may judge therefore of his accuracy in other cases
+                            which he did not think worthy of examination.</p><p part="N">There is
+                            another instance, presenting itself in every page, of ignorance
+                            concurring with laziness, on the part of all Pope’s editors, and with
+                            the effect not so properly of misleading as of perplexing the general
+                            reader. Until Lord Macclesfield’s bill for altering the style in the
+                            very middle of the eighteenth century, six years therefore after the
+                            death of Pope, there was a custom, arising from the collision between
+                            the civil and ecclesiastical year, of dating the whole period that lies
+                            between December 31st and March 25th (both days <hi rend="italic"
+                                >exclusively')</hi> as belonging indifferently to the past or the
+                            current year. This peculiarity had nothing to do with the old and new
+                            style, but was, we believe, redressed by the same act of parliament. New
+                            in Pope’s time it was absolutely necessary that a man <pb
+                                corresp="kp-eb0718-7419-0392" xml:id="pbn7392"/>should use this
+                            double date, because else he was liable to be seriously misunderstood.
+                            For instance, it was then always said that Charles I. had suffered on
+                            the 30th of January 1648/9; and why? Because, had the historian fixed
+                            the date to what it really was, 1649, in that case all those (a very
+                            numerous class) who supposed the year 1649 to commence on Ladyday, er
+                            March 25, would have understood him to mean that this event happened in
+                            what we <hi rend="italic">now</hi> call 1650, for not until 1650 was
+                            there any January which <hi rend="italic">they</hi> would have
+                            acknowledged as belonging to 1649, since <hi rend="italic">they</hi>
+                            added to the year 1648 all the days from January 1 to March 24. On the
+                            other hand, if he had said simply that Charles suffered in 1648, he
+                            would have been truly understood by the class we have just mentioned;
+                            but by another class, who began the year from the 1st of January, he
+                            would have been understood to mean what we <hi rend="italic">now</hi>
+                            mean by the year 1648. There would have been a sheer difference, not of
+                            one, as the reader might think at first sight, but of <hi rend="italic"
+                                >two</hi> entire years in the chronology of the two parties; which
+                            difference, and all possibility of doubt, is met and remedied by the
+                            fractional date 1648/1649; for that date says in effect it was 1648 to
+                            you who do not open the new year till Ladyday; it was 1649 to you who
+                            open it from January 1. Thus much to explain the real sense of the case;
+                            and it follows from this explanation, that no part of the year ever <hi
+                                rend="italic">can</hi> have the fractional or double date except the
+                            interval from January 1 to March 24 inclusively. And hence arises a
+                            practical inference, viz. that the very same reason, and no other, which
+                            formerly enjoined the use of the compound or fractional date, viz. the
+                            prevention of a capital ambiguity or dilemma, now enjoins its omission.
+                            For in our day, when the double opening of the year is abolished, what
+                            sense is there in perplexing a reader by using a fraction which offers
+                            him a choice without directing him how to choose. In fact, it is the <hi
+                                rend="italic">denominator of</hi> the fraction, if one may so style
+                            the lower figure, which expresses to a modern eye the true year. Yet the
+                            editors of Pope, as well as many other writers, have confused their
+                            readers by this double date; and why? Simply because they were confused
+                            themselves. Many errors in literature of large extent have arisen from
+                            this confusion. Thus it was said properly enough in the contemporary
+                            accounts, for instance in Lord Monmouth’s Memoirs, that Queen Elizabeth
+                            died on the last day of the year 1602, for she died on the 24th of
+                            March; and by a careful writer this event would have been dated as March
+                            24,1602/1603. But many writers, misled by the phrase above cited, have
+                            asserted that James I. was proclaimed on the 1st of January ] 603.
+                            Heber, bishop of Calcutta, again, has ruined the entire chronology of
+                            the life of Jeremy Taylor, and unconsciously vitiated the facts, by not
+                            understanding this fractional date. I∖Ir Roscoe even too often leaves
+                            his readers to collect the true year as they can: thus, <hi
+                                rend="italic">e. g.</hi> at p. 50 <unclear instant="false"
+                                reason="illegible" source="#NLS"> 3 </unclear> of his Life, he
+                            quotes from Pope’s letter to Warburton, in great vexation for the
+                            surreptitious publication of his letters in Ireland, under date of
+                            February 4, 174θ. But why not have printed it intelligibly as 1741?
+                            Incidents there are in most men’s lives, which are susceptible of a
+                            totally different moral value, according as they are dated in one year
+                            or another. That might be a kind and honourable liberality in 1740,
+                            which would be a fraud upon creditors in 1741. Exile to a distance of
+                            ten miles from London in January 1744, might argue, that a man was a
+                            turbulent citizen, and suspected of treason; whilst the same exile in
+                            January i745 would simply argue that, as a Papist, he had been included
+                            amongst his whole body in a general measure of precaution to meet the
+                            public dangers of that year. This explanation we have thought it right
+                            to make, both for its extensive application to <hi rend="italic"
+                                >all</hi> editions of Pope, and on account of the serious'blunders
+                            which have arisen from the case when ill understood; and because, in a
+                            work upon education, written jointly by Messrs Lant Carpenter and
+                            Shephard, though generally men of ability and learning, this whole point
+                            is erroneously explained.</p></note> day of May in the memorable year ]
+                    688; about six months, therefore, before the landing of the Prince of Orange,
+                    and the opening of that great revolution which gave the final ratification to
+                    all previous revolutions of that tempestuous century. By the “city” of London
+                    the reader is to understand us as speaking with technical accuracy of that
+                    district which lies within the ancient walls and the jurisdiction of the lord
+                    mayor. The parents of Pope, there is good reason to think, were of “gentle
+                    blood,” which is the expression of the poet himself when describing them in
+                    verse. His mother was so undoubtedly; and her illustrious son, in speaking of
+                    her to Lord Harvey, at a time when any exaggeration was open to an easy
+                    refutation, and writing in a spirit most likely to provoke it, does not scruple
+                    to say, with a tone of dignified haughtiness not unbecoming the situation of a
+                    filial champion on behalf of an insulted mother, that by birth and descent she
+                    was not below that young lady (one of the two beautiful Miss Lcpels) whom his
+                    lordship had selected from all the choir of court beauties as the future mother
+                    of his children. Of Pope’s extraction and immediate lineage for a space of two
+                    generations we know enough: beyond that we know little: of this little a part is
+                    dubious; and what we are disposed to receive as <hi rend="italic">not</hi>
+                    dubious, rests chiefly on his own authority. In the prologue to his Satires,
+                    having occasion to notice the lampooners of the times, who had represented his
+                    father as “a mechanic, a hatter, a farmer, nay a bankrupt,” he feels himself
+                    called upon to state the truth about his parents; and naturally much more so at
+                    a time when the low scurrilities of these obscure libellers had been adopted,
+                    accredited, and diffused by persons so distinguished in all points of personal
+                    accomplishment and rank as Lady Mary Wortley Montagu and Lord Harvey: <hi
+                        rend="italic">“hard as thy heart” was,</hi> one of the lines in their joint
+                    pasquinade, <hi rend="italic">“hard as thy heart, and as thy birth
+                        obscure''</hi> Accordingly he makes the following formal statement: “Mr
+                    Pope’s father was of a gentleman’s family in Oxfordshire, the head of which was
+                    the Earl of Downe. His mother was the daughter of William Turner, Esq. of York:
+                    she bad three brothers, one of whom was killed; another died in the service of
+                    King Charles [meaning Charles I.]; the eldest, following his fortunes, and
+                    becoming a general officer in Spain, left <hi rend="italic">her</hi> what estate
+                    remained after the sequestrations and forfeitures of her family.” The
+                    sequestrations here spoken of were those inflicted by the commissioners for the
+                    parliament; and usually they levied a fifth, or even two fifths, according to
+                    the apparent delinquency of the parties. But in such cases two great differences
+                    arose in the treatment of the royalists; first, that the report was coloured
+                    according to the interest which a man possessed, or other private means for
+                    biassing the commissioners; secondly, that often, when money could not be raised
+                    on mortgage to meet the sequestration, it became necessary to sell a family
+                    estate suddenly, and therefore in those times at great loss; so that a nominal
+                    fifth might be depressed by favour to a tenth, or raised by the necessity of
+                    selling to a half. And hence might arise the small dowry of Mrs Pope,
+                    notwithstanding the family estate in Yorkshire had centred in her person. But,
+                    by the way, we see from the fact of the eldest brother having sought service in
+                    Spain, that Mrs Pope was a Papist; not, like her husband, by conversion, but by
+                    hereditary faith. This account, as publicly thrown out in the way of challenge
+                    by Pope, was, however, sneered at by a certain Mr Pöttinger of those days, who,
+                    together with his absurd name, has been safely transmitted to posterity in
+                    connection with this single feat of having contradicted Alexander Pope. We read
+                    in a diary published <pb corresp="pbn7392" facs="nls:193537419?mode=fullsize"
+                        xml:id="kp-eb0718-7419-0392"/>by the Microcosm, “<hi rend="italic">Met a
+                        large hat, with a man under it.”</hi> And so, here, we cannot so properly
+                    say that Mr Pöttinger brings down the contradiction to our times, as that the
+                    contradiction brings down Mr Pottinger. “Cousin Pope,” said Pottinger, “had made
+                    himself out a fine pedigree, but he wondered where he got it and he then goes on
+                    to plead in abatement of Pope’s pretensions, “that an old maiden aunt, equally
+                    related” (that is, standing in the same relation to himself and to the poet), “a
+                    great genealogist, who was always talking of her family, never mentioned this
+                    circumstance.” And again we are told, from another quarter, that the Earl of
+                    Guildford, after express investigation of this matter, “was sure that,” amongst
+                    the descendants of the Earls of Downe, “there was none of the name of Pope.” How
+                    it was that Lord Guildford came to have any connection with the affair, is not
+                    stated by the biographers of Pope; but we have ascertained that, by marriage
+                    with a female descendant from the Earls of Downe, he had come into possession of
+                    their English estates.</p>
+                <p part="N">Finally, though it is rather for the honour of the Earls of Downe than
+                    of Pope to make out the connection, we must observe that Lord Guildford’s
+                    testimony, <hi rend="italic">if ever given at all,</hi> is simply negative; he
+                    had found no proofs of the connection, but he had not found any proofs to
+                    destroy it; whilst, on the other hand, it ought to be mentioned, though
+                    unaccountably overlooked by all previous biographers, that one of Pope’s
+                    anonymous enemies, who hated him personally, but was apparently master of his
+                    family history, and too honourable to belie his own convictions, expressly
+                    affirms of his own authority, and λrithout reference to any claim put forward by
+                    Pope, that he was descended from a junior branch of the Downe family: which
+                    testimony has a double value; first, as corroborating the probability of Pope’s
+                    statement viewed in the light of a fact; and, secondly, as corroborating that
+                    same statement viewed in the light of a current story, true or false, and not as
+                    a disingenuous fiction put forward by Popc to confute Lord Harvey.</p>
+                <p part="N">It is probable to us, that the Popes, who had been originally
+                    transplanted from England to Ireland, had in the person of some cadet been
+                    re-transplanted to England; and that having in that way been disconnected from
+                    all personal recognition, and all local memorials of the capital house, by this
+                    sort of <hi rend="italic">postliminium,</hi> the junior branch had ceased to
+                    cherish the honour of a descent which was now divided from all direct advantage.
+                    At all events, the researches of Pope’s biographers have not been able to trace
+                    him farther back in the paternal line than to his grandfather; and he (which is
+                    odd enough, considering the popery of his descendants) was a clergyman of the
+                    established church in Hampshire. This grandfather had two sons: of the eldest
+                    nothing is recorded beyond the three facts, that lie went to Oxford, that he
+                    died there, and that he spent the family estate.<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">It is apparently with allusion
+                            to this part of his history, which he would often have heard from the
+                            lips of his own father, that Pope glances at his uncle’s memory somewhat
+                            disrespectfully in his prose letter to Lord Harvey.</p></note> The
+                    younger son, whose name was Alexander, had been sent when young, in some
+                    commercial character, to Lisbon;<note anchored="true" place="bottom"
+                        type="authorial"><p part="N"><supplied cert="medium" evidence="internal"
+                                instant="false" reason="omitted-in-original"> 2 </supplied> Some
+                            accounts, however, say to Flanders, in which case, perhaps, Antwerp or
+                            Brussels would have the honour of his conversion.</p></note> and there
+                    it was, in that centre of bigotry, that he became a sincere and most
+                    disinterested Catholic. He returned to England; married a Catholic young widow;
+                    and became the father of a second Alexander Pope, <hi rend="italic">ultra
+                        Sauromatas ηotus</hi><hi rend="italic">et</hi><hi rend="italic"
+                        >Antipodes.</hi></p>
+                <p part="N">By his own account to Spence, Pope learned “very early to read ;” and
+                    writing hc taught himself “by copying from printed books all which seems to
+                    argue, that, as an only child, with an indolent father and a most indulgent
+                    mother, he was not molested with much schooling in his infancy. Only one
+                    adventure is recorded of his childhood, viz. that he was attacked by a cow,
+                    thrown down, and wounded in the throat.</p>
+                <p part="N">Pope escaped this disagreeable kind of vaccination without<pb break="no"
+                        facs="nls:193537432?mode=fullsize" xml:id="kp-eb0718-7432-0393"/> serious
+                    injury, and was not farther tormented by cows or schoolmasters until he was
+                    about eight years old, when the family priest, that is, we presume, the
+                    confessor of his parents, taught him, agreeably to the Jesuit system, the
+                    rudiments of Greek and Latin concurrently. This priest was named Banister; and
+                    his name is frequently employed, together with other fictitious names, by way of
+                    signature to the notes in the Dunciad, an artifice which was adopted for the
+                    sake of giving a characteristic variety to the notes, according to the tone
+                    required for the illustration of the text. From his tuition Pope was at length
+                    dismissed to a Catholic school at Twyford, near Winchester. The selection of a
+                    school in this neighbourhood, though certainly the choice of a Catholic family
+                    was much limited, points apparently to the old Hampshire connection of his
+                    father. Here an incident occurred which most powerfully illustrates the original
+                    and constitutional determination to satire of this irritable poet. He knew
+                    himself so accurately, that in after times, half by way of boast, half of
+                    confession, he says,</p>
+                <p part="N">But touch me, and no Minister so sore: Whoe’er offends, at some unlucky
+                    time Slides into verse and hitches in a rhyme, Sacred to ridicule his whole life
+                    long, And the sad burthen of some merry song.</p>
+                <p part="N">Already, it seems, in childhood he had the same irresistible instinct,
+                    victorious over the strongest sense of personal danger. He wrote a bitter satire
+                    upon the presiding pedagogue, was brutally punished for this youthful
+                    indiscretion, and indignantly removed by his parents from the school. Mr Roscoe
+                    speaks of Pope’s personal experience as necessarily unfavourable to public
+                    schools; but in reality he knew nothing of public schools. All the
+                    establishments for Papists were narrow, and suited to their political
+                    depression; and his parents were too sincerely anxious for their son’s religious
+                    principles to risk the contagion of Protestant association by sending him
+                    elsewhere.</p>
+                <p part="N">From the scene<note anchored="true" place="bottom" type="authorial"><p
+                            part="N">This however was not Twyford, according to an anonymous
+                            pamphleteer of the times, but a Catholic seminary in Devonshire Street,
+                            that is, in the Bloomsbury district of London; and the same author
+                            asserts, that the scene of his disgrace, as indeed seems probable
+                            beforehand, was not the first, but the last of his arenas as a
+                            schoolboy. Which indeed was first, and which last, is very unimportant;
+                            but with a view to another point, which is not without interest, namely,
+                            as to the motive of Pope for so bitter a lampoon as we must suppose it
+                            to have been, as well as with regard to the topics which he used to
+                            season it, this anonymous letter throws the only light which has been
+                            offered; and strange it is, that no biographer of Pope should have
+                            hunted upon the traces indicated by him. Any solution of Pope’s
+                            virulence, and of the master's bitter retaliation, even <hi
+                                rend="italic">as</hi> a solution, is so far entitled to attention;
+                            apart from which the mere straightforwardness of this man’s story, and
+                            its minute circumstantiality, weigh greatly in its favour. To our
+                            thinking, he unfolds the whole affair in the simple explanation, nowhere
+                            else to be found, that the master of the school, the mean avenger of a
+                            childish insult by a bestial punishment, was a Mr Bromley, one of James
+                            II.’s Popish apostates; whilst the particular statements which he makes
+                            with respect to himself and the young Duke of Norfolk of 17θθ, as two
+                            schoolfellows of Pope at that time and place, together with his
+                            voluntary promise to come forward in person, and verify his account if
+                            it should happen to be challenged,—are all, we repeat, so many
+                            presumptions in favour of his veracity. “Mr Alexander Pope,” says he,
+                            “before he had been four months at this school, or was able to construe
+                            Tully’s Offices, employed his muse in satirizing his master. It was a
+                            libel of at least one hur⅛lred verses, which (a fellow-student having
+                            given information of it) was found in his pocket; and the young satirist
+                            was soundly whipped, and kept a prisoner to his room for seven days;
+                            whereupon his father fetched him away, and I have been told he never
+                            went to school more.” This Bromley, it has been ascertained, was the son
+                            of a country gentleman in Worcestershire, and must have had considerable
+                            prospects at one time, since it appears that he had been a
+                            gentleman-commoner at Christ’s Church, Oxford. There is an error in the
+                            punctuation of the letter we have just quoted, which affects the sense
+                            in a way very important to the question before us. Bromley is described
+                            as “one of King James’s converts in Oxford, some years <hi rend="italic"
+                                >after</hi> that prince’s abdication but, if this were really so, he
+                            must have been a conscientious convert. The latter clause should be
+                            connected with what follows: <hi rend="italic">'</hi><hi rend="italic
+                                superscript"> l</hi><hi rend="italic">Some years after that prince's
+                                abdication he kepi a little seminary</hi> that is, when his
+                            mercenary views in quitting his religion were effectually defeated, when
+                            the Boyne had sealed his despair, he humbled himself into a petty
+                            schoolmaster. These facts are interesting, because they suggest at once
+                            the motive for the merciless punishment inflicted upon Pope. His own
+                            father was a Papist like Bromley, but a sincere and honest Papist, who
+                            had borne double taxes, legal stigmas, and public hatred for conscience’
+                            sake. His contempt was habitually pointed at those who tampered with
+                            religion for interested purposes. His son inherited these upright
+                            feelings. And we may easily guess what would be the bitter sting of any
+                            satire he would write on Bromley. Such a topic was too true to be
+                            forgiven, and too keenly barbed by Bromley’s conscience. By the way,
+                            this writer, like ourselves, reads in this juvenile ad. venture a
+                            préfiguration of Pope’s satirical destiny.</p></note> of his disgrace
+                    and illiberal punishment, hc passed, according to the received accounts, under
+                    the tuition of several other masters in rapid succession. But it is the less
+                    necessary to trouble the reader with their names, as Pope himself assures us
+                    that he learned nothing from any of them. To Banister he had becn indebted for
+                    such trivial elements of a schoolboy’s learning as he possessed at all,
+                    excepting those which he had taught himself. And upon himself it was, and his
+                    own admirable faculties, that hc was now finally thrown for the rest of his
+                    education, at an age so immature that many boys are then first entering their
+                    academic career. Pope is supposed to have been scarcely twelve years old when he
+                    assumed the office of self-tuition, and bade farewell for ever to schools and
+                    tutors.</p>
+                <p part="N">Such a phenomenon is at any rate striking: it is the more so, under the
+                    circumstances which attended the plan, and under the results which justified its
+                    execution. It scems, as regards the plan, hardly less strange that prudent
+                    parents should have acquiesced in a scheme of so much peril to his intellectual
+                    interests, than that the son, as regards the execution, should have justified
+                    their confidence by his final success. More especially this confidence surprises
+                    us in the father. A doating mother might shut her eyes to all-remote evils in
+                    the present gratification to her affections; but Pope’s father was a man of
+                    sense and principle; he must have -weighed the risks besetting a boy left to his
+                    owjι intellectual guidance; and to these risks he would allow the more weight
+                    from his own conscious defect of scholarship and inability to guide or even to
+                    accompany his son’s studies. He could neither direct the proper choice of
+                    studies; nor in any one study taken separately could he suggest the proper
+                    choice of books.</p>
+                <p part="N">The case we apprehend to have been this: Alexander Pope the elder, was a
+                    man of philosophical desires and unambitious character. Quiet and seclusion and
+                    innocence of life,—these were what he affected for himself; and that which had
+                    been found available for his own happiness, hc might reasonably wish for his
+                    son. The two hinges upon which his plans may be supposed to have turned, were,
+                    first, the political degradation of his sect; and, secondly, the fact that his
+                    son was an only child. Had he becn a Protestant, or had he, though a Papist,
+                    been burthened with a large family of children, he would doubtless have pursued
+                    a different course. But to him, and, as he sincerely hoped, to his son, the
+                    strife after civil honours was sternly barred. Apostacy only could lay it open.
+                    And, as the sentiments of honour and duty in this point fell in with the vices
+                    of his temperament, high principle concurring with his constitutional love of
+                    ease, wc need not wondcr that he should early retire from commerce with a very
+                    moderate competence, or that he should suppose the same fortune sufficient for
+                    one who was to stand in the same position. This son was from his birth deformed.
+                    That made it probable that hc might <pb break="no"
+                        facs="nls:193537445?mode=fullsize" xml:id="kp-eb0718-7445-0394"/>not marry.
+                    If he should, and happened to have children, a small family would find an
+                    adequate provision in the patrimonial funds; and a large one at the worst could
+                    only throw him upon the same commercial exertions to which he had been obliged
+                    himself. The Roman Catholics, indeed, were just then situated as our modern
+                    Quakers are: law to the one, as conscience to the other, closed all modes of
+                    active employment except that of commercial industry. Either his son, therefore,
+                    would be a rustic recluse, or, like himself, he would be a merchant.</p>
+                <p part="N">With such prospects, what need of an elaborate education? And where was
+                    such an education to be sought? At the petty establishments of the suffering
+                    Catholics, the instruction, as he had found experimentally, was poor. At the
+                    great national establishments his son would be a degraded person; one who was
+                    permanently repelled from every arena of honour, and sometimes, as in cases of
+                    public danger, was banished from the capital, deprived of his house, left
+                    defenceless against common ruffians, and rendered liable to the control of every
+                    village magistrate. To one in these circumstances solitude was the wisest
+                    position; and the best qualification for that was an education that would
+                    furnish aids to solitary thought. No need for brilliant accomplishments to him
+                    who must never display them; forensic arts, pulpit erudition, senatorial
+                    eloquence, academical accomplishments—these would be lost to one against whom
+                    the courts, the pulpit, the senate, the universities, were closed. Nay, by
+                    possibility worse than lost; they might prove so many snares or positive bribes
+                    to apostacy. Plain English, therefore, and the high thinking of his compatriot
+                    authors, might prove the best provision for the mind of an English Papist
+                    destined to seclusion.</p>
+                <p part="N">Such are the considerations under which we read and interpret the
+                    conduct of Pope’s parents; and they lead us to regard as wise and conscientious
+                    a scheme which, under ordinary circumstances, would have been pitiably foolish.
+                    And be it remembered, that to these considerations, derived exclusively from the
+                    civil circumstances of the family, were superaddcd others derived from the
+                    astonishing prematurity of the individual. That boy who could write at twelve
+                    years of age the beautiful and touching stanzas on Solitude, might well be
+                    trusted with the superintendence of his own studies. And the strippling of
+                    sixteen, who could so far transcend in good sense the accomplished statesmen or
+                    men of the world with whom he afterwards corresponded, might challenge
+                    confidence for such a choice of books as would best promote the development of
+                    his own faculties.</p>
+                <p part="N">In reality, one so finely endowed as Alexander Pope, could not easily
+                    lose his way in the most extensive or ill-digested library. And though he tells
+                    Atterbury, that at one time he abused his opportunities by reading controversial
+                    divinity, we may be sure that his own native activities, and the elasticity of
+                    his mind, would speedily recoil into a just equilibrium of study, under wider
+                    and happier opportunities. Reading, indeed, for a person like Pope, is rather
+                    valuable as a means of exciting his own energies, and of feeding his own
+                    sensibilities, than for any direct acquisitions of knowledge, or for any trains
+                    of systematic research. All men are destined to devour much rubbish between the
+                    cradle and the grave; and doubtless the man who is wisest in the choice of his
+                    books, will have read many a page before hc dies that a thoughtful review would
+                    pronounce worthless. This is the fate of all men. But the reading of Pope, as a
+                    general result or measure of his judicious choice, is best justified in his
+                    writings. They show him well furnished with whatsoever he wanted for matter or
+                    for embellishment, for argument or illustration, for example and model, or for
+                    direct and explicit imitation.</p>
+                <p part="N">Possibly, as we have already suggested, within the range of English
+                    literature Pope might have found all that he wanted. But variety the widest has
+                    its uses; and, for the extension of his influence with the polished classes
+                    amongst whom he lived, he did wisely to add other languages; and a question has
+                    thus arisen with regard to the extent of Pope’s attainments as a self-taught
+                    linguist. A man, or even a boy, of great originality, may happen to succeed
+                    best, in working his own native mines of thought, by his unassisted energies:
+                    here it is granted that a tutor, a guide, or even a companion, may be dispensed
+                    with, and even beneficially. But in the case of foreign languages, in attaining
+                    this machinery of literature, though anomalies even here do arise, and men there
+                    are, like Joseph Scaliger, who form their own dictionaries and grammars in the
+                    mere process of reading an unknown language, by far the major part of students
+                    will lose their time by rejecting the aid of tutors. As there has been much
+                    difference of opinion with regard to Pope’s skill in languages, we shall briefly
+                    collate and bring into one focus the stray notices.</p>
+                <p part="N">As to the French, Voltaire, who knew Pope personally, declared that he
+                    “could hardly <hi rend="italic">read</hi> it, and spoke not one syllable of the
+                    language.” But perhaps Voltaire might dislike Pope? On the contrary, he was
+                    acquainted with his works, and admired them to the very level of their merits.
+                    Speaking of him <hi rend="italic">after death</hi> to Frederick of Prussia, he
+                    prefers him to Horace and Boileau, asserting that, by comparison with <hi
+                        rend="italic">them,</hi></p>
+                <p part="N">Pope <hi rend="italic">approfondit</hi> ce qu’ils ont <hi rend="italic"
+                        >effleuré.</hi> D’un esprit plus hardi, d’un pas plus assuré, Il porta le
+                    flambeau dans l’abîme de l’être; Et l’homme <hi rend="italic">avec lui seul</hi>
+                    apprit à se connoître. L’art quelquefois frivole, et quelquefois divine, L’art
+                    des vers est dans Pope utile au genre humain.</p>
+                <p part="N">This is not a wise account of Pope, for it does not abstract the
+                    characteristic feature of his power; but it is a very kind one. And of course
+                    Voltaire could not have meant any unkindness in denying his knowledge of French.
+                    But he was certainly wrong. Pope, in <hi rend="italic">his</hi> presence, would
+                    decline to speak or to read a language of which the pronunciation was
+                    confessedly beyond him. Or, if he did, the impression left would be still worse.
+                    In fact, no man ever will pronounce or talk a language which he does not use,
+                    for some part of every day, in the real intercourse of life. But that Pope read
+                    French of an ordinary cast with fluency enough, is evident from the extensive
+                    use which he made of Madame Dacier’s labours on the Iliad, and still more of La
+                    Valterie’s prose translation of the Iliad. Already in the year 1718, and long
+                    before his personal knowledge of Voltaire, Pope had shown his accurate
+                    acquaintance with some voluminous French authors, in a way which, we suspect,
+                    was equally surprising and offensive to his noble correspondent. The Duke of
+                        Buckingham<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >That is, Sheffield, and, legally speaking, of Buckinghams7iirc. For he
+                            would not take the title of Buckingham, under a fear that there was
+                            lurking somewhere or other a claim to that title amongst the connections
+                            of the Villiers family. He was a pompous grandee, who lived in uneasy
+                            splendour, and, as a writer, most extravagantly overrated; accordingly,
+                            he is now forgotten. Such was his vanity, and his ridiculous mania for
+                            allying himself with royalty, that he first of all had the presumption
+                            to court the Princess (afterwards Queen) Anne. Being.rejected, he then
+                            offered himself to the illegitimate daughter of James II., by the
+                            daughter of Sir Charles Sedley. She was as ostentatious as himself, and
+                            accepted him&lt;</p></note> had addressed to Pope a letter, containing
+                    some account of the controversy about Homer, which had then been recently
+                    carried on in France between La Motte and Madame Dacier. This account was
+                    delivered with an air of teaching, which was very little in harmony with its
+                    excessive shallowness. Pope, <pb break="no" facs="nls:193537458?mode=fullsize"
+                        xml:id="kp-eb0718-7458-0395"/>who sustained the part of pupil in this
+                    interlude, replied in a manner that exhibited a knowledge of the parties
+                    concerned in the controversy much superior to that of the duke. In particular,
+                    he characterized the excellent notes upon Horaee of Μ. Daeier the husband in
+                    very just terms, as distinguished from those of his conceited and half-learned
+                    wife; and the whole reply of Pope seems very much as though he had been playing
+                    off a mystification on his grace. Undoubtedly the pompous duke felt that he had
+                    caught a Tartar. Now Μ. Dacier’s Horaee, which, with the text, fills nine
+                    volumes, Pope eould not have read <hi rend="italic">except</hi> in French; for
+                    they are not even yet translated into English. Besides, Pope read eritieally the
+                    French translations of his own Essay on Man, Essay on Criticism, Rape of the
+                    Lock, &amp;c. He spoke of them as a critic; and it was at no time a fault of
+                    Pope’s to make false pretensions. All readers of Pope’s Satires must also
+                    recollect numerous proofs that he had read Boileau with so much feeling of his
+                    peculiar merit, that he has appropriated and naturalized in English some of his
+                    best passages. Voltaire was, therefore, certainly wrong.</p>
+                <p part="N">Of Italian literature, meantime, Pope knew little or nothing; and simply
+                    because he knew nothing of the language. Tasso, indeed, he admired; and, which
+                    is singular, more than Ariosto. But we believe that he had read him only in
+                    English; and it is certain that he could not take up an Italian author, either
+                    in prose or verse, for the unaffected amusement of his leisure.</p>
+                <p part="N">Greek, we all know, has been denied to Pope, ever since he translated
+                    Homer, and chiefly in consequence of that translation. This seems at first sight
+                    unfair, because criticism has not succeeded in fixing upon Pope any errors of
+                    ignorance. His deviations from Homer were uniformly the result of imperfect
+                    sympathy with the naked simplicity of the antique, and therefore wilful
+                    deviations, not (like those of his more pretending competitors, Addison and
+                    Tickell) pure blunders of misapprehension. But yet it is not inconsistent with
+                    this concession to Pope’s merits, that we must avow our belief in his thorough
+                    ignorance of Greek when he first commenced his task. And to us it seems
+                    astonishing that nobody should have adverted to that fact as a sufficient
+                    solution, and in fact the only plausible solution, of Pope’s excessive
+                    depression of spirits in the earliest stage of his labours. This depression,
+                    after he had once pledged himself to his subscribers for the fulfilment of his
+                    task, arose from, and could have arisen from nothing else than, his conscious
+                    ignorance of Greek in connection with the solemn responsibilities he had assumed
+                    in the face of a great nation. Nay, even countries as presumptuously disdainful
+                    of tramontane literature as Italy took an interest in this memorable
+                    undertaking. Bishop Berkeley found Salvini reading it at Florence; and Madame
+                    Daeier even, who read little but Greek, and certainly no English until then,
+                    condescended to study it. Pope’s dejection, therefore, or rather agitation (for
+                    it impressed by sympathy a tumultuous character upon his dreams, which lasted
+                    for years after the cause had eeased to operate) was perfectly natural under the
+                    explanation we have given, but not otherwise. And how did he surmount this
+                    unhappy self-distrust? Paradoxical as it may sound, we will venture to say,
+                    that, with the innumerable aids for interpreting Homer which even then existed,
+                    a man sufficiently acquainted with Latin might make a translation even
+                    critically exact. This Pope was not long in discovering. Other alleviations of
+                    his labour concurred, and in a ratio daily increasing.</p>
+                <p part="N">The same formulae were continually recurring, sueh as, </p>
+                <l part="N"><hi rend="italic">But him answering, thus addressed the swift-footed
+                        Achilles;</hi></l>
+                <p part="N">Or,</p>
+                <l part="N"><hi rend="italic">But him sternly beholding, thus spoke Agamemnon the
+                        king of men.</hi></l>
+                <p part="N">Then, again, universally the Homeric Greek, from many causes, is easy ;
+                    and especially from these two : 1-sí, The simplicity of the thought, which never
+                    gathers into those perplexed knots of rhetorical condensation which we find in
+                    the dramatie poets of a higher civilization : <hi rend="italic"> 2dly, </hi>
+                    From the constant bounds set to the expansion of the thought by the form of the
+                    metre ; an advantage of verse which makes the poets so much easier to a beginner
+                    in the German language than the illimitable weavers of prose. The line or the
+                    stanza reins up the poet tightly to his theme, and will not suffer him to
+                    expatiate. Gradually, therefore, Pope came to read the Homeric Greek, but never
+                    accurately ; nor did he ever read Eustathius without aid from Latin. As to any
+                    knowledge of the Attic Greek, of the Greek of the dramatists, the Greek of
+                    Plato, the Greek of Demosthenes, Pope neither had it nor affected to have it.
+                    Indeed it was no foible of Pope’s, as we will repeat, to make claims which he
+                    had not, or even to dwell ostentatiously upon those which he had. And with
+                    respect to Greek in particular, there is a manuscript letter in existence from
+                    Pope to a Mr Bridges at Falham, which, speaking of the original Homer,
+                    distinctly records the knowledge which he had of his own “ imperfectness in the
+                    language.” Chapman, a most spirited translator of Homer, probably had no very
+                    critical skill in Greek ; and Hobbes was, beyond all question, as poor a Grecian
+                    as he was a doggerel translator ; yet in this letter Pope professes his willing
+                    submission to the “ authority” of Chapman and Hobbes, as superior to his
+                    own.</p>
+                <p part="N">Finally, in <hi rend="italic">Latin</hi> Pope was a “considerable
+                    proficient,” even by the eautious testimony of Dr Johnson; and in this language
+                    only the doctor was an accomplished eritie. If Pope had really the proficiency
+                    here ascribed to him, he must have had it already in his boyish years; for the
+                    translation from Statius, which is the principal monument of his skill, was
+                    executed <hi rend="italic">before</hi> he was fourteen. We have taken the
+                    trouble to throw a hasty glance over it; and whilst we readily admit the
+                    extraordinary talent which it shows, as do all the juvenile essays of Pope, we
+                    cannot allow that it argues any accurate skill in Latin. The word Malĕa, as we
+                    have seen noticed by some editor, he makes Malĕa; which in itself, as the name
+                    was not of common occurrence, would not have been an error worth noticing; but,
+                    taken in connection with the certainty that Pope had the original line before
+                    him—</p>
+                <p part="N">Arripit ex templo Maleae de valle resurgens, when not merely the
+                    scanning theoretically, but the wholç rhythmus practically, to the most obtuse
+                    ear, would be annihilated by Pope’s false quantity, is a blunder which serves to
+                    show his utter ignorance of prosody. But, even as a version of the sense, with
+                    every allowance for a poet’s license of compression and expansion, Pope’s
+                    translation is defective, and argues an occasional inability to construe the
+                    text. For instance, at the council summoned by Jupiter, it is said that he at
+                    his first entrance seats himself upon his starry throne, but not so the inferior
+                    gods;</p>
+                <p part="N">Nec protinus ausi Coelicolae, veniam donec pater ipse sedendi Tranquilla
+                    jubet esse manu.</p>
+                <p part="N">In which passage there is a slight obscurity, from the ellipsis of the
+                    word <hi rend="italic">sedere,</hi> or <hi rend="italic">sese</hi><hi
+                        rend="italic">locare</hi><hi rend="italic">;</hi> but the meaning is
+                    evidently that the other gods did not presume to sit down <hi rend="italic"
+                        >protinus,</hi> that is, in immediate succession to Jupiter, and
+                    interpreting his example as a tacit license to do so, until, by a gentle wave of
+                    his hand, the supreme father signifies his express permission to take their
+                    seats. But Pope, manifestly unable to extract any sense from the passage,
+                    translates thus:</p>
+                <p part="N">At Jove’s assent the deities around In solemn state the consistory <hi
+                        rend="italic">crown'd</hi><hi rend="italic">;</hi> where at onee the whole
+                    picturesque solemnity of the celestial ritual melts into the vaguest
+                    generalities. Again, at <pb break="no" facs="nls:193537471?mode=fullsize"
+                        xml:id="kp-eb0718-7471-0396"/>v. 178, <hi rend="italic">ruptae.que
+                        vices</hi> is translated “<hi rend="italic">and all the ties of na-
+                        '</hi><hi rend="italic">turc</hi><hi rend="italic">broke f</hi> ’ but by <hi
+                        rend="italic">vices</hi> is indicated the alternate reign of the two
+                    brothers, as ratified by mutual oaths, and subsequently violated by Eteocles.
+                    Other mistakes might be cited, which seem to prove that Pope, like most
+                    self-taught linguists, was a very imperfect onc.<note anchored="true"
+                        place="bottom" type="authorial"><p part="N">Meantime, the felicities of this
+                            translation are at times perfectly astonishing; and it would..be
+                            scarcely possible to express more nervously or amply the words, <hi
+                                rend="italic"> ———</hi><hi rend="italic">jurisque</hi><hi
+                                rend="italic">secundi</hi><hi rend="italic">Ambitus</hi><hi
+                                rend="italic">impatiens,</hi> et summo dulcius unum</p><p part="N"
+                            >Stare loco than this child of fourteen has done in the following
+                            couplet, which, most judiciously, by reversing the two clauses, gains
+                            the power of fusing them into connection:</p><p part="N">And impotent
+                            desire to reign alone, <hi rend="italic">That scorns the dull reversion
+                                of a throne.</hi></p><p part="N">But the passage for which beyond
+                            all others we must make room, is a series of eight lines, corresponding
+                            to six in the original; and this for two reasons: First, Because Dr
+                            Joseph Warton has deliberately asserted, that in our whole literature,
+                            “we have scarcely eight more beautiful lines than these;” and though few
+                            readers will subscribe to so sweeping a judgment, yet certainly these
+                            must be wonderful lines for a boy, which could challenge such
+                            commendation from an experienced <hi rend="italic">polyhistor</hi> of
+                            infinite reading. Secondly, Because the lines contain a night-scene. Now
+                            it must be well known to many readers, that the famous night-scene in
+                            the Iliad, so familiar to every school-boy, has been made the subject,
+                            for the last thirty years, of severe, and, in many respects, of just
+                            criticisms. This description will therefore have a double interest by
+                            comparison; whilst, whatever may be thought of either taken separately
+                            for itself, considered as a translation, this which we now quote is as
+                            true to Statius as the other is undoubtedly faithless to Homer:</p><p
+                            part="N"><hi rend="italic">Jamqtιe per emeriti</hi><hi rend="italic"
+                                >sur</hi><hi rend="italic">gens</hi><hi rend="italic"
+                                >confinia</hi><hi rend="italic">Phoebi</hi><hi rend="italic"
+                                >Titanis,</hi><hi rend="italic">late</hi><hi rend="italic">mundo
+                                subvecta silenti</hi><hi rend="italic">Λorifera</hi><hi
+                                rend="italic">gelidum tenuaverat aera biga. Jam pecudes volucrcsqite
+                                tacent: jam somnus avaris Inserpit curis, pronusque per aera nutat,
+                                Grata laboratae referens oblivia vitae.</hi></p><p part="N">’Twas
+                            now the time when Phoebus yields to night, And rising Cynthia sheds her
+                            silver light;</p><p part="N">Wide o’er the world in solemn pomp she drew
+                            Her airy chariot hung with pearly dew.</p><p part="N">All birds and
+                            beasts lie hush’d. Sleep steals away The wild desires of men and toils
+                            of day;</p><p part="N">And brings, descending through the silent air, A
+                            sweet forgetfulness of human care.</p><p part="N">Theb. ι.
+                        336-341.</p></note> Pope, in short, never rose to such a point in classical
+                    literature as to read either Greek or Latin authors without effort, and for his
+                    private amusement.</p>
+                <p part="N">The result, therefore, of Pope’s self-tuition appears to us, considered
+                    in the light of an attempt to acquire certain accomplishments of knowledge, a
+                    most complete failure. As a linguist, he read no language with case; none with
+                    pleasure to himself; and none with so much accuracy as could have carried him
+                    through the most popular author with a general independence on interpreters.
+                    But, considered with a view to his particular faculties and slumbering
+                    originality of power, which required perhaps the stimulation of accident to
+                    arousc them effectually, we are very much disposed to think that the very
+                    failure of his education as an artificial training was a great advantage finally
+                    for inclining his mind to throw itself, by way of indemnification, upon its
+                    native powers. Had he attained, as with better tuition he would have attained,
+                    distinguished excellence as a scholar, or as a student of science, the chances
+                    are many that he would have settled down into such studies as thousands could
+                    pursue not less successfully than he; whilst as it was, the very dissatisfaction
+                    which he could not but fcel with his slender attainments must have given him a
+                    strong motive for cultivating those impulses of original power which he felt
+                    continually stirring within him, and which were vivified into trials of
+                    competition as often as any distinguished excellence was introduced to his
+                    knowledge.</p>
+                <p part="N">Pope’s father, at the time of his birth, lived in Lombard Street;<note
+                        anchored="true" place="bottom" type="authorial"><p part="N">. θ <hi
+                                rend="superscript"> n</hi> ^, ^, <hi rend="superscript"> riter</hi>
+                            °f that age says, in Cheapside; but probably this difference arose from
+                            contemplating Lombard Street as a prolongation of Cheapside.</p></note>
+                    a street still familiar to the public eye, from its adjacency to some of the
+                    chief metropolitan establishments, and to the English car possessing a degree of
+                    historical importance; first, as the residence of those Lombards, or Milanese,
+                    who affiliated our infant commerce to the matron splendours of the Adriatic and
+                    the Mediterranean; next, as the central resort of those jewellers, or
+                    “goldsmiths,” as they were styled, who performed all the functions of modern
+                    bankers from the period of the parliamentary war to the rise of the Bank of
+                    England, that is, for six years after the birth of Pope; and, lastly, as the
+                    seat, until lately, of that vast Post Office, through which, for so long a
+                    period, has passed the correspondence of all nations and languages, upon a scale
+                    unknown to any other country. In this street Alexander Pope the elder had a
+                    house, and a warehouse, we presume, annexed, in which he conducted the wholesale
+                    business of a linen merchant. As soon as he had made a moderate fortune he
+                    retired from business, first to Kensington, and afterwards to Binfield, in
+                    Windsor Forest. The period of this migration is not assigned by any writer. It
+                    is probable that a prudent man would not adopt it with any prospect of having
+                    more children. But this chance might be considered as already extinguished at
+                    the birth of Pope; for though his father had then only attained his forty-fourth
+                    year, Mrs Pope had completed her forty-eighth. It is probable, from the interval
+                    of seven days which is said to have elapsed between Pope’s punishment and his
+                    removal from the school, that his parents were then living at such a distance
+                    from him as to prevent his ready communication with them, else wc may be sure
+                    that Mrs Pope would have flown on the wings of love and wrath to the rescue of
+                    her darling. Supposing, therefore, as we <hi rend="italic">do</hi> suppose, that
+                    Mr Bromley’s school in London was the scene of his disgrace, it would appear on
+                    this argument that his parents were then living in Windsor Forest. And this
+                    hypothesis falls in with another anecdote in Pope’s life, which we know partly
+                    upon his own authority. He tells Wycherley that he had seen Dryden, and barely
+                    seen him. <hi rend="italic">Virgilium</hi><hi rend="italic">vidi tantum.</hi>
+                    This is presumed to have been in Will’s Coffee-house, whither any person in
+                    search of Dryden would of course resort; and it must have been before Pope was
+                    twelve years old, for Drydcn died in 1700. Now there is a letter of Sir Charles
+                    Wogan’s, stating that he first took Pope to Will’s; and his words are, “from our
+                    forest.” Consequently, at that period, when he had not completed his twelfth
+                    year, Pope was already living in the forest.</p>
+                <p part="N">From this period, and so long as the genial spirits of youth lasted,
+                    Pope’s life must have been one dream of pleasure. He tells Lord Harvey that his
+                    mother did not spoil him; but that was no doubt because there was no room for
+                    wilfulness or waywardness on either side, when all was one placid scene of
+                    parental obedience and gentle filial authority. We feel persuaded that, if not
+                    in words, in spirit and inclination, they would, in any notes they might have
+                    occasion to write, subscribe themselves “your dutiful parents.” And of what
+                    consequence in whose hands were the reins which were never needed? Every reader
+                    must be pleased to know that these idolizing parents lived to see <pb break="no"
+                        facs="nls:193537484?mode=fullsize" xml:id="kp-eb0718-7484-0397"/>their son
+                    at the very summit of his public elevation; even his father lived two years and
+                    a half after the publication of his Homer had commenced, and when his fortune
+                    was made; and his mother lived for nearly eighteen years more. What a felicity
+                    for her, how rare and how perfect, to find that hc, who to her maternal eyes was
+                    naturally the most perfect of human beings, and the idol of her heart, had
+                    already been the idol of the nation before he had completed his youth. She had
+                    also another blessing not always commanded by the most devoted love; many sons
+                    there are who think it essential to manliness that they should treat their
+                    mother’s doating anxiety with levity, or even ridicule. But Pope, who was the
+                    model of a good son, never swerved in words, manners, or conduct, from the most
+                    respectful tenderness, or intermitted the piety of his attentions. And so far
+                    did he carry this regard for his mother’s comfort, that, well knowing how she
+                    lived upon his presence or by his image, he denied himsclf for many years all
+                    excursions which could not be fully accomplished within the revolution of a
+                    week. And to this cause, combined with the excessive length of his mother’s
+                    life, must be ascribed the fact that Pope never went abroad; not to Italy with
+                    Thomson or with Berkeley, or any of his diplomatic friends; not to Ireland,
+                    where his presence would have been hailed as a national honour; not even to
+                    France, on a visit to his admiring and admired friend Lord Bolingbroke. For as
+                    to the fear of sea-sickness, <hi rend="italic">that</hi> did not arise until a
+                    late period of his life; and at any period would not have operated to prevent
+                    his crossing from Dover to Calais. It is possible that, in his earlier and more
+                    sanguine years, all the perfection of his filial love may not have availed to
+                    prevent him from now and then breathing a secret murmur at confinement so
+                    constant. But it is certain that, long before he passed the meridian of his
+                    life, Pope had come to view this confinement with far other thoughts. Experience
+                    had then taught him, that to no man is the privilege granted of possessing more
+                    than one or two friends who are such in extremity. By that time he had come to
+                    view his mother’s death with fear and anguish. She, he knew by many a sign,
+                    would have been happy to lay down her life for his sake; but for others, even
+                    those who were the most friendly and the most constant in their attentions, he
+                    felt but too certainly that his death, or his heavy affliction, might cost them
+                    a few sighs, but would not materially disturb their peace of mind. “It is but in
+                    a very narrow circle,” says he, in a confidential letter, “that friendship walks
+                    in this world, and I care not to tread out of it more than I needs must; knowing
+                    well it is but to two or three (if quite so many) that any man’s welfare or
+                    memory can be of consequence.” After such acknowledgements, we are not surprised
+                    to find him writing thus of his mother, and his fearful struggles to fight off
+                    the shock of his mother’s death, at a time when it was rapidly approaching.
+                    After having said of a friend’s death, “the subject is beyond writing upon,
+                    beyond cure or ease by reason or reflection, beyond all but one thought, that it
+                    is the will of God,” he goes on thus, “So will the death of my mother be, which
+                    now I tremble at, now resign to, now bring close to me, now set farther oft*;
+                    every day alters, turns me about, confuses my whole frame of mind.” There is no
+                    pleasure, he adds, which the world can give “equivalent to countervail cither
+                    the death of one I have so long lived with, or of one I have so long lived for.”
+                    How will he comfort himself after her death? “I have nothing left but to turn my
+                    thoughts to one comfort, the last we usually think of, though the only óne we
+                    should in wisdom depend upon. I sit in her room, and she is always present
+                    before me but when I sleep. I wonder I am so well. I have shed many tears; but
+                    now I weep at nothing.”</p>
+                <p part="N">A man, therefore, happier than Pope in his domestic relations cannot
+                    easily have lived. It is true these relations were circumscribed; had they been
+                    wider they could not have been so happy. But Pope was equally fortunate in his
+                    social relations. What, indeed, most of all surprises us, is the courteous,
+                    flattering, and even brilliant reception which Pope found from his earliest
+                    boyhood amongst the most accomplished men of the world. λVits, courtiers,
+                    statesmen, grandees the most dignified, and men of fashion the most brilliant,
+                    all alike treated him not only with pointed kindness, but with a respect that
+                    seemed to acknowledge him as their intellectual superior. Without rank, high
+                    birth, fortune, without even a literary name, and in defiance of a deformed
+                    person, Pope, whilst yet only sixteen years of age, was caressed, and even
+                    honoured; and all this with no one recommendation but simply the knowledge of
+                    his dedication to letters, and the premature expectations which he raised of
+                    future excellence. Sir William Trumbull, a veteran statesman, who had held the
+                    highest stations, both diplomatic and ministerial, made him his daily companion.
+                    Wycherley, the old <hi rend="italic">roue</hi> of the town, a seeond-rate wit,
+                    but not the less jealous on that account, showed the utmost deference to one
+                    whom, as a man of fashion, he must have regarded with contempt, and between whom
+                    and himself there were nearly “fifty good years of fair and foul weather.”
+                        Cromwell,<note anchored="true" place="bottom" type="authorial"><p part="N"
+                            >Dr Johnson said, that all he could discover about Mr Cromwell, was the
+                            fact of his going a hunting in a tie-wig; but Gay has added another fact
+                            to Dr Johnson’s, by calling him “honest <hi rend="italic">hαtlcss</hi>
+                            Cromwell with red breeches.” This epithet has puzzled the commentators;
+                            but its import is obvious enough. Cromwell, as we learn from more than
+                            one person, was anxious to be considered a fine gentleman, and devoted
+                            to women. Now it was long the custom in that age for such persons, when
+                            walking with Judies, to carry their hats in their hand. Louis XV. used
+                            to ride by the side of Madame de Pompadour hat in hand.</p></note> a
+                    fox-hunting country gentleman, but uniting with that character the pretensions
+                    of a wit, and affecting also the reputation of a rake, cultivated his regard
+                    with zeal and conscious inferiority. Nay, which never in any other instance
+                    happened to the most fortunate poet, his very inaugural essays in verse were
+                    treated, not as prelusive efforts of auspicious promise, but as finished works
+                    of art, entitled to take their station amongst the literature of the land; and
+                    in the most worthless of all his poems, Walsh, an established authority, and
+                    whom Dryden pronounced the ablest critic of the age, found proofs of equality
+                    with Virgil.</p>
+                <p part="N">The literary correspondence with these gentlemen is interesting, as a
+                    model of what once passed for fine letterwriting. Every nerve was strained to
+                    outdo each other in carving all thoughts into a fillagree work of rhetoric; and
+                    the araoebaean contest was like that between two villagecocks from neighbouring
+                    farms endeavouring to overcrow each other. To us, in this age of purer and more
+                    masculine taste, the whole scene takes the ludicrous air of old and young fops
+                    dancing a minuet with each other, practising the most elaborate grimaces,
+                    sinkings and risings the most awful, bows the most overshadowing, until plain
+                    walking, running, or the motions of natural dancing, are thought too insipid for
+                    endurance. In this instance the taste had perhaps really been borrowed from
+                    France, though often enough we impute to France what is the native growth of all
+                    minds placed in similar circumstances. Madame de Sevigné’s Letters were really
+                    models of grace. But Balzac, whose letters, however, are not without interest,
+                    had in some measure formed himself upon the truly magnificent rhetoric of Pliny
+                    and Seneca. Pope and his correspondents, meantime, degraded the dignity of
+                    rhetoric, by applying it to trivial commonplaces of compliment; whereas Seneca
+                    applied it to the grandest themes which life or contemplation can supply. Lady
+                    Mary λVortley Montagu, on first coming amongst the wits of the day, naturally<pb
+                        break="no" facs="nls:193537497?mode=fullsize" xml:id="kp-eb0718-7497-0398"/>
+                    adopted their style. She found this sort of <hi rend="italic">euphuism</hi>
+                    'established; and it was not for a very young woman to oppose it. But her
+                    masculine understanding and powerful good sense, shaken free, besides, from all
+                    local follies by travels and extensive commerce with the world, first threw off
+                    these glittering chains of affectation. Dean Swift, by the very constitution of
+                    his mind, plain, sinewy, nervous, and courting only the strength that allies
+                    itself with homeliness, was always indisposed to this mode of correspondence.
+                    And, finally, Pope himself, as his earlier friends died off, and his own
+                    understanding acquired strength, laid it aside altogether. One reason doubtless
+                    was, that he found it too fatiguing; since in this way of letter-writing he was
+                    put to as much expense of wit in amusing an individual correspondent as would
+                    for an equal extent have sufficed to delight the whole world. A funambulist may
+                    harass his muscles and risk his fleck on the tight-rope, but hardly to entertain
+                    his own family. Pope, however, had another reason for declining this showy
+                    system of fencing; and strange it is that he had not discovered this reason from
+                    the very first. As life advanced, it happened unavoidably that real business
+                    advanced; the careless condition of youth prompted no topics, or at least
+                    prescribed none, but such as were agreeable to the taste, and allowed of an
+                    ornamental colouring. But when downright business occurred, exchequer bills to
+                    be sold, meetings to be arranged, negotiations confided, difficulties to be
+                    explained, here and there by possibility a jest or two might be scattered, a
+                    witty allusion thrown in, or a sentiment interwoven; but for the main body of
+                    the case, it neither could receive any ornamental treatment, nor if, by any
+                    effort of ingenuity, it <hi rend="italic">had,</hi> could it look otherwise than
+                    silly and unreasonable:</p>
+                <p part="N">Omari res ipsa negat, contenta doceri.</p>
+                <p part="N">Pope’s idleness, therefore, on the one hand, concurring with good sense
+                    and the necessities of business on the other, drove him to quit his gay rhetoric
+                    in letter-writing. But there are passages surviving in his correspondence which
+                    indicate, that, after all, had leisure and the coarse perplexities of life
+                    permitted it, he still looked with partiality upon his youthful style, and
+                    cherished it as a first love. But in this harsh world, as the course of true
+                    love, so that of rhetoric, never did run smooth; and thus it happened that, with
+                    a lingering farewell, he felt himself forced to bid it adieu. Strange that any
+                    man should think his own sincere and confidential overflowings of thought and
+                    feeling upon books, men, and public affairs, less valuable in a literary view
+                    than the legerdemain of throwing up bubbles into the air for the sake of
+                    watching their prismatic hues, like an Indian juggler with his cups and balls.
+                    We of this age, who have formed our notions of epistolary excellence from the
+                    chastity of Gray’s, the brilliancy of Lady Mary Wortley Montagu’s during her
+                    later life, and the mingled good sense and fine feeling of Cowper’s, value only
+                    those letters of Pope which he himself thought of inferior value. And even with
+                    regard to these, we may say that there is a great mistake made; the best of
+                    those later letters between Pope and Swift, &amp;c. are not in themselves at all
+                    superior to the letters of sensible and accomplished women, such as leave every
+                    town in the island by every post. Their chief interest is a derivative one; we
+                    are pleased with any letter, good or bad, which relates to men of such eminent
+                    talent; and sometimes the subjects discussed have a separate interest for
+                    themselves. But as to the quality of the discussion, apart from the person
+                    discussing and the thing discussed, so trivial is the value of these letters in
+                    a large proportion, that we cannot but wonder at the preposterous value which
+                    was set upon them by the writers.<note anchored="true" place="bottom"
+                        type="authorial"><p part="N">It is strange indeed to find, not only that
+                            Pope had so frequently kept rough copies of his own letters, and that he
+                            thought so well of them as to repeat the same letter to different
+                            persons, as in the case of the two lovers killed by lightning, or even
+                            to two sisters, Martha and Therese Blount (who were sure to communicate
+                            their letters), but tfiat even Swift had retained copies of
+                        Ai*.</p></note> Pope especially ought <hi rend="superscript"> v</hi>- not to
+                    have his ethereal works loaded by the mass of trivial prose which is usually
+                    attached to them.</p>
+                <p part="N">This correspondence, meantime, with the wits of the time, though one
+                    mode by which, in the absence of reviews, the reputation of an author was
+                    spread, did not perhaps serve the interests of Pope so effectually as the poems
+                    which in this way he circulated in those classes of English society whose favour
+                    he chiefly courted. One of his friends, the truly kind and accomplished Sir
+                    William Trumbull, served him in that way, and perhaps in another eventually even
+                    more important. The library of Pope’s father was composed exclusively of
+                    polemical divinity, a proof, by the way, that he was not a blind convert to the
+                    Roman Catholic faith; or, if he was so originally, had reviewed the grounds of
+                    it, and adhered to it after strenuous study. In this dearth of books at his own
+                    home, and until he was able to influence his father in buying more extensively,
+                    Pope had benefited by the loans of his friends; amongst whom it is probable that
+                    Sir William, as one of the best scholars of the whole, might assist him most. He
+                    certainly offered him the most touching compliment, as it was also the wisest
+                    and most paternal counsel, when he besought him, as one <hi rend="italic"
+                        >goddess-born,</hi> to quit the convivial society of deepdrinkers:</p>
+                <p part="N">Heu, fuge nate dea, tcque his, ait, eripe malis.</p>
+                <p part="N">With these aids from friends of rank, and his way thus laid open to
+                    public favour, in the year 1709 Pope first came forward upon the stage of
+                    literature. The same year which terminated his legal minority introduced him to
+                    the public. <hi rend="italic">Miscellanies</hi> in those days were almost
+                    periodical repositories of fugitive verse. Tonson happened at this time to be
+                    publishing one of some extent, the sixth volume of which offered a sort of
+                    ambush to the young aspirant of Windsor Forest, from which he might watch the
+                    public feeling. The volume was opened by Mr Ambrose Philips, in the character of
+                    pastoral poet; and in the same character, but stationed at the end of the
+                    volume, and thus covered by his bucolic leader, as a soldier to the rear by the
+                    file in advance, appeared Pope; so that he might win a little public notice,
+                    without too much seeming to challenge it. This half-clandestine emersion upon
+                    the stage of authorship, and his furtive position, are both mentioned by Pope as
+                    accidents, but as accidents in which he rejoiced, and not improbably accidents
+                    which Tonson had arranged with a view to his satisfaction.</p>
+                <p part="N">It must appear strange that Pope at twenty-one should choose to come
+                    forward for the first time with a work composed at sixteen. A difference of five
+                    years at that stage of life is of more effect than of twenty at a later; and his
+                    own expanding judgment could hardly fail to inform him that his Pastorals were
+                    by far the worst of his works. In reality, let us not deny, that had Pope never
+                    written any thing else, his name would not have been known as a name even of
+                    promise, but would probably have been redeemed from oblivion by some satirist or
+                    writer of a Dunciad. Were a man to meet with such a nondescript monster as the
+                    following, viz. “<hi rend="italic">Love out of Mount AEtna by Whirlwind,”</hi>
+                    he would suppose himself reading the Racing Calendar. Yet this hybrid creature
+                    is one of the many zoological monsters to whom the Pastorals introduce us:</p>
+                <p part="N">I know thee, love! on foreign mountains born, Wolves gave thee suck, and
+                    savage tigers fed. Thou wert from AEtna’s burning entrails torn, Got by fierce
+                    whirlwinds, and in thunder born.</p>
+                <pb break="no" facs="nls:193537510?mode=fullsize" xml:id="kp-eb0718-7510-0399"/>
+                <p part="N">But the very names “Damon” and “Strephon,” “Phillis” and “Delia,” are
+                    rank with childishness. Arcadian life is, at the best, a feeble conception, and
+                    rests upon the false principle of crowding together all the luscious sweets of
+                    rural life, undignified by the danger which attends pastoral life in our
+                    climate, and unrelieved by shades, either moral or physical. And the Arcadia of
+                    Pope’s age was the spurious Arcadia of the opera theatre, and, what is worse, of
+                    the French opera.</p>
+                <p part="N">The hostilities which followed between these rival wooers of the
+                    pastoral muse are well known. Pope, irritated at what he conceived the
+                    partiality shown to Philips in the Guardian, pursued the review ironically; and,
+                    whilst affecting to load his antagonist with praises, draws into pointed relief
+                    some of his most flagrant faults. The result, however, we cannot believe. That
+                    all the wits, except Addison, were duped by the irony, is quite impossible.
+                    Could any man of sense mistake for praise the remark, that Philips had imitated
+                        <hi rend="italic">“</hi><hi rend="italic">every</hi> line of Strada;” that
+                    he had introduced wolves into England, and proved himself the first of gardeners
+                    by making his flowers “blow all in the same season.” Or, suppose those passages
+                    unnoticed, could the broad sneer escape him, where Pope taxes the other writer
+                    (viz. himself) with having deviated “into downright poetry;” or the outrageous
+                    ridicule of Philip’s style, as setting up for the ideal type of the pastoral
+                    style, the quotation from Gay, beginning,</p>
+                <p part="N">Rager, go vetch tha kee, or else tha zun Will quite bego before ch’ <hi
+                        rend="superscript"> ,</hi> avs half a don!</p>
+                <p part="N">Philips is said to have resented this treatment by threats of personal
+                    chastisement to Pope, and even hanging up a rod at Button’s coffee-house. We may
+                    be certain that Philips never disgraced himself by such ignoble conduct. If the
+                    public indeed were universally duped by the paper, what motive had Philips for
+                    resentment? Or, in any case, what plea had he for attacking Pope, who had not
+                    come forward as t,he author of the essay? But, from Pope’s confidential account
+                    of the matter, w e know that Philips saw him daily, and never offered him “any
+                    indecorum though, for some cause or other, Pope pursued Philips with virulence
+                    through life.</p>
+                <p part="N">In the year 1711, Pope published his Essay on Criticism, which some
+                    people have very unreasonably fancied his best performance; and in the same year
+                    his Rape of the Lock, the most exquisite monument of playful fancy that
+                    universal literature offers. It wanted, however, as yet, the principle of its
+                    vitality, in wanting the machinery of Sylphs and Gnomes, with which addition it
+                    was first published in 1714.</p>
+                <p part="N">In the year 1712, Pope appeared again before the public as the author of
+                    the Tejnple of Fame, and the Elegy to the Memory of an Unfortunate Lady. Much
+                    speculation has arisen'on the question concerning the name of this lady, and the
+                    more interesting question concerning the nature of the persecutions and
+                    misfortunes which she suffered. Pope appears purposely to decline answering the
+                    questions of his friends upon that point; at least the questions have reached
+                    us, and the answers have not. Joseph Warton supposed himself to have ascertained
+                    four facts about her: that her name was Wainsbury; that she was deformed in
+                    person; that she retired into a convent from some circumstances connected with
+                    an attachment to a young man of inferior rank; and that she killed herself, not
+                    by a sword, as the poet insinuates, but by a halter. As to the latter statement,
+                    it may very possibly be true; such a change would be a very slight exercise of
+                    the poet’s privileges. As to the rest, there are scarcely grounds enough for an
+                    opinion. Pope certainly speaks of her under the name of Mrs (?’. <hi
+                        rend="italic">e.</hi> Miss) W , which at least argues a poetical
+                    exaggeration in describing her as a being “that once had <hi rend="italic"
+                        >titles,</hi> honour, wealth, and fame ;” and he may as much have
+                    exaggerated her pretensions to beauty. It is indeed noticeable, that he speaks
+                    simply of her <hi rend="italic">decent</hi> limbs, which, in any English use of
+                    the word, does not imply much enthusiasm of praise. She appears to have been the
+                    niece of a Lady A; and Mr</p>
+                <p part="N">Craggs, afterwards secretary of state, wrote to Lady A</p>
+                <p part="N">on her behalf, and otherwise took an interest in her fate. As to her
+                    being a relative of the Duke of Buckingham’s, that rests upon a mere conjectural
+                    interpretation applied to a letter of that nobleman’s. But all things about this
+                    unhappy lady are as yet enveloped in mystery. And not the least part of the
+                    mystery is a letter of Pope’s to a Mr C , bearing date 1732, that is, just
+                    twenty years after the publication of the poem, in which Pope, in a manly tone,
+                    justifies himself for his estrangement, and presses against his unknown
+                    correspondent the very blame which he had applied generally to the kinsman of
+                    the poor victim in 1712. Now, unless there is some mistake in the date, how are
+                    we to explain this gentleman’s long lethargy, and his sudden sensibility to
+                    Pope’s anathema, with which the world had resounded for twenty years?</p>
+                <p part="N">Pope had now established his reputation with the public as the
+                    legitimate successor and heir to the poetical supremacy of Dryden. His Rape of
+                    the Lock was unrivalled in ancient or modern literature, and the time had now
+                    arrived when, instead of seeking to extend his fame, he might count upon a
+                    pretty general support in applying what he had already established to the
+                    promotion of his own interest. Accordingly, in the autumn of 1713, he formed a
+                    final resolution of undertaking a new translation of the Iliad. It must be
+                    observed, that already in 1709, concurrently with his Pastorals, he had
+                    published specimens of such a translation; and these had been communicated to
+                    his friends some time before. In particular, Sir William Trumbull, on the 9th of
+                    April 1708, urged upon Pope a complete translation of both Iliad and Odyssey.
+                    Defective skill in the Greek language, exaggeration of the difficulties, and the
+                    timidity of a writer as yet unknown, and not quite twenty years old, restrained
+                    Pope for five years and more. What he had practised as a sort of <hi
+                        rend="italic">bravura,</hi> for a single effort of display, he recoiled from
+                    as a daily task to be pursued through much toil, and a considerable section of
+                    his life. However, he dallied with the purpose, starting difficulties in the
+                    temper of one who wishes to hear them undervalued; until at length Sir Richard
+                    Steele determined him to the undertaking, a fact overlooked by the biographers,
+                    but which is ascertained by Ayre’s account of that interview between Pope and
+                    Addison, probably in 1716, which sealed the rupture between them. In the autumn
+                    of 1713, he made his design known amongst his friends. Accordingly, on the 21st
+                    of October, we have Lord Lansdown’s letter, expressing his great pleasure at the
+                    communication; on the 26th, we have Addison’s letter encouraging him to the
+                    task; and in November of the same year occurs the amusing scene so graphically
+                    described by Bishop Kennet, when Dean Swift presided in the conversation, and,
+                    amongst other indications of his conscious authority, “instructed a young
+                    nobleman, that the best poet in England was Mr Pope, who had <hi rend="italic"
+                        >begun</hi> a translation of Homer into English verse, for which he must
+                    have them all subscribe: for,” says he, “<hi rend="italic">the author shall not
+                        begin to print until J have a thousand guineas for him”</hi></p>
+                <p part="N">If this were the extent of what Swift anticipated from the work, he fell
+                    miserably below the result. But, perhaps, he spoke only of a cautionary <hi
+                        rend="italic">arrhα</hi> or earnest. As this was unquestionably the greatest
+                    literary labour, as to profit, ever executed, not excepting the most lucrative
+                    of Sir Walter Scott’s, if due allowance be made for the altered value of money,
+                    and if we consider the Odyssey as forming part of the labour, it may be right to
+                    state the particulars of Pope’s contract with Lintot.</p>
+                <p part="N">The number of subscribers to the Iliad was 575, and the number of copies
+                    subscribed for was 654. The work was to be printed in six quarto volumes; and
+                    the subscription was a guinea a volume. Consequently by the subscription Pope
+                        <pb break="no" facs="nls:193537523?mode=fullsize"
+                        xml:id="kp-eb0718-7523-0400"/>obtained six times 654 guineas, or L.4218.
+                    6s.' (for the guinea then passed for 2ls. 6d.); and for the copyright of each
+                    volume Lintot offered L.200, consequently L.1200 for the whole six; so that from
+                    the Iliad the profit exactly amounted to L.5310. 16s. Of the Odyssey, 574 copies
+                    were subscribed for. It was to be printed in five quarto volumes, and the
+                    subscription was a guinea a volume. Consequently by the subscription Pope
+                    obtained five times 574 guineas, or L.3085. 5s.; and for the copyright Lintot
+                    offered L.600. The total sum received therefore by Pope, on account of the
+                    Odyssey, was L.3685. 5s. But in this instance he had two coadjutors, Broome and
+                    Fenton; between them they translated twelve books, leaving twelve to Pope. The
+                    notes also were compiled by Broome; but the Postscript to the notes was written
+                    by Pope. Fenton received L.300, Broome L.500. Such at least is Warton’s account,
+                    and more probable than that of Ruffhead, who not only varies the proportions,
+                    but increases the whole sum given to the assistants by L.100. Thus far we had
+                    followed the guidance of mere probabilities, as they lie upon the face of the
+                    transaction. But we have since detected a written statement of Pope’s,
+                    unaccountably overlooked by the biographers, and serving of itself to show how
+                    negligently they have read the works of their illustrious subject. The statement
+                    is entitled to the fullest attention and confidence, not being a hasty or casual
+                    notice of the transaction, but pointedly shaped to meet a calumnious rumour
+                    against Pope in his character of paymaster; as if he who had found so much
+                    liberality from publishers in his own person, were niggardly or unjust as soon
+                    as he assumed those relations to others. Broome, it was alleged, had expressed
+                    himself dissatisfied with Pope’s remuneration. Perhaps he had. For he would be
+                    likely to frame his estimate for his own services from the scale of Pope’s
+                    reputed gains; and those gains would, at any rate, be enormously exaggerated, as
+                    uniformly happens where there is a basis of the marvellous to begin with. And,
+                    secondly, it would be natural enough to assume the previous result from the
+                    Iliad as a fair standard for computation; but in this, as we know, all parties
+                    found themselves disappointed, and Broome had the less right to murmur at this,
+                    since the arrangement with himself as chief journeyman in the job was one main
+                    cause of the disappointment. There was also another reason why Broome should bc
+                    less satisfied than Fenton. Verse for verse, any one thousand lines of a
+                    translation so purely mechanical might stand against any other thousand; and so
+                    far the equation of claims was easy. A book-keeper, with a pen behind his car,
+                    and Cocker’s Golden Rule open before him, could do full justice to Mr Broome <hi
+                        rend="italic">as a poet</hi> every Saturday night. But Broome had a separate
+                    account-current for pure prose against Pope. One he had in conjunction with
+                    Fenton for verses delivered on the premises at so much per hundred, on which
+                    there could be no demur, except as to the allowance for tare and tret as a
+                    discount in favour of Pope. But the prose account, the account for notes,
+                    requiring very various degrees of reading and research, allowed of no such easy
+                    equation. <hi rend="italic">There</hi> it was, we conceive, that Broome’s
+                    discontent arose. Pope, however, declares, that he had given him L.500, thus
+                    confirming the proportions of Warton against Ruffhead (that is, in effect,
+                    Warburton), and some other advantages which were not in money, nor deductions at
+                    all from his own money profits, but which may have been worth so much money to
+                    Broome as to give some colourable truth to Ruffhead’s allegation of an
+                    additional L.100. In direct money, it remains certain that Fenton had three and
+                    Broome five hundred pounds. It follows, therefore, that for the Iliad and
+                    Odyssey jointly he received a sum of L.8996. Is., and paid for assistance L.800,
+                    which leaves to himself a clear sum of L 8196. Is. And, in fact, his profits
+                    ought to be calculated without deduction, since it was his own choice, from
+                    indolence, to purchase assistance.</p>
+                <p part="N">The Iliad was commenced about October 1713. In the summer of the
+                    following year he was so far advanced as to begin making arrangements with
+                    Lintot for the printing; and the first two books, in manuscript, were put into
+                    the hands of Lord Halifax, ln June 1715, between the 10th and 28th, the
+                    subscribers received their copies of the first volume; and in July Lintot began
+                    to publish that volume generally. Some readers will inquire, who paid for the
+                    printing and paper, &amp;c.? All this expense fell upon Lintot, for whom Pope
+                    was superfluously anxious. The sagacious bookseller understood what he was
+                    about; and, when a pirated edition was published in Holland, he counteracted the
+                    injury by printing a cheap edition, of which 7500 copies were sold in a few
+                    weeks; an extraordinary proof of the extended interest in literature. The
+                    second, third, and fourth volumes of the Iliad, each containing, like the first,
+                    four books, were published successively in 1716, 1717, 1718; and in 1720 Pope
+                    completed the work by publishing the fifth volume, containing five books, and
+                    the sixth, containing the last three, with the requisite supplementary·
+                    apparatus.</p>
+                <p part="N">The Odyssey was commenced in 1723 (not 1722, as Mr Roscoe virtually
+                    asserts at p. 259), and the publication of it was finished in 1725. The sale,
+                    however, was much inferior to that of the Iliad; for which more reasons than one
+                    might be assigned. But there can be no doubt that Pope himself depreciated the
+                    work, by his undignified arrangements for working by subordinate hands. Such a
+                    process may answer in sculpture, because there a quantity of rough-hewing
+                    occurs, which can no more be improved by committing it to a Phidias, than a
+                    common shop-bill could be improved in its arithmetic by Sir Isaac Newton. But in
+                    literature such arrangements are degrading; and, above all, in a work which was
+                    but too much exposed already to the presumption of being a mere effort of
+                    mechanic skill, or (as Curll said to the House of Lords) “<hi rend="italic">α
+                        knock;"</hi> it was deliberately helping forward that idea to let off parts
+                    of the labour; Only think of Milton letting off by contract to the lowest offer,
+                    and to be delivered by such a day (for which good security to be found), six
+                    books of Paradise Lost. It is true, the great dramatic authors were often <hi
+                        rend="italic">collaborateurs,</hi> but their ease was essentially different.
+                    The loss, however, fell not upon Pope, but upon Lintot, who, on this occasion,
+                    was out of temper, and talked rather broadly of prosecution. But that λvas out
+                    of the question. Pope had acted indiscreetly, but nothing could be alleged
+                    against his honour; for he had expressly warned the public, that he did not, as
+                    in the other case, profess <hi rend="italic">to translate,</hi> but to <hi
+                        rend="italic">undertake</hi><note anchored="true" place="bottom"
+                        type="authorial"><p part="N">The word <hi rend="italic">undertake</hi> had
+                            not yet lost the meaning of Shakspeare’s age, in which it was understood
+                            to describe those cases where, the labour being of a miscellaneous kind,
+                            some person in chief offered to overlook and conduct the whole, whether
+                            with or without personal labour. The modern <hi rend="italic"
+                                >undertaker,</hi> limited to the care of funerals, was then but one
+                            of numerous cases to which the term was applied.</p></note><hi
+                        rend="italic">a translation</hi> of the Odyssey. Lintot, however, was no
+                    loser absolutely, though he might be so in relation to his expectations; on the
+                    contrary, he grew rich, bought land, and became sheriff of the county in which
+                    his estates lay.</p>
+                <p part="N">We have pursued the Homeric labours uninterruptedly from their
+                    commencement in 1713 till their final termination in 1725, a period of twelve
+                    years or nearly; because this was the task to which Pope owed the dignity, if
+                    not the comforts, of his life, since it was this which enabled him to decline a
+                    pension from all administrations, and even from his friend Craggs, the
+                    secretary, to decline the express offer of L.300 per annum. Indeed Pope is
+                    always proud to own his obligations to Homer. In the interval, however, between
+                    the Iliad and the Odyssey, Pope listened to proposals made by Jacob Tonson, that
+                    he should revise an edition of Shakspeare. For this, which was in fact the first
+                        <pb break="no" facs="nls:193537536?mode=fullsize"
+                        xml:id="kp-eb0718-7536-0401"/>attempt at establishing the text of the mighty
+                    poet, Pope obtained but little moriey, and still less reputation. He received,
+                    according to tradition, only L.217. 12s. for his trouble of collation, which
+                    must have been considerable, and some other trifling editorial labour. And the
+                    opinion of all judges, from the first so unfavourable as to have depreciated the
+                    money-value of the book enormously, perhaps from a prepossession of the public
+                    mind against the fitness of Pope for executing the dull labours of revision, has
+                    ever since pronounced this work the very worst edition in existence. For the
+                    edition we have little to plead; but for the editor it is but just to make three
+                    apologies. In the <hi rend="italic">first</hi> place, he wrote a brilliant,
+                    preface, which, although (like other works of the same class) too much occupied
+                    in displaying his own ability, and too often, for the sake of an cffcctive
+                    antithesis, doing deep injustice to Shakspeare, yet undoubtedly, as a whole,
+                    extended his fame, by giving the sanction and countersign of a great wit to the
+                    national admiration. <hi rend="italic">Secondly,</hi> as Dr Johnson admits,
+                    Pope’s failure pointed out the right road to his successors. <hi rend="italic"
+                        >Thirdly,</hi> even in this failure it is but fair to say, that in a
+                    graduated scale of merit, as distributed amongst the long succession of editors
+                    through that century, Pope holds a rank proportionable to his age. For the year
+                    1720, he is no otherwise below Theobald, Hanmer, Capell, Warburton, or even
+                    Johnson, than as they are successively below each other, and all of them as to
+                    accuracy below Steevens, as he again was below Malone and Read.</p>
+                <p part="N">The gains from Shakspeare would hardly counterbalance the loss which
+                    Pope sustained this year from the South Sea bubble. One thing, by the way, is
+                    still unaccountably neglected by writers on this question: how it was that the
+                    great Mississippi bubble, during the Orleans regency in Paris, should have
+                    happened to coincide with that of London. If this were accident, how marvellous
+                    that the same insanity should possess the two great capitals of Christendom in
+                    the same year? If, again, it werc not accident, but due to some common cause,
+                    why is not that cause explained? Pope to his nearest friends never stated the
+                    amount of his loss. The biographers report that at one time his stock was worth
+                    from twenty to thirty thousand pounds. But that is quite impossible. It is true,
+                    that as the stock rose at onc time a thousand pcr cent., this would not imply on
+                    Pope’s part an original purchase beyond twenty-five hundred pounds or
+                    thereabouts. But Pope has furnished an argument against <hi rend="italic"
+                        >that,</hi> which we shall improve. He quotes, more than once, as applicable
+                    to his own case, the old proverbial riddle of Hcsiod, <hi rend="italic">τr'kεον
+                        ημισ∙j οταντoς, the half is more than the whole.</hi> What did hc mean by
+                    that? We understand it thus: that between the selling and buying, the variations
+                    had been such as to sink his sharcs to one half of the price they had once
+                    reached, but, even at that depreciation, to leave him richer on selling out than
+                    he had been at first. But the half of L.25,000 would be a far larger sum than
+                    Pope could have ventured to risk upon a fund confessedly liable to daily
+                    fluctuation. L.3000 would be the utmost he could risk; in which case the half of
+                    L.25,000 would have left him so very much richer, that hc would have proclaimed
+                    his good fortune as an evidence of his skill and prudence. Yct, on the contrary,
+                    he wished his friends to understand at times that he had lost. But his friends
+                    forgot to ask one important question: was the word <hi rend="italic">loss</hi>
+                    to be understood in relation to the imaginary and nominal wealth which he once
+                    possessed, or in relation to the absolute sum invested in the South Sea fund?
+                    The truth is, Pope practised on this, as on other occasions, a little finessing,
+                    which is the chief foible in his character. His object was, that, according to
+                    circumstances, he might vindicate his own freedom from the common mania, in case
+                    his enemies should take that handle for attacking him; or might have it in his
+                    power to plead poverty, and to account for it, in case he should ever accept
+                    that pension which had been so often tendered but never sternly rejected.</p>
+                <p part="N">In 1723 Pope lost one of his dearest friends, Bishop Atterbury, by
+                    banishment; a sentence most justly incurred, and mercifully mitigated by the
+                    hostile Whig government. On the bishop’s trial a circumstance occurred to Pope w
+                    hich flagrantly corroborated his own belief in his natural disqualification for
+                    public life. He was summoned as an evidence on his friend’s behalf. He had but a
+                    dozen words to say, simply explaining the general tenor of his lordship’s
+                    behaviour at Bromley, and yet, under this trivial task, though supported by the
+                    enthusiasm of his friendship, he broke down. Lord Bolingbroke, returning from
+                    exile, met the bishop at the sea-side; upon which it was wittily remarked that
+                    they were “exchanged.” Lord Bolingbroke supplied to Pope the place, or perhaps
+                    more than supplied the place, of the friend hc had lost; for Bolingbroke was a
+                    free-thinker, and so far more entertaining to Pope, even whilst partially
+                    dissenting, than Atterbury, whose clerical profession laid him under restraints
+                    of decorum, and latterly, there is reason to think, of conscience.</p>
+                <p part="N">In 1725, on closing the Odyssey, Pope announces his intention to Swift
+                    of quitting the labours of a translator, and thenceforwards applying himself to
+                    original composition. This resolution led to the Essay on Man, which appeared
+                    soon afterwards; and, with the exception of two labours, which occupied Pope in
+                    the interval between 1726 and 1729, the rest of his life may properly be
+                    described as dedicated to the further extension of that Essay. The two works
+                    which he interposed were a collection of the fugitive papers, whether prose or
+                    verse, which he and Dean Swift had scattered amongst their friends at different
+                    periods of life. The avowed motive for this publication, and, in fact, the
+                    secret motive, as disclosed in Pope’s confidential letters, was to make it
+                    impossible thenceforwards for piratical publishers like Curll. Both Pope and
+                    Swift dreaded the malice of Curll in case they should die before him. It was one
+                    of Curll’s regular artifices to publish a heap of trash on the death of any
+                    eminent man, under the title of his Remains; and -in allusion to that practice
+                    it was that Arbuthnot most wittily called Curll “one of the new terrors of
+                    death.” By publishing <hi rend="italic">all,</hi> Pope would have disarmed Curll
+                    beforehand; and <hi rend="italic">that</hi> was in fact the purpose; and that
+                    plea only could be offered by two grave authors, one forty, the other sixty
+                    years old, for reprinting <hi rend="italic">jeux</hi><hi rend="italic">d</hi> ’
+                        <hi rend="italic">espτit</hi> that never had any other apology than the
+                    youth of their authors. Yet, strange to say, after all, some were omitted; and
+                    the omission of one opened the door to Curll as well as that of a score. Let
+                    Curll have oncc inserted the narrow end of the wcdge, he would soon have driven
+                    it home.</p>
+                <p part="N">This Miscellany, however, in three volumes (published in 1727, but
+                    afterwards increased by a fourth in 1732), though in itself a trifling work, had
+                    one vast consequence. It drew after it swarms of libels and lampoons, levelled
+                    almost exclusively at Pope, although the cipher of the joint authors stood
+                    entwined upon the title-page. These libels in <hi rend="italic">their</hi> turn
+                    produced a second re-action; and, by stimulating Pope to effectual angcr,
+                    eventually drew forth, for the everlasting admiration of posterity, the very
+                    greatest of Pope’s works; a monument of satirical power the greatest which man
+                    has produced, not excepting the MacFleckno of Drydcn, namely, the immortal
+                    Dunciad.</p>
+                <p part="N">In October of the year 1727, this poem, in its original form, was
+                    completed. Many editions, not spurious altogether, nor surreptitious, but with
+                    some connivance, not yet explained, from Pope, were printed in Dublin and in
+                    London. But tlιe first quarto and acknowledged edition was published in London
+                    early in “1728-9,” as the editors choose to write it, that is (without
+                    perplexing the reader), in 1729: on March 12 of which year it was presented by
+                    the prime minister, Sir Robert Walpole, to the king andqueen at St James’s.</p>
+                <pb break="no" facs="nls:193537549?mode=fullsize" xml:id="kp-eb0718-7549-0402"/>
+                <p part="N">Like a hôrnét, who is said to leave his sting in the wound, and
+                    afterwards to languish away, Γopc felt so greatly exhausted by the efforts
+                    connected with the Dunciad (which are far greater, in fact, than all his Homeric
+                    labours put together), that he prepared his friends to expect for the future
+                    only an indolent companion and a hermit. Events rapidly succeeded which tended
+                    to strengthen the impression he had conccivcd of his own decay, and certainly to
+                    increase his disgust with the world. In 1732 died his friend Atterbury; and on
+                    December the 7th of the same year Gay, the most unpretending of all the wits
+                    whom he knew, and the one with whopi he had atone time been domesticated,
+                    expired, after an illness of three days, which Dr Arbuthnot declares to have
+                    been “the most precipitate” he ever knew. But in fact Gay had long been
+                    decaying, from the ignoble vice of too much and too luxurious eating. Six months
+                    after this loss, which greatly affected Pope, came the last deadly wound which
+                    this life could inflict, in the death of his mother. She had for some time been
+                    in her dotage, and recognised no face but that of her son, so that her death was
+                    not unexpected; but that circumstance did not soften the blow of separation to
+                    Pope. She died on the 7th of June 1733, being then ninety-three years old. Three
+                    days after, writing to Richardson the painter for the purpose of urging him to
+                    come down and take her portrait before the coffin was closed, he says, “I thank
+                    God, her death was as easy as her life was innocent; and as it cost her not a
+                    -groan, nor even a sigh, there is yet upon her countenance such an expression of
+                    tranquillity” that “it would afford the finest image of a saint expired that
+                    ever painting drew. Adieu, may you die as happily.” The funeral took place on
+                    the 11th; Pope then quitted the house, unable to support the silence of her
+                    chamber, and did not return for months, nor in fact ever reconciled himself to
+                    the sight of her vacant apartment.</p>
+                <p part="N">Swift also he had virtually lost for ever. In April 1727 this unhappy
+                    man had visited Pope for the last time. During this visit occurred the death of
+                    George I. Great expectations arose from that event amongst the Tories, in which,
+                    of course, Swift shared. It was reckoned upon as a thing of course that Walpole
+                    would bc dismissed. But this bright gleam of hope proved as treacherous as all
+                    before; and the anguish of this final disappointment perhaps it was which
+                    brought on a violent attack of Swift’s constitutional malady. On the last of
+                    August he quitted Pope’s house abruptly; concealed himself in London; and
+                    finally quitted it, as stealthily as he had before quitted Twickenham, for
+                    Ireland, never more to return. He left a most affectionate letter for Pope; but
+                    his affliction, and his gloomy anticipations of insanity, were too oppressive to
+                    allow of his seeking a personal interview.</p>
+                <p part="N">Pope might now describe himself pretty nearly as <hi rend="italic"
+                        >ultimus</hi><hi rend="italic">suarιιm</hi><hi rend="italic">;</hi> and if
+                    he would have friends in future, he must seek them, as he complains bitterly,
+                    almost amongst strangers and another generation. This sense of desolation may
+                    account for the acrimony which too much disfigures his writings henceforward.
+                    Between 1732 and 1740, he was chiefly engaged in satires, which uniformly speak
+                    a high moral tone in the midst of personal invective; or in poems directly
+                    philosophical, which almost as uniformly speak the bitter tone of satire in the
+                    midst of dispassionate ethics. His Essay on Man was but one link in a general
+                    course which he had projected of moral philosophy, here and there pursuing his
+                    themes into the fields of metaphysics, but no farther in either field of morals
+                    or metaphysics than .he could make compatible with a poetical treatment. These
+                    works, however, naturally entangled him in feuds of various complexions with
+                    people of very various pretensions; and to admirers of Pope so fervent as we
+                    profess ourselves, it is painful to acknowledge that the dignity of his latter
+                    years, and the becoming tranquillity of increasing age, are sadly disturbed by
+                    the petulance and the tone of irritation which, alike to those in the wrong and
+                    in the right, inevitably besiege all personal disputes. He was agitated,
+                    besides, by a piratical publication of his correspondence. This emanated of
+                    course from the den of Curll, the universal robber and “<hi rend="italic"
+                        >blatant beast”</hi> of those days; and, besides the injury offered to his
+                    feelings by exposing some youthful sallies which he wished to have suppressed,
+                    it drew upon him a far more disgraceful imputation, most assuredly unfounded,
+                    but accredited by Dr Johnson, and consequently in full currency to this day, of
+                    having acted collusivcly with Curll, or at least through Curll, for the
+                    publication of what he w'ishcd the world to see, but could not else have devised
+                    any decent pretext for exhibiting. The disturbance of his mind on this occasion
+                    led to a circular request, dispersed amongst his friends, that they would return
+                    his letters. All complied except Swift. He only delayed, and in fact shuffled.
+                    But it is easy to read in his evasions, and Pope, in spite of his vexation, read
+                    the same tale, viz. that, in consequence of his recurring attacks and increasing
+                    misery, he was himself the victim of artifices amongst those who surrounded him.
+                    What Pope apprehended happened. The letters were all published in Dublin and in
+                    London, the originals being then only returned when they had done their work of
+                    exposure.</p>
+                <p part="N"><hi rend="subscript"> 1</hi> Such a tenor of life, so constantly fretted
+                    by petty wrongs, or by leaden insults, to which only the celebrity of their
+                    object lent force or wings, allowed little opportunity to Pope for recalling his
+                    powers from angry themes, and converging them upon others of more catholic
+                    philosophy. To the last he continued to conceal vipers beneath his florvers; or
+                    rather, speaking proportionately to the case, he continued to sheath amongst the
+                    gleaming but innocuous lightnings of his departing splendours, the thunderbolts
+                    which blasted for ever. Plis last appearance was his greatest. In 1742 he
+                    published the fourth book of the Dunciad; to which it has with much reason been
+                    objected, that it stands in no obvious relation to the other three, but which,
+                    taken as a separate whole, is by far the most brilliant and the weightiest of
+                    his works. Pope was aware of the <hi rend="italic">hiatus</hi> between this last
+                    book and the rest, on which account he sometime called it the greater Dunciad;
+                    and it would have been eas; for him, with a shallow Warburtonian ingenuity, to
+                    invent links that might have satisfied a mere <hi rend="italic">verbal</hi>
+                    sense of connection. But he disdained this puerile expedient. The fact was, and
+                    could not be disguised from any penetrating eye, that the poem was not a pursuit
+                    of the former subjects; it had arisen spontaneously at various times, by looking
+                    at the same general theme of dnlness (which, in Pope’s sense, includes all
+                    aberrations of the intellect, nay, even any defective equilibrium amongst the
+                    faculties) under a different angle of observation, and from a different centre.
+                    In this closing book, not only bad authors, as in the other three, but all
+                    abuses of science or antiquarian knowledge, or connoisseurship in the arts, are
+                    attacked: virtuosi, medalists, butterfly-hunters, florists, erring
+                    metaphysicians, &amp;c. are all pierced through and through as with the shafts
+                    of Apollo. But the imperfect plan of the work as to its internal economy, no
+                    less than its exterior relations, is evident in many places; and in particular
+                    the whole catastrophe of the poem, if it can be so called, is linked to the rest
+                    by a most insufficient incident. To give a closing grandeur to his work, Pope
+                    had conceived the idea of representing the earth as lying universally under the
+                    incubation of one mighty spirit of dulness; a sort of millennium, as we may call
+                    it, for ignorance, error, and stupidity. This would take leave of the reader
+                    with effect; but how was it to be introduced? at what era? under what exciting
+                    cause? As to the eras, Pope could not settle that; unless it were a <hi
+                        rend="italic">future</hi> era, the description of it could not be delivered
+                    as a prophecy; and, not being prophetic, it would want much of its grandeur.</p>
+                <pb break="no" facs="nls:193537562?mode=fullsize" xml:id="kp-eb0718-7562-0403"/>
+                <p part="N">Yet, <hi rend="italic">as</hi> a part of futurity, how is it connected
+                    with our present times? Do they and their pursuits lead to it as a possibility,
+                    or as a contingency upon certain habits which we have it in our power to
+                    eradicate (in which case this vision of dulness has a <hi rend="italic"
+                        >practical</hi> warning), or is it a mere necessity, one amongst the many
+                    changes attached to the cycles of human destiny, or which chance brings round
+                    with the revolutions of its wheel? All this Pope could not determine; but the
+                    exciting cause he <hi rend="italic">has</hi> determined, and it is
+                    preposterously below the effect. The goddess of dulness yawns; and her yawn,
+                    which, after all, should rather express the fact and state of universal dulness
+                    than its cause, produces a change over all nations tantamount to a long eclipse.
+                    Meantime, with all its defects of plan, the ’ poem, as to execution^ is superior
+                    to all which Pope has done; the composition is much superior to that of the
+                    Essay on Man, and more profoundly poetic: the parodies drawn from Milton, as
+                    also in the former books, have a bcauty and effect which cajmot be expressed;
+                    and, if a young lady wished to cull for her album a passage from all Pope’s
+                    writings, which, without a trace of irritation or acrimony, should yet present
+                    an exquisite gem of independent beauty, she could not find another passage equal
+                    to the little story of the florist and the butterfly-hunter. They plead their
+                    cause separately before the throne of dulness; the florist telling how he had
+                    reared a superb carnation, which, in honour of the queen, he called Caroline,
+                    when his enemy, pursuing a butterfly which settled on the carnation, in securing
+                    his own object, had destroyed that of the plaintiff. The defendant replies with
+                    equal bcauty; and it may certainly be affirmed, that, for brilliancy of
+                    colouring and the art of poetical narration, the tale is not surpassed by any in
+                    the language.</p>
+                <p part="N">This was the last effort of Pope worthy of separate notice. He w as now
+                    decaying rapidly, and sensible of his own decay. His complaint was a dropsy of
+                    the chest, and he knew it to be incurable. Under these circumstances, his
+                    behaviour was admirably philosophical. He employed himself in revising and
+                    burnishing all his later works, as those upon which he wisely relied for his
+                    reputation with future generations. In this task he was assisted by Dr
+                    Warburton, a new literary friend, who had introduced himself to the favourable
+                    notice of Pope about four years before, by a defence of the Essay on Man, which
+                    Cronsaz had attacked, but in general indirectly and ineffectually, by attacking
+                    it through the blunders of a very faulty translation. This poem, however, still
+                    labours, to religious readers, under two capital defects. If man, according to
+                    Pope, is now so admirably placed in the universal system of things, that evil
+                    only could result from any change, then it seems to follow, either that a fall
+                    of man is inadmissible; or at least, that, by placing him in his true centre, it
+                    had been a blessing universally. The other objection lies in this, that if all
+                    is right already, and in this earthly station, then one argument for a future
+                    state, as the scene in which evil is to be redressed, seems weakened or
+                    undermined.</p>
+                <p part="N">As the weakness of Pope increased, his nearest friends, Lord
+                    Bolingbroke, and a few others, gathered around him. The last scenes were passed
+                    almost with ease and tranquillity. He dined in company two days before hc died;
+                    and on the very day preceding his death he took an airing on Blackheath. A few
+                    mornings before he died, he was found very early in his library writing on the
+                    immortality of the soul. This was an effort of delirium; and he suffered
+                    otherwise from this affection of the brain, and from inability to think in his
+                    closing hours. But his humanity and goodness, it was remarked, had survived his
+                    intellectual faculties. He died on the 30th of May 1744; and so quietly, that
+                    the attendants could not distinguish the cx <hi rend="superscript"> r</hi> act
+                    moment of his dissolution.</p>
+                <p part="N">We had prepared an account of Pope’s quarrels, in which we had shown
+                    that, generally, he was not the aggressor; and often was atrociously ill used
+                    before he retorted. This service to Pope’s memory we had judged important,
+                    because it is upon these quarrels chiefly that the erroneous opinion has built
+                    itself ot Pope’s fretfulness and irritability. And this nnamiable feature of his
+                    nature, together with a prone-ncss to petty manoeuvring, are the main foibles
+                    that malice has been able to charge upon Pope’s moral character. Yet, with no
+                    better foundation for their malignity than these doubtful propensities, of which
+                    the first perhaps was a constitutional defect, a defect of his temperament
+                    rather than his will, and the second has been much exaggerated, many writers
+                    have taken upon themselves to treat Pope as a man, if not absolutely
+                    unprincipled and without moral sensibility, yet as mean, little-minded,
+                    indirect, splenetic, vindictive, and morose. Now the difference between
+                    ourselves and these writers is fundamental. They fancy that in Pope’s character
+                    a basis of ignoble qualities was here and there slightly relieved by a few
+                    shining spots; we, on the contrary, believe that in Pope lay a disposition
+                    radically noble and generous, clouded and overshadowed by superficial foibles,
+                    or, to adopt the distinction of Shakspeare, they see nothing but “dust a little
+                    gilt,” and we “gold a little dusted.” A very rapid glance we will throw over the
+                    general outline of his character.</p>
+                <p part="N">As a friend, it is noticed emphatically by Martha Blount and other
+                    contemporaries, who must have had the best means of judging, that no man was so
+                    warm hearted, or so much sacrificed himself for others, as Pope; and in fact
+                    many of his quarrels grew out of this trait in his character. For once that he
+                    levelled his spear in his own quarrel, at least twice he did so on behalf of his
+                    insulted parents or his friends. Pope was also noticeable for the duration of
+                    his friendships;<note anchored="true" place="bottom" type="authorial"><p
+                            part="N">We may illustrate this feature in the behaviour of Pope to
+                            Savage. When all else forsook him, when all beside pleaded the insults
+                            of Savage for withdrawing their subscriptions, Pope sent his in advance.
+                            And when Savage had insulted <hi rend="italic">Mm</hi> also, arrogantly
+                            commanding him never “to presume to interfere or meddle in his affairs,”
+                            dignity and self-respect made Pope obedient to these orders, except when
+                            there was an occasion of serving Savage. On his second visit to Bristol
+                            (when he returned from Glamorganshire), Savage had been thrown into the
+                            jail of the city. One person only interested himself for this hopeless
+                            profligate, and was causing an inquiry to be made about his debts at the
+                            time Savage died. So much Dr Johnson admits; but he <hi rend="italic"
+                                >forgets</hi> to mention the name of this long-suffering friend. <hi
+                                rend="italic">It was Pope.</hi> Meantime, let us not be supposed to
+                            believe the lying legend of Savage; he was doubtless no son of Lady
+                            Macclesfield’s, but an impostor, who would now be sent to the
+                            tread-mill.</p></note> some dropped him, but he never any throughout his
+                    life. And let it be remembered, that amongst Pope’s friends were the men of most
+                    eminent talents in those days; so that envy at least, or jealousy of rival
+                    power, was assuredly no foible of his. In that respect how different from
+                    Addison, whose petty manoeuvring against Pope proceeded entirely from malignant
+                    jealousy. That Addison was more in the wrong even than has generally been
+                    supposed, and Pope more thoroughly innocent as well as more generous, we have
+                    the means at a proper opportunity of showing decisively. As a son, we∙need not
+                    insist on Pope’s pre-eminent goodness. Dean Swift, who had lived for months
+                    together at Twickenham, declares that he had not only never witnessed, but had
+                    never heard of anything like it. As a Christian, Pope appears in a truly
+                    estimable light. He found himself a Roman Catholic by accident of birth; so was
+                    his mother; but his father was so upon personal conviction and conversion, yet
+                    not without extensive study of the questions at issue. It would have laid open
+                    the road to preferment, and preferment was otherwise abundantly before him, if
+                    Pope would have gone over to the Protestant faith. And in his conscience hc
+                    found no obstacle to that change; he was a philosophical Christian, intolerant
+                    of nothing but into.</p>
+                <pb break="no" facs="nls:193537575?mode=fullsize" xml:id="kp-eb0718-7575-0404"/>
+                <p part="N">lerance, a bigot only against bigots. But he remained true to his
+                    baptismal profession, partly on α general principle of honour in adhering to a
+                    distressed and dishonoured party, but chicfly out of reverence and affection to
+                    his mother. In his relation to women, Pope was amiable and gentlemanly; and
+                    accordingly was the object of affectionate regard and admiration to many of the
+                    most accomplished in that sex. This we mention especially because we would wish
+                    to express our full assent to the manly scorn with which Mr Roscoe repels the
+                    libellous insinuations against Pope and Miss Martha Blount. A more innocent
+                    connection we do not believe ever existed. As an author, Warburton has recorded
+                    that no man ever displayed more candour or more docility to criticisms offered
+                    in a friendly spirit. Finally, we sum up all in saying, that Pope retained to
+                    the last a true and diffusive benignity; that this was the quality which
+                    survived all others, notwithstanding the bitter trial which his benignity must
+                    have stood through life, and the excitement to a spiteful re-action of feeling
+                    which was continually pressed upon him by the scorn and insult which his
+                    deformity drew upon him from the unworthy.</p>
+                <p part="N">But the moral character of Pope is of secondary interest: we are
+                    concerned with it only as connected with his great intellectual power. There are
+                    three errors which seem current upon this subject: <hi rend="italic">First,</hi>
+                    that Pepe drew his impulses from French literature; <hi rend="italic"
+                        >secondly,</hi> that he was a poet of inferior rank; <hi rend="italic"
+                        >thirdly,</hi> that his merit lies in superior “correctness.” With respect
+                    to the first notion, it has prevailed by turns in every literature. One stage of
+                    society, in every nation, brings men of impassioned minds to the contemplation
+                    of manners, and of the social affections of man as exhibited in manners. With
+                    this propensity co-operates, no doubt, some degree of despondency when looking
+                    at the great models of the literature who have usually preoccupied the grander
+                    passions, and displayed their movements in the earlier periods of literature.
+                    Now it happens that the French, from an extraordinary defect in the higher
+                    qualities of passion, have attracted the notice of foreign nations chiefly to
+                    that field of their literature in which the taste and the un-impassioncd
+                    understanding preside. But in all nations such literature is a natural growth of
+                    the mind, and would arise equally if the French literature had ncver existed.
+                    The wits of Queen Anne’s reign, or even of Charles II.’s, were not French by
+                    their taste or their imitation. Butler and Dryden were surely not French; and of
+                    Milton we need not speak; as little was Pope French, either by his institution
+                    or by his models. Boileau he certainly admired too much; and, for the sake of a
+                    poor parallelism with a passage about Greece in Horace, he has falsified history
+                    in the most ludicrous manner, without a shadow of countenance from facts, in
+                    order to make out that we, like the Romans, received laws of taste from those
+                    whom we had conquered. But these arc insulated cases and accidents, not to
+                    insiston his known and most profound admiration, often expressed, for both
+                    Chaucer, and Shakspeare, and Milton. Secondly, that Pope is to be classed as an
+                    inferior poet, has arisen purely from a confusion between the departments of
+                    poetry which he cultivated and the merit of his culture. The first place must
+                    undoubtedly be given for ever,—it cannot be refused,—to the impassioned
+                    movements of the tragic, and to the majestic movements of the epic muse. W.e
+                    cannot alter the relations of things out of favour to an individual. But in his
+                    own department, whether higher or lθλver, that man is supreme who has not yet
+                    been surpassed; and such a man is Pope. As to the final notion, first started by
+                    Walsh, and propagated by Warton, it is the most absurd of all the three; it is
+                    not from superior correctness that Pcpe is esteemed more correct, but because
+                    the compass and sweep of his performances lies more within the range of ordinary
+                    judgments. Many questions that have been raised upon Milton or Shakspcare,
+                    questions relating to so subtile a subject as the flux and reflux of human
+                    passion, lie far above the region <hi rend="italic">of</hi> ordinary capacities;
+                    and the indeterminateness or even carelessness of the judgment is transferred by
+                    a common confusion to its objects. But waiving this, let us ask, what is meant
+                    by “correctness ?” Correctness in what? In developing the thought? In connecting
+                    it, or effecting the transitions? In the use of words? In the grammar? In the
+                    metre? Under every one of these limitations of the idea, we maintain that Pope
+                    is <hi rend="italic">not</hi> distinguished by correctness; nay, that, as
+                    compared with Shakspeare, he is eminently incorrect. Produce us from any drama
+                    of Shakspcare one of those leading passages that all men have by heart, and show
+                    us any eminent defect in the very sinews of the thought. It is impossible;
+                    defects there may be, but they will always be found irrelevant to the main
+                    central thought, or to its expression. Now turn to Pope; the first striking
+                    passage which offers itself to our memory, is the famous character of Addison,
+                    ending thus:</p>
+                <p part="N">Who would not laugh, if such a man there be, Who but must weep if
+                    Atticus were he?</p>
+                <p part="N">Why must we laugh? Because we find a grotesque assembly of noble and
+                    ignoble qualities. Very well; but why then must we weep? Because this assemblage
+                    is found actually existing in an eminent man of genius. Well, that is a good
+                    reason for weeping; we weep for the degradation of human nature. But then
+                    revolves the question, why must we laugh? Because, if the belonging to a man of
+                    genius were a sufficient reason for weeping, so much we know from the very
+                    first. The very first line says “Peace to all such. But were there one whose
+                    fires <hi rend="italic">true genius kindles</hi> and fair fame inspires.” Thus
+                    falls to the ground the whole antithesis of this famous character. We are to
+                    change our mood from laughter to tears upon a sudden discovery that the
+                    character belonged to a man of genius; and this we had already known from the
+                    beginning. Match us this prodigious oversight in Shakspeare. Again, take the
+                    Essay on Criticism: it is a collection of independent maxims, tied together into
+                    a fasciculus by the printer, but having no natural order or logical dependency;
+                    generally so vague as to mean nothing: like the general rules of justice,
+                    &amp;c. in ethics, to which every man assents; but when the question comes about
+                    any practical case, <hi rend="italic">is</hi> it just? the opinions fly asunder
+                    far as the poles. And, what is remarkable, many of the rules are violated by no
+                    man so often as by Pope, and by Pope nowhere so often as in this very poem. As a
+                    single instance, he proscribes monosyllabic lines; and in no English poem of any
+                    pretensions are there so many lines of that class as in this. We have counted
+                    above a score, and the last line of all is monosyllabic.</p>
+                <p part="N">Not therefore for superior correctness, but for qualities the very same
+                    as belong to his most distinguished brethren, is Pope to be considered a great
+                    poet; for impassioned thinking, powerful description, pathetic reflection,
+                    brilliant narration. IIis characteristic difference is simply that he carried
+                    these powers into a different field, and moved chiefly amongst the social paths
+                    of men, and viewed their characters as operating through their manners. And our
+                    obligations to him arise chiefly on this ground, that having already, in the
+                    persons of earlier poets, carried off the palm in all the grander trials of
+                    intellectual strength, for the majesty of the epopee and the impassioned
+                    vehemence of the tragic drama, to Pope we owe it that we can now claim an equal
+                    preeminence in the sportive and aerial graces of the mock heroic and satiric
+                    muse; that in the Dunciad we possess a peculiar form of satire, in which
+                    (according to a plan unattempted by any other nation) we see alternately her
+                    festive smile and her gloomiest scowl; that the grave good sense of the nation
+                    has here found its brightest mirror; and, finally, that through Pope the cycle
+                    of our poetry is perfected and made orbicular, that from that day we might claim
+                    the laurel equally, whether for dignity or grace. (w. w.w.) <pb break="no"
+                        facs="nls:193537588?mode=fullsize" xml:id="kp-eb0718-7588-0405"/></p>
+            </div>
+        </body>
+    </text>
+</TEI>
