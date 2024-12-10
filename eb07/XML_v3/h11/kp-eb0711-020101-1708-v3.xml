@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0711-1708-0201-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">HEBRIDES</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 11, page 201</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="3" ref="fasttopic:1100116">Romans</term>
+                    <term n="5" ref="fasttopic:952109">Hay</term>
+                    <term n="2" ref="fasttopic:887617">Danes</term>
+                    <term n="2" ref="fasttopic:978902">Irish</term>
+                    <term n="1" ref="fasttopic:1039481">Norwegians</term>
+                    <term n="7" ref="fasttopic:1198642">Conquest</term>
+                    <term n="6" ref="fasttopic:980104">Islands</term>
+                    <term n="5" ref="fasttopic:1032344">Names</term>
+                    <term n="5" ref="fasttopic:888613">Death</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="7" ref="lcsh1910:b47m04609">Power</term>
+                    <term n="6" ref="lcsh1910:b4kp7tx0f">Islands</term>
+                    <term n="5" ref="lcsh1910:b49g5gh4j">Names</term>
+                    <term n="3" ref="lcsh1910:b4416t316">Hay</term>
+                    <term n="5" ref="lcsh1910:b4kh0f02c">Death</term>
+                    <term n="2" ref="lcsh1910:b43j3985w">Danes</term>
+                    <term n="2" ref="lcsh1910:b4tt4fz4p">Irish</term>
+                    <term n="1" ref="lcsh1910:b4n58cs8z">Norwegians</term>
+                    <term n="1" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="9" ref="fastgeo:1206715">Scotland</term>
+                    <term n="8" ref="fastgeo:1204556">Norway</term>
+                    <term n="2" ref="fastgeo:1205427">Ireland</term>
+                    <term n="2" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1240888">Australasia</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193641708" type="entry">
+                <p><label type="entry">HEBRIDES</label>, the general name of some islands lying to
+                    the north-west of Scotland, of which kingdom they constitute a part. They are
+                    situated between the 55th and 59th degrees of latitude. The names of the largest
+                    are <hi rend="italic">Lewis, Skye, Mull, Ilay,</hi> and <hi rend="italic"
+                    >Arran.</hi> Of these islands, generally, Mr Pennant gives the following
+                    history.</p>
+                <p>“All the accounts left us by the Greek and Roman writers are enveloped with
+                    obscurity; at all times brief even in their descriptions of places they had
+                    easiest access to, and might have described with the most satisfactory
+                    precision; but in remote places, their relations furnish little more than hints,
+                    the food for conjecture to the visionary antiquary.</p>
+                <p>“That Pytheas, a traveller mentioned by Strabo, had visited Great Britain, I
+                    wouſd wish to make only <hi rend="italic">apocryphal.</hi> He asserts that he
+                    visited the remoter parts; and that he had also seen Thule, the land of romance
+                    amongst the ancients; which all might pretend to have seen; but every voyager,
+                    to swell his fame, made the island he saw last the Ultima Thule of his travels.
+                    If Pytheas had reached these parts, he might have observed, floating in the
+                    seas, multitudes of gelatinous animals, the <hi rend="italic">medusae of</hi>
+                    Linnaeus, and out of these have formed his fable. He made his Thule a <hi
+                    rend="italic">composition of neither earth, sea, nor air</hi><hi rend="italic"
+                    >;</hi><hi rend="italic">but like a composition of them all</hi><hi
+                    rend="italic">;</hi> then, catching his simile from what floated before him,
+                    compares it to the <hi rend="italic">lungs</hi> of the sea, the Aristotelian
+                    idea of these bodies, and from him adopted by naturalists, successors to that
+                    great philosopher. Strabo very justly explodes these absurd tales; yet allows
+                    him merit in describing the climate of the places he had seen. As a farther
+                    proof of his having visited the Hebrides, he mentions their unfriendly sky, that
+                    prohibits the growth of the finer fruits; and that the natives are obliged to
+                    carry their corn under shelter to beat the grain out, lest it should be spoiled
+                    by the effect of sun and violence of the rains. This is the probable part of his
+                    narrative; but when the time that the great geographer wrote is considered, at a
+                    period that these islands had been neglected for a very long space by the
+                    Romans, and when the difficulties of getting among a fierce and unfriendly
+                    nation must be almost insuperable, doubts innumerable respecting the veracity of
+                    this relater must arise. All that can be admitted in favour of him is, that he
+                    was a great traveller; and that he might have either visited Britain from some
+                    of the nations commercing with our isle, or received from them accounts, which
+                    he afterwards dressed out, mixed with the ornaments of íable. A traffic must
+                    have been carried on with the very northern inhabitants of our islands in the
+                    time of Pytheas; for one of the articles of commerce mentioned by Strabo, the
+                    ivory bits, were made either of the teeth of the walrus, or of a species of
+                    whale, native of the northern seas.</p>
+                <p>“The geographer Mela, who flourished in the reign of Claudius, is the next who
+                    takes notice of our lesser islands. He mentions the Orcades as consisting of 30,
+                    the Aemodae <pb break="no" facs="nls:193641721" xml:id="kp-eb0711-1721-0202"/>of
+                    seven. The Romans had then made a conquest of the former, and might have seen
+                    the latter: but, from the words of the historian, it is probable that the
+                    Shetland Islands were those intended; for he informs us that the ‘ Aemodae were
+                    carried out over against Germany.’ The site of the Hebrides will not admit this
+                    description, which agrees very well with the others; for the ancients extended
+                    their Germany, and its imaginary islands, to the extreme north.</p>
+                <p>“Pliny the Elder is the next that mentions these remote places. He lived later
+                    than the preceding writers, and of course his information is fuller. By means of
+                    intervening discoveries, he has added ten more to the number of the Orcades; is
+                    the first writer that mentions the Hoebudes, the islands in question; and joins
+                    in the same line Aemodae, or, as it is in the best editions more properly
+                    written, the <hi rend="italic">Acmodae,</hi> or extreme point of the Roman
+                    expeditions to the north, as the Shetland Isles in the highest probability were.
+                    Pliny and Mela agree in the number of the Aemodae or Acmodae; the former makes
+                    that of the Hoebudes 30; an account extremely near the truth, deducting the
+                    little isles, or rather rocks, that surround most of the greater, and many of
+                    them so indistinct as scarcely to be remarked, except on an actual survey.</p>
+                <p>“Solinus succeeds Pliny. If he, as is supposed, was contemporary with Agricoa, he
+                    has made very ill use of the light he might have received from the expeditions
+                    of that great general; his officers might have furnished the historian with
+                    better materials than those he has communicated. He has reduced the number of
+                    the Hoebudes to five. He tells us that <hi rend="superscript"> t</hi> the
+                    inhabitants were unacquainted with corn; that they lived only on fish and milk;
+                    that they had one king, as the islands were only separated from each other by
+                    narrow straits; that their prince was bound by certain rules of government to do
+                    justice, and was prevented by poverty from deviating from the true course, being
+                    supported by the public, and allowed nothing That he could call his own, not
+                    even a wife; but then he was allowed free choice, by turns one out of every
+                    district, of any female that caught his affection; which deprived him of all
+                    ambition about a successor.’</p>
+                <p>“By the number of these islands, and by the minute attention given by the
+                    historian to the circumstance of their being separated from each other by very
+                    narrow straits, I should imagine that which is now called the <hi rend="italic"
+                    >Long Island,</hi> and includes Lewis, North Uist, Benbecula, South Uist, and
+                    Barra, to have been the five Hoebudes of Solinus; for the other great islands,
+                    such, as Sky, &amp;c. are too remote from each other to form the preceding very
+                    characteristic description of that chain of islands. These might naturally fall
+                    under the rule of one petty prince, almost the only probable part of Solinus’s
+                    narrative.</p>
+                <p>“After a long interval appears Ptolemy, the Egyptian geographer. He also
+                    enumerates five Ebudae, and has given each a name; the western <hi rend="italic"
+                    >Ebuda,</hi> the Eastern <hi rend="italic">Ricino,</hi><hi rend="italic">Malcos,
+                    Epidiurn.</hi> Camden conjectures them to be the modern Sky, Lewis, Rathry or
+                    Racline, Mull, and Hay; and I will not controvert his opinion.</p>
+                <p>“The Roman historians give very little light into the geography of these parts.
+                    Tacitus, from whom most might have been expected, is quite silent about the
+                    names of places; notwithstanding he informs us, that a fleet by the command of
+                    Agricoa performed the circumnavigation of Britain. All that he takes notice of
+                    is the discovery and the conquest of the Orkneys: it should seem, that with the
+                    biographers of an ambitious nation, nothing seemed worthy of notice but what
+                    they could dignify with the glory of victory. ∙</p>
+                <p>“It is very difficult to assign a reason for the change of name from <hi
+                    rend="italic">Ebudae</hi> to <hi rend="italic">Hebrides</hi><hi rend="italic"
+                    >:</hi> the last is modern, and seems, as the annotator on Dr Macpherson
+                    supposes, to have arisen from the error of a transcriber, who changed the <hi
+                    rend="italic">u</hi> into <hi rend="italic">ri.</hi></p>
+                <p>“From all that has been collected from the ancients, it appears that they were
+                    acquainted with little more of the Hebrides than the bare names: it is probable
+                    that the Romans, either from contempt of such barren spots, from the dangers of
+                    the seas, the violence of the tides, and horrors of the narrow sounds, in the
+                    inexperienced ages of navigation, never attempted their conquest, or saw more of
+                    them than what they had in sight during the few circumnavigations of Great
+                    Britain, which were expeditions more of ostentation than of utility.</p>
+                <p>“The inhabitants had probably for some ages their own governors, one little king
+                    to each island, or to each group, as necessity required. It is reasonable to
+                    suppose that their government was as much divided as that of Great Britain,
+                    which, it is well known, was under the direction of numbers of petty princes
+                    before it was reduced under the power of the Romans.</p>
+                <p>“No account is given in history of the time these islands were annexed to the
+                    government of Scotland. If we may credit our Saxon historians, they appear to
+                    have been early under the dominion of the Picts; for Bede and Adamnanus inform
+                    us, that soon after the arrival of St Columba in their country, Brude, a Pictish
+                    monarch, made the saint a present of the celebrated island of Iona. But neither
+                    the holy men of this island, nor the natives of the rest of the Hebrides,
+                    enjoyed a permanent repose after this event. The first invasion of the Danes
+                    does not seem to be easily ascertained. It appears that they ravaged Ireland,
+                    and the Isle of Rathry, as early as the year 735. In the following century their
+                    expeditions became more frequent; Harold Harfager, or the <hi rend="italic"
+                    >light-haired,</hi> pursued, in 875, several petty princes, whom he had expelled
+                    out of Norway; who had taken refuge in the Hebrides, and molested his dominions
+                    by perpetual descents from those islands. He seems to have made a rapid
+                    conquest; he gained as many victories as he fought battles; he put to death the
+                    chief of the pirates, and made an indiscriminate slaughter of their followers.
+                    Soon after his return, the islanders repossessed their ancient seats; and, in
+                    order to repress their insults, he sent Ketil the <hi rend="italic"
+                    >flat-nosed</hi> with a fleet and some forces for that purpose. He soon reduced
+                    them to terms, but made his vietories subservient to his own ambition; he made
+                    alliances with the reguli he had subdued; he formed intermarriages, and
+                    confirmed to them their old dominions. This effected, he sent back the fleet to
+                    Harold; openly declared himself independent; made himself prince of the
+                    Hebrides; and caused them to acknowledge him as such, by the payment of tribute
+                    and the badges of vassalage. Ketil remained, during life, master of the islands;
+                    and his subjects appear to have been a warlike set of freebooters, ready to Join
+                    with any adventurers. Thus when Eric, son of Harold Harfager, after being driven
+                    out of his own country, made an invasion of England, he put with his fleet into
+                    the Hebrides, received a large reinforcement of people fired with the hopes of
+                    prey, and then proceeded on his plan of rapine. After the death of Ketil, a
+                    kingdom was in after times composed out of them, which, from the residence of
+                    the little monarch in the Isle of Man, was styled that of <hi rend="italic"
+                    >Man.</hi> The islands became tributary to that of Norway for a considerable
+                    time, and princes were sent from thence to govern; but at length they again
+                    shook off the yoke. Whether the little potentates ruled independent, or whether
+                    they put themselves under the protection of the Scottish monarchs, does not
+                    clearly appear; but it is reasonable to suppose the last, as Donald-bane is
+                    accused of making the Hebrides the price of the assistance given him by the
+                    Norwegians against his own subjects. Notwithstanding they might occasionally
+                    seek the protection of Scotland, <pb break="no" facs="nls:193641734"
+                    xml:id="kp-eb0711-1734-0203"/>yet they never were without princes of their own:
+                    policy alone directed them to the former. From the chronicles of the kings of
+                    Man we learn that they had a succession of princes.</p>
+                <p>“In 1089 is an evident proof of the independency of the islanders on Norway; for,
+                    on the death of Lagnan, one of their monarchs, they sent a deputation to
+                    O’Brian, king of Ireland, to request a regent of royal blood to govern them
+                    during the minority of their young prince. They probably might in turn
+                    compliment in some other respects their Scottish neighbours; the islanders must
+                    have given them some pretence to sovereignty; for,</p>
+                <p>“In 1093, Donald-bane, king of Scotland, calls in the assistance of Magnus the
+                    Barefooted, king of Norway, and bribes him with the promise of all the islands.
+                    Magnus accepts the terms; but at the same time boasts, that he does not come to
+                    invade the territories of others, but only to resume the ancient rights of
+                    Norway. His conquests are rapid and complete; for, besides the islands, by an
+                    ingenious fraud he adds Cantyre to his dominions.</p>
+                <p>“The Hebrides continued governed by a prince dependent on Norway, a species of
+                    viceroy appointed by that court; and who paid, on assuming the dignity, ten
+                    marks of gold, and never made any other pecuniary acknowledgment during life:
+                    but if another viceroy was appointed, the same sum was exacted from him. These
+                    viceroys were sometimes Norwegians, sometimes natives of the isles. In 1097 we
+                    find that Magnus deputes a nobleman of the name of <hi rend="italic"
+                    >Ingemund</hi><hi rend="italic">:</hi> in after times we learn that natives were
+                    appointed to that high office. Thus were the Hebrides governed, from the
+                    conquest by Magnus, till the year 1263, when Acho, or Haquin, king of Norway, by
+                    an unfortunate invasion of Scotland, terminating in his defeat at Largs, so
+                    weakened the powers of his kingdom, that his successor Magnus IV. was content to
+                    make a cession of the islands to Alexander HI.: but not without stipulating for
+                    the payment of a large sum, and a tribute of 100 merks for ever, which bore the
+                    name of the <hi rend="italic">annual of Norway.</hi> Ample provision was also
+                    made by Magnus in the same treaty, for the security of the rights and properties
+                    of his Norwegian subjects who chose to continue in the isles, where many of
+                    their posterity remain to this day.</p>
+                <p>“Notwithstanding this revolution, Scotland seems to have received no real
+                    acquisition of strength. The islands still remained governed by powerful
+                    chieftains, the descendants of Somerled, thane of Heregaidel, or Argyle, who,
+                    marrying the daughter of Olave, king of Man, left a divided dominion to his sons
+                    Dugal and Reginald; from the first were descended the Macdougals of Lorn, from
+                    the last the powerful clan of the Macdonalds. The lordship of Argyle, with Mull,
+                    and the islands north of it, fell to the share of the first; Hay, Cantyre, and
+                    the southern isles, were the portion of the last; a division that formed the
+                    distinction of the Sudereys and Nordereys (as further noticed in the article <hi
+                    rend="smallcaps">Iona).</hi></p>
+                <p>“These chieftains were the scourges of the kingdom; they are known in history but
+                    as the devastations of a tempest; for their paths were marked with the most
+                    barbarous desolation. Encouraged by their distance from the seat of royalty, and
+                    the turbulence of the times, which gave their monarchs full employ, they
+                    exercised a regal power, and often assumed the title; but are more generally
+                    known in history by the style of the <hi rend="italic">Lords of the Isles,</hi>
+                    or the Earls of Ross; and sometimes by that of the <hi rend="italic">Great
+                    Macdonald.</hi></p>
+                <p>“Historians are silent about their proceedings, from the retreat of the Danes, in
+                    1263, till that of 1335, when John, lord of the isles, withdrew his allegiance.
+                    In the beginning of the next century his successors were so independent,· that
+                    Henry IV. entered into a formal alliance with the brothers Donald and John. This
+                    encou raged them to commit fresh hostilities against their natural prince.
+                    Donald, under pretence of a claim to the earldom of Ross, invaded and made a
+                    conquest of that county; but, penetrating as far as the shire of Aberdeen, after
+                    a fierce but undecisive battle with the royal party, thought proper to retire,
+                    and in a little time to swear allegiance to his monarch James I. But he was
+                    permitted to retain the county of Ross, and assume the title of earl. His
+                    successor Alexander, at the head of 10,000 men, attacked and burnt Inverness; at
+                    length, terrified with the preparations made against him, he fell at the royal
+                    feet, and obtained pardon as to life, but was committed to strict
+                    confinement.</p>
+                <p>“His kinsman and deputy, Donald Balloch, resenting the imprisonment of his
+                    chieftain, excited another rebellion, and destroyed the country with fire and
+                    sword; but on his flight was taken and put to death by an Irish chieftain, with
+                    whom he sought protection.”</p>
+                <p>“These barbarous inroads were very frequent with a set of banditti, who had no
+                    other motive in war but the infamous inducement of plunder.</p>
+                <p>“In the reign of James II. in the year 1461, Donald, another petty tyrant, an
+                    Earl of Ross, and Lord of the Isles, renewed the pretence of independency;
+                    surprised the castle of Inverness; forced his way as far as Athol; and obliged
+                    the carl and countess, with the principal inhabitants, to seek refuge in the
+                    church of St Bridget, in hopes of finding security from his cruelty by the
+                    sanctity of the place; but the barbarian and his followers set fire to the
+                    church, put the ecclesiastics to the sword, and, with a great booty, carried the
+                    earΓand countess prisoners to his castle of Claig, in the island of Hay. In a
+                    second expedition, immediately following the first, he suffered the penalty of
+                    his impiety: a tempest overtook him, and overwhelmed most of his associates; and
+                    he, escaping to Inverness, perished by the hands of an Irish harper; his
+                    surviving followers returned to Hay, conveyed the Earl and Countess of Athol to
+                    the sanctuary they had violated, and expiated their crime by restoring the
+                    plunder, and making large donations to the shrine of the offended saint.</p>
+                <p>“John, successor to the late Earl of Ross, entered into alliance with Edward IV.
+                    and sent ambassadors to the court of England, where Edward empowered the Bishop
+                    of Durham and Earl of Winchester to conclude a treaty with him, another Donald
+                    Balloch, and his son and heir John. They agreed to serve the king with all their
+                    power, and to become his subjects: the earl was to have 100 marks sterling for
+                    life in time of peace, and L.200 in time of war; and these island allies, in
+                    case of the conquest of Scotland, were to have confirmed to them all the
+                    possessions benorth of the Scottish sea; and in case of a truce with the
+                    Scottish monarch, they were to be included in it. But about the year 1476,
+                    Edward, from a change of politics, courted the alliance of James III. and dropt
+                    his new allies. James, determined to subdue this rebellious race, sent against
+                    them a powerful armyunder the Earl of Athol; and took leave of him with this
+                    good wish, <hi rend="italic">Exirth, fortune, and fill the fetters</hi><hi
+                    rend="italic">;</hi> as much as to say, “Go forth, be fortunate, and bring home
+                    many captives ;” which the family of Athol has used ever since for its motto.
+                    Ross was terrified into submission; obtained his pardon; but was deprived of his
+                    earldom, which by act of parliament was then declared unalienably annexed to the
+                    crown; at the same time the king restored to him Knapdale and Cantyre, which the
+                    earl had resigned; and invested him anew with the lordship of the isles, to hold
+                    them of the king by service and relief.</p>
+                <p>“Thus the great power of the isles was broken: yet for a considerable time after,
+                    the petty chieftains were continually breaking out into small rebellions, or
+                    harassed each other in private wars; and tyranny seems but to <pb break="no"
+                    facs="nls:193641747" xml:id="kp-eb0711-1747-0204"/>have been multiplied. James
+                    V. found it necessary to make the voyage of the isles in person in 1536, seized
+                    and brought away with him several of the most considerable leaders, and obliged
+                    them to find security for their own good behaviour and that of their vassals.
+                    The names of these chieftains were (according to Lindesay), <hi rend="italic"
+                    >Mydyart, Mac-connel, Alac-loyd</hi> of the Lewis, <hi rend="italic">Mac-niel,
+                    Mac-lane, Mac-intosh, John Mudyart, Mac-hay, Moe-kenzie,</hi> and many others;
+                    but, by the names of some of the above, there seem to have been continental as
+                    well as insular malecontents. He examined the titles of their holdings; and
+                    finding several to have been usurped, reunited their lands to the crown. In the
+                    same voyage he had the glory of causing a survey to be taken of the coasts of
+                    Scotland, and of the islands, by his pilot Alexander Lindesay; which was
+                    published in 1583, at Paris, by Nicholas de Nicholay, geographer to the French
+                    monarch.</p>
+                <p>“The troubles that succeeded the death of James occasioned a neglect of these
+                    insulated parts of the Scottish dominions, and left them in a state of anarchy.
+                    In 1614, the Mac-donalds made a formidable insurrection, oppugning the royal
+                    grant of Cantyre to the Earl of Argyle and his relations. The petty chieftains
+                    continued in a sort of rebellion; and the sword of the greater, as usual in weak
+                    governments, was employed against them; the encouragement and protection given
+                    by them to pirates employed the power of the Campbells during the reign of James
+                    VI. and the beginning of that of Charles I.</p>
+                <p>“But the turbulent spirit of the old times continued down till a comparatively
+                    late period. The heads of clans were, by the divisions, and a false policy that
+                    predominated in Scotland during the reign of William III. flattered with an
+                    ideal importance: instead of being treated as bad subjects, they were courted as
+                    desirable allies; instead of feeling the hand of power, money was allowed to
+                    bribe them into the loyalty of the times. They would have accepted the
+                    subsidies, notwithstanding they detested the prince that offered them. They were
+                    taught to believe themselves of such consequence, that in these days turned to
+                    their destruction. Two rebellions gave the legislature a late experience of the
+                    folly of permitting the feudal system to exist in any part of its dominions. The
+                    act of 1748, for abolishing heritable jurisdictions, at once deprived the
+                    chieftains of all power of injuring the public by their commotions.”</p>
+                <p><hi rend="italic">New</hi><hi rend="italic smallcaps"> Hebrides,.</hi> a cluster
+                    of islands lying in the Great South Sca, or Pacific Ocean. See <hi
+                    rend="smallcaps">Australasia.</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

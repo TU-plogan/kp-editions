@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0721-0922-0882-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">WIGTON</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 21, page 882</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="9" ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term n="4" ref="lcsh1910:b4kk94m4s">Sea</term>
+                    <term n="4" ref="lcsh1910:b4ww7759r">Moors</term>
+                    <term n="4" ref="lcsh1910:b4s17sx86">Personality</term>
+                    <term n="2" ref="lcsh1910:b4jw86n9w">Head</term>
+                    <term n="4" ref="lcsh1910:b4tt4fz4p">Irish</term>
+                    <term n="3" ref="lcsh1910:b4z892m1t">Celtic</term>
+                    <term n="1" ref="lcsh1910:b4bc3t18v">Saxons</term>
+                    <term n="1" ref="lcsh1910:b4125q963">Dominicans</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="10" ref="fastgeo:1206715">Scotland</term>
+                    <term n="5" ref="fastgeo:1219920">England</term>
+                    <term n="2" ref="fastgeo:1205427">Ireland</term>
+                    <term n="1" ref="fastgeo:1204558">Denmark</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="4" ref="fasttopic:978902">Irish</term>
+                    <term n="3" ref="fasttopic:1131380">Stairs</term>
+                    <term n="2" ref="fasttopic:910709">English</term>
+                    <term n="2" ref="fasttopic:952579">Head</term>
+                    <term n="1" ref="fasttopic:1100116">Romans</term>
+                    <term n="12" ref="fasttopic:829042">Bays</term>
+                    <term n="4" ref="fasttopic:1110395">Seas</term>
+                    <term n="4" ref="fasttopic:1058777">Personals</term>
+                    <term n="4" ref="fasttopic:1058667">Personality</term>
+                    <term n="4" ref="fasttopic:1058664">Personalism</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ht:chi.12945678&amp;view=1up&amp;seq=922" type="entry">
+                <p><label type="entry">WIGTON</label>, a county situated at the south-west corner of
+                    Scotland, is bounded on the west by the Irish Channel, on the north by Ayrshire,
+                    on the east by Wigton Bay and the river Cree, and on the south by the Irish Sea.
+                    It is consequently bounded by water on all sides except the north. No part of
+                    the county is above thirteen miles from the sea. Its length from east to west is
+                    thirty-four miles; its mean breadth is twenty-four. It is divided into three
+                    districts, the Machers (flat country), lying between Wigton and Luce Bays; the
+                    Rhinns (peninsula), which comprehends the portion lying west of a line drawn
+                    between Luce Bay and Lochryan; and the Moors, which include the remainder, being
+                    more than a third of the whole county.</p>
+                <p>The following table shews the population of the county at different dates.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 1755. </cell>
+                        <cell cols="1" role="data" rows="1"> 1801. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> 1831. </cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Males. </cell>
+                        <cell cols="1" role="data" rows="1"> Females. </cell>
+                        <cell cols="1" role="data" rows="1"> Total. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> 16,466 </cell>
+                        <cell cols="1" role="data" rows="1"> 22,918 </cell>
+                        <cell cols="3" role="data" rows="1"> 17,078 19,180 36,258 </cell>
+                    </row>
+                </table>
+                <p>The increase in the number of the inhabitants between 1755 and 1831 has been
+                    19,792; in other words, the population has been considerably more than doubled.
+                    The number of square miles in the county being 459, there are seventy-nine
+                    inhabitants to each square mile; the average of the whole of Scotland being
+                    about eighty. The number of families in 1831 was 7514; of inhabited houses,
+                    6404; the number of persons to each family being 4·825; to each house,
+                    5∙66l.</p>
+                <p>Wigton being a remote county, and having little intercourse with any other
+                    portion of the kingdom, the greater part of the present inhabitants can trace
+                    their descent through many generations; the only exception being in regard to
+                    Irish settlers, who are somewhat numerous, particularly in the towns and
+                    villages, and who, including their families, form about a fifth of the entire
+                    population of the county. The Gallovidians are of Celtic origin; and so late as
+                    the time of Queen Mary, Gaelic was their vernacular language. The surnames,
+                    which prevailed in the county four and five centuries ago, and even at a more
+                    remote period, still predominate, such as Macdowall, Mackerlie, Maculloch,
+                    Mackie, Macklcllan, Macguffie, Mackinnell, Macgowan, Macgeoch, Macgill,
+                    Macracken, Macnish, Adair, Dunbar, Agnew, Stewart, Gordon, Hannay, Broadfoot,
+                    Donnan, Milroy, Milwain. While old names and old families thus obtain, very few
+                    new ones, except so far as emigration from Ireland prevails, have been
+                    introduced. But not a few of the oldest and best families were originally of <pb
+                    break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=923"
+                    xml:id="kp-eb0721-0923-0883"/> Irish descent. From these circumstances it may be
+                    presumed, what is really the case, that the feudal feeling exists more strongly
+                    and generally in Wigtonshire than in any other county in the south of Scotland.
+                    Superstitious observances and traditionary legends abound. Belief in witches, in
+                    ghosts, in lucky and unlucky days, and other similar hereditary notions, are
+                    common throughout the county, particularly in the more remote and thinly
+                    inhabited parishes.</p>
+                <p>Poor-rates are unknown in this county, with the exception of one parish. Out of
+                    the whole population, there are only about 700 receiving parochial aid; that is,
+                    only one person in fifty-two is a pauper, being less than a third of the average
+                    of England. The aggregate annual amount distributed among these 700 persons is
+                    about L.1375, being rather less than L.2 for each pauper, or at the
+                    extraordinary low rate of 6d. per head of population. The lowness of this rate
+                    will be better appreciated when we state, that, previously to the new poor-law
+                    amendment act in 1834, the average burden in England was thirty-three times
+                    greater.</p>
+                <p>The climate, though characterized by considerable variations, and though, on the
+                    whole, subject to moisture, is regarded as salubrious. The instances of persons
+                    being able to follow their usual occupations, even at the age of eighty, are
+                    common. Alexander Credie, a native of the Machers, died in 1824, at the
+                    venerable age of 108.</p>
+                <p>The physical appearance of Wigtonshire is not varied. Even the district called
+                    the Moors is not distinguished by any considerable hills or eminences; and it
+                    has been remarked that there is no county in Scotland that rises so little above
+                    the level of the sea. Nor are there any important rivers; at least none of them
+                    is navigable except the Cree and the Bladenoch, both of which flow into Wigton
+                    Bay; the former being navigable for six miles, the latter for two. But, though
+                    not possessed of large and navigable rivers, this county abounds with spacious
+                    bays and harbours, namely, Lochryan on the north-west, which stretches about
+                    nine miles inland till it reaches Stranraer, where it terminates, its breadth
+                    varying from two to four miles; Luce Bay on the south, stretching inward about
+                    fifteen miles, its breadth regularly graduating from twenty miles at its mouth;
+                    and Wigton Bay, varying from eight miles in width, till it reaches the Cree, a
+                    distance of about ten miles. These two latter bays form two remarkable
+                    promontories, the Borough Head on the south-east, and the Mull of Galloway on
+                    the south-west, the two most southerly points in Scotland; the latter being
+                    about one mile and a half south of the former. The most important harbours are
+                    Carty on the Cree, Wigton on the Bladenoch, Garlieston on Wigton Bay, Isle of
+                    Whithorn near the Borough Head, Glenluce and Sandhead on Luce Bay, Port Logan
+                    and Portpatrick on the Irish Channel, and Stranraer and Cairnryan on Lochryan.
+                    The fresh-water lochs, though numerous, only occupy an aggregate of seven and a
+                    half square miles.</p>
+                <p>The county abounds with towns and villages along the coast, but none of them is
+                    of great importance. Of Wigton, Whithorn, and Stranraer, a separate account has
+                    been given. Portpatrick, with a population of 1010, is situated on the Irish
+                    Channel, nearly opposite to Donaghadee, between which places two government mail
+                    steamers ply daily. The harbour is undergoing great repairs, and two piers are
+                    erecting by act of parliament; the estimated expense is L.150,000. Glenluce,
+                    population 821, is situated within 500 yards of the river Luce, and at the head
+                    of the bay of that name. Newton-Stewart, population 2241, lies on the banks of
+                    the Cree, eight miles north of Wigton. Garlieston, population 587, and the Isle
+                    of Whithorn, population 697, are both situated on the west coast of Wigton Bay,
+                    the latter being the port of Whithorn. Port-William, population 510, on Luce
+                    Bay, possesses a good harbour.</p>
+                <p>The soil of the three districts into which Wigtonshire is divided, the Rhinns,
+                    the Machers, and the Moors, is very different. The soil of the first two is for
+                    the most part a hazelly loam, dry, and well adapted for turnip husbandry; but in
+                    the barony of Baldoon, which is regarded as the Carse of Gowrie of the south of
+                    Scotland, and in the low-lying lands between Wigton and Newton-Stewart, there is
+                    a great extent (above 25,000 acres) of rich alluvial soil; while the remaining
+                    district (the Moors) is bleak and barren, chiefly devoted to pasture, with few
+                    spots fit for tillage, great portions of it being mossy land, partially covered
+                    with water, such as the <hi rend="italic">flow</hi> of Glenluce. The most
+                    approved system of agriculture has been everywhere introduced, particularly in
+                    the Rhinns and Machers. Of the relative proportions of land in crop and in
+                    pasture, a correct idea may be formed from the fact, that out of 288,960 English
+                    acres which the county contains, 101,136, or about thirty-five per cent., are
+                    under cultivation; while 187,824, or about sixty-five per cent., are in pasture,
+                    including 4265 under wood. Property in land in Wigtonshire is very little
+                    subdivided. There are four or five large proprietors whose united estates
+                    embrace about the half of the county. There are comparatively few proprietors
+                    whose estates are under L.500. The average rent of land in 1810 was 8s. 6d. per
+                    acre; the aggregate rent in 1837 was L. 175,000, being about 12s. an acre. The
+                    valued rental of the county is L.67,642 Scotish, old valuation. Leases generally
+                    extend to nineteen years. Two agricultural societies have long existed in the
+                    county; and the class of farmers, in point of general intelligence and
+                    professional skill, is highly respectable.</p>
+                <p>Wigtonshire is devoid of mineral wealth, nor can it be said to possess any
+                    considerable manufactures. There is a whiskey distillery at the Bridge of
+                    Bladenoch, within a mile of Wigton, which consumes yearly about 16,000 bushels
+                    of barley, and gives employment to between twenty and thirty persons. A woollen
+                    manufactory was established in the parish of Kirkowan in 1822, which in 1838
+                    employed thirty-nine hands. There are several small breweries scattered
+                    throughout the county. The salmon and white fishery is carried on at the mouths
+                    of some of the rivers and along various places on the coast, but to no very
+                    considerable extent. Exclusively of fishing boats and steamers, the county has
+                    ninety-six vessels; tonnage, 5371.</p>
+                <p>But Wigtonshire, from the general progress of the arts of peace, now enjoys
+                    advantages unknown there even a few years ago. Remote as is her situation, she
+                    is reaping all the advantages which steam navigation is calculated to confer.
+                    Two steam-boats regularly ply between her leading ports and Whitehaven and
+                    Liverpool, so that a ready and advantageous market is opened for her sheep,
+                    black cattle, and agricultural produce. A farmer can now send his stock and his
+                    corn to Liverpool, and get them disposed of in the shortest time, at the market
+                    price, and for ready money. Formerly the case was quite otherwise; corndealers
+                    and drovers travelled the country, buying grain and cattle, with the view of
+                    shipping them to an English market. Their purchases were seldom if ever made
+                    with cash: on the contrary, it was almost the invariable practice to grant bills
+                    for payment, at four or six months. These were not always men of capital, and
+                    the business which they followed was, from its very nature, a most precarious
+                    one; so that, in proportion to their numbers, a greater proportion of such
+                    provincial dealers is known to have become bankrupt than of any other class of
+                    men. Hence the great risk and eventual losses to which (as is known to the
+                    present writer) the farmers in Wigtonshire were continually exposed, and the
+                    general bankruptcy and distress that periodically ensued. In addition to the
+                    steamers which regularly ply between Wigtonshire and England, there are two
+                    steam-boats which sail weekly between Stranraer and Glasgow, so that the
+                    inhabitants of this remote county have <pb break="no"
+                    facs="ht:chi.12945678&amp;view=1up&amp;seq=924" xml:id="kp-eb0721-0924-0884"
+                    />now the ready and frequent command of the best markets both in Scotland and
+                    England, either for buying or selling. We have already referred to the two
+                    government steamers that daily ply between Portpatrick and Donaghadee. But while
+                    steam-navigation has been productive of such important. advantages as we have
+                    described, it has been attended with other results, which, though favourable in
+                    a national point of view, are unfavourable to the district. The traffic and
+                    travelling that had formerly prevailed between Ireland and England <hi
+                    rend="italic">via</hi> Portpatrick, through Galloway, have been in a great
+                    measure turned into a new channel, and this county has in consequence
+                    proportionally suffered. There is now very little travelling by this route; and
+                    the steamers plying from almost every Irish port to Liverpool or Holyhead,
+                    engross almost the whole of the travelling of which Galloway formerly enjoyed
+                    the advantage. Nor is this all; the importation of Irish horses and black cattle
+                    at Portpatrick has diminished to a similar extent. It appears from the New
+                    Statistical Account of Scotland, No. 22, p. 153, that whereas the number of such
+                    stock imported at Portpatrick was 17,275 in 1790, and 20,000 in 1812; it was
+                    only 1080 in 1837. We may here mention, that the mail-coach was first introduced
+                    into Galloway in 1804, and that it has since continued to run daily between
+                    Dumfries and Portpatrick. There is not, and never was, an opposition coach in
+                    Wigtonshire.</p>
+                <p>This county is distinguished for the antiquity and number of its religious
+                    houses. The oldest church built of stone in Scotland was situated at Whithorn,
+                    as mentioned in our account of that borough; and in the 12th century a monastery
+                    of the Premonstratensian order was founded there by Fergus, Lord of Galloway.
+                    The same individual established another abbey of the same order called Saulseat
+                    <hi rend="italic">(Sedes Animarum)</hi> near Stranraer. Roland, grandson of
+                    Fergus, founded, in 1190, the abbey of Glenluce, for monks of the Cistertian
+                    order; and the abbey of Wigton was established in 1262, for Black Friars, by
+                    Lady Dervorgille of Galloway. (Murray’s Literary History of Galloway, pp. 12,
+                    24, 26, 30, 2d edit. Edinb. 1822, 8vo.) There are also the remains of numerous
+                    subsidiary churches and chapels, built either for the use of some baron, or for
+                    the advantage of the remote inhabitants of a large parish. At the Reformation,
+                    Wigtonshire contained twenty-one parish churches, exclusive of the various
+                    subsidiary chapels referred to. Parishes have now been more judiciously
+                    arranged: in some cases three have been united into one; and though three <hi
+                    rend="italic">new</hi> parishes have been erected, the total number is reduced
+                    to seventeen.</p>
+                <p>Several eminent characters were natives of this county, namely, St Ninian, who
+                    founded at Leucophibia, now Whithorn, the bishopric of Candida Casa, or
+                    Galloway, and who died in the fifth century; Gavin Dunbar, tutor to James V. and
+                    afterwards archbishop of Glasgow, and lord chancellor of the kingdom; Sir
+                    Patrick Vans, ambassador to Denmark in the time of James Vl., and a lord of
+                    session; Patrick Hannay the poet, son to Hannay of Sorbie; Andrew Macdowall,
+                    Lord Bankton, author of Institutes of the Law of Scotland; Dr Macgill of Ayr,
+                    and Dr Mackenzie of Portpatrick, two eminent divines, the latter author of
+                    Ocean, Stella, and other poems; and Major Stewart Maxwell, author of the Battle
+                    of the Bridge. Some distinguished men, both laymen and clergymen, such as
+                    Archbishop Beaton, prior of Whithorn; Bishop Cowper; Lord Stair, the famous
+                    lawyer; his son, the first earl of Stair; and grandson, Marshal Stair, were
+                    connected with the county, either by office or the possession of property.</p>
+                <p>The history of Wigtonshire, as part of Galloway, is not uninteresting. The
+                    aborigines, who were of Celtic origin, were the <hi rend="italic">Novantes</hi>;
+                    their chief towns <hi rend="italic">Leucophibia,</hi> the present Whithorn, and
+                    <hi rend="italic">Perigonium,</hi> on the <hi rend="italic">Rerigonius
+                    Sinus,</hi> or Lochryan. The Mull of Galloway was called <hi rend="italic"
+                    >Promon</hi><hi rend="italic">torium Novantium.</hi> Galloway was invaded by the
+                    Romans. On the retirement (448) of that warlike people, it was successively
+                    overrun by the Anglo-Saxons of Northumbria, and by the Picts. But
+                    notwithstanding their falling successively under the dominion of these various
+                    people, the original Celtic inhabitants of Galloway were never entirely
+                    displaced; their characteristic customs and manners continued to predominate,
+                    and remains of such may be traced even at this day. They were distinguished for
+                    daring heroism and intrepidity, insomuch that they obtained the appellation of
+                    the wild Scots of Galloway, and obtained from the Scotish kings the privilege of
+                    forming the van in every battle at which they were present. The province was for
+                    upwards of a century an independent province, governed by its own princes or
+                    lords. Alan, who died in 1234, was the last of the ancient Lords of Galloway.
+                    John Balliol was grandson of Alan by his daughter Lady Dervorgille, and thus
+                    possessed extensive estates both in Wigtonshire and the stewartry of
+                    Kirkcudbright. The county of Wigton, with the title of earl, was conferred
+                    (1341) by David II. on Sir Malcolm Fleming; but Fleming, amid the distraction of
+                    the times, was obliged, in 1372, to dispose of his estates (though he retained
+                    the title) to Archibald Douglas. From this date the Douglases reigned supreme
+                    till their forfeiture in 1453. The county was then parcelled out among different
+                    families, many of which still remain; and the Agnews of Lochnaw were created
+                    heritable sheriffs. This office remained in their family till the abolition of
+                    hereditary jurisdictions in 1747, with the exception of seventeen years previous
+                    to the revolution, when Graham of Claverhouse and his brother Colonel David
+                    Graham were appointed joint-sheriffs. (Chalmers’s Caledonia, vol. i. <hi
+                    rend="italic">passim;</hi> Murray, <hi rend="italic">ut supra;</hi> New Stat.
+                    Acc. of Scotland, sec. Wigtonshire.) (c. I.)</p>
+                <p><hi rend="smallcaps">WigtoN,</hi> a royal borough, and the capital of the county
+                    of the same name, is situated on a detached eminence about 200 feet above the
+                    level of the sea, at the confluence of the Bladenoch with Wigton Bay, and 105
+                    miles south-south-west from Edinburgh. It consists mainly of one street about
+                    600 yards in length, and, though narrow at the two extremities, so wide in the
+                    centre as to admit of a square containing a bowling-green and spacious walks.
+                    The houses are well built and substantial; some of them are old, and the town
+                    altogether has a respectable and venerable appearance. It can boast, however,
+                    neither of trade nor manufactures. The harbour is within a quarter of a mile of
+                    the borough, and the dues are let for the small sum of L.26 per annum. There are
+                    fourteen vessels belonging to Wigton, the aggregate tonnage being about 880. A
+                    steam-boat plies between this port and Whitehaven and Liverpool once a fortnight
+                    during the year. A branch bank has been established here since 1784. A packet
+                    plies daily between Wigton and Creetown, on the opposite side of the bay, a
+                    distance of about four miles. The population, which has long been nearly
+                    stationary, was 1837 in 1831. In addition to the parish church, there is a
+                    dissenting chapel; the only other public building is the town-hall, which also
+                    includes a jail. Wigton was created a royal borough in the time of David II. The
+                    number of councillors is eighteen. The municipal revenue is about L.350. The
+                    borough unites with Whithorn, Stranraer, and New Galloway in sending a
+                    representative to the House of Commons. The number of registered voters in
+                    Wigton in 1840-1 was 102.</p>
+                <p>The town can boast of great antiquity. The first church here was consecrated to
+                    St Machute, an obscure saint, who died in 554. It originally belonged to the
+                    priory of Whithorn, but was afterwards a free rectory, the minister of it being
+                    a member of the chapter of the cathedral. The eastern gate of the present parish
+                    church is supposed to have formed part of St Machute’s church. In the churchyard
+                    there are monuments to the memory of several martyrs <pb break="no"
+                    facs="ht:chi.12945678&amp;view=1up&amp;seq=925" xml:id="kp-eb0721-0925-0885"
+                    />who suffered during the reigns of Charles II. and James VII., particularly
+                    those in honour of two female martyrs, who were drowned in the Bladenoch in
+                    1685. Wigton was the site of a monastery, founded in 1267, for Dominican friars,
+                    by Dervorgille, daughter of Alan, the last lord of Galloway, and mother of John
+                    Balliol the Scotish king. This monastery never attained to eminence, and no
+                    remains of its ruins can now be traced. This latter remark is also applicable to
+                    the castle of Wigton, once a place of great importance. It fell into the hands
+                    of Edward I. in 1291. (c. I.)</p>
+                <p><hi rend="smallcaps">Wigton</hi>, a market-town of the county of Cumberland. It
+                    is in the ward of Cumberland, twelve miles from Carlisle, and 305 miles from
+                    London, in the vicinity of the ruins of an ancient Roman work called <hi
+                    rend="italic">Caer Leol.</hi> The market is on Tuesday. The population amounted
+                    in 1821 to 4056, and in 1831 to 4885; but the parish comprehends three other
+                    townships, and in 1831 contained 6501 inhabitants.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0713-4031-0202-06" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">LEIBNITZ, Godfrey William, Baron de</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 13, page 202</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="5" ref="lcsh1910:b45m62b4v">Germans</term>
+                    <term n="2" ref="lcsh1910:b4q23r39q">Franks</term>
+                    <term n="1" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="1" ref="lcsh1910:b4bk16r27">Protestantism</term>
+                    <term n="1" ref="lcsh1910:b4sq8qh7s">Arminianism</term>
+                    <term n="9" ref="lcsh1910:b42j68511">Life</term>
+                    <term n="8" ref="lcsh1910:b4v11vw02">Work</term>
+                    <term n="8" ref="lcsh1910:b4348gn83">Mind</term>
+                    <term n="8" ref="lcsh1910:b4d50g108">Projection</term>
+                    <term n="7" ref="lcsh1910:b4m90280p">Law</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="9" ref="fasttopic:934209">French</term>
+                    <term n="5" ref="fasttopic:942100">Germans</term>
+                    <term n="5" ref="fasttopic:942099">Germanization</term>
+                    <term n="3" ref="fasttopic:910709">English</term>
+                    <term n="2" ref="fasttopic:933759">Franks</term>
+                    <term n="15" ref="fasttopic:1015978">Men</term>
+                    <term n="11" ref="fasttopic:1042815">Objectivity</term>
+                    <term n="9" ref="fasttopic:1198505">Life</term>
+                    <term n="8" ref="fasttopic:1180188">Work</term>
+                    <term n="8" ref="fasttopic:1047359">Order</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="6" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1207312">Russia</term>
+                    <term n="1" ref="fastgeo:1754964">Rome</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193204031" type="entry">
+                <p><label type="entry">LEIBNITZ, <hi rend="smallcaps">Godfrey William, Baron
+                    de</hi></label>, a philosopher and mathematician of the first order, and the
+                    most universal scholar of modern times, was born at Leipsig on the third of July
+                    1646. At the age of six he lost his father, Frederick Leibnitz, professor of
+                    law, and secretary to the university. After this event his mother placed him in
+                    the school of St Nicoas at Leipsig. Here he learned the principles of the Greek
+                    and Latin languages; but soon breaking through a routine ill suited to his
+                    precocious disposition, he applied himself to the study of the classic writers
+                    of both languages. Titus Livius and Virgil became his favourite authors; and in
+                    his old age he could still repeat entire cantos of the Roman poet. Early
+                    distinguished by a rare facility in performing his tasks, he often assisted such
+                    of his companions as dulness or idleness prevented from completing their own;
+                    and he himself informs us, that when scarcely fourteen, he composed in this way
+                    three hundred Latin verses in one day, without any elisions; but he takes care
+                    to add, “Credo a lectore non quaeri quam cito, sed quam bene.” At fifteen he
+                    entered on his academical career in the university of Leipsig, and, under the
+                    direction of Thomasius, devoted himself to the study of philosophy and the
+                    mathematics. He then passed a year at Iena, and returned to Leipsig, where he
+                    occupied himself with law and philosophy. Having soon mastered the details of
+                    the philosophical and mathematical sciences, the genius of Leibnitz now took a
+                    grander flight, directing him to the writings of Plato and of Aristotle. These
+                    he not only read and thoroughly comprehended, but used to pass entire days in a
+                    wood near Leipsig, endeavouring to reconcile the doctrines of the Academy with
+                    those of the Lyceum. He was scarcely twenty when he wished to be received as
+                    doctor of laws; but although some <hi rend="subscript"> r</hi> petty jealousies
+                    prevented his want of the requisite standing or age being dispensed with at
+                    Leipsig, this favour was granted him without difficulty by the university of
+                    Altorf, which at the same time offered him the situation of extraordinary
+                    professor of law.</p>
+                <p>This, however, he declined; and leaving Altorf, he proceeded to Nuremberg, where
+                    a considerable number of men of science and learning were then assembled. At
+                    that time a society of chemists in that city occupied themselves with
+                    researches, the object of which was to discover the philosopher’s stone.
+                    Tormented with a continual desire of acquiring something new, Leibnitz hoped to
+                    find, even in the reveries of these visionaries, some aliment for his mind. With
+                    this view he wrote to the society soliciting admission, and craving to be
+                    initiated into their mysteries. This letter, which was full of abstruse terms
+                    extracted from books of chemistry, and so conformable to the style of these
+                    mystics that he himself did not understand it, had prodigious success. Leibnitz
+                    was admitted a member of the society, and immediately appointed secretary
+                    thereto. His duty in this capacity consisted in registering their processes and
+                    experiments, and in extracting from the books of the chemists such things as
+                    might be of use to his associates in prosecuting their researches.</p>
+                <p>But happily for himself and the sciences, Leibnitz, whilst at Nuremberg, chanced
+                    to make the acquaintance of the Baron de Boineburg, chancellor to the elector of
+                    Mayence, who, being struck with his merit, and conceiving a high opinion of his
+                    talents and learning, recommended to him to apply himself particularly to
+                    history and jurisprudence, and expressed a desire to see him established at
+                    Frankfort, at the same time promising to obtain him some employment under his
+                    sovereign. Leibnitz followed the judicious counsel thus given him; and from this
+                    epoch, 1667, may be dated the real commencement of his literary career. It was
+                    at Frankfort that he brought out his <hi rend="italic">Nova</hi><hi
+                    rend="italic">Methodus</hi><hi rend="italic">discendae docendoeque</hi><hi
+                    rend="italic">Jurisprudentiam.</hi> This little volume contained a <hi
+                    rend="italic">tableau</hi><hi rend="italic">raisonne</hi> of the objects
+                    necessary for the double purpose expressed in the title; and in it he already
+                    displayed that practical spirit which enabled him to produce so much that is
+                    really useful. But that which placed its author in the first rank of
+                    philosophical writers, was the new manner in which he treated his subject, and
+                    the profound and ingenious views which he presented in regard to a science so
+                    long abandoned to routine and pedantry. The order, the clearness, the precision
+                    of the ideas, and the style which makes books live, contributed to give great
+                    popularity to this production, which, at a subsequent period, the author himself
+                    judged with impartiality.<note anchored="true" place="bottom" type="authorial"
+                    ><p>Leibnitii <hi rend="italic">Opera Omnia,</hi> tom. iv. p. 4. Geneva, Dutens,
+                    I7C8.</p></note> We may also mention here a treatise published in 1669 in favour
+                    of the Prince of Neuburg, whom Leibnitz endeavoured to recommend to the Poles,
+                    as uniting, in a higher degree than all his competitors, the qualities they
+                    required in their king. This piece, which is somewhat lengthy, is written in
+                    Latin, and consists of sixty propositions, proved by a rigorous series of
+                    axioms, supported sometimes by expositions full of erudition, amongst which
+                    maybe mentioned that under the head, <hi rend="italic">Eligendus Catholicus
+                    esto.</hi> These propositions do not always follow in a necessary order; some of
+                    them are superfluous; and the form is a little fatiguing, especially since the
+                    interest of the subject has altogether ceased. The Prince of Neuburg was not
+                    elected king. But the work of Leibnitz did not on that account make a less
+                    sensation, and may, in fact, be regarded as a sort of <hi rend="italic">tour de
+                    force.</hi> Boineburg, at whose request it had been composed, observing <pb
+                    break="no" facs="nls:193204044" xml:id="kp-eb0713-4044-0203"/> with satisfaction
+                    that Leibnitz justified the idea which he had conceived of his talents, attached
+                    him to the service of the elector, by causing him to be appointed counsellor of
+                    the chamber of revision in the chancery of the electorate of Mayence.</p>
+                <p>The material occupations of this office, however, could not shackle a genius so
+                    vast and so active as that of Leibnitz. He held it during three years; and it
+                    was in this interval that he conceived the design of re-easting or new-modelling
+                    the Encyclopaedia of Alstedius. It is not well known what his ideas then were
+                    respecting this project; but in some subsequent writings he explains himself in
+                    a manner sufficiently spécific. He defines the Eneyelopaedia to be the “system
+                    of all the true and useful propositions then known.” He thinks that, to be
+                    complete, it should contain definitions of all words; explanations of every
+                    fundamental and useful process in the liberal and mechanie arts; and, lastly, a
+                    summary of universal history. He then enumerates the different branches of human
+                    knowledge; indicates, as models to be followed in each, the principal existing
+                    works, amongst which he cites some of his own, and points out what remains to be
+                    done; and, finally, he recommends the order of the materials or subjects, in
+                    preference to the order of the alphabet.<note anchored="true" place="bottom"
+                    type="authorial"><p>See <hi rend="italic">Opera Omnia,</hi> tom. v. pp. 181-185;
+                    also tom. v. p. 405.</p></note> In another passage he recommends subjoining to
+                    the treatise on each science a succinct account of its origin and progress,
+                    together with a list of the authors who have treated of it in detail. This was
+                    one of the predominant ideas of his life, one to which he appeared to attach
+                    great importance, and which occupied his mind as long as he lived.</p>
+                <p>Leibnitz now began to evince a mastery in almost all the sciences. He already
+                    enjoyed a great reputation as jurisconsult and philosopher; and he m⅛de himself
+                    known in physics by the publication of two treatises, viz. <hi rend="italic"
+                    >Thearia</hi><hi rend="italic">Motus abstracti</hi> and <hi rend="italic"
+                    >Theoria Motus concreti,</hi> which appeared in 1671. These theories were not
+                    admitted by philosophers, and did not deserve to be so; but they nevertheless
+                    excited astonishment by the boldness and originality of genius displayed in the
+                    coneeption of them. The year following he brought out, at the request of
+                    Boineburg, a small treatise entitled <hi rend="italic">Sacrosancta
+                    Trinitas</hi><hi rend="italic">per nova</hi><hi rend="italic">argumenta logica
+                    defensa.</hi> In this work, intended to refute the attacks of a Pole named
+                    Wissowatius against the doctrine of the Trinity, the author endeavours to show
+                    that sound logie is not contrary to orthodoxy. Thus each year Leibnitz produced
+                    some work, which served as a new title of distinction, and enabled him to rank
+                    successively amongst the masters in the different sciences.</p>
+                <p>He had long entertained a desire to visit Paris. France then fixed the attention
+                    of the learned world, and extorted the admiration of Europe by the victories and
+                    the influence of the great monarch to whom she also owed an extraordinary
+                    development of military and literary glory. Leibnitz felt the importance of
+                    forming a connection with the learned men of that country; and Boineburg
+                    procured him the means of attaining this object, by proposing to him to
+                    accompany bis son, whom he was then sending to Paris. Delighted with the
+                    proposal, and at the same time anxious to testify his gratitude to so zealous a
+                    patron, Leibnitz gladly accepted the offer, and set out for Paris in 1672.
+                    Placed amongst the illustrious men of that capital, and already worthy of them,
+                    he felt that ardour which leads to the distinction conferred by useful
+                    discoveries burn with redoubled force in his bosom. He now applied himself more
+                    especially to the mathematics, in which he had not as yet made any considerable
+                    progress; and this choice, in the midst of distractions of every kind in a new
+                    society, and of studies apparently much more attractive, is not one of the least
+                    proofs of the force and energy of his character. He found at Paris the
+                    illustrious Huygens; and he afterwards confessed, with that ingenuousness which
+                    is so becoming in great men, his obligations to the work <hi rend="italic"
+                    >De</hi><hi rend="italic">Horologio</hi><hi rend="italic">Oscillatoriο,</hi>
+                    which had just appeared, and which, of all modern works, after those of Galileo
+                    and Descartes, proved the most useful to Leibnitz. The learned men whose society
+                    he frequented soon recognized his superior genius; and he confirmed this liigh
+                    estimate of his powers by the exposition of his ideas on the reform of the
+                    arithmetical machine of Paseal, or rather by the invention of a new machine,
+                    which he has described in the <hi rend="italic">Miscellanea
+                    Be-rolinensia.</hi><note anchored="true" place="bottom" type="authorial"><p>See
+                    <hi rend="italic">Miiccll. Bcrolin.</hi> i. xxxi. and fig. 73. In 1763 he had
+                    exhibited this machine to the Royal Society of London; and, in fact, it appears
+                    to have occupied his attention at intervals during the whole of his life. It is
+                    still preserved in the Museum of Göttingen, and is thought superior to other
+                    machines of the same kind. (Gersten, xvii. 232.)</p></note> He obtained the
+                    suffrages of the Academy of Seienees, the members of which signified to him that
+                    he might be admitted into that illustrious body as pensionary, provided he chose
+                    to embrace the Catholic religion; but although the proposition was equally
+                    honourable to Leibnitz, as a proof of the estimation in which his talents were
+                    held, and to the Academy, which knew how to appreciate them, he did not think it
+                    proper or right for him to accept the offer.</p>
+                <p>His protector Boineburg died in 1673; and having no longer any business to detain
+                    him at Paris, he passed over into England, where he was received with the same
+                    distinction as in France. He had the satisfaction of making the acquaintance and
+                    enjoying the society of Boyle, Oldenburg, Collins, and other celebrated men, who
+                    disputed the palm in several of the sciences with the philosophers of the
+                    Continent; and it was from Collins that he received some hints concerning the
+                    invention of the method of fluxions, which had been discovered by Newton as
+                    early as the year 1664 or 1665, and by him communicated to Dr Barrow in 1669.
+                    But he had not been long in England when he received intelligence of the death
+                    of the elector ofMayence, by which he lost his pension. As this event made an
+                    entire change in his position, he resolved to communicate his embarrassments to
+                    the Duke of Brunswick-Lunenburg. This prince, who had always testified much
+                    regard for him, availed himself of the opportunity thus afforded him to assure
+                    Leibnitz of his favour, and to offer him the situation of counsellor, with a
+                    salary, at the same time granting him permission to prolong at pleasure his stay
+                    abroad. Overjoyed with this reply, ’ which removed all cause of uneasiness as to
+                    his circumstances, Leibnitz returned to Paris, where he remained fifteen months
+                    buried in the depths of geometry. He quitted Paris in 1674, revisited England
+                    where he spent fifteen days, and proceeded by way of Holland to join his new
+                    benefactor. Leibnitz was still under thirty. At an age when great men are in
+                    general only beginning to distinguish themselves, each in his respective career,
+                    he had entered upon almost all in succession; had received, in the three
+                    countries which he had visited, testimonies of the highest esteem; and had
+                    established, with a great number of learned men, literary connections, which
+                    proved very advantageous to the sciences. We shall soon see him attain a still
+                    more commanding eminence, and at length arrive at that species of supremacy
+                    which he acquired over his age by the universality of his genius and
+                    talents.</p>
+                <p>Soon after his arrival at Hanover, he published his treatise on the Right of
+                    Sovereignty and of Embassy claimed by the Princes of Germany, who demanded the
+                    same privilege<pb break="no" facs="nls:193204057" xml:id="kp-eb0713-4057-0204"/>
+                    as the electors, namely, those enjoyed by kings. This work, which appeared under
+                    the name of <hi rend="italic">Coesarinus Eurstnerius,</hi> and maintains that
+                    the emperor is the temporal head of the states of the West, as the pope is the
+                    spiritual head, possesses little interest at the present day; but it displays a
+                    profound knowledge of public law and of history, gives minute details of titles
+                    and ceremonial, and is written in that decorous and measured style which
+                    distinguishes all the writings of Leibnitz. He continued to cultivate all the
+                    sciences. He likewise supported, by every means in his power, the project -of
+                    publishing the <hi rend="italic">Acta</hi><hi rend="italic">Eruditorum,</hi> the
+                    first volume of which appeared at Leipsig in the year 1682. The celebrity which
+                    this journal acquired from its very commencement was in a great measure owing to
+                    Leibnitz, who enriched it with a great variety of curious pieces, from extracts
+                    of rare books, to problems in the higher geometry.</p>
+                <p>The Duke of Brunswick died in 1679; but his successor, Ernest Augustus,
+                    afterwards George I. of England, inheriting the same esteem for Leibnitz,
+                    extended to him the same favour, and engaged him to write the history of the
+                    house of Brunswick. Leibnitz, anxious to obey this honourable call, resolved to
+                    visit the south of Germany and Italy, that in these countries he might make the
+                    necessary researches, and collect materials for the work. He devoted no less
+                    than three years to these journeys, consulting learned men, exploring libraries
+                    and archives, perusing old charters and manuscripts, and examining other
+                    monuments.<note anchored="true" place="bottom" type="authorial"><p>It was in one
+                    of these expeditions that, finding himself overtaken by a tempest in the
+                    Adriatic Sea, whilst passing from Venice to Mesola, he heard the pilot of the
+                    bark, who did not imagine he was understood by the stranger, propose to the crew
+                    to throw into the sea the German heretic, whose presence on board was, he
+                    conceived, the sole cause of the squall <hi rend="italic">(bourasque).</hi>
+                    Leibnitz, without appearing to have heard anything, or betraying the slightest
+                    emotion, drew from his pocket a chaplet or rosary, and commenced telling the
+                    beads with great seeming devotion. This quiet artifice saved him; one of the
+                    crew observing to the pilot, that as the man was not a heretic, it would be of
+                    no use to throw him into the sea.</p></note> The fruit of so many researches was
+                    a prodigious collection of materials of all kinds. Besides the documents
+                    necessary for his history, it comprehended an immense multitude of political and
+                    diplomatic acts, as declarations of war, manifestoes, contracts of marriage,
+                    treaties of peace, bulls, and other public pieces. Leibnitz put these materials
+                    in order, and with their aid produced a work altogether different from, and
+                    independent of, the principal, and indeed one of much greater importance,
+                    entitled <hi rend="italic">Codex Juris Gentium Diplomatìcus,</hi> the first
+                    volume of which appeared in 1693, and the second in 1700, under the title of <hi
+                    rend="italic">Mantissa</hi><hi rend="italic">Codicis.</hi> This collection
+                    contains a great number of acts which had never before appeared, and many others
+                    which, though previously published, had become very scarce. Read with
+                    discernment, it exhibits great knowledge, not only of history, but also of the
+                    genius of nations and languages, as well as of other subjects of inferior
+                    interest and importance. In other respects, any methodical mind might have been
+                    capable of a similar effort. What the genius of Leibnitz could alone produce is
+                    the preface to the work, in which, ascending to the principles of natural law
+                    and the law of nations, he expounds his ideas on both with great depth and
+                    originality. But that which distinguishes this book, and the preceding ones
+                    published by him on the same subjects, particularly his project for compiling a
+                    new body of law,<note anchored="true" place="bottom" type="authorial"><p><hi
+                    rend="italic">Corporis Juris</hi><hi rend="italic">Reconcinnandi</hi><hi
+                    rend="italic">Ratio,</hi> Mayence, 16G8, in 12mo.</p></note> from those of the
+                    same epoch, is the tendency towards that reasonable reform of jurisprudence
+                    which was afterwards effected, in a great measure owing to the influence of
+                    Leibnitz, by whom its necessity was first pointed out; and likewise the union,
+                    recommended throughout, of the study of jurisprudence with that of religion and
+                    philosophy, which he regarded as the most solid basis of human happiness.<note
+                    anchored="true" place="bottom" type="authorial"><p><hi rend="italic">Opera
+                    Omnia,</hi> tom. vi. p. 4, <hi rend="italic">et</hi><hi rend="italic"
+                    >passim.</hi></p></note></p>
+                <p>In the midst of labours so various, he did not lose sight of the principal object
+                    of his recent travels, and occupied himself diligently in collecting the
+                    historians of Brunswick. He even composed for that house several writings, one
+                    of which, intended to establish its connection with the house of Este, procured
+                    for him the place of privy councillor of justice; a sinecure appointment
+                    destined to recompense his zeal without withdrawing him from his ordinary
+                    labours, amongst which the history, with its collateral branches, occupied an
+                    important place. The immense researches Leibnitz had made for the history of
+                    Brunswick, however, furnished him with materials for other works of a secondary
+                    kind. Thus in 1698 he published a new collection under the title of <hi
+                    rend="italic">Accessiones</hi><hi rend="italic">Historicae</hi> (in two vols.
+                    4to), containing a great number of rare and curious pieces, which had escaped
+                    the observation of his predecessors. But nothing attests so much the extent of
+                    his views as what he did for the history he had undertaken. He commenced by
+                    collecting all the writers who had spoken of the house of Brunswick. The first
+                    volume appeared in 1707, the second in 1710, and the third in 1711; and
+                    subjoined were extracts from all the ancient authors relative to the tribes
+                    inhabiting the banks of the Elbe and the Weser, with notes explanatory of
+                    obscure passages. This collection, therefore, like those of Muratori, Duchesne,
+                    and others, had a merit independent of the object for which it had been
+                    compiled. But it was still, so to speak, only a preliminary work. The history
+                    even of Brunswick has not appeared. The learned Eckhard found amongst the papers
+                    of Leibnitz only the plan of it, which he published in the <hi rend="italic"
+                    >Acta</hi><hi rend="italic">Eruditorum</hi> of 1717. This history was to have
+                    been preceded by a dissertation on the primitive state of the globe, and
+                    particularly of Germany. A curious monument of the ideas of Leibnitz on this
+                    subject is contained in his <hi rend="italic">Protogaea,</hi> a sort of essay,
+                    which, in 1693, he caused to be inserted in the Leipsig journal, and which was
+                    afterwards published separately by Scheidius (Göttingen, 1749, in 4to). In this
+                    production he attempts to explain the formation of the earth, and of the
+                    different substances which it includes. He admits a conflagration of the globe,
+                    then a general submersion, which, independently of the testimony of Scripture,
+                    is sufficiently established by the animal and vegetable remains that are
+                    frequently met with, and at different heights. This double hypothesis enables
+                    him to assign to the solid bodies <hi rend="italic">(corpora firma)</hi> a
+                    double origin, that is, cooling after the fusion, and consolidation after the
+                    subsiding and evaporation of the waters; and in these ideas he finds the germ of
+                    a new science, which he calls <hi rend="italic">Natural Geography.</hi> He
+                    enters into some details on minerals, and speaks of crystals, which he considers
+                    as the geometry of inanimate nature. Further, Leibnitz thought it incumbent on
+                    him to prove that animal and vegetable petrifactions were not a freak or sport
+                    of nature <hi rend="italic">(jeu</hi><hi rend="italic">de lα nature),</hi> and
+                    also to rebut forcibly the opinion as to the productive power of matter. This
+                    short exposition will suffice to give an idea of the immensity of the plan of
+                    Leibnitz, and of the prodigious variety of subjects which it embraces; a plan in
+                    many respects similar to that which has been followed by Herder and some other
+                    authors posterior to Leibnitz. It is much to be regretted that this design was
+                    not carried into execution, seeing it would probably <pb break="no"
+                    facs="nls:193204070" xml:id="kp-eb0713-4070-0205"/>have presented a solution of
+                    many historical and other problems of the greatest importance.</p>
+                <p>We must here take particular notice of one of those works which he continually
+                    let drop from his hands, and which were, so to speak, merely his pastimes; we
+                    <hi rend="subscript"> l</hi> mean his book on the origin of the Franks.<note
+                    anchored="true" place="bottom" type="authorial"><p><hi rend="italic"
+                    >Disquisitio</hi><hi rend="italic">de Francorum</hi><hi rend="italic"
+                    >origine,</hi> Hanover, 1715, in 8vo.</p></note> This people, he conceives, came
+                    originally from the shores of the Baltic Sea. He founds his opinion on the
+                    authority of the anonymous writer of Ravenna, and of Ermoldus Nigellus, a French
+                    poet of the ninth century, and on passages in several authors; alleging,
+                    moreover, that some of the ancients have confounded the Palus Maeotis with the
+                    Baltic Sea. This opinion was attacked by Father Tournemine, who combated it with
+                    much urbanity, saying, amongst other things, that, even in espousing a contrary
+                    hypothesis, the French did not disclaim being the countrymen of Leibnitz, since
+                    he appeared to have proved that the Franks had occupied the countries situated
+                    between the right bank of the Rhine and the Ocean. Gundling also published a
+                    refutation of the assertions of Leibnitz. The latter, who did not hold himself
+                    beaten, replied to both his antagonists; but, far from pretending to decide in
+                    the last resort, he appealed to the judgment of several learned men of his time,
+                    and, amongst others, to that of Huet and Montfaucon, whom he highly respected on
+                    account of their learning.</p>
+                <p>This seems the proper place to speak of the correspondence which Leibnitz for a
+                    long time maintained with Bossuet, in regard to the project for the re-union of
+                    the Protestants with the Catholics; a project which had for some time been
+                    pushed with activity, and which gave Leibnitz occasion to display attainments in
+                    theology which no one could ever have suspected in a mathematician of the first
+                    order. The details may be seen in the History of Bossuet by Μ. Bausset.<note
+                    anchored="true" place="bottom" type="authorial"><p><hi rend="italic">Histoire de
+                    Bossuet,</hi> torn· iv. p. 144, 2d edit.</p></note> It is sufficient to state
+                    that this negociation, in which Leibnitz did not take part till the year 1692,
+                    was carried on with a degree of good faith very rare indeed in affairs of this
+                    description; that at one time it encouraged the hope of a successful and happy
+                    termination; and that it ultimately failed, owing to circumstances altogether
+                    independent of the matters which had formed the subjects of discussion. Amongst
+                    these may be reckoned the new political situation in which the elector of
+                    Hanover, to whom Leibnitz was altogether devoted, found himself placed in the
+                    year 1701. This prince saw reason to apprehend, that were he to labour longer in
+                    endeavouring to effect a reconciliation between die two communions, he might
+                    alienate the English people, who then manifested the greatest aversion to
+                    Catholicism, and might even bar his accession to the throne of England, to which
+                    he saw himself eventually called. From the <hi rend="italic">Syntagma</hi><hi
+                    rend="italic">Theologicum</hi> of Leibnitz, however, it is clear that this
+                    philosopher had personally little disinclination to the doctrines of the
+                    Catholic church. To effect the re-union desired, he had reckoned much upon the
+                    influence of Louis XIV.; and it is curious to observe how this prince is judged
+                    by a man as independent of France as Leibnitz then was.<note anchored="true"
+                    place="bottom" type="authorial"><p>See his second letter to Madame Brinon, <hi
+                    rend="italic">Opera,</hi> tom. v. p. 558.</p></note></p>
+                <p>Having been admitted a member of the Royal Society of London during his second
+                    visit to England in 1674, and associated to the Academy of Sciences at Paris
+                    since 1699, Leibnitz too well appreciated the advantages which academies owe to
+                    this combination of labours directed towards a common centre, not to second, by
+                    all the means in his power, the project for establishing a Royal Academy at
+                    Berlin, formed in 1700 by the elector of Brandenburg, who, the following year,
+                    assumed the title of king of Prussia. This prince had solicited the advice and
+                    assistance of Leibnitz. The reply of the latter is equally remarkable for the
+                    excellence and wisdom of its views, and the great simplicity by which it is
+                    throughout distinguished. “The object,” says he, “ought to be to advance the
+                    happiness of men, which consists principally in wisdom and in virtue, and next
+                    in health and the comrbrts of life.” He points out, as the first object, “the
+                    good education of youth, which includes also the regulation of studies; nothing
+                    being more important than to give a good cast to the mind as well as to the
+                    body.” He then indicates summarily the plan of study which the Academy ought to
+                    recommend, and which is in the main that presently followed in the universities
+                    of Germany. The elector, as may well be supposed, adopted the views of Leibnitz.
+                    But he did more; he appointed him president of the new society, with the most
+                    unlimited powers, and without any restraint as to residence, or requiring that
+                    he should quit the service of the elector of Brunswick. The patent by which this
+                    office was conferred forms one of the most honourable titles ever bestowed on a
+                    man of learning and science.</p>
+                <p>Eleven years later, Leibnitz received marked proofs of confidence on the part of
+                    Peter I. of Russia, who, during his travels in Saxony, consulted him as to the
+                    execution of his vast projects relative to the civilization of his empire, and
+                    to whom Leibnitz in his turn communicated views with which that monarch
+                    expressed hi nself highly satisfied. In reward of this service he received the
+                    title of privy councillor. Lastly, the king of Prussia having died in 1713,
+                    Leibnitz, who foresaw the fall of the Academy of Berlin under his successor,
+                    repaired to Vienna to propose to the Emperor Charles VI. the institution of a
+                    similar body, wherein the sciences, which were about to be banished from Berlin,
+                    might find an asylum. Owing to several circumstances unconnected with Leibnitz,
+                    this project did not succeed; but every mark of consideration was lavished on
+                    the author. The emperor had already named him an aulic councillor; to this he
+                    now added a pension of two thousand florins, and employed every means to induce
+                    him to enter the imperial service. But Leibnitz, having declined these offers,
+                    went to fix his abode at Hanover, the elector of which had just been called to
+                    the throne of England.</p>
+                <p>In 1710 there appeared a volume of the <hi rend="italic">Miscellanea
+                    Eerolinensia,</hi> in which Leibnitz amply acquitted his debt as founder and
+                    president, and showed himself under forms so varied, that this volume alone
+                    would have been sufficient to insure him the reputation of universal genius. In
+                    proof of what is here said, it is only necessary to refer to his Essay on the
+                    Origin of Nations. This production exhibits the principal points of his system,
+                    a complete know ledge of which may be obtained by the perusal of his voluminous
+                    correspondence. By the aid of etymologies, and by means of analysis, Leibnitz
+                    endeavours to distinguish, through the successive alterations of languages, the
+                    origins of different nations, whom he divides into two great principal
+                    races,—that of the North and that of the South; then, by way of synthesis, he
+                    attempts to recompose the primitive language; and, finally, by means of this
+                    last operation, he labours to discover the relations between the signs of
+                    language and the ideas expressed by them. A great part of his labours had for
+                    their object to obtain these different results; he had himself plunged into the
+                    chaos before which almost all those who are more occupied with ideas than with
+                    words usuallyrecoil: it formed one of the principal objects of his
+                    correspondence with the learned, as well as with travellers and missionaries;
+                    and new views on the language of the Copts or the Hottentots afforded him as
+                    much pleasure as the demonstration of a metaphysical truth, or the solution<pb
+                    break="no" facs="nls:193204083" xml:id="kp-eb0713-4083-0206"/> of an important
+                    problem in geometry. He is not always of the same mind with other learned men,
+                    and often contradicts received opinions. Like all etymologists, he has placed
+                    too much reliance upon fanciful coincidences and strained derivations; but, as
+                    he himself observed, errors are often useful to truth, and the search after the
+                    three great chimeras <hi rend="italic">(tria magna inania),</hi> the
+                    philosopher’s stone, the perpetual motion, and the quadrature of the circle,
+                    materially contributed to enrich the sciences.<note anchored="true"
+                    place="bottom" type="authorial"><p><hi rend="italic">Opera Omnia,</hi> tom. iv.
+                    p. 199.</p></note></p>
+                <p>We have seen that Leibnitz succeeded in stamping the impression of his genius
+                    upon almost all kinds of knowledge. Natural history alone did not specially
+                    occupy his attention. His <hi rend="italic">Protogaea</hi> is the only essay
+                    which he published on the subject; but in his works we often meet with proofs of
+                    the interest with which that science had inspired him; and it is not forgotten
+                    either in his general plans of education, or in his encyclopedical schemes. He
+                    was even a poet, and wrote verses in both the languages which he habitually
+                    employed; but it is right to add, that he acquired no illustration by his
+                    poetry, particularly his French verses, which are below mediocrity. Leibnitz is
+                    justly obnoxious to the literary reproach of having neglected his mother-tongue.
+                    But few of his writings appeared in German; and, what is not a little singular,
+                    the object of one of these pieces, which is very ill written, but exceedingly
+                    curious, is to recommend the study, practice, and improvement of the German
+                    language.<note anchored="true" place="bottom" type="authorial"><p>See some
+                    remarks prefixed to his <hi rend="italic">Collectanea</hi><hi rend="italic"
+                    >Etymologica,</hi> in <hi rend="italic">Opera Omnia,</hi> tom. vi. p.
+                    651.</p></note> It is the more to be regretted that he did not himself labour in
+                    the execution of the plan which he proposed for attaining this object, as he
+                    might, by his influence, have effected that which was not accomplished until
+                    half a century afterwards, by the united efforts of the poets and literary men
+                    who distinguished that epoch. Besides, although he attaches great importance to
+                    that language, he does not appear to have understood its resources or its
+                    flexibility; for, in citing French Sapphic verses, he adds, that he does not
+                    believe a similar attempt would succeed equally well in German, although he had
+                    himself composed German anapests, in imitation of those of Seneca. In
+                    justification of Leibnitz, however, it is proper to add, that, being in
+                    correspondence with men of all nations, he naturally adopted the two languages,
+                    Latin and French, which were then in general and almost exclusive use.</p>
+                <p>His Latin style is neither elegant nor agreeable. Sometimes, however, he rises
+                    with his subject, and assumes a certain degree of majesty; but what may appear
+                    singular is, that we frequently meet with Gallicisms in his Latin compositions.
+                    We are less surprised to find Germanisms in his French prose; but these,
+                    however, are of rare occurrence. What strikes us most in his general style, is
+                    that grand and noble simplicity which distinguishes the French writers of the
+                    same period, and which is equally suited to pure reason and to sublime
+                    conceptions. In his works, as in his correspondence, there is an almost total
+                    absence of ornament. The most simple literary correspondence of the present day
+                    would exhibit more brilliancy and point than that of this great man; but, on the
+                    other hand, there is not one of his letters which does not contain the germ, the
+                    expression, or the development of some great or useful idea. Those of greatest
+                    extent commonly exhibit a sort of abridged or epitomized encyclopedical view of
+                    the state of the sciences, or the labours of the learned. But what we are never
+                    weary of admiring is his constant urbanity towards his correspondents, as well
+                    as the moderation and propriety exhibited in the expression of his judgments,
+                    whatever may be their occasional severity. No personal predilection, no national
+                    prejudice, ever disturbs the impartiality of that genius which viewed every
+                    thing as it were from on high. Embracing, so to speak, entire humanity, he
+                    incessantly recommends sending European missionaries into foreign countries, for
+                    the triple purpose of augmenting the amount and variety of our knowledge,
+                    establishing new commercial relations, and, above all, propagating the faith and
+                    the doctrine of Christianity. “Peu lui importe,” says his French biographer,
+                    “que cette doctrine soit enseignée aux étrangers avec moins de pureté (on ne
+                    doit pas oublier que c’est un Luthérien qui parle), pourvu qu’elle se répande;
+                    et pour le succès des missions aux Malabar, entre autres, il conseille d’amener
+                    en Europe des habitants de cette côte, qui puissent y enseigner leur langue à
+                    des missionnaires Européens.”</p>
+                <p>Leibnitz had a sweet expression of countenance, blended with a studious air; he
+                    possessed considerable gaiety, and his conversation was equally easy and
+                    instructive. His temper was naturally choleric; but, like most passionate men,
+                    he soon recovered his equanimity. Affable and communicative, he conversed freely
+                    with all who came in his way, and even carried his complaisance so far as,
+                    according to Fontenelle, to read a multitude of worthless books, out of
+                    politeness to their authors. He was never married. At the age of fifty he had
+                    some thoughts of forming a matrimonial connection; but as the lady he wished to
+                    espouse desired time to consider his proposal, Leibnitz also made his own
+                    reflections on the subject, and unluckily came to the conclusion that, though
+                    marriage is a good thing, a wise man ought to consider of it all his life. Much
+                    has been said of his avarice, but apparently without any sufficient reason.
+                    There is no doubt that his expenditure was exceedingly frugal; but he had no
+                    expensive passions or tastes to satisfy, and it is probable that his money
+                    accumulated without his being aware of it. The reproach of not having attended
+                    the service of his religion appears to be better founded. Nevertheless, he was
+                    equally attached to the forms and the substance of religion; and though he may
+                    have been wanting in punctuality of attendance, there is no ground whatever for
+                    questioning the sincerity of his sentiments. De Murr, in his <hi rend="italic"
+                    >Journal of Nuremberg,</hi> of the 1lth March 1779, gives entire the Memoir of
+                    Eckhard, from which Fontenelle has derived most of the particulars inserted in
+                    his Eloge de Leibnitz. It is there stated, that Leibnitz was of a middle
+                    stature, and had black hair, a large head (which early became bald), and small
+                    eyes. He was short-sighted, but his vision continued excellent even until his
+                    last moments. He read the smallest characters, and his hand-writing was very
+                    minute. He had on the crown of his head an excrescence of the size of a pigeon’s
+                    egg; and he always walked stooping, with his head projected, which gave him the
+                    appearance of being hunch-backed. He was of a thin habit, but of a vigorous
+                    temperament; he drank little, supped plentifully, and went to rest immediately
+                    after. He remained in bed only a few hours; sometimes he contented himself with
+                    sleeping in a chair, and, awaking about six or seven in the morning, instantly
+                    resumed his labours. When deeply immersed in study, he was known to have
+                    scarcely quitted his chair for weeks. But, however strong his constitution might
+                    be, it could not, in the long run, escape being undermined by a life so
+                    sedentary; in fact, the result was an ulcer in one of his legs. He was, besides,
+                    subject to the gout, the attacks of which became more frequent and painful tow
+                    ards the close of his life. He consulted few physicians; and his death appears
+                    to have been occasioned by blindly using a remedy which he had received from one
+                    of his friends, and which, producing violent spasms, terminated his existence in
+                    little more than an hour after he had swallowed it. He died on the 14th of
+                    November 1716, at the age of seventy. His <pb break="no" facs="nls:193204096"
+                    xml:id="kp-eb0713-4096-0207"/>monument, constructed in the form of a small
+                    temple, at the extremity of the great alley leading to the gates of Hanover,
+                    bears the simple inscription, <hi rend="italic">Ossa Leibnitii.</hi></p>
+                <p>This extraordinary man is, beyond contradiction, one of those who have most
+                    highly exalted and ennobled the human understanding. But if he has merited our
+                    admiration by the astonishing variety of his labours, he is still more deserving
+                    of our gratitude on account of that practical activity which had always for its
+                    object the good of his fellow-creatures. Along with his most profound
+                    meditations, are presented the means which indicate their utility, and
+                    facilitate their application. His letters to Madame Brinon, his judgments on
+                    Shaftesbury, the whole of his correspondence, and a thousand passages in his
+                    writings, attest his profound respect for religion and morality; and he crowned
+                    his glorious life by giving, in his <hi rend="italic">Theodicaea,</hi> the
+                    support of his influence to ideas at once the most sublime and the most
+                    necessary to the welfare of humanity. None of his labours was without glory to
+                    himself, or without advantage to society. His reputation would perhaps have been
+                    more solid and permanent had he less ambitiously grasped the whole circle of
+                    human science; yet it is difficult to name any department of human knowledge
+                    which has not profited by his labours, or received fresh illustration from his
+                    genius. As a theologian, he successively contended with the sceptics who
+                    believed too little, and with the Catholics, who, in his opinion, believed too
+                    much; with the heretics, who believed otherwise than was inculcated by the
+                    confession of Augsburg; and with the Arminians, who contended for the liberty of
+                    indifference. Yet the philosopher betrayed his love of union and toleration. In
+                    conjunction with the illustrious Bossuet, he laboured zealously to effect a
+                    reconciliation between the Catholic and Protestant churches; and if he failed in
+                    this truly Christian enterprise, his sincerity and good faith remain
+                    unimpeach-cd; for, whatever may be thought of the selfish and worldly policy of
+                    the elector of Hanover, there can scarcely be but one opinion as to the purity
+                    of the motives which actuated Leibnitz. In an intolerant age, however, his
+                    orthodoxy did not escape suspicion; and the moderation which reflects so much
+                    honour on his memory was construed as indifference. His faith in revelation
+                    itself was accused, because he attempted to prove the doctrine of the Trinity by
+                    the principles of logic; and in the defence of the attributes and providence of
+                    the Deity, he was suspected of a secret correspondence with his adversary Bayle.
+                    As a metaphysician, he expatiated in regions too elevated ever to be explored by
+                    human genius and intellect. His pre-established harmony of the soul and body, if
+                    an untenable, is at least a sublime conception, and, as such, might have excited
+                    the jealousy of Plato himsclt’; whilst his optimism, or the best of all possible
+                    worlds, seems an idea too vast for a mortal mind, and too beneficent for the
+                    actual condition of humanity. He was a natural philosopher, in the large and
+                    genuine acceptation of the term; and if, like some others, he amused himself
+                    with endcavouring to penetrate the mysteries of cosmogony, his <hi rend="italic"
+                    >Protogaea,</hi> or primitive earth, has not been useless to Buffon, and those
+                    who have succeeded him, in investigating the changes which have taken place in
+                    the constitution of the globe, and tracing the causes or agents to which these
+                    are to be attributed.</p>
+                <p>“I am not worthy,” says Gibbon, “to praise the mathematician; but his name is
+                    mingled in all the problems and discoveries of the times; the masters of the art
+                    were his rivals or disciples; and if he borrowed from Sir Isaac Newton the
+                    sublime method of fluxions, Leibnitz was at least the Prometheus who imparted to
+                    mankind the sacred fire which he had stolen from the gods. His curiosity
+                    extended to every branch of chemistry, mechanics, and the arts; and the thirst
+                    of knowledge was always accompanied with the spirit of improvement. The vigour
+                    of his youth had been exercised in the schools of jurisprudence; and while he
+                    taught, he aspired to reform the laws of nature and nations, of Rome and
+                    Germany. The annals of Brunswick, and of the empire, of the ancient and modern
+                    world, were presented to the mind of the historian; and he could turn from the
+                    solution of a problem to the dusty parchments and barbarous style of the records
+                    of the middle age. His genius was more nobly directed to investigate the origin
+                    of languages and nations; nor could he assume the character of a grammarian
+                    without forming the project of an universal idiom and alphabet. These various
+                    studies were often interrupted by the occasional politics of the times, and his
+                    pen was always ready in the cause of the princes and patrons to whose service he
+                    was attached; many hours were consumed in a learned correspondence with all
+                    Europe; and the philosopher amused his leisure with the composition of French
+                    and Latin poetry. Such an example may display the extent and powers of the human
+                    understanding, but even <hi rend="italic">his</hi> powers were dissipated by the
+                    multiplicity of his pursuits. He attempted more than he could-finish; he
+                    designed more than he could execute: his imagination was too easily satisfied
+                    with a bold and rapid glance on the subject, which he was impatient to leave;
+                    and Leibnitz may be compared to those heroes, whose empire has been lost in the
+                    ambition of universal conquest.”</p>
+                <p>Variety in unity, or unity varied, the expressive sign of every masterpiece of
+                    nature and of art, characterizes happily enough the productions of the genius of
+                    Leibnitz: extreme variety in the number and the species of the ideas with which
+                    he enriched the intellectual world, of the truths which he discovered or
+                    demonstrated, and of the elements of every order which he combined: absolute
+                    unity of principle, of method, of plan, and of object or aim, in this great and
+                    beautiful system, which connects and harmonizes the two worlds, spiritual and
+                    material, by subjecting them to the unity of a monarchy constituted under the
+                    government of the greatest and best of sovereigns. If we consider the <hi
+                    rend="italic">form</hi> under which the different productions of this fertile
+                    genius present themselves, as detached pieces, or as fragments disseminated in
+                    vast collections, the mind is at first struck with their prodigious variety; and
+                    it is in this point of view that they most commonly appear, not only to
+                    biographers, but frequently to the historians of philosophy. But he who regards
+                    them in this light alone, will absolutely fail to discover the total and
+                    harmonious effect of this grand and beautiful scenography, or will only obtain
+                    partial views, and glimpses without any sequence or connection. The
+                    philosophical works of Leibnitz form a body of <hi rend="italic">doctrine,</hi>
+                    the parts of which, whatever be their number or diversity, are nevertheless
+                    intimately connected, and all referrible to the same principles, as well as
+                    animated by the same spirit. This spirit, diffused throughout each of his
+                    numerous productions, pervades equally the works of the jurisconsult, the
+                    historian, the theologian, the natural philosopher, and the mathematician.<note
+                    anchored="true" place="bottom" type="authorial"><p>See a very eloquent and
+                    learned exposition of the Philosophical System of Leibnitz, annexed to the life
+                    of that illustrious man <hi rend="italic superscript"> ιn</hi><hi rend="italic"
+                    >Biθffτ∏ykic</hi><hi rend="italic">Universelle,</hi> art· <hi rend="smallcaps"
+                    >Leibnitz.</hi></p></note> In proof of this, as far as regards the philosophical
+                    system of Leibnitz, it is only necessary to refer our readers to the ample and
+                    masterly exposition of it contained in the First Preliminary Dissertation to
+                    this work (part second, sect. ii. p. 122, et seq.), where the philosopher will
+                    find abundant aliment for thought, and the man of taste will discover new
+                    sources of gratification, in the splendid combination of genius, eloquence, and
+                    philosophy.</p>
+                <pb break="no" facs="nls:193204109" xml:id="kp-eb0713-4109-0208"/>
+                <p>In like manner, with reference to the mathematical labours of Leibnitz, and more
+                    particularly his claim to the discovery of the differential calculus, it is only
+                    necessary for us to direct the reader to the Third Preliminary Dissertation
+                    (part second, sect. i. p. 517, et seq.) where the subject generally is treated
+                    with profound science and consummate ability, and the claims of Leibnitz to the
+                    discovery in question are weighed and judged with that perfect candour and
+                    judicious discrimination, which ought ever to guide such decisions. In recent
+                    times, however, a new competitor for the honour of this discovery has been
+                    brought forward by no less distinguished a personage than Laplace. “Il parait,”
+                    says he, in his <hi rend="italic">Essai Philosophique sur les Probabilités,
+                    “</hi> que Fermat, <hi rend="italic">le véritable inventeur du calcul
+                    différentiel,</hi> a considéré ce calcul comme one dérivation de celui des
+                    différences finies.” Against this affirmation, however, Professor Playfair, in
+                    his review of Laplace’s <hi rend="italic">Essai,</hi> enters a strong and solemn
+                    protestation. “The age in which that discovery was made,” says he, “has been
+                    unanimous in ascribing the honour of either to Newton or Leibnitz; or, as seems
+                    to us much the fairest and most probable opinion, <hi rend="italic">to
+                    both</hi><hi rend="italic">;</hi> that is, to each independently of the other,
+                    the priority in respect of time being somewhat on the side of the English
+                    mathematician. The writers of the history of the mathematical sciences have
+                    given their suffrages to the same effect;— Montucla, for instance, who has
+                    treated the subject with great impartiality, and Bossut, with no prejudices
+                    certainly in favour of the English philosopher. In the great controversy to
+                    which this gave rise, all the claims were likely to be well considered; and the
+                    ultimate and fair decision, in which all sides seem to have acquiesced, is that
+                    which has just been mentioned. It ought to be on good grounds, that a decision
+                    passed by such competent judges, and that has now been in force for a hundred
+                    years, should all at once be reversed.” He then proceeds to show that there are
+                    no such grounds, and concludes by observing, “Great as is the merit of Fermat,
+                    which nobody can be more willing than ourselves to acknowledge, and near as he
+                    was to the greatest invention of modern times, we cannot admit that his property
+                    in it is to be put on a footing with that of Newton or of Leibnitz ;—we should
+                    fear that, in doing so, we were violating or* of the most sacred and august
+                    monuments that posterity ever raised in honour of the dead.”<note
+                    anchored="true" place="bottom" type="authorial"><p><hi rend="italic">Edinburgh
+                    Review,</hi> vol. xxiii. pp. 324, 325. See also Μ. Biot <hi rend="italic">Sur
+                    les Travaux Mathématiques,</hi> annexed to the article <hi rend="smallcaps"
+                    >Leibnitz</hi> in the <hi rend="italic">Biographie Universelle;</hi> an
+                    exposition which contains a very full and distinct, though not altogether
+                    unprejudiced, view of the controversy above referred to.</p></note></p>
+                <p>For the most extensive collection of the works of Leibnitz, we are indebted to
+                    Louis Dutens, who in 1768 published at Geneva, <hi rend="italic">Go. Gul.
+                    Leibnitii Opera Omnia,</hi> in six vols. 4to. The first volume contains the <hi
+                    rend="italic">Opera</hi><hi rend="italic">Theologica,</hi> amongst which are the
+                    <hi rend="italic">Theodiccea</hi> in the Latin translation, and the tracts in
+                    controversy with Bossuet; the second includes the writings relative to logic,
+                    metaphysics, general physics, chemistry, medicine, botany, natural history, the
+                    arts,&amp;c. particularly the <hi rend="italic">Meditationes,</hi> the treatise
+                    <hi rend="italic">JDe Primoe</hi><hi rend="italic">Philosophice
+                    Emendatione,</hi> the <hi rend="italic">Principia Philosophica,</hi> and the
+                    Correspondence with Dr Clarke; the third is devoted to mathematics; and the
+                    three remaining volumes contain the writings of Leibnitz on history,
+                    antiquities, jurisprudence, philology, etymology, the Chinese, &amp;c. Dutens,
+                    however, excluded from his collection all that had been published by Rud. Eric.
+                    Raspe at Amsterdam in 1765, 4to, under the title of <hi rend="italic">Oeuvres
+                    Philosophiques de</hi><hi rend="italic">Μ.</hi><hi rend="italic">Leibnitz,
+                    tirées des ses manuscrits,</hi> viz. 1. Nouveaux Essais sur l’Entendement
+                    Humain, intended as a refutation of Locke; 2. Examen du Sentiment de
+                    Malebranche, <hi rend="italic">Que nous voyons tozit en Pieu;</hi> 3. Dialogus
+                    inter Res et Verba, and some other small treatises on logic and the <hi
+                    rend="italic">Caractéristique Universelle.</hi> Those who wish to possess all
+                    that has appeared from the pen of Leibnitz, must add to these two collections,
+                    I. Essais de Théodicée, sur la bonté de Dieu, la liberté de Thomme, et l’origine
+                    du mal, Amsterdam, 1716; 2. Epistolae ad diversos, cum notis Kor-tholti,
+                    Leipsig, 1734-1742, in four vols. 8vo; 3. Jo. Dan. Gruberi Commercium
+                    Epistolicum Leibnitzianum, Hanover, 1745, in two vols. 8vo; 4. Leibnitzii et J.
+                    Bernoullii Commercium Philosophicum et Mathematicum, editum a Cramer, Geneva, in
+                    two vols. 4to; 5. His Correspondence with Jablonski, published by Professor
+                    Kappe, Leipsig, 1745, in 8vo; 6. Epistolae ad Schmidium, theologum
+                    Helmstadiensem, quas evulgavit Wesenmeyer, 1788; 7. Lettres choisies de la
+                    Correspondance de Leibnitz, publiées pour la première fois par G. H. Feder,
+                    Hanover, 1805, in 8vo; and, 8. A kind of <hi rend="italic">Leibnitziana</hi> in
+                    the <hi rend="italic">Otium</hi><hi rend="italic">Hanoveranum,</hi> 1718, in
+                    8vo. The historical collections published by Leibnitz during his life were, 1.
+                    Codex Juris Gentium diplomaticus, Hanover, 1693, in folio; 2. Mantissa Codicis
+                    Juris Gentium diplomat, ibid. 1700, in folio; 3. Scriptores Rerum
+                    Brunsvicensium, ibid. 1707-1711, in three vols. folio; 4. Accessiones
+                    Historicae, Leipsig, 16981700, in two vols. The number of works that have been
+                    published in relation to or in connection with Leibnitz, is immense, and
+                    therefore precludes any attempt at enumerating them. <hi rend="smallcaps"
+                    >(a.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

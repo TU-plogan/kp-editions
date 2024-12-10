@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0708-5865-0210-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">DRUMMOND, William</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 8, page 210</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="9" ref="fasttopic:910709">English</term>
+                    <term n="6" ref="fasttopic:980750">Italians</term>
+                    <term n="6" ref="fasttopic:1737291">Italianization</term>
+                    <term n="12" ref="fasttopic:888613">Death</term>
+                    <term n="4" ref="fasttopic:947546">Greeks</term>
+                    <term n="16" ref="fasttopic:1198505">Life</term>
+                    <term n="8" ref="fasttopic:1067778">Poets</term>
+                    <term n="8" ref="fasttopic:993678">Law</term>
+                    <term n="8" ref="fasttopic:933281">Founding</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="5" ref="fastgeo:1204303">Spain</term>
+                    <term n="4" ref="fastgeo:1206715">Scotland</term>
+                    <term n="2" ref="fastgeo:1219920">England</term>
+                    <term n="2" ref="fastgeo:1754964">Rome</term>
+                    <term n="1" ref="fastgeo:1239717">Alps</term>
+                    <term n="1" ref="fastgeo:1205755">Qatar</term>
+                    <term n="1" ref="fastgeo:1205427">Ireland</term>
+                    <term n="1" ref="fastgeo:1207170">Malta</term>
+                    <term n="1" ref="fastgeo:1208755">Egypt</term>
+                    <term n="1" ref="fastgeo:1215269">Gibraltar</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="12" ref="lcsh1910:b4kh0f02c">Death</term>
+                    <term n="5" ref="lcsh1910:b44f1ms2d">Reviews</term>
+                    <term n="4" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="3" ref="lcsh1910:b4xd0r400">Memoirs</term>
+                    <term n="3" ref="lcsh1910:b4w37m39g">Sage</term>
+                    <term n="16" ref="lcsh1910:b42j68511">Life</term>
+                    <term n="8" ref="lcsh1910:b4639kc77">Poets</term>
+                    <term n="8" ref="lcsh1910:b4m90280p">Law</term>
+                    <term n="8" ref="lcsh1910:b44j09z32">Founding</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193325865" type="entry">
+                <p><label type="entry">DRUMMOND, <hi rend="smallcaps">William</hi></label>, was born
+                    at Hawthornden on the 13th of December 1585. His father was Sir John Drummond,
+                    descended from the family of Carnock, a branch of the more illustrious family of
+                    Stobhall, from which the king derives his remote lineage through Ana-bella
+                    Drummond, the mother of James the First. The poet’s mother was Anne the daughter
+                    of William Fowler;<note anchored="true" place="bottom" type="authorial"><p>He is
+                    commonly described as Sir William Fowler, secretary to the queen, but this
+                    account of his quality is evidently erroneous. The secretary was his son, who
+                    bore the same name with himself; nor does it appear that either of them received
+                    the honour of knighthood. The son followed the queen to England; and a list of
+                    the officers of her council, dated in October 1603, describes him as
+                    “Secretarie, and Master of the Requests.” (Lodge’s Illustrations of British
+                    History, vol. iii. p. 209.) In 1587, we find him denominated parson of Hawick;
+                    and the records of the presbytery, 2 Sept. 1612, mention him as then dead. It is
+                    however more than probable that he continued a layman, and, at a period when
+                    such irregular proceedings were not uncommon, enjoyed the temporalities of that
+                    living without residence and without qualification. His poems are not unknown to
+                    those who are acquainted with the literary history of that age. Of some of his
+                    manuscripts, as well as those of his nephew, Mr Laing has given an account in
+                    the Transactions of the Society of Antiquaries of Scotland, vol. iv.</p></note>
+                    and she is described as it a woman of excellent breeding, and of a good and
+                    virtuous life.” William was the eldest of four sons, and there were three
+                    daughters by the same marriage. The earlier part of his education he received at
+                    the High School of Edinburgh, where he began to distinguish himself by the
+                    superiority of his talents; and being afterwards removed to the university,
+                    which was then a very recent institution, he took the degree of A. Μ. in the
+                    year 1605. We are particularly informed that he did not confine his attention to
+                    the metaphysical learning commonly taught in the schools, but likewise applied
+                    himself to the study of mathematics and of ancient authors. During the following
+                    year, his father sent him to complete his education in France; and in the
+                    university of Bourges he is said to have devoted himself with great assiduity
+                    and success to the study of the civil law; a study necessary to a lawyer, and
+                    useful to a scholar. After an absence of four years, he returned to his native
+                    country in 1610; and his friends now expected that he would devote himself to
+                    the practice of a lucrative profession, for which he seemed eminently qualified
+                    by his talents and learning.<note anchored="true" place="bottom"
+                    type="authorial"><p>President Lockhart is said to have averred, that if he had
+                    followed the legal profession, he might have made the best figure of any lawyer
+                    in his time. But the accuracy of this tradition, says Mr Maitland, “may
+                    reasonably be doubted. Drummond has left a record of the books read by him
+                    between 1606 and 1614, from which it is apparent that literature occupied a much
+                    larger portion of his attention than law. In the detail of his studies, which
+                    were in a great measure confined to the most popular poetry and romances of the
+                    time, he mentions no other work on law than the Institutes of Justinian.”
+                    (Introduction to Drummond’s Poems. Edinb. 1832, 4to.)</p></note> The bar must
+                    however have presented very few attractions to a youth of his elegant taste and
+                    delicate sensibility: the municipal law was then but a dreary path, beset with
+                    thorns which never blossomed; and, what was particularly discouraging, there was
+                    not a single elementary book, there were no institutions of our law, from which
+                    a young student could derive a comprehensive knowledge of those principles which
+                    were afterwards to direct his practice. His systematic doctrines were indeed to
+                    a great extent borrowed from the ancient civilians, and the study of the civil
+                    law was generally prosecuted in some foreign university; but, besides an
+                    indispensable attendance in the courts, his final preparation for the practice
+                    of his profession consisted in reading the statute law, and such collections of
+                    maxims and reports as were then circulated in manuscript. Nor was Drummond
+                    compelled by any domestic considerations to overcome his repugnance: he was
+                    beyond the reach of that original impulse which has directed many a lawyer to
+                    reputation and emolument; for, about the period of his return from the
+                    continent, the death of his father left him in possession of an estate
+                    sufficient to maintain him in the liberal style of a gentleman.</p>
+                <pb break="no" facs="nls:193325878" xml:id="kp-eb0708-5878-0211"/>
+                <p>He now retired to his family resldence at Hawthornden, six miles from Edinburgh,
+                    and resumed the study of the Greek and Latin classics. The immediate vicinity
+                    presents an air of such romantic beauty, that a poet could scarcely have found a
+                    more suitable habitation: his house is erected on the edge of a woody cliff
+                    which overhangs the river Esk; and at one extremity of the variegated and
+                    sequestered glen stand the ruins of the baronial castle and the collegiate
+                    church of Roslin. The ancient caves of Hawthornden, and the adjacent moor of
+                    Roslin, where Comyn and Fraser gained a signal victory over the English, have
+                    likewise their peculiar effect in impressing the imagination. Near the poet’s
+                    house is a seat hewn in the solid rock, and still described by the name of the
+                    Cypress-grove; a name which it obtained from the circumstance of his having
+                    frequented this spot when engaged in the composition of a work which bears that
+                    title.</p>
+                <p>Here Damon <hi rend="superscript"> ς</hi> sat’ whose songs did sometime grace</p>
+                <p>The murmuring Esk; may roses shade the place.</p>
+                <p>In this delightful seclusion he devoted himself to the general improvement of his
+                    mind, and to the occasional exercise of his fine talents; and many of his poems
+                    appear to have been composed about this period of his life.<note anchored="true"
+                    place="bottom" type="authorial"><p>The first edition of his poems has the
+                    following title: “Poems, amorous, funerali, diuine, pastorali, in Sonnets,
+                    Songs, Sextains, Madrigals. By W. D. the author of the Teares on the Death of
+                    Aloeliades.” Edinbvrgh, printed by Andro Hart, 1616, 4to. Another edition, or
+                    the same edition with a new title, bears “Poems, by William Drvmmond of
+                    Hawthorne-denne. The second impression.” Edinbvrgh, printed by Andro Hart, 1616,
+                    4to.</p></note> He chiefly cultivated the familiarity of the university men, and
+                    other individuals of genius and learning: among his own countrymen, he enjoyed
+                    the particular friendship of the earl of Stirling, the earl of Ancram, Arthur
+                    Johnston, and John Adamson; and among the English poets, his greatest intimacy
+                    and correspondence was with Ben Jonson and Michael Drayton. The grandfather of
+                    Jonson was originally from Annandale, where Johnstone is still a very prevalent
+                    name. In the year 1619, when this celebrated poet had attained the age of
+                    forty-five, he travelled from London on foot, for the express purpose of paying
+                    Drummond a visit; and at Hawthornden he spent three or four weeks with every
+                    appearance of satisfaction.<note anchored="true" place="bottom" type="authorial"
+                    ><p>To this visit another poet of exquisite talents makes the following
+                    allusion:</p><p>Then will I dress once more the faded bower,</p><p>Where Jonson
+                    sat in Drummond’s classic shade· <hi rend="smallcaps">Collins’s</hi> Ode to John
+                    Home.</p></note> The heads of some of Jonson’s conversations on subjects of
+                    literature, together with his own impressions of Jonson’s character, he
+                    committed to writing, with the manifest intention of occasionally referring to
+                    this as a private record: many years after his death, this paper was
+                    communicated to the public, apparently in a somewhat mutilated form; and as it
+                    does not represent his distinguished guest as altogether faultless, the amiable
+                    and esteemed writer has incurred the virulent and unmeasured censure of Mr
+                    Gifford, the late editor of Jonson’s works.<note anchored="true" place="bottom"
+                    type="authorial"><p>Gifford’s Memoirs of Jonson, p. cxxx.—This charge has been
+                    sufficiently repelled by Sir Walter Scott in his Provincial Antiquities of
+                    Scotland, vol. ii∙ p. 133. See likewise Dr Drake’s Mornings in Spring, vol. i.
+                    p. 286.</p></note> If Drummond had resembled some more recent authors, who have
+                    violated all the decencies of private life by ministering to the gross appetite
+                    of the public with ridiculous or disparaging tales of their friends and
+                    acquaintance, the justice of this strong condemnation could not safely have been
+                    disputed; but what person of ordinary candour will thus censure an act which, to
+                    all human appearance, was entirely unconnected with malevolent or ungenerous
+                    motives?</p>
+                <p>The poet’s tranquillity was exposed to a severe interruption from the unfortunate
+                    issue of his first love. He became deeply enamoured of a beautiful young lady,
+                    the daughter of Cunningham of Barns; he met with a suitable return, and a day
+                    was fixed for their nuptials, but before that day arrived, her life was
+                    terminated by a rapid fever. Such an event as this, which would have affected a
+                    lover of the most ordinary sensibility, could not but sink deeply into the heart
+                    of one who had assiduously cherished the softer feelings, and whose habits of
+                    seclusion were so directly calculated to preserve a lasting impression of
+                    melancholy. He was so overwhelmed with grief that he found it necessary to try
+                    the effect of a change of objects; and he accordingly retired to the continent,
+                    where he spent about eight years. His longest residence was at Paris and Rome;
+                    but he travelled through France, Germany, and Italy, visited the most celebrated
+                    universities, and conversed with men of learning. In the course of his
+                    peregrinations, he is said to have formed an excellent collection, not only of
+                    the ancient classics, but likewise of the best writers in the French, Italian,
+                    and Spanish languages. He presented to the university of Edinburgh a collection
+                    of books and manuscripts, of which he printed a catalogue in the year 1627,
+                    prefixing to it an appropriate preface written in Latin. Of this well-known
+                    collection, the value, that is, the extrinsic or pecuniary value, which was far
+                    from being inconsiderable at first, has been immensely encreased by the lapse of
+                    two centuries. It contains many Scotish and English publications of singular
+                    rarity. When Drummond returned to Scotland, he found his countrymen divided by
+                    fears and animosities. He now spent some time at the residence of his
+                    brother-in-law Sir John Scot of Scotstarvet, a learned man, and an encourager of
+                    learning. Having continued in a state of celibacy till the age of forty-seven,
+                    he in 1632 married Elizabeth Logan; a lady in whom he traced a strong
+                    resemblance to his first mistress. She is commonly represented as the
+                    grand-daughter of Sir Robert Logan of Restalrig; but, according to Hay, her
+                    father, who was altogether unconnected with that family, was minister of
+                    Edleston in the county of Peebles, and her mother was the daughter of a
+                    shepherd.<note anchored="true" place="bottom" type="authorial"><p>Hay’s Memoirs,
+                    vol. ii. p. 105. MS. Adv. Lib.</p></note> Of this marriage there were five sons
+                    and four daughters. John, the eldest son, died in his youth; William was
+                    knighted by Charles the Second, and lived to an advanced age;<note
+                    anchored="true" place="bottom" type="authorial"><p>Sir William Drummond is more
+                    celebrated for his jovialty than for his literature. See Dr Pennecuik’s Poems,
+                    p. 49. 52. An honourable instance of his humanity is recorded in the Memoirs of
+                    George Brysson, p. 285.</p></note> Robert was married, but died about the age of
+                    forty without children; the two youngest, Richard and James, died in their
+                    infancy. The eldest daughter Elizabeth was married to Dr Henryson, an eminent
+                    physician in Edinburgh;<note anchored="true" place="bottom" type="authorial"
+                    ><p>This was probably Henry Henryson, Μ. D. of Elvingston, whose Latin version
+                    of the hundred and fourth psalm occurs in the <hi rend="italic">Octupla.</hi>
+                    Edinb. 1696, 8vo. He is more commonly called Henderson, which is a corruption of
+                    the other name. Elizabeth, the heiress of her father Dr Henry Henderson of
+                    Elvington, was married to John Clerk of Pennecuik. (Inquisitionum Abbreviatio,
+                    vol. i. Haddington, 341.)</p></note> but the other three, Margaret, Anabella,
+                    and Jane, died very young.<note anchored="true" place="bottom" type="authorial"
+                    ><p>Douglas’s Baronage of Scotland, p. 573, compared with Sage’s Life of
+                    Drummond, p. vi.</p></note> The father was a decided <pb break="no"
+                    facs="nls:193325891" xml:id="kp-eb0708-5891-0212"/>cavalier, and wielded his
+                    pen, though not hissword, in the king’s service; and being reputed a malignant,
+                    he was exposed to some of the usual molestations of those unhappy times. The
+                    tragical fate of his sovereign is said to have hastened his own dissolution: we
+                    are informed by Bishop Sage that Drummond, being weakened by hard study and
+                    disease, was so overwhelmed with extreme grief and anguish that he died on the
+                    4th of December 1649.<note anchored="true" place="bottom" type="authorial"
+                    ><p>Sir Thomas Urquhart is said to have expired in a paroxysm of laughter, on
+                    hearing of the restoration of Charles the Second; a statement which is rendered
+                    sufficiently probable by the record of similar cases, and by the eccentric
+                    character of the individual. Aretaeus, an ancient physician, specifies
+                    unextinguisliable laughter as one of the causes of death: <hi rend="italic"
+                    >&lt;ysaωs a,trβιιrτt&gt;S ∕⅛ιχζi</hi><hi rend="italic">Qatar</hi><hi
+                    rend="italic">on.</hi> (De Causis et Signis Morborum, lib. i. p. 35. edit.
+                    Boerhaave. Lugd. Bat. 1735, fol.) And other ancient writers have mentioned the
+                    names of different persons who died of excessive joy. (Valerius Maximus, lib.
+                    ix. cap. xii. Plinii Hist. Nat. lib. vii. cap. liii-) According to the common
+                    account, Sophocles was of this number.</p></note> But as the king was executed
+                    on the 30th of January, an interval of more than ten months must have occurred
+                    between his death and that of his faithful subject; an interval 'so long as to
+                    render the biographer’s inference somewhat questionable. He had nearly completed
+                    the sixty-fourth year of his age. His remains were interred in the church of
+                    Lasswade, which stands at the distance of about a mile from Hawthornden. He
+                    appears through life to have maintained a character of uniform respectability;
+                    uniting with his other qualities that of consistent piety, and blending morality
+                    with his devotion. His death was affectionately lamented by his friend Colonel
+                    Lauder of Hatton, who has left several other specimens of his poetical talents,
+                    and who was not the only Scotish soldier of this period that evinced his love of
+                    the Muses.</p>
+                <p>Drummond was evidently a man of superior talents and accomplishments. We are
+                    informed that he was familiarly acquainted with the best Greek and Latin
+                    authors: his long residence on the continent afforded him an excellent
+                    opportunity of acquiring a knowledge of the living languages; and he is said to
+                    have spoken French, Italian, and Spanish, as fluently as his native tongue. To
+                    his graver qualifications he added no mean proficiency in music; and he
+                    occasionally sought a relaxation from his studies by playing on the lute, “which
+                    he did to admiration.” He seems to have devoted a considerable portion of his
+                    time to the invention or improvement of various instruments and machines,
+                    applicable to various purposes of peace or war. They are curiously enumerated,
+                    to the extent of sixteen, in a patent which he obtained in the year 1627, and
+                    which secured to him the sole right and property within the kingdom of Scotland
+                    for the space of twenty-one years.<note anchored="true" place="bottom"
+                    type="authorial"><p>Drummond’s Works, p. 235. .Edinb. 1711, fol.</p></note></p>
+                <p>His literary productions exhibit considerable variety. His compositions in prose
+                    chiefly consist of the Cypress Grove, some political tracts, and the History of
+                    the five Jameses; a work which embraces the history of Scotland from 1423 to
+                    1542.<note anchored="true" place="bottom" type="authorial"><p>Of his History of
+                    Scotland, the first edition is that of London, 1655, fol. The introduction was
+                    written by Mr Hall of Gray’s Inn. There are other three editions.</p></note>
+                    “The best of Drummond’s prose works,” says Mr Headley, “is his Cypress Grove,
+                    which, though quaint in its style, is worth reading for its vein of dignified
+                    morality.” His history, which has alternately been the object of extravagant
+                    commendation and unsparing censure, cannot now be regarded as a work of much
+                    value or interest: the author’s materials are not generally drawn from recondite
+                    sources, and his manner is too rhetorical. For tþe reputation which he still
+                    retains, Drummond is chiefly indebted, not to his historical, but to his
+                    poetical excellence; and, in the opinion of competent judges, he is entitled to
+                    a distinguished place among the English poets of that age. As few of his poems
+                    extend to a considerable length, his genius cannot be estimated by the success
+                    of any great and continued effort; but notwithstanding the shortness of his
+                    flights, he gene-, rally soars on bright and steady wings. He is conspicuous for
+                    his delicate sensibility and warmth of fancy; and with these qualities, so
+                    essential in an amatory poet, he unites uncommon skill in versification. His
+                    taste seems in a great measure to have been formed upon the Italian model, nor
+                    are his compositions entirely free from Italian conceits; but he commonly
+                    maintains a degree of elegant simplicity to which few English poets of that age
+                    have attained.</p>
+                <p>The reputation which Drummond enjoyed during his life, appears to have suffered
+                    some diminution after his death. He was a gentleman, says Edward Phillips, “who
+                    imitating the Italian manner of versifying, vented his amours in sonnets,
+                    canzonets, and madrigals, and, to my thinking, in a style sufficiently smooth
+                    and delightful; and therefore why so utterly disregarded and layd aside at
+                    present, I leave to the more curious palats in poetry.”<note anchored="true"
+                    place="bottom" type="authorial"><p>Phillips’s Theatrum Poetarum, or compleat
+                    Collection of the Poets, part ii. p. 192. Lond. 1675, 12mo-</p></note> After an
+                    interval of more than a century, the same complaint of unmerited neglect was
+                    repeated by Mr Headley. “Without ostentatious praise (which is always to be
+                    suspected), it is but truth to observe that many of his sonnets, those more
+                    especially which are divested of Italian conceits, resemble the best Greek
+                    epigrams in their best taste, in that exquisite delicacy of sentiment, and
+                    simplicity of expression, for which our language has no single term, but which
+                    is known to all classical readers by the word <hi rend="italic">άφιλίΐα.</hi> It
+                    is in vain we lament the fate of many of our poets, who have undeservedly fallen
+                    victims to a premature oblivion, when the finished productions of this man are
+                    little known and still less read.”<note anchored="true" place="bottom"
+                    type="authorial"><p>Headley’s Biographical Sketches (p. xlv.) prefixed to Select
+                    Beauties of Ancient English Poetry. Lond. 1787, 2 vols. 8vo.</p></note></p>
+                <p>Drummond’s sonnets form a very considerable proportion of his poetical works. The
+                    following four maybe selected as a specimen of the entire collection; and they
+                    are here exhibited in modern orthography.</p>
+                <p>ĩ know that all beneath the moon decays,</p>
+                <p>And what by mortals in this world is brought, In Time’s great periods shall
+                    return to nought;</p>
+                <p>That fairest states have fatal nights and days:</p>
+                <p>I know how all the Muse’s heavenly lays,</p>
+                <p>With toil of spright which are so dearly bought,</p>
+                <p>As idle sounds, of few or none are sought,</p>
+                <p>And that nought lighter is than airy praise:</p>
+                <p>I know frail beauty like the purple flower,</p>
+                <p>To which one morn oft birth and death affords;</p>
+                <p>That love a jarring is of minds’ accords,</p>
+                <p>When sense and will invassal reason’s power.</p>
+                <p>Know what I list, this all cannot me move But that, O me! I both must write and
+                    love.</p>
+                <p>With flaming horns the Bull now brings the year,</p>
+                <p>Melt do the horrid mountains’ helms of snow,</p>
+                <p>The silver floods in pearly channels flow,</p>
+                <p>The late-bare woods green anadems do wear;</p>
+                <p>The nightingale, forgetting winter’s woe,</p>
+                <p>Calls up the lazy morn her notes to hear;</p>
+                <p>Those flowers are spread which names of princes bear,</p>
+                <p>Some red, some azure, white, and golden grow.</p>
+                <p>Here lows a heifer, there bewailing strays</p>
+                <p>A harmless lamb, not far a stag rebounds;</p>
+                <p>The shepherds sing to grazing flocks sweet lays,</p>
+                <p>And all about the echoing air resounds.</p>
+                <pb break="no" facs="nls:193325904" xml:id="kp-eb0708-5904-0213"/>
+                <p>Hills, dales, woods, floods, and every thing doth change,</p>
+                <p>But she in rigour, I in love am strange.</p>
+                <p>Trust not, sweet soul, those curled waves of gold,</p>
+                <p>With gentle tides which on your temples flow,</p>
+                <p>Nor temples spread with flakes of virgin snow,</p>
+                <p>Nor snow of cheeks with Tyrian grain enroll’d;</p>
+                <p>Trust not those shining lights which wrought my woe, When first I did their
+                    burning rays behold,</p>
+                <p>Nor voice, whose sounds more strange effects do show Than of the Thracian harper
+                    have been told. Look to this dying lily, fading rose,</p>
+                <p>Dark hyacinth, of late whose blushing beams</p>
+                <p>Made all the neighbouring herbs and grass rejoice,</p>
+                <p>And think how little is ’twixt life’s extremes.</p>
+                <p>The cruel tyrant that did kill those flowers,</p>
+                <p>Shall once, aye me! not spare that spring of yours.</p>
+                <p>What doth it serve to see sun’s burning face,</p>
+                <p>And skies enamelEd with both the Indies’ gold, Or moon at night in jetty chariot
+                    rolled,</p>
+                <p>And all the glory of that starry place?</p>
+                <p>What doth it serve earth’s beauties to behold,</p>
+                <p>The mountains’ pride, the meadows’ flowing grace,</p>
+                <p>The stately comeliness of forests old,</p>
+                <p>The sport of floods, which would themselves embrace?</p>
+                <p>What doth it serve to hear the Sylvans’ songs,</p>
+                <p>The wanton merle, the nightingale’s sad strains,</p>
+                <p>Which in dark shades seem to deplore my wrongs?</p>
+                <p>For what doth serve all that this world contains,</p>
+                <p>Sith she, for whom those once to me were dear,</p>
+                <p>No part of them can have now with me here?</p>
+                <p>To some of his compositions, which he has described as songs, this title is by no
+                    means applicable; it is neither applicable to the vein of poetry, nor to the
+                    measure of the verse. One striking poem, which he entitles <hi rend="italic"
+                    >a</hi> song, is written in heroic couplets, and contains such passages as
+                    this:</p>
+                <p>And tell me, thou who dost so much admire</p>
+                <p>This little vapour, smoke, this spark or fire,</p>
+                <p>Which life is call’d, what doth it thee bequeath</p>
+                <p>But some few years which birth draws out to death?</p>
+                <p>Which if thou paragon with lustres run,</p>
+                <p>And them whose career is but now begun,</p>
+                <p>In day’s great vast they shall far less appear, Than with the sea when matched is
+                    a tear.</p>
+                <p>But why would’st thou here longer wish to be?</p>
+                <p>One year doth serve all nature’s pomp to see, Nay, even one day and night: this
+                    moon, that sun, Those lesser fires about this round which run, Be but the same
+                    which, under Saturn’s reign, Did the serpenting seasons interchain.</p>
+                <p>How oft doth life grow less by living long,</p>
+                <p>And what excelleth but what dieth young?<note anchored="true" place="bottom"
+                    type="authorial"><p>'ov e! φΛoι&gt;ιrw à¶öåvnirxíi vit,;.</p><p><hi
+                    rend="smallcaps">Menandri</hi> Fragmenta, p. 48. edit. Meineke.</p></note></p>
+                <p>His collection of sacred verses, which he entitles Flowres of Sion,<note
+                    anchored="true" place="bottom" type="authorial"><p>Flowres of Sion. By William
+                    Drvmmond of Hawthorne-denne. To which is adjoyned his Cypresse Groue. 1623, 4to.
+                    Eden-bovrgh, printed by lohn Hart, 1630, 4to.</p></note> contain much poetical
+                    imagery and expression. Some of the topics cannot be very safely approached by a
+                    poet, who must place his chief reliance on the exercise of his fancy; and the
+                    subsequent lines of this writer may sometimes occur to the recollection of his
+                    reader:</p>
+                <p>Who would this Eden force with wit or sense,</p>
+                <p>A cherubim shall find to bar him thence.</p>
+                <p>One of the longest poems in this collection, entitled a Hymne on the fairest
+                    Faire, contains the following among many other striking passages:</p>
+                <p>Ah! as a pilgrim who the Alps doth pass, Or Atlas’ temples crown’d with winter’s
+                    glass, The airy Caucasus, the Apennine, Tyrenes cliffs where sun doth never
+                    shine, When he some heaps of hills hath over-went, Begins to think on rest, his
+                    journey spent, Till, mounting some tall mountain, he doth find More heights
+                    before him than he left behind: With halting pace so while I would me raise To
+                    the unbounded circuits of thy praise, Some part of way I thought to have
+                    o’er-run, But now I see how scarce I have begun, With wonders new my spirits
+                    range possest, And wan d’ring way less in a maze them rest.</p>
+                <p>It has been suggested by Mr Headley that one would be induced to suppose Pope
+                    must have remembered these lines when he wrote a well-known passage in his Essay
+                    on Criticism. The subsequent couplet, which occurs in the same hymn, is
+                    remarkable for its energetic simplicity:</p>
+                <p>Uncomprehensible by reachless height, And unperceived by excessive light.</p>
+                <p>Another poem of considerable length he entitles the Shadow of the Judgment. It is
+                    left in an unfinished state, and is not included in the collection published
+                    under the direction of Sir John Scot;<note anchored="true" place="bottom"
+                    type="authorial"><p>Foems by that most famous wit Mr William Drummond of
+                    Hawthorn den. Lond. 1656, 8vo. The editor was Edward Phillips, the nephew of
+                    Milton. The same edition was exhibited under a new and fantastic title, with the
+                    date of 1659. A more extensive collection of his poems is to be found in the
+                    Works of William Drummond of Hawthornden. Edinb. 1711, fol. Bishop Sage’s life
+                    of the author is prefixed to this publication. But the most complete, as well as
+                    the most elegant edition was printed under the superintendence of Mr Maitland:
+                    “The Poems of William Drummond of Hawthornden.” Edinb. 1832, 4to. The book
+                    however is not published: it was the splendid contribution of λVilliam
+                    Macdowall, Esq. of Garthland to the Maitland Club.</p></note> but it
+                    nevertheless contains many passages worthy of the author’s reputation. An
+                    elegant critic has remarked that the following verses, describing God moved to
+                    wrath, are in Milton’s manner:</p>
+                <p>So seeing earth, of angels once the inn, Mansion of saints, defloured all by sin,
+                    And quite confus’d by wretches here beneath, The world’s great sovereign moved
+                    was to wrath. Thrice did he rouse himself, thrice from his face Flames sparkle
+                    did throughout the heavenly place: The stars, though fixed, in their rounds did
+                    quake, The earth, and earth-embracing sea did shake: Carmel and Haemus felt it,
+                    Athos’ tops Affrighted shrunk, and near the Ethiops Atlas, the Pyrenees, the
+                    Apennine,</p>
+                <p>And lofty Grampius, which with snow doth shine. Then to the synod of the sprights
+                    he swore, Man’s care should end, and time should be no more.</p>
+                <p>Drummond’s poem in commemoration of Prince Henry<note anchored="true"
+                    place="bottom" type="authorial"><p>Teares on the Death of Moeliades. F.dinbvrgh,
+                    printed by Andro Hart, 1613, 4to. His two sonnets and epitaph, which appear in
+                    this publication, are likewise inserted in the “Mavsolevm, or choisest. Flowres
+                    of the Epitaphs, written on the Death of the neuer-too-much lamented Prince
+                    Ilenrie.” Edinb. 1613, 4to. A third edition of the “Teares on the Death of
+                    Moeliades” soon followed. Edinb. 1614, 4to. The second we have not
+                    seen.</p></note> commences in a strain somewhat bombastic, but it contains some
+                    elegant and striking passages. The subsequent lines exhibit a very favourable
+                    specimen of his versification; and it is proper to recollect that the poem was
+                    printed so early as the year 1613. He describes the lamented youth as rejoicing
+                    to look down to the azure bars of heaven,</p>
+                <p>And in their turning temples to behold, In silver robe the moon, the sun in gold,
+                    Like young eye-speaking lovers in a dance, With majesty by turns retire,
+                    advance. Thou wonderest earth to see hang like a ball, Clos’d in the ghastly
+                    cloister of this all; <pb break="no" facs="nls:193325917"
+                    xml:id="kp-eb0708-5917-0214"/>And that poor men should prove so madly fond To
+                    toss themselves for a small foot of ground; Nay, that they even dare brave the
+                    powers above, From this base stage of chance that cannot move. All worldly pomp
+                    and pride thou seest arise Like smoke, that scattreth in the empty skies. Other
+                    hills and forests, other sumptuous tow’rs, Amaz’d thou fìnd’st excelling our
+                    poor bow’rs; Courts void of flattery, of malice minds, Pleasure which lasts, not
+                    such as reason blinds.</p>
+                <p>Forth Feasting, a poem written in the year 1617 on the king’s visit to his native
+                    country,<note anchored="true" place="bottom" type="authorial"><p>Forth Feasting.
+                    A Panegyricke to the Kings most excellent Majestie. Edinbvrgh, printed by Andro
+                    Hart, 1617, 4to This poem occurs in the Muses Welcome, p. 25.</p></note> maybe
+                    considered as his best performance; it abounds with poetical imagery, and the
+                    versification possesses uncommon terseness and harmony. In all poems of the same
+                    age and denomination, the reader must necessarily expect a certain sprinkling of
+                    mythology; this is a prevailing vice, an endemic disease, among the poets of
+                    that period; but Forth Feasting is enlivened by an elegant vein of fancy, and
+                    contains various passages of distinguished felicity. In the following nervous
+                    lines, he pays a warm and not unmerited compliment to the monarch’s love of
+                    peace:</p>
+                <p>Now, where the wounded knight his life did bleed,</p>
+                <p>The wanton swain sits piping on a reed,</p>
+                <p>And where the cannon did Jove’s thunder scorn,</p>
+                <p>The gaudy huntsman winds his shrill-tun’d horn;</p>
+                <p>Her green locks Ceres without fear doth dye,</p>
+                <p>The pilgrim safely in the shade doth lie, Both Pan and Pales careless keep their
+                    flocks, Seas have no dangers save the winds and rocks: Thou art this isle’s
+                    Palladium, neither can, While thou art kept, it be o’erthrown by man. Let others
+                    boast of blood and spoils of foes, Fierce rapines, murders, Iliads of woes, Of
+                    hated pomp, and trophies reared fair, Gore-spangled ensigns streaming in the
+                    air, Count how they make the Scythian them adore, The Gaditan, the soldier of
+                    Aurore;</p>
+                <p>Unhappy vauntry! to enlarge their bounds,</p>
+                <p>Which charge themselves with cares, their friends with wounds, Which have no law
+                    to their ambitious will,</p>
+                <p>But, man plagues, born are human blood to spill: Thou a true victor art, sent
+                    from above, What others strain by force to gain by love;</p>
+                <p>Wörld-wand’ring Fame this praise to thee imparts, To be the only monarch of all
+                    hearts.</p>
+                <p>When the successor of this king visited his northern dominions in the year 1633,
+                    Drummond contributed the verses for the pageants which welcomed his arrival in
+                    Edinburgh.<note anchored="true" place="bottom" type="authorial"><p>Drummond’s
+                    verses appeared in a publication entitled “The Entertainment of the high and
+                    mighty Monarch Charles, King of Great Britaine, France, and Ireland, into his
+                    auncient and royall Citie of Edinbvrgh, the fifteenth of lune 1633.” Printed at
+                    Edinbvrgh by lohn Wreittoun, 1633, 4to. The last work which he himself is known
+                    to have published bears the following title: “To the Exequies of the Honovrable
+                    S <hi rend="superscript"> r</hi> Antonye Alexander, Knight, &amp;c. A pastorali
+                    Elegie.” Edinbvrgh, printed in King James his College, by George Anderson, 1638,
+                    4to. Mr Maitland has reprinted the <hi rend="italic">Ρolemo-Middinia</hi> from
+                    the earliest edition that has been traced. Edinb. 1684, 4to.</p></note> These
+                    verses, although they do not exhibit passages equal to those which we have
+                    lately examined, are not destitute of merit. Of the frequent compression and
+                    harmony of his couplets, every reader must be sufficiently aware; and the
+                    excellence of his versification has been highly extolled by an English critic.
+                    Waller and Denham are often regarded as the great improvers of a mode of
+                    versification which was carried to greater perfection by Dryden; but the Tears
+                    on the Death of Moeliades, and Forth Feasting, were composed several years
+                    before either of those poets had reached the age of manhood.<note
+                    anchored="true" place="bottom" type="authorial"><p>Neve’s Cursory Remarks on
+                    some of the Ancient English Poets, particularly Milton, p. 49. Lond. 1789,
+                    8vo∙-With respect to the supposed merit of Waller and Denham as improvers of
+                    English versification, the reader may consult Mr Crowe’s Treatise on English
+                    Versification, p. 166. Lond. 1827, 8vo.</p></note> (x.)</p>
+                <p><hi rend="smallcaps">Drummond,</hi><hi rend="italic">Sir William,</hi> of
+                    Logie-Almond, a distinguished scholar, acute philosopher, and accomplished
+                    writer, died at Rome, of a lingering and painful disease, on the 29th of March
+                    1828. The date of his birth we have not been able to ascertain, and consequently
+                    cannot pretend to determine his age at the time of his decease.</p>
+                <p>He seems to have been early ambitious of literary distinction, and in 1794 he
+                    published <hi rend="italic">A Review of die Government of Sparta and
+                    Athens,</hi> large 8vo; a work which, though not destitute of merit, and
+                    exhibiting considerable traces of a vigorous mind, yet gave no promise of that
+                    bold spirit of speculation for which its author was afterwards so much
+                    distinguished. At the close of the year 1795, he was returned to parliament for
+                    the borough of St Mawes, in the representation of which a vacancy had occurred;
+                    and in the two following parliaments, which met respectively in 1796 and 1801,
+                    he sat for the town of Lostwithiel. At the time of his second election he had
+                    been appointed envoy-extraordinary to the court of Naples.</p>
+                <p>In the year 1798, he published <hi rend="italic">The Satires of Persius
+                    Translated,</hi> 8vo, which happened to appear about the same time with the
+                    rival translation of the Roman satirist by Mr Gifford, author of the Baviad and
+                    Maeviad, and afterwards editor of the <hi rend="italic">Quarterly Review.</hi>
+                    This translation alone would have been sufficient to fix his reputation as an
+                    accomplished classical scholar; and, in point of fact, it has been much admired
+                    by all who are competent to appreciate the difficulty of the task which he so
+                    successfully performed. It would not be easy, indeed, to overrate the skill with
+                    which the niceties of Persius have been discriminated, or the felicity with
+                    which the idiomatic peculiarities of that difficult author have been converted
+                    into equivalent forms of expression. Drummond’s versification is easy, graceful,
+                    and precise; and though it wants the piquancy of allusion, the congenial
+                    bitterness of spirit, and the occasional point and concentration, which impart
+                    so strong a zest to the translation of Mr Gifford, it is yet distinguished for
+                    greater freedom and equal fidelity, two things which Drummond has shown that it
+                    is not impossible to reconcile.</p>
+                <p>In the year 1801, Mr Drummond being then ambassador to the Ottoman Porte, was
+                    honoured with the order of the Crescent, which was confirmed by license, in the
+                    London Gazette, dated the 8th of September 1803.</p>
+                <p>In 1805 Sir William published his <hi rend="italic">Academical Questions,</hi> in
+                    4to, and thereby greatly extended his fame as an author. Hitherto he had
+                    appeared only in the character of an elegant and accomplished scholar; but in
+                    this work he boldly entered the domain of philosophy, and in a free and fearless
+                    spirit attacked every species of dogmatism, whether consecrated by time, or
+                    sustained by authority, exposing the weakness of the human understanding, and
+                    mortifying the pride of pretended wisdom, by a collection of what appear to be
+                    insoluble cases and indeterminate problems. In this work, however, it is only
+                    the task of demolition which he proposes to accomplish; and it must be owned
+                    that he has spread abroad the rubbish and scattered the dust of philosophical
+                    systems in a somewhat appalling<pb break="no" facs="nls:193325930"
+                    xml:id="kp-eb0708-5930-0215"/> manner. “The author of <hi rend="italic"
+                    >Academical Questions,"</hi> says the able critic of the work in the <hi
+                    rend="italic">Edinburgh Review,</hi> “is indubitably a person of great reading,
+                    and much natural acuteness; but he has taken too wide a range, and indulged
+                    somewhat too much in a vein of controversial declamation. He often seems to
+                    think more of demolishing his antagonist than of enlightening his reader; and
+                    sometimes appears to enlarge upon a topic as much for the display of his
+                    eloquence as for the support of his reasoning. By frequent reference to the
+                    Greek writers, and continual allusions to the usages of antiquity, he expected
+                    perhaps to seduce the scholars of the South into metaphysical investigations,
+                    and to engage the attention of polite readers by a certain vivacity and polish
+                    in the turn of his expression. If this was his view, however, he certainly ought
+                    not to have plunged at first into the great gulf of substance and entity.” <hi
+                    rend="italic">ŲEdinburgh Review,</hi> vol. vii. p. 185.) To these observations,
+                    however, it is proper to add, that the author avowedly reserved the full
+                    exposition of his own theory for a subsequent volume, though in point of fact it
+                    never appeared; and that in this preliminary publication he conceived himself to
+                    be only clearing out the foundation on which it was his intention afterwards to
+                    build.</p>
+                <p>In the year 1810, Sir William Drummond, in conjunction with Robert Walpole, Esq.
+                    published <hi rend="italic">Herculanensia,</hi> in 4to, containing
+                    archaeological and philological dissertations, and a copy of a manuscript found
+                    amongst the ruins of Herculaneum; and in 1811 appeared an <hi rend="italic"
+                    >Essay on a Punic Inscription found in the Isle of Malta,</hi> royal 8vo; both
+                    works of great merit and erudition. Sir William was also an occasional, if nota
+                    frequent, contributor to the <hi rend="italic">Classical Journal</hi><hi
+                    rend="italic">;</hi> in which his papers on subjects of antiquity, particularly
+                    the zodiac of Denderah, which occupied without exhausting his ingenuity,
+                    attracted the general admiration of the learned, if not always on account of
+                    their soundness, at least by reason of the acuteness and originality they
+                    display, and the resources of learning which the author had always at command
+                    for the illustration of his peculiar views. About this time, Sir William
+                    Drummond, whose residence at Constantinople had turned his attention to oriental
+                    literature, sacred as well as profane, consigned the fruits of his researches
+                    and investigations into the historical books of the Old Testament, in his <hi
+                    rend="italic">Oedipus Jzidaicus.</hi> This singular work was never published,
+                    having been printed solely for distribution amongst the author’s friends and
+                    acquaintance; but as he had caused a considerable impression to be struck off,
+                    copies of it soon found their way into the hands of persons connected with the
+                    periodical press, and those of others; and, as might have been expected, it was
+                    most fiercely attacked. The first onset was made by a churchman of the name of
+                    D’Oyly, in <hi rend="italic">Letters to the Right lion. Sir William Drummond, in
+                    Defence of particular Passages of the Old Testament against his late work
+                    entitled</hi><hi rend="italic">“</hi><hi rend="italic">Oedipus</hi><hi
+                    rend="italic">Judaicus</hi> and the attack was renewed in the <hi rend="italic"
+                    >Quarterly Review,</hi> with equal vigour and ability. Whether it was altogether
+                    fair thus openly to stigmatize a book which had never been published, we shall
+                    not stop to inquire; more especially as the principal cause of regret is, not
+                    that it was severely criticised, but that it was ever written, far less printed.
+                    In the controversy which thus arose, however, Sir William was overmatched, both
+                    in science and in Hebrew, with which D’Oyly and the Reviewer evinced a most
+                    intimate acquaintance; and although his reply displayed much ingenuity, no skill
+                    could evade, far less destroy, the force of some of the criticisms. The truth
+                    is, the allegorical theory which he undertook to establish was taken at
+                    secondhand from the work of Dupuis; and although the author, notwithstanding all
+                    the errors charged against him, brought great stores of learning and erudition
+                    to bear upon it, yet the absurdities to which it leads are so glaring, and the
+                    consequences which follow from it are so pernicious, that it is surprising Sir
+                    William Drummond should not have foreseen the one, or been prudent enough not to
+                    hazard the other. The preface, too, though beautifully written, contains
+                    observations which nothing can excuse, and irreverences so gross as even to
+                    shock persons the least scrupulous about subjects of religion. The profane joke
+                    about veal cutlets is worthy only of Mr Thomas Paine, and fit to appear in no
+                    work where the ordinary humanities of taste and reason are duly observed.</p>
+                <p>In 1818 Sir William Drummond published, experimentally we believe, the first part
+                    of a poem entitled <hi rend="italic">Odin,</hi> 4to, the object of which was to
+                    embody in verse some of the more striking features of the Scandinavian
+                    mythology. The poem, however, did not succeed in attracting public attention,
+                    which was then almost exclusively fixed on some of the great masters of song,
+                    whose deep voice of inspiration filled the land; and although it contained
+                    passages of very considerable power and beauty, it fell into almost immediate
+                    oblivion.</p>
+                <p>But the work on which the reputation of Sir William Drummond as a scholar and
+                    antiquary must chiefly rest, is his <hi rend="italic">Origines,</hi><hi
+                    rend="italic">or Remarks on the Origin of several Empires, States, and
+                    Cities,</hi> in 3 vols. 8vo. The first volume, embracing the origin of the
+                    Babylonian, the Assyrian, and the Iranian empires, appeared in 1824; the second,
+                    which is wholly devoted to the subject of Egypt, including the modern
+                    discoveries in hieroglyphics, came out in 1825; and the third, which treats of
+                    the Phoenicians and Arabia, was published in 1826. It would be exceedingly
+                    difficult, by a general statement, or by critical observations apart from
+                    details, to convey an accurate idea of the real character and merits of this
+                    work; which, with much that is strained, exaggerated, or defective, to say
+                    nothing of errors into which the author iŝ sometimes betrayed by the excessive
+                    refinements of an ever active ingenuity, is in several respects one of the most
+                    remarkable productions of modern times. A principal feature of the <hi
+                    rend="italic">Origines,</hi> though certainly the least obtrusive, is, that here
+                    the author labours quietly to build up and fortify the authority of the
+                    historical books of the Old Testament, which, in the <hi rend="italic"
+                    >Oedipus</hi><hi rend="italic">Judaicus,</hi> he had (probably without intending
+                    it) contributed to impair, if not to pull down: whilst by concentrating, as it
+                    were, into one focus the various scattered lights of tradition, history,
+                    philosophy, science, etymology, and archaeology, he has contrived to illuminate
+                    many of the darkest passages in the records of the ancient world; to dispel no
+                    inconsiderable portion of the obscurity which overshadowed the origin and annals
+                    of the great empires of antiquity; and, even in the merest archaeological
+                    discussions, to interweave incidental illustrations, alike curious in
+                    themselves, and valuable to the scholar, the theologian, and the antiquary. Upon
+                    this work, therefore, as on a fixed and enduring pedestal, the fame of Drummond
+                    as a scholar must in a great measure rest. Besides its other great and singular
+                    merits, it has that which indeed is peculiar to almost all Drummond’s works, of
+                    being written in a pure, chaste, classical style, full of vivacity and vigour,
+                    and sometimes even rising into a rich and lofty strain of eloquence. The
+                    dialogue between Neomathes and Philo-thoth, in the second volume, where the one
+                    impugns and the other defends the astronomical and mathematical skill of the
+                    ancient Egyptians, may be instanced as a specimen of the grace, elegance, and
+                    force of Drummond’s style, when it flows in a continuous stream, unbroken by the
+                    projecting corners and edges of a hard and rugged erudition.</p>
+                <p>Sir William Drummond’s appreciation of the modern discoveries in hieroglyphics (a
+                    subject to which three consecutive chapters of the second volume are devoted)
+                    <pb break="no" facs="nls:193325943" xml:id="kp-eb0708-5943-0216"/> is, in
+                    general, sound and discriminating; and he foresaw sooner than almost any one
+                    else, that the powers of the phonetic alphabet, as an instrument of discovery,
+                    would be found to have been greatly over-rated. In a letter, dated Naples, 27th
+                    ∕lpril 1827, and addressed to the author of this imperfect notice, he very
+                    distinctly shows how fully he had estimated the difficulty which Μ. Champollion
+                    had overlooked, and which now appears to be nearly, if not altogether
+                    insuperable. “That Μ. Champoilion’s system is accurate to a certain extent,”
+                    says he, “I admit; and his discoveries do him great honour. Whether he be right
+                    in all the details of his system is another question. He establishes the
+                    existence of a very great number (I forget the precise number) of phonetic
+                    hieroglyphs;<note anchored="true" place="bottom" type="authorial"><p>About <hi
+                    rend="italic">α hundred and forty</hi><hi rend="italic">;</hi> whilst, even by
+                    the lowest estimate, the total number of hieroglyphs on the monuments exceeds
+                    <hi rend="italic">eight hundred.</hi></p></note> and to these, he says, are to
+                    be traced all the characters of the running hand, which he reads with so much
+                    ease. Now I cannot help observing, that where there are so many signs to
+                    represent each alphabetical letter, and where consequently there must have been
+                    various contractions for each of these signs in the running hand, the task of
+                    learning all these contractions without the aid of a master, and of accurately
+                    referring them to their prototypes, must be immense. In Sanscrit there are
+                    fifty-two letters, and yet there are above eight hundred contractions. To refer
+                    these Sanscrit contractions to their original letters is not always very easy;
+                    but the difficulty in Egyptian must have been much greater, in which language
+                    the phonetic characters, and consequently the contractions, arc far more
+                    numerous.” Here we have the germ of those principles which, developed and
+                    applied by Klaproth to the values of characters as set down by M. Champollion,
+                    have made terrible havoc of his discoveries, and left him at last little more
+                    than what he took without acknowledgment from Dr Young.</p>
+                <p>Of Sir William Drummond in his public capacity we are not prepared to speak with
+                    any degree of confidence, having little knowledge of his services as a
+                    diplomatist, or of his capabilities for acting in that character. The habit of
+                    his mind was a cautious or rather tentative boldness, accompanied with
+                    perseverance, yet tempered with a conciliating blandness of disposition, and an
+                    amenity of manners, native to his character; and it is to be presumed that this
+                    prevailing tendency showed itself in the conduct of affairs, as well as in
+                    abstract or speculative pursuits. In 1808, we find him, whilst resident at the
+                    court of Palermo, ostensibly embarked in a scheme for securing the regency of
+                    Spain, which had then just risen in arms to throw off the yoke of France, to
+                    Prince Leopold of Sicily. As might have been expected, the project misgave at
+                    the very commencement, and Sir William Drummond has not escaped censure for the
+                    part he had in it. “Sir William Drummond, the British envoy at Palermo, Mr
+                    Viale, and the Duke of Orleans,” says Colonel Napier,” were the ostensible
+                    contrivers of this notable scheme, by which, if it had succeeded, a small party
+                    in a local junta (that of Seville) would have appointed a regency for Spain,
+                    paved the way for altering the laws of succession in that country, established
+                    their own sway over the other juntas, and created interminable jealousy between
+                    England, Portugal, and Spain; but with whom the plan originated does not very
+                    clearly appear. Sir William Drummond’s representations induced Sir Alexander
+                    Ball to provide the ship of war, nominally for the conveyance of the Duke of
+                    Orleans [now king of the French, who had made no secret of his intention to
+                    negociate for the regency of Spain], but in reality for Prince Leopold, with
+                    whose intended voyage Sir Alexander does not appear to have been made
+                    acquainted. That the prince should have, desired to be regent of Spain was
+                    natural; but that he should have been conveyed to Gibraltar in a British ship of
+                    the line, when the English government disapproved of his pretensions, was really
+                    curious. Sir William Drummond could scarcely have proceeded such lengths in an
+                    affair of so great consequence, without secret instructions from some member of
+                    his own government; yet Lord Castlereagh expressed unqualified approbation of
+                    Sir Hew Dalrymple’s decisive conduct upon the occasion.” (Napier’s <hi
+                    rend="italic">History of the Peninsular War,</hi> vol. i. p. 177.) In politics
+                    Sir William Drummond appears to have known his ground well, and to have given
+                    entire satisfaction to the governments which employed him, at periods of no
+                    ordinary difficulty, in transacting affairs of the greatest importance.</p>
+                <p>Such is an imperfect outline of the literary and political character of this
+                    distinguished person. In private life he was a man of modest, retiring,
+                    unobtrusive manners, perfectly unconscious that he differed from or had any
+                    claims to distinction superior to the most ordinary and commonplace person who
+                    fell in his way. Throughout his whole life he was a close and assiduous student,
+                    often preferring the company of his books to the promiscuous and frivolous
+                    intercourse of company; and hence he was sometimes considered as eccentric, if
+                    not cold, distant, and haughty, by those who neither knew nor could sympathise
+                    with the habits which are gradually formed by a studious and contemplative life;
+                    habits which continue unconsciously to grow upon men whose days and nights are
+                    devoted to the pursuit of knowledge. But he was, nevertheless, one of the
+                    kindest, mildest, and most generous and humane men that ever existed. To his
+                    tenants and dependents he was indulgent even to the injury of his own private
+                    fortune; to his friends he was most stedfastly and fervently devoted. In him
+                    rising merit was always sure to find a ready and active patron; and not a few
+                    individuals have owed their establishment and success in life to the
+                    circumstance of having attracted his notice, or of being pointed out to him as
+                    deserving of support or encouragement. Latterly, owing to the precarious state
+                    of his health, which made it necessary for him to resort to a warmer climate, he
+                    resided almost constantly abroad; chiefly, we believe, at Naples, where he
+                    continued to indulge in those learned pursuits which formed the main solace and
+                    delight of his life, <hi rend="smallcaps">(a.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

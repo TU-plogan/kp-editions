@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0716-0661-0292-06" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">NUBIA</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 16, page 292</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="23" ref="lcsh1910:b4319s59c">Foot</term>
+                    <term n="12" ref="lcsh1910:b4kk94g6z">Rocks</term>
+                    <term n="12" ref="lcsh1910:b4b27pz6r">Pillars</term>
+                    <term n="9" ref="lcsh1910:b4513v11w">Water</term>
+                    <term n="9" ref="lcsh1910:b47s7ht9n">Walls</term>
+                    <term n="3" ref="lcsh1910:b4p26qc7r">Turks</term>
+                    <term n="3" ref="lcsh1910:b4513v00z">Travelers</term>
+                    <term n="3" ref="lcsh1910:b4rr1pw5q">Travels</term>
+                    <term n="3" ref="lcsh1910:b49p2wf9z">Travel</term>
+                    <term n="2" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="23" ref="fasttopic:931268">Foot</term>
+                    <term n="12" ref="fasttopic:1099409">Rocks</term>
+                    <term n="9" ref="fasttopic:1171139">Water</term>
+                    <term n="9" ref="fasttopic:1170190">Walls</term>
+                    <term n="8" ref="fasttopic:896894">Doors</term>
+                    <term n="7" ref="fasttopic:1039865">Nubians</term>
+                    <term n="3" ref="fasttopic:1159574">Turks</term>
+                    <term n="3" ref="fasttopic:1155691">Travelers</term>
+                    <term n="3" ref="fasttopic:1155558">Travel</term>
+                    <term n="3" ref="fasttopic:1355164">Travels</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="33" ref="fastgeo:1208755">Egypt</term>
+                    <term n="5" ref="fastgeo:1205830">Ethiopia</term>
+                    <term n="4" ref="fastgeo:1239509">Africa</term>
+                    <term n="1" ref="fastgeo:1210276">India</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194560661" type="entry">
+                <p><label type="entry">NUBIA</label>, an extensive country of Africa, bounded on the
+                    north by Egypt, on the south by Abyssinia, on the east by the Red Sea, and on
+                    the west by the great Libyan desert. It is difficult to fix the precise limits
+                    and extent of this vast region, which will be variously estimated, according as
+                    we confine Nubia to the mere valley of the Nile between the first cataract and
+                    Meroë, or take into the account, as ought certainly to be done, the adjacent
+                    desert. There is, in fact, no principle of unity according to which it can be
+                    described as a whole; but, looking rather to the country itself than to any
+                    arbitrary definition or limitation, it may be considered as included between the
+                    thirteenth and twenty-fourth degrees of north latitude, and the thirty-third and
+                    thirty-sixth degrees of east longitude, and consequently as having a superficial
+                    area of not less than 360,000 square miles.</p>
+                <p>With the exception of the immediate banks of the Nile, which are rendered
+                    partially productive by laborious irrigation, Nubia consists almost entirely of
+                    rocky and sandy deserts. From the southern boundary of Egypt to Derr, the
+                    capital of Lower Nubia, the mountains press so closely upon the river, that
+                    there is but little ground upon either side for the purposes of agriculture; and
+                    the small portion which is capable of being cultivated appears to be
+                    diminishing, from the gradual encroachment of the sands, which the winds of the
+                    desert carry towards the stream. The peculiar structure of the valley through
+                    which the Nile here forces a passage, renders it obvious that there could not at
+                    any period have been a very dense population <hi rend="subscript"> ι</hi> in
+                    this part of Nubia. But farther up the river, beyond the <pb break="no"
+                    facs="nls:194560674" xml:id="kp-eb0716-0674-0293"/>parallel of Wady Halfa, there
+                    is ample space for the powerful nations which are said to have flourished here
+                    in ancient times. At the second cataract immense plains stretch out from either
+                    margin of the stream, exhibiting, it is said, even in their present neglected
+                    condition, unequivocal indications of fertility; and as there seems to be little
+                    doubt that, in former ages, the annual inundation extended considerably beyond
+                    the limits of modern cultivation, so it may reasonably be presumed that,
+                    anciently, the country was much more productive and populous than in modern
+                    times, when the decrease of the inundation, and the continual encroachment of
+                    the moving sands on the side both of the Nubian and the Libyan deserts, have
+                    combined to produce the desolation which now prevails. At present the Nile
+                    seldom or never overflows its banks in this part of Nubia; and the portion of
+                    the soil cultivated is irrigated by means of <hi rend="italic">sakkeas</hi> or
+                    Persian wheels, constructed for raising the water of the river to the level of
+                    the adjacent ground. The eastern bank of the Nile is much better adapted for
+                    cultivation than the western, being more easily irrigated by artificial means.
+                    But it is not a little remarkable, that all the splendid ruins for which this
+                    region is distinguished, and which exhibit so great labour, ingenuity, and
+                    skill, are found upon the opposite bank; a circumstance which seems to
+                    strengthen the presumption that Nubia was formerly much more fertile and
+                    populous than in the present day.</p>
+                <p>The country on the banks <hi rend="italic">of</hi> the Nile is divided into a
+                    number of little independent principalities, each governed by its own <hi
+                    rend="italic">melek</hi> or chief. But, taken as a whole, it is composed of two
+                    parts; Wady Kenous, and Wady Nouba. The former extends from the confines of
+                    Egypt on the south to Wady Seboua; and the latter, from which the general name
+                    of the country appears to have been derived, stretches as far as the frontier of
+                    Dongola. The chief distinction between these two parts consists in the
+                    circumstance, that the languages spoken in each are entirely different. The
+                    governors of the various districts are described as ferocious and arbitrary in
+                    their proceedings; rude in their treatment of strangers, whom they regard with
+                    suspicion; and addicted to most of the vices which are common amongst
+                    barbarians. They acknowledge a nominal subjection to the viceroy of Egypt, but
+                    seldom neglect any opportunity .that offers of setting his authority at nought.
+                    Still, under the safeguard of his firman, Europeans may travel as far as Ibrim
+                    (the ancient <hi rend="italic">Prim mis')</hi> in perfect safety; but, beyond
+                    that point, they must lay their account with being exposed to the vexations and
+                    dangers usually incurred in visiting barbarous countries, especially in Africa.
+                    In the marauding, slave-hunting expedition of Ismael Pasha in 1821, the
+                    treatment which the natives everywhere experienced has had the effect of
+                    exasperating and confirming the hostility of all the tribes who inhabit the
+                    upper parts of Nubia; nor is it likely that the remembrance of the wanton
+                    aggression which was then made upon them will soon be effaced from their
+                    memories. Each of the Nubian sheicks pays an annual tribute to the viceroy of
+                    Egypt; or rather a certain sum is extorted as an acknowledgment of subjection,
+                    and the price of an immunity from a visit by the viceroy’s troops.</p>
+                <p>The grain which forms the principal object of Nubian cultivation is dhourra, the
+                    <hi rend="italic">holcus arundinaceus</hi> of the botanists. It is raised upon
+                    the patches of soil irrigated by means of the sakkeas or Persian wheels, of
+                    which there are from six to seven hundred between the first and second
+                    cataracts; and, when ground, it is formed into a cake somewhat resembling the
+                    Abyssinian <hi rend="italic">teff.</hi> But as the people have no mills of any
+                    kind wherewith to grind it, this is usually effected by placing the grain in
+                    small quantities upon a large stone, and rubbing a smaller one over it until it
+                    is reduced to a sort of flour. If it be intended to produce bread of a superior
+                    quality, the dhourra is well washed, and then dried in the sun. But in general
+                    the people do not take this trouble; and the meal produced by their rude mode of
+                    grinding resembles a paste of the coarsest kind, mixed with chaff, sand, and
+                    dirt. It is usually placed in an earthen jar, and there left to ferment during
+                    twenty-four or thirty hours, after which time it acquires a subacid taste. No
+                    leaven is formed. A portion of the fermented pulp is merely poured upon an iron
+                    plate or stone placed over a fire, and in a few minutes it is baked into a cake;
+                    and this is repeated till the whole be baked. Cakes are usually brought hot to
+                    table, in a wooden bowl, with onion sauce, broth, milk, or butter poured on
+                    them; but some of a thinner kind, and well toasted, are prepared for the use of
+                    the caravans, and may be kept without being spoiled for several months. After
+                    the dhourra, the Nubians raise a crop of barley, French beans, lentils, and
+                    sometimes also of water-melons. Tobacco is everywhere cultivated, and
+                    constitutes the principal luxury of all classes, being either smoked, or sucked
+                    in a peculiar manner between the gums and the lip. Animal food is scarce, and
+                    seldom eaten, even by the chiefs or sheicks. The liquors used are palm wine, a
+                    spirit distilled from dates, and a sort of beer called <hi rend="italic"
+                    >bouza,</hi> which is made from dhourra. Excessive indulgence in these liquors
+                    is general throughout the whole country. The only fruit trees cultivated in
+                    Nubia are palms, but the soil is adapted for several others. Great sameness
+                    prevails in the vegetation of the desert, the trees being mostly acacias,
+                    tamarix, date, and domm palms.</p>
+                <p>The climate of Nubia, though intensely hot in summer, is nevertheless remarkably
+                    healthy. This is no doubt a consequence of the extreme dryness of the
+                    atmosphere, occasioned by the absence of rain, and the absorbent qualities of
+                    the soil. The plague has seldom or never reached Wady Halfa, and beyond the
+                    second cataract it is entirely unknown. The small-pox, however, , is a fearful
+                    scourge, and, owing to the ignorance and filthiness of the people, occasionally
+                    commits dreadful ravages. The houses of the Nubians are constructed of mud or of
+                    loose stones. The mud huts are roofed with dhourra stems or palm leaves, which
+                    in this climate are found to be a sufficient covering. The houses which are
+                    built of stones, being for the accommodation of the better class of inhabitants,
+                    commonly consist of two compartments, one for the male and the other for the
+                    female members of the family. The utensils of a Nubian household are few and
+                    wretched; half a dozen coarse earthen jars, some earthen plates, two stones for
+                    grinding dhourra, and a few round sticks, usually constituting their whole
+                    stock. From this an idea may be formed of the miserable condition of the
+                    inhabitants, as compared with those of any other country, Egypt only
+                    excepted.</p>
+                <p>Still the Nubians are generally well made, strong, and muscular, and have
+                    tolerably good features. The women are not handsome, but perfectly well formed,
+                    and in general remarkable for agreeable countenances and pleasing manners. They
+                    are also modest and reserved, and strictly observant of their conjugal duties.
+                    The domestic employments of the women consist chiefly in weaving coarse woollen
+                    mantles, cotton cloth for shirts, and mats of the date leaves; they also make
+                    drinking-bowls, and plates for containing the dhourra bread. A linen cap and a
+                    woollen cloth or mantle constitute the dress of the rich. The women usually wrap
+                    themselves in black woollen gowns; but children of both sexes run about quite
+                    naked. In ascending the Nile to Sukkat and Mahas, the dress becomes more and
+                    more scanty, and at length almost entirely disappears. The Nubians are seldom
+                    seen unarmed; indeed the first purchase made by a boy is that of a short crooked
+                    knife, which being fastened at the left elbow, is ready to be drawn on the
+                    slightest quarrel. Fire-arms are not common, and ammunition is very scarce. The
+                    inhabitants of the two divisions of Nubia, Wady Kenous and Wady Nouba, are
+                    almost constantly engaged in sanguinary quarrels; and when <pb break="no"
+                    facs="nls:194560687" xml:id="kp-eb0716-0687-0294"/>death ensues, as is not
+                    unfrequently the case, the family of the deceased may either demand the price of
+                    blood, or retain the right of retaliation, which may be enforced against the
+                    brother, son, or first cousin of the murderer, at the option of the avenger. The
+                    consequence of this is, that when a death has occurred in any of these quarrels,
+                    a whole family is often obliged to leave the country. Great numbers of the
+                    Nubians repair to Cairo, where they usually act as porters, and are esteemed for
+                    their honesty; but they always return to their native villages with the little
+                    property which they have saved in plying their humble vocation. The inhabitants
+                    of Derr-el-Mahas and the more southerly districts differ considerably from the
+                    other Nubian tribes. Their houses are constructed only of palm leaves, fastened
+                    to high poles, the extremities of which rise considerably above the roofs. The
+                    countenances of the people are much less expressive of good nature than in the
+                    lower parts of the country, and their character corresponds with this difference
+                    of expression. In colour they are perfectly black, and their lips are thick like
+                    those of the negro, but they have not the same flat nose and high cheek-bones. A
+                    number of the men, and even girls who have attained womanhood, go about quite
+                    naked. Burckhardt has described the king of the Mahas as a mean vulgar-looking
+                    black, attended by some half dozen naked slaves, armed with shields and lances.
+                    Mahas is the nearest place in the country of the blacks, from which slave
+                    traders proceed to Cairo, a distance of abouta thousand miles.</p>
+                <p>There is another part of Nubia which is well deserving of particular notice; we
+                    mean the vast tract of country extending from the Nile to the Red Sea, between
+                    the parallels of 23° and 15° of north latitude. Modern travellers have
+                    penetrated this extensive region only by one line, namely, that which is
+                    followed by the Nubian caravans proceeding from Egypt to Sennaar. It is
+                    described as throughout a complete desert, without even a single fixed
+                    habitation, but interspersed with <hi rend="italic">wadys</hi> or valleys,
+                    producing some trees, shrubs, or grass, and usually containing a few wells or
+                    rills, which are resorted to by the wandering Arabs, and also by the caravans,
+                    for a supply of water. The want of this important article forms the chief danger
+                    attending the journey; but if due precautions be taken, and the water-bags be
+                    properly filled at the wells, travellers can never be reduced to a state of
+                    great suffering, as many days seldom elapse without the means of obtaining a
+                    supply. Burckhardt, after having passed through the deserts of Suez and Sinai,
+                    did not consider this tract as quite so dreary, although its aspect is much more
+                    rugged, being in general hilly. At the southern extremity of this desert,
+                    through which roam the Bishareen tribes, is the district of Berber, consisting
+                    of four large villages, the inhabitants of which are chiefly employed in
+                    carrying on the trade of Egypt and Arabia with the interior of Africa. The
+                    people are a very handsome race, of a reddish-brown colour; which, if the mother
+                    be a slave from Abyssinia, becomes a light brown, but if from the negro
+                    countries, extremely dark, indeed almost black. The men are somewhat taller than
+                    the Egyptians, and also better ]imbed, and more muscular. Their features bear no
+                    resemblance to those of the negro; the face being oval, the nose often perfectly
+                    Grecian, and the cheek-bones by no means prominent. They consider themselves as
+                    Arabs, not negroes, and are very careful in maintaining the purity of their
+                    race. A free-born Meyrefab never marries a slave, whether Abyssinian or negro,
+                    but always an Arab girl belonging· to his own or to some neighbouring tribe. Few
+                    men have more than one wife; but every one who can afford it keeps a female
+                    slave or mistress, either in his own or in a separate house; and traders passing
+                    through Berber usually take a mistress during the period of their stay in the
+                    district. Drunkenness is the constant companion of this debauchery; and these
+                    dissolute habits produce the most pernicious effects on the morals and conduct
+                    of the people, Their character indeed is deformed by every degrading and
+                    debasing vice; they are noted for treachery and dishonesty; in the pursuit of
+                    gain they are restrained by no principle, breaking without scruple the most
+                    solemn engagements; and in transactions amongst themselves they commonly
+                    terminate every dispute by the law of the strongest. Quarrels are frequent and
+                    violent at drinking parties, and mostly end in bloodshed either with the knife
+                    or the sword. The principal scenes of these disorders are the <hi rend="italic"
+                    >bouza</hi> huts, which are kept by women of infamous character, by whom the
+                    liquor is also manufactured. Indeed no one ventures to enter one of these
+                    without his sword, and several persons of distinction have been killed in them.
+                    In a word, it is marvellous that a people so completely abandoned to the
+                    dominion of the most brutal passions have not long since been consumed by their
+                    own vices. Another part of this territory is the district of Taka, inhabited by
+                    the Bishareen Arabs. It is comparatively populous and fertile, differing in many
+                    respects from the other parts of Nubia; and through it passes the road to
+                    Souakin, followed by Burckhardt, the first who made us acquainted with Taka.</p>
+                <p>The government of Nubia, like that of Egypt, is essentially military. The
+                    officers, all of whom are Turks, decide every question connected with the
+                    revenues, and frequently interfere, in other affairs, with the decisions of the
+                    cadis or civil judges. The system of the government is to extort from the
+                    peasant the utmost possible amount in the shape of taxes, leaving him only what
+                    is considered a sufficient subsistence, which, as might be expected, isusuallya
+                    most miserable one. In some places, indeed, if the peasants did not actually
+                    steal from their own fields, they could not exist; and although they bury their
+                    grain under ground, and by various other methods deceive their oppressors, yet
+                    numbers perish from the want of sufficient sustenance and clothing. A vast
+                    proportion of the peasants subsist on food which is more calculated for cattle
+                    than human beings; and even of this, bad as it is, they have rarely enough. The
+                    pasha has power enough to keep them, in subjection, and by his extortions fills
+                    his coffers. He not only imposes enormous taxes on every article of produce, but
+                    obliges the people to cultivate whatever he chooses, and to take the price which
+                    he offers for the produce. He is the only purchaser of the grain, cotton, and
+                    indigo, the gum of Kordofan, ostrich feathers, and other articles. Slaves are
+                    almost the only commodity which the merchants are allowed to take in exchange
+                    for the manufactures which they carry to Kordofan and Sennaar; and even the wild
+                    animals of the desert, as the giraffe, form a government monopoly. The pasha is
+                    also the landlord or proprietor of this immense region; and the people are his
+                    slaves. His revenues are derived not only from the regular taxes, but likewise
+                    from his profits as a merchant, which are enormous, owingtothe low rate at'which
+                    he pays the peasants for their produce, compared with the high price at which he
+                    afterwards sells it to Europeans. This source of gain, however, is greatly
+                    diminished by the roguery of the different officers through whose hands the
+                    various commodities pass. From the highest to the lowest there is no exception
+                    in this respect; mabmours, nayrs, kiachefs, ’ caimacans, and mallums or Coptic
+                    accountants, all concur in diminishing the amount, and sharing the plunder·of
+                    the unhappy peasantry. The Copts employed in this department not only cheat the
+                    ignorant Turks, who generally cannot read their accounts, but often trade with
+                    the money of the treasury, and sometimes incur losses they are unable to make
+                    good; on which account numbers of them are always immured in the prisons of the
+                    viceroy.</p>
+                <p>But the peasants in Upper Nubia are free from these exactions, and therefore
+                    comparatively happy. It is no doubt true, that, instead of one dollar· in money,
+                    two pieces <pb break="no" facs="nls:194560700" xml:id="kp-eb0716-0700-0295"/>of
+                    linen cloth, and a sheep, which was all they paid their ancient meleks, they are
+                    now obliged to pay fifteen dollars in cash and five in grain, being in all three
+                    hundred piastres, or ten times the amount of their former contributions; and
+                    they are likewise obliged to work instead of sleeping during the greater part of
+                    the day, as was formerly their custom when under their own chiefs. But the man
+                    who is at all industrious may nevertheless earn what is amply sufficient to
+                    afford him food, and such dress as he has been accustomed to. Each sakkea or
+                    Persian wheel is sufficient to water three quarters of a feddan of land, planted
+                    with indigo; and each feddan, when carefully irrigated, produces a hundred
+                    cantars of the herb, and sometimes more, being about seventy-five cantars for
+                    the extent of land which one wheel will water. The government pay the peasant
+                    !2∣ Egyptian piastres for each quintal, or 937 piastres for the whole; which, at
+                    the current rate of the dollar in this country (fifteen piastres), is equal to
+                    62½ dollars. If from this we deduct twenty dollars for the duty, there remains
+                    for the persons to whom the wheel belongs 4&gt;2½ dollars, or 637 piastres; but
+                    as the calculation here made is at the lowest rate, two piastres a day may
+                    fairly be estimated as the clear gain of the peasantry by each water-wheel. This
+                    sum, small as it may appear, is sufficient for the support of one fiunily,
+                    provided it contain five persons capable of putting their shoulders to the
+                    wheel; if it do not, however, two families must unite to make up this number.
+                    The immense expense of the water-wheel forms a great deduction from the gain of
+                    the peasant in Egypt; but in Nubia they are so much more simple that they cost
+                    only a trifling sum, as oxen may be obtained for thirty piastres each, whilst
+                    their “keep” is next to nothing. Two piastres, or sevenpence sterling, may
+                    appear a very small sum to a European; but in this country, where every
+                    necessary is so cheap, it is amply sufficient for the support of a family, in
+                    both divisions of Egypt, where bread is much dearer, and meat and milk are
+                    double the price, the fixed remuneration of a labourer amounts to only half a
+                    piastre per day, with which he has to sustain himself and perhaps a family. But
+                    in Nubia most of the peasants have slips of land watered by the partial
+                    inundation of the river, and gain considerably by their date trees, although
+                    they pay a tax of a piastre for each. They also rear flocks; cultivate
+                    vegetables, particularly bamia-and malakhia; and make linen, spirit, bouza, and
+                    other articles. The condition of the peasants of Upper Nubia is therefore happy,
+                    compared with that of the Fellaheen of Egypt, the most oppressed and degraded
+                    population in the world.</p>
+                <p>The Arabs of the desert have still more reason to be satisfied with the
+                    government. They pay tribute only for the land they cultivate, which is in
+                    general very little, and in many cases none at all; and otherwise they gain a
+                    sufficient livelihood by transporting to Egypt on their camels the grain
+                    collected as revenue, or purchased by the government, and by aiding the passage
+                    of troops and merchants, which is now unintermitted. As far as regards taxes,
+                    and the means of subsistence, therefore, the Arabs of the desert in Upper Nubia,
+                    as well as the peasants on the Nile, are in a much better condition than the
+                    Fellaheen of Egypt. But in all other respects they are equally galled and
+                    insulted by their Turkish rulers. In Egypt, the officers only are oppressive,
+                    and the soldiers, who mostly belong to the class of Fellaheen, are not insolent.
+                    In Nubia, however, it is far otherwise. The comparatively white complexion of
+                    the troops, their character as conquerors, and their pride <hi rend="italic
+                    smallcaps"> ŭs</hi><hi rend="italic">askaria</hi> (soldiers), induce them to
+                    despise the natives, and exercise oppressions which the government by no means
+                    authorizes. When the chief governor of a province is a man possessed of talent,
+                    energy, and firmness of character, the officers and soldiers are prevented from
+                    committing many excesses. But when the country has the misfortune to be governed
+                    by an individual destitute of the qualities we have mentioned, and too timid to
+                    redress the grievances occasioned by the disorderly conduct of the troops, its
+                    state may easily be imagined. Every evil is then aggravated by impunity. Men
+                    whose ancestors have been meleks or chiefs in the country for ages, are obliged
+                    to submit to the insolence and tyranny of a lawless soldiery. Taxes oppressive
+                    in themselves are rendered tenfold more so by the mode in which they are levied.
+                    Every collection is a species of military execution. No proper notice is almost
+                    ever given. “Pay to-morrow, or the bastinado,” is the usual intimation conveyed
+                    to the peasant, who, not being allowed sufficient time to raise the money, is
+                    subjected to this cruel and degrading punishment, and sometimes nailed by the
+                    ear to a board. The revolt of the Mahas, described by Mr Hoskins, was occasioned
+                    by this summary mode of collecting some arrears of taxes.</p>
+                <p>Nubia, under proper management, might become a far greater source of wealth to
+                    the ruler of Egypt than it now is, or seems likely to be, under his sway. His
+                    system is one which is not only calculated to defeat its own objects in a fiscal
+                    point of view, but to exasperate the natives, whom good policy would try to
+                    conciliate, and also to sow the seeds of future anarchy and convulsion. At the
+                    same time, notwithstanding the galling conduct of the Egyptian authorities, the
+                    natives are sensible of the advantage of a firm and settled government; and the
+                    peasants of the Nile, in particular, are glad to be released from the tyranny
+                    and spoliation which accompanied the feuds and petty wars by which the country
+                    was formerly distracted. “Did the Turks,” says Mr Hoskins, “but treat them as
+                    men, and not disgust them by their insulting manners, and by inflicting on them
+                    such degrading and infamous punishments; had their rulers but a few ideas of
+                    common policy and legislation; the resources [of the country] might be greatly
+                    augmented, the revenue increased, and the people the most happy and contented
+                    under the sun. The superiority which fire-arms afforded to their haughty
+                    conquerors taught them to despise the strength of the Arabs; and, with that
+                    insolence which is ever united with ignorance, they do not, in the slightest
+                    degree, endeavour to attach them to the government, or, in fact, condescend to
+                    treat, otherwise than as a vastly inferior race, the people whom it cost them so
+                    much, with all their advantages, to conquer.”<note anchored="true"
+                    place="bottom" type="authorial"><p>Hoskins, Travels in Ethiopia, pp. 230,
+                    23G.</p></note></p>
+                <p>The chief trade of Nubia, as already mentioned, consists in slaves imported from
+                    the interior of Africa, and either conveyed northwards to Egypt, or sent across
+                    the Red Sea from Souakin to Jidda. The annual import is estimated at about 5000,
+                    of whom 2500 are for Arabia, 1500 for Egypt, and 1000 for Dongola and the
+                    Bedouins of the mountains. Few of the slaves are above the age of fifteen; but
+                    the most valued are those between eleven and fifteen, who, if males, sell for
+                    fifteen or sixteen dollars, and if females, for twenty-five or twenty-six. In
+                    the East, slaves are chiefly employed as domestics, and people are seldom fond
+                    of any who have not been in the family from an early age. These children, as
+                    long as they remain within the negro territories, are treated with great
+                    indulgence; but when they once enter the desert, and have no longer any chance
+                    of escape, this treatment is entirely changed, and the lash unsparingly applied.
+                    The health of the slave, however, is always attended to; he is regularly fed,
+                    and receives a share of water with his master. Dates, gums, and ostrich feathers
+                    are also exported; as are senna leaves, ebony, sandal-wood, <pb break="no"
+                    facs="nls:194560713" xml:id="kp-eb0716-0713-0296"/>and some other articles,
+                    though in small quantities. Gold is found in mines, and amongst the river sands,
+                    but not in such abundance as to form any considerable article of exchange.</p>
+                <p>One of the most remarkable features of this region consists in the magnificent
+                    monumental remains with which it is covered along the line of the stream, and
+                    which continue to perpetuate the genius and power of the ancient population of
+                    the country situated on the Upper Nile. That Egypt was indebted to Ethiopia
+                    (which included Nubia) for the rudiments, and perhaps even for the finished
+                    patterns, of architectural skill, is no longer questioned by any writer whose
+                    pursuits have qualified him to form a judgment of the subject. Gau, in his
+                    splendid work on Nubia, maintains it as a first principle, that this country was
+                    the cradle of Egyptian architecture; and its monuments embrace the whole period
+                    during which the art flourished in the valley of the Lower Nile. He conceives
+                    that all the architecture of Egypt, from the first rude effort to cut a temple
+                    in the rock, to the construction of those detached edifices which were
+                    afterwards erected in the times of the Greeks and Romans, has its types in the
+                    structures of Nubia. Hence, in the architectural history of that country, he
+                    distinguishes three great epochs; the first comprehending the temples cut in the
+                    sides of the hills or rocks, which are evidently the most ancient; the second,
+                    those which are detached from the chambers cut in the rock, but still retain the
+                    colossal masses of the primitive type; and the third, the small edifices of
+                    Maharraga, Gartaas, and Dondour, with several analogous structures in Egypt.
+                    This classification appears to be perfectly natural and well founded, inasmuch
+                    as the only test of the relative antiquity of such monuments is a reference to
+                    the comparative simplicity of their structure or formation. It is upon this
+                    principle, therefore, that we shall now proceed to describe very shortly, some
+                    of the principal temples and other edifices in Nubia.</p>
+                <p>At Gibel-el-Birkel, Waddington discovered two temples excavated in the solid
+                    rock, and having only their exterior chambers formed of masonry; circumstances
+                    in which they resemble those of Girshé, Seboua, and Derr. The smaller of the two
+                    has six halls or apartments, five of which are cut in the body of the mountain;
+                    the larger, constituting the entrance, stands on an artificial foundation of
+                    stone, by means of which it is raised as high as the rock in which the other is
+                    excavated. Near the adytum there are figures of Ammon and of Horus; and vestiges
+                    of hieroglyphics may be discerned in all the chambers. From the plainness of the
+                    masonry, the rudeness and decay of the sculptures, and the decomposition of the
+                    walls, it has been concluded that this is older than any of the temples of
+                    Egypt, or even of Nubia. The temple of Girshé also belongs to the more simple
+                    order of structures, and indicates a rude state of the arts connected with
+                    architecture. The porticoconsists of five square columns on each side, cut out
+                    of the rock, with a row of circular pillars in front, constructed of several
+                    blocks, and originally surmounted with an entablature, though only two of them
+                    now remain. Before every one of the square columns stands a colossal statue of
+                    sandstone, eighteen feet in height, holding a lash or flail in one hand, and the
+                    other hanging down; the figure of each is that of a male, with the pointed beard
+                    under the chin, the high sphinx-cap on the head, and the shoulders covered with
+                    hieroglyphical inscriptions. On both sides of the porticothere is an open alley,
+                    which is hewn in the rock. The pronaos, eighteen yards square, is entered from
+                    the portico and contains two rows of immense columns without capitals, in front
+                    of each of which there is a colossal figure, more than twenty feet in height,
+                    with the hands crossed on the breast, and holding the flagellum in one, and the
+                    handled cross, or emblem of life, in the other. On the side walls are four
+                    recesses or niches, in each of which are three statues of the natural size,
+                    representing the different figures, male and female, which are observed upon the
+                    walls <hi rend="italic">of</hi> the temples of Egypt. A door leads from the
+                    pronaos into the cella, in the middle of which there are two massive pillars,
+                    and, upon either side, a small apartment. Very little is now discernible of the
+                    sculpture and hieroglyphics with which the walls were covered; but enough
+                    remains to show that they were very rudely executed.<note anchored="true"
+                    place="bottom" type="authorial"><p>This is the same place which by other
+                    travellers is called Guerfch Hassan, or Gwersh Hassan, and is described with
+                    much minuteness in several of their works. (See Henniker, Notes, &amp;c. p.
+                    154.)</p></note> The ruined structure at Seboua has before it a propylon similar
+                    to that of Gournch at Thebés. The pronaos on each of its longest sides has five
+                    columns without capitals, and in front of each is a colossal figure, sixteen
+                    feet in height, with the arms crossed on the breast, and the usual emblems in
+                    the hands. Before the entrance there lies on the ground a huge statue, the head
+                    and bust of which are buried in the sand; and in front of the propylon are two
+                    statues, ten feet in height, with their faces towards the river, and attached by
+                    the backs to stone pillars of equal elevation. An avenue of sphinxes leads from
+                    the bank of the Nile to the temple, but the greater part of them are now buried
+                    in the sand, four only remaining visible. The whole fabric appears to be of the
+                    remotest antiquity, and has been imitated by the more modern architects of
+                    Egypt.<note anchored="true" place="bottom" type="authorial"><p>The propylon and
+                    pronaos are found, on a large scale, at Gournch, near Thebes; the two statues in
+                    advance of the propylon are the miniatures of those in front of the Memnonium;
+                    and the sphinxes are seen are Karnak.</p></note></p>
+                <p>But of all the rock temples of Nubia, that of Ebsamboul or Ipsamboul,<note
+                    anchored="true" place="bottom" type="authorial"><p>The name, as spelled by
+                    Belzoni, is <hi rend="italic">Ybsambul,</hi> whilst others write it <hi
+                    rend="italic">Ebsamboul</hi> and <hi rend="italic">Ibsamboul.</hi> But all these
+                    forms are probably corruptions of <hi rend="italic">Abou-Sambul,</hi> which
+                    appears to be the genuine name.</p></note><hi rend="superscript"> s</hi> about a
+                    day and a half’s journey below the second cataract, is incomparably the most
+                    remarkable. In the course of centuries the sand of the desert had so completely
+                    overwhelmed it, that nothing appeared to the eye of the traveller except the
+                    bust of one of the colossal figures which were placed at the front of the
+                    entrance. But the dimensions of this statue were so great as to excite the
+                    curiosity of all who examined it; and the countenance, when seen at a proper
+                    distance, appeared strikingly beautiful. Animated with a desire to explore the
+                    buried structure of which this statue formed an exterior ornament, a party,
+                    consisting of Mr Belzoni and Captains Irby and Mangles, with some attendants,
+                    undertook to remove the sand, so far at least as to ascertain whether there was
+                    a door-way, or any other access to the interior. At first they relied upon the
+                    assistance of the natives, who readily entered into terms with them; but the
+                    increasing fatigue, and an evident disinclination to the work, induced the
+                    Nubians to break their engagement, and the travellers had no resource but to
+                    complete the labour with their own hands. In the hot season of the year, and
+                    with a scanty supply of necessaries, they worked day by day in the sand, from
+                    sunrise till night; and at length, after more than three weeks of continued
+                    exertion, each performing the labour of about a dozen Nubians, a corner of the
+                    door-way became visible; and an entrance having been effected, the interior was
+                    explored, probably for the first time during a thousand years.</p>
+                <p>The first glance at the interior convinced Belzoni and his associates that it was
+                    evidently a very large structure; but their astonishment increased when they
+                    found it to be one of the most magnificent of temples, enriched with <pb
+                    break="no" facs="nls:194560726" xml:id="kp-eb0716-0726-0297"/> beautiful
+                    intaglios, paintings, and colossal figures. The pronaos, fifty-seven feet in
+                    length, and fifty in breadth, is supported by two rows of square pillars in a
+                    straight line from the front door to that of the sekos; and each pillar has
+                    attached to it a figure finely executed, and very little injured by time, the
+                    top of the head-dress reaching the ceiling, which is about thirty feet in
+                    height. Both the pillars and the walls are covered with representations of
+                    battles, storming of castles, triumphs, and sacrifices, in a style, if not
+                    superior to, at least bolder than, that of almost any in Egypt, both in regard
+                    to the design and the workmanship. The second hall, which is of less dimensions,
+                    contains four pillars about four feet square, and the walls are covered with
+                    hieroglyphics in tolerable preservation. Beyond this there is a chamber of the
+                    same width, but shorter, in which is the entrance to the sanctuary; and at each
+                    end is a door leading into smaller apartments in the same direction with the
+                    adytum. The sanctuary itself is twenty-three feet in length by twelve in
+                    breadth, and contains a pedestal in the centre, with four colossal figures in a
+                    sitting posture at the end, all in good order, and uninjured. On the right side
+                    of the great hall there are two doors at a short distance from each other, and
+                    which lead into two separate apartments of considerable dimensions, at the end
+                    of which are several unfinished hieroglyphics, sketched so as to give an idea of
+                    the manner of drawing. At the lateral corners of the entrance from the first
+                    into the second chamber are doors, each of which leads into a chamber twenty
+                    feet by ten; and these again open into other apartments, forty-three feet in
+                    length by eleven in breadth. The most remarkable subjects in this temple are a
+                    group of captive Ethiopians in the western corner; a hero killing a man with his
+                    spear, and another lying dead at his feet; and the storming of a castle, which
+                    forms part of the representation. The outside or external front of this temple
+                    is truly magnificent, being a hundred and seventeen feet in width, and
+                    eighty-six feet in height, whilst the space from the top of the cornice to that
+                    of the door is sixty-six feet and a half, and the height of the door itself
+                    twenty feet. There are four enormous sitting figures, the largest in Nubia, or
+                    even in Egypt, excepting only the great sphinx at the Pyramids, to which they
+                    approach in the proportion of nearly two thirds. On the top of the door is a
+                    statue of Osiris, twenty feet in height, with a colossal figure on each side
+                    looking towards it. The cornice of the temple is adorned with hieroglyphics, and
+                    under it are a torus and frize, the one six and the other four feet in breadth.
+                    Above the cornice is a row of squatted monkeys, twenty in number, and each eight
+                    feet and a half across the shoulders. This temple was nearly two thirds buried
+                    in the sand, of which thirty-one feet were removed before reaching the upper
+                    part of the door. It is excavated in the solid rock, which here rises about a
+                    hundred feet above the Nile, and, excepting one of the tombs at Biban-el-Molouk,
+                    is the largest of the kind either in Egypt or Nubia.<note anchored="true"
+                    place="bottom" type="authorial"><p>"The heat was so great in the interior of the
+                    temple,” says Belzoni, “that it scarcely permitted us to take any drawings, as
+                    the perspiration from our hands soon rendered the paper quite wet. Accordingly,
+                    we left this operation to succeeding travellers, who may set about it with more
+                    convenience than we could, as the place will become cooler.” (Narrative, p.
+                    214.)</p></note></p>
+                <p>At a subsequent period, Mr Bankes visited Ebsamboul, and succeeded in uncovering
+                    down to the feet one of the four colossal sitting figures, upon the limbs of
+                    which he discovered and copied an inscription in Greek relating to Psammeticus.
+                    He next cleared the head of the fourth colossal figure, which had not before
+                    emerged above the surface, so as to be able to make a drawing of the whole; and
+                    the approach being thus disencumbered, the interior of the temple was lighted up
+                    with wax candles fixed on upright poles, to enable Mr Bankes and his assistant
+                    draughtsmen to copy all the paintings in detail. It is much to be regretted that
+                    the labour in opening this temple has not been attended with any permanent
+                    effect; the winds of the desert and the natural lubricity of the sand having
+                    soon rendered the approach nearly as difficult as before. In about two years the
+                    door-way was again covered up, and by this time the interior must be quite as
+                    inaccessible as ever. All travellers agree in the accounts they give of
+                    Ebsamboul, which is described as the <hi rend="italic">ne</hi><hi rend="italic"
+                    >plus ultra</hi> of Egyptian labour. According to Sir Frederick Henniker, there
+                    is no temple at Denderah, Thebes, or Philae, that can be put in comparison with
+                    it; and the traveller just named rejoices in “having seen the noblest monument
+                    of antiquity that is to be found on the banks of the Nile.” This is not the
+                    place to enter into details respecting the hieroglyphical emblems and
+                    inscriptions with which different parts of - this wonderful structure are
+                    covered. The larger chamber is <hi rend="subscript"> jf</hi> distinguished as
+                    the temple of Osiris, and the smaller as that of Isis, to whom it is dedicated.
+                    The former is represented in a sitting posture, attended by the hawk-beaded
+                    deity; whilst the latter holds in her hand the lotus-headed sceptre, surrounded
+                    with numerous inscriptions and emblems. Much interesting sculpture is also
+                    lavished upon the second and third apartments; and in a niche at the upper end
+                    of the latter is a small statue of Nephthe, thewife of Typhon, seated. In
+                    several places of the square border which encircles the front of the temple, and
+                    also on the buttresses between the colossal figures, are a number of ovals or
+                    rings, containing the name and praenomen of Ramesses the Great, the same Pharaoh
+                    whom the Greeks indicate by the name of Sesostris or Sethosis. We may here add,
+                    that a striking resemblance has been observed between the rock temples of India,
+                    particularly that in the island of Elephanta, and those of Nubia, especially
+                    that of Ebsamboul; indeed the similarity is so great as to have suggested the
+                    notion of a common origin, as well in regard to the mythology as the
+                    architecture of both countries.<note anchored="true" place="bottom"
+                    type="authorial"><p>See is me s Account of the Cave-lemple of l£lephanta, in the
+                    Transactions of the Literary Society of Bombay, vol. i. pp.</p></note></p>
+                <p>The temple of Samnch, situated on the western bank of the river, between the
+                    twenty-first and twenty-second degree of north latitude, affords a specimen of a
+                    more perfect class of structures; intermediate, it would seem, between such
+                    excavations as that of Ebsamboul and the magnificent edifices of Karnak and
+                    Luxor. It is built of sandstone, and differs in shape from other edifices of a
+                    similar kind, though in its plan it somewhat resembles the small chapel at
+                    Elephantina in Egypt. The principal building is about thirty-six feet in length
+                    and nine in breadth. On either hand there stood originally four small pillars,
+                    of which two remain on the one side, and three on the other, all covered with
+                    sculptures. The inner walls are adorned with hieroglyphics and mystic
+                    representations, amongst which may be mentioned the ship of Osiris; and upon the
+                    outer wall Burckhardt’s distinguished figures of Mendes. The sculptures are
+                    rather coarsely executed, and the lines dividing the columns of hieroglyphics,
+                    some of which have been left unfinished, are not straight. The temple of Dondour
+                    or Tangour is likewise deserving of attention, from the peculiarities of its
+                    style, having been classed by Gau amongst those structures which belong to the
+                    last of the epochs of Nubian art already mentioned. It is in form a
+                    parallelogram, having the proportions observed in some Grecian structures; and
+                    in the pillars may be recognised the mixed Greek and Egyptian style. Between the
+                    second and third cataract, in latitude twenty-one degrees north, is the temple
+                    of Soleb or Solib. An elevated stone foundation extends in front of the temple,
+                    and the remains of two sphinxes are seen at either side of the approach. The
+                    first <pb break="no" facs="nls:194560739" xml:id="kp-eb0716-0739-0298"/>chamber
+                    is more than a hundred feet in breadth, and about ninety feet in depth, having
+                    round three of its sides a single row of pillars, and on the fourth indications
+                    of a double row. They have all been executed from the same model, and are
+                    inscribed with hieroglyphics. In the second chamber may be traced a row of
+                    pillars, resembling those of the first; but they are all broken, and the
+                    fragments scattered about in every direction. The dimensions of the adytum
+                    cannot now be ascertained, the side walls having been completely destroyed. The
+                    temple of Soleb affords the lightest specimen anywhere to be seen of Ethiopian
+                    architecture, and, for elegance of proportion, has been compared to that of
+                    Minerva Sunias at Cape Colonna. At Gibel-el-Birkel there are the remains of two
+                    temples, partly excavated in the rock, and partly constructed, like those of
+                    Girshé and Seboua. The principal temple is of vast dimensions, and contains no
+                    less than six chambers. It is supposed to have been the work of different and
+                    distant periods; and, even in the construction of those parts which belonged to
+                    the original building, many stones were employed which had formed parts of some
+                    more ancient edifice. The vicinity of Gibel-el-Birkel is remarkable for
+                    pyramids, which, though much inferior to those of Egypt, probably originated in
+                    the same views of vanity or superstition, not to say tyranny. For further
+                    information on the subject of Nubian rock excavations and architecture, the
+                    reader is referred to the works of Burckhardt, Light, Legh, Richardson,
+                    Henniker, Caillaud, Waddington, and Hoskins, in which will be found ample
+                    descriptions of the remains on either side of the Nile, from Assouan to Meroë,
+                    accompanied occasionally with drawings and plans. The reader is also referred to
+                    the articles <hi rend="smallcaps">Ethiopia, Ethiopian Nations,</hi> and <hi
+                    rend="smallcaps">Meroe.</hi></p>
+                <p>On the whole, it appears that, by a more accurate classification of the
+                    monuments, and the aid of inscriptions, which to former travellers were
+                    altogether unintelligible, we are now enabled to rectify misconceptions, correct
+                    mistakes, discard mere conjectures, and, in fact, make a real and valuable
+                    addition to the history of civilized Egypt. Between the temples excavated in the
+                    rock, such as those of Derr and Ebsamboul, and the buildings of a later date,
+                    there was an intermediate stage in the art, which it is important to
+                    distinguish. The first architectural attempt in Nubia probably consisted in the
+                    improvement of some hole or cave in the rock; or, even if the country possessed
+                    no natural caves for imitation by a people possessing the troglodyte habits
+                    natural to the inhabitants of a burning climate, the mountains themselves would
+                    afford facilities for constructing durable habitations. After having got
+                    possession of a hole or cave, the next step of these primitive architects would
+                    probably be to extend the excavation, to form several chambers separated by the
+                    native rock, and when a compartment of larger dimensions was designed, to have
+                    square pillars for the support of the roof. In the course of time the outer
+                    front, with the inner walls and pillars, would receive decorations derived from
+                    imitations of the natural forms of the country, and subjects connected with the
+                    historical remembrances or religious creed of the nation. We see abundant
+                    evidence in the rock temples of Nubia to convince us, that the order of
+                    progression and improvement here indicated was that actually followed in their
+                    gradual enlargement and decoration; yet a prodigious period must have elapsed
+                    between the rudest excavation in the rock, such as Derr appears to have been in
+                    its primitive state, and the highly-finished sculptures of the great temple of
+                    Ebsamboul. In fact, “antiquity appears to have begun” long after these primeval
+                    architects had commenced their troglodyte labours. But, in surveying the wonders
+                    which crowd the banks of the Nile from Meroë to Memphis, our minds become
+                    insensibly impressed with the reflection, that the wealth, power, and genius
+                    which produced them have entirely passed away; that, if the new worlds have
+                    risen, and new races been discovered, “we have lost old nations and that, in the
+                    lapse of ages, empires themselves vanish, like the baseless fabric of a vision,
+                    leaving scarcely a wreck or trace behind them. Throughout many parts of this
+                    extensive tract, a race little superior to savages pass a rude and precarious
+                    life, ignorant of the arts which once flourished in their country, and
+                    insensible to the beauty and magnificence of the ruins which they desecrate.
+                    They have long ceased to claim any connection with the people who constructed
+                    the monuments of Ebsamboul, Karnak, Luxor, and Gournch; and having relapsed into
+                    that low condition where curiosity becomes dormant or extinct, they are only
+                    moved with wonder when they observe the natives of civilized regions exploring
+                    their temples, or taking the dimensions of their obelisks and pyramids. The
+                    contrast between what now is, and what once must have been in Ethiopia and in
+                    Egypt, is indeed most striking; nor is it easy to pass, even in thought, through
+                    the various scenes of conquest and desolation which must have conspired to
+                    produce the effects we contemplate. History sheds no light on events and
+                    characters which the lapse of three thousand years has covered with impenetrable
+                    obscurity; and whilstgrop-ing our way amidst temples dedicated to gods, and
+                    structures raised in honour of heroes, whose very names sound like voices from
+                    the dead, we content ourselves with the conclusion, which all the monuments
+                    impress on us, that, long before the dawn of history, there had existed in that
+                    singular region a great people, whose architectural monuments have outlasted
+                    their learning, their philosophy, and almost even their very name.</p>
+                <p>(See Buckhardt’s <hi rend="italic">Travels in Nubia;</hi> Waddington’s <hi
+                    rend="italic">Journal of a Visit to some parts of Ethiopia;</hi> Richardson’s
+                    <hi rend="italic">Travels in the East;</hi> Henniker’s <hi rend="italic">Notes
+                    of a Visit to Egypt and Nubia;</hi> Hoskins’ <hi rend="italic">Travels in
+                    Ethiopia</hi><hi rend="italic">;</hi> Belzoni’s <hi rend="italic">Sarratm of
+                    Operations and Discoveries in Egypt and Nubia</hi><hi rend="italic">;</hi> Gau’s
+                    <hi rend="italic">Nubia</hi><hi rend="italic">;</hi><hi rend="italic">Life and
+                    Adventures of Giovanni Finati</hi><hi rend="italic">;</hi> Russell’s <hi
+                    rend="italic">Nubia and Abyssinia</hi><hi rend="italic">;</hi> the work entitled
+                    <hi rend="italic">British Museum;</hi> and Heeren’s <hi rend="italic">Historical
+                    liesearches.)</hi><hi rend="smallcaps">(a.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0713-4226-0217-05" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">LEITH</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 13, page 217</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="3" ref="lcsh1910:b4pn8xn1j">Monks</term>
+                    <term n="13" ref="lcsh1910:b4513v11w">Water</term>
+                    <term n="1" ref="lcsh1910:b4bc3t18v">Saxons</term>
+                    <term n="1" ref="lcsh1910:b4mw28p24">Scotch</term>
+                    <term n="1" ref="lcsh1910:b4v11vw02">Work</term>
+                    <term n="30" ref="lcsh1910:b4hq3s746">Towns</term>
+                    <term n="25" ref="lcsh1910:b4q815225">Trade</term>
+                    <term n="25" ref="lcsh1910:b4jh3db66">Trades</term>
+                    <term n="10" ref="lcsh1910:b47s7hx2m">Piers</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="6" ref="fasttopic:910709">English</term>
+                    <term n="3" ref="fasttopic:1025507">Monks</term>
+                    <term n="2" ref="fasttopic:934209">French</term>
+                    <term n="13" ref="fasttopic:1171139">Water</term>
+                    <term n="1" ref="fasttopic:1109125">Scots</term>
+                    <term n="10" ref="fasttopic:1182566">Year</term>
+                    <term n="10" ref="fasttopic:1063893">Piers</term>
+                    <term n="8" ref="fasttopic:860364">Church</term>
+                    <term n="7" ref="fasttopic:896024">Docks</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="7" ref="fastgeo:1206715">Scotland</term>
+                    <term n="3" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1210276">India</term>
+                    <term n="1" ref="fastgeo:1205290">Greenland</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193204226" type="entry">
+                <p><label type="entry">LEITH</label>, a populous sea-port town in the county of
+                    Edinburgh, situated on the southern shore of the Frith of Forth, at the mouth of
+                    the Water of Leith, and distant about a mile and a half from the centre of the
+                    Scottish capital. The ancient name of the town, which is of considerable
+                    antiquity, having been for several centuries not only the first, but almost the
+                    only port in Scotland, was Inverleith, a compound word of Gaelic origin, <hi
+                    rend="italic">inver</hi> signifying in that language the mouth of a river, and
+                    being thus descriptive of the situation of the pört.</p>
+                <p>Although there are traces of the existence of Leith in ancient documents as far
+                    back as the twelfth century, yet little is certainly known regarding it until
+                    the fourteenth, when it had acquired such importance, and begun to hold out such
+                    prospects of commercial benefit, as to attract the notice and excite the
+                    cupidity of the magistrates and citizens of Edinburgh, who, with the view of
+                    availing themselves of the advantages it offered for maritime adventure and
+                    speculation, obtained a grant of its harbour and mills from King Robert I. for
+                    the yearly payment of fifty-two merks. This right they subsequently extended so
+                    far as to secure almost the entire trade of the port, to the exclusion, and even
+                    ruin, of its inhabitants, by purchases at various times from Sir Robert Logan of
+                    Restalrig, who <pb break="no" facs="nls:193204239" xml:id="kp-eb0713-4239-0218"
+                    />was proprietor and baronial lord of Leith; and finally completed its feudal
+                    subjection by purchasing the superiority of the town from Queen Mary, to whose
+                    mother, Mary of Lorraine, it had been sold by Logan, in the year 1565, for
+                    10,000 merks. Even at this early period, the trade of Leith was considerable, at
+                    least comparatively so; and not a few names of celebrity in the ancient naval
+                    annals of Scotland are found associated with it. From these we may select that
+                    of the Bartons, famous as mariners in Scottish story.</p>
+                <p>Besides being a place of pretty high antiquity, Leith is also one of no small
+                    note in the history of Scotland, having been the scene of more military service
+                    perhaps than any other town in the kingdom. Neither has it been less remarkable
+                    for the frequency of its misfortunes. In 1313 all the vessels in the harbour
+                    were burned by the English, and again in 1410. In 1488 (an occasion, however, on
+                    which it suffered no injury) it was occupied by the forces commanded by the
+                    disaffected lords who had risen in arms against James HL, after the defeat of
+                    the latter at Bannockburn. In 1544 it was plundered and burned, its pier
+                    destroyed, and its shipping carried off, by the Earl of Hertford, whom Henry
+                    VIII. had sent down by sea to Scotland, with an army of 10,000 men, to avenge
+                    the insult which he conceived the Scotch had offered him, by refusing to betroth
+                    their young queen, Mary, to his son Prince Edward. Three years subsequently to
+                    this, viz. in 1547, immediately after the battle of Pinkey, it was again
+                    plundered and burned by the English under Hertford, now Duke of Somerset, and
+                    protector of England. On " this occasion, although the town itself did not
+                    suffer to the same extent as before, its whole shipping, together with all that
+                    in the Forth, was entirely annihilated by the English admiral, Lord Clinton, who
+                    co-operated with Hertford with a fleet of no less than thirty-five ships of war,
+                    besides tenders and other vessels. Four years after this, the town was fortified
+                    by Desse, a French general, who came over with 6000 men to assist the
+                    queen-regent in suppressing the Reformation. On the completion of these
+                    fortifications, which consisted in throwing a strong and high wall, with towers
+                    at intervals, around the town, the queen-regent took up her residence there,
+                    and, surrounded with her countrymen, hoped to be able to maintain her authority
+                    in the kingdom. These measures, however, had only the effect of widening the
+                    breach between her and her subjects, till they finally took up arms, and
+                    besieged her in her stronghold. In October 1559, the lords of the congregation,
+                    as the disaffected leaders called themselves, invested Leith with an army, but
+                    after various ineffectual attempts to gain access to the town by scaling the
+                    walls, they were driven back with great slaughter by a desperate sally of the
+                    besieged.</p>
+                <p>In the month of April in the succeeding year, the forces of the congregation
+                    again invested the town, being now aided by an army of 6000 men under Lord Grey
+                    of Wilton, which had been dispatched to their assistance by Elizabeth. On this
+                    occasion the contest was protracted and sanguinary, hundreds falling on both
+                    sides in the fierce assaults and sallies which were daily made by the besiegers
+                    and besieged respectively. For two months, during which the town suffered
+                    dreadfully from famine, as well as from the more violent casualties of war, the
+                    struggle continued, without any decisive advantage being gained by either side.
+                    At the end of that period, however, both'parties being heartily tired of the
+                    contest, a treaty was entered into, by which it was stipulated that the French
+                    should evacuate the kingdom, that they should be allowed to embark unmolested,
+                    and that the English army should, upon the same day, begin its march to England.
+                    Immediately after the conclusion of this treaty, the walls of Leith were
+                    demolished by order of the town-council of Edinburgh, and no vestige of them now
+                    remains. The town, however, was temporarily re-fortified by the Earl of Morton
+                    during die regency of the Earl of Lennox, by whom it was constituted the
+                    head-quarters of the king’s faction, and was thus once more involved in the
+                    miseries of war. Some new fortifications were shortly afterwards erected around
+                    it by the regent himself, who came to reside there, holding his. court in the
+                    town, and making it the general rendezvous for the friends of his party.</p>
+                <p>In giving this chronological sketch of the most remarkable events which
+                    distinguish Leith, it would be a defect to omit noticing the landing, at that
+                    port, of the unfortunate Queen Mary, when she came from France to take
+                    possession of the throne of her ancestors. This event took place on the morning
+                    of the 20ιh of August 1561, between the hours of seven and eight o’clock. She
+                    landed upon the pier; but that pier has long since ceased to exist. "</p>
+                <p>In 1643 the solemn league and covenant was signed by the inhabitants of Leith
+                    with great solemnity. Two years afterwards, the unhappy town was visited by the
+                    plague, by which it was nearly depopulated. Many melancholy memorials of this
+                    dreadful calamity have, up to a late period, been found in its vicinity; amongst
+                    these, quantities of half-decayed bones wrapped up in blankets, the remains of
+                    its unfortunate victims, for whom there was not room in the church-yard, nor
+                    time to provide them with the usual decencies of sepulture.</p>
+                <p>The next remarkable period in the annals of Leith is the year 1650, when it was
+                    taken possession of by Cromwell, and subjected to a monthly assessment of about
+                    L.22 sterling, besides the proportion of an exaction of L.2400 Scots, which was
+                    levied by the conqueror on Edinburgh and the vicinity, including Leith,
+                    immediately on his arrival. Upon Cromwell’s return to England, General Monk, who
+                    was appointed commander-in-chief in Scotland, took up his residence in Leith,
+                    where he constructed a strong fort, and established a regular garrison. Some
+                    portions of this fort or citadel still remain, including the house in which Monk
+                    himself resided. The former was of a pentagonal shape, and consisted of five
+                    bastions, with one principal gate fronting the east. The expense of the whole
+                    was L. 10,000 sterling. Whilst resident in Leith, Monk induced a number of
+                    respectable English families to come down and settle in the town. These
+                    introduced with their wealth a spirit of mercantile adventure, besides
+                    establishing certain branches of manufacture that greatly benefited the town,
+                    and laid the foundation of much of the prosperity which it has since
+                    enjoyed.</p>
+                <p>In 1715, the citadel was taken possession of by a party of the adherents of the
+                    Stuart family, headed by one Mackintosh ofBorlum; but, being threatened by the
+                    Duke of Argyll, who was then in Edinburgh, with a strong military force, he
+                    evacuated the fort after dark, availing himself of low-water to march his men
+                    over the sands, upon which the citadel opened to the seaward; and with this
+                    event terminates the military history of Leith.</p>
+                <p>For a long period Leith was celebrated for its horseraces. These were held during
+                    the recess of the tide, on a large tract of sand lying on the east side of the
+                    town, and were first established at the Restoration. Though far inferior to a
+                    regular race-course, on account of the wetness of the sand, which rendered it
+                    exceedingly bad footing for the horses, these races were long celebrated with a
+                    spirit, and accompanied by a feeling of satisfaction and universal joy, which is
+                    rarely witnessed on similar occasions at other places. The race-week was,
+                    indeed, considered as a sort of carnival by the citizens of Edinburgh, which
+                    during its continuance was crowded by persons of rank and fashion from all parts
+                    of the kingdom. The races were removed, in 1816, to the Links of Musselburgh, a
+                    distance of about six miles, where the ground is much better adapted for this
+                    pastime.</p>
+                <p>Leith, though, as already stated, a pretty ancient town, <pb break="no"
+                    facs="nls:193204252" xml:id="kp-eb0713-4252-0219"/>has not many antiquities of a
+                    very marked character to boast of; modern improvement having swept them nearly
+                    all away. Amongst the few of any note that remain is the parish church of South
+                    Leith, a fine old Gothic edifice, though of comparatively but small dimensions.
+                    The precise date of the erection of this structure is not known; but it is
+                    certain that it was built previous to the year 1496. Of the ancient pier, the
+                    pier on which the ill-fated Mary landed in 1561, nothing now remains but a few
+                    blackened stumps, which have been seen protruding through the sand a little to
+                    the eastward of the present pier; but, from the frequent shifting of the former,
+                    they are rarely visible, and have now, we believe, disappeared altogether. Upon
+                    the south-east side of the town, on extensive downs, or, as they are called in
+                    Scotland, links, are several mounds, which were raised by the besieging army in
+                    1560, and crowned with cannon. These are still entire, and, to all appearance,
+                    precisely in the same state in which they were left by those who constructed
+                    them. The only other piece of antiquity that remains to be noticed is the old
+                    church of North Leith. This ancient structure was founded in the year 1493, and
+                    was dedicated to St Ninian. It was long the parish church of North Leith, but
+                    has now been for many years disused for religious purposes. To these memorials
+                    of other times may be added a few private houses situated in the oldest parts of
+                    the town, which, though now, for the most part, in a dilapidated state,, and
+                    inhabited by the poorest classes, bear evident marks of having been once of no
+                    small consideration. Amongst the ancient buildings of note that have disappeared
+                    may be mentioned, 1^, an ancient monastery, founded in 1435, and dedicated to St
+                    Anthony; its monks were of the order of St Augustin; the establishment, which
+                    was a very extensive and magnificent one, was situated at the head of the
+                    Kirkgate, but no trace of it remains, excepting some vaults, now included in the
+                    premises of a brewer. 2&lt;√, The King’s Work, a building of great antiquity,
+                    and on good,grounds believed to have been a royal residence; it was situated at
+                    the foot of Bernard Street,or rather between that street and the Broad Wynd; but
+                    all vestige of it has long since disappeared. 3&lt;7, The old Tolbooth was
+                    erected in 1565, and occupied the site of the present structure. 4√Zt,
+                    Trinity-House, a very <hi rend="superscript"> 7</hi> old building, stood where
+                    the modern house stands. <hi rend="italic">Lastly,</hi> King James’s Hospital;
+                    this edifice, now entirely removed, stood on the east side of the Kirkgate; it
+                    was founded by the church-session of South Leith in 1614, and endowed with
+                    certain lands and tenements belonging to the preceptory of St Anthony. Of the
+                    ancient pier, and of the walls and citadel, we have spoken elsewhere.</p>
+                <p>Leith is divided into the parishes of North and South Leith, the division being
+                    marked by the Water of Leith, which intersects the town. The greater and
+                    principal part of the latter, however, stands on the south side, where the chief
+                    business of the place is conducted. The town altogether may be about from one
+                    mile and a half to two miles in circumference; but, as it is in various places
+                    straggling and detached, it occupies more ground than would bear a fair
+                    proportion to its population. It is for the most part irregularly and confusedly
+                    built, and a great portion of it is extremely filthy, crowded, and inelegant.
+                    Some parts of it, again, are the reverse of this, being spacious, cleanly, and
+                    handsome. Such are two or three of the modern streets, and various ranges of
+                    private dwellings erected of late years on the eastern and western skirts of the
+                    town. Many of these, indeed, occupy situations and command views of so pleasant
+                    a character as to render them very desirable places of residence. The modern
+                    public buildings of Leith worthy of remark are, the Exchange Buildings, a large
+                    and elegant structure in the Grecian style of architecture; they contain a
+                    spacious and handsome assembly-room, a commodious hotel, and public
+                    yeading-room, and the expense of the erection was L.16,000: the Custom-house,
+                    situated in North Leith, is also a very splendid building; it was erected in
+                    1812, at an expense of L.12,000: the Leith Bank, a neat little edifice, erected
+                    in 1805-6: the new Court-house, by far the most elegant building in the town,
+                    and forming altogether, whether the chasteness of the design or the neatness of
+                    the workmanship be considered, a very favourable specimen of modern architecture
+                    on a small scale., The grammar school is a spacious building, of an oblong
+                    figure, in the Grecian style, erected in 1805-6.</p>
+                <p><hi rend="italic">Sea field Baths.</hi><hi rend="italic">—</hi> These are
+                    situated at the distance of about half a mile from the town. They were erected
+                    in 1813, at an expense of L.8000, raised in shares of fifty guineas each. The
+                    building is large and handsome, and, besides the baths, contains a hotel; but it
+                    has not been a thriving speculation. The Trinity-House is another handsome
+                    though small edifice, in the Grecian style. It was erected in the year 1817, at
+                    an expense of L.2500. The Tolbooth is a new structure, in the Saxon style of
+                    architecture. It has several suits of well-lighted apartments; but, never having
+                    been legalized, is not used as a jail, the new courthouse being employed for
+                    that purpose, although only as a place of temporary confinement, offenders
+                    against the laws being sent as soon as possible to Edinburgh. The Markets of
+                    Leith are both spacious and handsome. They were erected in 1819, and include a
+                    butcher-market, which is of an octangular form, surrounded with neatly-fitted up
+                    stalls, well lighted witþ×ğas'; a fish-market; and poultry and vegetable
+                    markets.</p>
+                <p>The ecclesiastical statistics of Leith include the parish church of South Leith,
+                    which has been already spoken of. This charge is collegiate, one of the two
+                    ministers being appointed by the crown, the other by the magistrates and
+                    incorporated trades. It became the parochial place of worship in 1609, and was
+                    originally dedicated to St Mary. This parish has a chapel of case of spacious
+                    dimensions. The parish church of North Leith is an exceedingly handsome though
+                    plain structure, surmounted by a lofty and tasteful spire. The stipend of the
+                    clergyman, who is appointed by the inhabitants, is reckoned one of the best in
+                    the Church of Scotland, and includes the tithe, now commuted into money, of all
+                    fish landed on., the beach. To these fall to be added a neat though small
+                    English chapel, one Methodist, one Relief, one Independent, and three United
+                    Secession churches, capable altogether of containing, including the two parish
+                    churches and chapel of ease, upwards of 10,000 persons.</p>
+                <p>The charitable institutions of Leith arc, a female society for relieving indigent
+                    and sick women; a society for relieving the destitute sick; the sympathetic
+                    society; a female school of industry; and a charity school for boys. To these
+                    may be added the Trinity-House, formed on the usual principles, for the relief
+                    of indigent or superannuated mariners.</p>
+                <p>• The chief manufactures of Leith are ropes and cordage, sail-cloth, bottles,
+                    soap, and candles. Ship-building is also carried on there to a considerable
+                    extent. There are likewise several breweries, a distillery, and an extensive
+                    sugar - refining establishment. Crown-glass was also till lately manufactured
+                    there on a large scale; but not having been found a profitable speculation, it
+                    has been abandoned.</p>
+                <p>Hitherto we have treated of Leith merely as a town: we shall now proceed to
+                    consider it as a sea-port. For this it possesses no natural advantages; and the
+                    consequence has been a perpetual struggle, attended with enormous expense, to
+                    supply its deficiencies by works of art, and hitherto without by any means
+                    attaining fully either the objects aimed at, or a commensurate benefit for the
+                    outlay incurred.</p>
+                <p>The trade of Leith, as we have elsewhere said, has been <pb break="no"
+                    facs="nls:193204265" xml:id="kp-eb0713-4265-0220"/>considerable for several
+                    centuries past; but notwithstanding this, it was not till the year 1720 that any
+                    thing of importance was done for the improvement of its harbour. In that year a
+                    dock was formed on the east side of it, and that part of the present pier which
+                    is of stone erected. Fifty-seven years after this (for so long an interval
+                    occurred before any other improvement was attempted), a small quay, called the
+                    custom-house quay, was built; but these trifling accommodations being found
+                    wholly inadequate to the increasing demands of the port, the city of Edinburgh,
+                    in the year 1799, obtained an act of parliament authorizing them to borrow L.
+                    160,000, to enable them to form the present superb wet-docks designed by Mr John
+                    Rennie, civil engineer. These docks, of which there are two, were begun in the
+                    year 1800, and were completed in 1817. Each of them measures 250 yards in length
+                    and 100 in breadth, and both include a space equal to 10⅜ English acres. On the
+                    northern side are three graving docks, each 136 feet long and forty-five wide at
+                    bottom, and 150 feet long by seventy feet wide at the top, with an entrance of
+                    the width of thirty-six feet. The whole of these works are protected from the
+                    sea by a strong retaining wall. At average spring tides the depth of water in
+                    the wet-docks is sixteen feet nine inches; and at average neap tides, twelve
+                    feet nine inches. They are lined on the south side by a row of lofty and
+                    spacious warehouses for bonding and storing foreign liquors and other goods.</p>
+                <p>The expense of these works amounted altogether to about L.285,000, of which
+                    L.265,000 was subsequently borrowed by the city of Edinburgh from government, at
+                    the rate of five per cent, interest, of which three per cent, was to be the rate
+                    of interest payable annually, and two per cent, to go to a sinking fund. This
+                    rate of interest, however, was, for certain considerations, reduced to four per
+                    cent, for twelve years. The security given by the city for this loan was a
+                    preferable claim on the whole of their Leith property, and a concurrent claim
+                    with other creditors over the entire property of the city of Edinburgh, besides
+                    ceding a part of the docks and shire-ground to the admiralty. Of this debt the
+                    sinking-fund cleared off about L.25,000, but subsequent arrears have left it
+                    nearly in its original state.</p>
+                <p>Since the improvements above mentioned were effected, another has taken place in
+                    the extension of the pier, and in the formation of a covering bulwark; the
+                    former at the expense (L.28,000) of the city of Edinburgh, the latter (L.12,000)
+                    at that of government. The addition which has been made to the length of the
+                    pier is 2550 feet, making it altogether upwards of half a mile in length. The
+                    object proposed by this extension, and the erection of the bulwark, was to
+                    increase the depth of water in the channel, an effect which it has had to the
+                    extent of about two feet.</p>
+                <p>It would appear, however, that the natural disadvantages of Leith are so great,
+                    and of so irremediable a character, that no ingenuity nor expense can ever
+                    wholly overcome them, or make it more than a mere tidal harbour, and even as
+                    that, but a very indifferent one. At present, notwithstanding all that has been
+                    done for it, it will not at any time admit of vessels of more than 400 tons, and
+                    not always of ships approaching that burthen; circumstances which, when added to
+                    its heavy charges, must always greatly limit its prosperity.</p>
+                <p>The collection of the revenues of the docks and harbour of Leith is in the hands
+                    of the corporation of Edinburgh, and the business of management is invested in a
+                    commission, formed by persons nominated both by Edinburgh and by Leith.</p>
+                <p>The general trade of the port has of late years been, upon the whole, rather on
+                    the decrease. In 1826 the tonnage belonging to Leith was 25,674 tons; in 1832,
+                    23,094 tons; in 1835, 22,073 tons; thus showing a progressive decay. At one time
+                    it enjoyed nearly all the Baltic trade in the east of Scotland, but a great
+                    portion of this has now found its way to Kirkcaldy, Dundee, and Aberdeen. During
+                    the war, too, it was the principal naval station to which prizes were brought
+                    for condemnation; a source of benefit which it has likewise lost. Like many
+                    other towns also, it has suffered severely by foreign speculations; but, unlike
+                    some of these, it seems never to have entirely recovered from its
+                    misfortunes.</p>
+                <p>The opening of the Union Canal has likewise operated unfavourably for Leith, in
+                    as far, in particular, as regards its coal trade, of which it has deprived it of
+                    nearly one half. The quantity of this article formerly brought into Leith
+                    averaged about 57,000 tons annually. It does not at present much exceed 33,000.
+                    A branch railway, however, is now being introduced into Leith from Musselburgh
+                    and other places, which may have the effect of improving this department of its
+                    trade.</p>
+                <p>Leith enjoys a small West India trade, chiefly carried on by Glasgow merchants.
+                    This trade, again, is improving, and now employs shipping to the amount of 1768
+                    tons, being an increase of upwards of 1000 tons within the last ten years. At
+                    some previous periods, however, it has employed an amount nearly equal to the
+                    former.</p>
+                <p>The coasting trade of Leith is still pretty extensive, and its foreign trade,
+                    particularly with the north of Europe, considerable. The chief imports in the
+                    latter are cheese, bark, hides, tallow, timber, rags, and flax. Large quantities
+                    of wine and tobacco are also imported into Leith.</p>
+                <p>The following tables will give a correct idea of the amount of the trade of the
+                    port, with its fluctuations; in the one case, during the last ten years; in the
+                    other, during three parts of a century.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="5" role="data" rows="1"><p><hi rend="italic">Account of Dues
+                            levied on Shipping and Goods at Leith from</hi> 1825 <hi rend="italic"
+                            >to</hi> 1835, <hi rend="italic">both inclusive.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Y ears.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>On Vessels.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>On Goods Imported.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>On Goods Exported.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Total Amount.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">s.
+                            ã.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">L. s.
+                            ã.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>∕,. s. <hi rend="italic"
+                            >d.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">L. s.
+                            d.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1825</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8941 18 2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11,277 14 5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>965 16 6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>21,185 9 1</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1826</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9908 17 3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9,661 3 9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>962 13 4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>20,532 14 4</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1827</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8461 3 10</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9,070 9 2∣</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>930 0 5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,461 13 5⅜</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1828</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7690 11 3⅜</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,258 9 8“</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>971 4 2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>16,920 5 1⅜</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1829</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8302 2 9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,852 10 0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1048 3 2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,202 15 11</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1830</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9506 4 11</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,432 19 5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1018 15 4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,957 19 8</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1831</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9749 17 8⅛</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,845 8 6⅜</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1096 6 9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>19,691 13 0</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1832</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9061 15 11⅜</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,072 16 8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1204 17 8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,339 10 3⅜</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1833</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9104 9 7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7,632 ∙ 3 0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1365 4 7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,101 17 2,</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1834</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9626 9 7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,569 19 6⅛</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1353 14 1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>19,550 3 2⅜</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1835</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9254 5 2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7,898 16 2⅜</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1402 15 2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,555 16 61</p></cell>
+                    </row>
+                </table>
+                <p>The feus, rents, and other revenues at the wet docks, for the year 1836, amounted
+                    to L.3108. 19s. 3⅜d.</p>
+                <pb break="no" facs="nls:193204278" xml:id="kp-eb0713-4278-0221"/>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p><hi rend="italic">Amount of Shipping
+                            entering Leith since</hi> 1760.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Years.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Tons.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1760</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>34,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1770</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>66,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1781</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>63,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1788</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>117,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1801</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>186,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1810</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>266,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1815</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>257,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1818</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>341,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1821</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>312,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1824</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>342,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1827</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>365,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1830</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>308,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1832</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>309,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1834</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>340,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1835</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>340,540</p></cell>
+                    </row>
+                </table>
+                <p>The want of a sufficient depth of water, as has been elsewhere remarked, is one
+                    of the great disadvantages under which Leith labours. At present, after all that
+                    has been done to remedy this evil, there are only seventeen feet water on the
+                    bar at high water during spring-tides, and only fourteen during neap tides. The
+                    depth of water is indicated to vessels approaching, or at anchor in the roads,
+                    from a small light-house erected on the pier, by a train of signals during the
+                    day, and at night by a stationary light, which is exhibited whilst there are
+                    nine feet water on the bar.</p>
+                <p>Vessels that do not choose to enter the harbour, or that cannot enter it in
+                    consequence of drawing too much water, anchor in the roads off the town, at the
+                    distance of about a mile and a half or two miles, where they have from four to
+                    six fathoms water, with good anchorage ground.</p>
+                <p>There are three companies belonging to the town, engaged in the London and Leith
+                    trade, who have altogether eighteen vessels in constant intercourse with the two
+                    ports. One of these companies has, besides, three large steamships for
+                    passengers and goods in the same trade. There is also a company in the Leith and
+                    Hull trade, with five vessels; a company in the Liverpool and Leith trade, with
+                    five vessels; a company in the Leith and Newcastle trade, with four vessels; one
+                    in the Hamburg and Rotterdam trade, with eight vessels; one in the Aberdeen
+                    trade, with four vessels; one in the Inverness trade, with two vessels; one in
+                    the trade with Wick, with two vessels; one in the Helmsdale trade, with one
+                    vessel; one in the Greenock trade, with four vessels; besides companies which
+                    trade with different parts of Fife, with Dundee, Stirling, and other places. To
+                    these may be added, a Newcastle steamer, which sails once a week in winter, and
+                    twice a week in summer; two regular traders to Peterhead, one to Berwick, and
+                    one to Banff.</p>
+                <p>There are five vessels belonging to the port, engaged in the Greenland trade.
+                    Formerly, that is, within these three or four years, there were seven, but they
+                    are now reduced to the number stated.</p>
+                <p>ſhe municipal government of Leith was formerly vested virtually, and at an
+                    earlier period literally, in the town council of Edinburgh, which exercised an
+                    uncontrolled judicial authority over the town and suburbs. But by a bill William
+                    3 and 4, cap. 77, passed on the 28th August 1833, and which came into operation
+                    on the first Tuesday of November following, Leith was rendered wholly
+                    independent of the city of Edinburgh in the constitution and exercise of its
+                    municipal government, the latter being invested in a provost, four bailies, and
+                    twenty-five councillors, with their officers, to be chosen by the inhabitants by
+                    popular election.</p>
+                <p>The judicial authority of Edinburgh over Leith, therefore, is now entirely
+                    abolished, and the former discharged from interfering with or exercising any
+                    control over the affairs of the town. This, however, does not extend to the
+                    city’s rights in the harbour and docks, nor to the revenues arising therefrom,
+                    which remain untouched. The provost and treasurer remain each three years in
+                    office, whilst the councillors go out by a special order of rotation specified
+                    in the act.</p>
+                <p>By the same act the admiralty jurisdiction, which was formerly invested in the
+                    council of Edinburgh, has been transferred to the provost and magistrates of
+                    Leith; the former beifig admiral, and the latter depute-admirals, inheriting all
+                    the rights, power, and privileges connected with this jurisdiction enjoyed by
+                    the body by which it was formerly exercised.</p>
+                <p>Leith has also a resident sheriff-substitute, an officer of recent appointment,
+                    who holds a small debt court every Friday. This functionary, whose salary is
+                    L.200 per annum, is paid out of the funds of the burgh; but this burden on the
+                    latter ceases with the death or removal of the present incumbent, Leith being
+                    declared relieved in such case from all charge for any future sheriff-substitute
+                    that may l⅛ appointed. Leith, together with Musselburgh, including Fisherrow,
+                    Portobello, and Newhaven, returns a member to parliament. The town is lighted
+                    with coal-gas, manufactured there by a joint-stock company; and is supplied with
+                    water by a branch of the pipes by which Edinburgh is furnished with that
+                    article.</p>
+                <p>The town’s expenses are defrayed by a heavy assessment upon the inhabitants.
+                    Neither literature nor the fine arts are much cultivated in Leith. A laudable
+                    and successful attempt, however, has been made to introduce at least one branch
+                    of the latter, viz. music. In 1830, a Philharmonic Society was instituted, which
+                    has since acquired considerable celebrity. There are also two public
+                    subscription libraries, and a mechanics’ institution, with a library and
+                    lecture-room, in the Exchange Buildings.</p>
+                <p>Having concluded our sketch of Leith, we have only to add, that we have
+                    studiously avoided all allusion to the protracted disputes in which it has been
+                    engaged with the city of Edinburgh, not thinking these fit matter for a work of
+                    this nature. The population of the parishes of North and South Leith in 1831 was
+                    26,000, and is now estimated at 30,000.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

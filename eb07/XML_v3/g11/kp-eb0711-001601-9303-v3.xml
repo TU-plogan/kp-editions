@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0711-9303-0016-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">GUATIMALA, or Guatemala</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 11, page 16</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="14" ref="lcsh1910:b4tt4fw6r">East</term>
+                    <term n="7" ref="lcsh1910:b41j9770v">State</term>
+                    <term n="8" ref="lcsh1910:b4ks6jd02">Spaniards</term>
+                    <term n="3" ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term n="7" ref="lcsh1910:b4hq3s746">Towns</term>
+                    <term n="1" ref="lcsh1910:b4vh5ch72">Americanisms</term>
+                    <term n="1" ref="lcsh1910:b49c6s277">Christianity</term>
+                    <term n="1" ref="lcsh1910:b4cj87k6z">Mosquito</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="9" ref="fastgeo:1211700">Mexico</term>
+                    <term n="8" ref="fastgeo:1228307">Nicaragua</term>
+                    <term n="4" ref="fastgeo:1239786">America</term>
+                    <term n="4" ref="fastgeo:1204303">Spain</term>
+                    <term n="2" ref="fastgeo:1205585">Panama</term>
+                    <term n="2" ref="fastgeo:1205190">Peru</term>
+                    <term n="1" ref="fastgeo:1205154">Guatemala</term>
+                    <term n="1" ref="fastgeo:1205916">Colombia</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="7" ref="fasttopic:1128153">Spaniards</term>
+                    <term n="4" ref="fasttopic:839044">British</term>
+                    <term n="7" ref="fasttopic:969307">Indians</term>
+                    <term n="2" ref="fasttopic:916820">Europeans</term>
+                    <term n="1" ref="fasttopic:807480">Americanisms</term>
+                    <term n="7" ref="fasttopic:1028334">Mountaineering</term>
+                    <term n="7" ref="fasttopic:1028364">Mountaineers</term>
+                    <term n="7" ref="fasttopic:1028366">Mountains</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193639303" type="entry">
+                <p><label type="entry">GUATIMALA, or <hi rend="smallcaps">Guatemala</hi></label>,
+                    one of the new states into which the western world is divided. From the
+                    circumstance of its position, it has assumed the name of Central America. The
+                    constitution is modelled upon that of North America. This republic comprehends
+                    that portion of territory which stretches from the southern extremity of Mexico
+                    to the northern point of Colombia, from about the eighty-third to the
+                    ninety-fourth degree of west longitude. It extends about eight hundred miles in
+                    length, comprehending a great part of the isthmus of Panama, and embracing an
+                    extent of surface computed at about twenty-two thousand square leagues. This
+                    tract of country was subdued by Alvarado, who was sent thither by Cortes, the
+                    Spanish general, at that time pursuing his career of conquest in Mexico Alvarado
+                    arrived in the year 1524, at a time propitious for the success of his
+                    enterprise, for two of the most powerful nations of the country were then at
+                    war. Too jealous of each other to unite against a common enemy, the numerous
+                    tribes or nations inhabiting Guatimala fell one by one under the dominion of the
+                    Spaniards, notwithstanding that a formidable resistance was made to them in some
+                    quarters. The methods resorted to by the Spaniards for reducing the Indians to
+                    subjection were similar to those practised in other parts of the American
+                    continent. The people whom they subdued by treachery and the sword were not at
+                    all inferior to those of Mexicoand Peru. The conquerors found large cities, well
+                    fortified by castles, and adorned with splendid palaces and other sumptuous
+                    edifices. The Guatimalans were of course idolaters, and, with the missal in the
+                    one hand and the sword in the other, the Spaniards succeeded in forcing them
+                    reluctantly to substitute the Christian worship for their own. One part of the
+                    country, however, called Vera Paz, which baffled the efforts of the Spaniards to
+                    subdue it, received milder treatment at the hands of some pious ecclesiastics,
+                    who employed persuasion instead of force, and thus succeeded in bringing then
+                    also under the Spanish yoke. From the period of its conquest until it declared
+                    its independence, the country, under the appellation of the kingdom of
+                    Guatimala, was governed by a captain-general appointed by the court of Spain,
+                    and a royal audiencia or prétorial court. The jurisdiction of this court
+                    extended from eight to seventeen degrees north latitude, and from eighty-two to
+                    ninety-five degrees west longitude, comprehending an extent of surface computed
+                    at 26,152 square leagues, with a population of about 1,200,000 souls.<note
+                    anchored="true" place="bottom" type="authorial"><p>Humboldt’s <hi rend="italic"
+                    >Political Essay,</hi> vol. iv. p. 322.</p></note> The kingdom was divided into
+                    fifteen provinces, which were governed by inferior officers, amenable to the
+                    audiencia. There was scarcely any thing like a military force kept up, but
+                    spiritual matters were managed by a competent number of ecclesiastics, under the
+                    direction of the Archbishop of Guatimala, and four suffragans. Things continued
+                    in this state until the political events which took place in various parts of
+                    South America increased the discontent which had been generated in Guatimala by
+                    some acts of despotism committed by the mother country. In the year 1821, when
+                    the fate of Mexico was decided, several meetings of the most influential
+                    individuals took place, at which it was agreed to shake themselves free of Old
+                    Spain. Several of the provinces joined together and published a manifesto to
+                    this effect; but San Salvador protested against it, and immediately formed a
+                    provisional government of its own. The government of Guatimala dispatched troops
+                    to attack San Salvador, but they were repulsed. In this emergency they solicited
+                    support from Mexico which being granted, San Salvador yielded to General
+                    Filisola in February 1823. In March the general congress was convoked, and in
+                    the month following it met and assumed the name of Constituent Assembly. To this
+                    congress all the provinces sent deputies, with the exception of Chiapa, which
+                    continued firm in its adherence to Mexico One of the first acts of the
+                    constituent assembly, after the nomination of an executive, was to publish a
+                    decree, declaring “these provinces independent of Spain, Mexico and every other
+                    power, either of the old or new world.” This decree is dated the 1st of July
+                    1823. Towards the end of the same year was published the basis of its future
+                    constitution, by which Guatimala was declared a federal republic, comprehending
+                    five states, joined together under the denomination of the United Provinces of
+                    Central America.</p>
+                <p>It was ordained that the <hi rend="italic">legislative</hi> power should reside,
+                    first, in a federal congress, composed of representatives elected by the people;
+                    and, secondly, in a <hi rend="italic">senate,</hi> composed ol two senators
+                    popularly elected by each state. The privileges of this body were, to sanction
+                    the acts of the federal congress, to counsel the executive on important cases,
+                    to nominate the individuals employed by the federation, and to watch over their
+                    conduct. The <hi rend="italic">executive</hi> power was declared to be vested,
+                    1. in a president popularly chosen; 2. in a vice-president; and, 3. in a supreme
+                    court of justice. The internal affairs of each state were decreed to be
+                    regulated by itself upon the following principles: 1. By an assembly of deputies
+                    properly chosen; 2. by a council, similarly elected; 3. by a chief; 4. by a
+                    vice-chief; and, 5. by a supreme court of judicature. These individuals or
+                    bodies were invested with certain definite powers, by which, it was hoped, good
+                    government would be obtained, and equal justice administered to the people. The
+                    constituent assembly now began to form a constitution, leaving, in the mean
+                    time, the different states to regulate their own concerns. The assembly
+                    subsequently had various sittings, and drew up a great number of articles, by
+                    which the government was to be regulated. Guatimala, however, like the republics
+                    in the South American continent, has never remained at rest with itself since it
+                    was erected into a free state. Continual insurrections have broken out; at one
+                    time one party, at another time another party, predominating. Peace and good
+                    order can scarcely be said to be as yet restored to it. The following table
+                    exhibits the number of departments, towns, and villages, in each state :—</p>
+                <p>I. Guatimala, consisting of thirteen departments. Capital, Guatimala.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Departments. <hi rend="superscript">
+                            No</hi> '</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>. of Towns and villages.</p></cell>
+                        <cell cols="2" role="data" rows="1"><p><hi rend="italic subscript">
+                            r</hi><hi rend="italic">, . . No. of</hi> Towns and</p><p>Departments.
+                            villages.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1. Sacatepequez...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8. Escuintla</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>,12</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>2. Chimaltenango.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9. Chiquimula</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>. 8</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>3. Solalá</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10. San Augustin</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>, 8</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>4. Totonicapam....</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11. Vera Paz</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>. 5</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>5. Güegiietango...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12. Salama</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>6. Quezaltenango..</p><p>7.
+                            Suchitepequez..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7</p><p>6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>13. Peten</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9</p></cell>
+                    </row>
+                </table>
+                <p>Comprises about 114 towns and villages. Population computed at 700,000.</p>
+                <pb break="no" facs="nls:193639316" xml:id="kp-eb0711-9316-0017"/>
+                <p>II. Salvador, consisting of four departments. Capital, San Salvador.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>No. of Towns and</p><p>Departments.
+                            villages</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Departments·</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>No. of Towns and villages.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1. San Salvador 23</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3. San Miguel.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>2. Sonzonate 14</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4. San Vicente</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8</p></cell>
+                    </row>
+                </table>
+                <p>Comprehends fifty-five towns and villages. The population is computed at
+                    350,000.</p>
+                <p>III. Honduras, consisting of twelve departments. Capital, Comayagua.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Departments.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>No. of Towns and villages.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Departments.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>No. of Towns and villages.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1. Comayagua..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7. Gracias...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>2. Tegucigalpa.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8. Llanos....</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>3. Choluteca...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4</p></cell>
+                        <cell cols="2" role="data" rows="1"><p>9. Santa Barbara 6</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>4 ’ ∙ Nacaomi.....</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10. Truxillo..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>5. Cantarranas.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11. Lloro</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>6. Jutigalpa</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12. Segovia..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11</p></cell>
+                    </row>
+                </table>
+                <p>Comprehends fifty-seven towns and villages. The “population is computed at
+                    200,000.</p>
+                <p>IV. Nicaragua, consisting of eight departments. Capital, Leon.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Departments.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>No. of Towns and villages.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Departments.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>No. of Towns and villages.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1. Leon</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5. Subtiava....</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>2. Granada....</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>; 10</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6. Masaia</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>3. Managua...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7. Nicaragua..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>4. Realejo</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8. Matagalpa..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5</p></cell>
+                    </row>
+                </table>
+                <p>Comprehends fifty-three towns and villages. The population is computed at
+                    200,000.</p>
+                <p>V. Costa Rica, consisting of eight departments. Capital San José.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Departments.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>No. of Towns and villages.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Departments.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>No. of Towns and villages.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1. San José...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5. Iscan</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>2. Cartago....</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6. Alajuela...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>3. Ujarras</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7. Eredia</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>4. Boruca</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8. Bagases...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3</p></cell>
+                    </row>
+                </table>
+                <p>Comprehends twenty-one towns and villages. The population is computed at
+                    50,000.</p>
+                <p>These five states, taken together, exhibit the figure of an irregular triangle,
+                    the vertex of which is in the province of Panama, and the base in the line that
+                    separates the country from New Spain. They are bounded on the west and
+                    north-west by Mexico on the south-east by the province of Veraguas, on the north
+                    by the Atlantic, and on the south and south-west by the Pacific. Our knowledge
+                    of the physical geography of Guatimala is imperfect. Generally speaking, the
+                    face of the country is covered with mountains, but their elevations, or the
+                    volcanic phenomena which they exhibit, are but little known. The mountains, in
+                    some places bordering on the Atlantic, in others coasting the Pacific, and again
+                    in situations traversing the middle of the isthmus, give their own peculiar
+                    character to the country. The prevailing rocks are granite and porphyry; and in
+                    crossing them the traveller often feels himself transferred from a hot to a cold
+                    and chilling temperature. The productions, of course, vary in their nature,
+                    according to the elevations where they grow. At a height of from twelve to
+                    fourteen hundred feet, indigo, cotton, and cocoa flourish. At an elevation of
+                    from four to five thousand feet the productions of the temperate zone exhibit
+                    themselves. Wheat is cultivated upon lands from six to nine thousand feet above
+                    the level of the ocean; and on the tops of the highest mountains the hardy pine
+                    is to be found. There are a number of volcanoes, which have at different times
+                    spread terror and destruction over the contiguous country. In the valley of
+                    Guatimala stands the three-peaked Volcan de Fuego, from which the old city has
+                    repeatedly suffered injury, and which still, by occasionally emitting smoke and
+                    flame, seems to threaten an eruption. Other seven volcanoes exhibit the same
+                    phenomena, and may be said to remain still in a state of activity. These are
+                    Tajamulco, in the province Quezaltenango; Izalco, near Sonzonate; Momotombo and
+                    Mazaya, in Nicaragua; St Vincent and St Salvador, in the state of the same name;
+                    and Atitan, situated in one of the interior provinces, and which sent forth an
+                    eruption 'in 1827. It was accompanied by an earthquake; and throughout Guatimala
+                    earthquakes are frequent. The rivers are numerous, but not in general navigable,
+                    except by canoes. They are, besides, rapid, owing to the steep acclivity of
+                    their course, and their entrance is obstructed by bars. The largest river is the
+                    Lempa, which runs chiefly through the province of San Salvador. At its lowest
+                    ebb it is an hundred and forty yards in breadth, and its current is very rapid.
+                    Of lakes there are three of considerable size and depth. The Lake of Nicaragua
+                    is of vast extent; and should the proposal of a junction between the Pacific and
+                    it take place, it will become of great importance in a commercial point of view.
+                    Lake Peten is said to be twenty-six leagues in circumference, and in some parts
+                    thirty fathoms deep. Lake Atitan covers eight leagues from east to west, and
+                    four from north to south. Its depth has not been fathomed; and although several
+                    rivers flow into it, there is no visible outlet for the waters which it thus
+                    receives. These, and numerous other sheets of water, abound in fish; in many of
+                    them there are little islands, picturesquely wooded, and in some instances
+                    inhabited. On the banks of the rivers, and on the shores of one or two of the
+                    lakes, salt is collected in, large quantities, and constitutes a considerable
+                    branch of trade in some of the provinces. Medicinal and other springs, both cold
+                    and hot, are found in various parts of the country.</p>
+                <p>Of the zoology of Guatimala little is known. Of the quadrupeds usually found in
+                    such climates there is abundance; and of the feathered tribes there is an
+                    infinite variety, from the minute and beautiful humming-bird to the heavy-winged
+                    vulture. The quezal, from the beauty of its plumage, is perhaps the most
+                    remarkable. The guacamaya, or great macaw, the wild peacock, the raxon, the
+                    chion, and the chulpilchoc, also attract the traveller of the woods by the
+                    splendour of the colours which they exhibit. In the warmer provinces serpents
+                    and reptiles infest every bush; and those smaller animals which .come under the
+                    head of entomology are of every genus and species. In short, every branch of the
+                    animal kingdom of Guatimala abounds in objects of interest. Nor is the vegetable
+                    kingdom less productive. During the whole of the year the greater part of the
+                    mountains and plains are covered with a profusion of beautiful flowers. Forty
+                    genera of fruits are reckoned to grow spontaneously upon the hills. There are
+                    numerous thick forests, in which valuable woods of great size are to be found in
+                    abundance. Cedars are met with exceeding five fathoms in circumference, and
+                    mahogany trees of little less magnitude. Resins, balsams, and medicinal herbs,
+                    are also abundant. Of almost every production, both of a tropical and
+                    intertropical climate, may be enumerated amongst grains, maize, producing in
+                    some places three hundred fold, and sometimes two or three crops annually;
+                    wheat, barley, and rice. Potatoes, greens, and all other kinds of vegetables,
+                    are also abundant. Amongst fruits may be enumerated several species of
+                    plantains, apples, pine-apples, peaches, and apricos; whilst pears, melons,
+                    grapes, oranges, figs, cherries, pines, and a great many others little known in
+                    Europe, are everywhere to be met with. To these maybe added, as productions of
+                    the country, bark, sarsaparilla, cinnamon, hellebore, coffee, ginger, cassia,
+                    tamarinds, aniseed, Brazil wood, indigo, cocoa, cochineal, vanilla, sugar, flax,
+                    tobacco, cotton of various species, pepper, sulphur, saltpetre, musk, and a
+                    multitude of other articles.</p>
+                <pb break="no" facs="nls:193639329" xml:id="kp-eb0711-9329-0018"/>
+                <p>We shall now give a brief account of the different provinces. Guatimala is the
+                    central province, comprehending the great chain of volcanic mountains, and the
+                    slope downwards from them to the sea. Within these mountains is situated what is
+                    called the great valley of Guatimala, which consists properly of nine valleys.
+                    There is great variety of climate, and the productions of the country are found
+                    in the highest perfection. ∙ The city of Guatimala, the present capital of the
+                    republic, is situated in the midst of the plain of La Virgen, which is five
+                    leagues in diameter, and forms part of the valley of Mexico one of the nine
+                    small valleys. The city lies in 14. 37. north latitude, and 90. 30. west
+                    longitude, and is ninety leagues from the Atlantic, twenty-six from the Pacific,
+                    and four hundred from the city of Mexico The valley is very fertile, being
+                    watered by several streams; and the city is surrounded by numerous villages,
+                    which supply its markets with fruits and vegetables. The houses consist only of
+                    one storey, and occupy a great space of ground; so that, to the eye of a
+                    European, the city, when viewed from a distance, appears to be much more
+                    populous and extensive than it really is. It contains about sixty <hi
+                    rend="italic">manaznas</hi><hi rend="italic subscript"> i</hi> or squares of
+                    houses, formed by the intersection of streets at right angles, which vary in
+                    extent from a hundred and fifty to three hundred and fifty yards in front; and
+                    these are arranged so as to form one large square. On each side of the city, as
+                    the suburbs have increased, other houses have been erected, without much regard
+                    to uniformity. The streets are broad, but ill paved; and sloping downwards from
+                    each side, they form a gutter in the middle. The market-place is a square
+                    extending about one hundred and fifty yards each way, with a fountain in the
+                    middle. Besides the daily market, there are numerous temporary stalls; and the
+                    square is surrounded by buildings, offices, and shops. The public edifices are
+                    numerous, consisting of a university with twelve professorships, five convents,
+                    four nunneries, a cathedral, four parish churches, and fifteen other churches or
+                    chapels of minor importance. There are also a treasury, mint, government
+                    offices, and a spacious prison. The style of architecture is in general good,
+                    and some of the buildings are handsomely decorated. The houses are well built
+                    and commodiously arranged, and there is generally attached to them a stone
+                    reservoir for containing water. The city is remarkably well supplied with water.
+                    From a spring in the mountains it is conducted by pipes into twelve public
+                    reservoirs, from which it is distributed to every private dwelling. There are
+                    here two public or endowed schools for boys, and the girls are taught in the
+                    convents; but the Guatimalans in general are very imperfectly educated.
+                    Literature is at a very low ebb, although there are various printing
+                    establishments, and several newspapers are published. The religious processions
+                    which take place here are very numerous, but they partake more of buffoonery
+                    than solemnity. Guatimala is situated at about five hundred feet above the ocean
+                    level, in a temperate and salubrious climate, being neither exposed to the
+                    intensity of a summer’s sun, nor to the stormy blasts of winter. The average
+                    heat during the day is about 69 degrees in the shade; and throughout the year
+                    the thermometer scarcely varies. The scenery of the surrounding country is
+                    majestic and beautiful, and the soil is capable of producing all kinds of fruits
+                    and vegetables; but it is very much neglected. The cultivation of the cochineal
+                    insect has since 1821 been pushed to a great extent. Large plantations are
+                    situated in the neighbourhood of the city. Earthquakes sometimes occur; but they
+                    are not so destructive now, ås, from the accounts of the early historians, we
+                    are led to believe that they previously were. The population has been estimated
+                    at about 35,000, consisting of European Spaniards, white Creoles, Mulattoes, and
+                    Indians.</p>
+                <p>La Antigua, or Old Guatimala, is situated some leagues nearer to the Pacific
+                    Ocean. It was formerly one of the handsomest cities in the new world, the seat
+                    of an archbishop, and the metropolis of the kingdom. Previously to 1773, it had
+                    been to a greater or less extent destroyed by earthquakes; and in that year
+                    seven successive shocks were experienced, upon which the governor issued a
+                    decree, commanding the citizens to quit their habitations, and remove farther
+                    from the volcanoes. This they were compelled to obey; and the government was
+                    accordingly transferred to New Guatimala. The old city remained in a deserted
+                    and ruinous condition for some time, until at length many of its former
+                    occupants resumed their old habitations; and again it has gradually become
+                    peopled, and partially rebuilt. It is still, however, far inferior in size and
+                    population to the new capital.</p>
+                <p>There are few other towns in Guatimala of sufficient importance to require a
+                    detailed description. The inhabitants of the province are employed, first, as
+                    carriers, in which capacity they supply all the other states; secondly, in the
+                    production of cochineal, a little indigo, about five hundred cargoes of cocoa,
+                    and some flour; and thirdly, in the manufacture of some coarse woollens, of
+                    which it is calculated a quantity equal in value to two hundred thousand dollars
+                    is furnished to the other states.</p>
+                <p>The province of Salvador, anciently called Cuscatlan, or the land of riches, is
+                    bounded on the south by the Pacific Ocean, on the north by Honduras, on the east
+                    by Nicaragua, and on the west by Guatimala. The natural productions of this
+                    province appear to be similar to those of Guatimala. It possesses mines of
+                    silver, iron, and other metals; and a considerable quantity of indigo is
+                    produced, in which consists the chief trade of Salvador. Sugar and cotton are
+                    also raised, and the inhabitants are principally employed in the cultivation of
+                    these, particularly the former article. San Salvador, the capital, was founded
+                    in 1528 by the Spaniards, who had conquered the country three years previously
+                    to that period. This city, which now ranks second in the republic, is situated
+                    in 13. 36. north latitude, and 89. 46. west longitude, at the distance of eight
+                    leagues from the Pacific Ocean. It is surrounded by hills and mountains covered
+                    with wood, and terminating on the north-east in a dormant volcano. The streets
+                    run in right angles, the houses are commodious, and the market is well supplied.
+                    It contains a population of about 16,000 inhabitants.</p>
+                <p>The province of Honduras stretches east and west on the shores of the Atlantic.
+                    It is bounded by the Bay of Honduras on the north, by Nicaragua on the
+                    south-east and east, by San Salvador on the south, and by the department of
+                    Chiquimula on the west. Its territory is for the most part rugged and
+                    mountainous, but rich in metals. The whole coast is flat, marshy, hot, and
+                    extremely unhealthy, although some parts of the interior rise into hilly and
+                    temperate tracts. In consequence of the unpropitious nature of the climate, this
+                    part of the country is thinly peopled. It abounds in thick forests, containing
+                    the most valuable mahogany and logwood trees. Comayagua, the capital of the
+                    province, is situated in a beautiful plain, in about 14. 50. north latitude, and
+                    87. 46. west longitude, and is distant from Guatimala about a hundred and
+                    forty-four leagues. Truxillo, formerly the capital of a province, stands on an
+                    elevation of about thirty yards above the level of the sea, in latitude 15. 48.
+                    north, and longitude 86. west. This place is well fortified, but the population
+                    is small. Gracias a Dios, once a flourishing city, is situated about
+                    thirty-eight leagues from Comayagua, in latitude 14. 40. north, and longitude
+                    88. 30. west. At present the population is small, and the city itself is in a
+                    state of great decay. The inhabitants of Honduras are principally employed in
+                    the rearing of about forty thousand head of cattle, introduced annually into San
+                    Salvador and Guatimala, and in the cultivation of tobacco. <pb break="no"
+                    facs="nls:193639342" xml:id="kp-eb0711-9342-0019"/>The British settlement of
+                    Honduras, situated in the province of Merida or Yucutan, belonging to Mexico is
+                    uniformly, in works upon geography, described along with Guatimala; but as it is
+                    now beyond the limits of that republic, an account of it will be given under the
+                    head of <hi rend="smallcaps">Honduras.</hi></p>
+                <p>The province of Nicaragua is bounded on the north by Honduras, on the east by the
+                    Atlantic, on the south by Costa Rica and the Pacific Ocean, and on the west by
+                    Tegucigalpa, a department of Honduras. From west to east it extends eighty-five
+                    leagues, and from north to south about seventy-five. The chain of the volcanic
+                    Andes here terminates, and the territory is in general low and moist. It is rich
+                    in all the tropical fruits, but those peculiar to a temperate zone are not to be
+                    met with. Here there are vast savannahs, covered with herds of cattle, some of
+                    which are sent to the city of Guatimala. Leon, or San Leon de Nicaragua, is
+                    situated in latitude 12.20. north, and long. 86. 16. west. It is four leagues
+                    from the Pacific, and a hundred and eighty-three from Guatimala. Previously to
+                    the revolution, it was one of the most beautiful cities of the kingdom, and was
+                    rapidly advancing in prosperity when political animosities split the inhabitants
+                    into parties; but the city was torn to pieces by the factions, and for a time
+                    nearly deserted. Nicaragua is not very large, but occupies an advantageous
+                    position on the north-western shore. It contains about 7000 inhabitants, of whom
+                    about 1000 are Spaniards, with a college, which, in 1812, was converted into a
+                    university. Mazaya, a village containing about 6000 inhabitants, almost entirely
+                    Indian, is said to be the most trading place in the province, though
+                    inconveniently situated at the bottom of a deep rocky dell, which is almost
+                    destitute of water. The inhabitants of this province are chiefly employed in the
+                    breeding of cattle, and in raising cocoa.</p>
+                <p>Costa Rica, or Rich Coast, notwithstanding its name, is the poorest and most
+                    destitute of all the provinces. It extends an hundred and sixty leagues from
+                    west to east, and about sixty leagues from north to south. Its climate is warm
+                    but healthy, and its population very widely scattered. It has however mines of
+                    gold and silver, once said to have been rich, but now unproductive. Cartago, the
+                    ancient capital, is situated in about 9. 10. north latitude, and 82.46. west
+                    longitude, four hundred leagues east-south-east from Guatimala, thirty leagues
+                    from the Atlantic, and thirty from the Pacific. San José, to which the seat of
+                    government was transferred about the time of the revolution, has about the same
+                    amount of population. There is little trade except in mahogany and cedar, which
+                    is shipped from Peru, the inhabitants of this province raising little more of
+                    any article than is necessarily consumed within itself. The growth of maize, and
+                    the manufacture of panelas (small loaves of unrefined sugar prepared from the
+                    cane), are common to all the states.</p>
+                <p>To the east and south-east of the province of Honduras lies a tract of country
+                    called Poyais and the Mosquito shore. It consists of a vast and savage forest,
+                    beat by the burning rays of the sun, and occupied by a race of Indians, who
+                    consider themselves as under the protection of Britain, although the British
+                    government claims no territory in this part of the country. The Mosquito-men
+                    possess great muscular strength. Tall and erect, and little encumbered with
+                    clothing, with vacant countenances, and long greasy hair, they present a wild
+                    and savage appearance, and afford fine specimens of the powerful barbarian.
+                    Poyais is memorable on account of the unhappy issue of an attempt made by some
+                    Englishmen to form a settlement in this quarter, whither they had been led by
+                    the promises and representations of an adventurer, called, or calling himself, a
+                    cacique.</p>
+                <p>With regard to agriculture and commerce, Guatimala is still very far behind,
+                    considering her natural resources« ∣ One great drawback to improvement in this
+                    respect is, the great expense attending the transport of goods by land, and the
+                    want of proper ports, upon the coast. On the Pacific, the only ports frequented
+                    are Conchagua, situated a few leagues from San Salvador, which possesses an
+                    excellent harbour; and Acajutla, an unsheltered bay, five leagues from
+                    Sonzonate, which is used as the port of Guatimala. From this place it is
+                    fifty-five leagues distant, and the road lies over a rough and mountainous tract
+                    of country. Another point, however, has been fixed upon as an eligible spot for
+                    a harbour. It has been called the Port of Independencia; and, as it is situated
+                    nearer to the capital, and the road lying between the two places is better than
+                    the other, it affords every convenience and advantage for carrying on an
+                    extensive traffic in the Pacific Ocean. For some years previously to the
+                    revolution, the commerce was retrograding; but since that event occurred, it has
+                    certainly improved. The most important production of the country is indigo,
+                    which is celebrated for its excellence. Of the exact quantity raised no idea can
+                    be formed. The cultivation of cochineal has rapidly increased. In 1826, or about
+                    five years after its introduction, the harvest was estimated at ninety thousand
+                    pounds. Considerable quantities of tobacco and cotton are also raised; and sugar
+                    and cocoa are likewise cultivated, but little coffee is grown. There are some
+                    manufactures in the country; but articles of wearing apparel, and those for
+                    domestic use, are principally imported from Europe. The only remaining source of
+                    national wealth is the mines. Since the revolution some very exaggerated
+                    statements have been published as to the mineral wealth of Guatimala, and
+                    several of the mines are in the hands of companies, who are attempting to work
+                    them; but, by all accounts, the speculation will not be so profitable as was
+                    anticipated, the working of the mines being expensive. Of the amount of foreign
+                    goods imported into Guatimala only a rude guess can be formed. It has been
+                    estimated at about two millions of dollars, whilst the quantity of produce
+                    exported does not amount to two thirds of that sum. The exports consist chiefly
+                    of cochineal, indigo, cocoa, cotton, hides, and drugs. The imports are
+                    principally made by the ports of Omoa and Yzabal. The former, which is about an
+                    hundred leagues distant from Guatimala, is the principal depot for goods from
+                    the Havannah and the peninsula, with which some small trade is carried on; and
+                    the latter for British merchandise from Belize, in the British territory of
+                    Honduras. The goods are transported from one place to another by means of mules,
+                    which are rather scarce in the country. By the parliamentary papers for 1831, it
+                    appears that during that year the official value of the imports from Guatimala
+                    into Great Britain amounted to L.8065. 4s. 6d.</p>
+                <p>Notwithstanding all its advantages, the chief of which is the variety of its
+                    productions, it is much to be doubted whether Guatimala will ever attain to any
+                    very high pitch of prosperity as a nation. Indeed this will be nearly
+                    impossible, until the present inhabitants, who have little enterprise, and are
+                    very indolent, shall have their moral character elevated by a large infusion of
+                    European intellect and industry. It would seem that at present the very
+                    advantages which Guatimala possesses were the means of retarding its
+                    improvement. For, in countries where the soil is so rich and the climate so
+                    propitious as to produce spontaneously almost all the necessaries of life,
+                    which, to a considerable extent, can be appropriated at pleasure by the natives,
+                    there is an inducement held out to indolence which cannot well be resisted,
+                    especially by a population at least two fifths of whom are of a low order of
+                    intellect; individuals who are sufficiently satisfied with such articles as are
+                    necessary for their own subsistence, without<pb break="no" facs="nls:193639355"
+                    xml:id="kp-eb0711-9355-0020"/> having any regard to personal aggrandisement or
+                    extension of individual power. Guatimala contains about one million and a half
+                    of inhabitants, who are mixed in the following proportions, according to the
+                    authorities of Humboldt and Thomson:<note anchored="true" place="bottom"
+                    type="authorial"><p>Thomson’s <hi rend="italic">Narrative of an Official Visit
+                    to Guatimala.</hi></p></note><hi rend="superscript"> l</hi></p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Thomson.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Humboldt.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p>Whites and Creoles 20 per
+                            cent</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>,....20 per cent.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Mixed classes....</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>40 per cent</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>.....28 per cent.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Indians</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>40 per cent</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>52 per cent.</p></cell>
+                    </row>
+                </table>
+                <p>A society consisting of four different classes, which are not only distinct from
+                    one another, but which present nearly opposite characteristics, can scarcely be
+                    supposed ever to become firmly knit together so as to constitute a strong
+                    political body. Speaking generally, the strength of states results from the
+                    union of the people; and union arises from congeniality of feeling, identity of
+                    interests, similarity of habits and tastes, and such an equality of moral
+                    character as is usually met with amongst the individual races of mankind. But in
+                    Guatimala, the Europeans, proud of their Castillian blood, look with contempt
+                    upon the natives, whom they place far below them in intelligence, which the
+                    latter have no alternative but to acknowledge, though at the same time they
+                    accuse the Spanish nation of being the cause of all he evils which have
+                    distracted the country. The Europeans are chiefly composed of individuals who
+                    left their own country young, and by their talents and industry acquired wealth
+                    in Guatimala. The leading Americans, or white Creoles, are descendants of the
+                    Spaniards, who at an earlier period acquired fortunes in the same place. The
+                    latter are again divided into two parties, the liberals, and the serviles or
+                    noblesse as they call themselves, both differing widely' in feeling and in
+                    sentiment. The next class is the mulatto or mixed race, which forms as it were
+                    the physical force of the nation; for whilst they would seem to equal or nearly
+                    equal the Indians in numbers, they possess an energy and cunning, a sort of rude
+                    intelligence, to which the latter have no pretensions. This mixed people are
+                    always impressed into the service of either of the two former classes during
+                    civil dissensions. The last class, or aboriginal Indians, are the lowest of all
+                    in every respect; but they in some measure assist in balancing the other powers,
+                    for they thoroughly hate the mixed race. The greater proportion of the Indians
+                    live in villages built after the Spanish manner, and employ themselves variously
+                    in raising maize and vegetables, manufacturing mats and baskets, or as porters
+                    and carriers; a second portion live on farms, where they are regularly employed;
+                    and both .these classes arc governed by officers chosen from amongst themselves.
+                    There are other two classes, the Indians composing which either live in <hi
+                    rend="subscript"> x</hi> huts or long straggling villages, or form, like the
+                    Lazzaroni of Italy, a sori of half mendicant race, lounging in idleness during
+                    the day, and sleeping at night under the piazzas of the squares. The Indians
+                    have been known at times to display considerablehardihood and daring, but they
+                    are generally characterised by pusillanimity. This, however, only applies to the
+                    interior Indians; the unsubdued Mosquito-men are remarkable for their reckless
+                    valour and invincible energy. The Indian of Guatimala, although incapable of
+                    violent effort, can endure considerable fatigue. Of his capacity for improvement
+                    by superior education, little can be said with certainty, as the experiment does
+                    not seem to have been made upon a scale ample enough to entitle us to form a
+                    correct judgment upon the subject. Some of those who have been admitted into
+                    convents have displayed ability: and others in whom talent was apparent, have
+                    been educated at the university, where they displayed some quickness of
+                    apprehension; but after a few years, they became addicted to intoxication, and
+                    relapsed into their original ( barbarism. The Indians excel in the imitative
+                    arts, and mould waxen figures with taste, ingenuity, and correctness , to
+                    nature. The only dress of the men consists of a cincture made of <hi
+                    rend="italic">pita</hi> (the fibres of a plant, which, when twisted, resemble
+                    the thread made of hemp); and the women wear merely a light cotton dress from
+                    the middle downwards. The houses are nearly destitute of furniture; a mat spread
+                    on the floor, or at best a small hammock, serves for a bed. Their food consists
+                    chiefly of maize variously prepared. Thus, with his hut and his native corn, the
+                    Indian passes his days in indolence, alike ignorant of intellectual enjoyment
+                    and the luxuries and refinements of civilized life. <hi rend="smallcaps">(r. r.
+                    r.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

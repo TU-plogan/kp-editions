@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0711-0850-0135-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">HANOVER</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 11, page 135</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="9" ref="fasttopic:931268">Foot</term>
+                    <term n="8" ref="fasttopic:999105">Linen</term>
+                    <term n="7" ref="fasttopic:1182566">Year</term>
+                    <term n="5" ref="fasttopic:914456">Equality</term>
+                    <term n="5" ref="fasttopic:987598">Kindness</term>
+                    <term n="4" ref="fasttopic:942100">Germans</term>
+                    <term n="4" ref="fasttopic:942099">Germanization</term>
+                    <term n="4" ref="fasttopic:934209">French</term>
+                    <term n="4" ref="fasttopic:1048908">Othoes</term>
+                    <term n="3" ref="fasttopic:1080735">Prussians</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="9" ref="lcsh1910:b4319s59c">Foot</term>
+                    <term n="8" ref="lcsh1910:b4dr2p79d">Land</term>
+                    <term n="8" ref="lcsh1910:b45q4rp1f">Linen</term>
+                    <term n="7" ref="lcsh1910:b4q815225">Trade</term>
+                    <term n="7" ref="lcsh1910:b4jh3db66">Trades</term>
+                    <term n="4" ref="lcsh1910:b45m62b4v">Germans</term>
+                    <term n="3" ref="lcsh1910:b4cc0tv2w">Canals</term>
+                    <term n="2" ref="lcsh1910:b49c6s277">Christianity</term>
+                    <term n="2" ref="lcsh1910:b4b853n60">Guelphs</term>
+                    <term n="2" ref="lcsh1910:b4bc3t32v">Lion</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="2" ref="fastgeo:1219920">England</term>
+                    <term n="2" ref="fastgeo:1204558">Denmark</term>
+                    <term n="1" ref="fastgeo:1207312">Russia</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193640850" type="entry">
+                <p><label type="entry">HANOVER</label>, a kingdom in Germany, formed out of the
+                    duchies which formerly belonged to several families of the <pb break="no"
+                    facs="nls:193640863" xml:id="kp-eb0711-0863-0136"/>junior branch of the house of
+                    Brunswick. In the course of the revolutionary war, under the influence of
+                    France, the dukedoms of Bavaria, of Saxony, and of Wirtemburg had been raised to
+                    the rank of kingdoms; and when the overthrow of Bonaparte was accomplished, the
+                    dukedoms which had composed the electorate of Hanover were thought by the allied
+                    powers of sufficient consequence to be elevated to the same dignity, as, with
+                    the additions then made to them, they were nearly equal in extent and population
+                    to the other portions of Germany whose rulers had received that rank. It
+                    accordingly assumed that grade in 1814, under George III., and was acknowledged
+                    as such by all the powers of Europe.</p>
+                <p>The obscurity in which antiquity has involved the early history of nations can
+                    only be in a slight degree cleared up by tracing the origin of the families that
+                    maintained the continued rule over them. The ruling family of Hanover has been
+                    traced, by the combined efforts and researches of Muratori and Leibnitz, to an
+                    Italian origin, in the dark ages, that is, to the princely house of Este; and by
+                    Gibbon, from that house up to the descendants of Charlemagne. A Marquis of Este,
+                    in the eleventh century, married Cuniza or Cunegonda, an heiress of a princely
+                    family in Bavaria, whose son received the name of Guelph, derived from his
+                    maternal ancestors, and inherited their dominions, including the dukedom of
+                    Bavaria. The grandson of this Guelph, named Henry the Black, and his son named
+                    Henry the Proud, acquired by marriage new and extensive dominions on the banks
+                    of the Elbe and the Weser; and Henry the Lion, the most powerful prince of his
+                    age, was the first of the race who assumed the title of Duke of Brunswick. Under
+                    this Henry, who distinguished himself as a great warrior, an uncle wrested from
+                    him the southern portion of his territory in Bavaria and Suabia, and left him,
+                    at the conclusion of most bitter hostility, in the possession of the northern
+                    portion of it. He made the city of Brunswick the capital of his dominions, and,
+                    being in possession of the rich silver mines of the Hartz, was enabled to extend
+                    his power over the tribes of Northern Germany, inhabiting Holstein, Mecklenburg,
+                    and nearly the whole coast of the Baltic Sea.</p>
+                <p>FIenry the Lion was twice married. By his first wife he left no family; and by
+                    his second wife, who was Maud, the daughter of Henry II. of England, though he
+                    had several sons, none of them left any issue except William, under whose only
+                    son Otho the partition of the house took place, Brunswick and Luneburg being
+                    divided into two dukedoms. The latter branch received the Hanoverian portion as
+                    a fief from William Sigefred, bishop of Hildesheim. After the death of Otho, and
+                    of his two sons Otho and William, who successively followed, the male line
+                    became extinct in 1369. Otho, elector of Saxony, who had married a daughter of
+                    William, was, by the influence of the emperor of Germany, Charles IV. invested
+                    with the government. He died without issue, having by his testament bequeathed
+                    the dukedom to his uncle Wenceslaus, elector of Saxony; a bequest which was
+                    contested by Torquatus Magnus, duke of Saxony, but at length was terminated in a
+                    compromise, by which Bernard, the eldest son of Torquatus, obtained the
+                    dominion, and reigned until 1434. After several successions, the power became
+                    vested in Ernest of Zell, who first introduced the Lutheran religion into his
+                    states, and died in the year 1546. The succession since has been, William, who
+                    died in 1592; Ernest, in 1611; Christian, in 1633; August, in 1636; Fredrich, in
+                    1648; Ernest Augustus, bishop of Osnaburg, who was made an elector of the German
+                    empire in 1692, and died in 1698; George Louis, who, after the death of his
+                    uncle George William, inherited the dukedom of Zell in 1705, and succeeded to
+                    the crown of Great Britain by the title of George I. in 1714. He died in 1727,
+                    since which period the succession has been the same as in that kingdom.</p>
+                <p>The accession of the electors of Hanover to the throne of Great Britain, though
+                    it has led ultimately to a great extension of territory, has, on the other hand,
+                    subjected the electorate to sufferings and to oppression during the wars between
+                    Great Britain and France. At the commencement of the Seven Years’ War, a French
+                    army invaded it; and the forces under the Duke of Cumberland, being unequal to
+                    its defence, were compelled, by the convention of Kloster-Severn, to abandon the
+                    country to the invaders. By the peace of 1763 it was again restored to its
+                    ancient sovereign. At the renewal of hostilities after the treaty of Amiens,
+                    Hanover was once more seized upon by the French, and by them delivered over to
+                    the king of Prussia, who ruled it till after his defeat at Jena. It was then
+                    incorporated as part of the kingdom of Westphalia, erected in favour of Jerome
+                    Bonaparte. This rule was terminated by the battle of Leipsic, by which Hanover,
+                    with the rest of Germany, was delivered from French domination, and returned to
+                    its ancient sovereigns, with the addition of the provinces of Hildesheim,
+                    Osnaburg, East Friesland, Goslar, and some other territories. On the other hand,
+                    Hanover gave up the ancient duchy of Lauenburg, which was transferred to
+                    Denmark, and some portions or bailiwicks, a part to Prussia, and a part to the
+                    Duke of Oldenburg.</p>
+                <p>Hanover has thus become a compact dominion, extending over 14,720 English square
+                    miles. It lies between 50° 18' and 53° 54' north latitude, and 6° 58' and ll <hi
+                    rend="superscript"> o</hi> 56' east longitude. It is bounded on the north by the
+                    duchy of Oldenburg, the bailiwick of Ritzebüttel, belonging to Hamburg, and the
+                    mouth of the Elbe. On the north-east the river Elbe divides it from Holstein and
+                    Luneburg, belonging to Denmark, and from the duchy of Mecklenburg-Schwerin; but
+                    it possesses the small territory of Neuhof on the right bank of that river. On
+                    the east it is bounded by the Prussian province of Saxony, and by the duchy of
+                    Brunswick; on the south it touches the dominions of Prussia, of Hesse-Cassel, of
+                    both the Lippes, and of Westphalia; and on the west the kingdom of the
+                    Netherlands is the boundary.</p>
+                <p>The kingdom of Hanover is divided in the following manner :—</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Provinces.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Extent in English Acres.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Population.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Number of Dwelling-Houses.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Hanover....</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,601,280</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>296,000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>40,745</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Hildesheim.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,121,920</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>322,000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>44,199</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Luneburg....</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,871,040</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>285,000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>37,037</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Stade</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,725,440</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>244,000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>37,747</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Osnabruck..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,441,280</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>244,000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>39,411</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Aurich</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>743,040</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>152,000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>24,261</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Clausthal...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>122,080</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>26,000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,738</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>9,626,080</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,569,000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>226,138</p></cell>
+                    </row>
+                </table>
+                <p>A new survey and division of provinces has been made within the last four years.
+                    The population returns are grounded on a census taken in 1817, since which the
+                    deaths have been deducted and the births added each year. This gives an increase
+                    of inhabitants of 236,400 in fifteen years. In the year 1832 the births appear
+                    to have been 48,273, and the deaths 39,806. The capital of each of the provinces
+                    is the city of the same name.</p>
+                <p>The chief cities and their population are as follows: Hanover, 26,300;
+                    Hildesheim, 13,800; Luneburg, 12,500; Emden, 12,100; Osnabruck, 11,800;
+                    Göttingen, 11,000; Zell, 10,300; Clausthal, 8850; Goslar, 7160; Leer, 6340;
+                    Hameln, 5750; Norden,-5600; Stade, 5500; Eimbeck, 5100.</p>
+                <p>The province of Hildesheim is somewhat mountainous, and that of Clausthal,
+                    containing the Hartz, is <pb break="no" facs="nls:193640876"
+                    xml:id="kp-eb0711-0876-0137"/>wholly so, as well as some parts near Göttingen.
+                    The other provinces form a part of that extensive plain which commences on the
+                    shores of the German Ocean, and terminates on the frontiers of Russia. The whole
+                    plain is a sandy soil, resting on a bed of granite, and is generally sterile,
+                    except on the banks of the various rivers that water it, or near the cities,
+                    where cultivation has improved it by artificial means. The most fruitful part of
+                    the kingdom is on the banks of the Elbe, and near the German Ocean, where, as in
+                    Holland, rich meadows are preserved from being immersed in water, by broad dykes
+                    and deep ditches, constructed and kept in repair at a great expense.</p>
+                <p>The most remarkable mountains are those of the Hartz Forest, three fifths of
+                    which are in this kingdom, and two fifths in the duchy of Brunswick. These
+                    mountains arc not a part of any chain, but rise from a plain in a group by
+                    themselves, the highest points of which are nearly in the centre. The mass is
+                    about eighty miles in length from east to west, and about twenty-eight in
+                    breadth from north to south. The highest points, and their height above the
+                    level of the sea, are Bruchbcrg, 3020 feet; Wormberg, 2880 feet; Achtermanshöhe,
+                    2710 feet; the Little Winter-berg, 2684 feet; Kahlenberg, 2180 feet; and the
+                    Rammelsberg, 1915 feet. These mountains are wholly covered with forests. On
+                    their lower sides the trees are of the deciduous kinds, but the summits are
+                    exclusively covered with pines. These mountains abound with minerals of almost
+                    every kind, and the principal employment of the inhabitants consists either in
+                    mining, or in manufacturing the iron and copper into domestic utensils. Some of
+                    the mining and manufacturing towns, as Clausthal, Andreasbcrg, Ccller-feld, and
+                    several others, are from 1700 to 1900 feet above the level of the sea; and their
+                    population would suffer most severely from the cold of the severe winters, but
+                    for the abundance both of wood and fossil coal with which they arc supplied.</p>
+                <p>The whole of the kingdom of Hanover dips towards the north, and the courses of
+                    all the rivers are in that direction. These are, <hi rend="italic">first,</hi>
+                    the Elbe, which borders a large part of the dominion, and receives into it the
+                    Ohre, which rises in the province of Luneburg; the Aland and the Jeetze, which
+                    come out of Prussia, and are navigable before they terminate in the Elbe; the
+                    Ilmenau, which becomes navigable at Luneburg; the Este, which is navigable to
+                    Buxtehude; the Lühe, navigable to Hornburg; the Schwinge, by which vessels reach
+                    Stade; the Oste, which passes Harburg, and is navigable to Kirchosters; and the
+                    Medem, which runs through the land Hadeln, and admits large vessels as high as
+                    Ottendorf. <hi rend="italic">Second,</hi> the Weser, which enters the dominions
+                    of Hanover at Münden, being there formed by the junction of the Fulda and the
+                    Werra. It is navigable for barges from the spot at which its name commences, and
+                    it receives, in its course, the Hamel, the Aller, the Oertze, the Line, the
+                    Böhme, the Eyther, the Wümme, the Lesum (formed by the three streams, Rodau,
+                    Wiste, and Worpe), the Greste, and the Hunter; all of which are Hanoverian
+                    rivers, and continue their united courses till they are lost in the German Ocean
+                    near Bremen. <hi rend="italic">Third,</hi> the Ems, a river rising in the
+                    Prussian province of Westphalia. After entering Hanover, it receives the waters
+                    of the Aa, the Hase, the Else, and the Leda. Before reaching the sea, it falls
+                    into the Dollart near Emden, which is the principal seaport in the kingdom. The
+                    vessels belonging to this port are about 270, and their tonnage 19,289 lasts.
+                    There are equipped at the mouth of this river upwards of fifty busses, which are
+                    employed in the herring fishery, and usually take and cure from 12,000 to 14,000
+                    tons of that fish annually. <hi rend="italic">Fourth,</hi> the Vecht, a river of
+                    short course, rising in the Prussian province of Westphalia, and terminating in
+                    the Zuydcr Zee. Its principal importance is derived from a navigable canal,
+                    which commences at the city of Münster, arid is the channel õf some trade
+                    through the Vecht to Amsterdam.</p>
+                <p>Though Hanover is generally a sandy soil, it has some small fresh-water lakes.
+                    The Dummersee, in Diepholtz, is about twelve miles in circuit. The
+                    Steinhudermecr, in the province of Kalenburg, is about four miles long and two
+                    broad; and the Dollart, at the mouth of the Eins, which is rather an estuary
+                    than a lake, is twelve miles across. The canals are all of short course. The
+                    Bremen Canal is designed to unite the Hamme, the Oste, and the Schwinge; and the
+                    Treckschuit Canal is intended to connect Witmund with Aurich. The Pappenburg
+                    Canal is only navigable from the Ems to that city.</p>
+                <p>Though considerable variations, in conformity to the different natures of the
+                    soils, occur in the husbandry of Hanover, yet it may be generally described as
+                    at a very low standard. The land mostly belongs either to the king, or to the
+                    nobles, as lords of the soil, who have under them a species of tenants called
+                    bauers, having the use of small portions of land, under many and various feudal
+                    conditions. These bauers pay little or no rent in money, but render the lord a
+                    stipulated number of days’ work in seed time and harvest on his demesne lands,
+                    or give him a certain proportion of the proceeds of their crops. In most
+                    instances the lords have the right of pasture for their cattle over the whole
+                    land, and arc the proprietors of most of the sheep and cows. There is an
+                    exception to this mode of holding, called the <hi rend="italic">meyer
+                    law</hi><hi rend="italic">;</hi> but it extends over so small a portion of the
+                    kingdom as not to merit a detailed notice of it. The rotation of crops usually
+                    followed in Hanover is first a fallow, on which the land is cultivated to
+                    potatoes, peas, or flax; then follows winter corn, either rye or wheat, but
+                    chiefly the former; and to these succeeds summer corn, either barley or oats. As
+                    the fields arc usually divided into small portions, like many of our common
+                    fields in England, and the larger divisions must all be cultivated alike, though
+                    belonging to different occupiers; and as the course that has prevailed from time
+                    immemorial must be continued; there is little or no room for improvement, and
+                    little encouragement for superior knowledge or greater activity. Such is the bad
+                    state of cultivation, that the increase of grain is not estimated to exceed four
+                    for one of the quantity sown throughout the whole kingdom. The breeding and
+                    fattening of cattle is a branch of rural economy, confined to particular
+                    portions adapted to that purpose, and is in the same backward state as the
+                    agriculture. By the latest enumeration of the live stock, which was previous to
+                    some provinces of 600,000 acres in extent being added to it, there were 224,500
+                    horses; 675,926 head of horned cattle; 1,540,794 sheep and lambs; 15,728 goats
+                    and kids; 176,974 swine; and 1498 asses and mules. Much of the heath land,
+                    especially in the province of Luneburg, is used for no other purpose but that of
+                    rearing bees for the sake of their honey and wax. The hives are transported in
+                    waggons, at the commencement of the spring, to those more southern countries
+                    where the flowers bloom early, and are afterwards brought back when the heath
+                    flowers are fit for them, and remain till the proper time for taking the
+                    contents of the hives. Large numbers of geese are also kept by the bauers on the
+                    moist situations: their flesh is salted for winter domestic consumption, and
+                    their feathers arc preserved for sale. These two sources, affording wax, honey,
+                    and feathers, yield the principal disposable produce of some of the
+                    provinces.</p>
+                <p>The manufactures of Hanover arc very numerous, but none of them extensive. Except
+                    linen, linen yarn, and domestic utensils, few of them afford a surplus beyond
+                    the home consumption. The linen is of four kinds: first, that called <hi
+                    rend="italic">Hauseleinwand,</hi> or household linen, the making as well as use
+                    of which is to be met with in every family; secondly, a coarse kind, that called
+                    the <hi rend="italic">Lowentleinen</hi><hi rend="italic">;</hi> thirdly, <pb
+                    break="no" facs="nls:193640889" xml:id="kp-eb0711-0889-0138"/> the fine linen,
+                    which is only made in some of the cities to a small extent, and almost wholly
+                    consumed by the richer families of the kingdom; and, fourthly, sail-cloth and
+                    hempen linen, which is principally made in East Friesland and the duchy of
+                    Bremen, and is mostly sold for foreign consumption. Besides the linen yarn used
+                    in the home fabrics, a great quantity is spun for foreign trade. Spinning is
+                    indeed the constant operation of almost all the females in the villages during
+                    the long nights of winter. The spinning of coarse wool, and making it into
+                    cloth, either by itself or mixed with linen, occupies a considerable portion of
+                    the industry of the peasantry, and furnishes them with clothing from the produce
+                    of their own lands. Besides these, they spin cotton, and mixing the yarn with
+                    that of linen, manufacture dresses for the females and the younger part of their
+                    families. The stockings they wear, whether of linen, cotton, or worsted, arc
+                    usually made at home. In some parts of the country much oil is made from
+                    linseed. Coarse pottery ware is made in many parts. Paper-mills, which supply
+                    about 80,000 reams annually, are not sufficient for the home consumption. In the
+                    cities, woollen cloths, silk goods, cotton of various kinds, hats, hosiery,
+                    soap, and leather, are manufactured. The principal branches that employ much
+                    capital are the breweries of Hanover, Eimbeck, and Goslar, and the corn
+                    distilleries which are to be found in all the cities. The former of these are
+                    suffering <hi rend="italic">a</hi> gradual declension, whilst the latter are as
+                    rapidly increasing.</p>
+                <p>The mines are a source of wealth, which, from having been neglected during the
+                    French occupation, have required considerable expenditure to make them as
+                    productive as they were before that calamitous period. The gross quantities
+                    delivered of all the mines in the seventeen years from the beginning of 1815 to
+                    the end of 1832, have been as follows, viz.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Gold</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Silver</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>878,699 ...</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Lead</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,683,781 quintals.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Copper</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>33,509 ...</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Zinc</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>59θ</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Sulphur</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>17,396 ...</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Vitriol</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>44,058 ...</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Iron</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,329,139 ...</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Salt</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,400,000 ...</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Fossil coal</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>17,500,000 cubic feet.</p></cell>
+                    </row>
+                </table>
+                <p>It is expected that in future the proceeds will be more considerable, and the
+                    expense of working much less, as some new shafts have been recently sunk, and
+                    the cost of them deducted from the price of the metals.</p>
+                <p>As may be supposed from the small quantity of surplus production, the trade of
+                    Hanover cannot be extensive. The principal port, Emden, has some export and
+                    import trade; but from the state of the roads between that place and the more
+                    populous parts of the kingdom, more of its trade passes through Hamburg and
+                    Bremen than through that city. Besides the more considerable articles made from
+                    flax, its honey, wax, feathers, and large quantities of timber, are sent to
+                    Hamburg and Bremen. Hops, rapeseed, oil-cake, fruit, hams, and sausages, form
+                    also articles of export of small amount. In very fruitful years some corn is
+                    exported, but in general the consumption is equal to the produce. The imports
+                    consist principally of wine, coffee, tea, sugar, indigo, tobacco, and a few
+                    manufactured articles, which are consumed by the richer classes. As the roads to
+                    the great fairs of Leipsic and Frankfort pass through Hanover, the transit of
+                    goods by these create a pretty large commission trade, and give employment to
+                    many waggons, horses, and men, as well as to the barge owners. The exports and
+                    imports nearly balance each other, and the amount of neither exceeds L.500,000
+                    sterling.</p>
+                <p>Hanover is a hereditary monarchy in the house of Guelph, with a Salic law, which
+                    prevents the throne being filled by a female. In case the present branch becomes
+                    extinct, the heir of the duchy of Brunswick will succeed. The legislative power
+                    was vested in the several states formerly, which caused a great complication,
+                    both in the financial and the judicial departments. This arose from the several
+                    parts which have successively been added to Hanover having possessed ancient
+                    constitutions, with considerable differences in the laws, religion, and
+                    institutions. Ry gradual arrangements these have been assimilated into one
+                    system, and a legislative body formed, which, as far as it has hitherto
+                    proceeded, works rather favourably for the general good. It consists of two
+                    houses. The upper house contains fifty-five members. They are in part the
+                    mediatorial sovereigns within the kingdom, in part the Protestant and the
+                    Catholic bishops or prelates, and in part the ministers at the head of the
+                    several departments of the government; but the greater number consists of the
+                    representatives of the nobility, proprietors of estates in the several
+                    provinces.</p>
+                <p>The second chamber is composed of seventy-two members, who are chosen for six
+                    years. Twenty-nine of them are elected by the cities, and the remainder by the
+                    proprietors of the estates in their respective provinces. Amongst these are
+                    several clergymen and lawyers. The president and vice-president are selected by
+                    the assembly, but subject to the approbation of the king, or, in his absence, of
+                    the viceroy. They assemble every year, and their attention recently has been
+                    chiefly addressed to the simplification of the finances, and to the abolition of
+                    those inferior local justiciaries, which had belonged to the proprietors of
+                    certain estates.</p>
+                <p>The revenue of the kingdom is derived from various sources, all of which have
+                    been clearly communicated to the public by one of the chiefs of the board of
+                    revenue, Mr Ubbelohde, up to the beginning of 1834.</p>
+                <p>The sovereigns of Hanover were, like most others in Germany, the largest landed
+                    proprietors in their dominions. Their land, called the domains, with what was
+                    denominated the royalties, such as the mines, the posting, the road and harbour
+                    tolls, and other branches, amounted to nearly as much as the taxes. These have
+                    recently been given up by the crown, and form one branch of the general revenue
+                    applicable by the legislature to the purpose of paying the interest of the
+                    public debt, and defraying the expenses of the several departments of the
+                    administration.</p>
+                <p>The nett amount of this royal property, after deducting the expense of management
+                    and collection, and the sum appropriated to the viceregal household, appears to
+                    have been, in 1833, 1,194,640 rixdollars, or L.89,598 sterling, besides that
+                    derived from the mines and salt springs, which amounted to 117,000 rixdollars,
+                    or L.8775 sterling. The remainder of the revenue is obtained by taxation of
+                    various kinds, such as land, house, personal, and income taxes, by imposts on
+                    beer and corn spirits, by stamps, and by a custom-duty on foreign goods. These
+                    are the chief subjects of taxation, but there are some few of a smaller kind,
+                    more troublesome than productive.</p>
+                <p>The nett revenue now is found to produce as follows:</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>From the royal treasury</p><p>From
+                            the kingdom’s treasury</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Rixdollars. .2,356,543
+                            .3,006,600</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Sterling.</p><p>L.
+                            176,625</p><p>225,495</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>The whole expenses of the government,
+                            as enumerated below</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,363,143</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>L.402,235</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>amounted in 1832 to</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>.5,390,800</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>L.404,3l0</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Thus leaving a deficit of</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>. 41,485</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>L.2,075</p></cell>
+                    </row>
+                </table>
+                <pb break="no" facs="nls:193640902" xml:id="kp-eb0711-0902-0139"/>
+                <p>The annual expenses are as follows :—</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Cabinet ministers</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Rixdollars.</p><p>90 950</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Office in London</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1/1 ∕1∩∩</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p>Bailiwick and other expenses in the
+                            country</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>parts, and police</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Rift 3° iO</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Legislative body</p><p>Ministry of
+                            foreign affairs....</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="smallcaps">U1O</hi><hi
+                            rend="subscript smallcaps"> j</hi><hi rend="smallcaps">JJV</hi></p><p>.
+                            76,400</p><p>7∩ ∩∩∩</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Ministry of war</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>• f V,VVu</p><p>1 R <hi
+                            rend="superscript"> t</hi> &gt;7</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Ministry of justice</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>215 600</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Ministry of religion and general
+                            instruction</p><p>Ministry of the interior</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>. 97⅛50</p><p>651 000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Ministry of trade</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>41 300</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Ministry of finances '.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>208 000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Interest of debt</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>. 1 306 400</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Pensions</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>144 000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Expiring expenses</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>198 800</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>5,390,800</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>or L.404,3l0 sterling.</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p>The public debt consists in part of annuities, and in part of loans. The annual
+                    interest, as is shown in the account of expenses, amounts to nearly one quarter
+                    of these. It is, however, annually diminishing, by means of a sinking fund, <hi
+                    rend="italic">tillgungo fond,</hi> the amount paid towards which is included in
+                    the 1,306,400 rixdollars of the expenditure. It now amounts to 311,100
+                    rixdollars, or nearly one quarter of the annual interest.</p>
+                <p>In the expenditure of the ministry of the interior is comprehended the cost of
+                    improving the roads, the dykes, and the navigable rivers. It has been well
+                    expended, especially that on the roads, which have, within the last fifteen
+                    years, from the worst become some of the best in any part of Europe.</p>
+                <p>The military force of Hanover consists of an engineer and artillery corps, the
+                    latter composed of two companies of horse and one of foot, a corps of riflemen,
+                    a battalion of infantry, of which two are the guards and two light troops, and
+                    four regiments of cavalry. The total number amounts to about twelve thousand
+                    men, but many of them are indulged with furloughs, so that the whole expense of
+                    the army, including the repairs of the fortifications, is very small. Hanover
+                    has a single vessel of war moored in the Elbe to collect the dues on that
+                    stream, and some small craft at the mouths of the Weser and of the Ems.</p>
+                <p>The religious establishments of Hanover are the three Christian sects in
+                    different parts. The Lutherans are the most numerous, comprehending 1,235,200
+                    persons, having ten superintendents or bishops, and 924 clergymen. They have
+                    also nine convents for men and eighteen for females, but the members of these
+                    are not bound to celibacy. The tithes are commonly paid in kind, but some of
+                    them have stipends from the government. The Catholics are about 200,000, having
+                    one bishop, and 143 parish priests. The Reformed are about 100,000, and have 114
+                    parish churches, and a minister to each. There are, besides, three Mennonite and
+                    One Moravian congregation. The Jews are allowed the freest toleration as regards
+                    their worship, but are excluded from some of the civil privileges. Their number
+                    is about 12,000.</p>
+                <p>The business of education is well attended to, and abundant means are supplied to
+                    aid it, both by the government and the voluntary contributions of corporations
+                    and individuals. The first establishment is the university of Göttingen, founded
+                    by George II. in 1734. Its professors are scholars of great eminence in every
+                    branch of science and literature, and in 1833 it contained 845 students. There
+                    are, besides, five ecclesiastical seminaries, twenty-nine schools for the common
+                    sciences, and sixteen gymnasiums or public classical schools; and each village
+                    and town has the appropriate number of elementary schools, amounting to the
+                    number of 3560. All are taught to read and to write, and the common rules of
+                    arithmetic. There are also surgical and medical schools, hospitals for
+                    midwifery, and a good veterinary college. The freedom of the press is allowed to
+                    the professors of the university, but all other writings must pass through a
+                    very mild censorship; though of late, from the proceedings of the diet at
+                    Frankfort, some restrictions have been enacted against the unlimited publication
+                    of political newspapers, and other smaller works.</p>
+                <p>The poor are provided for wholly by voluntary contributions, which are made from
+                    house to house at stated periods. They are in a great degree supported in
+                    workhouses, where their own labour contributes in some measure to their
+                    maintenance. Their food and clothing are of the coarsest kind. There are many
+                    hospitals and other charitable establishments for the relief and cure of the
+                    diseased; and, upon the whole, the poor are as well taken care of as in other
+                    countries where their maintenance is compulsory.</p>
+                <p>The language usually spoken in Hanover is the Plat-Deutsche, a dialect of the
+                    High German, more pure, and less complicated in its construction, but treated by
+                    the learned with more contempt than it merits. As the service in the churches
+                    and the instruction in the schools are exclusively in the High German, all the
+                    peasantry understand it, though they never use it when they can avoid it. The
+                    higher classes pride themselves in speaking the High German with greater purity
+                    than is practised in any other part of the empire.</p>
+                <p>Hanover has two standards of money, the Leipsiger and the convention. The public
+                    accounts are kept in the latter. The gold coin called Georgs d’or is five
+                    rixdollars eight groschen in convention money; or, in Leipsiger money, four
+                    rixdollars sixteen groschen. The other gold coin, the Gold-Gulden, is two
+                    rixdollars six groschen in convention, two dollars two groschen in Leipsiger
+                    money.</p>
+                <p>The long measure is the rood of eight ells; the ell is two feet; the foot twelve
+                    inches. Six Hanoverian are equal to five Brabant ells. Land is measured by hufen
+                    and morgens. The hufe is thirty morgens, the morgen 120 ruthen, equal to 24∙844
+                    Paris feet. The morgen by which woodland is measured contains 160 ruthen. The
+                    liquid measure is the cimen, ’ of 3∙136 cubic inches, or the anker of l∙960
+                    cubic inches. The latter makes sixteen Stübchens or thirty-two kannen, and
+                    sixty-four quartiere or 128 nosel. The weights in common use are shipspounds,
+                    lies-pounds, hundreds, and customary pounds. The ships-pound is equal to twenty
+                    lies-pounds; the hundred is 110 lies-pounds. The lies-pound is divided into two
+                    marks, the mark into eight ounces, the ounce into two loths, the loth into four
+                    quentins. The local weights and measures vary from these standards in all the
+                    villages of the several provinces.</p>
+                <p>See <hi rend="italic">Erdebescreibung</hi><hi rend="italic">des
+                    Königreichs</hi><hi rend="italic">Hannover,</hi> von Sonne; <hi rend="italic"
+                    >Weimarishe Erdebescreibung,</hi> vol. iv. part i.; Jacobs’ <hi rend="italic"
+                    >View of Germany, &amp;c.</hi> 1820; <hi rend="italic">Weimar</hi><hi
+                    rend="italic">Almanach,</hi> 1834; Hodgskin’s <hi rend="italic">Germany</hi><hi
+                    rend="italic">;</hi><hi rend="italic">Hannoverische Zeitungen,</hi> 1833; and
+                    <hi rend="italic">Uber die Finances</hi><hi rend="italic">des
+                    Königreichs</hi><hi rend="italic">Hannover</hi><hi rend="italic">und deren
+                    Verwaltung,</hi> von Hofrath, J. G. L. W. Ubbelohde, 1834.</p>
+                <p><hi rend="smallcaps">Hanover,</hi> a city, the capital of the kingdom of the same
+                    name, in Germany, as well as of the province of Kalenburg. It is built on an
+                    extensive plain on the river Leine, which receives the waters of the Ihme, and
+                    then becomes navigable to the Weser. The former walls, which were indefensible,
+                    have been destroyed, and planted, and thus converted into pleasant promenades.
+                    The city is divided into the old and the new town by the river. The former is
+                    old, ill built, and dirty; the latter is much <pb break="no"
+                    facs="nls:193640915" xml:id="kp-eb0711-0915-0140"/>, better, contains a fine
+                    square, some good streets, and several handsome public and private buildings.
+                    The most prominent of these are the palace of the Duke of Cambridge, the
+                    theatre, and the house of assembly of the states. The royal library, containing
+                    25,000 volumes, and the cabinet of natural history, are objects of attention.
+                    The city contains seven Lutheran, two Reformed, and one Catholic church, with
+                    2195 houses, and about 25,000 inhabitants. The chief trade is brewing beer, but
+                    it has those kinds of manufactures which are naturally encouraged in the capital
+                    of each kingdom, however small or poor. As the residence of a court, of an armed
+                    force, of the legislature, the courts of justice, and of several of the
+                    nobility, a great number of small tradesmen obtain subsistence by supplying
+                    their wants. The trade by water consists chiefly in transmitting wood, and some
+                    corn and flax, to Bremen, where it is shipped for markets at a distance. There
+                    is, however, an exchange and a chamber of commerce, and some of the bankers are
+                    considerable capitalists. It is situated in longitude 9. 39. 40. E. and latitude
+                    52. 22. 18. N. Near the city is the royal palace of Hemhausen, with fine walks,
+                    gardens, graperies, and plantations.</p>
+                <p><hi rend="superscript smallcaps"> ,</hi><hi rend="smallcaps">Hanover,</hi><hi
+                    rend="italic">New,</hi> an island in the Pacific Ocean, seen by Captain Carteret
+                    in 1767, and, according to his account, about thirty miles in length. The
+                    passage between this island and New Zealand is obstructed by reefs and islets.
+                    The south-west part is situated in long. 148. 27. E. and lat. 2. 49. S.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

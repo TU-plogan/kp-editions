@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0705-3076-0001-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">BORING</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 5, page 1</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="36" ref="fasttopic:979089">Iron</term>
+                    <term n="30" ref="fasttopic:848395">Caste</term>
+                    <term n="30" ref="fasttopic:848476">Casts</term>
+                    <term n="29" ref="fasttopic:952579">Head</term>
+                    <term n="22" ref="fasttopic:836682">Borings</term>
+                    <term n="5" ref="fasttopic:817721">Arts</term>
+                    <term n="5" ref="fasttopic:815177">Art</term>
+                    <term n="4" ref="fasttopic:934209">French</term>
+                    <term n="2" ref="fasttopic:1153279">Towers</term>
+                    <term n="1" ref="fasttopic:915437">Essays</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="1" ref="fastgeo:1207170">Malta</term>
+                    <term n="1" ref="fastgeo:1754964">Rome</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="5" ref="lcsh1910:b4x34mr95">Art</term>
+                    <term n="2" ref="lcsh1910:b4z02z952">Cannon</term>
+                    <term n="2" ref="lcsh1910:b4dz0399k">Towers</term>
+                    <term n="1" ref="lcsh1910:b4s17sw59">Essays</term>
+                    <term n="1" ref="lcsh1910:b4q52ff6p">Heat</term>
+                    <term n="36" ref="lcsh1910:b4n00zz70">Iron</term>
+                    <term n="30" ref="lcsh1910:b4n58cn1s">Caste</term>
+                    <term n="30" ref="lcsh1910:b4hd7nt71">Casting</term>
+                    <term n="30" ref="lcsh1910:b4m61br13">Casts</term>
+                    <term n="29" ref="lcsh1910:b4jw86n9w">Head</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193733076" type="entry">
+                <p><label type="entry">BORING</label>, generally speaking, is the art of perforating
+                    a solid body. In the present article we propose to give some account of the
+                    boring of <hi rend="smallcaps">Cannon,</hi> of <hi rend="smallcaps"
+                    >Cylinders,</hi> of <hi rend="smallcaps">Muskets,</hi> of <hi rend="smallcaps"
+                    >Portland Stone,</hi> of <hi rend="smallcaps">Rocks,</hi> and of <hi
+                    rend="smallcaps">Wooden Pipes.</hi></p>
+                <p>1. <hi rend="smallcaps">Boring of Cannon</hi> is performed by placing the cannon
+                    on an axis, which is turned by a very strong power, whilst a steel cutter, in
+                    form of a drill, is pressed against the metal, and excavates the cylindrical
+                    cavity which is required. Boring may be considered as a branch of the art of
+                    turning, which, in general, is the formation of cones, cylinders, and other
+                    figures that have an axis, by making a straight line or curve revolve round the
+                    axis on which the material is fixed, or by making the material revolve whilst
+                    the generating line remains at rest. In turning bodies of no great degree of
+                    hardness, and where it is required to take off only a small portion of the
+                    surface at once, a small power is sufficient to put the turning machine in
+                    motion; and the longer the edge of the cutter which is applied to the metal is,
+                    and the harder the metal, the greater force is required to turn the machine.</p>
+                <p>Cannon, at first, were frequently made of bars of malleable iron, placed
+                    longitudinally, and these bars covered with iron hoops, the whole welded or
+                    brazed together. Ordnance of this construction was not sufficiently strong to
+                    resist the explosion of the powder, and did not admit of the cylindrical cavity
+                    being formed with much accuracy. Its use was, therefore, gradually laid aside,
+                    and guns of cast-metal were employed. And before the casting of cannon became
+                    general, guns of cast-metal were reserved for the most important situations;
+                    thus the ships of the admiral and vice-admiral alone had cast-metal cannon, the
+                    other ships of war being armed with wrought-iron guns only.</p>
+                <p>Copper, without mixture, has been employed to cast guns, as appears from two
+                    large cannon made in the time of Henry VIII. and bearing his name, in the
+                    armoury of the Tower of London. But the only two materials now used for cannon
+                    are bronze, which is a mixture of copper and tin, and cast-iron. In modern times
+                    the use of cast-iron cannon has become more general, as that metal has the
+                    advantage of not being softened by the heat of the inflammation of the powder;
+                    whereas brass guns, when fired many times in rapid succession, become heated so
+                    nearly to the melting temperature of the metal, that the muzzle of the gun
+                    droops.</p>
+                <p>The first cannon made of cast-metal were cast hollow, with a cavity as nearly
+                    cylindrical as could be executed by casting. The surface of this cavity was then
+                    smoothed on a boring machine by steel cutters set in a copper head, and disposed
+                    so as to describe a cylinder terminated by a half spheroid. These cutters (in
+                    French <hi rend="italic">alezoirs,</hi> and the operation <hi rend="italic"
+                    >alézer)</hi> are represented in the French <hi rend="italic">Encyclopedic—</hi>
+                    planches, <hi rend="italic">Ponte.</hi> This method of making guns has long been
+                    laid aside on account of the holes and inequalities in the cavity thus formed,
+                    and the difficulty of casting the cavity so as that its axis shall coincide with
+                    the axis of the piece. Cannon are now always cast solid, and the cylindrical
+                    cavity is formed by boring in this solid mass.</p>
+                <p>The power employed for boring cannon ought to be in proportion to the hardness of
+                    the metal of which they are composed, and to the size of the pieces. For the
+                    boring of guns of brass, as it is called, that is, a metal composed of ten parts
+                    of copper, one of tin, and two of brass, or of these metals in other
+                    proportions, a metal softer and more easily bored than cast-iron, horses are
+                    frequently employed as a moving power; but the strong moving powers of water or
+                    steam must be had recourse to for boring large guns of cast-iron, which is the
+                    material used for making the largest guns now in use, and is also the hardest
+                    substance used in their manufacture. Indeed some kinds of cast-iron are too hard
+                    to admit the action of the borer; and for the making of guns it is necessary to
+                    melt pig-iron of different qualities together, in order to have a metal that
+                    shall possess no more than the required degree of hardness.</p>
+                <p>The quality of pig-iron is known by the appearance of its surface, but more
+                    decisively by the appearance which its fracture presents. To obtain this
+                    fracture, a man takes one end of a pig in each hand, and lifting it as high
+                    above his head as he can, throws it with force, so that the middle of the pig
+                    shall fall across another pig placed on the ground. In this way the pig thrown
+                    down is broken. Soft or grey pig-iron, which is the most valuable, breaks with
+                    difficulty, and the surface of its fracture is of a grey colour, composed of
+                    pretty large crystalline grains. Hard or white pig-iron breaks easily; the
+                    surface of the fracture is white, and not sensibly granulated, the grains that
+                    compose it being small. The pig-iron here <pb break="no" facs="nls:193733089"
+                    xml:id="kp-eb0705-3089-0002"/>spoken of is that smelted by the coak of pit-coal.
+                    Pig-iron smelted with charcoal of wood has a fracture of a different appearance,
+                    sometimes lamellar, like the fracture of metallic bismuth. Formerly guns used to
+                    be cast from the blast furnace; that is to say, immediately from the ironstone.
+                    This was attended with uncertainty in respect to the nature of the metal; for
+                    the nature of the metal given by the blast-furnace varies frequently and
+                    suddenly, from causes either unknown, or not under the command of the
+                    iron-master. For this reason guns are no longer cast from the blast-furnace, but
+                    pig-iron already formed is taken, of such qualities and in such proportions as
+                    to form a metal neither too soft nor too brittle and hard for guns. The
+                    different kinds of pig-iron thus selected are melted together in a furnace,
+                    called in iron manufactories an <hi rend="italic">air-furnace,</hi> and by some
+                    writers a <hi rend="italic">reverberatory furnace,</hi> by' the flame of
+                    pit-coal; the flame being impelled by a strong current of air produced by the
+                    rarefaction of the air in a chimney of thirty or forty feet in height. The
+                    column of the atmosphere of which the air in the chimney makes a part being
+                    lighter than the unrarefied columns of the atmosphere next it, its equilibrium
+                    with these columns is destroyed. The neighbouring columns, therefore, rush
+                    through the grate of the furnace, which is the only aperture by which they can
+                    attain the bottom of the rarefied column; and they carry the flame of the coal
+                    against the pig-iron, which is thereby brought into fusion. From the iron thus
+                    fused only one large gun is cast at a time, the furnace not being capable of
+                    melting more metal than is requisite for that purpose.</p>
+                <p>- The gun is cast with two appendages, which are to come off before it is
+                    finished and ready for use. The one is a square piece beyond the cascabel, for
+                    fixing the gun so as to revolve with the axis of the boring-mill; and the other
+                    is the head.</p>
+                <p>The head in cast-iron cannon is a mass of cast-iron two or three feet long, and
+                    somewhat bell-shaped. It is a prolongation of the mass of metal beyond the
+                    muzzle ring, and, in the position in which the gun is cast, the bead is the top
+                    of the whole mass, the square beyond the cascabel being the lowest part. 'After
+                    the metal has cooled, the upper surface of the head is cavernous, as is the case
+                    with the surface that is uppermost during the casting and cooling of any large
+                    body of cast-iron. The sides of the cavities in the head are frequently formed
+                    of cast-iron crystallized in a fern-leaf form. The intention of the head is to
+                    prevent these cavities, which are formed most abundantly at the upper surface of
+                    the cooling cast-iron, from forming in the gun itself. But, notwithstanding the
+                    precaution of casting the gun with a large head, and of mixing proper kinds of
+                    cast-iron in the air-furnace, it frequently happens that small cavities occur in
+                    the guns.</p>
+                <p>The gun with its head being cast and allowed to cool, it is conveyed to the
+                    boring-mill, where the head is to be taken off, the cylindrical cavity or bore
+                    is to be formed, and the outside of the gun is to be turned. Formerly the boring
+                    of guns was done in an upright position; the gun being placed above the
+                    boring-bar, was fixed in a frame sliding vertically in grooves. This frame was
+                    suspended on each side by a block and tackle, and the end of each of the two
+                    ropes was wound round a windlass. By turning these windlasses the gun might be
+                    raised or lowered, and by this means might be allowed either to press with its
+                    whole weight on the boring-bit, or with any part of its whole weight. A figure
+                    of this apparatus may be seen in the French <hi rend="italic">Encyclopédie—</hi>
+                    planches, <hi rend="italic">Ponte.</hi> Another vertical apparatus for boring
+                    cannon is represented in Rinman, <hi rend="italic">Bergwerks Lexico,</hi>
+                    Stockholm, 1789, tab. iv.</p>
+                <p>I The practice which has long been followed in this country is to place the gun
+                    horizontally in the boring-mill; and it is fixed on the axis of the mill by
+                    means of the square piece at the cascabel.</p>
+                <p>In a boring-mill constructed by Smeaton, one gun is placed on the horizontal axis
+                    of the water-wheel itself, and, consequently, revolves with the same velocity.
+                    On this same axis is a toothed wheel with seventy-eight teeth, which works two
+                    wheels, one placed on each side of it, and each having twenty-nine teeth. On the
+                    axis of each of these a gun is placed; their power is ^ŷths of the power of the
+                    centre wheel. (See Smeaton’s <hi rend="italic">Reports,</hi> vol. i.) On the
+                    axis where the power is least, smaller sized guns are bored; on the axis of the
+                    greatest power the large guns are bored. A crane, movable on a vertical axis,
+                    with a sweep that extends over all the carriages, with a tackle hanging from its
+                    beam, and wrought by a windlass, serves to place the gun on the carriage where
+                    it is to be bored, or to remove it from one carriage to another if required; and
+                    afterwards, when the gun is bored and turned, the crane serves to remove the gun
+                    from the boring-mill.</p>
+                <p>The gun, when placed on the. machine, has the square at the cascabel fixed in a
+                    square iron box (G, Plate CXI. fig. 5) on the axis. This box has a screw passing
+                    through each of its sides, and by the operation of these screws the square of
+                    the gun is adjusted, centred, and fixed; the chace of the gun is also fixed in a
+                    collar N, in which it is to revolve. (The collar in the figure is represented
+                    too near the muzzle ring.)</p>
+                <p>The axis on which each gun is fixed maybe set in gear, or put in connection with
+                    the revolving axis of the machine, so as to move round with it; or taken out of
+                    gear so as to remain at rest, although the other parts of the machine continue
+                    in movement. There are various methods of doing this. One is given by Smeaton in
+                    the work above cited. After the gun is fixed on the axis, and before beginning
+                    the operation of boring, the head, which has been described above, is cut
+                    off’near the muzzle ring. For this purpose the gun is set in gear so as to
+                    revolve on its axis with the moving power; and a bar of steel, in shape and size
+                    like the coulter of a plough, is applied at right angles to the axis of the gun.
+                    The narrow side of this bar is sharpened to a cutting edge, so that it has the
+                    form of one tooth of a very large saw; and this cutting edge is opposed to the
+                    direction of the revolving motion of tfie gun, and held strongly on to the gun
+                    by a screw pressing on the bar; the cutter takes off an angular portion at right
+                    angles to the axis, till the cylindrical part connecting the head with the gun
+                    is so much diminished, that the head is made to fall off by the blow of a hammer
+                    applied on it. In brass guns, cast with a core, the head was sawed off by hand
+                    with a blade of steel, whose edge was toothed as a saw, while the sides were
+                    toothed as files. See the French <hi rend="italic">Encyclopédie—</hi> planches,
+                    <hi rend="italic">Ponte.</hi></p>
+                <p>A great degree of heat is generated by the violent friction of the steel-cutter
+                    on the cast-iron during the operation of cutting off the heads of guns. The
+                    quantity of this heat has been estimated by Rumford in one of his <hi
+                    rend="italic">Essays on Heat.</hi></p>
+                <p>After the head is taken off, the workmen proceed to bore the gun. This is done by
+                    exposing the revolving gun to the action of a steel-cutter, fixed on the end of
+                    a bar, which bar is placed on a carriage, and impelled continually towards the
+                    gun. The operation of boring is done on the same axis on which the head was cut
+                    off, if the power be sufficient; if not, the gun is removed, by means of the
+                    crane, to an axis, where it is made to revolve by a stronger power.</p>
+                <p>The boring-bar is fixed on a carriage sliding in iron grooves, which are truest
+                    when made triangular. The carriage, which, in the apparatus represented at fig.
+                    5, consists merely of the bar on which the rack is, is pressed <pb break="no"
+                    facs="nls:193733102" xml:id="kp-eb0705-3102-0003"/>forward by a pinion P, whose
+                    gudgeons are on a fixed frame BB; and this pinion works into a rack R. The axis
+                    of the pinion has mortised holes in it, through which one end of a lever L is
+                    passed; and the other end of this lever is loaded with a weight W, which causes
+                    the pinion to propel the carriage and boring-bar towards the gun. In many
+                    boring-machines there are two pinions on the same axis, acting on two racks; in
+                    others, the carriage is propelled by two upright levers, on the end of one of
+                    which acts a weight, hanging from a rope, that passes over a pulley; the lower
+                    end of the upper lever acts on the upper end of the lower, whilst the lower
+                    extremity of the lower lever presses forward the carriage. This method, which is
+                    free from any inequalities that may arise from the teeth of the rack, is figured
+                    by Smeaton in his <hi rend="italic">Reports,</hi> vol. i. p. 396. Another method
+                    of propelling the carriage of the boringbar, is by a screw acting on the end of
+                    the carriage. See Meyer in the <hi rend="italic">Transactions of the Academy of
+                    Stockholm,</hi> 1782, tab. ix.</p>
+                <p>The boring-bar is a very strong piece of wrought iron, of less diameter than the
+                    intended calibre of the piece, in order that the boring dust or shavings
+                    detached by the cutter may be got out. The boring-bar is increased in diameter
+                    near the end, for some inches, see fig. 6, B; in this part there is a
+                    superficial groove for receiving the sides of the steel-cutter or bit, which is
+                    to be firmly fixed in the bar. The bit T, fig. 6, is made from a rectangular
+                    piece of a steel bar, in which the two upper angles are cut off obliquely, so as
+                    to form two cutting edges like an obtuse-angled drill; the side of the
+                    rectangle, opposite to the point of the drill, is then hollowed out in the form
+                    of a pigeon hole; and this hollow fits into and embraces the solid part of the
+                    boring-bar, whilst the sides of the pigeon hole fit into the grooves of the bar.
+                    The point of this obtuse-angled bit is pressed against the revolving metal of
+                    the gun, by the force which propels the boring-bar; and the edges coming in
+                    contact with the revolving metal, a conical cavity is produced; so that, by
+                    taking off successively a multitude of similar shells or shavings, the
+                    cylindrical bore, with a conical termination, is formed. The diameter of the
+                    pointed bit first used must be less than the intended calibre of the piece, as
+                    the boring is to be repeated again at least once, in order to make the internal
+                    cylindrical surface as smooth as possible, by taking off any inequalities that
+                    have been left by the first cutter. In finishing the bore, a cross bit may be
+                    employed. It is a rectangular piece of steel, ground to a cutting edge at each
+                    end, and put through a hole in the boring-bar, in which it is fixed. The edges
+                    of this cutter, in revolving, describe a cylindrical surface. After the
+                    cylindrical surface of the bore is made sufficiently true, and of the required
+                    calibre, a bit without a point, and rounded off to the desired curve, is used to
+                    form the bottom of the chamber.</p>
+                <p>Some recommend that the boring-bit for cast-iron should have its cutting edges
+                    brought to an acute angle, by being filed hollow; but in this case the two edges
+                    cannot be brought into one point; for the obtuse-angled edge formed by the
+                    thickness of the metal of the bit joins the two cutting edges crossways, and
+                    forces itself forwards by being near the centre, requiring, however, a
+                    considerable pressure. These hollow-edged bits are not so well adapted to
+                    continuance of grinding as the plain ones, but they make amends by their much
+                    less frequently wanting sharpening. It does not appear, however, that these
+                    hollow-edged bits have been found advantageous in gun-boring.</p>
+                <p>The howitzer appears to have had its origin in Germany. This piece of ordnance,
+                    the mortar, and the carronade, in all of which the diameter of the chamber for
+                    the powder is smaller than the diameter of the rest of the bore, are first bored
+                    all through, nearly to the intended calibre of the chamber, and then that part
+                    of the bore that requires it is enlarged.</p>
+                <p>The cutters in gun-boring become magnetic, in consequence of being continually
+                    rubbed in the same direction, so that the boring dust is seen adhering and
+                    hanging from their edges when they are withdrawn from the gun. *</p>
+                <p>It is required that the bore shall be a Cylindrical cavity whose axis coincides
+                    with the axis of the gun: for this purpose, care must be taken to place the axis
+                    of the boring-bar, and that of the gun, both in one horizontal line, and it is
+                    requisite that these two lines continue in this position during the whole
+                    operation of boring. The centring of the boring-bar for this purpose requires to
+                    be done by an experienced workman, and an accurately-constructed boring-machine
+                    is necessary for the continuance of the right position.</p>
+                <p>Whilst on the axis of the mill, the gun has a smooth outer surface given it by
+                    turning tools, which are applied in the way usual in turning metals; a wooden
+                    gauge, or cut-out profile, of the gun, with its intended mouldings, being
+                    applied to know when the turning has been continued to a proper depth. When this
+                    is done the gun is taken out of the boring-mill; the square at the cascabel is
+                    cut off by the chisel; and the trunions, and other parts which are not
+                    susceptible of being turned, are dressed by the chisel. The cyphers and arms
+                    which had been cast on the gun are finished by the chisel.</p>
+                <p>A cannon is said to constitute the <hi rend="italic">ultima ratio regurn,</hi>
+                    the last argument that governments have recourse to; and even this severe kind
+                    of argument has sometimes been embellished. Amongst ornamented cannon, the brass
+                    three-pounder in the Tower, brought from Malta, is a masterpiece; it is covered
+                    with carving in a good taste by a sculptor of Rome.</p>
+                <p>The touch-hole is drilled by stock and bit, or by drill and bow; the drill being
+                    propelled by a lever placed on a carriage, movable on wheels. A figure of this
+                    apparatus is given in the <hi rend="italic">Encyclopédie—</hi> planches, <hi
+                    rend="italic">Ponte.</hi> Another apparatus for this purpose is figured in
+                    Rinman, <hi rend="italic">Bergwerks Lexico,</hi> table xiv. fig. 9, 10. See also
+                    Monge, <hi rend="italic">Description de l’Art de Pabriguer les Canons,</hi> in
+                    4to, Paris, 1794. This work was published by order of the revolutionary
+                    government, and distributed to the iron-masters and founders in different parts
+                    of France, for their instruction. It contains, amongst others, figures and
+                    descriptions of two kinds of vertical boring machines, of three kinds of
+                    horizontal boring machines, of a machine for turning the trunions, of two
+                    different machines for boring the touch-hole, of a machine for putting copper
+                    boshes in brass guns, and of various instruments for examining and proving
+                    guns.'</p>
+                <p>Before the gun is sent off, it is examined and proved in various ways. And first,
+                    to ascertain whether the bore is free from holes, an instrument is employed,
+                    consisting of several elastic steel prongs disposed in a circle, and with their
+                    sharp points turned outwards. This being fixed on a pole, is introduced into the
+                    bore of the gun, and drawn to and fro; the points of the prongs press against
+                    the sides of the bore, and the presence of a hole is known by one of the prongs
+                    getting into the hole, and preventing the instrument from being drawn out
+                    directly, unless by the use of a ring that is pushed over the prongs to unbend
+                    them.</p>
+                <p>There is another instrument, composed of a board twice as long as the bore of the
+                    piece. Along the middle of the board is a groove proceeding in a straight line.'
+                    In this groove a button is movable, and on the button, as a centre, are fixed
+                    two radii or arms; the two ends of these arms within the gun describe a line on
+                    the inside of thebore when the button is pushed inwards, whilst the extremities
+                    of the <pb break="no" facs="nls:193733115" xml:id="kp-eb0705-3115-0004"/>arms on
+                    the outside describe two similar lines on the part of the board that is situate
+                    without the bore. In this way the outline of a longitudinal section of the bore
+                    is described, and its sinuosities or deviation from the axis are rendered
+                    sensible. This instrument is seldom used; it requires to be made by a workman
+                    skilled in the construction of mathematical instruments, or in watchmaking.</p>
+                <p>A lighted wax-candle is introduced into the gun for the purpose of seeing any
+                    defects there may be in the bore, or the light of the sun is reflected into the
+                    bore by a mirror. The strength of the gun is proved by firing it with a large
+                    charge of powder; and by forcing water into the bore by a powerful forcing pump,
+                    the touch-hole being stopped, and also the mouth of the piece, so that water
+                    forced in by the mouth cannot return that way.</p>
+                <p>2. <hi rend="smallcaps">Boring of Cylinders</hi> for steam-engines, and for
+                    blowing machines, and the boring of the working barrels of large pumps, and
+                    other hollow cylinders in which pistons are to work, is performed by making the
+                    steel-cutters describe a cylindrical surface on the inside of the cylinder,
+                    whilst the cylinder remains fixed. The first steamengine cylinders in this
+                    country were of brass, or of a mixture of copper and tin. This was the case with
+                    the cylinder of the steam-engine erected in the early part of the eighteenth
+                    century for lifting water from the colliery of Elphinston in Stirlingshire. But
+                    since that period the construction of steam-engines, and the manufacture of
+                    cast-iron, have been greatly improved; the uses of both have been much extended;
+                    and cast-iron has now for a long time been the only material employed in making
+                    cylinders for steam-engines, and other large cylinders in which pistons are to
+                    move.</p>
+                <p>In the boring of cylinders the steel-cutters are fixed in a cutter-head, which
+                    revolves with the boring-bar at the same time that it is impelled along the
+                    interior surface of the cylinder by a rack, with a pinion moved by a lever and
+                    weight as already described. The axis or boring-bar employed for cylinders is a
+                    hollow tube of cast-iron, and has a groove passing through it; the length of
+                    this groove being proportioned to the length of the cylinder to be bored. The
+                    cutter-head consists of two cast-iron rings, the first of which is accurately
+                    fitted on the boring-bar, which is turned truly cylindrical, so that this ring
+                    may slide along the boring-bar; the second ring is fixed round the first by
+                    wedges, its diameter being proportioned to the diameter of the cylinder to be
+                    bored; and on its circumference are eight notches to receive the steel-cutters,
+                    which are fixed in by wedges. The firstring is fixed on the boring-bar so as to
+                    make the whole cutter-head move round with the boring-bar, by means of two small
+                    iron bars, which go through notches in the first ring, and pass through the
+                    groove of the boring-bar. These small bars have each a round hole in the part
+                    which passes through the geometrical axis of the boring-bar; through these round
+                    holes there passes a bolt, which forms the end of the rack; a key is put through
+                    the end of the bolt, which prevents the rack from being drawn back by the lever
+                    and weight; and by this means the rack, impelled by the lever and weight, pushes
+                    forward the cutter-head, which is at the same time revolving with the
+                    boring-bar; while the connection of the rack and cutter-head being round, and in
+                    the axis of motion, the rack is thereby free from the circular motion of the
+                    cutter-head. This mode of constructing the boring-bar was invented in the works
+                    of Mr Wilkinson, at the time when accurately-bored cylinders came to be required
+                    in consequence of Mr Watt’s improvements in the steamengine. In the machines
+                    about to be mentioned the cutters are made to advance by a train of wheels
+                    deriving their motion from the power that turns the boring-bar.</p>
+                <p>An apparatus of great merit was contrived and describe ed in 1802 by Mr
+                    Billingsley, engineer of the BowIing iron-works, near Bradford. (See <hi
+                    rend="italic">Repertory of Arts,</hi> second series, vol. ii. p. 322.) According
+                    to his method the cylinder is placed with its axis perpendicular to the horizon.
+                    The object of this is, <hi rend="italic">first,</hi> that the boring-dust may
+                    fall out, and not remain on one side of the cylinder, wearing the cutters; so
+                    that in this way the cylinder may be bored through without changing the cutters,
+                    by which means a more regular bore is obtained. <hi rend="italic">Secondly,</hi>
+                    That the cylinder may not deviate from its cylindrical form by its own weight, a
+                    deviation which is found to take place in large and slender cylinders when laid
+                    on their side; the vertical diameter being then less than the horizontal
+                    diameter. A similar loss of shape may happen to cylinders that are improperly
+                    wedged and strapped down for the purpose of being bored. In this method the
+                    cylinder is fixed with screws by the flanges, where it is most capable of
+                    resistance, and the screws are disposed so as to press the cylinder equally all
+                    round. <hi rend="italic">Thirdly,</hi> That the operation may be sooner
+                    completed, which is effected in consequence of less time being employed to fix
+                    the cylinder in this method. In the usual mode of propelling the cutters
+                    described above, the attendance of a man is necessary to change the position of
+                    the bar on the axis of the pinion, and to raise the weight. This attendance is
+                    dispensed with in the machine under consideration, the mechanism for propelling
+                    the cutters being as follows: A leather strap passing over the boring-bar
+                    communicates the revolving motion of the boring-bar to a wheel, which
+                    communicates a slow motion by a train of wheels and pinions to an axis, bearing
+                    two pinions which work into two racks; and these racks push the boring-head and
+                    cutters slowly forward on the boring-bar, at the same time that the boring-head
+                    is revolving with the boring-bar. The velocity with which it is required that
+                    the cutters shall advance varies as the diameter of the cylinder varies, the
+                    moving power remaining the same. And by altering the train of wheelwork, the
+                    cutters may be made to advance with any velocity required.</p>
+                <p>Figs. 1, 2, 3, and 4, Plate CXI., are different views of the machine for boring
+                    cylinders, invented by Mr Murray of Leeds. Fig. 1 is an elevation, and fig. 2 a
+                    plan, of the machine. W, figs. 1 and 2, is the spur wheel, deriving its motion
+                    from water or steam, and communicating a revolving motion to the boring-bar. The
+                    toothed wheel A, fig. 1, moves round with the boring-bar B on which it is fixed;
+                    it gives motion through the wheels D and E, and to the screw S, whose threads
+                    act on the two racks, which racks are fixed to the cutter-head H, and revolve
+                    with it. The velocity with which the cutter-head is impelled along the cylinder
+                    depends upon the number of threads of the screw in a given length, and on the
+                    proportions of the wheels A, C, I), and E, to each other. By varying the
+                    velocity of the screw, the cutter-head maybe made to move in either direction up
+                    or down the cylinder. F is a pinion whose axis ends in a square, which may be
+                    wrought by a key, so as to bring the cutter-head out of the cylinder, or push it
+                    home by the hand when that is required. The cylinder is fixed in its bed by
+                    screws passing through two iron rings, as represented at fig. 4; and in this way
+                    the cylinder is equally pressed in the different parts of its circumference.
+                    Fig. 3 is a transverse elevation of the collar in which the end of the bar at A,
+                    fig. 1, turns; X is the gudgeon in which the spindle X, fig. 1, turns. In fig. 3
+                    are also seen the two apertures through which the two racks pass. By this
+                    machine also the flanges are turned truly plane, so that the lid of the cylinder
+                    may fit on exactly.</p>
+                <p>The patent granted in 1799 to Mr Murdoch, engineer, Redruth, for new methods of
+                    constructing steam-engines <pb break="no" facs="nls:193733128"
+                    xml:id="kp-eb0705-3128-0005"/>(See <hi rend="italic">Repertory of Arts,</hi>
+                    vol. xiii.), contains some articles relative to boring. He employs an endless
+                    screw, which is turned by the moving power, and works into a toothed wheel,
+                    whose axis carries the cutter-head; and this method, he says, produces a more
+                    smooth and steady motion than the usual mode of fixing the boring-bar
+                    immediately on the axis turned by the moving power.</p>
+                <p>Another article in Mr Murdoch’s patent that relates to boring, is his method of
+                    forming the cylinder and steamcase. He casts them of one solid piece, and then
+                    bores a cylindrical interstice, by means of a boring-tool, made of a hollow
+                    cylinder of iron, with steel-cutters fixed to its edge, and acting like a
+                    trepan.</p>
+                <p>The chambers of brass pumps, whose diameter does not exceed a few inches, are
+                    fixed within iron rings, by means of screws, in the manner described above when
+                    speaking of Mr Murray’s apparatus. The rings are made accurately cylindrical by
+                    turning, as is also the boring-bar. The boring-bar has four cross arms on its
+                    outer extremity, to one of which a handle is fixed, whereby a workman makes the
+                    boring-bar revolve. The cutter-head is made to advance along the boring-bar by a
+                    screw.</p>
+                <p>3. <hi rend="smallcaps">Boring the Barrels of Muskets and other Small Arms.</hi>
+                    Rectangular pieces of iron are forged of a proper length and breadth; these are
+                    heated in the fire, and the two long edges, which had been previously thinned
+                    off, are welded together on a mandril. The barrel thus formed is fixed by a
+                    screw on a carriage that moves in iron grooves; this carriage is propelled
+                    towards the boringbar by a rope which passes over pullies, and has a weight
+                    hanging from its end. The boring-bar is turned by the power of the same mill
+                    that turns the grinding-stones for polishing the outside of the barrels. (See
+                    <hi rend="italic">Encyclopedic—</hi> planches, <hi rend="italic"
+                    >Arquebusier;</hi> and Rozier, <hi rend="italic">Introduction aux Observations
+                    sur la Physique,</hi> tom. i. p. 157.) Water is thrown on the barrels whilst
+                    boring from a trough placed underneath. After the barrel is bored, the interior
+                    surface of the bore is polished by the action of the boringbar. The barrel is
+                    tried during the operation, by an iron gauge of an inch and a half in length,
+                    and of a diameter equal to the intended diameter of the musket. When the barrel
+                    is bored, it is held to the light and looked through, and if it contains any
+                    flaw, the place of that flaw is marked on the outside with chalk, and the barrel
+                    is put on the mandril again, and the defective place heated and hammered; the
+                    workman also examines with a gauge whether the barrel is crooked. When the bore
+                    has no flaws, the barrel then undergoes the operation of the grinding-mill, to
+                    the effect of polishing its exterior surface.</p>
+                <p>Rifled barrels are put on a bench twelve feet long. The boring-bar is guided by a
+                    matrix or female-screw, whose spiral curve is similar to the spiral of the
+                    rifles intended to be made; the boring-bar being fixed to a male-screw, which
+                    passes through the female-screw, and fits it exactly. The female-screw is fixed
+                    to the bench, and has four threads and as many furrows; and these threads, in
+                    general, return to the point of the circumference from which they set out, or
+                    make a revolution in the length of two feet. The male-screw, which fits into the
+                    female-screw, has at one end an iron bar attached to it, by which it is put in
+                    motion; at the other extremity is fixed the boring-bar, which passes through the
+                    barrel to be rifled; and the boring-bar has a cutter fixed in it, which forms a
+                    spiral furrow in the barrel when the screw is turned by the handle. The number
+                    of spiral threads in rifle-barrels is from three to twelve. Sometimes the
+                    threads and furrows of the riflebarrel are required to be in straight lines; in
+                    which case a straight-lined matrix is used. In order that the threads may be
+                    placed at an equal number of degrees of the circumference from each other, the
+                    bench is furnished with a brass plate, divided in the same way as the plate of
+                    the machine for cutting the teeth of clock-wheels.</p>
+                <p>4. <hi rend="smallcaps">Boring of Portland Stone, so</hi> as to form pipes. That
+                    kind of calcareous stone called by geologists oolite, which is quarried for
+                    building at Portland, Bath, in the neighbourhood of the city of Paris, and other
+                    places, admits of being cut by means of an iron blade, acting as a saw, with
+                    sand and water. The more compact limestones and marbles are also cut in this
+                    way, but not so easily. The other kinds of stone that can be squared for
+                    building, namely, sandstone and granite, scarcely yield to the saw, but are
+                    formed into the desired shape by the chisel and hammer. A modification of this
+                    mode of working Portland stone consists in forming it into pipes. The method of
+                    Sir George Wright, proposed in 1805, is as follows: A hole is drilled through
+                    the block of stone, in which a long iron bolt is inserted for the saw to work
+                    round as a centre; this bolt forms the axis of the cylinder which is to be taken
+                    out, and projects considerably beyond the block at both ends. Another hole is
+                    drilled in the intended circumference; and into this the blade of the saw is
+                    introduced. The frame of the saw is so disposed, that when it is wrought to and
+                    fro, the blade is guided, by means of the centre bolt, so as to describe the
+                    intended cylindrical circumference. In this way a solid cylindrical core of
+                    stone is detached, and a cylindrical cavity or pipe left in the block. Or the
+                    saw may be made to describe a circle without drilling a hole in the centre, by
+                    drilling a hole in the circumference, and fixing on the surface of the stone two
+                    metallic concentric rings, so that the hole shall be included in the interstice
+                    between the rings. The saw is then introduced into the hole, and being worked,
+                    it cuts in the circular path formed by the interstice of the rings. See <hi
+                    rend="italic">Repertory of Arts,</hi> second series, vol. viii.</p>
+                <p>Mr Murdoch’s method, for which he obtained a patent in 1810, is preferable in
+                    practice to the above-mentioned method. He employs a cylindrical saw to form the
+                    pipe. A plug of wood is inserted in the centre of the intended pipe; this plug
+                    receives the lower end of a vertical spindle, longer than the intended pipe; and
+                    this spindle is square, with sockets sliding on it. On the upper part of the
+                    spindle is a pulley or toothed-wheel, by which the spindle is made to revolve.
+                    Near the lower end of the spindle is a wheel, having a circumference like a
+                    hoop, three inches broad. The diameter of this wheel is somewhat less than that
+                    of the pipe to be bored. It regulates the motion, and fits in the inside of a
+                    tube of metal attached to the spindle. The diameter of the tube is nearly equal
+                    to that of the intended pipe; but its length is greater by two feet. On the
+                    lower edge of the tube is a rim of metal, so much thicker than the tube that the
+                    groove cut in the stone by the rim may admit the tube to move freely in it. This
+                    rim has an edge like that of a stone-cutter’s saw, and in fact performs the
+                    office of a saw. The tube is caused to make a reciprocating circular motion
+                    round the spindle. There is a cistern placed above the tube, for the purpose of
+                    conveying a mixture of sand and water into the cylindrical groove formed in the
+                    stone, whilst the machine is working.</p>
+                <p>Stone pipes, made in the above described way, have been tried for conveying water
+                    in London. They were joined by means of Parker’s cement, which consists of clay
+                    ironstone, burnt, and ground to a fine powder. This was the best material that
+                    could be got for forming the joints; but these joints cracked and allowed the
+                    water to escape, in consequence of the motion of the carriages on the streets
+                    under which the pipes were laid; and the adventurers found that they “had hewed
+                    out unto themselves broken cisterns, that could hold no water.”</p>
+                <p>5. <hi rend="smallcaps">Boring of Rocks,</hi> for the purpose of splitting them
+                    by means of gunpowder. We have already treated this subject<pb break="no"
+                    facs="nls:193733141" xml:id="kp-eb0705-3141-0006"/> under <hi rend="smallcaps"
+                    >Blasting,</hi> and shall only add here the mode of boring for this purpose
+                    practised in the mines of Germany.</p>
+                <p>A boring bar of steel is applied to the stone by its lower end, whilst its upper
+                    extremity is struck with a hammer of two pounds in weight. The form of the lower
+                    end of the boring-bar is various; some were fashioned like a swallow’s tail,
+                    ending in two points; but this form is no longer in use. Another kind has the
+                    and formed by the intersection of two wedge-shaped edges, with a point· at each
+                    corner, and one in the middle. A third kind has the end composed of four
+                    pyramidal points, with cavities between them. A fourth kind, which is that most
+                    frequently used, has the end in form of a wedge. (See Rinman, <hi rend="italic"
+                    >Eergwerhs Lexico.</hi> Stockholm, 1789, tab. ii.) Three sizes of boring bars
+                    are employed to make one hole, the first is the shortest and thickest, the
+                    second is longer and less in diameter, the third is the longest and the least in
+                    diameter. When a hole is to be made, a small opening is first formed with a pick
+                    in the place where the boring-iron is to be applied, and all pieces of the rock
+                    are removed that might impede the action of the powder. Then the workman uses
+                    the first boring-iron, which he drives with blows of the hammer till the
+                    boring-iron can reach no farther; he then employs the second and third
+                    boring-bars in like manner; and after each stroke of the hammer, the boring-bar
+                    is turned round a portion of the circumference. The stone, pulverized by the
+                    action of the boring-bar, as it hinders the progress of the operation, must be
+                    removed from time to time by means of an iron-rod, terminated at right angles by
+                    a small round plate. From the different diameter of the boring-bars, it follows
+                    that the end of the hole is of a smaller diameter than that of the beginning.
+                    The depth to which the hole is bored is proportioned to the nature of the rock.
+                    It varies from 10 to 15 and 20 inches. When the rock is solid a great way round,
+                    a deep hole is not used, because the resistance at a considerable depth, in such
+                    a situation, is too great; so that the explosion does not split the rock round
+                    the powder chamber, but acts upwards against the ramming, where it meets with
+                    less resistance. But if the rock be laid bare on one side, a deep hole is
+                    advantageous. Water is poured into the hole during the operation, to facilitate
+                    the action of the boring-iron. When the hole is perpendicularly downwards, it is
+                    kept full of water; when the hole is driven from below upwards, no water can be
+                    used. The water must be taken out, and the hole dried, before the cartridge be
+                    introduced, <hi rend="subscript"> t</hi> The most frequent case is, that one man
+                    performs the work, holding the boring-iron in his left hand,’ and striking on it
+                    with the two-pound hammer in his right. Sometimes two men are set to do the
+                    work, one holding the boring-iron, whilst the second strikes it with a hammer of
+                    four or five pounds: this is done where it is required to make the hole thirty
+                    or thirty-six inches deep. When a still deeper hole is wanted, two men strike
+                    alternately with heavier hammers.</p>
+                <p>6. <hi rend="smallcaps">Boring of Wooden Pipes</hi> is done by means of a long
+                    auger, beginning with one of small diameter, and proceeding to employ
+                    successively spoon-formed augers of larger diameter. Notwithstanding the
+                    frequent employment of cast-iron pipes, some wooden pipes are still used for
+                    conveying water in London: they are of elm, which is the kind of tree most
+                    frequent in the neighbouring country. A pipe is bored out of one trunk of elm,
+                    and the bark is left on. When a tree is to be bored, it is fixed on a carriage,
+                    with a rack on the under part. This rack fits into a pinion, the axis of which
+                    passes through gudgeons on a fixed frame. On the axis of the pinion is a ratchet
+                    wheel, moved by two catches, which derive their motion from the wind or water
+                    power that turns the auger; and the pinion is moved in a direction that brings
+                    the tree towards the auger. See a figure in Belidor, <hi rend="italic"
+                    >Architecture Hydraulique,</hi> i. 1, 341. This apparatus is the same as the one
+                    employed in saw-mills. In the boring of pipes for the water-works in London, the
+                    tree is made to advance by ropes, which pass over a windlass wrought by men,
+                    whilst the auger is turned by a horse-mill. Wooden pipes are frequently bored by
+                    an auger having at its outer end a wooden drift or handle, which is put in
+                    motion by the workman. The trees are placed on tressels, and there are also
+                    tressels of a convenient height that support the auger; there is also a lathe to
+                    turn one end of the tree conical, so as to fit into a conical cavity in the end
+                    of the adjoining tree, and thus form a water-tight joint. The end of the tree
+                    which receives the adjoining pipe within it has a surface at right angles to the
+                    axis of the pipe. Into this surface is driven an iron hoop, the diameter of
+                    which is some inches greater than the diameter of the aperture of the pipe. This
+                    precaution prevents the tree from splitting when the conical end of the next
+                    tree is driven home. When the tree is crooked, a bore is driven in from each
+                    end, and the two bores meet, forming an angle. An auger whose stalk is formed
+                    spirally for some way up is figured in Bailey’s <hi rend="italic">Machines of
+                    the Society of Arts.</hi> The objects of this is that the chips may be delivered
+                    without taking the auger out of the hole.</p>
+                <p>There is a patent granted in 1796 to Mr Howell, coalmaster, of Oswestry, for
+                    boring wooden pipes by a hollow cylinder made of thin plates of iron, about an
+                    inch less in diameter than the hole to be bored. To one end of this cylinder is
+                    fixed a flange about a quarter of an inch in breadth, and one part of this
+                    flange is divided, so that, being of steel, a cutter is formed thereby. The
+                    object of this method is to bore out a solid cylinder of wood, capable of being
+                    converted into a smaller pipe, or of being applied to some other use in
+                    carpentry. <hi rend="italic">(Repertory of Arts,</hi> vol. ix.) This kind of
+                    borer is like the trepan, which is a hollow cylinder of steel, saw-toothed on
+                    the edge, and, when made to revolve rapidly on its axis in the hand of the
+                    surgeon, it saws or bores out circular pieces of the flat bones of the head. <hi
+                    rend="smallcaps">(b. b.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

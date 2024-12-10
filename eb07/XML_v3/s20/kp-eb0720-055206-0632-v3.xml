@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0720-0632-0552-06" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">SQUARING, or Quadrature</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 20, page 552</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="22" ref="lcsh1910:b44j09z32">Founding</term>
+                    <term n="20" ref="lcsh1910:b43j39307">Equality</term>
+                    <term n="16" ref="lcsh1910:b4j96091f">Arches</term>
+                    <term n="6" ref="lcsh1910:b42v2c962">Time</term>
+                    <term n="5" ref="lcsh1910:b48c9rb77">Polygons</term>
+                    <term n="1" ref="lcsh1910:b4599z60x">Hindoos</term>
+                    <term n="1" ref="lcsh1910:b48c9r41n">Arabs</term>
+                    <term n="1" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="1" ref="lcsh1910:b4vm42z9s">Jesuits</term>
+                    <term n="1" ref="lcsh1910:b4sq8qk1s">Christ</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="22" ref="fasttopic:933281">Founding</term>
+                    <term n="20" ref="fasttopic:914456">Equality</term>
+                    <term n="16" ref="fasttopic:813061">Arches</term>
+                    <term n="6" ref="fasttopic:1151043">Time</term>
+                    <term n="5" ref="fasttopic:1070488">Polygons</term>
+                    <term n="2" ref="fasttopic:934209">French</term>
+                    <term n="1" ref="fasttopic:812571">Arabism</term>
+                    <term n="1" ref="fasttopic:812576">Arabs</term>
+                    <term n="1" ref="fasttopic:947546">Greeks</term>
+                    <term n="1" ref="fasttopic:1174597">White</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="1" ref="fastgeo:1210276">India</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ht:chi.28490924&amp;view=1up&amp;seq=632" type="entry">
+                <p><label type="entry">SQUARING, or <hi rend="italic smallcaps">
+                    Quadrature</hi></label><hi rend="italic">of the Circle,</hi> signifies the
+                    finding a square exactly equal to the area of a given circle. This problem,
+                    however, has not been, and probably cannot be, strictly resolved by the commonly
+                    admitted principles of geometry; mathematicians having hitherto been unable to
+                    do more than to find a square that shall differ from the area of any proposed
+                    circle by as small a quantity as they please. The problem is of the same degree
+                    of difficulty, and indeed may be regarded as identical with another geo metrical
+                    problem, namely, the <hi rend="italic">rectification of the circle,</hi> or the
+                    finding a straight line equal to its circumference; for the area of a circle is
+                    equal to that of a rectangle contained by the radius and a straight line equal
+                    to half the circumference; therefore, if a straight line exactly equal to the
+                    circumference could be found, a rectlineal space precisely equal to the area
+                    might also be found, and the contrary. But although no perfectly accurate
+                    resolution of the problem has been obtained under either form, we can always
+                    find approximate values of the area and circumference; and it is now customary
+                    to apply the terms <hi rend="italic">quadrature</hi> and <hi rend="italic"
+                    >rectification</hi> of the circle also to these.</p>
+                <p>The problem of the quadrature of the circle appears to have engaged the attention
+                    of geometers at a very early period; for we are told that Anaxagoras, who lived
+                    about live hundred years before Christ, attempted its solution while confined in
+                    prison on account of his philosophical opinions. We are ignorant of the result
+                    of his researches; but al though we cannot suppose they were attended with any
+                    success, we may reasonably conclude that we are indebted to them for the
+                    discovery of some of the properties of the figure, which are now known as
+                    elementary propositions in geometry.</p>
+                <p>Hippocrates of Chios was likewise engaged in trying to resolve the same problem,
+                    and it was no doubt in the course of his inquiries into this subject, that he
+                    discovered the quadrature of the curvilineal space, which is now known by the
+                    name of the <hi rend="italic">Lune</hi> of Hippocrates. The nature of this
+                    discovery may be briefly explained as follows. Let ABCD be a circle, H its
+                    centre, AC its diameter, ADC a triangle inscribed in the semicircle, having its
+                    sides, AD, DC equal to one another. On</p>
+                <p>D as a centre, with DA or DC as <hi rend="italic">a</hi> ra dius, let the
+                    quadrantal arch AEC be described, then shall the curvilineal space bounded by
+                    the semicircle ABC</p>
+                <p>and the quadrantal arch AEC (which is the <hi rend="italic">Lune</hi> of
+                    Hippocrates), be equal to the rectilineal triangle ADC.</p>
+                <p>Although Hippocrates’s discovery has led to no important conclusion either
+                    relating to the quadrature of the circle or that of any other curve, yet at the
+                    time it was made, it might be regarded as of some consequence, chiefly because
+                    it shewed the possibility of exhibiting a rectilineal figure equal to a space
+                    bounded by curve lines, a thing which we have reason to suppose was then done
+                    for the first time, and might have been fairly doubted, considering the
+                    insuperable difficulty that was found to attend the quadrature of the circle or
+                    its rectification.</p>
+                <p>Aristotle speaks of two persons, namely, Bryson and An tiphon, who, about his
+                    time, or a little earlier, were occu pied with the quadrature of the circle. The
+                    former appears, according to the testimony of Alexander Aphrodiseus, to have
+                    erred most egregiously; he having concluded that the circumference was exactly
+                    3¾ times the diameter. And the latter seems to have proceeded in the same manner
+                    as Archimedes afterwards did in squaring the parabola, that is, by first
+                    inscribing a square in the circle, then an isoceles tri angle in each of the
+                    segments of the curve, having for its base a side of the square; and next again
+                    a series of triangles in the segments, having for their bases the sides of the
+                    former series, and so on. This mode of procedure, how ever, was not attended
+                    with success, as these spaces do not, as in the case of the parabola, admit of
+                    being absolutely summed.</p>
+                <p>It may be supposed that Archimedes exerted his utmost efforts to resolve this
+                    problem; and probably it was only<pb break="no"
+                    facs="ht:chi.28490924&amp;view=1up&amp;seq=633" xml:id="kp-eb0720-0633-0553"/>
+                    after long meditation on the subject that he lost all hopes of success, and
+                    contented himself with that approximation to the ratio of the diameter to the
+                    circumference which is contained in his treatise <hi rend="italic">De Circuli
+                    Dimensione.</hi> He found his approximation to the ratio, by supposing a regular
+                    polygon of ninety-six sides, to be described about the circle, and another of
+                    the same number, to be inscribed in it, and by shewing that the perimeter of the
+                    circumscribing polygon was less than 3 <hi rend="superscript"> 10</hi> / <hi
+                    rend="subscript"> 70</hi>, or 3 <hi rend="superscript"> 1</hi> / <hi
+                    rend="subscript"> 7</hi> times the diameter, but that the perimeter of the
+                    inscribed figure was greater than 3 <hi rend="superscript"> 10</hi> / <hi
+                    rend="subscript"> 71</hi> times the diameter; now, the circumference of the
+                    circle being less than the perimeter of the one polygon, but greater than that
+                    of the other; it follows that the circumference must be less than 3 <hi
+                    rend="superscript"> 1</hi> / <hi rend="subscript"> 7</hi> times the diameter,
+                    but greater than 3 <hi rend="superscript"> 10</hi> / <hi rend="subscript">
+                    71</hi> times; so that, taking the first of these limits, as being expressed by
+                    the smallest numbers, the circumference will be to the diameter as 3 <hi
+                    rend="superscript"> 1</hi> / <hi rend="subscript"> 7</hi> to 1, or as 22 to 7
+                    nearly.</p>
+                <p>Although the ratio found by Archimedes be the oldest known in the western world,
+                    yet one more accurate was known at a much earlier period in India. This we learn
+                    from the Institutes of Akbar <hi rend="italic">(Ayeen Akberry),</hi> where it is
+                    said that the Hindoos suppose the diameter of a circle to be to its
+                    circumference as 1250 to 3927. Now, this ratio must have required the
+                    inscription of a polygon of 768 sides in the circle, and must have been attended
+                    with nine ex tractions of the square root, each carried as far as ten places of
+                    figures.</p>
+                <p>We learn from Simplicius that Nicoedes and Apollonius both attempted to square
+                    the circle, the former by means of a curve, which he called the <hi
+                    rend="italic">quadratrix;</hi> the invention of which, however, is ascribed to
+                    Dinostratus, and the latter, by the help of a curve, denominated the sister to
+                    the tortuous line, or <hi rend="italic">spiral,</hi> and which was probably the
+                    quadratrix of Dinostratus; the nature of which, and the manner of its
+                    application to the subject in question, we shall briefly explain.</p>
+                <p>Let AFB be a quadrant of a circle,</p>
+                <p>(fig. 2), and C its centre; and conceive the radius CF to revolve uniformly about
+                    C, from the position CA, until at last it coincide with CB; while at the same
+                    time a line DG is carried with an uniform motion from A towards CB; the former
+                    line continuing always parallel to the latter, until at last they coincide; both
+                    motions being supposed to begin and end at the same instant; the point E, in
+                    which the revolving radius CF, and the moveable line DG intersect one another,
+                    will generate a certain curve line AEH, which is the <hi rend="italic"
+                    >quadratrix</hi> of Dinostratus.</p>
+                <p>Draw EK, FL both perpendicular to CB; then because the radius AC and the
+                    quadrantal arch AFB, are uniformly generated in the same time by the points D
+                    and F, the contemporaneous spaces described will have to one another the same
+                    ratio as the whole spaces; that is, AD: AF:: AC: AB; hence we have AC: AB:: DC,
+                    or EK: FB. Now, as the moveable point F approaches to B, the ratio of the
+                    straight line EK to the arch FB will approach to, and will manifestly be
+                    ultimately the same as the ratio of the straight line EK to the straight line
+                    FL, which again is equal to the ratio of CE to CF; therefore the ratio of the
+                    radius AC to the quadrantal arch AFB is the limit of the ratio of CEtoCF,and
+                    consequently equal to the ratio of CH to CB, H being the point in which the
+                    quadratrix meets CB. Since therefore CH: CB:: CA, or CB: quad, arch AFB, if by
+                    any means we could determine the point H, we might then find a straight line
+                    equal to the quadrantal arch, (by finding a third proportional to CH and CB),
+                    and consequently a straight line equal to the circumference. The point H,
+                    however, can not be determined by a geometrical construction, and there fore all
+                    the ingenuity evinced by the person who first thought of this method of
+                    rectifying the circle, (which certainly is considerable), has been
+                    unavailing.</p>
+                <p>The Arabs, who succeeded the Greeks in the cultivation of the sciences, would no
+                    doubt have their pretended squavers of the circle. We however know nothing more
+                    than that one of them believed he had discovered that the diameter being unity,
+                    the circumfernnce was the square root of 10; a very gross mistake; for the
+                    square root of 10 exceeds 3162; but Archimedes had demonstrated that the
+                    circumference was less than 3·143.</p>
+                <p>It appears that, during the dark ages, some attempts were made at the resolution
+                    of this famous problem, which, how ever, have always remained in manuscripts,
+                    buried in the dust of old libraries. But upon the revival of learning, the
+                    problem was again agitated by different writers, and particularly by the
+                    celebrated Cardinal De Cusa, who distinguished himself by his unfortunate
+                    attempt to resolve it. His mode of investigation, which had no solid foundation
+                    in geometry, led him to conclude, that if a line equal to the sum of the radius
+                    of a circle, and the side of its inscribed square were made the diameter of
+                    another circle, and an equilateral triangle were inscribed in this last, the
+                    perime ter of this triangle would be equal to the circumference of the other
+                    circle. This pretended quadrature was refuted by Regiomontanus.</p>
+                <p>It would be trespassing too much upon the patience of our readers, were we to
+                    mention all the absurd and erroneous attempts which have been made during the
+                    last three centuries to square the circle. In a supplement to Montucla’s <hi
+                    rend="italic">Histoire des Mathematiques,</hi> we find upwards of forty
+                    pretenders to the honour of this discovery enumerated. They were almost all very
+                    ignorant of geometry; and many of them were wild visionaries, pretending to
+                    discover inexplicable relations between the plain truths of mathematics and the
+                    most mysterious doctrines of religion. From such persons as have generally
+                    pursued this inquiry, no improvement whatever of the science was to be expected;
+                    although, in some instances, it has derived advantage from the labours of euch
+                    as have undertaken to expose the ab surdity of their conclusions; as in the case
+                    of Metius, who in refuting the quadrature of one Simon à Quercu, found a much
+                    nearer approximation to the ratio of the diameter to the circumference than had
+                    been previously known in Eu rope, namely, that of 113 to 355.</p>
+                <p>Among the most remarkable of those who have under taken to resolve this problem,
+                    we cannot fail to enumerate Joseph Scaliger, a man of stupendous erudition. Full
+                    of confidence in his own powers, he believed that, entering upon the study of
+                    geometry, he could not fail to surmount by the force of his genius, those
+                    obstacles which had completely stopped the progress of all preceding inquirers.
+                    He gave the result of his meditations to the world in 1592, under the title <hi
+                    rend="italic">Nova Cyclometria;</hi> but he was refuted by Clavius, by Vieta,
+                    and others, who shewed that the magnitude which he had assigned to the
+                    circumference was a little <hi rend="italic">less</hi> than the peri meter of
+                    the inscribed polygon of 192 sides, which proved beyond a doubt that he was
+                    wrong. Scaliger, however, was not to be convinced of the absurdity of his
+                    conclusion; and indeed, in almost every instance, pretenders to this dis covery
+                    have not been more remarkable for their egregious errors, than for their
+                    obstinacy in maintaining that they were in the right, and all who held a
+                    contrary opinion in the wrong.</p>
+                <p>The famous Hobbes came also upon the field about the year 1650, with pretensions
+                    not only to the quadrature of the circle, but also to the trifection of an
+                    angle, the reclification of the parabola, &amp;c.; but his pretended solutions
+                    were refuted by Dr. Wallis. And this circumstance aftbrd ed him occasion to
+                    write not only against geometers, but even against the science of geometry
+                    itself.<pb break="no" facs="ht:chi.28490924&amp;view=1up&amp;seq=634"
+                    xml:id="kp-eb0720-0634-0554"/> We find it recorded by Montucla, as a sort of
+                    phenomenon, that one Richard White, an English Jesuit, having happened upon what
+                    he conceived to be a quadrature of the circle, which he published under the
+                    title, <hi rend="italic">Chrysaespis, seu Quadratura Circuli,</hi> suffered
+                    himself at last to be convinced by some of his friends that he was wrong. But a
+                    solution of the same problem, found out by one Mathulen of Lyon, did not end in
+                    so much advantage to its author. This man in 1728 announced to the world that he
+                    had discovered both the quadrature of the circle, and a perpetual motion; and he
+                    was so certain of the truth of these discoveries, that he he consigned 1000 <hi
+                    rend="italic">ecus</hi> (about L.125), to be paid to any one who should
+                    demonstrate that he was deceived in either. The task was not difficult. Nicoe of
+                    the Academy of Sciences demonstrated that he was wrong, and he himself allowed
+                    it; but he hesitated to pay the money, which Nicoe had relinquished in favour of
+                    the Hotel Dieu of Lyon. The affur went before a court of justice, which adjudged
+                    the money to be paid, as Nicoe had destined it, to the poor. At a later period,
+                    namely, in 1753, the Chevalier de Causons, a French officer, and a man who was
+                    never sup posed to be a mathematician, suddenly found a quadrature of the circle
+                    in procuring a circular piece of turf to be cut; and rising from one truth to
+                    another, he explained by his quadrature the doctrine of original sin, and the
+                    Trinity. He engaged himself, by a public writing, to deposit with a notary the
+                    sum of 300,000 francs, to be wagered against such as should oppose him, and he
+                    actually lodged 10,000, which were to devolve to him who should demonstrate his
+                    error. This was easily done, as it resulted from his disco very that a circle
+                    was equal to its circumscribing square, that is, a part to the whole. Some
+                    persons came forward to answer his challenge, and in particular a young lady
+                    sued him at one of the courts of law; but the French king judg ed that the
+                    chevalier’s fortune ought not to suffer on ac count of his whim; for, setting
+                    aside this piece of folly, in every other respect he was a worthy man. The
+                    procedure was therefore stopped, and the wager declared void.</p>
+                <p>We shall not enter further into the history of these vain and absurd attempts to
+                    resolve this important problem, but proceed to state what has actually been done
+                    by men of sound minds and real mathematical acquirements towards its solution.
+                    And in the first place, it may be observed that the problem admits of being
+                    proposed under two diffe rent forms; for it may be required to find either the
+                    area of the whole circle, or, which is the same thing, the length of the whole
+                    circumference; or else to find the area of any proposed sector or segment, or,
+                    which is equivalent, the length of the arch of the sector or segment. The former
+                    is termed the <hi rend="italic">definite,</hi> and the latter the <hi
+                    rend="italic">indefinite</hi> quadrature of the circle. The latter evidently is
+                    more general than the former, and includes it as a particular case. Now, if we
+                    could find by any means a finite algebraic equation that should express the
+                    relation between any proposed arch of a circle, and some known straight line, or
+                    lines, the magnitude of one or more of which depended on that arch, then we
+                    would have an absolute rectification of the arch, and consequently a
+                    rectification or quadrature of the whole circle. We here speak of an analytical
+                    solution; the ancients, who were almost entirely ignorant of this branch of
+                    mathematical science, must have endeavoured to treat it entirely upon
+                    geometrical principles. It is now well known, how ever, that all geometrical
+                    problems may be subjected to analysis; and that it is only by such a mode of
+                    proceeding they have in many cases been resolved.</p>
+                <p>With respect to the definite quadrature of the circle, no unexceptionable
+                    demonstration of its impossibility has hitherto been published. It is true, that
+                    James Gregory, in his <hi rend="italic">Vera Circuli et Hyperbola
+                    Quadratura,</hi> has given what he considered as such a demonstration; but it
+                    was objected to by Huygens, one of the best geometers of his time. It is certain
+                    that the ratio of the diameter to the circumference, also, that the ratio of the
+                    square of the diameter to the square of a straight line equal to the
+                    circumference, cannot be expressed by rational numbers, for this has been
+                    strictly demonstrated by Lambert in the Berlin Memoirs for 1761. A demonstration
+                    is also given in Legendre’s <hi rend="italic">Geometrie.</hi> As to the
+                    indefinite quadrature, if Newton’s demonstration of the twenty-eighth lemma of
+                    the first book of his <hi rend="italic">Principia,</hi> be correct, the thing
+                    ought to be absolutely impossible. For the object of that proposition is to
+                    prove, that in no oval figure whatever, that returns into itself, can the area
+                    cut off by straight lines at pleasure, be universally found by an equation of a
+                    finite dimension, and composed of a finite number of terms. If this be true,
+                    then it will be impossible to express any sector of a circle taken at pleasure
+                    in finite terms. It is however to be remarked, that the accuracy of the
+                    reasoning by which Newton has attempted to establish the truth of the general
+                    proposition, has been questioned by no less a geometer than D’Alembert; and in
+                    deed we know one oval curve, which returns into itself, and which according to
+                    Newton’s proposition ought there fore not to admit of an indefinite quadrature;
+                    yet this is by no means the case, for it does really admit of such a quad
+                    rature. The curve we mean is the <hi rend="italic">lemniscata,</hi> whose figure
+                    is nearly that of the numeral character 8. Upon the whole, then, we may infer
+                    that an unexceptionable demonstration of the impossibility of expressing either
+                    the whole circle, or any proposed sector of it, by a finite equation, is still
+                    among the <hi rend="italic">desiderata</hi> of mathematics.</p>
+                <p>Of the different methods which have been found for approximating to the area or
+                    to the circumference, that of Archimedes is the only one found by the ancients
+                    in the western world that has descended to modern times, and it appears to have
+                    been the most accurate known, until about the year 1585, when Metius, in
+                    refuting a pretended quadrature, found the more accurate ratio of 113 to 355, as
+                    we have already noticed. About the same time Vieta and Adrianus Romanus
+                    published their ratios, the former carrying the approximation to ten decimals
+                    instead of six, (which was that of Metius’s ratio), and the latter extending it
+                    to 17 figures. Vieta also gave a kind of series, which being continued to
+                    infinity, gave the value of the circle.</p>
+                <p>These approximations, however, were far exceeded by that of Ludolph Van Ceulen,
+                    who, in a work published in Dutch in 1610, carried it as far as 36 figures,
+                    showing that if the diameter were unity, the circumference would be greater than
+                    3.14159,26535,89793,23846,26433,83279,50288, but less than the same number with
+                    the last figure increased by an unit. In finding this approximation, Van Ceulen
+                    followed the method of Archimedes, doubling continually the number of sides of
+                    the inscribed and circumscribed poly gons, until at length he found two which
+                    differed only by an unit in the 36th place of decimals in the numbers ex
+                    pressing their perimeters. This was rather a work of patience than of genius;
+                    indeed the labour must have been prodigious. He seems to have valued highly this
+                    singular effort; for in imitation of Archimedes, whose tomb was adorned with a
+                    sphere and cylinder, he directed that the ratio he had found might be inscribed
+                    on his tomb.</p>
+                <p>Snellius abridged greatly the labour of calculation; and although he did not go
+                    beyond Van Ceulen, yet he verified his result. Des Cartes also found a
+                    geometrical construction, which being repeated continually, gave the
+                    circumference, and from which he might easily have deduced an expression in the
+                    form of a series. Gregory of St. Vincent distinguished himself also on this
+                    subject; he however committed a great error in supposing he had dis covered the
+                    quadrature of both the circle and hyperbola. Gregory’s mistake was the cause of
+                    a sharp controversy carried on between his disciples on the one side, and by
+                    Huygens, Mersenne, and Lestaud, on the other; and it<pb break="no"
+                    facs="ht:chi.28490924&amp;view=1up&amp;seq=635" xml:id="kp-eb0720-0635-0555"/>
+                    was this that gave Huygens occasion to consider particularly the quadrature of
+                    the circle, and to investigate various new and curious theorems relating to it,
+                    which are contained in his <hi rend="italic">Theoremata de Quadratura
+                    Hyperboles, Ellipsis, et Circuli,</hi> 1651; and in his work <hi rend="italic"
+                    >De Circuli Magnitudine inventa,</hi> 1654. In particular he showed, that if c
+                    denote the chord of an arch, and <hi rend="italic">s</hi> its sine, then the
+                    arch itself will be greater than c+ <hi rend="superscript"> 1</hi> / <hi
+                    rend="subscript"> 3</hi> (c—s), but less titan c+ <hi rend="italic">4c</hi> +
+                    <hi rend="italic">s</hi></p>
+                <p>——— ×½(c—i): he also showed that the arch is less than 2e+3jt <hi
+                    rend="superscript"> a</hi> the sum of <hi rend="superscript"> 2</hi> / <hi
+                    rend="subscript"> 3</hi> of its sine and <hi rend="superscript"> 1</hi> / <hi
+                    rend="subscript"> 3</hi> of its tangent.</p>
+                <p>James Gregory, in his <hi rend="italic">Vera Circuli et Hyperbolae Quad</hi><hi
+                    rend="italic">ratura,</hi> gave several curious theorems upon the relation of
+                    the circle to its inscribed and circumscribed polygons, and their ratios to one
+                    another; and by means of these he found with infinitely less trouble than by the
+                    ordinary methods, and even by those of Snellius, the measure of the circle as
+                    far as 20 places of figures. He gave also, after the example of Huygens,
+                    constructions for finding straight lines nearly equal to arches of a circle, and
+                    of which the degree of accuracy was greater. For example, he found that if A be
+                    put for the chord of an arch of a circle, and B for twice the chord of half the
+                    arch, and C be taken such that A+B: B:: B: C, then the arch itself is nearly
+                    equal to</p>
+                <p>—∆, but <hi rend="subscript"> a</hi> little less, the error in the case of a
+                    15</p>
+                <p>complete semicircle being less than its, j&gt; <hi rend="subscript"> δβ</hi>
+                    part; and when the arch does not exceed 120°, it is less than its <hi
+                    rend="superscript"> 1</hi> / <hi rend="subscript"> 400000</hi> part; and
+                    finally, for a quadrant the error is not greater than its <hi rend="superscript"
+                    > 1</hi> / <hi rend="subscript"> 300000</hi> part. And farther, that if D be
+                    such that A: B::</p>
+                <p>„ <hi rend="subscript"> v v</hi>. , , 12C + 4B—D ,</p>
+                <p>B: D, then the arch is nearly equal to ⅛, , but</p>
+                <p>J 5</p>
+                <p>a little greater, the error in the semicircle being less than its <hi
+                    rend="superscript"> 1</hi> / <hi rend="subscript"> 1000</hi> part, and in a
+                    quadrant less than its <hi rend="superscript"> 1</hi> / <hi rend="subscript">
+                    60000</hi> part.</p>
+                <p>Dr. Wallis gave, in his <hi rend="italic">Arithmetica Infinitorum,</hi> a
+                    singular expression for the ratio of the circle to the square of its diameter.
+                    He found that the former was to the latter as 1 to the product <hi
+                    rend="underline">3×3×5×5×7×7×9×9</hi> × 1 <hi rend="underline">1 ×I1, &amp;</hi>
+                    c. 2×4×4×6×6×8×8×10×10×12</p>
+                <p>the fractions <hi rend="superscript"> 5</hi> / <hi rend="subscript"> 2</hi>, <hi
+                    rend="superscript"> 5</hi> / <hi rend="subscript"> 4</hi>, <hi
+                    rend="superscript"> 5</hi> / <hi rend="subscript"> 4</hi>, <hi
+                    rend="superscript"> 5</hi> / <hi rend="subscript"> 6</hi>, &amp;c., being
+                    supposed infinite in number. The products being supposed continued to infinity,
+                    we have the ratio exactly; but if we stop at any finite number of terms, as must
+                    necessarily be the case in its application, the result will be alternately too
+                    great and too small, according as we take an odd or an even number of terms of
+                    the numerator and denominator.</p>
+                <p>An expression of another kind for the ratio of the circle to the square of the
+                    diameter was found by Lord Brounker. He showed that the circle being unity, the
+                    square of the diameter is expressed by the continued fraction 1</p>
+                <p>H 9</p>
+                <p><hi rend="italic">2+</hi><hi rend="italic">2+∞</hi></p>
+                <p>2+l?_</p>
+                <p>2+,&amp;c which is supposed to go on to infinity, the numerators 1, 9, 25, 49,
+                    <hi rend="italic">Sic.,</hi> being the squares of the odd numbers 1, 3, 5, 7,
+                    &amp;c. By taking two, three, four, &amp;c., terms of this fraction, we shall
+                    have a series of approximate values, which are alternately greater and less than
+                    its accurate value.</p>
+                <p>Such were the chief discoveries relating to the quadrature of the circle made
+                    before the time of Newton; many others, however, were quickly added by that
+                    truly great man, as well as by his contemporaries. In particular, James Gregory
+                    found, that <hi rend="italic">t</hi> being put for the tangent, the arch is
+                    expressed by the very simple series <hi rend="italic">t</hi><hi rend="italic
+                    superscript"> 3</hi><hi rend="italic">t</hi><hi rend="italic superscript">
+                    i</hi><hi rend="italic">f . t</hi><hi rend="italic superscript"> i</hi><hi
+                    rend="superscript"> t</hi> —3^^^ 5—7" + 9— &amp; <hi rend="superscript">
+                    c</hi></p>
+                <p>By supposing that <hi rend="italic">t</hi> =1, in which case the arch is one
+                    eighth of the circumference, we have the corresponding arch expressed by the
+                    series <hi rend="superscript smallcaps"> 4</hi><hi rend="smallcaps"
+                    >&lt;⅛M+⅛+*</hi><hi rend="superscript smallcaps"> c</hi><hi rend="smallcaps"
+                    >∙&gt;</hi> which was also given by Leibnitz as a quadrature of the circle in
+                    the <hi rend="italic">Acta Eruditorum</hi> in the year 1682, but was dis covered
+                    by him 1673. Gregory had however found the series under its general form several
+                    years before. This series is altogether inapplicable in its present form, on ac
+                    count of the slowness of its convergency; for Newton has observed, that to
+                    exhibit its value exact to twenty places of figures, there would be occasion for
+                    no less than five thou sand millions of its terms, to compute which would take
+                    up above a thousand years.</p>
+                <p>The slowness of the convergency has arisen from our supposing <hi rend="italic"
+                    >t</hi> =1. If we had supposed <hi rend="italic">t</hi> greater than 1, then the
+                    series would not have converged at all, but on the contrary diverged. But by
+                    giving to <hi rend="italic">t</hi> a value less than 1, then the rate of
+                    convergency will be increased, and that so much the more, as <hi rend="italic"
+                    >t</hi> is smaller.</p>
+                <p>If we suppose the arch of which <hi rend="italic">t</hi> is the tangent to be
+                    30°, then <hi rend="italic">t</hi> will be √ <hi rend="superscript"> 1</hi> /
+                    <hi rend="subscript"> 3</hi> = <hi rend="superscript"> 1</hi> / <hi
+                    rend="subscript"> 3</hi> √3, and therefore half the circumference to radius
+                    unity, or the circumference to the diameter unity, will be</p>
+                <p>*∕ <hi rend="superscript"> 12</hi> (<hi rend="superscript"> 1</hi> X3 <hi
+                    rend="superscript"> +</hi> 53 <hi rend="superscript"> 3</hi> ~73 <hi
+                    rend="superscript"> s +</hi> 9∑∙ <hi rend="superscript"> &amp;C</hi> ')·</p>
+                <p>Mr. Machin, enticed by the easiness of the process, was induced, about the
+                    beginning of the last century, to continue the approximation as far as 100
+                    places of figures, thus finding the diameter to be to the circumference as 1 to
+                    3.14159,26535,89793,23846,26433,83279,50288,41971,69
+                    399,37510,58209,74944,59230,78164,06286,20899,86280, 34825,34211,70680. After
+                    him, De Lagny continued it as far as 128 figures. But he has also been outdone;
+                    for in Radcliffe’s library at Oxford, there is a manuscript in which it is
+                    carried as far as 150 figures!</p>
+                <p>Although this last series, which was first proposed by Dr. Halley, gives the
+                    ratio of the diameter to the circumference with wonderful facility when compared
+                    with the operose method employed by Van Ceulen, yet others have been since found
+                    which accomplish it with still greater ease.</p>
+                <p>We have given such a method in our treatise on <hi rend="smallcaps">Algebra,</hi>
+                    (see article 272.) In the same treatise, (article 273), we have given a very
+                    elementary method, which may be understood by the mere elements of geometry. For
+                    the analytical methods, see <hi rend="smallcaps">Fluxions.</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0708-3265-0010-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">DICTIONARY</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 8, page 10</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="2" ref="lcsh1910:b4mw28p24">Scotch</term>
+                    <term n="1" ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term n="12" ref="lcsh1910:b4n58cs1k">Manners</term>
+                    <term n="11" ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term n="11" ref="lcsh1910:b41v5bc9t">Expression</term>
+                    <term n="10" ref="lcsh1910:b4348gn83">Mind</term>
+                    <term n="8" ref="lcsh1910:b4kk94c35">Extents</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="15" ref="fasttopic:1134302">Straits</term>
+                    <term n="11" ref="fasttopic:918881">Expression</term>
+                    <term n="7" ref="fasttopic:938950">Gates</term>
+                    <term n="6" ref="fasttopic:1179191">Wood</term>
+                    <term n="6" ref="fasttopic:1012448">Matter</term>
+                    <term n="9" ref="fasttopic:910709">English</term>
+                    <term n="1" ref="fasttopic:969307">Indians</term>
+                    <term n="1" ref="fasttopic:916820">Europeans</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193323265" type="entry">
+                <p><label type="entry">DICTIONARY</label>, in its original acceptation, is the
+                    arranging of all the words of a language according to the order of the alphabet,
+                    and annexing a definition or explanation to each word. When arts and sciences
+                    began to be improved and extended, the multiplicity of technical terms rendered
+                    it necessary to compile dictionaries, either of science in general, or of
+                    particular sciences, according to the views of the compiler.</p>
+                <p><hi rend="smallcaps">Dictionary</hi><hi rend="italic">of the English
+                    Language.</hi> The design of every dictionary of language is to explain, in the
+                    most accurate manner, the meaning of every word; and to show the various ways in
+                    which it can be combined with others, in as far as this tends to alter or modify
+                    its meaning. The dictionary which does this in the most accurate manner is the
+                    most complete work of the kind; therefore the principal study of a lexicorapher
+                    ought to be to discover the method which may seem best adapted for that purpose.
+                    Dr Johnson, with great labour, has collected the various meanings of every word,
+                    and quoted the authorities; but it would have been an improvement if he had
+                    given an accurate definition of the precise meaning of every word; pointed out
+                    the way in which it ought to be employed with the greatest propriety; showed the
+                    various deviations from the original meaning, which custom had so far
+                    established as to render allowable; and fixed the precise limits beyond which it
+                    could not be employed without becoming a vicious expression. With this view it
+                    would have been necessary to exhibit the nice distinctions which take place
+                    between words nearly synonymous, and without which many words can only be
+                    defined in such a manner that they must be considered as exactly synonymous. We
+                    omit making any quotations from Johnson in order to point out these defects; and
+                    shall content ourselves with giving a few examples, to show in what manner,
+                    according to our idea, a dictionary of the English language ought to be
+                    compiled.</p>
+                <p><hi rend="smallcaps">Immediately,</hi><hi rend="italic">adv. of time.</hi></p>
+                <p>1. Instantly, without delay. Always employed to denote future time, and never
+                    past. Thus we may say, <hi rend="italic">I will come immediately;</hi> but not
+                    <hi rend="italic">I am immediately come from such a place.</hi> See <hi
+                    rend="smallcaps">Presently.</hi></p>
+                <p>2. Without the intervention of any cause or event; as opposed to <hi
+                    rend="italic">mediately.</hi><hi rend="smallcaps">Presently,</hi><hi
+                    rend="italic">adv. of time.</hi></p>
+                <p>1. Instantly, without delay. Exactly synonymous with <hi rend="italic"
+                    >immediately</hi><hi rend="italic">;</hi> being never with propriety employed to
+                    denote any thing but future time.</p>
+                <p>2. Formerly it was employed to express present time. Thus, <hi rend="italic">The
+                    house presently possessed by such a one,</hi> was often used, but this has now
+                    become a vicious expression; and we ought to say, <hi rend="italic">The house
+                    possessed at present.</hi> It differs from <hi rend="italic">immediately</hi> in
+                    this, that even in the most corrupt phrases it never can denote] past time.</p>
+                <p><hi rend="smallcaps">Form,</hi><hi rend="italic">subst.</hi> The external
+                    appearance of any object, when considered only with reference to shape or
+                    figure. This term, therefore, in the literal sense, can only be applied to the
+                    objects of sight and touch, and is therefore nearly synonymous with <hi
+                    rend="italic">figure</hi><hi rend="italic">;</hi> but these terms differ in some
+                    respects. <hi rend="italic">Form</hi> may be employed to denote more rude and
+                    unfinished shapes; <hi rend="italic">figure,</hi> those which are more perfect
+                    and regular. <hi rend="italic">Form</hi> can never be employed without denoting
+                    matter, whereas <hi rend="italic">figure</hi> may be employed in the abstract:
+                    thus we say a square or a triangular^^wre, but not a square or triangular <hi
+                    rend="italic">form.</hi> Andin the same manner we say the <hi rend="italic"
+                    >figure</hi> of a house; but we must denote the substance which forms that
+                    figure if we use the word <hi rend="italic">form</hi><hi rend="italic">;</hi>
+                    as, <hi rend="italic">a cloud of the form of a house.</hi> See <hi
+                    rend="smallcaps">Figure.</hi></p>
+                <p>2. In contrast to irregularity or confusion. As beauty cannot exist without
+                    order, it is by a figure of speech employed to denote beauty, order, and the
+                    like.</p>
+                <p>3. As <hi rend="italic">form</hi> respects only the external appearance of
+                    bodies, without regard to their internal qualities, it is, by a figure of
+                    speech, employed in contrast to these qualities to denote empty show, without
+                    essential qualities. In this sense it is often taken when applied to religious
+                    ceremonies, pageantry, and so forth.</p>
+                <p>4. As <hi rend="italic">form</hi> is employed to denote the external appearance
+                    of bodies, so, in a figurative sense, it is applied to reasoning, denoting the
+                    particular mode or manner in which this is conducted; as, <hi rend="italic">the
+                    form of a syllogism,</hi> &amp;c.</p>
+                <p>5. In the same manner it is employed to denote the particular mode of procedure
+                    established in courts of law; as, <hi rend="italic">the forms of law,
+                    religion,</hi> and the like.</p>
+                <p>6. <hi rend="italic">Form</hi> is sometimes, although improperly, used to denote
+                    the different circumstances of the same body; as, <hi rend="italic">water in a
+                    fluid or a solid form.</hi> But as this phrase regards the internal qualities
+                    rather than the external figure, it is improper, and ought to be, <hi
+                    rend="italic">water in a fluid or a solid state.</hi></p>
+                <p>7. But when bodies of different kinds are compared with one another, this term
+                    may be employed to denote other circumstances than shape or figure; for we may
+                    say, <hi rend="italic">a juice exuding from a tree in the form of wax or
+                    resin;</hi> although, in this case, the consistence, colour, &amp;c. and not the
+                    external arrangement of parts, constitutes the resemblance.</p>
+                <p>8. From the regular appearance of a number of persons arranged in one long seat,
+                    such persons so arranged are sometimes called a <hi rend="italic">form;</hi> as,
+                    <hi rend="italic">a form of students,</hi> &amp;c. And,</p>
+                <p>9. By an easy transition the seat itself has also acquired that name.</p>
+                <p><hi rend="smallcaps">Great,</hi> A relative word, denoting largeness of quantity,
+                    number, &amp;c., serving to augment the value of those terms with which it is
+                    combined, and opposed to <hi rend="italic">small</hi> or <hi rend="italic"
+                    >little.</hi> The principal circumstances in which this word can be employed are
+                    the following:</p>
+                <p>1. When merely inanimate objects are considered with regard to quantity, <hi
+                    rend="italic">great</hi> is with propriety employed to denote that the quantity
+                    is considerable: as, <hi rend="italic">a great mountain, great house,</hi> and
+                    the like; and it is here contrasted with <hi rend="italic">small.</hi> When <hi
+                    rend="italic">great</hi> is thus employed, we have no other word which is
+                    exactly synonymous.</p>
+                <p>2. When inanimate objects are considered with regard to their extent, this term
+                    is sometimes employed, although with less propriety; as, <hi rend="italic">a
+                    great plain, a great</hi><pb break="no" facs="nls:193323278"
+                    xml:id="kp-eb0708-3278-0011"/><hi rend="italic">field,</hi> and the like. In
+                    this sense it is nearly synonymous with <hi rend="italic">large</hi><hi
+                    rend="italic">;</hi> and these terms were often used indiscriminately, but with
+                    some difference of meaning; for, as <hi rend="italic">large</hi> is a term
+                    chiefly employed to denote extent of superficies, and as <hi rend="italic"
+                    >great</hi> more particularly regards the quantity of matter, therefore, when
+                    <hi rend="italic">large</hi> is applied to any object which is not merely
+                    superficial, it denotes that it is the extent of surface which is there meant to
+                    be considered, without regard to the other dimensions; whereas, when the term
+                    <hi rend="italic">great</hi> is employed, it has reference to the whole
+                    contents. If, therefore, we say <hi rend="italic">a large house,</hi> or <hi
+                    rend="italic">a large river,</hi> we express that the house, or the river, has a
+                    surface of great extent, without having any necessary connexion with the size in
+                    other respects. But if we say <hi rend="italic">a great house,</hi> or <hi
+                    rend="italic">a great river,</hi> it at once denotes that these objects have not
+                    only a large surface, but are also of great size in every respect.</p>
+                <p>3. <hi rend="italic">Great,</hi> when applied to the human species, never denotes
+                    the size or largeness of body, but is applied solely to the qualities of the
+                    mind. Thus when we say that <hi rend="italic">Socrates was a great mail,</hi> we
+                    do not mean that he was a man of great size, but that he was a man who excelled
+                    in the endowments of the mind. The terms which denote largeness of size in the
+                    human body are <hi rend="italic">big, bulhy, huge.</hi></p>
+                <p>4. <hi rend="italic">Great</hi> is sometimes applied to the human species, as
+                    denoting high rank. In this case it is oftener used in the plural number than
+                    otherwise. Thus we say simply <hi rend="italic">the great,</hi> meaning the
+                    whole body of men in high station, as opposed to the <hi rend="italic"
+                    >mean.</hi> It should seldom be employed in this sense, as it tends to confound
+                    dignity of rank with elevation of mind.</p>
+                <p>5. As this is a general term of augmentation, it maybe joined with all nouns
+                    which denote <hi rend="italic">quantity, quality, number, excellence,</hi> or
+                    <hi rend="italic">defects</hi><hi rend="italic">;</hi> or such as imply <hi
+                    rend="italic">praise, blame, anger, contempt,</hi> or any other affection of the
+                    mind.</p>
+                <p>6. It is employed to denote every step of ascending or descending consanguinity,
+                    as <hi rend="italic">great-grandfather, great-grandson,</hi> and so on.</p>
+                <p><hi rend="smallcaps">High,</hi><hi rend="italic">adj.</hi> Exalted in a
+                    perpendicular direction at a distance from the surface of the earth, and opposed
+                    to <hi rend="italic">low.</hi></p>
+                <p>1. <hi rend="italic">High</hi> is a term altogether indefinite, and is employed
+                    to express the degree of elevation of any inanimate body. Thus we say <hi
+                    rend="italic">a high mountain, a high house, steeple, tower, pillar,</hi> and
+                    the like. Nor is there any other word which can here be considered as
+                    synonymous; <hi rend="italic">lofty</hi> being employed only to denote a very
+                    eminent degree of elevation.</p>
+                <p>2. To express the perpendicular elevation of vegetables either <hi rend="italic"
+                    >high</hi> or <hi rend="italic">tall</hi> may be employed, as being in this case
+                    nearly synonymous. We may therefore say a <hi rend="italic">high</hi> or <hi
+                    rend="italic">tall tree,</hi> a <hi rend="italic">high</hi> or <hi rend="italic"
+                    >tall mast,</hi> and so forth, but with this difference between these two
+                    expressions, that toZZcan be more properly applied to those which are much
+                    elevated and of small dimensions; and <hi rend="italic">high,</hi> to such as
+                    are more bulky and of greater size.</p>
+                <p>3. The perpendicular height of man can never be expressed by the word <hi
+                    rend="italic">high, tall</hi> being here the proper expression. And although <hi
+                    rend="italic">high</hi> is sometimes used to express the height of other
+                    animals, yet it seems to be an improper expression. See <hi rend="smallcaps"
+                    >Tall.</hi></p>
+                <p>4. <hi rend="italic">High,</hi> when applied to the human species, always refers
+                    to the mind, and denotes <hi rend="italic">haughtiness, stateliness, pride,</hi>
+                    and when combined with expressions indicating energy of mind, it denotes that in
+                    a higher degree. In this sense it is opposed to <hi rend="italic">meanness,
+                    abjectness,</hi> and <hi rend="italic">humility.</hi></p>
+                <p>5. As this is an indefinite term, tending to denote any thing which is elevated
+                    above us, it may be combined with almost every noun which admits of this
+                    elevation. Hence, as objects high above us are always out of our reach, it is in
+                    a metaphorical sense used to denote any thing which seems to be above the
+                    ordinary condition of mankind, or those qualities or endowments of mind which
+                    are not easily acquired; as, <hi rend="italic">dignity</hi> or <hi rend="italic"
+                    >elevation of sentiment, dignity of rank, acuteness in reasoning on difficult
+                    subjects, pride, haughtiness,</hi> or any other quality which seems beyond the
+                    ordinary level of mankind; <hi rend="italic">dearness of price.</hi></p>
+                <p>6. In the same manner we apply this term to time, which having a metaphorical
+                    resemblance to a river flowing on with an unceasing current through all
+                    successive ages, any thing of remote antiquity is denoted by the term <hi
+                    rend="italic">high.</hi><hi rend="italic">7.</hi> Likewise to those degrees of
+                    latitude far removed from the line, where the pole becomes more elevated.</p>
+                <p>8. And also to some particular crimes, as being attended with peculiar degrees of
+                    guilt, as <hi rend="italic">high treason.</hi><hi rend="smallcaps">Tall,</hi><hi
+                    rend="italic">adj.</hi> Something elevated to a considerable degree in a
+                    perpendicular direction, and opposed to <hi rend="italic">low.</hi></p>
+                <p>1. This term is chiefly employed to express the height of man and other animals;
+                    and is applied to denote the height of the body only, without having any
+                    reference to the mind. When applied to man, no other word can be substituted in
+                    its stead; when applied to other animals, <hi rend="italic">high</hi> is
+                    sometimes considered as nearly synonymous. See <hi rend="smallcaps"
+                    >High.</hi></p>
+                <p>2. It is likewise employed to denote the perpendicular height of vegetables, and
+                    in this case it is nearly synonymous with <hi rend="italic">high.</hi> See <hi
+                    rend="smallcaps">High.</hi></p>
+                <p>3. It can in no case be employed to express the height of merely inanimate
+                    objects, as we can never say a <hi rend="italic">tall steeple, tower, or
+                    pillar,</hi> but a <hi rend="italic">high steeple,</hi> &amp;c. For the
+                    distinctions in these cases, see <hi rend="smallcaps">High.</hi><hi
+                    rend="smallcaps">Long,</hi><hi rend="italic">adj.</hi> A relative term, denoting
+                    the distance between the extremes of any body which is extended more in one of
+                    its geometrical dimensions than in another. It is opposed to <hi rend="italic"
+                    >short.</hi></p>
+                <p>1. This term maybe applied to all inanimate objects, of whatever kind, whose
+                    dimensions in one way exceed their dimensions in the other, and when not in an
+                    erect posture, whatever be the other circumstances attending them, whether it
+                    relates to superficies alone or to solid bodies, whether these be bounded or
+                    open, straight or crooked, flexible or rigid, or in any other circumstances
+                    whatever: thus we say <hi rend="italic">a long</hi> or <hi rend="italic">short
+                    line, a long</hi> or <hi rend="italic">short ridge, street, ditch, rope, chain,
+                    staff,</hi> and the like. But it is to be observed, that although <hi
+                    rend="italic">long</hi> is in the strict sense only opposed to <hi rend="italic"
+                    >short,</hi> yet as it expresses the extension of matter in one of its
+                    geometrical proportions, it is often contrasted by those words which express the
+                    other proportions when we mean only to describe the several proportions; as, <hi
+                    rend="italic">a table long and broad.</hi> And as these several dimensions are
+                    expressed by different words, according to the various forms, modifications, and
+                    circumstances in which bodies are found, therefore it is in this sense
+                    contrasted by a great diversity of terms; as, <hi rend="italic">a long</hi> i
+                    <hi rend="italic">and brood</hi> or <hi rend="italic">wide, narrow</hi> or <hi
+                    rend="italic">strait, street</hi> or <hi rend="italic">lane</hi><hi
+                    rend="italic">;</hi><hi rend="italic">α long and thick</hi> or <hi rend="italic"
+                    >small rope, chain, staff.</hi> For the distinctions in these cases see <hi
+                    rend="smallcaps">Broad, Wide, &amp;c.</hi></p>
+                <p>2. Objects necessarily fixed in an erect position can never have this term
+                    applied to them, and therefore we cannot say <hi rend="italic">a long,</hi> but
+                    a <hi rend="italic">high tower</hi> or <hi rend="italic">steeple.</hi> And for
+                    the same reason, while trees are growing and fixed in an erect position, we
+                    cannot apply this term to them; but when they are felled and laid upon the <pb
+                    break="no" facs="nls:193323291" xml:id="kp-eb0708-3291-0012"/> ground, it is
+                    quite proper and necessary. Thus we do not say <hi rend="italic">a long,</hi>
+                    but <hi rend="italic">a tall</hi> or <hi rend="italic">high tree,</hi> while it
+                    is growing; but we say <hi rend="italic">a long,</hi> not <hi rend="italic">a
+                    tall log of wood;</hi> and in the same manner we say <hi rend="italic">a tall
+                    mast</hi> when it is fixed in the ship, but <hi rend="italic">a long mast</hi>
+                    while it lies upon the beach. See <hi rend="smallcaps">Tall</hi> and <hi
+                    rend="smallcaps">High.</hi></p>
+                <p>3. Those vegetables which are of a tender, pliant nature, or so weak as not to be
+                    able to retain a fixed position, being considered as of a middle nature between
+                    erect and prostrate bodies, admit of either the terms <hi rend="italic">long,
+                    tall,</hi> or <hi rend="italic">high</hi><hi rend="italic">;</hi> as, <hi
+                    rend="italic">α long</hi> or <hi rend="italic">tall rush</hi> or <hi
+                    rend="italic">willow wand,</hi> or <hi rend="italic">a long, tall,</hi> or <hi
+                    rend="italic">high stalk of corm</hi> See <hi rend="smallcaps">High</hi> and <hi
+                    rend="smallcaps">Tall.</hi></p>
+                <p>4. The parts of vegetables, when considered as distinct from the whole, even when
+                    growing and erect, assume the term <hi rend="italic">long</hi><hi rend="italic"
+                    >;</hi> for we do not say <hi rend="italic">a tall,</hi> but <hi rend="italic">a
+                    long shoot of a tree,</hi> and <hi rend="italic">a tree with a long stem,</hi>
+                    in preference to <hi rend="italic">a tree with a high stem.</hi></p>
+                <p>5. For the same reason, a staff and pole, even when fixed in a perpendicular
+                    direction, assume the word <hi rend="italic">long,</hi> in preference to <hi
+                    rend="italic">tall</hi> or <hi rend="italic">high.</hi></p>
+                <p>6. With regard to animals, the general rule is applied, without any exceptions;
+                    <hi rend="italic">tall,</hi> and not <hi rend="italic">long,</hi> being employed
+                    to denote the height of the human body when in an erect posture; and <hi
+                    rend="italic">long,</hi> and not <hi rend="italic">tall,</hi> to denote its
+                    length when in an incumbent situation. <hi rend="italic">Long</hi> applied to
+                    all other animals which do not walk erect, always denotes their greatest length
+                    in a horizontal position from head to tail.</p>
+                <p>7. In a figurative sense, it denotes, with regard to time, any thing at a great
+                    distance from us.</p>
+                <p>8. As also, any thing that takes up much time before it is finished, as, <hi
+                    rend="italic">a long discourse, a protracted note in music,</hi> and the
+                    like.</p>
+                <p><hi rend="smallcaps">Broad,</hi><hi rend="italic">adj.</hi> The distance between
+                    the two nearest sides of any body whose geometrical dimensions are larger in one
+                    direction than in another. It has a reference to superficies only, and never to
+                    the solid contents, and is opposed to <hi rend="italic">narrow.</hi></p>
+                <p>1. <hi rend="italic">Broad,</hi> in the strictest acceptation, is applied to
+                    denote those bodies only whose sides are altogether open and unconfined; as, <hi
+                    rend="italic">a broad table, a broad wheel,</hi> &amp;c. and in these cases it
+                    is invariably contrasted with <hi rend="italic">narrow</hi><hi rend="italic"
+                    >;</hi> nor is there any other word which in these cases can be considered as
+                    synonymous with it, or be used in its stead.</p>
+                <p>2. When any object is in some sort bounded on the sides, although not quite
+                    closed up, as a road, street, ditch, and the like, either <hi rend="italic"
+                    >broad</hi> or <hi rend="italic">wide</hi> may be employed, but with some
+                    difference of signification; <hi rend="italic">broad</hi> being most properly
+                    used for those which are more open, and <hi rend="italic">wide</hi> for those
+                    which are more confined: nor can this term be ever applied to such objects as
+                    are closely bounded all around, as a house, a church, and the like, <hi
+                    rend="italic">wide</hi> being here employed. For the more accurate distinctions
+                    in these cases see the article <hi rend="smallcaps">Wide.</hi><hi
+                    rend="smallcaps">Wide,</hi><hi rend="italic">adj.</hi> A term employed to denote
+                    relative extent in certain circumstances, and opposed to <hi rend="italic"
+                    >narrow</hi> and <hi rend="italic">strait.</hi></p>
+                <p>1. This term is in its proper sense applied only to denote the space contained
+                    within any body closed all round and on every side; as, a house, gate, or the
+                    like; and it differs from <hi rend="italic">broad</hi> in this, that it never
+                    relates to the superficies of solid objects, but is employed to express the
+                    capaciousness of any body which contains vacant space; nor can capaciousness in
+                    this sense be expressed by any other word but <hi rend="italic">wide.</hi></p>
+                <p>2. As many bodies may be considered either with respect to their capaciousness or
+                    superficial extent, in all these cases either the term <hi rend="italic"
+                    >broad</hi> or <hi rend="italic">wide</hi> may be used; as,« <hi rend="italic"
+                    >broad or wide street orditch,</hi> &amp;c.; but with a greater, or less degree
+                    of propriety, according to the circumstances of the object, or the idea which we
+                    wish to convey. In a street where the houses are low and the boundaries open, or
+                    in a ditch of small depth and large superficies, as this largeness of
+                    superficies bears the principal proportion, <hi rend="italic">broad</hi> would
+                    be more proper; but if the houses are of gŗeat height, or the ditch of great
+                    depth, and capaciousness is the principal property which affects the mind, we
+                    would naturally say <hi rend="italic">a wide street</hi> or <hi rend="italic"
+                    >ditch</hi><hi rend="italic">;</hi> and the same may be said of all similar
+                    cases. But there are some cases in which both these terms are applied, with a
+                    greater difference of meaning; thus we say <hi rend="italic">a broad</hi> or <hi
+                    rend="italic">a ĩcide gate.</hi> As the gate, however, is employed to denote
+                    either the aperture in the wall, or the matter which closes that aperture, these
+                    terms are each of them used to denote that particular quality to which they are
+                    generally applied; and as the opening itself can never be considered as a
+                    superficies, the term <hi rend="italic">wide,</hi> in this case, denotes the
+                    distance between the sides of the aperture; whilst, on the contrary, <hi
+                    rend="italic">broad</hi> denotes the extent of matter fitted to close that
+                    aperture; nor can these two terms be in any case substituted for one
+                    another.</p>
+                <p>3. As a figurative expression, it is used as a cant phrase for a mistake; as, <hi
+                    rend="italic">you are wide of the mark</hi><hi rend="italic">;</hi> that is, not
+                    near the truth.</p>
+                <p><hi rend="smallcaps">Narrow,</hi><hi rend="italic">adj.</hi> A relative term,
+                    denoting a proportional smallness of distance between the sides of the
+                    superficies of plain bodies, and opposed to <hi rend="italic">broad.</hi></p>
+                <p>1. As this is only applied to superficies, it is exactly contrasted by <hi
+                    rend="italic">broad,</hi> and is applied in all cases where the term <hi
+                    rend="italic">broad</hi> can be used (see <hi rend="smallcaps">Broad)</hi>; and
+                    in no other case but as a contrast to it, excepting the following.</p>
+                <p>2. It sometimes is employed to describe the smallness of space circumscribed
+                    between certain boundaries, as opposed to <hi rend="italic">wide,</hi> and
+                    nearly synonymous with <hi rend="italic">straight</hi><hi rend="italic">;</hi>
+                    thus we say <hi rend="italic">a wide</hi> or <hi rend="italic">a narrow house,
+                    church,</hi> and the like. For the necessary distinctions here, see the article
+                    <hi rend="smallcaps">Strait.</hi></p>
+                <p>3. In a figurative sense it denotes <hi rend="italic">parsimony, poverty,
+                    confined sentiments,</hi> and so forth.</p>
+                <p><hi rend="smallcaps">Strait,</hi><hi rend="italic">adj.</hi> A relative .term,
+                    denoting the extent of space in certain circumstances, and opposed to <hi
+                    rend="italic">wide.</hi> See <hi rend="smallcaps">Wide.</hi></p>
+                <p>1. This term is employed, in its proper sense, to denote only space, as contained
+                    between surrounding bodies in such circumstances as to denote some degree of
+                    confinement, and is exactly opposed to <hi rend="italic">wide</hi><hi
+                    rend="italic">;</hi> as, <hi rend="italic">a ιoide</hi> or <hi rend="italic">a
+                    strait gate,</hi> &amp;c. See <hi rend="smallcaps">Wide.</hi></p>
+                <p>2. So necessary is it that the idea of confinement should be connected with this
+                    word, that in all those cases where the space contained is large, as in a church
+                    or house, we cannot express a smaller proportional width by this term. And as we
+                    have no other word to express space in these circumstances, we are obliged to
+                    force the word <hi rend="italic">narroτν</hi> from its natural signification,
+                    and make it express this. See <hi rend="smallcaps">Narrow.</hi></p>
+                <p>3. In some particular cases, <hi rend="italic">narrow</hi> or <hi rend="italic"
+                    >strait</hi> may be applied to the same object; as, <hi rend="italic">a
+                    narrow</hi> or <hi rend="italic">a strait line</hi><hi rend="italic">;</hi> but
+                    here <hi rend="italic">strait</hi> is never employed except where an idea of
+                    confinement is suggested, and where it is exactly contrasted to <hi
+                    rend="italic">wide</hi><hi rend="italic">;</hi> nor can <hi rend="italic"
+                    >narrow</hi> be employed except in such circumstances where <hi rend="italic"
+                    >broad</hi> would be a perfect contrast to it. Therefore these two terms may be
+                    always used in the same circumstances as those which contrast with them. For an
+                    account of these see <hi rend="smallcaps">Wide.</hi></p>
+                <pb break="no" facs="nls:193323304" xml:id="kp-eb0708-3304-0013"/>
+                <p>4. The term <hi rend="italic">strait</hi> is likewise in a peculiar manner used
+                    to denote the smallness of the internal diameter of those bodies which are
+                    fitted to receive or contain others, as any kind of bag, tube, body clothes,
+                    mortises, and others of the same kind; and in all these cases this term may be
+                    employed to denote the smallness of their lesser diameter, and never the term
+                    <hi rend="italic">narrow.</hi> But in certain circumstances the word <hi
+                    rend="italic">tight</hi> may be substituted for it. See <hi rend="smallcaps"
+                    >Tight.</hi></p>
+                <p>5. <hi rend="italic">Strait,</hi> in a figurative sense, denotes any sort of
+                    confinement of sentiment or disposition.</p>
+                <p>TIGHT, <hi rend="italic">adj.</hi> A term employed in certain circumstances to
+                    denote the internal capacity of particular bodies, and nearly synonymous with
+                    <hi rend="italic">strait.</hi></p>
+                <p>This term is confined entirely to denote the smallness of the internal dimensions
+                    of such objects as are formed to cover, or to receive or contain, other solid
+                    bodies, and can be employed in no other case. And although it agrees with <hi
+                    rend="italic">strait,</hi> in always denoting confinement, and by being
+                    applicable to the same species of objects, yet it differs in the following
+                    respects: 1. If there be any difference of the diameter of the objects to which
+                    the term <hi rend="italic">strait</hi> can be applied, it has always reference
+                    to the smaller; yet <hi rend="italic">tight</hi> may be applied to any sort of
+                    confinement, whether it regards the length or breadth. 2. <hi rend="italic"
+                    >Strait</hi> can be applied to all bodies of capacity when of small diameter,
+                    without any sort of reference to the nature of the substance which it may be
+                    capable of containing. For we can say <hi rend="italic">a strait bag, a strait
+                    sleeve, a strait mortise, a strait gate,</hi> and so on, whereas <hi
+                    rend="italic">tight</hi> can only be applied to any body when it is considered
+                    as having reference to another body which is intended to be contained in it, and
+                    is pinched from want of room. Thus we say <hi rend="italic">the sleeve of a coat
+                    is too tight for the arm, the mortise is too tight for the teìwn,</hi> and so
+                    forth; but we cannot say <hi rend="italic">the bag</hi> or <hi rend="italic">the
+                    gate is too tight,</hi> because they are fitted to receive any sort of objects.
+                    And hence it happens that in many cases the dimensions of the same body may be
+                    expressed by <hi rend="italic">tight</hi> or <hi rend="italic">strait,</hi> when
+                    considered in different circumstances.’ Thus we may say, <hi rend="italic">this
+                    sleeve is too strait,</hi> when we look at a coat lying on the table and
+                    consider its proportions; but it is not till we have tried it upon the arm which
+                    it is intended to cover, that we call it <hi rend="italic">tight.</hi> And we
+                    may say, <hi rend="italic">a gate is too strait</hi> or <hi rend="italic">too
+                    tight;</hi> but in the first case we consider it as being too confined for
+                    admitting objects to pass through it; and in the next, as being too confined
+                    with respect to the “leaves” which are to shut the aperture not allowing them
+                    space to move with freedom.</p>
+                <p>These examples may serve to give some idea of the plan of an English dictionary
+                    composed upon philosophical principles. But, besides the circumstances above
+                    enumerated, there are many others which would require particular attention in
+                    the execution of a work of this kind. In the English language a great variety of
+                    terms occur which denote matter under certain general forms or circumstances,
+                    without regarding the minute diversities that may take place; as the word <hi
+                    rend="italic">cloth,</hi> which denotes matter as manufactured into a particular
+                    form, including under it all the variety of stuffs manufactured in that
+                    particular way, of whatever materials, colour, texture, or fineness they may be.
+                    The same may be said of <hi rend="italic">wood, iron, yarn,</hi> and a great
+                    variety of terms of the same nature, some of which cannot assume any plural;
+                    whilst others admit of it in all cases, and others, again, admit or refuse it
+                    according to the different circumstances in which they are considered.</p>
+                <p>In a dictionary, therefore, all this variety of cases ought to be clearly and
+                    distinctly pointed out under each particular article. This is the more
+                    necessary, as some of these words have others formed from them which might be
+                    readily mistaken for their plurals, although they have a very different
+                    signification; as <hi rend="italic">clothes,</hi> which does not denote any
+                    number of pieces of different kinds of <hi rend="italic">cloth,</hi> but <hi
+                    rend="italic">wearing apparel.</hi> The following example will illustrate this
+                    head.</p>
+                <p>WOOD, <hi rend="italic">subst.</hi> A solid substance of which the trunks and
+                    branches of trees consist.</p>
+                <p>1. This term is employed to denote the solid parts of vegetables of all kinds, in
+                    whatever form or circumstances they are found. Nor does it admit of a plural
+                    with propriety, unless in the circumstances after mentioned; for we say, <hi
+                    rend="italic">many different hinds of wood,</hi> in preference to <hi
+                    rend="italic">many hinds of woods</hi><hi rend="italic">;</hi> or we say, <hi
+                    rend="italic">oak, ash,</hi> or <hi rend="italic">elm wood,</hi> not <hi
+                    rend="italic">woods.</hi></p>
+                <p>2. But where we want to contrast wood of one quality or country with that of
+                    another, it admits of a plural; for we say, <hi rend="italic">white woods are in
+                    general softer than red</hi><hi rend="italic">;</hi> or, <hi rend="italic">West
+                    Indian woods are in general of greater specific gravity than the European
+                    woods.</hi> But unless where the colour, or some quality which distinguishes it
+                    from growing wood, is mentioned, this plural ought as much as possible to be
+                    avoided, as it always suggests an idea of growing wood.</p>
+                <p>3. <hi rend="italic">Wood</hi> likewise denotes a number of trees growing near
+                    one another, being nearly synonymous with Jò- <hi rend="italic">rest.</hi> See
+                    <hi rend="smallcaps">Forest.</hi> In this sense it always admits of a plural;
+                    as, <hi rend="italic">Ye woods and wilds whose melancholy gloom,</hi>
+                    &amp;c.</p>
+                <p>A dictionary cannot be reckoned complete without explaining obsolete words; and
+                    if the terms of the several provincial dialects were likewise given, it would be
+                    of great utility. Nor would this occupy much space, because a number of these
+                    words need no other explanation than to mark along with them the words which had
+                    come in their place, when there happened to be one perfectly synonymous; and in
+                    those cases where the same idea could not be expressed in modern language
+                    without a periphrasis, it would be of use to explain them distinctly; so that,
+                    when a writer found himself at a loss for a term, and was obliged to search for
+                    one beyond the bounds of his own language, he might take one of these, if he
+                    found it expressive and energetic, in preference to another drawn from a foreign
+                    language. This would at least have one good effect; it would render our language
+                    more fixed and stable, not to say more accurate and precise, than by borrowing
+                    from foreign languages. The following examples may serve to give some idea of
+                    the manner of treating this part of the work.</p>
+                <p>MOE, or <hi rend="smallcaps">mo,</hi><hi rend="italic">adj.</hi> An obsolete term
+                    still employed in the Scotch dialect, and by them pronounced <hi rend="italic"
+                    >mae,</hi> denoting a greater number, and nearly synonymous with <hi
+                    rend="italic">more</hi><hi rend="italic">;</hi> but it differs in this respect,
+                    that in the Scotch dialect, <hi rend="italic">mae</hi> and <hi rend="italic"
+                    >mair</hi> (English <hi rend="italic">morej</hi> are each employed in their
+                    distinct sphere, without encroaching upon one another, <hi rend="italic"
+                    >mae</hi> being employed to denote number, but never quantity or quality, and
+                    <hi rend="italic">mair</hi> to denote quantity and quality, but never number;
+                    thus they say <hi rend="italic">mae,</hi> not <hi rend="italic">mair, apples,
+                    men,</hi> &amp;c. and <hi rend="italic">mair,</hi> not <hi rend="italic">mae,
+                    cloth, earth, courage,</hi> &amp;c. See <hi rend="smallcaps">Mair.</hi> Both
+                    these terms are supplied by the word <hi rend="italic">more,</hi> which in the
+                    English language is applied indiscriminately to denote quantity, quality, and
+                    number. See <hi rend="smallcaps">More.</hi></p>
+                <p>As the English language is so exceedingly irregular in the pronunciation, the
+                    same letter in the same situation often assuming sounds totally different in
+                    different words, it is impossible to establish any general rules on this subject
+                    which do not admit of many exceptions; therefore a <pb break="no"
+                    facs="nls:193323317" xml:id="kp-eb0708-3317-0014"/>dictionary is the best means
+                    of ascertaining and pointing out the proper pronunciations of words. For, if the
+                    writer first pointed out all the different sounds which the same letter could
+                    ever be made to express, and assigned to every particular sound which each
+                    letter could be made to assume, a particular mark, appropriated to denote that
+                    particular sound of the letter whenever it occurred, by placing these particular
+                    marks above the letters in the dictionary, the sound of each letter would be
+                    pointed out in all cases with the utmost certainty. It is impossible to
+                    illustrate this by examples, without first ascertaining all the sounds of each
+                    letter, which would lead into a discussion too long for this place.</p>
+                <p>We shall only further observe, that besides having the accented syllable of every
+                    word <hi rend="italic">properly</hi> distinguished in a dictionary to assist in
+                    the pronunciation, the English language requires another essential improvement,
+                    namely, the use of accents to distinguish the meaning <hi rend="italic">of
+                    words</hi> and <hi rend="italic">j)hrases,</hi> which, although it is not so
+                    properly confined to a lexicorapher, yet it is not quite without his sphere.
+                    Thus, the word <hi rend="italic">as</hi> admits of two very different sounds, as
+                    well as different significations; for example, “Cicero was nearly <hi
+                    rend="italic">as</hi> eloquent <hi rend="italic">as</hi> Demosthenes in which
+                    the first <hi rend="italic">as</hi> is pronounced <hi rend="italic">ass,</hi>
+                    and the last is pronounced <hi rend="italic">az.</hi> Now it often happens that,
+                    in reading, the particular way in which it ought to be understood is not pointed
+                    out by the context till after the word itself is pronounced, which has an equal
+                    chance at least of being pronounced wrong; whereas, if it were always accented
+                    when employed in the one sense, and not in the other, it would free the reader
+                    from this perplexity. There are other cases in which the proper use of accents
+                    in writing would be of great consequence; as at the beginning of a sentence when
+                    it is put as a question, or used ironically. But this does not so properly
+                    belong to the lexicorapher as the grammarian.</p>
+                <p>The above examples, we hope, will be sufficient to give the reader some idea of
+                    the plan which we would propose, and will enable him to determine whether or not
+                    a dictionary, executed in this way, would convey to his mind a more perfect
+                    knowledge of the English language than those dictionaries which have hitherto
+                    been published. These examples are given rather with a view to show the manner
+                    in which a work of this kind may be conducted, than as perfect and
+                    unexceptionable explanations of the several articles there enumerated; and
+                    therefore we have not thought it necessary to produce any authorities, although
+                    we are sensible that they would be requisite in such a work.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

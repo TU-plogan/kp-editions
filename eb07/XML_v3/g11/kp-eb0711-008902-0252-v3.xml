@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0711-0252-0089-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">GUYTON DE MORVEAU, Baron Louis Bernard</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 11, page 89</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="14" ref="fasttopic:795828">Acids</term>
+                    <term n="11" ref="fasttopic:919014">Extracts</term>
+                    <term n="8" ref="fasttopic:892595">Diamonds</term>
+                    <term n="7" ref="fasttopic:1182566">Year</term>
+                    <term n="7" ref="fasttopic:1132472">Steel</term>
+                    <term n="4" ref="fasttopic:934209">French</term>
+                    <term n="1" ref="fasttopic:942100">Germans</term>
+                    <term n="1" ref="fasttopic:942099">Germanization</term>
+                    <term n="1" ref="fasttopic:899678">Dutch</term>
+                    <term n="1" ref="fasttopic:980750">Italians</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="1" ref="lcsh1910:b4319s24m">Acids</term>
+                    <term n="11" ref="lcsh1910:b4nv99d9z">Extracts</term>
+                    <term n="8" ref="lcsh1910:b4445hd4m">Diamonds</term>
+                    <term n="7" ref="lcsh1910:b4x05xj9j">Steel</term>
+                    <term n="6" ref="lcsh1910:b4n00zz70">Iron</term>
+                    <term n="1" ref="lcsh1910:b4vm42z9s">Jesuits</term>
+                    <term n="1" ref="lcsh1910:b45m62b4v">Germans</term>
+                    <term n="1" ref="lcsh1910:b48w38662">Fluids</term>
+                    <term n="1" ref="lcsh1910:b4xd0r400">Memoirs</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="2" ref="fastgeo:1204303">Spain</term>
+                    <term n="1" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1208755">Egypt</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193640252" type="entry">
+                <p><label type="entry">GUYTON DE MORVEAU, <hi rend="smallcaps">Baron Louis
+                    Bernard</hi></label>, a celebrated chemist, known also as an advocate of
+                    eminence, and less advantageously, in his political character, as a regicide,
+                    was the son of Antony Guyton de Morveau and Margaret de Saulle his wife, and
+                    born at Dijon, on the 4th of January 1737.</p>
+                <p>His father was of a respectable family, and filled the situation. of professor of
+                    the civil law in the university of Dijon. He was fond of building; and, from the
+                    artificers who were frequently employed about his house, young Guyton appears to
+                    have derived, almost in his infancy, a taste for mechanical pursuits, which led
+                    to an astonishing development of premature talent. For when he was only seven
+                    years old, he prevailed on his father to purchase, for his amusement, a clock
+                    which was greatly out of repair, and, as is said, he actually put it together
+                    and remedied its defects, without any assistance, so effectually, that it
+                    continued to go extremely well for fifty or sixty years afterwards. The next
+                    year he was equally successful in cleaning and repairing a watch belonging to
+                    his mother. But, notwithstanding these remarkable exertions of ingenuity, it
+                    does not appear that they depended on any particular bent of the genius to the
+                    cultivation of the mechanical arts; at least no such bias was ever exhibited in
+                    any of his subsequent pursuits. His education was conducted in the ordinary
+                    manner at a provincial school or college, which he left at sixteen. Upon his
+                    return home he applied, for a short time, to botany, and he was soon afterwards
+                    admitted as a student of law in the university of Dijon, where he remained for
+                    three years, and then removed to Paris, in order to continue his studies at the
+                    bar. In 1756, he paid a visit to Voltaire at Ferney; and he seems to have
+                    imbibed from this personage a taste for satirical poetry, which he soon
+                    afterwards displayed, upon the occurrence of a trifling accident, in a ceremony
+                    relating to a popular Jesuit of the day. Amongst his posthumous papers, he also
+                    left some unfinished sketches of tragedies, which are said not to have been
+                    deficient in poetical merit.</p>
+                <p>At the age of twenty-four, when he made some progress <pb break="no"
+                    facs="nls:193640265" xml:id="kp-eb0711-0265-0090"/>in the practice of his
+                    profession as an advocate, his father procured for him, at the price of 40,000
+                    francs, the appointment of advocate-general ôf the parliament at Dijon, so that
+                    he had no farther solicitude for the acquisition of an income adequate to his
+                    competent subsistence. His health was then considered as delicate; but the fears
+                    which were entertained for it proved to be completely groundless.</p>
+                <p>In January 1764, he was made an honorary member of the Academy of Sciences at
+                    Dijon, then lately established under the patronage of the Prince of Condé. This
+                    occurrence seems to have had considerable influence on the pursuits which
+                    occupied his leisure hours; and he soon became by far the most distinguished
+                    ornament of the academy which had paid him this compliment. His particular
+                    application to chemistry arose in a great measure out of an accidental emulation
+                    with Dr Chardenon, who afterwards very liberally undertook to assist him in the
+                    cultivation of this branch of science. He studied the works of Macquer and of
+                    Beaumé, and he was furnished by the latter with the materials necessary for the
+                    establishment of a small laboratory for his own use.</p>
+                <p>With regard to the more general cultivation of literature and science, he
+                    displayed considerable talent in a memoir on public instruction, together with a
+                    plan for a college, which he presented to the parliament of Burgundy, insisting,
+                    with great force and success, in opposition to Diderot, on the importance of
+                    early education in modelling the character of the human mind. About the same
+                    time he also wrote a prize essay, an Encomium on Charles V. of France, surnamed
+                    the Wise, which was afterwards inserted in the collection of his <hi
+                    rend="italic">Discourses,</hi> published in three volumes.</p>
+                <p>In July 1767, he visited Paris with a view to the advancement of his scientific
+                    pursuits, and excited the admiration of the most celebrated chemists of the day,
+                    by the facility which he had acquired in the manipulation of his experiments. He
+                    entered, after his return, into the investigation of the great question
+                    respecting the oxidation of metals, though he did not succeed in removing the
+                    difficulties which then embarrassed it. In 1769, he pronounced, at the opening
+                    of the parliament, an elegant oration upon morals. He was soon afterwards
+                    engaged in some experiments respecting the communication of heat to different
+                    substances, the results of which, though not published, were of some importance
+                    to the theory of temperature. At the request of his friend Dr Durande, he
+                    undertook to inquire into the nature of biliary calculi, which he found to be
+                    readily soluble in ether; and it appears that a combination of ether and oil of
+                    turpentine proved of advantage to several of Dr Durande’s patients, who were
+                    suffering from these concretions.</p>
+                <p>In the year 1773 he was employed in an interesting investigation of the mutual
+                    adhesion of the surfaces of solids and fluids, a class of phenomena of which the
+                    mathematical theory was never at all understood, until the publication of an
+                    essay on the Cohesion of Fluids in the <hi rend="italic">Philosophical
+                    Transactions,</hi> soon after the beginning of this cen- tury, in which the laws
+                    of capillary action are extended to a complete analogy with all the experiments
+                    of Μ. de Morvcau, as well as those of Taylor and Achard of a similar nature. He
+                    succeeded, about the same time, in discovering a mode of destroying the
+                    contagious vapours of pestilential diseases, by fumigation with the muriatic
+                    acid gas; he afterwards found the oxymuriatic acid, or pure chlorine, still more
+                    effectual; and it does not appear that the nitric acid, since proposed in
+                    England, has any advantages over either of these substances.</p>
+                <p>Μ. de Morveau’s anxious desire to co-operate in the promotion of chemical
+                    knowledge induced him to make a new exertion in its favour, by undertaking, in
+                    1776, to deliver a public and gratuitous course of lectures as a regular
+                    professor of the science, authorized by the approbation and encouragement of his
+                    brother magistrates at Dijon. He soon afterwards wrote some essays on the
+                    peculiar characters of the carbonic acid; and he strenuously combated the
+                    popular prejudice which prevailed, against the introduction of conductors, for
+                    preserving buildings from lightning. He established a large manufactory of
+                    nitre, which was afterwards conducted by Μ. Courtois, the father of the Μ.
+                    Courtois who discovered iodine. From chemistry he naturally diverged into the
+                    study of mineralogy; in 1777 he made a tour through the province of Burgundy,
+                    with a view to the examination of all its productions; and he actually
+                    discovered a rich lead mine, though, for want of coal, it was impossible to
+                    derive much benefit from it. He also found a white variety of the emerald in the
+                    same province, as well as some combinations of barita, and he invented a new
+                    method of obtaining the pure barita from its sulphate.</p>
+                <p>He had long been intimately acquainted with the Count de Buffon and with
+                    Malesherbes, both persons distinguished by elegance of taste, the one in
+                    science, the other in general literature. In 1779 and 1780 he enlarged his
+                    connections among the men of letters resident at Paris; and he was induced by
+                    Panckoucke, the bookseller, to undertake the chemical department of the <hi
+                    rend="italic">Encyclopédie Méthodique;</hi> but it was six years before the <hi
+                    rend="italic">Dictionary of Chemistry</hi> appeared; the articles relating to
+                    pharmacy and metallurgy were supplied by Maret and Duhamel. In the progress of
+                    this work he found himself compelled to disbelieve the existence of phlogiston
+                    as a distinct principle of inflammability, though at the beginning he had
+                    defended the doctrines of the old school. But he soon became one of the most
+                    zealous advocates of the new theory; and he contributed very much to its general
+                    introduction by the active part which he took in the arrangement of a new
+                    nomenclature. His proposals were at first thought objectionable by many of the
+                    members of the Academy of Sciences; but they soon became generally adopted
+                    throughout Europe; and the system was without doubt of great use for a time, as
+                    far as it assisted the memory and the imagination in retaining the discoveries
+                    and comprehending the theories which had so much of novelty to make them
+                    interesting. Among the original matter contained in the Dictionary, were some
+                    researches on the nature of steel, which coincided in their results with those
+                    of Monge, Vandermonde, and Berthollet, made about the same time, but published
+                    somewhat earlier. The. whole volume was received in the most flattering manner
+                    by all the lovers of chemistry; but it was not till 1791 that the author’s
+                    ambition was gratified by the award of the Academy of Sciences, adjudging him a
+                    prize of two thousand francs, which had been allotted to the most useful work
+                    which should appear in the course of the year. The prize, however, he begged to
+                    offer to the exigencies of the state, which were then very urgent. The
+                    Dictionary was afterwards ably continued by Μ. de Fourcroy.</p>
+                <p>In the mean time he condescended to appear as the translator of the <hi
+                    rend="italic">Opuscula</hi> of Bergman, which he illustrated by notes. The
+                    example was followed by Madame Picařdet, and by others of his friends, who were
+                    zealous for the promotion of science; so that the French chemists were by these
+                    means speedily made acquainted with the labours of al] their contemporaries in
+                    different parts of the world. In the year 1787, Μ. de Morveau applied his
+                    speculations to a practical purpose, in establishing a manufactory of sods from
+                    common salt, exposed to the atmosphere, with a large proportion of lime, the
+                    soda slowly efflorescing as a carbonate. It was in the same year that, having
+                    published his <hi rend="italic">Collection of Pleadings,</hi> he finally
+                    resigned his office at the bar, in order that the whole of his time might be
+                    devoted to the pursuit of science.</p>
+                <p>• His next undertaking was of a more adventurous nature<pb break="no"
+                    facs="nls:193640278" xml:id="kp-eb0711-0278-0091"/>; for, in April 1784, he
+                    ascended with the President de Virly in a balloon; and he repeated the
+                    experiment in the month of June, hoping to be able to direct his aerial course
+                    at pleasure. The balloon appears to have been about thirty feet in diameter;
+                    and, when we consider the action of the wind upon a surface of such extent, we
+                    must be aware that every attempt to oppose or modify it must have been perfectly
+                    futile. He was visited soon afterwards by the ingenious and lamented Mr Tennant,
+                    who went to Dijon purposely to become acquainted with him, and who had an
+                    opportunity of performing some original experiments in his laboratory. He was
+                    made a member of the Royal Academy of Medicine at Paris in 1786, as a compliment
+                    to the merits of his labours for the preservation of the public health. He
+                    received a visit, in the succeeding year, at once from Lavoisier, Berthollet,
+                    and Fourcroy, together with Monge and Vandermonde; and our countryman, Dr
+                    Beddoes, who was then travelling in France, had the good fortune to join this
+                    interesting party, all of them deeply engaged in the discussion of the great
+                    chemical questions which were then undecided. In April 1788, Μ. de Morveau was
+                    placed on the list of the foreign members of the Royal Society of London; and
+                    the same mark of respect was also paid him at different times by almost all the
+                    scientific societies of Europe.</p>
+                <p>In September 1791 he was unfortunately elected a member of the Legislative Body;
+                    and having also been made solicitor-general of his department, he could no
+                    longer continue the chemical lectures which he had delivered without
+                    intermission for fifteen years, and he resigned his chair to Dr Chausier. It
+                    must not be omitted by an impartial biographer, that, on the 16th of January
+                    1793, he thought himself compelled to vote with the majority, for the death of
+                    the king; and it is a poor compensation for this fatal error that, in the same
+                    year, he resigned a pension of two thousand francs a year, in favour of that
+                    republic to which he had already sacrificed the best feelings of humanity. He
+                    afterwards became a commissary of the assembly attached to the army of the
+                    Netherlands. In this capacity, besides many other instances of personal courage,
+                    he is said to have rendered essential service to his countrymen, by the
+                    construction of a balloon, in which he ascended, together with some of the staff
+                    of General Jourdan, in order to observe the motions of the enemy during the
+                    battle of Fleurus. After his return to Paris he was appointed professor of
+                    chemistry in the <hi rend="italic">Ecole Polytechnique,</hi> and he was an
+                    effective co-operator in the first establishment of that useful institution. In
+                    1795 he was again chosen a member of the Council of Five Hundred; and he was
+                    appointed by the government one of the forty-eight members of the National
+                    Institute, then recently embodied. He had for some time been a correspondent,
+                    but was never a member, of the Academy of Sciences. His political engagements
+                    terminated in 1797, when he resolved once more to devote himself exclusively to
+                    science. In 1798, he fulfilled the duties of director of the <hi rend="italic"
+                    >Ecole Polytechnique</hi> during the absence of Monge, w ho was in Egypt, and
+                    for whom he insisted that the salary should be reserved. The following year,
+                    Bonaparte, then first consul, made him a general administrator of the mint. He
+                    received the cross of the Legion of Honour in 1803, and obtained, two years
+                    afterwards, still higher rank in the order, particularly as an acknowledgment
+                    for the public benefits which had been derived from his methods of fumigation.
+                    In 1811, he was elevated to the dignity of a baron of the French empire.</p>
+                <p>From 1798 to 1813, he continued his labours as professor of chemistry in the
+                    Polytechnic School; he then obtained leave to retire, but he survived only a few
+                    years, and died of a paralytic affection, or rather of a total decay of
+                    strength, the 21st of December 1815, at a period when he would shortly have had
+                    to encounter the effects of a retribution, which would have been very severely
+                    felt at so advanced an age. In stature he was rather below than above the middle
+                    size; his conversation was animated and copious, his manners courteous and
+                    obliging; he was full of anecdote, and always ready to communicate whatever
+                    information he possessed. He married, late in life, Madame Picardet, the widow
+                    of an academician of Dijon, whose tastes and pursuits were congenial with his
+                    own, and who had distinguished herself by translating several works of science
+                    and of literature from the different languages of the north of Europe. As to his
+                    numerous publications, a bare catalogue of these will be amply sufficient to
+                    show the extent of his researches and the variety of his pursuits. It is the
+                    more necessary to do justice to his diligence and perseverance, as we cannot
+                    easily point out any one important discovery or invention that can be considered
+                    as commensurate to the high promise of his early infancy. The article <hi
+                    rend="smallcaps">Acid</hi> of the <hi rend="italic">Dictionary,</hi> and the <hi
+                    rend="italic">Methodical Nomenclature,</hi> must be ranged as the best of his
+                    productions: but the character of both these is rather useful than splendid.</p>
+                <p>1. Le Rat Iconoclaste, poëme heroi-comique, 12. Dijon, 1763. 2. Mémoire sur
+                    l’instruction publique, 12. Dijon, 1764. 3. Eloge du Président Jeanin, Paris,
+                    1766. 4. On the effect of air in combustion; Mém. Acad. Dij. i. 1769, p. 416. 5.
+                    Manière d’éprouver les charbons de pierre, Dijon, 1769. 6. Réflexions sur la
+                    boussole è</p>
+                <p>double aiguille, Dijon, 1771. 7. Hauteurs barométriques. Dijon, 1771. 8.
+                    Consultation juridicochimique sur le charbon fossile, Dijon, 1771. 9. Plaidoyer
+                    sur l’époque de démence d’un testateur, Dijon, 1772. 10. Digressions
+                    Académiques, 12. Dijon, 1772. 11. On a cold effervescence; Mem. Ac. Dij. ii.
+                    1771, p. 183. 12. On the displacement of a wood, and on a cavern, p. 225. 13.
+                    Défense de la volatilité du phlogistique, 12. Paris, 1772. 14. Reflections sur
+                    le parallèle du phlogistique et du causticum. Dijon, 1773. 15. On the coal of
+                    Monteenis in Burgundy Journ. Phys. ii. p. 445. 16. On platina, and its alloy
+                    with steel, vi. p. 193. 17. Discours Publics, 3 vols. Dijon and Paris, 1775. 18.
+                    On a fossil tooth; Journ. Phys. vii. p. 414; Mem. Ac. Dij. 1785, i. p. 102. 19.
+                    On the crystallization of iron; Journ. Phys, viii. p. 348, ix. p. 303; Mém, Sav.
+                    Etr. ix. p. 513. 20. Elémens de Chimie théorique et pratique, 4 vols. 12. Dijon,
+                    1777; a clear and elegant compendium. 21. On metallic crystallizations; Journ.
+                    Phys, xiii. p. 90. 22. On a singular petrifaction, xv. p. 89. 23. On some
+                    properties of manganese, xvi. p. 156. 24. On the red selenite of Montolier, xvi.
+                    p. 443. 25. Opuscules de Bergman, 2 vols. 8. Dijon, 1780, translated, with
+                    notes. 26. On simple earths, especially absorbents; Journ. Phys, xvii. p. 216,
+                    xviii. p. 68. 27. On the improvement of colours used in painting; Mem. Ac. Dij.
+                    1782, p. 1, 28. On the congelation of sulphuric acid, p. 68. 29. On some ores of
+                    copper, p. 100. 30. On barita, p. 159; Journ, Phys, xviii. p. 299. 31. On
+                    biliary concretions, in Durande’s Memoir; Mem. Ac. Dij. 1782, i. p. 199, p. 26.
+                    32. On the manufacture of nitre, p. 1, 16. 33. On an ore o: lead, p. 41. 34.
+                    Lettre à Μ. J. Z. sur l’influence de l’éducation publique, Dijon, 1782. 35. On a
+                    sulphuret ol zinc; Μ. Ac. Dij. 1783, i. p. 37. 36. On an incombustible coal, p.
+                    76. 37. On a spirit lamp for experiments, p. 159. 38. On the acetate of bismuth,
+                    p. 187. 39. On the karabic or succinic acid, ii. p. 1. 40. On an areometer foi
+                    sugar boilers, p. 52. 4L On a meagre limestone of Brion, p. 90, fit for terras.
+                    42. On the mephitic gas contained in water, 1784, i. p. 85. 43. On the
+                    alteration of gold boiled in nitric acid, ii. p. 133. 44. On the natural
+                    dissolution of quartz; Swed. Trans. 1784; Mem. Ac.Dij∏785. i. p. 46, 6Ô. ’ 45.
+                    On sugar and its acid, p. 90. 45. Description de l’aërostat de l’Acadĕmie,
+                    Dijon, 1784. 46. Plaidoyers sur plusieurs questions importantes, 4. Dijon <hi
+                    rend="subscript"> 1</hi><pb break="no" facs="nls:193640291"
+                    xml:id="kp-eb0711-0291-0092"/>1785. 47. On the conversion of iron into steel,
+                    and on plumbago; Journ. Phys. 1786, 308. 48. Encyclopédie Méthodique, chimie,
+                    vol. i. 4, Paris, 1786, with Maret and Duhamel, noticed Ann. Chim. vii. p. 24.
+                    49. Methode de Nomenclature chimique, 8. Paris, 1787, by de Morveau, Lavoisier,
+                    Berthollet, and De Fourcroy. 50. On the reduction of an oxyd; Ann. Chim. i. p.
+                    106. 51. On adamantine spar, p. 188. 52. On the expansion of gases, p. 256. 53.
+                    On adhesion, vii. p. 32. 54. On the affinity of mercury with metals, p. 42. 55.
+                    On some pneumatic apparatus, p. 50. 56. On the alteration of solutions heated in
+                    glass vessels, ix. p. 3. 57. On saturation and supersaturation, X. p. 38. 58. On
+                    a gravimeter, xxi. p. 3. 59. On a French hyacinth, p. 72, containing zirconia.
+                    60. Notice of a scientific institution at Erfurt, xxii. p. 81. 61. Extract of a
+                    work on the agriculture and arts of Spain, p. 310. 62. Report of the labours of
+                    the society at Rouen, p. 320. 63. Notice of Nicholson’s Journal, xxxiii. p. 173.
+                    64. On a native sulphate of strontia, p. 216. 65. On the saltpetre of commerce,
+                    p. 225, xxv. 231. 66. On the acid and ores of tin, xxiv. p. 127. 67. Extract
+                    from Nicholson, p. 156. 68. On basaltic prisms, p. 160. 69. On a micaceous ore
+                    of iron, p. 161. 70. Notes on Nicholson, p. 175. 71. On the manufactory of soap,
+                    p. 199. 72. On pumice stone, p. 200. 73. On obtaining fire and water for
+                    chemical experiments, p. 310. 74. On platina, xxv. p. 3. 75. On sugar, p. 37.
+                    76. Note from Nicholson, p.</p>
+                <p>69. 77. On the combustion of the diamond, p. 76. 78. On alcarrazas, or cooling
+                    jars, p. 167. 79. On the water of Caldas, p. 180. 80. On nomenclature, p. 205.
+                    81. On the composition of salts, from Kirwan, with tables, p. 282, 292, 296. 82.
+                    On the conducting power of charcoal for heat, xxvi. p. 225. 83. On the action of
+                    fused nitre on gold, silver, and platina, xxvii. p. 42. 84. On tempering steel,
+                    p. 186. 85. On odorous emanations, p. 218.</p>
+                <p>86. On the precipitation of silica by lime, xxvii. p. 320.</p>
+                <p>87. On iron and cast steel, from Clouet’s experiments, xxviii. p. 19. 88. On the
+                    natural productions of Spain, from Fernandes, p. 311. 89. On the succinic acid,
+                    xxix. p. 161. 90. On the destruction of contagious matter, p. 209. 91. On
+                    artificial coolings, p. 291. 92. On the application of gas to wounds, p. 305.
+                    93. On the fusibility of mixed earths, and on their mutual action, p. 320. 94.
+                    On a peculiar crystallization of quartz, xxx. p. 117. 95. On the action of
+                    metallic substances on vegetable colours, and on lacs, p. 180. 96. On the
+                    combustion of a diamond, xxxi. p. 72. 97. Notice of Reuss’s mineralogical
+                    dictionary, p. 177. 98. On the affinities of the earths, p. 246.</p>
+                <p>99. Note on the silica found by Davy in the epidermis of vegetables, p. 276. 100.
+                    On the conversion of iron into cast steel by a diamond, p. 328; the diamond
+                    weighed thirteen grains. 101. On the conversion of diamond into charcoal, and on
+                    the disoxigenization of sulphur, xxxii. p. 62. 102. Comparison of the French and
+                    German weights, p. 225. 103. Extract of Thenard’s memoir on antimony, p. 257.
+                    104. Chemical news, p. 328. 105. Account of Libes’s theory of elasticity,
+                    xxxiii. p. 110. 106. On the colouring principle of the lapis lazuli, xxxiv. p.
+                    54, supposed to be a sulphuret of iron combined with earth. 107. Note on
+                    adhesion, p. 199. 108. On the theory of crystallization, Journal de l’Ec. Polyt.
+                    i. p. 278. 109. Analysis of a chalcedony, p. 287. 110. On the composition and
+                    proportions of salts, Μ. Inst. Sc. ii. p. 326. 111. On anomalies in affinities,
+                    p. 460, v. p. 55. 112. On the composition of the alcalis, iii. p. 321; supposing
+                    them to contain lime. 113. On a metal proper for small coins, vii. ii. p. 80.
+                    114. On the measurement of high temperature, and on expansion, ix. ii. p. i.; a
+                    thermometer of platina. 115. On the tenacity of ductile metals, and on the
+                    different densities of lead, x. p. 267; Extract Ann. Chim. lxxi. p. 189. To
+                    return to the <hi rend="italic">Annales de Chimie,</hi> in which he continued to
+                    be an active co-operator to the close of his life, we find a multiplicity of his
+                    essays and abstracts in the latter volumes. 116. On lime and mortar, xxxvii. p.
+                    253. 117. Report on the tartaric acid, xxxviii. p. 30. 118. On a lamp, p. 135.
+                    119. On Woodhouse’s opinion of phlogiston, p. 272. 120. On a cold combustion of
+                    the carbonic oxyd, xxxix. p. 18. 121. Traité des moyens de désinfecter l’air;
+                    Extr. Annales Chimie, xxxix. p. 74. Dutch, by Luitschius, noticed Ann. Chim.
+                    xlvi, p. 105. 122. On the analysis and synthesis of earths, p. 171. 123. On a
+                    stove, xli. p. 79. 124. On bell-metal, p. 167. 125. On an instrument for
+                    examining gold coin, xlii. p. 23. 126. On Burkitt’s apparatus for distillation,
+                    p. 191. 127. Note on propolis, p. 195. 128. Extract from Nicholson, p. 205. 129.
+                    On Davy’s eudiometer, p. 301. 130. On some alloys of iron, xliii. p. 47. 131. On
+                    the dilatation of gases, p. 153, 154, 156. 132. On prussic precipitates, p. 185.
+                    133. On colcothar for polishing, p. 331. 134. Extract from Nicholson, xliv. p.
+                    21. 135. On Mitchell’s nomenclature, p. 305. 136. On fumigation, p. 286; xlvi.
+                    p. 113; li. p. 311; lii. p. 347; lvi. p. 103, 114; ]χii. p. 113; lxiv. p. 183.
+                    137. On a pyrometer of platina, xlvi. p. 276. 138. On a native carbonate of
+                    magnesia, xlvii. p. 85. 139. Extract of a vocabulary, p. 93. 140. Italian
+                    novelties, p. 203, xlviii. p. 98, 186. 141. On a ve-rificator for louis d’ors,
+                    xlvii. p. 291. 142. On an alloy of gold and platina, p. 300. 143. Extract from
+                    Winter!, p. 312. 144. From Chenevix on the eye, xlviii. p. 74. 145. On a
+                    sulphate of magnesia, p. 79. 146. On a proposal for washing with sea water, p.
+                    108. 147. Note of Hatchett’s memoir on alloys, 1. p. 113. 148. Extract from
+                    Christobal’s chemistry of the arts, liii. p. 115. 149. Report on the effect of
+                    disagreeable odours on the health, liv. p. 86; not necessarily noxious. 150.
+                    Report on chimnies, lv. p. 5. 151. On a sculptured flint, lviii. p. 75. 152. On
+                    filtering stones, and on specific gravities, lx. p. 121. 153. Extract on
+                    Galvanism, lxi. p. 70. 154. On a supposed antique emerald, p. 260. 155. On
+                    nitrous ether, p. 282. 156. On the qualities of glass, lxii. p. 5. 157. Extract
+                    on pottery, p. 213. 158. On Galvanism, as affecting minerals, lxiii. p. 113.
+                    159. On chimnies, lxiv. p. 113. 160. Extract on diamond, lxv. p. 84. 161. On a
+                    hygrometer for gases, lxviii. p. 5. 162. On oxydation in a vacuum, lxix. p. 261.
+                    163. On carbonate of potass as a medicine, lxx. p. 32. 164. On a crystallization
+                    of the diamond, p. 60. 165. Oh Curaudau’s pyrotechny, lxxi. p.</p>
+                <p>70. 166. On glass making, lxxiii. p. 113. 167. On an ore of platina from St
+                    Domingo, p. 334. 168. On pyrometry, lxxiv. p. 18, 129. 169. On potass and
+                    magnesia as medicines, lxxv. p. 204. 170. On laminated platina, lxxvii. p. 297.
+                    171. On oxymuriatic acid as a medicine, p. 305. 172. On the effects of continued
+                    heat on pyrometrical bricks, lxxviii. p. 73. 173. On the pseudacorus as a
+                    substitute for coffee, p. 95; lxxxvi. p. 63. 174. On coffee as a substitute for
+                    bark, lxxviii. p. 203. 175. Official instructions for preventing contagion,
+                    lxxxii. p. 205. 176. On a lime wash for walls, lxxxiii. p. 285. 177. On the
+                    diamond, lxxiv. p. 20, 233. 178. On the non-existence of sugar in diabetes, p.
+                    225. 179. On an indigenous tea, p. 333. 180. On Reid’s pendulum, lxxxv. p. 183.
+                    181. On sugar boiling, p. 192. 182. On the diamond, lxxxvi. p. 22. 183. On
+                    chemical police, p. 105; xc. p. 101. 184. On measures of zinc, lxxxvi. p. 113.
+                    185. On a meagre lime, lxxxviii. p. 19. 186. On biliary calculi, p. 84. 187. On
+                    the solution of calculi in the bladder, lxxxix. p. 92. 188. On phosphorescent
+                    urine, p. 182. 189. On album graecum, p. 325. 190. On pyrometry, xc. p. 113,
+                    225. 191. On magnesia as a medicine, xci. p. 224, 285. 192. On tempering steel,
+                    xcii. p. 85. 193. On putrefaction, p. 160. 194. On poisons, from Brodie, xciii.
+                    p. 5. 195. On the oxalic acid as a poison, p. 199. 196. On the effect <pb
+                    break="no" facs="nls:193640304" xml:id="kp-eb0711-0304-0093"/> of the phosphoric
+                    acid upon turmeric, xciv. p. 223; like that of other acids. 197. On fumigations,
+                    xcv. p. 321; xcvi. p. 5. 198. On a solvent for biliary calculi, p. 103; from
+                    Durande’s paper. (Life by Dr Granville, Journ. R. Inst. 1817.) (L. L.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

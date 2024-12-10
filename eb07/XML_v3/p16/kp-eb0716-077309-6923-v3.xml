@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0716-6923-0773-09" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">PALMYRA, or Tadmor</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 16, page 773</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="13" ref="lcsh1910:b4319s59c">Foot</term>
+                    <term n="11" ref="lcsh1910:b4k931f29">Ruins</term>
+                    <term n="10" ref="lcsh1910:b4tt4fw6r">East</term>
+                    <term n="9" ref="lcsh1910:b4fq9q77g">Desertion</term>
+                    <term n="9" ref="lcsh1910:b49z90f3q">Deserts</term>
+                    <term n="6" ref="lcsh1910:b41c1tg27">Wood</term>
+                    <term n="3" ref="lcsh1910:b48c9r41n">Arabs</term>
+                    <term n="2" ref="lcsh1910:b4vh5cj23">Sun</term>
+                    <term n="2" ref="lcsh1910:b4zw18v1m">War</term>
+                    <term n="2" ref="lcsh1910:b4h98zp4v">Wars</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="13" ref="fasttopic:931268">Foot</term>
+                    <term n="9" ref="fasttopic:891230">Deserts</term>
+                    <term n="7" ref="fasttopic:1170190">Walls</term>
+                    <term n="6" ref="fasttopic:1104803">Sand</term>
+                    <term n="6" ref="fasttopic:814541">Arm</term>
+                    <term n="6" ref="fasttopic:1179191">Wood</term>
+                    <term n="3" ref="fasttopic:812571">Arabism</term>
+                    <term n="3" ref="fasttopic:812576">Arabs</term>
+                    <term n="2" ref="fasttopic:1100116">Romans</term>
+                    <term n="2" ref="fasttopic:1054016">Parthians</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="7" ref="fastgeo:1208757">Syria</term>
+                    <term n="7" ref="fastgeo:1208755">Egypt</term>
+                    <term n="5" ref="fastgeo:1754964">Rome</term>
+                    <term n="4" ref="fastgeo:1240495">Asia</term>
+                    <term n="3" ref="fastgeo:1210276">India</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194566923" type="entry">
+                <p><label type="entry">PALMYRA, or <hi rend="smallcaps">Tadmor</hi></label>, a noble
+                    city of ancient Syria, now in ruins. The origin of this name is uncertain,
+                    neither is it well known by whom the city was built; for though, from the
+                    identity of the names, it is thought by many to have been the <hi rend="italic"
+                    >Tadmor in the wilderness</hi> built by Solomon,<note anchored="true"
+                    place="bottom" type="authorial"><p>See 1 Kings, ix. 18; and 2 Chion. viii. 4;
+                    and Josephus, <hi rend="italic">Αnli&lt;p Jud.</hi> lib. i.</p></note> yet this
+                    point is much controverted by many learned men.</p>
+                <pb break="no" facs="nls:194566936" xml:id="kp-eb0716-6936-0774"/>
+                <p>For the world have long and justly been astonished to find in the desert of
+                    Syria, at a distance from the sea, with a very precarious and scanty supply of
+                    water, and without a particular connection with any great monarchy, ruins of a
+                    city more extensive and splendid than Rome itself, the depositary of all the
+                    arts which Greece in its most flourishing periods could display. The problem is
+                    an intricate one; yet when we divest it of many of its difficulties, we shall
+                    perhaps reduce this stupendous prodigy to no very uncommon magnitude. The coast
+                    of Syria was in early times rich and populous; and, either from the convenience
+                    of procuring water, or from the vicinity of India and Egypt, the population,
+                    instead of increasing on the mountains, extended to Judea, and thence through
+                    its plains only to the internal parts. Traces of this numerous people, and the
+                    ruins of their habitations, still remain; but as their edifices were not
+                    uncommonly splendid, or as the causes of their destruction were powerful, they
+                    have not attracted much attention. Yet the ruins of more than thirty towns are
+                    discoverable to the south-east of the Dead Sea, and thence towards Tadmor or
+                    Palmyra; we know the cause of the destruction of these towns, and we know that
+                    it did not reach Palmyra. This splendid city was not, therefore, insulated in a
+                    mass of sand; it was probably a link of a continued chain of population, or
+                    perhaps its termination. The situations of towns in the sandy desert must
+                    necessarily be determined by local advantages. Tadmor is situated on a spot
+                    where two hills converge, and beyond the point where they approach. These hills
+                    afforded water; and the aqueducts through which it was brought from them were
+                    discovered and described by Mr Wood. Though the other towns now in ruins exhibit
+                    some remains of luxury and opulence, yet in these respects they are much
+                    inferior to Palmyra; and this deserves to be here explained. Palmyra was
+                    undoubtedly very ancient. “The two springs of fresh water it possesses,” says
+                    Volney, “were, above all, a powerful inducement in a desert everywhere else so
+                    parched and barren. These, doubtless, were the two principal motives which drew
+                    the attention of Solomon, and induced that commercial prince to carry his arms
+                    so remote from the limits of Judea.”<note anchored="true" place="bottom"
+                    type="authorial"><p>Travels through Syria and Egypt.</p></note> “He built
+                    strong'walls there,” says the historian Josephus, “to secure himself in the
+                    possession, and named it <hi rend="italic">Tadmor</hi><hi rend="italic
+                    subscript"> i</hi> which signifies the Place of Palm-trees.” Hence it has been
+                    inferred that Solomon was its first founder; but from this passage we should be
+                    rather led to conclude that it was already a place of known importance. The
+                    palm-trees he found there are not the trees of uninhabited countries. Prior to
+                    the days of Moses, the journeys of Abraham and Jacob from Mesopotamia into Syria
+                    sufficiently prove that a communication existed between these countries, which
+                    must soon have rendered Palmyra flourishing. The cinnamon and pearls mentioned
+                    in the time of the Hebrew legislator demonstrate a trade with India and the
+                    Persian Gulf, which must have been carried on by the Euphrates and Palmyra. At
+                    this distance of time, when the greater part of the monuments of those early
+                    ages have perished, we are liable to form very false opinions concerning the
+                    state of these countries in remote times, and are the more easily deceived,
+                    sometimes admitting as historical facts antecedent events of an entirely
+                    different character. Observing, however, that men in all ages are united by the
+                    same interests and the same desires, we cannot help concluding, that a
+                    commercial intercourse must early have taken place between one nation and
+                    another, and that this intercourse must have been nearly the same with that of
+                    more modern times. Without, therefore, going higher than the reign of Solomon,
+                    the invasion of Tadmor by that prince is sufficienï alone to throw light upon
+                    the history of this city. The king of Je rusalem would never have directed his
+                    attention to so distant and detached a spot, without some powerful motive of
+                    interest; and this interest could be no other than that of an extensive
+                    commerce, of which this place was already the emporium. This commerce extended
+                    itself to India; and the Persian Gulf was the principal point of union.</p>
+                <p>From the nature of the commodities, from the requisite assistance of the Tyrians,
+                    and other forcible arguments, Volney shows that the Persian Gulf was the centre
+                    of the most ancient commerce of the eastern world; and that it was with a view
+                    of obtaining a shorter route, by means of the Euphrates, that Solomon turned his
+                    attention to Tadmor, distant only three days’ journey. “We may even reasonably
+                    conjecture,” says Volney, “when we reflect on the revolutions of the following
+                    ages, that this commerce became a principal cause of those various wars in Lower
+                    Asia, for which the barren chronicles of those early times assign no motives.
+                    If, after the reign of Solomon, the Assyrians of Nineveh turned their ambitious
+                    views towards Chaldea and the lower part of the Euphrates, it was with the
+                    intention to approach that great source of opulence, the Persian Gulf. If
+                    Babylon, from being the vassal of Nineveh,, in a short time became her rival,
+                    and the seat of a new empire, it was because her situation rendered her the
+                    emporium of this lucrative trade; in short, if the kings of this great city
+                    waged perpetual wars with Jerusalem and Tyre, their object was not only to
+                    despoil these cities of their riches, but to prevent their invading their trade
+                    by the way of the Red Sea. An historian who has informed us that Nebuchadonosor,
+                    before he laid siege to Jerusalem, took possession of Tadmor, clearly indicates
+                    that the latter city acted in concert with the two neighbouring capitals. Their
+                    gradual decline became, under the Persian empire, and the successors of
+                    Alexander, the efficient cause of the sudden greatness of Palmyra in the time of
+                    the Parthians and the Romans; she then enjoyed a long peace for many centuries,
+                    which allowed her inhabitants to erect those monuments of opulence whose ruins
+                    we still admire.” If the former observations showed the connection of this
+                    remote spot with a more populous country, these remarks explain the cause of the
+                    renovation and magnificence of this city. Cairo, in another, probably a
+                    subordinate route, never attained the splendour of Palmyra; but the genius of
+                    the Egyptians, and perhaps the laws of Egypt, prevented it.</p>
+                <p>There is, however, no authentic history of Palmyra till after the capture of the
+                    Emperor Valerian by the Persians. It is first mentioned by the Roman historians
+                    as a place which Marcus Antonius attempted to plunder, upon pretence that it had
+                    not observed a just neutrality between the Romans and Parthians. Pliny takes
+                    notice of it as being situated in a rich soil, amongst pleasant streams, and
+                    totally separated from the rest of the world by a vast sandy desert, which had
+                    preserved its independence between Parthia and Rome. There is still a
+                    considerable spot of good soil next the town and on the hills; and even in the
+                    wilderness there were palm and fig trees, some of which remained till the latter
+                    end of the seventeenth century, though not one is now to be found.</p>
+                <p>After the captivity of Valerian, it became an opulent city, to which its
+                    situation in the vicinity of the Roman and Parthian empires greatly contributed;
+                    since the caravans, in going to or returning from the East, frequented the
+                    place, and thus rendered it a considerable seat of merchandise. It enjoyed
+                    independence till the time of Trajan, who, having made himself master of almost
+                    all the Parthian empire, likewise reduced Palmyra, which was afterwards
+                    accounted part of the Roman dominions. But when the defeat and captivity of
+                    Valerian had so much <pb break="no" facs="nls:194566949"
+                    xml:id="kp-eb0716-6949-0775"/>weakened the empire that the Persians seemed to be
+                    in a fair way of becoming masters of all the eastern provinces, the Palmyrans
+                    began to entertain thoughts of recovering their liberty. Odenathus, prince of
+                    Palmyra, sent a respectful letter to Sapor on his return, accompanied with
+                    considerable presents; but by that haughty conqueror his letter and embassy were
+                    treated with contempt. The presents were thrown into the Euphrates; and to the
+                    letter Sapor replied, that the insolence of the prince in presuming to write to
+                    his lord was inexcusable; but if he could atone for it in any way, it would be
+                    by presenting himself before the throne, bound hand and foot, in token of
+                    consciousness of his crime, and the punishment he deserved. This injurious
+                    treatment so provoked Odenathus, that he swore either to humble the pride of the
+                    haughty conqueror, or to die in the attempt. Accordingly, having assembled all
+                    the forces he could muster, he fell upon the Persians, destroyed a number of
+                    them, and took a great part of their baggage, with some of the king’s
+                    concubines. Of the war of Odenathus with the Persians, however, very little is
+                    known, except that, though the latter were often vanquished, and the
+                    independence of Palmyra established for the present, yet Valerian was never
+                    released from his captivity, though Odenathus earnestly wished to have the
+                    honour of rescuing him from his enemies.</p>
+                <p>Odenathus enjoyed his sovereignty but a very short time, being murdered by his
+                    nephew, who was soon afterwards put to death by Zenobia, the wife of Odenathus.
+                    This lady is said to have been possessed of extraordinary endowments both of
+                    body and mind; having, according to Mr Gibbon, been almost the only Asiatic
+                    woman who is recorded to have overcome the obstacles arising from the confined
+                    situation of the fair sex in that part of the world. Immediately on taking
+                    vengeance for the murder of her husband, she assumed the government, and soon
+                    strengthened herself so much, that she resolved to submit neither to the Roman
+                    nor the Persian rule. The neighbouring states of Arabia, Armenia, and Persia,
+                    dreaded her enmity, and solicited her alliance. To the dominions of Odenathus,
+                    which extended from the Euphrates to the frontiers of Bithynia, his widow added
+                    the inheritance of her ancestors, the populous and fertile kingdom of Egypt. The
+                    Emperor Claudius acknowledged her merit, and was content, that whilst he pursued
+                    the Gothic war, she should assert the dignity of the empire in the East. The
+                    conduct of Zenobia, however, was attended with some ambiguity; nor is it
+                    unlikely that she had conceived the design of erecting an independent and
+                    hostile monarchy. She blended with the popular manners of Roman princes the
+                    stately pomp of the courts of Asia, and exacted from her subjects the same
+                    adoration that was paid to the successors of Cyrus. She bestowed on her three
+                    sons a Latin education, and often showed them to the troops, adorned with the
+                    imperial purple. For herself she reserved the diadem, with the splendid but
+                    doubtful title of Queen of the East.</p>
+                <p>When Aurelian passed over into Asia against this singular adversary, his presence
+                    restored to obedience the province of Bithynia, already shaken by the arms and
+                    intrigues of Zenobia. Advancing at the head of his legions, he accepted the
+                    submission of Ancyra, and was admitted into Tyana, after an obstinate siege, by
+                    the help of a perfidious citizen. The generous although fierce temper of
+                    Aurelian abandoned the traitor to the rage of the soldiers; but a superstitious
+                    reverence induced him to treat with lenity the countrymen of Apollonius the
+                    philosopher. Antioch was deserted on his approach, till the emperor, by his
+                    salutary edicts, recalled the fugitives, and granted a general pardon to all
+                    who, from necessity rather than choice, had been engaged in the service of the
+                    queen of Palmyra. The unexpected mildness of such a conduct reconciled the minds
+                    of the Syrians, and, as far as the gates of Emesa, the wishes of the people
+                    seconded the terror of his arms.</p>
+                <p>Zenobia would have ill deserved her reputation had she indolently permitted the
+                    emperor of the west to approach within a hundred miles of her capital. The fate
+                    of the East was decided in two great battles, so similar in almost every
+                    circumstance, that we can scarcely distinguish them from each other, except by
+                    observing that the first was fought near Antioch, and the second near Emesa. In
+                    both, the queen of Palmyra animated the armies by her presence, and devolved the
+                    execution of her orders on Zabdas, who had already signalized his military
+                    talents by the conquest of Egypt. Thè numerous forces of Zenobia consisted for
+                    the most part of light archers, and of heavy cavalry clothed in complete steel.
+                    The Moorish and Illyrian horse of Aurelian were unable to sustain the ponderous
+                    charge of their antagonists. They fled in real or affected disorder, engaged the
+                    Palmyrans in a laborious pursuit, harassed them by a desultory combat, and at
+                    length discomfited this impenetrable but unwieldy body of cavalry. The light
+                    infantry, in the mean time, when they had exhausted their quivers, remaining
+                    without protection against a closer onset, exposed their naked sides tα the
+                    swords of the legions. Aurelian had chosen the veteran troops, who were usually
+                    stationed on the Upper Danube, and whose valour had been severely tried in the
+                    Alleman-nie war. After the discomfiture of Emesa, Zenobia found it impossible to
+                    collect a third army. As far as the frontier of Egypt, the nations subject to
+                    her empire had joined the standard of the conqueror, who now detached Probus,
+                    one of the bravest of his generals, to take possession of the Egyptian
+                    provinces. Palmyra was the last resource of the widow of Odenathus. She retired
+                    within the walls of her capital, made every preparation for a vigorous
+                    resistance, and declared, with the intrepidity of a heroine, that the last
+                    moment of her reign and of her life should be the same.</p>
+                <p>In his march over the sandy desert between Emesa and Palmyra, the Emperor
+                    Aurelian was perpetually harassed by the Arabs; nor could he always defend his
+                    army, and especially his baggage, from those flying troops of active and daring
+                    robbers, who watched the moment of surprise, and derided the slow pursuit of the
+                    legions. The siege of Palmyra was an object far more difficult and important;
+                    and the emperor, who with incessant vigour pressed the attacks in person, was
+                    himself wounded with a dart. “The Roman people,” says Aurelian, in an original
+                    letter, “speak with contempt of the war which 1 am waging against a woman. They
+                    are ignorant both of the character and of the power of Zenobia. It is impossible
+                    to enumerate her warlike preparations, of stones, of arrows, and of every
+                    species of missile weapons. Every part of the walls is provided with two or
+                    three balistae, and artificial fires are thrown from her military engines. The
+                    fear of punishment has armed her with a desperate courage. Yet I trust still in
+                    the protecting deities of Rome, who have hitherto been favourable to all my
+                    undertakings.” Doubtful, however, of the protection of the gods, and of the
+                    event of the siege, Aurelian judged it more prudent to offer
+                    termsofanadvantageous capitulation; to the queen a splendid retreat, to the
+                    citizens their ancient privileges. His proposals were obstinately rejected, and
+                    the refusal was accompanied with insult.</p>
+                <p>The firmness of Zenobia was supported by the hope that in a very short time
+                    famine would compel the Roman army to repass the desert; and by the reasonable
+                    expectation that the kings of the East, and particularly the Persian monarch,
+                    would arm in defence of their most natural ally. But fortune, and the
+                    perseverance of Aurelian, overcame every obstacle. The death of Sapor, which
+                    happened<pb break="no" facs="nls:194566962" xml:id="kp-eb0716-6962-0776"/> about
+                    this time, distracted the councils of Persia; and the inconsiderable succours
+                    which attempted to relieve Palmyra were easily intercepted either by the arms or
+                    the liberality of the emperor. From every part of Syria a regular succession of
+                    convoys safely arrived in the camp, which was increased by the return of Probus
+                    with his victorious troops from the conquest of Egypt. It was then that Zenobia
+                    resolved to fly. She mounted the fleetest of her dromedaries; and had already
+                    reached the banks of the Euphrates, about sixty miles from Palmyra, when she was
+                    overtaken by Aurelian’s light horse, seized, and brought back a captive to the
+                    feet of the emperor. Her capital soon afterwards surrendered, and was treated
+                    with unexpected lenity. The arms, horses, and camels, with an immense treasure
+                    of gold, silver, silk, and precious stones, were all delivered to the conqueror;
+                    who, leaving only a garrison of six hundred archers, returned to Emesa, and
+                    employed some time in the distribution of rewards and punishments at the end of
+                    a war which restored to Rome those provinces which had renounced their
+                    allegiance since the captivity of Valerian.</p>
+                <p>When the Syrian queen was brought into the presence of Aurelian, he sternly asked
+                    her, how she had presumed to rise in arms against the emperors of Rome. The
+                    answer of Zenobia displayed a prudent mixture of respect and firmness: “Because
+                    I disdained to consider as Roman emperors an Aureolus or a Gallienus. You alone
+                    I acknowledge as my conqueror and my sovereign.” But as female fortitude is
+                    commonly artificial, so it is seldom steady or consistent. The courage of
+                    Zenobia deserted her in the hour of trial. She trembled at the angry clamours of
+                    the soldiers, who called aloud for her immediate execution; forgot the generous
+                    despair of Cleopatra, which she had proposed as her model; and ignominiously
+                    purchased life by the sacrifice of her fame and her friends. It was to their
+                    counsels, which governed the weakness of her sex, that she imputed the guilt of
+                    her obstinate resistance; it was upon their heads that she directed the
+                    vengeance of the cruel Aurelian. The fame of Longinus, who was included amongst
+                    the numerous and perhaps innocent victims of her terror, will survive that of
+                    the queen who betrayed or the tyrant who condemned him. Genius and learning were
+                    incapable of moving a fierce unlettered soldier; but they had served to elevate
+                    and harmonise the soul of Longinus. Without uttering a complaint, he calmly
+                    followed the executioner, pitying his unhappy mistress, and bestowing comfort on
+                    his afflicted friends.</p>
+                <p>Returning from the conquest of the East, Aurelian had crossed the straits which
+                    divided Europe from Asia, when he was provoked by the intelligence that the
+                    Palmyrans had massacred the governor and garrison which he had left amongst
+                    them, and again erected the standard of revolt. Without a moment’s deliberation,
+                    he once more turned his face towards Syria. Antioch was alarmed by his rapid
+                    approach, and the helpless city of Palmyra felt the irresistible weight of his
+                    resentment. We have a letter of Aurelian himself, in which he acknowledges that
+                    old men, women, children, and peasants, had been involved in that dreadful
+                    execution, which should have been confined to armed rebellion; and although his
+                    principal concern seems directed to the re-establishment of a temple of the Sun,
+                    he discovers some pity for the remnant of the Palmyrans, to whom he grants the
+                    permission of rebuilding and inhabiting their city. But it is easier to destroy
+                    than to restore. The seat of commerce, of arts, and of Zenobia, gradually sunk
+                    into an obscure town, a trifling fortress, and at length a miserable
+                    village.</p>
+                <p>Little is known concerning the fortunes of Palmyra since the time of Mahommed,
+                    except that it was considered as a place of strength, and that in the twelfth
+                    century there were two thousand Jews in it. With respect to the ruins, they
+                    appear to be of two different and distinct periods: the oldest are so far
+                    decayed as not to admit of mensuration, and look as if they had been reduced to
+                    that state by the hand of time; the others appear to have been broken into
+                    fragments by violence. Of the inscriptions none is earlier than the birth of
+                    Christ, and none is later than the destruction of the city by Aurelian,
+                    excepting one, which mentions Dioclesian.</p>
+                <p>Mr Wood is of opinion, that the face of the country which surrounds Palmyra was
+                    always the same; but though Palmyra was ever believed to be situated in a
+                    wilderness, it does not follow that the wilderness was always of the same
+                    extent. It is perhaps more probable, that when Palmyra was first settled, the
+                    rich soil mentioned by Pliny extended much farther; for whatever were the
+                    reasons for making a settlement there, Palmyra can scarcely be supposed to have
+                    invited a greater number of people than it could feed. The palms and fig-trees
+                    that were formerly found upon the hills, and in the borders of the desert, that
+                    are now totally barren, confirm this opinion. Mr Wood observes, that whilst he
+                    was there a whirlwind happened, which raised such quantities of sand as quite
+                    darkened the sky: this sand, therefore, might by degrees encroach upon the
+                    fertile environs of Palmyra, and reduce the number of inhabitants as it reduced
+                    their sustenance, till the few wretched families only were left, who found it
+                    difficult to furnish food for Mr Wood and his company, although they did not
+                    continue longer than a fortnight among them. It will also appear from history,
+                    that what is supposed to have happened here has happened at other places, where
+                    such an event was much less probable. On the sea-coast in the neighbourhood of
+                    St Pol de Léon, in Lower Bretagne, there is a considerable tract of land, which
+                    before the year 1666 was inhabited, but which was rendered uninhabitable by a
+                    sand, which, encroaching every year, covered it to the depth of above twenty
+                    feet. In the year 1718 it had advanced more than six leagues, and within one
+                    league of St Pol; so that it was then thought probable that the town would of
+                    necessity be abandoned. This sand is raised by the east or north-east wind,
+                    which drives it in clouds with great swiftness, and in a prodigious
+                    quantity.<note anchored="true" place="bottom" type="authorial"><p>J Memoirs of
+                    the French Academy for 1718.</p></note> It was also attested by the captain of a
+                    ship, and all on board, that in the year 1719 there fell in the Atlantic Ocean,
+                    at fifteen degrees of north latitude, and at the distance of more than eight
+                    leagues from any land, a shower of sand, some of which they produced, and
+                    deposited in the academy at Paris.<note anchored="true" place="bottom"
+                    type="authorial"><p>History of the Academy, 1772.</p></note></p>
+                <p>The company with whom Mr Wood travelled arrived at length at the end of the
+                    plain, where a ridge of barren hills, by which it was divided on the right and
+                    left, seemed to meet; between them there was a vale, through which an aqueduct
+                    formerly conveyed water to Palmyra. On each side of this vale they remarked
+                    several sepulchres of the ancient Palmyrans, which they had scarcely passed,
+                    when the hills opening on a sudden, they discovered such piles of ruins as they
+                    had never seen. They were all of white marble; and beyond them, towards the
+                    Euphrates, was a wide level, stretching farther than the eye could reach,
+                    totally desolate, without variety, and without bounds. After having gazed some
+                    time upon this prospect, which rather exceeded than fell short of their
+                    expectations, they were conducted to one of the huts of the Arabs, of which
+                    there are about thirty in the court of the great temple. The inhabitants of both
+                    sexes were well shaped, and the women, though very swarthy, had good features.
+                    They were veiled, but did not so scrupulously conceal their faces <pb break="no"
+                    facs="nls:194566975" xml:id="kp-eb0716-6975-0777"/>as the eastern women
+                    generally do. They stain the ends of their fingers red, their lips blue, and
+                    their eyebrows and eyelashes black. They had large rings of gold or brass in
+                    their ears and nostrils, and appeared to be healthy and robust. The walls of the
+                    city are flanked by square towers, into which some ancient funeral monuments
+                    have been converted; but the walls are in most places level with the ground, and
+                    sometimes not to be trace :h It is, however, probable, by their general
+                    direction, that they included the great temple, and were three miles in
+                    circumference. The Arabs showed a tract which was near ten miles in
+                    circumference, the soil of which was raised a little above the level of the
+                    desert: they said that this was the extent of the old city; and that by digging
+                    in any part of it, ruins were discovered.'</p>
+                <p>These ruins consist of temples, palaces, and portico of Grecian architecture, and
+                    he scattered over an extent of several miles. They were accidentally discovered
+                    by some English travellers from Aleppo, somewhat more than a century ago. By far
+                    the most remarkable of them is the Temple of the Sun, of which the ruins are
+                    spread over a square of two hundred and twenty yards. It was encompassed with a
+                    stately wall, built of large square stones, and adorned with pilasters within
+                    and without, to the number of sixty-two on a side. Within the court are the
+                    remains oftworowsof very noble marble pillars thirty-seven feet in height, with
+                    their capitals of most exquisite workmanship. Of these only fifty-eight remain
+                    entire; but there must have been many more, for they appear to have gone round
+                    the whole court, and to have supported a double piazza. The walks on that side
+                    of the piazza which is opposite to the front of the castle seem to have been the
+                    most spacious and beautiful. At each end of this line are two niches for
+                    statues, with the pedestals, borders, supporters, and canopies, carved with the
+                    utmost propriety and elegance. The space within this enclosure, which is now
+                    filled with the dirty huts of the inhabitants, seems to have been an open court,
+                    in the middle of which stood the temple, encompassed with another row of pillars
+                    of a different order, and much taller, being fifty feet in height; but of these,
+                    sixteen only remain. The whole space contained within diese pillars is
+                    fifty-nine yards in length, and near twenty-eight in breadth. The temple is no
+                    more than thirty-three yards in length, and thirteen or fourteen in breadth. It
+                    points north and south; and exactly at the middle of the building, on the west
+                    side, there is a most magnificent entry, on the remains of which are some vines
+                    and clusters of grapes carved in the most bold and masterly imitation of nature
+                    that can be conceived. Just over the door are discerned a pair of wings, which
+                    extend along its whole breadth; the bodyto which theybelonged is totally
+                    destroyed; and it cannot now certainly be known whether it was that of an eagle
+                    or a cherub, several representations of both being visible on other fragments of
+                    the building. It is observed of the windows of this building, which were not
+                    large, that they were narrower at the top than below. The north end of the
+                    building is adorned with the most curious fret-work and bas-relief; and in the
+                    middle there is a dome or cupola about ten feet in diameter, which appears to
+                    have been either hewn out of the rock, or moulded to some composition which by
+                    time is grown equally hard. North of this place is an obelisk, consisting of
+                    seven large stones, besides its capital and the wreathed work about it. It is
+                    about fifty feet in height, and, just above the pedestal, is twelve feet in
+                    circumference. There was probably a statue upon it, which the Turks, in their
+                    zeal against idolatry, destroyed. At about the distance of a quarter of a mile
+                    from this pillar, to the east and west, there are two others, besides the
+                    fragment of a third; so that perhaps they were originally a continued row.</p>
+                <p>About a hundred paces from the middle obelisk, straight forward, there is a
+                    magnificent entry to a piazza, which is forty feet in breadth, and more than
+                    half a mile in length, enclosed with two rows of marble pillars twenty-six feet
+                    in height and eight or nine feet in compass. Of these there still remain one
+                    hundred and twenty-nine; and, by a moderate computation, there could not
+                    originally have been less than five hundred and sixty. The upper end of the
+                    piazza was shut in by a row of pillars, standing somewhat closer than those on
+                    each side. A little to the left are the ruins of a stately building, which
+                    appears to have been a banqueting-house. It is built of better marble, and is
+                    finished with yet greater elegance, than the piazza. The pillars which supported
+                    it were of one entire stone, which is so strong, that one of them which has
+                    fallen down has received no injury. It measures twenty-two feet in length, and
+                    in compass eight feet nine inches. In the west side of the piazza are several
+                    apertures for gates into the court of the palace. Each of these was adorned with
+                    four porphyry pillars, not standing in a line with those of the wall, but placed
+                    by couples in the front of the gate facing the palace, two upon each side. Two
+                    of these only remain entire, and but one standing in its place. They are thirty
+                    feet in length, and nine in circumference. On the eastern side of the piazza
+                    stands a great number of marble pillars, some of them perfect, but the greater
+                    part mutilated. In one place eleven are ranged together in a square. The space
+                    which they enclose is paved with broad flat stones, but there are no remains of
+                    a roof. At a little distance are the remains of a small temple, which is also
+                    without a roof, and has the walls very much defaced. Before the entry which
+                    looks to the south is a piazza, supported by six pillars, two upon each side of
+                    the door, and one at each end. The pedestals of those in front have been filled
+                    with inscriptions both in the Greek and Palmyran languages, which are become
+                    totally illegible. Amongst these ruins are many sepulchres; they are ranged upon
+                    each side of a hollow way, toward the north part of the city, and extend more
+                    than a mile. They are all square towers, four or five stories in height. But
+                    though they are alike in form, yet they differ greatly in magnitude and
+                    splendour. The outside is of common stone, but the floors and partitions of each
+                    story are marble. There is a walk across the whole building, just in the middle;
+                    and the space on each hand is subdivided into six partitions by thick walls. The
+                    space between the partitions is wide enough to receive the largest corpse; and
+                    in these niches there are six or seven piled upon one another.</p>
+                <p>Many inscriptions have been found at Palmyra which have occupied much of the
+                    attention of the learned; and if any thing certain could be derived from them,
+                    there is no doubt that they would tend very considerably to elucidate ancient
+                    history. See Barthélemy’s <hi rend="italic">Reflections on the Palmyran
+                    Alphabet,</hi> published at Paris in 1754. See also <hi rend="italic">Phil.·
+                    Trans.</hi> (No. 217 and 218); the first volume of the <hi rend="italic">Ancient
+                    Universal History</hi><hi rend="italic">;</hi> and, above all, the <hi
+                    rend="italic">Rιιins of Palmyra, or Tadmor in the Desert,</hi> published by Mr
+                    R. Wood, who, with Μ. Bouverie and Mr Dawkins, travelled thither in 1751. More
+                    recent travellers have added but little to the information contained in the
+                    works here referred to.</p>
+                <p>Respecting the latitude and longitude there are still various opinions. The
+                    estimate which appears to be nearest the truth fixes its situation in long. 38.
+                    50. E. and lat. 33. 20. N. It stands about fifty leagues south-east of Aleppo,
+                    as much from Damascus, and twenty leagues west of the Euphrates.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0709-5567-0793-04" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">FOURCROY, Antony Francis de</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 9, page 793</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="3" ref="fasttopic:795828">Acids</term>
+                    <term n="11" ref="fasttopic:933281">Founding</term>
+                    <term n="6" ref="fasttopic:1171139">Water</term>
+                    <term n="6" ref="fasttopic:821688">Authors</term>
+                    <term n="6" ref="fasttopic:821653">Authority</term>
+                    <term n="4" ref="fasttopic:807737">Ammonia</term>
+                    <term n="2" ref="fasttopic:994553">Lead</term>
+                    <term n="2" ref="fasttopic:970275">Indigo</term>
+                    <term n="2" ref="fasttopic:964990">Hydrogen</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="3" ref="lcsh1910:b4319s24m">Acids</term>
+                    <term n="11" ref="lcsh1910:b44j09z32">Founding</term>
+                    <term n="7" ref="lcsh1910:b4xd0r400">Memoirs</term>
+                    <term n="6" ref="lcsh1910:b4513v11w">Water</term>
+                    <term n="6" ref="lcsh1910:b4d795b2n">Authors</term>
+                    <term n="4" ref="lcsh1910:b4cf9j625">Ammonia</term>
+                    <term n="2" ref="lcsh1910:b4wm1406s">Madness</term>
+                    <term n="2" ref="lcsh1910:b4639kb2c">Lead</term>
+                    <term n="2" ref="lcsh1910:b4ms3k440">Indigo</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="1" ref="fastgeo:1205190">Peru</term>
+                    <term n="1" ref="fastgeo:1208755">Egypt</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193755567" type="entry">
+                <p><label type="entry">FOURCROY, <hi rend="smallcaps">Antony Francis
+                    de</hi></label>, a celebrated chemist and physician, born at Paris on the 15th
+                    June 1755, was the son of John Michael de Fourcroy, by his marriage with Jane
+                    Laugier. His family had been long established in the capital; several of them
+                    had been distinguished at the bar, and Fourcroy de Ramcourt was well known as an
+                    engineer of considerable talent, and a member of the Academy of Sciences.</p>
+                <p>His father was an apothecary attached to the household of the Duke of Orleans,
+                    and was a great sufferer by the abolition of places of this kind, which was
+                    procured by the corporation of apothecaries, some time before the Revolution.
+                    Young Fourcroy was sent to the college of Harcourt, but made no progress in his
+                    learning there, and underwent great hardships, from the cruelty of an unjust
+                    master. He was afterwards obliged to subsist by his labour in copying, and by
+                    taking pupils as a writing master. He was, however, fortunate in the patronage
+                    and assistance of Vicq d’Azyr, who had been a friend of his father, and under
+                    whose auspices he resolved to study physic; obtaining his support in the mean
+                    time by giving his assistance to richer persons than himself in their literary
+                    labours, and by a few translations, for which he wan very ill paid. When he had
+                    gone through the regular course of study, he became a candidate for a gratuitous
+                    diploma,-upon a foundation established by Dr Diest; but he failed of success,
+                    from a party quarrel. His own party, however, which was that of Vicq d’Azyr,
+                    indemnified him for the loss, by making a collection to discharge the fees,
+                    amounting to about L.250; but the highest degree, that of doctor regent, was
+                    still refused him; and he was therefore incapable of holding a professorship
+                    under the Parisian faculty of physic. He resolved to apply himself to science as
+                    the readiest way of acquiring medical reputation; but he seems to have been
+                    little known, at any time of his life, as a practical physician. The
+                    determination, however, like that of the countryman in the fable, was still a
+                    beneficial one; and though be failed of discovering the golden treasure for
+                    which he dug, he profited by the increased fertility of the soil, and by the
+                    abundant fruits which it bore him.</p>
+                <p>In natural history he soon distinguished himself as a pupil worthy of Geoffroy,
+                    by an entomological publication; and in anatomy, by his description of the
+                    tendons and their sheaths, which appears to have procured his admission into the
+                    Academy of Sciences in 1785. He stood at first in the capacity of an anatomist,
+                    though he was afterwards removed to the section of chemistry. His favourite
+                    pursuit, .however, from the beginning, was chemistry; and in this he derived
+                    considerable assistance from Buequet, who was then a professor in great esteem;
+                    and having once undertaken to deliver a lecture in his place, on occasion of a
+                    temporary indisposition of Buequet, though wholly unprepared, he found himself
+                    capable of speaking for two hours with great fluency, to the delight and
+                    astonishment of his audience. The reputation of Buequet was soon transferred to
+                    Fourcroy; and he was enabled, by an advantageous marriage, to purchase the
+                    apparatus of his predecessor, and to succeed to his lectures.</p>
+                <p>In 1784, upon the death of Macquer, then professor of chemistry in the Royal
+                    Garden, the Count de Buffon found the claims of Fourcroy so strong, that he
+                    thought it right to appoint him to the vacant chair, though no less a chemist
+                    than Lavoisier was a rival candidate; the competition not being wholly decided
+                    either by talent or by depth of learning, but probably, in a great measure, by
+                    the reputation in the art of teaching which Fourcroy had already acquired. His
+                    success in this new situation was brilliant and universal; and he continued for
+                    twenty-five years to absorb the whole attention of a numerous audience<pb
+                    break="no" facs="nls:193755580" xml:id="kp-eb0709-5580-0794"/>, by his
+                    eloquence, and by the perspicuity of his mode of explaining some of the most
+                    important novelties that have ever appeared in any age. The science which he
+                    taught was then making its most rapid progress. It was then that Bergman and
+                    Scheele had introduced into analytical chemistry a precision almost geometrical;
+                    that Priestley had discovered the aeriform elements of the animal and vegetable
+                    world; that Black and Wilcke had methodised the phenomena of heat; that
+                    Cavendish had discovered the composition of water and of the nitric acid; that
+                    Monge had repeated and extended his experiments; and that Lavoisier had reduced
+                    the whole of chemistry to a uniform system, which, though founded on a
+                    generalization somewhat too hasty, has still been of important service to the
+                    science, by concentrating the attention of the philosophic reasoner on various
+                    classes of phenomena, which could not so easily have been comprehended in one
+                    view, without the aid of some such hypothesis. Μ. de Fourcroy was particularly
+                    happy in his tact of perceiving whether or not all his audience were fully in
+                    possession of the ideas he wished to communicate to them, and he was never tired
+                    of explaining himself, till he was satisfied that he had said enough. His manner
+                    was energetic, and such as an Englishman might perhaps have thought pompous and
+                    affected; but we must recollect that there is no fixed standard of propriety in
+                    matters of taste, and that, as the common conversation of the French is
+                    naturally accompanied with more of emphasis and gesture than our own, it is very
+                    possible that, without any greater proportional exaggeration than is introduced
+                    in similar cases in Great Britain, an actor, a lecturer, or a preacher, may
+                    exhibit what to us would appear a caricature, while it only affects his own
+                    countrymen as a natural, though impressive, style of public speaking. The
+                    chemical amphitheatre of the Public Garden was crowded by students from all
+                    countries, and from all quarters of the globe, some prompted to visit Paris by
+                    their own love of learning only, some assisted in their pursuits by their
+                    respective governments; and it was twice in succession necessary to provide more
+                    extensive accommodations for the overflowing numbers that sought for
+                    admittance.</p>
+                <p>Μ. de Fourcroy’s political life, though not unsuccessful, seems to have
+                    contributed less materially to his happiness than his scientific career. He was
+                    chosen a supplementary member of the National Convention, and entered on the
+                    functions of the office in the dreadful period of 1793. He had, however, the
+                    wisdom to refrain from employing the eloquence that he possessed under
+                    circumstances so dangerous, and he almost entirely confined his exertions to
+                    some attempts to soften the cruel tyranny of the times. Darcet was one of the
+                    destined victims that he had the good fortune to save; but he soon found it too
+                    dangerous to persist in such interferences. Μ. Cuvier, however, very fully
+                    acquits him of any approbation of the judicial murders which were committed, and
+                    of any connivance at such proceedings as it might have been possible for him to
+                    avert; declaring, that if, upon the strictest inquiry, he could have discovered
+                    that there was the least foundation for charging him with having been
+                    indifferent to the fate of his great rival Lavoisier, no consideration on earth
+                    could have induced him to become the biographer of a person so odious and
+                    contemptible. It was at a later period that Fourcroy acquired some little
+                    influence as a director of the public instruction; and in this capacity he had
+                    great scope for the exertion of his talents, in the re-establishment of the many
+                    public institutions connected with science, which the madness of the Revolution
+                    had destroyed. The <hi rend="italic">Ecole de Médecine</hi> was one of the first
+                    that was restored; but the name of Médecine seeming to carry with it too much of
+                    respect and authority for the levelling spirit of the day, the new institution
+                    was at first called <hi rend="italic">Ecole de Santé.</hi> Μ. de Fourcroy was
+                    also very essentially concerned in the organization of the <hi rend="italic"
+                    >Ecole Polytechnique,</hi> as well as of the central schools of the departments,
+                    and of the <hi rend="italic">Normal</hi> schools of Paris; nor was he an
+                    indifferent spectator of the establishment of the <hi rend="italic"
+                    >Institute,</hi> which was at first intended to be as much immediately
+                    subservient to public instruction, as to making known the results of private
+                    study. He had also considerable influence in obtaining the adoption of a law
+                    calculated greatly to facilitate the formation of a museum of natural history on
+                    a magnificent scale. If, in the pursuit of these objects, he sometimes appeared
+                    to forget the dignity of language most appropriate to his subject, it must be
+                    remembered that he lived in times when the choice of expressions was by no means
+                    at the option of the speaker. He was once denounced by the Jacobins, merely for
+                    his silence in the assembly; but he excused himself, by pleading the absolute
+                    necessity of applying himself to chemical pursuits for the support of his
+                    family.</p>
+                <p>In 1798 his duties as a senator were terminated; but he was made a counsellor of
+                    state under the consular government, and again employed in the department of
+                    public instruction, with less liberty to pursue his own ideas than before, but
+                    with more effectual means of attaining the objects of his appointment. In this
+                    capacity he directed, in the course of five years, the establishment of twelve
+                    schools of law, and of more than thirty lyceums, afterwards called royal
+                    colleges, and three hundred elementary schools; exhibiting, in the performance
+                    of this laborious duty, the greatest possible judgment and attention in
+                    overcoming the local difficulties which perpetually occurred in the details of
+                    the undertaking, and depending on none but himself for the whole of the required
+                    arrangements. He conducted himself with great impartiality in his choice of the
+                    persons to be employed, though he sometimes found himself obliged to pay a
+                    certain degree of deference to the arbitrary power under which he acted, or even
+                    to his own political connexions. Remembering the difficulties which he had
+                    himself encountered in the early part of his career, he was particularly kind
+                    and benevolent in his intercourse with those young men to whom he was the
+                    dispenser of public munificence, in admitting them to a gratuitous
+                    education.</p>
+                <p>The great number and extent of Μ. de Fourcroy’s scientific labours may be
+                    considered as paramount to a more immediate participation in the discovery of
+                    some of the new facts which changed the aspect of the science of chemistry. His
+                    ideas were, however, often rather enlarged than profound; and he was not
+                    uncommonly somewhat too precipitate in his conclusions; but he was generally
+                    methodical in the mode of conducting his researches, and clear in relating their
+                    results. His pursuits and projects were sometimes varied a little capriciously,
+                    though he prosecuted them all with equal warmth and eloquence. He was too much
+                    the slave of public opinion for his own comfort; and even the slightest
+                    expression of censure that occurred in private society, or the most unimportant
+                    criticism that appeared in a periodical work, became, a heavy misfortune to him,
+                    and deprived him of his tranquillity for a considerable time. But the desire of
+                    universal approbation acted upon him as a strong incentive to continued
+                    exertion; and, amongst all his political and official labours, he continued his
+                    experiments, his memoirs, and his lectures, with as much eagerness as if they
+                    had constituted his whole occupation. His nerves seem ultimately to have
+                    suffered by his unremitting application, and he became subject to palpitations,
+                    which, as he waswell aware, rendered the duration of his life extremely
+                    precarious<pb break="no" facs="nls:193755593" xml:id="kp-eb0709-5593-0795"/>. At
+                    last, on the 16th of December 1809, at the age of fifty-four, as he was signing
+                    some dispatches, he exclaimed suddenly, “I am dead ;” and his words were true.
+                    It happened, that on that dayΙιis family were about to assemble for the
+                    celebration of an anniversary in which they were particularly interested; the
+                    assembly actually met, though only to mourn his loss; and their disappointment
+                    was rendered the greater, upon the receipt of some distinguished marks of the
+                    imperial favour, which arrived too late to be of any use to his spirits or to
+                    his health, but which would have been of the more value to him, as he had before
+                    been passed over, when some of his colleagues had received considerable
+                    gratifications. He had, however, been made a count of the empire, and a
+                    commander of the legion of honour, in addition to his various literary and
+                    scientific titles; and he must have had the heartfelt satisfaction of
+                    reflecting, that he had been of use to the promotion of knowledge by his
+                    experiments and his writings; to his country by the public institutions which he
+                    had established; and to many deserving individuals by the benefits which he had
+                    bestowed on them, without the remorse of having done injury to any one.</p>
+                <p>He left a son by his first marriage with Mlle. Bettinger, the Count de Fourcroy,
+                    an officer of artillery, who was afterwards killed in the campaign of 1813 in
+                    Saxony, and a daughter, Mad. Foucaud. Byhis second marriage with Mad.
+                    Belleville, the widow of Μ. de Wailly, he had no children. His two maiden
+                    sisters also survived him, though by no means in a state of affluence; but they
+                    received great kindness from his friend and assistant Μ. Vauquelin. His place at
+                    the Institute was very ably filled by Μ. Thénard; Μ. Laugier succeeded him at
+                    the Museum, and Μ. Gay Lussac at the Ecole Polytechnique.</p>
+                <p>The chief of Μ. de Fourcroy’s separate publications are, 1. <hi rend="italic"
+                    >Essai sur</hi><hi rend="italic">les Maladies des Artisans,</hi> 12. Paris,
+                    1777, translated from Ramazzini. 2. <hi rend="italic">Analyse</hi><hi
+                    rend="italic">Chimique</hi><hi rend="italic">de l’Eau</hi><hi rend="italic"
+                    >Sulfureuse</hi><hi rend="italic">d’Enghien,</hi> par Fourcroy et Laporte, 8vo,
+                    1778, applying the recent discoveries on the nature of gases to the contents of
+                    this water. 3. <hi rend="italic">Leçons Elémentaires</hi><hi rend="italic"
+                    >d’</hi><hi rend="italic">Histoire Naturelle et de Chimie,</hi> 2vols.∙8vo,
+                    1782; 5 vols. 8vo, 1789, 1794; afterwards translated by Nicholson. 4. <hi
+                    rend="italic">Mémoires et Observations de Chimie,</hi> 8vo, 1784; a collection
+                    of memoirs intended as a sequel to the elements. Most of these bad been read to
+                    the academy before the author was a member, and were destined for the <hi
+                    rend="italic">Mémoires des Savons Etrangers,</hi> They relate to the metallic
+                    carbonates, to detonations, to tests for water, to combustions in a stream of
+                    oxygen, and to the properties of several saline and metallic substances, with a
+                    useful introduction on the mode of conducting chemical experiments. <hi
+                    rend="italic">5.</hi> An edition of the <hi rend="italic">Entomologia
+                    Parisiensis of</hi><hi rend="italic">Geoffroy,</hi> 2 vols. 12mo, 1780;
+                    extracted from Geoffroy’s larger work, with the addition of two hundred and
+                    fifty new species. 6. <hi rend="italic">L’Art de connaitre et d’employer les
+                    Médicamensdans les Maladies,</hi> 2 vols. 8vo, 1785. 7. <hi rend="italic"
+                    >Méthode de Nomenclature Chimique,</hi> par de Morveau, Lavoisier, Berthollet,
+                    et De Fourcroy, 8vo, 1787. 8. <hi rend="italic">Essai sur le Phlogistique et les
+                    Acides,</hi> 8vo, 1788; from the English of Kirwan. 9. <hi rend="italic">La
+                    Médecine éclairée par les Sciences Physiques,</hi> 4 vols. 8vo, 1791, 1792; a
+                    collection of papers, with some original essays by the editor. 10. <hi
+                    rend="italic">Philosophie Chimique, ou Vérités Fondamentales de la Chimie
+                    Moderne,</hi> 1792, 1796, 1800. Reviewed by Deyeux, <hi rend="italic"
+                    >Ann.</hi><hi rend="italic">de Chim.</hi> lvi.; a work which has been translated
+                    into almost every European language, including modern Greek. 11. <hi
+                    rend="italic">Procédés pour extraire la Soude</hi><hi rend="italic">du Sei
+                    Marin,</hi> 4to, 1795. 12. <hi rend="italic">Système</hi><hi rend="italic">de
+                    Connaisances</hi><hi rend="italic">Chimiques,</hi> 10 vols. 8vo, 5 vols. 4to,
+                    1800. This vast collection of chemical information was written from beginning to
+                    end in the space of eighteen months, during an interval of leisure from public
+                    business. <hi rend="italic">Rev, Ann. Ch.</hi> xxxvi. xxxvii. Translated by
+                    Nicholson. 13. <hi rend="italic">Tableaux</hi><hi rend="italic"
+                    >Synoptiques</hi><hi rend="italic">de ChimieA</hi> fol. 1800, 1805. 14. <hi
+                    rend="italic">Abrégé de Chimie,</hi><hi rend="italic">pour ιusage des</hi><hi
+                    rend="italic">écoles vétérinaires.</hi> 15. <hi rend="italic">Chimie pour
+                    les</hi><hi rend="italic">Eames,</hi> in the <hi rend="italic">Bibliothèque des
+                    Dames.</hi></p>
+                <p>Besides his separate works, Μ. de Fourcroy was the author of more than a hundred
+                    and sixty memoirs, printed in different publications, the principal of which it
+                    will be sufficient to enumerate in a very cursory manner, adding a few of Dr
+                    Thomson’s able criticisms on the respective articles. The most important of his
+                    later researches were published jointly in his own name and in that of his pupil
+                    Vauquelin; and it is supposed that the processes were generally conducted and
+                    often suggested by Vauquelin, but that the investigations were set on foot and
+                    directed, and the results described and methodized, with inferences and
+                    theoretical reasoning, by Fourcroy.</p>
+                <p>16. In the <hi rend="italic">Memoirs of the Academy of Sciences</hi> we find an
+                    <hi rend="italic">Anatomical History of the Tendons and their Mucous
+                    Capsules,</hi> 1785,1786, 1787. 17. <hi rend="italic">On the Smoking Oil of
+                    Vitriol of Saxony, and the Concrete Salt obtained from it,</hi> 1785;
+                    modifications of the sulphurous acid. 18. <hi rend="italic">On Hepatic Gas,</hi>
+                    1786. 19. <hi rend="italic">Report on a Sand from Peru containing Copper.</hi>
+                    20. <hi rend="italic">On Azote, and its production in animals,</hi> 1787. 21.
+                    <hi rend="italic">On detecting Lead in Wines,</hi> 1787. 22. <hi rend="italic"
+                    >On Combustions in the Oxymuriatic Acid,</hi> 1788. 23. <hi rend="italic">On
+                    Metals precipitated by Ammonia,</hi> 1788. 24. <hi rend="italic">Experiments on
+                    Animal Substances,</hi><hi rend="italic">madeat</hi><hi rend="italic">the
+                    Lyceum,</hi> 1789. 25. <hi rend="italic">On a Liver changed by
+                    putrefaction,</hi> 1789. 26. <hi rend="italic">On the Colours derived by
+                    Vegetables from Oxygen,</hi> 1789. 27. <hi rend="italic">On an Ore of Lead from
+                    Roziers,</hi> 1789. 28. <hi rend="italic">On the Sulfate of Mer</hi><hi
+                    rend="italic">cury,</hi><hi rend="italic">and on Triple</hi><hi rend="italic"
+                    >Ammoniacal</hi><hi rend="italic">Salts,</hi> 1790. 29. <hi rend="italic">On the
+                    Formation of the Nitric Acid by the Action of the</hi><hi rend="italic"
+                    >Oxyd</hi><hi rend="italic">of Mercury on Ammonia,</hi> 1790. 30. <hi
+                    rend="italic">On the Combustion of Hydrogen in close vessels,</hi> by Fourcroy,
+                    Vauquelin, and Seguin, 1790. 31. <hi rend="italic">On</hi><hi rend="italic"
+                    >Banta and Strontia,</hi> Mém. Inst, vol. ii. 1797. 32. <hi rend="italic">On
+                    Phosphate of Lime and on Phospho</hi><hi rend="italic">rus,</hi> ib. 33. <hi
+                    rend="italic">On the Urinary Secretion</hi><hi rend="italic">in</hi><hi
+                    rend="italic">Horses and in</hi><hi rend="italic">the</hi><hi rend="italic"
+                    >Human Subject,</hi> ib. 34—36. <hi rend="italic">On Urinary Calculi,
+                    with</hi><hi rend="italic">two more Memoirs</hi><hi rend="italic">on the
+                    Secretion,</hi> iv. 1803. 37. <hi rend="italic">On the</hi><hi rend="italic"
+                    >Nitrous</hi><hi rend="italic">Oxyd,</hi> by Fourcroy, Vauquelin, anti Thénard,
+                    vi. 1806. 38. <hi rend="italic">On</hi><hi rend="italic smallcaps">
+                    Couĵs</hi><hi rend="italic">Milk,</hi> ib. 39. <hi rend="italic">On the Guano,
+                    used as a</hi><hi rend="italic">Manure</hi><hi rend="italic">in the South Sea
+                    Islands,</hi> ib. 40. <hi rend="italic">On Tabasheer,</hi> ib. 41. <hi
+                    rend="italic">On the Chemical Nature of Carious Wheat,</hi> ib.; the change is
+                    supposed to depend on an alteration and depravation of the gluten. 42. <hi
+                    rend="italic">On a Detonating Substance obtained from Indigo,</hi> ib∙ 43. <hi
+                    rend="italic">On Animal Sub</hi><hi rend="italic">stances</hi><hi rend="italic"
+                    >treated by Nitric Acid,</hi> ib. 44. 45. <hi rend="italic">Two Memoirs on Crude
+                    Platina and a new Metal found with it.</hi> 46. <hi rend="italic">On the</hi><hi
+                    rend="italic">effects</hi><hi rend="italic">of Germination and Fermentation on
+                    Corn and Pulse,</hi> vii. 1801. 47. In the <hi rend="italic">Memoirs of the
+                    Royal Society of Medicine for</hi> 1782-83-84, Par. 1787, we find a valuable
+                    memoir <hi rend="italic">On the Muriate of Lime,p.</hi> 267, which the author
+                    seems to have been one of the first to introduce in such cases as had usually
+                    been benefited by sea water. 48. <hi rend="italic">On Morbid Changes in some of
+                    the Animal Fluids,</hi> p. 488. 49. <hi rend="italic">On the Nature of Muscular
+                    Fibres, and on the Seat of Irritability</hi><hi rend="italic">;</hi> showing the
+                    analogy of muscular fibre to the coagulable lymph of the blood, and observing
+                    that Bordeu had very properly called the blood a fluid muscle.</p>
+                <p>Many of these earlier papers have also been printed in the <hi rend="italic"
+                    >Annales de Chimie,</hi> but they are sometimes altered, and they are mixed with
+                    others which are original. 50. <hi rend="italic">On Azote</hi> (20), vol. i.
+                    (1789). This memoir exhibits no very favourable specimen of the author’s
+                    accuracy; for he asserts in it that pure azote turns vegetable blues to green,
+                    and that it may be obtained by means of a low heat, from the oxide of manganese.
+                    51. <hi rend="italic">On the Gas in the Air Vessels of the Carp.</hi> 52. <hi
+                    rend="italic">On a Morbid</hi><hi rend="italic">Change in</hi><hi rend="italic"
+                    >the Blood,</hi> ib.; exuding from the face. 53. <hi rend="italic">On detecting
+                    Lead in</hi><pb break="no" facs="nls:193755606" xml:id="kp-eb0709-5606-0796"
+                    /><hi rend="italic">Wine</hi> (21), ib. 54. 55. <hi rend="italic">On two Ores of
+                    Lead,</hi> ii.; containing the arseniate and the phosphate. 56. <hi
+                    rend="italic">On the action of</hi><hi rend="italic">Oxyds</hi><hi rend="italic"
+                    >on Ammonia,</hi> ib.; particularly those of manganese, mercury, and tin. 57.
+                    <hi rend="italic">On the Salts of Magnesia,</hi> ib. 58. <hi rend="italic">On a
+                    Change in the Liver after Death</hi> (25), iii. 59. <hi rend="italic">On Biliary
+                    Calculi,</hi> ib.; describing the adipocere of these substances. 60. <hi
+                    rend="italic">On the Albumen of Vegetables,</hi> ib.; more properly
+                    distinguished by Proust under the name of gluten. 61. <hi rend="italic">On the
+                    Carbonate of Barita of Alston Moor,</hi> iv. 62. <hi rend="italic">On the
+                    Medical Properties of Oxygen,</hi> ib. 63. <hi rend="italic">On the Triple Salls
+                    of Ammonia and Magnesia,</hi> ib.; an elaborate and interesting paper. 34. <hi
+                    rend="italic">On Combustions in Oxymuriatic Acid Gas,</hi> ib. 65. <hi
+                    rend="italic">On the effect of Oxygen in colouring Vegetables, and on the
+                    preparation of Solid Pigments,</hi> v. 66. <hi rend="italic">On the Changes
+                    observed in the Cemetery of the Innocents,</hi> ib. Fourcroy had been appointed,
+                    together with Thouret, to superintend the removal of these remains to a remoter
+                    spot, and observed that the muscular parts were often slowly changed into a
+                    substance nearly resembling spermaceti. 67. <hi rend="italic">On a Black Sand
+                    from St Domingo,</hi> vi. 68. <hi rend="italic">On the Water of Enghein,</hi>
+                    (2), ib. 69. <hi rend="italic">Discoveries in Animal and Vegetable
+                    Chemistry,</hi> ib. 70. <hi rend="italic">On the Formation of the Nitric Acid
+                    from the Action of the</hi><hi rend="italic">Oxyd</hi><hi rend="italic">of
+                    Mercury on Ammonia,</hi> (29), ib. 71. <hi rend="italic">On the Culture of
+                    Cloves in the Isle of Bourbon,</hi> vit. 72. <hi rend="italic">Experiments on
+                    Animal Substances, made at the Lyceum in</hi> 1790, (24), ib. 73. <hi
+                    rend="italic">Second Memoir on the Substances found in the Cemetery.</hi> 74.
+                    <hi rend="italic">On the Cinchona of St Domingo,</hi> viti. X.; a very valuable
+                    analysis of a species of bark officially referred to his examination. 75. <hi
+                    rend="italic">On the Combustion of Hydrogen,</hi> (30), viii. 76. <hi
+                    rend="italic">Report on Loysers Art</hi><hi rend="italic">de la Verrerie,</hi>
+                    ix. 77. <hi rend="italic">On Bell Metal,</hi> ib. The principal object of this
+                    paper is to discover a ready mode of converting the spoils of the churches into
+                    copper coin, by fully oxidating a part of the alloy, and fusing the remainder
+                    with it; the whole of the tin becomes oxidated, and the copper is melted out in
+                    a state of purity. 78. <hi rend="italic">On Tears and Mucus,</hi> x.; a valuable
+                    investigation of the nature of the substances most generally diffused in the
+                    animal fluids. 79. <hi rend="italic">On the Sulfate of Mercury, and its
+                    combination with Ammonia,</hi> ib.; a paper containing several new facts, though
+                    mixed with some inconclusive reasoning. 80. <hi rend="italic">On the Refinement
+                    of Saltpetre,</hi> xi. 81. <hi rend="italic">On the Juice which furnishes
+                    Elastic Gum,</hi> ib. 82. <hi rend="italic">Note on the Decomposition of the
+                    Carbonic Acid Gas, effected by Mr Tennant,</hi> xii. 83. <hi rend="italic">On
+                    Triple Salts,</hi> xiii. 84. <hi rend="italic">On Animal Concretions,</hi> from
+                    the <hi rend="italic">Dictionnaire Encyclopédique.</hi> 85. <hi rend="italic">On
+                    the Brain,</hi> xvi. 86. <hi rend="italic">Report on some Artificial
+                    Pencils,</hi> xx. 87. <hi rend="italic">Extract of a Memoir on Hydrocarbonous
+                    Gas, and on the supposed Combustion of Azote,</hi> xxi.; showing that though
+                    phosphorus is soluble in azote, it is only so far burned in it as some particles
+                    of oxygen happen to be present. 88. <hi rend="italic">On Detonations by
+                    Percussion,</hi> ib. 89. <hi rend="italic">Extract of a Memoir of Proust on
+                    Odoriferous Substances,</hi> ib.: Μ. de Fourcroy proved the non-existence of any
+                    separate principle deserving the name of aroma, and showed that odorous
+                    substances in general were volatilized without any change of their nature or
+                    separation of their parts. 90. <hi rend="italic">On obtaining Pure Barita,</hi>
+                    ib.; an elegant and effectual process. 91. <hi rend="italic">On the Union of
+                    Chemistry with Pharmacy,</hi> ib. 92. <hi rend="italic">On Vitality, and on
+                    Humboldt’s Experiments,</hi> xxii. 93. <hi rend="italic">On the Action of the
+                    Sulfuric Acid on Vegetable and Animal Substances,</hi> xxiii. 94. <hi
+                    rend="italic">On the Formation of the Sulfuric Ether,</hi> ib. This paper seems
+                    to make it probable that the attraction of the acid for water tends to
+                    facilitate the formation of the ether in this instance, though the same theory
+                    cannot be applied to the action of the other acids on alcohol. 95. <hi
+                    rend="italic">On the Suļfurous Acid,</hi> xxiv. 96. <hi rend="italic">Report on
+                    some Colours for Porcelain,</hi> xxv. 97. <hi rend="italic">Letter to Humboldt
+                    an the Chemistry of Life,</hi> xxvii. 98. <hi rend="italic">Examination of Dr
+                    Pearsons Experiments on Calculi,</hi> ib.; with a general request to medical
+                    men, soliciting the communication of specimens. 99. <hi rend="italic">On
+                    Pneumatic Medicine,</hi> xxviii. 100. <hi rend="italic">On the Experiments of
+                    Mayow,</hi> from the <hi rend="italic">Dictionnaire Encyclopédique,</hi> xxix.
+                    101. <hi rend="italic">Novelties from Egypt,</hi> ib. 102. <hi rend="italic">On
+                    Congelation by Artificial Cold,</hi> ib. 102. <hi rend="italic">Letter to
+                    Giobert on Calculi,</hi> xxx. 103. <hi rend="italic">Notice of Venténat’s
+                    Vegetable System,</hi> ib. This botanist has given to an elegant genus of plants
+                    the name of Furcroea, in compliment to the merits of our author in natural
+                    history. 104. <hi rend="italic">On the Chemical and Medical History of the
+                    Urinary Secretion,</hi> xxxi. xxxii.; finding some of the peculiar substances
+                    which occur in the human subject to be identical with some of the contents of
+                    the excretions of birds, though they are wanting in the same fluid formed by
+                    quadrupeds. Μ. de Fourcroy had ascertained that some of the calculi found in
+                    animals were capable of being dissolved by a weak solution of vinegar, and he
+                    had conceived some hopes that the observation might be applied with advantage to
+                    similar diseases in the human subject. His investigations respecting calculi,
+                    however, notwithstanding their importance, were in a great measure anticipated
+                    by the acute penetration of our celebrated countryman Ur Wollaston, though his
+                    paper is not mentioned by Μ. de Fourcroy. 105. <hi rend="italic">Notice of
+                    die</hi><hi rend="italic">Chimie</hi><hi rend="italic">Optoma-thique,</hi> xxxi.
+                    106. <hi rend="italic">Account of a Memoir of Fabroni on Fermentation and on
+                    Ether,</hi> ib. 107. <hi rend="italic">Chemical Novelties,</hi> xxxii. 108. <hi
+                    rend="italic">Report on Paul’s Artificial Waters,</hi> xxxiii. 109. <hi
+                    rend="italic">On</hi><hi rend="italic">Dabit'</hi><hi rend="italic">s
+                    Ether,</hi> xxxiv. 110. <hi rend="italic">On the Identity of the Three
+                    Empyreumatic Acids with the Acetic,</hi> xxxv.; suggesting that they might be
+                    substituted for it in some economical processes. 111. <hi rend="italic">Galvanic
+                    Experiments,</hi> xxxix.; by Fourcroy, Vauquelin, and Thénard. 112. <hi
+                    rend="italic">Note in answer to Proust,</hi> xlii. 113. <hi rend="italic"
+                    >Remarks on a Memoir of the Dutch Chemists on the Carbonic Oxide,</hi> xliii.
+                    114. <hi rend="italic">On a New Phosphate found in the Bones,</hi> xlvii.; that
+                    of magnesia, not before observed. 115. <hi rend="italic">Extract of a Memoir on
+                    Platina,</hi> xlviii. 116. 117. <hi rend="italic">Two Memoirs on Crude Platina,
+                    and on a Metal found with it,</hi> xlix. 1. These researches were less
+                    successful than those of Mr Tennant, Dr Wollaston, and Mr Descorils, which were
+                    completed about the same period. 118. <hi rend="italic">Extract from Izam’s
+                    Manual of Galvanism,</hi> 1. 119. <hi rend="italic">On the Alumina of
+                    Saxony,</hi> lii. 120. <hi rend="italic">On a Fluid found in the Caoutchouc of
+                    the Cas-tilloya</hi><hi rend="italic">Elastica,</hi> lv. 121. <hi rend="italic"
+                    >On a Detonating Substance formed by the Action of the Nitric Acid on Indigo and
+                    Animal Matters,</hi> lv.; the investigations relating to indigo have since been
+                    carried further by Mr Hatchett. 122. <hi rend="italic">On the Products of Animal
+                    Substances treated with the Nitric Acid,</hi> lvi.; yielding more azote as they
+                    are more highly animalized. 123. <hi rend="italic">On the Guano,</hi> (39), lvi.
+                    124. <hi rend="italic">Experiments on Ivory, Recent and Fossil, and on the
+                    Enamel of the Teeth, in search of the Fluoric Acid,</hi> lvii.; these
+                    experiments were not completely successful, though Morichini had detected the
+                    fluoric acid in the teeth before that time, and Berzelius has found it still
+                    more recently.</p>
+                <p>Μ. de Fourcroy was for some years the editor of the <hi rend="italic"
+                    >Journal</hi><hi rend="italic">des Pharmaciens;</hi> he first suggested the idea
+                    of the publication of the <hi rend="italic">Annales</hi><hi rend="italic">du
+                    Museum d</hi><hi rend="italic">Histoire Naturelle,</hi> and contributed several
+                    valuable papers to it, as well as to the <hi rend="italic">Journal</hi><hi
+                    rend="italic">de</hi><hi rend="italic">I</hi><hi rend="italic">Ecole
+                    Polytechnique,</hi> and to the <hi rend="italic">Magazin</hi><hi rend="italic"
+                    >Encyclopédique.</hi> He was also the author of some very voluminous articles in
+                    the chemical part of the <hi rend="italic">Encyclopédie Méthodique:</hi> but the
+                    fabric of his celebrity is principally founded on the works which have already
+                    been enumerated, and which are better known to the public.</p>
+                <p>(Palissot de Beauvois, <hi rend="italic">Eloge Historique,</hi> Par. 1810;
+                    Cuvier, <hi rend="italic">Eloge,</hi> Μ. Inst. A. Math. 1810, and in Biographie
+                    Universelle, xv. 8. Par. 1816; Thomson’s <hi rend="italic">Annals,</hi> i. May
+                    <pb break="no" facs="nls:193755619" xml:id="kp-eb0709-5619-0797"/>t 1818, p.
+                    321; Aikin’s <hi rend="italic">General Biography,</hi> vol. x. 4to, Lond. 1815.)
+                    <hi rend="smallcaps">(l. l.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

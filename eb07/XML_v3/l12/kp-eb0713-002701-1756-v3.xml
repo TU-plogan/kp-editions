@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0713-1756-0027-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">LALANDE, Joseph Jerome Lefrançais de</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 13, page 27</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="4" ref="fastgeo:1243607">Earth</term>
+                    <term n="1" ref="fastgeo:1239509">Africa</term>
+                    <term n="1" ref="fastgeo:1207312">Russia</term>
+                    <term n="1" ref="fastgeo:1211813">Luxembourg</term>
+                    <term n="1" ref="fastgeo:1204558">Denmark</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="16" ref="lcsh1910:b4m03xx4h">Transits</term>
+                    <term n="3" ref="lcsh1910:b4bc3sx45">Parallax</term>
+                    <term n="8" ref="lcsh1910:b4vh5cj23">Sun</term>
+                    <term n="8" ref="lcsh1910:b4js9hb31">Motion</term>
+                    <term n="7" ref="lcsh1910:b4df6k36b">Earth</term>
+                    <term n="3" ref="lcsh1910:b4vm42z9s">Jesuits</term>
+                    <term n="2" ref="lcsh1910:b4jm23j5b">Hell</term>
+                    <term n="2" ref="lcsh1910:b4wh2df3t">Moon</term>
+                    <term n="2" ref="lcsh1910:b4xd0r400">Memoirs</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="1" ref="fasttopic:1154793">Transits</term>
+                    <term n="3" ref="fasttopic:1052918">Parallax</term>
+                    <term n="8" ref="fasttopic:1027064">Motion</term>
+                    <term n="6" ref="fasttopic:1136568">Subjectivity</term>
+                    <term n="2" ref="fasttopic:869108">Comets</term>
+                    <term n="2" ref="fasttopic:954747">Hell</term>
+                    <term n="2" ref="fasttopic:1047254">Orbits</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193201756" type="entry">
+                <p><label type="entry">LALANDE, <hi rend="smallcaps">Joseph Jerome Lefrançais
+                    de</hi></label>, a most zealous and accomplished astronomer, born at Bourg en
+                    Bresse, on the 11th of July 1732, was the son of Peter Lefrançais, and Marianne
+                    Mouchinet, his wife.</p>
+                <p>His parents were in easy circumstances, and his education being somewhat too
+                    indulgent, the natural quickness and impetuosity of his temper was too little
+                    restrained. His earliest taste, like that of most other children, seems to have
+                    been for romantic tales; and he was fond of making little stories with such
+                    materials as he possessed, but their subject was chiefly religious. He was in
+                    the habit of living much with the Jesuits, and he imbibed from them a
+                    predilection for the pulpit. At the age of ten he used to amuse himself with
+                    making sermons, and preaching them to a select congregation. The comet of 1744,
+                    however, with its long tail, took more forcible possession of his imagination,
+                    and he watched it with the most unremitting attention. Having been sent to Lyons
+                    to continue his studies under the Jesuits there, he acquired a taste for poetry
+                    and eloquence, and was then inclined to devote himself to literature and to the
+                    bar; but an eclipse of the sun recalled his attention to astronomy. His parents
+                    wished him to follow the profession of magistrate, and with that view sent him
+                    to Paris; but he accidentally lodged in a hotel where Delislc had established an
+                    observatory, and this circumstance led him to become acquainted with that
+                    professor, and to attend his lectures. These lectures were by no means popular;
+                    and the want of a more numerous audience made it easy for the professor to
+                    accommodate his instructions to the fixed attention and rapid progress of his
+                    new pupil, who became singularly attached to his master, and to all the methods
+                    which he employed. Lalande attended, however, at the same time, the
+                    physicomathematical lectures of Lemonnier, who was more in credit as a teacher,
+                    and who also took great pains for his improvement.</p>
+                <p>In the mean time he had completed his legal studies, and at the age of eighteen
+                    he was called to the bar as an advocate. His family was anxious for his return
+                    to Bourg; but just at that time Lemonnier obtained leave to nominate him as a
+                    substitute for himself on an astronomical mission to Berlin, where he was to
+                    make observations on the lunar parallax, corresponding with those which Lacaille
+                    was sent to the Cape to obtain. He was favourably received by Maupertuis, who
+                    introduced him to Frederic and his court; and was made a member of the Academy
+                    of Sciences at Berlin, when he was about nineteen.</p>
+                <p>He remained a year in that city, observing at night, and passing his mornings in
+                    the study of the integral calculus, under Euler’s directions; and his evenings
+                    in the society of Voltaire, Maupertuis, D’Argens, and other men of talents. It
+                    was not likely that his intercourse with such persons would confirm the
+                    principles which he had imbibed from the Jesuits; his moral conduct, however,
+                    does not appear to have been influenced by his change of sentiments. After his
+                    return to Bourg, he pleaded a few causes to oblige his friends; but the success
+                    of his operations at Berlin obtained him speedily a place in the Academy of
+                    Sciences at Paris; for, in 1753, before he was twenty-one, he was chosen to fill
+                    up a vacancy in the department of astronomy, which had been open for some years.
+                    He soon afterwards offended his friend Lemonnier, by rejecting too harshly an
+                    unfounded objection of that astronomer to his method of computing the effect of
+                    the earth’s ellipticity on the lunar parallax, which differed from Euler’s
+                    formula. Lacaille, wĥo drew up the report of a committee appointed on the
+                    occasion, decided in Lalande’s favour; but Lemon,nier remained dissatisfied, and
+                    would not see him for twenty years. He had some similar discussions, at a later
+                    period, with Duséjour, who was a little too severe in criticizing some of his
+                    approximations, as if they had been intended to be rigidly accurate; but their
+                    personal friendship remained unaltered.</p>
+                <p>For more than fifty years he continued to be a constant and voluminous
+                    contributor to the Memoirs of the Parisian Academy, as well as to other
+                    scientific collections. His investigations were always judiciously directed to
+                    the advancement of astronomy; but they can scarcely ever be said to have
+                    exhibited any marked features of talent, or of address, beyond what might be
+                    expected from the industry of a man of good ordinary abilities, confining
+                    himself almost entirely to one subject. He was always anxious to call the public
+                    attention to astronomy as a science, and to himself as an individual. Thus, on
+                    occasion of the <pb break="no" facs="nls:193201769" xml:id="kp-eb0713-1769-0028"
+                    />transits of Venus in 1761 and 1769, he addressed a circular letter to most of
+                    the governments of Europe, on the importance of obtaining a multiplicity of
+                    collateral observations; and he received in reply several invitations from
+                    sovereigns whose countries were more favourably situated for the purpose than
+                    France, to come and make the observations in person. He thought it unnecessary,
+                    however, to leave Paris on the occasion. He contented himself with being the
+                    first to announce to the public the result of the most satisfactory comparisons;
+                    and his countrymen seemed to give him almost the whole credit of every thing
+                    that had been done by others in conformity with his suggestions. He was much
+                    mortified, however, in not receiving from Father Hell an account of the
+                    observations made at Wardhus; and he was afterwards greatly inclined to dispute
+                    their accuracy, because Hell made the parallax smaller than he did by ⅜th of a
+                    second; whilst the mean of both results, which is 8, 6", agrees extremely well
+                    with the most modern computations; but, in the end, he did justice to the
+                    importance of Hell’s observations.</p>
+                <p>He was constantly in the habit of passing a few months every year with his family
+                    in the country, and he occasionally amused himself, in the course of these
+                    visits, with mineralogical excursions, and with chemical studies. He delivered,
+                    about the year 1758, an oration before a public assembly at Lyons, on the
+                    advantage of monarchy above every other form of government; he even adhered to a
+                    similar opinion, and expressed it openly, in times when nothing but his
+                    celebrity, as a man devoted exclusively to science, could have made it safe for
+                    him to declare it.</p>
+                <p>After having published the astronomical tables of Halley, he felt the necessity
+                    of a new collection, and determined to begin with those of Mercury, which he
+                    found the most imperfect. He pursued, for this purpose, a regular course of
+                    observations at the Palais Royal, where he used to go before sunrise, in the
+                    winter mornings, to see the planet in the twilight. Having occasion to refer to
+                    the observations recorded by Ptolemy, he found it 'necessary to refresh his
+                    acquaintance with the Greek language, which he had in some measure neglected.
+                    But, with all his labour and diligence, his tables of Mercury exhibited, in
+                    1786, an error of forty minutes in the time of a transit. The circumstance
+                    mortified him extremely; but it led to a revision of the tables, and he
+                    afterwards succeeded in making them much more perfect. It must be recollected,
+                    that, in the time of Hevelius, a transit was anxiously expected for four whole
+                    days before it occurred.</p>
+                <p>He next undertook to improve the tables of Mars and Venus. His tables of these
+                    planets were, on the whole, less accurate than those of Mercury, though more
+                    exempt from great occasional errors. He had computed their perturbations in the
+                    Memoirs of the Academy, but he never thought it worth while to compare his
+                    formulas with observation. The irregularities of Jupiter and Saturn were much
+                    more discouraging; he was obliged to confine himself, in discussing them, to the
+                    most modern observations; and he did not appear sufficiently to appreciate the
+                    empirical equations of Lambert, though they greatly diminished the errors of
+                    Halley’s tables.</p>
+                <p>When Maraldi had given up the management of the <hi rend="italic"
+                    >Connaissance</hi><hi rend="italic">des Tems,</hi> Lalande and Pingré were
+                    candidates for the appointment. Lalande succeeded in obtaining it; but he had
+                    the modesty to confess that the work would have been more accurately performed
+                    by Pingré, if his connection with the church had not, according to the rules of
+                    the academy, incapacitated him for the situation. He made the work, however,
+                    much more popular, as a miscellaneous publication, than Pingre was likely to
+                    have done; and he was less prejudiced than Pingré in the choice of his tables.
+                    He remained editor of the work from 1760 to 1775; it was conducted by Jeaurat
+                    from 1776 to 1787, and from 1788 to 1793 by Méchain. Lalande then undertook it
+                    once more, Méchain being engaged in some measurements with Delambre, and the
+                    academy having been abolished, and its members dispersed.</p>
+                <p>Lalande had been disposed to call in question the assertion of Newton and of
+                    Voltaire, that no cometcould possibly come into contact with the earth; and he
+                    had proved that the effect of perturbations at least rendered their reasonings
+                    somewhat inconclusive. A short memoir on the subject, which was to have been
+                    read at a public sitting of the academy, was accidentally omitted, as not very
+                    important, from the pressure of other business. This circumstance alarmed the
+                    sensibility of the public of Paris, who fancied that Lalande had foretold some
+                    dreadful catastrophe, which the government was afraid to announce; and when the
+                    memoir was published, they insisted that its contents had been modified, to
+                    lessen the alarm. Duséjour made some objections to the author’s reasoning; but
+                    the whole affair was soon forgotten.</p>
+                <p>A memoir on the length of the year was honoured with a prize by the academy at
+                    Copenhagen. Delambre, however, thinks the determination not so good as the
+                    earlier one of Lacaille, though much better than Mayer’s, which was more
+                    commonly adopted. Lalande took great pains also with the subject of the sun’s
+                    rotation, employing in his computations of the places of the spots an easy
+                    approximation, instead of Duséjour’s more laborious methods; but being careful
+                    to compare with each other the most distant observations of the same spot. From
+                    the existence of this rotation he thought it reasonable to infer that the sun
+                    had also most probably a progressive motion, which would naturally be produced
+                    by any single impulse capable of occasioning a rotation. He had some discussions
+                    with Dr Maskelyne respecting the mode of computing the equation of time, in
+                    which Maskelyne appears to have had the advantage.</p>
+                <p>In the year 1762, Delisle resigned in his favour the professorship of astronomy
+                    in the College de France, which he kept for nearly forty-six years. He allowed
+                    the most attentive of his pupils to board with him at a cheap rate, doing his
+                    utmost on all occasions to promote their success in their studies and in life.
+                    Thus he brought forward Méchain and Dagelet, and afterwards his own nephew, who
+                    completed, with so much diligence and accuracy, the Description of the Heavens,
+                    which he had himself projected, and which had been begun by Dagelet before his
+                    unfortunate expedition. He was made a fellow of the Royal Society of London in
+                    1763.</p>
+                <p>His health was generally good, though his constitution was delicate. He had an
+                    attack of jaundice in 1767, which was attributed to intense application; but he
+                    completely recovered from its effects by an attention to diet, and by the use of
+                    horse exercise. He then intended to leave all his property to the academy; but
+                    he afterwards gave up his family estates to his relations, and lived on his
+                    appointments only, refraining from all kinds of luxuries, in order to be the
+                    more able to do acts of liberality to his friends, whom he always sought to
+                    oblige in the most delicate manner, and often without making his services known.
+                    He had a pension from Russia in the time of the Empress Catherine; it was
+                    suspended by Paul, but restored in 1805 by Alexander.</p>
+                <p>He was not particularly successful as an observer, but used to refer to the works
+                    of his contemporaries, Bradley and Lacaille, though not exactly, according to
+                    the expression of one of bis biographers, “as Ptolemy had done to those of
+                    Hipparchus ;” for Hipparchus must have been dead two centuries before Ptolemy
+                    was born. On the occasion of the disappearance of the ring of Saturn in 1774, he
+                    went to Béziers, in order to profit by the superior serenity of the air there,
+                    the climate of that country <pb break="no" facs="nls:193201782"
+                    xml:id="kp-eb0713-1782-0029"/>being supposed to be the best in France; but his
+                    observations were less valuable than others made at Paris and in London.</p>
+                <p>In the year 1798, he undertook an astronomical expedition to Gotha. He had once
+                    meditated an aerostatical voyage there; but his companion took care that their
+                    dangers should terminate in the Bois de Boulogne. He was received with much
+                    interest at Gotha by an assembly of astronomers that was collected from
+                    different parts of Germany. The object of the congress was perhaps not unmixed
+                    with personal vanity; but it had no political design to promote, unless the
+                    general adoption of the new French measures could be considered as a political
+                    object. Lalande was by no means a revolutionist; he was sufficiently free from
+                    any prejudices of education; but he openly condemned the political opinions of
+                    the day; and, in 1792, he even exposed himself to great personal danger in order
+                    to save the life of Dupont de Nemours, after the 10th of August; and he was
+                    equally useful to some of the clergy, whom he concealed in the buildings of the
+                    Observatory at Mazarin College, making them pass for astronomers. He had also
+                    the courage to publish accounts of Lavoisier and Bailly, a short time after
+                    their deaths.</p>
+                <p>The attentions of the German astronomers gave him sincere pleasure. He was at all
+                    times extremely sensible to compliments, and even to flattery, though very
+                    regardless of satire. He used to call himself a sponge for praise, and an
+                    oil-cloth for censure. He professedly believed himself endowed with all the
+                    virtues, modesty not excepted. He was so fond of notoriety that he once
+                    undertook to exhibit the variations of the light of Algol to the public of Paris
+                    on the Pont Neuf; but the police interfered, thinking it right to prevent a
+                    disorderly assemblage.</p>
+                <p>Though Lalande can only be classed in the second rank as an inventive astronomer,
+                    or a mathematician, he certainly stands in the first as a professor and a
+                    popular writer. His methods of calculation have in most instances been already
+                    superseded by others more convenient or more exact; those which related to
+                    particular phenomena for want of sufficient precision, and those which were more
+                    general for want of being readily applicable, without continual repetition, to a
+                    sufficient number of concurring observations. It has been observed, that he may
+                    perhaps have been often too zealous in the pursuit of his favourite objects; but
+                    that, if he had possessed more circumspection, and less vivacity of character,
+                    he would have been more exempt from criticism, yet would have rendered less
+                    important services to science and to mankind.</p>
+                <p>His last illness was of a consumptive nature, and he seems to have accelerated
+                    its termination by attempting too much to harden himself. He died on the 4th of
+                    April 1807, nearly seventy-five years old, and in the perfect possession of his
+                    faculties. His last words, when he dismissed his attendants to rest, were, “I
+                    have need of nothing more,” and in a few minutes he was dead. Had he survived a
+                    few hours, he would have received a letter from Dr Others, announcing the
+                    discovery of a new planet, for which that distinguished astronomer afterwards
+                    received the fourth prize medal upon the institution founded by Lalande in 1802,
+                    for the most important astronomical discovery made in the course of the
+                    year.</p>
+                <p>Of his voluminous and diversified publications a simple enumeration of the
+                    subjects will perhaps be thought too long for perusal, though not improper for
+                    insertion in a work which ought to comprehend a complete literary history or
+                    bibliography of the sciences.</p>
+                <p>1. We find, in the <hi rend="italic">Memoirs of the Parisian Academy of
+                    Sciences</hi> for 1751, an account of his Observations at Berlin, which also
+                    appears in the <hi rend="italic">Memoirs of Berlin</hi> for 1749, and a Latin
+                    translation in the <hi rend="italic">Acta</hi><hi rend="italic">Eruditorum</hi>
+                    for August 1752. 2, 3. 1752-53, An Essay on the Lunar Parallax. 4. 1754,' A
+                    Transit of Mercury. 5. Elements of Mars. 6. 1755, Longitude of Berlin. 7. Lunar
+                    Eclipse. 8. 1756, Transit of Mercury. 9. Lunar Parallax continued. 10. 1757,
+                    Observations at the Luxembourg. 11. Transit of Venus. 12. Secular Equations and
+                    Mean Motions. 13. A Gnomonical Problem. 14. Meridian Altitudes. 15. 1758,
+                    Perturbations of Mars by Jupiter. 16. Motions of the Planetary Nodes. 17. Change
+                    of Latitudes of the Stars. 18. 1759, Comet of 1682 and 1759. 19. 1760, Sun’s
+                    Diameter. 20. Perturbation of Venus by the Earth. 21. Eclipse of 1760. 22. 1761,
+                    Solar Parallax. 23. Interpolation. 24. Transit of Venus Observed. 25. Solar
+                    Parallax. 26. Transit Computed. 27. Observed at Tobolsk. 28. In Denmark. 29.
+                    Compasses, and the Variation. 30. Perturbation of Mars by the Earth. 31.
+                    Planetary Nodes. 32. 1762, Equation of Time. 33. Obliquity of the Ecliptic. 34.
+                    Horary Motion in Transits. 35. Nodes of Jupiter’s Satellites. 36. Diameter of
+                    Venus. 37. Comet of 1762. 38. 1763, Eclipses of Jupiter’s Satellites. 39. Solar
+                    Eclipses for a Spheroid. 40. Triangles, Rectilinear and Spherical. 4L 1764,
+                    Transit of 1769. 42. Lunar Libration. 43. 1765, Motion of Saturn. 44. Eclipses
+                    of Jupiter’s Satellites. 45. The Third Satellite. 46, 47. 1766, Theory of
+                    Mercury. 50. 1768, Opposition of Jupiter. 51. Transit of 1769. 52. Orbit of
+                    Saturn. 53. 1769, Lunar Observations. 54. Comet of 1769. 55. Transit of Venus.
+                    56. A Solar Eclipse. 57. Transit of Venus. 58, 59, 60. Comparisons of
+                    Observations. 61. 1770, Solar Parallax. 62. Sun’s Diameter. 63. Appearances in
+                    the Transit. 64. Chappe’s Observation. 65. 1771, Theory of Mercury. 66.
+                    Astronomical Observations. 67. Solar Parallax. 68. 1772, Transit of Venus. 69.
+                    Tides. 70. 1773, Comets. 71. Saturn’s Ring. 72. 1774, An Opposition of Saturn.
+                    73. Saturn’s Ring. 74. Disappearance of the Ring, at Beziers. 75. 1775,
+                    Opposition of Mars. 76. Elements of Mars. 77. Same Latitudes and Longitudes. 78.
+                    Opposition of Jupiter and Saturn. 79. An Eclipse of Saturn. 80. 1776, Spots and
+                    Rotation of the Sun. 81. 1777, Observations at Paris and Madrid. 82. An
+                    Observation of Mercury. 83. Longitude of Padua. 84. The Solar Spots, continued.
+                    85. 1779, Third Satellite of Jupiter. 86. Theory of Venus. 87. Herschel. 88.
+                    1780, Obliquity of the Ecliptic. 89. Precession of the Equinoxes. 90. Fourth
+                    Satellite of Jupiter. 91. 1782, Duration of the Year. 92. A Transit of Mercury.
+                    93. 1783, An Eclipse of the Sun. 94. Inclination of the Orbits. 95. 1784,
+                    Elements of Jupiter. 96. Ellipticity of the Earth. 97. 1785, Motion of Venus.
+                    98. 1786, Secular Equations of the Sun and Moon. 99. Mass of Venus. 100.
+                    Equation of Mars. 101. Mars in Quadrature. 102. Orbit of Saturn. 103. Theory of
+                    Mercury, fifth Memoir. 104. Satellites of Jupiter. 105. Fifth of Saturn. 106.
+                    1787, Fernel’s Measurement. 107. Herschel’s. 108. Jupiter’s Third Satellite.
+                    109. Conjunction of Venus. 110. Motion of Saturn. 111. Inclination of Saturn.
+                    112. Answer to Lemonnier, on Lunar Observations. 113. Solar Eclipses of 1787.
+                    114. Eclipse of 1666. 115. Caspian Sea. 116. 1787, Eclipse of 1765. 117. 1788,
+                    Eclipses applied to Longitudes. 118. Conjunction of Venus. 119. Lunar Parallax,
+                    fourth Memoir. 120. Moon’s Diameter. 121. Jupiter’s Fourth Satellite. 122.
+                    Satellites of Saturn. 123. Light of Algol. 124. Height of the Seine. 125. 1789,
+                    Epacts. 126. Observations of 8000 Stars, first Part. 127. Motion of Venus. 128.
+                    Astronomical Observations. 129. Observation of Mercury. 130. Tides. 131.
+                    Catalogue of Stars, second Part. 132. 1790, Disappearance of Saturn’s Ring. 133.
+                    Interior of Africa. 134. <hi rend="italic">Mém. Inst.</hi> i. 1798, Orbit of
+                    Mercury. 135. ii. 1797, Occultations of Aldebaran. 136. Solar Eclipse of 1706.
+                    137. Solar Eclipse of 1748. 138.</p>
+                <pb break="no" facs="nls:193201795" xml:id="kp-eb0713-1795-0030"/>
+                <p>V. 1803, Zodiac at Strasburg. 139. Eclipses calculated. 140. Opposition of Mars.
+                    141, 142. Motion of Venus. 143. Motion of Mercury. 144. vi. 1806, A Transit of
+                    Mercury.</p>
+                <p>145. The earliest of his separate publications appear to have been two little
+                    volumes, intended for provincial circulation only, entitled Etrennes
+                    Historiques, 24. ∙ Par. 1755-56. 146. Another little article of his
+                    miscellaneous works was a Discours qui a remporté le Prix de l’Academie de
+                    Marseille en 1757, Mars. 1757. The subject was the spirit of justice, as tending
+                    to the glory and the stability of a government. 147. We have then Three Letters
+                    on Platina, <hi rend="italic">Jour, des Sav.</hi> 1758, Jan. Jun. 1760, Feb.
+                    148. Letter on a new Sun Dial, <hi rend="italic">Jour. Sax.</hi> Jun. 1758, ii.
+                    439; the lines being invisible when the sun does not shine.</p>
+                <p>149. Tables Astronomiques de Halley, 2 vols. 8. Paris, 1759. Containing several
+                    new tables, and an elaborate history of the comet of 1759, of which the author
+                    had computed the perturbations, according to the theory of Clairaut. 150.
+                    Connaissance des Terns, 16 vols. 8vo, Par. 1760-1775; 14 vols. 1794-1807. This
+                    work contains, besides, the Ephemeris, an important selection of the most useful
+                    astronomical papers. On one occasion, for temporary reasons, these papers were
+                    published in a separate volume. 151. Exposition du Calcul Astronomique, 8.
+                    Paris, 1762; a companion to the almanac.</p>
+                <p>152. Oraison funèbre de Maurice Comte de Saxe, 8. Par. 1760. 153. Art du
+                    Papetier, f. Par. 1761. 154. Parcheminier, 1762. 155. Cartonnier, 1764. 156.
+                    Cha-moiseur, 1764. 157. Tanneur, 1764. 158. Mégissier,</p>
+                <p>1765. 159. Maroquinier, 1766. 160. Hengroyeur, 1766. 161. Corroyeur, 1767.</p>
+                <p>163. Letter on Delisle’s Calculations, <hi rend="italic">Jowm. Sav.</hi> Apr.
+                    1761. 164-5. In the 52d volume of the Philosophical Transactions for 1761 and
+                    1762, we find several papers of Lalande; two on the transit of Venus; 166. one
+                    on Norwood’s Measurement of the Earth; 167. An Account of a Comet; and, 168. An
+                    Account of Occultations of the Fixed Stars by the Moon. 169. In the Transactions
+                    for 1769, another paper on the Transit of Venus.</p>
+                <p>170. Discours sur la Douceur, 1763. This essay was intended as a sort of exercise
+                    for the author’s own moral improvement; and he made it a rule to read it over
+                    every year, in order to assist him in commanding his temper. He may possibly
+                    have derived some little advantage from the practice, but he never acquired
+                    enough of self-command to refrain from wounding the feelings of another, by any
+                    pointed remark that might suddenly occur to him.</p>
+                <p>171. Astronomie, 2 v. 4. Paris, 1764; 3 v. 1771, 1792; vol. iv. 1780, not
+                    reprinted. This compilation far excelled in utility all former works of the
+                    kind, and will always be considered as exhibiting the most perfect picture of
+                    the science, such as it existed from 1760 to 1790, with all the details of
+                    practice and computation. Lemonnier called it, with some truth, the great
+                    newspaper of astronomy. The Treatise on the Tides, which constitutes the fourth
+                    volume, is chiefly a collection of observations, not sufficient even for the
+                    basis of a complete theory: an abstract of it may be found in the <hi
+                    rend="italic">Mém. Acad.</hi> Dijon, ii. 1774. 172. Figure du Passage de Venus
+                    de 1769, Paris, 1764; together with an explanatory memoir. 173. On the Equation
+                    of Time, <hi rend="italic">Recueil pour les Astronomes,</hi> 1765.</p>
+                <p>174. He undertook the mathematical department of the Journal des Savans, from
+                    1766. 175. On the Coins of Piedmont, <hi rend="italic">Jowm. Sav.</hi> Dec.
+                    1767. 176. Voyage d’un François en Italie, 8 vols. 12mo: a correct guide and
+                    faithful repertory for travellers, containing some scientific information,
+                    besides maps of the principal cities. 177. Dissertation sur la Cause de
+                    l’Elévation des Liqueurs dans les</p>
+                <p>Tubes capillaires, 8. Par. 1770. 178. A Dictionary of Astronomy, in the <hi
+                    rend="italic">Encyclopedic d’Yverdun,</hi> 56 v. 4. 1770-6. 179. Abrégé
+                    d’Astronomie, 8. Par. 1773, 1795; translated into various languages. 180. Notes
+                    on the Mondes Primitifs of Fontenelle, 24. Paris; often reprinted. 181. Notes on
+                    Bouguer’s Traité de Navigation. 182. Mémoire sur le Passage de Venus, 4. Par.
+                    1773; with a life of Dr Bevis. 183. Reflexions sur les Comètes qui peuvent
+                    approcher de la terre, 8. Par. 1773. 184. Lettre à Cassini sur l’Anneau de
+                    Saturne, 8. Toulouse, 1773; a violent attack, which was speedily suppressed by
+                    the author. 185. Ephemerides, 3 vols. vii. viii. ix. Paris, 1774, 1792. This was
+                    a continuation of Lacaille’s computations, containing also some detached
+                    articles of importance; for instance, Hampstead’s Catalogue, in the eighth
+                    volume. 186. A Celestial twelve-inch Globe, Paris, 1775.</p>
+                <p>187. The astronomical articles in the Supplement of the Old Encyclopédie, about
+                    1776; those of D’Alembert, in the body of the work, having been little more than
+                    extracts from Lemonnier. 188. To the Encyclopédie Méthodique Lalande contributed
+                    a Dictionary of Astronomy, making about one third of the Mathématiques, 3 vols.
+                    4to. They were principally extracted from his own astronomy; and the article
+                    Cadran, which is very elaborate, was originally intended for a fifth volume of
+                    that work.</p>
+                <p>189. Traité des Cannaux de Navigation, f. Paris, 1778. This volume is principally
+                    descriptive, especially of the Canal of Languedoc. 190. Letter on the Variation
+                    of the Compass, as connected with the Temperature of the Earth, <hi
+                    rend="italic">Journ. Sav.</hi> 1780. Sept. 191. Leçons d’Astronomie de Lacaille,
+                    8. Par. 1780; with some Notes. 192. Astronomie, in <hi rend="italic"
+                    >Dibliotldque des Dames,</hi> 12. Par. 1786, 1795.</p>
+                <p>193. Letter on the name of the planet Herschel, <hi rend="italic">Journ.
+                    Sav.</hi> 1789; objecting to “Uranus.” 194. Description d’une Machine de Μ.
+                    Ramsden, 4. Paris, 1790; the dividing engine, translated. 195. Account of nine
+                    Lalandes, <hi rend="italic">Journ. Sαv.</hi> Nov. 1791. 196. Journey to Manheim
+                    in 1791, <hi rend="italic">Journ. Sav.</hi> 1791. 197. On the Zodiac at
+                    Strasburg, <hi rend="italic">Journ. Sav.</hi> 1791.</p>
+                <p>198. Abrégé de Navigation, 4. Paris, 1793; with a full catalogue of works
+                    relating to the subject, and many useful tables. 199. A Journey to Mont Blanc,
+                    performed in 1796, <hi rend="italic">Mag. Encycl.</hi> ii. iv. 433. 200.
+                    Histoire Celeste Française, i. 4. Par. 1801; containing the catalogue of stars
+                    begun by Dagelet, and continued by Michel Lefrançais Lalande, the nephew of the
+                    editor. 201. Continuation of Montucla’s <hi rend="italic">Histoire des
+                    Mathématiques,</hi> 2. v. 4. Par. 1802; making the third and fourth of that
+                    elaborate work, but not equally well digested and discussed with the original
+                    part. 202. Tables de Logarithmes, 18. Par. 1802. 203. Four Memoirs on Ceres, <hi
+                    rend="italic">Journ. Phys.</hi> 1802. 204. Some articles in the <hi
+                    rend="italic">Nécrologie des Hommes Célèbres.</hi> He wrote, at different times,
+                    Accounts of the Lives of Vicq d’Azyr, Delisle, Commerson, Verron, Me. Lepaute,
+                    and Dubocage; and he had undertaken a life of Bucholz, a short time before he
+                    died. Commerson had complimented him by making a genus Lalandia, transgressing
+                    in his favour the classical canon of the botanists, to reserve such honours for
+                    the reward of merit in their own department.</p>
+                <p>205. Bibliographie Astronomique, 4. Paris, 1803; with a history of the Progress
+                    of Astronomy from 1781 to 1802. This useful volume was printed at the public
+                    expense, under the auspices of François de Neufchateau. The author possessed a
+                    very extensive collection of astronomical books, and it has been regretted that
+                    he did not insert a more complete account of some of the most rare; but the work
+                    is already sufficiently voluminous. Some other productions are attributed to him
+                    in the <hi rend="italic">Dictionnaire des Anonymes;</hi> but they would probably
+                    have added little to his fame had they been acknowledged.</p>
+                <p>(Delambre, <hi rend="italic">Mém. Inst,</hi> viii. 1807. H. P. 30; and
+                    Biographie<pb break="no" facs="nls:193201808" xml:id="kp-eb0713-1808-0031"/>
+                    Universelle, xxiii. 8vo, Paris, 1819. Ma. C. de Salm, <hi rend="italic"
+                    >Magas.</hi><hi rend="italic">Encycl.</hi> 1810, ii. p. 288; including a sketch
+                    by himself, written in 1804.) <hi rend="smallcaps">(l. l.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

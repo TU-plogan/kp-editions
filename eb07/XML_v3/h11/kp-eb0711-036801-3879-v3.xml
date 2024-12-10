@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0711-3879-0368-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">HIMALEH, or Himalaya</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 11, page 368</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="4" ref="fasttopic:916820">Europeans</term>
+                    <term n="2" ref="fasttopic:957175">Hindus</term>
+                    <term n="1" ref="fasttopic:839044">British</term>
+                    <term n="1" ref="fasttopic:947546">Greeks</term>
+                    <term n="1" ref="fasttopic:969307">Indians</term>
+                    <term n="40" ref="fasttopic:931268">Foot</term>
+                    <term n="18" ref="fasttopic:1121907">Snow</term>
+                    <term n="14" ref="fasttopic:851789">Chains</term>
+                    <term n="12" ref="fasttopic:996970">Levellers</term>
+                    <term n="12" ref="fasttopic:996964">Leveling</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="5" ref="fastgeo:1240495">Asia</term>
+                    <term n="2" ref="fastgeo:1210276">India</term>
+                    <term n="2" ref="fastgeo:1239786">America</term>
+                    <term n="1" ref="fastgeo:1239717">Alps</term>
+                    <term n="1" ref="fastgeo:1206073">China</term>
+                    <term n="1" ref="fastgeo:1211700">Mexico</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="40" ref="lcsh1910:b4319s59c">Foot</term>
+                    <term n="24" ref="lcsh1910:b48s4jt2v">Heights</term>
+                    <term n="1" ref="lcsh1910:b4mc8rn70">Snow</term>
+                    <term n="14" ref="lcsh1910:b4rx93f63">Chains</term>
+                    <term n="12" ref="lcsh1910:b4bz61762">Leveling</term>
+                    <term n="2" ref="lcsh1910:b44q7qq38">Hindus</term>
+                    <term n="1" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="1" ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term n="1" ref="lcsh1910:b4ms3k877">Research</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193643879" type="entry">
+                <p><label type="entry">HIMALEH, or <hi rend="smallcaps">Himalaya</hi></label>
+                    (literally the <hi rend="italic">Seat of Snow),</hi> sometimes <hi
+                    rend="smallcaps">Himachal</hi><hi rend="italic">(Snowy Mountains),</hi> are the
+                    names given to a vast range of lofty mountains which separates India from the
+                    two Thibets, and forms the highest part of that extended chain which was known
+                    to the ancient writers of Europe by the names of <hi rend="italic">Imaus</hi> or
+                    <hi rend="italic">Emodus,</hi> which is, in all probability, a corruption of the
+                    Sanscrit name; as <hi rend="italic">“</hi><hi rend="italic">Imaus,"</hi> says
+                    Pliny, “in the language of the natives, signifies <hi rend="italic"
+                    >snowy!</hi></p>
+                <p>If we consider the Himalaya as extending from the defile near Cashmere through
+                    which the Setlij or Sutledge flows, to that through which the Brahmapootra
+                    passes, the length will be, from north-west to south-east, nearly 1000 British
+                    miles; the western extremity being about the latitude 32°, and longitude 77°;
+                    the eastern about the latitude 24°, and longitude 95°. Throughout the whole of
+                    this extent their snow-capt summits present a succession of peaks of great but
+                    unequal elevation, some of which, in the fine pure atmosphere of Hindustan, are
+                    visible at an almost incredible distance. “The southernmost ridge of the Bootan
+                    Mountains,” says Major Rennell, “rises near a mile and a half perpendicular
+                    above the plains of Bengal, in a horizontal distance of only fifteen miles; and,
+                    from the summit, the astonished traveller looks back on the plains, as on an
+                    extensive ocean beneath him.” Beyond is a chain of peaks still higher, which, he
+                    adds, “are visible from the plains of Bengal, at the distance of 150 miles, and
+                    are commonly covered with snow.” From these expressions, and from his conclusion
+                    of their being “in point of elevation equal to any of the mountains of the old
+                    hemisphere,” it is quite clear that this celebrated geographer had no adequate
+                    idea of their real height.</p>
+                <p>On the northern termination of the plains of Hindustan is a narrow belt of a
+                    thickly wooded, swampy country, called Terrecana, between which and the base of
+                    the great Himalaya chain lies a broad tract of a rugged, mountainous region,
+                    from sixty to a hundred miles in width, full of fertile and well-peopled
+                    valleys, and once divided into a number of petty states, which are now mostly
+                    absorbed by the British or the Chinese empires; the latter at least laying claim
+                    to some of the hilly countries to the south of the Himalaya, as tributary
+                    states, to which our recent conquests have brought us into immediate contact.
+                    Beginning at the westward, the principal of these states were Serinagur, Almora,
+                    Kemaoon, Gorkah, Nepaul, and Bootan: all of these are parts of the mountainous
+                    belt, and their towns and fortresses occupy the summits of hills rising to the
+                    height of from 4000 to 6000 feet; and many of the shoulders or abutments which
+                    connect these hills with the lofty range of Himalaya are from 8000 to 14,000
+                    feet high. The great extent of these mountain masses produces a greater degree
+                    of cold in winter than would probably be found in the same degree of latitude in
+                    Europe at an equal elevation; and, as will presently appear, a greater degree of
+                    heat also. In the middle of winter the snow covers the summits of those inferior
+                    hills, and falls sometimes even in the interjacent valleys; but the climate, in
+                    every part of this mountainous region, is delightfully fine, and almost all the
+                    species of European vegetables are found in a native state, and growing in the
+                    greatest luxuriance. In fact, since we have had free access to the base of the
+                    Himalaya range, it has been discovered that the general character of the
+                    vegetation corresponds very nearly with that of the middle and southern parts of
+                    Europe, and that a very large portion of the trees and shrubs of the latter are
+                    indigenous in the former; such as pines of various species,oaks,
+                    chestnuts,horse-chestnuts, walnuts,birch, the hazel, the raspberry, gooseberry,
+                    bilberry, barberry, and strawberries. Many of the flowering shrubs, and the
+                    humbler plants, as the polyanthus, anemone, and ranunculus, the common and lemon
+                    thyme, mint, sweet basil and a great variety of other aromatic plants, clothe
+                    the sides of the hills, and shed their fragrant odours around. Moorcroft
+                    mentions the furze <hi rend="italic">(Ulex European,</hi> which was supposed not
+                    to be met with out of Europe. These hills may be considered as the roots and
+                    branches of the great stem, all of them connected more or less remotely with it,
+                    and appearing at a distance, when seen from the plains of Hindustan, as a
+                    succession of inferior ranges; but, on entering the country, “the whole,” says
+                    Mr Fraser, “becomes a confused and chaotic assemblage of most rugged mountains,
+                    huddled into masses and peaks, and running into ridges which defy
+                    arrangement.”<note anchored="true" place="bottom" type="authorial"><p><hi
+                    rend="italic">Journal of a Tour through part of the Snowy Range of the Himalaya
+                    Mountains,</hi> 4to, Lond. 1820.</p></note></p>
+                <p>The highest peaks of the Himalaya Mountains had long been noticed before it was
+                    known or even conjectured what their absolute height might be above the level of
+                    the sea. All the information respecting them that could be obtained was derived
+                    from Hindu pilgrims, who annually flocked to pay their devotions at the shrine
+                    of some deity presiding over the various wild and awful features of these
+                    elevated regions. To a people gifted, like the Hindus, with strong imaginative
+                    faculties, the snow-capt summits of the Himalaya Mountains, and the numerous
+                    torrents issuing from their bosom, which, when united into one grand stream,
+                    carried fertility over their extensive plains, could not fail to become so many
+                    varied objects of their veneration. From the accounts of these people, the main
+                    branch of the Ganges was represented to issue from a chasm or cavern in the side
+                    of the mountains, to which, from its supposed resemblance to the mouth of an
+                    animal sacred in the ritual of their faith, was given the name of the <hi
+                    rend="italic">Cow’s Mouth.</hi> This cavern was supposed to perforate the great
+                    chain of mountains, and the source of the Ganges to be in a lake on the other
+                    side, considerably to the eastward of the Cow’s Mouth. This lake was named
+                    Manasarovara, and was held sacred; and, under the impression of the relation of
+                    pilgrims being correct, the source and passage of the Ganges were laid down in
+                    the most improved maps of Hindustan.</p>
+                <p>The authority, however, on which this hypothesis rested not being deemed
+                    satisfactory, it was determined by the Bengal government that an expedition
+                    should be undertaken to ascertain how the fact stood; and Captains Raper and
+                    Hearsay, accompanied by Captain Webb, assistantsurveyor, set out in the spring
+                    of the year 1808, in order to clear up this point; and from their observations,
+                    and those of more recent travellers, it has now been ascertained, that the main
+                    sources of the Ganges are all on the southern side of the great Himalaya chain;
+                    and that, reckoning from the westward, they consist of, 1. the Jumna (whose two
+                    great branches are the Girree and the Touse); 2. the Bhagiruttee, whose source
+                    is near the celebrated spot called Gangoutri, where the Cow’s Mouth is supposed
+                    to be situated; and, 3. the Alkananda, with its numerous tributary streams, the
+                    last of which rivers is now acknowledged as the main branch of the Ganges.</p>
+                <p>The object of Captains Raper and Hearsay was to penetrate as far as possible to
+                    the sources of the two great branches, the Bhagiruttee and the Alkananda∙ With
+                    great difficulty and fatigue they approached near enough to Gan- goutri to
+                    enable them to conclude, from the contraction of the stream, and the stupendous
+                    height and unbroken sides of the Himalaya Mountains, that “there can be no doubt
+                    but the source of that branch is situated <hi rend="italic">in</hi> the snowy
+                    range;” and that “any other hypothesis can scarcely be reconciled to
+                    hydrostatical principles.” Not quite satisfied, however, with this conclusion,
+                    they dispatched one of those <pb break="no" facs="nls:193643892"
+                    xml:id="kp-eb0711-3892-0369"/>fanatics of India, known by the name of Fakirs,
+                    who deem a pilgrimage to Gangoutri to have the effect of redeeming the person
+                    performing it from all the troubles of this life, and of ensuring him a happy
+                    passage through all the stages of transmigration which he is destined to undergo
+                    in another, to push his inquiries farther into the mountains. This man reported,
+                    on his return, that, a few miles beyond Gangoutri, the river was lost under vast
+                    beds of snow, and that a rock in the midst of the rushing stream resembled the
+                    body and head of a cow; and here the valley was terminated by the steep and
+                    wall-sided mountain.</p>
+                <p>The party next set out in order to trace the other great stream of the Ganges,
+                    the Alkananda, and succeeded in reaching a spot four or five miles beyond the
+                    temple of Bhadrinath, where the stream was narrowed to eighteen or twenty feet,
+                    and where “the north faces of the mountains were completely covered with snow
+                    from the summit to the base.” A little way beyond this place was a cascade named
+                    Barsiè d’Hara, where the Alkananda (or, as sometimes called, the Vishnuganga)
+                    was entirely concealed under immense heaps of snow, beyond which no traveller
+                    has been known to pass. Yet this place was estimated to be still distant about
+                    twenty miles from the southern front of the Himalaya chain. In these lofty
+                    regions, beyond Bhadrinath, stands the populous town <hi rend="italic">of</hi>
+                    Manah, consisting of two hundred houses; the inhabitants of a different race
+                    from the generality of the mountaineers; and, from their broad faces, small
+                    eyes, and olive-coloured complexions, evidently of a Tartar origin. Seven
+                    hundred villages are said to be attached to the temple of Bhadrinath, whose
+                    sanctity may be estimated by the fact of no less than 40,000 pilgrims, chiefly
+                    fakirs, having visited it that year.</p>
+                <p>Not less holy in the estimation of the Hindus, though less frequented from the
+                    difficulty of access, is the source of the main stream of the Alkananda, named
+                    the Cali-gunga, near which is situated the temple of Kedar-nath, at an elevation
+                    of 12,000 feet nearly above the level of the sea. This place was not visited by
+                    Messrs Raper and Hearsay, but its height was ascertained barometrically by
+                    Captain Webb.</p>
+                <p>Though this expedition threw considerable light on the nature of the country
+                    between the plains of Hindustan and the southern base of the Himalaya Mountains,
+                    and succeeded in tracing two of the most considerable branches of the Ganges
+                    nearly to their sources, still the great chain of the Himalaya itself had not
+                    yet been approached, and the altitude of its various peaks above the level of
+                    the sea remained undecided. The account however given by Captain Raper <hi
+                    rend="italic">(Asiatic Researches,</hi> vol. xii.) is full of interesting and
+                    important details.</p>
+                <p>The task of penetrating this vast chain was left to the exertions of a more
+                    daring traveller. Mr Moorcroft, accompanied by Captain Hearsay, the same who had
+                    been on the former expedition, and by a Hindu pundit of the name of Harkh Deo,
+                    set out with the hope of finding a passage across these mountains into the
+                    regions of Tartary, in order to purchase horses and the shawl-goat, and, at the
+                    same time, to collect such geographical information respecting these unknown
+                    regions as might fall within their reach. With the latter view, the learned
+                    pundit was engaged for the express purpose of <hi rend="italic">striding</hi>
+                    over these mountainous regions, along the whole route, in regular paces of four
+                    feet each; a task which, it seems, he performed with exemplary patience and
+                    perseverance, across rocks, and rivers, and the most rugged precipices, without
+                    failing or faultering, except on one single occasion, where a piece of rock had
+                    slipped out of a narrow ledge on the very verge of a tremendous declivity, and
+                    left a gap just wide enough to show an abyss below, of a depth sufficient to
+                    appal the stoutest heart.</p>
+                <p>Beginning their operations at the point where the Dauli river falls into the
+                    Alkananda, they followed up the former to the very base of the Himalaya, and,
+                    after eighteen days of excessive fatigue, reached a gorge in the mountains,
+                    named the Nitee Ghati, or Pass of Nitee. At some distance below it was a small
+                    village of the same name, the great height of which was inferred by the hill,
+                    terminating the valley on which it stood, being tipped with snow on the 5th of
+                    June, and also by a quick breathing with which Mr Moorcroft was seized, and
+                    which obliged him to stop every four or five steps; he complained also of a
+                    sense of fulness in the head, accompanied by giddiness. In ascending the Ghaut,
+                    the difficulty of breathing increased, with great oppression about the heart;
+                    and, when on the point of falling asleep, a sense of suffocation was felt, and
+                    sighing became frequent and distressing. The same symptoms of oppression and
+                    debility were experienced by Μ. Saussure on the Alps, which he ascribed rather
+                    to the presence of carbonic acid gas, than to the tenuity of the atmosphere. We
+                    conceive, however, that the great height alone is sufficient to account for
+                    these symptoms.</p>
+                <p>At Nitee the travellers were informed that the passage of the mountains was never
+                    attempted before <hi rend="italic">Sancrant,</hi> or the entrance of the sun
+                    into Cancer; they waited, therefore, till the 24th of June. For the last twenty
+                    days the thermometer at sun-rise was generally about 46°, at noon 72°, and from
+                    that to 80°; the nights were clear and serene; the birch trees and rose bushes
+                    were just then bursting into leaf, the furze coming into blossom, and the grain
+                    appearing above the ground.</p>
+                <p>The length of the Nitee Pass is about two miles; it leads to an elevated plain,
+                    to which there is little or no descent, called by the natives Undes or Ondes,
+                    which signifies “the country of wood.” The name of Thibet was not known to them,
+                    and Captain Webb thinks it may have been derived from <hi rend="italic"
+                    >Teiba,</hi> which signifies, in the Gorkah language, “high-peaked mountains.”
+                    The mountains crossing this plain, or rising in detached masses out of its
+                    surface, were covered with snow. - The first, and indeed the only continued
+                    ridge seen by Moorcroft, was at the distance of about forty miles from the
+                    Himalaya, and nearly parallel to it, closing, however, gradually upon it to the
+                    eastward; but, at the distance of above eighty miles, they united, not far from
+                    the two lakes of Rawan-hrad and Manasarovara, which were separated from each
+                    other by a slip of land about four or five miles in width. The ridge thus
+                    uniting with the Himalaya is named Caillas, which is rather a generic term for
+                    any high mountain, than peculiar to a single one, and is among the Hindus what
+                    Olympus was among the Greeks.</p>
+                <p>The intermediate plain consists of a rugged stony surface, bristled in some
+                    places with rude shapeless rocks, and in others scooped out into broad and deep
+                    ravines, presenting on every side an extended dreary waste, without a tree or
+                    shrub to enliven the prospect, the only vegetation being confined to some low
+                    furze bushes, a woolly plant like everlasting, tufts of silky grass, and a
+                    species of moss, exhibiting a sickly green, among patches of snow and splashes
+                    of snow water. The only enlivening objects that appeared to Mr Moorcroft and his
+                    party were “two very beautiful poplar trees, in which were many goldfinches.”
+                    These were on the banks of a considerable stream, flowing to the westward, down
+                    the middle of the plain, in the bed of which was a species of tamarisk, then in
+                    blossom, and reaching to the height of eight feet.</p>
+                <p>This river was then conjectured, and has since been ascertained, to be the
+                    Sutledge or Satudra. It rises in the lake Rawan-hrad, to the eastward of any of
+                    the sources of the Ganges, and, having collected in its western course the
+                    various streams from the northern face of the Hima <pb break="no"
+                    facs="nls:193643905" xml:id="kp-eb0711-3905-0370"/>laya, and the southern face
+                    of the Caillas, finds a passage through the former chain, near Mount Kantel, on
+                    the eastern side of Cashmere; and, on entering the plain of Hindustan, becomes
+                    the easternmost of the Punjab, or Five Rivers, the boundary of our Indian
+                    possessions to the westward; and, in its course to the southward, joins the
+                    Indus. This source and direction of the Sutledge can now be no longer doubted,
+                    as its course, which was ascertained by Mr Baillie Fraser to lie through the
+                    great range of mountains, has been traced back through the ravine of the
+                    Himalaya, and for a considerable distance to the eastward. On this elevated
+                    plain is situated the town of Deba.</p>
+                <p>Mr Moorcroft and his party having passed the first tableland, crossed the Caillas
+                    range, on the other side of which the rugged plain extended beyond the reach of
+                    sight. The numerous streams from the northern face of Caillas, uniting in the
+                    vale of Ghertope, form a river of considerable magnitude, which, from
+                    information, pursues a northwesterly course for some hundred miles, passes by
+                    Latak, and then crossing the Hindu Coosh, which may be considered as a
+                    prolongation of the Himalaya, to the westward of Cashmere, assumes the name of
+                    Indus or Scinde; of which great river it may be considered as one of the main
+                    branches, the other coming from the northward out of the mountains called the
+                    Moos-tag.</p>
+                <p>Mr Moorcroft did not ascertain what river or rivers flowed <hi rend="italic"
+                    >out</hi> of the lake Manasarovara, and seems to think that it has no outlet.
+                    This is very improbable, as its water was fresh, and there seems to be little
+                    doubt but the Sanpoo, or the main branch of the Brahmapootra, issues from its
+                    eastern extremity. In that case, this lake may be considered as about the
+                    highest part of the general level of the great plateau of Tartary.</p>
+                <p>Thus, by the exertions of intelligent travellers, the geography of the great
+                    mountainous buttress which supports the elevated regions of Thibet and Tartary
+                    has been pretty well ascertained; but all is still conjecture as far as regards
+                    an extensive range of country to the north, the north-west, and north-east of
+                    the Caillas range of mountains.</p>
+                <p>Neither the ancients, to whom the Himalaya Mountains were well known, nor the
+                    Hindus, to whom they have always been the cherished objects of veneration, nor
+                    our countrymen, who, from the plains of Bengal, had so often gazed at their
+                    snow-capped summits from a distance of 150 miles, ventured to form a conjecture
+                    even of their absolute height above the level of those plains. Mr Colebrooke, in
+                    his Note to Captain Raper’s <hi rend="italic">Narrative,</hi> observes that,
+                    “without supposing the Himalaya to exceed the Andes, there is still room to
+                    argue, that an extensive range of mountains, which rears high above the line of
+                    perpetual snow, in an almost tropical latitude, an uninterrupted chain of lofty
+                    peaks, is neither surpassed nor rivalled by any other chain of mountains <hi
+                    rend="italic">but</hi> the Cordilleras of the Andes.” Shortly after this,
+                    however, he thinks the observations of Captain Webb “authorize the opinion, that
+                    the Himalaya is the loftiest range of alpine mountains which has yet been
+                    noticed, its most elevated peaks <hi rend="italic">exceeding</hi> the highest of
+                    the Andes.”</p>
+                <p>The highest part of the Himalaya is about the centre of the chain, or between the
+                    source of the Bhagiruttee and the valley of Nepaul. From an observation taken by
+                    Colonel Crawford (when at Cathmandu, in Nepaul, in 1802) of very small angles at
+                    the extremities of a short measured base, it is concluded that one peak, called
+                    Ðhaibun, rose to an elevation of 20,140 feet above the spot where the
+                    observation was made; which being itself 4500 feet above the level of the sea,
+                    would make the height of this peak 24,640 feet. By similar observations, the
+                    height of another peak was proved to be 22,319 feet, of another 24,525, another
+                    22,952 feet, and of a fifth 23,162 feet, above the level of the sea.</p>
+                <p>But the peak which was found to possess the most extraordinary elevation was that
+                    called <hi rend="italic">Dharvala-giri,</hi> or the White Mountain. By a mean of
+                    three observations, taken from the following computed distances, and seen under
+                    their respective angles·, namely,</p>
+                <p>At station A, distance 89∙j⅞ <hi rend="superscript"> 5</hi><hi rend="subscript">
+                    ττ</hi> miles. Ang. 2° 48'</p>
+                <p>B, 102 <hi rend="subscript"> τ</hi><hi rend="superscript"> 8</hi> ∕θ <hi
+                    rend="superscript"> 2</hi> ° l <hi rend="superscript"> θ</hi> ' C, 136 <hi
+                    rend="subscript"> τ</hi> ¾⅛ 1° 22/ and, by allowing for refraction, the height
+                    of this moun tain is calculated at 27,677 feet above the plains of Go-rak’hpur;
+                    which plains being 400 feet above the mouth of the Ganges, it follows that the
+                    whole height of Dhawala-giri must be taken at more than 28,000 feet above the
+                    level of the sea. By a subsequent calculation, however, the height of this peak
+                    was reduced to 26,862 feet. Of this and six other peaks, the following are the
+                    results of Mr Colebrooke’s calculations, made from the observations of Captain
+                    Webb:</p>
+                <p>Feet.</p>
+                <p>Dhawala-giri, “on the lowest computation”...26,862 Jamunawatari, or Jamautri
+                    25,500</p>
+                <p>A mountain supposed to be Dhaibun 24,740</p>
+                <p>A nameless mountain 22,768</p>
+                <p>Another nameless mountain 24,625</p>
+                <p>Another, near the last 23,262</p>
+                <p>A third, in its vicinity 23,052</p>
+                <p>These heights are probably exaggerated; it appears, indeed, that subsequent
+                    observations, made by Captain Webb, with an excellent instrument, from the
+                    extremities of a well-determined and sufficient base, have decided them to be
+                    so. They make, for instance, the height of the first “nameless mountain” in the
+                    above table only 21,000 feet above the plains of Rohilkhund, or 21,500 above the
+                    level of the sea, being a deduction from Mr Colebrooke’s calculation, for the
+                    same mountain, of 1268 feet.</p>
+                <p>The following table exhibits the results of Captain Webb’s corrected
+                    observations, of no less than twenty-seven different peaks of the Himalaya
+                    range, as taken in the progress of his survey of Kumaon, but for the accuracy of
+                    which he candidly admits it would be impossible to vouch, in all the
+                    circumstances under which the observations were taken. They are, however, in all
+                    probability, not far from the truth:</p>
+                <p>No. of Peak. Altitude. No. of Peak. Altitude.</p>
+                <p>1 22,345 15 22,419</p>
+                <p>2 22,058 16 17,994</p>
+                <p>3 22,840 17 19,153</p>
+                <p>4 21,611 18 21,439</p>
+                <p>5 19,106 ] 9 22,635</p>
+                <p>6 22,498 20 20,407</p>
+                <p>7 22,578 21 19,099</p>
+                <p>8 23,164 22 19,497</p>
+                <p>9 21,311 23 22,727</p>
+                <p>10 15,733 24 22,238</p>
+                <p>11 20,68 1 25 22,277</p>
+                <p>12 23,263 26 21,045</p>
+                <p>13 22,313 27 20,923</p>
+                <p>14 25,669</p>
+                <p>After these trigonometrical deductions had been made, Captain Webb had the good
+                    fortune to succeed in making several barometrical observations in the Nitee
+                    Pass, through which Moorcroft had reached the plateau of Tartary. In his way
+                    thither he reached nearly the base of those lofty peaks of the Himalaya which
+                    tower above the temple of Kedar-nath, and the altitudes of which are amongst
+                    those previously determined by triangulation, at a great distance, and seen
+                    under very small angles. He had, however, at this place, the advantage of
+                    observing one of these peaks under an angle of 2b <hi rend="superscript"> o</hi>
+                    15' 15''; and <pb break="no" facs="nls:193643918" xml:id="kp-eb0711-3918-0371"
+                    />this, he says, gave him a result that agreed as well as could be expected with
+                    the position and altitude he had formerly assigned to it. The temple itself, by
+                    the mean of five barometers, was found to be 11,897 feet above the level of
+                    Calcutta, or about 12,000 above that of the sea, vet no snow lay near it in the
+                    beginning of July.</p>
+                <p>Captain Webb next proceeded to Josimuth, near the commencement of the defile
+                    leading to the Nitee Pass, where he met with one of the civil servants of the
+                    East India Company proceeding on a mission to the frontier, with a view of
+                    opening a commercial intercourse with the Tartars. These subjects of China,
+                    however, declined all connection with us, and pushed forward picquets of cavalry
+                    to guard the pass. This untoward circumstance did not deter Captain Webb from
+                    proceeding. On approaching the pass he experienced the same difficulty of
+                    breathing which occurred to Moorcroft, and from the influence of which, he says,
+                    neither horses nor yaks are exempt. The natives call it <hi rend="italic"
+                    >Eis-Kee-huiva,</hi> or the poisonous atmosphere; and conceive it to be owing to
+                    the effluvia of certain flowers.</p>
+                <p>He found in the pass a troop of Tartar cavalry, who, with some inhabitants of
+                    Deba, received him kindly, and consented to let him remain until an answer
+                    should be received from Ghertope respecting his farther progress, which, at the
+                    end <hi rend="italic">of</hi> fifteen days, was <hi rend="italic">a</hi>
+                    negative, or, which amounted to the same thing, a reference to the viceroy of
+                    Lassa. He had been permitted, however, to proceed to the crest or highest ridge
+                    <hi rend="italic">of</hi> the Nitee Ghaut, which is at or near its farthest
+                    extremity, and to make his observations, which are exceedingly interesting and
+                    important. On the 21st of August, at three p. <hi rend="smallcaps">μ.,</hi> by
+                    the mean of four barometers, the mercury stood at 16,27 inches, and the
+                    thermometer at 47°; and on the same day and hour, and the two preceding and
+                    following days, the state <hi rend="italic">of</hi> the barometer and
+                    thermometer at Dumdum, about fifty feet above the sea, by a journal of the
+                    weather kept by Colonel Hardwicke, was as follows:</p>
+                <p>Aug. 19, barometer 29,46 inches. Ther∙ 88°</p>
+                <p>20 29,46 84</p>
+                <p>21 29,48 85</p>
+                <p>22 29,48 84</p>
+                <p>23 29,65 81</p>
+                <p>Mean 29,51 84∙4</p>
+                <p>From which the Nitee Ghaut above Dumdum must be 16,764 feet, and above the sea
+                    16,814 feet. Yet, at this extraordinary elevation, not a vestige of snow
+                    appeared in the Ghaut, nor on the shoulder of the ridge on the left of the pass,
+                    which rose to the height of 300 feet above it; and hence it would appear that
+                    the lower point of congelation, on the northern or Tartarian side of the
+                    Himalaya, is <hi rend="italic">not less than seventeen thousand feet.</hi></p>
+                <p>From the crest of the Ghaut Captain Webb was able to perceive the line of the
+                    Sutledge winding through the plain to the westward, and to take the angle of
+                    depression, from which, and Moorcroft’s distance (generally found to be
+                    correct), he determined the elevation of this lowest part of the table-land of
+                    Thibet to be 15,924 feet. The angle of depresssion was 1° 28' 10", and the
+                    distance 15^ British miles. Notwithstanding this enormous elevation of 15,000
+                    feet, the banks of the Sutledge afford the finest pastures for myriads of
+                    quadrupeds; and crops of a species of barley called <hi rend="italic">ooa,</hi>
+                    from which the natives make their bread, are annually produced. Nay more; on the
+                    cheeks of the Nitee Pass plants were found that ripened their seed at the height
+                    of 17,000 feet. These singular anomalies, so utterly at variance with the
+                    theories of Humboldt, Leslie, Kirwan, and all European writers on the subject,
+                    can only be explained with reference to the great radiation of heat from that
+                    vast extent of elevated land that rises out of Central Asia like the boss of a
+                    shield, creating as it were a new atmosphere of its own. “As the heat,” says the
+                    Baron de Humboldt, “of high regions of the atmosphere depends on the radiation
+                    of the plains, it is conceived that, under the same geographical parallel, çne
+                    may not find in the system of transatlantic climates the isothermal lines of the
+                    same elevation above the level of the sea, as in the system of European
+                    climates.” For the same reason, the system will apply still less to the climates
+                    of Central Asia. The same philosopher has observed, that the Cordilleras of the
+                    Andes, though they extend from north to south 120 degrees of latitude, are,
+                    generally speaking, not more than from two to three, and very rarely from four
+                    to five degrees in breadth; but the vast surface of table-land, supported by the
+                    great Himalaya buttress, stretching from Daouria on the east, to Belur-tagh on
+                    the west, through 47 degrees of longitude, and from the Altai on the north, to
+                    the Himalaya on the south, through a mean breadth of 20 degrees of latitude,
+                    presents a <hi rend="italic">plateau,</hi> more or less elevated, equal to above
+                    three millions of square miles.</p>
+                <p>In confirmation of the great influence of radiated heat from extensive elevated
+                    plains, some strong facts are exhibited both in America and Asia. Thus, on the
+                    mountains which rise out of the elevated plain <hi rend="italic">of</hi> Mexico
+                    Humboldt observed the lower line of perpetual congelation, in lat. 19°-20°, at
+                    15,090 feet above the sea, which, by the table of Professor Leslie, ought to
+                    have been at 13,560, making a difference between fact and theory of 1530 feet.
+                    The lower point on the side of Chimboraço, nearly under the equator, was 15,746
+                    feet, being only 656 feet higher than on the mountains of Mexico whereas, by
+                    Leslie’s table, the difference ought to be 1729 feet. Compare, again, the height
+                    of this lower limit of perpetual congelation on the side of Chimboraço with the
+                    observations of Captain Webb in the Nitee Pass, and we have the extraordinary
+                    anomaly of a place in Asia, in 30° of latitude, having that limit higher by 1253
+                    feet than another place in America immediately under the equinoctial line, and
+                    at 5500 feet, or more than a mile, higher than it ought to be in that parallel
+                    of latitude, according to the theory on which Professor Leslie constructed his
+                    table.<note anchored="true" place="bottom" type="authorial"><p>See the article
+                    <hi rend="smallcaps">Climate.</hi></p></note></p>
+                <p>It is right to observe, however, that the same anomaly exists, though in a less
+                    degree, on the southern face and abutments of the Himalaya range. Thus the
+                    elevation of Kedar-nath, at 12,000 feet, is below the verge of perpetual snow,
+                    which in Europe, on the same parallel of latitude, would be at 700 feet lower.
+                    Thus, also, the village and temple of Milem, in lat. 30° 25', were not only
+                    without snow at the height of 11,790 feet, but extensive fields of buckwheat and
+                    Tartaric barley were growing at that elevation. In the same degree of latitude
+                    the same height in Europe would be some hundred feet within the limits of
+                    perpetual snow. At the same height, on the 21st of June, Captain Webb’s
+                    encampment was surrounded with flourishing woods of oaks, of the long-leafed
+                    pine, and the arborescent rhododendron, and the surface was clothed with a rank
+                    vegetation. On the following day he determined the elevation of
+                    Pilgointi-Churhai Pass to be more than 12,700 feet above the sea; yet even here
+                    no snow was visible, but the black soil was dad with creeping plants; and the
+                    shoulder of a mountain rising still higher was without a vestige of snow, and
+                    appeared, as far as could be seen through the mist, enamelled with flowers. The
+                    reflected heat from the perpendicular face of the immense mass of naked rock, on
+                    which snow cannot rest, exposed to the <pb break="no" facs="nls:193643931"
+                    xml:id="kp-eb0711-3931-0372"/>rays of a south-western sun, will probably be
+                    deemed sufficient to explain the anomaly which is found to exist on the southern
+                    side of the chain.</p>
+                <p>Of the geological strata of these mountains we have notas yet full information.
+                    Mr Baillie Fraser, who penetrated to the very base of the great chain, at the
+                    head of the Jumna and the Bhagiruttee branches, describes the first and inferior
+                    hills of sandstone, more or less destructible, of indurated clay, with beds of
+                    rounded pebbles and gravel. The second ridge of hills, rising to the height of
+                    1500 to 5000 feet, are sharp, rough, and run into numerous ridges, divided by
+                    deep shaggy dells; and the crests of the ridges are frequently so sharp that two
+                    persons can hardly stand abreast upon them. Beyond these are a mass of hills
+                    entirely composed of limestone, of a round, lumpish, rugged character, whose
+                    highest points may be from 5000 to 7000 feet. Next to these commences the
+                    schistus, or slate, which continues to the very roots of the Snowy Mountains.
+                    All above appeared to be striated hard grey gneiss, and a compact granite,
+                    which, Mr Fraser supposes, is the material which constitutes the highest ridges
+                    and crests of this great mountain range; but schistus is the rock that mostly
+                    predominates. Hot springs are found on both sides of the Himalaya; and copper,
+                    lead, and iron, are commonly met with. Gold is also found in the beds of the
+                    rivers. Captain Webb obtained the petrified bones of an animal of the deer kind,
+                    which were dug out of a bed of gravel, on the side of the Caillas Mountain, at
+                    least 16,000 feet above the level of the sea, a height at which, it may safely
+                    be asserted, no other organic remains have hitherto been discovered.</p>
+                <p>For some further statements of the height of the highest peaks of the Andes, as
+                    compared with those of the Himalaya chain, see the article <hi rend="smallcaps"
+                    >Asia.</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

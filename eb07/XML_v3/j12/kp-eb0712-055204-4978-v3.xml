@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0712-4978-0552-04" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">JESUITS, or the Society of</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 12, page 552</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="3" ref="lcsh1910:b4vm42z9s">Jesuits</term>
+                    <term n="2" ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term n="2" ref="lcsh1910:b4ks6jd02">Spaniards</term>
+                    <term n="1" ref="lcsh1910:b4bk16r27">Protestantism</term>
+                    <term n="1" ref="lcsh1910:b4zg6gf8v">Quakers</term>
+                    <term n="20" ref="lcsh1910:b4r49gb4d">Church</term>
+                    <term n="20" ref="lcsh1910:b47d2q898">Churches</term>
+                    <term n="19" ref="lcsh1910:b47m04609">Power</term>
+                    <term n="7" ref="lcsh1910:b44f1mm3n">Courts</term>
+                    <term n="6" ref="lcsh1910:b4m90280p">Law</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="20" ref="fasttopic:860364">Church</term>
+                    <term n="12" ref="fasttopic:1015978">Men</term>
+                    <term n="9" ref="fasttopic:1033832">Nationalism</term>
+                    <term n="7" ref="fasttopic:1042815">Objectivity</term>
+                    <term n="7" ref="fasttopic:881747">Courts</term>
+                    <term n="4" ref="fasttopic:916820">Europeans</term>
+                    <term n="2" ref="fasttopic:969307">Indians</term>
+                    <term n="2" ref="fasttopic:1128153">Spaniards</term>
+                    <term n="2" ref="fasttopic:1100116">Romans</term>
+                    <term n="2" ref="fasttopic:937256">Gallicanism</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="9" ref="fastgeo:1754964">Rome</term>
+                    <term n="4" ref="fastgeo:1239786">America</term>
+                    <term n="4" ref="fastgeo:1205550">Paraguay</term>
+                    <term n="2" ref="fastgeo:1204303">Spain</term>
+                    <term n="1" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1207312">Russia</term>
+                    <term n="1" ref="fastgeo:1210276">India</term>
+                    <term n="1" ref="fastgeo:1204928">California</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:192944978" type="entry">
+                <p><label type="entry">JESUITS, or <hi rend="italic">the Society of</hi></label><hi
+                    rend="italic                     smallcaps"> Jesus,</hi> a famous religious
+                    order of the Roman Catholic church, founded by Inigo de Loyola, called also
+                    Ignatius Loyola. The plan which this fanatic formed of its constitution and laws
+                    was suggested, as he gave out, and as his followers still teach, by the
+                    immediate inspiration of heaven. But, notwithstanding this high pretension, his
+                    design met at first with violent opposition. The pope, to whom Loyola had
+                    applied for the sanction of his authority to confirm the institution, referred
+                    his petition to a committee of cardinals; and as they represented the
+                    establishment as not only unnecessary, but dangerous, Paul refused to grant his
+                    approbation. At last, however, Loyola removed all his scruples by an offer which
+                    it was impossible for any pope to resist. He proposed, that besides the three
+                    vows of poverty, chastity, and monastic obedience, which are common to all the
+                    orders of regulars, the members of his society should take a fourth vow of
+                    obedience to the pope, binding themselves to go whithersoever he should command
+                    them for the service of religion, and without requiring any thing from the holy
+                    see for their support. At a time when the papal authority had received a severe
+                    shock by the revolt of so many nations from the Romish church; at a time when
+                    every part of the popish system was attacked with so much violence and success;
+                    the acquisition of a body of men thus peculiarly devoted to the see of Rome, and
+                    whom it might set in opposition to all its enemies, was an object of the highest
+                    consequence. Paul instantly perceiving this, confirmed the institution of the
+                    Jesuits by his bull, granted the most ample privileges to the members of the
+                    society, and appointed Loyola to be the first general of the order. The event
+                    fully justified Paul’s discernment, in expecting such beneficial consequences to
+                    the see of Rome from this institution. In less than half a century, the society
+                    obtained establishments in every country that adhered to the Roman Catholic
+                    church; its power and wealth increased amazingly; the number of its members
+                    became great; their character as well as accomplishments were still greater; and
+                    the Jesuits were celebrated by the friends and dreaded by the enemies of the
+                    Catholic faith, as the most able and enterprising order in the church.</p>
+                <p>The constitution and laws of the society were perfected by Laines and Aquaviva,
+                    the two generals who succeeded Loyola; men far superior to their master in
+                    abilities and in the science of government. They framed that system of profound
+                    and artful policy which distinguishes the order. The large infusion of
+                    fanaticism mingled with its regulations should be imputed to Loyola its founder.
+                    Many circumstances concurred in giving a peculiarity of character to the order
+                    of Jesuits, and in forming the members of it not only to take a greater share in
+                    the affairs of the world than any other body of monks, butalso to acquire
+                    superior influence in the conduct of them.</p>
+                <p>The primary object of almost all the monastic orders is to separate men from the
+                    world, and from any concern in its affairs. In the solitude and silence of the
+                    cloister, the monk is called to work out his own salvation by extraor <pb
+                    break="no" facs="nls:192944991" xml:id="kp-eb0712-4991-0553"/> dinary acts of
+                    mortification and piety. He is dead to the world, and ought not to mingle in its
+                    transactions. He can be of no benefit to mankind but by his example and by his
+                    prayers. The Jesuits, on the contrary, were taught to consider themselves as
+                    formed for action. They were chosen soldiers, bound to exert themselves
+                    continually in the service of God, and of the pope his vicar upon earth.
+                    Whatever tended to instruct the ignorant, whatever could be of use to reclaim or
+                    to oppose the enemies of the holy see, was their proper object. That they might
+                    have full leisure for this active service, they were totally exempted from those
+                    functions the performance of which forms the chief business of other monks. They
+                    appeared in no processions; they practised no rigorous austerities; they did not
+                    consume one half of their time in the repetition of tedious offices. But they
+                    were required to attend to all the transactions of the world, on account of the
+                    influence which these might have upon religion; they were directed to study the
+                    dispositions of persons in high rank, and to cultivate their friendship; and, by
+                    the very constitution as well as genius of the order, a spirit of action and
+                    intrigue was infused into all its members.</p>
+                <p>As the object of the society of Jesuits differed from that of the other monastic
+                    orders, the diversity was no less in the form of its government. The other
+                    orders might be considered as voluntary associations, in which whatever affected
+                    the whole body was regulated by the common suffrage of all its members. The
+                    executive power was vested in the persons placed at the head of each house or of
+                    the whole society; but the legislative authority resided in the community.
+                    Affairs of moment, relating to particular houses, were determined in conventual
+                    chapters; but such as respected the whole order were considered in general
+                    congregations. But Loyola, full of the ideas of implicit obedience, which he had
+                    derived from his military profession, provided that the government of his order
+                    should be purely monarchical. A general, chosen for life by deputies from the
+                    several provinces, possessed power which was supreme and independent, extending
+                    to every person and to every case. He, by his sole authority, nominated
+                    provincials, rectors, and every other officer employed in the government of the
+                    society, and he could remove them at pleasure. In him was vested the sovereign
+                    administration of the revenues and funds of the order. Every member belonging to
+                    it was at his disposal; and by his uncontrollable mandate he could impose upon
+                    them any task, or employ them in whatsoever service he pleased. To his commands
+                    they were required to yield not only outward obedience, but even to resign to
+                    him the inclinations of their own wills and the sentiments of their own
+                    understandings. They were to listen to his injunctions as if these had been
+                    uttered by Christ himself. Under his direction they were to be mere passive
+                    instruments, like clay in the hands of the potter, or like dead carcasses
+                    incapable of resistance. Such a singular form of policy could not fail to
+                    impress its character upon all the members of the order, and to give a peculiar
+                    force to all its operations. There is not in the annals of mankind any example
+                    of such a perfect despotism, exercised not over monks shut up in the cells of a
+                    monastery, but over men dispersed amongst all the nations of the earth.</p>
+                <p>As the constitutions of the order vested in the general absolute dominion over
+                    all its members, they carefully provided for his being perfectly informed with
+                    respect to the character and abilities of his subjects. Every novice who offered
+                    himself as a candidate for entering into the order was obliged to manifest his
+                    conscience to the superior, or a person appointed by him; and required to
+                    confess not only his sins and defects, but to discover the inclinations, the
+                    passions, and the bent of his soul. This manifestation they were required to
+                    renew every six months. The society, not satisfied with penetrating in this
+                    manner into the innermost recesses of the heart, directed each member to observe
+                    the words and actions of the novices. They were constituted spies upon their
+                    conduct, and were bound to disclose every thing of importance concerning them to
+                    the superior. In order that this scrutiny into their character might be as
+                    complete as possible, they served a long noviciate, during which they passed
+                    through the several gradations of ranks in the society; and they must have
+                    attained the full age of thirty-three years before they could be admitted to
+                    take the final vows, by which they became professed members. By these various
+                    methods, the superiors, under whose immediate inspection the novices were
+                    placed, acquired a thorough knowledge of their dispositions and talents. In
+                    order that the general, who was the soul which animated and moved the whole
+                    society, might have under his eyε every thing necessary to inform or direct him,
+                    the provincials and heads of the several houses were obliged to transmit to him
+                    regular and frequent reports concerning the members under their inspection. In
+                    these they descended into minute details respecting the character of each
+                    person, his abilities natural or acquired, his temper, his experience in
+                    affairs, and the particular department for which he was best fitted. These
+                    reports, when digested and arranged, were entered into registers kept on
+                    purpose, that the general might at one comprehensive view survey the state of
+                    the society in every corner of the earth; observe the qualifications and talents
+                    of its members; and thus choose, with perfect information, the instruments which
+                    his absolute power could employ in any <hi rend="superscript"> 7</hi> service
+                    for which he thought fit to destine them.</p>
+                <p>As it was the professed intention of the order of Jesuits to labour with
+                    unwearied zeal in promoting the salvation of men, this engaged them of course in
+                    many active functions. From their first institution, they considered the
+                    education of youth as their peculiar province; they <hi rend="superscript">
+                    7</hi> aimed at being spiritual guides and confessors; they preached frequently
+                    in order to instruct the people; and they set out as missionaries to convert
+                    unbelieving nations. The novelty of the institution, as well as the singularity
+                    of its objects, procured the order many admirers and patrons. The governors of
+                    the society had the address to avail themselves of every circumstance in its
+                    favour; and in a short time the number as well as influence of its members
+                    increased prodigiously. Before the expiration of the sixteenth century, the
+                    Jesuits had obtained the chief direction of the education of youth in every
+                    catholic country of Europe. They had become the confessors of almost all its
+                    monarchs; an office of no small importance in any reign, but, under a weak
+                    prince, superior even to that of the minister himself. They were the spiritual
+                    guides of almost every person eminent for rank or power. They possessed the
+                    highest degree of confidence and interest with the papal court, as the most
+                    zealous and able champions of its authority. The advantages which an active and
+                    enterprising body of men might derive from all these circumstances are obvious.
+                    They formed the minds of men in their youth, and they retained an ascendant over
+                    them in their advanced years. They possessed, at different periods, the
+                    direction of the most considerable courts in Europe. They mingled in all
+                    affairs; they took part in every intrigue and revolution. The general, by means
+                    of the extensive intelligence which he received, could regulate the operations
+                    of the order with the most perfect discernment; and, by means of his absolute
+                    power, could carry them on with the utmost vigour and effect.</p>
+                <p>Along with the power of the order, its wealth continued to increase. Various
+                    expedients were devised for eluding the obligation of the vow of poverty. The
+                    order acquired ample possessions in every catholic country; and, <pb break="no"
+                    facs="nls:192945004" xml:id="kp-eb0712-5004-0554"/>by the number as well as
+                    magnificence of its public buildings, together with the value of its property,
+                    moveable or real, it vied with the most opulent of the monastic fraternities.
+                    Besides the sources of wealth common to all the regular clergy, the Jesuits
+                    possessed one which was peculiar to themselves. Under pretext of promoting the
+                    success of their missions, and of facilitating the support of their
+                    missionaries, they obtained a special license from the court of Rome to trade
+                    with the nations which they laboured to convert. In consequence of this, they
+                    engaged in an extensive and lucrative commerce both in the East and West Indies.
+                    They opened warehouses in different parts of Europe, in which they vended their
+                    commodities. Not satisfied with trade alone, they imitated the example of other
+                    commercial societies, and aimed at obtaining settlements. They accordingly
+                    acquired possession of a large and fertile province in the southern continent of
+                    America, and reigned as sovereigns over some hundred thousand subjects.</p>
+                <p>Unhappily for mankind, the vast influence which the order of Jesuits acquired by
+                    all these different means was often exerted with the most pernicious effect.
+                    Such was the tendency of that discipline observed by the society in forming its
+                    members, and such were the fundamental maxims in its constitution, that every
+                    Jesuit was taught to regard the interest of the order as the capital object to
+                    which every consideration was to be sacrificed. This spirit of attachment to
+                    their order, the most ardent perhaps that ever influenced any body of men, is
+                    the characteristic principle of the Jesuits, and serves as a key to the genius
+                    of their policy as well as the peculiarities in their sentiments and
+                    conduct.</p>
+                <p>As it was for the honour and advantage of the society, that its members should
+                    possess an ascendancy over persons in high rank or of great power, the desire of
+                    acquiring and preserving such a direction of their conduct with greater facility
+                    led the Jesuits to propagate a system of relaxed and pliant morality, which
+                    accommodates itself to the passions of men, justifies their vices, tolerates
+                    their imperfections, and authorizes almost every action that the most audacious
+                    or crafty politician would wish to perpetrate.</p>
+                <p>As the prosperity of the order was intimately connected with the preservation of
+                    the papal authority, the Jesuits, influenced by the same principle of attachment
+                    to the interests of their society, were the most zealous patrons of those
+                    doctrines which tend to exalt ecclesiastical power upon the ruins of civil
+                    government. They attributed to the court of Rome a jurisdiction as extensive and
+                    absolute as was claimed by the most presumptuous pontiffs in the dark ages. They
+                    contended for the entire independence of ecclesiastics on the civil magistrates.
+                    They published such tenets concerning the duty of opposing princes -who were
+                    enemies of the catholic faith, as countenanced the most atrocious crimes, and
+                    tended to dissolve all the ties which connect subjects with their rulers.</p>
+                <p>As the order derived both reputation and authority from the zeal with which it
+                    stood forth in defence of the Romish church against the attacks of the
+                    Reformers, its members, proud of this distinction, considered it as their
+                    peculiar function to combat the opinions and to check the progress of the
+                    Protestants. They made use of every art, and employed every weapon against them.
+                    They set themselves in opposition to every gentle or tolerating measure in their
+                    favour; and they incessantly stirred up against them all the rage of
+                    ecclesiastical and civil persecution.</p>
+                <p>Monks of other denominations have indeed ventured to teach the same pernicious
+                    doctrines, and have held opinions equally inconsistent with the order and
+                    happiness of civil society. But, from reasons which are obvious, they either
+                    delivered such opinions with greater reserve or propagated them with less
+                    success. Whoever recollects the events which have happened in Europe during two
+                    centuries, will find that the Jesuits may justly be considered as responsible
+                    for most of the pernicious effects arising from that corrupt and dangerous
+                    casuistry, from those extravagant tenets concerning ecclesiastical power, and
+                    from that intolerant spirit, which have been the disgrace of the church of Rome
+                    throughout that period, and which have brought so many calamities upon civil
+                    societv.</p>
+                <p>But, amidst many bad consequences flowing from the institution of this order,
+                    mankind, it must be acknowledged, have derived from it some considerable
+                    advantages. As the Jesuits made the education of youth one of their capital
+                    objects, and as their first attempts to establish colleges for the reception of
+                    students were violently opposed by the universities in different countries, it
+                    became necessary for them, as the most effectual method of acquiring the public
+                    favour, to surpass their rivals in science and industry. This prompted them to
+                    cultivate with extraordinary ardour the study of ancient literature. It put them
+                    upon various methods for facilitating the instruction of youth; and, by the
+                    improvements which they made in education, they contributed so much towards the
+                    progress of polite learning, that upon this account they have merited well of
+                    society. Nor has the order of Jesuits been successful only in teaching the
+                    elements of literature; it has likewise produced eminent masters in many
+                    branches in science, and can alone boast of a greater number of ingenious
+                    authors than all the other religious fraternities taken together.</p>
+                <p>But it is in the new world that the Jesuits exhibited the most wonderful display
+                    of their abilities, and contributed most effectually to the benefit of the human
+                    species. The conquerors of that unfortunate portion of the globe had nothing in
+                    view but to plunder, to enslave, and to exterminate its inhabitants. The Jesuits
+                    alone made humanity the object of their settling there. About the beginning of
+                    the seventeenth century, they obtained admission into the fertile province of
+                    Paraguay, which stretches across the southern continent of America, from the
+                    bottom of the mountains of Potosi to the confines of the Spanish and Portuguese
+                    settlements on the banks of the river La Plata. They found the inhabitants in a
+                    state very little different from that which takes place amongst men when they
+                    first begin to unite together; strangers to the arts, subsisting precariously by
+                    hunting or fishing, and hardly acquainted with the first principles of
+                    subordination and government. The Jesuits set themselves to instruct and to
+                    civilize these savages. They taught them to cultivate the ground, to rear tame
+                    animals, and to build houses. They brought them to live together in villages.
+                    They trained them to arts and manufactures. They made them taste the sweets of
+                    society, and accustomed them to the blessings of security and order. These
+                    people became the subjects of their benefactors, who governed them with a tender
+                    attention, resembling that with which a father directs his children. Respected
+                    and beloved almost to adoration, a few Jesuits presided over some hundred
+                    thousand Indians. They maintained a perfect equality amongst all the members of
+                    the community. Each of them was obliged to labour, not for himself alone, but
+                    for the public. The produce of their fields, together with the fruits of their
+                    industry of every species, were deposited in common storehouses, from which each
+                    individual received every thing necessary for the supply of his wants. By this
+                    institution, almost all the passions which disturb the peace of society, and
+                    render the members of it unhappy, were extinguished. A few magistrates, chosen
+                    for the most part by the Indians themselves, watched over the public
+                    tranquillity, and secured obedience to the laws. The sanguinary punishments
+                    frequent under other governments were unknown. An admonition from a Jesuit, a
+                    slight mark of infamy, or, upon some singular occasion, a few lashes with a
+                    whip, were sufficient to maintain good order amongst these innocent and happy
+                    people.</p>
+                <pb break="no" facs="nls:192945017" xml:id="kp-eb0712-5017-0555"/>
+                <p>But even in this meritorious effort of the Jesuits for the good of mankind, the
+                    genius and spirit of their order mingled and were discernible. They plainly
+                    aimed at establishing in Paraguay an independent empire, subject to the society
+                    alone, and which, by the superior excellence of its constitution and police,
+                    could scarcely have failed to extend its dominion over all the southern
+                    continent of America. With this view, in order to prevent the Spaniards or
+                    Portuguese in the adjacent settlements, from acquiring any dangerous influence
+                    over the people within the limits of the province subject to the society, the
+                    Jesuits endeavoured to inspire the Indians with hatred and contempt of these
+                    nations. They cut off all intercourse between their subjects and the Spanish or
+                    Portuguese settlements. They prohibited any private trader of either nation from
+                    entering their territories. When they were obliged to admit any person in a
+                    public character from the neighbouring governments, they did not permit him to
+                    have any conversation with their subjects; and no Indian was allowed even to
+                    enter the house where these strangers resided, unless in the presence of a
+                    Jesuit. In order to render any communication between them as difficult as
+                    possible, they industriously avoided giving the Indians any knowledge of the
+                    Spanish or of any other European language; but encouraged the different tribes
+                    which they had civilized to acquire a certain dialect of the Indian tongue, and
+                    laboured to make that the universal language throughout their dominions. As all
+                    these precautions, without military force, would have been insufficient to
+                    render their empire secure and permanent, they instructed their subjects in the
+                    European arts of war. They formed them into bodies of cavalry and infantry,
+                    completely armed and regularly disciplined. They provided a great train of
+                    artillery, as well as magazines stored with all the implements of war. Thus they
+                    established an army so numerous and well appointed, as to be formidable in a
+                    country where a few sickly and ill-disciplined battalions composed all the
+                    military force kept on foot by the Spaniards or Portuguese.</p>
+                <p>Such were the laws, the policy, and the genius of this formidable order, of
+                    which, however, a perfect knowledge has only been of late attainable. Europe had
+                    observed, for two centuries, the ambition and power of the order. But whilst it
+                    felt many fatal effects of these, it could not fully discern the causes to which
+                    they were to be imputed. It was unacquainted with many of the singular
+                    regulations in the political constitution or government of the Jesuits, which
+                    formed the enterprising spirit of intrigue that distinguished its members, and
+                    elevated the body itself to such a height of power. It was a fundamental maxim
+                    with the Jesuits, from their first institution, not to publish the rules of
+                    their order. These they kept concealed as an impenetrable mystery. They never
+                    communicated them to strangers, nor even to the greater part of their own
+                    members. They refused to produce them when required by courts of justice; and,
+                    by a strange solecism in policy, the civil power in different countries
+                    authorized or connived at the establishment of an order of men, whose
+                    constitution and laws were concealed with a solicitude which alone was a good
+                    reason for excluding them. During the prosecutions carried on against them in
+                    Portugal and France, the Jesuits were so inconsiderate as to produce the
+                    mysterious volumes of their institute. By the aid of these authentic records,
+                    the principles of their government may be delineated, and the sources of their
+                    power investigated, with a degree of certainty and precision which, previously
+                    to that event, it was impossible to attain. The pernicious effects, however, of
+                    the spirit and constitution of this order rendered it early obnoxious to some of
+                    the principal powers in Europe, and gradually brought on its downfall. The
+                    Emperor Charles V. saw it expedient to check its progress in his dominions; it
+                    was expelled from England by a proclamation of James I. in 1604, from Venice in
+                    1606, from Portugal in 1759, from France in 1764, from Spain and Sicily in 1767,
+                    and it was totally suppressed and abolished by Pope Clement XIV. in 1773. In
+                    1801, Pius VII. reestablished the society of Jesuits, but only for Russia; and
+                    in 1814, the same pope re-established it throughout the whole earth. The
+                    following judicious and discriminating character of the order is from the
+                    masterly pen of Sir James Mackintosh, and forms the conclusion of the eighth
+                    chapter of his Historical View of the Reign of James II.</p>
+                <p>“The party which had now the undisputed ascendant was denominated Jesuits, as a
+                    term of reproach, by the enemies of that famous society in the church of Rome,
+                    as well as among the Protestant communions. A short account of their origin and
+                    character may facilitate a faint conception of the admiration, jealousy, fear,
+                    and hatred, the profound submission or fierce resistance, which that formidable
+                    name once inspired. Their institution originated in pure zeal for religion,
+                    glowing in the breast of Loyola, a Spanish soldier; a man full of imagination
+                    and sensibility, in a country where wars, rather civil than foreign, waged
+                    against unbelievers for ages, had rendered a passion for spreading the catholic
+                    faith a national point of honour, and blended it with the pursuit of glory as
+                    well as with the memory of past renown. The legislative forethought of his
+                    successors gave form and order to the product of enthusiasm, and bestowed laws
+                    and institutions on their society which were admirably fitted to its various
+                    ends. Having arisen in the age of the reformation, they naturally became the
+                    champions of the church against her new enemies. Being established in the period
+                    of the revival of letters, instead of following the example of the unlettered
+                    monks, who decried knowledge as the mother of heresy, they joined in the general
+                    movement of mankind; they cultivated polite literature with splendid success;
+                    they were the earliest, and, perhaps, the most extensive reformers of European
+                    education, which, in their schools, made a larger stride than it has at any
+                    succeeding moment; and, by the just reputation of their learning, as well as by
+                    the weapons with which it armed them, they were enabled to carry on a vigorous
+                    contest against the most learned impugners of the authority of the church.
+                    Peculiarly subjected to the see of Rome by their constitution, they became
+                    ardently devoted to its highest pretensions, in order to maintain a monarchical
+                    power, of which they felt the necessity for concert, discipline, and energy in
+                    their theological warfare.</p>
+                <p>“While the nations of the Spanish peninsula hastened with barbaric chivalry to
+                    spread religion by the sword in the newly explored regions of the East and the
+                    West, the Jesuits alone, the great missionaries of that age, either repaired or
+                    atoned for the evils caused by the misguided zeal of their countrymen. In India
+                    they suffered martyrdom with heroic constancy'. They penetrated through the
+                    barrier which Chinese policy opposed to the entrance of strangers; they
+                    cultivated the most difficult of languages with such success as to compose
+                    hundreds of volumes in it; and, by the public utility of their scientific
+                    acquirements, they obtained toleration, patronage, and personal honours, from
+                    that jealous government: and the natives of America, who generally felt the
+                    superiority of the European race only in a more rapid or a more gradual
+                    destruction, and to whom even the excellent Quakers dealt out little more than
+                    penurious justice, were, under the paternal rule of the Jesuits, reclaimed from
+                    savage manners, and instructed in the arts and duties of civil life. At the
+                    opposite point of society they were fitted, by their release from conventual
+                    life, and their allowed intercourse with the world, for the perilous office of
+                    secretly guiding the conscience of princes. They maintain the highest station as
+                    a religious body in the literature of catholic countries. No other association
+                    ever sent forth so many disciples who reached such eminence in departments so
+                    <pb break="no" facs="nls:192945030" xml:id="kp-eb0712-5030-0556"/>various and
+                    unlike. While some of their number ruled the royal penitents at Versailles or
+                    the Escurial, others were teaching the use of the spade and the shuttle to the
+                    naked savages of Paraguay; a third body daily endangered their lives in an
+                    attempt to convert the Hindus to Christianity; a fourth carried on the
+                    controversy against the reformers; a portion were at liberty to cultivate polite
+                    literature, and the greater part continued to be employed either in carrying on
+                    the education of catholic Europe, of which they were the first improvers, or in
+                    the government of their society, in ascertaining the ability and disposition of
+                    the junior members, so that well-qualified men might be selected for the
+                    extraordinary variety of offices in their immense commonwealth. The most famous
+                    constitutionalists, the most skilful casuists, theablest schoolmasters, the most
+                    celebrated professors, the best teachers of the humblest mechanical arts, the
+                    missionaries who could most bravely encounter martyrdom, or who with most
+                    patient skill could infuse the rudiments of religion into the minds of ignorant
+                    tribes or prejudiced nations, were the growth of their fertile schools. The
+                    prosperous administration of such a society for two centuries is probably the
+                    strongest proof afforded from authentic history that an artificially formed
+                    system of government and education is capable, under some circumstances, of
+                    accomplishing greater things than the general experience of it would warrant us
+                    in expecting from it. Even here, however, the materials were supplied and the
+                    first impulse given by enthusiasm; and in this memorable instance the defects of
+                    such a system are discoverable. The whole ability of the members being
+                    constantly, exclusively, and intensely directed to the various purposes of the
+                    order, the mind of the Jesuits had not the leisure or liberty necessary for
+                    works of genius, or even for discoveries in science, to say nothing of original
+                    speculations in philosophy, which are interdicted by implicit faith. That great
+                    society, which covered the world for two hundred years, has no names which can
+                    be opposed to those of Pascal and Racine, produced by the single community of
+                    Port Royal, which was in a state of persecution during the greater part of its
+                    short existence. But this remarkable peculiarity amounts perhaps to little more
+                    than that they were more eminent in active than in contemplative life. A far
+                    more serious objection is the manifest tendency of such a system, while it
+                    produces the precise excellences aimed at by its mode of cultivation, to raise
+                    up all the neighbouring evils with a certainty and abundance, a size and
+                    malignity, unknown to the freer growth of nature. The mind is narrowed by the
+                    constant concentration of the understanding; those who are habitually intent on
+                    one object, learn at last to pursue it at the expense of others equally or more
+                    important. The Jesuits, the reformers of education, sought to engross it, as
+                    well as to stop it at their own point. Placed in the front of the battle against
+                    the Protestants, they caught a more than ordinary portion of that theological
+                    hatred against their opponents which so naturally springs up where the greatness
+                    of the community, the fame of the controversialist, and the salvation of
+                    mankind, seem to be at stake. Affecting more independence in their missions than
+                    other religious orders, they were the formidable enemies of episcopal
+                    jurisdiction; and thus armed against themselves the secular clergy, especially
+                    in Great Britain, where they were the chief missionaries. Intrusted with the
+                    irresponsible guidance of kings, they were too often betrayed into a compliant
+                    morality; excused probably to themselves by the great public benefits which they
+                    might thus obtain by the numerous temptations which seemed to palliate royal
+                    vices, and by the real difficulties of determining, in many instances, whether
+                    there was more danger of deterring such persons from virtue by unreasonable
+                    austerity, or of alluring them into vice by unbecoming relaxation. This
+                    difficulty is indeed so great, that casuistry has, in general, vibrated between
+                    these extremes, rather than rested near the centre. To exalt the papal power,
+                    they revived the scholastic doctrine of the popular origin of government, that
+                    rulers might be subject to the people, while the people themselves, on all
+                    questions so difficult as those which relate to the limits of obedience, were to
+                    listen with reverential submission to the judgment of the sovereign pontiff, the
+                    common pastor of sovereigns and subjects, the unerring oracle of humble
+                    Christians in all cases of perplexed conscience. The ancient practice of
+                    excommunication, which, in its original principle, was no more than the
+                    expulsion from a community of an individual who did not observe its rules, being
+                    stretched so far as to interdict intercourse with offenders, and, by
+                    consequence, to suspend duty towards them, became, in the middle age, the means
+                    of absolving nations from obedience to excommunicated sovereigns. Under these
+                    specious colours both popes and councils had been guilty of alarming
+                    encroachments on the civil authority. The church had indeed never solemnly
+                    adopted the principle of these usurpations into her rule of faith or of life,
+                    though many famous doctors gave them a dangerous continuance. She had not
+                    condemned, or even disavowed, those equally celebrated divines who resisted
+                    them; and though the court of Rome undoubtedly patronized opinions so favourable
+                    to its power, the catholic church, which had never pronounced a collective
+                    judgment on them, was still at liberty to disclaim them, without abandoning her
+                    haughty claim of exemption from fundamental error. On the Jesuits, as the most
+                    staunch of the polemics who struggled to exalt the church above the state, and
+                    who ascribed to the supreme pontiff an absolute power over the church, the odium
+                    of these do ’ ctrines principally fell. Among reformed nations, and especially
+                    in Great Britain, the greatest of them, the whole order was regarded as
+                    incendiaries, perpetually plotting the overthrow of protestant governments, and
+                    as immoral sophists, who employed their subtle casuistry to silence the remains
+                    of conscience in tyrants of their own persuasion. Nor was the detestation of
+                    Protestants rewarded by general popularity in catholic countries. All other
+                    regulars envied their greatness; the universities dreaded their acquiring a
+                    monopoly of education. Monarchs, the most zealously catholic, though they often
+                    favoured individual Jesuits, often also looked with fear and hatred on a society
+                    who would reduce them to the condition of vassals of the priesthood; and in
+                    France, the magistrates, who preserved their integrity and dignity in the midst
+                    of general servility, maintained a more constant conflict with these formidable
+                    adversaries of the independence of the state and the church. The kings of Spain
+                    and Portugal envied their well-earned authority, in the missions of Paraguay and
+                    California, over districts which they had conquered from the wilderness. The
+                    impenetrable mystery in which a part of their constitution was enveloped, though
+                    it strengthened their association, and secured the obedience of its members, was
+                    an irresistible temptation to abuse power, and justified the apprehensions of
+                    temporal sovereigns, while it opened an unbounded scope for heinous accusations.
+                    Even in the eighteenth century, when many of their peculiarities had become
+                    faint, and they were perhaps little more than the most accomplished, opulent,
+                    and powerful of religious orders, they were charged with spreading secret
+                    confraternities over France. Their greatness became early so invidious as to be
+                    an obstacle to the advancement of their members; and it was generally believed
+                    that if Bellarmine had belonged to any other than the most powerful order in
+                    Christendom, he would have been raised to the chair of Peter. The court of Rome
+                    itself, for w hom they had sacrificed all, dreaded auxiliaries who were so
+                    potent that they might easily become masters. These champions of the papal
+                    monarchy were regarded with <pb break="no" facs="nls:192945043"
+                    xml:id="kp-eb0712-5043-0557"/>jealousy by popes whose policy they aspired to
+                    dictate or control. Temporary circumstances at this time created a more than
+                    ordinary alienation between the Jesuits and the Roman court. They, in their
+                    original character of a force raised for the defence of the church against the
+                    Lutherans, always devoted themselves to the temporal sovereign who was at the
+                    head of the catholic party; they were attached to Philip II. at the time when
+                    Sextus V. dreaded his success; and they now placed their hopes on Louis XIV., in
+                    spite of his patronage, for a time, of the independent maxims of the Gallican
+                    church. On the other hand, Odeschalchi, who governed the church under the name
+                    of Innocent XI., feared the growing power of France, resented the independence
+                    of the Gallican church, and was, to the last degree, exasperated by the insults
+                    offered to him in his capital by the command of Louis. He was born in the
+                    Spanish province of Lombardy, and, as an Italian sovereign, he could not be
+                    indifferent to the bombardment of Genoa, and to the humiliation of that
+                    respectable republic, by requiring a public submission from the doge at
+                    Versailles. As soon, then, as James became the pensioner and creature of Louis,
+                    the resentments of Odeschalchi prevailed over his zeal for the extension of the
+                    church.</p>
+                <p>" The Jesuits had treated himself, and those of his predecessors who hesitated
+                    between them and their opponents, with offensive liberty. While they bore sway
+                    at Versailles and St James’s, they were on that account less obnoxious to the
+                    Roman court. Men of wit remarked at Paris, that things would never go well till
+                    the pope became a Catholic, and King James a Huguenot. Such were the intricate
+                    and dark combinations of opinions, passions, and interests, which placed the
+                    nuncio in opposition to the most potent order of the church, and completed the
+                    alienation of the British nation from James, by bringing on the party which now
+                    ruled his councils the odious and terrible name of Jesuits.”</p>
+            </div>
+        </body>
+    </text>
+</TEI>

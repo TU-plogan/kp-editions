@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0705-3308-0788-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">CALCUTTA</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 5, page 788</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="12" ref="fasttopic:1098312">Rivers</term>
+                    <term n="7" ref="fasttopic:945704">Governors</term>
+                    <term n="7" ref="fasttopic:1017057">Merchants</term>
+                    <term n="5" ref="fasttopic:1025265">Money</term>
+                    <term n="5" ref="fasttopic:1047359">Order</term>
+                    <term n="11" ref="fasttopic:839044">British</term>
+                    <term n="7" ref="fasttopic:910709">English</term>
+                    <term n="5" ref="fasttopic:916820">Europeans</term>
+                    <term n="3" ref="fasttopic:957175">Hindus</term>
+                    <term n="3" ref="fasttopic:961111">Hospitalers</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="17" ref="lcsh1910:b4hq3s746">Towns</term>
+                    <term n="12" ref="lcsh1910:b4wh2dg8p">Rivers</term>
+                    <term n="7" ref="lcsh1910:b4m90257q">Servants</term>
+                    <term n="7" ref="lcsh1910:b4xs5jj0k">Merchants</term>
+                    <term n="5" ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term n="3" ref="lcsh1910:b44q7qq38">Hindus</term>
+                    <term n="2" ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term n="2" ref="lcsh1910:b4fq9q84g">Widows</term>
+                    <term n="1" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="1" ref="lcsh1910:b4sq8qh7s">Arminianism</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="8" ref="fastgeo:1210276">India</term>
+                    <term n="2" ref="fastgeo:1240495">Asia</term>
+                    <term n="1" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1206073">China</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193743308" type="entry">
+                <p><label type="entry">CALCUTTA</label>, one of the largest and most splendid cities
+                    of Asia, the modern capital of Hindustan, and the seat of the supreme government
+                    of the British in India. It is situated upon the river Hooghly, which forms the
+                    western channel of the Ganges, and, though not the principal, is the only one of
+                    its numerous branches which is navigable for large vessels. It stands on an
+                    almost perfect level of alluvial and marshy ground, which a century ago was
+                    covered with jungle and stagnant pools, and which still almost everywhere
+                    betrays its unsoundness by the cracks conspicuous in the best houses. The town
+                    is 100 miles from the mouth of the river, the navigation of which is difficult,
+                    and often dangerous, on account of its numerous sand banks, many of which are
+                    continually shifting their situation. Vessels drawing more than seventeen feet
+                    water cannot, except at spring-tides, ascend with safety above Diamond Harbour,
+                    where the vessels of the East India Company usually load and unload. This is
+                    about sixty miles below Calcutta; and passengers are conveyed to the city in
+                    smaller vessels or in boats. The country, from the mouth of the Hooghly to
+                    Diamond Harbour, is dreary in the extreme; the banks of the river are high, and
+                    the adjacent land on each side, which is perfectly flat, forms a complete
+                    wilderness of timber and brushwood, the haunt of tigers, and of other beasts of
+                    prey. Advancing up the river, the scene gradually improves; the country becomes
+                    more and more cultivated; the shipping and the bustle on the river increase; and
+                    the beautiful country-seats on its banks announce the approach to the capital.
+                    The city, with its numerous spires and other public edifices, presents, at a
+                    distance, a striking appearance; and, on landing, the magnificence of the
+                    buildings commands the admiration of all strangers. The town and suburbs extend
+                    along the left or eastern bank of the river above six miles, but varying much in
+                    breadth at different places. In the middle of it, and very near the landing
+                    place, is an immense square, each side of which extends above a quarter of a
+                    mile; and the centre is occupied by a large tank or open reservoir of water for
+                    the supply of the town. This square, together with the adjacent buildings and
+                    those towards the south, forms what is properly termed the town of Calcutta, the
+                    residence of the European inhabitants and of the natives of distinction. To the
+                    south, along the bank of the river, lies the Black Town, which is occupied
+                    entirely by the lower classes of inhabitants, and is rather considered as part
+                    of the suburbs; and about a quarter of a mile to the north stand Fort-William
+                    and the barracks, which form on this side a great ornament to the city. The
+                    intermediate space, which is an extensive open plain, is termed the esplanade.
+                    The citadel of Fort-William, which was begun by Lord Clive in 1757, after the
+                    battle of Plasscy, is the strongest and most regular fortress in India; but the
+                    works are so extensive that they would require at least 9000 or 10,000 men, with
+                    600 pieces of cannon, to defend them. On the west of the esplanade stands the
+                    government-house, built by the Marquis Wellesley, which is the largest and most
+                    splendid building in Calcutta. It is the residence of the governor-general,
+                    where he holds levees, and transacts all the government business; it also
+                    contains magnificent apartments for public entertainments. The other public
+                    buildings are a town-house, with public rooms, which, though handsome, are too
+                    confined for the climate and for the number of the inhabitants; a court of
+                    justice, the hospital, and jail, which are situated on the esplanade; two
+                    English churches, the one of which is a plain building, but the other has an
+                    elegant appearance; a Scottish church; also churches for the Portuguese
+                    Catholics; another for those of the Greek persuasion, an Arminian church, many
+                    small Hindu pagodas, Mahommedan mosques, and a Sikk temple. All these various
+                    religions here enjoy the most perfect toleration.</p>
+                <p>The custom-house faces the river, and forms part of the west side of the great
+                    square. It is built upon the site of the old fort, which was taken in 1757 by
+                    Surajah Dowlah. Near to it is the famous Black Hole, which is now converted into
+                    a warehouse; and before the gate stands the monument which has been erected to
+                    commemorate the unfortunate persons who perished there. It is surrounded by an
+                    iron railing; but it has been struck with lightning, and has since been allowed
+                    to go to decay. In front of the custom-house is the quay, which has been of
+                    essential service to the numerous shipping which there load and unload. On the
+                    west side of the river, and in a beautiful situation, stands the botanic garden,
+                    at a bend to which it gives the name of Garden Reach. It contains a splendid
+                    collection of plants from every quarter of the globe, and is laid out with great
+                    taste, but more with a view to practical utility than scientific arrangement.
+                    Above the garden there is an extensive plantation of teak. Horse-racing having
+                    been discouraged by government, the course, which was to the south of the town,
+                    is now converted into a ride; but the practice still continues at Barrackpore,
+                    sixteen miles up the river, where the fashionable society of Calcutta assemble
+                    to partake of the amusement. The south side of the great square is occupied by
+                    the writers’ buildings, which make but an indifferent appearance. They form the
+                    residence of this class of the Company’s servants who are newly arrived from
+                    Europe, and who are students at the college of Fort-William. The private houses
+                    in Calcutta, in the central or genteel part of the town, are built mostly after
+                    the European fashion, but modified to the nature of the climate and to the
+                    magnificence of eastern manners. In a line with the government-house is a <pb
+                    break="no" facs="nls:193743321" xml:id="kp-eb0705-3321-0789"/> range of elegant
+                    buildings, ornamented with large verandahs, and another, at right angles with
+                    it, called Chourin-gee, formerly occupied by native huts. These houses are built
+                    of brick, covered with a species of stucco called chunam. They are all separated
+                    from each other, every one having attached to it a considerable piece of
+                    inclosed ground, in the middle of which it is situated. The approach is by a
+                    flight of steps under a large portico The architecture is Grecian, and the
+                    profusion of columns, porticos, and verandahs, gives them more the air of
+                    palaces than of private houses. To this part of Calcutta the Black Town, which
+                    extends along the river to the north of Calcutta, forms a striking contrast. It
+                    is built after the model of Indian towns, is very large, and swarming with
+                    population. The streets are exceedingly narrow, crooked, and dirty, and are all
+                    unpaved, with numerous ponds, reservoirs, and gardens, interspersed. A few of
+                    the streets are paved with brick. The houses are built, some of brick, above two
+                    stories high; but the great majority are built of bamboos and mats, only one
+                    story high, and covered with thatch; all which different kinds of fabrics
+                    standing intermixed present a very uncouth appearance. The houses being for the
+                    most part formed of such combustible materials, fires arc common, and have often
+                    proved very destructive. Within these thirty or forty years, however, this
+                    quarter of the town has been greatly improved both in appearance and in the
+                    salubrity of the air; the streets have been widened and properly drained, and
+                    the ponds have been filled; a large surface of stagnant water has been thereby
+                    removed, the exhalations from which were prejudicial to health; and the houses
+                    have been rendered less combustible, by being tiled in place of thatched.</p>
+                <p>Though building materials are abundant in the neighbourhood of Calcutta,
+                    house-rent is not moderate. This is owing partly to the high interest of money,
+                    and partly to the constant repairs which are required, from the casting of the
+                    wood in this hot climate, and from the ravages of insects, particularly the
+                    white ants. Though the woodwork of a house appear externally quite sound, it
+                    often turns out upon examination to be completely excavated or honeycombed by
+                    these insects, which assemble in incredible numbers wherever they can find an
+                    entrance.</p>
+                <p>The houses here which are known under the name of taverns are greatly inferior in
+                    respectability to those in Europe. They are, with the exception of two or three
+                    particular houses, resorted to only by the lowest company; and strangers who are
+                    enticed into them are exposed to every species of imposition, and frequently to
+                    total ruin. A European, on his first landing, is surrounded by numerous dangers
+                    and inconveniences, which he finds it extremely difficult to escape. These are
+                    so well described in the <hi rend="italic">East India Vade-Mecum,</hi> by
+                    Captain Thomas Williamson, that we will extract the following passages for the
+                    instruction of such of our countrymen as propose to visit those distant
+                    regions.</p>
+                <p>“The tavern-keeper, under the plausible pretext of aiding towards the completion
+                    of the youth’s wishes, never fails to inquire whether the gentleman has any
+                    friends in town, or even in the country. If affirmatively answered, ‘ mine host’
+                    feels himself tolerably secure of his money; but will probably assert that the
+                    friend in town is out of the way, and will not be back for some days. Should the
+                    gentleman be totally destitute of friends, then comes the rich harvest.
+                    Imposition following imposition swell the bill, which, if appearances warrant
+                    forbearance, is kept back as long as possible, under the pleasing assurance of
+                    perfect confidence; but in the end a catalogue of items is produced, which never
+                    fails to alarm, if not to ruin, the unsuspecting victim!</p>
+                <p>“If, unhappily, the guest should so far lower himself as to associate with the
+                    ordinary company of the common drinking-room, he is irretrievably gone.
+                    Quarrels, riots, and inebriety, must follow, in all probability rendering him
+                    subject to the notice of the police. <hi rend="italic">Should hi</hi><hi
+                    rend="italic subscript"> s</hi><hi rend="italic">face ever ⅛ seen at that
+                    office, it would be next t</hi><hi rend="italic subscript"> 0</hi><hi
+                    rend="italic">impossible that he should be admitted into any respectable
+                    circle.</hi> What with lodging, dinners, wines, &amp;c. of the worst
+                    description, but all rated at the highest prices, he must be a fortunate wight
+                    who escapes under a gold mohur (t. <hi rend="italic">e.</hi> two guineas) per
+                    day; in general double that sum is charged; sp that a person starts at the rate
+                    of L.1000 per annum at least; while, in all probability, no established or even
+                    apparent provision exists whereby he may be maintained.</p>
+                <p>“To state the evil without pointing out the remedy would be next to useless; but
+                    when I suggest the means of avoiding those difficulties, or any portion of them,
+                    attendant on arrival in a foreign land, it must be understood that I consider
+                    the stranger to be possessed of pecuniary means; that is, that he can pay his
+                    way. Without this he can do nothing, and must undergo all the afflictions and
+                    miseries attendant upon despised poverty in every part of the globe. It may be
+                    proper to point out in this place, that what might here appear to be liberal
+                    calculations, would not suit the East, where every article of European
+                    manufacture bears so enormous a price, where house-rent is so expensive, and
+                    where it is indispensably necessary to retain so many servants. The first thing
+                    to be done (setting a letter of recommendation out of the question) should be to
+                    report arrival at the secretary’s office, depositing the certificate of the
+                    court of directors’ license to proceed to India; without which the party is
+                    considered as an alien, and scarcely considered as entitled to British
+                    protection. This does not arise from ill will on the part of government or of
+                    the inhabitants, but from that strict attention the politics of the country
+                    imperiously demand to be paid to the several characters and descriptions of
+                    persons residing within our territory.</p>
+                <p>“The above relates equally to all persons in the civil or military branches; the
+                    certificate granted at the India House must be produced, in order to identify
+                    the party; but if it should have been lost, he himself, together with the
+                    commander who received the order for taking him on board, must attendi to make
+                    affidavit to that effect, before the appointment can be admitted upon the
+                    registers in India.</p>
+                <p>“Such as appertain to the civil service, being always strongly recommended, and
+                    often finding many old acquaintances of their families on the spot, require but
+                    little advice; nor does the cadet stand much in need of instruction as to the
+                    manner in which he should provide himself with a home. All he has to do is to
+                    wait upon the townmajor, at his office in Fort-William, when he will receive the
+                    necessary order for his admission into the cadet corps at Baraset, about sixteen
+                    miles from Calcutta.</p>
+                <p>“He who has not these advantages must do the best his circumstances may afford;
+                    he will find temperance to be not only cheap, but indispensable; for if he
+                    should act so indiscreetly at the outset as to injure his health, a thousand
+                    privations and a certain increase of difficulties must follow. The first point
+                    must necessarily be to get under cover. This will not be found so easy as those
+                    who have never quitted England may suppose. It will be after much research that
+                    a small house will be had, and then only the bare walls; for no such thing is
+                    known in India as a furnished bouse to be let; and lodgings are, if possible,
+                    still more out of the question. Fortunately there are among the European
+                    shopkeepers in Calcutta some most respectable characters,—men distinguished for
+                    their urbanity, philanthropy, and generosity. Application should be instantly
+                    made to one of these firms for aid and advice.</p>
+                <pb break="no" facs="nls:193743334" xml:id="kp-eb0705-3334-0790"/>
+                <p>The case should be candidly stated; and, in order to insure confidence, a deposit
+                    of money should be made either with them or at one of the banks. The
+                    consequences will be, that in a few hours some small tenement will be obtained,
+                    either on hire or granted as a temporary accommodation; and the whole of the
+                    articles really necessary will be provided at some one or other of the auctions
+                    which daily take place within the central parts of the town.”</p>
+                <p>Calcutta is the great emporium of the East. By means of the Ganges and its
+                    tributary streams it has an uninterrupted water communication with the whole of
+                    the north of Hindustan. There are three artificial canals by which the
+                    communication is maintained with the upper country without passing through the
+                    unhealthy and dangerous channel of the Sunderbunds. But this channel has never
+                    yet been kept permanently open. The discovery of steam navigation has proved of
+                    eminent utility on the Ganges. Steam packets now proceed up the river with
+                    passengers, and effect a voyage in three weeks that used to occupy a⅛ many
+                    months. Government steam vessels, some of them armed, also ply upon the river.
+                    Calcutta, being so advantageously situated for commerce, trades extensively with
+                    almost every country in the world, and numbers of vessels of every form and
+                    description are constantly arriving in or departing from the river, which in the
+                    vicinity of the town presents the busiest scene imaginable. Numerous dock-yards
+                    have also been established, in which are built vessels of great burden and of
+                    admirable construction. Piece goods, shawls, indigo, silk, sugar, opium, and
+                    rum, are the staple commodities of export. Treasure is imported from all
+                    quarters. From London, the imports consist principally of articles of
+                    consumption for the European inhabitants, consisting of wine, porter, ale,
+                    confectionaries, and generally of all the finer manufactures.</p>
+                <p>In 1808 a bank was established at Calcutta, under the name of the Calcutta Bank.
+                    Its capital amounts to fifty lacs of rupees, of which ten were subscribed by
+                    government, and the remainder by individuals. There are besides three private
+                    banks, and it is estimated that the paper circulation amounts to one crore of
+                    rupees, or one million sterling. There are twelve insurance companies; and in
+                    1825 there were published two daily newspapers, besides the Government Gazette
+                    and the India Gazette twice a week, and one weekly paper. There were two native
+                    weekly newspapers in Persian, and two in Bengalese, to which in 1826 another was
+                    added.</p>
+                <p>The institutions for education in Calcutta are numerous, of which the principal
+                    are, the Madressa or Mahommedan college, founded in 1780, for the instruction of
+                    the Mussulman youth in the Arabic and Persian languages, and in Mahommedan law;
+                    the college of Fort William, begun in 1801, for instructing the public servants
+                    of the Company in the native languages of the country, namely, the Hindustance,
+                    Bengalee, Persian, and Arabic, now a flourishing and well-regulated institution,
+                    in which, at the annual examinations, great proficiency is displayed by the
+                    students; the Sanscrit College, for which a handsome building has been erected,
+                    founded in 1821, for the instruction of the natives in the Sanscrit language and
+                    Brahminical literature, and also in the English language and literature; the
+                    Anglo-Indian College, established originally by respectable natives, chiefly for
+                    the instruction of Hindu youths in the English language; Bishop’s College, for
+                    the instruction of missionaries in the languages of the East; and a Medical
+                    School for native doctors, established at Calcutta in 1822. In 1823 a committee
+                    of public instruction was formed, who are authorized to exercise a
+                    superintendence over all government seminaries, and to give an impulse, as well
+                    as a judicious direction, to efforts made for diffusing instruction among the
+                    Hindus. There are numerous missionary societies and institutions, with extensive
+                    establishments for education,<note anchored="true" place="bottom"
+                    type="authorial"><p>-These are, the Calcutta Auxiliary Church Missionary
+                    Society, the Church Missionary Association, Diocesan Committee for the
+                    Distribution of Books and the Conversion of the Hindus, the Bengal Missionary
+                    Society, the Baptist Missionary Society, an Auxiliary Bible Society,
+                    &amp;c.</p></note> as well as various other schools and institutions, religious
+                    and charitable. A free school has been established, which Bishop Heber terms a
+                    noble institution, at which between 200 and 300 boys and girls are boarded,
+                    besides day scholars. They are taught according to Dr Bell’s system. Some few of
+                    the scholars are Arminian Christians, and there are one or two Hindus. There is
+                    also the Armenian Academy and a grammar school for the instruction of the
+                    Indo-British youth in classical literature. Under the patronage of a society of
+                    European ladies, native schools were established in 1821, with female teachers.
+                    Formerly no instance was ever known of an Indian female being instructed in
+                    reading, writing, or sewing. In 1826, 600 female Hindu pupils were taught in the
+                    various schools of Calcutta;<note anchored="true" place="bottom"
+                    type="authorial"><p>See Heber’s Journey through the Upper Provinces of
+                    India.</p></note> and in the indigenous schools, which are taught by native
+                    masters, and in which the parents of the boys pay for their education, the
+                    number of pupils amounts to nearly 3000.<note anchored="true" place="bottom"
+                    type="authorial"><p>Asiatic Annual Register, vol. xix∙</p></note> There are two
+                    schools for the education and maintenance of the children of Europeans in the
+                    military service of the Company, one for the children of officers, and another
+                    for those of the privates; and there are several literary and scientific
+                    societies. The Asiatic Society still continues its sittings, and publishes its
+                    Transactions, which contain much interesting information concerning the history,
+                    literature, languages, and antiquities of Asia. The charitable institutions are
+                    numerous, namely, the Bethel Union, the Seaman’s Friend Society, the Military
+                    Orphan Society, the Military Widow’s Fund, Lord Clive’s Fund, the King’s
+                    Military Fund, the Marine Pension Fund, the Civil Fund, the Mariner’s and
+                    General Widow’s Fund, the Presidency General Hospital, the Native Hospital, the
+                    Hospital for Native Lunatics, the Government Establishment for Vaccination, the
+                    Charitable Fund for Distressed Europeans, the European Female Orphan
+                    Society.</p>
+                <p>The supreme court consists of a chief justice and two puisne judges, all
+                    nominated by the crown. Its jurisdiction extends to all British subjects in
+                    India, and to all civil actions between natives, or between natives and
+                    Europeans. Criminal cases are tried in this court by a jury consisting
+                    exclusively of British subjects, as also all criminal charges against the
+                    Company’s servants, and all civil actions in which the Company or any of its
+                    servants are concerned; but it takes no cognizance of the land revenues. The law
+                    practitioners attached to this court are fourteen attorneys and six
+                    barristers.</p>
+                <p>The population of Calcutta, which is stated by some to amount to 500,000, by
+                    others to 700,000, is composed of persons from every quarter of the world.
+                    British and other Europeans, Armenians, Persians, Chinese, Hindoos, and
+                    Mahommedans, are all seen mixing in the streets of this metropolis. The
+                    occupations of these various classes are nearly what might be expected in the
+                    luxurious capital of a great empire, and in so great an emporium of maritime
+                    commerce. Public officers, lawyers, physicians, merchants, and their families,
+                    make up the bulk of the British inhabitants. The natives and foreigners of
+                    respectability are mostly engaged in trade, or living upon their <pb break="no"
+                    facs="nls:193743347" xml:id="kp-eb0705-3347-0791"/>property, and the lower
+                    classes are principally composed of retail-dealers, mechanics, and servants.</p>
+                <p>The most various estimates are given of the population of Calcutta; and it is
+                    doubtful if there be any correct census. In 1752 the number of houses within the
+                    Company’s bounds was estimated at 51,132, and the constant inhabitants at
+                    409,056. In 1802 the police magistrates estimated the population at 600,000. In
+                    1810 the chief judge Sir Henry Russel computed the population at between 400,000
+                    and 500,000 inhabitants. In 1819 the School Society’s estimate amounted to
+                    750,000; and in 1822 the following census was returned:</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Christians</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>13,138</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Mahommedans</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>48,161</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Hindus</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>118,203</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Chinese</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>414</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>179,916</p></cell>
+                    </row>
+                </table>
+                <p>From these different estimates it appeared to the magistrates that the resident
+                    population might be estimated at 200,000, and those going and coming at 100,000;
+                    and that the medium estimate of 300,000 would therefore be not far from the
+                    truth.</p>
+                <p>The British merchants form a most respectable class of men, and contribute
+                    essentially to the prosperity of the settlement; many of them are possessed of
+                    large fortunes, and live in a style of suitable splendour. The Armenians are the
+                    most numerous body of foreign merchants in Calcutta. They trade extensively to
+                    all parts of India and China, are uncommonly diligent and attentive to business,
+                    and are considered to have the most minute intelligence from foreign ports of
+                    any other body of merchants. The native bankers, agents, and money-dealers, are
+                    numerous. Though formerly timorous, the Hindu now adventures in almost every
+                    species of mercantile speculation; and cloths belonging to the native merchants,
+                    to the amount of L.1,000,000 sterling, are generally lying for sale in the
+                    warehouses of Calcutta. The native merchants of an inferior class engross nearly
+                    the whole of the retail trade of Calcutta, under the titles of Banians, Sircars,
+                    and Writers; and they are generally described as fond of money to excess, and
+                    most unprincipled in all their dealings.</p>
+                <p>The English society in Calcutta is of the best description, and numerous fêtes
+                    are given during the cold season, which lasts from September to April, on a
+                    splendid scale, by the governor-general and other public functionaries, as well
+                    as by individuals. There are public subscription assemblies, besides select
+                    evening parties under the name of conversaziones, enlivened by music, dancing,
+                    cards, and other amusements. There is a theatre, supported by amateur
+                    performers; and public concerts are given, which are also supported by amateur
+                    talent. The usual mode of visiting is in palanquins. But many of the British
+                    have carriages adapted to the climate; and the breed of horses having been
+                    greatly improved, it is the universal practice to drive out between sunset and
+                    dinner; and as it becomes dark, servants go out with torches and meet their
+                    masters, and run before their carriages», though going at a rapid rate, for a
+                    very long time. The British inhabitants of India are distinguished by their
+                    hospitable dispositions, and are most liberal to all who call on them for aid.
+                    It is only during the cold season that it is possible to venture abroad in the
+                    heat of the day, which, in the rest of the year, is devoted to repose. The hot
+                    season begins in April. Every day the heat increases until the middle of June,
+                    when the periodical rains begin, which last till August. The weather then being
+                    extremely close, is more oppressive and more unhealthy than before. The
+                    thermometer throughout the year generally ranges between 75° and 95°, but
+                    frequently rises to 100° and 110°.</p>
+                <p>It was in 1690 that the English, in virtue of a firman granted by Aurungzebe,
+                    founded a factory at Calcutta, which was then a village, the houses of which
+                    were scattered about in clusters of ten or twelve each, and the inhabitants
+                    chiefly .husbandmen; and in 1696, in consequence of the disturbed state of
+                    Bengal, they were allowed to raise works of defence. To the southward of
+                    Chand-paul Ghaut extended a forest; and between Kidderpoor and the forest were
+                    two villages, where now stand Fort William and the esplanade. In 1717 there was
+                    a small straggling village, surrounded by puddles of water, where now stand the
+                    elegant houses at Chowringhee, and the town extended to Chitpore Bridge; but the
+                    intervening space consisted of ground covered with jungle. In 1752 a ditch was
+                    dug round a considerable part of the town, as a barrier against the inroads of
+                    the Mahrattas. About this time the town was garrisoned by three hundred
+                    Europeans, who were frequently employed in conveying the Company’s vessels from
+                    Patna, loaded with saltpetre, piece goods, opium, and raw silk. The trade of
+                    Bengal alone supplied rich cargoes for fifty or sixty ships annually, besides
+                    what was carried on in small vessels to the adjacent countries. It was this
+                    flourishing state of Calcutta which probably induced the nabob Surajah Dowlah to
+                    attack it in the year 1756. Having had the fort of Cossimbazar delivered up to
+                    him, he marched against Calcutta with all his forces, amounting to seventy
+                    thousand horse and foot, with four hundred elephants, and invested the place on
+                    the 15th of June. Previous to any hostilities, however, he wrote a letter to Mr
+                    Drake, the governor, offering to withdraw his troops, on condition that he would
+                    pay him his duty on the trade for fifteen years past, defray the expense of his
+                    army, and deliver up the black merchants who were in the fort. This being
+                    refused, he attacked one of the redoubts at the entrance of the town; but was
+                    repulsed with great slaughter. On the 16th he attacked another advanced post,
+                    but was likewise repulsed with great loss. Notwithstanding this disappointment,
+                    however, the attempt was renewed on the 18th, when the troops abandoned these
+                    posts and retreated into the fort; on which the nabob’s troops entered the town,
+                    and plundered it for twenty-four hours. An order was then given for attacking
+                    the fort; for which purpose a small breastwork was thrown up, and two
+                    twelve-pounders mounted upon it, but without firing oftener than two or three
+                    times an hour. The governor then called a council of war, when the captain of
+                    the train informed them that there was not ammunition in the fort to serve three
+                    days, in consequence of which the principal ladies were sent on board the ships
+                    lying before the fort. They were followed by the governor, who declared himself
+                    a quaker, and left the place to be defended by Mr Holwell, the second in
+                    council. Besides the governor, four of the council, eight gentlemen of the
+                    Company’s service, four officers, and a hundred soldiers, with fifty-two free
+                    merchants, captains of ships, and other gentlemen, escaped on board the ships,
+                    where were also fifty-nine ladies, with thirty-three of their children. The
+                    whole number left in the fort was about two hundred and fifty effective men,
+                    with Mr Holwell, four captains, five lieutenants, six ensigns, and five
+                    serjeants; as also fourteen sea-captains, and twenty-nine gentlemen of the
+                    factory. Mr Holwell then having held a council of war, divided three chests of
+                    treasure among the discontented soldiers, making them large promises also, if
+                    they behaved with courage and fidelity; after which he boldly stood on the
+                    defence of the place, notwithstanding the immense force which opposed him. The
+                    attack was very vigorous; the enemy having got possession of the houses, galled
+                    the English from thence, and drove them from the bastions; but they themselves
+                    were <pb break="no" facs="nls:193743360" xml:id="kp-eb0705-3360-0792"/>several
+                    times dislodged by the fire from the fort, which killed an incredible number,
+                    with the loss of only five English soldiers the first day. The attack, however,
+                    was continued till the afternoon of the 20th, when many of the garrison being
+                    killed and wounded, and their ammunition almost exhausted, a flag of truce was
+                    hung out. Mr Holwell intended to avail himself of this opportunity to make his
+                    escape on board the ships, but they had fallen several miles down from the fort,
+                    without leaving even a single boat to facilitate the escape of those who
+                    remained. In the mean time, however, the back gate was betrayed by the Dutch
+                    guard; and the enemy, entering the fort, killed all they first met, and took the
+                    rest prisoners.</p>
+                <p>The fort was taken before six in the evening; and, in an hour after, Mr Holwell
+                    had three audiences of the nabob, the last being in the durbar or council. In
+                    all these the governor had the most positive assurances that no harm should
+                    happen to any of the prisoners. As soon as it was dark they were collected, to
+                    the number of a hundred and forty-six; and the guard, by pressing on them with
+                    presented muskets, and by clubs and simitars, forced them into the Black Hole
+                    prison, a dungeon about eighteen feet square, in which, out of a hundred and
+                    forty-six, only twenty-three persons came out alive in the morning, and most of
+                    them in a high putrid fever.</p>
+                <p>The injuries which Calcutta suffered at this time, however, were soon repaired.
+                    The place was retaken by Admiral Watson and Colonel Clive early in 1737; Surajah
+                    Dowlah was defeated, deposed, and put to death; and Meer Jaffier, who succeeded
+                    him in the nabobship, engaged to pay an immense sum for the indemnification of
+                    the inhabitants. Since that time the immense acquisition of territory by the
+                    British in this part of the world, and the constant state of security enjoyed by
+                    this city, have raised it to its present prosperity and splendour. Fort William
+                    stands in long. 88. 28. E. lat∙ 22. 33. N. (r.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

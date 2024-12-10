@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0703-8668-0239-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">ANT</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 3, page 239</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="3" ref="fastgeo:1209745">Grenada</term>
+                    <term n="2" ref="fastgeo:1206005">Guinea</term>
+                    <term n="1" ref="fastgeo:1210276">India</term>
+                    <term n="1" ref="fastgeo:1208755">Egypt</term>
+                    <term n="1" ref="fastgeo:1239509">Africa</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="1" ref="lcsh1910:b4t727f6t">Ants</term>
+                    <term n="13" ref="lcsh1910:b4fn10z9f">Nests</term>
+                    <term n="11" ref="lcsh1910:b4dv1cp19">Food</term>
+                    <term n="10" ref="lcsh1910:b4br8mh3x">Organ</term>
+                    <term n="9" ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term n="1" ref="lcsh1910:b45m62b4v">Germans</term>
+                    <term n="1" ref="lcsh1910:b4k649s3x">Accountants</term>
+                    <term n="1" ref="lcsh1910:b4ff3kz95">Accounting</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="29" ref="fasttopic:810896">Ants</term>
+                    <term n="13" ref="fasttopic:1036179">Nests</term>
+                    <term n="11" ref="fasttopic:930458">Food</term>
+                    <term n="10" ref="fasttopic:1047771">Organisms</term>
+                    <term n="10" ref="fasttopic:1047777">Organization</term>
+                    <term n="2" ref="fasttopic:980750">Italians</term>
+                    <term n="2" ref="fasttopic:1737291">Italianization</term>
+                    <term n="1" ref="fasttopic:942100">Germans</term>
+                    <term n="1" ref="fasttopic:942099">Germanization</term>
+                    <term n="1" ref="fasttopic:795344">Accountants</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193098668" type="entry">
+                <p><label type="entry">ANT</label>. The history of a tribe of insects so long
+                    celebrated for their industry and frugality, and for the display of that
+                    sagacity which characterizes some of the higher orders of animals, is peculiarly
+                    calculated to occupy the attention of modern naturalists. The ancients, indeed,
+                    had often noticed the habits and economy of the ant; but their accounts, at all
+                    times deficient in accuracy from the want of precise definitions and logical
+                    arrangement of the objects they describe, are in this instance so mixed up with
+                    fanciful notions and chimerical doctrines, and so coloured by the vivid
+                    imagination and credulity of the narrators, as to have retarded rather than
+                    advanced the progress of real knowledge. Aristotle and Pliny report, for
+                    instance, that the labours of ants are in a great measure regulated by the
+                    phases of the moon; and the latter mentions a species found in the northern
+                    parts of India, whose size was said to equal that of the wolves of Egypt, whose
+                    colour was the same as that of a cat, and whose occupation in winter consisted
+                    in digging up gold from the bowels of the earth; while the inhabitants in the
+                    summer robbed them of their treasures, after having decoyed them, by stratagem,
+                    from their nests. Great mistakes have prevailed, even in later times, from the
+                    circumstance of the larvae of ants bearing a resemblance to grains of corn,
+                    which it was supposed these insects hoarded up as a provision for winter
+                    consumption. The form of the eggs and of the larvae, and the attention paid to
+                    them by the ants, were described by Dr King in the 23d number of the <hi
+                    rend="italic">Philosophical Transactions;</hi> but Lecuwenhoeck was the first
+                    who distinguished with precision the different forms which the insect assumes in
+                    the several stages of its growth. He traced the successive changes from the egg
+                    to the larva, the nymph, and the perfect insect. Swammerdam pursued his scrutiny
+                    into these successive developments with greater minuteness; and, unrivalled in
+                    the art of microscopic dissection, discovered the wonderful encasement of all
+                    the parts of the future ant at every preceding stage, and showed that it appears
+                    under such different forms only from the nature of its envelopes, each of which,
+                    at the proper period, is in its turn cast off. Linnaeus <hi rend="italic"
+                    >(^Memoirs of the Poyal Academy of Sciences at Stockholm,</hi> vol. ii.)
+                    ascertained some of the leading facts with regard to the distinction between the
+                    sexes, and determined that the ants which are furnished with wings are the only
+                    individuals that exercise the sexual functions. Several particulars with regard
+                    to the economy of the ants were published by Mr Gould, in a book entitled <hi
+                    rend="italic">An Account of English Ants,</hi> of which an abstract is given in
+                    the <hi rend="italic">Philosophical Transactions</hi> for 1747, by the Rev. Dr
+                    Miles. The facts are there stated with tolerable correctness; but some errors
+                    have been committed by following too closely the analogy with bees. Geotì oy <hi
+                    rend="italic">(Histoire des Insectes qui se trouvent aux Environs</hi><hi
+                    rend="italic">de Paris),</hi> though a good naturalist on other topics, is a bad
+                    authority on the suoject of ants. The most complete series of observations on
+                    the natural history of these insects, is that for which we are indebted to the
+                    celebrated Swedish entomologist De Geer <hi rend="italic">(Mémoires pour
+                    servir</hi><hi rend="italic">a ι</hi><hi rend="italic">Histoire des
+                    Insectes),</hi> an observer on whose fidelity the most implicit reliance may be
+                    placed.</p>
+                <p>In the <hi rend="italic">Encyclopédie Méthodique,</hi> under the article <hi
+                    rend="italic">Fourmi,</hi> Olivier has drawn up an able statement of all the
+                    material facts that had been established by preceding naturalists; without,
+                    however, adding any original observations of his own, excepting the description
+                    of five or six undescribed species. A full account of the habits of those ants
+                    which for a long period infested the island of Martinique, is contained in some
+                    of the earlier numbers of the <hi rend="italic">Journal de Physique</hi> (vols.
+                    ix. and x.) The author of these memoirs, Μ. Barboteau, has given many curious
+                    details on this subject, and has cited a number of facts on various authorities;
+                    and the account might now be swelled by the reports of subsequent travellers in
+                    different parts of the world; but these statements are often made upon slender
+                    authority, and are too much tinctured with the marvellous to admit of much
+                    credit being attached to them. The narrative given to us by Bonnet in the second
+                    volume of his <hi rend="italic">Observations</hi><hi rend="italic">sur les
+                    Insectes,</hi> of the proceedings of a colony of ants which had established
+                    itself in the head of a large thistle, and which he transported into his house,
+                    is highly interesting; but it elucidates only a few points of their economy, and
+                    leaves us to regret that so patient and indefatigable an observer had not
+                    bestowed more of his attention to the study of this tribe of insects. In the <hi
+                    rend="italic">Philosophical Transactions</hi> for 1790 we find an interesting
+                    memoir on the sugar-ant, a species which, for a period of ten years, committed
+                    dreadful ravages in the sugar plantations throughout the whole island of
+                    Grenada. The most methodical account of this tribe of insects that has yet
+                    appeared is that of Latreille, in his <hi rend="italic">Histoire Naturelle des
+                    Fourmis,</hi> published at Paris in 1802, a work which alone would have secured
+                    the reputation of the author as an able and scientific naturalist. His merit is
+                    particularly conspicuous in the clearness and accuracy of his descriptions of
+                    each species, and the luminous method of arrangement which he has adopted in
+                    their classification. He gives an account of one hundred species which he had
+                    himself observed, and of twenty-four which he has described from the reports of
+                    others: these he distributes into nine natural families, according to the
+                    situation and structure of the antennae, and the form of the abdominal scales.
+                    But the work which contains the most copious collection of facts relative to the
+                    habits and economy of ants is that of Mr P. Huber of Geneva, entitled <hi
+                    rend="italic">Traité des Moeurs des Fourmis</hi><hi rend="italic"
+                    >Indigenes,</hi> published in 1810. By means of an apparatus which he contrived
+                    so as to admit of his obtaining a view whenever he pleased of the inmost
+                    recesses of their habitation, he was enabled to observe what was going on in the
+                    interior of the nest, and to investigate with success some of the most important
+                    and interesting featii ’ res of their history. The results of his researches, as
+                    they are reported in his work, are highly curious and instructive, and open a
+                    wide field of speculation and inquiry to the philosophical entomologist. They
+                    have not only elucidated many obscure points with regard to one tribe of
+                    insects, but have disclosed some general views of the instincts and faculties of
+                    this order of the creation, which are totally new, and must tend, in a
+                    considerable degree, to exalt our conceptions of the inexhaustible powers and
+                    resources of nature.</p>
+                <p>Having thus pointed out the principal sources of information in this department
+                    of entomology, we shall proceed <hi rend="superscript"> i</hi> to give an
+                    outline of the leading facts that have been' ascertained relative to the economy
+                    and domestic policy of these remarkable insects.</p>
+                <p>In common with many tribes of hymenopterous insects,: ants present the remarkable
+                    peculiarity of a threefold dis- &lt; tinction of sex among the individuals of
+                    the same species ;* a circumstance which is met with in no other order of the
+                    animal kingdom, and which appears, as far as observation has extended, to be
+                    totally excluded from the plan <pb break="no" facs="nls:193098681"
+                    xml:id="kp-eb0703-8681-0240"/>of the vegetable creation. Besides males and
+                    females, there exists an apparently intermediate order of <hi rend="italic"
+                    >neuters,</hi> which are also denominated labouring or working ants. The
+                    neuters, thus exempted from every sexual function, exercise, on the other hand,
+                    all the other offices necessary for the existence and welfare of the community
+                    to which they belong. It is they who collect supplies of food, who explore the
+                    country for this purpose, and seize upon every animal substance, whether living
+                    or dead, !which they can lay hold of, and transport to their nest. It is they
+                    who construct every part of their dwellingplace, who attend to the hatching of
+                    the eggs, to the feeding of the larvae, and to their removal, as occasion may
+                    require, to different situations favourable to their growth and development; and
+                    who, both as aggressors and as defenders, fight all the battles of the
+                    commonwealth, and provide for the safety of their weaker and more passive
+                    companions. Thus all the laborious and perilous duties of the state are
+                    performed solely by this description of ants, who act the part of helots in
+                    these singularly constituted republics of insects. We find, however, on closer
+                    examination, that, in all probability, this anomaly in point of sex is more
+                    apparent than real; and that, however different in external conformation from
+                    the productive females, they nevertheless originally and essentially belong to
+                    the same sex. There is every reason to .believe that the development of the
+                    sexual organs in the former is the consequence of some difference in the
+                    circumstances in which the larva is placed during its growth. .That such is the
+                    case with bees, is now perfectly well established; and the analogy of becs with
+                    ants, in many points of physiology, must be admitted as a strong argument in
+                    corroboration of this theory. In all the essential features of internal
+                    structure, the supposed neuters agree •with the female, and differ from the male
+                    of the same species. In all hymenopterous insects, which are armed with stings,
+                    a difference exists in the two sexes, as to the number of articulations
+                    composing the antennae; those of the female consisting of fewer pieces than
+                    those of the male. The accurate observations of Mr Kirby <hi rend="italic"
+                    >(Monographia Apum)</hi> have determined that in the bee the antennae of the
+                    male have fifteen articulations, while those of the female and the neuter have
+                    only fourteen. In the ant, likewise, we find thirteen articulations in the male,
+                    and only twelve in the female; and likewise only twelve in the neuter. In the
+                    male ant the abdomen has seven rings, in the female and neuter only six. In the
+                    two latster classes the head is broader, and the mandibles very -large and
+                    powerful compared with those of the male, and are furnished with serrated edges,
+                    and a sharp and often hooked point. The external sexual organs of the female and
+                    of the neuter are so nearly similar in appearance, that Latreille declares he
+                    was unable to perceive the least difference between them. On the other hand, it
+                    is to be observed, that in the neuter, the principal· deviation from the model
+                    of the female consists in.the absencè of wings; a circumstance which, as it
+                    regards the organs of locomotion only, is one of subordinate importance in the
+                    economy; and.their presence may, without difficulty, be conceived to be
+                    connected with a certain condition of the sexual organs, as are the horns of
+                    the, deer, and the beard in the human species. But although of so little
+                    consequence in a physiological point of view,' it is a circumstance materially
+                    affecting their external condition. It dooms them to severe toil and exertion ’
+                    in traversing the ground, and in climbing up the steep paths that may lie in
+                    their route; while their more luxurious and favoured associates are fluttering
+                    in the'spacious realms ’of air in • search of amusement, and wafted to the
+                    objects of their gratification on the light breezes of the summer, i</p>
+                <p>Ants appear to be endowed with a greater share of muscular strength than almost
+                    any other insect of the same size. Of this we have sufficient proofs in the
+                    vivacity of their movements, the incessant toil which many undergo, the great
+                    loads which they are seen to carry, often exceeding ten or twelve times their
+                    own weight, and the agility which they exert in making their escape from danger.
+                    This high degree of irritability is conjoined, apparently, with a corresponding
+                    share of the power of sensation; a power which is manifested in their
+                    susceptibility to a variety of impressions capable of affecting the organs of
+                    sense. They have a quick perception of all changes of temperature, as well as of
+                    other conditions of the atmosphere; and are readily and disagreeably affected by
+                    moisture. In the perfection of the sense of sight they seem to be nearly on a
+                    level with other insects; and the males and females are provided with both the
+                    descriptions of eyes peculiar to this class, namely, the· composite and the
+                    simple eyes. The labouring ants; indeed, who never fly, are frequently destitute
+                    of the latter kind; a circumstance which appears to confirm the suspicion that
+                    has often been entertained, that the simple eyes are chiefly instrumental in the
+                    vision of distant objects. Latreille describes two species of ants, in which he
+                    could not discover the least appearance whatsoever of eyes, although he employed
+                    a high magnifying power in examining them. One of these (the <hi rend="italic"
+                    >Formica caeca)</hi> is a foreign species, inhabiting the forests of Guiana, and
+                    of which the history is therefore little known. The other (the <hi rend="italic"
+                    >Formica</hi><hi rend="italic">contracta)</hi> is met with in the vicinity of
+                    Paris. It always conceals itself during the day under stones, or in obscure
+                    recesses, where no light can penetrate; and emerges from its retreat only during
+                    the night. It is much less social in its habits than other ants, collecting in
+                    groups only of about a dozen individuals, and appears to be far inferior in
+                    sagacity to the rest of the tribe.</p>
+                <p>Ants possess a considerable acuteness of smell, a sense ’ which appears to be
+                    useful not only in directing them to their food, but also, as Bonnet first
+                    remarked, in enabling them to follow by the scent the track of their companions.
+                    If the end of the finger be passed two or three times across the line of their
+                    march, so as to brush off the odorous particles with which the ants who had
+                    already passed that way may have impregnated the track, those who follow
+                    immediately stop on arriving at the place where the experiment has been made,
+                    and afterwards direct their course irregularly, till they have passed over the
+                    space touched by the finger, when they soon find the path, and proceed with the
+                    same confidence as before. Bonnet repeated this experiment frequently, and
+                    always with the same result. Latreille has endeavoured to discover the seat of
+                    smell, which had long been suspected to reside in the antennae. He, with this
+                    view, deprived several labouring ants of these organs, and replaced them near
+                    their nests. When thus mutilated, they wandered to and fro in all directions, as
+                    if they were delirious, and utterly unconscious of where they were going. Some
+                    of their companions were seen to notice their distress, and, approaching them
+                    with apparent compassion, applied their tongues to the bleeding wounds of the
+                    sufferers, and anointed them with a liquor which they caused to flow from their
+                    own mouths. This trait of sensibility was repeatedly witnessed by Latreille,
+                    while he was observing their actions with a magnifying lens.</p>
+                <p>’- It is indeed evident that, in all insects, the antennae are organs of the
+                    greatest utility in conveying impressions from external objects. But in the ant,
+                    independently of their importance as organs of touch, they appear to be of still
+                    greater consequence to the welfare of the individual, and of the community to
+                    which it belongs, by being the <pb break="no" facs="nls:193098694"
+                    xml:id="kp-eb0703-8694-0241"/>chief instruments which enable them to communicate
+                    to one another intelligence in which they are mutually interested, and on which
+                    they are called upon immediately to act. Mr Huber, to whom we are indebted for a
+                    variety of curious observations on this subject, has given the name of <hi
+                    rend="italic">Language Antennal</hi> to this species of intercourse. The
+                    situation of the antennae, which are placed in front of the head, their great
+                    mobility, their peculiar mechanism, which presents a series of phalanges having
+                    great freedom of play, and endowed with exquisite sensibility, conspire to fit
+                    them admirably for the function which he assigns to them,—that of producing a
+                    variety of different impressions, when applied in different ways to the antennae
+                    or other parts of those ants with which they come in contact. Thus the signal of
+                    danger, which consists in the ant which gives the alarm striking its head
+                    against the corslet of the other, is propagated from ant to ant with astonishing
+                    quickness, throughout the whole society. For a few minutes a general ferment
+                    prevails, as if they were deliberating what measures to pursue; but their
+                    resolution is soon formed, and they are ready to rush in a body against the
+                    enemy. Any small animal that is discovered to have insolently invaded their
+                    repose is certain of falling a victim to their resentment, unless he can make a
+                    precipitate retreat, which he seldom effects without being covered with the
+                    bites of these furious insects. They are not, however, equally jealous of the
+                    intrusion of every kind of insect, for woodlicè are often found in the interior
+                    of the nest, to whom, according to Latreille, they offer no molestation. Ants
+                    appear to be incapable of emitting sounds, so as to communicate with one another
+                    at a distance; and there is, indeed, no evidence that they possess the sense of
+                    hearing. The consideration of the sense of taste naturally comprehends that of
+                    their food, to which we shall therefore next proceed.</p>
+                <p>Very erroneous opinions were prevalent with regard to the food of ants, which
+                    have often been supposed to consume corn, and to do great injury to plants by
+                    devouring their roots or stems. The truth is, that they are chiefly carnivorous
+                    insects, preying indiscriminately on all the softer parts of animals, and
+                    especially,the viscera of other insects. These, indeed, they will often attack
+                    when alive, and overpower by dint of numbers; either devouring their victim on
+                    the spot, or dragging it a prisoner into the interior of the nest. If, however,
+                    the game should be too bulky to be easily transported, they make a plentiful
+                    meal, and exert, like the bee, a power of disgorging a portion, and of imparting
+                    it to their companions at home: and it appears that they are even able to retain
+                    at pleasure the nutricious juices unchanged for a considerable time. The
+                    rapidity with which they consume, and in fact anatomize, the carcass of any
+                    small bird or quadruped that happens to fall in their way, is well known, and
+                    furnishes an easy method of obtaining natural skeletons of these animals, by
+                    placing their dead bodies in the vicinity of a populous ant-hill. In hot
+                    climates, where they multiply to an amazing extent, their voracity and boldness
+                    increase with their numbers. Bosman, in his description of Guinea,states that,
+                    in one night, they will devour a sheep, leaving it a fine skeleton; while a fowl
+                    is for them only the amusement of an hour. In these situations they will venture
+                    to attack even living animals of considerable size. Rats and mice often become
+                    their victims. The sugar-ants of Grenada cleared every plantation which they
+                    visit-cd of rats and other vermin, which they probably effected by attacking
+                    their young. Poultry, or other small stock, could not be raised without the
+                    greatest difficulty; and the eyes, nose, and other emunctories of the bodies of
+                    dying or dead animals, were instantly covered with them, ſhey generally, indeed,
+                    begin their attacks on the most sensible parts,' which have the finest cuticle;
+                    and, accumulating in great numbers about the nostrils, destroy the animal by
+                    interrupting respiration. Negroes with sores had difficulty in keeping the ants
+                    from assailing them. Their power of destruction keeping pace with their increase
+                    of numbers, it is hardly possible to assign limits to either; and the united
+                    hosts of this diminutive insect have often become formidable to man himself. A
+                    story is related by Prevost, in his <hi rend="italic">Histoire Generale</hi><hi
+                    rend="italic">des Voyages,</hi> of an Italian missionary, resident in Congo, who
+                    was awaked by his negroes in great alarm at the house being invaded by an
+                    immense army of ants, which poured in like a torrent, and before he could rise
+                    had already mounted upon his legs. They covered the floor and passages, forming
+                    a stratum of considerable depth. Nothing but fire was capable of arresting their
+                    progress. He states that Cows have been known to be devoured in their stalls by·
+                    these daring devastators. Smith, in his <hi rend="italic">Voyages to
+                    Guinea,</hi> reports that at Cape Corse the castle was attacked by legions of
+                    ants, who were preceded by thirty or forty, apparently acting as guides. It was
+                    at day-break when they made this incursion, entering first by a chapel, on the
+                    floor of which some negro servants were lying. Assailed by this new enemy, they
+                    fled with precipitation, and gave the alarm to their master, who, on awaking,
+                    could hardly recover from his astonishment at beholding the advancing multitude,
+                    which extended for a quarter of a mile before him. There was not much time for
+                    deliberation; and a happy expedient was adopted of putting a long train of
+                    gunpowder across the line of their march, and extending it to their flanks,
+                    which had already begun to deploy, and, setting fire to the whole, millions were
+                    destroyed at one blow; which so intimidated the rest, that the whole army
+                    retreated in disorder, and did not renew the attack.</p>
+                <p>Descriptions of ant-hills of immense size abound in books of travellers who have
+                    visited tropical regions. Mr Campbell <hi rend="italic">{Account of Travels in
+                    South Africa,</hi> published in 1815) observed in the district of Albany, at the
+                    Cape, an ant-hill, five feet high, and twelve in circumference. In the forests
+                    of Guiana, according to Μ. Malouet, they attain the height of from fifteen to
+                    twenty feet; and, when viewed from a distance on these widely extended savannas,
+                    resemble the rude huts of savages; but they contain a race more ferocious than
+                    the savage or the tiger himself, and cannot be approached by men without the
+                    utmost danger of being devoured. When new settlers, who are clearing the
+                    country, meet with any of these in their progress, they must immediately desist
+                    from their task, and even abandon the neighbourhood, unless they can speedily
+                    destroy the enemy in the very heart of the citadel which protects him, and from
+                    which he is able to pour an overwhelming number of combatants.' The only method
+                    of accomplishing this is to dig a trench all round the ant-hills, and, after
+                    having filled it with dry wood and set fire to it on every side, by lighting it
+                    quickly in different places, so as to cut off all retreat to the ants, to batter
+                    down the edifice with cannon. The ants, thus scattered, soon perish in the
+                    flames.</p>
+                <p>The chief, if not the only vegetable substance which is at all alluring to their
+                    appetite, is <hi rend="italic">sugar.</hi> They not only eat it in substance,
+                    but are font! of all fluids that contain it in any quantity,—such as the
+                    secretions which exude from many trees, and compose what has been termed the
+                    honey-dew; and the saccharine juice which is excreted from the bodies of many of
+                    the insects belonging to the genus Aphis. This latter species of food they
+                    appear to relish above all others: it resembles honey in its qualities, and is
+                    sucked with avidity from the insect which yields it, and which appears in no
+                    respect to suffer from the operation. Boissier^ de Sauvages was the first who
+                    noticed this <pb break="no" facs="nls:193098707" xml:id="kp-eb0703-8707-0242"
+                    />singular fact; and Mr P. Huber has ascertained a number <hi rend="superscript"
+                    > 1</hi> of curious circumstances attending it. He conceives that the liquor is
+                    given out voluntarily by the aphis, at the solicitation of the ant, who for this
+                    purpose strikes it gently and repeatedly with its antennae, using the same
+                    motions as it does when caressing its young; and remarks, that the aphis retains
+                    this liquor for a longer time, where the ants are not at hand to receive it. A
+                    single aphis may often be seen surrounded by three or four ants who are feeding
+                    on the honey, and deriving from it a plentiful meal. It does not appear that the
+                    aphis uses any exertion to avoid the ants, who are thus dependent on its bounty;
+                    for those provided with wings are quite as passive under these circumstances as
+                    the rest. They are, however, of an extremely sluggish nature, and may be seen
+                    for days on the same stem, in a state of indolent repose, and averse to use
+                    their wings.</p>
+                <p>A singular observation has been recently made by Professor Savi (the younger) of
+                    Pisa, in relation to a species of Italian ant, the nest of which is inhabited by
+                    a small grasshopper. These animals do not appear to dwell in the same
+                    excavations in a merely casual manner, but they are united by some unaccountable
+                    bond of union, which renders the society of the one indispensable to the comfort
+                    of the other. The association of the ant and the aphis before alluded to is of a
+                    dissimilar nature, being the result of force on the one hand, and of necessity
+                    on the other. But, as far as it is possible to judge from the observations
+                    hitherto recorded, the cohabitation of the ant and the grasshopper is of a more
+                    refined and disinterested kind. It is really impossible at present to account
+                    for it on any other principle than that of an affectionate interest in each
+                    other’s society; for no direct advantage appears to result to either party. On
+                    this account Signor Savi has named the grasshopper <hi rend="italic"
+                    >gryllus</hi><hi rend="italic">myrmecophilus.</hi><note anchored="true"
+                    place="bottom" type="authorial"><p><hi rend="italic">ĽiUiotcca Itali ana,</hi>
+                    tomo xv. p. 217∙</p></note> He proved the friendly alliance which subsists
+                    between these species, by watching the migratory and other movements of the ants
+                    themselves, during which he discovered that they always carried their little
+                    grasshoppers along with them. These latter, during fine weather, are seen to
+                    sport and play in the vicinity of the ant-nests, into which they immediately
+                    betake themselves during any unfavourable change of the air, or the approach of
+                    threatened danger.</p>
+                <p>The cultivation of the sugar-cane in the West Indian islands has often been
+                    severely checked by the ravages of ants; but the injury they occasion arises
+                    altogether from their undermining the roots, in order to establish their nests
+                    where they can be protected from heavy rains, and secured against agitation from
+                    violent winds; advantages which the sugar-cane affords them in a very great
+                    degree. No part of the plant constitutes their food; and the same is true of
+                    those trees among the roots of which they burrow, and of which they speedily
+                    occasion the destruction, by preventing the access of moisture.</p>
+                <p>Ripe fruits are often attacked by ants, probably on account of the sugar they
+                    contain; and, for the same reason, the buds of trees are infested with these
+                    insects, and often injured by their depredations. There is no evidence that they
+                    at any time feed upon corn or other vegetable seed. This point has been well
+                    established by Mr Gould; and Bonnet, who kept a colony of ants prisoners in his
+                    study, observed, that, however long they had been kept without food, still they
+                    never touched the corn that he put before them. Honey and sweetmeats have strong
+                    attractions for ants, who, if they once discover their way to a magazine of
+                    these dainties, will immediately communicate the tidings to the rest of the
+                    society, and, leading them to the spot, a regular path will soon be established,
+                    which will continue to be crowded with a train of depredators so long as any
+                    thing remains to be pilfered. It is, however, certain, notwithstanding the
+                    assertion of Bomare, who compares them to the miser, whose chief pleasure
+                    consists in contemplating the riches he has amassed in his coffers, that ants
+                    are not in the habit of hoarding provisions for future consumption. They grow
+                    torpid when the cold exceeds 27° of Fahrenheit, and in that state require no
+                    food; and the aphis affords them sufficient nourishment at other periods of the
+                    winter.</p>
+                <p>In building their nests, each species of ant follows its own peculiar mode of
+                    construction, and employs different <hi rend="superscript"> 1</hi> materials for
+                    this purpose. Many form them of clay, and particularly the smaller species; one
+                    set building up a regular series of apartments in successive stories, often
+                    forty in number, with materials which are furnished to them by another set of
+                    workers, who are excavating the ground below. The cielings are supported
+                    throughout by small pillars in some parts, and by vertical walls in others;
+                    while broad arches are in other places raised, in order to protect larger
+                    spaces, and to admit of lengthened passages of communication throughout a long
+                    extent of apartments. These ants can proceed in the building only at such times
+                    as the earth has been softened by rain or dew, and the atmosphere is at the same
+                    time sufficiently moist to allow of the materials cohering firmly before they
+                    dry. Such are probably the ants which Pliny mentions as working by moonlight. On
+                    one occasion, when the ants, under the inspection of Mr Huber, had discontinued
+                    their labours on account of too great dryness in the atmosphere, he succeeded in
+                    getting them to renew their operations by sprinkling water upon them with a wet
+                    brush, in imitation of a natural shower. They carefully close the doors of their
+                    habitations every night, in order to prevent the intrusion of other insects; and
+                    a few remain on the outside during the night as sentinels, to give alarm in case
+                    of danger. Some species of ants collect fragments of leaves, of bark, or of
+                    straw, with which they construct more permanent and artificially constructed
+                    nests than the former. Others employ nothing but the fine powder which they
+                    collect from decayed wood. Some, for greater security, establish themselves
+                    under a large stone, or in the crevices of decayed buildings. Several tribes, on
+                    the other hand, penetrate into the solid substance of wood, which they scoop out
+                    into numerous cells, leaving only intermediate partitions of extreme tenuity,
+                    just of the strength sufficient to enable the whole fabric to support itself;
+                    while it crumbles into powder when pressed between the fingers.</p>
+                <p>We shall now take a brief review of the principal circumstances relating to the
+                    fecundation of the ant, and the evolution and growth of the young. The former is
+                    effected very generally during the flight of the females, in which they are
+                    accompanied by the males; both appearing to be provided with wings chiefly for
+                    this object. A certain number of the females that are impregnated, are also, by
+                    the assistance of their wings, enabled to reach distant situations, where they
+                    become respectively the founders of new colonies. The males, on the other hand,
+                    having fulfilled the office for which nature had destined them, are left to
+                    perish on the spot where they descend, being removed from those who formerly
+                    administered to them food, and being destitute of the means of procuring
+                    subsistence for themselves. Immense swarms of ants are occasionally met with;
+                    and some have been recorded of such prodigious density and magnitude as to
+                    darken the <pb break="no" facs="nls:193098720" xml:id="kp-eb0703-8720-0243"/>air
+                    like a thick cloud, and to cover the ground to a considerable extent where they
+                    settled. Mr Gleditsch describes, in the <hi rend="italic">History of the Berlin
+                    Academy</hi> for 1749, shoals of a small black ant which appeared in Germany,
+                    and formed high columns in the air, rising to a vast height, and agitated with a
+                    curious intestine motion, somewhat resembling the aurora borealis. A similar
+                    flight of ants is spoken of by Mr Acolutte, a clergyman of Breslaw, which
+                    resembled columns of smoke, and which fell on the churches and the tops of the
+                    houses, where the ants could be gathered by handfuls. In the German <hi
+                    rend="italic">Ephemerides·,</hi> Dr Charles Rayger gives an account of a large
+                    swarm, which passed over the town of Posen, and was directing its course towards
+                    the Danube. The whole town was strewed with ants, so that it was impossible to
+                    walk without trampling on thirty or forty at every step. And more recently, Mr
+                    Dorthes, in the <hi rend="italic">Journal de Physique</hi> for 1790, relates the
+                    appearance of a similar phenomenon at Montpellier. The shoals moved about in
+                    different directions, having a singular intestine motion in each column, and
+                    also a general motion of rotation. About sunset they all fell to the ground;
+                    and, on examining the ants, they were found to belong to the <hi rend="italic"
+                    >Formica nigra of</hi> Linnaeus.</p>
+                <p>The swarming of ants does not appear to be at all analogous to that of bees: its
+                    object seems to be confined to the propagation of the species, and is not the
+                    result of any co-operatipn of numbers, who associate together in search of a new
+                    habitation, in which an already populous assemblage may establish themselves. It
+                    would appear that the infant colonies consist of very small numbers, and are
+                    perhaps wholly the offspring of a common parent, who has migrated alone, or with
+                    but a few companions. The greater number of impregnated females alighting in the
+                    neighbourhood of the nest, are laid hold of by the labouring ants, who drag them
+                    to the nest, where they keep them prisoners till they are ready to deposit their
+                    eggs. It is very generally asserted that they also deprive them of their wings;
+                    but the later observations of Μ. Huber disprove that opinion. The impregnated
+                    females cast their wings of their own accord. They twist and contort these
+                    organs in various directions, till they finally drop off. Such as are
+                    unimpregnated have not been observed to perform this singular action. Each
+                    female is at this period attended by a numerous retinue of labourers, who treat
+                    her with the greatest deference, and are solicitous to anticipate all her wants.
+                    Contrary to what happens among bees, many females inhabit the same nest, and
+                    live together in the utmost harmony. The eggs, when first deposited, are very
+                    small, but become considerably larger before the larva is excluded, being
+                    apparently nourished by absorption; for the ants to whose care they are confided
+                    are perpetually licking them with their tongues,— a fact which, however curious,
+                    is by no means a solitary one in the history of insects. The larva comes forth
+                    at the end of a fortnight, and appears in the form of a transparent maggot, with
+                    a head and wings, but without any external organs of motion. They are in this
+                    state fed by their nurses with a fluid disgorged from their stomachs; and, in
+                    the course of their transformation to the state of nympha, and of perfect
+                    insect, are still dependent upon their assistance. These affectionate guardians
+                    help them to extricate themselves from the web of the cocoon, to unfold the
+                    duplicatures of their wings, and supply them with food, till they are capable of
+                    procuring it for themselves. , The young ant is an exceedingly tender and
+                    delicate animal, easily destroyed by any considerable variation of temperature,
+                    or by excessive humidity; and great care and attention appear to be required to
+                    bring it to maturity: it appears to be the constant business of the ants which
+                    remain at home to convey them to different parts of the nest, where the
+                    temperature is suited to them; and whenever danger threatens they show the
+                    utmost solicitude to remove them to situations of security.</p>
+                <p>Very different degrees of sagacity belong to different tribes of ants. Many
+                    traits in the history of the larger kinds, as related by Huber, are of so
+                    singular a character as to be scarcely credible if we had received them from a
+                    less reputable authority, and if we were not already prepared to admit them,
+                    from our knowledge of many equally curious circumstances in the economy of bees,
+                    which have been established by the concurrent testimony of the most scrupulous
+                    observers. Some tribes of ants, according to this naturalist, who are peculiarly
+                    fond of the honey which exudes from the aphis, convey many of these insects into
+                    their own nests, lodging them near the vegetables on which they feed, but
+                    keeping them prisoners within their habitations, and assigning to them distinct
+                    apartments in the subterranean recesses of their dwellings. As if conscious of
+                    the future advantages they may derive from these insects, they collect their
+                    eggs, and superintend their hatching with the same care which they bestow on the
+                    eggs of their own species. The aphis lives in perfect harmony with its keepers,
+                    who, so far from molesting it, defend it with courage against ants belonging to
+                    other nests, who frequently attempt to get possession of them. Occasionally they
+                    are lodged by the ants in fortified buildings, which they construct at a
+                    distance from the nest, in situations where they are most secure from invasion.
+                    The aphis is not the only genus of insect which furnishes this kind of provision
+                    to the ant; the kermes and gall-insect are employed occasionally for the same
+                    purpose, and are found domesticated in the nests of ants, at the same time that
+                    they contain several species of aphis, and from all of which they collect
+                    nutriment.</p>
+                <p>This picture of domestic harmony is strongly contrasted with the scenes of
+                    ferocious contention which are occasionally exhibited between the inhabitants of
+                    neighbouring nests; nature appearing to have instilled, together with the love
+                    of social order, the same passions of rivalry, of ambition, and of revenge, of
+                    which we deplore the operation among beings of a higher order. War, the scourge
+                    of the human species, exerts its desolating power among the tribes of gregarious
+                    insects, and tends to check their otherwise excessive increase of number. The
+                    battles which take place between rival colonies of ants are often on a scale of
+                    prodigious magnitude: millions of combatants engage on either side with a fury
+                    and pertinacity that is truly astonishing. Their weapons of offence are the
+                    jaws, which are capable of inflicting a deep bite, and of instilling into the
+                    wound a highly acrid liquor; and also, in many species, a sting resembling in
+                    situation and structure that of the bee, and likewise containing a venomous
+                    juice. The liquor is well known to possess acid properties, and, though long
+                    supposed by chemists to contain a peculiar acid, which was denominated the
+                    Formic, has been satisfactorily shown by Fourcroy and Vauquelin to consist of
+                    the acetic and malic acids, combined with a portion of acid animal matter, to
+                    which it owes its peculiar taste and smell. It is extremely volatile and
+                    pungent, and is capable of being thrown out by the ant, when irritated, in
+                    considerable quantities. Roux, in the <hi rend="italic">Journal de Medicine</hi>
+                    for 1762, reports a number of experiments which were made by exposing animals to
+                    its influence. Frogs were killed by the vapour from an ant’s nest in less than
+                    five minutes; and persons breathing it, when of a certain intensity, were nearly
+                    suffocated, or were seized with fever, followed by an extensive cutaneous
+                    eruption, which terminated in desquamation of the cuticle.</p>
+                <pb break="no" facs="nls:193098733" xml:id="kp-eb0703-8733-0244"/>
+                <p>Some of the most daring and courageous species, such as that which Μ. Huber calls
+                    the <hi rend="italic">Amazon-ant,</hi> make it the business of their lives to
+                    attack the nests of the weaker species, and succeed, after a desperate conflict,
+                    in plundering them of their eggs and larvae, which they convey to their own
+                    nests. These are hatched and reared by ants of the same species as themselves,
+                    who may be considered as auxiliaries to the amazons, and who had themselves, at
+                    some former period, been kidnapped from their parent nest by the amazons. Thus,
+                    a society is formed among different species of insects, to which no parallel
+                    exists but in the human race. The amazons live without labour; they are
+                    attended, fed, and cherished by the ants which they have procured by this kind
+                    of slave-trade, and who take as much care of their offspring as they do of those
+                    of their own species. Perfect order is preserved, and the natural instinct of
+                    hostility, which in another condition of the society exists between the two
+                    tribes, seems in the auxiliaries completely extinguished, by their being
+                    educated with the race of their original oppressors.</p>
+                <p>Ants have numerous enemies among quadrupeds and birds; and some, as the
+                    ant-eater, dasypus, and manis or pangolin, together with the tribe of
+                    woodpeckers, devour a very large proportion. The <hi rend="italic"
+                    >Formica</hi><hi rend="italic">leonis,</hi> or myrme-lion, feeds almost wholly
+                    on these insects. The bees at the Cape, accordingto Mr Campbell, frequently
+                    drive out the ants from their nests, of which they take possession themselves.
+                    Ants are also infested by lice, which, as may well be imagined, are so minute as
+                    to be invisible without the assistance of a very high magnifying power. They are
+                    stated by Redi, who discovered them, to resemble in shape those of the fowl and
+                    the dove.</p>
+                <p>The most effectual mode of destroying ants is to pour I boiling water into their
+                    nests, which destroys at once both the perfect insects and their eggs and
+                    larvae; so that those who, being from home, had escaped the general catastrophe,
+                    finding it impossible to repair the loss, abandon the spot, and disperse. The
+                    addition of urine, or of soot, or still better of tobacco, which may be infused
+                    in the water, will render it much more efficacious. A decoction of walnut-leaves
+                    or lime-water will also generally answer. The night is the best time for
+                    applying these remedies, as the ants are then all collected in the nest. Arsenic
+                    is exceedingly destructive to ants, and affords another ready mode of getting
+                    rid of those that intrude into cupboards or pantries: it may, for this purpose,
+                    be mixed with sugar, or kneaded with any kind of provision, and placed in the
+                    paths they are observed to frequent. Corrosive sublimate is also highly
+                    poisonous to them, and myriads of the sugar-ants at Grenada were destroyed by
+                    means of it; and it is stated to have had the effect of rendering the ants so
+                    outrageous that they destroyed each other, as could be seen by a magnifying
+                    glass, and even, though less distinctly, by the naked eye. It appears also that
+                    this effect was produced even when they only came in contact with the poison.
+                    The whole island, however, was so overrun with these ants, that the numbers that
+                    could be destroyed by these means bore no sensible proportion to the whole; and
+                    recourse was had to fire as more applicable to destruction on a larger scale. It
+                    was observed that when wood, burnt to the state of charcoal, without flame, and
+                    immediately taken from the fire, was laid in their way, they crowded to it in
+                    such amazing numbers as soon to extinguish it, though thousands perished by so
+                    doing. Holes were therefore dug at proper distances in a cane-piece, and fire
+                    made in each of them. Prodigious quantities perished in this way; for those
+                    fires, when extinguished, appeared in the shape of mole- ∙hills, from the
+                    numbers of dead that were heaped upon them. But as none of the females or. young
+                    brood were destroyed by this expedient, the ants soon ré-appeared in as great
+                    numbers as before; and the island would probably have continued subject to this
+                    scourge, had it not been for the occurrence of the great hurricane of 1780,
+                    which at once cleared all the islands of this dreadful pest, by which the
+                    sugar-cane plantations had been threatened with total ruin. <hi rend="smallcaps"
+                    >_ (y.)</hi></p>
+                <p>For the specific descriptions and systematic arrangement of the different kinds
+                    of ants, see <hi rend="smallcaps">Entomology.</hi><hi rend="italic">AN
+                    τ-Eater.</hi> See <hi rend="smallcaps">Mammalia,</hi><hi rend="italic">Index.
+                    &gt;</hi><hi rend="italic">ANT-Hills</hi> are little hillocks of earth which the
+                    ants throw up for their habitation and the breeding of their young. They are a
+                    very great mischief to dry pastures, not only by wasting so much land as they
+                    cover, but by hindering the scythe in mowing the grass, and yielding a poor
+                    hungry food, pernicious to cattle. The manner of destroying them is to cut them
+                    into four parts from the top, and then dig into them so deep as to take out the
+                    core below, so that when the turf is laid down again it may lie somewhat lower
+                    than the level of the rest of the land. By this means it will be wetter than the
+                    rest of the land, and this will prevent the ants from returning to the same
+                    place, which otherwise they would certainly do. The earth that is taken out must
+                    be scattered to as great a distance every way as may be, otherwise they will
+                    collect 'it together, and make another hill just by. The proper time for doing
+                    this is winter; and if the places be left open, the frost and rains of that time
+                    of the year will destroy the rest; but in this case care must be taken that they
+                    are covered up early enough in the spring, otherwise they will be less fertile
+                    in grass than the other places. In Hertfordshire they use a particular kind of
+                    spade for this purpose. It is very sharp, and formed at the top into the shape
+                    of a crescent, so that the whole edge makes up more than three fourths of a
+                    circle; this cuts in every part, and does the business very quickly and
+                    effectually. Others use the same instruments that they do for mole-hills. Human
+                    dung is a better remedy than all these, as is proved by experiment; for it will
+                    kill great numbers of them, and drive all the rest away, if only a small
+                    quantity of it be put into their hills.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

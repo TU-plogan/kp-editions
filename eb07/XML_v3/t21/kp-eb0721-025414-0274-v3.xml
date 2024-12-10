@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0721-0274-0254-14" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">TIBET</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 21, page 254</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="1" ref="lcsh1910:b4599z60x">Hindoos</term>
+                    <term n="1" ref="lcsh1910:b44q7qq38">Hindus</term>
+                    <term n="1" ref="lcsh1910:b44f1mm3n">Courts</term>
+                    <term n="13" ref="lcsh1910:b44j09z32">Founding</term>
+                    <term n="10" ref="lcsh1910:b43n20j3f">Mountains</term>
+                    <term n="10" ref="lcsh1910:b4wm1410b">Mountaineering</term>
+                    <term n="7" ref="lcsh1910:b4mc8rn70">Snow</term>
+                    <term n="7" ref="lcsh1910:b41g0j18n">Musk</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="12" ref="fastgeo:1206073">China</term>
+                    <term n="2" ref="fastgeo:1210276">India</term>
+                    <term n="1" ref="fastgeo:1240495">Asia</term>
+                    <term n="1" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1207312">Russia</term>
+                    <term n="1" ref="fastgeo:1204082">Japan</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="5" ref="fasttopic:990988">Lamas</term>
+                    <term n="1" ref="fasttopic:957175">Hindus</term>
+                    <term n="1" ref="fasttopic:839044">British</term>
+                    <term n="1" ref="fasttopic:1102429">Russians</term>
+                    <term n="1" ref="fasttopic:910709">English</term>
+                    <term n="13" ref="fasttopic:933281">Founding</term>
+                    <term n="10" ref="fasttopic:1028334">Mountaineering</term>
+                    <term n="10" ref="fasttopic:1028364">Mountaineers</term>
+                    <term n="10" ref="fasttopic:1028366">Mountains</term>
+                    <term n="7" ref="fasttopic:1121907">Snow</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ht:chi.12945678&amp;view=1up&amp;seq=274" type="entry">
+                <p><label type="entry">TIBET</label>, a country of great extent, in Independent
+                    Tartary, stretching from east to west 1500 miles in length. It extends from the
+                    sources of the Indus to the borders of China, and from Hindustan to the great
+                    desert of Cobi, in Central Asia. It is of unequal breadth, and many parts of it
+                    are unknown. It is distinguished by different names. It is called Tibbet in
+                    Bengal; but in Nepaul, Lower Tibet receives the appellation of Kutchar, and in
+                    Hindustan that of Potyid. In the native language of the inhabi<pb break="no"
+                    facs="ht:chi.12945678&amp;view=1up&amp;seq=275" xml:id="kp-eb0721-0275-0255"
+                    />tants it is called Pue. or Puckoachim; the first being the term for northern,
+                    and the latter for snow; thus indicating the severity of the climate. The
+                    distinguishing feature of this country is its great elevation, being for the
+                    most part a table-land, in which the rivers of India and China which run south
+                    and east, and those also which run northward into Siberia and Tartary, take
+                    their rise. Tibet is separated, about the twenty-eighth degree of north
+                    latitude, from Bootan by the Sumoonang Mountains, part of the great Himalaya
+                    chain; and the boundaries are marked by a long row of little inscribed flags,
+                    fixed in rude heaps of stones, which were seen by Turner when he passed,
+                    fluttering in the wind. The summit of one of the mountains, Chumularee,
+                    constitutes the highest land in what is called Little Tibet. It is highly
+                    venerated by the Hindus, who resort thither for the purpose of paying their
+                    adorations to the snow-clad summit.</p>
+                <p>Tibet appears at first under a most unfavourable aspect to travellers, and to be
+                    in a great measure incapable of culture. It is mountainous towards its frontier
+                    bordering on Bootan. Here perpetual winter may be said to reign; the great
+                    mountain of Chumularee is for ever clothed with snow. Its elevation is not
+                    precisely known, but this circumstance indicates a height of several thousand
+                    feet. In other parts the country exhibits low rocky hills, where no vegetation
+                    is visible, and extensive arid plains, of the most stern and stubborn aspect,
+                    and extremely barren. Where the country is capable of cultivation, the usual
+                    crops are wheat, pease, and barley. In many parts the grain never ripens. About
+                    fourteen miles from Phari, on the frontier mountains, Turner saw a small
+                    enclosure of green wheat, which had just strength enough to give out its ear,
+                    but which, he was told, would proceed no farther, the cold being too intense to
+                    admit of its ripening. It is cultivated merely as forage for cattle, when the
+                    plains become bare of grass, and they are hindered from going abroad during the
+                    depth of winter. The periodical rains give birth to a little herbage, whose
+                    growth stops immediately as they cease: from the extreme dryness of the air, the
+                    grass then begins to wither, so that it may be crumbled between the fingers into
+                    dust. Yet large droves of cattle are fed in this neighbourhood, the pasture,
+                    though short and dry, being extremely sweet and nutritive; and animals ranging
+                    in a state of nature are found to prefer it to the more exuberant herbage of
+                    milder climates. These plains accordingly, as well as the adjacent mountains,
+                    are frequented by large droves of cattle, shawl-goats, deer, musk-deer, horses,
+                    great multitudes of foxes, and other wild animals; also by many coveys of
+                    partridges and pheasants, and some quails. It is the practice of the cultivators
+                    in Tibet to flood the low lands on the approach of winter with water, which
+                    freezes and covers their surface with a sheet of ice, and thus shelters them
+                    from the violent winds, which would strip off the scanty soil. In some parts
+                    they pluck up the corn by the root, and afterwards place it in small bundles to
+                    dry. From Phari, in the mountains, however, to Nainee, a distance of fifty
+                    miles, the country is very little removed in its aspect, population, or culture,
+                    from a perfect desert. The hills are bare, and composed of a stiff, dry,
+                    mouldering rock, which splits and shivers with the frost; and, on account of the
+                    severity of the climate, the inhabitants are obliged to seek for shelter in the
+                    valleys and hollows. The north winds, meeting with no interruption in the w ide
+                    and barren plains, sweep along in furious blasts of the most cutting severity;
+                    and so uniform is the intense cold, that the inhabitants arc in the practice of
+                    killing their meat at the beginning of winter, and keeping it for three months,
+                    at the end of which period it is perfectly fresh.</p>
+                <p>In Tibet the temperature and seasons exhibit a remarkable uniformity, both in
+                    their periodical duration and in their return; and they exactly resemble those
+                    in the more southern region of Bengal. Variable weather prevails in the spring
+                    from March to May; the climate is warm, with thunder-storms and occasional
+                    refreshing showers. From June to September is the season of rains, which being
+                    heavy and continued, refresh the country, and cause the rivers to overflow, and,
+                    descending with rapidity from the mountains in their progress to the sea, to
+                    assist in inundating Bengal. From October to March the sky is uniformly clear;
+                    it is neither obscured by fogs nor clouds; and a much more intense degree of
+                    cold prevails than is known in the same latitudes in Europe. In these elevated
+                    plains the most boisterous winds perpetually prevail, in the dry summer months
+                    raising clouds of dust, almost intolerable to the traveller; and in other
+                    seasons, says Turner, “conveying a degree of cold unknown even in the severest
+                    winters in Europe. Such is sometimes the intenseness of the frost here, though
+                    in so low a latitude as twenty-eight degrees, that animals exposed in the open
+                    fields are found dead with their heads absolutely split by its force.”<note
+                    anchored="true" place="bottom" type="authorial"><p>Turner’s Embassy to the Court
+                    of Teshoo Lama in Tibet, p. 210.</p></note></p>
+                <p>The country, though barren, is not, as already observed, destitute of animal
+                    life; it abounds in a great variety of wild fowl, game, beasts of prey, flocks,
+                    droves and herds of cattle. Among the most remarkable animals is the Yak of
+                    Tartary, named also the Soora Goy, or bushy-tailed bull of Tibet. This animal
+                    resembles an English bull in height, the general figure of the body, the head,
+                    and the legs. He is the <hi rend="italic">bos grunniens</hi> of modern
+                    naturalists. See <hi rend="smallcaps">Mammalia.</hi> These cattle, though not
+                    large boned, yet, from the profuse quantity of hair with which they are
+                    provided, seem to be of great bulk. They have a downcast heavy look, and appear,
+                    as indeed they are, sullen and suspicious, discovering much impatience at the
+                    approach of strangers. They pasture on the coldest parts of Tibet, on the short
+                    herbage peculiar to the summits of mountains and to bleak plains; their
+                    favourite haunt being the chains of mountains situated between twenty-seven and
+                    twenty-eight degrees north latitude, whose summits are usually covered with
+                    snow. During the severity of winter they take shelter in the southern glens; and
+                    in milder seasons they take a wider range on the northern aspect of the
+                    mountains. They form a very valuable property to the tribes of itinerant
+                    Tartars, who live in tents, and tend them from place to place: they at the same
+                    time afford their herdsmen an easy mode of conveyance, a good covering, and
+                    wholesome subsistence. These animals are strong, sure footed, and carry a great
+                    weight. They are never employed in agriculture; but are extremely useful as
+                    beasts of burden. They afford an abundance of rich milk, the butter produced
+                    from which is excellent. It is the custom to preserve this in skins and
+                    bladders, and the air being excluded, it will keep in this cold climate
+                    throughout the year. The musk-deer is another animal which abounds in Tibet, in
+                    the vicinity of the coldest mountains, and produces a valuable article of
+                    revenue. He delights in the most intense cold, and in places which border the
+                    line of perpetual snow. He has two long curved tusks, which proceed from the
+                    upper jaw, and, being directed downwards, seem intended principally to serve him
+                    for the purpose of digging roots, his usual food; or they may be also given as
+                    weapons of defence. These animals are about the height of a moderately sized
+                    hog, to which they bear a resemblance in the bigness of the body; but they are
+                    still more like the hog-deer. They have <hi rend="italic">a</hi> small head, a
+                    thick and round hind quarter, no snout, and extremely delicate limbs. The body
+                    is covered with prodigiously copious hair, which grows erect all over the body,
+                    between two and three <pb break="no"
+                    facs="ht:chi.12945678&amp;view=1up&amp;seq=276" xml:id="kp-eb0721-0276-0256"
+                    />inches long, lying smooth only where it is short, on the bead, legs, and ears.
+                    On examination it seems to partake more of the nature of feathers, or of the
+                    porcupine’s quills, tl∣an of hair, though it is thin, flexible, and not
+                    straight, but undulated. The musk is a secretion formed in a little bag or
+                    tumour, resembling a wen, situated at the navel, and is found only in the male.
+                    The musk-deer is here deemed the property of the state, and hunted only by the
+                    permission of the government. Another animal of great importance in Tibet is the
+                    goat, whose coat affords materials for that exquisitely fine and beautiful
+                    manufacture, the shawl. Captain Turner saw numbers of this valuable animal
+                    feeding, in large flocks, upon the thin dry herbage that covers those naked
+                    looking hills. It is the most beautiful species among the whole tribe of goats;
+                    of various colours, black, white, of a faint bluish tinge, and of a shade
+                    somewhat lighter than a fawn. They have straight horns, and are of a lower
+                    stature than the smallest sheep in England. The outward covering of the animal
+                    is of coarse long hair; but the wool that is next the skin is of a light fine
+                    texture; and its softness is preserved by the external coat. This delicate
+                    creature is indebted for the softness of its coat to the nature of the climate
+                    which it inhabits; and it will not thrive in the hot atmosphere of Bengal, nor
+                    will it bear transportation by sea. A breed of wild horses is found in Tibet,
+                    which are distinguished for their fleetness, and which are never taken alive, so
+                    as to be rendered serviceable, or domesticated; and even when they are taken
+                    young they pine away and die, being vicious, stubborn, and untameable. They are
+                    said to be hunted, and, when they are killed, their flesh is esteemed a great
+                    delicacy. The domestic horses which they use are extremely docile. They are not
+                    natives of Tibet, but arc brought from Eastern Tartary and the borders of
+                    Toor-kistan as merchandise. They are never shod. Before they are permitted to be
+                    transported, care is taken to deprive them of the power of propagating their
+                    species, and mares are never met with in the country. They are quiet,
+                    sure-footed creatures, but slow and ugly. Among the valuable animals of Tibet,
+                    their breed of sheep merits a distinguished place. Their flocks are numerous,
+                    and their chief reliance is placed on them for present support, as well as for
+                    winter food. A peculiar species seems indigenous in this climate, marked almost
+                    invariably by black heads and legs. They are of a small size, with soft wool;
+                    and their flesh, which is almost the only animal food eaten in Tibet, is of a
+                    very fine flavour. They are occasionally employed as beasts of burden, and
+                    numerous flocks of them are often to be seen laden with salt and grain, each
+                    carrying from twelve to twenty pounds. They are the bearers of their own wool to
+                    the best market, where it is usually fabricated into a narrow cloth resembling
+                    frieze, or a thick coarse blanket. When slaughtered, their skins are most
+                    commonly cured with the wool on, and form a most excellent defence against the
+                    winter cold to the peasant and the traveller. The skins of lambs are also cured
+                    with the wool on, and constitute 3 valuable article of traffic; and to obtain
+                    the skin in its highest perfection, the dam is sometimes killed before her time
+                    of yeaning, by which a silky softness is secured for the fleece, which gives it
+                    a very high value. It serves particularly for lining vests, and is in equal
+                    estimation all over Tartary, as well as in China.</p>
+                <p>Though the soil of Tibet is in genera) barren and unimprovable, and though no
+                    great return can ever be expected from agriculture, the country abounds in
+                    mineral wealth, and industry and skill are only wanting to turn these sources to
+                    account. Gold is found in great quantities, and frequently very pure. It is
+                    obtained sometimes in large masses, lumps, and irregular veins. It is also found
+                    in the beds of rivers in the form of gold dust, and at their several bendings
+                    generally attached to small pieces of stone, with every appearance of its having
+                    been a larger mass. Cinnabar, containing a large portion of quicksilver, is
+                    found in Tibet, and might be advantageously extracted by distillation if fuel
+                    were more plentiful; but it is remarkably scarce, which is a great disadvantage;
+                    and they are often forced to substitute for fire-wood the dried dung of animals.
+                    The most valuable discovery that could be made for Tibet would be a coal-mine;
+                    and this mineral is found in some parts of the country bordering on China. Two
+                    days’ journey from Teshoo Loomboo there is a lead-mine. The ore is much the same
+                    as that found in Derbyshire, mineralized by sulphur, and the metal is easily
+                    obtained, namely, by the simple operation of fusion. Copper-mines are found,
+                    which furnish materials for the manufacture of idols, and all the ornaments
+                    disposed about the monasteries on which gilding is bestowed. Iron is more
+                    frequently to be found in Bootan than in Tibet; and it is not a branch of
+                    industry which could be followed in Tibet, owing to the want of fuel for
+                    smelting the valuable ores. Rock-salt is obtained in great abundance; and tincal
+                    is found in the bed of a lake about fifteen days’ journey from Teshoo Loomboo.
+                    The country contains inexhaustible quantities of it. It is brought to market in
+                    the state in which it is dug out of the lake, and afterwards refined into borax
+                    in this country.</p>
+                <p>Tibet carries on trade with the surrounding states, though not to any great
+                    extent; the inhabitants not being either commercial or industrious, and the
+                    surplus produce of the country being besides inconsiderable. Neither is commerce
+                    favoured by the government, the first member of the state being a merchant, who
+                    enjoys a monopoly for himself and others of all the chief branches of trade. The
+                    exports consist of gold, musk, tincal, goats’ hair, and rock-salt. The goats’
+                    hair is conveyed to Cashmere, and is of that superior sort of which the
+                    celebrated shawls are manufactured; and the salt is exported to Nepaul and
+                    Bootan. A considerable commerce is carried on with China, for the most part at a
+                    garrison town on the western frontier of China named Silling or Sinning. The
+                    exports are gold dust, precious stones, musk, and woollen cloths; in return for
+                    which are received gold and silver brocades, silks, teas, tobacco, quicksilver,
+                    China ware, furs, and some silver bullion. Gold dust, musk, and tincal, are
+                    exported to Bengal; and the imports are broad cloth, trinkets, spices,
+                    particularly cloves, pearls, coral, amber, kincobs, Matilda cloths, Rungpoor
+                    leather, tobacco, and indigo. British manufactures of woollen would furnish a
+                    considerable article of import. The extreme rigour of the climate requires warm
+                    clothing; and the dress of the lower classes consists of woollens of an inferior
+                    kind, and in winter of sheep or foxes’ skins cured with the wool and fur on.
+                    When they travel, they carry a weight of clothing that bids defiance to the most
+                    piercing winds. Having no other manufactures, they are obliged to encumber
+                    themselves with a heavy load of their own rude clothing. When woollen cloths of
+                    a better description are brought to the country by the travelling merchants who
+                    frequent it, they are bought up with great eagerness. The better classes are
+                    dressed in silks and furs. A trade is also carried on with Russia, though not to
+                    any great extent. This principally consists in hides, which are prepared in the
+                    adjacent districts, and are brought also from Kalmuc Tartary to the same mart,
+                    where all the rich and valuable furs that pass in merchandise between the
+                    Russians and Chinese may be procured on easy terms. There are few manufactures,
+                    and those only such as are of the coarsest kind and required for domestic use.
+                    They are famous, however, for the manufacture of images. At Teshoo Loomboo there
+                    is an extensive board of works established under the direction of the monastery,
+                    which is constantly employed in this manufacture.</p>
+                <p>Respecting the religion of the inhabitants of Tibet, little is known. It seems to
+                    be a schismatical offspring of the religion of the Hindoos, deriving its origin
+                    from one of the followers of that faith, a disciple of Buddh, who first
+                    broached<pb break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=277"
+                    xml:id="kp-eb0721-0277-0257"/> the doctrine which now prevails over the wide
+                    extent of Tartary. It is reported to have been first received in that part of
+                    Tibet adjacent to India, which hence became the seat of the sovereign lamas; to
+                    have traversed over Mant-chieux Tartary, and to have been ultimately
+                    disseminated over China and Japan. However it may differ from the Hindoo in many
+                    of its outward forms, it still bears a close affinity with the religion of
+                    Brahma in many important particulars. The principal idol in the temples is the
+                    Buddha of Bengal, worshipped under the denomination of Maha-moonie, a sanscrit
+                    term meaning “great saint,” and under various other epithets over all Tartary,
+                    and among the nations to the east of the Brahmapootra. The same places are
+                    considered sacred in Tibet and in Bengal, and are resorted to by pilgrims; and
+                    the water of the Ganges, which is considered holy, is carried in loads from the
+                    river over the mountains of Tibet, on the shoulders of men, who are hired by
+                    enthusiasts for this pious purpose. Their ritual or ceremonial worship differs,
+                    however, materially from the Hindoo; the Tibetians assemble in chapels, and in
+                    prodigious numbers, to join in chanting alternate recitative and chorus, with
+                    the accompaniment of an extensive band of loud and powerful instruments; so that
+                    it forcibly impressed on those who heard it, the solemn sounds of the popish
+                    mass. The people play in private on many other musical instruments; and Turner
+                    mentions, that on a visit to the mother of Teshoo Lama, she sung a very pleasing
+                    air, which she accompanied on the guitar, and her husband on the flageolet. The
+                    religion of Tibet is entirely free from the illiberal and perplexing
+                    distinctions of castes. A Brahmin would deem it a profanation of the deepest dye
+                    even to eat in presence of one of an inferior caste, much more to partake of the
+                    same repast with a person of a different religion. But the inhabitants of Tibet
+                    have no such scruples; even the sovereign lama has no objection to drink tea
+                    from the same vessel with any foreigner. Turner mentions, also, that in the
+                    great variety of visitors that came to him, he never observed the slightest
+                    scruple to partake either of tea or of other liquors prepared by his own
+                    servants. The Hindoo pays the blindest reverence to the Brahmin class. This
+                    reverence is only paid, in the ignorant idolatry of the Tibetians, to the
+                    sovereign lama, immaculate, immortal, and omnipresent, esteemed the vicegerent
+                    of the only God, the mediator between mortals and the Supreme. They view him as
+                    perpetually absorbed in religious duty, and when called upon to attend to the
+                    concerns of mortals, as being employed only in the benign office of distributing
+                    comfort and consolation, forgiveness and mercy. He is also the centre of all
+                    civil government, which derives from his authority all influence and power. He
+                    is the head of the whole system, which is a regular gradation from the most
+                    venerated lama, through the whole order of gylongs, to the young noviciate. The
+                    inferior gradations, from the president, who is always styled lama, are gylong,
+                    tohba, and tuppa. For the performance of daily service in the temple at Teshoo
+                    Loomboo there are 3700 gylongs or priests; and four lamas chosen from amongst
+                    them superintend and direct their religious ceremonies. Youth intended for the
+                    service of the monastery are received into the establishment at the age of eight
+                    or ten years. They are then called tuppa, and are occupied in receiving
+                    instruction suited to their age. At fifteen they are usually admitted into the
+                    order of tohba, if found sufficiently qualified; and thence into the order of
+                    gylong between the age of twenty-one and twenty-four. They are then eligible to
+                    the superintendence of some endowed monastery, of which there are multitudes
+                    spread all over Tibet, with lands assigned them for their support; their
+                    promotion depending on their interest or their character. In this station, as
+                    chief of a flock, they are honoured with the appellation of lama. Those who
+                    enter the religious order are enjoined sobriety, celibacy, and all the austere
+                    practices of the cloister. There is a considerable number of nunneries as well
+                    as monasteries; and the strictest prohibitions exist against any woman even
+                    accidentally passing a night within the walls of the one, or a man within those
+                    of the other. The ecclesiastical class, who hold intercourse with heaven, are
+                    entirely divided from the lay class, who carry on the business of the world; and
+                    no interference ever interrupts the regulated duties of the clergy. Their
+                    religion is divided into two sects, who are extremely hostile to each other, and
+                    one of whom was forced to seek shelter from the persecution of their opponents
+                    in that tract of country bordering on Tibet towards the south, and marked by a
+                    high ridge, inhospitable in the extreme, but which was thought capable of
+                    affording them a safe retreat. Here they fixed their abode, while others of the
+                    same sect still live in tents, and tend their flocks, rambling from place to
+                    place. The priests are habited in long robes of yellow cloth, with a conical cap
+                    of the same colour; and this peculiarity of colour is adopted as a distinction
+                    to mark one of the two religious sects that divide almost the whole of Tartary,
+                    from Toorkistan to the eastern limits of this continent. The other colour is
+                    red; and the tribes are known as belonging to the red or the yellow cap. The
+                    former differ principally from the sectaries of the yellow in admitting the
+                    marriage of the priests; but the latter are considered as the more orthodox, as
+                    well as possessed of greater influence. The emperor of China is decidedly a
+                    votary of the yellow sect, and has sanctified it by a sumptuary law, which
+                    limits it to the service of religion and the imperial use. Dalai Lama, Teshoo
+                    Lama, and Taranaut Lama, preside over the yellow, who have their residences at
+                    Poo-talah, Teshoo Loomboo, and Kharka. This sect prevails over a great part of
+                    Tibet, and a branch of it is said to be established in the Deccan. In like
+                    manner, three lamas preside over the red sect. The principal of the red class in
+                    Tibet has his residence in Sakia. The dress of these religious orders is the
+                    regular costume of every attendant at court, consisting of a vest of woollen
+                    cloth, with sleeves of a deep garnet colour; and a large mantle, either of the
+                    same or of a thinner texture, resembling a shawl, a sort of philibeg, and huge
+                    boots of bulgar hides, lined either with fur or cloth, complete their
+                    equipage.</p>
+                <p>Of the diseases in this country, the most singular is a glandular swelling in the
+                    throat, which is found in Europe among the inhabitants of mountainous countries,
+                    and is generally ascribed to an impregnation of the water from snow. This,
+                    however, is a doubtful theory, as it is sometimes seen where snow is not to be
+                    found. It has been little attended to, as it is not painful, is seldom fatal,
+                    and is only common among the poorer class of the people. The small-pox is a most
+                    fatal disorder in Tibet. It is not less dreaded than the plague, and is hardly
+                    less fatal; for they neither know nor use any remedies for it, but, as soon as
+                    it appears in any village, the healthy desert the sick, and leave them to chance
+                    and the natural course of the disease. There is little variety in their other
+                    diseases. Coughs, colds, and rheumatisms are more frequent than in Bengal.
+                    Fevers arise occasionally from temporary causes, but seldom prove fatal. The hot
+                    bath is used in many disorders, particularly in bowel complaints and cutaneous
+                    eruptions. The hot wells of Tibet are resorted to by thousands.</p>
+                <p>A singular and licentious practice is said by travellers to prevail here, namely,
+                    of one woman cohabiting with a whole family of brothers. Turner states, that one
+                    woman was pointed out to him who lived with five brothers, to each of whom she
+                    was married; and he states that this custom, so contrary to purity of morals and
+                    any idea of social happiness, is common among all ranks; and that families are
+                    seen living happily in this impure manner. He even endeavours to find out
+                    plausible reasons for the practice, founded on the danger in a poor country of
+                    the too rapid <pb break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=278"
+                    xml:id="kp-eb0721-0278-0258"/>increase of population. It cannot be considered,
+                    however, in any other light than as a mark of gross barbarity and
+                    licentiousness; and it agrees well with the author’s account of their loose
+                    conduct before they marry, and the want of chastity in the women. Their marriage
+                    ceremonies are simple, consisting only in the mutual consent of the two parties;
+                    and neither the one nor the other is at liberty to withdraw, unless, as Turner
+                    expresses it, “the same union of sentiment that joined their hands should prompt
+                    their separation.” In other words, they are considered to be bound until they
+                    tire of each other, when they are left at liberty to form a new alliance; a
+                    proof, along with former facts, of their want of morals. In their manners they
+                    arc mild, humane, and kind; and always obliging without being servilely
+                    officious.</p>
+                <p>It is the custom in Tibet to preserve the mortal remains of the sovereign lamas;
+                    but, with this exception, every other corpse is consumed by fire, or exposed in
+                    the open air to be devoured by ravens, kites, and other carnivorous birds. In
+                    the most populous parts of the country the dogs are also allowed to prey upon
+                    this extraordinary carrion. A chief lama, as soon as he expires, is placed
+                    upright in an apparent attitude of devotion, his legs being folded under him
+                    with each thigh resting on the instep, and the soles of the feet turned upwards.
+                    In this posture they are deposited in shrines. The inferior lamas are usually
+                    burned, and their ashes deposited in little metallic idols; but common subjects
+                    are treated with less ceremony, as already mentioned.</p>
+                <p>The history of Tibet is involved in obscurity. They have no annals of their
+                    public transactions, nor of the ancient extent of their kingdom, or of their
+                    religious institutions. It is known, however, that about the year 1720 the
+                    emperor of China acquired the sovereignty of Tibet by interfering in the quarrel
+                    of the two contending parties. In 1792 the country was invaded by the Nepaulese
+                    without provocation, and they made such a rapid and unexpected progress, and
+                    appeared so suddenly before Teshoo Loomboo, as scarcely to allow the lama and
+                    his gylongs time to effect their escape across the Brahmapootra. The Nepaulese
+                    army having carried off a large plunder, the accumulated contributions of ages,
+                    from Teshoo Lomboo, and having despoiled the tombs of their most valuable
+                    ornaments, withdrew to their own country, whither they were pursued by the
+                    Chinese, defeated, and forced to sue for peace, of which one of the conditions
+                    was the restoration of the plunder they had taken at Teshoo Loomboo, and the
+                    payment of an annual tribute. Since this period the country has enjoyed profound
+                    peace. But the spiritual influence of the lamas has been much weakened by that
+                    of their earthly protectors, the emperors of China. They retain officers or
+                    residents at the court of Lassa, styled umbas, invested with all real authority;
+                    and maintain a constant intercourse with the court of Pekin by means of jacoos,
+                    which means “communicaters of intelligence,” and who duly report to China every
+                    thing that takes place in Tibet. (<hi rend="smallcaps">f</hi>.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

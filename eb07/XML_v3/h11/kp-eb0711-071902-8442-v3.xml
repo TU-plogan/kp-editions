@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0711-8442-0719-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">HULL</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 11, page 719</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="1" ref="fastgeo:1205290">Greenland</term>
+                    <term n="1" ref="fastgeo:1210276">India</term>
+                    <term n="1" ref="fastgeo:1207312">Russia</term>
+                    <term n="1" ref="fastgeo:1204537">Sweden</term>
+                    <term n="1" ref="fastgeo:1204558">Denmark</term>
+                    <term n="1" ref="fastgeo:1239786">America</term>
+                    <term n="1" ref="fastgeo:1210278">Belgium</term>
+                    <term n="1" ref="fastgeo:1219920">England</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="7" ref="lcsh1910:b4q815225">Trade</term>
+                    <term n="7" ref="lcsh1910:b4jh3db66">Trades</term>
+                    <term n="3" ref="lcsh1910:b4707wx1r">Ships</term>
+                    <term n="3" ref="lcsh1910:b4cj87n5c">Shipping</term>
+                    <term n="3" ref="lcsh1910:b43n20n86">Sails</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="3" ref="fasttopic:1116352">Shipping</term>
+                    <term n="3" ref="fasttopic:1116439">Ships</term>
+                    <term n="3" ref="fasttopic:1103513">Sailing</term>
+                    <term n="3" ref="fasttopic:1103579">Sails</term>
+                    <term n="2" ref="fasttopic:1134794">Streets</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193648442" type="entry">
+                <p><label type="entry">HULL</label>, a sea-port town of the east riding of the
+                    county of York, 234 miles from London byway of York, and 170 by way of Lincoln,
+                    and crossing the Humber from Barton. It is situated on a river of the same name,
+                    whose waters are received at the town into the Humber. The old part of the town,
+                    with the exception of the fine market-place, is ill built, with narrow streets;
+                    but that portion near the docks consists of handsome and commodious houses and
+                    streets. It is admirably situated for trade, from being at the mouth of the
+                    great rivers Humber, Ouse, and Trent, whose tributary streams, and the various
+                    canals that branch from them, afford facilities for the conveyance of the
+                    productions of a large space of country to Hull, and for receiving from it the
+                    requisite articles of foreign growth. These advantages’ have been improved by
+                    the activity of the inhabitants, who have constructed docks and warehouses,
+                    which, for accessibility and security, are only inferior to those of London and
+                    Liverpool. The building and equipment of ships is an important branch of
+                    industry; and those built at Hull are considered as superior to those
+                    constructed at the more northern ports. As there is a vast trade with Russia,
+                    Prussia, Sweden, and Denmark, centring at Hull, the builders are enabled to
+                    procure timber, iron, flax, hemp, and other articles for ship-building, on the
+                    most favourable conditions. This is the port from which the greater number of
+                    ships are despatched to the whale fishery on the coasts of Greenland. The owners
+                    of ships in Hull do not confine themselves to the trade of their own port, but
+                    charter them to all parts of the world, by the merchants of London, Liverpool,
+                    and other mercantile places. A considerable direct trade is carried on with the
+                    West India islands, with South America, the United States, the Mediterranean,
+                    and the ports of Holland and Belgium. Though the ancient gates remain, there are
+                    no land fortifications; but on the sea side the approach to the town is defended
+                    by competent batteries. As Hull is situated in the fertile district of
+                    Holderness, it is well supplied with necessaries from that part, as well as from
+                    the Lincolnshire country, on the other side of the Humber. It is a county of
+                    itself, with its own courts, sheriffs, and assizes; and a branch of the Trinity
+                    House has the superintendence of the pilots and the lights.</p>
+                <p>It is governed by a mayor and aidermen, and returns two members to parliament,
+                    chosen by the resident freemen and householders, who amount to about 3800. The
+                    town was formerly subject to inundations; but, by appropriate embankments and
+                    drainage, that inconvenience is no longer felt. The population amounted in 1801
+                    to 29,516, in 1811 to 26,792, in 1821 to 31,425, and in 1831 to 32,958. If to
+                    this be added the inhabitants of Drypool, Sutton, and Sul-coates, which form
+                    apart of the town, the whole population will be from 45,000 to 50,000.</p>
+                <p>The gradual increase of the foreign trade of Hull may be seen by the following
+                    account of the number of vessels which have entered from foreign parts in each
+                    year from 1820 to 1833 both inclusive.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Years.</p></cell>
+                        <cell cols="2" role="data" rows="1"><p>British Vessels;</p></cell>
+                        <cell cols="2" role="data" rows="1"><p>Foreign Vessels.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Ships.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Tonnage.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Ships.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Tonnage.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1820</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>627</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>117,434</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>117</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15,111</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1821</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>578</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>113,133</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1Q6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>13,820</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1822</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>672</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>134,999</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>103</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>14,011</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1823</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>778</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>153,313</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>203</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>26,103</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1824</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>776</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>142,615</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>510</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>58,603</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1825</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,171</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>227,363</p><p>130,674</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>100,773</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1826</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>717</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>854</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>70,137</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1827</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>982</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>191,364</p><p>156,925</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>800</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>72,338</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1828</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>881</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>674</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>60,082</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1829</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>883</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>165,791</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>603</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>58,854</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1830</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>897</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>163,657</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>556</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>51,015</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1831</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>974</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>187,361</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>725</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>73,547</p><p>43,481</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1832</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>762</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>140,788</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>454</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1833</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>755</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>142,301</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>610</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>62,403</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>11,453</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,167,718</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7315</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>720,278</p></cell>
+                    </row>
+                </table>
+                <p>The amount of duties paid at the custom-house is next in value after London,
+                    Liverpool, and Bristol. The sum collected in the year 1833 amounted to
+                    L.624,057. 7s. lid., from which was deducted, for drawbacks, bounties, and
+                    over-entry certificates, L.5292. 9s. 3d., and for the payment of salaries and
+                    incidents, L.24,470. 4s. 3d.; thus leaving a clear sum of L.594,294. 14s. 3d.
+                    remitted to London.</p>
+                <p>Another criterion of the proportional amount of trade is the amount of postage
+                    paid. By this Hull will appear to be the sixth town of England, and the tenth of
+                    the united kingdom. The sums collected at the towns at the post-office were,</p>
+                <p>1833. 1834.</p>
+                <p>London L.632,696 L.642,871</p>
+                <p>Dublin 80,611 69,096</p>
+                <p>Liverpool 70,011 74,080</p>
+                <p>Manchester 53,510 56,287</p>
+                <p>Edinburgh 42,759 41,864</p>
+                <p>Glasgow 36,053 36,481</p>
+                <p>Bristol 33,884 33,242</p>
+                <p>Birmingham 28,685 28,812</p>
+                <p>Leeds 20,316 21,331</p>
+                <p>Hull 14,607 14,853</p>
+                <p>Without more voluminous accounts than the nature of this work will admit, it is
+                    not easy to give a tolerable view of the articles imported at and exported from
+                    Hull; but an official account, in a condensed form, of the countries from which
+                    the vessels, arrived that had entered the port of Hull in the years 1830,1831,
+                    1832, and 1833, will convey a tolerably accurate view of the nature of the whole
+                    trade.</p>
+                <pb break="no" facs="nls:193648455" xml:id="kp-eb0711-8455-0720"/>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="5" role="data" rows="1"><p><hi rend="italic">Vessels that
+                            entered Hull during Four Years.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="smallcaps"
+                            >Countries.</hi></p></cell>
+                        <cell cols="2" role="data" rows="1"><p>British Ships.</p></cell>
+                        <cell cols="2" role="data" rows="1"><p>Foreign Ships.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Vessels.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Tons.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Vessels.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Tons.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Russia</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>266</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>256,090</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>60</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12,255</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Sweden</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>90</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>16,700</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>136</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>20,163</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Norway</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>307</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>201</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>23,807</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Prussia</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>160</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>31,113</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>228</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>29,346</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Mecklenburg</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>628</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>58</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,589</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Hanover</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>115</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,344</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Oldenburg</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>174</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10,911</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Hanseatic towns</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>718</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>103,910</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>146</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11,557</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Netherlands</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>685</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>65,728</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>231</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>17,467</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>France</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>53</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4,590</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>814</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Portugal and Azores</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>45</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4,223</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,134</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>A WÄ LH⅛, lΛ* UUV*</p><p>Spain and
+                            Canaries</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>65</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,823</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>550</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Tuscany</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>552</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Naples and Sicilv</p><p/></cell>
+                        <cell cols="1" role="data" rows="1"><p>53</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7,153</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>830</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Austrian Italy</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>765</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Greek islands</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>580</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Turkey and Continental
+                            Greece</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>938</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>• ∙∙ ∙∙∙</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>North Africa</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,167</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>• ∙∙</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>.··«··</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Mauritius</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>147</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Canada</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>94</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>33,682</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>New Brunswick</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>147</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>50,018</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Nova Scotia</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,509</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>West Indies</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>153</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>United States</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>16</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,505</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>236</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Whale fishery</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>166</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>35,377</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>11«!^ *</p><p>Isles of Guernsey and
+                            Jersey</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>16</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,247</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p/></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Denmark with Holstein</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>27</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,935</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>862</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>65,006</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Ionian Islands</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,472</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>...</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p><hi rend="smallcaps">Hull,</hi> in nautical language, is the main body of a ship,
+                    without either masts, yards, sails, or rigging. Thus, <hi rend="italic">to
+                    strike a hull</hi> in a storm, is to take in her sails, and to lash the helm on
+                    the lee-side of the ship; and <hi rend="italic">to hull,</hi> or <hi
+                    rend="italic">lie a-hull,</hi> is said of a ship the sails of which are thus
+                    taken in, and helm lashed a-lee.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

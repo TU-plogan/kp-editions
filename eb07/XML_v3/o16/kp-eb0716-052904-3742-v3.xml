@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0716-3742-0529-04" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">ORGAN</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 16, page 529</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="25" ref="lcsh1910:b4br8mh3x">Organ</term>
+                    <term n="20" ref="lcsh1910:b4pk0743s">Winds</term>
+                    <term n="15" ref="lcsh1910:b4jd4pp0f">Air</term>
+                    <term n="14" ref="lcsh1910:b4028pj93">Keys</term>
+                    <term n="10" ref="lcsh1910:b4q52fm20">Pipe</term>
+                    <term n="4" ref="lcsh1910:b45m62b4v">Germans</term>
+                    <term n="2" ref="lcsh1910:b4qv3c355">Flight</term>
+                    <term n="1" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="1" ref="lcsh1910:b4d795b6k">Bohemianism</term>
+                    <term n="1" ref="lcsh1910:b42v2ch0v">Music</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="2" ref="fastgeo:1219920">England</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="25" ref="fasttopic:1047771">Organisms</term>
+                    <term n="25" ref="fasttopic:1047777">Organization</term>
+                    <term n="20" ref="fasttopic:1175820">Winds</term>
+                    <term n="15" ref="fasttopic:802066">Air</term>
+                    <term n="10" ref="fasttopic:1064480">Pipe</term>
+                    <term n="7" ref="fasttopic:910709">English</term>
+                    <term n="4" ref="fasttopic:942100">Germans</term>
+                    <term n="4" ref="fasttopic:942099">Germanization</term>
+                    <term n="2" ref="fasttopic:839044">British</term>
+                    <term n="2" ref="fasttopic:927291">Flight</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194563742" type="entry">
+                <p><label type="entry">ORGAN</label>, in general, is an instrument or machine
+                    designed for the production of some certain action or operation; in which sense
+                    the mechanical powers, machines, and even the veins, arteries, nerves, muscles,
+                    and bones of the human body, may be called <hi rend="italic">organs.</hi><hi
+                    rend="smallcaps">Organ,</hi> by far the most noble and imposing of all musical
+                    instruments. It is quite inconsistent with the design and limits of this work
+                    for us to enter into all the details of the nature and structure of the organ.
+                    They would fill a volume, and require many illustrative plates. We shall,
+                    however, endeavour to give such a general idea of the nature of the instrument
+                    as may satisfy those readers who are not professionally interested in the
+                    subject; and we assure them that their own inspection of the mechanism of an
+                    organ (which is easily attained in every large town) will afford them more clear
+                    and satisfactory knowledge than hundreds of pages written in explanation of its
+                    construction. For minute details, we refer to <hi rend="italic">EArt du</hi><hi
+                    rend="italic">Factem</hi><hi rend="italic">d</hi><hi rend="italic">Orgues,</hi>
+                    by F. Bedos de Celles, published at Paris in 1766 and 1778, in folio, with 137
+                    plates. This is considered, even now, as the best and most complete work on
+                    organ-building. It is a pity we have none such in the English language. See also
+                    the Abbé Vogler’s German works upon organ-building, and G∙ Serassi’s <hi
+                    rend="italic">Lettere sugli</hi><hi rend="italic">Organi,</hi> printed at
+                    Bergamo in 1816; together with Reports of the French Institute upon Μ. Grenié’s
+                    improvements on the organ. We suspect that the general want of improvement in
+                    organ-building in Great Britain may be traced to the absence of such works, and
+                    some others, in our own language, for the instruction of our organ-builders.
+                    This may also explain, in some degree, why almost all the best organs in England
+                    were constructed by foreigners. Recently, however, we are happy to perceive a
+                    spirit of emulation arising amongst our native organ-builders; and we have
+                    little doubt that the ingenuity and superior workmanship of British artisans
+                    will soon enable us to vie with, or excel, the best organ-builders of the
+                    Continent. But, to do this, we must cast aside all national prejudices as to
+                    organs, &amp;c. and meet foreigners upon a fair and liberal ground of
+                    competition.</p>
+                <p>The earlier history of the organ is extremely obscure. A small and imperfect
+                    instrument, somewhat on the principle of the organ, may have been known to the
+                    ancients; but surely nothing like our great church-organ. We read of ancient <hi
+                    rend="italic">hydraulic</hi> and <hi rend="italic">pneumatic</hi> organs; but
+                    such distinction is so far erroneous, inasmuch as organ-pipes could not be made
+                    to sound by having <hi rend="italic">water</hi> forced through them. The water
+                    must have been a moving power only, to impel the <hi rend="italic">wind</hi>
+                    into the pipes. It would seem that the Greek and Latin terms 5sya∣∕iv and <hi
+                    rend="italic">organum,</hi> translated by the English word <hi rend="italic"
+                    >organ,</hi> originally signified an instrument or machine of any kind, and were
+                    afterwards applied to musical instruments of all kinds. <hi rend="italic"
+                    >“</hi><hi rend="italic">Organa</hi><hi rend="italic">dicuntur</hi><hi
+                    rend="italic">omnia</hi><hi rend="italic">instrumenta musicoum"</hi> says St
+                    Augustin. Still later, according to St Isidore, these names, <hi rend="italic"
+                    >οeγανον</hi> and <hi rend="italic">organum,</hi> were applied to none but
+                    wind-instruments. In modern times the term organ, in a musical sense, came to
+                    signify only the instrument which we now know under that name. The passage in
+                    Egrnhard’s Annals which has been interpreted the sending of <hi rend="italic">an
+                    organ</hi> by Constantine Copronymus to King Pepin in the year 757, may more
+                    probably mean “<hi rend="italic">various musical instruments,’'</hi> since the
+                    words are, “<hi rend="italic">Constantinus Imperator</hi><hi rend="italic"
+                    >Pipini</hi><hi rend="italic">regi multa misit munera, interque et organa?</hi>
+                    &amp;c. A writer of the sixteenth century has ventured to describe the supposed
+                    <hi rend="italic">organ</hi> sent to King Pepin; and, by force of imagination,
+                    makes it out to have been a grand organ with pedals. In Luitprand’s History
+                    (book vi. c. 2) there is a curious passage regarding an instrument sent to the
+                    Emperor Constantine in 950 :— “Erat Regia ornata sumtuosissime, ibi aenea
+                    inaurata arbor ante ipsius imperatoris solium effulgebat, expansis magnum in
+                    modum ramis acreis atque inauratis; in his frequentissimae variarum specierum
+                    aves arte confictae, quarum singulae speciei proprias voces cantusque
+                    emittebant, incredibili arte.” In the second volume of Gerbert <hi rend="italic"
+                    >(De Cantu</hi><hi rend="italic">et Musica Sacra,</hi> plate xxviii.) will be
+                    found a representation of a tree of this kind with birds upon it. The Chronicle
+                    of Albericus adds to the singing of the birds before Constantine, “the roaring
+                    of enormous gilded artificial lions.” (See Gerbert, vol. ii. p. 151.) That such
+                    birds can be made, is certain from Maillardet’s beautiful little artificial
+                    bird, which started up out of a gold snuffbox, fluttered its wings, and sang
+                    with a pipe so clear and loud as to fill a large room. It would appear that, in
+                    the rude instruments called organs in the eleventh and twelfth centuries, the
+                    pipes were disposed in such a manner that every sound in its finger-key compass
+                    caused the fifth and the octave of that sound to be heard above it. Such a
+                    succession of fifths and octaves was called “organum,” no doubt <hi
+                    rend="italic">par excellence.</hi> From this and the old and extraordinary
+                    specimens of <hi rend="italic">Biscantus,</hi> or <hi rend="italic"
+                    >Discantus,</hi> given by Gerbert and others, and alluded to in our article
+                    Music (page 623), we are inclined to believe that the modern mixturestops of the
+                    organ have originated. We leave the consideration<pb break="no"
+                    facs="nls:194563755" xml:id="kp-eb0716-3755-0530"/> of the ancient organs to
+                    antiquaries, and now proceed to the modern organ, which seems to have assumed
+                    something of its present form in the fifteenth century.</p>
+                <p>The mechanism of the modern organ has been much improved at different times by
+                    different builders. The family of the Antegnati, of Brescia, were amongst the
+                    earliest famous organ-builders in Italy in the fifteenth and sixteenth
+                    centuries. In the eighteenth century there were in Italy many celebrated
+                    organ-builders, amongst whom Serassi of Bergamo, and Callido of Venice, each
+                    constructed upwards of three hundred organs.</p>
+                <p>Most of our readers probably know already that the great organ is a complex
+                    wind-instrument, consisting of a great number of pipes of different sizes,
+                    formed of wood and of different kinds of metal, some of which are flutepipes or
+                    mouth-pipes, and others reed-pipes; whilst all of these are made to sound by
+                    means of compressed air applied to them through certain channels, by bellows
+                    worked either by human force or by mechanism. There are different kinds of
+                    organs, from the Lilliputian bird-organ up to the great church-organ. We pass
+                    over the minor ones, including the chamber-organs and the smaller chapel-organs,
+                    and proceed to the great church-organ. We need not describe its front, nor the
+                    case in which its mechanism is contained. The great church-organ has usually
+                    three rows of finger-keys, placed above each other like steps. In some of the
+                    largest organs there are four, or even five such rows of keys. Besides these,
+                    there are rows of pedals, or footkeys, which act upon the larger pipes of the
+                    organ. The bellows communicate, by a wind-trunk, with wind-chests, or reservoirs
+                    of air, whence the wind is distributed to the various pipes of the organ when
+                    the finger-keys or the foot-keys (pedals) are pressed down. Attached to the
+                    upper part of each wind-chest is a sound-board, as it is rather improperly
+                    called. This sound-board consists of two parts, an upper and an under board, the
+                    latter of which is much thicker than the other. Both of these are formed of
+                    planks of wood laid horizontally side by side, and accurately joined together at
+                    their edges. In the under side of the lower board several rectangular grooves or
+                    channels are cut parallel to each other, and carried along nearly the whole
+                    length of the board, and as far as there are stops in the organ. In these
+                    channels are fixed bars of wood, so as to render each channel or <hi
+                    rend="italic">partition</hi> completely separate from every other. In the upper
+                    side of this board are cut a number of other rectangular channels or grooves
+                    running across the board, and at right angles with the under grooves. Into these
+                    upper grooves are exactly fitted wooden sliders, or registers, which run the
+                    whole length of the grooves. These sliders can be drawn out so far or pushed in
+                    at pleasure, by a mechanism attached to the draw-stops that are placed on the
+                    right and left in front of the organ. Holes corresponding with the number or
+                    rows of organ-pipes placed above the sound-board, are pierced through the latter
+                    into the above-mentioned channels, and also through the sliders or registers, in
+                    such a manner that when the latter are drawn out, their holes correspond with
+                    those of the soundboard, and allow the air from the wind-chest to pass through
+                    them and through the other holes in the sound-board; whilst, on the contrary,
+                    when the sliders are pushed in, they completely prevent any air from passing
+                    from the wind-chest to the pipes above the sound-board. Above all, and
+                    corresponding with the upper holes of the soundboard, are placed the pipes,
+                    fitted in by their conical feet to what are called the stock-boards. There are
+                    rows of thin boards, called racks, which are sustained by pillars of wood, and
+                    which receive the upper part of the feet of the pipes in holes made for the
+                    purpose. Opening into the wind-chest, and fixed upon the under side of the
+                    soundboard, are spring-valves, which are connected, by a particular mechanism,
+                    with the finger-keys and pedals; and which, when the sliders are drawn out, and
+                    the keys and pedals pressed down, are made to open, and so to admit the air from
+                    the wind-chest into the channels or partitions belonging to the different rows
+                    of pipes constituting the various stops of the organ. The pedals and the
+                    fingerkeys communicate with these spring-valves by means of an apparatus of
+                    trackers, cranks, and rollers, acting upon pulldown wires that pass through the
+                    bottom of the wind-chest, and are attached to these valves. The draw-stop
+                    movement, by which the sliders are drawn out or pushed in, consists of a similar
+                    mechanism. In some organs these sliders are superseded by another contrivance.
+                    Thus, in what are called by the Italians <hi rend="italic">somicri a</hi><hi
+                    rend="italic">vento,</hi> the opening of a given stop or register is not
+                    effected by drawing out a wooden slider, so as to make its apertures correspond
+                    with those in the sound-board; but by pulling open, all at once, in the channels
+                    of the sound-board, as many small valves as there are pipes to that given stop.
+                    These small valves are made to open by pulling out a draw-stop, and to shut by
+                    pushing it in again. They are considered to have many advantages over the
+                    ordinary slider, as being more durable, and less subject to the influence of
+                    changes of the weather.</p>
+                <p>A stop is called simple if it consists of one row of pipes, and compound if it
+                    consists of more than one row. As to the different rows of finger-keys, each
+                    communicates with what is really a separate organ, or collection of pipes, with
+                    its peculiar wind-trunk, wind-chest, sound-board, &amp;c. These different organs
+                    are generally three, and are called the great organ, the choir-organ, and the
+                    swell-organ. The middle row of keys is connected with the great organ, the lower
+                    with the choir-organ, and the upper with the swellorgan. The swell-organ has its
+                    pipes enclosed in a wooden box furnished with a sliding door, or a hinged door,
+                    which is gradually opened or shut by mechanism moved by the performer’s foot
+                    applied to a pedal. All these different organs, constituting the great
+                    church-organ, are supplied with air by the same bellows, and by suitable
+                    wind-trunks connected with the bellows. The bellows now generally used are
+                    horizontal ones, instead of the old ones resembling blacksmiths’ bellows. For
+                    some improvements in the sound-board and its appurtenances, see Serassi’s <hi
+                    rend="italic">Let· tere sugli</hi><hi rend="italic">Organi.</hi></p>
+                <p>We have already mentioned, that the pipes of an organ generally consist of
+                    mouth-pipes and of reed-pipes. With regard to the mouth-pipes, their nature may
+                    be pretty well understood by any one acquainted with the upper part of the
+                    common English flute, or the flageolet. The reed-pipes are explained in a
+                    subsequent part of this article. What we have said regarding sonorous tubes in
+                    the article Music, pages 608, 613, 615, may assist the reader in understanding
+                    our notices of organ-pipes. Organ-pipes are either open, or stopped, or
+                    half-stopped. The stopped ones have a plug or tompion inserted into their upper
+                    end, and pushed down or pulled up to regulate the pitch. The half-stopped ones
+                    have a kind of chimney at the top. Some of the middle-sized ones are partly
+                    stopped, and have also on each side of the mouth a kind of ear of metal, by
+                    bending of which outwards or inwards, the pitch of the pipe may be regulated.
+                    The largest pipes are square ones of wood, and belong to the pedals. In some
+                    great organs, the largest open pipe is thirty-two feet in length. The other
+                    pipes are made of wood or of metal. It has been observed by organ-builders and
+                    others, that the quality of tone <hi rend="italic">(timbre)</hi> of pipes
+                    depènds much upon their proportions in length and width, the material of which
+                    they are made, &amp;c.; and also upon the form of their open top, by which the
+                    wind escapes. We shall have occasion to notice this again, when describing some
+                    of Grenié’s improvements. A reed-pipe, with a conical tube which has a
+                    bell-shaped end, as in fig. 1, gives the most brilliant sound. If the pipe <pb
+                    break="no" facs="nls:194563768" xml:id="kp-eb0716-3768-0531"/> have a reversed
+                    conical top, as in comes dull. If two similar truncated cones placed base to
+                    base be fixed to the wider end of a long conical tube, as in fig. 3, a reed-pipe
+                    so formed will give fulness and strength to the sound. Theory affords no
+                    satisfactory explanation of these facts. The <hi rend="italic">timbre</hi> of
+                    the stopped and of the half-stopped pipes is softer and duller than that of the
+                    open ones. Pipes of pure tin have long been known to possess a <hi rend="italic"
+                    >timbre</hi> more clear and penetrating than those made of tin mixed with lead.
+                    Some years ago, a Bohemian organ-builder made some of his pipes of zinc, which
+                    was said to answer better than even tin. No doubt various simple and compound
+                    metals, and various other substances that have not yet been used in the making
+                    of organ-pipes, might be employed with advantage to produce a still greater
+                    variety of <hi rend="italic">timbres</hi> and effects; and for the same purpose,
+                    various modifications of the ordinary forms of pipes might also be employed.</p>
+                <p>The pipes and stops of an organ differ in number and kind according to the size
+                    of the organ, the fancy of the builder, and the taste of the public. In some
+                    Dutch, German, and Italian organs, there seems to be a superfluity of stops. An
+                    immense organ at Weingarten, in Germany, is described as having sixty-six stops
+                    and 6666 pipes. The great organ at Haarlem contains sixty stops, and its largest
+                    pipe is thirty-two feet in length. For an enumeration of the stops of three of
+                    Silbermann’s organs at Dresden, we refer to a Ramble among the Musicians of
+                    Germany, published at London in 1828 (pp. 193, 194, 195). One of the largest
+                    organs in Italy is said to be that built in 1733, by Azzolino della Ci-aja, for
+                    the church of the Cavalieri di S. Stefano at Pisa. It is said to have four rows
+                    of finger-keys, and more than 100 stops. Another remarkable one is in the church
+                    of S. Alessandro in Colonna, at Bergamo. It was built by Serassi in 1782, and
+                    has three rows of finger-keys, and about 100 stops. In it the first and second
+                    rows of keys serve for the great organ, and the second organ or choirorgan,
+                    built together in the same part of the church. The third row of keys is
+                    connected with mechanism, which passes under ground and extends to a distance of
+                    about 115feet English, with a third great organ placed in another part of the
+                    church, and directly opposite to the first. Notwithstanding such a distance from
+                    the keys, the third organ obeys them as readily as the first one does. Its
+                    lowest pedal-pipes consist not only of mouth-pipes, but also of reed-pipes. The
+                    following is a brief description of another organ built by Serassi in 1796. “Two
+                    rows of finger-keys, the upper for the great organ, the <hi rend="italic"
+                    >ripieno</hi> of which consists of the following stops: Two principal soprani;
+                    two principal basses; octave, twelfth, fifteenth, twenty-second, twenty-sixth,
+                    twenty-ninth, two thirty-thirds, two thirty-sixths, and twelve deep bass stops
+                    belonging to the chromatic scale, with the octaves of these, all, however,
+                    governed by one register. The different stops belonging to the great organ are,
+                    the sesquialtera; two cornets; flute in octave; flute in twelfth; German-flute;
+                    vox humana; viola; bassoon; English horn; trumpets; trombones; cymbals;
+                    kettle-drums, and bass-drum, the last being managed by a pedal. The lower row of
+                    manuals or fingerkeys serves for the second organ, or choir-organ. It has its
+                    <hi rend="italic">rψieno,</hi> composed of principal, octave, fifteenth,
+                    nineteenth, twenty-second, twenty-sixth, and twenty-ninth; and has, besides, the
+                    stops of cornet, flute in octave, vox humana, and violoncello. By means of a
+                    pedal moved by the right foot, all the stops of the first organ can be opened or
+                    shut at once.”</p>
+                <p>Of the different stops or registers of an organ, some derive their names from the
+                    instrument the tone of which they imitate, and some from the relation in pitch
+                    which they bear to the sounds of the diapason stop, as octave, twelfth,
+                    fifteenth, seventeenth, and so on. We subjoin a brief account of the most usual
+                    organ-stops. I. <hi rend="italic">Open diapason</hi><hi rend="italic">;</hi>
+                    consists of metal mouth-pipes open at the upper end, and extends through the
+                    whole scale of the organ, as its name diapason imports. II. <hi rend="italic"
+                    >Stopped diapason</hi><hi rend="italic">;</hi> mouth-pipes generally of wood,
+                    and their pitch an octave below that of the open diapason. They are stopped at
+                    the upper end. III. <hi rend="italic">Double diapason</hi><hi rend="italic"
+                    >;</hi> wooden mouth-pipes, open at the upper end, and their pitch an octave
+                    lower than those of the open diapason. They are generally confined to the two
+                    lowest octaves of the organ’s compass. In some of the largest organs, the
+                    gravest sound of these is rendered by an open pipe thirty-two feet in length. IV
+                    <hi rend="italic">'. Principal</hi><hi rend="italic">;</hi> metal mouthpipes,
+                    the pitch of which is an octave above the open diapason. The <hi rend="italic"
+                    >principal</hi> is the first stop tuned; and then, from it, all the other stops.
+                    V. <hi rend="italic">Dulciana</hi><hi rend="italic">;</hi> a metal mouthpipe
+                    stop, tuned in unison with the open diapason. The sweetness of its tone
+                    originates in the length and narrowness of its pipes. VI. <hi rend="italic"
+                    >Twelfth</hi><hi rend="italic">;</hi> metal mouth-pipes tuned a twelfth above
+                    the open diapason. VII. <hi rend="italic">Fifteenth;</hi> metal mouth-pipes
+                    tuned an octave above the principal. There are, in some organs, stops named <hi
+                    rend="italic">tierce</hi> or <hi rend="italic">seventeenth,</hi><hi
+                    rend="italic">larigot</hi> or <hi rend="italic">nineteenth, twenty-second,
+                    twenty-sixth, twenty-ninth, thirty-third,</hi> &amp;c., tuned respectively at
+                    these intervals above the open diapason. VIII. <hi rend="italic">Flute</hi><hi
+                    rend="italic">;</hi> metal and wood mouthpipes, in unison with the <hi
+                    rend="italic">principal.</hi> IX. <hi rend="italic">Trumpet</hi><hi
+                    rend="italic">;</hi> reed-pipes of metal, in unison with the open diapason. X.
+                    <hi rend="italic">Clarion</hi> or octave trumpet-stop; metal reed-pipes tuned an
+                    octave higher than those of the trumpet stop. XI. <hi rend="italic"
+                    >Bassoon</hi><hi rend="italic">;</hi> reed-pipes, in unison, as far as their
+                    compass reaches, with pipes of the open diapason. XII. <hi rend="italic"
+                    >Cremona,</hi> or properly <hi rend="italic">krum-horn</hi><hi rend="italic"
+                    >;</hi> reed-pipes, in unison with the open diapason. XIII. <hi rend="italic"
+                    >Oboe</hi><hi rend="italic">;</hi> reed-pipes, in unison with the open diapason.
+                    XIV. <hi rend="italic">Vox humana</hi><hi rend="italic">;</hi> reed-pipes, in
+                    unison with the open diapason, and intended to imitate the human voice, a
+                    function which in general they perform very unpleasingly.</p>
+                <p>Amongst the <hi rend="italic">compound</hi> stops used in organs are, I. The <hi
+                    rend="italic">sesquialtera,</hi> consisting of four or five rows of open
+                    mouthpipes at the intervals of seventeenth, nineteenth, twenty-second,
+                    twenty-fourth, or twenty-sixth, above the open diapason. II. The <hi
+                    rend="italic">cornet,</hi> a stopped diapason, principal, twelfth, fifteenth,
+                    and seventeenth. III. <hi rend="italic">Mixture</hi> or <hi rend="italic"
+                    >furniture</hi> stop, consists of several ranks of pipes nearly the same as
+                    those of the sesquialtera, but some of them of a higher pitch. Vogler denounces
+                    the <hi rend="italic">mixture-stops</hi> as <hi rend="italic">“</hi><hi
+                    rend="italic">insignificant?</hi> We have sometimes heard a harsher term applied
+                    to them.</p>
+                <p>In Costanzo Antegnati’s <hi rend="italic">Arte</hi><hi rend="italic"
+                    >Organica</hi> we find the following exposition of the series of registers or
+                    stops of the organs then used in Italy.</p>
+                <p>In order to enable the reader to form a clearer idea of the distribution of the
+                    pipes of an organ, we subjoin a sketch of a row of the usual pipes of the great
+                    organ (as contradistinguished from the choir and swell organs), and as these
+                    pipes stand upon and are inserted in the top of the sound-board. To simplify the
+                    diagram, the rack-board and pillars are not represented here. The letter <hi
+                    rend="italic">t</hi> indicates the trumpet; <hi rend="italic">ff,</hi>
+                    furniture; sss, sesquialter; 15, fifteenth; 12, twelfth; <hi rend="italic"
+                    >p,</hi> principal; <hi rend="italic">sd,</hi> stopped diapason; <hi
+                    rend="italic">od,</hi> open diapason; SB, the top of the sound-board. The other
+                    rows of pipes are, of course, to be imagined as placed behind those pipes here
+                    represented, and as extending, in their respective ranks, the whole length of
+                    each stop <pb break="no" facs="nls:194563781" xml:id="kp-eb0716-3781-0532"/>or
+                    register, in lines at right angles with the line formed by the row of pipes
+                    shown in the diagram.</p>
+                <p>Not many years ago, Μ. Grenié, a French amateur of music, introduced several
+                    important improvements in the construction of reeds for organ-pipes. (See the
+                    Reports of the French Institute, &amp;c.) His reed (AB in the annexed figure 5)
+                    was made of wood or copper, square-edged, and of the form of a parallelopipedon.
+                    [In order to show the difference between the construction of Μ. Grenié’s reed
+                    and the common organ-pipe reed, we add a diagram of the latter, fig. 6.] The
+                    tongue was a thin plate of brass, of an even surface, and cut in a rectangular
+                    shape, so as to fit almost exactly the grooved face of the reed. A strong
+                    wire-spring <hi rend="italic">cc</hi> kept down this tongue firmly upon the
+                    reed, at the proper length, so as to regulate the tongue’s vibrations. The
+                    result of such a construction is, that when this reed, enclosed in its tube, is
+                    made to sound by air forced into the porte-vent DEF, by the aperture at F, the
+                    air thus introduced not obtaining admittance into the reed between the tongue
+                    and the sides of the reed-groove, impels the tongue into the latter. A little
+                    air having been thus admitted into the reed-channel, the elasticity of the
+                    tongue makes it resume its former position, so as again to exclude the air. The
+                    velocity which the tongue had acquired in its first vibration causes it, when
+                    returning, to pass beyond the limit of its former position, to which it is again
+                    brought back by the resistance of the air, and by its own elasticity, and whence
+                    the impulse of the current of air from the porte-vent again forces it into the
+                    reedchannel. The advantages of this construction are, that the tongue does not
+                    strike against the edges of the reed, as in the common reed-pipes, which thereby
+                    produce a harsh and uneven tone; and that its movements are smooth and regular,
+                    since it has nothing to encounter in its vibrations but the air itself. The
+                    sound of Μ. Grenié’s reed-pipes is said to be, in the most acute as well as in
+                    the gravest of them, as sweet and pure as that of flute-pipes. Μ. Grenié
+                    adapted.the degree of strength and rigidity of each tongue to the breadth of the
+                    reed-channel which it had to cover, so that the stream of air could never throw
+                    it into vibrations around its axis. The strength of the spring-wire also kept
+                    the length of the vibrating portion of the tongue unchanged; so that, whatever
+                    the force of the wind, the tone never altered its pitch. Only the intensity of
+                    the sound was affected by the greater or less impulse of air. By means of a
+                    pedal, the performer moved a spring-bellows, and, by thus regulating at pleasure
+                    the force of the wind, could obtain a <hi rend="italic">crescendo</hi> and <hi
+                    rend="italic">diminuendo</hi> in all the reed-pipes, as perfect as that of the
+                    human voice, or of instruments modified in their sounds by the lips and breath
+                    of the performer.</p>
+                <p>The air which causes these reeds to vibrate passes out through open pipes,
+                    bevelled off into a cone, and terminating in a hemisphere, fig. 7. This form is
+                    said to give roundness and strength to the tone.</p>
+                <p>Μ. Grenié, when constructing his reed-pipes, was for a long time checked by a
+                    very curious phenomenon. He was at first occupied with the gravest octave of
+                    which the sound C is in unison with an open flute-pipe of eight feet; and had
+                    constructed a certain number of pipes, in giving wind to all his reeds by pipes
+                    of the same length, fig. 8. But when he had reached the first notes of the tenor
+                    compass, still continuing to construct his porte-vents in the same manner, the
+                    reed would not sound at all. He in vain increased and diminished the wind, in
+                    vain lengthened and shortened the tongue; the reed remained mute, or produced
+                    only very bad sounds. At last, after many attempts, Μ. Grenié thought that the
+                    length of the pipe which conducts the wind to the reed might have some unknown
+                    influence upon its vibration. He therefore substituted for his fixed tubes two
+                    pipes, of which the one was made to slide within the other, so that he could
+                    gradually vary the whole length. He tried this change of length until the reed
+                    produced a clear, pure, and sustained sound. He found also, that in order to
+                    obtain the tenor sounds in all their fulness, it was necessary to make the
+                    porte-vent much longer than for the sound immediately preceding, and this length
+                    always went on diminishing for the most acute octaves, as is represented by fig.
+                    9. Then the tops of the pipes formed the curve C C' C*. This seemed to indicate
+                    that, by prolonging that curve, one would obtain the most favourable dimensions
+                    for those pipes of the first octave which Μ. Grenié had at first made of equal
+                    lengths. But, to his great surprise, he found that there <pb break="no"
+                    facs="nls:194563794" xml:id="kp-eb0716-3794-0533"/>was no advantage whatever in
+                    doing so; but that, on the contrary, the sounds became very dull and irregular.
+                    He therefore reasonably adhered to his first construction, which, nevertheless,
+                    he still purposed to improve, by afterwards making all his porte-vents sliding
+                    tubes, so that each of them might have the most favourable length given to it.
+                    He has since constructed, on this same model, open reed-pipes of sixteen feet,
+                    which sound with very remarkable distinctness, strength, and regularity. In this
+                    case the tongue is a flat slip of copper, in length 0∙240 of a metre, un breadth
+                    0O35 of a metre, in thickness 0∙003 of a metre; equal respectively to9∙449040,
+                    and 1∙377985,and 0∙118113 English inches and decimal parts. Its vibrations are
+                    so powerful, that they cause the pipe in which it is placed, the porte-vent over
+                    which it is mounted, and all neighbouring elastic bodies, to tremble. Of course,
+                    in order to make it sound, a powerful and well-managed bellows-íorce is
+                    necessary. That which Μ. Grenié employed was perfect in regularity and power. It
+                    had a double current of air, and was worked by one handle. Μ. Grenié obtained a
+                    patent for his improvements. He considered the mixturestops in common organs as
+                    productive of nothing but bad effects, and therefore excluded them from his
+                    organ. (See report by Cherubini, Catel, Baillot, &amp;c. in 1811.) We have given
+                    so full an account of Grenié’s improvements, in order to excite the attention of
+                    British organ-builders to this subject, and induce them to discover many more
+                    improvements of which our organs are unquestionably susceptible.</p>
+                <p>One of the greatest steps to improvement in English organ-building was made
+                    upwards of twenty years ago, by Messrs Flight and Robson of London, in the
+                    construction of their magnificent organ, called the Apollonico. It was exhibited
+                    to the public, and attracted vast numbers of visitors. The ingenuity of its
+                    mechanism, the excellence of its workmanship, the fineness of its tone, and the
+                    novelty and grandeur of its effects, were universally acknowledged. This fine
+                    instrument was played either by means of the revolutions of three large
+                    cylinders, or else by means of six different sets of finger-keys acted upon
+                    simultaneously by , six different performers. The Apollonico was about
+                    twenty-four feet high and twenty broad. We heard it in 1817, and were much
+                    struck by its varied and powerful effects. However, the room in which it was
+                    placed was neither sufficiently large, nor so proportioned in form, as to
+                    display ∣the powers of this organ to the best advantage. This fine instrument
+                    alone is sufficient to bear us out in what we have said at the beginning of this
+                    article, as to the certainty of English organ-builders being able to rival, or
+                    to ixcel, the foreign ones, if they choose to exert themselves.</p>
+                <p>Several methods have been proposed in England to render the intonation of the
+                    organ less imperfect, by dividing he octave into a greater number of intervals
+                    than the usual twelve: amongst others, that employed in Hawke’s patent ιrgan,
+                    described in the thirty-sixth and thirty-ninth volumes of the Philosophical
+                    Magazine. Hawke divided the octave into seventeen intervals. Loeschman’s patent
+                    organ was I mother of this kind. He divided the octave into twenty-I Pour
+                    intervals, which were produced by six pedals and twelve finger-keys. (See
+                    description in vols.xxxvii xxxviii. i )f Philosophical Magazine.) In 1810, the
+                    Rev. Henry Liston, a clever and ingenious Scottish clergyman, obtained ι patent
+                    for an instrument, constructed by Messrs Flight and Robson, which he named the
+                    <hi rend="italic">Euharmonic Organ.</hi> See vol. xxxvii. of Philosophical
+                    Magazine.) Another )⅛an, similar to the one last mentioned, was made for Mr
+                    Liston by the same builders. (See Philosophical Magazine, ∕ol. xxxix.) It had
+                    eleven pedals, six of which were the ' tame as those in Loeschman’s organ. In
+                    the second organ milt for Mr Liston, there was a contrivance for an occasional
+                    alteration of the pitch of the pipes, in the requisite legree, by means of flat
+                    metallic plates, which, when acted upon by the pedals, were brought, at due
+                    distances, over the tops of the open pipes, or opposite to the mouths of the
+                    stopped pipes, so as to flatten the pitch when this change was required.</p>
+                <p>I he object of Mr Liston’s organ was to supersede temperament; but although its
+                    ingenuity and its effects were admired by many of the best musicians in London,
+                    the complexity of its manuals and pedals prevented it from ever being generally
+                    adopted. And this has. been the fate of all such instruments, in modern as well
+                    as in ancient times; for attempts of a similar kind were made, centuries ago, to
+                    introduce such minute subdivisions of the octave into keyed instruments. The
+                    Spanish writer Salinas, in his work <hi rend="italic">De</hi><hi rend="italic"
+                    >Musica</hi> (lib. iii. c. 27), speaks disparagingly of an instrument called an
+                    Archicymbalum, which had been constructed in Italy above forty years before the
+                    publication of his work in 1577, and in which every tone was divided into five
+                    parts. “Non silentio praetermittendum arbitror instrumentum quoddam, quod in
+                    Italia, citra quadraginta annos fabricari coeptum est, ab ejus autore, quisquis
+                    ille fuit, Archicymbalum appellatum. In quo reperiuntur omnes toni in quinque
+                    partes divisi: ex quibus tres vindicat sibi semitonium majus, et duas semitonium
+                    minus, a quibusdam magni nominis musicis in pretio habitum, et usu receptum: eo
+                    quod omnis in eo sonus habet omnia intervalla, atque omnes consonantias (ut sibi
+                    videntur) inferne, et superne, et post certam periodum ad cundem, aut
+                    equivalentem sibi sonum post 31 intervalla reditur,” &amp;c. In the latter part
+                    of the last century, F. X. Richter, chapel-master in the cathedral of Strasburg,
+                    usually composed upon a clavichord, which had twenty-one sounds to the octave,
+                    and which then seemed to be upwards of two hundred years old. Richter died in
+                    1789, aged eighty.</p>
+                <p>For some hints regarding the proper use of the organ, see the article Music (vol.
+                    xv. p. 644). Those who wish to extend their knowledge of this subject will find
+                    abundance of information upon the history and the construction of the orgari,
+                    and the art of playing it, in works published in Germany, France, and Italy. The
+                    German works are the most numerous. <hi rend="smallcaps">(g. f. g.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>
