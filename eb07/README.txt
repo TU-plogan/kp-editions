@@ -8,23 +8,23 @@ GENERAL INFORMATION
         Encyclopedia Britannica, 7th Edition: A Machine-Readable Text Transcription
 
     2. Author Information
-	    Principal Investigator
+        Principal Investigator
             Peter Melville Logan
-		    Temple University
-		    Philadelphia, PA 19122 USA
-		    peter.logan@temple.edu
+            Temple University
+            Philadelphia, PA 19122 USA
+            peter.logan@temple.edu
 		
         Associate Investigator
             Jane Greenberg
             Drexel University	
-	        Philadelphia, PA 19104 USA
-	        jg3243@drexel.edu
+            Philadelphia, PA 19104 USA
+            jg3243@drexel.edu
 
         Associate Investigator
-		    Don Kretz
-		    Distributed Proofreaders 
-		    https://www.pgdp.net/c/ 
-		    dakretz@gmail.com 
+            Don Kretz
+            Distributed Proofreaders 
+            https://www.pgdp.net/c/ 
+            dakretz@gmail.com 
 
     3. Date of data collection
         2014-2020
@@ -67,13 +67,15 @@ DATA & FILE OVERVIEW
 
     2. Filename Convention
         Filenames are designed so that (1) files are alphabetically ordered in their original
-        sequence, and (2) the source can be easily located in the print edition. Names contain information specifying edition, volume, page number, and sequence of items on the page for each entry in the encyclopedia. Example: “kp-eb0702-010502-1174-v3.txt” 
-            o	kp 		    = Knowledge Project
-            o	-eb0702 	= Encyclopedia Britannica, 7th ed., print vol. 2
-            o	-010502 	= print page 0105, 2nd entry beginning on the page
-            o	-1174 		= last 4 digits of the source image filename (insures URI uniqueness)
-            o	-v3 		= version 3
-            o	.txt 		= plain text (or .xml for TEI)
+        sequence, and (2) the source can be easily located in the print edition. Names contain 
+        information specifying edition, volume, page number, and sequence of items on the page 
+        for each entry in the encyclopedia. Example: “kp-eb0702-010502-1174-v3.txt” 
+            o	kp 	        = Knowledge Project
+            o	-eb0702    	= Encyclopedia Britannica, 7th ed., print vol. 2
+            o	-010502     = print page 0105, 2nd entry beginning on the page
+            o	-1174 	    = last 4 digits of the source image filename (insures URI uniqueness)
+            o	-v3 	    = version 3
+            o	.txt        = plain text (or .xml for TEI)
 
     3. Other Versions
         Previous versions of the data set are available at 
