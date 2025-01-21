@@ -1,6 +1,6 @@
 eb07_v3
 
-This readme.txt file was generated on 2025-01-20 by Peter Melville Logan. View complete information at  https://tu-plogan.github.io/source/r_7th_edition.html. 
+This README.txt file was generated on 2025-01-20 by Peter Melville Logan. View complete information at  https://tu-plogan.github.io/source/r_7th_edition.html. 
 
 GENERAL INFORMATION
 
@@ -38,11 +38,11 @@ GENERAL INFORMATION
         Temple University Office of the Provost
 
 SHARING/ACCESS INFORMATION
+
     Licensed under a Creative Commons Attribution 4.0 International License. CC BY 4.0. 2024.
     
     Also available at 
         - King's Digital Lab, King's College, London, https://kingsdigitallab.github.io/eb-pre/
-        - GitHub at https://github.com/TU-plogan/kp-editions
 
 DATA & FILE OVERVIEW
 

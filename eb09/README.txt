@@ -1,6 +1,6 @@
 eb09_v1
 
-This readme.txt file was generated on 2025-01-20 by Peter Melville Logan. View complete information at  https://tu-plogan.github.io/source/r_9th_edition.html.
+This README.txt file was generated on 2025-01-20 by Peter Melville Logan. View complete information at  https://tu-plogan.github.io/source/r_9th_edition.html.
 
 GENERAL INFORMATION
 
@@ -37,14 +37,12 @@ GENERAL INFORMATION
         Temple University College of Liberal Arts Research Award
         Temple University Office of the Provost
 
-
 SHARING/ACCESS INFORMATION
+
     Licensed under a Creative Commons Attribution 4.0 International License. CC BY 4.0. 2024.
     
     Also available at 
         - King's Digital Lab, King's College, London, https://kingsdigitallab.github.io/eb-pre/
-        - GitHub at https://github.com/TU-plogan/kp-editions
-
 
 DATA & FILE OVERVIEW
 
@@ -58,7 +56,7 @@ DATA & FILE OVERVIEW
                 k13  k14  l14  l15  m15  m16  m17  n17  o17  o18
                 p18  p19  p20  q20  r20  r21  s21  s22  t23  u23
                 u24  v24  w24  x24  y24  z24
-            XML_v1      : Directory of TEI-XML entry files, version 3
+            XML_v1      : Directory of TEI-XML entry files, version 1
                 a1      : Subdirectories for entries under the given letter and volume number                
                 a2   a3   b3   b4   c4   c5   c6   d6   d7   e7   
                 e8   f8   f9   g10  g11  h11  h12  i12  i13  j13
@@ -82,7 +80,6 @@ DATA & FILE OVERVIEW
     3. Other Versions
         Previous versions of the data set are available at 
         https://github.com/TU-plogan/kp-editions/tree/main/eb09
-
 
 METHODOLOGICAL INFORMATION
 
