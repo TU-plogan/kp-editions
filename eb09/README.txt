@@ -8,23 +8,23 @@ GENERAL INFORMATION
         Encyclopedia Britannica, 9th Edition: A Machine-Readable Text Transcription
 
     2. Author Information
-	    Principal Investigator
+        Principal Investigator
             Peter Melville Logan
-		    Temple University
-		    Philadelphia, PA 19122 USA
-		    peter.logan@temple.edu
+            Temple University
+            Philadelphia, PA 19122 USA
+            peter.logan@temple.edu
 		
         Associate Investigator
             Jane Greenberg
             Drexel University	
-	        Philadelphia, PA 19104 USA
-	        jg3243@drexel.edu
+            Philadelphia, PA 19104 USA
+            jg3243@drexel.edu
 
         Associate Investigator
-		    Don Kretz
-		    Distributed Proofreaders 
-		    https://www.pgdp.net/c/ 
-		    dakretz@gmail.com 
+            Don Kretz
+            Distributed Proofreaders 
+            https://www.pgdp.net/c/ 
+            dakretz@gmail.com 
 
     3. Date of data collection
         2014-2020
@@ -72,7 +72,7 @@ DATA & FILE OVERVIEW
         sequence, and (2) the source can be easily located in the print edition. Names contain 
         information specifying edition, volume, page number, and sequence of items on the page 
         for each entry in the encyclopedia. Example: “kp-eb0901-009905-1114-v1.txt” 
-            o	kp 		    = Knowledge Project
+            o	kp 	        = Knowledge Project
             o	-eb0901 	= Encyclopedia Britannica, 9th ed., print vol. 1
             o	-009905 	= print page 0099, 5th entry beginning on the page
             o	-1114 		= last 4 digits of the source image filename (insures URI uniqueness)
