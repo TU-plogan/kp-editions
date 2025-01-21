@@ -54,17 +54,17 @@ DATA & FILE OVERVIEW
             TXT_v1      : Directory of plain text entry files, version 1
                 a1      : Subdirectories for entries under the given letter and volume number                
                 a2   a3   b3   b4   c4   c5   c6   d6   d7   e7   
-				e8   f8   f9   g10  g11  h11  h12  i12  i13  j13
-				k13  k14  l14  l15  m15  m16  m17  n17  o17  o18
-				p18  p19  p20  q20  r20  r21  s21  s22  t23  u23
-				u24  v24  w24  x24  y24  z24
+                e8   f8   f9   g10  g11  h11  h12  i12  i13  j13
+                k13  k14  l14  l15  m15  m16  m17  n17  o17  o18
+                p18  p19  p20  q20  r20  r21  s21  s22  t23  u23
+                u24  v24  w24  x24  y24  z24
             XML_v1      : Directory of TEI-XML entry files, version 3
                 a1      : Subdirectories for entries under the given letter and volume number                
                 a2   a3   b3   b4   c4   c5   c6   d6   d7   e7   
-				e8   f8   f9   g10  g11  h11  h12  i12  i13  j13
-				k13  k14  l14  l15  m15  m16  m17  n17  o17  o18
-				p18  p19  p20  q20  r20  r21  s21  s22  t23  u23
-				u24  v24  w24  x24  y24  z24
+                e8   f8   f9   g10  g11  h11  h12  i12  i13  j13
+                k13  k14  l14  l15  m15  m16  m17  n17  o17  o18
+                p18  p19  p20  q20  r20  r21  s21  s22  t23  u23
+                u24  v24  w24  x24  y24  z24
 			README.txt  : This information file
 
     2. Filename Convention
