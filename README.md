@@ -2,4 +2,30 @@
 
 ## _Encyclopedia Britannica: A Machine-Readable Text Transcription_
 
-This page is superseded by [Knowledge Project / Releases](https://tu-plogan.github.io/source/r_releases.html)
+This repository contains full text from multiple  historical editions of the _Encyclopedia
+Britannica_. Editions are provided in two formats:
+
++ Plain text (TXT)
++ TEI (XML)
+
+This site is managed by the Nineteenth Century Knowledge Project, directed by Peter Melville
+Logan at Temple University. Contact them at [nckp@temple.edu](mailto:nckp@temple.edu)
+
+When complete, the repository will include the text of four Britannica Editions:
+
++ 3rd edition, 18 vols. + 2 suppl. vols. Edinburgh: A. Bell and C. MacFarquhar, 1788-1797
++ 7th edition, 21 vols. Edinburgh: Adam and Charles Black, 1830-1842.
++ 9th edition, 25 vols. NY: Charles Scribner's Sons, 1875-1889. (Authorized edition.)
++ 11th edition, 29 vols. NY: Cambridge University Press, 1910-1911.
+
+*Edition names.* The repository stores the data sets in directories using an abbreviated name for
+each edition, found in the list of directories at the top of this page.
+
++ eb03
++ eb07
++ eb09
++ eb11
+
+Select the desired edition and you will find further information about the directory structure and
+file naming conventions.  Data sets are freely available under the Creative Commons CC-BY-4.0
+license. or complete information, see [Knowledge Project /  Releases](https://tu-plogan.github.io/source/r_releases.html)
