@@ -13,10 +13,10 @@ GENERAL INFORMATION
             Temple University
             Philadelphia, PA 19122 USA
             peter.logan@temple.edu
-		
+
         Associate Investigator
             Jane Greenberg
-            Drexel University	
+            Drexel University
             Philadelphia, PA 19104 USA
             jg3243@drexel.edu
 
@@ -72,11 +72,11 @@ DATA & FILE OVERVIEW
         sequence, and (2) the source can be easily located in the print edition. Names contain 
         information specifying edition, volume, page number, and sequence of items on the page 
         for each entry in the encyclopedia. Example: “kp-eb0702-010502-1174-v3.txt” 
-            o	kp 	        = Knowledge Project
-            o	-eb0702    	= Encyclopedia Britannica, 7th ed., print vol. 2
+            o	kp          = Knowledge Project
+            o	-eb0702     = Encyclopedia Britannica, 7th ed., print vol. 2
             o	-010502     = print page 0105, 2nd entry beginning on the page
-            o	-1174 	    = last 4 digits of the source image filename (insures URI uniqueness)
-            o   -vn         = version number (archived directories only)
+            o	-1174       = last 4 digits of the source image filename (insures URI uniqueness)
+            o	-vn         = version number (archived directories only)
             o	.txt        = plain text (or .xml for TEI)
 
     3. Other Versions
@@ -127,6 +127,6 @@ METHODOLOGICAL INFORMATION
 			Joyce Rasing
 			Gary Scales
 			Andrea Siotto
-		
+
 
 
