@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0708-4903-0136-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">DRAINING</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 8, page 136</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="1" ref="lcsh1910:b4tt4fw77">Egyptians</term>
+                    <term n="1" ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term n="1" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="1" ref="lcsh1910:b4tt4fz4p">Irish</term>
+                    <term n="62" ref="lcsh1910:b4513v11w">Water</term>
+                    <term n="32" ref="lcsh1910:b4db7vr13">Stone</term>
+                    <term n="15" ref="lcsh1910:b4df6k36b">Earth</term>
+                    <term n="13" ref="lcsh1910:b4028pc5x">Soils</term>
+                    <term n="10" ref="lcsh1910:b49882p6v">Methodism</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="62" ref="fasttopic:1171139">Water</term>
+                    <term n="32" ref="fasttopic:1133812">Stone</term>
+                    <term n="32" ref="fasttopic:1133955">Stoning</term>
+                    <term n="13" ref="fasttopic:1124682">Soils</term>
+                    <term n="13" ref="fasttopic:829528">Beds</term>
+                    <term n="5" ref="fasttopic:1100116">Romans</term>
+                    <term n="1" ref="fasttopic:903991">Egyptians</term>
+                    <term n="1" ref="fasttopic:969307">Indians</term>
+                    <term n="1" ref="fasttopic:947546">Greeks</term>
+                    <term n="1" ref="fasttopic:978902">Irish</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="2" ref="fastgeo:1206715">Scotland</term>
+                    <term n="1" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1205427">Ireland</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193324903" type="entry">
+                <p><label type="entry">DRAINING</label>.</p>
+                <p>To drain land means simply to make land dry. This definition is satisfactory in
+                    regard to the ancient art of draining, the object of which was to render land
+                    which was wetted by springs, or had become marshy by stagnant water, or
+                    subjected to the periodical overflowings of rivers, sufficiently dry to permit
+                    the exercise of arable culture. It is not so applicable to the modern practice
+                    of draining. Draining is now practised on land that is apparently dry, as well
+                    as on really w et land. Land that contains a superabundance of water produces
+                    plants of a peculiar nature, such as rushes, flags, sprots, and many others; and
+                    obstructs the operations of arable culture. The very existence of such plants is
+                    sufficiently indicative of the wet state of land. But land that contains no such
+                    superabundance of water as to obstruct its arable culture, but which, by its
+                    inherent wetness, may nevertheless prevent the luxuriant growth of the cereal
+                    grains and the cultivated grasses, requires draining as much as wet land, though
+                    w etness is not so <hi rend="italic">apparent</hi> in it as in the other. The
+                    deficiency of the crop on apparently dry lands is naturally attributed to
+                    unskilful husbandry, till experience proves that no management, however skilful,
+                    can counteract the baneful influence of concealed stagnant water. Observation
+                    teaches us that stagnant water, whether on the surface or immediately under the
+                    surface of land, injures all the useful classes of plants. How the injury arises
+                    is not very clear; perhaps by obstructing perspiration and intro-susception, and
+                    thus diseasing their roots; or, what is more probable, it prevents their food
+                    from being presented in a nutritious state, by checking the chemical
+                    decomposition of the substances which supply the food of plants. Whether the
+                    true cause of the bad effects of stagnant water on the vegetation of useful
+                    plants will ever be discovered, the future progress of vegeto-physiological
+                    science can alone determine. In the mean time, experience assures us that
+                    draining will remove these bad effects.</p>
+                <p>It thus appears there are two species of draining; the one draws off the larger
+                    bodies of water which are collected from the discharge of springs in isolated
+                    spots, and the other absorbs the superabundance of water from and under the
+                    surface of the land. The first is called <hi rend="italic">underdraining,</hi>
+                    because it intercepts the passage of the water from springs at some distance
+                    under ground. The second makes channels for .conveying away the water which
+                    falls on the surface of the ground, and is therefore called <hi rend="italic"
+                    >surface-draining.</hi> Surface-draining is again divided into two kinds; the
+                    one consists only in making small open channels and furrows immediately on the
+                    surface of the ground; the other is effected by means of small drains
+                    constructed at a short distance under the surface of the ground, in order to
+                    collect the water which would otherwise remain on a retentive subsoil at the
+                    bottom of the plough furrow. This latter kind derives its name from the
+                    particular construction of the drain.</p>
+                <p>The theory on which these different kinds of draining are founded is sufficiently
+                    explicit. Where the upper surface of land is at all permeable to water, and
+                    where it rests on beds of matter of different depths, of various lengths and
+                    breadths, each possessing a consistency of retentiveness or permeability, the
+                    water produced from rain, snow, or dew, in its progress along the porous bed,
+                    will be interrupted and retained by the retentive beds, and will accumulate in
+                    them in larger or smaller quantities, according as they present a basin shape,
+                    over the edge of which it will burst through the upper surface in the form of
+                    springs. Hence the necessity of <hi rend="italic">under-draining</hi> to draw
+                    off the water contained in the basin-shaped curves of the retentive layers.
+                    Where the upper surface is permeable, and the subsoil immediately under it
+                    retentive, water will accumulate on the subsoil, to the injury of plants growing
+                    on the surface soil. Hence the origin of <hi rend="italic"
+                    >surface-draining,</hi> by laying land in ridges, and forming small open
+                    channels, along which the water percolating through the surface soil may have a
+                    free passage. Where the subsoil is so porous as to permit the water to percolate
+                    through it beyond the reach of the plough, these open surface gutters will have
+                    no effect in removing the superabundant water. Hence the second class of surface
+                    drains must then be constructed to absorb it. Where the surface soil and the
+                    subsoil are both permeable, they will hold water only by capillary attraction;
+                    and what is not so retained will sink down into the inferior permeable beds by
+                    its gravity. Hence in such land draining is unnecessary. Of these excessive
+                    supplies of water, that from springs is most injurious to the vegetation of
+                    useful plants, as being colder, and generally more permanent in their operation.
+                    Capillary attraction will retain as much water in the surface soil as vegetation
+                    requires, excepting under the extraordinary occurrence of excessive drought.
+                    Hence the abstraction of water by draining is quite independent of its supply as
+                    a manure, as a meliorator of the soil, as a menstruum for food, or as a
+                    regulator of temperature to plants.</p>
+                <p>These statements prove the necessity of a knowledge of geology for a perfect
+                    understanding of the principles of draining; and fortunately practice in this
+                    department of rural economy is not at variance with scientific principle. On the
+                    contrary, he who is best acquainted with geology and the principles of
+                    hydraulics, will constitute the most scientific drainer. But such a character
+                    cannot yet be easily acquired by any man; for that department of geology, the
+                    knowledge of which is most applicable to the art of draining, is the most
+                    difficult to be understood, and has hitherto been the least explored. Most of
+                    the arable soil is contained within the tertiary and alluvial formations of
+                    rocks. The intricate relations of the newer beds, which compose the alluvial
+                    class of rocks, and which are the most intimately connected with arable culture
+                    and draining, present almost insurmountable obstacles to the thorough
+                    acquirement of the art of draining. They at least throw an uncertainty over its
+                    operations; and this uncertainty must continue till the relations of the
+                    alluvial rocks are discovered to be as fixed as those of the other classes.
+                    Perhaps this certainty is unattainable; because it maybe that the newer members
+                    of the alluvia strata do not bear a strictly relative position to one another.
+                    But till this fact is ascertained one way or the other, draining must be
+                    conducted in a great measure in these alluvial deposites by trial. In
+                    undertakings on trial, error generally ensues, and unnecessary expense is often
+                    incurred. One very unfortunate circumstance, arising from the uncertainty
+                    attending draining, is the uselessness of the experience acquired in one set of
+                    operations, in guiding to a means of securing a more certain result in another.
+                    As uncertainty attends on the number and depth, and even direction, of the
+                    drains which are required to dry one field sufficiently, so a similar
+                    uncertainty prevails over the similar operations in the adjoining field. Every
+                    drainer will concur in the justness of these remarks. A deeper study by
+                    geologists in this <pb break="no" facs="nls:193324916"
+                    xml:id="kp-eb0708-4916-0137"/>branch of geology would therefore confer
+                    everlasting obligations on the drainer; and would they also direct their
+                    particular attention to the connection between the upper surface of the earth’s
+                    crust, and the one immediately subjacent, that connection would perhaps be found
+                    to be intimate; or, at all events, the investigation would supply desirable
+                    materials for a correct nomenclature and classification of soils.</p>
+                <p>It does not appear that the ancients practised draining. The Egyptians, Indians,
+                    and Persians, and indeed the inhabitants of the tropical regions, rather
+                    practise the opposite though almost sister art in effect, namely, irrigation, on
+                    land which is beyond the influence of the great periodical overflowings of
+                    rivers. The Greeks had neglected draining; and indeed they did not attend much
+                    to agriculture. The Romans, on the other hand, skilful husbandmen in every
+                    department of agriculture, drained their lands with the greatest care and
+                    assiduity. Cato, their oldest writer on agriculture, enters so minutely into the
+                    importance of draining, as even to prescribe the dimensions and shapes of open
+                    and covered drains. The Romans had only been acquainted with the draining of
+                    springs, and the clearing away of surface water. For the former purpose the
+                    drains were left open at both ends, and the water from the springs was conveyed
+                    away by them out of the field, as particularly described by Columella. For
+                    taking away surface water they used open ditches in stiff soils, as Palladius
+                    informs us; and Cato directs that when the rain commences in autumn, all the
+                    servants should go out with sarcles, or other iron tools, open drains, turn the
+                    water into the channels, and take care of the corn fields, that it flow from
+                    them. It thus appears that the Romans were unacquainted with the deeper kind of
+                    surface-draining. In our own country draining has been practised for a long
+                    period. Ingulphus mentions that a chamberlain of William the Conqueror, Richard
+                    de Rulos, lord of Brunne and Deeping, drained a great extent of country, and
+                    embanked the river Wielland, which used to overflow the neighbouring county
+                    every year. It is more than probable that draining was practised in this country
+                    long before that period, as the Romans invariably introduced the arts of life
+                    into every country which they conquered. Fitzherbert’s <hi rend="italic">Bohe of
+                    Husbandrie,</hi> which was published in 1534, during Henry VIIEs reign, contains
+                    minute directions for draining. But the greatest impulse which draining received
+                    in Britain was in the latter half of the last century; and that was given by a
+                    practical discovery of the seat of springs, by a farmer, Mr Elkington of
+                    Princethorp, in Warwickshire. Being an uneducated man, Elkington was not able to
+                    communicate his ideas to the public. Mr Johnstone, a drainer residing in
+                    Edinburgh, under the authority of the Board of Agriculture, published a full and
+                    satisfactory account of Elkington’s mode of draining wet land. Elkington was
+                    ignorant of geology, and coι⅛ld not therefore have acted on scientific
+                    principles. These principles Farcy, in his report, of the agriculture of
+                    Derbyshire, maintains that many contemporaries of Elkington understood better
+                    than he did. But whatever might have been Elkington’s personal qualifications,
+                    it cannot be denied that the mode of draining which he practised himself, and
+                    which he showed to many farmers and country gentlemen, produced a complete
+                    revolution in that art in this country. His principle was simple and strictly
+                    scientific, though he was probably not aware of its scientific character, or of
+                    the science which it involved; but it was undoubtedly its scientific nature
+                    which caused it to be attended with such success. He applied his principle
+                    chiefly to the draining of springs, which was simply to intercept the water by a
+                    drain at its source or spring; and the wetness in the land arising from that
+                    source will of course be removed. The cutting the drains deep is almost
+                    essential to the success of his system. The difficulty in the application of the
+                    principle consists in discovering the seat of the spring. A minute knowledge of
+                    the alluvial rocks would overcome this difficulty. In the present state of that
+                    knowledge, shrewdness must perform the part of science, assisted by trials in
+                    digging pits or cutting straight ditches through the beds of earth, in order to
+                    ascertain which of them contains the spring.</p>
+                <p>The drains which our forefathers made rested on the subsoil, immediately under
+                    the surface soil; and their depth under the surface depended on the depth of the
+                    upper soil. But as the depth of the arable soil, when it is of a different
+                    nature from the subsoil, is never very great, these drains were necessarily
+                    shallow. As experience, however, would soon teach men the impropriety of placing
+                    the stones in a drain within reach of the plough, few stones were placed in
+                    them, often not exceeding three, one on each side of the cut, and another above
+                    them, forming a sort of conduit. These conduits being near the surface, and of
+                    small areas, an additional quantity of water, or moles digging across them,
+                    placed such obstructions in them as to prevent entirely the flow of the water.
+                    They then became receptacles of water, and produced the mischief they were
+                    intended to remedy. Many of these drains are met with in the soil; and they
+                    appear to have been formed on the notion that a conduit to convey the stagnant
+                    jvater between the upper and subsoils was quite sufficient to render the soil
+                    permanently dry. The discovery of these trifling drains compels us to the belief
+                    of the fact, that the mode of draining practised by the Romans, and which
+                    without doubt they had introduced into this country, had been neglected or
+                    forgotten in the dark ages, previously to the revival of agriculture in Britain
+                    in the reign of Henry the Eighth.</p>
+                <p>Compared with the paltry method just described, the system of Elkington is
+                    super-excellent. No wonder that it produced at the time of its introduction a
+                    revolution in the art. It was as much more effective than the old system in
+                    changing the quality of the land, as blood-letting with a lancet from a vein
+                    affects the general constitution in a greater degree than the topical
+                    application of leeches. Elkington’s discovery also created discussion, which
+                    terminated in the permanent establishment of the present method of draining
+                    practised in this country. This method is a modification of that of Elkington;
+                    and it is an improvement, in as far as it effectually drains a species of
+                    wetness in land, for which his method is perhaps not so suitable. It is fully
+                    granted, that to drain bursts of water and marshy ground, it is necessary to cut
+                    off the springs which supply them with water; and that whatever depth of drain
+                    or strength of materials are required to effect these purposes, they ought to be
+                    executed. In this manner many extensive properties have been drained, at great
+                    expense it is true, but so effectually, that the increased income derived from
+                    the improved quality of the soil, and the more rapid growth of the trees, will
+                    continue as a permanent fund, from which the expense of the improvements will be
+                    amply repaid. Granting these advantages, with which, however, it is not intended
+                    to intermeddle, it is nevertheless maintained by many that the portion of land
+                    which is wetted by water springing from below, bears a very small proportion to
+                    that which is in a wet state from the retention of rain water on an impervious
+                    subsoil. A great extent of land may be wetted by the bursting out of a spring of
+                    water; and the obvious mode of drying that land is to remove the spring; but
+                    will the same mode of draining, dry land which is wetted to a great extent by
+                    rain water being retained in the surface soil like water in a sponge, in
+                    consequence of a retentive subsoil? Obviously not. A drain in a retentive
+                    subsoil cannot draw water<pb break="no" facs="nls:193324929"
+                    xml:id="kp-eb0708-4929-0138"/> from a distance. A number of drains should
+                    therefore be made, all to co-operate by their absorbing power, in order to
+                    remove the water from the retentive subsoil; and as drains cannot draw water
+                    from a distance in a retentive subsoil, so in such a subsoil they need not be
+                    made deeper than to contain a sufficient quantity of materials to ensure their
+                    durability. This method of draining may be as expensive or more expensive than
+                    the system of draining springs; but whatever may be its expense, the increased
+                    produce and the improved quality of the subsequent crops will soon repay it. The
+                    theory on which this method is founded is also purely scientific. In the natural
+                    circumstances of the upper and subsoils, varying from light dry loam resting on
+                    beds of sand and gravel, to a thin steril crust, incumbent on impervious clay,
+                    the drainage must be various. In the former no water springs from below; and
+                    what falls upon the surface is immediately absorbed and carried down beyond the
+                    reach of vegetation. In the latter case, water, whether springing from below or
+                    falling on the surface in the shape of rain, must, where there is a declivity,
+                    run slowly off over the surface, however great the distance; or, in the event of
+                    a level surface, must remain stagnant till evaporated by the sun. On such a
+                    subsoil, a sufficient depth of <hi rend="italic">active</hi> soil cannot be long
+                    maintained; for even if enriched with lime and manure, it will bear scanty
+                    crops; and if laid out for pasture, it will in a few years revert to its natural
+                    state, aiļd produce only coarse herbage. Some soils rest on subsoils partially
+                    permeable by water. Such, in dry seasons, with judicious management, produce
+                    good crops; but in rainy seasons the crops are thin and the grain inferior in
+                    quality. When soil is immediately incumbent on open rock, such as the trap
+                    rocks, which contain many fissures, the land is uniformly fertile. Thus
+                    carefully copying the operations of nature, if drains were made in retentive
+                    subsoils, so as to give water frequent opportunities of escape, the soil would
+                    then become fertile, like the soil which rests on the open rock. Hence the
+                    drains are made straight and parallel to one another, and as near to each other
+                    as is necessary for the effectual drying of the land. These parallel drains are
+                    placed down the inclination, instead of across the land.</p>
+                <p>Strong objections are urged against this system of surface-draining by those who
+                    are strenuous advocates of Elkington’s mode of cutting deep drains across the
+                    face of inclined ground. They maintain that fewer of these cross drains will dry
+                    the land than those which run straight down the inclined ground, and that these
+                    small drains will only serve a temporary purpose, and will have to be renewed at
+                    no great distance of time, at a greater cost than the making of cross drains.
+                    Such objections to the parallel straight drains are not so strong as they
+                    appear. It might be supposed, indeed, at first sight, that a drain passing
+                    across a piece of inclined ground will more readily intercept the descent of
+                    water than drains passing down in a direction parallel to the course of the
+                    water. But the fact is, in all pieces of ground which lie at an inclination,
+                    there is a double inclination, the one <hi rend="italic">down</hi> the face of
+                    the inclination, which is always the greatest, and the other <hi rend="italic"
+                    >across</hi> its face. Water running down a double inclination will of course
+                    take the direction of the diagonal, in the exact proportion the angles of
+                    inclination bear to one another, provided the substance of the subsoil were
+                    homogeneous. As it is very improbable that the subsoil should be homogeneous,
+                    there is a risk of cutting the cross drains parallel to the course of the water,
+                    in which case they would not intercept any of it; whereas numerous drains cut
+                    parallel to the direction of the ridges on the inclined ground, would certainly
+                    intercept the water in its diagonal and devious course. Should the adoption of
+                    small drains cause them to be superficially constructed, this defect would be a
+                    strong objection against the whole system; but substantial drains are as
+                    necessary in this as in the other system. Drains which are to contain broken
+                    stones, and no other material will answer the purpose in a retentive but spongy
+                    subsoil, should <hi rend="italic">not be less</hi> than thirty inches in depth;
+                    one foot for the passage of the plough over the stones, and eighteen inches of
+                    small stones. This is the <hi rend="italic">least size</hi> the drains should
+                    be, and of this size they will endure for generations. In this mode of draining
+                    it is proposed to make the drains three feet deep.</p>
+                <p>Having explained the <hi rend="italic">rationale</hi> of different modes of
+                    draining, it will be necessary to give a minute detail of the mode of forming
+                    the different kinds of drains.</p>
+                <p>It is scarcely necessary to state that all drains must be cut in a direction to
+                    permit the water in them to run down hill. No drain should be made more level
+                    than an inclination in the bottom of one foot in twenty-five yards. With this
+                    fall water will easily gravitate in a drain. Drains formed for the purpose of
+                    drying springs which are not in the immediate vicinity of marshy ground, should
+                    be four feet in depth at the least. A reservation is made in case of marshy
+                    ground, for it is probable that its vicinity will not afford a fall of four
+                    feet. All drains of four feet in depth should be filled with small stones
+                    gathered from the fields, or stones from the quarry broken small for the
+                    purpose; and such drains should always be built with a conduit of dry masonry,
+                    of a size in the opening proportionate to the quantity of water which it is
+                    supposed will run through them; and the size of this conduit will of course
+                    regulate the breadth of the bottom of the drain to be cut out. In all cases of
+                    conduits they should be built on a bottom floored on stones; for in many kinds
+                    of clay which have a mixture of sand (and in all drainable clays such a mixture
+                    does exist), the water, if considerable, will wear away the clay from under the
+                    conduit, and cause sinkings in the drain. The small stones should be carefully
+                    packed around the conduit with the hand till it be covered, and the remainder
+                    thrown in from the side of the drain by the hand, to within eighteen or fifteen
+                    inches of the surface of the ground. When the filling is completed, the stones
+                    should be neatly levelled; the filling should commence immediately after the
+                    cutting is finished, which should be executed in small portions at a time. The
+                    stones should be covered over with any material which will prevent the loose
+                    earth trickling down through them into the drain, such as straw, which is
+                    perhaps too valuable an article for this purpose, turf with the grass side
+                    downwards, or quicken well shaken of its earth gathered from the fallow fields.
+                    The levelling of the earth which has been cast out should be executed as soon
+                    after the filling of the stones as possible, and it should be carefully and not
+                    slovenly performed; as a ridge of earth, however small, placed across a piece of
+                    inclined ground, and which cannot afterwards be removed till the field is
+                    ploughed up again, will intercept the water in its descent down the furrows, and
+                    there cause that moisture in the ground which the draining was intended to
+                    remove. An easy method of levelling the earth is to put some of it in the first
+                    place with the spade over the covering of the stones, and then to pass the
+                    plough and turn the earth over into the drain in the same direction, returning
+                    the plough empty. This operation may be repeated twice or thrice, according to
+                    the quantity of earth to be levelled, and then a space of the adjoining ground
+                    may be ploughed with that thrown out, in the manner of a common ridge, till the
+                    whole is flat. It is almost always recommended to fill drains from their upper
+                    end towards the mouth. This may be a desirable arrangement when the drain is
+                    necessarily very level, in order to preserve the fall, but never <pb break="no"
+                    facs="nls:193324942" xml:id="kp-eb0708-4942-0139"/>otherwise; for the risk which
+                    is incurred should wet weather set in, by the falling in of the sides, while
+                    waiting for perhaps a great length of cutting, would more than counteract any
+                    advantage of preserving a minute level. These general observations on the
+                    cutting and filling and covering of drains apply to every species of drain.
+                    Other general observations are, that main drains, into which the lateral drains
+                    empty themselves, should be larger than the lateral ones. Main drains should be
+                    cut in the nearest and most convenient hollows for the outlet of water from the
+                    fields. All lateral drains should enter the main drain, or other lateral drains,
+                    with an acute angle of confluence, to expedite the water in its course. The
+                    mouths of main drains should be left open, strongly built, and defended with
+                    wooden or iron bars, to prevent the ingress of the larger class of vermin, such
+                    as badgers, foxes, and polecats.</p>
+                <p>Where square stones cannot be easily procured for the building of conduits, and
+                    where flat stones are more plentiful, they should be used in <hi rend="italic"
+                    >coupling,</hi> that is, one should be laid flat on the bottom of the drain, and
+                    other two set up on it, meeting at the top, the three forming an isosceles
+                    triangle. Small stones should then be packed carefully with the hand along the
+                    side and over the apex of the triangle. This coupled drain is perhaps not so
+                    strong as a built conduit, but it may be made very durable if the stones are of
+                    compact structure, and it is less expensive, as it requires a narrower cut than
+                    the conduit.</p>
+                <p>Drains from three and a half to two and half feet deep should be wholly filled
+                    with small stones. They are termed <hi rend="italic">rubDle</hi> drains. They
+                    need not exceed the breadth of a garden spade at the bottom. The small stones
+                    with which they are filled should not exceed the size of the fist, and they
+                    should be thrown in by the hand from the side of the drain; not carelessly
+                    against the sides and on the bottom of the drain, but rolled down, as it were,
+                    the inclined face of the stones already filled in. In this manner they will
+                    arrive easily at the bottom, and find their own position. When rubble drains are
+                    formed in hazel loams, they become the favourite resort of earthworms in search
+                    of fresh and unexhausted soil. Moles soon follow them, and these may cause
+                    damage to the drains if precautionary measures be not adopted. The pressing of
+                    the smallest stones by the foot into the bottom of the drain, to form a sort of
+                    causeway upon which the other stones arc placed, is an insuperable obstacle to
+                    moles running under it, and heaving the earth up into the drain.</p>
+                <p>It has always been recommended to build conduits in quicksands; but the
+                    circumstance most deserving notice in the drainage of these troublesome things
+                    is the laying the bottom of the drain with flat stones, and building up its
+                    sides with a sort of masonry, in which pieces of turf should act as mortar, to
+                    prevent the sand running into the middle of the drain. Instead χ&gt;f leaving
+                    the conduit open, it should be filled up with small stones carefully packed in
+                    with the hand, because this construction is the strongest for resisting the
+                    lateral pressure of the quicksand.</p>
+                <p>In regard to the comparative advantages of a conduit and rubble drain, where no
+                    necessity exists of making the drain so deep as the stones at the bottom would
+                    be pressed into the earth by the weight of those above them, and this injurious
+                    effect will not be produced at a less depth than three and a half feet, no
+                    better materials can be employed to fill drains than hard round stones not
+                    exceeding the size of a goose’s cgg. It will be quite unnecessary to be at the
+                    expense of conduits and couples in all those shallow drains formed in retentive
+                    subsoils not containing springs. Water in the quantity generally found in
+                    drains, percolates through rubble stones with less injury to the drains
+                    themselves than in conduits; because, after a tract of wet weather, when the
+                    water in all drains is more or less turbid, according to. the soil through which
+                    it passes, the rubble drain retards its current throughout its whole course, and
+                    causes it to deposite what portion of earth may be mechanically suspended in it,
+                    in a gradual manner; whereas the rather rapid current in a conduit will deposite
+                    its earth in quantities in every eddy which it forms, and in the course of time
+                    banks of earth will be formed in the conduit at different places, so as to
+                    affect the depth of the drain above those deposites.</p>
+                <p>Tiles made on purpose for drains are now very frequently used instead of stones.
+                    They are sometimes made in the shape of long truncated cones which fit into one
+                    another, but more commonly in semicircular pieces placed upon flat tiles. Where
+                    stones can be procured for the gathering, or quarried near at hand, and a
+                    sufficient quantity can be obtained of them, they are in every case superior to
+                    tiles for draining. Tiles may be beneficially used in conjunction with stones
+                    when the latter are carefully packed around, and of a sufficient depth above the
+                    former. They may also be used in clay soils, if well packed in a mass of peat
+                    moss. Clay soils seldom contain stones, but are often associated with peat.
+                    Tilcs at present (1833) are for the most part used in <hi rend="italic"
+                    >furroiv-draining,</hi> that is, in drains cut in any furrow between the ridges.
+                    These drains arc generally made twenty inches in depth, one foot wide at the
+                    top, and two or three inches at the bottom. Sometimes small broken stones to the
+                    height of ten inches are used in these drains instead of tiles. With whatever
+                    materials they are filled, such a size of drains is objectionable. If intended
+                    to drain springs, they are incompetent to reach their source; if surface water
+                    arising from rain lodging on an impervious subsoil, the paucity of materials in
+                    them deprives them of utility and durability. Such a system can only serve a
+                    temporary purpose; and in a permanent improvement such a motive should always be
+                    proscribed. Draining insufficiently performed is nearly as bad as leaving it
+                    undone. Its defects cannot frequently be discovered till a great loss has been
+                    sustained.</p>
+                <p>Another method of draining has lately been introduced, and is termed <hi
+                    rend="italic">plug-draining.</hi> It is exclusively confined to the draining of
+                    tenacious clay, and chiefly practised on pasture land. It consists of removing
+                    the turf with a common spade twelve inches in width and six inches in depth. The
+                    clay under the turf is removed with a narrow-shaped instrument called a grafting
+                    iron, on the side of which is raised a cutting bit six inches long, to the depth
+                    of eighteen inches. The drain is made two feet deep, one foot in breadth at the
+                    top, and one inch and three quarters at the bottom. Plugs of wood to fit the
+                    bottom of the drain, one and three quarters of an inch wide at bottom, four
+                    inches at the top, and six inches in height, and of any length, perhaps a foot,
+                    are then placed in the bottom. The clay last taken out of the drain is returned
+                    into it and rammed hard down, until the whole clay thrown out is replaced in a
+                    solid mass into the drain. Upon the clay the grass turf is replaced in its
+                    original position. The plugs are then withdrawn from below the clay to within
+                    eight inches of their length, by means of a lever acting upon it with a chain
+                    attached to the end of the plugs. Three or four of these plugs are united
+                    together by iron slips, which permit them to have as much play as to accommodate
+                    themselves to any curvature or inequality in the cutting of the drain.
+                    Expedients for draining the surface of grass lands have frequently been
+                    attempted; such as turning over a turf slice with the plough, paring the earth
+                    off the bottom of the turf slice with a spade, and replacing it. The drain thus
+                    made is like a large mole gallery, and hence it is called <hi rend="italic"
+                    >mole-draining.</hi> But this and the plug-draining, and all other expedients of
+                    the like kind, are <pb break="no" facs="nls:193324955"
+                    xml:id="kp-eb0708-4955-0140"/>but temporary shifts. They all originate in a
+                    false notion of economy. The advantages of draining can only be obtained when it
+                    is effectually executed, and it cannot be so executed without a considerable
+                    expense. Its operations being beyond the reach of daily observation, is a strong
+                    reason for executing it effectually. To be obliged to rectify the errors of
+                    draining is a serious evil, and will always cost more than a judicious primary
+                    outlay.</p>
+                <p>The minor adjuncts connected with Elkington’s mode of draining springs should not
+                    be overlooked. They consist of <hi rend="italic">boring</hi> with the <hi
+                    rend="italic">auger,</hi> and <hi rend="italic">sinking pits.</hi> Where
+                    tenacious beds of clay of moderate thickness forming retentive subsoils rest on
+                    gravel or sand, or open rock, holes bored through them with the auger when their
+                    depth is considerable, or pits sunk through them when they are less so, may
+                    effect a very considerable saving of expense. There is obviously no use of
+                    cutting a great length of a main drain, merely as a conveyance for water, when a
+                    hole or a pit opened on the spot would effect a similar purpose. In many cases,
+                    rich marshy land, and land-locked lakes, cannot be drained in any other way. A
+                    correct knowledge of geology is essentially necessary in this department of
+                    draining, in order to arrive at the desirable result with the least trouble.</p>
+                <p>These various modes of draining, which have been but imperfectly described, are
+                    executed in what may be termed different <hi rend="italic">styles.</hi>
+                    Elkington’s mode presents a ramified or dendritic appearance. The main drains
+                    occupy the lowest parts, or the hollows of fields. From them the lateral drains
+                    branch out in various lengths in a sloping direction along the inclined face of
+                    the ground. Where springs abound at the foot of mountain ridges, and where the
+                    substratum consists of beds of sand, however thin, in-terlayed with thick beds
+                    of impervious clay, and where the water evidently rises from <hi rend="italic"
+                    >below,</hi> this is the most beneficial system of draining which can be
+                    followed. The upper soil on such a substratum is generally a clay loam,
+                    unprofitable when wet, but extremely grateful when dried. With deep ploughing,
+                    plentiful liming, and liberal manuring, after drainage, such land will continue
+                    for ages to produce wheat, clover, beans, and Swedish turnips, in abundance. The
+                    expense of this method of draining is considerable by the rood, though not by
+                    the acre. It will be more than a shilling per rood of six yards; but not
+                    exceeding L.3 or L.4 per imperial acre. These clay loams almost always rest on
+                    inferior kinds of clay, of various qualities and colours. They rest on retentive
+                    subsoils, generally occupy large flats, large detached patches, knolls, and
+                    often run in bands across part of the country. In hollow portions of ground,
+                    mossy soils of little depth rest on these clays. In examining the structure of
+                    the subsoil on which these clay loams rest, it is probable they have been
+                    deposited when the retiring waters were nearly in a quiescent state. Though the
+                    different kinds of clay, often exhibiting different colours, are not arranged in
+                    horizontal or parallel beds, they appear in undulating beds of different
+                    lengths, and of contemporaneous formation, and these are frequently divided by
+                    thin beds of sand. These undulations act as basins to intercept and collect the
+                    water which permeates gradually through the detached beds of sand. This permeant
+                    properly permits them to contain large quantities of water, and hence this class
+                    of soil is very wet, and difficult to manage before they are drained. Very
+                    frequently a thicker bed of sand than the rest divides the mixed clayey subsoil
+                    from clay of a different and generally more homogeneous structure below it; and
+                    in cases where this homogeneous clay is not more than six feet below the
+                    surface, and it is often less, it forms an excellent flooring for a main
+                    drain.</p>
+                <p>Another style of draining has lately assuméd the appellation of the <hi
+                    rend="italic">frequent-drain.</hi> It consists of cutting parallel rows of
+                    drains down the face of inclined ground, which terminate in a main drain in the
+                    lowest part of the field. Contrary to the mode of draining just mentioned, this
+                    will cost little per rood, and much per acre. The expense in the hardest clay
+                    subsoil will not exceed tenpence per rood of six yards; but from the number of
+                    drains required, it will cost in such a subsoil nine or ten pounds per imperial
+                    acre. The cost of course will be in proportion to the obduracy of the material
+                    to be operated upon. In clayey subsoils generally of a reddish hue, containing
+                    small round and angular stones, frequently round masses of slaty sandstone,
+                    sometimes water-worn boulders of the older formations, and isolated veins of
+                    sand, this species of draining is admirably adapted, provided the drains are
+                    made of a sufficient depth to contain eighteen inches of small stones. This
+                    subsoil often continues of the same structure to a great depth, and it is very
+                    retentive of water, which has its origin in it chiefly from <hi rend="italic"
+                    >above</hi> in the shape of rain and snow. Deep draining is quite inapplicable
+                    to this subsoil. From the very structure of the subsoil, it is clear that
+                    digging the drains beyond a certain depth will confer no advantage. Water
+                    permeates such a subsoil only through the sand which it contains; and as that
+                    exists in an isolated state, it is not in the power of any drain to attract
+                    moisture from a distance. Dark hazel-coloured loams and black mould generally
+                    rest on these subsoils. These soils, when drained, form good turnip land, are
+                    sound for the rearing and feeding of live stock, raise barley of fine quality,
+                    and will carry good winter and spring wheat, when clay enters into their
+                    composition. In deep loams, where the <hi rend="italic">influence</hi> of
+                    moisture is <hi rend="italic">remote,</hi> draining, at least deep draining, is
+                    unnecessary. It is more necessary in thin loams, as the proximate relation of
+                    the subsoil to them in regard to a state of wetness has a direct influence on
+                    the productive powers of the soil.</p>
+                <p><hi rend="italic">Eurrow-draining</hi> consists of cutting a drain in every
+                    furrow between the ridges, and these drains will be crooked or straight as the
+                    furrows are so: the drains terminate in a main drain at the lowest part of the
+                    field. The only instance where furrow-draining can be safely recommended is in
+                    pure clays, where the soil from time immemorial has been formed into broad,
+                    high, crooked ridges, the furrows of which cannot with propriety be changed in
+                    ploughing the land, as may be done with most other soils. Many of these furrows
+                    contain surface water during a great part of the year, which frequently destroys
+                    the crops half way up the sides of the ridges, the general declivity of the
+                    surface of the land being unable to convey away the water without the assistance
+                    of drains. But instead of making these furrow-drains two or three inches wide at
+                    the bottom, as is usually done, they should never be less than the breadth of a
+                    common spade, and filled eighteen inches high with small stones or gravel, or
+                    tiles with peat moss, and the remainder to the top with porous earth. Pure
+                    clays, which extend to some depth, and which have the upper and subsoils
+                    composed of homogeneous clay, if judiciously managed, require no draining at
+                    all, not because they are not wet soils (on the contrary they are very wet
+                    soils), but because water cannot permeate through them, except as far as the
+                    plough reaches. Such soils may be effectually dried by deep ploughing, and
+                    keeping the furrows always clear with the spade. To keep such a soil dry, a
+                    practice might be beneficially taken from Irish agriculture. It is called <hi
+                    rend="italic">double shovelling.</hi> This is done after the land is
+                    water-furrowed. A cutting plough drawn by two horses, one before the other, is
+                    passed along the furrow. The plough goes and returns close to the sides of the
+                    ridges, and at six inches deep, thus furnishing fresh mould, and preserving<pb
+                    break="no" facs="nls:193324968" xml:id="kp-eb0708-4968-0141"/> a narrow furrow,
+                    the shovelling with the shovel or spade being completed from its depth instead
+                    of its width; and if the mould be thus ploughed in dry weather, it can be
+                    shovelled even after receiving rain. In retentive soils these furrows are
+                    absolutely necessary; and by the foregoing method, the extra covering for the
+                    ridge, by which some harrowing is saved after the sowing of the seed, is
+                    produced with nearly as little waste of ground as by the common water-furrow
+                    drawn by the plough. All flat clay deposites, or what are called Carses in
+                    Scotland, are composed of this kind of soil, and many detached fields on the
+                    sides of winding rivers may be found of a similar character. They cover a very
+                    inconsiderable portion of the face of the country, though in productive powers
+                    they stand in the first rank of soils.</p>
+                <p>Sandy soils resting on sand require no draining. They are found occupying
+                    extensive flats on the estuaries of large rivers. All soils resting on a subsoil
+                    of gravel are naturally dry. Drought alone injures them. It is remarkable that
+                    all soils which rest on gravel are a light loam, of a light hazel-brown colour,
+                    whether they have a siliceous or alluminous basis. These constitute the true
+                    turnip soils, and are to be found on the banks and haughs of straight-running
+                    rivers, rapid streams, and fresh-water lakes.</p>
+                <p>A thorough knowledge of the various modes of draining is not alone sufficient to
+                    constitute a good drainer; he should know the principles as well as the practice
+                    of his art. The difficulty is not so great in constructing a drain, as in
+                    knowing <hi rend="italic">where</hi> it should be made. A true knowledge of
+                    whether the wetness in land arises from springs or stagnant water under the
+                    surface of the soil, can alone teach a man <hi rend="italic">where</hi> to open
+                    up the ground. Every manager of land unfortunately thinks he possesses that
+                    knowledge, and the consequence has frequently happened that small drains have
+                    been opened where only deep ones should have been, and much money expended in
+                    making deep drains where smaller ones would have answered the purpose. But the
+                    former error is greater than the latter. In neither case, however, has the money
+                    expended been thrown away. A certain degree of success has attended every
+                    attempt at draining; and this favourable result, perhaps, more than any other
+                    circumstance, has beguiled many into the belief that they are accomplished
+                    drainers; for no one, however incapable he might be of directing the operation
+                    aright, would even make the attempt to drain land until he had actually
+                    experienced an obvious injury arising from wet land. It must be confessed that
+                    many improvements effected by draining have been purchased at a greater cost
+                    than was necessary to accomplish the end. Many attempts have been made at
+                    draining land by men who did not know how to accomplish it to the best advantage
+                    either to themselves or the land. -The outlay of their money has therefore been
+                    ill directed. W ere the evil effects of ignorance confined to the squandering of
+                    a little money, they might be counteracted by superior management in the other
+                    operations of the farm. But, unfortunately, the sinking of valuable capital in
+                    injudicious draining, deprives the farmer of the means of pursuing other
+                    improvements, and prevents his reaping all the advantages derivable from
+                    draining itself. Thus crippled in his resources, he cannot put and maintain his
+                    farm in the highest condition; for such is the generous character of our
+                    farmers, as promoters of improvement, that they cannot be accused of the desire
+                    of hoarding up riches through the love of gain, so long as they can improve the
+                    condition of their farms in any way, even though they themselves may not
+                    ultimately reap the advantages arising from those improvements. Were draining an
+                    operation which could be executed at little cost and trouble, it would be of
+                    little importance to urge its accomplishment in the most effectual way; but as
+                    it is an expensive operation, when conducted even in the most economical manner,
+                    much thought is requisite before attempting to break up the ground to a great
+                    extent. A knowledge of the structure of the upper portion of the earth’s crust
+                    is absolutely necessary to direct our thoughts aright on this subject. That
+                    knowledge may even now be partially acquired by any farmer. Let him therefore,
+                    in the first place, contemplate the facts it unfolds to his view, and endeavour
+                    through them to acquire that wisdom which will direct him to expend his money in
+                    draining with prudence as well as skill. It will assist him much in ascertaining
+                    what are the kinds of soil which require deep draining, and what kinds may be
+                    treated equally well under a different management. Inattention to this
+                    distinction has given rise to the inordinate application of a general principle,
+                    which, as a general principle, but subject to great and necessary limitations,
+                    must receive the approbation of every man who knows and feels the importance of
+                    this improvement in husbandry.</p>
+                <p>Much has already been effected in Great Britain, but much yet remains to be done,
+                    by draining. A vast extent of the arable land of England and Scotland, and we
+                    may more especially include Ireland, generally esteemed dry, is yet so far
+                    injured by the tardy and imperfect escape of the water, especially in winter,
+                    and during long periods of wet weather in summer, that the working of it is
+                    often difficult and precarious, and its fertility much below what would
+                    uniformly exist under a thorough dryness. A system of drainage, therefore,
+                    generally applicable, and effecting complete and uniform dryness, is of the
+                    utmost importance to the agricultural interest, and <hi rend="italic"
+                    >through</hi> them to every other interest in the country.</p>
+                <p>The advantages arising from draining land are both numerous and various. Manures
+                    and stimulants can never impart their peculiar benefits to any soil which rests
+                    continually on a wet bottom ;—the operations of husbandry can never be
+                    accomplished in due season ;—and the produce is never abundant or of good
+                    quality in such circumstances. Draining removes all these evils. It is truly an
+                    operation, as Pliny terms it, of the highest utility,— <hi rend="italic"
+                    >Hu-midiorem</hi><hi rend="italic">agrum fossis concidi atque siccari,
+                    utilissimum est</hi> —it is not only the meliorator, but the maker of soil. Let
+                    no one despair of his soil, however forbidding; let him really drain it, and the
+                    results will encourage him.</p>
+                <p>The general improvement of the soil by draining would lower the value of
+                    high-rented land; but it would greatly increase the aggregate rental of the
+                    kingdom. It would diminish the general cost of produce, thereby affording
+                    cheaper provisions to the consumer. Both landlord and tenant would have greater
+                    returns from the land; and these returns being permanent, the landlord ought to
+                    bear the greatest share of the expense. Increased production would create a
+                    demand for labour, and the labourers of all professions would be enabled to live
+                    more comfortably. From this only true mode of cheapening labour, the British
+                    manufacturer would be aided in his competition with foreign labour ;—the general
+                    revenue of the country would increase ;—the salubrity of the climate, and the
+                    general beauty of the country, would be greatly promoted. There is no subject,
+                    therefore, more worthy the attention of the landed interest, than the
+                    encouragement of thorough drainage, and, as a necessary and beneficial
+                    consequence of draining, the deep working of the soil. (κ. κ. κ.) <pb break="no"
+                    facs="nls:193324981" xml:id="kp-eb0708-4981-0142"/></p>
+            </div>
+        </body>
+    </text>
+</TEI>

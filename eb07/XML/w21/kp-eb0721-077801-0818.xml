@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0721-0818-0778-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">WARTON, Josepj</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 21, page 778</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="1" ref="fastgeo:1219920">England</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="2" ref="lcsh1910:b42j68511">Life</term>
+                    <term n="3" ref="lcsh1910:b43n20g8z">Schools</term>
+                    <term n="8" ref="lcsh1910:b4d795b2n">Authors</term>
+                    <term n="8" ref="lcsh1910:b4ns0kz00">Authority</term>
+                    <term n="6" ref="lcsh1910:b4fn1111w">Scholars</term>
+                    <term n="5" ref="lcsh1910:b4st7dw9m">Popes</term>
+                    <term n="3" ref="lcsh1910:b4s17sw59">Essays</term>
+                    <term n="2" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="7" ref="fasttopic:910709">English</term>
+                    <term n="5" ref="fasttopic:1071262">Popes</term>
+                    <term n="3" ref="fasttopic:980750">Italians</term>
+                    <term n="3" ref="fasttopic:1737291">Italianization</term>
+                    <term n="3" ref="fasttopic:915437">Essays</term>
+                    <term n="9" ref="fasttopic:902475">Editors</term>
+                    <term n="9" ref="fasttopic:1198505">Life</term>
+                    <term n="8" ref="fasttopic:1107958">Schools</term>
+                    <term n="8" ref="fasttopic:821688">Authors</term>
+                    <term n="8" ref="fasttopic:821653">Authority</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ht:chi.12945678&amp;view=1up&amp;seq=818" type="entry">
+                <p><label type="entry">WARTON, <hi rend="smallcaps">Josepj</hi></label>, an elegant
+                    poet and critic, was born in the year 1722, in the house of his maternal
+                    grandfather, Joseph Richardson, rector of Dunsford in Surrey. His father, Thomas
+                    Warton, B. D. fellow of Magdalen College, and professor of poetry at Oxford, and
+                    afterwards vicar of Basingstoke in Hampshire, and of Cobham in Surrey, was
+                    descended from an ancient and honourable family of Beverley in Yorkshire. The
+                    son was for a short time sent to New College school, but was chiefly educated by
+                    his father till he reached the age of fourteen, when he was admitted on the
+                    foundation of Winchester College. He was at this early period distinguished by
+                    his love of poetry, and one of his school-fellows was William Collins. In
+                    September 1740, being superannuated, he was removed from Winchester; and as no
+                    vacancy occurred in New College, he was entered of Oriel, when he prosecuted his
+                    studies with diligence and success. In 1744 he took the degree of A. B., and was
+                    ordained to his father’s curacy at Basingstoke, and officiated in that church
+                    till February 1746. He next removed to Chelsea, and afterwards to Cobham.</p>
+                <p>His father died in the year 1745, leaving two sons and a daughter in
+                    circumstances far from affluent. Joseph, his elder son, published by
+                    subscription a volume of “Poems on several occasions by the Rev. Mr Thomas
+                    Warton, Batchelor of Divinity, late Vicar of Basingstoke in Hampshire, and some
+                    time Professor of Poetry in the University of Oxford.” Lond. 1748, 8vo. This
+                    volume is closed by two poems on the death of the author, one by his daughter
+                    Jane, the other by the editor. He had previously published a small collection of
+                    his own, entitled “Odes on various subjects.” Lond. 1746, 4to. In 1748 the duke
+                    of Bolton presented him to the rectory of Winslade; and although this provision
+                    was but scanty, he immediately married Miss Daman, a young lady to whom he had
+                    for some time been enthusiastically attached. In 1751 he accompanied the same
+                    nobleman on a tour to the south of France. For this arrangement, as Dr Wooll
+                    very coolly informs us, the duke had two motives, “the society of a man of
+                    learning and taste, and the accommodation of a protestant clergyman, who
+                    immediately on the death of the duchess, then in a confirmed dropsy, could marry
+                    him to the lady with whom he lived, and who was universally known and
+                    distinguished by the name of Polly Peachum.”<note anchored="true" place="bottom"
+                    type="authorial"><p>Wooll’s Biographical Memoirs of the late Rev. Joseph Warton,
+                    D. D. p. 15. Lond. 1306, 4to.</p></note> This, it must be admitted, was a very
+                    miserable commission for any protestant clergyman to undertake, nor did Warton
+                    earn the wages of his iniquity; for some unexplained reason induced or compelled
+                    him to revisit England, before the duchess died; and when, on her demise, he
+                    solicited the duke’s permission to return, he had the mortification to learn
+                    that the worthy pair had been joined in wedlock by the chaplain to the embassy
+                    at Turin.</p>
+                <p>Before this period, he had undertaken a translation of the Eclogues and Georgics
+                    of Virgil; and having associated with it Pitt’s translation of the Aeneid, he
+                    added the original text, and accompanied the whole with his own notes. Lond.
+                    1753, 4 vols. 8vo. The book is elegantly printed; but Dr Harwood remarks that
+                    the Latin text, especially in the Georgics, is extremely incorrect. A second
+                    edition followed in 1778. Warton added three essays, on pastoral, didactic, and
+                    epic poetry. This publication laid the foundation of his literary celebrity.
+                    Soon after its appearance, he was requested to assist Dr Hawkesworth in the
+                    Adventurer, which was commenced in 1752. The invitation was conveyed to him by
+                    Dr Johnson, who stated that the department destined for him was that of
+                    criticism. To this periodical work he contributed twenty-four papers, of which
+                    the greater part relate to critical subjects, and all of them are creditable to
+                    his talents and taste.</p>
+                <p>In 1754 he was instituted to the rectory of Tunworth; and in the following year
+                    he was elected second master of Winchester school. In 1756 Lord Lyttelton
+                    presented him with a chaplain’s scarf. He now published the first volume of “An
+                    Essay on the Writings and Genius of Pope.” Lond. 1756, 8vo. This is a very
+                    elegant and interesting morsel of criticism. Of his claims to the higher
+                    characteristics of a poet, Warton has formed a more moderate estimate than many
+                    other critics; but after all that has been written on his side of the question,
+                    the lively fancy, sparkling wit, and finished terseness of Pope have lost none
+                    of their attractions. This work, which appeared without the author’s name, is
+                    dedicated to Dr Young, a professed admirer of original composition. In 1759 the
+                    university of Oxford conferred upon him by diploma the degree of A. M. In May
+                    1766 he became head-master of Winchester school. For this situation he possessed
+                    several qualifications. He was a man of polished manners; nor could his pupils
+                    fail to imbibe some portion of his refined taste and love of literature. He was
+                    not however without defects. Though an elegant scholar, he was not sufficiently
+                    able as a philologist. “He held verbal criticism cheap, and, as a natural
+                    consequence, frequently encountered insurmountable difficulties in Greek
+                    authors; while the expedients to which he resorted in order to conceal the fact
+                    were easy of detection, and excited much amusement among the elder boys.... But
+                    Warton wanted other qualities essential to the headmaster of a public school. He
+                    was inconsistent in his plans, and deficient in moral courage; often conceding
+                    with respect to points of discipline upon which he ought to have been
+                    inflexible. These defects paved the way for what was afterwards called <hi
+                    rend="italic">the Row</hi> when the school was in such a state of rebellion that
+                    the interference of the magistrates was required, and upwards of thirty of the
+                    boys were expelled. Burgess had left the school before this catastrophe
+                    occurred, but he used to tell, among other proofs of the insubordination which
+                    prevailed even in his time, that a <pb break="no"
+                    facs="ht:chi.12945678&amp;view=1up&amp;seq=819" xml:id="kp-eb0721-0819-0779"
+                    />riotous boy had the audacity, on one occasion, to hurl a Latin dictionary at
+                    Warton’s head.”<note anchored="true" place="bottom" type="authorial"
+                    ><p>Harford’s Life of Thomas Burgess, D. D. late Lord Bishop of Salisbury, p. 5.
+                    Lond. 1840, 8vo.</p></note></p>
+                <p>On being placed at the head of this great school, Warton repaired to Oxford, and
+                    accumulated the degrees of B. and D. D. In 1772 he lost his wife, by whom he had
+                    six children. Such a loss was severely felt; but he found himself helpless
+                    without the superintending care of a domestic companion; and in the course of
+                    the following year he married the daughter of Robert Nicholas, Esq. a descendant
+                    of Dr Nicholas, formerly warden of Winchester. From his scholastic toils he was
+                    accustomed to seek a relaxation in fashionable as well as literary society. His
+                    vacations were frequently spent in London. Like his brother, he became a member
+                    of the famous Literary Club; and being conspicuous for the vivacity and
+                    pleasantry of his conversation, the circle of his acquaintance was at once
+                    brilliant and extensive. His dignified friends did not however advance him to
+                    any eminent preferment. In 1782 Bishop Lowth conferred upon him a prebend of St
+                    Paul’s and the living of Thorley in Hertfordshire, which he was permitted to
+                    exchange for Wickham. In the course of the same year, he published the second
+                    volume of his Essay on Pope. In 1788 the interest of Lord Shannon procured him a
+                    prebend at Winchester; and to Lord Malmesbury he was indebted for the rectory of
+                    Easton, which, before the close of the year, he exchanged for Upham. The amount
+                    of these preferments was not inconsiderable, but they came too late to be of
+                    much avail to his family. He was sixty years of age before he had any benefice,
+                    except the small livings of Winslade and Tunworth, and nearly seventy before he
+                    obtained those which afterwards fell to his share.</p>
+                <p>On the 23d of July 1793 he resigned his office of headmaster, and afterwards
+                    retired to his rectory of Wickham. His literary ardour was not yet extinguished;
+                    and a liberal offer from the London booksellers encouraged him to undertake a
+                    new edition of the works of Pope, which was published in the year 1797 in nine
+                    volumes octavo. For such a task he possessed many' qualifications, but his
+                    edition did not escape the sharpness of critical reprehension. It was assailed
+                    with sufficient virulence by Mathias, in that great repository of literary and
+                    political malignity the Pursuits of Literature. He next undertook an edition of
+                    Dryden, and about the year 1799 he had completed two volumes, which were
+                    afterwards published. At a much earlier period of his life, he had projected a
+                    history of the revival of learning; and about the year 1784 he issued proposals
+                    for publishing “The History of Grecian, Roman, Italian, and French Poetry, in
+                    four parts.” In this work, which was to occupy two quarto volumes, he however
+                    appears to have made little or no progress. All his labours and projects were
+                    terminated by an incurable disease in his kidneys; and he died on the 23d of
+                    February 1800, in the seventy-eighth year of his age. His widow survived till
+                    1806. Besides three daughters, of whom the youngest was by his second wife, he
+                    left a son, the late John Warton, D. D. who published a work entitled “Death-bed
+                    Scenes.”</p>
+                <p>Dr Warton was a very elegant, rather than a very profound scholar; and with his
+                    classical learning he united much knowledge of modem literature, Italian and
+                    French as well as English. On subjects of criticism, he was an agreeable and
+                    instructive writer. His poems, which are but few in number, appear in the
+                    collection of Mr Chalmers. He is a skilful versifier, and is not destitute of
+                    poetical fancy. (x.)</p>
+                <p><hi rend="smallcaps">Warton,</hi><hi rend="italic">Thomas,</hi> the brother of Dr
+                    Warton, was born at Basingstoke in the year 1728. He was distinguished by his
+                    very early love of letters; and a tetrastich which he wrote at the age of nine,
+                    has been preserved by his biographer. He remained under the domestic tuition of
+                    his father till he was prepared for the university. On the 16th of May 1743, he
+                    was admitted a commoner of Trinity College, Oxford, and was soon afterwards
+                    elected a scholar of that house.</p>
+                <p>He continued to cherish his love of poetry; and in 1747 he published without his
+                    name “The Pleasures of Melancholy,” written two years before. On the appearance
+                    of Mason’s “Isis, an Elegy,” which contains reflections on the Jacobitical
+                    principles then prevalent at Oxford, Warton was encouraged by Dr Huddesfield,
+                    president of his college, to repel this attack. He accordingly published, in
+                    1749, “The Triumph of Isis, occasioned by Isis, an Elegy.” This poem, written at
+                    the age of twenty-one, extended his reputation. The principal of St Mary Hall,
+                    who is highly extolled for his Roman eloquence, sent the young author a present
+                    of five pounds. The same individual is likewise extolled for his patriotism.
+                    From the “Political and Literary Anecdotes of his own Times,” published long
+                    after his death, it is evident that Dr King was deeply implicated in the schemes
+                    of the Jacobites; and we may thus ascertain the value of the commendation
+                    bestowed upon such a “patriot’s fire.”</p>
+                <p>Warton took the degree of A. M. on the first of December 1750, and in the course
+                    of the following year succeeded to a fellowship. He was thus placed in a
+                    situation well adapted to his character and pursuits. Though not rich, he was
+                    easy and independent, and had abundant leisure for the cultivation of those
+                    elegant studies in which he delighted. About this period he published various
+                    poems, either in a separate form or in some of the miscellaneous collections of
+                    the day. He was the editor of “The Union, or select Scots and English Poems,”
+                    first printed at Edinburgh in 1753. This collection, of which there are three
+                    editions, includes several of his own poems; two of which, an ode and a
+                    pastoral, he has chosen to describe as written by a gentleman formerly of the
+                    university of Aberdeen. He afterwards published a work which evinces great
+                    knowledge of English literature, and a very sound spirit of criticism,
+                    “Observations on the Fairie Queene of Spenser.” Lond. 1754, 8vo. An edition, in
+                    two volumes octavo, followed in 1762. The first edition was attacked in a
+                    scurrilous pamphlet, bearing the title of “The Observer observed; or, Remarks on
+                    a certain curious Tract, entitled Observations on the Fairie Queene of Spenser,
+                    by Thomas Warton, A. M.” Lond. 1756, 8vo. This pamphlet, which appeared without
+                    the author’s name, was written by Huggins, the unpoetical translator of
+                    Ariosto.</p>
+                <p>In 1757, on the resignation of Mr Hawkins of Pembroke College, he was elected
+                    professor of poetry. For this office, which is only tenable for ten years, he
+                    was eminently qualified by his taste as well as his learning; and we are
+                    informed that he exerted himself to fulfil its duties, by a constant
+                    recommendation of the elegance and simplicity of the classic poets. His lectures
+                    are said to have been remarkable for elegance of diction, and justness of
+                    observation. A specimen may be found in his dissertation “De Poesi Bucolica
+                    Graecorum which was originally delivered as one of these lectures, and having
+                    afterwards been enlarged, was prefixed to his edition of Theocritus.</p>
+                <p>His next publication was an elegant little collection entitled “Inscriptionum
+                    Romanarum Metricarum Delectus. Accedunt notulae.” Lond. 1758, 4to. The ancient
+                    are mixed with a few modern inscriptions. One of these, by Dr Jortin, had been
+                    printed as an ancient relique, in the Miscellaneous Observations on various
+                    Authors. Warton, who apparently entertained a doubt of its genuineness, has <pb
+                    break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=820"
+                    xml:id="kp-eb0721-0820-0780"/> commended it as “conditissimum carmen.” It
+                    however contains one very unhappy pentameter:</p>
+                <p>Utque tuus rursum corpore sim posito.</p>
+                <p>The editor has inserted four inscriptions written by himself, numbers 41, 44, 45,
+                    and 47, which he pretends were transmitted to him from Italy by a learned
+                    friend. This was evidently a mode of ascertaining his own proficiency as an
+                    imitator of ancient simplicity and elegance; but whether such a device is
+                    altogether excusable, may perhaps admit of some doubt.</p>
+                <p>To Dr Johnson’s Idler he contributed three papers, Nos. 33, 93, and 96; but Dr
+                    Mant has erroneously stated that he was likewise a contributor to the
+                    Connoisseur, published by Colman and Thornton. In 1760 he printed two little
+                    works without his name. One of them is “A Description of the City, College, and
+                    Cathedral of Winchester.” The other is entitled “A Companion to the Guide, and a
+                    Guide to the Companion; being a complete Supplement to all the Accounts of
+                    Oxford hitherto published.” This facetious production speedily reached a third
+                    edition, and it was again printed at Oxford in 1806. He afterwards published
+                    “The Life and Literary Remains of Ralph Bathurst, Μ. D. Dean of Wells, and
+                    President of Trinity College in Oxford.” Lond. 1761, 8vo. This volume, though
+                    chiefly interesting to the members of his own college, is not without its
+                    attractions to those who delight in the history of literature and its
+                    professors.</p>
+                <p>Reverting to his classical pursuits, he prepared for the press “Anthologiae
+                    Graecae, a Constantino Cephala conditae, libri tres, ad editionem Lipsiensem
+                    Joannis Jacobi Reiske expressi. Accedunt interpretatio Latina, poetarum
+                    anthologicoum notitia, indices necessarii.” Oxon. 1766, 8vo. Warton has
+                    contributed an elegant preface, together with some brief annotations. The Latin
+                    version, the elaborate account of the poets, and the six indices, are reprinted
+                    from Reiske’s edition. After an interval of four years, he published a more
+                    elaborate work: “Theocriti Syracusii quae supersunt, cum scholiis Graecis
+                    auctioribus, emendationibus et animadversionibus in scholia editoris et Joannis
+                    Toupii, glossis selectis ineditis,” &amp;c. Oxon. 1770, 2 tom. 4to. This edition
+                    is elegantly and correctly printed; and, in a letter to the editor, Toup
+                    described it as “the best publication that ever came from the Clarendon press.”
+                    In compliance with the recommendation of the delegates, it was printed without
+                    accents, although Dr Foster, eight years before, had made a solemn remonstrance
+                    against a practice so heretical.<note anchored="true" place="bottom"
+                    type="authorial"><p>Foster’s Essay on the different Nature of Accent and
+                    Quantity, p. 226. Eton, 17S2, 8vo.</p></note> The scholia are not conveniently
+                    disposed for the purpose of reference; and in the opinion of Harles as well as
+                    Brunck, the editor has not to the full extent availed himself of all the
+                    valuable materials that were within his reach. But an edition of a Greek poet by
+                    a scholar so accomplished, and possessing so much elegance of taste, is not very
+                    frequently recorded in the annals of classical literature.</p>
+                <p>On the 7th of December 1767, he had taken the degree of B. D.; and on the 22d of
+                    October 1771, he was instituted to the small living of Kiddington in
+                    Oxfordshire, on the presentation of the earl of Lichfield, then chancellor of
+                    the university. From April 1755 to April 1774, he served the curacy of
+                    Woodstock, except during the long vacation. His pulpit oratory does not appear
+                    to have had any peculiar recommendation; but it was stated by an anonymous
+                    writer in 1803, that many were still alive who spoke of him with more regard and
+                    affection than of any other person who ever officiated at Woodstock. He likewise
+                    augmented his income by taking pupils; and Mr North, afterwards earl of
+                    Guildford, was placed under his care in 1774.</p>
+                <p>His situation in the university led to his next literary undertaking, “The Life
+                    of Sir Thomas Pope, Founder of Trinity College, Oxford; chiefly compiled from
+                    original evidences. With an Appendix of Papers never before printed.” Lond.
+                    1772, 8vo. This work, of which the original sketch was inserted in the
+                    Biographie Britannica, was reprinted in the year 1780. It extends to an ample
+                    volume, and is written with his usual elegance. The author’s model is Bishop
+                    Lowth’s Life of William of Wykeham; and both works afford very favourable
+                    examples of this species of biography, in which the details of the antiquary are
+                    rendered graceful by the taste of the scholar.</p>
+                <p>This was followed by a more important publication, namely, the first volume of
+                    “The History of English Poetry, from the close of the eleventh to the
+                    commencement of the eighteenth century. To which are prefixed two Dissertations:
+                    1. On the Origin of Romantic Fiction in Europe: 2. On the Introduction of
+                    Learning into England.” Lond. 1774, 4to. A second edition of this volume was
+                    speedily required. The second volume was published in 1778, and the third in
+                    1781. To this last he prefixed “A Dissertation on the Gesta Romanorum.” The
+                    impression of the work extended to 1250 copies; and the copy-right is said to
+                    have been purchased for three hundred and fifty pounds. He did not live to
+                    complete the plan which his title announces; for he only descended to the reign
+                    of Elizabeth. Although he survived the publication of the third volume for nine
+                    years, he had only printed eleven sheets of the fourth; nor does he appear to
+                    have left any additional portion of it in a state of preparation. At the end of
+                    an edition of his Poems, published in 1791, we find this announcement: “Speedily
+                    will be published, by the same author, the fourth and last volume of the History
+                    of English Poetry; in which the subject will [be] carried down to the
+                    commencement of the present century.” It was the intention of Dr Warton to
+                    complete his brother’s great work; but there is no evidence of his having made
+                    any progress in such an undertaking.</p>
+                <p>The History of English Poetry experienced a very favourable reception, and
+                    greatly contributed to extend the reputation of the author. With very extensive
+                    and variegated research Warton combines much knowledge of ancient and modern
+                    literature; and he enlivens the most unpromising disquisitions with many flowers
+                    of an active fancy and a refined taste. The book is written in an excellent
+                    English style, generally elegant and often graceful, never descending too low or
+                    rising too high. With these impressions of his great and conspicuous merit, we
+                    hold it to be impossible to acquiesce in the averment, that “his history has
+                    been found so dry and oppressive as to subdue the eagerness of the generality of
+                    readers.” Such readers must certainly be in a very inadequate state of
+                    preparation. Soon after the appearance of his third volume, he was assailed in
+                    an anonymous pamphlet, entitled “Observations on the three first volumes of the
+                    History of English Poetry, in a familiar Letter to the Author.” Lond. 1782, 4to.
+                    This familiar letter was the production of Ritson, and is plentifully furnished
+                    with his inexhaustible virulence. Warton, like every other man who has published
+                    a work in three volumes, has exhibited errors and mistakes; but those which his
+                    rabid censor has detected are neither so numerous nor so important as to warrant
+                    any great severity of reprehension. In spite of such critics as these, the work
+                    has steadily maintained as much popularity as could reasonably have been
+                    anticipated. A valuable edition, “carefully revised, with numerous additional
+                    notes by the late Mr Ritson, the late Dr [Mr] Ashby, Mr Douce, Mr Park, and
+                    other eminent antiquaries, and by the editor,” was published by the late <pb
+                    break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=821"
+                    xml:id="kp-eb0721-0821-0781"/> Richard Price, a man eminently qualified for the
+                    undertaking. Lond. 1824, 4 vols. 8vo. His preface, extending to 113 pages, is
+                    very able and elaborate; and the same remark is applicable to many of his
+                    annotations. Warton’s transcripts from old manuscripts having too frequently
+                    been hasty and inaccurate, many of his errors are corrected by the editor. This
+                    edition, with additional notes by Sir Frederic Madden and other antiquaries, was
+                    reprinted in three volumes in the year 1840.</p>
+                <p>During the progress of his great work, he published a collection of his Poems.
+                    Lond. 1777, 8vo. A second edition appeared in 1778, a third in 1779, a fourth in
+                    1789, and a fifth in 1791. This was followed by a more complete edition of “The
+                    Poetical Works of the late Thomas Warton, B. D.” Oxford, 1802, 2 vols. 8vo. The
+                    editor, Dr Mant, now bishop of Down, has accompanied it with memoirs of his life
+                    and writings, and with notes critical and explanatory. His Poems are reprinted
+                    in the great collections of Dr Anderson and Mr Chalmers.</p>
+                <p>Warton took some share in the famous controversy respecting the poems produced by
+                    Chatterton. He published “An Enquiry into the Authenticity of the Poems
+                    attributed to Thomas Rowley; in which the Arguments of the Dean of Exeter and Mr
+                    Bryant are examined.” Lond. 1782,8vo. His opinion, it may easily be supposed,
+                    coincided with that of Tyrwhitt. He had now formed the plan of preparing a
+                    history of the county of Oxford. As a specimen, he had printed for the
+                    inspection of his friends, twenty copies of the History of the Parish of
+                    Kiddington; and an edition of it was afterwards published. Lond. 1783, 4to. In
+                    1782 he was presented by his college to the donative of Hill Farrance in
+                    Somersetshire. In 1785 he was elected Camden professor of ancient history, on
+                    the resignation of Dr Scott, afterwards Lord Stowell. He had been a candidate
+                    for the same office in 1768, when one Vivian was preferred. On the fifth of May
+                    1786, he read an inaugural lecture, written in his usual 3tyle of terse
+                    Latinity; but this seems to have been the full extent of his labours in his new
+                    department In the course of the year 1785, he had succeeded Whitehead in the
+                    office of poet laureate; an office which, till a very recent period, continued
+                    to be held by a tenure sufficiently abject. The barbaric exaction to which the
+                    laureate was so long subjected, is not very creditable to the taste of the first
+                    three sovereigns of the Hanoverian dynasty. Soon after his appointment, Warton
+                    was treated with some degree of witty freedom, in a publication entitled
+                    “Probationary Odes for the Laureateship.” But he had too much good nature to be
+                    easily annoyed; and, as his brother has stated, “he always heartily joined in
+                    the laugh, and applauded the exquisite wit and humour that appeared in many of
+                    these original satires.”</p>
+                <p>The last of his literary labours was an edition of “Poems upon several occasions,
+                    English, Italian, and Latin, with Translations, by John Milton: viz. Lycidas,
+                    L’Allegro, &amp;c. With notes, critical and explanatory.” Lond. 1785, 8vo. A
+                    second edition, with many alterations and large additions, was published in
+                    1791. One of these editions is an appendix containing “Remarks on the Greek
+                    Verses of Milton,” by Dr Burney. It was the design of the editor to publish a
+                    second volume, comprehending Paradise Regained and Samson Agonistes. The notes
+                    exhibit a great variety of illustration, drawn from ancient as well as modern
+                    literature; but they are not unfrequently disfigured by the pitiful prejudices
+                    of a mere high-churchman. Dr Mant observes that “he has in one or two instances
+                    been guilty of an oversight, of which a remarkable example occurs in the note on
+                    the twenty-second verse of <hi rend="italic">Mansus,</hi> where he attributes
+                    the life of Homer to Plutarch instead of Herodotus, and describes Mycale as a
+                    mountain in Boeotia instead of Asia Minor.” The bishop evidently was not aware
+                    that there is one life of Homer ascribed to Plutarch and another to Herodotus.
+                    In the other part of his criticism he is more accurate; and Warton was
+                    apparently led into this small error by recollecting a passage of Ovid, where
+                    Mycale is grouped with a mountain of Boeotia:</p>
+                <p>Et Mycale, natusque ad sacra Cithaeron.</p>
+                <p>He had now approached the termination of his distinguished career. Till he
+                    reached his sixty-second year, he had continued to enjoy vigorous and
+                    uninterrupted health. Having then been seized with the gout, he repaired to
+                    Bath, where he persuaded himself that a favourable change had taken place; but
+                    on his return to Oxford, his appearance did not convey the same impression to
+                    his friends. On the 20th of May 1790, he passed the evening in the common room
+                    of the college, and for some time was more cheerful than usual; but between ten
+                    and eleven o’clock, when only two of the fellows remained with him, he was
+                    suddenly affected with paralysis. He continued speechless, and only survived
+                    till two o’clock on the following day. His remains were deposited in the
+                    college-chapel, with the highest academical honours; the ceremony being attended
+                    not only by the members of his own college, but likewise by the vice-chancellor,
+                    heads of houses, and proctors.</p>
+                <p>The personal character of Thomas Warton presented many amiable aspects. In his
+                    manners, he was remarkably simple and unassuming. In the company of strangers,
+                    particularly those of a literary class, he was inclined to be shy and reserved;
+                    but, within the circle of his friends, his conversation was easy and gay,
+                    enriched with anecdote, enlivened with humour, besprinkled with puns, and
+                    sparkling with wit. His temper is described as habitually calm, his disposition
+                    as gentle, friendly, and forgiving. “His resentments, where he could be supposed
+                    to have any, were expressed rather in the language of jocularity than anger.” Of
+                    Ritson’s foul and unprovoked abuse, he only expressed his sense by calling him a
+                    black-letter dog. If he had possessed as much worldly wisdom as many of his
+                    brethren, he might probably have attained to much higher preferment in the
+                    church; but, apparently contented with his moderate provision, he continued to
+                    lead a tranquil and studious life, little infested with the cares of this world,
+                    and alike free from envy and ambition.</p>
+                <p>As a writer he has displayed varied excellence. He was an accurate as well as an
+                    elegant classical scholar; and to his masterly knowledge of English literature
+                    he added an extensive acquaintance with the polite literature of France and
+                    Italy. He was no mean poet, nor are his Latin inferior to his English verses. As
+                    a classical critic, he is advantageously known by his edition of Theocritus.
+                    Most of his publications are replete with variegated learning; but the great
+                    foundation of his fame is the History of English Poetry, a work which in its own
+                    department is unrivalled in English literature. (x.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0706-6415-0724-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">CLARE</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 6, page 724</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="10" ref="fastgeo:1205427">Ireland</term>
+                    <term n="1" ref="fastgeo:1206715">Scotland</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="7" ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term n="6" ref="lcsh1910:b4kk94m4s">Sea</term>
+                    <term n="5" ref="lcsh1910:b4513v11w">Water</term>
+                    <term n="5" ref="lcsh1910:b44j09z32">Founding</term>
+                    <term n="4" ref="lcsh1910:b4db7vr13">Stone</term>
+                    <term n="1" ref="lcsh1910:b49c6s277">Christianity</term>
+                    <term n="1" ref="lcsh1910:b4r785w31">Paper</term>
+                    <term n="1" ref="lcsh1910:b4pn8xd98">Acting</term>
+                    <term n="1" ref="lcsh1910:b4vh5cs84">Mercerization</term>
+                    <term n="1" ref="lcsh1910:b4736m682">Lakes</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="6" ref="fasttopic:1110395">Seas</term>
+                    <term n="5" ref="fasttopic:998850">Limericks</term>
+                    <term n="5" ref="fasttopic:1171139">Water</term>
+                    <term n="5" ref="fasttopic:1182566">Year</term>
+                    <term n="5" ref="fasttopic:933281">Founding</term>
+                    <term n="1" ref="fasttopic:859599">Christianity</term>
+                    <term n="1" ref="fasttopic:859760">Christians</term>
+                    <term n="1" ref="fasttopic:1018703">Methodists</term>
+                    <term n="1" ref="fasttopic:1052348">Paper</term>
+                    <term n="1" ref="fasttopic:796146">Acting</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193356415" type="entry">
+                <p><label type="entry">CLARE</label>, the most northern of the six counties which
+                    form the province of Munster in Ireland, is bounded on the north by the bay and
+                    county of Galway; on the east by Lough Dearg and the river Shannon, which
+                    separate it from the county of Tipperary; on the south by the estuary of the
+                    Shannon, which flows between it and the counties of Limerick and Kerry; and on
+                    the west by the Atlantic Ocean. Its greatest length, measured in a northeastern
+                    direction from Loophead to Scariff Point in Lough Dearg, is seventy miles; and
+                    its breadth, from Blackhead in Galway Bay to Limerick city, forty-five miles.
+                    Its surface comprehends 802,352 acres, of which 524,113 are cultivated, 259,584
+                    are mountain and bog, and 18,655 are covered with water.</p>
+                <p>According to Ptolemy, this county was anciently the residence of the tribe of the
+                    Gangani; afterwards it was called Tuadmuin or Thomond, which signifies North
+                    Munster, and was also known by the appellation of O’Brien’s Country, from the
+                    family of that name which then possessed, and still continues to retain,
+                    considerable influence there. In 1565 it was made shire ground, by the name it
+                    still retains, at which time it was annexed to Connaught, but was restored to
+                    Munster in 1602. The county is now divided into nine baronies, viz. 1. Bunratty;
+                    2. Burren; 3. Clonderalaw; 4. Corcomroe; 5. Ibrickan; 6. Inchiquin; 7. Islands;
+                    8. Moyarta; and 9. Tullagh. These baronies are subdivided into seventy-six
+                    parishes, besides two parts of parishes, the remainders of which are in the
+                    adjacent counties of Galway and Limerick.</p>
+                <p>In the ecclesiastical arrangements of Ireland, Clare is considered as forming
+                    part of the diocese of Killaloe, which also extends over the greater part of the
+                    county of Tipperary, and some small portions of the King’s County and of those
+                    of Galway and Limerick. Killaloe, near the western bank of the Shannon, is the
+                    episcopal seat, at a small distance from which stands Clarisford House, the
+                    bishop’s residence, built in the middle of a very beautiful demesne. The diocese
+                    of Kilfenora, anciently called Fenabore, and which has long been united with the
+                    preceding, comprehends the baronies of Burren and Corcomroe, and is the smallest
+                    see in Ireland. The town ofKil-fenora is remarkable only for its cathedral, the
+                    nave of which is full of old family memorials. A figure of St Feighan, the
+                    founder, is to be seen at full length in the choir. In the same cathedral are
+                    seven crosses, each formed of a single stone, and carved with antique devices.
+                    The yearly value of the united dioceses, including mensal lands, according to a
+                    return made to parliament in 1831, amounts to L.4600.</p>
+                <p>The surface of the country is hilly, and in some parts mountainous, but nowhere
+                    rising to heights of very great elevation. A considerable portion is covered
+                    with bog, particularly in the western baronies of Moyarta and Ibrickan. Bogs are
+                    frequent also in the mountainous districts in other parts, except in the
+                    limestone barony of Burren. It has been remarked that the large tracts of rocky
+                    country, which must always be used for grazing, and therefore require but a very
+                    small population, enjoy but a scanty supply of this valuable material for fuel.
+                    The inhabitants of several parts of Burren import it from the opposite shores of
+                    Connemara. Generally speaking, the eastern parts of the county are mountainous,
+                    with tracts of rich pasture lands interspersed; the west abounds with bog, and
+                    the north is rocky, and best adapted for grazing sheep. In the southern part,
+                    along the banks of the Fergus and Shannon, are bands of rich low grounds, called
+                    carcasses, of various breadth, and indenting the land in a great variety<pb
+                    break="no" facs="nls:193356428" xml:id="kp-eb0706-6428-0725"/> of shapes. That
+                    part called Tradree, properly Tradruihe, or the King’s Land, a name supposed to
+                    be attached to it in consequence of its being the patrimony of the celebrated
+                    Brian Boroimhe, is proverbially rich. These carcasses are distinguished, from
+                    the nature of their respective substrata, into black and blue; the former is
+                    more esteemed for tillage, the latter for meadow. Indeed this county seems to be
+                    distinguished from most others in Ireland, by the peculiarity of containing such
+                    a variety of soils, from the rich lowland carcass to the light mountain gravel,
+                    as to include a gradation fitted to produce all the necessaries and many of the
+                    luxuries of civilized life. Every quality of ground exhibits itself, from the
+                    shores of the Atlantic, in regular progressive chains of varied productive
+                    fertility, from the luxuriant lowlands of Tradree to the rocky pasturages of
+                    Burren. The traveller cannot but be struck with the wonderful contrast between
+                    the cliff that frowns over the vale of Glanagarud, where the eye looks in vain
+                    for the scanty herbage that maintains the goats on its summit, and the banks of
+                    the Shannon, whose fertility cannot be exhausted by the most numerous herds of
+                    cattle, or by the uninterrupted tillage of many years. .</p>
+                <p>The climate is remarkably healthy. The strong gales from the Atlantic, though
+                    unfriendly to planting, insomuch that trees sixty miles inland, if not
+                    sheltered, incline towards the east, seem to produce no injurious effects on the
+                    human constitution. Yet low fevers are common, and often pass through whole
+                    parishes, cutting off numbers; but their frequency and malignity are attributed
+                    more to the slovenly habits and want of cleanliness too prevalent among the
+                    peasantry, than to any insalubrity in the climate. The frequent use of ardent
+                    spirits also contributes its baleful agency to increase the extent and virulence
+                    of this awful visitation.</p>
+                <p>Besides the Shannon, a portion of which forms the eastern and southern boundaries
+                    of the county, the most considerable river is the Fergus, which rises in the
+                    barony of Corcomroe, and after flowing through Lough Inchiquin and several other
+                    smaller sheets of water, passes through Ennis, where it is joined by the
+                    Clareen; then, expanding into a large and beautiful estuary, studded with
+                    picturesque islands, it unites itself with that of the Shannon. The Fergus is
+                    navigable for vessels of two hundred tons, ten miles up to Clare, and for small
+                    craft to Ennis. In consequence of the many mountain streams with which it is
+                    fed, it is subject to floods, by which the low carcass lands on its borders are
+                    frequently overflowed, and much injury is done to the stocks of hay and cattle.
+                    The Ougarnee joins the Shannon near Bunratty Castle, as does the Blackwater near
+                    Limerick. The former of these rivers presents peculiar advantages for extensive
+                    manufactures. The supply of water is equal to any expenditure, and in some parts
+                    the fall is so rapid that a mill could be erected at every hundred yards. The
+                    Ardsallas and Clarcen are branches of the Fergus. The Innistymon river divides
+                    the baronies of Ibrickan and Islands, and falls into Lisea-nor Bay. The Boagh or
+                    Bow forms part of the boundary between this county and Galway. A large stream
+                    rising in Mount Callan forms Lough Dulogh, and disembogues itself into the
+                    Atlantic.</p>
+                <p>The lakes are very numerous, amounting to upwards of an hundred, to which names
+                    have been given. The principal are Lough Graney, Lough Tedane, and Lough
+                    Inchiquin. They are, however, more celebrated for their picturesque beauties
+                    than their extent. Lough Terroig rests on the summit of the Slieveboghta
+                    mountain, in Tullagh barony; a stream from it feeds the beautiful Lough Graney,
+                    or Lake of the Sun, and, after a serpentine course of several miles, flows into
+                    the Shannon at the bay of Scariff. Besides the perennial lakes, large
+                    accumulations of water occur, either forced upwards from under ground of a
+                    higher level, or produced by collections of surface water draining down from
+                    more elevated spots. These dry up in summer, and are called turloghs or loghans.
+                    On the subsiding of the water, its place is supplied by a copious growth of fine
+                    grass, that affords pasturage to numerous herds and flocks. Many of these
+                    turloghs admit of easy drainage.</p>
+                <p>Although mineral and metallic substances have been found in many places
+                    throughout the county, they do not show themselves in sufficient abundance at
+                    any one spot to induce the application of capital for their extraction. The
+                    principal are lead, iron, and manganese.' Copper pyrites occurs in several parts
+                    of Burren. Coal has been discovered, but the seams are too thin to warrant the
+                    expectation of profit from their working on a large scale. Limestone is very
+                    general. Flags, easily quarried, and raised in blocks or slabs of considerable
+                    size, are procured near Kilrush; they are curiously connected by serpentine
+                    insertions between the layers. Thin flags, used for covering houses, are raised
+                    near Innistymon, as are slates for the same purpose in several places. A species
+                    of very fine black marble has been discovered near Ennis. It takes a high
+                    polish, and is free from the white spots with which the black Kilkenny marble is
+                    marked.</p>
+                <p>The mineral springs, which are found in many places, are chiefly chalybeate. That
+                    of Lisdownvarna has long been celebrated for its medicinal qualities,
+                    particularly in biliary obstructions: it is ferruginous, with an astringent
+                    taste and strong smell, yet not fetid. It possesses the additional advantage of
+                    being contiguous to the sea, thus affording the valetudinarian the option of
+                    sea-bathing, if deemed advisable. There are chalybeate springs of less note at
+                    Scool, Cloneen, Kilkishen, and Cassino, near Miltoun Malbay. Springs called by
+                    the people holy or blessed wells, are common; but their efficacy in performing
+                    cures in inveterate maladies is every day less valued. One of these, near
+                    Tomgraney, called St Cullen’s, is remarkable for the purity of its water: it was
+                    formerly overshadowed by a magnificent oak, the stump of which, measuring
+                    sixteen feet in circumference at four feet from the ground, still exists. At St
+                    Giaran’s Well, near Ennis, are the relics of a very large ash-tree.</p>
+                <p>This county, in common with most other parts of Ireland, is deficient in timber.
+                    Many miles square present themselves to the view, with scarcely the vestige of a
+                    tree to vary the monotony of the scene. This is the more to be deplored, because
+                    even the most rocky tracts admit of being planted, as the fissures of the
+                    limestone generally have a perpendicular direction, and are usually filled with
+                    a rich black earth. It is also well known that many tracts now bare of trees,
+                    and affording but a scanty herbage for sheep, were once covered with woods; and
+                    in spots where the soil is protected from the invasion of sheep and goats,
+                    plants of oak, quicken, hazel, and other species of useful timber, shoot up
+                    spontaneously, which, if properly protected and nurtured, would in a few years
+                    clothe these naked cliffs with an abundant and profitable foliage. Several
+                    proprietors have latterly been active in remedying this defect. The most
+                    extensive modern plantations are at Cratilow, near Limerick, where several
+                    hundred acres have been judiciously planted.</p>
+                <p>The results of inquiries respecting the population, at different periods, partly
+                    by private individuals, partly by order of government, give the number of houses
+                    as follows, whence, as the number of souls in each is now universally estimated
+                    at <hi rend="italic">5ļ,</hi> or 6 at the utmost, the total number of
+                    individuals in the county can easily be calculated.</p>
+                <pb break="no" facs="nls:193356441" xml:id="kp-eb0706-6441-0726"/>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1712</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Houses.</p><p>8,602</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1791</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Houses.</p><p>18,050</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1732</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,313</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1812</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>29,050</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1754</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10,014</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1821</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>35,373</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1777</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12,564</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1831</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p>The enumeration of the population, taken by authority of parliament, exhibits the
+                    following results:</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Souls.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Souls.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Souls.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1812... 162,402</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1821...208,089</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1831...258,262</p></cell>
+                    </row>
+                </table>
+                <p>The county was represented in the imperial parliament by three members; two for
+                    the county at large, and one for Ennis. The new arrangements under the reform
+                    act have made no change in this particular. The number of electors, previously
+                    to the disfranchisement of the fortyshilling freeholders, was 8557; subsequently
+                    to that period it was reduced to 1604; under the provisions of the reform act it
+                    amounts to 2515.</p>
+                <p>The peasantry possess most of the qualities, habits, and prejudices, usual among
+                    the agricultural classes throughout the south and west of Ireland. Under the
+                    ordinary circumstances of society, when not exposed to the influence of some
+                    unusual excitation, they are kindly and well-mannered towards each other, and
+                    hospitable to strangers, their intercourse with whom is marked, from the lowest
+                    ranks to the highest, with an almost undeviating civility and readiness to
+                    oblige. The cottages of the labouring classes are usually built of stone without
+                    cement, sometimes with sods, and thatched with straw, or, in lieu of it, with
+                    fern rushes, sedge, or even potato stocks. Their fuel is exclusively turf, drawn
+                    from their own extensive bogs, or from the neighbouring shores of Galway. Their
+                    usual food is potatoes, with milk in summer. On the sea coast their fare is
+                    occasionally improved by the addition of fish. Almost every cottar has a small
+                    garden planted with cabbage, varied, perhaps, with a small patch of onions or
+                    parsnips.</p>
+                <p>Their usual clothing is frieze wrought at home by the women of the family, whose
+                    industry generally enables them to produce an additional quantity for sale. The
+                    women used to wear pettieoats of home-dyed red flannel; but the introduction of
+                    cotton cloths is rapidly excluding all other kinds of manufactures for female
+                    dress here as well as elsewhere.</p>
+                <p>The state of education, as far as it has been ascertained from the returns of the
+                    census of 1821, and the reports of the parliamentary commissioners in 1824-6,
+                    gives the following numbers of pupils :—</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Males.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Females.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Sex not <hi rend="subscript"> τ</hi>,
+                            ascertained. <hi rend="superscript"> 0 a</hi> ’</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1821...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>....8,159..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>....3,794..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11,953</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1824...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>..13,382..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>....6,463..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>206 20,051</p></cell>
+                    </row>
+                </table>
+                <p>Of the number specified in the latter of these statements, 695 were of the
+                    established church, and 19,366 Roman Catholics. The total number of schools was
+                    315, of which 249 were supported wholly by the fees of the pupils, whose number
+                    amounted to 15,070; the remaining 66 schools, containing 6320 pupils, were
+                    supported either by grants of public money, or by voluntary contributions of
+                    societies or individuals of various religious persuasions.</p>
+                <p>Though, from the general description already given of the soil and surface of the
+                    country, it would appear to be better adapted to grazing than tillage, yet in
+                    the richer lands the latter is carried on extensively, and the modern
+                    improvements in agriculture are rapidly gaining ground. Dairies are numerous.
+                    Spade culture is still practised in the mountainous and rocky parts: some of the
+                    best corn is raised in this expensive and laborious manner. At Ralahine, an
+                    establishment combining agriculture and manufactures, on a plan somewhat similar
+                    to that proposed by Mr R. Owen, late of Lanark, is successfully carrying on
+                    under the superintendence of the proprietor, J. S. Vandeleur, Esq. If the county
+                    be remarkable for the raising of any produce not in general cultivation
+                    elsewhere, it is for that of onions. Around Ennis this vegetable is raised in
+                    great quantities, and the very superior attention it requires gives employment
+                    to numerous labourers.</p>
+                <p>The usual rate of wages for field work is from 8d. to lθd. per day. But
+                    employment is not abundant, except in spring and autumn, at which seasons the
+                    number of hands is insuflicient for the demand. Near the sea good land is let to
+                    the peasantry to raise potatoes, at L.3. 10s. to L.4 per aere. This land they
+                    manure with sea-weed and sea-sand. In the interior potato ground is let without
+                    manure at from L.5 to L.7, and with manure at from L.10 to L.12 per aere. After
+                    paying for his cabin and potato garden, the labourer has very little remaining
+                    to purchase necessary apparel for himself and his family.</p>
+                <p>The general term for leases is three lives, or thirty-one years. Bishops’ land is
+                    let for twenty-one years, with liberty to renew annually, or at other periods,
+                    on payment of a proportionate fine. Much property is held by this uncertain and
+                    discouraging tenure. Some landlords retain a right of planting on the tenant’s
+                    land, allowing him the value of the part so planted. From a return very lately
+                    made as to the residence of the landed proprietors, it appears, that of
+                    sixty-three, the number stated in the return, forty-eight are resident on their
+                    respective estates, nine reside in other parts of Ireland, and six only are
+                    absentees. Yet this county has been as much disturbed of late years, and the
+                    peasantry are in as great a state of destitution, as in those in which
+                    absenteeism is prevalent. The names of the absentees are the Marquis of
+                    Lansdowne, the Earl of Egremont, the London Mercers’ company, Morrugh O’Brien,
+                    William Casey, and Crosdaile Morony, Esqrs.</p>
+                <p>Besides the manufactures for home consumption already mentioned, flannels and
+                    friezes are largely made for sale. In the western parts coarse yarn stockings
+                    are manufactured by hand, in such quantities as to be the common medium of
+                    barter. Coarse linens for sacks and packing are also fabricated. A species of
+                    coarse hat is manufactured near Scariff. Kelp is made in large quantities along
+                    the sea-shore; but in consequence of the negligent manner in which it is
+                    prepared, and of the fraudulent practice of mixing with it a particular kind of
+                    stone, hence called kelp-stone, its value in the general market is considerably
+                    less than that made in Scotland or other parts of Ireland.</p>
+                <p>The fisheries ought to be a source of much wealth and comfort to the inhabitants
+                    of a district so contiguous to the sea; yet such is by no means the case.
+                    Kilrush is the only harbour which engages largely in them. Here the
+                    herringfishcry is carried on, yet not to a great extent. Fishing piers have
+                    within these few years been built in several suitable situations. Shell-fish,
+                    especially oysters, crabs, and lobsters, abound. The salmon-fishery of the
+                    Shannon is very productive. Eels form a material article of consumption and
+                    traffie. They are found in every stream; yet the weirs constructed for their
+                    capture are thought to produce more injury, by the floodings arising from the
+                    water thrown back from them on the cultivated land, than benefit from the fish
+                    caught by them.</p>
+                <p>The amusements in which the country people chiefly indulge are hurling matches,
+                    here called goals, in which feats of surprising strength and activity are
+                    performed. Chairs are nothing more than night-meetings at public houses, where
+                    they give themselves up to conversation, dancing, and drinking. A curious custom
+                    prevails in some parts: <pb break="no" facs="nls:193356454"
+                    xml:id="kp-eb0706-6454-0727"/>the head of every beast that is slaughtered is
+                    given to the blacksmith, a usage probably originating in a remuneration for the
+                    use of his sledge and arm in knocking down the animal. In many places it is
+                    customary among the lower classes to call the gentry by their abbreviated
+                    Christian names, without any addition of family name or title, and this is done
+                    with no intention of insult or degradation.</p>
+                <p>The county abounds with remains of antiquities, both military and religious. Of
+                    the former there are still visible 119 fortified castles, seven of which are
+                    inhabited. Raths are to be found in every part; they arc generally round,
+                    composed either of large stones without mortar, or of earth thrown up and
+                    surrounded by one or more ditches, on which was formerly placed a staked hedge.
+                    The list of abbeys and other' religious houses formerly existing here, some of
+                    which are now only known by name, comprehends upwards of twenty. The most
+                    remarkable are, Quin, said to be the finest and most perfect specimen of ancient
+                    monastic architecture in Ireland; Corcomroe, Ennis, in which a very fine window
+                    of uncommonlyelegant work-manship is still to be seen; and Inniscattery,
+                    situated on an island in the Shannon, said to be founded by St Senanus, and
+                    particularly noted for the total exclusion of females from its precincts. In the
+                    island is a round tower. Four others are to be found in various stages of
+                    preservation, at Drumelieve, Dysert O’Dea, Kilnabay, and Inniscal-tra. Cromlechs
+                    are found chiefly in Burren, though there are some in other baronies. That at
+                    Ballygannor is formed of a stone forty feet long and ten broad. The celebrated
+                    tomb of Conan, on Mount Callan, is still extant. Near the same place is a
+                    monument, called Darby’s and Graney’s Bed, to which the very singular custom is
+                    attached, that if a young woman goes thither with a stranger, she is bound to
+                    grant him any favour he asks.</p>
+                <p>There are no towns of considerable size or importance in the county. Ennis, the
+                    assize town, contains a population not much exceeding 7000 souls. It is situated
+                    at the junction of the Fergus and Clareen, about ten miles from the entrance of
+                    the joint stream into the Shannon. It is a post, market, fair, and borough town,
+                    and the only one which sends-a representative to parliament. The electors, under
+                    the new arrangement, amount to 237. The public buildings are, the parish-church,
+                    adorned with a handsome steeple; a Roman Catholic chapel, and a Methodist
+                    meeting-house. The market-house is a very fine building, as is the new jail,
+                    which is constructed according to the modern ideas of prison discipline. The
+                    latest reports to parliament describe it as holding a distinguished place among
+                    the best regulated establishments of this class. The town is a mart for flannels
+                    and linen; it is also the seat of an extensive corntrade. A school, on the
+                    foundation of Erasmus Smith, has been established here, besides which there are
+                    several private seminaries of education. The navigation of the river is
+                    obstructed by a bar which prevents the ingress of large vessels; but this
+                    defect, it is said, could be remedied at an expense of about L.10,000. Kilrush,
+                    on the estuary of the Shannon, is the next town of importance. Its population is
+                    about 4000, and from its situation and good harbour, aided by the exertions of a
+                    resident and improving landlord, it is yearly increasing in wealth and
+                    importance.</p>
+                <p>Dutton’s <hi rend="italic">Statistical Survey of Clare</hi><hi rend="italic"
+                    >;</hi> Shaw Mason’s <hi rend="italic">Parochial Account of Ireland</hi><hi
+                    rend="italic">;</hi><hi rend="italic">Bog Reports</hi><hi rend="italic">;</hi>
+                    Erck’s <hi rend="italic">Ecclesiastical Register; Parliamentary Papers; Reports
+                    of the Commissioners of Education</hi><hi rend="italic">;</hi><hi rend="italic"
+                    >Returns under the Population Act</hi><hi rend="italic">;</hi><hi rend="italic"
+                    >Reports of the Society for the Improvement of Prison Discipline.</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

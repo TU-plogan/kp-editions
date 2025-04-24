@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0718-8108-0441-07" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">PORISM</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 18, page 441</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="24" ref="lcsh1910:b44j09z32">Founding</term>
+                    <term n="1" ref="lcsh1910:b4s17sx29">Porisms</term>
+                    <term n="12" ref="lcsh1910:b43j39307">Equality</term>
+                    <term n="6" ref="lcsh1910:b4k649s3x">Accountants</term>
+                    <term n="6" ref="lcsh1910:b4ff3kz95">Accounting</term>
+                    <term n="1" ref="lcsh1910:b4736mb9b">Wrens</term>
+                    <term n="1" ref="lcsh1910:b4m90251t">Opera</term>
+                    <term n="1" ref="lcsh1910:b4v11vw02">Work</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="1" ref="fasttopic:1095999">Restorationism</term>
+                    <term n="1" ref="fasttopic:1181567">Wrens</term>
+                    <term n="1" ref="fasttopic:1046191">Operas</term>
+                    <term n="1" ref="fasttopic:1046145">Opera</term>
+                    <term n="1" ref="fasttopic:1048190">Originality</term>
+                    <term n="24" ref="fasttopic:933281">Founding</term>
+                    <term n="21" ref="fasttopic:1071831">Porisms</term>
+                    <term n="12" ref="fasttopic:914456">Equality</term>
+                    <term n="8" ref="fasttopic:1136568">Subjectivity</term>
+                    <term n="6" ref="fasttopic:795344">Accountants</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193538108" type="entry">
+                <p><label type="entry">PORISM</label>, in <hi rend="italic">Geometry,</hi> is a name
+                    given by the ancient geometers to two classes of mathematical propositions.
+                    Euclid applies this name to propositions, which are involved in others which he
+                    is professedly investigating, and which, although they do not form his principal
+                    object, are obtained along with it, as is expressed by their name <hi
+                    rend="italic">porismata,</hi> or acquisitions. Such propositions are now called
+                    <hi rend="italic">corollaries.</hi> But he gives the same name, by way of
+                    eminence, to a particular class of propositions which be collected in the course
+                    of his researches, and selected from amongst many others, on account of their
+                    great subserviency to the business of geometrical investigation in general.
+                    These propositions were so named by him, either from the way in which he
+                    discovered them, that is to say, whilsthe was investigating something else, so
+                    that theymight be considered as <hi rend="italic">gains</hi> or <hi
+                    rend="italic">acquisitions,</hi> or from their utility as steps in the
+                    investigation. In this sense they are <hi rend="italic">pοτis-</hi><hi
+                    rend="italic">mata;</hi> for <hi rend="italic">πορίζω</hi> (from which,
+                    according to Proclus, the term is derived) signifies both to investigate and to
+                    acquire by investigation. These propositions formed a collection in three books,
+                    which was familiarly known to the ancient geometers by the name of Euclid’s <hi
+                    rend="italic">porisms;</hi> and Pappus of Alexandria says, that it was a most
+                    ingenious collection of many things conducive to the analysis or solution of the
+                    most difficult problems, and which afforded great delight to those who were able
+                    to understand and investigate them.</p>
+                <p>Unfortunately for mathematical science, this valuable collection is now lost, and
+                    it still remains a doubtful question in what manner the ancients conducted their
+                    researches upon this curious subject. We have, however, reason to believe that
+                    their method was both comprehensive and excellent; for their analysis led them
+                    to many profound discoveries, and was restricted by the severest logic. The only
+                    account we have of this class of geometrical propositions, is in a fragment of
+                    Pappus, in which he attempts a general description of them, as a set of
+                    mathematical propositions distinguishable in kind from all others; but of this
+                    description nothing remains, except a criticism on a definition of the term
+                    given by some geometers, namely, “A Porism is that which is deficient in
+                    hypothesis from a local theorem,” and which he finds fault with, as defining the
+                    porisms only by an accidental circumstance. Pappus also gives an account of
+                    Euclid’s porisms; but the enunciations are so extremely defective, at the same
+                    time that they refer to a figure now lost, that Dr. Halley confesses the
+                    fragment in question to be beyond his comprehension.</p>
+                <p>The high encomiums pronounced by Pappus on these pro positions have excited the
+                    curiosity of the greatest geometers of modern times, who have attempted to
+                    discover their nature and the manner of investigating them. Fermat gave a few
+                    propositions, which have been published in his <hi rend="italic">Opera</hi>
+                    (Tolosae, 1679), and Bulh'aldus, in a tract entitled <hi rend="italic"
+                    >Exercitationes</hi><hi rend="italic">Geometricae Tres</hi> (Paris, 1657),
+                    attempted the same thing, but with less success. Albert Girard, at a still
+                    earlier period, announced that he had restored the whole of the three books of
+                    Euclid, but it does not appear that this part of his works was ever
+                    published.<note anchored="true" place="bottom" type="authorial"><p>In his <hi
+                    rend="italic">Τri&lt;jοηοιnetry,</hi> published at the Hague in 1S29, after
+                    enumerating the forms of certain rectilinear figures, Girard adds, “Le tout,
+                    quand il n’y a que deux lignes qui passent par un point, comme jadis estoyent
+                    les Porismes d’Euclid, qui sont perdus, lesquelles J’espère de mettre bientôt en
+                    lumière, les ayant restituez, il y a quelques années en ça." <hi rend="italic"
+                    >Α</hi> similar announcement is also made by him in his edition of the works of
+                    Steviuus (Lugduni. Batav. 1634. p. 459 ) Having mentioned that Euclid rarely
+                    employs a compound ratio, he adds, “Mais il est à estimer qu’il en a plus escrit
+                    en ses trois livres de Porismes qui sont perdus, lesquelles, Dieu aidant,
+                    J'espère de mettre en lumière, les ayant inventez de nouveau.” (See the preface
+                    to Simson⅛ <hi rend="italic">Tractatus</hi><hi rend="italic">de</hi><hi
+                    rend="italic">Porismalibus,</hi> in his <hi rend="italic">Opera</hi><hi
+                    rend="italic">Reliqua.}</hi></p></note></p>
+                <p>1 At length Dr. Simson, Professor of Mathematics in the University of Glasgow,
+                    was so fortunate as to succeed in <pb break="no" facs="nls:193538121"
+                    xml:id="kp-eb0718-8121-0442"/>restoring the porisms of Euclid. In the preface to
+                    his treatise <hi rend="italic">De Porismatibus,</hi> he gives the following
+                    account of his progress and of the obstacles he encountered: “Postquam vero apud
+                    Pappum legeram Porismata Euclidis Collectionem fuisse artificiosissimam multarum
+                    rerum, qnae spectant ad analysin difficiliorum ct generalium problematum, magno
+                    desiderio tenebar, aliquid de iis cognoscendi; quare saepius et multis variisque
+                    viis tum Pappi propositionem generalem, mancam et imperfectum, tum primum lib.
+                    1. Porisma, quod, ut dictum fuit, solum ex omnibus in tribus libris integrum
+                    adhuc manet, intelligere et restituere conabar; frustra tamen, nihil enim
+                    proficiebam. Cumque cogitationes de hac re multum mihi temporis consumpserint,
+                    atque tandem mo-lestae admodum evaserint, firmiter animum induxi haec nunquam in
+                    posterum investigare; praesertim cum optimus Geometra Halleius spem omnem de iis
+                    intelligendis abjecisset. Unde quoties menti occurrebant, toties eas arcebam.
+                    Postea tamen accidit ut improvidum et propositi immemorem invaserint, meque
+                    detinuerint donce tandem lux quaedam effulserit quae spem mihi faciebat
+                    inveniendi saltem Pappi propositionem generalem, quam quidem multa
+                    investigatione tandem restitui.”</p>
+                <p>Dr. Simson’s <hi rend="italic">Restoration</hi> has every appearance of being
+                    just. All the lemmas which Pappus has given for the better understanding of
+                    Euclid’s propositions are equally applicable to those of Dr. Simson, which are
+                    found to differ from local theorems precisely as Pappus affirms those of Euclid
+                    to have done. They require a particular mode of analysis, and are of immense
+                    service in geometrical investiga tion.</p>
+                <p>Whilst Dr. Simson was employed in this inquiry, he carried on a correspondence
+                    upon the subject with the late Dr. Matthew Stewart, Professor of Mathematics in
+                    the University of Edinburgh; who, besides entering into Dr. Simson’s views, and
+                    communicating to him many curious porisms, pursued the same subject in a new and
+                    very different direction. He published the result of his inquiries in 1746,
+                    under the title of <hi rend="italic">General Theorems,</hi> not wishing to give
+                    them any other name, lest he might appear to anticipate the labours of his
+                    friend and former preceptor. The greater part of the propositions contained in
+                    that work are porisms, but without demonstration; and those who wish to
+                    investigate one of the most curious subjects in geometry, will there find
+                    abundance of materials, and an ample field for discussion.</p>
+                <p>Dr. Simson defines a porism to be “a proposition, in which it is proposed to
+                    demonstrate, that one or more things are given, between which, and every one of
+                    innumerable other things not given, but assumed according to a given law, a
+                    certain relation, described in the proposition, is to be shewn to take
+                    place.”</p>
+                <p>This definition is somewhat obscure, but will be plainer if expressed thus: “A
+                    porism is a proposition affirming the possibility of finding such conditions as
+                    will render a certain problem indeterminate, or capable of innumerable
+                    solutions.” This definition agrees with Pappus’s idea of these propositions, as
+                    far at least as they can be understood from the fragment already mentioned; for
+                    the propositions here defined, like those which he describes, are, strictly
+                    speaking, neither theorems nor problems, but of an intermediate nature between
+                    both. They neither simply enunciate a truth to be demonstrated, nor propose a
+                    question to be resolved, but are affirmations of a truth in which the
+                    determination of an unknown quantity is involved. In as far, therefore, as they
+                    assert that a certain problem may become indeterminate, they are of the nature
+                    of theorems; and, in as far as they seek to discover the condition by which that
+                    is brought about, they are of the nature of problems.</p>
+                <p>In order to give our readers a clear idea of the subject of porisms, we shall
+                    consider them in the way in which it is probable they occurred to the ancient
+                    geometers in the course of their researches. This will at the same time shew the
+                    nature of the analysis peculiar to them, and their great use in the solution of
+                    problems.</p>
+                <p>It appears to be certain, that it has been the solution of problems which, in all
+                    states of the mathematical sciences, has led to the discovery of geometrical
+                    truths. The first mathematical inquiries, in particular, must have occurred in
+                    the form of question^ where something was given, and something required to be
+                    done; and by the reasoning necessary to answer these questions, or to discover
+                    the relation between the things given and those to be found, many truths were
+                    suggested, which came afterwards to be the subject of separate demonstrations.
+                    The number of these was the greater, because the ancient geometers always
+                    undertook the solution of problems, with a scrupulous and minute attention,
+                    insomuch that they would scarcely suffer any of the collateral truths to escape
+                    their observation.</p>
+                <p>Now, as this cautious manner of proceeding was not better calculated to avoid
+                    error than to lay hold of every collateral truth connected with the main object
+                    of inquiry, these geometers soon perceived, that there were many problems which
+                    in certain cases would admit of no solution whatever, in consequence of a
+                    particular relation existing amongst the quantities which were given. Such
+                    problems were said to become impossible; and it was soon perceived, that this
+                    always happened when one of the conditions of the problem was inconsistent with
+                    the rest. Thus, when it was required to divide a line, so that the rectangle
+                    contained by its segments might be equal to a given space, it was found that
+                    this was possible only when the given space was less than the square of half the
+                    line; for when it was otherwise, the two conditions defining, the one the
+                    magnitude of the line, and the other the rectangle of its segments, were
+                    inconsistent with each other. Such cases would occur in the solution of the most
+                    simple problems; but if they were more complicated, it must have been remarked,
+                    that the constructions would sometimes fail, for a reason directly contrary to
+                    that just now assigned. Cases would occur, where the lines, which by their
+                    intersection were to determine the thing sought, instead of intersecting each
+                    other as they did commonly, or of not meeting at all, as in the above mentioned
+                    case of impossibility, would coincide with one another entirely, and of course
+                    leave the problem unresolved. It would appear to geometers upon a little
+                    reflection, that since, in the case of determinate problems, the thing required
+                    was determined by the intersection of the two lines already mentioned, that is,
+                    by the points common to both; so in the case of their coincidence, as all their
+                    parts were in common, every one of these points must give a solution, or, in
+                    other words, the solutions must be indefinite in number.</p>
+                <p>Upon inquiry, it would be found that this proceeded from some condition of the
+                    problem having been involved in another, so that, in fact, the two formed but
+                    one, and thus there was not a sufficient number of independent conditions to
+                    limit the problem to a single or to any determinate number of solutions. It
+                    would soon be perceived, that these cases formed very curious propositions of an
+                    intermediate nature between problems and theorems; and that they admitted of
+                    being enunciated in a manner peculiarly elegant and concise. It was to such
+                    propositions that the ancients gave the name of <hi rend="italic"
+                    >porisms.</hi></p>
+                <p>This deduction requires to be illustrated by an example. Suppose, therefore, that
+                    it were required to resolve the following problem. A circle ABC, (fig. 1), a
+                    straight line DE, and a point F, being given in position, to find a point G in
+                    the straight line DE such, that GF, the line drawn from it to the given point,
+                    shall be equal to GB, the line drawn from it touching the given circle.</p>
+                <p>Suppose G to be found, and GB to be drawn touching the given circle ABC in B, let
+                    H be its centre, join HB, and let HD be perpendicular to DE. From D draw’ DL&gt;
+                    <pb break="no" facs="nls:193538134" xml:id="kp-eb0718-8134-0443"/>touching the
+                    circle ABC in L, and join IIL; also from the centre G, with the distance GB or
+                    GF, describe the circle BKF, meeting HD in the points K and K'. It is evident
+                    that HD and DL are given in position and magnitude: also because GB touches the
+                    circle ABC, HBG is a right angle; and since G is the centre of the circle BKF,
+                    IIB touches that circle, and consequently HB <hi rend="superscript"> 2</hi> or
+                    III. <hi rend="superscript"> 2</hi> = KH×HK'; but because KK' is bisected in D,
+                    KH×HK' + DK <hi rend="superscript"> 2</hi> = DIP, therefore III. <hi
+                    rend="superscript"> 2</hi> + DK-=DH <hi rend="superscript"> 2</hi>. But III. <hi
+                    rend="superscript"> 2</hi> + LD <hi rend="superscript"> 2</hi> = DH <hi
+                    rend="superscript"> 2</hi>, therefore DK <hi rend="superscript"> 2</hi> =DL <hi
+                    rend="superscript"> 2</hi> and DK=DL. But DL is given in magnitude, and
+                    consequently K is a given point. For the same reason <hi rend="italic">K'</hi>
+                    is a given point, therefore the point F being given in position, the circle KFK'
+                    is given in position. The point G, which is its centre, is therefore given in
+                    position, which was to be found. Hence this construction:</p>
+                <p>Having drawn HD perpendicular to DE, and DL touching the circle ABC, make DK and
+                    DK ’ each equal to DL, and find G the centre of the circle described through the
+                    points K'FK; that is, let FK ’ be joined and bisected at right angles by MN,
+                    which meets DE in G, G will be the point required; or it will be such a point,
+                    that if GB be drawn touching the circle ABC, and GF to the given point, GB is
+                    equal to GF.</p>
+                <p>The synthetical demonstration is easily derived from the preceding analysis; but
+                    it must be remarked, that in some cases this construction fails. For, first, if
+                    F fall anywhere in DH, as at F ’, the line MN becomes parallel to DE, and the
+                    point G is nowhere to be found; or, in other words, it is at an infinite
+                    distance from D. This is true in general; but if the given point F coincide with
+                    K, then MN evidently coincides with DE; so that, agreeable to a remark already
+                    made, every point of the line DE may be taken for G, and will satisfy the
+                    conditions of the problem; that is to say, GB will be equal to GK, wherever the
+                    point G is taken in the line DE: the same is true if F coincide with K'. Thus we
+                    have an instance of a problem, and that too a very simple one, which, in
+                    general, admits but of one solution; but which, in one particular case, when a
+                    certain relation takes place among the things given, becomes indefinite, and
+                    admits of innumerable solutions. The proposition which results from this case of
+                    the problem is a porism, and may be thus enunciated:</p>
+                <p>“A circle ABC being given by position, and also a straight line DE, which does
+                    not cut the circle, a point K may be found, such, that if G be any point
+                    whatever in DE, the straight line drawn from G to the point K shall be equal to
+                    the straight line drawn from G touching the given circle ABC.”</p>
+                <p>The problem which follows, appears to have led to the discovery of many
+                    porisms.</p>
+                <p>A circle ABC (fig. 2), and two points D, E, in a diameter of it being given, to
+                    find a point F in the circumference of the given circle, from which, if straight
+                    lines be drawn to the given points E, D, these straight lines shall have to one
+                    another the given ratio of <hi rend="italic">a</hi> to <hi rend="italic">β,</hi>
+                    which is supposed to be that of a greater to a less. Suppose the problem
+                    resolved, and that F is found, so that FE has to FD the given ratio of <hi
+                    rend="italic">a</hi> to <hi rend="italic">β</hi>; produce EF towards G, bisect
+                    the angle EFD by FL, and DFG by FM: therefore EL: LD:: EF: FD, that is in a
+                    given ratio, and since ED is given, each of the segments EL, LD, is given, and
+                    the point L is also given; again, because DFG is bisected by FM, EM: MD:: EF:
+                    FD, that is, in a given ratio, and therefore Μ is given. Since DFL is half of
+                    DFE, and DFM half of DFG, therefore LFM is half of (DFE + DFB), that is, the
+                    half of two right angles, therefore LFM is a right angle; and since the points
+                    L, Μ, are given, the point F is in the circumference of a circle described upon
+                    LM as a diameter, and therefore given in position. Now the point F is also in
+                    the circumference of the given circle ABC, therefore it is in the intersection
+                    of the two given circumferences, and therefore is found. Hence this
+                    construction: Divide ED in L, so that EL may be to LD in the given ratio of <hi
+                    rend="italic">a</hi> to <hi rend="italic">β,</hi> and produce ED also to Μ, so
+                    that EM may be to MD in the same given ratio of <hi rend="italic">a</hi> to <hi
+                    rend="italic">β</hi>; bisect LM in N, and from the centre N with the distance
+                    NL, describe the semicircle LFM; and the point F, in which it intersects the
+                    circle ABC, is the point required.</p>
+                <p>The synthetical demonstration is easily derived from the preceding analysis. It
+                    must, however, be remarked, that the construction fails when the circle LFM
+                    falls either wholly within or wholly without the circle ABC, so that the
+                    circumferences do not intersect; and in these cases the problem cannot be
+                    solved. It is also obvious that the construction will fail in another case, viz.
+                    when the two circumferences LFM, ABC, entirely coincide. In this case, it is
+                    farther evident, that every point in the circumference ABC will answer the
+                    conditions of the problem, which is therefore capable of numberless solutions,
+                    and may, as in the former instance, be converted into a porism. We are now to
+                    inquire, therefore, in what circumstances the point L will coincide with A, and
+                    also the point Μ with C, and of consequence the circumference LFM with ABC. If
+                    we suppose that they coincide, EA: AD:: <hi rend="italic">a</hi><hi
+                    rend="italic">:</hi><hi rend="italic">β</hi>:: EC: CD, and EA: EC:: AD ∙ CD, or
+                    by conversion, E A: AC:: AD: CD—AD:: AD: 2DO, 0 being the centre of the circle
+                    ABC; therefore, also, EA: AO:: AD: DO, and by com-positition, EO: AO:: AO: DO,
+                    therefore EO × OD= AO <hi rend="superscript"> 2</hi>. Hence, if the given points
+                    E and D (fig. 3), be so situated that EO × OD=AO <hi rend="superscript"> 2</hi>,
+                    and at the same time <hi rend="italic">a</hi><hi rend="italic">:</hi><hi
+                    rend="italic">β</hi><hi rend="italic">::</hi> EA: AD:: EC: CD, the problem
+                    admits of numberless solutions; and if either of the points D or E be given, the
+                    other point, and also the ratio which will render the problem indeterminate, may
+                    be found. Hence we have this porism:</p>
+                <p>“A circle ABC, and also a point D being given, another point E may be found, such
+                    that the two lines inflected from these points to any point in the circumference
+                    ABC, <pb break="no" facs="nls:193538147" xml:id="kp-eb0718-8147-0444"/>shall
+                    have to each other a given ratio, which ratio is also to be found.” Hence also
+                    we have an example of the derivation of porisms from one another, for the circle
+                    ABC, and the points D and E remaining as before, if, through D <hi
+                    rend="smallcaps">wp</hi> draw any line whatever HDB, meeting the circle in B and
+                    H; and if the lines EB, EH, he also drawn, these lines will cut off equal
+                    circumferences BF, HG. Let FC be drawn, and it is plain from the foregoing
+                    analysis, that the angles DFC, CFB, are equal; therefore if OG, OB, be drawn,
+                    the angles BOC, COG, are also eqifal; and consequently the angles DOB, DOG. In
+                    the same manner, by joining AB, the angle DBE being bisected by BA, it is
+                    evident that the angle AOF is equal to AOH, and therefore the angle FOB to HOG;
+                    hence the arch FB is equal to the arch HG. It is evident that if the circle ABC,
+                    and either of the points DE were given, the other point might be found.
+                    Therefore we have this porism, which appears to have been the last but one of
+                    the third book of Euclid’s <hi rend="italic">Porisms.</hi> “A point being given,
+                    either within or without a circle given by position, if there be drawn, anyhow
+                    through that point, a line cutting the circle in two points; another point may
+                    be found, such, that if two lines be drawn from it to the points in which the
+                    line already drawn cuts the circle, these two lines will cut oft'from the circle
+                    equal circumferences.”</p>
+                <p>The proposition from which we have deduced these two porisms, also affords an
+                    illustration of the remark, that the conditions of a problem are involved in one
+                    another in the porismatic or indefinite case; for here several independent
+                    conditions are laid down, by the help of which the problem is to be resolved.
+                    Two points D and E are given, from which two lines are to be inflected, and a
+                    circumference ABC, in which these lines are to meet, as also a ratio which these
+                    lines are to have to each other. Now these conditions are all independent of one
+                    another, so that any one may be changed without any change whatever in the rest.
+                    This is true in general; but yet in one case, viz. when the points are so
+                    related to another, that the rectangle under their distances from the centre is
+                    equal to the square of the radius of the circle, it follows, from the preceding
+                    analysis, that the ratio of the inflected lines is no longer a matter of choice,
+                    but a necessary consequence of this disposition of the points.</p>
+                <p>From what has been already said, we may trace the imperfect definition of a
+                    porism which Pappus ascribes to the later geometers, viz. that it differs from a
+                    local theorem, by wanting the hypothesis assumed in that theorem. Now, to
+                    understand this, it must be observed, that if we take one of the propositions
+                    called <hi rend="italic">loci,</hi> and make the construction of the figure a
+                    part of the hypothesis, we get what was called by the ancient geometers, a <hi
+                    rend="italic">local theorem.</hi> If, again, in the enunciation of the theorem,
+                    that part of the hypothesis which contains the construction be suppressed, the
+                    proposition thence arising will be a porism, for it will enunciate a truth, and
+                    will require to the full understanding and investigation of that truth, that
+                    something should be found, viz. the circumstances in the construction supposed
+                    to be omitted.</p>
+                <p>Thus, when we say, if from two given points, E, D, two straight lines EF, FD, are
+                    inflected to a third point F, so as to be to one another in a given ratio, the
+                    point F is in the circumference of a given circle, we have a locus. But when
+                    conversely, it is said, if a circle ABC, of which the centre is 0, be given by
+                    position, as also a point E; and if D be taken in the line EO, so that EO ×
+                    OD⊂AO <hi rend="superscript"> 2</hi>, and if from E and D the lines EF, DF be
+                    inflected to any point of the circumference ABC, the ratio of EF to DF will be
+                    given, viz. the same with that of EA to AD, we have a local theorem.</p>
+                <p>Lastly, when it is said, if a circle ABC be given by position, and also a point
+                    E, a point D may be found, such that if EF, FD be inflected from E and D to any
+                    point F in the circumference ABC, these lines shall have a given ratio to one
+                    another, the proposition becomes a porism, and is the same that has just now
+                    been investigated.</p>
+                <p>Hence it is evident, that the local theorem is changed into a porism, by leaving
+                    out what relates to the determination of D, and of the given ratio. But though
+                    all propositions formed in this way from the conversion of loci, are porisms,
+                    yet all porisms are not formed from the conversion of loci; the first, for
+                    instance, of the preceding, cannot, by conversion, be changed into a locus;
+                    therefore Fermat’s idea of porisms, founded upon this circumstance, could not
+                    fail to be imperfect.</p>
+                <p>If the idea which we have given of these propositions be just, it follows, that
+                    they are to be discovered by considering those cases in which the construction
+                    of a problem fails, in consequence of the lines which by their intersection, or
+                    the points which by their position, were to determine the problem required,
+                    happening to coincide with one another. A porism may therefore be deduced from
+                    the problem to which it belongs, just as propositions concerning the <hi
+                    rend="italic">maxima</hi> and <hi rend="italic">minima</hi> of quantities are
+                    deduced from the problems of which they form limitations; and such is the most
+                    natural and obvious analysis of which this class of propositions admits.</p>
+                <p>Another general remark which may be made on the analysis of porisms is, that it
+                    often happens that the magnitudes required may all, or a part of them, be found
+                    by considering the extreme cases; but for the discovery of the relation between
+                    them, and the indefinite magnitudes, we must have recourse to the hypothesis of
+                    the porism in its most general or indefinite form; and must endeavour so to
+                    conduct the reasoning, that the indefinite magnitudes may at length totally
+                    disappear, and leave a proposition asserting the relation between determinate
+                    magnitudes only.</p>
+                <p>Forthis purpose accordingly Dr. Simson frequentlyemploys two statements of the
+                    general hypothesis, which he compares together. This double statement, however,
+                    cannot be made without rendering the investigation long and complicated; nor is
+                    it even necessary, for it may be avoided by <hi rend="superscript"> τ</hi>
+                    having recourse to simpler <hi rend="italic">porisms,</hi> or to <hi
+                    rend="italic">loci,</hi> or to propositions of the <hi rend="italic">data.</hi>
+                    The porism which follows, is given as an example where this is done with some
+                    difficulty, but with considerable advantage, both with regard to the simplicity
+                    and shortness of the demonstration. It will be proper to premise the following
+                    lemma.</p>
+                <p>Let AB (fig. 4.) be a straight line, and D, L any two points in it, one of which
+                    D is between A and B; also let CI. be any straight line. Then shall</p>
+                <p>~∙AD≡÷ ÈÉ* <hi rend="superscript"> BD</hi><hi rend="smallcaps">-Èl'</hi><hi
+                    rend="superscript smallcaps"> AL</hi><hi rend="smallcaps">‘</hi> + ⅛E‘ <hi
+                    rend="superscript"> BLS</hi> ÷ <hi rend="smallcaps">⅜T</hi><hi rend="superscript
+                    smallcaps"> d1a</hi></p>
+                <p>For place CI. perpendicular to AB, and through the point·</p>
+                <pb break="no" facs="nls:193538160" xml:id="kp-eb0718-8160-0445"/>
+                <p>A, C, B describe a circle, and let CI. meet the circle again in E, and join AE,
+                    BE. Also draw DG parallel to CE, meeting AE and BE in H and G, and draw EK
+                    parallel to AB. Then, from the elements of geometry,</p>
+                <p>CI.: LB :: (LA: LE :: ) LA <hi rend="superscript"> 2</hi>: LA ×LE, and hence LA ×
+                    LE=-í(?-‘LA <hi rend="superscript"> 2</hi>.</p>
+                <p>Also CI.: LA :: (LB: LE ::) LB <hi rend="superscript"> 2</hi>: LB × LE, ī A</p>
+                <p>and hence LB × LE=-^--∙LB <hi rend="superscript"> 2</hi>.</p>
+                <p>Now CI.: LB :: LA: LE :: EK or LD: KH, and CI.: LA :: LA: LE :: EK or LD: KG,
+                    therefore, CI.: AB :: (LD: GH ::) LD <hi rend="superscript"> 2</hi>: EK× GH,</p>
+                <p>AB and hence EK× GH=—∙LD <hi rend="superscript"> 2</hi>.</p>
+                <p>From the three equations now deduced, there results --.LA*+ξ <hi
+                    rend="superscript"> i</hi> 4∙LB <hi rend="superscript"> i</hi> + ~∙LD≡ =
+                    AB×LE+EK×GH. LC LC CI.</p>
+                <p>Again, because</p>
+                <p>CI.: LA :: (LB: LE :: DB: DG ::) DB <hi rend="superscript"> 2</hi>: DB ×DG, LA
+                    therefore DB × DG=-" -∙DB <hi rend="superscript"> 2</hi>. And because</p>
+                <p>LL·.</p>
+                <p>CI.: LB :: (LA: LE :: DA: DH ::) DA <hi rend="superscript"> 2</hi>: DA × DH,
+                    therefore DA ×DH=-^pDA <hi rend="superscript"> 2</hi>. From the result of these
+                    two last propositions we have <hi rend="smallcaps">⅛γ'</hi><hi rend="superscript
+                    smallcaps"> da2</hi> +'ēE <hi rend="superscript"> DB2=DA</hi> X <hi
+                    rend="superscript"> dh</hi> + <hi rend="superscript"> db</hi> × <hi
+                    rend="superscript"> dg</hi>;</p>
+                <p>But DA X DH=ta'ce <hi rend="italic">trian.</hi> ADH, and DB × DG=ftc⅛e <hi
+                    rend="italic">lrian.</hi> BDG, and therefore DA× DH + DB × DG=2 <hi
+                    rend="italic">(trian.</hi> ADH + irz'αw. BDG)=2 <hi rend="italic">(frian.
+                    AΕM-±trian.</hi> HEG)=AB × LE + EK× HG∙ Nowithas been proved, that DA × DH+DB
+                    ×DG=⅛A <hi rend="superscript"> 2</hi><hi rend="subscript"> +</hi>-⅛Δ-.BD <hi
+                    rend="superscript"> 2</hi>, and that AB×LE + EK×HG=⅛-∙LA <hi rend="superscript">
+                    2</hi> +-^-∙LB <hi rend="superscript"> 2</hi> +</p>
+                <p>-^5-∙LD <hi rend="superscript"> 2</hi>, therefore-^-·AD <hi rend="superscript">
+                    2</hi> + <hi rend="smallcaps">^</hi><hi rend="superscript smallcaps"> l</hi><hi
+                    rend="smallcaps">BD</hi><hi rend="superscript"> 2</hi> =-t^-∙AL <hi
+                    rend="superscript"> 2</hi> + <hi rend="smallcaps">v√L; wJL√</hi> VI. w-Li</p>
+                <p>-^-∙BL <hi rend="superscript"> 2</hi> + <hi rend="italic">^5-∙DL</hi><hi
+                    rend="italic superscript"> 2</hi><hi rend="italic">,</hi> as was to be
+                    demonstrated.</p>
+                <p><hi rend="smallcaps">Porism.</hi> Let there be three straight lines AB, AC, CB
+                    given in position; (fig. 5) and from any point whatever in one of them, as D,
+                    let perpendiculars be drawn to the other two, as DF, DE, a point G may be found,
+                    such, that if GD be drawn from it to the point D, the square of that line shall
+                    have a given ratio to the sumofthesquares of the perpendiculars DF and DE, which
+                    ratio is to be found.</p>
+                <p>Draw AH, BK perpendicular to BC and AC; and in</p>
+                <p>AB take L, so that AL: LB :: AH <hi rend="superscript"> 2</hi>: BK <hi
+                    rend="superscript"> 2</hi>:: AC <hi rend="superscript"> 2</hi>: CB <hi
+                    rend="superscript"> 2</hi>. The point L is therefore given; and if a line N be
+                    taken, so as to have to AL the same ratio that AB <hi rend="superscript"> 2</hi>
+                    has to AH <hi rend="superscript"> 2</hi>, N will be given in magnitude. Also,
+                    since AH <hi rend="superscript"> 2</hi>: BK <hi rend="superscript"> 2</hi>:: AL:
+                    LB, and AH <hi rend="superscript"> 2</hi>: AB <hi rend="superscript"> 2</hi>::
+                    AL: N, <hi rend="italic">ex equo,</hi> BK <hi rend="superscript"> 2</hi>: AB∙ ::
+                    LB: N. Draw LO, LM perpendicular to AC, CB LO, LM are therefore given in
+                    magnitude. Now, because AB <hi rend="superscript"> 2</hi>: BK <hi
+                    rend="superscript"> 2</hi>:: AD <hi rend="superscript"> 2</hi>: DF <hi
+                    rend="superscript"> 2</hi>, N: LB :: AD <hi rend="superscript"> 2</hi>: DF <hi
+                    rend="superscript"> 2</hi>, and DF ’ =—∙AD <hi rend="superscript"> 2</hi>. For
+                    the same reason DE <hi rend="superscript"> 2</hi> =-^^-∙BD <hi
+                    rend="superscript"> 2</hi>.</p>
+                <p>LO <hi rend="superscript"> 2</hi> =⅛∙AL <hi rend="superscript"> 2</hi>, and LM
+                    <hi rend="superscript"> 2</hi> = <hi rend="superscript"> j</hi> ^∙BL <hi
+                    rend="superscript"> 2</hi>. N N</p>
+                <p>But, by the preceding lemma, -^^-∙AD <hi rend="superscript"> 2</hi> +-^^-∙BD <hi
+                    rend="superscript"> 2</hi> =</p>
+                <p>IBAT AR</p>
+                <p>-^r-∙AL <hi rend="superscript"> 2</hi> + -^v-∙BL <hi rend="superscript"> 2</hi> +
+                    ~~-∙DL <hi rend="superscript"> 2</hi>; that is, DE <hi rend="superscript">
+                    2</hi> +DF <hi rend="superscript"> s</hi></p>
+                <p>AB</p>
+                <p>= LO <hi rend="superscript"> 2</hi> + LM <hi rend="superscript"> 2</hi> q——∙DL
+                    <hi rend="superscript"> 2</hi>. Join LG, then by hypothesis LO <hi
+                    rend="superscript"> 2</hi> + LM <hi rend="superscript"> 2</hi> has to LG <hi
+                    rend="superscript"> 2</hi>, the same ratio as DF <hi rend="superscript"> 2</hi>
+                    + DE <hi rend="superscript"> 2</hi> has to DG <hi rend="superscript"> 2</hi>;
+                    let it be that of R to N, then LO <hi rend="superscript"> 2</hi> + LM <hi
+                    rend="superscript"> 2</hi> =^.LG <hi rend="superscript"> 2</hi>; and therefore
+                    DE <hi rend="superscript"> 2</hi> + DF <hi rend="superscript"> 2</hi> =-^.LG <hi
+                    rend="superscript"> 2</hi> + 4?.DL <hi rend="superscript"> 2</hi>; but DE <hi
+                    rend="superscript"> 2</hi> + DF <hi rend="superscript"> 2</hi> =⅛G <hi
+                    rend="superscript"> 2</hi>; therefore,-⅛.LG <hi rend="superscript"> 2</hi> N N
+                    N</p>
+                <p>+ ^∙DL <hi rend="superscript"> 2</hi> =⅛ and <hi rend="smallcaps">4γ∙DL</hi><hi
+                    rend="superscript smallcaps"> 2</hi><hi rend="smallcaps">=</hi>-⅛DG <hi
+                    rend="superscript"> 2</hi>-LG <hi rend="superscript"> 2</hi>); <hi
+                    rend="superscript"> l</hi> N N N N <hi rend="superscript"> v j</hi> therefore DG
+                    <hi rend="superscript"> 2</hi> —LG <hi rend="superscript"> 2</hi> has to DL <hi
+                    rend="superscript"> 2</hi> a constant ratio, viz. that of AB to R. The angle DLG
+                    is therefore a right angle, and the ratio of AB to R that of equality, otherwise
+                    LD would be given in magnitude, contrary to the supposition. LG is therefore
+                    given in position: and since R: N :: AB: N :: LO <hi rend="superscript"> 2</hi>
+                    + LM <hi rend="superscript"> 2</hi>: LG <hi rend="superscript"> 2</hi>;
+                    therefore the square of LG, and consequently LG, is given in magnitude. The
+                    point G is therefore given, and also the ratio of DE <hi rend="superscript">
+                    2</hi> =DF <hi rend="superscript"> 2</hi> to DG <hi rend="superscript"> 2</hi>,
+                    which is the same with that of AB to N.</p>
+                <p>The construction easily follows from the analysis, but it may be rendered more
+                    simple; for since AH <hi rend="superscript"> 2</hi>: AB <hi rend="superscript">
+                    2</hi>:: AL: N, and BK <hi rend="superscript"> 2</hi>: AB <hi rend="superscript"
+                    > 2</hi>:: BL: N; therefore AH <hi rend="superscript"> 2</hi> + BK <hi
+                    rend="superscript"> 2</hi>: AB <hi rend="superscript"> 2</hi>:: AB: N. Likewise,
+                    if AG, BG, be joined, AB: N :: AH <hi rend="superscript"> 2</hi>: AG <hi
+                    rend="superscript"> 2</hi>, and AB: N :: BK <hi rend="superscript"> 2</hi>: BG
+                    <hi rend="superscript"> 2</hi>; wherefore, AB: N :: AH <hi rend="superscript">
+                    2</hi> + BK <hi rend="superscript"> 2</hi>: AG <hi rend="superscript"> 2</hi> +
+                    BG <hi rend="superscript"> 2</hi>, but it was proved that AB: N :: AH <hi
+                    rend="superscript"> 2</hi> + BK <hi rend="superscript"> 2</hi>: AB <hi
+                    rend="superscript"> 2</hi>, therefore AG <hi rend="superscript"> 2</hi> + BG <hi
+                    rend="superscript"> 2</hi> =AB <hi rend="superscript"> 2</hi>; therefore the
+                    angle AGB is a right angle, and AL: LG :: LG: LB. If therefore AB be divided in
+                    L, so that AL: LB :: AH <hi rend="superscript"> 2</hi>: BK <hi
+                    rend="superscript"> 2</hi>; and if LG, a mean proportional between AL and LB, be
+                    placed perpendicular to AB, G will be the point required.</p>
+                <p>The step in the analysis, by which a second introduction of the general
+                    hypothesis is avoided, is that in which the angle GLD is concluded to be a right
+                    angle; which follows from DG <hi rend="superscript"> 2</hi> —GL <hi
+                    rend="superscript"> 2</hi> having a given ratio to LD <hi rend="superscript">
+                    2</hi>, at the same time that LD is of no determinate magnitude. For, if
+                    possible, let GLD be obtuse, (fig. 6,) and let the perpendicular from G to AB
+                    meet in V, therefore V is given: and since GD <hi rend="superscript"> 2</hi> —LG
+                    <hi rend="superscript"> 2</hi> =LD <hi rend="superscript"> 2</hi> × 2DL X LV;
+                    therefore, by the supposition, LD <hi rend="superscript"> 2</hi> + 2 DL X LV
+                    must have a given ratio to LD <hi rend="superscript"> 2</hi>; therefore the
+                    ratio of LD <hi rend="superscript"> 2</hi> to DL × VI., that is, of LD to VI.,
+                    is given, so that VI. being given in magnitude, LD is also given. But this is
+                    contrary to the supposition; for LD is indefinite by hypothesis, and therefore
+                    GLD cannot be obtuse, <pb break="no" facs="nls:193538173"
+                    xml:id="kp-eb0718-8173-0446"/>nor any other than a right angle. The conclusion
+                    that is here drawn immediately from the indetermination of LD would be deduced,
+                    according to Dr. Simson’s method, by assuming another point D ʹ any how, and
+                    from the supposition that GD' <hi rend="superscript"> 2</hi>-GL <hi
+                    rend="superscript"> 2</hi>: LD' <hi rend="superscript"> 2</hi>:: GD <hi
+                    rend="superscript"> 2</hi>-GL <hi rend="superscript"> 2</hi>: LD <hi
+                    rend="superscript"> 2</hi>, it would easily appear that GLD must be a right
+                    angle, and the ratio that of equality.</p>
+                <p>These porisms facilitate the solution of the general problems from which they are
+                    derived. For example, let three straight lines AB, AC, BC, (fig. 5), be given in
+                    position, and also a point R, to find a point D in one of the given lines, so
+                    that DE and DF being drawn perpendicular to BC, AC, and DR, joined; DE <hi
+                    rend="superscript"> 2</hi> +DF <hi rend="superscript"> 2</hi> may have to DR <hi
+                    rend="superscript"> 2</hi> a given ratio. It is plain, that having found G, the
+                    problem would be nothing more than to find D, such that the ratio of GD <hi
+                    rend="superscript"> 2</hi> to DR <hi rend="superscript"> 2</hi>, and therefore
+                    that of GD to DR, might be given, from which it would follow, that the point D
+                    is in the circumference of a given circle, as is well known to geometers.</p>
+                <p>The same porism also assists in the solution of another problem. For if it were
+                    required to find D such that DE <hi rend="superscript"> 2</hi> + DF <hi
+                    rend="superscript"> 2</hi> might be a given space; having found G, DG <hi
+                    rend="superscript"> 2</hi> would have to DE <hi rend="superscript"> 2</hi> + DF
+                    <hi rend="superscript"> 2</hi> a given ratio, and DG would therefore be given;
+                    whence the solution is obvious.</p>
+                <p>The connection of this porism with the impossible case of the problem is evident;
+                    the point L being that from which, if perpendiculars be drawn to AC and CB, the
+                    sum of their squares is the least possible. For since DF <hi rend="superscript">
+                    2</hi> + DE <hi rend="superscript"> 2</hi>: DG <hi rend="superscript"> 2</hi>::
+                    LO <hi rend="superscript"> 2</hi> + LM <hi rend="superscript"> 2</hi>: LG <hi
+                    rend="superscript"> 2</hi>; and since LG is less than DG, LO <hi
+                    rend="superscript"> 2</hi> +LM <hi rend="superscript"> 2</hi> must be less than
+                    DF <hi rend="superscript"> 2</hi> + DE <hi rend="superscript"> 2</hi>.</p>
+                <p>It is evident from what has now appeared, that in some instances at least there
+                    is a close connection between these propositions and the <hi rend="italic"
+                    >maxima</hi> or <hi rend="italic">minima,</hi> and of consequence the impossible
+                    cases of problems. The nature of this connection requires to be farther
+                    investigated, and is the more interesting because the transition from the
+                    indefinite to the impossible case seems to be made with wonderful rapidity. Thus
+                    in the first proposition, though there be not properly speaking an impossible
+                    case, but only one where the point to be found goes off <hi rend="italic">in
+                    infinitum,</hi> it may be remarked, that if the given point F (fig.1), be
+                    anywhere out of the line HD, the problem of drawing GB equal to GF is always
+                    possible, and admits of just one solution; but if F be in DH, the problem admits
+                    of no solution at all, the point being then at an infinite distance, and
+                    therefore impossible to be assigned. There is, however, this exception, that if
+                    the given point be at K in this same line, DH is determined by making DK equal
+                    to DL. Then every point in the line DE gives a solution, and may be taken for
+                    the point G. Here therefore the case of numberless solutions, and of no solution
+                    at all, are as it were <hi rend="italic">conterminal,</hi> and so close to one
+                    another, that if the given point be at K the problem is indefinite; but if it
+                    remove ever so little from K, remaining at the same time in the line DH, the
+                    problem cannot be resolved. This affinity might have been determined <hi
+                    rend="italic">a priori</hi><hi rend="italic">;</hi> for, as we have seen, it is
+                    a general principle, that a problem is converted into a porism when one or when
+                    two of the conditions of it necessarily involve in them some one of the rest.
+                    Suppose, then, that two of the conditions are exactly in that state which
+                    determines the third; then whilst they remain fixed or given, should that third
+                    one vary or differ ever so little from the state required by the other two, a
+                    contradiction will ensue. Therefore if, in the hypothesis of a problem, the
+                    conditions be so related to one another as to render it indeterminate, a porism
+                    is produced; but if, of the conditions thus related to one another, some one be
+                    supposed to vary, whilst the others continue the same, an absurdity follows, and
+                    the problem becomes impossible. <hi rend="italic">Wherever, therefore, any
+                    problem admits both of an indeterminate and an impossible ease, it is certain,
+                    that these cases are nearly related to one another,</hi><hi rend="italic">and
+                    that some of the conditions by which they are produced are common to
+                    both.</hi></p>
+                <p>It is supposed above, that <hi rend="italic">two</hi> of the conditions of a
+                    problem involve in them a third; and wherever that happens, the conclusion which
+                    has been deduced will invariably take place. But a porism may in some cases be
+                    so simple as to arise from the mere coincidence of <hi rend="italic">one</hi>
+                    condition with another, though in no case whatever can any inconsistency take
+                    place between them. There are, however, comparatively few porisms so simple in
+                    their origin, or that arise from problems where the conditions are but little
+                    complicated; for it usually happens that a problem which can become indefinite
+                    may also become impossible; and if so, the connection already explained never
+                    fails to take place.</p>
+                <p>Another species of impossibility may frequently arise from the porismatic case of
+                    a problem which will aifect in some measure the application of geometry to
+                    astronomy, or any of the sciences depending upon experiment or observation. For
+                    when a problem is to be resolved by means of data furnished by experiment or
+                    observation, the first thing to be considered is, whether the data so obtained
+                    be sufficient for determining the thing sought; and in this a very erroneous
+                    judgment may be formed, if we rest satisfied with a general view of the subject.
+                    For though the problem may in general be resolved from the data with which we
+                    are provided, yet these data may be so related to one another in the case under
+                    consideration, that the problem will become indeterminate, and instead of one
+                    solution will admit of an indefinite number. This we have already found to be
+                    the case in the foregoing propositions. Such cases may not indeed occur in any
+                    of the practical applications of geometry; but there is one of the same kind
+                    which has actually occurred in astronomy. Sir Isaac Newton, in his <hi
+                    rend="italic">Principia,</hi> has considered a small part of the orbit of a
+                    comet as a straight line described with an uniform motion. From this hypothesis,
+                    by means of four observations made at proper intervals of time, the
+                    determination of the path of the comet is reduced to this geometrical problem.
+                    Four straight lines being in position, it is required to draw a fifth line
+                    across them, so as to be cut by them into three parts, having given ratios to
+                    one another. Now this problem had been constructed by Dr. Wallis and Sir
+                    Cristopher Wren, and also in three different ways by Sir Isaac himself in
+                    different parts of his works; yet none of these geometers observed that there
+                    was a particular situation of the lines in which the problem admitted of
+                    innumerable solutions; and this happens to be the very case in which the problem
+                    is applicable to the determination of the comet’s path, as was first discovered
+                    by Boscovich, who was led to it by finding, that in this way he could never
+                    determine the path of a comet with any degree of certainty.</p>
+                <p>The preceding account of this interesting branch of the ancient geometry, is
+                    taken from a very elegant and elaborate paper, <hi rend="italic">On the Origin
+                    and Investigation of Porisms,</hi> by the late Professor Playfair, published in
+                    the third volume of the Transactions of the Royal Society of Edinburgh, and also
+                    in his collected <hi rend="italic">Works,</hi> (vol. iii. p. 178.) For further
+                    particulars on the subject, the reader may consult the original paper of
+                    Professor Playfair; Dr. Simson’s treatise, <hi rend="italic">De
+                    Porismatibus,</hi> contained in his <hi rend="italic">Opera Feliqua</hi><hi
+                    rend="italic">;</hi> a paper in the fourth volume of the Edinburgh Transactions,
+                    by Professor Wallace, entitled, <hi rend="italic">Some Geometrical Porisms, with
+                    examples of their application to the Solution of Problems</hi><hi rend="italic"
+                    >;</hi> Dr. Traill’s <hi rend="italic">Account of the Life and Writings of
+                    Fobert Simson, M.D</hi><hi rend="italic">;</hi> and Professor Leslie’s <hi
+                    rend="italic">Geometrical Analysis.</hi> At the end of Dr. Stewart’s <hi
+                    rend="italic">General Theorems,</hi> above mentioned, five very remarkable
+                    porisms are enunciated, the demonstration of the first of which is given in
+                    Leybourn’s <hi rend="italic">Mathematical Repository,</hi> (vol.i.) and of the
+                    remaining four in the fifth volume of the same work published <pb break="no"
+                    facs="nls:193538186" xml:id="kp-eb0718-8186-0447"/>in 1830. The algebraic
+                    analysis may frequently be applied with great advantage in the investigation of
+                    porisms, but this manner of treating the subject does not come within the scope
+                    of the present article.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

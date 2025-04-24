@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0713-8677-0558-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">LONGITUDE</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 13, page 558</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="33" ref="fasttopic:933281">Founding</term>
+                    <term n="23" ref="fasttopic:1116352">Shipping</term>
+                    <term n="23" ref="fasttopic:1116439">Ships</term>
+                    <term n="20" ref="fasttopic:1018631">Methodism</term>
+                    <term n="15" ref="fasttopic:1131648">Stars</term>
+                    <term n="1" ref="fasttopic:805771">Almanacs</term>
+                    <term n="1" ref="fasttopic:839044">British</term>
+                    <term n="1" ref="fasttopic:878051">Cooks</term>
+                    <term n="1" ref="fasttopic:1754966">Cooking</term>
+                    <term n="1" ref="fasttopic:951573">Harnesses</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="1" ref="lcsh1910:b4g15t99g">Almanacs</term>
+                    <term n="1" ref="lcsh1910:b4kw57p0k">Harness</term>
+                    <term n="1" ref="lcsh1910:b4zk55m9h">Birds</term>
+                    <term n="1" ref="lcsh1910:b4pr7mw5j">Commons</term>
+                    <term n="66" ref="lcsh1910:b4wh2df3t">Moon</term>
+                    <term n="34" ref="lcsh1910:b4vh5cj23">Sun</term>
+                    <term n="33" ref="lcsh1910:b44j09z32">Founding</term>
+                    <term n="23" ref="lcsh1910:b4707wx1r">Ships</term>
+                    <term n="23" ref="lcsh1910:b4cj87n5c">Shipping</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="3" ref="fastgeo:1211575">Jamaica</term>
+                    <term n="3" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1204303">Spain</term>
+                    <term n="1" ref="fastgeo:1206005">Guinea</term>
+                    <term n="1" ref="fastgeo:1239786">America</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193208677" type="entry">
+                <p><label type="entry">LONGITUDE</label> is the distance of any place from another
+                    eastward or westward, counted in degrees upon the equator; but when the distance
+                    is reckoned by leagues or miles, and not in degrees, or in degrees on the
+                    meridian, and not of the parallel of latitude, in which case it includes both
+                    latitude and longitude, it is called <hi rend="italic">departure.</hi></p>
+                <p>To find the longitude at sea is a problem to which the attention of navigatorsand
+                    mathematicians has been directed ever since navigation began to be improved. The
+                    importance of this problem soon became so well known, that, in 1598, Philip III.
+                    of Spain offered a reward of a thousand crowns for the solution; and his example
+                    was soon followed by the states-general, who offered a premium of ten thousand
+                    florins. In 1714 an act was passed in the British parliament, empowering certain
+                    commissioners to introduce a bill for a sum not exceeding L.2000, for defraying
+                    the necessary expenses of experiments for ascertaining this point, and likewise
+                    for granting a reward to the person who should make any progress in the
+                    solution, proportional to the degree of accuracy with which the solution was
+                    performed. Ten thousand pounds were to be granted if the longitude should be
+                    determined to one degree of a great circle, or sixty geographical miles; fifteen
+                    thousand, if to two thirds of that distance; and twenty thousand, if to half the
+                    distance. In consequence of diese proffered rewards, innumerable attempts were
+                    made to discover this important secret. The first was that of John Morin,
+                    professor of mathematics at Paris, who proposed it to Cardinal Richelieu; and
+                    though it was judged insufficient, on account of the imperfection of the lunar
+                    tables, a pension of two thousand livres per annum was procured for him in 1645
+                    by Cardinal Mazarin. Gemma Frisius had indeed in 1530 projected a method of
+                    finding the longitude by means of watches, which at that time were newly
+                    invented; but the structure of these machines was then by far too imperfect to
+                    admit of their being employed for this purpose; nor even in 1631, when Metius
+                    made a similar attempt, had they undergone any considerable improvement. But,
+                    about the year 1664, Dr Hooke and Mr Huygens effected a very great improvement
+                    in watchmaking, by the application of the pendulum spring. Dr Hooke having
+                    quarrelled with the ministry, no experiment was made with any of his machines;
+                    but many were made with those of Mr Huygens. One experiment particularly, made
+                    by Major Holmes in a voyage from the coast of Guinea in 1665, answered so well,
+                    that Mr Huygens was encouraged to improve the structure of his watches; but it
+                    was found that the variations of heat and cold produced such alterations in the
+                    rate of going, that unless this could be remedied, the watches would be of
+                    little use in determining the longitude.</p>
+                <p>In 1714 Henry Sully, an Englishman, printed a small tract at Vienna upon the
+                    subject of watchmaking. Having afterwards removed to Paris, he applied himself
+                    to the improvement of time-keepers, with a view to the discovery of the
+                    longitude. He taught the famous Julian de Roy; and this gentleman, along with
+                    his son and Μ. Berthoud, soon turned their attention to the subject. But though
+                    experiments were made at sea with some of their watches, it does not appear that
+                    they had been able to accomplish any thing of importance with reference to the
+                    main point The first who succeeded in any considerable degree was Mr John
+                    Harrison, who, in 1726, produced a watch which went so exactly, that for ten
+                    years together it did not err above one second in a month. In 1736 it was tried
+                    in a voyage to Lisbon and back again, on board one of his majesty’s ships,
+                    during which it corrected an error of a degree and a half in the computation of
+                    the ship’s reckoning. In consequence of this he received public encouragement to
+                    proceed, and by the year 1761 he had finished three time-keepers, each of them
+                    more accurate than the former. The last turned out so much to his satisfaction,
+                    that he now applied to the commissioners of longitude for leave to make an
+                    experiment with his watch in a voyage to the <pb break="no" facs="nls:193208690"
+                    xml:id="kp-eb0713-8690-0559"/>West Indies. Permission being granted, his son Mr
+                    William Harrison set out in his majesty’s ship the Deptford, for Jamaica, in the
+                    month of November 1761. This trial was attended with all imaginable success. The
+                    longitude of the island, as determined by the time-keeper, differed from that
+                    found by astronomical observations only by one minute and a quarter of the
+                    equator; the longitudes of places seen by the way being also determined with
+                    great exactness. On the ship’s return to England, it was found to have erred no
+                    more during the whole voyage than F 54½" in time, which is little more than
+                    twenty-eight miles in distance; and this being within the limits prescribed by
+                    the act, the inventor claimed the whole L.20,000 offered by government.
+                    Objections to this claim, however, were soon started. Doubts were pretended
+                    about the real longitude of Jamaica, as well as the manner in which the time had
+                    been found both there and at Portsmouth. It was alleged also, that although the
+                    time-keeper happened to be right at Jamaica, and after its return to England,
+                    this was by no means a proof that it had always been so in the intermediate
+                    time. In consequence of these allegations, another trial was appointed to be
+                    made in a voyage to Barbadoes. Precautions were now taken to obviate as many of
+                    these objections as possible. The commissioners sent out proper persons to make
+                    astronomical observations at that island, which, when compared with others in
+                    England, would ascertain beyond a doubt its true situation. In 1764∙ the younger
+                    Mr Harrison set sail for Barbadoes; and the result of the experiment was, that
+                    the difference of longitude between Portsmouth and Barbadoes was shown by the
+                    time-keeper to be 3h. 55' 3", and by astronomical observations to be 3h. 54'
+                    20'', the error being now only 43" of time, or 10' 45" of longitude. In
+                    consequence of this and the former trials, Mr Harrison received one half of the
+                    reward promised, upon making a discovery of the principles on which his
+                    time-keeper had been con-itructed. He was likewise promised the other half of
+                    the •eward as soon as time-keepers should be constructed by other artists which
+                    should answer the purpose as well as hose made by Mr Harrison himself. At this
+                    time he de-ivered up all his time-keepers, the last of which was sent ;o
+                    Greenwich to be tried by Dr Maskelyne, the astrono-ner-royal. On trial, however,
+                    <hi rend="subscript">;</hi> it was found to go with nuch less regularity than
+                    had been expected; but Mr Jarrison attributed this to his having made some
+                    experi-nents with it which he had not time to finish when he was &gt;rdered to
+                    deliver up the watch. Soon after this an agree-nent was made by the
+                    commissioners with Mr Kendall to instruct a watch upon Mr Harrison’s principles;
+                    and this vas found upon trial to answer the purpose even better han any which
+                    Harrison himself had constructed. This catch was sent out with Captain Cook in
+                    1772, and dur-ng all the time of his voyage round the world in 1772, 773, 1774,
+                    and 1775, never erred quite 14½ seconds per lay, in consequence of which the
+                    House of Commons in 774 ordered the other L. 10,000 to be paid to Mr Har-ison.
+                    Since that period, however, still greater accuracy ∣as been attained in the
+                    construction of chronometers.</p>
+                <p>Thus the method of constructing time-keepers for dis-overing the longitude seems
+                    to be brought to as great a degree of perfection as can well be expected. Still,
+                    how-ver, as these watches are subject to accidents, and may hus alter the rate
+                    of their going without any possibility i f a discovery, it is necessary that
+                    some other method hould be employed in order to correct from time to ime those
+                    errors which may arise either from the natural oing of the watch, or from any
+                    accident which may hap-en to it. Methods of this kind are all founded upon ce-
+                    ⅛stial observations of some kind or other; and for such ∣ιethods, or even for an
+                    improvement in time-keepers, regards are still held out by government. After the
+                    disco veries made by Mr Harrison, the act concerning the longitude was repealed,
+                    excepting so much of it as related to the constructing, printing, and publishing
+                    of the Nautical Almanac, and other useful tables. It was also enacted, that any
+                    person who shall discover a method for finding the longitude by means of a
+                    time-keeper, the principles of which have not hitherto been made public, shall
+                    be entitled to a reward of L.5000, if, after certain trials made by the
+                    commissioners, the said method shall enable a ship to keep her longitude, during
+                    a voyage of six months, within sixty geographical miles, or a degree of a great
+                    circle. If the ship keeps her longitude within forty geographical miles for that
+                    time, the inventor is entitled to a reward of L.7500, and to L.10,000 if the
+                    longitude is kept within half a degree. If the method be by improved
+                    astronomical tables, the author becomes entitled to L.5000 when they show the
+                    distance of the moon from the sun and stars within fifteen seconds of a degree,
+                    answering to about seven minutes of longitude, after allowing half a degree for
+                    errors of observation and under certain restrictions, and after comparison with
+                    astronomical observations for a period of eighteen and a half years, during
+                    which the lunar irregularities arc supposed to be completed. The same rewards
+                    are likewise offered to the person who shall with similar accuracy discover any
+                    other method of finding the longitude.</p>
+                <p>These methods require celestial observations; and any of the phenomena, such as
+                    the different apparent places of stars with regard to the moon, the beginning
+                    and ending of eclipses, &amp;c. will answer the purpose. But it is absolutely
+                    necessary that some variation should be perceptible in the phenomenon in the
+                    space of two minutes; for even this short space of time will produce an error of
+                    forty miles in longitude. The most proper phenomena therefore for determining
+                    the longitude in this manner are the eclipses of Jupiter’s satellites. Tables of
+                    their motions have therefore been constructed, and carefully corrected from time
+                    to time, as the mutual attractions of these bodies are found greatly to disturb
+                    the regularity of their motions. The difficulty here, however, is to observe
+                    these eclipses at sea; and this difficulty has been found so great, that no
+                    person seems able to surmount it. The difficulty arises from the violent
+                    agitation of the ship in the ocean, for which no adequate remedy has ever yet
+                    been found. Mr Christopher Irwin indeed invented a machine which he called a <hi
+                    rend="italic">marine chair,</hi> with a view to prevent the effects of this
+                    agitation; but on trying it on a voyage to Barbadoes, it was found to be totally
+                    useless.</p>
+                <p>A whimsical method of finding the longitude was proposed by Whiston and Ditton,
+                    from the report and flash of great guns. The motion of sound is known to be
+                    nearly equable, from whatever body it proceeds, or whatever be the medium
+                    through which it is transmitted. Supposing therefore a mortar to be fired at any
+                    place the longitude of which is known, the difference between the moment that
+                    the flash is seen and the report is heard will give the dis tance between the
+                    two places; hence, if we know the latitudes of these places, their longitudes
+                    must also be known. If the exact time of the explosion be known at the place
+                    where it happens, the difference of time at the place where it is heard will
+                    likewise give the difference of longitude. Let us next suppose the mortar to be
+                    loaded with an iron shell filled with combustible matter, and fired
+                    perpendicularly upwards into the air, the shell will be carried to the height of
+                    a mile, and will be seen at the distance of near 100; and hence, supposing that
+                    neither the flash of the mortar should be seen nor the report heard, still the
+                    longitude might be determined by the altitude of the shell above the horizon.
+                    According to this plan, mortars were to be fired at certain times and at proper
+                    stations along all frequented coasts, for the direction of mariners. This <pb
+                    break="no" facs="nls:193208703" xml:id="kp-eb0713-8703-0560"/> indeed might be
+                    of use, and in stormy weather might be a kind of improvement in lighthouses, or
+                    a proper addition to them; but with regard to the determination oflongi-tudes,
+                    it is evidently ridiculous.</p>
+                <p>We shall now proceed to give some practical directions for finding the longitude
+                    at sea by proper celestial observations, exclusive of those of Jupiter’s
+                    satellites, which, for the reasons just mentioned, cannot be practised at sea.
+                    In the first place, however, it will be necessary to point out some of those
+                    difficulties which stand in the way, and which render even this method of
+                    finding the longitude precarious and uncertain. These consist principally in the
+                    reduction of the observations of the heavenly bodies made on the surface <hi
+                    rend="italic">of</hi> the earth to similar observations supposed to be made at
+                    the centre, which is the only place where the celestial bodies appear in their
+                    proper situation. It is also very difficult to make proper allowances for the
+                    refraction of the atmosphere, by which all objects appear higher than they
+                    really are; and another difficulty arises from the parallaxes of the heavenly
+                    bodies, which make them, particularly the moon, appear lower than they would
+                    otherwise do, excepting when they are in the very zenith. It is also well known,
+                    that the nearer the horizon any celestial body is, the greater its parallax will
+                    be; and as the parallax and refraction act in opposite ways, the former
+                    depressing and the latter raising the object, it is plain that great
+                    difficulties must arise from this circumstance. The sun, for instance, whose
+                    parallax is less than the refraction, must always appear higher than he really
+                    is; but, on the other hand, the moon, whose parallax is greater than her
+                    refraction, must always appear lower.</p>
+                <p>To facilitate the necessary observations of the celestial bodies, the
+                    commissioners of longitude have caused an Ephemeris or Nautical Almanac to be
+                    published annually, containing every requisite for solving this important
+                    problem which can be put into any form of tables. But whatever may be done in
+                    this way, it will still be necessary to make the requisite preparations
+                    concerning the dip of the horizon, the refraction, semidiameters, parallax,
+                    &amp;c. in order to reduce the apparent to the true altitudes and distances; and
+                    for this we shall subjoin two general rules.</p>
+                <p>The principal observation for finding the longitude at sea is that of the moon
+                    from the sun, or from some remarkable star near the zodiac. To do this, the
+                    operator must be furnished with a watch which can be depended upon for keeping
+                    time within a minute for six hours; and with a good Hadley’s quadrant, or, which
+                    is preferable, a sextant; and this last instrument will still be fitter for the
+                    purpose if it be furnished with a screw for moving the index gradually, and
+                    likewise an additional dark glass, but not so dark as the common kind, for
+                    taking off the glare of the moon’s light in observing her distance from a star.
+                    A small telescope, which magnifies three or four times, is also necessary, to
+                    render the contact of a star with the moon’s limb more discernible. A magnifying
+                    glass of one and a half or two inches focus will likewise greatly assist the
+                    operator in reading off his observations with facility and despatch.</p>
+                <p>1. <hi rend="italic">To make the observation.</hi><hi rend="italic">—</hi> Having
+                    examined and adjusted his instrument as well as possible, the observer is next
+                    to proceed in the following manner: If the distance of the moon from the sun is
+                    to be observed, turn down one of the screens; look at the moon directly through
+                    the transparent part of the horizon-glass, and, keeping her in view, gently move
+                    the index till the sun’s image be brought into the silvered part of that glass.
+                    Bring the nearest limbs of both objects into contact, and let the quadrant
+                    librate a little upon the lunar ray, by which means the sun will appear to rise
+                    and fall by the side of the moon; in which motion the nearest limbs must be made
+                    to touch one another exactly by moving the index. The observation is then made;
+                    and the division coinciding with that on the vernier scale will show the
+                    distance of the nearest limbs of the objects.</p>
+                <p>If the distance of the moon from a star is to be observed when the moon is very
+                    bright, turn down the lightest screen, or use a dark glass lighter than the
+                    screens, and designed for this particular purpose; look at the star directly
+                    through the transparent part of the horizon-glass, and, keeping it there, move
+                    the index till the moon’s image be brought into the silvered part of the same
+                    glass. Make the quadrant librate gently on the star’s ray, and the moon will
+                    appear to rise and fall by the star ∙, move the index between the librations,
+                    until the moon’s enlightened limb is exactly touched by the star, and then the
+                    observation is made. In these operations, the plane of the quadrant must always
+                    pass through the two objects, the distance of which is to be observed; and for
+                    this purpose it must be placed in various positions, according to the situation
+                    of the objects, which will soon be rendered easy by practice.</p>
+                <p>The observation being made, some person, at the very instant that the operator
+                    calls, must observe by the watch the exact hour, minute, and quarter minute, if
+                    there be no second hand, in order to find the apparent time; and at the same
+                    instant, or as quickly as possible, two assistants must take the altitudes of
+                    those objects the distance of which is observed; after which the observations
+                    necessary for finding the longitude are completed.</p>
+                <p>The Ephemeris shows the moon’s distance from the sun, and likewise from proper
+                    stars, to every three hours of apparent time for the meridian of Greenwich; and,
+                    that the greater number of opportunities of observing this luminary may be
+                    given, her distance is generally set down from at least one object on each side
+                    of her. Her distance from the sun is set down whilst it is between 40 and 120
+                    degrees; so that, by means of a sextant, it may be observed for two or three
+                    days after her first and before her last quarter. When the moon is between 40
+                    and 90 degrees from the sun, her distance is set down both from the sun and from
+                    a star on the contrary side; and, lastly, when the distance is above 120
+                    degrees, the distance is set down from two stars, one on each side of her. The
+                    distance of the moon from objects on the east side of her is found in the
+                    Ephemeris in the eighth and ninth pages of the month; and her distance from
+                    objects on the west is found in the tenth and eleventh pages of the month.</p>
+                <p>When the Ephemeris is used, the distance of the moon must only be observed from
+                    those stars the distance of which is set down there; and these afford a ready
+                    means of knowing the star from which her distance ought to be observed. The
+                    observer has then nothing more to do than to set his index to the distance
+                    roughly computed at the apparent time, estimated nearly for the meridian at
+                    Greenwich; after which he is to look to the east or west of the moon, according
+                    as the distance of the star is found in the eighth or ninth, or in the tenth or
+                    eleventh pages of the month; and having found the moon upon the horizon-glass,
+                    the star will easily be found by sweeping with the quadrant to the right or
+                    left, provided the air be clear and the star be in the line of the moon’s
+                    shortest axis produced. The time at Greenwich is estimated by turning into time
+                    the supposed longitude from that place, and adding it to the apparent time at
+                    the ship, or subtracting it, as occasion requires. The distance of the moon from
+                    the sun or a star is roughly found at this time, by saying, As 180 minutes (the
+                    number contained in three hours) is to the difference in minutes between this
+                    nearly estimated time and the next preceding time set down in the Ephemeris, so
+                    is the difference in minutes between the distance in the Ephemeris for the next
+                    preceding and next following times <pb break="no" facs="nls:193208716"
+                    xml:id="kp-eb0713-8716-0561"/>to a number of minutes, which being added to the
+                    next preceding distance, or subtracted from it, according as it is increasing or
+                    decreasing, will give the distance nearly at the time when the observationis to
+                    be made, and to which the index must be set.</p>
+                <p>An easier method of finding the angular distance is by bringing the objects
+                    nearly into contact in the common way, and then fixing the index tight to a
+                    certain degree and minute, waiting until the objects are nearly in contact,
+                    giving notice to the assistants to get ready with the altitudes, and when the
+                    objects are exactly in contact, to call for the altitudes and the exact time by
+                    the watch. The observer may then prepare for taking another distance, by setting
+                    his index three or four minutes backwards or forwards, as the objects happen to
+                    be receding from or approaching to each other, and then proceeding to take the
+                    distance, altitudes, and time by the watch, as before. Thus the observer may
+                    take as many distances as he thinks proper; but four at the distance of three
+                    minutes, or three at the distance of four minutes, will at all times be
+                    sufficient. Thus not only the eye of the observer will be less fatigued, but he
+                    will likewise be enabled to manage his instrument ’with much greater facility in
+                    every direction, a vertical me only excepted. If, in taking the distances, the
+                    middle we can be taken at any even division on the arch, such as ι degree, or a
+                    degree and twenty or forty minutes, that listance will be independent of the
+                    nonius division, and consequently free from those errors which frequently arise
+                    rom the inequality of that division in several parts of the graduated arch. The
+                    observation ought always to be made ιbout two hours before or after noon; and
+                    the true time nay be found by the altitude of the sun taken at the precise time
+                    of the distance. If three distances are taken, hen find the time by the altitude
+                    corresponding with the niddle distance; and thus the observation will be secured
+                    rom any error arising from the irregularity of the going of he watch. As the
+                    time, however, found by the altitude ∣f a star cannot be depended upon, because
+                    of the uncer-ιainty of the horizon in the night, the best way of deter-tuning
+                    the time for a night observation will be by two al-ι itudes of the sun; one
+                    taken on the preceding afternoon, ∣efore he is within six degrees of the
+                    horizon, and the ther on the next morning, when he is more than six decrees
+                    high. It must be observed, however, that in order o follow these directions, it
+                    is necessary that the atmo-phere should be pretty free from clouds, otherwise
+                    the ob-erver must take the observations at such times as he can est obtain
+                    them.</p>
+                <p>2. <hi rend="italic">To reduce the observed distance of the sun or a star pm the
+                    moon to the true distance.</hi><hi rend="italic">—</hi> 1. Turn the longitude
+                    ιto time, and add it to the time at the ship if the longi-ιde be west, but
+                    subtract it if it be east, which will give i ιe supposed time at Greenwich. This
+                    we may call <hi rend="italic">re-uced time.</hi> 2. Find the nearest noon or
+                    midnight both efore and after the reduced time in the seventh page of ιe month
+                    in the Ephemeris. 3. Take out the moon’s se-ιidiameter and horizontal parallaxes
+                    corresponding to these ι oons and midnights, and find their differences. Then
+                    say, ∣s twelve hours is to the moon’s semidiameter in twelve <hi
+                    rend="subscript"> t</hi> ours, so is the reduced time to a number of seconds,
+                    which, ther added to or subtracted from the moon’s semidiame- ∣!i at the noon or
+                    midnight just mentioned, according as i is increasing or decreasing, will give
+                    her apparent semi- <hi rend="superscript"> 1</hi> ιameter; to which add the
+                    correction of the Ephemeris, id the sum will be her true semidiameter at the
+                    reduced me. And as twelve hours is to the difference of the oon’s horizontal
+                    parallax in twelve hours, so is the re-ιced time to a fourth number, which being
+                    added to or I Attracted from the moon’s horizontal parallax at the noon p
+                    midnight before the reduced time, according as it is in-teasing or decreasing,
+                    the sum or difference will be the moon’s horizontal parallax at the reduced
+                    time. 4. If the reduced time be nearly any even part of twelve hours, viz. one
+                    sixth, one fourth, &amp;c. these parts of the difference may be taken, and
+                    either added or subtracted according to the directions already given, without
+                    being at the trouble of working by the rule of proportion. 5. To the observed
+                    altitude of the sun’s lower limb add the difference between the semidiameter and
+                    dip, and that sum will be his apparent altitude. 6. From the sun’s refraction
+                    take his parallax in altitude, and the remainder will be the correction of the
+                    sun’s altitude. 7. From the star’s observed altitude take the dip of the
+                    horizon, and the remainder will be the apparent altitude. 8. The refraction of a
+                    star will be the correction of its altitude. 9. Take the difference between the
+                    moon’s semidiameter and dip, and add it to the observed altitude if her lower
+                    limb was taken, or subtract it if her upper limb was taken, and the sum or
+                    difference will be the apparent altitude of her centre. 10. From the
+                    proportional logarithm of the moon’s horizontal parallax, obtained from the
+                    Nautical Almanac (increasing its index by 10), taking the logarithmic cosine of
+                    the moon’s apparent altitude, the remainder will be the proportional logarithm
+                    of her parallax in altitude; from which take her refraction, and the remainder
+                    will be the correction of the moon’s altitude. 11. To the observed distance of
+                    the moon from a star add her semidiameter if the nearest limb be taken, but
+                    subtract it if the farthest limb be taken, and the sum or difference will be the
+                    apparent distance. 12. To the observed distance of the sun and moon add both
+                    their semidiameters, and the sum will be the apparent distance of their
+                    centres.</p>
+                <p>3. <hi rend="italic">To find the true distance of the objects, having their
+                    apparent altitudes and distances.</hi><hi rend="italic">—</hi> 1. To the
+                    proportional logarithm of the correction of the sun or star’s altitude, add the
+                    logarithmic cosine of the sun or star’s apparent altitude, the logarithmic sine
+                    of the apparent distance of the moon from the sun or star, and the logarithmic
+                    cosecant of the moon’s apparent altitude. The sum of these, rejecting thirty
+                    from the index, will be the proportional logarithm of the first angle. 2. To the
+                    proportional logarithm of the correction of the sun or star’s altitude, add the
+                    logarithmic cotangent of the sun or star’s apparent altitude, and the
+                    logarithmic tangent of the apparent distance of the moon from the sun or star.
+                    The sum of these, rejecting twenty in the index, will be the proportional
+                    logarithm of the second angle. 3. Take the difference between the first and
+                    second angles, adding it to the apparent distance if it be less than ninety, and
+                    the first angle be greater than the second; but subtracting it if the second be
+                    greater than the first. If the distance be greater than ninety, the sum of the
+                    angles must be added to the apparent distance, which will give the distance,
+                    corrected for the refraction of the sun or star. 4. To the proportional
+                    logarithm of the correction of the moon’s altitude, add the logarithmic cosine
+                    of her apparent altitude, the logarithmic sine of the distance corrected for the
+                    sun or star’s refraction, and the logarithmic cosecant of the sun’s or star’s
+                    apparent altitude. The sum, rejecting thirty in the index, will be the
+                    proportional logarithm of the third angle. 5. To the proportional logarithm of
+                    the correction of the moon’s apparent altitude, add the logarithmic cotangent of
+                    her apparent altitude, and the tangent of the distance corrected for the sun or
+                    star’s refraction; their sum, rejecting twenty in the index, will be the
+                    proportional logarithm of the fourth angle. 6. Take the difference between the
+                    third and fourth angles, and subtract it from the distance corrected for the sun
+                    or star’s refraction if less than ninety and the third angle be greater than the
+                    fourth, or add it to the distance if the fourth angle be greater than the third;
+                    but if the distance be more than ninety, the sum of the angles must be
+                    sub-traded<pb break="no" facs="nls:193208729" xml:id="kp-eb0713-8729-0562"/>
+                    from it, to give the distance corrected for the sun or star’s refraction, and
+                    the principal effects of the moon’s parallax. 7. In the Ephemeris, look for the
+                    distance corrected for the sun and star’s refraction, and the moon’s parallax in
+                    the top column, and the correction of her altitude in the left-hand-side column;
+                    take out the number of seconds that stand under the former, and opposite to the
+                    latter. Look again in the same table for the corrected distance in the top
+                    column, and the principal effects of the moon’s parallax in the left-hand-side
+                    column, and take out the number of seconds. The difference between these two
+                    numbers must be added to the corrected distance if less than ninety, but
+                    subtracted from it if it be greater; and the sum or difference will be the true
+                    distance.</p>
+                <p>4. <hi rend="italic">To determine the longitude after having obtained the true
+                    distance.</hi><hi rend="italic">—</hi> Look in the Ephemeris amongst the
+                    distances of the objects for the computed distance between the moon and the
+                    other object observed on the given day. If it be found there, the time at
+                    Greenwich will be at the top of the column; but if it falls between two
+                    distances in the Ephemeris which stand immediately before and after it, and also
+                    the difference between the distance standing before and the computed distance,
+                    then take the proportional logarithms of the first and second differences, and
+                    the difference between these two logarithms will be the proportional logarithm
+                    of a number of hours, minutes, and seconds; which being added to the time
+                    standing over the first distance, will give the true time at Greenwich. Or it
+                    may be found by saying, As the first difference is to three hours, so is the
+                    second difference to a proportional part of time, which being added as above
+                    directed, will give the time at Greenwich. The difference between Greenwich time
+                    and that at the ship, turned into longitude, will be that at the time the
+                    observations were made; and will be east if the time at the ship is greatest,
+                    but west if it is least.</p>
+                <p>Having given these general directions, we shall next proceed to show some
+                    particular examples of finding the longitude at sea by all the different methods
+                    in which it is usually tried.</p>
+                <p>1. <hi rend="italic">To find the longitude by computation from the ship’s
+                    course.</hi><hi rend="italic">—</hi> Were it possible to keep an accurate
+                    account of the distance the ship has run, and to measure it exactly by the log
+                    or by any other means, then both latitude and longitude would easily be found by
+                    settling the ship’s account to that time. For the course and distance being
+                    known, the difference of latitude and departure is readily found by the Traverse
+                    Table; and the difference of longitude being known, the true longitude and
+                    latitude would also be known. A variety of causes, however, concur to render
+                    this computation inaccurate, particularly the ship’s continual deflection from
+                    the course set, by her playing to the right and left round her centre of
+                    gravity; the unequal care of those at the helm; and the distance supposed to be
+                    sailed being erroneous, on account of stormy seas, unsteady winds, currents,
+                    &amp;c. for which it seems impossible to make any due allowance. The place of
+                    the ship, however, is judged of by finding the latitude every day, if possible,
+                    by observations; and if the latitude found by observation agrees with that by
+                    the reckoning, it is presumed that the ship’s place is properly determined; but
+                    if they disagree, it is concluded that the account of the longitude stands in
+                    need of correction, as the latitude by observation is always to be depended
+                    upon.</p>
+                <p>Currents very often occasion errors in the computation of a ship’s place. The
+                    causes of these in the great depths of the ocean are not well known, though many
+                    of the motions near the shore can be accounted for. It is supposed that some of
+                    those in the great oceans are owing to the tide following the moon, and a
+                    certain libration of the waters arising therefrom; and likewise that the
+                    unsettled nature of these currents may be owing to the changes in the moon’s
+                    declination. In the torrid zone, however, a considerable current is occasioned
+                    by the trade winds, the motion being constantly to the west, at the rate of
+                    about eight or ten miles per day. At the extremities of the trade winds, or near
+                    the thirtieth degree of north or south latitude, the currents are probably
+                    compounded of this motion to the westward, and of one towards the equator; and
+                    hence all ships sailing within these limits ought to allow a course each day for
+                    the current.</p>
+                <p>When the error is supposed to have been occasioned by a current, it ought if
+                    possible to be tried whether the case is so or not; or we must make a reasonable
+                    estimate of its drift and course. Then with the setting and drift, as a course
+                    and distance, find the difference of latitude and departure; with which the dead
+                    reckoning is to be increased or diminished; and if the latitude thus corrected
+                    agrees with that by observation, the departure thus corrected may be safely
+                    taken as true, and thus the ship’s place with regard to the longitude
+                    determined.</p>
+                <p><hi rend="italic">Example.</hi> Suppose a ship in twenty-four hours finds, by her
+                    dead reckoning, that she has made ninety-six miles of difference of latitude
+                    north, and thirty-eight miles of departure west; but by observation finds her
+                    difference of latitude 112, and on trial that there is a current which in
+                    twenty-four hours makes a difference of sixteen miles latitude north, and ten
+                    miles of departure east: Required the ship’s departure.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Miles.</p><p>Diff. lat. by account 96
+                            N.</p><p>Diff. lat. by current 16 N.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Miles.</p><p>Departure byì gg account
+                            J</p><p>Departure by 1 ∣θ current J</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>True diff. lat 112</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>28 W.</p></cell>
+                    </row>
+                </table>
+                <p>Here the dead reckoning corrected by the current gives the difference of latitude
+                    112 miles, which is the same as that found by observation; and hence the
+                    departure twenty-eight is taken as the true one.</p>
+                <p>When the error is supposed to arise from the courses and distances, we must
+                    observe, that if the difference of latitude is much more than the departure, or
+                    the direct course has been within three points of the meridian, the error is
+                    most probably in the distance. But if the departure be much greater than the
+                    difference of latitude, or the direct course be within three points of the
+                    parallel, or more than five points from the meridian, the error is probably to
+                    be ascribed to the course. But if the courses in general are near the middle of
+                    the quadrant, the error may be either in the course, or in the distance, or
+                    both. This method admits of three cases.</p>
+                <p>1. When, by the dead reckoning, the difference of latitude is more than once and
+                    a half the departure, or when the course is less than three points: Find the
+                    course to the difference of latitude and departure, and with this course and the
+                    meridional difference of latitude by observation, find the difference of
+                    longitude.</p>
+                <p>2. When the dead reckoning is more than once and a half the difference of
+                    latitude, or when the course is more than five points: Find the course and
+                    distance, with the difference of latitude by observation, and departure by
+                    account; then, with the co-middle latitude by observation, and departure by
+                    account, find the difference of longitude.</p>
+                <p>3. When the difference of latitude and departure by account is nearly equal, or
+                    the direct course is between three and five points of the meridian: Find the
+                    course with the difference of latitude and departure by account since the last
+                    observation. With this course and the difference of latitude by observation find
+                    another departure. Take half the sum of these departures for the true one.</p>
+                <pb break="no" facs="nls:193208742" xml:id="kp-eb0713-8742-0563"/>
+                <p>With the true departure and difference of latitude by observation find the true
+                    course; then with the true course and meridional difference of latitude find the
+                    difference of longitude.</p>
+                <p>2. <hi rend="italic">To find the longitude at sea by a variation-chart.</hi><hi
+                    rend="italic">—</hi> Dr Halley having collected a great number of observations
+                    on the variation of the needle in many parts of the world, was enabled by that
+                    means to draw certain lines on Mercator’s chart, showing the variation in all
+                    the places over which they passed in the year 1700, at which time he first
+                    published the chart; and hence the longitude of those places might be found by
+                    the chart, provided its latitude and variation were given. The rule is, draw a
+                    parallel of latitude on the chart, through the latitude found by observation;
+                    and the point where it cuts the curved line marked with the variation which had
+                    been observed will be the ship’s place.</p>
+                <p><hi rend="italic">Example.</hi> A ship finds by observation the latitude to be
+                    18° 20' north, and the variation of the compass to be 4° west. Required the
+                    ship’s place. Lay a ruler over 18° 20′ north, parallel to the equator; and the
+                    point where its edge cuts the curve of 4° west variation gives the ship’s place,
+                    which will be found in about 27° 10' west from London.</p>
+                <p>This method of finding the longitude, however, is at- .ended with two
+                    inconveniences. 1. When the variation lines run east or west, or nearly so, it
+                    cannot be ap- )lied; though, as this happens only in certain parts of he world,
+                    a variation chart may be of great use for the rest. Even in those places indeed
+                    where the variation curves do run east or west, they may be of considerable use
+                    in correcting the latitude when meridian observations cannot be had, which
+                    frequently happens on the northern !coasts of America, the Western Ocean, and
+                    about Newfundland; for if the variation can be found exactly, the east and west
+                    curve answering to it will show the latitude, lut, 2. The variation itself is
+                    subject to continual change, nd a chart, though ever so perfect at first, must
+                    in time become totally useless; and hence the charts constructed y Dr Halley,
+                    though of great utility at the time of their publication, became at length
+                    almost entirely useless. A new ne was published in 1746 by Messrs Mountaine and
+                    Dodon, which was so well received that in 1756 they again rew variation lines
+                    for that year, and published a third hart in the following year. They also
+                    presented to the loyal Society a curious paper concerning the variation of he
+                    magnetic needle, with a set of tables annexed containing the result of more than
+                    50,000 observations, in six periodical reviews from the year 1700 to 1756
+                    inclusive, dapted to every five degrees of latitude and longitude in the more
+                    frequented oceans; all of which were published in the Philosophical Transactions
+                    for 1757.</p>
+                <p>3. <hi rend="italic">To find the longitude by the sun’s declination.</hi><hi
+                    rend="italic">—</hi> laving made such observations on the sun as may enable is
+                    to find his declination at the place, take the difference between this computed
+                    declination and that shown at London by the Ephemeris; from which take also the
+                    daily difference of declination at that time; then say, as the daily difference
+                    of declination is to the above found difference, so is 360 degrees to the
+                    difference of longitude, in this method, however, a small error in the
+                    declination •ill make a great one in the longitude.</p>
+                <p>4. <hi rend="italic">To find the longitude by the moon’s</hi> culminating.— Seck
+                    in the Ephemeris for the time of her coming to the meridian on the given day and
+                    on the day following, and take their difference; also take the difference
+                    between the times of culminating on the same day as found in the Ephemeris and
+                    as observed; then say, as the daily difference in the Ephemeris is to the
+                    difference between the Ephemeris and observation, so is 360 degrees to the
+                    difference of longitude. In this method also a small differ ence in the
+                    culmination will occasion a great one in the longitude.</p>
+                <p>5. <hi rend="italic">By eclipses of the moon.</hi><hi rend="italic">—</hi> This
+                    is done much in the same manner as by the eclipses of Jupiter’s satellites; for
+                    if, in two or more distant places where an eclipse of the moon is visible, we
+                    carefully observe the times of the beginning and ending, the number of digits
+                    eclipsed, or the time when the shadow touches some remarkable spot, or when it
+                    leaves any particular spot on the moon, the difference of the times when the
+                    observations were made will give the difference of longitude. Phenomena of this
+                    kind, however, occur too seldom to be of much use.</p>
+                <p>6. In the 76th volume of the Philosophical Transactions, Mr Edward Pigot gives a
+                    very particular account of his method of determining the longitude and latitude
+                    of York; in which he also recommends the method of determining the longitude of
+                    places by observations of the <hi rend="italic">moorìs transit over the
+                    meridian.</hi> The instruments used in his observations were a gridiron pendulum
+                    clock, a two feet and a half reflector, an eighteen-inch quadrant made by Mr
+                    Bird, and a transit instrument made by Mr Sisson.</p>
+                <p>By these instruments an observation was made, on the 10th of September 1783, of
+                    the occultation of a star of the ninth magnitude by the moon, during an eclipse
+                    of that planet at York and Paris. Besides this, there were observations made of
+                    the immersions of <hi rend="italic">&lt;ρ Aquarii</hi> and δ <hi rend="italic"
+                    >Piscium;</hi> the result of all which was, that between Greenwich and York the
+                    difference of meridians was 4′ 27".</p>
+                <p>In 1783, Mr Pigot informs us, that he thought of finding the difference of
+                    meridians by observing the meridian right ascensions of the moon’s limb. This he
+                    thought had been quite original. But he found it afterwards in the Nautical
+                    Almanac for 1769, and in 1784 read a pamphlet on the same subject by the Abbé
+                    Toaldo; still he found that the great exactness of this method was not
+                    suspected, though he is convinced that it must soon be universally adopted in
+                    preference to that from the first satellite of Jupiter.</p>
+                <p>After giving a number of observations on the satellites of Jupiter, he concludes,
+                    that the exactness expected from observations, even on the first satellite, is
+                    much overrated. “Among; the various objections,” says he, “there is one I have
+                    often experienced, and which proceeds solely from the disposition of the eye,
+                    that of seeing more distinctly at one time than another. It maj’ not be improper
+                    also to mention, that the observation I should have relied on as the best, that
+                    of 30th August 1785, marked <hi rend="italic">excellent,</hi> is one of those
+                    most distant from the truth.”</p>
+                <p>After giving a number of observations on the eclipse of the moon on the 10th of
+                    September1783, our author concludes, that the eclipses of the moon’s spots are
+                    in general too much neglected, and that it might be relied upon much more were
+                    the following circumstances attended to: 1. To be particular in specifying the
+                    clearness of the sky; 2. to choose such spots as are well defined, and leave no
+                    hesitation as to the part eclipsed; 3. every observer to employ, as far as
+                    possible, telescopes equally powerful, or at least to let the magnifying powers
+                    be the same. “A principal objection,” says he, “may still be urged, viz. the
+                    difficulty of distinguishing the true shadow from the penumbra. Were this
+                    obviated, I believe the results would be more exact than from Jupiter’s first
+                    satellite: undoubtedly the shadow appears better defined if magnified a little;
+                    but I am much inclined to think that, with high magnifying powers, there is
+                    greater certainty of choosing the same part of the shadow, which perhaps is more
+                    than a sufficient compensation for the loss of distinctness.”</p>
+                <p>The following rule for meridian observations of the moon’s limb is next laid
+                    down: “The increase of the moon’s right ascension in twelve hours (or any given
+                    time found by computation), is to twelve hours as the increase <pb break="no"
+                    facs="nls:193208755" xml:id="kp-eb0713-8755-0564"/>of the moon’s right ascension
+                    between two 'places found by observation is to the difference of meridians. We
+                    subjoin an example.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Ä.</p><p>13</p><p>13</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>November 30, 1782. ∕ ∕∕</p><p>12
+                            57∙62 Meridian transit of moon’s se- ( cond limb √</p><p>13 29O8 Ditto
+                            of <hi rend="italic">a ↑r% (</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1 By clock at Greenwich.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>31∙46 Difference of right
+                            ascension.</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>13</p><p>13</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>14 8∙05 Meridian transit of moon’s
+                            se-Ι cond limb</p><p>14 30∙13 Ditto of <hi rend="italic">α rt%</hi>
+                            j</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>' By clock at " York.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p>32∙08 Difference at York</p><p>31∙46
+                            Difference at Greenwich</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>The clocks going near</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p>9∙38 Increase of the moon’s apparent
+                            right ascension between Greenwich and York, by observation.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>ly sidereal * time, no correction is
+                            required.</p></cell>
+                    </row>
+                </table>
+                <p>141" in seconds of a degree, ditto, ditto, ditto.</p>
+                <p>The increase of the moon’s right ascension for twelve hours, by computation, is
+                    23,340 seconds; and twelve hours reduced into seconds is 43,200. Therefore,
+                    according to the rule stated above,</p>
+                <p>23,340": 43,200": diff. of merid. = 261".</p>
+                <p>“These easy observations and short reduction,” says Mr Pigot, “are the whole of
+                    the business. Instead of computing the moon’s right ascension for twelve hours,
+                    I have constantly taken it from the Nautical Almanacs, which give it
+                    sufficiently exact, provided some attention be paid to the increase or decrease
+                    of the moon’s motion. Were the following circumstances attended to, the results
+                    would be undoubtedly much more exact.</p>
+                <p>“ ]. Compare the observations with those which have been made in several other
+                    places. 2. Let several and the same stars be observed at these places. 3. Such
+                    stars as are nearest in right ascension and declination to the moon are
+                    infinitely preferable. 4. It cannot be too strongly urged, to get, as nearly as
+                    possible, an equal number of observations of each limb, to take a mean of each
+                    set, and then a mean of both means. This will in a great measure correct the
+                    error of telescopes and sight. 5. The adjustment of the telescopes to the eye of
+                    the observer before the observation is also very necessary, as the sight is
+                    subject to vary. 6. A principal error proceeds from the observation of the
+                    moon’s limb, which may be considerably lessened, if certain little round spots
+                    near each limb were also observed in settled observatories; in which case the
+                    libration of the moon will perhaps be a consideration. 7. When the difference of
+                    meridians, or of the latitudes of places, is very considerable, the change of
+                    the moon’s diameter becomes an equation.</p>
+                <p>“Though such are the requisites to use this method with advantage, only one or
+                    two of them have been employed in the observations that I have reduced. Two
+                    thirds of these observations had not even the same stars observed at Greenwich
+                    and York, and yet none of the results, except a doubtful one, differ 15" from
+                    the mean; therefore I think we may expect a still greater exactness, perhaps
+                    within 10", if the above particulars be attended to.</p>
+                <p>“When the same stars are not observed, it is necessary for the observers at both
+                    places to compute their right ascension from tables, in order to get the
+                    apparent right ascension of the moon’s limb. Though this is not so satisfactory
+                    as by actual observation, still the difference will be trifling, provided the
+                    stars’ right ascensions are accurately settled. I am also of opinion, that the
+                    same method can be put in practice by travellers with little trouble, and a
+                    transit instrument constructed so as to fix up with facility in any place. It is
+                    not necessary, perhaps, that the instrument should be perfectly in the meridian
+                    for a few seconds of time, provided stars, nearly in the same parallel of
+                    declination with the moon, are observed; nay, I am inclined to think, that if
+                    the instrument deviates even a quarter or half a degree, or more, sufficient
+                    exactness can be attained, as a table might be computed, showing the moon’s
+                    parallax and motion for such deviation; which last may easily be found by the
+                    well-known method of observing stars whose difference of declination is
+                    considerable.</p>
+                <p>“As travellers very seldom meet with situations to observe stars near the pole,
+                    or find a proper object for determining the error of the line of collimation, I
+                    shall recommend the following method as original. Having computed the apparent
+                    right ascension of four, six, or more stars, which have nearly the same parallel
+                    of declination, observe half <hi rend="italic">of</hi> them with the instrument
+                    inverted, and the other half when in its right position. If the difference of
+                    right ascensions between each set by observation agrees with the computation,
+                    there is no error; but if they disagree, half that disagreement is the error of
+                    the line of collimation. The same observations may also serve to determine
+                    whether the distances of the corresponding wires are equal. In case of
+                    necessity, each limb of the sun might be observed in the same manner, though
+                    probably with less precision. By a single trial I made above two years ago, the
+                    result was much more exact than I expected. Mayer’s catalogue of stars will
+                    prove of great use to those that adopt the above method. I am rather surprised
+                    that the immersions of known stars of the sixth and seventh magnitude, behind
+                    the dark limb of the moon, are not constantly observed in fixed observatories,
+                    as they would frequently be of great use.”</p>
+            </div>
+        </body>
+    </text>
+</TEI>

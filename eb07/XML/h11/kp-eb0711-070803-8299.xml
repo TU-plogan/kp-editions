@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0711-8299-0708-03" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">HOUSSA</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 11, page 708</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="9" ref="lcsh1910:b47s7ht9n">Walls</term>
+                    <term n="8" ref="lcsh1910:b4s17ss11">Trees</term>
+                    <term n="7" ref="lcsh1910:b4tt4fw6r">East</term>
+                    <term n="7" ref="lcsh1910:b4vt1gs41">Marketing</term>
+                    <term n="7" ref="lcsh1910:b4q23r22w">Markets</term>
+                    <term n="3" ref="lcsh1910:b48c9r41n">Arabs</term>
+                    <term n="1" ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term n="1" ref="lcsh1910:b40p0wv7t">Paganism</term>
+                    <term n="1" ref="lcsh1910:b4ww7759r">Moors</term>
+                    <term n="1" ref="lcsh1910:b49882n4f">Berbers</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="9" ref="fastgeo:1239509">Africa</term>
+                    <term n="3" ref="fastgeo:1205480">Niger</term>
+                    <term n="2" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1206005">Guinea</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="3" ref="fasttopic:812571">Arabism</term>
+                    <term n="3" ref="fasttopic:812576">Arabs</term>
+                    <term n="2" ref="fasttopic:799938">Africans</term>
+                    <term n="2" ref="fasttopic:799932">Africanization</term>
+                    <term n="1" ref="fasttopic:969307">Indians</term>
+                    <term n="15" ref="fasttopic:1120522">Slaves</term>
+                    <term n="9" ref="fasttopic:1170190">Walls</term>
+                    <term n="8" ref="fasttopic:1155984">Trees</term>
+                    <term n="7" ref="fasttopic:1010167">Marketing</term>
+                    <term n="7" ref="fasttopic:1010316">Markets</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193648299" type="entry">
+                <p><label type="entry">HOUSSA</label> is the name of an extensive portion of Central
+                    Africa, which, along with Bornou, bears the general name of Soudan, or Land of
+                    the Blacks. It consists of various petty kingdoms or states, which occupy
+                    territory stretching east and west from the upper course of the Yeou nearly to
+                    the Niger, but the boundaries of which on the south and north are imperfectly
+                    defined. This region appears in several respects to be superior to the countries
+                    on either side of it. It is less sultry, an advantage which it probably owes to
+                    its higher elevation. The face of the country bears marks of greater
+                    cultivation, the fields being covered with large crops of wheat, two of which
+                    are annually produced; and, to prevent the grain from being destroyed by
+                    insects, it is secured in granaries raised on poles. The soil is well watered by
+                    the river Q,uarrama or Zirmie, which, with several tributaries, flows westward
+                    to join the Niger. On its eastern quarter it is traversed by the Yeou, and on
+                    its southern by the Shary or Tschadda, which also falls into the Niger. Besides
+                    these natural supplies of water, artificial irrigation is diligently practised.
+                    The predominant people here are the Fellatahs, of whom we shall afterwards
+                    speak.</p>
+                <p>From information afforded by Major Denham, who travelled in this region of
+                    Africa, it appears that Houssa is divided into seven provinces or states, to
+                    each of which a prince or petty governor was appointed under the Fellatahs, the
+                    inhabitants all speaking one language. Over the whole a sultan holds supreme
+                    rule. The most fertile province is Kano, the most extensive is Zegzeg, the most
+                    warlike Ghoober and Zamfra, which two countries seem to constitute one province
+                    under the rule of the Fellatahs; the central province is Kashna or Kassina.
+                    Three others, <pb break="no" facs="nls:193648312" xml:id="kp-eb0711-8312-0709"
+                    />of which our information is very indistinct, are designated Dor or Dowry,
+                    Ranoo, and Yarcem. Captain Clapperton mentions a province called Guari, which
+                    may correspond to Yareem; and the same traveller speaks of Doura, in immediate
+                    connection with the southern part of Zegzeg, as if bordering on it. Another
+                    province is called Kotongra or Kotongkora, which may correspond to Ranoo.</p>
+                <p>Kano, the capital of a province of the same name, and the principal commercial
+                    city of Houssa, is situated in latitude 12° 0' 19" north, and longitude 9° 20'
+                    east. It may contain between 30,000 and 40,000 inhabitants, of whom a great
+                    proportion are slaves. This number is exclusive of strangers, who crowd thither
+                    during the dry months from all parts of Africa. The city is of an irregular oval
+                    shape, about fifteen miles in circumference, and surrounded by a clay wall
+                    thirty feet in height, having a dry ditch on both sides of it. There arc
+                    fourteen gates made of wood, and covered with sheet iron, and these arc
+                    regularly opened and shut at sunrise and sunset. A platform inside, with two
+                    guard-houses below it, serves to defend each entrance. The houses within the
+                    walls do not occupy more than one fourth of the ground enclosed, the remaining
+                    space being laia out in fields and gardens. The city is almost divided into two
+                    parts by a large morass, which stretches from east to west. This swamp is
+                    crossed by a small neck of land, which is overflowed during the rainy season,
+                    but in the dry season the market is held upon it. On account of this morass, and
+                    also of the many pools of stagnant water made by digging clay for building
+                    houses, the city is rendered very unhealthy. Captain Clapperton thus describes
+                    the houses of K¢no.</p>
+                <p>“They are built of clay, and are mostly of a square form, in the Moorish fashion,
+                    with a central room, the roof of which is supported by the trunks of palm-trees,
+                    where visitors and strangers are received. The apartments of the ground-floor
+                    open into this hall of audience, and are generally used as store-rooms. A
+                    staircase leads to an open gallery overlooking the hall, and serving as a
+                    passage to the chambers of the second story, which are lighted with small
+                    windows. In a back court-yard there is a well and other conveniences. Within the
+                    enclosure in which the house stands, there are also a few round huts of clay,
+                    roofed with the stalks of Indian corn, and thatched with long grass. These are
+                    usually very neat and clean, and of a much larger size than those of Bornou. The
+                    governor’s residence covers a large space, and resembles a walled village. It
+                    even contains a mosque, and several towers three or four stories high, with
+                    windows in the European style, but without glass or frame-work. It is necessary
+                    to pass through two of these towers in order to gain the suite of inner
+                    apartments occupied by the governor.”</p>
+                <p>The great market, as already observed, is held upon a neck of land which
+                    intersects the morass. Here streets consisting of sheds or stalls of bamboo are
+                    regularly arranged, different places being allotted to those who traffic in
+                    different commodities. The latter consist of cattle, vegetables, fruits, the
+                    fine cotton fabrics of the country, goora or kolla nuts, which are called
+                    African coffee, and crude antimony, with which every eyebrow in Houssa is dyed.
+                    The Arabs also dispose of sundry commodities, such as cast-off dresses. The
+                    slaves, who constitute the staple article of trade, have a special market
+                    appropriated to them, consisting of two long ranges of sheds, one for males and
+                    the other for females. Here these poor creatures, drawn up in regular array, and
+                    dressed in attractive attire, are inspected and scrutinized by purchasers, in
+                    much the same manner as horses are in the cattle-markets of this country. The
+                    market of Kano is under the superintendence of a sheik, who regulates the
+                    police, and is said also to possess the exorbitant power of fixing the prices.
+                    The medium of exchange consists of the small shells called cowries, four hundred
+                    and eighty of which make a shilling, so that paying a large sum is here rather a
+                    tedious process. Kano is celebrated all over Central Africa for the dyeing of
+                    cloth, for which process there are numerous establishments. Some ingenuity, is
+                    displayed in the manufacture of leathern jars, which are fashioned upon a clay
+                    mould out of the raw hide. The inhabitants are also acquainted with the art of
+                    tanning. The negroes here are very polite and ceremo nious, especially to those
+                    advanced in years. A part of the city is appropriated to the use of those who
+                    are afflicted with blindness, which is a prevalent disease.</p>
+                <p>Adjoining the province of Kano on the west there is a portion of territory called
+                    Katagum, which is said by Captain Clapperton to be a distinct province.
+                    According to that traveller, it is able to send into the field 4000 horse and
+                    20,000 foot, armed with bows, swords, and spears. The city is built in the form
+                    of a square, the sides facing the cardinal points of the compass, with four
+                    corresponding gates, which are regularly opened and shut like those of Kano. It
+                    is defended by two walls, which have ditches on each side, and one between them.
+                    The governor and principal inhabitants have houses made entirely of clay. They
+                    are flat roofed, and sometimes consist of two stories, with square or
+                    semicircular openings for windows. The city may contain from 7000 to 8000
+                    inhabitants. There are other towns comprised within the boundaries of this
+                    province, but none requiring particular description. Many parts of Katagum are
+                    highly cultivated, and laid out in plantations of cotton, tobacco, and indigo,
+                    which are separated from one another by rows of date-trees, and shaded by large
+                    umbrageous trees.</p>
+                <p>The next considerable town is Soccatoo, situated nearly at the western extremity
+                    of Houssa. The country which lies between Kano and Soccatoo is remarkably fine,
+                    and under high cultivation. It is diversified with forests of noble trees, and
+                    various rivers and streams, and traversed by picturesque ridges of granite,
+                    amongst which villages are romantically situated.</p>
+                <p>Soccatoo stands in latitude 13° 4' 52" north, and longitude 6° 12' E. “It
+                    occupies,” says Captain Clapperton, “a long ridge which slopes gently towards
+                    the north, and appeared to me the most populous town I had visited in the
+                    interior of Africa; for, unlike most other towns in Houssa, where the houses are
+                    thinly scattered, it is laid out in regular well-built streets. The houses
+                    approach close to the walls, which were built by the present sultan in 1818,
+                    after the death of his father; the old walls being too confined for the
+                    increasing population. This wall is between twenty and thirty feet high, and has
+                    twelve gates, which are regularly closed at sunset. There are two large mosques,
+                    including the new one at present building by the Gadado, besides several other
+                    places for prayer. There is a spacious market-place in the centre of the city,
+                    and another large square in front of the sultan’s residence. The dwellings of
+                    the principal people arc surrounded with high walls, which enclose numerous
+                    coozees and flat-roofed houses, built in the Moorish style, whose large
+                    waterspouts of baked clay, projecting from the eaves, resemble at first sight a
+                    tier of guns. The inhabitants are principally Fellatahs, possessing numerous
+                    slaves. Such of the latter as are not employed in domestic duties reside in
+                    houses by themselves, where they follow various trades; the master, of course,
+                    reaping the profit. Their usual employments are weaving, house-building,
+                    shoe-making, and iron work: many bring fire-wood to the market foi sale. Those
+                    employed in raising grain and tending cattle, of which the Fcllatahs have
+                    immense herds, reside in villages without the city. It is customary for private
+                    individuals to free a number of slaves every year, according to their means,
+                    during the great feast after the Ra <pb break="no" facs="nls:193648325"
+                    xml:id="kp-eb0711-8325-0710"/>madan. The enfranchised seldom return to their
+                    native country, but continue to reside near their old masters, still
+                    acknowledging them as their superiors, and presenting them yearly with a portion
+                    of their earnings. The trade of Soccatoo is at present inconsiderable, owing to
+                    the disturbed state of the surrounding country. The necessaries of life are very
+                    cheap; butcher-meat is in great plenty, and very good. The exports are
+                    principally civet, and blue check tobes called <hi rend="italic">sharie,</hi>
+                    which are manufactured by the slaves from Nyffee, of whom the men are considered
+                    as the most expert weavers in Soudan, and the women as the best spinners. The
+                    common imports are brought from the borders of Ashantee; and coarse calico and
+                    woollen cloth, in small quantities, with brass and pewter dishes, and some few
+                    spices, from Nyffee. The Arabs, from Tripoli and Ghadamis, bring unwrought silk,
+                    ottar of roses, spices, and beads. Slaves are both exported and imported. A
+                    great quantity of Guinea corn is taken every year by the Tuaricks, in exchange
+                    for salt. The market is extremely well supplied, and is held daily from sunrise·
+                    to sunset. On the north side of Soccatoo there is a low marsh, with some
+                    stagnant pools of water, between the city and the river: this, perhaps, may be
+                    the cause of the great prevalence of ague, as the city stands in a fine airy
+                    situation.”</p>
+                <p>Subsequently to the writing of the above description, nearly two thirds of the
+                    city were destroyed by a conflagration; but when Clapperton visited it a second
+                    time, it had been rebuilt, in a manner so closely resembling what it had
+                    formerly been, that little alteration could be perceived. The palace, or house
+                    of the sultan, forms a sort of enclosed town, with an open quadrangle in front.
+                    A painted and ornamented cottage constitutes the hall of audience. Soccatoo is
+                    likely to decline, on account of the residence of the court having of late been
+                    transferred to Magaria.</p>
+                <p>The countries of Ghoober and Zamfra or Zanfara are inhabited by a rude and
+                    warlike race, who have sometimes assumed authority over Houssa, and are at
+                    present, or were lately, in open rebellion against Soccatoo. The people are a
+                    species of outlaws or robbers, and the high road between Kano and Soccatoo
+                    passing through their territory, merchants can only travel between the two
+                    cities in numerous armed bodies. Coonia, the capital of Ghoober, is strongly
+                    fortified, and in 1829 repulsed the whole military force of Houssa, consisting
+                    of 50,000 or 60,000 men. Zirmie, the capital of Zamfra, occupies a peninsula
+                    formed by the river Quarrama, which has here very high and steep banks covered
+                    with mimosas and prickly bushes, through which a narrow path winds to the gates.
+                    It is surrounded with a clay wall and a dry ditch. The governor of this
+                    stronghold bears the character of a freebooter, and the inhabitants, whom
+                    Clapperton represents as having a reckless independent look, are esteemed the
+                    greatest rogues in all Houssa. Runaway slaves from all quarters make Zirmie an
+                    asylum, where they are always well received.</p>
+                <p>To the north of Kano lies the considerable province of Kashna or Kassina, which
+                    at one period held supreme sway over all Houssa, and which has recently shaken
+                    off the yoke of Soccatoo. Kashna, the capital, is situated in lat. 12. 59. N. on
+                    a ridge of sienite, one of a number of ridges of this rock which run from
+                    north-north-east to south-south-west. The walls are of clay, and very extensive;
+                    but, as in the case of Kano, the houses do not occupy above one tenth of the
+                    ground enclosed, the rest being laid out in fields, and covered with wood. The
+                    houses are mostly in ruins, the principal commerce of the country having been
+                    transferred to Kano since the Fellatah power became predominant. Notwithstanding
+                    its abject state, it has nevertheless a considerable trade, which is carried on
+                    with the Tuaricks, or with caravaps coming across the desert by the route of
+                    Ghadamis and Tuat. The manufactures of Kashna are chiefly of leather, such as
+                    water-skins, red or yellow cushions, bridles of goat-εkin, and hides. There is
+                    likewise some trade in fruits, such as figs, melons, pomegranates, and
+                    limes.</p>
+                <p>To the south of Soccatoo and Kano lies the country of Zegzeg, one of the finest
+                    in all Africa, and the most extensive province in Houssa. It is bounded on the
+                    east by Kano, on the south-east by Yacoba, on the south by a mountainous tract
+                    inhabited by Pagans, on the south-west by Nyffee, and on the north and west by
+                    Guari and Kashna. Travellers represent Zegzegas resembling in appearance the
+                    finest parts of England, being beautifully variegated with hill and dale, over
+                    which are spread rich pastures and extensive fields, yielding plentiful crops,
+                    particularly of rice. Zaria, the capital, is situated in lat. 10. 59. N. and
+                    long. 8. 42. E. It occupies a great extent of ground, the houses being detached,
+                    or rather clustered together in small villages, which are separated from each
+                    other by corn fields, and even woods. The whole is surrounded with high clay
+                    walls, and the population has been estimated at about 50,000. To the south of
+                    Zegzeg, the country, though diversified by rising grounds, is fertile and well
+                    cultivated, and contains a number of considerable towns. Lander describes Cuttup
+                    as consisting of “nearly five hundred villages almost joining each other,
+                    occupying a vast and beautiful plain, adorned with the finest trees. Among
+                    these, the plantain, the palm, and the cocoa-nut tree were seen flourishing in
+                    great abundance, and the aspect of the country strikingly resembled some parts
+                    of Yariba. A considerable traffic is carried on here in slaves and bullocks,
+                    which are alike exposed, in the daily market. The bullocks are bred by the
+                    Fellatahs, who reside here for no other purpose. Among the other articles
+                    brought here for sale, are red cloth, gum, salt, goora-nuts, trona, beads,
+                    tobacco, native cloth, rings, needles, cutlery, honey, rice, and milk; people
+                    from the most distant parts resorting hither in vast numbers.” To the south of
+                    this place stretch a range of hills, which, Lander was told, were inhabited by a
+                    ferocious race of <hi rend="italic">yamyams</hi> or cannibals, who a short time
+                    previously had killed and eaten a whole caravan-full of people. In a country
+                    fertile, but rocky, is situated Dunrora, a town containing about 4000
+                    inhabitants. Not far from this place is a large town called Jacoba, which was
+                    described to Lander as standing on the river Shary; whilst farther to the east,
+                    on the same stream, there was said to be situated another large city called
+                    Adamowa; and here our knowledge of this portion of Africa becomes scanty and
+                    imperfect.</p>
+                <p>In the western tracts of Houssa there are few towns of any importance: these were
+                    visited, and have been described, by Captain Clapperton. After leaving Boogawa,
+                    a small town in the province of Katagum, and passing first through a
+                    thickly-wooded tract, and then over an open, well-cultivated country, this
+                    traveller reached Katungwa, a walled town. A range of low rocky hills was seen
+                    stretching nearly south-west, called <hi rend="italic">Dooshee</hi> (the rocks),
+                    from which a large town takes its name. These were the first rocks that had
+                    occurred after leaving the southern borders of the Great Desert, the whole
+                    country thus far being soft alluvial clay. Near the extremity of the Dooshee
+                    hills is situated Zangeia, within the walls of which town there is a ridge of
+                    loose blocks of stone connected with the range. These masses of rock are about
+                    200 feet in height, and give a romantic appearance to the neat huts clustering
+                    round the base, and to the fine plantations of cotton, tobacco, and indigo, and
+                    the rows of date and other trees. From the extensive walls which remain, Zangeia
+                    must have once been a very large town. Now, however, it consists merely of a
+                    collection of thinly-scattered hamlets. The country between this place and Kano
+                    is highly cultivated, and beautifully diversified by hill and <pb break="no"
+                    facs="nls:193648338" xml:id="kp-eb0711-8338-0711"/>dale. Captain Clapperton
+                    passed several walled towns, the principal of which was Girkwa. As in the other
+                    towns already described, the houses here are in groups, with large intervening
+                    vacancies. The disproportion in the size of the Avails of towns and the number
+                    of houses, to the amount of inhabitants, Avhich is exhibited in many parts of
+                    Houssa, is to be accounted for by the usurpation of the country by the
+                    Fellatahs, who generally massacred the former occupants, or carried them aAvay
+                    captives. To complete our description of Houssa, it will be necessary to give an
+                    account of this singular people, who are gradually extending their authority
+                    over Central Africa.</p>
+                <p>By the most correct accounts, it would appear that the Fellatahs are an off-shoot
+                    from the Foolahs of Western Africa, and may be identified Avith them. They are a
+                    mixture of Moors, Arabs, Berbers, and probably other races of men. They are much
+                    superior to the native negroes, Avith whom they very rarely mix their blood.
+                    Captain Lyon, speaking of the Fellatahs, observes, “their complexion being of a
+                    much lighter hue than that of the other tribes, they call themselves white ,∙
+                    their colour resembles that of our gypsies in England. Many female slaves are
+                    brought to Mourzouk from their nation, and are very handsome women.” Other
+                    observers describe their complexion as being very dark, and of a shade
+                    intermediate betAveen that of the deepest African and the Moors. The fact seems
+                    to be, that their colour varies in a very remarkable manner, from being nearly
+                    white to nearly black. Both men and women pay considerable attention to their
+                    dress, which amongst the wealthy inhabitants is rather showy. In their domestic
+                    habits they are regular, orderly, and cleanly, and the slaves are generally well
+                    treated. The Mahommedan is the predominant religion, and considerable attention
+                    is paid to keeping up an appearance of it. Prayers are regularly said five times
+                    a day in the Arabic language, which both the male and female children of the
+                    better sort of Fellatahs are taught to read and Avrite. Their marriages are
+                    celebrated without any pomp or noise, and such contracts are of a less arbitrary
+                    nature than Ave find them to be amongst the inferior races of mankind. Captain
+                    Clappenton makes the following remarks regarding Houssa :—“The government of the
+                    Fellatahs in Soudan is in its infancy. The governors of the different provinces
+                    are appointed during pleasure; and all their property, on their death or
+                    removal, falls to the sultan. The appointment to a vacancy is sold to the
+                    highest bidder, who is generally a near relation, provided that his property is
+                    sufficient to enable him to bid up to the mark. All the inferior offices in the
+                    tθAvns are sold in like manner by the governors, who also succeed to the
+                    property of those petty officers at their death or removal. In the province of
+                    Kano they have no regular system of taxation. A great deal of marketable
+                    property is claimed by the governor, such as two thirds of the produce of all
+                    the date-trees and other fruit-trees, the proprietor being allowed only the
+                    remaining third. A small duty is also levied on every article sold in the
+                    market; or, in lieu thereof, a certain rent is paid for the stall or shed. A
+                    duty is also fixed on every <hi rend="italic">to be</hi> that is dyed blue, and
+                    sold. On grain there is no duty. Kano produces the greatest revenue that the
+                    sultan receives; it is paid monthly, in horses, cloth, and coAvries. AdamoAva
+                    pays yearly in slaves; Yacoba in slaves and lead ore; Zegzeg in slaves and <hi
+                    rend="smallcaps">coav-</hi> ries; Zamfra the same; Hadiga, and Katagum, and
+                    Za-onima in horses, bullocks, and slaves; Kashna in slaves, cowries, and cloth;
+                    Ader, or Tadela, in bullocks, sheep, camels, and a coarse kind of cotton cloth,
+                    like Avhat is called by us a counterpane.” Of the number of negroes and
+                    Fellatahs who inhabit the country of Houssa no correct idea can be formed. <hi
+                    rend="smallcaps">(r.</hi> R. R.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

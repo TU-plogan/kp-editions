@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0706-1176-0321-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">CHARACTER</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 6, page 321</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="1" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="7" ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term n="5" ref="lcsh1910:b4w37kv50">Alphabet</term>
+                    <term n="5" ref="lcsh1910:b43n20d44">Alphabeting</term>
+                    <term n="5" ref="lcsh1910:b4rb6w218">Alphabets</term>
+                    <term n="5" ref="lcsh1910:b4fj29h67">Hebrews</term>
+                    <term n="2" ref="lcsh1910:b4xd0r50f">Phoenicians</term>
+                    <term n="1" ref="lcsh1910:b4tt4fw77">Egyptians</term>
+                    <term n="1" ref="lcsh1910:b4x34mt4n">Jews</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="1" ref="fasttopic:947546">Greeks</term>
+                    <term n="5" ref="fasttopic:805945">Alphabet</term>
+                    <term n="5" ref="fasttopic:805974">Alphabets</term>
+                    <term n="5" ref="fasttopic:805968">Alphabetizing</term>
+                    <term n="5" ref="fasttopic:918881">Expression</term>
+                    <term n="2" ref="fasttopic:1061214">Phoenicians</term>
+                    <term n="1" ref="fasttopic:1100116">Romans</term>
+                    <term n="1" ref="fasttopic:903991">Egyptians</term>
+                    <term n="1" ref="fasttopic:983135">Jews</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193351176" type="entry">
+                <p><label type="entry">CHARACTER</label>, in a general sense, signifies a mark or
+                    figure, drawn on paper, metal, stone, or other matter, with a pen, graver,
+                    chisel, or other instrument, to signify or denote any thing. The word is Greek,
+                    formed from the verb <hi rend="italic">γpζws&lt;5ων,</hi><hi rend="italic"
+                    >insculpere,</hi> to engrave or impress.</p>
+                <p>The various kinds of characters may be reduced to three heads, viz. <hi
+                    rend="italic">Literal Characters, Numeral Characters,</hi> and <hi rend="italic"
+                    >Abbreviations.</hi></p>
+                <p>I. <hi rend="italic">Literal</hi><hi rend="italic smallcaps"> Character</hi> is a
+                    letter of the alphabet, serving to indicate some articulate sound.</p>
+                <p>1. These may be divided, with regard to their nature and use, into <hi
+                    rend="italic">Nominal Characters,</hi> or those we properly call <hi
+                    rend="italic">letters,</hi> which serve to express the names of things; <hi
+                    rend="italic">Peal Characters,</hi> those that instead of names express things
+                    and ideas; <hi rend="italic">Emblematical</hi> or <hi rend="italic">Symbolical
+                    Characters,</hi> which have this in common with real ones, that they express the
+                    things themselves, but, further, possess the peculiarity of in some measure
+                    personating them, and exhibiting their form, such as the hieroglyphics of the
+                    ancient Egyptians.</p>
+                <p>2. <hi rend="italic">Literal</hi><hi rend="italic smallcaps"> Characters</hi> may
+                    be again divided, with regard to their invention and use, into <hi rend="italic"
+                    >particular</hi> and <hi rend="italic">general</hi> or <hi rend="italic"
+                    >universal.</hi><hi rend="italic">Particular</hi><hi rend="italic
+                    smallcaps"> Characters</hi> are those peculiar to this or that nation, such as
+                    the Roman, Italic, Greek, Hebrew, Arabic, Gothic, and Chinese <hi rend="italic"
+                    >characters.</hi><hi rend="italic">Universal</hi><hi rend="italic smallcaps">
+                    Characters</hi> are also <hi rend="italic">real characters,</hi> and constitute
+                    what some authors call a <hi rend="italic">Philosophical Language.</hi></p>
+                <p>That diversity of <hi rend="italic">characters</hi> used by several nations to
+                    express the same idea is found the chief obstacle to the advancement of
+                    learning. To remove this, several ingenious thinkers have taken occasion to
+                    propose plans of <hi rend="italic">characters</hi> which should be universal,
+                    and which each people should read in their own language. The object is to render
+                    <hi rend="italic">character</hi> real, not nominal; to express things and
+                    notions, not letters or sounds; yet to be mute like letters, and arbitrary, not
+                    emblematical, like hieroglyphics. Thus, every nation would retain its own
+                    language, yet every one would understand that of every other without learning
+                    it, only by seeing a real or universal <hi rend="italic">character,</hi> which
+                    should signify the same thing to all people, by what sounds soever it might be
+                    expressed in their particular idiom. For instance, by seeing the <hi
+                    rend="italic">character</hi> destined to signify <hi rend="italic">to
+                    drink,</hi> an Englishman would read <hi rend="italic">to drink;</hi> a
+                    Frenchman, <hi rend="italic">boire;</hi> a Latin, <hi rend="italic">bibere;</hi>
+                    a Greek, vr/w/v; a Jew, nnor; a German, <hi rend="italic">trinchen,</hi> and so
+                    of the rest; in the same manner as seeing a horse, each people would express it
+                    after their own manner, but all would mean the same animal.</p>
+                <p>The first and most considerable attempts at a <hi rend="italic">real
+                    character,</hi> or philosophical language, in Europe, are those of Bishop
+                    Wilkins and Dalgarno; but they <hi rend="superscript"> r</hi> proved wholly
+                    ineffectual. M. Leibnitz, indeed, thought that those ingenious men did not hit
+                    the right method. It was probable, indeed, that by their contrivance people who
+                    do not understand one another might easily have a commerce together; but they
+                    have not hit on true <hi rend="italic">real characters.</hi> According to him,
+                    the <hi rend="italic">characters</hi> should resemble those used in algebra,
+                    which, in effect, are very simple, yet very expressive, without any thing
+                    superfluous or equivocal, and contain all the varieties required. M. Lodwic, in
+                    the <hi rend="italic">Philosophical Transactions,</hi> gives us a plan of <hi
+                    rend="italic">an universal alphabet</hi> or <hi rend="italic">character</hi> of
+                    another description. This was to contain an enumeration of all such single
+                    sounds or letters as are used in any language, by means of which people should
+                    be enabled to pronounce truly and readily any language; to describe the
+                    pronunciation of any language that might be pronounced in their hearing, so that
+                    others accustomed to this language, though they had never heard it pronounced,
+                    should at first be able truly to pronounce it; and, lastly, this <hi
+                    rend="italic">character</hi> was to serve as a standard to perpetuate the sounds
+                    of any language.</p>
+                <p>A new universal character was proposed by Mr Northmore of London, by which
+                    different nations might communicate their sentiments to each other. His original
+                    plan <pb break="no" facs="nls:193351189" xml:id="kp-eb0706-1189-0322"/>was to
+                    make the same numerical figure represent the same word in all languages. But he
+                    found afterwards that it might be improved by using a figure, not for every
+                    word, but for every <hi rend="italic">useful</hi> word. And even these, he
+                    thinks, might be abbreviated by adopting certain uniform fixed signs, the number
+                    of which would not exceed twenty for the various parts of speech. Words of
+                    negation he proposed to be expressed by a prefixed sign. A few instances will
+                    explain the author’s meaning.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Suppose the number 5 to represent
+                            the</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>word <hi rend="italic"
+                            >see,</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">a
+                            man,</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>7</p></cell>
+                        <cell cols="1" role="data" rows="1"><hi rend="italic">happy</hi></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >never,</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">I.</hi></p></cell>
+                    </row>
+                </table>
+                <p>“I would then,” says he, “express the tenses, genders, cases, &amp;c. <hi
+                    rend="italic">in all languages,</hi> in some such <hi rend="italic">uniform</hi>
+                    manner as the following:</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(1) 5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">present
+                            tense</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>see.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(2) .5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">perfect
+                            tense..................</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>saw.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(3) *</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">perfect
+                            participle</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>seen.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(4) 5:</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">present
+                            participle</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>seeing.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(5) 5.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >future</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>will sec.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(θ) JL</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >substantive</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>sight.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>&lt;υ <hi rend="smallcaps">j</hi><hi
+                            rend="subscript smallcaps"> ς</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">personal
+                            substantive</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>spectator.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(8) fi</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">—</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">nominative
+                            case</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>a man.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(9) .θ.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>∙=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >genitive</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>of a man.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(10) 6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >dative.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>to a man.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>ου 7Γ</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >feminine</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>a woman.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(12)+6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >plural</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>men.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(13) 7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >positive</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>happy.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(14) 7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >comparative..................</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>happier.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(15)?</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >superlative....................</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>. happiest.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>JL</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>as above, No. 6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>happiness.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>(16)-7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>=</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >negation</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>unhappy.</p></cell>
+                    </row>
+                </table>
+                <p>“From the above specimen, I should find no difficulty in comprehending the
+                    following sentence, though it were written in the language of the
+                    Hottentots:</p>
+                <p><hi rend="superscript"> a</hi> ∙-~'.</p>
+                <p>9, 8, .5,—7, 6. <hi rend="italic">I never saw a more unhappy woman.</hi></p>
+                <p>“Those languages which do not usc the pronoun prefixed to the verb, as the Greek
+                    and Roman, may apply it in a small character, simply to denominate the person;
+                    thus, instead of 9, 8, .5, <hi rend="italic">I never saw,</hi> they may write 8,
+                    <hi rend="subscript"> g</hi>.5, which will signify that the verb is in the first
+                    person, and will still have the same meaning.”</p>
+                <p>Our author thinks, that according to this scheme of an universal character, about
+                    twenty signs, and less than 10,000 <hi rend="italic">choseii</hi> words,
+                    synonyms being set aside, would answer all the ends proposed; and that
+                    foreigners, by referring to their numerical dictionary, would easily comprehend
+                    each other. He proceeds next to show how appropriate sounds may be given to his
+                    signs, and an universal <hi rend="italic">living language</hi> formed from the
+                    universal <hi rend="italic">characters.</hi></p>
+                <p>With this view he proposes to distinguish the ten numerals by ten monosyllabic
+                    names <hi rend="italic">of easy</hi> pronunciation, or such as may without
+                    difficulty run into one another. To illustrate his scheme, however, he calls
+                    them, for the present, by their common English names, but suggests that each
+                    number made usc of should be pronounced by uttering separately its component
+                    parts, after the manner of accountants. Thus, let the number 6943 represent the
+                    word <hi rend="italic">horse,</hi> he would not, in the universal language, call
+                    a horse <hi rend="italic">six thousand nine hundred and forty-three,</hi> but
+                    <hi rend="italic">six, nine, four, three</hi><hi rend="italic">;</hi> and so on
+                    for all the words of a sentence, making the proper stop at the end of each. In
+                    the same manner, a distinct appellation must be appropriated to each of the
+                    prefixed signs, to be pronounced immedialely after the numeral of which it is an
+                    appendage. Therefore, if <hi rend="italic">plu</hi> be the appellation or the
+                    sign of the plural number, <hi rend="italic">six, nine, four, three, plu,</hi>
+                    will be <hi rend="italic">horses.</hi></p>
+                <p>“Thus,” says our author, “I hope it is evident that about thirty or forty
+                    distinct syllables are sufficient for the above purpose; but I am much mistaken
+                    if <hi rend="italic">eleven</hi> only will not answer the same end. This is to
+                    be done by substituting the first twenty or thirty numerals for the signs, and
+                    saying, as in algebra, that a term is in the power of such a number, which may
+                    be expressed by the simple word <hi rend="italic">under.</hi> For example, let
+                    6943 represent the word <hi rend="italic">horse,</hi> and suppose 4 to be the
+                    sign of the plural number, I would write the word thus, and pronounce it six,
+                    nine, four, three, in the power of or <hi rend="italic">under</hi> four. By
+                    these means eleven distinct appellations would be sufficient, and time and use
+                    would much abbreviate the pronunciation.”</p>
+                <p>3. Literal characters may again be divided, with reference to the nations among
+                    whom they have been invented, into Greek characters, Roman characters, Hebrew
+                    characters, and the like. The Latin character now used throughout all Europe was
+                    formed from the Greek, as the Greek was formed from the Phoenician; and the
+                    Phoenician, as well as the Chaldee, Syriac, and Arabic characters, were formed
+                    from the ancient Hebrew, which subsisted till the Babylonish captivity; for
+                    after that event the character of the Assyrians, which is the square Hebrew now
+                    in use, prevailed, the ancient being only found on some Hebrew medals, commonly
+                    called Samaritan medals. It was in 1091 that the Gothic characters, invented by
+                    Ulphiľas, were abolished, and the Latin ones established in their room.</p>
+                <p>Medallists observe that the Greek character, consisting only of majuscule
+                    letters, has preserved its uniformity on all medals as low as the time of
+                    Gallienus, after which it appears somewhat weaker and rounder. From the time of
+                    Constantine to that of Michael we find only Latin characters; after the time of
+                    Michael the Greek characters recommence; but from that period they began to
+                    alter with the language, which was a mixture of Greek and Latin. The Latin
+                    medals preserved both their characters and language as late as the translation
+                    of the seat of the empire to Constantinople. Towards the time of Decius the
+                    character began to lose its roundness and beauty; but some time afterwards it
+                    retrieved, and subsisted tolerably till the time of Justin, when it degenerated
+                    gradually into the Gothic. The rounder, then, and better-formed a character is
+                    upon a medal, the fairer pretence it has to antiquity.</p>
+                <p>II. <hi rend="italic">Numeral</hi><hi rend="italic smallcaps"> Characters,</hi>
+                    or characters used to express numbers, arc either letters or figures.</p>
+                <p>The Arabic character, called also the common one, because it is used almost
+                    throughout Europe in all sorts of calculations, consists of the ten digits, 1,
+                    2, 3, 4, 5, 6,7, 8, 9, 0.</p>
+                <p>The Roman numeral character consists of seven majuscule letters of the Roman
+                    alphabet, viz. I, V, X, L, C, D, M. The I denotes one, V five, X ten, L fifty, C
+                    a hundred, D five hundred, and M a thousand. The 1 repeated twice makes two, II;
+                    thrice, three, III. Four is expressed thus, IV, as I before V or X takes an unit
+                    from the number expressed by these letters. To express six an I is added to a V,
+                    thus, VI; for seven, two, VII; and for eight, three, VIII. Nine is expressed by
+                    an I before X, thus, IX. The same remark may be made of the X before L or C,
+                    except that the diminution is by tens; thus, XL <pb break="no"
+                    facs="nls:193351202" xml:id="kp-eb0706-1202-0323"/>denotes forty, XC ninety, and
+                    LX sixty. The C before D or M diminishes each by a hundred. The number five
+                    hundred is sometimes expressed by an I before a C inverted, thus, 13; and
+                    instead of M, which signifies a thousand, an I is sometimes used between two
+                    C’s, the one direct and the other inverted, thus, CIO. The addition of C and 0
+                    before or after'raises CIO by tens; thus, CCIOO expresses ten thousand, CCCIOOO
+                    a hundred thousand. The Romans also expressed any number of thousands by a line
+                    drawn over any numeral less than a thousand; thus, V denotes five thousand, ‰χ
+                    sixty thousand; so likewise M is one million, MM is two millions, and so on.</p>
+                <p>The Greeks had three ways of expressing numbers: 1. Every letter, according to
+                    its place in the alphabet, denoted a number, from α, one, to ω, twenty-four. 2.
+                    The alphabet was divided into eight units, α one, <hi rend="italic">β</hi> two,
+                    <hi rend="italic">γ</hi> three; &amp;c.; into eight tens, ∣ ten, κ twenty, λ
+                    thirty, &amp;c.; and eight hundreds, <hi rend="italic">ξ</hi> one hundred, d’
+                    two hundred, <hi rend="italic">r</hi> three hundred, &amp;c. 3. I stood for one,
+                    ∏ five, Δ ten, H a hundred, X a thousand, M ten thousand; and when the latter ∏
+                    inclosed any of these, except I, it showed the inclosed letter to be five times
+                    its value; as, ∣∆∣ fifty, ∣II∣ five hundred, ∣X∣ five thousand, ∣M∣ fifty
+                    thousand.</p>
+                <p>III. <hi rend="smallcaps">Characters</hi> of Abbreviations, &amp;c. in several of
+                    the arts, are symbols contrived for the more concise and immediate conveyance of
+                    the knowledge of things.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">Of the
+                            Aspects.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>ð or S Conjunction</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>∆ Trine</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>SS Semisextile</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Bq Biquintile</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>* Sextile</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Vc Quincunx</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Q Quintile</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="subscript"> o</hi><hi
+                            rend="superscript"> o</hi> Opposition</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>□ Quartile</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>St Dragon’s head</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Td Tredecile</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>IS Dragon’s tail</p></cell>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">Of
+                            Time.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">L. Μ. ante
+                            meridiem,</hi> before the sun comes upon the me</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>ridian.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>0. or N. noon.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>P. Μ. <hi rend="italic">post
+                            meridiem,</hi> when the sun is past the meridian.</p></cell>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p><hi rend="italic">Characters in
+                            Commerce.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>D <hi rend="superscript"> o</hi><hi
+                            rend="italic">ditto,</hi> the same</p><p>N <hi rend="superscript">
+                            o</hi><hi rend="italic">numero,</hi> or number</p><p>F <hi
+                            rend="superscript"> o</hi><hi rend="italic">folio,</hi> or page</p><p>C
+                            or φ hundredweight, or 112 pounds q <hi rend="superscript"> ts</hi>
+                            quarters <hi rend="italic">L.</hi> or Z. pounds sterling p <hi
+                            rend="superscript"> r</hi><hi rend="italic">per</hi> or by, p <hi
+                            rend="superscript"> r</hi><hi rend="italic">ann.</hi> by the year, p <hi
+                            rend="superscript"> r</hi><hi rend="italic">cent.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>S or 5, shillings <hi rend="italic"
+                            >d,</hi> pence or deniers ìb pound weight R <hi rend="superscript">
+                            o</hi><hi rend="italic">recto</hi> ì <hi rend="italic">/. j.</hi>
+                            V&lt;∙∞n&gt; <hi rend="italic">d'</hi><hi rend="italic superscript">
+                            ,lm</hi></p><p>R <hi rend="superscript"> x</hi> rixdollar</p><p>D ’
+                            ducat</p><p>P. S. postscript, &amp;c.</p></cell>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p><hi rend="italic">Characters in
+                            Geometry and Trigonometry.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>II the character of
+                            parallel</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Σ equiangular or similar</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>ism</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>_L equilateral</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>∆ triangle</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>an angle</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>□ square</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Z. right angle</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>ŋ [~∣ rectangle</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>J_ perpendicular</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Θ circle</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p><hi rend="superscript"> 0</hi> denotes a degree; thus, 45° implies 45
+                    degrees.</p>
+                <p>' denotes a minute; thus, 50' is 50 minutes. ", '", "", denote seconds, thirds,
+                    and fourths; and the same characters are used when the progressions are by tens,
+                    as it is here by sixties.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p><hi rend="italic">Characters in
+                            Grammar, Rhetoric, Poetry, 8fc.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>() parenthesis</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>D. D. doctor in divinity</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Ĳ crotchet</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>V. D. M. minister of the
+                            word</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>• - hyphen - .</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>of God</p></cell>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>’ apostrophe</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>LL.D, doctor of laws</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>emphasis or accent</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>J. U. D. doctor of civil
+                            and</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="superscript"> v</hi>
+                            breve</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>canon law</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>∙∙ dialysis</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Μ. D. doctor in physic</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="smallcaps">a</hi> caret and
+                            circumflex</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>A. Μ. master of arts</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>f ļ and * references</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>A. B. bachelor of arts</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>§ section or division</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>F. R. S. fellow of the
+                            royal</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>¶ paragraph</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>society</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>“quotation</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p><hi rend="italic">Characters among
+                            the ancient Lawyers, and in ancient In-</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >scriptions.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>§ paragraph</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>C. code</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>ff digests</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>C. C. consules</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Seto, senatus consulto</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>T. titulus</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>E. extra</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>P. P. D. D. propria
+                            pecunia</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p>S. P. Q. R. senatus
+                            populus-dedicavit</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>que Romanus</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>D. D. Μ. dono dedit monu</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>P. P. pater patriae</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>mentum</p></cell>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p><hi rend="italic">Characters in
+                            Medicine and Pharmacy.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>l; <hi rend="subscript"> 0</hi>
+                            recipe</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>coch. cochleare, a
+                            spoonful</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">a, aa,</hi> or ana,
+                            of each alike</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Μ. manipulus, a handful</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>lb a pound, or pint</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>P. a pugil</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>g an ounce</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>P. AE. equal quantities</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>3 a drachm</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>S. A. according to art</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>3 a scruple</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>q. s. a sufficient
+                            quantity</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>gr. grains</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>q. pl. as much as you
+                            please</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>β <hi rend="italic">οrfs</hi> half of
+                            any thing</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>P. P. pulvis patrum, the
+                            Je</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>cong. congius, a gallon</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>suits’ bark</p></cell>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">Characters upon
+                            Tomb-stones.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>S. V. Siste viator, z. <hi
+                            rend="italic">e.</hi> stop traveller.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>M.S. Memoriae sacrum, ?. <hi
+                            rend="italic">e.</hi> sacred to the memory.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>D. Μ. Diis manibus.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>J. II. S. Jesus.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>X. P. a character found in the
+                            catacombs, about the mean</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>ing of which authors are not
+                            agreed.</p></cell>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="5" role="data" rows="1"><p><hi rend="italic">Characters used in
+                            Music, and of Musical Notes with their</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="4" role="data" rows="1"><p><hi rend="italic">proportions, are as
+                            follows</hi><hi rend="italic">:</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1=1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>character of a large..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>,....8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Į* crotchet</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="smallcaps"
+                            >ã</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>H</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>a long</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>....4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>l’ quaver</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>... ⅜</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>H</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">a</hi>
+                            breve</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>....2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>£ semiquaver</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>∙∙∙⅛</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>o o</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>a semibreve</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>....1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>demisemiquaver...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>∙∙∙3⅛</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Ί</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>a minim</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p>⅝ character of a sharp note; this character at the beginning of a line or space
+                    denotes that all the notes in that line are to be taken a semitone higher than
+                    in the natural series; and the same affects all the octaves above and below,
+                    though not marked; but when prefixed to any particular note, it shows that note
+                    alone to be taken a semitone higher than it would be without such a
+                    character.</p>
+                <p>b or <hi rend="italic">b,</hi> character of a flat note. This is the contrary to
+                    the other above; that is, a semitone lower.</p>
+                <p>t[ character of a natural note. When in a line or series of artificial notes
+                    marked at the beginning ♭ or the natural note happens to be required, it is
+                    denoted by this character.</p>
+                <p>character of the treble cliff.</p>
+                <p>tzļ character of the mean cliff.</p>
+                <p>Q; bass cliff.</p>
+                <p>I or ∙∣, characters of common duple time, signifying the <pb break="no"
+                    facs="nls:193351215" xml:id="kp-eb0706-1215-0324"/>measure of two crotchets to
+                    be equal to two notes, of which four make a semibreve.</p>
+                <p>C ♯ ¢&gt; characters that distinguish the movements of common time, the first
+                    implying slow, the second quick, and the third very quick.</p>
+                <p>⅛, 3’ ¾’ ł’ ⅛ characters of simple triple time, the measure of which is equal to
+                    three semibreves, or to three minims.</p>
+                <p>í’ ⅛&gt; <hi rend="superscript"> or</hi> ^⅛ characters of a mixed triple time,
+                    where the measure is equal to six crotchets or six quavers.</p>
+                <p>S, or ⅛, or ⅛, or ⅛, or characters of compound triple time.</p>
+                <p>T2’ ⅛ Tth <hi rend="superscript"> or</hi> ⅛ <hi rend="superscript"> or</hi> T%’
+                    characters of that species of triple time called the measure of twelve
+                    times.</p>
+                <p><hi rend="smallcaps">Character,</hi> in human life, that which is peculiar in the
+                    manners of any person, and distinguishes him from all others.</p>
+                <p><hi rend="smallcaps">Character,</hi> in <hi rend="italic">Poetry,</hi>
+                    particularly the epopee and drama, is the effect or result of the manners or
+                    peculiarities by which each person is distinguished from others.</p>
+                <p>The poetical character is not properly any particular virtue or quality, but a
+                    composition of several which are mixed together in different degrees, according
+                    to the necessity of the fable and the unity of the action; there must be one,
+                    however, to reign over all the rest, and this must be found, in some degree, in
+                    every part. The first quality in Achilles is wrath, in Ulysses dissimulation,
+                    and in Aencas mildness; but as these characters cannot stand alone, they must be
+                    accompanied with others to embellish them, as far as they are capable, either by
+                    hiding their defects, as in the anger of Achilles, which is palliated by
+                    extraordinary valour; or by making them centre in some solid virtue, as in
+                    Ulysses, whose dissimulation constitutes part of his prudence; and in Aeneas,
+                    whose mildness is employed in submission to the will of the gods. In the making
+                    up of this union, it is to be observed, that the poets have joined together such
+                    qualities as are by nature the most compatible; valour with anger, piety with
+                    mildness, and prudence with dissimulation. The fable required prudence in
+                    Ulysses and piety in Aencas; in this, therefore, the poets were not left to
+                    their own choice. But Homer might have made Achilles a coward without abating
+                    any thing from the justness of his fable; and it was only the necessity of
+                    adorning his character that obliged him to make him valiant. The character,
+                    then, of a hero in the epic poem is compounded of three sorts of qualities; the
+                    first essential to the fable, the second embellishments of the first, while
+                    valour, which sustains the other two, constitutes the third.</p>
+                <p>Unity of character is as necessary as the unity of the fable. For this purpose a
+                    person should be the same from the beginning to the end; not that he is always
+                    to betray identical sentiments, or one passion; but that he should never speak
+                    nor act inconsistently with his fundamental character. For instance, the weak
+                    may sometimes burst into warmth, and the breast of the passionate may be calm; a
+                    change which often introduces into the drama a very affecting variety: but if
+                    the natural disposition of the former were to be represented as boisterous, and
+                    that of the latter as mild and soft, they would both act out of character, and
+                    contradict their personality.</p>
+                <p>True characters are such as we actually see in men, or as may exist without any
+                    contradiction to nature. No man questions but there have been men as generous
+                    and as good .as Aeneas, as passionate and as violent as Achilles, as prudent and
+                    as wise as Ulysses, as impious and atheistical as Mezentius, and as amorous and
+                    passionate as Dido. All these characters, therefore, are true, and nothing but
+                    just imitations of nature. On the contrary, a character is false when the author
+                    so feigns it that one can see nothing like it in the order of nature in which he
+                    designs it shall stand. Such characters should be wholly excluded from a poem,
+                    because, transgressing the bounds of probability and reason, they meet with no
+                    belief from the reader. They are fictions of the poct’s brain, not imitations of
+                    nature; and yet all poetry consists of an imitation of nature.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

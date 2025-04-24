@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0721-0458-0428-05" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">TURNING</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 21, page 428</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="1" ref="lcsh1910:b4x34mr95">Art</term>
+                    <term n="23" ref="lcsh1910:b4mk65g52">Plating</term>
+                    <term n="23" ref="lcsh1910:b44f1mn8h">Plate</term>
+                    <term n="16" ref="lcsh1910:b43n20n3s">Pulleys</term>
+                    <term n="12" ref="lcsh1910:b4pk07518">Face</term>
+                    <term n="12" ref="lcsh1910:b4vx0648s">Chucks</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="23" ref="fasttopic:1066737">Plate</term>
+                    <term n="23" ref="fasttopic:1066824">Plating</term>
+                    <term n="16" ref="fasttopic:1083789">Pulleys</term>
+                    <term n="15" ref="fasttopic:1894461">Mandrill</term>
+                    <term n="15" ref="fasttopic:829528">Beds</term>
+                    <term n="1" ref="fasttopic:817721">Arts</term>
+                    <term n="1" ref="fasttopic:815177">Art</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ht:chi.12945678&amp;view=1up&amp;seq=458" type="entry">
+                <p><label type="entry">TURNING</label>, the art of giving circular and other forms
+                    to objects, by making them revolve in various manners in a machine called a
+                    lathe, and applying cutting instruments so as to produce the form required; or
+                    by making the cutting instrument revolve, when the object to be operated upon is
+                    fixed.</p>
+                <p>This art is of great antiquity, and is of immense importance to the practical
+                    mechanic. It embraces many varieties requiring varied machinery for their proper
+                    performance, from the simple throwing wheel of the potter to the complicated and
+                    nearly automatic slide-lathe, in which, almost independent of manual dexterity,
+                    an indefinite number of copies of an article can be produced with unerring
+                    accuracy.</p>
+                <p>There is probably, in the range of mechanical operation, none susceptible of
+                    greater accuracy than the art of turning, and there is none which has so much
+                    conduced to the improvement of our machinery. The extent of the applications of
+                    this art may be learned by the four following conditions, which comprise the
+                    most important of its varieties. A knowledge of the manipulations no mere
+                    description can convey; and as, in the limits here assigned us, it would be
+                    impossible to describe all the varieties of the art, and the machines made use
+                    of, we shall content ourselves with such a selection as may appear to us to
+                    possess the greatest interest for the general reader.</p>
+                <p>1st. The article to be turned may be made to revolve round its own axis, and the
+                    cutting tool applied to its surface, so as to produce the requisite form, as in
+                    simple turning, performed in the ordinary lathe used by cabinet-turners; the
+                    more powerful lathe used for turning metal of large diameter; and the
+                    self-acting slide-lathe.</p>
+                <p>2d. The article may remain stationary, while the cutting instrument either merely
+                    revolves, or, while revolving, has at the same time some other motion given to
+                    it.</p>
+                <p>3d. The article may be made to move in some curve derived from circular motion,
+                    and the cutting tool applied as before.</p>
+                <p>4th. The article may be made to revolve, and at the same time to have a
+                    reciprocating motion in the direction of its axis, the cutting instrument being
+                    only applied, however, while the article is either in the course of its forward
+                    or backward motion, but its application not continued through both; and all
+                    these motions may be more or less combined, thus producing almost infinite
+                    variety.</p>
+                <p>The self-acting slide-lathe being the most perfect of the machines of the first
+                    class, we have preferred giving a drawing and description of it; from these, the
+                    other lathes referred to will be more easily understood than if we had described
+                    a less perfect machine. The lathe, when of large size, is generally driven by
+                    steam or other power; but when small it is driven by a treadle put in motion by
+                    the foot of the workman. The treadle acts on a cranked axle, on which is fixed a
+                    fly-wheel; and a band from the fly-wheel passes over the pulley of the mandril
+                    or spindle, to which the article to be turned is attached. This is generally the
+                    arrangement of the common lathe, which differs from the slide-lathe only in
+                    wanting the slide and its moving apparatus, which we are about to describe, and
+                    has in place of it a simple rest to work by hand.</p>
+                <p>The following figures represent the slide-lathe as constructed by Messrs
+                    Whitworth &amp; Company of Manchester, and exhibit certain contrivances which
+                    have been patented by these gentlemen.</p>
+                <pb break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=459"
+                    xml:id="kp-eb0721-0459-0429"/>
+                <p>the same parts in all the figures. A A is a strong framing, which supports the
+                    bed of the lathe B B. At the left-hand extremity of the bed is fixed the head C
+                    C, and through steel bushes in the tiprights, or puppets as they are termed, the
+                    spindle or mandril D works; the projecting right hand end of the mandril is
+                    screwed, so that chucks and other apparatus for holding the work to be turned
+                    may be attached to it. One of these, the double driver, will be found figured
+                    and described afterwards. In brackets projecting backwards from the uprights
+                    another spindle E works. One of the brackets and the end of the spindle are seen
+                    in fig. 2. On the main spindle D there is a conical pulley F, carrying a pinion
+                    on its smaller end; the pulley with its pinion turns on the spindle, hut
+                    independently of it. To the right of the pulley is a spur-wheel H, keyed on the
+                    spindle; to this spur-wheel the pulley can be locked at pleasure, so as to be
+                    carried round along with it. On the spindle E is a spur-wheel G and a pinion,
+                    which cannot be seen in the drawing. These are fitted respectively to gear with
+                    the spur-wheel and pulley-pinion of the main spindle. Different materials
+                    require to pass the cutting tool with different degrees of rapidity, in order to
+                    be efficiently operated upon. Cast iron requires to revolve slowly, so that it
+                    may come in contact with the cutting tool at the rate of about 100 feet per
+                    minute; wrought iron and steel about twice as quick; and brass is better cut at
+                    a still higher velocity. Thus, it is required that provision be made in the
+                    lathe for altering the speed, independently of the velocity of the prime mover.
+                    It is obvious, too, that the same material must require a change in the speed of
+                    the lathe, according to its diameter, that a uniform rate of speed may be
+                    maintained by its surface. This alteration in the velocity of the spindle or
+                    mandril is produced by the pulley and wheels we have just described, in the
+                    following manner :—When the belt from the prime mover, acting on the pulley F,
+                    causes it to revolve, if a slow motion be required, the pinion of the pulley is
+                    made to gear with the spur-wheel I of the spindle E; and the pinion fixed on the
+                    same spindle gearing into the spur-wheel H of the main spindle D, causes it to
+                    revolve with a motion slow as compared with the speed of the pulley. If a higher
+                    velocity be required, the wheel and pinion of the spindle E are put out of gear
+                    with the pinion and wheel of the main spindle by sliding the spindle E a little
+                    to the left hand, and then locking together the pulley and spur-wheel H, so as
+                    to cause the main spindle to turn directly by the pulley.</p>
+                <p>The face of the spur-wheel H has drawn on it a great number of concentric
+                    circles. The circumference of each circle is divided into equal parts, and such
+                    numbers are chosen for the division as are multiples of the greatest variety of
+                    measures; at each division of the circles there is pierced a hole, into which a
+                    point is pressed by a spring. By means of this apparatus, an object in the lathe
+                    can have its surface divided into any number of equal parts. On the end of the
+                    main spindle is fixed a pinion K, which, by the intervention of the stud-wheels
+                    and pinion L, drives the spur-wheel M, fixed on the end of a screw N, which
+                    extends along the whole length of the lathe, and is called the leading screw.
+                    The ends of the leading screws and main spindle are made accurately of the same
+                    size, so that the wheels and pinions which have for different purposes to be
+                    fixed on them may be exchangeable. On the right hand side of the lathe is seen
+                    the shifting-head or puppet O, which is capable of being shifted along to any
+                    part of the bed, and fixed there, and which carries the centre pin. This is
+                    adjusted more nicely to its work by means of a screw turned by the wheel P, and
+                    it is fixed by the clamping screw Q. The slide-rest consists of an upper and an
+                    under slide: the latter lies across the bed, and is moved along it lengthways by
+                    means of the leading screw. The upper slide can move at right angles to the
+                    under one, and carries the cutting tools: the manner in which the slides are
+                    moved by the leading screw is, in this lathe, very ingenious. From the under
+                    slide there descends a short vertical spindle, carrying on its lower extremity a
+                    peculiarly-formed pinion ♯, which is constantly in gear with the leading screw.
+                    When the leading screw is in motion and the pinion fixed, the latter serves as a
+                    nut or female screw, and the slide is moved along the bed of the lathe to the
+                    right or to the left as the screw may be turned. On the upper end of the
+                    vertical spindle there is fixed a mitred wheel <hi rend="italic">b</hi>: into
+                    this a pinion <hi rend="italic">c</hi> works, whose spindle crosses the slide,
+                    and has a handle <hi rend="italic">d</hi> fixed to it. On the slide having
+                    reached one or other extremity of the bed of the lathe, it may be carried to the
+                    other by reversing the motion of the screw; but it is more speedily done by
+                    turning the handle <hi rend="italic">d</hi> which turns the pinion <hi
+                    rend="italic">a,</hi> and so the slide is carried along very rapidly.</p>
+                <p>The upper slide is moved across the bed of the lathe as follows: A pinion <hi
+                    rend="italic">e,</hi> which works into the mitred wheel of the vertical spindle,
+                    is fixed on the end of a shaft <hi rend="italic">f</hi>, on whose other end is
+                    fixed the wheel <hi rend="italic">g</hi>; this gears into another wheel A, fixed
+                    on the end of a leading screw, which crosses the main leading screw, and, by
+                    means of an apparatus similar to that above described, causes the upper slide to
+                    move at right angles to the under one. In fig. 3 the under slide is represented
+                    as fixed in its position by means of a clamp, whose handle is seen at <hi
+                    rend="italic">k</hi> in fig. 1, and the main leading screw is, by means of the
+                    pinion <hi rend="italic">a,</hi> the mitred wheel <hi rend="italic">b</hi>, and
+                    the pinion and wheels <hi rend="italic">e</hi>, <hi rend="italic">g, h</hi>,
+                    working the cross leading screw of the upper slide, by which it is moved across
+                    the bed of the lathe.</p>
+                <p>In plain cylindrical turning, the motion of the slide is so adjusted in relation
+                    to the motion of the article operated upon, that the cutter carried by the slide
+                    shall not move over a space greater than the breadth of its point in the lime
+                    that the article makes one revolution. In screw-turning, the cutter again is
+                    made to travel over a space as much greater than the breadth of its point during
+                    one revolution of the spindle, as the pitch of the screw requires. The requisite
+                    changes in the motion are effected by changing the wheels on the ends of the
+                    main spindle and the leading screw.</p>
+                <p>On the mandril nose there is represented, in fig. 1, what is called a double
+                    driver, and we here give the details of an excellent apparatus of this kind,
+                    invented by Mr Joseph Clement of London, by which an article can be fixed
+                    perfectly true between the centres of the lathe. The figures and description are
+                    from the Transactions of the Society of Arts of London, vol. xlvii.</p>
+                <p>“Fig. 4 is a side or edge view of the chuck; and fig. 5 is a face or front view.
+                    The same letters refer to the same part in both views.</p>
+                <p><hi rend="italic">“a a</hi> is a circular plate or chuck, on the back of which is
+                    formed a boss <hi rend="italic">b</hi>: the boss ⅛ contains a female screw for
+                    screwing it on the nose of the lathe-mandril. On the face of the chuck or plate
+                    <hi rend="italic">a a,</hi> and in the middle, is screwed a conical centre <hi
+                    rend="italic">c,</hi> on which is supported one end of the thing to be turned,
+                    as shewn at <hi rend="italic">d</hi> in fig. 4. <hi rend="italic">e e</hi> is a
+                    parallel plate in the form of a cross, one side of which is fitted to the face
+                    of the chuck <hi rend="italic">a a;</hi> in the middle of the horizontal arms of
+                    the plate <hi rend="italic">e e</hi> are two oblong holes <hi rend="italic">f
+                    f,</hi> as represented by the dotted lines in fig. δ; <hi rend="italic">g g</hi>
+                    are two screws which pass through the holes <hi rend="italic">ff,</hi> and screw
+                    into the face of the chuck <hi rend="italic">a a;</hi> the necks of the screws
+                    <hi rend="italic">g g</hi> are made to fit the holes <hi rend="italic">f f</hi>
+                    in one direction, but the plate <hi rend="italic">e e</hi> is at liberty to
+                    slide to and fro beneath the heads of the screws <hi rend="italic">g g</hi> in
+                    the contrary direction: there are also thin washers beneath the heads of the
+                    screws <hi rend="italic">g g,</hi> which act as springs, and tend to hold the
+                    plate <hi rend="italic">e e</hi> in the situation wherever it may be slid to;
+                    there is also an oblong hole in the middle of the plate <hi rend="italic">e
+                    e</hi>, through which projects the centre <hi rend="italic">c:</hi> in the
+                    vertical arms of the cross or plate <hi rend="italic">e e</hi> are six screwed
+                    holes; <hi rend="italic">h</hi> and <hi rend="italic">i</hi> are two studs or
+                    drivers, which may be screwed into any of the holes marked <hi rend="italic"
+                    >j</hi>, so as to accommodate the length of the ends of the carrier <hi
+                    rend="italic">k.</hi> There is a face view of the carrier *, represented in its
+                    place (by dotted lines on the face of the plate, <hi rend="italic">e e,</hi>
+                    fig. 5). The ends of the carrier are acting against the studs A and ».</p>
+                <p>“Supposing a piece of metal d, to be supported between the centre <hi
+                    rend="italic">c</hi> of the chuck <hi rend="italic">a a</hi> and the centre of
+                    the puppet-head of the lathe, and the carrier <hi rend="italic">k</hi> to be
+                    fixed on one end of it, as shewn in fig. 4: let the plate <hi rend="italic">e
+                    e</hi> (see fig, 5) be slid on the face of the chuck <hi rend="italic">a a.</hi>
+                    a little towards the left hand; then the stud <hi rend="italic">h</hi> will
+                    cause the upper end of the carrier <hi rend="italic">k</hi> to move or turn in
+                    the same direction upon the centre <hi rend="italic">c.</hi> But the stud <hi
+                    rend="italic">i</hi>, and the lower end of the carrier <hi rend="italic">k,</hi>
+                    will be moved in contrary directions, and will be separated from each other
+                    double the distance that the plate <hi rend="italic">e c</hi> has slid on the
+                    face of the chuck <hi rend="italic">a a;</hi> therefore, should the plate <hi
+                    rend="italic">c e</hi> be in the above position, and the lathe put in motion, so
+                    as to turn the plate <hi rend="italic">a a</hi> round to. wards the left hand,
+                    the stud or driver <hi rend="italic">h</hi> would be the first that would come
+                    in contact with the carrier <hi rend="italic">k</hi>. But when the turning-tool
+                    is applied to the thing to be turned, or any resistance which tends to prevent
+                    it from turning round, the carrier <hi rend="italic">k</hi> will cause the upper
+                    stud A and the plate <hi rend="italic">e e,</hi> together with the stud <hi
+                    rend="italic">i</hi>, to be slid towards the left hand till the stud <hi
+                    rend="italic">i</hi> comes in contact with the lower end of the carrier <hi
+                    rend="italic">k;</hi> then the studs or drivers <hi rend="italic">h</hi> and <hi
+                    rend="italic">i</hi> will be acting with equal force against the ends of the
+                    carrier <hi rend="italic">k,</hi> which will remove the greatest part of the
+                    twist or strain from the centre <hi rend="italic">e</hi> of the chuck <hi
+                    rend="italic">a a,</hi> by which means any slender cylinder, &amp;c. may be
+                    turned more perfectly than can be done by a single driver. If another stud be
+                    screwed into one of the holes opposite the drivers <hi rend="italic">h</hi> or
+                    <hi rend="italic">i</hi>, it will prevent the thing to be turned from
+                    overrunning itself, or back-lashing, when it has got a heavyside. The drivers
+                    <hi rend="italic">h</hi> and <hi rend="italic">i</hi> may be made of different
+                    lengths, as may be found most convenient.”</p>
+                <p>When it is required to replace in the lathe an article whose <pb break="no"
+                    facs="ht:chi.12945678&amp;view=1up&amp;seq=460" xml:id="kp-eb0721-0460-0430"
+                    />centres have been lost, a simple apparatus, called a boring collar, is made
+                    use of. It consists of a puppet, capable of being fixed on the bed of the lathe,
+                    in the same manner as the puppet O, fig. 1, and as a substitute for it. On the
+                    right hand side of this is fixed, by a bolt through its centre, a disc of cast
+                    iron, which has been turned perfectly flat, and which is of as large diameter as
+                    the height of the puppet above the bed will admit. On this disc a circle is
+                    traced, the highest point of it being exactly level with the centre of the
+                    mandril; and all round the circle are bored holes, varying in their dimensions,
+                    to suit the different sizes of the objects which require to be centred. The disc
+                    moving round on the bolt by which it is attached to the puppet, the hole
+                    suitable for the article to be centred is turned uppermost, so as to be on a
+                    line with the mandril, and the disc is then fixed in that position by another
+                    bolt or pin, which is passed into a hole in the puppet below the centre, through
+                    one of another inner series of holes in the plale, which correspond to those
+                    above described.</p>
+                <p>The slide-lathe which we have described is one well adapted for the machinist;
+                    but for particular uses, certain modifications are made in the apparatus: of
+                    these we shall immediately speak. In the mean time we may observe, that a very
+                    useful arrangement of the slide-lathe has been made by Mr C. D. May of
+                    Edinburgh. In his lathe the slide works, not on the top of the bed, but along
+                    its face: it thus can pass from end to end clear of the puppets, and the lathe
+                    can at once be converted into an ordinary one to work by hand, by moving the
+                    slide to the right hand extremity of the lathe, clear of the shifting puppet,
+                    and applying the ordinary rest to work by hand. This lathe is very neat, is
+                    simple in construction, and occupies little space</p>
+                <p>The modifications in the slide-rest are as follows: The upper slide, in place of
+                    being able to move at right angles only to the lower rest, may have other
+                    motions given to it. It may be made to turn round on a centre, and, by an index
+                    and graduated arc, may be set at any angle to the axis of the mandril. In this
+                    way it is used for turning conical work. The rest may be made, too, to receive
+                    cutting instruments, to which circular motion may be given, while the article
+                    operated upon remains stationary, as mentioned in the second division of the
+                    subject.</p>
+                <p>In this case a frame is added to the lathe, consisting of two uprights, one at
+                    each end, carrying a series of pulleys put in motion by bells from the
+                    fly-wheel, and which again, by means of a band, give motion to a pulley fixed on
+                    the end of a revolving cutter, carried by the slide. It will at once be seen,
+                    that when an article is held in a chuck on the end of the mandril, and turned
+                    round, so as, by means of the divided circles on the spur-wheel face, to present
+                    any number of sides to the action of the revolving cutter, and when the cutter
+                    itself can, by means of the double slides and turning motion, be set in almost
+                    any position relative to the work, the variety of uses of which this arrangement
+                    is susceptible is almost infinite. Holes may be bored with it radiating from the
+                    axis of a cylinder, as for the spokes of a wheel: they may be bored in a
+                    straight line, or in a helical line; continuous grooves may be formed in any
+                    direction. By using proper cutters, any of the geometrical solids may be formed
+                    in the lathe. A very obvious application of this apparatus is to the cutting of
+                    the teeth of wheels, either direct or oblique. Suppose that it is required to
+                    cut a wheel of ninety teeth: a circle in the dividing plate on the face of the
+                    spur-wheel, containing ninety holes, or any multiple of that number, is
+                    selected, and the spring pointer being fixed in the first hole, a proper cutter,
+                    fixed on a vertical spindle, is made to act on the wheel, and to cut out the
+                    first tooth to the proper depth: it is then withdrawn, and the mandril is turned
+                    round until the pointer falls into the second hole of the dividing plate; the
+                    cutter is again applied for the second tooth, and so on successively for all of
+                    them In what we have described we have supposed the work to be fixed to the
+                    mandril of the lathe, and the cutting instruments attached to the slide; but the
+                    case may be reversed, and thence arises a new variety of applications. A
+                    circular saw being fixed on the mandril, an article held in the slide-rest may
+                    be presented to it, so as to be cut in any plane. Large drills, too, may be
+                    carried by the mandril, and the work to be bored fixed to the slide.</p>
+                <p>To the other varieties of the art the term of ornamental turning or
+                    engine-turning is generally applied. Among these are rosette turning, eccentric
+                    turning, elliptic turning, epicycloidal turning, and spiral turning. The lathe
+                    for the first of these has this peculiarity. The head on the left, in place of
+                    being fixed firm on the bed, stands between centres parallel to the spindle at
+                    the level of the bed. It is kept in its proper position by the adjusted pressure
+                    of four springs, one of which is fixed at each side of the front and back
+                    puppet. On the spindles are fixed the rosettes, from which the lathe derives its
+                    peculiar motion. These rosettes consist of wheels, discs, or portions of
+                    cylinders, having their surface indented in various forms. Fixed parallel to the
+                    spindle, but at a lower level, is the bar on which the rubbing apparatus is
+                    fixed; the rubber, being placed in contact with one of the rosettes, and
+                    incapable of yielding to the inequalities of its surface, forces the spindle on
+                    which the rosettes are placed, and consequently the article operated on, to move
+                    in various regular curves, as the indentations on the rosette guide them. The
+                    rosette may be applied to elliptical turning by using a proper chuck, as
+                    described under that head. For vertical waved lines, a pinion is fixed on the
+                    head of the spindle, working a rack attached to a vertical slide fixed in the
+                    front puppet; to counterbalance the slide, a cord is attached to its top, passed
+                    over a pulley above, and attached to a weight at its other extremity; thus the
+                    pinion is relieved from unnecessary friction.</p>
+                <p>In eccentric turning, an eccentric chuck is used. This consists of a solid
+                    circular plate, which is fixed to the mandril of the lathe. On the face of the
+                    plate are fixed two guides, so as to form a dovetailed slide for another plate,
+                    which is moved by a screw sunk in a slot in the under plate. On the upper plate
+                    is a circular toothed plate, which is capable of being turned round its centre,
+                    and is retained in any position by a catch, which falls between its teeth, and
+                    is held by a spring. On the centre of this wheel is fixed a screw similar to
+                    that on the nose of the mandril, and to this is chucked the work to be turned.
+                    The first plate moves, of course, concentric with the s indie of the lathe; but
+                    the slide, with its circular plate, can be moved so that the work revolves with
+                    any degree of eccentricity required.</p>
+                <p>Epicycloidal turning is another beautiful variety of the art. Like eccentric
+                    turning, this is performed by a chuck peculiarly formed, but so complicated as
+                    to be totally unintelligible without the aid of numerous figures; we are under
+                    the necessity, therefore, of referring the reader to the works quoted at the end
+                    of the article for a full explanation of it. In Bergeron’s work, he will find
+                    beautiful engravings of the apparatus for this and the other varieties of
+                    ornamental turning, with minute descriptions.</p>
+                <p>Elliptic turning will be found described under that title.</p>
+                <p>The lathe for spiral turning is constructed as follows. On a shaft lying above
+                    the bed are three drums, or large wheels, with broad rims, that on the extreme
+                    left being smaller than the other two. To the circumference of the latter is
+                    attached a cord, which is stretched tight to the end of a strong elastic beam or
+                    spring fixed at the roof. On the bed, beneath this drum, is the fixed head,
+                    which consists of two puppets fixed at about two and a half feet asunder. In the
+                    top of each puppet is fixed a brass bush, in which the spindle, which is
+                    perfectly cylindrical, moves as directed by the leading screw, consisting of a
+                    cylinder of wood, firmly fixed on the spindle between the two puppets, on which
+                    is grooved out a screw of the same pitch as that required to be made. This is
+                    effected by placing beneath, and close to the cylinder, a wheel having a thin,
+                    round, or pointed edge, and turning on centres in a forked frame, after the
+                    manner of a framed pulley. The frame of this wheel is fixed on a stiff centre,
+                    so as to be capable of being set to any angle. If the spindle be then caused to
+                    revolve, it will also move in a longitudinal direction, in exact proportion to
+                    the divergence from a right angle, at which the wheel is set. and there will be
+                    traced on the cylinder a screw, which, when cut to fit the edge of the wheel, is
+                    a leading screw. These leading screws may be multiplied indefinitely, by
+                    shifting the wheel to different angles, to mark a y number of cylinders or
+                    leading screws that may be required. On the spindle at the front of the leading
+                    screw is a wooden pulley, round which passes the cord which conies down from the
+                    large drum on the left; it then passes down and is fixed to the left corner of
+                    the treadle, the other end of which is raised by a cord passing straight from
+                    its extremity to the large drum on the other end of the shaft. By pressing down
+                    the treadle, the cord, which. as before remarked, passes round the pulley on the
+                    spindle, causes it to revolve; it also, by unwinding from the drums, causes them
+                    and their shaft to revolve, and the smaller drum, as it revolves, warps round it
+                    the cord attached to the spring in the roof, thereby bending it. It is evident
+                    that, whenever the pressure of the foot on the treadle is removed, the
+                    elasticity of the spring will cause it to pull off the cord which held it down,
+                    and cause the small drum round which the cord was wound, and the other drums,
+                    and the spindle, to revolve in the opposite direction to that caused by the
+                    descent of the treadle.</p>
+                <p>The shift ng head consists of two puppets and a spin&lt;lle. the same as that
+                    just described for the fixed head. Solid on the head of each spindle is a socket
+                    or hollow cylinder, in which is fixed, by means of a side-screw or otherwise, a
+                    strong taper screw: one of these screws is inserted into each end of the piece
+                    of wood to be turned. The rest has a groove, through which the tool passes, in
+                    order to prevent the longitudinal motion from displacing it. It is evident that
+                    no more length of twisted work can be produced at once than the length of the
+                    leading screw: but by shilling the rest, and taking care that the cuts join
+                    accurately, the twist or <pb break="no"
+                    facs="ht:chi.12945678&amp;view=1up&amp;seq=461" xml:id="kp-eb0721-0461-0431"
+                    />screw may be continued to any desired length. By means of this lathe, every
+                    variety of twisted work can be produced.</p>
+                <p>The reciprocating motion of the spindle may be varied by the introduction of
+                    other apparatus for its introduction than the screw we have described. By means
+                    of elliptical or other rubbers placed at the extremity of the spindle, singular
+                    compound motions are produced; and when with these are combined rubbers to cause
+                    lateral motion, as in the rosette lathe, an immense variety of beautiful and
+                    fanciful figures is the result.</p>
+                <p>For full information on lathes and turning, the reader may consult the
+                    Transactions of the various societies, and the following works: L’Art de
+                    Tourner, par Charles Plumier, Lyons, 1701: L’Art de Tourner, par Paulin
+                    Desormeux, Paris, 1824; Manuel du Tourneur, par Bergeron, Paris, 1816;
+                    Ibbetson’s Specimens of Eccentric Circular Turning.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

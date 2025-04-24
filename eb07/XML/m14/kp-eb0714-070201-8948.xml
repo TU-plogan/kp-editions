@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0714-8948-0702-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">METASTASIO, Pietro</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 14, page 702</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="9" ref="lcsh1910:b4639kc77">Poets</term>
+                    <term n="8" ref="lcsh1910:b4v11vw02">Work</term>
+                    <term n="6" ref="lcsh1910:b44j09z32">Founding</term>
+                    <term n="4" ref="lcsh1910:b4kh0f02c">Death</term>
+                    <term n="3" ref="lcsh1910:b45m62623">Drama</term>
+                    <term n="3" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="1" ref="lcsh1910:b49c6s277">Christianity</term>
+                    <term n="1" ref="lcsh1910:b45m62b4v">Germans</term>
+                    <term n="1" ref="lcsh1910:b4x34mr95">Art</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="6" ref="fasttopic:934209">French</term>
+                    <term n="3" ref="fasttopic:947546">Greeks</term>
+                    <term n="2" ref="fasttopic:1100116">Romans</term>
+                    <term n="2" ref="fasttopic:846504">Capitols</term>
+                    <term n="1" ref="fasttopic:980750">Italians</term>
+                    <term n="9" ref="fasttopic:1182566">Year</term>
+                    <term n="9" ref="fasttopic:1067778">Poets</term>
+                    <term n="8" ref="fasttopic:1180188">Work</term>
+                    <term n="6" ref="fasttopic:933281">Founding</term>
+                    <term n="4" ref="fasttopic:1126696">Sons</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="6" ref="fastgeo:1754964">Rome</term>
+                    <term n="2" ref="fastgeo:1219920">England</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194208948" type="entry">
+                <p><label type="entry">METASTASIO, <hi rend="smallcaps">Pietro</hi></label><hi
+                    rend="smallcaps">Buonaventura,</hi> one of the great masters of modern Italian
+                    poetry, was born at Rome on the 3d of January 1698. Though the son of a poor
+                    artisan named Trapassi, he had nevertheless for his godfather the Cardinal
+                    Pietro Ottoboni, who gave to the infant his own Christian name. The young
+                    Trapassi had scarcely attained the age of ten, when his poetical talent
+                    displayed itself by his surprising improvisations. One day when a crowd of
+                    persons had assembled around him in the Campus Martius, the celebrated
+                    jurisconsult Gravina approached, and having listened to his performance,
+                    bestowed on it some just commendations; after which he offered the boy a piece
+                    of money, which the latter nobly refused. Gravina, not less delighted with his
+                    spirit than charmed with his genius, went immediately to the father of the boy,
+                    and without much difficulty persuaded him to abandon all concern about the
+                    education of his son, whom he undertook to instruct; and, in point of fact, the
+                    generous jurisconsult taught him the elements of Greek, Latin, and Italian
+                    literature. By a singular caprice, the young man changed his name of Trapassi
+                    into that of <hi rend="italic">Metastasio,</hi> which, in Greek, has the same
+                    signification; and, according to the Roman usage, he prefixed to it the title of
+                    Abbate. Gravina, though chiefly devoted to the study of legislation, was also
+                    addicted to poetry, in the cultivation of which he sought rclief from graver and
+                    more laborious pursuits. Being particularly attached to the Greek drama, he
+                    aspired to the glory of reviving it in Italy; and he had already published five
+                    tragedies, on the ancient model, when he became convinced that his pupil was
+                    much better qualified than himself for the execution of this grand project. At
+                    his instigation, accordingly, Metastasio, though as yet only fourteen years of
+                    age, composed his <hi rend="italic">Giustino,</hi> the great defect of which is
+                    too servile an imitation of the ancients; and at the same time, for his own
+                    satisfaction, he amused himself in translating portions of the Iliad into
+                    Italian verse. Nevertheless, Gravina, concerned about the fortune of his pupil,
+                    wished that with the cultivation of letters Metastasio should combine the study
+                    ofjurisprudence. To this austere occupation the young poet sacrificed with
+                    regret the time which he was forced to take from the muses; but Gravina died
+                    suddenly, leaving the greater part of his property to his adopted son; and
+                    Metastasio, though not yet twenty years of age, thus found himself master of a
+                    considerable fortune. In an elegy entitled <hi rend="italic">La Strada della
+                    Gloria,</hi> he bewailed the death of his benefactor, for whose memory he
+                    cherished the most ardent and sincere regard; but the numerous acquaintance whom
+                    his talents and fortune procured him soon distracted his attention, whilst they
+                    consumed his time; and so inconsiderately did the youth abandon himself to this
+                    agitated life, that, at the end of two years, he found he had made more
+                    creditors than friends, the bequest of his patron being by this time nearly
+                    exhausted.</p>
+                <p>In these circumstances, he took the resolution of quitting Rome; and, in 1721,
+                    went to establish himself at Naples, in which city he began to devote himself
+                    entirely to the theatre. Here a distinguished actress, called La Romanina,
+                    contributed so much to the success of his first attempts in the drama, that his
+                    gratitude for her exertions soon assumed the character of attachment. Apostolo
+                    Zeno, Corneille, and Racine, now became the objects of his continual study. This
+                    is attested by several of his Italian biographers, particularly by Mauro Boni,
+                    who has written with great care the literary life of the poet; and hence it is
+                    not easy to discover upon what authority Schlegel has alleged that Metastasin,
+                    in order to preserve his originality pure, boasted of having carefully avoided
+                    consulting the masterpieces of the French stage. It was also at Naples, and for
+                    La Romanina, that the young poet composed his famous <hi rend="italic"
+                    >Didone</hi><hi rend="italic">abbandonata,</hi> which was represented for the
+                    first time in the year 1724. The success of this production is inconceivable.
+                    All the great cities of Italy vied with one another in the pomp and splendour of
+                    the representations; and the country was deserted by its population, which
+                    rushed in a body to witness the performance of the <hi rend="italic"
+                    >Didone.</hi> Being now in a condition to satisfy his creditors, Metastasio lost
+                    no time in returning to Rome. In the eternal city he had no other residence than
+                    that of La Romanina, who repeated and sung his verses as soon as he composed
+                    them.</p>
+                <p>His reputation having now become general, the Emperor Charles VI. in the year
+                    1729 offered him the title of <hi rend="italic">Poeta Cesareo,</hi> or imperial
+                    lauréat, with an annual allowance of three thousand florins. In this situation
+                    he had the honour to succeed Apostolo Zeno, who himself declared that a better
+                    choice could not be made. Before adopting a new country, Metastasio did not
+                    neglect the comforts of his family, having secured an asylum for the declining
+                    years of his father, and made a provision for each of his sisters. To them also
+                    he made over all his income in Italy, and he constantly assisted with his
+                    counsel and with his means a younger brother, who followed the profession of
+                    advocate at Rome. At length it became necessary to quit La Ro∙ manina, and this
+                    separation cost him a severe struggle. Having arrived at Vienna in the spring of
+                    the year 1730, he had immediately the honour of being presented to the emperor
+                    at the castle of Luxemburg. At the particular request of the master of
+                    ceremonies to the apostolic nuncio, Niccolo de Martinez, he took up his abode in
+                    the residence of that functionary; and it was in this same house that, some
+                    years afterwards, fortune brought together, in two chambers situated the one
+                    above the other, two men who have filled Europe with their renown, Metastasio
+                    and Haydn. But the only benefits which the great musician, then young and poor,
+                    derived from this fortuitous conjunction, were a knowledge of the Italian
+                    language, and some counsels as to the best mode of attaining the truly beautiful
+                    in art.</p>
+                <p>The Italian friends of the new imperial lauréat had predicted to him, when he
+                    quitted Rome, that the cloudy atmosphere of Germany would freeze his
+                    imagination; but so far was this from being the case, that it never showed
+                    itself more ardent or more prolific. Indeed, one cannot help, even now, feeling
+                    some surprise in running over the list of the various works which he composed
+                    during the first years of his residence at Vienna, and amongst which may be
+                    found several of those that have contributed most to extend his reputation. Such
+                    are the <hi rend="italic">Giuseppe Ricoosciutο,</hi> the <hi rend="italic"
+                    >Demofonte,</hi> and also the <hi rend="italic">Olimpiade,</hi> which all Italy
+                    agreed to surname the divine. A severe affliction, however, served to temper the
+                    exultation of success. His faithful friend La Romanina, the ministering angel of
+                    his genius, had sunk into a premature grave. But even in this sorrowful
+                    occurrence he found an occasion for exemplifying the innate excellence of his
+                    character. That celebrated cantatrice had, by her will, left him a legacy of
+                    twenty-five thousand Roman crowns, a bequest which lie generously renounced in
+                    favour of poor Bulgurelli, the almost forgotten husband of La Romanina.<note
+                    anchored="true" place="bottom" type="authorial"><p>“Whether Metastasiq’s
+                    connexion with the Romanina was purely platonic,” says Dr Burney, “or of a less
+                    seraphic kind, I shall not pretend to determine; but the husband residing in the
+                    same house with them, both at Naples and at Rome, and the friendly manner in
+                    which the poet always mentioned him in his letters to the wife, with the open
+                    manner in which he expressed his affliction to him after her death, would, in
+                    England, be thought indications favourable to conjugal fidelity·” We do not know
+                    why they should not be thought so in Italy as well as in England. “But a chaste
+                    actress and opera singer,” he adds, “is a still more uncommon phenomenon in
+                    Italy than in Britain.” The truth of this alleged fact may, however, be doubted;
+                    and, at all events, we have not met with a vestige of evidence to justify the
+                    insinuation which it is here employed to convey.</p></note><hi
+                    rend="superscript"> j</hi><pb break="no" facs="nls:194208961"
+                    xml:id="kp-eb0714-8961-0703"/>Metastasio was engaged upon a new piece, <hi
+                    rend="italic">Attilio</hi><hi rend="italic">Elegolo,</hi> when the unexpected
+                    death of his august protector disconcerted all his hopes. The Emperor Charles
+                    VI. had scarcely been consigned to the tomb when his inheritance was disputed by
+                    several powers. His daughter, Maria-Theresa, a fugitive, had no longer a court,
+                    and still less a theatre. Metastasio, however, took no steps to employ his
+                    talents otherwise, and even celebrated by an ingenious production, <hi
+                    rend="italic">Amor Prigionero,</hi> the birth of the prince who afterwards
+                    became Joseph 11. It was at this period that Metastasio, though not yet more
+                    than forty-three, felt the first symptoms of that nervous malady of which he
+                    complained until the close of his career. He soon experienced the most acute
+                    pains, and, to aggravate his sufferings, malevolence and calumny tracked his
+                    steps. He wished to return to Italy, but could not accomplish his purpose.
+                    Having no longer occasion to labour for the theatre, which was shut in
+                    consequence of the Seven Years’ War, he amused himself with composing a number
+                    of cantatas in honour of the young archduchesses; produced <hi rend="italic">La
+                    Contessa de Numi,</hi> in which, whilst celebrating the birth of the son of the
+                    Dauphin, he contrives to pay some graceful and flattering compliments to the
+                    French nation; and also translated several satires of Juvenal and Horace. In
+                    1760, his muse roused herself to celebrate the marriage of Joseph II. His opera
+                    of <hi rend="italic">Alcide</hi><hi rend="italic">in bwio</hi> delighted the
+                    whole court, which fancied in this production it discovered frequent allusions
+                    to the character of the young prince.</p>
+                <p>Being already affluent, and loaded with the honourable marks of regard which had
+                    been bestowed upon him, Metastasio no longer stood in need of ordinary favours;
+                    but he was nevertheless very sensible of the distinction now conferred upon him
+                    by Maria-Theresa, who addressed to him several notes which were written with her
+                    own hand, and filled with expressions of kindness and good will. A few of these
+                    flattering billets have been preserved. They are written in French; and in one
+                    of them this great princess says to the poet, “Mon ancien maitre fait la gloire
+                    de notre siècle, et plus encore de ceux à qui il s’est voué.” By degrees,
+                    Metastasio withdrew entirely from the world, and discontinued publication; but
+                    he by no means abandoned the cultivation of letters. He occupied himself with
+                    learned analyses of the Poetics of Aristotle and of Horace; and embodied in
+                    notes his luminous observations on Aeschylus, ’ Euripides, Sophocles, and
+                    Aristophanes. One of the enjoyments of his old age was the publication of the
+                    magnificent edition of his works, which was printed at Paris in 1780, under the
+                    direction of the learned Pezzana. Several celebrated pieces in that beautiful
+                    collection, particularly the <hi rend="italic">Didone,</hi> the <hi
+                    rend="italic">Adriano,</hi> the <hi rend="italic">Semiramide,</hi> and the <hi
+                    rend="italic">Alessandro,</hi> were re-touched with extreme care by their
+                    illustrious author. He had, in his library, more than forty editions of his
+                    works, published at different periods in the first cities of Italy; but he
+                    called that of Paris the glory and the crown of his old age.</p>
+                <p>These literary distinctions were to him the suitable reward of his long-continued
+                    labours. He never aspired to any of those dignities which form the ordinary
+                    objects of vulgar ambition. The Emperor Charles VI. several times wished to
+                    confer upon him the titles of baron and aulic councillor; but he always replied
+                    that his best title was that of poet to his imperial majesty. The empress also
+                    offered him the cross of St Stephen; but he declined the honour, excusing
+                    himself by saying, that he had no time to perform the duties of knighthood. When
+                    Corīlla was crowned in the Capitol, Maria-Theresa expressed a desire to see
+                    admitted to the same honour the man who for sixty years had delighted Europe
+                    with his harmonious verses; and Pope Clement XIV. warmly responded to the wish
+                    of the empress. But the poet was inflexible; he replied that he was too old to
+                    ascend the Capitol. Nevertheless the most celebrated writers of the age rendered
+                    him homage. Voltaire compared certain scenes of Metastasio to the most sublime
+                    productions of Greece; he judged them “worthy of Corneille when he is not a
+                    deciaimer, and of Racine when he is not feeble.” Rousseau, in his <hi
+                    rend="italic">Nouvelle</hi><hi rend="italic">Heloise,</hi> declared that
+                    Metastasio was “the only poet of the heart, the only genius formed to excite
+                    emotion by the charm of poetical and musical harmony.” This great writer merited
+                    a still higher encomium; he never replied with the least bitterness, even to the
+                    most unjust criticisms; and he was always the first to encourage talent wherever
+                    he discovered it. Entertaining a deep conviction of the truths of religion,
+                    Metastasio observed its precepts without ostentation; and in his old age, this
+                    sincere and unaffected piety enabled him to support his sufferings with greater
+                    patience and resignation. In the month of February 1780, he believed that his
+                    end was approaching, and wishing to consecrate to God the last efforts of his
+                    poetical genius, he traced with a trembling hand, but a devout heart, the
+                    touching verses beginning, <hi rend="italic">Eterno</hi><hi rend="italic"
+                    >genitor,</hi> &amp;c. His strength returned, however, and he had the grief to
+                    survive his august benefactress, who died in the month of November the same
+                    year. He was so sincerely attached to her, that, on several occasions, he was
+                    heard to exclaim, “Why have I not descended to the tomb with my excellent
+                    mistress ?” But a great consolation was reserved for him in his last days,
+                    inasmuch as he lived to witness the arrival of Pope Pius VI. at Vienna. The
+                    sovereign pontiff honoured him with many proofs of his esteem, and, as a last
+                    token of regard, caused the nuncio Gerampi to convey to him, upon the day of his
+                    death, the apostolical benediction. Metastasio expired on the 2d of April 1782,
+                    having attained the advanced age of eighty-four years and three months. He was
+                    interred in the church of St Michael; and, notwithstanding the formal request
+                    expressed in his will, his obsequies were magnificent. Μ. de Martinez, his heir,
+                    immediately caused to be struck in memory of his illustrious friend a medal,
+                    with this legend, <hi rend="italic">Sophocli Italo.</hi> Of all the portraits of
+                    him extant, none is so like the original as that of Heiner, engraved by
+                    Mansfield, except it be the bust executed at Vienna by Vinnazar. Metastasio
+                    possessed an imposing figure; he was tall and well-proportioned; and his dark
+                    eyes had a striking expression. Fortune, indeed, appears to have taken a
+                    pleasure in loading him with her favours. Independently of a sumptuous
+                    establishment, and a superb library, his succession realized a capital of more
+                    than three hundred thousand francs, or above L.12,000 sterling.</p>
+                <p>The poetical works of Metastasio consist of sixty-three lyrical tragedies and
+                    operas of various kinds; twelve oratorios; forty-eight cantatas or lyric scenes;
+                    a vast number of elegies, idylls, canzonette, sonnets, and such like
+                    compositions; and, lastly, translations in verse from Latin authors, including
+                    one of Horace’s <hi rend="italic">Art of Poetry.</hi> Amongst his works in
+                    prose, besides those already mentioned, may be reckoned a very extensive,
+                    interesting, and instructive correspondence. Metastasio has found in France
+                    several imitators, who have profited by his dramatic conceptions, particularly
+                    Belloy and Delrieu; and Labouisse has likewise imitated in French verse his
+                    cantatas, which, in as far as respects their ordinary subject, may as well be
+                    classed amongst the pastorals as referred to the head of lyric compositions.
+                    From the year 1733 to the present time, there have been innumerable editions of
+                    the works of Metastasio, many of them exceedingly defective and incomplete. The
+                    mopt esteemed are the following, viz. 1. Paris, 1755, in twelve vols. 8vo, under
+                    the direction of Calzabigi, and dedicated to Madame de Pompadour; 2. Turin,
+                    1757, in fourteen vols. 4to, printed at the royal press, from the preceding
+                    edition; 3. Paris, 1780, in twelve vols. large 8vo, under the direction of
+                    Pezzana, who accented the prosody <pb break="no" facs="nls:194208974"
+                    xml:id="kp-eb0714-8974-0704"/>for the benefit of French readers; 4. Genoa, 1802,
+                    in six thick vols. 8vo, small character, an edition superintended by the poet
+                    Massuccio, who enriched it with the posthumous works and unedited pieces
+                    published at Vienna in 1795, by Count Ajala, but omitted the correspondence; 5.
+                    Padua, 1810. There appeared at Paris in 1761 a French translation of the
+                    operatic tragedies by Richelet, in twelve vols. 12mo∙</p>
+                <p>The Italians have almost deified Metastasio; but, excepting on one point, where
+                    ¼they have a sort of privative jurisdiction, we may be permitted to question the
+                    propriety of this idolatry. In relation to his style, they are the natural,
+                    perhaps the only competent judges; and this style they regard as a model of
+                    purity, elegance, and harmony. “The style of Metastasio,” says an Italian
+                    critic, “never fails to please those who give way to their own emotions, more
+                    than persons of profound meditation; and I would rather be accused of partiality
+                    to him whom I venerate and love, than ranked with cold philosophers and deep
+                    thinkers, whom I may respect, but cannot admire.” It is in his pieces borrowed
+                    from Sacred Scripture that Metastasio has most strikingly exemplified the great
+                    beauties of his style. As to the other attributes of his genius, they have been
+                    variously estimated by critics. “I know not amongst the moderns,” says Laharpe
+                    in his <hi rend="italic">Cσurs de</hi><hi rend="italic">Littérature, “</hi> a
+                    writer more precise than Metastasio. A people who may boast of such a poet
+                    cannot say that, if he has attached himself exclusively to music, it is because
+                    the words are bad. A lively and intelligent people could never be insensible to
+                    the genius of Metastasio, displayed in the interest of the situations, and in
+                    the beauty of the dialogue and style. Nevertheless, it was at the court of
+                    Vienna, and not in his own country, that this celebrated writer found recompense
+                    and honour.” But a celebrated German critic, William Schlegel, in his Course of
+                    Dramatic Literature, has evinced a much deeper insight into the dramatic system
+                    of the Italian poet, and more judiciously discriminated the merits and defects
+                    of his works. “The reputation of Metastasio,” says he, “has eclipsed that of
+                    Apostolo Zeno, because, .in proposing to himself the same object, he had a much
+                    more flexible talent, and knew better how to accommodate himself to the
+                    convenience of the musician. Perfect purity of diction, united with sustained
+                    grace and elegance, have caused Metastasio to be regarded by his countrymen as a
+                    classical author, and, so to speak, as the Racine of Italy. He is pre-eminently
+                    distinguished for exquisite sweetness in the verses which he intended to be
+                    sung. Perhaps no poet ever possessed in the same degree the power of
+                    concentrating, in a narrow compass, all the most touching traits of a pathetic
+                    situation. The lyrical monologues at the end of the scenes are the harmonious
+                    expression, at once just and concise, of a particular disposition of the soul.
+                    It must be confessed, however, that Metastasio never paints the passions except
+                    in very general colours; he does not amalgamate with the sentiments of the heart
+                    any thing that appertains to the individual character, or is derived from
+                    universal contemplation. Thus his pieces are not very powerfully conceived. When
+                    you have read a few of them, you know them all. Yet we must not be too severe.
+                    The heroes of Metastasio, it is true, are all gallants; in his heroines, too,
+                    delicacy often degenerates into mawkish affectation; but perhaps this effeminate
+                    poetry has been blamed from a want of proper attention to the nature of the
+                    opera.” Justice also requires that, in the peculiar genius of the opera, we
+                    should recognise the inevitable cause of that languor and incongruity which too
+                    frequently disfigure the most beautiful productions of Metastasio. It is from
+                    yielding to the exigencies of this particular species of composition that he has
+                    so often violated the law of the unities, disfigured the characters of his
+                    heroes, and broken the continuity of his style. He is less excusable in the
+                    lavish use of antitheses; but this affectation is a general vice amongst the
+                    poets of his country. The lyrical drama, in general, requires a fortunate
+                    consummation or denouement; and how often, in order to obey this usage, and to
+                    have a brilliant chorus, or a final divertissement, has the poet found himself
+                    under the necessity of inverting the tragic action, and denaturalizing his
+                    characters? It is painful to think that so many sacrifices to a frivolous
+                    fashion have, from the immense development of the musical system which has since
+                    taken place, been made altogether in vain.</p>
+                <p>Of the musical productions of Metastasio two have been engraved; one containing a
+                    collection of <hi rend="italic">Canzoni,</hi> and the other entitled <hi
+                    rend="italic">Arie Sciolte</hi> and <hi rend="italic">Coro con Sinfοnia.</hi>
+                    The famous duet <hi rend="italic">Grazie</hi><hi rend="italic">agi</hi><hi
+                    rend="italic">Ing</hi><hi rend="italic">anni</hi><hi rend="italic">tuoi</hi> has
+                    not yet, as far as we know, been published. The <hi rend="italic">Pensieri di
+                    Metastasio, owero Sentenze e Massime estratte dalle sue</hi><hi rend="italic"
+                    >Opere,</hi> were collected and published at Paris in the year 1804. <hi
+                    rend="smallcaps">(a.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

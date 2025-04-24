@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0714-3293-0267-04" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">MARY</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 14, page 267</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="10" ref="lcsh1910:b4sq8qk1s">Christ</term>
+                    <term n="12" ref="lcsh1910:b4ws8hn48">Mothers</term>
+                    <term n="9" ref="lcsh1910:b43f4kq7b">Descents</term>
+                    <term n="9" ref="lcsh1910:b47659j0m">Descent</term>
+                    <term n="7" ref="lcsh1910:b4kh0f02c">Death</term>
+                    <term n="4" ref="lcsh1910:b45q4rn8c">Mark</term>
+                    <term n="3" ref="lcsh1910:b4fj29h67">Hebrews</term>
+                    <term n="3" ref="lcsh1910:b4x34mt4n">Jews</term>
+                    <term n="2" ref="lcsh1910:b4bk16r27">Protestantism</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="12" ref="fasttopic:1026940">Mothers</term>
+                    <term n="8" ref="fasttopic:1043068">Occasionalism</term>
+                    <term n="7" ref="fasttopic:888613">Death</term>
+                    <term n="7" ref="fasttopic:1126696">Sons</term>
+                    <term n="6" ref="fasttopic:795344">Accountants</term>
+                    <term n="4" ref="fasttopic:1198506">Mark</term>
+                    <term n="3" ref="fasttopic:983135">Jews</term>
+                    <term n="2" ref="fasttopic:1100116">Romans</term>
+                    <term n="2" ref="fasttopic:1079920">Protestantism</term>
+                    <term n="2" ref="fasttopic:1017422">Messiah</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="3" ref="fastgeo:1208757">Syria</term>
+                    <term n="2" ref="fastgeo:1204236">Israel</term>
+                    <term n="2" ref="fastgeo:1208755">Egypt</term>
+                    <term n="2" ref="fastgeo:1219920">England</term>
+                    <term n="2" ref="fastgeo:1206715">Scotland</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194203293" type="entry">
+                <p><label type="entry">MARY</label> (Heb. o <hi rend="superscript"> ι</hi> &gt;ηn,
+                    Gr. Mαg∕αμ <hi rend="italic">vel</hi><hi rend="italic">Mag∕a). Of</hi> persons
+                    bearing this name, no less than seven are mentioned in different parts of the
+                    sacred volume. They are the following:</p>
+                <p><hi rend="smallcaps">Mary</hi> or <hi rend="italic">Miriam,</hi><hi rend="italic"
+                    >the sister of Aaron and Moses.</hi> She was the daughter of Amram and Jochebed,
+                    who were both of the tribe of Levi (Exod. ii. 1), and were related to each other
+                    before marriage as aunt and nephew (Exod. vi. 20), and seems to have been their
+                    eldest child (Numb, xxvi. 59). When the infant Moses was exposed by his mother
+                    in the ark; upon the Nile, Miriam, then probably about eight years of age, was
+                    sent to observe the fate of her brother; and when she beheld him picked up by
+                    the attendants of the daughter of Pharaoh, and saw the interest taken in him by
+                    that princess, she availed herself of the opportunity to have him again restored
+                    to his mother, by offering to procure for him a Hebrew nurse, and, when that
+                    offer was accepted, bringing his mother as the person she had selected (Exod.
+                    ii. 4—10). On the occasion of the destruction of the Egyptians in the Red Sea,
+                    after the Israelites had passed safely over, Miriam, who, in the passage giving
+                    an account of the circumstance (Exod. xv. 20), is styled “the prophetess,”
+                    either on account of her skill in extempore poetry and music,<note
+                    anchored="true" place="bottom" type="authorial"><p>See Rosenmüller, <hi
+                    rend="italic">SchοL</hi> in loc.; and Wells’s <hi rend="italic"
+                    >Paraphrase.</hi></p></note> or because she really enjoyed divine
+                    revelations,<note anchored="true" place="bottom" type="authorial"><p>Numb. xii.
+                    2; and Micah vi. 4.</p></note> led forth a chorus of women, and guided them in
+                    celebrating with music and dancing the triumphant deliverance which their nation
+                    had obtained. Shortly after this an event occurred which presents the character
+                    of Miriam in a less favourable light. Her brother Moses had been rejoined by his
+                    wife Zipporah, who had for a considerable time before been resident with her
+                    father Jethro (Exod. xviii. 1-3); and as she was not of Israelitish but of
+                    Cushite extraction, Miriam and her brother Aaron took occasion from this to
+                    indulge what seems to have been a long-cherished feeling of jealousy and envy
+                    towards Moses, by exciting a prejudice against him in the minds of the people.
+                    For this she was punished by God, by being, in the sight of all the people,
+                    afflicted with leprosy, so that “she became white as snow.” On the intercession,
+                    however, of Aaron with Moses, and of Moses with God, this terrible infliction
+                    was removed; but not until she had been “shut out from the camp seven days,”
+                    during which time the people of Israel suspended their journey (Numb, xii.).
+                    From this a period of nearly forty years elapses during which no mention is made
+                    of Miriam; and when at length, towards the close of the history, her name is
+                    again introduced, it is only for the purpose of informing us that, on the
+                    arrival of the Israelites at Kadesh, in the desert of Zin, she died and was
+                    buried in that place. At the time of her death it is calculated she must have
+                    been nearly 130 years of age. Her decease preceded that of Aaron by about <hi
+                    rend="italic">four,</hi> and that of Moses by about <hi rend="italic"
+                    >eleven</hi> months, so that these three distinguished members of the same
+                    family died within the same year.<note anchored="true" place="bottom"
+                    type="authorial"><p>Numb. XX. 1, xxxiii. 38; and Deut, xxxiv. 5. See also Dr Ad.
+                    Clarke’s <hi rend="italic">Comment, on Numb.</hi> xx. 1.</p></note> Eusebius
+                    says her tomb was to be seen at Kadesh, near the city of Petra, even in his
+                    time.</p>
+                <pb break="no" facs="nls:194203306" xml:id="kp-eb0714-3306-0268"/>
+                <p><hi rend="smallcaps">Mary,</hi><hi rend="italic">the mother of Jesus Christ.</hi>
+                    Closely as this memorable female was connected with Him with whose person,
+                    character, and work the Scriptures are chiefly occupied, it is remarkable how
+                    slender is the information which they communicate to us respecting her; indeed
+                    it is only as her history serves to illustrate that of her son, that her name
+                    seems to be mentioned at all. From the genealogy furnished by St Luke in the
+                    third chapter of his gospel, of our Lord’s descent from Adam, we learn that her
+                    father’s name was Heli, a descendant of David through his son Nathan. In that
+                    passage, indeed, it is her husband Joseph who is said to be the son of Heli; but
+                    that he was so only from his connection with her, and that it is her descent and
+                    not his that is given by St Luke, seems plain, for the following reasons: l sí,
+                    In the genealogy of Christ’s descent furnished by St Matthew, we are informed
+                    that the father of Joseph was Jacob, and not Heli; 2<hi rend="italic">dly,</hi>
+                    The entire discrepancy of the genealogy as given by St Matthew from that given
+                    by St Luke necessitates the conclusion, that as both relate to Christ’s descent,
+                    the former gives his descent by his reputed father’s side, and the latter by his
+                    mother’s side; and, <hi rend="italic">2&gt;dly,</hi> As the great object of
+                    furnishing these genealogies is to show that Christ was lineally descended from
+                    David, and as it was only through his mother that he was connected naturally
+                    with any of the human race, it is absolutely necessary that we should regard the
+                    genealogy of St Luke as that of his maternal descent, else we shall be left with
+                    two genealogies, neither of which serves the purpose for which one of them at
+                    least must have been intended. We conclude, therefore, that whilst the genealogy
+                    of St Matthew was designed to meet the prejudices of the Jews, for whom chiefly
+                    he wrote, by showing that even Joseph, whom they supposed to be the father of
+                    Jesus, was of royal descent, that of St Luke presents to us the real descent of
+                    Christ from his royal type and ancestor through his mother, and is accordingly
+                    to be regarded as giving us her descent as well as his. This is confirmed by the
+                    passages adduced by Lightfoot <hi rend="italic">(Hor. Talm.</hi> in loc.) from
+                    the Jewish writings, where Mary is expressly spoken of as the daughter of
+                    Heli.<note anchored="true" place="bottom" type="authorial"><p>TJ <hi
+                    rend="superscript"> le sυ</hi> PP <hi rend="superscript"> osition</hi> that Mary
+                    was an heiress and was, according to the Mosaic law in reference to such cases,
+                    married by one of her own tribe, who from that circumstance came to be called
+                    the son of her father, a supposition which was maintained at a very early age in
+                    the church, as we learn from Eusebius <hi rend="italic">(Hist. Eccl.</hi> i. 7),
+                    is entirely arbitrary and unnecessary. See Crusii <hi rend="italic"
+                    >Hypomnemata</hi><hi rend="italic">ad Τheol. Ρτoph.</hi> p. 355; and Olshausen’s
+                    <hi rend="italic">Commentar,</hi> Bd. i. s. 43; the latter of whom favours the
+                    hypothesis.</p></note></p>
+                <p>At the time the gospel history opens, Mary was the betrothed bride of Joseph,
+                    who, though like herself of royal descent, followed the humble occupation of a
+                    craftsman or artificer (τζκrω∣∕), probably, as our translators suppose, in wood.
+                    Among the Jews it was no uncommon thing for females to be thus betrothed for a
+                    very long time before they vγere married; and whenever this was the case, the
+                    parties were regarded as bound to each other by as solemn ties as if they had
+                    been really married.<note anchored="true" place="bottom" type="authorial"
+                    ><p>Deut, xxii∙ 23. “p emina ex quo desponsata est, licet nondum a viro cognita,
+                    est uxor viri; et si sponsus eam velit repudiare, oportet ut id faciat libello
+                    repudii.” (Maimonides ap. <hi rend="italic">Buxtorf. de Divortio,</hi> p.
+                    76.)</p></note> Hence Joseph is called the <hi rend="italic">husband</hi> of
+                    Mary, and she his <hi rend="italic">wife,</hi> though as yet their contract of
+                    marriage had not been fulfilled (Matt. i. 19, 20). The wild opinion that these
+                    two terms are to be understood in their ordinary meaning, and that Joseph, when
+                    a very old man, had espoused Mary merely to protect her in the observance of a
+                    vow of perpetual virginity, rests only on the testimony of the apocryphal <hi
+                    rend="italic">Protevangelium Jacobi,</hi> and is so plainly contradicted by the
+                    entire tenor of the sacred narrative, as to be unworthy of serious notice.
+                    Whilst thus in her virgin state, and as yet probably very young (for females
+                    were betrothed at a very early age amongst the Jews), Mary became the mother of
+                    our Lord. The circumstances attending this event are related with much
+                    simplicity and minuteness by the Evangelist Luke. From his account we learn that
+                    an angel appeared to Mary at Nazareth, and saluted her as “highly favoured of
+                    Jehovah, blessed among women and when, startled by the suddenness of the
+                    apparition, and perplexed with the strangeness of his salutation, she began to
+                    be afraid, he calmed her anxiety by explicitly announcing to her the honour
+                    which was intended for her, in that she should be the mother of the promised
+                    seed, to whom should be given “the throne of his father David.” Amazed at such
+                    an announcement, she asked, in all the simplicity of conscious innocence, “How
+                    shall this be, seeing I know not a man upon which the angel informed her that
+                    she was to hecome a mother fly the miraculous power of God, and that therefore
+                    her child should be called “the Son of God.” For the confirmation of his
+                    message, he further informed her that her cousin Elizabeth, then far advanced in
+                    life, had conceived a son, and that the event was nigh at hand, which should
+                    cause her reproach to cease amongst women; and having thus assured her that in
+                    her the long-cherished hopes of every mother and every maiden in Israel were to
+                    be realised, he left her meekly acquiescing in the will of God.</p>
+                <p>Her first impulse after this occurrence was to visit her cousin Elizabeth, of
+                    whose state the angel had informed her. The meeting of these pious and honoured
+                    females was one of mutual joy and congratulation; nor did they fail to mingle
+                    with their rejoicings, grateful thanksgivings to the author of their privileges
+                    and blessings. After spending three months with her cousin, Mary returned to her
+                    former residence. Here a severe trial awaited her; for Joseph, perceiving her
+                    pregnancy, and of course ignorant of its true cause, regarded her as having
+                    broken her vows of betrothal to him. Unwilling, however, toexposeher to the
+                    ignominy and danger<note anchored="true" place="bottom" type="authorial"><p>By
+                    the law of Moses such crimes were to be punished with death by stoning. Deut,
+                    xxii. 23, 24.</p></note> of a public disclosure of her crime, he bad formed the
+                    resolution of putting her away privately, when information was communicated to
+                    him in a dream, of the real nature of the case, and the command of God laid upon
+                    him to relinquish his intention of putting her away, and to take her to his home
+                    as his wife. This he accordingly did, and thus came to be regarded by his
+                    neighbours as the father of Jesus.</p>
+                <p>In ancient prophecy<note anchored="true" place="bottom" type="authorial"
+                    ><p>Micah, V. 2.</p></note> it had been predicted that the Messiah should be
+                    born at Bethlehem, and the fulfilment of this prediction was brought about by an
+                    occurrence of a nature apparently purely accidental, and wholly independent of
+                    the purposes of his parents. This was the issuing of an edict by the Roman
+                    emperor, commanding a census to be taken of all the inhabitants of his
+                    dominions, and ordaining that the name of each should be enrolled in the chief
+                    city of the tribe or family to which he belonged. As Joseph and Mary were both
+                    of the lineage of David, this necessitated their going to Bethlehem, the city of
+                    David; and it was whilst they were there that the prophecy was fulfilled. Much
+                    disorder has been introduced into the gospel chronology, from the confounding of
+                    the edict mentioned by St Luke with a subsequent decree imposing a tax upon the
+                    inhabitants of Judaea, and which led to serious strife and bloodshed, whilst
+                    Quirinus was proconsul of Syria. The two, however, were perfectly distinct. The
+                    edict which brought Joseph and Mary to Bethlehem, though in our version it is
+                    said to have decreed “that all the world should be <hi rend="italic">taxedJ</hi>
+                    seems to <pb break="no" facs="nls:194203319" xml:id="kp-eb0714-3319-0269"/>have
+                    had reference merely to the taking of a census of the people, and of the amount
+                    of their property. The word used by Luke is <hi rend="italic">atfoγgapn,</hi>
+                    which is the classical word for a <hi rend="italic">census or enrolment,</hi>
+                    whereas the proper word for <hi rend="italic">taxation</hi> is <hi rend="italic"
+                    >wχοτιμτβις.</hi> That such edicts were frequently issued is well known to every
+                    classical reader; and though there is no express mention in any of the profane
+                    historians, of any such being sent forth at the time referred to by St Luke, yet
+                    as it is not to be supposed that they have recorded <hi rend="italic">all</hi>
+                    the events of this nature which occurred, their silence can hardly be regarded
+                    as a sufficient reason for rejecting the testimony <hi rend="italic">of</hi> the
+                    Evangelist.<note anchored="true" place="bottom" type="authorial"><p>The
+                    statement of Dio Cassius, which is supported by the testimony of Tacitus, <hi
+                    rend="italic">Annal,</hi> i. 11, and of Suetonius, <hi rend="italic">Oetav.</hi>
+                    c. 101, that Augustus left behind him at his death a <hi rend="italic"
+                    >breviarium</hi> or <hi rend="italic">rationarium</hi> of the Roman empire, in
+                    four volumes, of which the third <hi rend="italic">complectebatur</hi><hi
+                    rend="italic">(piae ad</hi><hi rend="italic">milites,</hi><hi rend="italic"
+                    >quoeque ad</hi><hi rend="italic">reditus sumptusque publicos, pertinebant,</hi>
+                    renders it extremely probable that that monarch had taken much pains to have
+                    accurate returns made from all parts of his dominions. That this was the case,
+                    is indeed expressly stated by Cassiodorus, iii. 52. See also Suidas <hi
+                    rend="italic">in voc. a∙*eγζaφn.</hi></p></note> To this confounding of these
+                    two distinct edicts, many have been led by the language of St Luke himself in
+                    the second verse, where it is stated (according to our version) that “this
+                    taxing was first made when Cyrenius was governor of Syria.” Here the Evangelist
+                    seems at first sight to have fallen into the mistake alluded to, and of this an
+                    eager use has been made by some of the enemies of Christianity, to discredit his
+                    claims as an inspired historian. His words, however, when translated so as to
+                    give them a meaning (which can hardly be said to be the case in our version),
+                    seem rather designed to guard against such a mistake, than to indicate the
+                    author’s having fallen into it. According to a usage not uncommon in the New
+                    Testament, <hi rend="italic">πgωτη</hi> seems to be used for <hi rend="italic"
+                    >¶goríga</hi>;<note anchored="true" place="bottom" type="authorial"><p>Winer’s
+                    <hi rend="italic">Grammatik des</hi><hi rend="italic">Ncutest. Sprachid.</hi> p.
+                    201. Stuart’s <hi rend="italic">Syntax of the New Testament Dialect,</hi> in the
+                    Biblical Cabinet, vol. x. p. 12</p></note> and in this case the proper rendering
+                    would be, “this census took place <hi rend="italic">before</hi> Cyrenius (or
+                    Quirinus) was governor of Syria ;” a statement which seems thrown in
+                    parenthetically by the historian, for the purpose of informing his readers that
+                    the event to which he refers was not the famous and well-known taxing under
+                    Quirinus (commonly called, as he himself records in Acts V. 37, “<hi
+                    rend="italic">the</hi> taxing,” by way of eminence), but was antecedent to
+                    it.<note anchored="true" place="bottom" type="authorial"><p>See Lardner, <hi
+                    rend="italic">Credibility,</hi> part ii. ch. i.; Macknight, <hi rend="italic"
+                    >Harmony,</hi> Chronol. Diss. i. ch. 13; and a very able series of articles in
+                    Tholuck’s <hi rend="italic">Litierarisćher</hi><hi rend="italic">Anzeiger</hi>
+                    for 1830, from the pen of the learned editor.</p></note></p>
+                <p>Owing to the multitudes of people whom this edict had brought together to
+                    Bethlehem, Joseph and his wife, on their arrival, found themselves unable to
+                    procure any better accommodation than what was afforded them by the stable of a
+                    public lodging-house. Here Mary was delivered of her first-born son, whom she
+                    herself swathed, and laid in the manger. Amongst the busy crowd then assembled
+                    at Bethlehem this event excited no attention; but it was too important to be
+                    allowed to pass unregarded by heaven, and accordingly an angel was commissioned
+                    to announce it to some pious shepherds that same night, as they were watching
+                    their flocks in the adjoining fields. Gladdened with the joyful news, that the
+                    long-expected Messiah had at length appeared, these pious men lost no time in
+                    going to Bethlehem, that they might see the thing which had come to pass, and
+                    might offer their adoration to their infant Saviour. The intelligence they
+                    brought was received by Mary and Joseph with astonishment, and by the former
+                    carefully stored up in her remembrance (Luke, ii. 8-19).</p>
+                <p>On the termination of the time appointed by the Mosaic law for the continuance of
+                    a woman’s uncleanness after childbirth,<note anchored="true" place="bottom"
+                    type="authorial"><p>Exod. xiii. 2.</p></note> Mary went up to Jerusalem to
+                    present her son to the Lord, and to offer the appointed sacrifice in such
+                    cases.<note anchored="true" place="bottom" type="authorial"><p>Levit, xii.
+                    6-8.</p></note> These rites observed, she returned with her husband to their
+                    usual residence at Nazareth (Luke, ii. 39). From this place they were in the
+                    habit of going up to Jerusalem every year at the feast of the passover (ver.
+                    41); and it seems to have been on the occasion of one of these visits that the
+                    Magi from the East came with their offerings and adorations to Christ. The
+                    occurrence of this event is commonly regarded as having taken place immediately
+                    after the visit of the shepherds; but a comparison of the facts stated by St
+                    Matthew with those stated by St Luke forbids the entertaining of such a
+                    supposition. From the former we learn, that immediately on the visit of the
+                    Magi, Joseph and his wife fled into Egypt, where they abode till the death <hi
+                    rend="italic">of</hi> Herod. But the latter informs us that, six weeks after the
+                    birth of Christ, he was taken up to the temple, and from thence carried down to
+                    Nazareth. From this it is plain that the visit <hi rend="italic">of</hi> the
+                    Magi, and the consequent flight into Egypt, could not have taken place <hi
+                    rend="italic">before</hi> the dedication in the temple, and must therefore be
+                    referred to a subsequent period.<note anchored="true" place="bottom"
+                    type="authorial"><p>Macknight’s <hi rend="italic">Harmony,</hi> § 11; and
+                    Doddridge <hi rend="italic">in loc.</hi></p></note> It was on the occasion of
+                    another of these visits that the scene between Christ and the Jewish Rabbin took
+                    place, when, after an absence from his parents of three days, he was found by
+                    his anxious mother sitting with the doctors in the temple, both hearing them and
+                    asking them questions (Luke, ii. 42-52).</p>
+                <p>Some time before our Lord’s entrance upon his public ministry, Mary seems to have
+                    lost her husband. This is rendered probable, not only from the circumstance that
+                    no mention is made after this period of Joseph in the gospel history, but also
+                    from the freedom with which Mary appears to have moved from place to place; a
+                    freedom hardly consistent with her duties as a wife whose husband was still
+                    alive. As confirmatory of this it may be mentioned, that it was admitted as an
+                    acknowledged fact in the early ages of the church, that she supported herself by
+                    weaving; and hence Celsus calls her <hi rend="italic">Xegvrir∕ς,</hi> and
+                    Tertullian <hi rend="italic">Quaestuaria.</hi> Her residence seems to have been
+                    principally at Capernaum, on which account probably this place was called
+                    Christ’s “own city” (Matt. ix. 1), as her house would be the place to which he
+                    would naturally retire during the intervals of his public labours. She is
+                    mentioned as having been present at the marriage at Cana in Galilee, where he
+                    commenced his miraculous works by turning water into wine (John ii. 1). Shortly
+                    after this, whilst he was teaching in the synagogue at Capernaum, she
+                    endeavoured to induce him to desist, fearing probably lest he should offend the
+                    people by his pointed rebukes; but he resisted her entreaties, declaring that no
+                    earthly connections could be so dear to him as those spiritual unions which he
+                    sought to form by the truths he was teaching. On the occasion of his going up to
+                    Jerusalem for the last time before his death, she was one of those who
+                    accompanied him; she followed him to Calvary, beheld him elevated on the cross,
+                    and retired not until she saw him expire. As she stood gazing on him, along with
+                    some of his followers, he commended her to the care of his beloved disciple
+                    John, who from that time took her to reside in his own house. We learn from
+                    Acts, i. 14, that she was amongst the disciples at Jerusalem when they were
+                    waiting for the gift of the Holy Spirit. An uncertain tradition informs us that
+                    she removed with John to Ephesus when he went to reside there, and died and was
+                    buried in that place. Other accounts state that she died and was buried at
+                    Jerusalem, which is perhaps the more probable statement of the two. By the
+                    Catholic church the Virgin <pb break="no" facs="nls:194203332"
+                    xml:id="kp-eb0714-3332-0270"/>Mary has been deemed worthy of divine honours, and
+                    has even been made to occupy a more prominent place in the devotions of the
+                    people than the Saviour himself.<note anchored="true" place="bottom"
+                    type="authorial"><p>For illustrations of the length to which this was carried
+                    during the middle ages, see the extracts from the writings of the Minnesingers,
+                    in Gieseler’s <hi rend="italic">Kirchen Gedachte,</hi> Bd. ii. Abt. ii. p. 463.
+                    See also Abt. iv. p. 335.</p></note> For this the way was gradually paved by the
+                    importance which was attached to discussions respecting her in the writings of
+                    the Fathers, and by the extravagant terms of eulogy in which they spoke and
+                    wrote regarding her. From styling her <hi rend="italic superscript"> t</hi><hi
+                    rend="italic">⅛iorlMΛς, ⅛ioμr</hi><hi rend="italic">∣</hi><hi rend="italic">τr^,
+                    òtō¶oiva</hi><hi rend="italic">άγια</hi><hi rend="italic">xaι asirtaξθivoς,</hi>
+                    as even Chrysostom writes of her; from speaking of her as “the sacred treasure
+                    of the universe, the quenchless lamp, the crown of virginity, the sceptre of
+                    orthodoxy, the temple indestructible, the tenement of the infinite, both a
+                    virgin and a mother,” as Cyril of Alexandria describes her;<note anchored="true"
+                    place="bottom" type="authorial"><p><hi rend="italic">In</hi><hi rend="italic"
+                    >Actis</hi><hi rend="italic">Ephes.</hi> p. 33, ap. Suicer. <hi rend="italic"
+                    >Thes. Eccl.</hi> ii. 304.</p></note> from writing treatises to prove that she
+                    bore her son <hi rend="italic">clauso</hi><hi rend="italic">utero, et</hi><hi
+                    rend="italic">sine dolore,</hi> and many other puerile extravagances; the
+                    transition was not difficult to the dogmas of the immaculate conception and the
+                    assumption, nor to the offering of divine homage to the object of such
+                    unwarranted eulogium. It is to be regretted that, even by Protestant writers, a
+                    degree of importance has been attached to inquiries respecting her, which
+                    nothing in Scripture would seem to authorize. How many, for instance, have
+                    contended for her perpetual virginity, as if it were a matter on which the whole
+                    of our religion depended. A more interesting question is that respecting the
+                    fact of her . having had any children by Joseph after the birth of Christ,
+                    because upon the answer given to this depends the meaning which we are to attach
+                    to those passages that speak of our Lord’s· “brethren and sisters.” The
+                    probability is that she had none, and that these titles are to be taken,
+                    according to Hebrew usage, as merely signifying <hi rend="italic">near
+                    relations.</hi><note anchored="true" place="bottom" type="authorial"><p>Bishop
+                    Pearson <hi rend="italic">on the Creed,</hi> p. 174, folio ed.; Edwards’s <hi
+                    rend="italic">Exercitatione</hi><hi rend="italic">on Scripture,</hi> p. 143; and
+                    Pott, <hi rend="italic">Prokg. in Epist. Jacobi, Nov.</hi><hi rend="italic"
+                    >Test.</hi><hi rend="italic">Koppianum,</hi> vol. ix. p. 90, &amp;c.
+                    &amp;c.</p></note> Such matters, however, “do not affect,” as the great Basil
+                    truly remarks, “the doctrine of godliness; for though until the birth of Christ
+                    her virginity was necessary, what happened afterwards is a matter not worthy of
+                    anxious inquiry.”<note anchored="true" place="bottom" type="authorial"><p><hi
+                    rend="italic">Homil. de Christi</hi><hi rend="italic">generatione,</hi> ap.
+                    Suicer. <hi rend="italic">Thes. Eccl.</hi> ii. 306.</p></note><hi
+                    rend="smallcaps">Mary</hi><hi rend="italic">Magdalene,</hi> so called apparently
+                    from Magdala, a castle, and probably also a village, near Gamala and the baths
+                    of Tiberius, on the eastern shore of the sea of Galilee (Matt. XV. 39).<note
+                    anchored="true" place="bottom" type="authorial"><p>Lightfoot, <hi rend="italic"
+                    >Hor. Talm.</hi> in loc.; Winer, <hi rend="italic">Realw'òrterbuch,</hi> art.
+                    <hi rend="italic">Magdala.</hi></p></note> This was in all probability her
+                    birthplace, and from it she was named, to distinguish her from the other Marys
+                    who followed Christ. She has been often confounded with Mary the sister of
+                    Martha and Lazarus, and also with the “woman who was a sinner,” mentioned in
+                    Luke, vii. 36, &amp;c. but in both cases without any sufficient reason. Equally
+                    unfounded is the notion, that before her conversion she was a person of
+                    abandoned character; a notion which, though resting on no better authority than
+                    that of some monkish legends, has nevertheless become so generally received,
+                    that few even in Protestant countries ever think of questioning its accuracy.
+                    The only passage of Scripture, however, that can be quoted as favouring this
+                    opinion, is that in which it is said that “out of her went seven devils.” (Luke,
+                    viii.) But this cannot be admitted as evidence in support of the point in
+                    question; for, whatever may be the conclusion to which we come as to the nature
+                    of that diabolical possession which prevailed in the days of our Lord, one thing
+                    is certain in regard to it, which is, that to be afflicted with it did not imply
+                    in the individual so visited any peculiar moral depravity; so that, though the
+                    case of Mary Magdalene was one of unusual severity (the number <hi rend="italic"
+                    >seven</hi> being the number of completeness), it by no means follows from this
+                    that she was not a virtuous, nay, pious female. On the contrary, the evidence
+                    from Scripture seems rather to favour the supposition that she was a person at
+                    once of blameless character and respectable station. She is introduced to us for
+                    the first time in the society of Joanna, the wife of Chuza, steward of Herod’s
+                    household <hi rend="italic">(iitiτξwroς, proefectus</hi><hi rend="italic"
+                    >domus),</hi> with whom she was associated in ministering to the wants of our
+                    Saviour “out of their substance” <hi rend="italic">(wmξχρwa, opes,</hi><hi
+                    rend="italic">facultates)</hi>; and from the language used by Mark (ch. xv. 41),
+                    it would seem as if this had been the usual practice of these pious females
+                    whenever he paid a visit to Galilee. Had she been, as is commonly supposed, a
+                    mere common prostitute before her conversion, it is difficult to understand how
+                    she should either associate with persons of such rank as Joanna, or be possessed
+                    of the means of such liberality towards Christ.<note anchored="true"
+                    place="bottom" type="authorial"><p>For a complete investigation of this point,
+                    see Lardner’s Letter to Jonas Hanway, Esq. <hi rend="italic">Works,</hi> vol. v.
+                    4to ed. See also,Mac-knight’s <hi rend="italic">Harmony,</hi> §
+                    43.</p></note></p>
+                <p>On the occasion of our Lord’s going up to Jerusalem from Galilee, immediately
+                    before his death, Mary Magdalene was one of those by whom he was followed; nor
+                    does she seem to have left him as long as he continued upon earth. She was one
+                    of those who beheld him from a distance when he was hanging upon the cross
+                    (Mark, xv. 40); and when he was taken down and buried, it was she and Mary
+                    Salome who sat over against the sepulchre and beheld where he was laid (Matt,
+                    xxvii. 61; Mark, xv. 47). From the sepulchre she returned with her companion
+                    into the city to procure materials for embalming his body; and having rested on
+                    the Sabbath, they came at the dawn of the third day to perform this office of
+                    respect to their departed Lord. Contrary to their expectations and fears, they
+                    found the stone which they had seen placed upon the mouth of the tomb rolled
+                    away, and free entrance afforded to its interior. Stooping down and looking in,
+                    they were startled to find the body of Jesus gone; but as they wondered, an
+                    angel appeared, who informed them of his resurrection, and at the same time
+                    commanded them to carry the tidings of this event to the rest of the disciples
+                    (Matt, xxviii. 7). Amazed and perplexed, they fled from the sepulchre, and
+                    announced to their company what they had seen; upon which Peter ŉnd John
+                    hastened to satisfy themselves of the correctness of their report, by returning
+                    with them to the place where Jesus had been interred. When the others returned
+                    home, Mary seems to have remained by the empty sepulchre to weep; and “as she
+                    wept,” we are told, “she stooped down and looked into the sepulchre,'and seeth
+                    two angels sitting, the one at the head and the other at the feet where the body
+                    of Jesus had lain.” By them she was asked the cause of her tears; to which she
+                    answered, that it was because they had taken away her Lord, and she knew not
+                    where they had laid him. During this conversation, Jesus himself drew near and
+                    addressed her; but, stιιpified with grief, she did not at first recognise his
+                    voice, and, intent upon gazing into the sepulchre, she answered his inquiries as
+                    to what she wept for, and what she sought, without turning herself, under the
+                    impression that he was the gardener. To recall her recollection, Jesus addressed
+                    her by name; upon which she immediately recognised the well-known voice, and,
+                    turning herself, exclaimed, “Rabboni, which is to say, Master.” After a brief
+                    conversation, he sent her to announce to the disciples that she had seen him,
+                    and that he was about to ascend to heaven. This command she obeyed; and from
+                    this time forward we find <pb break="no" facs="nls:194203345"
+                    xml:id="kp-eb0714-3345-0271"/>no mention made of her in the New Testament. As to
+                    certain traditionary accounts of subsequent actions and journeyings in which she
+                    is said to have been engaged, they bear too obviously the marks of mere
+                    legendary fiction to be worthy of notice.</p>
+                <p><hi rend="smallcaps">Mary,</hi><hi rend="italic">the sister of Martha and
+                    Lazarus.</hi> These three individuals composed the members of a family, than
+                    which none was more beloved and honoured by our Lord in the days of his flesh.
+                    Their residence was at Bethany, a village not far from Jerusalem, where Martha
+                    seems to have been a householder; and thither our Lord was in the habit,
+                    apparently, of frequently retiring during the intervals of his public labours.
+                    The name of Mary is first introduced, in connection with that of her sister, in
+                    the account given of a visit paid by Christ to their abode, during one of his
+                    journeys; on which occasion, whilst Martha busied herself in caring for the
+                    hospitable entertainment of her guest, Mary sat at his feet to receive his
+                    instruction (Luke, x. 38, &amp;C.). The next mention that is made of her is in
+                    the touching and striking account given by John (ch. xi. 1-46), of the death and
+                    resurrection of Lazarus; and she appears for the last time shortly subsequent to
+                    this, on the occasion of an entertainment given to our Lord, a few days before
+                    his crucifixion, by Martha, when she anointed his feet with precious ointment,
+                    and wiped them with the hair of her head (John, xii. 1-9).</p>
+                <p><hi rend="smallcaps">Mary</hi><hi rend="italic">Salome, the sister of the Virgin
+                    Mary, andmother of James and Joses, and Simon and Judas.</hi> She is the same
+                    who is elsewhere called the wife of Cleophas (John, xix. 25), or Alphaeus, these
+                    two being only different modes of Grecis-ing the Hebrew -sbrt, <hi rend="italic"
+                    >Chalpai.</hi><hi rend="smallcaps">Mary,</hi><hi rend="italic">the mother of
+                    John Mark</hi> (Acts, xii. 12).</p>
+                <p><hi rend="smallcaps">Mary,</hi><hi rend="italic">a pious member of the church at
+                    Pome</hi> (Rom. xvi. 6).</p>
+                <p><hi rend="smallcaps">Mary,</hi> queen of England. See <hi rend="smallcaps"
+                    >England.</hi><hi rend="smallcaps">Mary,</hi> queen of Scotland. See <hi
+                    rend="smallcaps">Scotland.</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,6 +1,6 @@
-eb07_v3
+eb07
 
-This README.txt file was generated on 2025-01-20 by Peter Melville Logan. View complete information at  https://tu-plogan.github.io/source/r_7th_edition.html. 
+This README.txt file was generated on 2025-04-24 by Peter Melville Logan. View complete information at  https://tu-plogan.github.io/source/r_7th_edition.html. 
 
 GENERAL INFORMATION
 
@@ -49,14 +49,14 @@ DATA & FILE OVERVIEW
     1. Directory Structure
      
         eb07            : Root directory for entry files in Encyclopedia Britannica, 7th edition
-            TXT_v3      : Directory of plain text entry files, version 3
+            TXT         : Directory of plain text entry files
                 a2      : Subdirectories for entries under the given letter and volume number                
                 a3   a4   b4   b5   c5   c6   c7   d7   d8   e8
                 e9   f9   f10  g10  g11  h11  h12  i12  j12  k12
                 l12  m13  m14  m15  n15  n16  o16  p16  p17  p18
                 q18  r19  s19  s20  s21  t21  u21  v21  w21  x21
                 y21  z21
-            XML_v3      : Directory of TEI-XML entry files, version 3
+            XML         : Directory of TEI-XML entry files
                 a2      : Subdirectories for entries under the given letter and volume number                
                 a3   a4   b4   b5   c5   c6   c7   d7   d8   e8
                 e9   f9   f10  g10  g11  h11  h12  i12  j12  k12
@@ -74,7 +74,6 @@ DATA & FILE OVERVIEW
             o	-eb0702    	= Encyclopedia Britannica, 7th ed., print vol. 2
             o	-010502     = print page 0105, 2nd entry beginning on the page
             o	-1174 	    = last 4 digits of the source image filename (insures URI uniqueness)
-            o	-v3 	    = version 3
             o	.txt        = plain text (or .xml for TEI)
 
     3. Other Versions
@@ -112,7 +111,7 @@ METHODOLOGICAL INFORMATION
 			Samantha Grabus
 			Sonia Pascua
 		
-		Research ASsistant, Temple University
+		Research Assistants, Temple University
 			Bethany Farrell
 			Ian Gates
 			Tyler Gittelman

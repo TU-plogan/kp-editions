@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0705-3206-0011-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">BORNOU</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 5, page 11</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="5" ref="fasttopic:1138427">Sultans</term>
+                    <term n="5" ref="fasttopic:1138426">Sultanate</term>
+                    <term n="5" ref="fasttopic:990901">Lakes</term>
+                    <term n="5" ref="fasttopic:1120522">Slaves</term>
+                    <term n="4" ref="fasttopic:1156484">Tribes</term>
+                    <term n="2" ref="fasttopic:916820">Europeans</term>
+                    <term n="2" ref="fasttopic:910709">English</term>
+                    <term n="1" ref="fasttopic:812571">Arabism</term>
+                    <term n="1" ref="fasttopic:812576">Arabs</term>
+                    <term n="1" ref="fasttopic:1050321">Paganism</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="6" ref="fastgeo:1239509">Africa</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="2" ref="lcsh1910:b4qn5zh77">Mahommedanism</term>
+                    <term n="1" ref="lcsh1910:b48c9r41n">Arabs</term>
+                    <term n="1" ref="lcsh1910:b40p0wv7t">Paganism</term>
+                    <term n="1" ref="lcsh1910:b4gh9bg6t">Mussulmans</term>
+                    <term n="1" ref="lcsh1910:b4gx44t5k">Koran</term>
+                    <term n="5" ref="lcsh1910:b41j9770v">State</term>
+                    <term n="5" ref="lcsh1910:b4736m682">Lakes</term>
+                    <term n="5" ref="lcsh1910:b4q815225">Trade</term>
+                    <term n="5" ref="lcsh1910:b4jh3db66">Trades</term>
+                    <term n="5" ref="lcsh1910:b4b27pq8k">Numbers</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193733206" type="entry">
+                <p><label type="entry">BORNOU</label>, an extensive kingdom, situatedin the eastern
+                    part of interior Africa. With the exception of Houssa, now subject to the sultan
+                    of the Fellatahs, it is superior in power and influence to any other state in
+                    that quarter of the continent. Major Denham, to whom we are indebted for the
+                    only full and authentic description of this country, places it between the 12th
+                    and 18th degrees of east longitude, and the 10th and 15th of north latitude,
+                    which would form an extent of nearly 400 miles in every direction. His own map
+                    and description, however, obliges us to restrict these dimensions to little more
+                    than one half. Bornou is bounded on the west by Soudan or Houssa, on the east by
+                    the lake Tchad, on the north by the Great Desert, on the south by the kingdoms
+                    of Begherme, Loggun, and Mandara.</p>
+                <p>The grandest natural feature of this country consists in the lake called the
+                    Tchad, one of the largest expanses of fresh water in the world, and well
+                    entitled to the appellation of an inland sea. Its limits have not been very
+                    precisely ascertained, but cannot fall much short of 200 miles in length and 150
+                    in breadth. A remarkable variation, however, takes place, according as the
+                    rivers by which it is fed are swelled by the tropical rains, or their channels
+                    reduced by the continuance of the dry season. At this period the waters on every
+                    side recede, and leave uncovered a tract of many miles in extent, to be again
+                    overflowed when the rains have swelled the lake. The inhabitants, however,
+                    derive little advantage from the short and preearious interval during which they
+                    <pb break="no" facs="nls:193733219" xml:id="kp-eb0705-3219-0012"/> have access
+                    to this portion of their territory. There is neither leisure nor opportunity to
+                    bring it under regular culture; and the luxuriant fertility derived from the
+                    inundation is wasted in producing a rank vegetable growth of grass from ten to
+                    twelve feet in height, with impenetrable thickets of trees and underwood. Man
+                    scarcely dares to penetrate into these gloomy regions, which are filled by
+                    numerous and formidable wild animals, elephants, lions, hyenas, and enormous
+                    broods of the serpent species. These creatures, when the inundation comes on,
+                    seek refuge in the cultivated and inhabited tracts, where their arrival diffuses
+                    consternation and dismay.</p>
+                <p>The rivers by which this great expanse of water is fed are the Yeou and the
+                    Shary. The former, which enters it from the west, excited great interest on its
+                    first discovery, from being considered, or at least suspected, to be a
+                    continuation of the Niger of Park. Further observation has completely disproved
+                    this supposition, and shown it to be a river of only secondary magnitude. Rising
+                    in a range of hills to the south of I4oussa, it flows first north, then eastward
+                    through Bornou, till it falls into the Tchad; but it never, unless when swollen
+                    by the rains, presents any great body of water. The Shary is a more considerable
+                    stream, although its origin and early course are known only by conjecture. After
+                    flowing from the south for about forty miles, through the kingdom of Loggun, it
+                    enters at the south-eastern extremity of Bornou into the great common
+                    receptacle, where it forms a noble stream, half a mile broad, and flows with
+                    considerable rapidity.</p>
+                <p>The territory of Bornou, extending along the whole western and part of the
+                    southern and northern shores of the great lake, is generally level and fertile.
+                    The climate, especially from March to the end of June, is oppressively hot,
+                    rising sometimes to 105 and 107, and even during most of the night not falling
+                    much below 100. In May the wet season commences, with violent storms of thunder
+                    and lightning. In the end of June the rivers and lakes begin to overflow, and
+                    for several months the rains are almost incessant, accompanied with damp,
+                    cloudy, and sultry weather. The inhabitants at this season are severely
+                    afflicted with fever and ague, which carry off great numbers of them. In October
+                    the rains abate; cool, fresh winds blow from the west and north-west; and for
+                    several months the climate is both healthful and agreeable.</p>
+                <p>No mention is found of Bornou among the geographers of antiquity, although it may
+                    be conjectured that the great lake of Nigritia, placed by Ptolemy in the centre
+                    of Africa, was perhaps the Tchad. Edrisi, however, in the twelfth century,
+                    describes this country under the appellation of Kuku, which is still borne by
+                    its capital. He represents the king as absolute and powerful, with a numerous
+                    army and many attendants; the people as martial, though rude; and the merchants
+                    as carrying on an active trade and possessing great wealth. Leo, who visited it
+                    about two centuries after, gives a description nearly similar. The people are
+                    represented as Pagans, and extremely rude, though numerous, and the country well
+                    cultivated. The merchants from Barbary supplied the king in his expeditions with
+                    arms and horses, while he made an annual expedition to procure slaves to be
+                    given in payment.</p>
+                <p>No further relations respecting Bornou were communicated to Europe during a very
+                    long period; yet it is remarkable that, in the maps of Sanson, Delisle, and
+                    others of the sixteenth and seventeenth centuries, there is found a lake of
+                    Bornou, and in some of them a large lake with the name of Guardia, which does
+                    not sound very dissimilar to that of Tchad. It is difficult to conjecture the
+                    ground upon which these features were delineated; yet their coincidence with
+                    those recently discovered seems to show that they were founded upon some
+                    information with which we are now unacquainted. D’Anville, however, proceeding
+                    upon his rigid principle of admitting no object for which he could not find a
+                    positive authority, expunged these names from his map, and has been generally
+                    followed by modern geographers.</p>
+                <p>When the African Association in 1788 commenced their operations, they early
+                    received some information, collected by Mr Lucas at Tripoli, with other
+                    particulars related by Ben Ali, a Moorish merchant resident in London. From
+                    these sources were derived pretty copious notices, both concerning Bornou and
+                    Cassina; the former being described as what it then appears to have been,
+                    decidedly the ruling power in the interior of Eastern Africa, all the kingdoms
+                    of which it had reduced into a state of vassalage. In arranging these accounts,
+                    however, a considerable error was committed as to the position of this country.
+                    Mr Lucas had been informed that it was fifty journeys, or about six hundred and
+                    fifty miles, south from Fezzan; but his informant added that it was only
+                    twenty-five journeys west from the Nile. To meet this statement Major Rennell
+                    conceived it necessary to extend the route, not due south as it really was, but
+                    south-east, so as to place it in the heart of the desert, seven degrees north
+                    and eight degrees east of its real position. Kuku, likewise believed, from the
+                    statement of Edrisi, to be a separate kingdom, was placed in the same quarter,
+                    still nearer to the Nile; and thus the desert tract to the west of Nubia was
+                    filled with countries which, in that quarter, have no existence.</p>
+                <p>The expedition sent out by the British government in 1822, under Denham and
+                    Clapperton, completely adjusted the geography of this part of the continent. It
+                    was discovered that Bornou, instead of being so far removed, as our maps
+                    represented, from Houssa and Cassina, was close on their eastern frontier, and
+                    formed a continuation of that extensive, fruitful, and finely watered plain,
+                    which extends from the mouth of the Senegal across Central Africa. Its relative
+                    political circumstances had also undergone, during this interval, a very
+                    complete change. Instead of holding all the surrounding states in vassalage, it
+                    had been itself completely subjected to the dominion of the Fellatahs, who,
+                    after subjugating all Houssa, had invaded Bornou, and committed the most
+                    dreadful ravages, destroying its capital and other large cities, and bringing
+                    the whole country into a state of entire bondage. There was still, however,
+                    among the people a strong spirit of valour and independence. A mere private
+                    individual, in the northern province of Kanem, pretending to, and perhaps
+                    himself trusting in, a celestial mission, hoisted the green flag of the Prophet,
+                    and, under the title of the servant of God, undertook a series of struggles for
+                    the deliverance of his country. The Fellatahs appear to have been taken very
+                    much by surprise, and, being defeated in successive encounters, were in ten
+                    months driven completely out of Bornou. They seem to have now given up all
+                    attempts at reconquering it, although a hostile spirit still reigns between the
+                    two countries.</p>
+                <p>The conqueror, called, from his native province, El Kanemy, having the army
+                    wholly devoted to him, might probably have with little difficulty assumed the
+                    sovereign power. More moderate, and perhaps more prudent, he drew forth the
+                    nearest heir of the ancient sultans, and invested him with all the appearance
+                    and pomp of sovereignty; reserving only for himself, under the title of scheik,
+                    all its reality. The court of the sultan was established at New Bornou, which
+                    was made the capital, instead of the old city, which had been entirely destroyed
+                    during the Fellatah invasion; while the scheik, in military state, resides at
+                    the city of Kuku or Kouka.</p>
+                <p>The Bornouese throne in former times had been elective, at least among the
+                    members of the same family; and <pb break="no" facs="nls:193733232"
+                    xml:id="kp-eb0705-3232-0013"/>the nobles possessed this and other high
+                    privileges: but at present the scheik possesses a power nearly absolute, which
+                    he exercises with salutary vigour. Bands of robbers who desolated the country
+                    have been nearly extirpated, and travelling and property rendered secure, at
+                    least in the interior. Justice within each city is administered, as in other
+                    Mussulman countries, by the cadi, with an appeal to the scheik. Murder is
+                    punished, on conviction, by delivering the offender to the relatives of the
+                    deceased, who dispatch him with clubs. A young thief is buried in the ground up
+                    to the head, which being covered with butterand honey, is exposed under the
+                    burning sun to the attack of innumerable flies and mosquitoes. Insolvent debtors
+                    are rather hardly dealt with. But the scheik’s zeal was peculiarly directed
+                    against moral offences, of which conscience and public opinion have been
+                    generally considered as the most appropriate guardians. Such were the
+                    non-observance of the Mahommedan fasts, upon which severe and relentless
+                    penalties were levied. He was also most strict in punishing those failings in
+                    the female sex which are elsewhere considered as sufficiently visited by
+                    disgrace and exclusion from society. Here not only the most ignominious
+                    punishments, but often death itself, awaited them. On one occasion sixty of
+                    these unfortunate offenders were brought before him, of whom five were hanged,
+                    and four whipt so severely that two afterwards expired; an outrageous virtue,
+                    which seems with reason to have been branded as almost diabolical. The most
+                    frivolous female offences, as talking too loud, and walking in the street with
+                    the face unveiled, were considered as ground of public indictment at this severe
+                    bar. Even the spending in courtship or otherwise a larger sum than a man was
+                    supposed to be able to afford, gave ground for dragging him before the national
+                    tribunal. Major Denham saw one thrown into prison for presenting to his bride
+                    two robes or turkadoes, when his station was considered as not authorizing more
+                    than one; although he proved that the lady had refused her consent on any other
+                    terms; which, however, drew upon her also a severe animadversion.</p>
+                <p>The sultan of Bornou is surrounded by a mounted body-guard, who likewise compose
+                    his principal nobles and chiefs. Their attire and equipment is the most
+                    grotesque and unwieldy, perhaps, to which fashion in any country has given rice.
+                    It is indispensable to the chief of rank that he should possess a huge belly,
+                    the singular importance attached to which is probably founded on the idea of its
+                    being an indication of plenty and luxury; and it is held so essential, that even
+                    when high feeding cannot produce the effect, stuffing is employed to give the
+                    appearance of it. Again, even in this burning climate, the body is enveloped in
+                    successive robes, amounting often to ten or twelve, the number being always
+                    considered as indicating the rank of the wearer. The head likewise is inclosed
+                    in numerous successive turbans, which are supposed to be rendered more
+                    ornamental by leaving only one side of the face uncovered. The sultan studies to
+                    be still more protuberant and more loaded with clothing than any of his
+                    courtiers. Yet in this attire he and they advance together into the field; but
+                    of course they can have no real efficiency in the duties of active warfare. The
+                    last sultan had fallen in consequence of the impossibility, caused by his
+                    ponderous equipment, of flying with sufficient speed before a victorious
+                    enemy.</p>
+                <p>The military force of Bornou consists almost entirely in cavalry, amounting to
+                    about 30,000, who are mounted on small but active steeds, which, as well as
+                    their riders, being cased in iron mail, present a very formidable appearance.
+                    They also manage their horses with the utmost skill, and perform all the
+                    manoeuvres of the field most rapidly and dexterously. Their only defect is, that
+                    when placed in the field against an enemy at all formidable, they can by no
+                    impulse be induced to fight. They look on as spectators till the contest issues
+                    in victory, when they engage eagerly in pursuit and plunder, in both of which
+                    they excel; whilst, in case of defeat, they take to flight with the utmost
+                    rapidity. As, however, the cavalry of the armies with which they contend are
+                    nearly on a level in point of prowess with themselves, the match is tolerably
+                    equal. There are usually on each side about a hundred chiefs, raised to
+                    distinction by bodily strength and prowess, who engage in single combats, and
+                    display often the most desperate valour. Barca Gana, the scheik’s general, had
+                    obtained the reputation of possessing charms that rendered him invulnerable. The
+                    main dependence of that prince is upon a body of 9000 spearmen from his native
+                    territory of Kanem, who rally round him with the most enthusiastic attachment.
+                    Though almost naked, and equipped only with shield and spear, they display a
+                    discipline beyond that of almost any other African army. They march by tribes,
+                    and keep in front of their line a regular chain of piquets, with sentinels, who
+                    every half hour pass the war-cry along it; precautions very rarely employed in
+                    barbarian armies. All the sovereigns of Central Africa likewise consider
+                    themselves fortunate if they can engage the services of even a small party of
+                    Arab caravan followers, who, being brave and armed with muskets, an instrument
+                    yet almost unknown in this region, are objects of something like supernatural
+                    dread.</p>
+                <p>The territory of Bornou is fertile and well watered, yielding large crops even
+                    under very imperfect cultivation. The labour is chiefly performed by female
+                    slaves, who, at the commencement of the rainy season, scratch rather than turn
+                    the ground, and scatter rallier than sow the seed. They are also obliged to
+                    watch the growth, in order to guard against numerous animal depredators; a very
+                    perilous occupation, in the course of which they are liable to be carried off by
+                    the wild beasts, who are roaming about in every direction. The rice and wheat
+                    are inferior, and grown in small quantity. The grain which forms the staple food
+                    of the people is a species of millet called <hi rend="italic">gussub,</hi> which
+                    they form, not into bread, an article here entirely unknown, but into a species
+                    of paste, that, by the addition of butter and honey, forms the highest boast of
+                    Bornou cookery. Cotton and indigo are also valuable productions, affording the
+                    material for the cloths finely dyed with blue stripes, which form the staple
+                    fabric of the country. All the domestic animals are reared, and very numerous
+                    herds of oxen are possessed, chiefly by an Arab tribe called Shouaas∙ Major
+                    Denham reckons 20,000 on the shores of the Tchad, and double that number on the
+                    banks of the Shary. The empire, however, is remarkably destitute of the products
+                    of horticulture. There is neither a fruit nor a vegetable, except some onions in
+                    the vicinity of the large towns, and a very few limes and figs reared with great
+                    difficulty in the garden of the scheik.</p>
+                <p>The wild animals are very numerous, finding both food and cover in the extensive
+                    woody and marshy districts. Lions prowl about in considerable numbers,
+                    approaching even the walls of the towns. The Bornouese delight in taming and
+                    even making a pet of this noble animal. The scheik, as a special favour, sent
+                    Major Denham a present of a young lion, which he very prudently returned,
+                    lamenting the want of space for his accommodation. Elephants, in herds of fifty
+                    to four hundred, wander over the tract inundated by the Tchad, and are hunted
+                    and killed both for the flesh and the ivory. Hyenas also, in huge and formidable
+                    bands, invade the cultivated fields, and are with difficulty prevented from
+                    penetrating <pb break="no" facs="nls:193733245" xml:id="kp-eb0705-3245-0014"
+                    />into the towns. The tall form of the giraffe is not unfrequently seen cropping
+                    the leaves of the dense forest. The waters abound with crocodiles and
+                    hippopotami, and the flesh of both is valued for food; that of the former,
+                    indeed, is described by naturalists as extremely delicate. The country is filled
+                    with swarms of bees, which often obstruct the passage of the traveller; and the
+                    honey, though only partially collected, forms one of the chief Bornouese
+                    delicacies. Antelopes, gazelles, ostriches, and various other quadrupeds and
+                    feathered animals, are pursued as game.</p>
+                <p>The population of Bornou is calculated by Major Denham at 5,000,000; but,
+                    considering its limited extent, and the imperfect state of agriculture, this
+                    number must, we think, be considerably exaggerated. The leading people, called
+                    Bornouese or Kanowry, present a complete specimen of the negro form and
+                    features; having large mouths, thick lips, broad noses, an unmeaning face, but
+                    good teeth and high foreheads. The females heighten their want of beauty by a
+                    most extensive and injudicious system of puncturing and tattooing. The people
+                    are peaceably disposed, friendly and courteous in their manners, and
+                    distinguished by a sort of good-natured heaviness. Though endowed with a slender
+                    degree of courage, they are resentful, and addicted to petty larcenies. The law
+                    allows of polygamy, but the richest have seldom more than two or three wives,
+                    and the rest of the community only one. The favourite amusement is wrestling,
+                    not performed in person, but viewed as a spectacle while performed by slaves
+                    taken in war from the neighbouring nations, particularly the Beghermes and
+                    Musgows. The displays of strength made by these men are said to be often very
+                    extraordinary. A powerful wrestler sells at a high price, and the masters place
+                    extraordinary pride in the performance of their slaves, cheering them during the
+                    combat, and, on its successful issue, often presenting them with valuable robes.
+                    Even the ladies of Bornou engage occasionally in public contests, where they
+                    often throw each other with violence to the ground. Another favourite amusement
+                    consists in a rude game bearing some resemblance to chess, played with beans and
+                    holes in the sand.</p>
+                <p>The Mahommedan religion is universally professed in Bornou, and even with
+                    violence and bigotry. Through recommendations brought with them, the English
+                    travellers secured good treatment; but, as unbelievers, they were viewed with
+                    the deepest horror, and almost as a species of monsters. Even from those who
+                    showed at first the most friendly disposition, the disclosure of their creed
+                    drew forth deep groans, sometimes screams, and usually arrested all progress to
+                    intimacy. A man who had served them for two or three weeks, although he pleaded
+                    that it was only under the most extreme necessity, was declared unfit on that
+                    ground to be received as a witness in a court of law. There are resident in
+                    Bornou a considerable number of <hi rend="italic">figlds</hi> (writers or
+                    doctors), who have visited Mecca, and are well skilled in Arabic. It is even an
+                    employment to write copies of the Koran, which are sent into Barbary, where they
+                    bear a considerable price. Its verses are much used as charms or amulets, in the
+                    preparation of which the scheik was understood greatly to excel, gaining almost
+                    as many victories by his pen as by his sword. The Bornouese, like other negroes,
+                    have songs relating to love or war, some of which are said to possess merit; but
+                    their intellectual character in general seems to rank extremely low.</p>
+                <p>The pastoral districts of this country are occupied by a tribe called Shouaas,
+                    who are accounted Arabs, and speak that language, though they have scarcely any
+                    resemblance to those in the north bearing that appellation. They have fine open
+                    countenances, with aquiline noses, large eyes, and a complexion of light copper;
+                    and they exhibit a strong though improved resemblance to the European gipsies.
+                    Their deportment, however, is not very favourably spoken of. They do not want
+                    courage, and can furnish the government when necessary with 15,000 horse; but
+                    they are arrogant and deceitful, imposing upon the people by the manufacture of
+                    charms, and by pretensions to prophecy and fortune-telling. Having thus gained
+                    admission into the houses, they not only sell these gifts at a high rate, but
+                    embrace opportunities of pilfering. Probably they were observed to disadvantage
+                    in the heart of the cities. One of their tribes, called Dugganahs, who were
+                    visited in their native tents on the Shary, presented a most pleasing picture of
+                    patriarchal simplicity. Their countenances were noble and expressive, and the
+                    attachments of kindred and domestic affection were displayed in peculiar force.
+                    Another tribe, called the La Salas, almost independent of Bornou, inhabit a
+                    number of low islands in the Tchad, covered with rich pasture, and separated
+                    from the continent by channels so shallow as to be fordable on horseback. A
+                    knowledge of the tracts is however requisite; and those troops who without it
+                    attempted to penetrate through them have got entangled in mud, sunk into deep
+                    pools, and signally defeated.</p>
+                <p>The towns in Bornou are of considerable size, surrounded with walls thirty-five
+                    or forty feet in height, and twenty feet in thickness, having at each of the
+                    four corners a triple gate, composed of strong planks of wood, with bars of
+                    iron. The abodes of the principal inhabitants form an inclosed square, in which
+                    are separate houses for each of the wives; whilst the chief himself resides in
+                    two or more elevated structures resembling turrets, connected together by
+                    terraces. These are well built, of a reddish clay, highly polished, so as to
+                    resemble stucco; whilst the interior roof, though composed only of branches, is
+                    tastefully constructed. The horns of the antelope and gazelle are employed to
+                    fasten together the different parts, and have suspended from them the quiver,
+                    spear, and shield of the owner. The ordinary houses are small, being built
+                    partly of mud and thatched, partly only of straw or coarse grass mats. Major
+                    Denham was accommodated in one of eight feet diameter, having a hole two and a
+                    half feet high, by which he crept in and out; but this deficiency of aperture
+                    was rendered almost necessary by the crowds of tormenting insects who would
+                    otherwise have made good their entrance. Though New Bornou and Kouka were the
+                    residences, the one of the sultan and the other of the scheik, neither is equal
+                    in magnitude to Angornou, estimated to contain 30,000 inhabitants, who, on
+                    market days, are swelled to 80,000 or 100,000. On the Yeou are seen the ruins of
+                    Old Bornou and Gambarou, which appear to have been greater and better built
+                    cities than any now in the kingdom; but they had been so entirely destroyed by
+                    the Fellatahs in their late invasion, that the very site is in a great measure
+                    covered with shrubs and vegetation. The vicinity is almost laid waste by the
+                    inroads of the Tuaricks; and, indeed, all the kingdoms of Central Africa suffer
+                    the disadvantage of having their frontier exposed to the ravages of predatory
+                    tribes who occupy the rude and desert borders.</p>
+                <p>The English travellers have held out favourable hopes of the commerce which might
+                    be opened with Bornou. They observed the increased and increasing demand, among
+                    a numerous population, for goods which Britain either does or could produce
+                    cheaper than any other country; and these goods were found selling at an advance
+                    of 300 per cent, above their price at Tripoli. On the other hand, it must not be
+                    forgotten that the route from that city, though the nearest of any from the
+                    coast, greatly exceeds a thousand miles, through the most dreary and desolate
+                    tracts, amid the domains of numerous predatory tribes.</p>
+                <pb break="no" facs="nls:193733258" xml:id="kp-eb0705-3258-0015"/>
+                <p>The merchant has to encounter, therefore, not only accumulated hardships, but all
+                    the perils of famine, battle, and pestilence. It would be vain, therefore, to
+                    expect that any one would conduct such a trade without very high profits. It is
+                    at present carried on by merchants, or rather chiefs, each with a large body of
+                    armed followers, alike prepared for commerce or war. The European who should
+                    engage in such a trade would be obliged to follow this example, and might expect
+                    to encounter their enmity and rivalry. It seems doubtful, therefore, how far
+                    such a trade could now be carried on by any other than its present channel.</p>
+                <p>Amongst the commodities which find a market in Bor-nou are mentioned writing
+                    paper, beads, coral, silks and cottons of gaudy patterns, turbans, small
+                    carpets, brushes, caftans, and shirts readymade; brass basons tinned, small
+                    mirrors, pistols, and other arms ornamented, but cheap. The commodities taken in
+                    return are almost exclusively slaves, obtained by purchase or capture; and we
+                    fear it will be more difficult than Major Denham supposes to divert the trade
+                    from this bad channel. Neither gold nor silver are seemingly to be procured in
+                    Bornou. Elephants’ teeth, ostrich feathers, raw hides, musk, indigo, and senna,
+                    are mentioned as commodities suited to the market of Europe. <hi
+                    rend="smallcaps">(e.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

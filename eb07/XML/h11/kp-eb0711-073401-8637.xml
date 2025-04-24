@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0711-8637-0734-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">HUNTER</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 11, page 734</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="2" ref="fastgeo:1206715">Scotland</term>
+                    <term n="2" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1205075">Ohio</term>
+                    <term n="1" ref="fastgeo:1239786">America</term>
+                    <term n="1" ref="fastgeo:1215269">Gibraltar</term>
+                    <term n="1" ref="fastgeo:1204607">Suriname</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="4" ref="lcsh1910:b4n00zv9m">Streets</term>
+                    <term n="2" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="2" ref="lcsh1910:b4v11vp7r">Home</term>
+                    <term n="1" ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term n="8" ref="lcsh1910:b4k649s3x">Accountants</term>
+                    <term n="8" ref="lcsh1910:b4gx44x4f">Doctors</term>
+                    <term n="8" ref="lcsh1910:b4ff3kz95">Accounting</term>
+                    <term n="6" ref="lcsh1910:b4v11vw02">Work</term>
+                    <term n="6" ref="lcsh1910:b4kh0f02c">Death</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="31" ref="fasttopic:964151">Hunters</term>
+                    <term n="4" ref="fasttopic:961111">Hospitalers</term>
+                    <term n="4" ref="fasttopic:1134794">Streets</term>
+                    <term n="2" ref="fasttopic:947546">Greeks</term>
+                    <term n="2" ref="fasttopic:959074">Home</term>
+                    <term n="12" ref="fasttopic:1182566">Year</term>
+                    <term n="8" ref="fasttopic:795344">Accountants</term>
+                    <term n="8" ref="fasttopic:795379">Accounting</term>
+                    <term n="8" ref="fasttopic:795510">Accounts</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193648637" type="entry">
+                <p><label type="entry">HUNTER</label>, a name given to a horse qualified to carry a
+                    person in the chase. See <hi rend="smallcaps">Horse.</hi></p>
+                <p><hi rend="smallcaps">Hunter,</hi><hi rend="italic">Dr William,</hi> a celebrated
+                    anatomist and physician, was born on the 23d of May 1718, at Kilbride, in the
+                    county of Lanark, in Scotland. He was the seventh child of John and Agnes
+                    Hunter, who resided on a small estate in that parish called Long Calderwood,
+                    which had been long in the possession of his family. His great grandfather by
+                    his father’s side was a younger son of Hunter of Hunterston, chief of the family
+                    of that name. At the age of fourteen his father sent him to the College of
+                    Glasgow. In this seminary he passed five years, and by his prudent behaviour and
+                    diligence acquired the esteem of the professors, and the reputation of being a
+                    good scholar. His father had designed him for the church; but the idea of
+                    subscribing to articles of faith was so repugnant to the liberal mode of
+                    thinking which he had already adopted, that he felt an insuperable aversion to
+                    theological pursuits. In this state of mind he happened to become acquainted
+                    with Dr Cullen, afterwards so celebrated as professor at Edinburgh, who was then
+                    just established in practice at Hamilton under the patronage of the Duke of
+                    Hamilton. Dr Cullen’s conversation soon determined him to lay aside all thoughts
+                    of the church, and to devote himself to the profession of physic. His father’s
+                    consent having been previously obtained, Mr Hunter in 1737 went to reside with
+                    Dr Cullen. In the family of this excellent friend and preceptor he passed nearly
+                    three years; and these, as he was often heard to acknowledge, were the happiest
+                    of his life. It was then agreed that he should go to prosecute his medical
+                    studies at Edinburgh and London, and afterwards return to settle at Hamilton in
+                    partnership with Dr Cullen. He accordingly set out for Edinburgh in November
+                    1740, and continued there till the following spring, attending the lectures of
+                    the medical professors, and amongst others those of Dr Alexander Monro, who,
+                    many years afterwards, in allusion to this circumstance, styled himself his old
+                    master.</p>
+                <p>Mr Hunter arrived in London in the summer of 1741, and took up his residence at
+                    the house of Dr Smellie, who was at that time an apothecary in Pall Mall. He
+                    brought with him a letter of recommendation to Dr James Douglas, from Mr Foulis,
+                    printer in Glasgow, who had been useful to the doctor in collecting for him
+                    different editions of Horace. Dr Douglas was then intent on a great anatomical
+                    work on the bones, which he did not live to complete, and was looking out for a
+                    young man of abilities and industry whom he might employ as a dissector. This
+                    induced him to pay particular attention to Mr Hunter; and finding him acute and
+                    sensible, he desired him to make him another visit. A second conversation
+                    confirmed the doctor in the good opinion he had formed of Mr Hunter; and without
+                    any further hesitation he invited him into his family to assist in his
+                    dissections, and to superintend the education of his son. Mr Hunter having
+                    accepted Dr Douglas’s invitation, was by his friendly assistance enabled to
+                    enter himself as a surgeon’s pupil at St George’s Hospital under Mr James
+                    Wilkie, and as a dissecting pupil under Dr Frank Nichols, who at that time
+                    taught anatomy with considerable reputation. He likewise attended a course of
+                    lectures on experimental philosophy delivered by Dr Desaguliers. Of these means
+                    of improvement he did not fail to make a proper use. He soon became expert in
+                    dissection, and Dr Douglas was at the expense of having several of his
+                    preparations engraved. But before many months had elapsed, he had the misfortune
+                    to lose this excellent friend. The death of Dr Douglas, however, made no change
+                    in the situation of our author. He continued to reside with the doctor’s family,
+                    and to pursue his studies with the same diligence as before.</p>
+                <p>In 1743 he communicated to the Royal Society an essay upon the structure and
+                    diseases of articulating cartilages. This ingenious paper, on a subject which
+                    till then had not been sufficiently investigated, affords a striking testimony
+                    of the rapid progress he had made in his anatomical inquiries. As he had it in
+                    contemplation to teach anatomy, his attention was directed principally to this
+                    object; and it deserves to be mentioned as an additional mark of his prudence,
+                    that he did not precipitately engage in the attempt, but passed several years in
+                    acquiring such a degree of knowledge, and such a collection of preparations, as
+                    might ensure his success. Dr Nichols, to whom he communicated his <pb break="no"
+                    facs="nls:193648650" xml:id="kp-eb0711-8650-0735"/>scheme, and who about that
+                    time declined giving lectures ' in favour of Dr Lawrence, did not give him much
+                    encouragement to prosecute it. But at length an opportunity presented itself for
+                    the display of his abilities as a teacher. A society of navy surgeons had an
+                    apartment in Covent Garden, where they engaged the late Mr Samuel Sharpe to
+                    deliver a course of lectures on the operations of surgery. Mr Sharpe continued
+                    to repeat this course, till finding that it interfered too much with his other
+                    engagements, he declined the task in favour of Mr Hunter, who gave the society
+                    so much satisfaction that they requested him to extend his plan to anatomy, and
+                    at first he had the use of their room for his lectures. This happened in the
+                    winter of 1746. He is said to have experienced much solicitude when he began to
+                    speak in public; but the applause he met with soon inspired him with courage;
+                    and by degrees he became so fond of teaching, that for many years before his
+                    death he was never happier than when employed in delivering a lecture. The
+                    profits of his first two courses were considerable; but, by contributing to the
+                    wants of different friends, he found himself at the return of the next season
+                    obliged to defer his lectures for a fortnight, merely because he had not money
+                    enough to defray the necessary expense of advertisements.</p>
+                <p>In 1747 he was admitted a member of the corporation of surgeons; and in the
+                    spring of the following year, soon after the close of his lectures, he set out,
+                    in company with his pupil Mr James Douglas, on a tour through Holland and
+                    France. His lectures suffered no interruption by this journey, as he returned to
+                    England soon enough to prepare for his winter course, which commenced about the
+                    usual time.</p>
+                <p>At first he practised both surgery and midwifery; but to the former of these he
+                    had always an aversion. His patron, Dr James Douglas, had acquired considerable
+                    reputation in midwifery; and this probably induced Mr Hunter to direct his views
+                    chiefly to the same line of practice. His being elected one of the
+                    surgeon-accoucheurs, first to the Middlesex, and soon afterwards to the British
+                    Lying-in Hospital, assisted in bringing him forward in this branch of his
+                    profession, in which he was recommended by several of the most eminent surgeons
+                    of that time, who respected his anatomical talents, and wished to encourage him.
+                    But these were not the only circumstances which contributed to his success. He
+                    owed much to his abilities, and much to his person and manner, which eminently
+                    qualified him for the practice of midwifery.</p>
+                <p>In 1750 he seems to have entirely relinquished his views in surgery, as in that
+                    year he obtained the degree of doctor of physic from the university of Glasgow,
+                    and began to practise as a physician. About this time he quitted the family of
+                    Mrs Douglas, and went to reside in Jermyn Street. In the summer of 1751 he
+                    revisited his native country, for which he always retained a cordial affection.
+                    His mother was still living at Long Calderwood, which had now become his
+                    property by the death of his brother James. Dr Cullen, for whom he always
+                    entertained a sincere regard, was then established at Glasgow, and had acquired
+                    considerable reputation both as a practitioner and teacher of physic; so that
+                    the two friends had the pleasure of being able to congratulate each other on
+                    their mutual prosperity. During this visit he showed his attachment to his
+                    little paternal inheritance by giving many instructions for repairing and
+                    improving it, and for purchasing any adjoining lands that might be offered for
+                    sale. After this journey to Scotland, to which he devoted only a few weeks, he
+                    was never absent from London, unless his professional engagements, as sometimes
+                    happened, required his attendance at a distance from the capital.</p>
+                <p>In 1755, on the resignation of Dr Layard, one of the physicians of the British
+                    Lying-in Hospital, we find the governors of that institution voting their
+                    “thanks to Dr Hunter for the services he had done the hospital, and for his
+                    continuing in it as one of the physicians ·,” so that he seems to have been
+                    established in this office without the usual form of an election. The year
+                    following he was admitted as a licentiate of the Royal College of Physicians.
+                    Soon afterwards he was elected a member of the Medical Society; and to the <hi
+                    rend="italic">Observations and Inquiries</hi> published by that society he at
+                    different periods contributed several valuable papers.</p>
+                <p>In 1762 we find him warmly engaged in controversy, supporting his claim to
+                    different anatomical discoveries, in a Work entitled <hi rend="italic">Medical
+                    Commentaries,</hi> the style of which is correct and spirited. As an excuse for
+                    the tardiness with which he brought forward this work, he observes in his
+                    introduction that it required a good deal of time, and he had little to spare;
+                    that the subject was unpleasant, and therefore he was very seldom in the humour
+                    to take it up. In this publication he confined himself chiefly to a dispute with
+                    the professor of anatomy at Edinburgh, concerning injections of the testicle,
+                    the ducts of the lachrymal gland, the origin and use of the lymphatic vessels,
+                    and absorption by veins. He likew ise defended himself against a reproach which
+                    Professor Monro senior had cast upon him, by giving a concise account of a
+                    controversy he was involved in with Mr Pott, concerning the discovery of the <hi
+                    rend="italic">hernia congenita.</hi> It was not long before Mr Pott took
+                    occasion to give the public his account of the dispute; and, in reply, Dr Hunter
+                    added a supplement to his Commentaries. No man was ever more tenacious than Dr
+                    Hunter of what he conceived to be his anatomical rights. This was particularly
+                    evinced in the year 1780, when his brother communicated to the Royal Society a
+                    discovery he had made twenty-five years before, relative to the structure of the
+                    placenta, the communication between it and the uterus, and the vascularity of
+                    the spongy chorion. At the next meeting of the society a letter was read, in
+                    which Dr Hunter put in his claim to the discovery in question. This letter was
+                    followed by a reply from Mr John Hunter, and here the dispute ended.</p>
+                <p>In 1762, when the queen became pregnant, Dr Hunter was consulted; and two years
+                    afterwards he had the honour to be appointed physician extraordinary to her
+                    majesty. About this time his avocations were so numerous that he became desirous
+                    of lessening his fatigue; and having noticed the ingenuity and assiduous
+                    application of Mr William Hewson, who was then one of his pupils, he engaged him
+                    first as an assistant, and afterwards as a partner, in his lectures. This
+                    connection continued till the year 1770, when some dispute happened which
+                    terminated in a separation. Mr Hewson was succeeded in the partnership by Mr
+                    Cruikshank, whose anatomical abilities were deservedly respected.</p>
+                <p>In 1767 Dr Hunter was elected a fellow of the Royal Society, and in the year
+                    following communicated to that learned body observations on the bones, commonly
+                    supposed to be elephants’ bones, which have been found near the river Ohio in
+                    America. This was not the only subject of natural history on which our author
+                    employed his pen; for, in a subsequent volume of the Philosophical Transactions,
+                    we find him offering his remarks on some bones found in the rock of Gibraltar,
+                    and which he proves to have belonged to some quadruped. In the same work,
+                    likewise, he published an account of the nyl-ghau, an Indian animal not
+                    described before. In 1768, Dr Hunter became a fellow of the Society of
+                    Antiquaries; and the same year, at the institution ota Royal Academy of Arts, he
+                    was appointed by his majesty to the office of professor of anatomy. This
+                    appointment opened a new field for his abilities; and he engaged in it, as he
+                    did in every other pursuit of his life, with unabating zeal. He now</p>
+                <pb break="no" facs="nls:193648663" xml:id="kp-eb0711-8663-0736"/>
+                <p>adapted his anatomical knowledge to the subjects of painting and sculpture; and
+                    the novelty and justness of his observations proved at once the readiness and
+                    extent of his genius. In January 1781 he was unanimously elected to succeed the
+                    late Dr John Fothergill as president of the Medical Society. As his name and
+                    talents were known and respected in every part of Europe, so the honours
+                    conferred upon him were not limited to his own country. In 1780, the Royal
+                    Medical Society at Paris elected him one of their foreign associates; and in
+                    1782 he received a similar mark of distinction from the Royal Academy of
+                    Sciences in that city.</p>
+                <p>The most splendid of Dr Hunter’s medical publications was the Anatomy of the
+                    Human Gravid Uterus. The appearance of this work, which had been begun as early
+                    as the year 1751 (when ten of the thirty-four plates it contains were
+                    completed), was retarded till the year 1775, in consequence of the author’s
+                    desire of sending it into the world with fewer imperfections. This great work is
+                    dedicated to the king. In his preface to it, we find the author very candidly
+                    acknowledging, that in most of the dissections he had been assisted by his
+                    brother Mr John Hunter, “whose accuracy,” he adds, “in anatomical researches is
+                    so well known, that to omit this opportunity of thanking him for that assistance
+                    would be in some measure to disregard the future reputation of the work itself.”
+                    He likewise confesses his obligations to the ingenious artists who made the
+                    drawings and engravings; “but particularly to Mr Strange, not only for having by
+                    his hand secured a sort of immortality to two of the plates, but for having
+                    given his advice and assistance in every part with a steady and disinterested
+                    friendship.”</p>
+                <p>When Dr Hunter began to practise midwifery, he was desirous of acquiring a
+                    fortune sufficient to place him in easy and independent circumstances. Before
+                    many years had elapsed, he found himself in possession of a sum adequate to his
+                    wishes in this respect; and this he set apart as a resource of which he might
+                    avail himself whenever age or infirmities should oblige him to retire from
+                    business. After he had attained this competency, as his wealth continued to
+                    accumulate, he formed a laudable design of engaging in some scheme of public
+                    utility, and at first had it in contemplation to found an anatomical school in
+                    the metropolis. For this purpose, during the administration of Mr Grenville, he
+                    presented a memorial to that minister, in which he requested the grant of a
+                    piece of ground in the Mews, for the site of an anatomical theatre. Dr Hunter
+                    undertook to expend L.7000on the building, and to endow a professorship of
+                    anatomy in perpetuity. This scheme did not meet with the reception it deserved.
+                    In a conversation on this subject, which he had soon afterwards with the Earl of
+                    Shelburne, his lordship expressed a wish that the plan might be carried into
+                    execution by subscription, and very generously requested to have his name set
+                    down for a thousand guineas. Dr Hunter’s delicacy would not allow him to adopt
+                    this proposal. He chose rather to execute it at his own expense, and accordingly
+                    purchased a spot of ground in Great Windmill Street, where he erected a spacious
+                    house, to which he removed from Jermyn Street. In this building, besides a
+                    handsome amphitheatre and other convenient apartments for his lectures and
+                    dissections, there was one magnificent room, fitted up with great elegance and
+                    propriety as a museum. Of the magnitude and value of his anatomical collection
+                    some idea may be formed, when we consider the number of years he employed in
+                    making the anatomical preparations, and in the dissection of morbid bodies,
+                    added to the eagerness with which he procured additions from the collections of
+                    Sandys, Hewson, Falconer, Blackall, and others, that were at different times
+                    offered for sale in this metropolis. His specimens of rare diseases were
+                    likewise frequently increased by presents from his medical friends and pupils;
+                    who, when any thing of this sort occurred to them, very justly-thought they
+                    could not dispose of it more properly than by placing it in Dr Hunter’s museum.
+                    Speaking of an acquisition in this way in one of his publications, he says, “I
+                    look upon every thing of this kind which is given to me, as a present to the
+                    public; and consider myself as thereby called upon to serve the public with more
+                    diligence.”</p>
+                <p>Before his removal to Windmill Street, he had confined his collection chiefly to
+                    specimens of human and comparative anatomy, and of diseases; but now he extended
+                    his views to fossils, and likewise to the promotion of polite literature and
+                    erudition. In a short space of time he became possessed of a most magnificent
+                    collection of Greek and Latin books. A cabinet of ancient medals contributed
+                    likewise much to the richness of his museum. A description of part of his coins
+                    in this collection, struck by the Greek free cities, was afterwards published by
+                    the doctor’s learned friend Mr Combe. In the preface some account is given of
+                    the progress of the collection, which has been brought together since the year
+                    1770, with singular taste, and at the expense of upwards of L.20,000. In 1781,
+                    the museum received a valuable addition of shells, corals, and other curious
+                    subjects of natural history, which had been collected by the late worthy Dr
+                    Fothergill, who gave directions by his will, that his collection should be
+                    appraised after his death, and that Dr Hunter should have the refusal of it at
+                    L.500 under the valuation. This was accordingly done, and Dr Hunter purchased it
+                    for the sum of L. 1200.</p>
+                <p>Dr Hunter, at the head of his profession, honoured with the esteem of his
+                    sovereign, and in possession of every thing that his reputation and wealth could
+                    confer, seemed now to have attained the summit of his wishes. But these sources
+                    of gratification were embittered by a disposition to the gout, which harassed
+                    him frequently during the latter part of his life, notwithstanding his very
+                    abstemious manner of living. On Saturday the 15th of March 1783, after having
+                    for several days experienced a return of a wandering gout, he complained of
+                    great headach and nausea. In this state he went to bed, and for several days
+                    felt more pain than usual, both in his stomach and limbs. On the Thursday
+                    following he found himself so much recovered, that he determined to give the
+                    introductory lecture to the operations of surgery. It was to no purpose that his
+                    friends urged to him the impropriety of such an attempt. He was determined to
+                    make the experiment, and accordingly delivered the lecture; but towards the
+                    conclusion his strength was so exhausted that he fainted away, and was obliged
+                    to be carried to bed by two servants. During the night and the following day his
+                    symptoms were such as indicated danger; and on Saturday morning, Mr Combe, who
+                    made him an early visit, was alarmed on being told by Dr Hunter himself, that
+                    during the night he had certainly had a paralytic stroke. As neither his speech
+                    nor his pulse were affected, and he was able to raise himself in bed, Mr Combe
+                    encouraged him to hope that he was mistaken. But the event proved the doctor’s
+                    idea of his complaint to be but too well founded. He died on Sunday the 30th of
+                    March 1783.</p>
+                <p>By his will, the use of his museum, under the direction of trustees, devolved to
+                    his nephew Dr Matthew Baillie, and in case of his death, to Mr Cruikshank, for
+                    the term of thirty years; at the end of which period the whole collection was
+                    bequeathed to the university of Glasgow, where it is now deposited.</p>
+                <p><hi rend="smallcaps">Hunter,</hi><hi rend="italic">John,</hi> an eminent surgeon,
+                    was the youngest child of John Hunter of Kilbride, in the county of Lanark. He
+                    was born at Long Calderwood on the 13th of July 1728. His father died when he
+                    was about ten years of age, from which circumstance his mother was induced to
+                    grant him <pb break="no" facs="nls:193648676" xml:id="kp-eb0711-8676-0737"/>too
+                    much indulgence. In consequence he made no progress at the grammar school, and
+                    was almost wholly illiterate at the age of twenty, when he arrived in London.
+                    His brother Dr W. Hunter was at that time the most eminent teacher of anatomy,
+                    and John expressed a wish to attend him in his researches. The doctor, anxious
+                    to make trial of his talents, gave him an arm to dissect for the muscles, with
+                    proper instructions how it was to be performed; and the dexterity with which he
+                    managed his undertaking exceeded the expectations of his brother.</p>
+                <p>Having acquired some reputation from this first attempt, his brother employed him
+                    in a more difficult dissection, which was an arm in which all the arteries were
+                    injected, and these and the muscles were to be preserved and exposed. In the
+                    execution of this task he also gave the highest satisfaction, and his brother
+                    predicted that he would become a good anatomist, and never want employment.
+                    Under the instructions of his brother, and Mr Symonds his assistant, he enjoyed
+                    every favourable opportunity of increasing his anatomical knowledge, since that
+                    school monopolized all the dissections then carried on in London.</p>
+                <p>He was admitted into partnership with his brother in the winter of 1755, and a
+                    certain department of the lectures was allotted to him; and he also lectured
+                    when the doctor was called away to attend his patients. The mind of Mr Hunter
+                    was peculiarly fitted for the study of anatomy, and the indefatigable ardour
+                    with which he prosecuted it is scarcely to be equalled. He applied to human
+                    anatomy for ten years, during which period he made himself master of every thing
+                    then known, and also made some considerable additions. He was the first who
+                    discovered the existence of the lymphatic vessels in birds.</p>
+                <p>In 1760 his friends advised him to go abroad, as he exhibited many symptoms of an
+                    incipient consumption. In October that year he was appointed a surgeon on the
+                    staff by the inspector-general of hospitals, Mr Adair, and in the spring of the
+                    ensuing year he went to Belleisle with the army. He served, during the
+                    continuance of the war, as senior surgeon on the staff, when he acquired his
+                    knowledge of gun-shot wounds. He settled in London on his return to England; but
+                    finding that his half-pay and private practice could not support him, he taught
+                    practical anatomy and surgery for several winters. He built a house near
+                    Brompton, where he pursued the study of comparative anatomy with unabated
+                    ardour. He discovered the changes which animal and vegetable substances undergo
+                    in the stomach by the action of the gastric juice; the mode in which a bone
+                    retains its shape during its growth; and explained the process of exfoliation,
+                    by which a piece of dead bone is separated from the living.</p>
+                <p>On the 5th of February 1767, he was chosen a fellow of the Royal Society. In the
+                    year 1768 he became a member of the incorporation of surgeons, and in the
+                    following year was elected one of the surgeons of St George’s Hospital, through
+                    the influence of his brother. He published his treatise on the natural history
+                    of the teeth in May 1771; and in July the same year he married Miss Home,
+                    daughter of Mr Home, surgeon to Burgoyne’s regiment of light horse. His private
+                    practice and professional reputation advanced with rapidity after his marriage;
+                    and although his family increased, he devoted much of his time to the forming of
+                    his collection. He discovered the cause of failure in the cure of every case of
+                    hydroc¢le, and proposed a mode of operating in which that event may certainly be
+                    avoided. He ascertained that simple exposure to the air can neither produce nor
+                    increase inflammation; and he considered the blood as alive in its fluid state.
+                    He also discovered that the stomach after death is sometimes acted on and
+                    dissolved by the gastric juice, respecting which he communicated a paper to the
+                    Royal Society.</p>
+                <p>Comparative anatomy occupied the greater part of his time and attention, and he
+                    suffered no opportunity to escape him. He dissected the torpedo in 1773, and
+                    laid an account of its electrical organs before the Royal Society. A young
+                    elephant which had been presented to the queen having died, it was given to Dr
+                    Hunter, and afforded him an opportunity of examining the structure of that
+                    monstrous animal, as did also two others which died in the queen’s menagerie. In
+                    the year 1774 he published an account, in the Philosophical Transactions, of
+                    certain receptacles of air in birds, communicating with the lungs, and lodged in
+                    the muscular parts and hollow bones of these animals. Several animals belonging
+                    to the species called <hi rend="italic">Gymnotus</hi><hi rend="italic"
+                    >electricus</hi> of Surinam having been brought alive to Britain in 1775, their
+                    electrical properties excited a considerable share of the publication, and Mr
+                    Hunter purchased many of them after they died, for the purpose of prosecuting
+                    his favourite experiments. He published an account of their electrical organs in
+                    the Philosophical Transactions for 1775; and in the same volume appeared his
+                    experiments on the power of animals and vegetables to produce heat.</p>
+                <p>Mr Hunter was appointed surgeon-extraordinary to his majesty in 1776, in the
+                    autumn of which year he became extremely ill, when both himself and his friends
+                    apprehended that his life was in danger; but he happily recovered so far as to
+                    be able to publish the second part of his treatise on the Teeth in 1778, which
+                    completed the subject; and in 1779 he published in the Philosophical
+                    Transactions his account of the Free Martin. He was chosen a fellow of the Royal
+                    Society of Sciences and Belles Lettres at Gottenburg, and in 1783 he became a
+                    member of the Royal Society of Medicine and the Royal Academy of Surgery in
+                    Paris. When Mr Adair died Mr Hunter was appointed inspector-general of
+                    hospitals, and surgeon-general to the army. This event happened in 1792, at
+                    which time he was elected honorary member of the Chirurgo-Physical Society of
+                    Edinburgh, and one of the vice-presidents of the Veterinary College of London,
+                    then first established. He published also three papers on the treatment of
+                    inflamed veins, on intro-susception, and on the mode of conveying food into the
+                    stomach in cases of paralysis of the oesophagus.</p>
+                <p>On the 16th of October 1793, when in his usual state of health, he went to St
+                    George’s Hospital, and meeting with some things which irritated his mind, and
+                    not being perfectly master of the circumstances, he withheld his sentiments; in
+                    which state of restraint he went into the next room, and turning round to Dr
+                    Robertson, one of the physicians of the hospital, he gave a deep groan, and
+                    dropt down dead, being then in his sixty-fifth year, the same age at which his
+                    brother Dr Hunter had died.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

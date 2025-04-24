@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0713-8833-0570-05" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">LOUISIANA</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 13, page 570</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="3" ref="lcsh1910:b4vh5ch72">Americanisms</term>
+                    <term n="2" ref="lcsh1910:b4r20rx5q">Presbyterianism</term>
+                    <term n="1" ref="lcsh1910:b4tt4fz4p">Irish</term>
+                    <term n="1" ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term n="1" ref="lcsh1910:b45m62b4v">Germans</term>
+                    <term n="14" ref="lcsh1910:b4028pc5x">Soils</term>
+                    <term n="12" ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term n="10" ref="lcsh1910:b41j9770v">State</term>
+                    <term n="10" ref="lcsh1910:b4jw86q1x">Cotton</term>
+                    <term n="9" ref="lcsh1910:b4v11vp1v">Dollar</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="14" ref="fastgeo:1207034">Mississippi</term>
+                    <term n="10" ref="fastgeo:1207035">Louisiana</term>
+                    <term n="3" ref="fastgeo:1211700">Mexico</term>
+                    <term n="2" ref="fastgeo:1205150">Florida</term>
+                    <term n="1" ref="fastgeo:1239786">America</term>
+                    <term n="1" ref="fastgeo:1205805">Cuba</term>
+                    <term n="1" ref="fastgeo:1204303">Spain</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="14" ref="fasttopic:1124682">Soils</term>
+                    <term n="10" ref="fasttopic:880858">Cotton</term>
+                    <term n="9" ref="fasttopic:1744651">Dollarization</term>
+                    <term n="9" ref="fasttopic:896433">Dollar</term>
+                    <term n="7" ref="fasttopic:1137272">Sugar</term>
+                    <term n="9" ref="fasttopic:934209">French</term>
+                    <term n="3" ref="fasttopic:1019244">Mexicans</term>
+                    <term n="3" ref="fasttopic:807480">Americanisms</term>
+                    <term n="3" ref="fasttopic:807485">Americanization</term>
+                    <term n="3" ref="fasttopic:807488">Americans</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193208833" type="entry">
+                <p><label type="entry">LOUISIANA</label>, one of the United States of North America,
+                    is bounded on the east by the state of Mississippi, on the west by the Sabine
+                    River, on the north by the Arkansas territory, and on the south by the Gulf of
+                    Mexico It extends from longitude 89. to 94. 5., and its extreme southern point
+                    is in latitude 28. 56. whilst its northern limit is in latitude 33. The average
+                    length is about 240 miles, and the mean breadth rather more than 200 miles, the
+                    area being estimated at 48,220 square miles. The surface of Louisiana presents
+                    great diversity of appearance, and no state in the union possesses a greater
+                    quantity of the very finest land. It includes all the varieties, from the most
+                    recent and still periodically inundated alluvial flats, to elevations which
+                    approach the magnitude of mountains; every quality of soil, from the most
+                    productive to the most sterile, from unwooded plains to dense and almost
+                    impenetrable forests. The southern part of this state, from Lake Borgne to
+                    Sabine River and from the Gulf of Mexicoto Baton Rouge and Red River, is an
+                    alluvial tract of country, extending about two hundred and forty miles in length
+                    by from seventy to one hundred and forty in breadth. It is intersected by
+                    numerous rivers, bays, creeks, and lakes, which divide the country into a great
+                    number of islands. Three fourths of the state are destitute of any elevation
+                    which deserves the name of a hill. The pine woods generally have a surface of a
+                    very particular character, rising into fine swells, with table surfaces on the
+                    summit, and valleys from thirty to forty feet deep. But they in no part present
+                    the aspect of a range, and are scattered over the country like the waves of an
+                    agitated sea. The alluvial soil is level, and the swamps are dead flats. The
+                    vast prairies, which constitute a large portion of the state, present a surface
+                    as level as a frozen lake. With the exception of the shaking prairies, they are
+                    higher and drier than the savannahs of Florida. A range of hills commences by
+                    gentle undulations in Opelosas, rises gradually, and diverges towards the river
+                    Sabine. In the vicinity of Natchitoches it preserves a distance intermediate
+                    between the Sabine and Red Rivers, and increases in elevation to the western
+                    part of the state. A second line of hills, not far from Alexandria, commences on
+                    the north side of Red River, and separating between the waters of that river and
+                    Dudgemony, unites with another chain of elevations which bound the alluvial
+                    plains of the Washita as bluffs, gradually diverging from that river as they
+                    pass beyond the western limits of the state. There are likewise some
+                    considerable hills beyond the Mississippi, and in some other parts the country
+                    is high; but, generally speaking, Louisiana is one immense plain, divided into
+                    pine woods, prairies, swamps, and hickory and oak lands. The pine woods have
+                    almost invariably a poor soil. The greater proportion of the prairies is
+                    second-rate land, and some of them are even sterile. A few, however, in
+                    Opelosas, and those of Attakapas, possess great fertility. They are in general
+                    more level than those of the upper country. A very considerable extent of them
+                    has a cold clayey soil, with a hard crust near the surface. In other places the
+                    soil is of inky blackness, and in the hot and dry season it cracks into fissures
+                    of some inches in width. A considerable belt of these prairies, near the gulf,
+                    is low, marshy, and in rainy weather inundated. The bottoms are generally rich,
+                    but in very different degrees. Those of the Mississippi and Red Rivers are
+                    particularly so, and the vegetation there is remarkable for its size and
+                    luxuriance. The cotton on fresh lands of the richest quality reaches the size of
+                    a considerable shrub. The bottoms of Red River possess extraordinary fertility,
+                    and the lower courses of this stream constitute the paradise of cotton planters.
+                    The soil is said to derive its fertility from a portion of salt which is
+                    intimately mixed with it, and from its peculiar friability; and the darkish red
+                    colour which it bears is to be traced to the presence of the red oxide of iron.
+                    All the branches of Red River, and they are very numerous, partake of the
+                    character of the main stream. The other parts of Louisiana which have the
+                    richest soils are, the island of New Orleans, a narrow neck of land, insulated
+                    by various lakes and rivers. About one third of this neck is under cultivation,
+                    the other two thirds being swamp. This tract is the finest part of the rich
+                    country called the <hi rend="italic">Coast,</hi> which is that part of the
+                    bottom of the Mississippi commencing with the first cultivation above the
+                    Balize, about forty miles below New Orleans, and extending one hundred and fifty
+                    miles above it. It is from one to two miles in breadth; and a richer tract of
+                    land of the same extent cannot be found on the globe. It is secured by an
+                    embankment, called a levee, from six to eight feet in height, and for the most
+                    part sufficiently broad to afford room for a fine road. Above the levee, on the
+                    east bank of the river, are situated the parishes of Baton Rouge and East and
+                    WestFeliciana. The latter parish is pleasantly diversified with hills and
+                    valleys, and belonging to it are the richest planters and the best plantations
+                    in the state, in some of which there are from five to eight hundred acres under
+                    cultivation. West of the Mississippi there are some <pb break="no"
+                    facs="nls:193208846" xml:id="kp-eb0713-8846-0571"/>tracts of soil very fertile,
+                    and here the sugar-cane thrives well. A considerable portion of Attakapas is of
+                    great fertility, as are smaller portions of Opelosas, which is, however, best
+                    adapted for a grazing country. Near the Red River there occur several tracts of
+                    very fertile soil, on parts of which the richest cotton is produced. The lands
+                    on the Washita River are black, like, those on the Mississippi; and the
+                    alluvions on the lower courses of this stream furnish an admirable soil for
+                    cotton, and other productions that require the same climate.</p>
+                <p>A very great proportion of the surface of this state is covered with prairies,
+                    almost all of which are so associated with one another as to form a family, the
+                    natural connection of all the branches being easily traced. The first that occur
+                    west of the Mississippi are those which are included under the general name of
+                    Attakapas; a term implying “man-eater” in the language of the savages who
+                    formerly inhabited it, and who are said to have been cannibals. It is an immense
+                    plain of grass, stretching from the Atchafa-laya on the north to the gulf on the
+                    south. It is extremely fertile, innumerable herds of cattle and horses graze
+                    upon it, and at intervals are scattered over its immense surface the houses of
+                    the agriculturists. To the west of this prairie occurs that of Opelosas, still
+                    larger than the former, and computed to contain nearly 8000 square miles. It is
+                    divided, by various natural boundaries or obstructions, into a number of
+                    prairies, which have separate names and marks of distinction. The soil, though
+                    occasionally very fertile, is less so than that of Attakapas; but this
+                    deficiency is compensated by the greater salubrity of the climate, which is
+                    reckoned the healthiest in the state. There are here very considerable cotton
+                    plantations, and some of indigo; and the parish, which bears the same name, is
+                    one of the most populous in the state. Bellevue prairie is situated partly in
+                    Opelosas, partly in Attakapas, and, as its name imports, affords a delightful
+                    prospect. Calcasiu and Sabine prairies are names descriptive of the different
+                    forms, shapes, and openings of this continuous line of prairies, as it stretches
+                    along the settlements from the Plaquemine to the Sabine. Some of them are of
+                    great extent, and they all possess nearly the same characteristics. They are ge-
+                    <hi rend="subscript"> ι</hi> nerally so level as to appear to the eye a perfect
+                    plain; but there occasionally occur swells and declivities, such as are
+                    sufficient to carry the water from them. The margin which borders on the gulf is
+                    commonly a wet marsh, covered with a luxuriant growth of tall reedy grass called
+                    cane-grass. In various parts of these prairies there are islands of timber
+                    lands. Wherever a bayou or stream I crosses the prairie, it is marked with a
+                    fringe of timber; and here the soil is invariably rich, as well as at the points
+                    of the prairie; but towards the Sabine it is less so. Attakapas is the first and
+                    most fertile, and that of the Sabine the last and most sterile. Beyond Opelosas
+                    prairie most of the people subsist by rearing cattle, sheep, horses, and mules.
+                    Many of the horses are of the Andalusian and Numidian breed; and the cattle are
+                    excellent, though slenderly formed. Numbers of the inhabitants are French, and
+                    though often opulent, from habit and inclination they adhere to the simplicity
+                    of pastoral life and primitive nature. Thousands of cattle range the plains,
+                    there is a rustic abundance of every thing, and the land abounds in milk and
+                    honey. There are various other prairies, but as they are of less importance than
+                    those above enume- <hi rend="superscript"> 1</hi> rated, and moreover possess
+                    similar general features, they do not require any particular description.</p>
+                <p>Wheat and rye do not flourish here in general, but oats and barley succeed well;
+                    and maize grows luxuriantly on the alluvions and rich lands. The sweet potato,
+                    <hi rend="italic">convolvulus batatas,</hi> in the sandy soil attains its utmost
+                    perfection. They are of different species, and occasionally of a very large
+                    size, but all are extremely nutritive, and raised with ease in great abundance.
+                    ∙ The Irish potato is not so easily raised, and is only cultivated for eating
+                    during thìe early part of summer. Garden vegetables generally appear to have no
+                    assignable limit upon aì soil so varied, and in a climate so near the tropics.
+                    It may seem almost incredible that horticulture should be neglected in
+                    Louisiana, yet such is the case; and the fact seems the more unaccountable, when
+                    it is considered that some individual gardens present what would appear an
+                    irresistible temptation. The pumpkin and melon tribe flourish in this climate.
+                    All the northern fruits come to perfection, with the exception of apples. The
+                    apple-tree covers itself with blossoms and fruit, which, before it ripens, shows
+                    a black speck, decays, and falls. Different kinds of figs grow in the greatest
+                    abundance, and the tree would appear to attain its largest size in this quarter;
+                    but, although growing spontaneously, it is only to be found on a few farms.
+                    Along the whole shore of the gulf, and in some other places, the orange-tree,
+                    sweet and bitter, flourishes, and the fruit is of the finest quality. The
+                    cultivated vine flourishes abundantly; and wild grapes, such as the summer,
+                    winter, fox, muscadine, and pine-wood grape, are abundant. Berries are neither
+                    so common nor so good as in the north, but various kinds of wild fruit are
+                    common in the woods. There are an immense number of wild and cultivated
+                    flowering shrubs, which flourish in this region; and the abundance of mulberry
+                    trees holds out a prospect that the culture of silk will ere long form one of
+                    the branches of trade in this state. The timber-trees on the bottoms are willow,
+                    cotton-wood, honey-eye locust, pawpaw, and buck-eye; on the rich uplands, elm,
+                    cucumber, ash, hickory, mulberry, black walnut, with abundance of grape vines;
+                    and on the second rate, or sandy uplands, white, pitch, and yellow pines, and
+                    various kinds of oak. As yet agriculture is only in its infancy, the principal
+                    object being not to produce a great variety of crops, but to obtain the greatest
+                    amount of the staple productions. Sugar and rice are the staples of the state in
+                    general south of 30°, and cotton north of that parallel; the latter, however, is
+                    extensively cultivated in every part of the state. Sugar-cane is a very rich and
+                    abundant article of growth in Louisiana. It requires the richest soil, the mould
+                    of which should at least be a foot deep. There are three or four varieties or
+                    species, as the African, the Otaheitan, the West Indian, and the riband cane.
+                    The Otaheitan grows luxuriantly, and ripens considerably earlier than the West
+                    Indian; but it is said to contain saccharine matter, in comparison with the
+                    other, only as two to three. The riband cane is a new and beautiful species,
+                    which possesses the advantage of not requiring so long a season for ripening.
+                    Throughout the state the planters are turning their attention to the cultivation
+                    of the sugar-cane, and nothing yields so rich a harvest. The rice is remarkably
+                    fair, and yields abundantly. There is a great extent of land favourable for the
+                    production of the upland rice; and no limit can be assigned to the amount which
+                    might be raised. The cotton cultivated here is an annual plant, growing in the
+                    rich lands more than six feet in height, and the larger stalks of the size of a
+                    man’s arm, throwing out a number of branches, on which form large and beautiful
+                    whitish-yellow blossoms. It is planted from March till the middle of May, in
+                    drill rows, six feet apart. The kinds of cotton cultivated are, Louisiana, green
+                    seed or Tennessee, and recently Mexican cotton. The green seed is not so fine a
+                    staple, but it is less subject to the destructive malady called the rot. The
+                    Mexican is of a finer staple, yields more abundantly, and has not hitherto
+                    suffered from rot. It is being commonly adopted, and the importation of seed
+                    from Tampicoand Vera Cruz is becoming a considerable business. Sea Island cotton
+                    grows well upon grounds that have been exhausted by the <pb break="no"
+                    facs="nls:193208859" xml:id="kp-eb0713-8859-0572"/>continued cultivation of the
+                    other kinds. All the species exhaust the soil; but the seeds, which accumulate
+                    in prodigious quantities around the gins, furnish an admirable manure, which
+                    supplies the deficiency of nutriment. Attempts have been made to cultivate the
+                    tea plant; and benne, which yields an oil similar to that of olives, succeeds
+                    well. Indigo was formerly a prime object of attention amongst the planters, but
+                    the cultivation of it has been in a great measure abandoned. The finest tobacco
+                    is raised, but it is not so profitable as sugar and cotton, although that which
+                    is cultivated in the vicinity of Natchitoches is said to equal the tobacco of
+                    Cuba. Louisiana produces annually an average crop of more than 100,000 hogsheads
+                    of sugar, and five millions of gallons of molasses. It is to this individual
+                    branch of agriculture that the prosperity of the</p>
+                <p>Union in general, and the west in particular, has in a great measure been
+                    attributed. Such is a sketch of the agriculture of Louisiana. We shall now
+                    describe the divisions of the state, and the principal towns belonging to it</p>
+                <p>The state of Louisiana is, for the better arrangement in the choice of the
+                    legislature, divided into twelve counties These are,</p>
+                <p>The county of Orleans, Rapides.</p>
+                <p>German Coast, Natchitoches</p>
+                <p>Acadia, Concordia.</p>
+                <p>Iberville, Ouachita.</p>
+                <p>Lafourche, Opelosas.</p>
+                <p>Point Coupee, Attakapas.</p>
+                <p>This division was made in 1812, when the constitution by which the state is
+                    governed was first framed.</p>
+                <p><hi rend="italic">Table of the Parishes and Seats of Justice.</hi></p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="5" role="data" rows="1"><p>EASTERN DISTRICT.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Parishes.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Population.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Seats of Justice.</p></cell>
+                        <cell cols="2" role="data" rows="1"><p>Distance.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>N. O.<note anchored="true"
+                            place="bottom" type="authorial"><p>From New
+                            Orleans.</p></note></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>W.<note anchored="true"
+                            place="bottom" type="authorial"><p>From
+                            Washington.</p></note></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Ascension, s. <hi rend="smallcaps">e.
+                            μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,400</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Donaldson</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>75</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1278</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Assumption, s. <hi rend="smallcaps"
+                            >e. μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,670</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Assumption, c. n</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>90</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1293</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Baton Rouge, East, <hi
+                            rend="smallcaps">μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,717</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Concordia</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Baton Rouge, West, <hi
+                            rend="smallcaps">μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3,092</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Baton Rouge</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>117</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1237</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Concordia, <hi rend="smallcaps">n.
+                            e</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4,662</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Feliciana, East, <hi rend="smallcaps"
+                            >e. μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,247</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Jackson...</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>158</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1193</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Feliciana, West, <hi rend="smallcaps"
+                            >e. μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,629</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>St Francisville</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>149</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1205</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Iberville, s. <hi rend="smallcaps">e.
+                            μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7,050</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Iberville</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>98</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1256</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Jefferson, s. <hi rend="smallcaps"
+                            >e</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,846</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Coquille</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>202</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>H49</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Lafourche, Interior, s</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,500</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Thibadeauxville</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>108</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1311</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Orleans, s. <hi rend="smallcaps"
+                            >e</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3,793</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>ì <hi rend="subscript">
+                            x</hi>.</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>New Orleans, <hi rend="italic">city
+                            and suburbs...............</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>46,310</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="smallcaps">&gt;New
+                            Orleans</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>1203</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Plaquemines, s. <hi rend="smallcaps"
+                            >e</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4,489</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>J í ¢</p><p>Port
+                            Jackson....</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>75</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1278</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Point Coupee, <hi rend="smallcaps"
+                            >μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,936</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Point Coupee</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>154</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1210</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>St. Bernard, s. <hi rend="smallcaps"
+                            >e. μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3,356</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>St Charles, s. <hi rend="smallcaps"
+                            >e. μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,107</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>St. Helena, <hi rend="smallcaps">e.
+                            μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4,027</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>St Helena</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>98</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1212</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>St. James, s. <hi rend="smallcaps">e.
+                            μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7,672</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Bringiers</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="superscript"> t</hi>
+                            60</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1262</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>St. John Baptist, s. <hi
+                            rend="smallcaps">e. μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,700</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Bonnet Carre</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>* 36</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1241</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>St Tammany, <hi rend="smallcaps"
+                            >e</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,864</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Covington</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>44</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1159</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Terre Bonne, s</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,121</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Williamsbur <hi rend="superscript">
+                            tτ</hi> h</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Washington, <hi rend="smallcaps"
+                            >e</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,286</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>F ranklington</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>1162</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Total</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>155,474</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>of whom 80,421 are slaves.</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="5" role="data" rows="1"><p>WESTERN DISTRICT.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Avoyelles, <hi rend="smallcaps"
+                            >μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3,488</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Marksville</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>240</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1247</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Catahoulla, N. <hi rend="smallcaps"
+                            >μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,576</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Harrisonburgh</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>251</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1186</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Claiborne</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,764</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Russellville</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>441</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1274</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Lafayette, s</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,606</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Ver million ville</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>192</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1351</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Natchitoches, <hi rend="smallcaps">n.
+                            w</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7,926</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Natchitoches</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>354</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1328</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Rapides, <hi rend="smallcaps"
+                            >μ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7,559</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Alexandria</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>272</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1246</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>St Landry, s. w</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12,552</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Opelosas</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>192</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1326</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>St Martin’s, s</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7,204</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>St Martinsville</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>176</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1366</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>St Mary’s, s</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,442</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Franklin</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>131</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1344</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Washita, <hi rend="smallcaps"
+                            >n</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,140</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Monroe</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>323</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1258</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Total</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>60,257</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>of whom 29,210 are slaves.</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Population. Slaves.</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Eastern district</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>155,474 80,421</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Western district</p></cell>
+                        <cell cols="1" role="data" rows="1"><p/></cell>
+                        <cell cols="1" role="data" rows="1"><p>60,257 29,210</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="2" role="data" rows="1"><p>Total of Louisiana 215,731
+                            109,631</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <pb break="no" facs="nls:193208872" xml:id="kp-eb0713-8872-0573"/>
+                <p>New Orleans, the commercial capital of the state, and the emporium of western
+                    commerce, is situated on the east bank of the Mississippi, in a bend so deep and
+                    sinuous, that the sun rises to the inhabitants of the city from the opposite
+                    shore, in north latitude 29. 57. and in longitude 98. 8. west from Greenwich. It
+                    is nearly intermediate between Boston and Mexico although the passage from New
+                    Orleans to Vcra Cruz is much shorter by sea than to Boston. It consists of the
+                    old city properly so called, which is built in the form of a parallelogram, of
+                    which the longer sides are 1320 yards in length, and the shorter, or the depth
+                    of the city towards the swamp, 700 yards. No city on the globe possesses so
+                    great natural advantages for a commercial capital as New Orleans. It has an easy
+                    communication with the ocean; and above the city there are 20,000 miles of
+                    navigation by means of the Mississippi and its numerous tributaries, whilst
+                    various bayous connect it with different parts of the state. By a basin and
+                    canal it communicates with Lake Ponchartrain, the lakes thence to the Gulf of
+                    Mexico the opposite Florida shore, with Mobile, Pensacola, and the whole
+                    gulf-shore east and west. There is also a railroad four and a half miles long
+                    between the city and Lake Ponchartrain. Seen from the harbour, New Orleans
+                    presents a striking panoramic view. The old city is divided into six squares,
+                    each square having a front of 319 feet in length, and being divided into twelve
+                    lots. Few of the streets are more than forty feet wide. Buildings of brick have
+                    now replaced the wooden structures of which the city was formerly composed. The
+                    French and Spanish styles of building predominate, and the houses are stuccoed
+                    externally. The public buildings are, the town-house, the hospital, the
+                    cathedral church of St Louis, the convent of Ursaline nuns, the barracks, the
+                    custom-house, the market-house, five banks with a capital of 4,000,000 of
+                    dollars, a government-house, district court of the United States, water-works,
+                    two theatres, and a Presbyterian and other churches. Several of these buildings,
+                    as the cathedral, are large, commodious, and handsome. The Fauxbourg of St Mary,
+                    and other new parts of the city, are built principally of brick, after the
+                    American style; and in general the city is gradually becoming American in all
+                    its characteristics. Between the city and the bayou St John, are the villages St
+                    Johnsburg and St Claud. The commerce of this city is immense, and constantly
+                    increasing. There are sometimes in the harbour 1500 flat boats at a time; and
+                    steam-boats arrive and take their departure every hour. No place in the United
+                    States has so .much activity and bustle of commerce, crowded into so small a
+                    space, in the months of February and March. During the season of bringing in the
+                    cotton crop, whole streets are barricaded with cotton bales. The amount of
+                    domestic exports from this city exceeds twelve millions of dollars a year, being
+                    greater than that of any other city of the Union excepting New York, and nearly
+                    equalling that place. The greatest items which enter into this amount are sugar
+                    and cotton. From being placed in the midst of immense swamps, New Orleans is
+                    generally considered as unhealthy, but few towns in the United States have
+                    increased with greater rapidity. The market in general is cheap and abundant,
+                    and the productions of every climate find their way thither. This city
+                    necessarily exercises a very great moral influence over all the western country;
+                    and there is not a distinguished merchant, planter, or farmer, in the
+                    Mississippi valley, who has not made at least one trip to this place. The police
+                    of the city is at once mild and efficient, and the municipal and criminal courts
+                    are prompt in administering justice. A great portion of the inhabitants of New
+                    Orleans arc of French and Spanish descent, and the French language is more used
+                    than the English. During the busy season, the manners, dresses, customs, and
+                    languages of every quarter of the globe are here exhibited. The means of
+                    education in this city are very limited compared with those of the other large
+                    cities of the United States, but there have been great improvements within the
+                    last few years; and, considering that one half of the people are slaves, the
+                    state of morals is better than might be expected. The following are some of the
+                    principal imports into New Orleans for the year 1829 :—Bagging, 13,472 pieces;
+                    buffalo robes, 15,210 lbs.; cotton, 269,571 bales; corn in ears, 91,882 barrels;
+                    flour, 157,323 barrels; lard, 110,206 kegs; pig lead, 146,203 pigs; deer-skins,
+                    6215 packs; tobacco, 29,432 hhds. The amount of cotton exported in the year
+                    ending the 30th of September 1830 was 354,024 bales. Nothing seems adverse to
+                    the growth of New Orleans except the unhealthiness of its climate; but, by
+                    draining and otherwise improving it, it will probably be rendered more healthy,
+                    and become one of the largest cities in the Union.</p>
+                <p>Donaldsonville, on the west side of the Mississippi, at the efflux of Lafourche,
+                    ninety miles above New Orleans, has a number of houses, and has been selected by
+                    the legislature as the place for the future political capital of the state.
+                    Baton Rouge is on the east side of the Mississippi, 140 miles above New Orleans.
+                    It is pleasantly situated on the last bluff that is seen on descending the
+                    river. The site is thirty or forty feet above the highest overflow of the river.
+                    The United States barracks here are built in a fine style, and are supposed to
+                    be amongst the handsomest and most commodious of the kind. There is a delightful
+                    prospect from the esplanade, including a great extent of the coast, with
+                    handsome houses and rich cultivation below, and commanding an extensive view
+                    over the back country to the east. The town consists of a number of French and
+                    Spanish houses, with several green squares, and contains 1200 inhabitants. St
+                    Francisville is a considerable village, of nearly the same size as Baton Rouge.
+                    A good way to the westward of this town is Jackson, which is the seat of an
+                    incipient college. On <hi rend="subscript"> ι</hi> the opposite shore is Point
+                    Coupee, a wealthy French settlement. Galvez-town is situated on Bayou Manshac,
+                    or Iberville, not far from where it enters Lake Ponchartrain. Alexandria, on Red
+                    River, seventy miles from the Mississippi, and 150 from the mouth of the river
+                    by its course, is situated on the south bank of the river, half a mile below the
+                    fall. It is central to the rich planting country of Bayous Rapide, Robert, and
+                    Boeuf. It is the seat of justice for the parish, has a bank, a number of stores,
+                    and respectable attomies and physicians, and issues a weekly paper. Vast
+                    quantities of cotton are exported from this place. The last town of any size
+                    towards the south-western frontier of the United States is Natchitoches, about
+                    sixty miles above Alexandria. The Spanish trade for a considerable distance into
+                    the interior of the Mexican state centres here, and it is the great thoroughfare
+                    for people going to and returning from these states. The trade from them
+                    consists chiefly in bars of silver, and in horses and mules. Manufactured goods,
+                    groceries, spirits, and tobacco, are sent in return. This is a very considerable
+                    and growing place, and is likely to become the largest town in the country,
+                    except New Orleans. It is beautifully situated on the bank of the river, and is
+                    at the head of the steam-boat navigation. A few leagues to the west of this town
+                    is the ancient Spanish town of Adayes, the inhabitants of which are all Spanish.
+                    There are some other places, but none of such importance as to demand particular
+                    mention.</p>
+                <p>The canal which connects the city of New Orleans with Lake Ponchartrain has
+                    already been mentioned. Where it terminates, at the north of the city, there is
+                    a convenient basin, excavated entirely by art, and large enough to contain a
+                    great number of vessels. Immense labour and expense were necessary to render the
+                    river navigable, especially at <pb break="no" facs="nls:193208885"
+                    xml:id="kp-eb0713-8885-0574"/>the mouth of the lake, where a large and
+                    impassable bar was removed, and large piles of wood driven into the sand to
+                    prevent it from forming again. A provision in the charter of this canal
+                    corporation allows them to extend it to the Mississippi.</p>
+                <p>The roads are for the most part good, but when they diverge to any distance from
+                    the rivers they are subject to inundation. Numerous railroads and canals have
+                    been projected; and there is no country in the world where nature has done more
+                    towards forming natural canals, which a little labour would complete by
+                    artificial extensions.</p>
+                <p>The country was first peopled by the French, but the Spaniards obtained
+                    possession of some parts, and established colonies in it. It was again conquered
+                    by the English, and many of the original settlers remained in the country. It
+                    was not admitted into the federal union until 1812. From the frequency of these
+                    conquests, and the number of settlers from different nations, the character of
+                    the inhabitants is different from that of those in most of the other states. The
+                    descendants of the French possess many characteristics of that people, and
+                    formerly lived in a state of pastoral simplicity. They are mild, vivacious, and
+                    polite. The American planters are high minded, social, irascible, and generous;
+                    much addicted to hunting, gambling, and dissipation. The people generally are
+                    volatile, gay, benevolent, and easily excited to joy or sorrow. Education was
+                    formerly at a very low ebb, but latterly ample and munificent appropriations
+                    have been made, each parish in the state granting eight hundred dollars annually
+                    for that purpose. The language generally spoken is French, but in a very corrupt
+                    state. The prevailing religion is Roman Catholic, there being only a few
+                    Baptists and Methodist societies, and one Presbyterian church, in the state.</p>
+                <p>The constitution differs in some minor points from those of the other western
+                    states. The senators are elected for a period of four years, one fourth vacating
+                    their seats annually; and they must possess a property worth 1000 dollars before
+                    they can be chosen. The representatives are elected for two years, and, to be
+                    eligible, must have property in the parish worth 500 dollars. The governor is
+                    elected for four years, with a salary of 7000 dollars annually, and cannot be
+                    chosen for the next term. A supreme and circuit court exercise the judiciary
+                    power, together with a municipal or parish court. Every free white man above
+                    twenty-one years is entitled to vote in the elections, provided he has been six
+                    months in the parish, and has paid taxes. In civil jurisprudence, this state
+                    has, with some modifications, adhered to that derived from France and Spain; but
+                    in criminal matters they have followed the English jurisprudence.</p>
+                <p>This state has an extensive, and, from its great natural advantages, rapidly
+                    increasing commerce. The quantity of sugar manufactured yearly averages about
+                    60,629 hhds.; the quantity of molasses 3,018,041 gallons, and it is expected
+                    that this state will furnish abundance of this article for the whole consumption
+                    of the United States. The tobacco exported averages 29,543 hhds. annually, and
+                    the cotton in the same period 308,243 bales. The yearly quantity, however,
+                    depends entirely upon the season. The total amount of exports and imports in
+                    1833 was, imports 9,590,505 dollars, and exports 18,941,373 dollars. The amount
+                    received in the state for postage for die year ending the 31st of March 1832,
+                    was 4,812,898 dollars. The number of banks in 1834 was ten, having a capital of
+                    23,664,755 dollars, and they issued notes to the amount of 4,793,730 dollars.
+                    The number of ships belonging to the state in 1830 was 399, and the number of
+                    seamen employed 4789. <hi rend="smallcaps">(r. r. r.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

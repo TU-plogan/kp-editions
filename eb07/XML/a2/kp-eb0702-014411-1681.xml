@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0702-1681-0144-11" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">ADDISON, Lancelot</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 2, page 144</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="5" ref="fasttopic:910709">English</term>
+                    <term n="4" ref="fasttopic:980750">Italians</term>
+                    <term n="4" ref="fasttopic:1737291">Italianization</term>
+                    <term n="3" ref="fasttopic:1071262">Popes</term>
+                    <term n="3" ref="fasttopic:939255">Gays</term>
+                    <term n="6" ref="fasttopic:1198505">Life</term>
+                    <term n="6" ref="fasttopic:821688">Authors</term>
+                    <term n="6" ref="fasttopic:821653">Authority</term>
+                    <term n="6" ref="fasttopic:888613">Death</term>
+                    <term n="5" ref="fasttopic:1085637">Queens</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="6" ref="lcsh1910:b42j68511">Life</term>
+                    <term n="6" ref="lcsh1910:b4d795b2n">Authors</term>
+                    <term n="6" ref="lcsh1910:b4ns0kz00">Authority</term>
+                    <term n="6" ref="lcsh1910:b4kh0f02c">Death</term>
+                    <term n="5" ref="lcsh1910:b41r6n577">Queens</term>
+                    <term n="3" ref="lcsh1910:b4st7dw9m">Popes</term>
+                    <term n="2" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="2" ref="lcsh1910:b49c6s277">Christianity</term>
+                    <term n="2" ref="lcsh1910:b4bz61b6d">Drummers</term>
+                    <term n="2" ref="lcsh1910:b4s17sw59">Essays</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="6" ref="fastgeo:1219920">England</term>
+                    <term n="4" ref="fastgeo:1205427">Ireland</term>
+                    <term n="1" ref="fastgeo:1205592">Morocco</term>
+                    <term n="1" ref="fastgeo:1207649">Wales</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193031681" type="entry">
+                <p><label type="entry">ADDISON, <hi rend="smallcaps">Lancelot</hi></label>, son of
+                    Lancelot Addison, a clergyman, was born in the parish of Crosby-Ravensworth, in
+                    Westmoreland, in the year 1632. He was educated at Queen’s College, Oxford, and
+                    at the restoration of King Charles II. accepted of the chaplainship of the
+                    garrison of Dunkirk; but that fortress being delivered up to the French in 1662,
+                    he returned to England, and was soon after made chaplain to the garrison of
+                    Tangier, where he continued seven years, and was greatly esteemed. In 1670 he
+                    returned to England, and was made chaplain in ordinary to the king; but his
+                    chaplainship of Tangier being taken from him on account of his absence, he found
+                    himself straitened in his circumstances, when he seasonably obtained the rectory
+                    of Milston in Wiltshire, worth about L.120 per annum.. He afterwards became a
+                    prebendary of Sarum, took his degree of doctor of divinity at Oxford, and in
+                    1683 was made dean of Lichfield, and the next year archdeacon of Coventry. His
+                    life was exemplary, his conversation pleasing and greatly instructive, and his
+                    behaviour as a gentleman, a clergyman, and a neighbour, did honour to the place
+                    of his residence. He wrote, 1. A Short Narrative of the Revolutions of the
+                    Kingdoms of Fez and Morocco; 2. The present State of the Jews; 3. A Discourse on
+                    Catechising; 4. A Modest Plea for the Clergy; 5. An Introduction to the
+                    Sacrament; 6. The first State of Mahometism; and several other pieces. This
+                    worthy divine died on the 20th of April 1703, and left three sons; Joseph, the
+                    subject of the next article; Gulston, who died while governor of Fort St George;
+                    Lancelot, master of arts, and fellow of Magdalen College in Oxford; and one
+                    daughter, first married to</p>
+                <p>Dr Sarte, prebendary of Westminster, and afterwards to Daniel Combes, Esq. '</p>
+                <p><hi rend="smallcaps">Addison,</hi><hi rend="italic">Joseph,</hi> the son of the
+                    preceding Dean Addison, was born at Milston, near Ambresbury, in Wiltshire, on
+                    the 11th of May 1672; and not being thought likely to live, was baptized the
+                    same day. He received the first rudiments of his education at the place of his
+                    nativity under the reverend Mr Naish, but was soon removed to Salisbury under
+                    the care of Mr Taylor, and from thence to the Charter-house, where his
+                    acquaintance with Sir Richard Steele commenced. About the age of 15, he was
+                    entered at Queen’s College, Oxford, where he applied very closely to the study
+                    of classical learning, in which he made a surprising proficiency.</p>
+                <p>In the year 1687, Dr Lancaster, dean of Magdalen College, having by chance seen a
+                    Latin poem of Mr Addison’s, was so pleased with it, that he immediately got him
+                    elected into that house, where he took his degrees of bachelor and master of
+                    arts. His Latin pieces, in the course of a few years, were exceedingly admired
+                    in both universities; nor were they less esteemed abroad, particularly by the
+                    celebrated Boileau, who is reported to have said, that he would not have written
+                    against Perrault had he before seen such excellent pieces by a modern hand. He
+                    published nothing in English before the 22d year of his age, when there appeared
+                    a short copy of verses written by him, and addressed to Mr Dryden, which
+                    procured him great reputation from the best judges. This was soon followed by a
+                    translation of the fourth Géorgie of Virgil (omitting the story of Aristaeus),
+                    much commended by Mr Dryden. He wrote also the Essay on the Georgies prefixed to
+                    Mr Dryden’s translation. There are several other pieces written by him about
+                    this time; amongst the rest, one dated the 3d of April 1694, addressed to H. S.
+                    that is, Dr Sacheverel, who became afterwards so famous, and with whom Mr
+                    Addison lived once in the greatest friendship; but their intimacy was some time
+                    after broken off, by their disagreement in political principles. In the year
+                    1695 he wrote a poem to King William on one of his campaigns, addressed to Sir
+                    John Somers, lord-keeper of the great seal. This gentleman received it with
+                    great pleasure, took the author into the number of his friends, and bestowed on
+                    him many marks of his favour.</p>
+                <p>Mr Addison had been closely pressed while at the university to enter into holy
+                    orders, and had once resolved upon it; but his great modesty, his natural
+                    diffidence, and an uncommonly delicate sense of the importance of the sacred
+                    function, made him afterwards alter his resolution; and having expressed an
+                    inclination to travel, he was encouraged thereto by his patron above mentioned,
+                    who by his interest procured him from the crown a pension of L.300 per annum to
+                    support him in his travels. He accordingly made a tour to Italy in the year
+                    1699; and in 1701 he wrote a poetical epistle from Italy to the earl of Halifax,
+                    which has been much esteemed both abroad and at home. It was translated into
+                    Italian verse by the abbot Antonio Maria Salvini, Greek professor at Florence.
+                    In the year 1705 he published an account of his travels, dedicated to Lord
+                    Somers; which, though at first but indifferently received, yet in a little time
+                    met with its deserved applause.</p>
+                <p>In the year 1702 he was about to return to England, when he received advice of
+                    his being appointed to attend Prince Eugene, who then commanded for the emperor
+                    in Italy; but the death of King William happening soon after, put an end to this
+                    affair, as well as his pension; and he remained for a considerable time
+                    unemployed. But an unexpected incident at once raised him, and gave him an <pb
+                    break="no" facs="nls:193031694" xml:id="kp-eb0702-1694-0145"/> opportunity of
+                    exerting his fine talents to advantage; for, in the year 1704, the lord
+                    treasurer Godolphin happened to complain to Lord Halifax that the duke of
+                    Marlborough’s victory at Blenheim had not been celebrated in verse in the manner
+                    it deserved; and intimated, that he would take it kindly if his lordship, who
+                    was the known patron of the poets, would name a gentleman capable of doing
+                    justice to so elevated a subject. Lord Halifax replied, somewhat hastily, that
+                    he did know such a person, but would not mention him; adding, that long had he
+                    seen with indignation men of no merit maintained in luxury at the public
+                    expense, whilst those of real worth and modesty were suffered to languish in
+                    obscurity. The treasurer answered very coolly, that he was sorry there should be
+                    occasion for such an observation, but that he would do his endeavour to wipe off
+                    such reproaches for the future; and he engaged his honour, that whoever might be
+                    named by his lordship as a person capable of celebrating this victory, should
+                    meet with a suitable recompense. Lord Halifax thereupon named Mr Addison;
+                    insisting, however, that the treasurer himself should send to him; which he
+                    promised. Accordingly he prevailed on Mr Boyle (afterwards Lord Carlton), then
+                    chancellor of the exchequer, to make the proposal to Mr Addison; which he did in
+                    so polite a manner, that our author readily undertook the task. The lord
+                    treasurer had a sight of the piece when it was carried no further than the
+                    celebrated simile of the angel, and was so pleased with it, that he immediately
+                    appointed Mr Addison a commissioner of appeals, vacant by the promotion of Mr
+                    Locke, chosen one of the lords commissioners for trade« The Campaign is
+                    addressed to the duke of Marlborough: it gives a short view of the military
+                    transactions in 1704, and contains a noble description of the two great actions
+                    at Schellemberg and Blenheim. In 1705 he attended Lord Halifax to Hanover, and
+                    the ensuing year was appointed under secretary to Sir Charles Hedges, secretary
+                    of state, in which office he acquitted himself so well that the earl of
+                    Sunderland, who succeeded Sir Charles in December, continued Mr Addison in his
+                    employment.</p>
+                <p>A taste for operas beginning at this time to prevail in England, and many persons
+                    having solicited Mr Addison to write one, he complied with their request, and
+                    composed his <hi rend="italic">Rosamond.</hi> This, however, whether from the
+                    defect of the music, or from the prejudices in favour of the Italian taste, did
+                    not succeed upon the stage; but the poetry of it has been, and always will be,
+                    justly admired. About this time Sir Richard Steele composed his comedy of the
+                    <hi rend="italic">Tender Husband,</hi> to which Mr Addison wrote a prologue. Sir
+                    Richard surprised him with a dedication of this play, and acquainted the public
+                    that he was indebted to him for some of the most excellent strokes in the
+                    performance. The marquis of Wharton, being appointed lord lieutenant of Ireland
+                    in 1709, took Mr Àddison with him as his secretary. Her Majesty also made him
+                    keeper of the records of Ireland, and as a further mark of her favour,
+                    considerably augmented the salary annexed to that place. Whilst he was in this
+                    kingdom, the <hi rend="italic">Tatler</hi> was first published; and he
+                    discovered his friend Sir Richard Steele to be the author, by an observation on
+                    Virgil, which he had communicated to him. He afterwards assisted considerably in
+                    carrying on this paper, which the author acknowledges. The <hi rend="italic"
+                    >Tatler</hi> being laid down, the <hi rend="italic">Spectator</hi> was set on
+                    foot, and Mr Addison furnished great part of the most admired papers. The <hi
+                    rend="italic">Spectator</hi> made its first appearance in March 1711, and was
+                    brought to a conclusion in September 1712.</p>
+                <p>His celebrated <hi rend="italic">Cato</hi> appeared in 1713. He formed the design
+                    of a tragedy upon this subject when he was very young, and wrote it when on his
+                    travels: he retouched it in England, without any intention of bringing it on the
+                    stage; but his friends being persuaded it would serve the cause of liberty, he
+                    was prevailed on by their solicitations, and it was accordingly exhibited in the
+                    theatre, with a prologue by Mr Pope, and an epilogue by Dr Garth. It was
+                    received with the most uncommon applause, having run 35 nights without
+                    interruption. The Whigs applauded every line in which liberty was mentioned, as
+                    a satire on the Tories; and the Tories echoed every clap, to show that the
+                    satire was unfelt. When it was printed, notice was given that the queen would be
+                    pleased if it was dedicated to her; “but as he had designed that compliment
+                    elsewhere, he found himself obliged,” says Tickell, “by his duty on the one
+                    hand, and his honour on the other, to send it into the world without any
+                    dedication.” It was no less esteemed abroad, having been translated into French,
+                    Italian, and German; and it was acted at Leghorn and several other places with
+                    vast applause. The Jesuits of St Omer made a Latin version of it, and the
+                    students acted it with great magnificence.</p>
+                <p>About this time another paper called the <hi rend="italic">Guardian</hi> was
+                    published by Steele, to which Addison was a principal contributor. It was a
+                    continuation of the <hi rend="italic">Spectator,</hi> and was distinguished by
+                    the same elegance and the same variety; but, in consequence of Steele’s
+                    propensity to politics, was abruptly discontinued in order to write the <hi
+                    rend="italic">Englishman.</hi></p>
+                <p>The papers of Addison are marked in the <hi rend="italic">Spectator</hi> by one
+                    of the letters in the name of <hi rend="italic">Clio,</hi> and in the Guardian
+                    by a <hi rend="italic">Hand.</hi> Many of these papers were written with powers
+                    truly comic, with nice discrimination of characters, and accurate observation of
+                    natural or accidental deviations from propriety; but it was not supposed that he
+                    had tried a comedy for the stage, till Steele, after his death, declared him the
+                    author of the <hi rend="italic">Drummer.</hi> This, however, he did not know to
+                    be true by any cogent testimony; for when Addison put the play into ,his hands,
+                    he only told him it was the work of a gentleman in the company: when it was
+                    received, as is confessed, with cold disapprobation, he was probably less
+                    willing to claim it. Tickell omitted it in his collection; but the testimony of
+                    Steele, and the total silence of any other claimant, has determined the public
+                    to assign it to Addison, and it is now printed with his other poetry. Steele
+                    carried the <hi rend="italic">Drummer</hi> to the playhouse, and afterwards to
+                    the press, and sold the copy for 50 guineas. To Steele’s opinion may be added
+                    the proof supplied by the play itself, of which the characters are such as
+                    Addison would have delineated, and the tendency such as Addison would have
+                    promoted.</p>
+                <p>It is said that Mr Addison intended to compose an English dictionary, upon the
+                    plan of the Italian <hi rend="italic">Della Crusea</hi><hi rend="italic">;</hi>
+                    but that upon the death of the queen, being appointed secretary to the lords
+                    justices, he had not leisure to carry on such a work. When the earl of
+                    Sunderland was appointed lord-lieutenant of Ireland, Mr Addison was again made
+                    secretary for the affairs of that kingdom; and upon the earl’s being removed
+                    from the lieutenancy, he was chosen one of the lords of trade.</p>
+                <p>Not long afterwards an attempt was made to revive the <hi rend="italic"
+                    >Spectator,</hi> at a time indeed by no means favourable to literature, when the
+                    accession of a new family to the throne filled the nation with anxiety, discord,
+                    and confusion; and either the turbulence of the times or the satiety of the
+                    readers put a stop to the publication, after an experiment of 80 numbers, which
+                    were afterwards collected into an eighth volume, perhaps more valuable than any
+                    of those that went before it: Addison produced more, than a fourth part.</p>
+                <pb break="no" facs="nls:193031707" xml:id="kp-eb0702-1707-0146"/>
+                <p>In 1715 he began the <hi rend="italic">Freeholder,</hi> a political paper, which
+                    was much admired, and proved of great use at that juncture. He published also,
+                    about this time, verses to Sir Godfrey Kneller upon the king’s picture, and some
+                    to the princess of Wales with the tragedy of Cato.</p>
+                <p>Before the arrival of King George he was made secretary to the regency, and was
+                    required by his office to send notice to Hanover that the queen was dead, and
+                    that the throne was vacant. To do this would not have been difficult to any man
+                    but Addison, who was so overwhelmed with the greatness of the event, and so
+                    distracted by choice of expression, that the lords, who could not wait for the
+                    niceties of criticism, called Mr Southwell, a clerk in the house, and ordered
+                    him to dispatch the message. Southwell readily told what was necessary, in the
+                    common style of business, and valued himself upon having done what was too hard
+                    for Addison.</p>
+                <p>In 1716 he married the countess dowager of Warwick, whom he had solicited by a
+                    very long and anxious courtship. He is said to have first known her by becoming
+                    tutor to her son. The marriage, if uncontradicted report can be credited, made
+                    no addition to his happiness. The year after, 1717, he rose to his highest
+                    elevation, being made secretary of state; but is represented as having proved
+                    unequal to the duties of his place. In the House of Commons he could not speak,
+                    and therefore was useless to the defence of the government. In the office he
+                    could not issue an order without losing time in quest of fine expressions. At
+                    last, finding by experience his own inability for public business, he was forced
+                    to solicit his dismission, with a pension of L.1500 a year. Such was the account
+                    of those who were inclined to detract from his abilities; but by others his
+                    relinquishment was attributed to declining health, and the necessity of recess
+                    and quiet.</p>
+                <p>In his retirement he applied himself to a religious work,<note anchored="true"
+                    place="margin" type="authorial"><p><hi rend="italic">Evidences of the Christian
+                    Religion.</hi></p></note> which he had begun long before; part of which, scarce
+                    finished, has been printed in his works. He intended also to give an English
+                    paraphrase of some of David’s psalms; but his ailments increased, and cut short
+                    his designs. He had for some time been oppressed by an asthmatic disorder, which
+                    was now aggravated by a dropsy, and he prepared to die conformably to his
+                    precepts and professions. He sent, as Pope relates, a message by the earl of
+                    Warwick to Mr Gay, desiring to see him. Gay, who had not visited him for some
+                    time before, obeyed the summons, and was received with great kindness. The
+                    purpose for which the interview had been solicited was then discovered: Addison
+                    told him that he had injured him, but that if he recovered he would recompense
+                    him. What the injury was he did. not explain, nor did Gay ever know; but
+                    supposed that some preferment designed for him had by Addison’s intervention
+                    been withheld. Another death-bed interview, of a more solemn nature, is
+                    recorded. Lord Warwick was a young man of very irregular life, and perhaps of
+                    loose opinions: Addison, for whom he did not want respect, had very diligently
+                    endeavoured to reclaim him; but his arguments and expostulations had no effect.
+                    One experiment, however, remained to be tried. When he found his life near its
+                    end, he directed the young lord to be called; and when he desired, with great
+                    tenderness, to hear his last injunctions, told him, “I have sent for you that
+                    you may see how a Christian can die.” What effect this awful scene had on the
+                    earl’s behaviour is not known: he died himself in a short time. Having given
+                    directions to Mr Tickell for the publication of his works, and dedicated them on
+                    his death-bed to his friend Mr Craggs, he died June 17. 1719, at Holland-house,
+                    leaving only one child, a daughter, by his marriage.</p>
+                <p>Addison’s course of life before his marriage has been detailed by Pope. His chief
+                    companions were Steele, Bugdell, Philips, Carey, Davenant, and Colonel Brett.
+                    With one or other of these he always breakfasted. He studied all morning; then
+                    dined at a tavern, and went afterwards to Button's. From the coffee-house he
+                    went to the tavern, where he often sat late and drank too much wine.</p>
+                <p>Dr Johnson justly observes, that Addison “not only made the proper use of wit
+                    himself, but taught it to others; and from his time it has been generally
+                    subservient to the cause of reason and of truth. He has dissipated the prejudice
+                    that had long connected gaiety with vice, and easiness of manners with laxity of
+                    principles. He has restored virtue to its dignity, and taught innocence not to
+                    be ashamed. This is an elevation of literary character, <hi rend="italic">above
+                    all Greek, above all Fomajι fame.</hi> No greater felicity can genius attain,
+                    than that of having purified intellectual pleasure, separated mirth from
+                    indecency, and wit from licentiousness; of having taught a succession of writers
+                    to bring elegance and gaiety to the aid of goodness; and, to use expressions yet
+                    more awful, of having <hi rend="italic">turned many to righteousness."</hi><hi
+                    rend="italic">—“</hi> As a describer of life and manners,” says the same author,
+                    “he must be allowed to stand perhaps the first of the first rank. His humour,
+                    which, as Steele observes, is peculiar to himself, is so happily diffused as to
+                    give the grace of novelty to domestic scenes and daily occurrences. He never <hi
+                    rend="italic">outsteps the modesty of nature,</hi> nor raises merriment or
+                    wonder by the violation of truth. His figures neither divert by distortion nor
+                    amaze by aggravation. He copies life with so much fidelity, that he can hardly
+                    be said to invent; yet his exhibitions have an air so much original, that it is
+                    difficult to suppose them not merely the product of imagination. As a teacher of
+                    wisdom he may be confidently followed. His religion has nothing in it
+                    enthusiastic or superstitious; he appears neither weakly credulous nor wantonly
+                    sceptical; his morality is neither dangerously lax nor impracticably rigid. All
+                    the enchantment of fancy and all the cogency of argument are employed to
+                    recommend to the reader his real interest, the care of pleasing the Author of
+                    his being. Truth is shown sometimes as the phantom of a vision, sometimes
+                    appears half-veiled in an allegory; sometimes attracts regard in the robes of
+                    fancy, and sometimes steps forth in the confidence of reason. She wears a
+                    thousand dresses, and in all is pleasing.</p>
+                <p>“His prose is the model of the middle style; on grave subjects not formal, on
+                    light occasions not grovelling; pure without scrupulosity, and exact without
+                    apparent elaboration; always equable, and always easy, without glowing words or
+                    pointed sentences. Whoever wishes to attain an English style, familiar but not
+                    coarse, and elegant but not ostentatious, must give his days and nights to the
+                    volumes of Addison.” (Johnson’s <hi rend="italic">Lives of the Poets.)</hi></p>
+                <p>Dr Johnson has related the following anecdote, which every admirer of Addison,
+                    every man of feeling, must be reluctant to believe, “Steele,” says the doctor,
+                    “whose imprudence of generosity or vanity of profusion kept him always incurably
+                    necessitous, upon some pressing exigence, in an evil hour, borrowed a hundred
+                    pounds of his friend, probably without much purpose of repayment; but Addison,
+                    who seems to have had other notions of a hundred pounds, grew impatient of
+                    delay, and reclaimed his loan by an execution. Steele felt, with great
+                    sensibility, the obduracy of his creditor; but with emotions of sorrow rather
+                    than of anger.” It is much to be wished, says Dr Kippis, that Dr Johnson had
+                    produced his authority<pb break="no" facs="nls:193031720"
+                    xml:id="kp-eb0702-1720-0147"/> for this narration. It is very possible that it
+                    may be only a story the doctor had somewhere heard in conversation, and which is
+                    entirely groundless; “and this I am the rather inclined to believe, as I have
+                    been assured, by one of the most respectable characters in the kingdom, that the
+                    fact hath no foundation in truth.” Mr Potter, in a late publication, hath
+                    informed us, that he is told by the best authority that the story is an absolute
+                    falsehood.</p>
+                <p>Mr Tyers, in <hi rend="italic">A Historical Essay on Mr Addison,</hi> printed,
+                    but not published, has mentioned some facts concerning him, with which we were
+                    not before acquainted. These are, that he was laid out for dead as soon as he
+                    was born; that when he addressed his verses on the English poets to Henry
+                    Sacheverel, he courted that gentleman’s sister; that whenever Jacob Tonson came
+                    to him for the Spectator, Bayle’s French Historical and Critical Dictionary lay
+                    always open before him; that upon his return to England, after his travels, he
+                    discharged some old debts he had contracted at Oxford, with the generosity of
+                    good interest; that he was put into plentiful circumstances by the death of a
+                    brother in the East Indies; that, having received encouragement from a married
+                    lady, of whom he had been formerly enamoured, he had the integrity to resist the
+                    temptation; that he refused a gratification of a three hundred pounds bank-note,
+                    and afterwards of a diamond-ring of the same value, from a Major Dunbar, whom he
+                    had endeavoured to serve in Ireland by his interest with Lord Sunderland; and
+                    that his daughter by Lady Warwick died unmarried, residing at Bilton near Rugby,
+                    and possessing an income of more than twelve hundred a year.</p>
+                <p>The following letter, which probably relates to the case of Major Dunbar,
+                    reflects great honour on Mr Addison’s integrity. <hi rend="italic">“</hi><hi
+                    rend="italic">June</hi> 26. 1715. <hi rend="smallcaps">Sir,</hi> —I find there
+                    is a very strong opposition formed against you; but I shall wait on my
+                    lord-lieutenant this morning, and lay your case before him as advantageously as
+                    I can, if he is not engaged in other company. I am afraid what you say of his
+                    grace does not portend you any good. And now, Sir, believe me, when I assure you
+                    I never did, nor ever will, on any pretence whatsoever, take more than the
+                    stated and customary fees of my office. I might keep the contrary practice
+                    concealed from the world, were I capable of it, but I could not from myself; and
+                    I hope I shall always fear the reproaches of my own heart more than those of all
+                    mankind. In the mean time, if I can serve a gentleman of merit, and such a
+                    character as you bear in the world, the satisfaction I meet with on such an
+                    occasion is always a sufficient, and the only reward to, Sir, your most obedient
+                    humble servant, J. <hi rend="smallcaps">Addison.”</hi></p>
+                <p>The anecdote which follows was told by the late Dr Birch. Addison and Mr Temple
+                    Stanyan were very intimate. In the familiar conversations which passed between
+                    them, they were accustomed freely to dispute each other’s opinions. Upon some
+                    occasion Mr Addison lent Stanyan five hundred pounds. After this Mr Stanyan
+                    behaved with a timid reserve, deference, and respect; not conversing with the
+                    same freedom as formerly, or canvassing his friend’s sentiments. This gave great
+                    uneasiness to Mr Addison. One day they happened to fall upon a subject, on which
+                    Mr Stanyan had always been used strenuously to oppose his opinion. But even upon
+                    this occasion he gave way to what his friend advanced, without interposing his
+                    own view of the matter. This hurt Mr Addison so much, that he said to Mr
+                    Stanyan, “Either contradict me, or pay me the money.”</p>
+                <p>In TickelΓs edition of Mr Addison’s works, published in 4 vols. 4to, there are
+                    several pieces hitherto unmentioned, viz. The Dissertation on Medals; The
+                    Present State of the War, and the Necessity of an Augmentation considered; The
+                    late Trial and Conviction of Count Tariff; The Whig Examiner. Five of these
+                    papers were attributed to Mr Addison, and they are the severest pieces he ever
+                    wrote. He is said also to have been the author of a performance entitled <hi
+                    rend="italic">Dissertatio</hi><hi rend="italic">de</hi><hi rend="italic"
+                    >insignioribus Romanorum Poetis,</hi> and of a Discourse on Ancient and Modern
+                    Learning.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

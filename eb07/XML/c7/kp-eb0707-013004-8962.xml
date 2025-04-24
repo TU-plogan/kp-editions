@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0707-8962-0130-04" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">COLUMBUS, or Congregation of St</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 7, page 130</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="2" ref="lcsh1910:b4vh5ch72">Americanisms</term>
+                    <term n="2" ref="lcsh1910:b4gx44w8x">Colonization</term>
+                    <term n="2" ref="lcsh1910:b48g8fk3c">Colonate</term>
+                    <term n="1" ref="lcsh1910:b49c6s277">Christianity</term>
+                    <term n="1" ref="lcsh1910:b4ks6jd02">Spaniards</term>
+                    <term n="5" ref="lcsh1910:b4kp7tx0f">Islands</term>
+                    <term n="5" ref="lcsh1910:b4kk94m4s">Sea</term>
+                    <term n="5" ref="lcsh1910:b4348gn83">Mind</term>
+                    <term n="5" ref="lcsh1910:b4tt4fw6r">East</term>
+                    <term n="5" ref="lcsh1910:b4pc2th4x">Resultants</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="7" ref="fastgeo:1204303">Spain</term>
+                    <term n="5" ref="fastgeo:1240495">Asia</term>
+                    <term n="4" ref="fastgeo:1239509">Africa</term>
+                    <term n="4" ref="fastgeo:1210276">India</term>
+                    <term n="3" ref="fastgeo:1242151">Hispaniola</term>
+                    <term n="1" ref="fastgeo:1206005">Guinea</term>
+                    <term n="1" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1239786">America</term>
+                    <term n="1" ref="fastgeo:1205805">Cuba</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="2" ref="fasttopic:980750">Italians</term>
+                    <term n="2" ref="fasttopic:1737291">Italianization</term>
+                    <term n="2" ref="fasttopic:807480">Americanisms</term>
+                    <term n="2" ref="fasttopic:807485">Americanization</term>
+                    <term n="2" ref="fasttopic:807488">Americans</term>
+                    <term n="6" ref="fasttopic:1015978">Men</term>
+                    <term n="5" ref="fasttopic:980104">Islands</term>
+                    <term n="5" ref="fasttopic:1110395">Seas</term>
+                    <term n="4" ref="fasttopic:865801">Coasts</term>
+                    <term n="4" ref="fasttopic:1043442">Ocean</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194748962" type="entry">
+                <p><label type="entry">COLUMBUS, or <hi rend="italic">Congregation of
+                    St</hi></label><hi rend="italic smallcaps"> Columbus,</hi> a society of regular
+                    canons, w ’ lio formerly had one hundred abbeys or monasteries in the British
+                    isles.</p>
+                <p><hi rend="smallcaps">Columbus,</hi><hi rend="italic">Christopher,</hi> the
+                    celebrated navigator and discoverer of the western world, was born in the city
+                    of Genoa, about the year 1446. Although several illustrious families have
+                    contended for his alliance to them, his father Domenicoand his ancestors appear
+                    to have followed the trade of woolcombers or carders, and were of humble though
+                    reputable origin. Columbus received his education at the university of Padua,
+                    and, having evinced an early passion for the sea, entered into nautical life at
+                    the age of fourteen. The first voyage in which we have any authentic accounts of
+                    his being engaged, was a warlike expedition fitted out at Genoa in 1459, when,
+                    associated with hardy and daring adventurers, he acquired so much distinction as
+                    to be intrusted with a separate command. After this, it is supposed, he was
+                    employed in various commercial, pious, and predatory expeditions against the
+                    Mahömme-dans and Venetians, in company with a famous corsair of his own name and
+                    family, and acquired reputation and experience in his profession. His son
+                    Fernando relates, that in an engagement off the coast of Portugal with four
+                    Venetian galleys, returning richly laden from Flanders, the vessel on board
+                    which he served, and one of the Venetian ships to which it was grappled, took
+                    fire. Columbus threw himself into the sea, seized an oar which was floating near
+                    him, and by this means, and his dexterity in swimming, reached the shore,
+                    although two leagues distant. Proceeding thereafter to Lisbon, he was induced.to
+                    take up his residence in that capital.</p>
+                <p>Columbus became acquainted in Lisbon with the most eminent men in science and
+                    maritime art, whom the encouragement of Prince Henry of Portugal had attracted
+                    around him. At this period (anno 1470) he was in the vigour of manhood, of an
+                    engaging appearance, grave, courteous, and affable in his deportment, moderate
+                    and simple in his diet and apparel, eloquent in discourse, possessing high
+                    magnanimity, and a temper which, though irritable, was under the control of a
+                    gentle and enthusiastic piety. Here he married Doña Felipa, daughter of
+                    Bartolomeo Moñìs de Palestrello, an Italian cavalier lately deceased, and a
+                    distinguished navigator, who had discovered and colonized the island of Porto
+                    Santo. Having obtained possession of the journals and charts of this sea
+                    captain, and also bearing accounts of his voyages from his widow, Columbus was
+                    seized with an irresistible desire of visiting unknown regions. In order to
+                    indulge it, he made a voyage to Madeira, and continued during several years to
+                    trade with that island, the Canaries, Azores, the settlements in Guinea, and the
+                    other places which the Portuguese had discovered on the continent of Africa. By
+                    the experience acquired in such a number of voyages, Columbus became one of the
+                    most skilful navigators in Europe.</p>
+                <p>At the commencement of the fifteenth century the intelligence of Europe, and
+                    particularly of Portugal, was directed in seeking everywhere for the “scattered
+                    lights of geographical knowledge.” The lofty and enterprising mind of Prince
+                    Henry, matured by diligent researches and laborious investigation, conceived the
+                    idea of the circumnavigation of Africa; and under his auspices the Cape of Good
+                    Hope was doubled, and the commerce of the East thrown open to maritime
+                    adventure. At this period, whilst invention and skill were well nigh exhausted
+                    in the projection and accomplishment of this eventful discovery, the existence
+                    of the western world was never dreamt of; the Atlantic Ocean was regarded with
+                    awe and wonder, “ 'seeming,” says Washington Irving, “to bound the world as with
+                    a chaos, into which conjecture could not penetrate, and enterprise feared to
+                    adventure.” The danger and tediousness of the voyage by Africa first set
+                    Columbus to ruminate whether a shorter and more direct passage to the East
+                    Indies could not be found out; and after long consideration, he became
+                    thoroughly convinced that, by sailing across the Atlantic in a westwardly
+                    direction, new countries, probably forming a part of the vast continent of
+                    India, would infallibly be discovered. He was led to this conviction by the
+                    theories of the ancients and the discoveries of the moderns, aided by his own
+                    experience and the advancement of science. Adopting as a fundamental principle,
+                    that the earth was a terraqueous globe, traversable round from east to west, he
+                    acquired a notion of its true figure. His eminent biographer, Washington Irving,
+                    relates, that “he divided the circumference from east to west at the equator,
+                    according to Ptolemy, into twenty-four hours, of fifteen degrees each, making
+                    three hundred and sixty degrees. Of these he imagined, comparing the globe of
+                    Ptolemy with the earlier map of Marinus of Tyre, that fifteen hours had been
+                    known to the ancients, extending from the Canary or Fortunate Islands, to the
+                    city of Thinae, in Asia, the western and eastern extremities of the known world.
+                    The Portuguese had advanced the western frontier one hour more by the discovery
+                    of the Azores and Cape de Verde Islands; still <pb break="no"
+                    facs="nls:194748975" xml:id="kp-eb0707-8975-0131"/>about eight hours, or one
+                    third of the circumference of the earth, remained to be explored. This space he
+                    imagined to be occupied in a great measure by the eastern regions of Asia, which
+                    might extend so far as to approach the western shores of Europe and Africa. A
+                    navigator, therefore, by pursuing a direct course from east to west, must arrive
+                    at the extremity of Asia, or discover any intervening land. The great obstacle
+                    to be apprehended was from the tract of ocean that might intervene; but this
+                    could not be very wide, if the opinion of Alfraganus the Arabian were admitted,
+                    who, by diminishing the size of the degrees, gave to the earth a smaller
+                    circumference than was assigned to it by other cosmographers; a theory to which
+                    Columbus seems generally to have given much faith. He was fortified also by the
+                    opinion of Aristotle, Seneca, Pliny, and Strabo, who considered the ocean as but
+                    of moderate breadth, so that one might pass from Cadiz westward to the Indies in
+                    a few days.”</p>
+                <p>Columbus received a decided confirmation of his theory in 1474, not only from
+                    Paolo Toscanelli, one of the ablest cosmographers of the day, and from the
+                    narrative of Marco Polo, a Venetian traveller, whose map proved of great
+                    assistance to our navigator in his first voyage of discovery; but also from the
+                    observations of several more modern navigators. Martin Vicenti, a Portuguese
+                    pilot, proceeding farther westward than usual, found a piece of artificially
+                    carved timber floating on the sea, and, as it was wafted by a westerly wind,
+                    conjectured that it might have come from some unknown land in that direction.
+                    Pedro Correo, the brother-in-law of Columbus, found a similar piece of wood on
+                    Porto Santo; and had also seen canes of an enormous size floating upon the
+                    waves, which resembled those described by Ptolemy as growing in India. After a
+                    course of westwardly winds, trees torn up by the roots were often driven upon
+                    the coast of the Azores; and at one time the dead bodies of two men, with
+                    singular features, different from those of any known race of people, were cast
+                    upon the island of Flores.</p>
+                <p>On these grounds Columbus formed the vast and daring enterprise which was
+                    destined to hand down his name to posterity with unfading honour; and, firmly
+                    established in a belief of the successful result of his projects, “he never,”
+                    says Irving, “spoke in doubt or hesitation; but with as much certainty as if his
+                    eyes had beheld the promised land. A deep religious sentiment also mingled with
+                    his thoughts, and gave them at times a tinge of superstition, but of a sublime
+                    and lofty kind. He looked upon himself as standing in the hand of heaven, chosen
+                    from among men for the accomplishment of its high purpose; he read, as he
+                    supposed, his contemplated discovery foretold in holy writ, and shadowed forth
+                    darkly in the prophecies. The ends of the earth were to be brought together, and
+                    all nations, and tongues, and languages, united under the banners of the
+                    Redeemer.”</p>
+                <p>The disturbed state of Portugal under Alphonso retarded the progress of
+                    discovery. The compass, though in general use, had not gained that reliance
+                    which induced mariners fearlessly to brave the dangers of the deep; and the
+                    project of a voyage through boundless wastes appeared extravagant and
+                    impracticable. Nothing daunted, however, by these disheartening symptoms,
+                    Columbus pursued his favourite schemes with ardour, and longed to put them into
+                    execution. So perilous an adventure was not, however, to be attempted without
+                    the patronage of some sovereign power.; and John II. of Portugal having at this
+                    juncture ascended the throne, and being favourably inclined to the cause of
+                    discovery, Columbus made his proposals, which were graciously received by the
+                    monarch, and referred to a learned junto, consisting of Roderigo and Joseph, two
+                    physicians, and Diego <hi rend="subscript"> -</hi> Ortiz, bishop of Ceuta, all
+                    men of learning and science. Unfortunately, however, these were the persons who
+                    had been the chief directors of the Portuguese navigations, and had advised to
+                    search for a passage to India by an opposite course to that which Columbus
+                    recommended as shorter and more certain. They could not therefore approve of his
+                    proposal without submitting to the double mortification of condemning their own
+                    theory and of acknowledging his superiority. The result of their conferences
+                    therefore was, that they recommended the king to fit out a caravel privately,
+                    and attempt the proposed discovery by the designated route, which they
+                    ascertained from charts and details craftily obtained from Columbus. John, in an
+                    evil hour, had the weakness to adopt this perfidious counsel. The caravel
+                    departed, but the pilots had neither the genius nor fortitude of Columbus; their
+                    courage failed, and putting back to the Cape de Verde Islands, they returned
+                    from thence to Lisbon, execrating the project as extravagant and irrational.</p>
+                <p>This ungenerous and unworthy attempt roused the indignation of Columbus, who
+                    immediately quitted Portugal, taking with him his infant son Diego, and made
+                    application to the government of Genoa'; but this republic, weakened by the
+                    reverses of war, rejected a proposal that would have restored their ancient
+                    splendour, and might for a long period have “perpetuated the golden w;and of
+                    commerce in the failing grasp of Italy.” Columbus next carried his proposition
+                    to Venice, where he was equally unsuccessful. He also sent his brother
+                    Bartholomew to lay his plans before Henry VII. of England, having in the mean
+                    time sailed himself for Spain, where he arrived after having exhausted all his
+                    means.</p>
+                <p>Columbus, in this state of abject poverty, met with great hospitality from Friar
+                    Juan Perez de Marchena; and, encouraged by this worthy ecclesiastic and his
+                    friends, and assisted by the generosity of Martin Alonzo Pinzon, he set out for
+                    the Castilian court at Cordova in the spring of 1486. The moment was
+                    unpropitious for such a proposition, the Spanish sovereign being at the time
+                    engaged in military preparations against the Moorish kings. At length, through
+                    the intercession of Cardinal Gonzalez, he obtained an interview, and submitted
+                    his project to Ferdinand. True science had as yet made so little progress in
+                    Spain, that most of those to whom the consideration of his plan was referred
+                    were utterly ignorant of the first principles on which our adventurer founded
+                    his hopes. Some, from mistaken notions concerning the dimensions of the globe,
+                    contended that the voyage could not be performed in less than three years:
+                    others concluded that Columbus would find the ocean of infinite extent,
+                    according to the opinion of some ancient philosophers; or that if he should
+                    steer beyond a certain point, the convex figure of the globe would present a
+                    kind of mountain, up which the vessel could never sail with the most favourable
+                    wind. Even without entering into particular discussion, some rejected the scheme
+                    in general, making use of that maxim of the ignorant, “that it is presumptuous
+                    in any person to suppose that he alone possesses knowledge superior to all the
+                    rest of mankind united.” Worn out with a series of disappointments and delays,
+                    and supporting himself by making maps and charts, Columbus, despairing of the
+                    Spanish patronage, began to look to other courts, in hopes of meeting more
+                    encouragement. He had already made preparations for this purpose, and taken
+                    measures for the disposal of his children during his absence, when Juan Perez
+                    solicited him to defer his journey, making application at the same time to
+                    Isabella, the result of which was a gracious invitation of Columbus back to
+                    court, accompanied with the present of a small sum to equip him for the journey.
+                    The monarchs were now pledged to attend to his proposals, and negotiations were
+                    set on foot to carry them into execution<pb break="no" facs="nls:194748988"
+                    xml:id="kp-eb0707-8988-0132"/>. Columbus appeared before the persons appointed
+                    to confer with him, with the same confident hopes of success as formerly, and
+                    insisted on the same high recompense. He proposed that a small fleet should be
+                    fitted out under his command to attempt the discovery, and stipulating that he
+                    should be invested with the titles and privileges of admiral and viceroy of all
+                    the seas and lands he should discover, with one tenth of all gains, either by
+                    trade or commerce. He further offered to furnish an eighth of the cost, on
+                    condition of enjoying an eighth of the profits. His terms were, however, deemed
+                    inadmissible; the negotiation broke off, and Columbus, in indignation, mounting
+                    his mule, was already on the road to Cordova, with the intention of immediately
+                    proceeding to France, when he was overtaken by a messenger from the queen, who
+                    had been prevailed upon by the arguments of Quintanilla and St Angel, two of
+                    Columbus’ patrons, again to favour his undertakings. The negotiations were now
+                    completed, and the capitulations were signed by Ferdinand and Isabella at Santa
+                    Fé on the 17th of April 1492. The articles of agreement were to the following
+                    effect:—That Columbus should be constituted high admiral in all the seas,
+                    islands, and continents he should discover, with similar honours and
+                    prerogatives to those enjoyed by the high admiral of Castile in his district. He
+                    was also nominated viceroy and governor-general over all the said lands and
+                    continents; and a tenth of all free profits arising from the merchandise and
+                    productions of the countries within his admiralty was granted to him for ever.
+                    Columbus, or his lieutenant, was to be sole judge of all causes and disputes
+                    arising out of traffic between those countries and Spain. He was further
+                    permitted to contribute an eighth part of the expense of expeditions to the
+                    countries he expected to discover, and was entitled in return to an eighth part
+                    of the profits. A principal object of Columbus in this undertaking was the
+                    propagation of the Christian faith, to which he was a zealous devotee. Expecting
+                    to arrive at the extremity of Asia, he hoped to spread the light of the gospel
+                    among the barbarian nations of the East; and so confident were his
+                    anticipations, that letters were actually given him by the sovereigns for the
+                    Grand Khan of Tartary. Although the royal documents were signed both by
+                    Ferdinand and Isabella, her separate crown of Castile defrayed all the expense;
+                    and the queen in consequence reserved for her subjects of that kingdom an
+                    exclusive right to all the benefits which might accrue from the success of the
+                    expedition.</p>
+                <p>The arrangement being finally completed, Columbus set sail on the 3d of August
+                    1192, in three small vessels, only one of which (commanded by himself) was
+                    completely decked. The two others were commanded by Martin Alonzo Pinzon and
+                    Vicente Yáñez Pinzon. The expedition had sailed nearly 200 leagues to the
+                    westward, when Columbus perceived that the needle of the coinpass, when night
+                    set in, had varied; a circumstance which filled the pilots with consternation.
+                    For this phenomenon he was obliged to invent a reason, which, though it did not
+                    satisfy himself, yet served to dispel their fears. As the squadron advanced,
+                    various indicationsof land, such as birds flying from the west, the water
+                    becoming less salt, and occasionally covered with weeds, animated and supported
+                    the courage of the crew; but at length murmursand fears began to prevail amongst
+                    them. They had sailed for eleven days, wafted by a most propitious breeze, over
+                    <hi rend="italic">a</hi> tranquil sea, without lowering or shifting a sail. The
+                    rude seamen began to be alarmed that no other winds blew but easterly, and that
+                    it would therefore be impossible for them ever to return home. A few light
+                    breezes from the west allayed for a time their apprehensions, and several small
+                    singing birds came in the morning and flew away at night. But the sailors lost
+                    all patience, and became so mutinous and refractory that it required the utmost
+                    address of Columbus to maintain his authority. The appearances of land, though
+                    frequent, were in many instances deceiving; and at last the seamen broke forth
+                    into loud clamours, and insisted upon abandoning the voyage. Fortunately,
+                    however, on the following day, the manifestations of land were such as no longer
+                    to admit of doubt. In the evening Columbus perceived a light glimmering at a
+                    distance, and the next morning land was clearly seen about two leagues distant.
+                    The sailors now burst forth into the most extravagant transports. They threw
+                    themselves at the feet of Columbus, implored his pardon, and pronounced him to
+                    be a person inspired by heaven with more than human sagacity and fortitude, to
+                    accomplish a design so far beyond the ideas and conceptions of all former ages.
+                    At daybreak, says his biographer Spotorno, on the 12th of October, the hero
+                    landed, “<hi rend="italic">e di grand' orma</hi><hi rend="italic">il</hi><hi
+                    rend="italic">nuovo mondo imprinted</hi> (and with his great footstep impressed
+                    the new world). Columbus and his followers threw themselves on their knees; and
+                    rising, the admiral drew his sword, planted the cross, hoisted the royal
+                    standard, and in the presence of the astonished natives, who imagined that the
+                    Spaniards had dropped from heaven, took possession of these new countries in the
+                    names of the Castilian sovereigns, giving the island the name of San Salvador.
+                    Having visited several of the West India islands, and settled a colony in
+                    Hispaniola, he again set sail for Spain. ∙ On the voyage he fell in with the
+                    Pinta, which had separated from him for a long time through the wickedness of
+                    the captain, who had gone in search of gold. After encountering several violent
+                    tempests, Columbus arrived in the Tagus, near Lisbon, on the 4th of March 1493.
+                    He was treated with the most honourable attentions by the court of Portugal, and
+                    finally reached the port of Palos on the 15th of March.</p>
+                <p>The triumphant return of Columbus excited the most unbounded transport. Wherever
+                    he went the air rang with acclamations, and he received such honours as are paid
+                    to sovereigns. The court was then at Barcelona, and Columbus took care
+                    immediately to acquaint the king and queen of his arrival. They were no less
+                    delighted than astonished with this unexpected event. The admiral was conducted
+                    into the city with all imaginable pomp. The sovereigns received him seated in
+                    state under a rich canopy of brocade of gold, surrounded by their principal
+                    nobility. When he approached they stood up, and, raising him as he kneeled to
+                    kiss their hands, ordered him to be seated in their presence, and give a
+                    circumstantial account of his voyage. When he had finished his oration, which he
+                    delivered with much modesty and simplicity, the king and queen, kneeling down,
+                    offered up solemn thanks to God for the discovery. Every possible mark of honour
+                    that could be suggested by gratitude or admiration was conferred on Columbus;
+                    the former capitulation was confirmed, his family was ennobled, and a fleet
+                    ordered to be equipped, to enable the navigator to go in quest of those more
+                    opulent countries which he still confidently expected to find.</p>
+                <p>The successful attainment of the splendid discovery of Columbus, great and
+                    manifold as were its advantages to mankind, was the prelude to the dark and
+                    troubled epoch of his life. By his second voyage to the western world he no
+                    doubt in part realized his expectations, extended his discoveries, and came back
+                    to Spain with substantial proofs of success; but the ostensible purpose of his
+                    return was to obtain reparation of injurious imputations which had been heaped
+                    upon him, and generally to have his privileges confirmed and enlarged so as to
+                    enable him to exercise his authority over the colonists, who had become
+                    re-ſractory<pb break="no" facs="nls:194749001" xml:id="kp-eb0707-9001-0133"/>
+                    and unmanageable. But his third voyage only accelerated his disastrous fate. The
+                    newly discovered possessions were distracted with the horrors of rebellion. The
+                    verdant and blooming isles, the expected abodes of peace and happiness, were
+                    converted into theatres of sanguinary conflicts and misery; and Columbus found
+                    himself an object of fear and execration. It was during this voyage that he
+                    landed on the coast of Paria, in South America. Meanwhile, his enemies in the
+                    old world were not idle. An investigation into his conduct was instituted under
+                    the control of Francisco Bovadilla, who was empowered, should he find the charge
+                    of mal-administration proved, to supersede Columbus, and assume the government
+                    of Hispaniola. The result was, that he and his brothers Diego and Bartolomeo,
+                    after having been treated with the greatest indignities, w cre sent to Spain in
+                    chains. From these disgraceful bonds he was immediately on his arrival released
+                    by the Spanish monarchs; but his complaints were tardily acknowledged; he again
+                    sunk into obscurity, and was reduced’to such straitened circumstances that,
+                    according to his own account, “he had no place to repair to except an inn, and
+                    very frequently had not wherewithal to pay his reckoning.”</p>
+                <p>At length he was again employed in a fourth voyage, with restricted powers. But
+                    the result was unpropitious; and he returned to Spain, dejected in mind and worn
+                    out with bodily infirmities. Death at last relieved him from his earthly
+                    afflictions. He expired on the 2Oth of May 1506, commending, with his latest
+                    breath, his spirit to God. A marble tomb was reared over his dust, bearing the
+                    inscription,</p>
+                <p>A Castilla y a Leon,</p>
+                <p>Nuevo mondo dio Colon.<note anchored="true" place="bottom" type="authorial"><p>To
+                    Castile and to Leon, a new world gave Colon.</p></note></p>
+                <p>Columbus was a man of great and original genius, energetic in his conduct, and
+                    possessed of lofty, daring, but noble ambition. “The magnanimity of his nature,”
+                    says Irving, “shone forth through all the troubles of his stormy career. Though
+                    continually outraged in his dignity, braved in his authority, foiled in his
+                    plans, and endangered in his person, by the seditions of turbulent and worthless
+                    men, and that, too, at times when suffering under anguish of body and anxiety of
+                    mind, enough to exasperate the most patient, yet he restrained his valiant and
+                    indignant spirit, and brought himself to forbear, and reason, and even to
+                    supplicate.” His piety, though tinctured with superstition, was genuine and
+                    fervent. If on certain occasions his religion displayed itself in harshness and
+                    severity, the spirit of the age he lived in must be adverted to in palliation of
+                    his conduct. His temperament was deeply imbued with poetic enthusiasm. “It
+                    spread,” remarks Irving, “a golden and glorious world around him, and tinged
+                    every thing with its own gorgeous colours. It betrayed him into visionary
+                    speculations, which subjected him to the sneers and cavils of men of cooler and
+                    safer but more grovelling minds. It filled his mind with solemn and visionary
+                    meditations on mystic passages of the Scriptures, and on the shadowy portents of
+                    the prophecies.” “His soul,” observes a Spanish writer, “was superior to the age
+                    in which he lived. For him was reserved the great enterprise of traversing a sea
+                    which had given rise to so many fables, and of deciphering the mystery of his
+                    age.” “With all the visionary fervour of his imagination,” adds Washington
+                    Irving, “its fondest dreams fell short of the reality. He died in ignorance of
+                    the real grandeur of his discovery. Until his last breath he entertained the
+                    idea that he had merely opened a new way to the old resorts of opulent commerce,
+                    and had discovered some of the wild regions of the East. He supposed Hispaniola
+                    to be&lt; the ancient Ophir which had been visited by the ships of king Solomon,
+                    and that Cuba and Terra Firma were but remote parts of Asia. What visions of
+                    glory would have broken upon his mind could he have known that he had indeed
+                    discovered a new continent, equal to the old world in magnitude, and separated
+                    by two vast oceans from all the earth hitherto known by civilized man 1 and how
+                    would his magnanimous spirit have been consoled, amidst the afflictions of age
+                    and the cares of penury, the neglect of a fickle public and the injustice of an
+                    ungrateful king, could he have anticipated the splendid empires which would
+                    arise in the beautiful world he had discovered, and the nations, and tongues,
+                    and languages which were to fill its lands with his renown, and to revere and
+                    bless his name to the latest posterity!” It will be remarked that Mr Irving, in
+                    accordance with the generally entertained belief of all his biographers, alludes
+                    to Columbus as being the first discoverer of the American continent. It has,
+                    however, been lately ascertained that the earliest navigator who touched the
+                    American continent was Sebastian Cabot, who discovered Newfoundland and Labrador
+                    in June 1497, nearly a year previous to the visit of Columbus on the coast of
+                    Paria; and it seems more than probable that Columbus was aware of Cabot’s
+                    discovery. " See <hi rend="smallcaps">Cabot.</hi></p>
+                <p>Few subjects have afforded more abundant matter for learned discussion than the
+                    records that from time to time have appeared relating to Columbus. His
+                    birth-place alone has given rise to much ingenious and unprofitable speculation.
+                    That point, as well as the dates of his birth, and several voyages, are now
+                    pretty correctly ascertained. The curious in such investigations are referred to
+                    the Spanish and Italian authors, particularly to <hi rend="italic">Dissertazione
+                    della</hi><hi rend="italic">Patria</hi><hi rend="italic">di Christophero
+                    Colombo,</hi> Firenze; the <hi rend="italic">Lives of Columbus,</hi> by Bossi
+                    and Spotorno; and the <hi rend="italic">Relations des</hi><hi rend="italic"
+                    >Quatre</hi><hi rend="italic">Voyages enterpris par Christopher</hi><hi
+                    rend="italic">Colomb,</hi> par Μ. F. de Navarette, ouvrage traduit de
+                    l’Espagnol, Paris, 1828. See also <hi rend="italic">Memorials of Columbus,</hi>
+                    by Spotorno; and <hi rend="italic">Histoire</hi><hi rend="italic">de l’</hi><hi
+                    rend="italic">Amiral Colomb,</hi> par Fernando Colomb.</p>
+                <p>In addition to these points of minor and less general interest, several
+                    controversies have arisen bearing upon the claims of Columbus to the discovery
+                    of the western world; but such disputes, at least in so far as they affect the
+                    discovery of the <hi rend="italic">Columbian archipelago,</hi> are proved to be
+                    idle and futile; as no doubt now remains of Columbus having been the first
+                    navigator of the old world who reached the island of San Salvador, and the first
+                    who determined the existence of the western world. One of the most current
+                    slanders on our navigator’s fair fame, as related by Inca Garcilaso, was, that
+                    Alonzo Sanchez, sailing to the Canaries in 1484, reached the island of St
+                    Domingo, and communicated his voyage and route to Columbus. Some other Spanish
+                    writers notice the event without giving the name of the author of the discovery.
+                    Oviedo considers these relations as mere vulgar fables. We are, however, told by
+                    Columbus himself that he took advantage of such accounts as were transmitted to
+                    him by Spanish and Portuguese mariners, some of whom had sailed westward so far
+                    as to perceive what they considered to be indications of land. Gallo and
+                    Giustiniani, authors contemporaneous with Columbus, assert that Bartholomew
+                    Columbus first conceived the idea of western discovery, and communicated it to
+                    his brother; but Columbus has been triumphantly vindicated from these ungenerous
+                    aspersions by the unanimous testimony of the Spanish writers, among whom Las
+                    Casas, who knew both brothers, and preserved many papers belonging to Columbus,
+                    merits especial credence.</p>
+                <pb break="no" facs="nls:194749014" xml:id="kp-eb0707-9014-0134"/>
+                <p>But if any doubts remained, they are completely removed by the written
+                    declaration of Ferdinand and Isabella, who, in a communication dated the 4th of
+                    August 1494, write thus to the admiral: “One of the principal reasons for which
+                    your discovery (the first) has caused so much joy to us is, that it is to be
+                    ascribed to your genius (por ser in-ventada), and that it has been commenced and
+                    terminated by your own individual endeavours, by your courage, your
+                    perseverance, and industry.”</p>
+            </div>
+        </body>
+    </text>
+</TEI>

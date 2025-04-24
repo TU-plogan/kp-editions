@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0711-1227-0164-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">HAT</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 11, page 164</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="12" ref="lcsh1910:b4d50g235">Hats</term>
+                    <term n="8" ref="lcsh1910:b4dr2p88c">Beaver</term>
+                    <term n="7" ref="lcsh1910:b4qb9v878">Wool</term>
+                    <term n="5" ref="lcsh1910:b4b853m90">Processions</term>
+                    <term n="5" ref="lcsh1910:b4930p29x">Process</term>
+                    <term n="1" ref="lcsh1910:b4bc3t18v">Saxons</term>
+                    <term n="1" ref="lcsh1910:b4zg6gf8v">Quakers</term>
+                    <term n="1" ref="lcsh1910:b4mw28p24">Scotch</term>
+                    <term n="1" ref="lcsh1910:b44f1mm3n">Courts</term>
+                    <term n="1" ref="lcsh1910:b4x34mr95">Art</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="2" ref="fasttopic:1134466">Straw</term>
+                    <term n="12" ref="fasttopic:951903">Hats</term>
+                    <term n="8" ref="fasttopic:829421">Beavers</term>
+                    <term n="7" ref="fasttopic:1179993">Wool</term>
+                    <term n="5" ref="fasttopic:1078061">Processions</term>
+                    <term n="3" ref="fasttopic:980750">Italians</term>
+                    <term n="3" ref="fasttopic:1737291">Italianization</term>
+                    <term n="1" ref="fasttopic:1106173">Saxons</term>
+                    <term n="1" ref="fasttopic:1084913">Quakers</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="4" ref="fastgeo:1219920">England</term>
+                    <term n="3" ref="fastgeo:1206715">Scotland</term>
+                    <term n="1" ref="fastgeo:1208401">Angola</term>
+                    <term n="1" ref="fastgeo:1239786">America</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193641227" type="entry">
+                <p><label type="entry">HAT</label> is a term of Saxon derivation, from <hi
+                    rend="italic">haet,</hi> a cover for the head. It is sometimes called castor,
+                    from its being made of the fur of the castor or beaver. As a piece of dress, the
+                    period of its introduction is not certain, although it may with great
+                    probability be referred to the early distinctions of Roman Catholic dignitaries.
+                    Froissart chronicles, that it was “saide to the cardynals, Sirs, advyse you if
+                    ye de-lyvere us a Pope Romayne, we be content, or els we woll maike your heddes
+                    reeder than your hattes be;” from which, and many other documents, it appears
+                    that at this period, as well as for some centuries thereafter, hats were
+                    generally of a scarlet or red colour, and made of “a fine kinde of haire matted
+                    thegither.” A “hatte of biever,” about the middle of the twelfth century, was
+                    worn by some one of the “nobels of the lande, mett at Clarendom ;” and Froissart
+                    describes hats and plumes which were worn at Edward’s Court in 1340, when the
+                    garter order was instituted. In the Diary of Henry’s secretary, there is “ane
+                    scarlet beever hatte” presented on new year’s day 1443. Even at this early
+                    period hats were of various shapes, both in the crowns and the brims; the latter
+                    being chiefly broad, sometimes narrowing towards the back, and a little bent up
+                    and scooped in front. In Henry’s privy purse expenses, during his congress with
+                    Francis I. in 1520 or 1521, there is “peid for a hatte and plume for the king,
+                    in Boleyn, xvs.;” and in Wolsey’s inventory, taken on his resigning the great
+                    seal to Sir Thomas Moore, there are no fewer than five mentioned. The fashion of
+                    this article was then much more diversely capricious than even now, as will
+                    appear from an extract from Stubbs’ <hi rend="italic">Anatomic of Abuses,</hi>
+                    published about 1585: “Sometimes they use them sharpe on the crowne, pearking up
+                    like the spire or shaft of a steeple, standing a quarter of a yard above the
+                    crowne of theire heads; some more, some lesse, as please the fantasies of their
+                    inconstant mindes. Othersome be flat, and broade on the crowne, like the
+                    battlements of a house. Another sorte have rounde crownes, sometimes with one
+                    kind of bande, sometimes with another; now black, now white, now russed, now
+                    redde, now grene, now yellow; now this, now that; never content with one colour
+                    or fashion two daies to an end. And as the fashions be rare and strange, so is
+                    the stuffe whereof their hattes be made divers also; for some are silk, some of
+                    velvet, some of taffetic, some of sarsnet, some of wool, and, which is more
+                    curious, some of a certaine kindc of fine haire, these they call bever hattes,
+                    of xx. xxx. or xl. shillings price, fetched from be-yonde the seas, from whence
+                    a great sorte of other vanities doe come besides; and so common a thing it is,
+                    that every servyng man, countreiman, and other, even all indifferently, doe
+                    weare of these hattes.” About the beginning of 1700, the crowns of hats were
+                    mostly round, much lower than before, and had very broad brims, resembling what
+                    are now occasionally called Quakers’ hats, the protrusive encumbrance of which
+                    soon suggested the convenience of their being turned up in front; fashion
+                    dictated the upbending of another side or flap, and ultimately a third, so that
+                    by this progress, in 1704, the regular three-cocked hat became the order of the
+                    day, when feathers ceased to be usually worn. Near the middle of the eighteenth
+                    century, a round-edged but flat-topped and fullbrimmed hat got into very general
+                    use, and the flat and other cocked hats now dwindled almost into a mere
+                    distinction of real or assumed rank. Twenty-five years after this, a very near
+                    approach to that of the present times became fashionable, and, within ten years,
+                    altogether superseded the ordinary use of the cumbrous and antique cock.</p>
+                <p>Plumes, jewels, silk loops, rosettes, badges, gold and <pb break="no"
+                    facs="nls:193641240" xml:id="kp-eb0711-1240-0165"/>silver bands and loops, have
+                    at various periods ornament- <hi rend="subscript"> ι</hi> ed this article of
+                    dress; metal bands and loops being now esteemed proper only to naval and
+                    military “men of honour,” and the humble liveried attendants on state, rank, and
+                    official dignity. The <hi rend="italic">opera</hi> or soft folding hat is the
+                    only relic at present in general use, of the hats worn by our grandfathers,
+                    although it is not improbable that the affluent and growing extravagance of this
+                    century is likely to re-introduce the elegant Spanish hat as the precursor
+                    perhaps of the prevalence of various other styles, as well as the cocked hat,
+                    not yet entirely discarded from the revolving wheel of luxurious fashion.</p>
+                <p><hi rend="smallcaps">Hat-making</hi> now embraces two distinct kinds of
+                    manufacture, felted and covered hats; the covering of the latter being sometimes
+                    silk, and at other times Braganza or cotton Angola.</p>
+                <p><hi rend="italic">Felted hats</hi> comprehend two classes, differing chiefly in
+                    the materials used in making, the process being nearly identical. The lower
+                    class is marked by inferior ingredients, unmixed with beaver, and embraces <hi
+                    rend="italic">wool, plated,</hi> and <hi rend="italic">short nap</hi> hats.</p>
+                <p><hi rend="italic">Wool hats</hi> are made entirely of coarse native wool and hair
+                    stiffened with glue, chiefly for negroes’ wear. Value Is. 2d. to 2s. 2d. <hi
+                    rend="italic">Plates</hi> have a <hi rend="italic">nap</hi> or pile rather finer
+                    than their body, and are sometimes <hi rend="italic">waterproof</hi> stiffened.
+                    Value 3s∙ to 4s. 6d. <hi rend="italic">Short naps</hi> are distinguished from
+                    plates by additional kinds of wool, viz. hare’s back, seal, neuter, musquash
+                    (Muscovy cat), and are all waterproof stiffened. Value 5s. to 9s.</p>
+                <p>The second class may be said to comprehend two orders, called stuff and beaver
+                    hats. The first includes mottled and stuff bodies. The latter term is not used
+                    generally, as all <hi rend="italic">stuffs</hi> are understood to be of this
+                    sort when <hi rend="italic">mottled</hi> is not expressed. <hi rend="italic"
+                    >Mottled bodies</hi> are made chiefly of fine Spanish wool, and inferior rabbit
+                    down or coney wool. Value Is. 8d. to 2s. 6d. <hi rend="italic">Stuff bodies</hi>
+                    consist of the best hare, Saxony, and red wools, mixed with Cashmere hair and
+                    silk. Value 3s. to 4s. <hi rend="italic">Stuff hats</hi> are <hi rend="italic"
+                    >napped,</hi> that is, covered with pile of mixed seal, neuter, hare-back,
+                    inferior beaver, and musquash. Value lθs. to 15s. <hi rend="italic">Seaver
+                    hats</hi> are, or ought to be, napped with beaver only; the lower priced
+                    qualities with <hi rend="italic">brown wοοms</hi> taken from the back; the more
+                    valuable kinds with <hi rend="italic">cheek</hi> and <hi rend="italic">white
+                    woorns,</hi> being the finest parts of the fur found on the belly and cheeks of
+                    the beaver. Value 16s. to 22s.</p>
+                <p>The apparatus and terms used in making felted hats, which it is necessary to
+                    describe briefly, are the bow, bowpin, basket, hurdle, battery, and planks.</p>
+                <p>The <hi rend="italic">bow</hi> is about six feet long, usually made of ash, thick
+                    enough not to be elastic. The handle A, B, C, is called the <hi rend="italic"
+                    >stang</hi><hi rend="italic">;</hi> A is named the <hi rend="italic"
+                    >breech;</hi> C, the end farthest from the workman’s hold, the <hi rend="italic"
+                    >cock.</hi> D, the <hi rend="italic">bowstring,</hi> is a strong catgut cord
+                    tensely fastened.</p>
+                <p>The <hi rend="italic">bow-pin</hi> is used (just as the finger on the guitar) for
+                    vibrating the bowstring.</p>
+                <p>The <hi rend="italic">hurdle</hi> is a fixed bench, with three enclosing sides,
+                    to prevent the stuff being flittered off in bowing.</p>
+                <p>The <hi rend="italic">basket</hi> is of light wicker-work, about twenty by
+                    twenty-two inches in size.</p>
+                <p>The <hi rend="italic">battery</hi> consists of A, the kettle; B, C, the planks,
+                    which are inclined planes, usually eight in number, one only being appropriated
+                    to each workman. The half of each plank next the kettle is lead, the upper half
+                    is mahogany.</p>
+                <p>The first process in hat-making is <hi rend="italic">bowing</hi> the stuff or
+                    furs, which are weighed out to a proportionate scale, and laid on the hurdle,
+                    immediately under the bow, which is suspended by a pulley. The bow is held
+                    firmly with the left hand, rather toward the <hi rend="italic">breech-end,</hi>
+                    not edgewise, but on its side, with the string in contact with the stuff, the
+                    clotted and adherent portions of which are separated into single fibres, and
+                    attain a loose, flocky, mixed condition by the continued vibration of the
+                    bowstring, caused by a very rapid succession of touches with the bowstick. It is
+                    then divided as nearly as possible, and one half laid aside, whilst the other is
+                    again bowed. In this second operation, partly by the bowing, but chiefly by the
+                    <hi rend="italic">gathering,</hi> or patting use of the basket, the stuff" is
+                    loosely matted into a conical figure, about fifty by thirty-six inches, called a
+                    <hi rend="italic">bat.</hi> In this formation care is taken to work about two
+                    thirds of the wools down towards what is intended for the brim, which being
+                    effected, greater density is induced by gentle pressure with the basket. It is
+                    then covered with a wettish linen cloth, upon which is laid the <hi
+                    rend="italic">hardening skin,</hi> a piece of dry half-tanned horse hide. On
+                    this the workman presses or bakes for seven or eight minutes, until the stuff
+                    shall have adhered closely to the damp cloth, in which it is then doubled up,
+                    freely pressed with the hand, and laid aside. By this process, called basoning
+                    (from a metal plate or <hi rend="italic">bason,</hi> used for like purposes in
+                    making <hi rend="italic">wool</hi> hats), the bat has become compactly felted
+                    and thinned toward the sides and point. The other half of the flocked stuff is
+                    next subjected to precisely the same proceedings, after which, a cone-shaped
+                    slip of stiff paper is laid on its surface, and the sides of the bat folded over
+                    its edges to its form and size. It is then laid paper-side downward upon the
+                    first bat, which is now replaced on the hurdle, and its edges transversely
+                    doubled over the introverted side-lays of the second bat, thus giving equal
+                    thickness to the whole <hi rend="italic">body.</hi> In this condition it is
+                    re-introduced between folds of damp linen cloth, and again hardened, so as to
+                    unite both halves, the knitting together of which is quickly effected. The paper
+                    is now withdrawn, and the body being folded into three plies, is removed to the
+                    plank or battery room.</p>
+                <p>In the battery the <hi rend="italic">liquor</hi> is scalding heat, composed of
+                    pure soft water, about half a gill of oil of vitriol as an astringent, and a
+                    full handful of oatmeal to correct its pernicious tendencies. Herein the body is
+                    imbrued, and withdrawn to the plank to partly cool and drain, when it is
+                    unfolded, rolled gently with a pin tapering towards the ends like a liquor
+                    horse, turned, and worked with in every direction, to toughen, shrink, and at
+                    same time prevent adhesion of its sides. <hi rend="italic">Stopping</hi> or
+                    thickening the thin spots which now appear on looking through the body, is
+                    carefully performed, by additional stuff daubed on by successive supplies of the
+                    hot liquor from a brush frequently dipped into the kettle, until the body be
+                    shrunk sufficiently (about one half), and thoroughly equalized. When quite
+                    dried, <hi rend="italic">stiffening</hi> is performed with a brush dipped into a
+                    glutinous pulpy composition, <pb break="no" facs="nls:193641253"
+                    xml:id="kp-eb0711-1253-0166"/>and rubbed into the body; the surface intended for
+                    the inside having much more imposed than the outer, while the brim is made to
+                    absorb many times the quantity applied to any other part. This viscous matter
+                    contains <hi rend="italic">proofing,</hi> or those ingredients which render the
+                    hat waterproof.</p>
+                <p>On being again dried, the body is ready to be <hi rend="italic">covered,</hi> and
+                    is once more taken to the battery. The first cover of beaver or napping, which
+                    has been previously <hi rend="italic">bowed,</hi> is equally strewed on the
+                    body, and patted upon with the brush charged with the hot liquor, until
+                    incorporated; the <hi rend="italic">cut</hi> ends only, being the points which
+                    naturally intrude. Here the body is put into a coarse hair-cloth dipped and
+                    rolled in the hot liquor, until the beaver is quite worked in. This is called
+                    <hi rend="italic">rolling off,</hi> or ruffing. A stripe for the brim, round the
+                    edge of the inside, is treated in like manner, and is thus prepared for the
+                    second cover, which is applied and inworked in like manner; the rolling, &amp;c.
+                    being continued until the whole has become incorporated, and a clean, regular,
+                    close, and well-felted <hi rend="italic">hood</hi> is the result. The dry hood,
+                    after having the nap beat up and freed, is clipped to the length which may be
+                    thought best, by means of common shears. A clipping machine, invented nearly
+                    four years ago in Scotland, is now very generally preferred, and doubtless will
+                    soon everywhere supersede the ordinary process; much greater regularity, speed,
+                    and certainty being secured by it. When the nap is thus disposed of, the hood is
+                    soaked in the battery kettle, and then <hi rend="italic">drawn down</hi> on a
+                    block to the size and shape wanted, firmly tied at the bottom with a cord,
+                    around which the brim is left in a frilled condition.</p>
+                <p><hi rend="italic">Dyeing</hi> is the next step. A <hi rend="italic">suit,</hi> or
+                    six dozen, are put into the dye kettle at a time, all on the croavn-blocks
+                    already mentioned, and allowed to remain three quarters of an hour in the
+                    liquor, which is kept as near as possible one degree below the boiling point.
+                    These being taken out and set in the yard to cool, another suit is introduced
+                    for a like period, and the various suits are so treated at least twelve times in
+                    successive order. Each of the first four introgressions of every suit is
+                    accompanied by about seven pounds of copperas, and two pounds of verdigris. The
+                    body is then washed and brushed out in changes of hot water, until no colouring
+                    can be recognized in it. When thus thoroughly cleansed, it is steamed on a block
+                    shaped as the hat is wished to be when complete; and in the finishing shop, by
+                    heavy (2l-pound) heated irons and moisture, the frilled brim is shrunk until
+                    rendered quite level, the nap gently raised all over with a fine wire card, and
+                    brushed and ironed smooth in the uniform directions. The tip, a thin lath sheet,
+                    is then fitted and stuck to the inside of the crown, and <hi rend="italic"
+                    >robbined</hi> or secured all round the edges by stripes of prepared paper. When
+                    thus <hi rend="italic">got down,</hi> it is sent to the <hi rend="italic"
+                    >picker,</hi> who, with tweezers, extracts the <hi rend="italic">hemps,</hi>
+                    vulgarly called “grey hairs,” which are a few of those thick fibres peculiar to
+                    the fur of amphibious animals, that have escaped the search of the machine used
+                    in blowing the beaver, so as to separate them from its fine parts. This being
+                    carefully accomplished, it is transferred to the finisher, who, with a plush
+                    cushion or <hi rend="italic">velure,</hi> a brush, and hot iron, imparts to it
+                    that bright sleeky lustre so characteristic of English and Scotch hats. The <hi
+                    rend="italic">shaper</hi> then rounds the brim with a knife and knotched segment
+                    to the breadth wanted; and shapes it in varied styles by means of a hot iron and
+                    damp, with about a foot length of rope, over which the <hi rend="italic"
+                    >curl</hi> is laid. The <hi rend="italic">trimming</hi> is next done, when the
+                    <hi rend="italic">tipper off</hi> corrects the twists, smooths the ruffled nap
+                    caused by trimming, and <hi rend="italic">papers</hi> it up with tissue and
+                    cartridge, which completes it for the retailer.</p>
+                <p><hi rend="italic">Dye-stuffs for a gross of beaver hats</hi><hi rend="italic"
+                    >—</hi> About 180 gallons of pure soft water, one and a half hundredweight of
+                    best Campeachy logwood, eight pounds oxide of copper, and thirty pounds of
+                    copperas. It is to be observed, however, that some put the chips, others only
+                    the juice, of the logwood into the dye-kettle. Galls are now disused. <hi
+                    rend="italic">Stiffening stuffs.</hi><hi rend="italic">—</hi> Makers differ in
+                    the proportions, but the ingredients are shell-lac, rosin, mastic, saundrice,
+                    and elm, all churned until dissolved. A quantity of this is then melted over
+                    steam, sieved, put in hot, and well mixed. <hi rend="italic">Cleaning
+                    stuffs.</hi><hi rend="italic">—</hi> These are now seldom considered necessary.
+                    One half pound of borax, diluted in five gallons of water, into which the
+                    stiffened nap is dipped and well brushed.</p>
+                <p><hi rend="italic">Silk hats</hi> are made upon bodies of wool, stuff, willow,
+                    straw, and leghorn plait, and cambric and woollen cloth, although chiefly on
+                    felted wool bodies, which are dipped in glue size, wrung out, blocked, and
+                    dried. The <hi rend="italic">tip</hi> is then fitted and robbined, when a
+                    flour-box charged with powdered shell-lac and rosin in like quantities is used
+                    to strew equally its grainy mixture on the external surface of the <hi
+                    rend="italic">shell,</hi> so called from being the frame-work. This is burned in
+                    by hot irons, first on the top, which passes through to the lath-tip within;
+                    then on the upper brim, the sides, and, finally, the under brim. When this is
+                    hardened, it is coated with thick ordinary flour-paste, which is dried, and the
+                    shell again blocked and smoothed; then once more glue-sized outside, dried, and
+                    varnished, which prepares it for <hi rend="italic">covering.</hi> The shag for
+                    the sides is cut across the web, in a ratio of obliquity increased by
+                    inferiority. This cross part is sewn to a circular piece for the crown, whilst
+                    the brims are singly patched together. These preparations being completed, the
+                    <hi rend="italic">top-side</hi> or upper brim is first stuck, then the crown,
+                    next the sides, and, finally, the under brim. <hi rend="italic">Sticking</hi> is
+                    effected simply by the heat of the iron passing through the covering and melting
+                    the varnished surface. In the finish of this manufacture, the most particular
+                    part is the <hi rend="italic">side-seam,</hi> which is disposed of thus: The
+                    selvidge end is cut perpendicularly from top to brim, by a sharpened
+                    pallet-knife, the nap having been previously brushed clear off its edge. The
+                    other selvidge end is then stuck and cut with the utmost nicety, in close
+                    parallel with the other. It is then finished very much in the same manner as a
+                    beaver hat.</p>
+                <p><hi rend="italic">Tip stuff for silk hats.—Seven</hi> pounds of glue melted in
+                    water, when three pounds of pitch and half a pound of tallow are added, and the
+                    whole is boiled to the consistency of thick jelly. <hi rend="italic">Varnish
+                    stuff.</hi><hi rend="italic">—</hi> A quarter of a cwt. of turpentine, mixed
+                    with two gallons of linseed oil.</p>
+                <p>The major part of stuff hats are <hi rend="italic">finished</hi> in London,
+                    whilst body-making and ruffing is managed chiefly in Gloucester and Derbyshire.
+                    Plated and short-nap hats are made principally in Lancashire, Cheshire, and
+                    Staffordshire, owing to local advantages.</p>
+                <p>150,000 dozens of silk and covered hats are annually made in London, and about
+                    100,000 dozens in Manchester, Liverpool, Birmingham, and Glasgow. Throughout
+                    Edinburgh and the other parts of Scotland there may be an additional 50.000
+                    dozens made yearlv.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p>Value of plated hats manufactured
+                            annually, L.1,080,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Stuff hats</p><p>Wool felt hats and
+                            military caps..</p><p>Silk hats</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>.
+                            640,000</p><p>160,000</p><p>570,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>L.2,450,000</p></cell>
+                    </row>
+                </table>
+                <p>Imported hats are each subject to ten shillings and sixpence of duty. In 1832
+                    there were exported 62,854 dozens. In this branch of manufacture there are
+                    employed annually nearly 25,000 men, besides about 10,000 females in the
+                    trimming and picking departments.</p>
+                <p><hi rend="smallcaps">Hats, Straw.</hi> Any attempt to ascertain when straw was
+                    first used in the manufacture of hats would be useless, because it would be
+                    impossible to fix a date with any correctness. In Italy it had arrived at a
+                    great degree of perfection two centuries ago; but it is not above sixty or
+                    seventy years since it began to be followed as a trade in England. Wheat straw
+                    is the material chiefly used by our <pb break="no" facs="nls:193641266"
+                    xml:id="kp-eb0711-1266-0167"/>manufacturers; and the counties most favourable
+                    for its production are Bedford, Hertford, and Buckingham, which have been called
+                    the <hi rend="italic">straw-plait district.</hi> The making of straw hats is
+                    carried on in other places, but not to the same extent as there. Leghorn bonnets
+                    had long been a considerable article of import; but the late war having put a
+                    stop to this, a new spirit was given to the home manufacture. It now became a
+                    flourishing trade, which produced competition and a consequent improvement in
+                    the article. At the close of the war, however, Leghorn hats again usurped the
+                    market to a considerable extent, and the domestic manufacture proportionally
+                    declined. Many of the straw plaiters having been reduced to great distress, the
+                    Society of Arts turned its attention to the subject, and offered premiums for
+                    improvements in plaiting, finishing, and bleaching. The straw of Tuscany having
+                    been found very superior to British straw, the former became an article of
+                    import; and the Italian method of plaiting the straw has also been introduced.
+                    So completely successful has this scheme been, that, whilst the importation of
+                    Leghorn hats has gradually decreased during the last few years, the introduction
+                    of the raw material has gradually increased. Upon this straw there is a düty of
+                    only one penny per hundredweight, and it is chiefly plaited in our own straw
+                    districts. What is called the Tuscan plait, upon which a heavy duty is levied,
+                    has likewise been largely imported, and made into bonnets of equal fineness and
+                    beauty to the genuine Leghorn hat.</p>
+                <p>There are seven descriptions of plait in general use, the difference in the kinds
+                    arising from the number of straws used in the plait, and from their being either
+                    whole or split. Other varieties are also manufactured, but chiefly for
+                    exportation. In Scotland, rye straw, dwarfed by being grown on poor land, has
+                    been employed in plaiting straw in imitation of Leghorn, and with such complete
+                    success, that the hats manufactured in Orkney, where the rye is raised, are
+                    considered by the best judges as quite equal, both in colour and quality, to
+                    those of Leghorn. The following description of the preparation of the Italian
+                    straw is extracted from M‘Culloch’s <hi rend="italic">Dictionary of
+                    Commerce,</hi> “The description of straw used, which is cultivated solely for
+                    the purposes of the manufacture, and not for the grain, is the <hi rend="italic"
+                    >triticum turgidum,</hi> a variety of bearded wheat, which seems to differ in no
+                    respect from the spring wheat grown in the vale of Evesham and other parts of
+                    England. <hi rend="italic">(Trans, of Soc. Arts.)</hi> After undergoing a
+                    certain preparatory process, the upper parts of the stems (being first sorted as
+                    to colour and thickness) are formed into a plait of generally thirteen straws,
+                    which is afterwards knitted together at the edges into a circular shape called a
+                    ‘ flat,’ or hat. The fineness of the flats is determined by the number of rows
+                    of plait which compose them, counting from the bottom of the crown to the edge
+                    of the brim, and their relative fineness ranges from about No. 20 to 60, being
+                    the rows contained in the breadth of the brim, which is generally eight inches.
+                    They are afterwards assorted into first, second, and third qualities, which are
+                    determined by the <hi rend="italic">colour</hi> and <hi rend="italic"
+                    >texture</hi><hi rend="italic">;</hi> the most faultless being denominated the
+                    first, whilst the most defective is described as the third quality. These
+                    qualities are much influenced by the season of the year in which the straw is
+                    plaited. Spring is the most favourable, not only for plaiting, but for bleaching
+                    and finishing. The dust and perspiration in summer, and the benumbed fingers of
+                    the workwomen in winter, when they are compelled to keep within their smoky
+                    huts, plaiting the cold and wet straw, are equally injurious to the colour of
+                    the hats, which no bleaching can improve. The flats are afterwards made up in
+                    cases of .ten or twenty dozen, assorted in progressive numbers or qualities, and
+                    the price of the middle or average number governs the whole. The <hi
+                    rend="italic">Brozzi</hi> make bears the highest repute, and the <hi
+                    rend="italic">Signa</hi> is considered secondary; which names are given to the
+                    flats, from the districts where they are plaited. Florence is the principal
+                    market, and the demand is chiefly from England, France, Germany, and America;
+                    but the kinds mostly required are the lower numbers; the very finest hats, and
+                    particularly of late, being considered as too expensive by the buyers. <hi
+                    rend="superscript"> y</hi><hi rend="italic">The following Statement shows the
+                    Imports into England of Italian Straw Hats, Straw Plait, and Unmanufactured
+                    Straw, from</hi> 1828 <hi rend="italic">to</hi> 1832.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Years.</p></cell>
+                        <cell cols="4" role="data" rows="1"><p>Hats or Bonnets of Straw.</p></cell>
+                        <cell cols="4" role="data" rows="1"><p>Plaiting of Straw.</p></cell>
+                        <cell cols="2" role="data" rows="1"><p>Unmanufactured Straw.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Imported.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Exported.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Consumption.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Nett Revenue.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Imported.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Exported.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Consumption.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Nett Revenue.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Imported.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Nett Revenue.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">No.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">No.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">No.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">L.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >Lbs.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >Lbs.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >Lbs.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">L.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >Lbs.</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">L.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1828</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>384,072</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >8,3T7</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>274,906</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>77,784</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,502</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>283</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,100</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4,335</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4,199</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>420</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1829</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>160,195</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>27,030</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>234,254</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>66,393</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,282</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>487</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3,340</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,834</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,050</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>605</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1830</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>162,660</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>34,132</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>168,525</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>47,760</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,183</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>756</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7,884</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,669</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,586</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,859</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1831</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>84,066</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>24,980</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>93,947</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>26,644</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>23,354</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,102</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>16,450</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>13,287</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>22,344</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,232</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1832</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>169,433</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>35,271</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>60,830</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>17,280</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>19,109</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,605</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>17,911</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15,174</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>48,054</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>811</p></cell>
+                    </row>
+                </table>
+                <p>For further particulars relative to straw hats, see M‘Culloch’s <hi rend="italic"
+                    >Dictionary,</hi> from which our information has been derived.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

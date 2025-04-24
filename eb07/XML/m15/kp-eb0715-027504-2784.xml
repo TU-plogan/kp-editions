@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0715-2784-0275-04" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">MINING</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 15, page 275</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="17" ref="lcsh1910:b44j09z32">Founding</term>
+                    <term n="16" ref="lcsh1910:b4qz22h3h">Veins</term>
+                    <term n="16" ref="lcsh1910:b4513v11w">Water</term>
+                    <term n="16" ref="lcsh1910:b4t727j1r">Copper</term>
+                    <term n="13" ref="lcsh1910:b41n7xr3k">Ores</term>
+                    <term n="1" ref="lcsh1910:b43n20g8z">Schools</term>
+                    <term n="1" ref="lcsh1910:b4jw86t6p">Mining</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="17" ref="fasttopic:933281">Founding</term>
+                    <term n="16" ref="fasttopic:1165047">Veins</term>
+                    <term n="16" ref="fasttopic:1171139">Water</term>
+                    <term n="16" ref="fasttopic:878331">Copper</term>
+                    <term n="13" ref="fasttopic:1047551">Ores</term>
+                    <term n="2" ref="fasttopic:1019244">Mexicans</term>
+                    <term n="1" ref="fasttopic:1100116">Romans</term>
+                    <term n="1" ref="fasttopic:958715">Holes</term>
+                    <term n="1" ref="fasttopic:1111250">Seining</term>
+                    <term n="1" ref="fasttopic:1750280">Seines</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="6" ref="fastgeo:1239786">America</term>
+                    <term n="5" ref="fastgeo:1211700">Mexico</term>
+                    <term n="3" ref="fastgeo:1204303">Spain</term>
+                    <term n="2" ref="fastgeo:1206715">Scotland</term>
+                    <term n="2" ref="fastgeo:1204537">Sweden</term>
+                    <term n="1" ref="fastgeo:1239717">Alps</term>
+                    <term n="1" ref="fastgeo:1240495">Asia</term>
+                    <term n="1" ref="fastgeo:1239509">Africa</term>
+                    <term n="1" ref="fastgeo:1207649">Wales</term>
+                    <term n="1" ref="fastgeo:1206830">Brazil</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193822784" type="entry">
+                <p><label type="entry">MINING</label>, the art of working mines, or of extracting
+                    minerals and mineral ores from the bowels of the earth.</p>
+                <p>This includes the scientific knowledge necessary for opening and working mines,
+                    and preparing the ores for use; it requires an intimate acquaintance with
+                    mineralogy and geology, as well as the different processes by which mines may be
+                    wrought to advantage, useful minerals searched out and brought to the surface,
+                    and means employed for mechanically and chemically separating metals from their
+                    ores; besides the essential operations of sinking shafts, driving galleries and
+                    adit levels, removing all difficulties which occur in the course of the work,
+                    propping up the superincumbent earth or rock so as to give security, to the
+                    miners, and constructing the machinery necessary either for draining mines or
+                    performing the requisite operations in the preparation and reduction of ores.
+                    The preparation of ores consists in breaking asunder the larger pieces, and then
+                    purifying them by means of water from the earth which adheres to them; in the
+                    separation of the coarser substances from the finer, by means of a sieve moved
+                    up and down in water; in the crushing of the ore in stamping-mills, by means
+                    either of hammers or iron cylinders; and, lastly, in the separation of the
+                    metallic substances from the stone or earth with which they are combined, by
+                    washing the crushed ore in troughs or on inclined tables crossed by a current of
+                    water, so that the heavier ore may remain, whilst the lighter substances are
+                    carried away by the stream of waler. Mining further includes the final
+                    purification of the ore by amalgamation or otherwise, and its reductions by
+                    means of· fusion. In the case where the object of mining is to obtain a mineral
+                    substance, as coal, which is fit for immediate use when brought to the surface,
+                    that term is employed in a more restricted sense, being limited to the
+                    operations which are requisite for the simple extraction and bringing up from
+                    the pit or mine the mineral in question.</p>
+                <p>I. The application of science to the art of practical mining has hitherto been
+                    made only to a limited extent. Yet the theory of the formation of mineral and
+                    metallic substances, and the rules which may lead to their discovery, are
+                    objects of much greater national importance than is commonly supposed. The
+                    circumstance^ under which minerals are usually found, the mode of obtaining
+                    them, and <pb break="no" facs="nls:193822797" xml:id="kp-eb0715-2797-0276"
+                    />their probable extent and value, are inquiries which, whilst they must ever be
+                    highly interesting to the man of science, who seeks knowledge for its own sake,
+                    are altogether essential to the mining proprietor, as affording the only means
+                    by which he can form a correct judgment respecting the mode of working adopted
+                    by the practical miner.</p>
+                <p>The advantage to be derived from a knowledge of well-established facts respecting
+                    the arrangement and distribution of mineral substances, will be best illustrated
+                    by examples of the errors and oversights committed where this knowledge was
+                    wanting. It is generally known that, for some years, lime was exported to New
+                    South Wales, where it exists in abundance in its natural state. In Cornwall,
+                    ores of silver and cobalt were, until recently, thrown away from a mine which
+                    has, since the discovery of their value, returned upwards of L. 10,000 a year
+                    from these ores; and in the same country, although celebrated for its tin mines
+                    from the earliest periods of history, yet, until last century, the ores of
+                    copper were employed only to repair the roads. Wherever the copper appeared in a
+                    lode, it was a common expression that the ore came in and “spoiled the vein and,
+                    even in the present day, but little attention is paid to whatever is not
+                    manifestly either tin or copper, or known to yield these metals. In Derbyshire,
+                    although lead has been smelted from the common blue ore ever since the time of
+                    the Romans, the other ores of the same metal were never thought of, but left in
+                    heaps, as rubbish; yet we have lived to see a public road, made and repaired
+                    with these rejected ores, actually taken up and smelted to good account.
+                    Instances might also be mentioned of persons who, in the belief that their
+                    estates contained valuable mineral veins, engaged in expensive workings, and
+                    sometimes ruined their fortunes; when a slight acquaintance with geology would
+                    have served to convince them that a successful result, if not impossible, was at
+                    least highly improbable. As to the practical miner, he is altogether the
+                    creature of habit, holding geology in but little estimation, and smiling at the
+                    nice distinctions of the mineralogist. Hence, if any inquiry be made of him
+                    respecting the interesting phenomena of veins, he generally prefers the theory
+                    of his forefathers to that which has been deduced from the results of more
+                    recent and accurate investigations.</p>
+                <p>In this country no public means have been employed for removing ignorance and
+                    counteracting prejudice in regard to the working of mines. But the case is
+                    different on the continent. Both France and Germany possess national
+                    institutions for facilitating the study of the sciences applicable to mining
+                    operations; and the advantage of such a course of education is sufficiently
+                    demonstrated by the fact, that the companies formed for working mines in South
+                    America and Brazil have given a decided preference to mining officers trained in
+                    the schools of France and of Germany. Besides, of all speculative employments,
+                    mining is perhaps the most uncertain. Experience and ingenuity are frequently
+                    baffled; the most promising appearances often end in disappointment; whilst from
+                    veins which some persons have abandoned in despair, others have frequently
+                    derived enormous profits. This very uncertainty, however, only affords another
+                    argument for concentrating all the lights of science, in order as far as
+                    possible to lessen the risk of disappointment, and to afford the miner some
+                    surer guide than chance or caprice in pursuing his exploratory labours.</p>
+                <p>It may be observed generally, that the materials which compose the crust, if not
+                    the body, of the earth, are variously distributed, yet preserve their relative
+                    positions, from the surface downwards to the greatest depths hitherto obtained;
+                    those substances which consist of homogeneous matter being collected together
+                    and deposited either above or below a similar stratum of other substances in a
+                    continued series of depositions. That these deposits were originally parallel
+                    with the earth’s surface may be reasonably supposed, and indeed appears to admit
+                    of almost no doubt; yet by some great convulsion of nature, some prodigious
+                    force acting upwards, the strata have been raised and broken through, whilst the
+                    corresponding parts being raised and depressed in different directions, the
+                    edges of the whole series have been elevated to the surface in an uniform curve
+                    or right line, appearing in the side of a cliff or mountain, or protruding in
+                    enormous masses of great extent and altitude; at the same time that the lower
+                    stratum still preserves the same relative position which it assumed in its
+                    original formation. By attending to this important fact, geologists are enabled
+                    to ascertain the order of stratification in any country or district, and thence
+                    to form a tolerably correct opinion respecting its mineral contents to a much
+                    greater depth than can ever be reached by mining operations.</p>
+                <p>If, for instance, the stratum be found to dip at a certain angle, by observing
+                    carefully the superincumbent strata, we may at once discover not only the depth
+                    at which a shaft proposed to be sunk will cut the stratum sought, but also the
+                    nature of the strata to be passed through in its course. The superincumbent
+                    strata will sometimes be found to vary in thickness, and a proportional
+                    allowance must then be made in the working for this deviation from the previous
+                    estimate. When the strata descend in the line of their dip or inclination, the
+                    depth to which they reach beneath the surface is unknown; but they are seldom
+                    found to continue their descent very far at the same angle, and are either
+                    curved in the coal formation, bent in another direction, or altogether
+                    dislocated. In the upper series or formation, the strata are not uniform in
+                    their construction, but are intersected by fissures resembling the bottom of a
+                    muddy pool dried up by the sun; and these cavities, when empty, are sometimes of
+                    great extent. Eldon Hole, and the other subterranean wonders of the Peak in
+                    Derbyshire, may be cited as remarkable examples of such dislocations. These
+                    fissures, however, are commonly filled with mineral substances, or metalliferous
+                    ores, in which case they are termed <hi rend="italic">veins</hi><hi
+                    rend="italic">;</hi> their inclination generally ranges from 45° to the
+                    vertical, or 90°; and their course downwards, like that of the strata, is seldom
+                    terminated within the limits of human labour and research. But some cases have
+                    nevertheless occurred where the metallic produce has to all appearance been
+                    worked out, or where the vein has branched into filamentous portions at two or
+                    three hundred feet below the surface.</p>
+                <p>Formerly the richest part of a vein of copper ore was supposed to be situated at
+                    a depth of from forty to fifty fathoms, and that of a vein of tin at from twenty
+                    to sixty fathoms; but experience derived from the deep workings carried on in
+                    Cornwall has proved this idea to be erroneous. When a vein or stratum is
+                    terminated abruptly, by the crossing of another vein or stratum in a transverse
+                    direction, or by perpendicular fissures filled with alluvial matter, this is not
+                    considered as a termination of the vein, which, in fact, is only broken off or
+                    disjoined, and may again be discovered by searching in the analogous part on the
+                    opposite side of the deranged strata. As to the methods employed in following a
+                    metalliferous vein when broken off by faults or dykes, these are necessarily
+                    various, according to circumstances; and it is in such cases that the practical
+                    knowledge and experience of the miner are of far more avail than all the
+                    suggestions of theory. Veins occur in almost every species of rock, and vary in
+                    thickness from a mere filament to many fathoms; they are very unequal in the
+                    different parts of their course, but they are commonly widest above. Narrow
+                    veins are usually short, whilst those of considerable breadth extend to a great
+                    distance. The silver vein of Veta Madre, at Guanaxuato, has been work <pb
+                    break="no" facs="nls:193822810" xml:id="kp-eb0715-2810-0277"/>ed to the extent
+                    of 14,000 yards, at a depth of more than 570 yards, and from forty-three to
+                    fifty yards in thickness; and some other veins in South America have been traced
+                    to a distance of not less than eighty miles. A vein consists sometimes of one
+                    substance, at other times of many. In the latter case, these substances preserve
+                    an uniformity of position, parallel to the sides of the vein, in regular
+                    corresponding order, to the centre; so that, when traced downwards, the central
+                    seam first disappears, and the layers that enclosed it, being of homogeneous
+                    matter, coalesce, forming another central seam, which disappears in its turn,
+                    and is succeeded by the next, until a simple vein alone remains, gradually
+                    decreasing to its final termination. It has been observed, that veins similar to
+                    each other in mineral produce run parallel, or follow very nearly the same
+                    course throughout the district in which they are found, although occurring in
+                    different strata; and that veins containing other minerals in their immediate
+                    neighbourhood, or in the same stratum, always run in another direction. Thus, in
+                    Cornwall, when a vein of tin or copper ore, bearing east and west, is crossed by
+                    another running north and south, the intersecting vein is sometimes lead or
+                    antimony, but never tin or copper.</p>
+                <p>The principal metalliferous veins in England take a direction from east to west.
+                    When two veins running nearly parallel meet and join, they produce a good body
+                    of ore at the point of junction. If the principal vein dip at a less angle than
+                    the secondary one, it is usually found to be enriched by the latter; but if it
+                    dip at a greater angle, it is impoverished in like proportion. Sometimes a vein
+                    is joined by another, which, after falling into its course, and continuing for
+                    some distance to run parallel to it, suddenly resumes its original state, and
+                    breaks off in a different direction. For the most part, tin and lead lie nearer
+                    the surface than copper. Where the latter is met with in large masses, the vein
+                    commonly falls off shortly afterwards; but when the lode is found spotted with
+                    small portions of copper ore, there is a strong presumption that the produce
+                    will be rich and lasting. A large and productive vein is usually accompanied by
+                    others which fall into the main lode. The abundance of water in a lode is
+                    considered as a promising indication, inasmuch as dry veins are never very rich
+                    in ore. Lodes consist of hard solid stone, or less compact, soft, and crumbling
+                    materials. If the adjoining strata contain much spar and quartz, then the
+                    metalliferous ore in the lode is found in a solid, hard, stony substance; but
+                    when nature has been more sparing of her cement, the ore is generally met with
+                    in a loose and rub-bly state.</p>
+                <p>Experience has shown that certain minerals and metals are more frequently found
+                    attached to particular rocks than to other materials, and that some of them are
+                    discovered only in particular strata. Metalliferous veins are generally
+                    encompassed with some stone or other substance peculiar to the mine, which, from
+                    the appearance of the rock, apprises the miner of his approach to the vein. It
+                    has been ascertained that the arrangement of the materials of the earth is to a
+                    certain extent regular and uniform. Hence, when we know the particular
+                    substances near which certain metals and minerals are generally found, together
+                    with their usual disposition in the strata; and when, in another situation, we
+                    meet with the same materials similarly disposed; we may conclude with tolerable
+                    confidence, that the metal or mineral we are in quest of is not far distant, and
+                    that the operations may be continued with a reasonable prospect of success.
+                    Where a bed of mineral produce exists, it may be expected to extend throughout a
+                    considerable tract of country; but, from the curvature of formation, or from
+                    dislocation of the strata, it may nevertheless disappear at a particular point,
+                    and be lost, until it again rises to the “outcrop,” or is accidentally met with
+                    in boring or sinking a shaft at a considerable distance from the original
+                    working.</p>
+                <p>For the more complete elucidation of what has been stated above, we shall now
+                    describe shortly the several formations, with their general characteristics, the
+                    minerals which are usually found in them, and the localities in which the most
+                    important mines are situated.</p>
+                <p>The rocky masses composing the crust of the globe consist either of simple
+                    homogeneous bodies, as limestone; or of an aggregation of two or more simple
+                    materials, as granite. In some strata no organic remains whatever have been
+                    discovered; in others the fossil remains of animal and vegetable matter are of
+                    frequent occurrence. This diversity of character is the foundation of an
+                    arrangement, according to which rocks are divided into primary and secondary.
+                    The rocks belonging to the primitive formation are found under every other
+                    stratified mass, and never resting upon nor covering any; they follow a certain
+                    invariable order of succession, and exhibit determinate relations with other
+                    strata. Thus, granite is never found alternating with sandstone, nor gneiss
+                    covering a bed of coal. In mountainous countries, the primitive formation,
+                    upheaved in Alpine chains, offers itself to our notice in stupendous masses,
+                    having the strata of other formations resting upon and supported by their bases;
+                    or, as sometimes happens, without such formations altogether. Primitive rocks
+                    contain, either occasionally or exclusively, almost every metal hitherto
+                    discovered. They may be classed, in the usual order of their occurrence, under
+                    the denominations of granite, gneiss, mica slate, topaz rock, clay slate,
+                    porphyry, trap, limestone, serpentine, quartz, gypsum, flint slate, and syenite.
+                    Their component minerals are quartz, hornblende, felspar, mica, and
+                    limestone.</p>
+                <p>Granite is supposed to be the most ancient and most abundant of all substances.
+                    It forms the base and sometimes the whole mass of mountains; it constitutes a
+                    part of the Alps and the Pyrenees, the mountains of Cornwall, Saxony, and
+                    Silesia, the grand chain of the Ural and Altai in Asia, the Atlas in Africa, and
+                    the Andes and Cordilleras in South America. It is formed by a concretion of the
+                    granular particles of felspar, quartz, and mica, irregularly mingled, strongly
+                    adherent, and evidently the effect of simultaneous crystallization. The size,
+                    colour, and relative proportions of the particles differ greatly, but felspar
+                    with a reddish tint generally predominates. It is one of the hardest and most
+                    durable rocks known. Granite is much less metalliferous than any other of the
+                    primitive rocks; but it nevertheless yields tin and iron in considerable
+                    quantities, rarely gold or silver, and sometimes, in minute veins, molybdena,
+                    lead, copper, zinc, manganese, bismuth, galena, and blende.</p>
+                <p>Gneiss is immediately incumbent on granite, and is composed of the same
+                    substances; but mica, being more abundant, forms a granular slaty mass. This
+                    rock is rich in mineral produce; indeed all the useful metals, excepting
+                    quicksilver, are found in it, sometimes in beds, but more frequently in veins.
+                    The greater part of the mines in Saxony and Bohemia are in gneiss mountains. In
+                    the vicinity of Freyberg more than two hundred veins of silver, lead, tin,
+                    copper, and cobalt, have been worked in gneiss; and the silver mines of
+                    Königsberg are in the same rock. It is abundant in Scotland and the isles
+                    adjacent; and also in South America and the United States.</p>
+                <p>Mica slate, or schistus, is composed of mica and quartz. It has a slaty
+                    structure, mica being the chief ingredient; its colour is gray tinted with green
+                    or yellow, sometimes brown; and it differs from gneiss, upon which it rests, by
+                    being disposed in leaves rather than in distinct scales. It contains beds of
+                    magnetic iron ore; iron, copper, and arsenical pyrites; red iron ore, lead
+                    glance, blende, gold, and cobalt; whilst in the veins are found similar ores to
+                    <pb break="no" facs="nls:193822823" xml:id="kp-eb0715-2823-0278"/>those
+                    discovered in gneiss. The mines of Dalecarlia and Fahlun in Sweden, the gold
+                    mines of Monte Rose, some of those in Saltzburg, the silver mines of
+                    Johann-Georgenstadt and Bransdorf, and many others, are in this rock. It is also
+                    common in Scotland, on the continent, and in many other parts of the globe.</p>
+                <p>Topaz rock is of very inconsiderable extent, and is hardly to be considered as a
+                    distinct species. It is composed of quartz, tourmaline, topaz, and lithomarge,
+                    in granular concretions; but it has hitherto been met with only in Saxony, where
+                    it forms a rock which is known by the name of <hi rend="italic"
+                    >schneckeìistein.</hi></p>
+                <p>Clay slate is a simple rock, sometimes forming entire mountains; but the cliffs
+                    are not so steep and rugged as in granite and gneiss formations; and it is also
+                    much more favourable to vegetation. One of the varieties of this stratum is the
+                    well-known material for covering roofs of buildings; the rest partake of its
+                    general characters. It passes by different gradations into mica slate, acquiring
+                    a glistening lustre in its approach to that formation; it is distinctly
+                    stratified, and is rich in metal, containing tin, lead, cobalt, silver, pyrites,
+                    copper ore, and sometimes gold. The veins in Cornwall often run in <hi
+                    rend="italic">killas,</hi> which is a variety of clay slate; and some curious
+                    phenomena occur in their passage through the strata. If the vein contain tin ore
+                    in the granite, it will frequently change to copper in the killas; and if tin be
+                    abundant in the killas, copper will supply its place in the granite. This rock
+                    is very widely distributed, and occurs in all parts of the world. In Saxony,
+                    Bohemia, Hungary, and in North and South America, mines are worked in it, some
+                    er them to a very considerable extent.</p>
+                <p>Porphyry consists of crystals of quartz or felspar in a cement of hornstone or
+                    claystone; it is not stratified, nor do any mineral beds occur in it; and its
+                    colour varies according to the nature of the basis, although red and black are
+                    the most common. It is so hard that the art of cutting it for sculpture is now
+                    lost; indeed modern tools make no impression on the surface, although huge
+                    columns, and many beautiful specimens of chiselling, remain to convince us that
+                    it was practised by the ancients in great perfection. Many metalliferous
+                    minerals are found in porphyry. The mines of Hungary are worked in enormous
+                    rents or fissures in this rock. Porphyry also appears in Cornwall, Sweden,
+                    France, Saxony, Carinthia, Hungary, Siberia, Abyssinia, and North and South
+                    America.<note anchored="true" place="bottom" type="authorial"><p>See Mining
+                    Review, No. V. p.. 13, et seq.</p></note></p>
+                <p>For details as to the mineral deposits contained in the other primitive rocks,
+                    the reader is referred to the article <hi rend="smallcaps">Mines,</hi> where,
+                    under the different heads, ample information will be found on this, as well as
+                    on various other matters connected with the present subject.</p>
+                <p>II. One of the most important operations of practical mining is that of blasting,
+                    of which we shall now proceed to give some account.</p>
+                <p>The first part of the process consists in preparing or boring the hole for the
+                    reception of gunpowder. This is effected with the sharpened bar and the borer,
+                    represented in fig. 1, the length and breadth of both being variable. The shaded
+                    portion <hi rend="italic">a,</hi> which is the cutting part, is of tempered
+                    steel; and the upper part, which is held by the workman, consists of iron. In
+                    the western part of Cornwall, the borer is held in one hand and the hammer in.
+                    the other, the operation being performed by one person; but in the central and
+                    eastern parts, one person usually holds the borer, whilst another applies the
+                    hammer or <hi rend="italic">mallet.</hi> From the borer being kept constantly in
+                    motion, the hole is made of a circular form, its depth varying from eight inches
+                    to five feet, and its breadth from one to three inches. Water is poured into the
+                    hole if none issue from the rock, to facilitate the operation of the borer; and
+                    the abraded matter is withdrawn by the <hi rend="italic">scraper,</hi> fig. 2.
+                    It is afterwards further cleaned with a piece of wood, called a <hi
+                    rend="italic">swab-stick,</hi> one end of which is prepared for the purpose.
+                    When the hole is inclined, and intended to be deep, a long borer is used, which
+                    one man raises and lets fall, the operation being for the most part performed by
+                    the momentum acquired by the instrument in descending from the height to which
+                    it is raised. This is called “<hi rend="italic">jumping</hi> If the hole be dry
+                    and much inclined, the gunpowder is now poured into it, the quantity requisite
+                    being at first guessed; but after a few explosions, it is seen whether the
+                    proportion employed be a just one or not, that is, sufficient to fracture the
+                    rock without breaking it in pieces and scattering them to a distance. If the
+                    latter effect be produced, the quantity of powder is diminished; but if the rock
+                    be not fractured, it must be increased. As some of the gunpowder will adhere to
+                    the moist sides of the hole, this must be wiped down with the and of the
+                    swab-stick. If the <hi rend="italic">rush</hi> be used to convey a spark to the
+                    charge, a piece of clay is laid upon it, and through both the needle is inserted
+                    until it reaches <hi rend="italic">nearly</hi> to the bottom of the hole.</p>
+                <p>The <hi rend="italic">nail,</hi> fig. 3, is a metallic rod gradually tapering to
+                    a point, and at the other end it is formed into a ring. It was formerly made
+                    entirely of iron; but latterly its pointed extremity has been made of copper,
+                    because, during its insertion or removal, the iron-pointed nail Sometimes caused
+                    ignition, and thus led to fatal consequences. Next to the powder is put some dry
+                    substance, and then clay, upon which are put down and gently beaten with the <hi
+                    rend="italic">tamping</hi> or <hi rend="italic">ramming bar,</hi> fig. 4, pieces
+                    of some stony substance, which readily yields to the hammer without giving a
+                    spark, as roofing tile, soft slate, decomposing porphyry, friable granite, coal,
+                    or solid copper, which are all occasionally used. At first a little is put in
+                    and beaten firmly down; then a second small quantity, a third, a fourth, and so
+                    on until the hole be entirely filled. It is desirable that each layer should be
+                    very thin, as the confining power of the tamping is considered to be in
+                    proportion to the number of layers; but this must be understood within certain
+                    limits. The tamping bar is usually made of iron, the lower extremity being shod
+                    with copper or brass; Dr Paris found, however, that an alloy of eighty-six parts
+                    of copper and fourteen of tin proved the most durable. The next point is the
+                    removal of the nail, which is effected by striking it upwards, or by the use of
+                    a lever. The rush is then introduced into the hole left by the nail, the pith
+                    having been first removed and its place filled with fine gunpowder. When all
+                    this has been done, nothing remains but the application of the fire, which is
+                    communicated by the ignition of one end of a match, or a piece of coarse paper
+                    smeared with grease, the other end being placed in contact with the <pb
+                    break="no" facs="nls:193822836" xml:id="kp-eb0715-2836-0279"/> rush, and the
+                    slow combustion affording time for the escape of the workmen.</p>
+                <p>The ignition of the charge, however, is frequently effected by the train being
+                    contained in a rod of quills, or by the use of Bickford’s patent safety-rods.
+                    When either of these is employed, it is placed in the hole before the
+                    introduction of the charge; and in these cases the nail is not required. The
+                    operation of tamping is in every respect conducted as before. The rod of quills
+                    is merely a tube of common goose-quills, the smaller end of one being inserted
+                    in the larger extremity of another, until the tube be of the length required,
+                    that is, equal to the hole bored in the rock. The gunpowder with which the tubes
+                    are filled should be bruised to dust, and packed very closely in the tube. It
+                    might be thought that the compression to which such tubes are exposed during the
+                    process of tamping would prevent their combustion; but this is not the case, for
+                    so strong are they, when properly filled, that even the pressure of a smith’s
+                    vice would produce no such result. The patent safety-rod is a column of
+                    gunpowder enveloped in a series of hempen yarns twisted spirally round it, and
+                    perfectly flexible. It is about three eighths or one half of an inch in
+                    diameter, consumes slowly, and rarely becomes extinguished until it be entirely
+                    burnt. The expense of the quills and the safety-rods is nearly the same, that
+                    is, threepence per fathom in length.</p>
+                <p>The preceding remarks are intended to apply to an <hi rend="italic">inclined</hi>
+                    perforation. But when the aperture is nearly horizontal, which is frequently the
+                    case, the introduction of the charge is somewhat more difficult. Some miners
+                    make a cartridge or tube of paper, which they cement with grease, and which,
+                    being filled with fine gunpowder, is pushed with the swab-stick to the further
+                    extremity of the hole; others charge with the <hi rend="italic">fluke,</hi>
+                    which may be described as the half of a hollow cylinder divided in the line of
+                    its axis, and being attached to the end of an iron rod, fig. 5, resembles a
+                    carpenter’s auger, or a marrow-spoon. The tamping is in all cases alike, and the
+                    train may be laid in either of the ways already mentioned.</p>
+                <p>But when the hole has been moistened by the infiltration of water, the operation
+                    is much more difficult, and is accomplished either by claying the hole, or by
+                    introducing the charge in a pitched bag or tin-plate cartridge. Claying consists
+                    in filling as much of the further extremity of the hole as the charge is
+                    intended to occupy, with stiff clay, impervious to water, or at least very
+                    nearly so. Through this clay a cylindrical bar, usually made of iron, is pushed
+                    nearly to the extremity of the perforation, in order to make a space for the
+                    reception of the charge, which is at once introduced, and then the hole is
+                    tamped and the train laid in the ordinary manner. This operation requires to be
+                    performed with great rapidity, because the clay not being quite impervious to
+                    water, may become saturated, and the charge moistened, so as not to ignite when
+                    the train is fired. The pitched bag, above mentioned, is made of canvass, and so
+                    covered with pitch as to be impenetrable to water; the tin-plate cartridge is
+                    simply a tin case in a cylindrical form. When the bag or cartridge is used the
+                    charge is placed in it, the train for its ignition being laid through a
+                    tin-plate tube about one fourth of an inch in diameter. This receptacle is
+                    placed in the further extremity of the hole, sometimes imbedded in clay, and is
+                    tamped in the usual manner. The pitched bag is preferred to the cartridge,
+                    because the one fits the hole more exactly, whilst the regular figure of the
+                    other retains round it a little air, which, in yielding to the compressing
+                    force, impedes the full effect of the explosion.</p>
+                <p>An apparatus, invented by Captain Chenhalls, of St Just, in the western part of
+                    Cornwall, and denominated the <hi rend="italic">shifting cartridge,</hi> has
+                    been found useful in charging holes of small depth. Fig. 6 represents a section
+                    of this instrument. It consists of a copper cylinder <hi rend="italic">a
+                    b,∙</hi> two feet in length, and one inch in diameter, containing a moveable rod
+                    c, which is graduated in inches, and has affixed to its extremity a leaden plug
+                    <hi rend="italic">d,</hi> whilst the cap <hi rend="italic">g</hi> is made to
+                    take off, in order to allow, at any time, the removal of the rod, for cleaning
+                    the interior. The manner of using it has been thus described. Draw out the rod
+                    as many inches as you require it to deliver of gunpowder, then invert the
+                    instrument, fill it, and place a piece of moistened clay at the mouth of the
+                    cylinder; it is now to be inserted in the hole, when, by pressing down the
+                    sliding-rod, the whole charge is immediately delivered in a mass without any
+                    loss; but before the instrument is withdrawn, the rod should be several times
+                    rammed down smartly upon the gunpowder. In charging <hi rend="italic">back
+                    holes,</hi> that is, holes nearly horizontal, the clay should be stuck upon the
+                    end of the plug <hi rend="italic">d</hi> previously to the introduction of the
+                    powder into the cylinder. When quills are used for a fuze, it will be found
+                    advantageous to affix in the cylinder a smaller tube for their reception, as
+                    represented by <hi rend="italic">er.</hi> Much has been said as to the waste of
+                    gunpowder in mines in consequence of the ignorance or carelessness of the
+                    workmen; and there is probably some ground for censure in this respect. But, on
+                    the other hand, whilst it is difficult for any but a practical miner to say
+                    where a perforation can be advantageously made, so nothing but experiment can
+                    determine the quantity of gunpowder requisite for any given hole, and this must
+                    necessarily be left to the workmen.</p>
+                <p>It has been frequently asserted that sand is a good and efficient substitute for
+                    tamping, as commonly practised; and numerous experiments have been made to
+                    establish this point, but hitherto without any very satisfactory results. In
+                    many cases the sand has been blown out, whilst, in some instances, effective
+                    explosions have ensued. Further experiments are certainly required to set this
+                    important point at rest, by determining the circumstances upon which success or
+                    failure depend.</p>
+                <p>With respect to accidental or premature explosions, by far the larger portion of
+                    these either originate from the nail, or are produced in the course of the
+                    tamping process. Those which originate through the nail occur only when the rush
+                    is used, and although the number of accidents has been considerably diminished
+                    since it was pointed with copper, yet even this has not entirely prevented them.
+                    They are caused, first, by the nail being driven to the very bottom of the hole,
+                    and its there coming in contact with substances which by percussion generate a
+                    spark; secondly, the nail, during the tamping, is subject to concussion, which,
+                    in certain circumstances, will produce a similar effect; and, thirdly, the
+                    removal of the nail may occasion a like result, especially if, when introduced
+                    into the hole, it had been so forcibly driven to the bottom as to bend its
+                    point, for in this case the curved part will occasion considerable disturbance
+                    in the contents of the hole, and the danger will not be materially diminished by
+                    the circumstance of the nail being pointed with copper. But by putting a small
+                    piece of clay at the bottom of the hole, and by taking care not to force the
+                    nail against its lower extremity, the hazard arising from this cause may in a
+                    great measure be obviated. The dangers incident to the tamping process spring
+                    chiefly from the gunpowder adhering to the sides of the hole; so thaf, if a
+                    spark be struck out during the operation, it will communicate to these
+                    particles, and ignite the charge. Fire may be struck, first, by the contact of
+                    the tamping bar with such portions of the sides of the hole as are calculated to
+                    afford a spark from collision; secondly, by the action of this instrument upon
+                    portions of the tamping, when the bar is not shod with copper or brass; thirdly,
+                    by the friction of such substances in tamping, against similar bodies in the
+                    sides of the hole; and, fourthly, by the friction of various parts of the
+                    tamping<pb break="no" facs="nls:193822849" xml:id="kp-eb0715-2849-0280"/>
+                    against one another. The precautions to be used against the occurrence of
+                    accidents of this kind are, first, removing carefully the adhering particles of
+                    gunpowder from the sides of the hole; secondly, the use of a tamping bar shod
+                    with a substance which does not readily strike fire; and, thirdly, care in
+                    selecting substances for tamping which do not readily afford sparks by impact
+                    upon one another. Notwithstanding the use of quills and safety-rods, explosions
+                    of this class sometimes occur, their causes being apparently beyond the reach of
+                    such contrivances. But of the fatal acbidents which have occasionally happened,
+                    the greater part are attributable to the carelessness of the workmen, rather
+                    than to their ignorance. Many explosions have originated from want of caution in
+                    boring a charge which has not ignited owing to the train having somehow been
+                    extinguished. In such cases, the tamping is removed by the borer, and, from the
+                    indifference of habit, the workmen frequently take no more care than if they
+                    were forming, or “beating down,” a new perforation.<note anchored="true"
+                    place="bottom" type="authorial"><p>Mining Review, No. VI. p. 240, et
+                    seq.</p></note></p>
+                <p>III. Humboldt, speaking of the state of the mining art in Mexico strongly
+                    censures the method of blasting by powder, as therein employed. The holes for
+                    the reception of the cartridges are, he thinks, generally too deep, and the
+                    miners are not sufficiently careful in diminishing the mass of rock intended to
+                    yield to explosion. <hi rend="italic">A</hi> great waste of gunpowder is
+                    consequently occasioned. In the mine of Valenciana, powder to the amount of
+                    L.150,000 was consumed from 1794 to 1802; and the mines of New Spain annually
+                    require from 12,000 to 14,000 hundredweights. Humboldt thinks it probable that
+                    two thirds of this quantity is uselessly employed.</p>
+                <p>The timber-work is also, according to him, very carelessly performed, although it
+                    ought the more to engage the attention of the proprietors of mines, as wood is
+                    every year becoming scarcer on the table-la&lt;ιd of Mexico “The masonry
+                    employed in the shafts and levels,<note anchored="true" place="bottom"
+                    type="authorial"><p>Especially in the mines of Valenciana, Guanaxuato, and Real
+                    del Monte.</p></note> and especially the walling with lime, deserves great
+                    praise. The arches are formed with great care; and in this respect the mines of
+                    Guanaxuato may stand a comparison with whatever is most perfect at Freyberg and
+                    Schemnitz. The shafts, and still more the galleries or levels, have generally
+                    the defect of being dug of too great dimensions, and of occasioning, by that
+                    means, exorbitant expenses. We find levels at Valenciana,<note anchored="true"
+                    place="bottom" type="authorial"><p>Canon de la Soledad.</p></note> executed with
+                    the view of making trial on a poor vein, of a height of twenty-six or
+                    twenty-nine feet. It is an erroneous opinion, that this great height facilitates
+                    the renovation of the air; the ventilation depends on the equilibrium and
+                    difference of temperature between two neighbouring columns of air. They also
+                    believe, equally without foundation, that, in order to discover the nature of a
+                    powerful vein, very large drifts are requisite, as if, in mineral veins of from
+                    six to eight fathoms in width, it were not better to cut from time to time small
+                    cross drifts, for the purpose of discovering whether the mass of the vein begins
+                    to grow richer. The absurd custom of cutting every evel of such enormous
+                    dimensions prevents the proprietors from multiplying the means of trial, so
+                    indispensable for the preservation of a mine and the duration of the works. At
+                    Guanaxuato the breadth of the oblique shafts dug stairwise is from five to six
+                    fathoms; and the perpendicular shafts are generally three, four, or five fathoms
+                    in diameter. The enormous quantity of ores extracted from the mines, and the
+                    necessity of working in them the ropes attached to six or eight whims,
+                    necessarily occasion the shafts of Mexicoto be made of greater dimensions than
+                    those of Germany; but the attempt which has been made at Bolanos, to separate by
+                    beams the ropes of the whims, has sufficiently proved that the breadth of the
+                    shafts may be diminished without any danger of the ropes getting entangled in
+                    their oscillatory motion. It would in general be very useful to make use of
+                    kibbles instead of leathern bags suspended by ropes for the extraction of the
+                    ores.</p>
+                <p>“The greatest fault observable in the mines of Néw Spain, and which renders the
+                    working of them extremely expensive, is the want of communication between the
+                    different works. They resemble ill-constructed buildings, where, to pass from
+                    one adjoining room to another, we must go round the whole house. The mine of
+                    Valenciana is justly admired on account of its wealth, the magnificence of its
+                    walling, and the facility with which it is entered by spacious and commodious
+                    stairs; yet it exhibits only a union of small works irregularly conducted; they
+                    are as it were <hi rend="italic">cul de sacs,</hi> and without any lateral
+                    communication. I mention this mine, not because it is more faulty than the
+                    others in the distribution of its labours, but because we might naturally
+                    suppose it to be better organized. As subterranean geometry had been entirely
+                    neglected in Mexicotill the establishment of the School of Mines, there is no
+                    plan in existence of the works already executed. Two works in that labyrinth of
+                    cross levels and interior winzes may happen to be very near each other without
+                    its being possible to perceive it. Hence the impossibility of introducing, in
+                    the actual state of most of the mines of Mexico the wheeling by means of
+                    barrows, and an economical disposition of the ore plats.”</p>
+                <p>The same distinguished traveller has also animadverted on the defective machinery
+                    employed in working and draining the Mexican mines. “We have already spoken of
+                    the truly barbarous custom of drawing off the water from the deepest mines, not
+                    by means of pump apparatus, but by means of bags attached to ropes which roll on
+                    the cage of a whim. The same bags are used in drawing up the water and the ores;
+                    they rub against the walls of the shafts, and it is very expensive to keep them
+                    in repair. At the Real del Monte, for example, these bags only last seven or
+                    eight days; and they commonly cost five, and sometimes seven and eight shillings
+                    a piece. A bag full of water, suspended to the cage of a whim with eight horses
+                    <hi rend="italic">{malacate doble),</hi> weighs 1250 pounds; it is made of two
+                    hides sewed together. The bags used for the whims called <hi rend="italic"
+                    >simple,</hi> those with four horses <hi rend="italic">(malacates
+                    sencillos'),</hi> are only half the size, and are made of one hide. In general
+                    the construction of the whims is extremely imperfect; the bad custom also
+                    prevails of forcing the horses, by which they are made to go at far too great a
+                    speed. I found this speed at the shafts of San Ramon, at Real del Monte, to be
+                    no less than ten feet and a half per second; at Guanaxuato, in the mine of
+                    Valenciana, from thirteen to fourteen feet; and everwhere else I found it more
+                    than eight feet. Don Salvado Sein, professor of natural philosophy at Mexico has
+                    proved, in a very excellent paper on the rotatory motion of machines, that,
+                    notwithstanding the extreme lightness of the Mexican horses, they produce only
+                    the <hi rend="italic">maximum</hi> of effect on the whims when, exerting a force
+                    of 175 pounds, they walk at a pace of from five to six feet in the second.</p>
+                <p>“It is to be hoped that pumps, moved either by horseengines of a better
+                    construction, or by water-wheels, or by pressure-engines, will at last be
+                    introduced in the mines of New Spain. If wood, and coal, which has only yet been
+                    discovered in New Mexico should be found sufficiently abundant for employing the
+                    steam-engine, the use of it would be of great advantage in the inundated mines
+                    of Bolanos, as well as in those of Rayas and Mellado.</p>
+                <p>“It is in the draining the mines of water that we particularly<pb break="no"
+                    facs="nls:193822862" xml:id="kp-eb0715-2862-0281"/> feel the indispensable
+                    necessity of having plans drawn up by subterranean surveyors <hi rend="italic"
+                    >(géomètres).</hi> Instead of stopping the course of the water, and bringing it
+                    by the shortest road to the shaft where the machines are placed, they frequently
+                    direct it to the bottom of the mine, to be afterwards drawn off at a great
+                    expense. In the district of mines of Guanaxuato, nearly two hundred and fifty
+                    workmen perished in the space of a few minutes, on the I4th of June 1780,
+                    because, not having measured the distance between the works of San Ramon and the
+                    old works of Santo Christo de Burgos, they had imprudently approached this last
+                    mine while carrying on a drift in that direction. The water, of which the works
+                    of Santo Christo were full, flowed with impetuosity through this new gallery of
+                    San Ramon into the mine of Valenciana. Many of the workmen perished from the
+                    sudden compression of the air, which, in taking vent, threw to great distances
+                    pieces of timber and large masses of rock. This accident would hot have happened
+                    if, in regulating the operations, they could have consulted a plan of the
+                    mines.” <hi rend="smallcaps">(a.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

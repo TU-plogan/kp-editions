@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0713-4452-0233-05" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">LESLEY, John</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 13, page 233</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="5" ref="fasttopic:934209">French</term>
+                    <term n="5" ref="fasttopic:910709">English</term>
+                    <term n="5" ref="fasttopic:1153279">Towers</term>
+                    <term n="3" ref="fasttopic:1026129">Morays</term>
+                    <term n="2" ref="fasttopic:1109125">Scots</term>
+                    <term n="24" ref="fasttopic:1085637">Queens</term>
+                    <term n="14" ref="fasttopic:806713">Ambassadors</term>
+                    <term n="10" ref="fasttopic:1047359">Order</term>
+                    <term n="9" ref="fasttopic:795344">Accountants</term>
+                    <term n="9" ref="fasttopic:795379">Accounting</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="5" ref="lcsh1910:b4dz0399k">Towers</term>
+                    <term n="2" ref="lcsh1910:b4vm42z9s">Jesuits</term>
+                    <term n="1" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="1" ref="lcsh1910:b4fj29h67">Hebrews</term>
+                    <term n="1" ref="lcsh1910:b43775w28">Books</term>
+                    <term n="24" ref="lcsh1910:b41r6n577">Queens</term>
+                    <term n="14" ref="lcsh1910:b4cv4br3k">Ambassadors</term>
+                    <term n="9" ref="lcsh1910:b4k649s3x">Accountants</term>
+                    <term n="9" ref="lcsh1910:b4ff3kz95">Accounting</term>
+                    <term n="9" ref="lcsh1910:b4m90280p">Law</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="16" ref="fastgeo:1206715">Scotland</term>
+                    <term n="9" ref="fastgeo:1219920">England</term>
+                    <term n="3" ref="fastgeo:1754964">Rome</term>
+                    <term n="1" ref="fastgeo:1204303">Spain</term>
+                    <term n="1" ref="fastgeo:1204901">Austria</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193204452" type="entry">
+                <p><label type="entry">LESLEY, <hi rend="smallcaps">John</hi></label>, bishop of
+                    Ross, was born on the 29th of September 1527. In an account of his life for
+                    which he must himself have supplied the materials, he is said to have been born
+                    of honourable parents, and to have been a descendant of the ancient and noble
+                    family of Lesleys which then continued to flourish in Scotland. According to
+                    another account, which is less vague in its terms, but still disguises the
+                    truth, his father was Gavin, a great-grandson of Andrew Lesley of
+                    Balquhain,<note anchored="true" place="bottom" type="authorial"><p>Laurus
+                    Leslaeana explicata, § 31. Graecii, 1692, fol. “Gavanus, Alexandri
+                    quartogenitus, ducta in consortem thori N. N.</p></note> the representative<pb
+                    break="no" facs="nls:193204465" xml:id="kp-eb0713-4465-0234"/> of a well-known
+                    family in the county of Aberdeen. Knox has clearly stated that he was the son of
+                    a priest;<note anchored="true" place="bottom" type="authorial"><p>Knox’s
+                    Historie of the Reformatioun of Religioun, p. 262. edit. Edinb. 1732,
+                    fol.</p></note> and the illegitimacy of his birth is sufficiently ascertained
+                    from a dispensation, granted under the authority of a papal bull, and rendering
+                    him capable of receiving holy orders ∙,<note anchored="true" place="bottom"
+                    type="authorial"><p>- Keith’s Catalogue of the Scottish Bishops, p. 198.
+                    Russell’s edit. From the originals belonging to the family of Balquhain, this
+                    industrious writer has given the substance of twelve documents which reflect
+                    much light on the bishop’s personal history.</p></note> for without such a
+                    dispensation, a person of spurious birth was declared incapable by the canon
+                    law. In this document, bearing date the 9th of July 1538, he is described as a
+                    scholar of the diocese of Moray; and Keith conjectures, with great probability,
+                    that he was the son of Gavin Lesley, rector of Kingusie, and likewise, as he
+                    supposes, official of that diocese. The bishop’s father is described as an
+                    eminent lawyer; and a knowledge of the canon law was indispensable in a person
+                    who held this judicial situation.</p>
+                <p>Lesley prosecuted his studies in King’s College, Aberdeen, where he took the
+                    degree of A. M. Keith mentions a deed by the bishop of Aberdeen, promoting him,
+                    a “clerk of his diocese, to the character of an acolyte in his cathedral church,
+                    dated 15th June 1546.” This statement is scarcely intelligible: the character of
+                    an acolyte, which cannot well be described as promotion, is that of an
+                    individual who has been admitted to one of the lower orders in the Romish
+                    church; the seven orders being those of porter, lector, exorcist, acolyte,
+                    subdeacon, deacon, and priest. In the twentieth year of his age, he became a
+                    canon of the cathedral churches of Aberdeen and Elgin. It was apparently this
+                    improvement in his circumstances that enabled him to obtain the most liberal
+                    education which was then to be procured. Having spent some time in Paris, where
+                    he directed his attention to the study of divinity and languages, especially the
+                    Greek and Hebrew, he proceeded to the university of Poitiers, and there applied
+                    himself to the study of the civil and canon laws for the space of nearly four
+                    years. He afterwards resided about a year at Toulouse, where he took the degree
+                    of licentiate of the civil law; and having returned to Paris, and taken the
+                    degree of LL.D, he continued for nearly another year to read lectures on the
+                    canon law. With these proofs of his academical attainments, he returned to his
+                    native country in the month of April 1554, and successively obtained many
+                    different preferments, secular as well as ecclesiastical. He was appointed
+                    professor of the canon law in the university of Aberdeen;<note anchored="true"
+                    place="bottom" type="authorial"><p>Orem’s description of King’s College,
+                    Aberdeen, p. 156.</p></note> and on the 18th of April 1558, Bishop Gordon, with
+                    the dean and chapter, granted a commission, nominating him official of that
+                    diocese. The commission describes him as parson of Oyne and Morthlack,
+                    prebendary and canon of the cathedral church of Aberdeen; but a subsequent
+                    document, dated on the 2d of July 1559, relates to his induction and investiture
+                    in the parsonage, canonry, and prebend of Oyne, stall in the choir, and place in
+                    the chapter. “I did accept the office judicator of the dioces of Aberdene,” he
+                    remarks, “where in I travelled ten yeres, and how I did behave my selfe therein,
+                    I report my selfe to the testimonie of the country; for besids the ministratioun
+                    of justice in mine owne office, 1 assisted the sheriffe of the shire with my
+                    counsell for execution of justice according to the lawes, and imployed alsoe
+                    other whyles great travells in compoundinge and agreeinge of differences betwixt
+                    parties, proceedinge either of deadly feads, or other debates for lands or
+                    goods, which is the right office of a judge, as saith the jurisconsult.”<note
+                    anchored="true" place="bottom" type="authorial"><p>Lesley’s Negotiations, p.
+                    7∙</p></note></p>
+                <p>The protestant religion had now obtained a stable footing in Scotland; and the
+                    Book of Discipline was presented to a convention of estates held at Edinburgh in
+                    the month of January 1561. Several of the papists had been summoned to give an
+                    account of their faith; and among .these was the official of Aberdeen, together
+                    with Patrick Myrtom, treasurer, James Strahan, a canon of the cathedral, and
+                    Alexander Anderson, sub-pr <hi rend="subscript"> 1</hi> ⅞ncipal of King’s
+                    College. The disputants on the other side were Knox, Willock, and Goodman, whom
+                    we may easily suppose to have been an over-match for the theologians of
+                    Aberdeen. Of this disputation Lesley and Knox have each given an account, nor is
+                    it easy to reconcile their statements with each other. According to one of them,
+                    the four respondents made a very firm profession of the catholic faith; and of
+                    the sacrifice of the mass Anderson gave so able an exposition, that the heretics
+                    evinced no further inclination to dispute, either with him or any other
+                    catholic, concerning the high mysteries of the true religion. According to the
+                    other account, the sub-principal made a very lame defence of his opinions, and
+                    finally declined to continue the disputation, admitting “that he was better sein
+                    in philosophy then theology.” Lesley was then required to answer the former
+                    arguments against the mass; “and he with gravity began to answer, If our master
+                    have nothing to say to it, I have nothing; for I knaw nothing bot the canone
+                    law; and the grittest ressoun that ever I culd find thare is <hi rend="italic"
+                    >Nolumus Volumus”</hi> The historian of the reformation subjoins, “the nobility
+                    hearing that neyther the ane nor the uther wald answer directly, said, We have
+                    bene miserably deceaved heirtofor; for if the mess may not obtean remissioun of
+                    sines to the quick and the dead, quharefore war all the abbacies so richly dotit
+                    with our temporall lands ?”<note anchored="true" place="bottom" type="authorial"
+                    ><p>Knox’s Historie of the Reformatioun of Religioun, p. 262.</p></note> The
+                    other historian has stated that he and his associates were subjected to the
+                    punishment of being compelled to remain in Edinburgh, and listen to the sermons
+                    of the ministers.<note anchored="true" place="bottom" type="authorial"
+                    ><p>Leslaeus de Rebus gestis Scotorum, p. 574.”</p></note> From this statement,
+                    which is by no means incredible, there is a material departure in the biography
+                    to which we have already referred. “Upon this, the sectarian nobility were, by
+                    the instigation of the heretical ministers, so much incensed against Dr Lesley,
+                    and the doctors his associates, that they were taken into custody, and put in
+                    the prison of Edinburgh, the chief city of Scotland, where, after confinement
+                    for some time, they found sureties, who were bound in a very great penalty, that
+                    they should make their appearance, in order to their trial, whenever they should
+                    be required: upon which they were at length set at liberty, and returned to
+                    Aberdeen.” This biographical tract was obviously intended to exalt the subject
+                    of it to the character of a great confessor and sufferer for the catholic faith;
+                    and some of its statements are apparently to be received with a certain degree
+                    of caution, if not suspicion.</p>
+                <p>On the death of Francis the Second, the leaders of the protestant party sent the
+                    prior of St Andrews to France, with the view of preparing the mind of the young
+                    queen for a favourable consideration of their cause. In order to suscepit ex ea
+                    Joannem episcopum Rossensem.” There is evidently a studied ambiguity in the
+                    expression. Air Riddell mentions that the parson of Oyne was summoned as one of
+                    the nearest of kin to “Andrew Lesslie, son to the deceased William Lesslie of
+                    New-Lesslie, a pupil.” (Remarks upon Scotch Peerage Law, p. 205. Edinb. 1833,
+                    8vo.) <pb break="no" facs="nls:193204478" xml:id="kp-eb0713-4478-0235"
+                    />counteract this influence, Lesley was despatched on a similar mission by the
+                    popish earls of Huntley, Crawford, Athole, Sutherland, and Caithness, the
+                    archbishop of St Andrews, the bishops of Aberdeen, Moray, and Ross. He found
+                    Mary at Vitri in Champagne on the 15th of April 1561, and earnestly recommended
+                    to her care and protection the interests of the tottering church: he appears at
+                    the same time to have recommended himself very effectually to her good graces.
+                    She did not however adopt his desperate scheme of landing at Aberdeen, and
+                    endeavouring to raise an army for the purpose of restoring the catholic faith.
+                    He attended the queen on her return to Scotland, where she landed on the 21st of
+                    August. On the 14th of January 1564 he was admitted an ordinary judge of the
+                    court of session. If we may rely on the authority of the tract already quoted,
+                    he became president of that court, but this statement is not supported by the
+                    records: in the absence of the president, he may occasionally have filled his
+                    chair, and this is perhaps the only charitable construction which such an
+                    averment will easily admit. The queen likewise nominated him a member of the
+                    privy council, and bestowed upon him the abbacy ofLindores, which he was allowed
+                    to hold <hi rend="italic">incommendam.</hi> The bishopric of Ross becoming
+                    vacant by the death of Henry Sinclair on the 2d of January 1565, she secured to
+                    him this higher preferment, and the necessary bulls were procured from the
+                    pope.</p>
+                <p>In the year 1566 the queen issued, under the great seal, a commission to certain
+                    noblemen, prelates, and lawyers, granting to them, or any six of their number,
+                    full power and authority to revise and publish the laws of the realm. They were
+                    to commence with the books called <hi rend="italic">Regiam Majestatem</hi> and
+                    <hi rend="italic">(juoniam Attachiamenta,</hi> and were to descend according to
+                    the order of chronology; but the only apparent fruit of their labours was a
+                    publication of the acts of parliament, from the reign of James the First. These
+                    were printed under the superintendence of the learned civilian, Dr Henryson, one
+                    of the commissioners; and in his preface he has particularly commended “ane
+                    Reuerend Father in God, Johne Bischop of Ros, Lord of our Soueranis Secreit
+                    Counsall, and of hir College of Justice, for his suggestioun to our Sonerane of
+                    this notabili purpose, cirnistfull performing of the said commissioun, and cure
+                    in conuening of my Lordis Commissaris his colligis, and liberalitie in the
+                    furthsetting of this imprenting.”<note anchored="true" place="bottom"
+                    type="authorial"><p>The Actis and Constitutiounis of the Realme of Scotland.
+                    Edinb. 1566, fol.—In 1567 the bishops of Aberdeen and Ross acted as curators of
+                    the younger children of George fourth earl of Huntley, when they concurred in
+                    the proceedings for obtaining a reversal of their father s attainder. (Acts of
+                    the Parliaments of Scotland, vol. ii. p. 572.)</p></note></p>
+                <p>To the fortunes of the queen Lesley adhered with unshaken fidelity; and as her
+                    career was marked by many actions which set virtue and decency at defiance, his
+                    employment as a privy counsellor could not always be very suitable to his
+                    character as a churchman. He is supposed to have been the individual who
+                    suggested an expedient for granting to the earl of Bothwell an indirect pardon
+                    for the murder of the king;<note anchored="true" place="bottom" type="authorial"
+                    ><p>Buchanani Rerum Scoticarum Historia, lib. xviii. p. 356. edit.
+                    Ruddiman.</p></note> a crime to which there is the strongest moral evidence that
+                    the queen was an accessory, before as well as after the fact. On the 24th of
+                    April 1567 the carl seized her person, and conducted her as a prisoner to the
+                    castle of Dunbar. This act of apparent violence, which at first seemed to be so
+                    unnecessary, had evidently been devised with her entire approbation. 1he
+                    ultimate object of such an expedient did not long remain doubtful: in the course
+                    of a few days, she granted him a pardon for this treasonable act, and for all
+                    other crimes with which he could be charged. By a general clause, inserted in
+                    the common form, she pardoned the murder of her own husband, and yet avoided the
+                    scandal of mentioning it in direct terms. She soon afterwards created her
+                    paramour duke of Orkney; and having hastily procured a divorce from his wife,
+                    his infamous nuptials with the queen were celebrated on the 15th of May, about
+                    three months after he had assassinated her former husband. The measure of her
+                    guilt and folly was now full. She was committed to custody in the castle of
+                    Lochleven on the 15th of June, and was finally divested of the royal authority.
+                    On the 2d of May 1568 she escaped from her prison, and soon afterwards found
+                    herself at the head of a considerable army. The bishop of Ross had retired to
+                    his diocese, and, according to his own account, was there employing his time in
+                    contemplation and study, and in giving counsel to friends and others committed
+                    to his charge, when the queen sent him a message requiring his immediate
+                    attendance at Hamilton. In company with certain noblemen, whose names he does
+                    not mention, he accordingly hastened to obey this summons; but before his
+                    arrival her forces had been completely dispersed at the battle of Langside, and
+                    she had found it necessary to consult her safety by proceeding towards the
+                    borders of the two kingdoms. In an evil hour, she entered the English territory;
+                    for she speedily discovered that she had reposed her confidence in a cruel and
+                    unrelenting rival, whom neither the common ties of blood, nor the sympathy due
+                    from one sovereign princess to another who had fallen from, her high estate, had
+                    any tendency to move with feelings of generosity or even of compassion.</p>
+                <p>Tàĵ tyįíva; 'bιι&lt;pθο1Z Gvr∣ <hi rend="superscript"> r</hi> rωv, οσοιaw áAavsí,
+                    μονα^ί«.. .</p>
+                <p>Mary again required the services of the bishop, and in the month of September he
+                    waited upon her at Bolton castle. Lesley acted as one of her commissioners
+                    during the conferences which opened at York on the 4th of October, and in the
+                    course of the ensuing month were continued at Westminster. After many debates,
+                    which were very ably maintained on both sides, this commission terminated
+                    without any immediate result. In February 1569 he proceeded to Tutbury castle,
+                    where the queen was detained under the custody of the earl of Shrewsbury; but on
+                    some suspicion of having concerted a plan to effect her escape, both he and Lord
+                    Boyd were soon afterwards retained in ward at Burton upon Trent, and were not
+                    released till after an interval of nearly three months. The bishop was now
+                    employed in the capacity of an ambassador to the queen of England, and he
+                    acquitted himself with great zeal and ability, but not with corresponding
+                    success. He was instructed “to sue earnestly that the queen his mistres might be
+                    put to libertie, and restored to her crowne and realme; and to that effect to
+                    make such reasonable offers to the queen of .England, as might fully satisfie
+                    her for anic speciali debate or contraversie that had hapned betwixt their
+                    majesties, touchinge the title of the crowne of England, and to assure that shee
+                    would alsoe shew her clemencie toward her subiects <hi rend="subscript"> ιi</hi>
+                    in Scotland whoe had offended her.” His instructions embraced other particulars;
+                    and he was specially enjoined to acquaint the French and Spanish ambassadors
+                    with his proceedings, and to ask their advice in all matters connected with his
+                    mission. In the mean time, his pecuniary resources were somewhat scanty and
+                    precarious. A messenger brought me advertisement, he informs us, that the earl
+                    of Moray “had taken my house of Rosse from my servants, and medled with my whole
+                    <pb break="no" facs="nls:193204491" xml:id="kp-eb0713-4491-0236"/>benefices, and
+                    all thār I had in Scotland, and had sayd to my freinds that he would cause me to
+                    leave my ambassade for povertie; which he intended should take effect, for he
+                    putt Androwe Monrowe his servaunt in my house at Rosse, whoe had spoiled it
+                    before, and slaine some of my servaunts in it, since my cominge into England,
+                    albeit it was recovered shortely by my friends in my absence from him at that
+                    time: but nowe he hath withholden the same, and taken up my whole fruicts
+                    continually since that time. And farther the erle would not suffer anic of my
+                    friends or merchants to make me anic furnyshinge; and he did well forsee that
+                    the queen my mistres might not support her owne necessitie, nor yet my chargs,
+                    at that time a great strayte; for he toke up her whole rents in Scotland, and
+                    the prince of Condies armie was licinge then at Poicters and Toures, where the
+                    moste parte of her dowrie in Fraunce consists, and by that meanes shee could
+                    gett none of it, soe that truely wee were driven to a great strayte.” In the
+                    midst of these perplexities, he applied to the French ambassador, who was unable
+                    to afford him any relief. Mary then wrote to the duke of Alva; and, on his
+                    responsibility, the Spanish ambassador furnished him with a thousand crowns, one
+                    portion of which he remitted to the queen, another to the garrison of Dunbarton
+                    castle, and the residue he retained for the expenses of the embassy; nor did he
+                    obtain any further supply during his residence at the court of England.</p>
+                <p>The scheme of a marriage between Mary and the duke of Norfolk involved many of
+                    their adherents in danger and difficulties. The duke was himself committed to
+                    the Tower, and several other men of rank were detained in custody. Lesley was
+                    repeatedly examined before the English queen and council, and was confronted
+                    with the earl of Leicester, who had likewise been implicated in the same
+                    transaction. The earls of Northumberland and Westmoreland had recourse to arms,
+                    but were not long able to keep the field: a force having been sent against them,
+                    they suddenly retired into Scotland, in the month of December 1569. The former
+                    of these noblemen having entered Liddaldale, was seized by a band of
+                    freebooters, and delivered into the hands of the earl of Moray, who detained him
+                    as a prisoner in Lochleven castle. A short time before his assassination, the
+                    regent intimated to the ministers of Elizabeth that the earl of Northumberland,
+                    and other Englishmen then in Scotland, had mentioned the bishop of Ross as
+                    having been cognizant of their designs, and having encouraged them by the
+                    promise of obtaining money from foreign princes. In consequence of this
+                    information, he was placed under arrest, and was detained in custody for six
+                    weeks before he was subjected to any examination. In March 1570 he was brought
+                    before the council at Hampton Court, and confidently denied the charge; but what
+                    is directly denied in the account of his Negotiations, is virtually admitted in
+                    the narrative of his life. He did not recover his liberty till after a further
+                    detention of two months, and he was speedily involved in fresh troubles.
+                    Ridolfi, a papal emissary, was employed in conducting certain negociations
+                    between the Scotish queen, the duke of Norfolk, and the duke of Alva. At
+                    Brussels he had entrusted Charles Baily, a Flemish servant of the queen’s, with
+                    a packet of letters addressed to Mary herself, to Norfolk, Lesley, the Spanish
+                    ambassador, and Lord Lumley. Instead of obeying the bishop’s injunctions, by
+                    leaving the packet with the captain of Calais, this messenger retained it in his
+                    own possession; and having been searched at Dover, all his papers and books were
+                    seized, and he was himself committed to the Marshelsea. Among the books were
+                    some copies of the bishop’s defence of Mary’s honour, and her right of
+                    succession to the crown of England. By means of Lord Cobham, warden of the
+                    Cinque Ports,Ιιe had sufficient influence and dexterity to obtain possession of
+                    the most material letters, and having “others made to their quantitie and
+                    similitude,” these were transmitted to the council. Of this substitution he
+                    contrived to make the prisoner duly aware, in order to allay his fears, and to
+                    prevent him from making any dangerous disclosures; for his alarm had been so
+                    great that he plainly declared he was the bearer of letters which would cause
+                    himself and many others to be hanged. Being now recovered from his agitation, he
+                    refused to divulge any material fact on his first examination; but on being sent
+                    to the Tower, and placed upon the rack, he avoided the torture by a full
+                    confession of his transactions with Ridolfi, and by a statement of the letters
+                    having been conveyed to the bishop of Ross. Of this confession the bishop
+                    obtained secret intelligence, and he lost no time in preparing himself against
+                    its consequences. Only one individual, John Cuthbert, his chief secretary, was
+                    acquainted with his ciphers and secret writings: he was immediately sent to a
+                    place of safety, and after being concealed four months in London, was secretly
+                    conveyed to France. The ambassador took care that no dangerous papers should be
+                    found in the search which he now anticipated. In the mean time, his labours,
+                    anxieties, and disappointments had severely affected his health, though for the
+                    last thirty years he had not been visited with any sickness. For nearly three
+                    months he was afflicted with a fever or ague, and was attended by two of the
+                    best physicians in London. On the 13th of May 1571, while his malady was still
+                    unabated, four members of the council, the earl of Sussex, Lord Burleigh, Sir
+                    Walter Mildmay, and Sir Ralph Sadler, came to his residence, and began to
+                    interrogate him respecting the facts disclosed by the intercepted messenger. He
+                    averred that he was accountable to his royal mistress, and would not admit any
+                    other responsibility. They did not fail to enquire for Cuthbert, but found that
+                    he could not be traced. They then removed all his servants, except two who were
+                    left to attend him during his illness; and two gentlemen of good credit, named
+                    Shipworth and Kingsmill, were appointed to remain with their own servants in
+                    charge of the ambassador and his house. His papers were carefully examined, and
+                    his study was locked and sealed. On the following day, afflicted as he was, he
+                    was conveyed in a chariot of the queen’s to Ely House in Holburn, and was there
+                    committed to the keeping of the two gentlemen already mentioned, and of the
+                    bishop of Ely’s own retinue. When his health was somewhat restored, he was on
+                    five different occasions examined before the privy council. The key of his study
+                    was at length restored to him; and on the 17th of August he was commanded to
+                    accompany the bishop to the country, being permitted to retain five of his own
+                    servants, who were to attend their master wherever the English prelate should
+                    travel or reside.</p>
+                <p>The duke of Norfolk, after having been set at liberty, was a second time
+                    committed to the Tower; and the investigation of his alleged acts of treason led
+                    to further discoveries respecting the bishop of Ross’s participation in his
+                    designs. An order was despatched to the Isle of Ely, directing Bishop Cox to
+                    send his prisoner to London. There he accordingly arrived on the 19th of
+                    October, and was first detained in the house of the lord mayor. Several members
+                    of the council, the earl of Bedford, the lord admiral, Lord Burleigh, Sir
+                    Francis Knowles, and Sir Thomas Smith, accompanied by the attorney and solicitor
+                    general, came to interrogate him on the twenty-fourth of that month, and treated
+                    him with the utmost harshness, threatening him with the rack and the gallows. He
+                    pleaded the privileges of an ambassador, and, producing the queen of England’s
+                    safeconduct, appealed to his royal mistress as the only competent judge of his
+                    conduct dur <pb break="no" facs="nls:193204504" xml:id="kp-eb0713-4504-0237"
+                    />ing his embassy. He was nevertheless sent to the Tower, where he appears to
+                    have been treated with great and unnecessary rigour. “At my entry into the
+                    Towre,” he states, <hi rend="italic">“</hi><hi rend="italic">I</hi> was received
+                    by the leivetenant, and placed in a prison called the bloudie towre, a very
+                    evill ayred and infected house (where noe man of honest callinge had bin kepid
+                    manic yeres before) with close windowes and dores with manie locks and bolts,
+                    which was torment sufficient enough for any livinge man that had bin all his
+                    daies at libertie, with a cockshott, as they call it, sett up without, right
+                    against my windowe, to keepe all light and sight from me. And at my first entres
+                    I was searched in all parts, and such paper and inke, as was in my companie,
+                    taken from me, which was another greife. And in this manner I was straytly and
+                    closely kept, and noe man had recourse unto me, butonely the leivetenant
+                    himselfe, dur-inge the whole time I was a prisoner.” Of his subsequent
+                    treatment, of his different examinations, and of the various attempts to draw
+                    from him information which might either criminate himself or others, he has
+                    given a circumstantial and interesting detail in his Negotiations.</p>
+                <p>Dr Wilson, master of the requests, was sent to him for the purpose of inducing
+                    him to become a witness against the duke of Norfolk, and to deliver certain
+                    letters which he had himself received from Ridolfi and others, and which were to
+                    be produced in evidence at the trial; but the bishop again relied upon his
+                    character as an ambassador, and, according to his own statement, refused either
+                    to appear as a witness, or in any other way to furnish information which might
+                    tend to the prejudice of any individual. This unfortunate nobleman was convicted
+                    of high treason on the 16th of January, and was brought to the scaffold on the
+                    2d of June, 1572. The rules of evidence were at that period little understood,
+                    and less regarded, nor was it necessary to produce the witnesses in court,
+                    provided there was any other method of rendering their depositions available:
+                    previous answers to interrogatories, the declarations or admissions of the
+                    prisoner or other individuals, were all received as the most legitimate
+                    evidence; and in fact the trial of the duke of Norfolk before his peers, was
+                    entirely conducted without the aid of parole testimony. The bishop of Ross,
+                    whose name was perpetually mentioned in the course of the proceedings, may be
+                    considered as the principal witness against him; for of all the most material
+                    charges the proof seems in a great measure to have rested on what are described
+                    as the bishop’s confessions, that is, the answers emitted during his repeated
+                    examinations after he had himself been taken into custody.<note anchored="true"
+                    place="bottom" type="authorial"><p>Brown’s Tryal of Thomas Duke of Norfolk by
+                    his Peers. Lond. 1709, 8vo.</p></note> On perceiving that all their designs were
+                    discovered, Lesley had become more communicative, and had thus contributed to
+                    the ruin of a man whom he had so much contributed to entangle in dangerous
+                    schemes of ambition.</p>
+                <p>While he was beset with such perils in England, the regent sent Nicholas
+                    Elphinstone with a demand that he should be conveyed to Scotland; a demand which
+                    he considered as a sufficient indication of the treatment that awaited him in
+                    his native country. But the duke of Montmorency having arrived from France on a
+                    special mission, brought instructions from the king to intercede for bis
+                    release; and this application was so far successful as to procure his removal to
+                    Farnham castle, the scat of the bishop of Winchester. The lieutenant of the
+                    Tower charged for his maintenance the sum of two hundred pounds, which was
+                    advanced by the French ambassador, and repaid by Mary: he likewise retained as a
+                    lawful perquisite the whole of the furniture and silver plate which the prisoner
+                    had brought for his own use; and finally, says Lesley, “the gentleman-porter of
+                    the Tower retained my satin gown as due to him, because it was my uppermost
+                    cloth when I entred.” Being only permitted to take one attendant, he selected
+                    Thomas Lesley, a secretary who had resided with him during his captivity, and
+                    had himself been subjected to a short imprisonment. In the castle of this
+                    prelate, Dr Horne, he has stated, “1 remained the space of a year and three
+                    moneths, and all that time was very straitly keept, and two gentlemen did
+                    continually wait upon me night and day, and had no liberty to speake to any
+                    other his servants but in their presence, nor yet with any other but in my Lord
+                    of Winchesters own presence; yet in all other things I was very honourably and
+                    friendly used by him.”</p>
+                <p>During his confinement in the Tower, he had sought for consolation in study and
+                    meditation. There he had composed his <hi rend="italic">Pioe</hi><hi
+                    rend="italic">Consolationes</hi><hi rend="italic">;</hi> and he was now
+                    permitted to transmit them to the queen, who needed consolation still more than
+                    her ambassador. From this pious treatise she derived so much gratification, that
+                    she devoted some of her prison hours to the task of transfusing a portion of it
+                    into French verse. He was induced to prepare a similar work, <hi rend="italic"
+                    >Animi tranquilli Munimentum,</hi> which he sent to her on the 1st of October
+                    1573, and had again the satisfaction of finding that his labours were duly
+                    appreciated. In the mean time, he was not free from the apprehension of personal
+                    danger; the earl of Morton having twice sent a diplomatic agent, Captain
+                    Cockburn, for the purpose of renewing the demand for the delivery of his person.
+                    Having some reliance upon his own eloquence, he now addressed to Elizabeth a
+                    Latin oration for the recovery <hi rend="italic">of</hi> his liberty; and,
+                    whatever might be the effect of his classical pleading, he was soon afterwards
+                    released from his tedious confinement. The bishop of Winchester, on receiving
+                    the necessary order, conducted him to London on the 11th of November. On the
+                    sixteenth, he was brought before the council, at the house of the lord
+                    treasurer, and was informed that he would be permitted to proceed either to
+                    Scotland or France. That Lesley had been deeply implicated in transactions which
+                    would justly have exposed a subject to punishment, there seems little or no
+                    reason to dispute: the state-papers, as well as the histories of that period,
+                    exhibit him in the light of a subtle, restless, and dangerous plotter, who
+                    resorted to a great variety of expedients for promoting the interest of the
+                    unfortunate queen. The English statesmen seem to have been much inclined to
+                    treat him as they ultimately treated Mary herself; and in 1571 they had
+                    submitted his case to the opinion of five learned civilians, Lewis, Dale, Drury,
+                    Aubrey, and Jones.<note anchored="true" place="bottom" type="authorial"
+                    ><p>Camdeni Annales, vol. ii. p. 237. edit· Hearnii.</p></note> In answer to one
+                    of the questions propounded, they declared, that, according to the law of
+                    nations, as well as the civil law, an ambassador who excites rebellion against
+                    the sovereign to whom he is sent, forfeits all his privileges, and maybe
+                    subjected to punishment. But among the more civilized nations it has very
+                    generally been regarded as the safest maxim, rather to spare a delinquent than
+                    not to spare an ambassador;<note anchored="true" place="bottom" type="authorial"
+                    ><p>‘¶Levius eorum peccatum fore,” says Cicero, “si homini scelerato
+                    pepercissent, quam si legato non pepercissent.”</p></note> and although he was
+                    thus subjected to a long and arbitrary imprisonment, the ministers of Elizabeth
+                    had never ventured to bring him to a formal trial.<note anchored="true"
+                    place="bottom" type="authorial"><p>Grotius de Jure Belli ac Pacis, lib. ii. cap.
+                    xviii. § iv. 5. Bynkershoek de Foro Legatorum, cap. xviii. p. 533. Wicquefort,
+                    l’Ainbassadeur et ses Fonctions, part. i. p. 559. All these writers refer to the
+                    case of Lesley, but Grotius in a more cursory manner, in one of his
+                    notes.</p></note></p>
+                <pb break="no" facs="nls:193204517" xml:id="kp-eb0713-4517-0238"/>
+                <p>In the month of January 1574 he landed in France, and there he remained till the
+                    following year, when Mary thought it expedient to send him on a mission to Rome.
+                    He experienced a very gracious reception from Gregory the Thirteenth, who in a
+                    great measure defrayed his expenses during the three years of his residence in
+                    that holy city. Besides the release of the queen from captivity, her
+                    ambassador’s instructions related to various other matters, connected with her
+                    joint interest and that of the popish faith. The great object to be attained was
+                    her restoration to the throne; and with the view of removing some of the
+                    obstacles, she was willing to admit her son to a participation of the royal
+                    dignity; but in order to render him worthy of being thus associated, some scheme
+                    was to be devised for conveying him to a catholic country, and uniting him in
+                    marriage either with a daughter of the emperor of Germany or the king of
+                    Spain.</p>
+                <p>Lesley was more usefully employed in preparing for the press his general history
+                    of Scotland, which was published at Rome in the year 1578. It is dedicated to
+                    the pope, and the epistle dedicatory is followed by an address to Cardinal
+                    Cajetano, described as protector of the Scotish nation. Among the commendatory
+                    verses inserted in the volume, we find the contributions of Muretus, Ninian
+                    Winzet, and Alexander Seton, afterwards earl of Dunfermline, and chancellor of
+                    Scotland.<note anchored="true" place="bottom" type="authorial"><p>An epigram in
+                    commendation of Lesley occurs among the poems of Joannes Gesseus, in the
+                    Delitiae Poetarum Gallorum, torn· i. p. 934.</p></note> These elegant studies of
+                    the author were speedily interrupted by a new mission. Hopes were now
+                    entertained that the ancient faith might be restored in Scotland by the power
+                    and influence of the earl of Athole; and with the view of watching any
+                    favourable change of affairs, the pope directed the bishop of Ross to proceed
+                    towards the coast of France adjacent to Britain. His holiness having appointed
+                    him to supply the place of a nuncio who had recently died at the imperial court,
+                    Lesley travelled through Germany, and remained for some time at Prague, where
+                    Maximilian was then residing. His instructions from Mary partly related to the
+                    Scotish monasteries founded in Germany; some of which having been seized by
+                    heretics and other evil disposed persons, he exerted his influence to procure
+                    their restoration to the Scotish monks. Monastic institutions have often been
+                    the strongholds of political, as well as moral misrule; nor is it difficult to
+                    discern the spirit which dictated this ambassador’s instructions. He visited the
+                    duke of Bavaria, and other catholic princes of the empire, and was every where
+                    well received till he arrived at Falsburg, a town near Strasburg, where he was
+                    seized by some officers with a guard of four hundred men, under the command of a
+                    protestant nobleman, George Cassimir of Littelsteyn. For the space of nearly two
+                    months, he was detained in the castle of Falsburg; but they at length discovered
+                    their mistake in supposing him to be the archbishop of Rossana, a papal legate;
+                    and on paying a considerable sum of money, he was permitted to prosecute his
+                    journey. Passing through Lorraine, he arrived in France, and had there the
+                    mortification to receive intelligence of the earl of Athole’s sudden death,
+                    which took place on the 24th of April 1579. It was some consolation that the
+                    Cardinal de Bourbon, archbishop of Rouen, soon afterwards appointed him
+                    suffragan and vicar general of that diocese. In this station he continued for
+                    the space of fourteen years. The kingdom was then devastated by civil war, and
+                    he naturally adhered to the party of the leaguers, who, with the view of
+                    excluding Henry of Navarre, proclaimed the old cardinal king in the year 1589.
+                    While visiting this diocese in the course of the following year, Lesley was
+                    intercepted and cast into prison; and in order to pay a ransom of nearly three
+                    thousand pistoles, he was under the necessity of selling his furniture and other
+                    goods. The city of Rouen was invested in 1591, and during the siege he is said
+                    to have exerted himself with great perseverance and resolution in encouraging
+                    the governor, officers, and citizens. As a reward of his services, the duke of
+                    Mayenne recommended him to Clement the Eighth as well qualified to fill the
+                    vacant bishopric of Constance in Normandy. The pope issued the necessary bulls,
+                    accompanied with an unavailing licence to retain the see of Ross till he should
+                    be put in possession of his new diocese; and he was graciously pleased to remit
+                    the annats, or first fruits, and other payments which usually attend a bishop’s
+                    promotion. As he could not safely present himself at his episcopal seat, the
+                    ceremony of his admission was in the year 1594 performed in the metropolitan
+                    church of Rouen.</p>
+                <p>But from this preferment he appears to have derived no advantage; and the unhappy
+                    situation of public affairs in France induced him to seek another place of
+                    refuge. Directing his course towards Flanders, he reached Chateau d’Aussy in the
+                    province of Artois, in the month of March, and afterwards proceeded to Brussels,
+                    where he experienced a friendly reception from the archduke Ernest, governor of
+                    the Netherlands. Of the history of Scotland, he had at an earlier period
+                    transmitted a copy to his catholic majesty, who testified its gracious reception
+                    by a letter, written in Latin, and bearing the royal signature. On this occasion
+                    he had promised to be mindful of the bishop’s private affairs. On the day before
+                    her execution, Mary had addressed to Philip a letter in which she recommended
+                    her son to his special protection; and she likewise requested him to bear in
+                    remembrance the faithful services which had been rendered to her by the bishop
+                    of Ross. He directed the prinće of Parma, then governor of the Netherlands, to
+                    bestow upon him the first bishopric or other prelacy that should become vacant
+                    in these provinces, and in the mean time to provide for him a suitable
+                    maintenance. The prince had accordingly assigned to him a pension of fifty
+                    crowns a month, to be computed from the first of June 1587; and this pension
+                    still continued to be paid, though not with sufficient regularity to prevent him
+                    from being exposed to occasional difficulties. The archbishopric of Mechlin
+                    having become vacant, the archduke and the council of state recommended him to
+                    Philip for this high preferment; but the design seems to have been frustrated,
+                    partly by the unexpected demise of Ernest, who, almost in the article of death,
+                    signified to the council his wish that Lesley’s suit should not be neglected. He
+                    was encouraged by the nobility and counsellors to await the arrival of the new
+                    governor, Cardinal Albert, another archduke of Austria, brother to the deceased;
+                    and in order to smooth the path of preferment, he prepared a congratulation,
+                    which was not however published till after the death of the author. Part of the
+                    summer of 1595 he spent at Spa for the benefit of his declining health, and, as
+                    we are informed, “not without great inconvenience, and even the danger of his
+                    life, by the incursions of the hereticks and the rebels of Holland; who crowding
+                    in those parts, robbed him of all his goods, and endeavoured to seize his
+                    person, that they might carry it off.” But all his personal dangers, as well as
+                    his schemes of ambition, were terminated at Brussels on the 31st of May 1596,
+                    when he died in the sixty-ninth year of his age.<note anchored="true"
+                    place="bottom" type="authorial"><p>Dodd has recorded his pious benefactions to
+                    the church. “He laid the foundation of three colleges for the education of cler
+                    <pb break="no" n="239"/>gymen, to be sent upon the mission, after the example of
+                    Dr Allen, as I find by letters between them upon that subject. Having compleated
+                    the establishment of a college for his countrymen in Paris, he gave a beginning
+                    to another at Rome, with a subsistence for about ten students; where the Jesuits
+                    stept in to be managers. This zealous bishop died in the year 1596, leaving
+                    behind him a sum of money towards the foundation of a third college, also for
+                    the clergy. The design could not be brought to bear till 16∏9, when a small
+                    community was set up at Antwerp, whereof the Jesuits were made superiors. But
+                    before matters could be entirely compleated, it was removed to Doway <hi
+                    rend="italic">an.</hi> 1612, and governed by Walloon Jesuits, till one Curie
+                    (son to Mr Curie, formerly secretary to Mary queen of Scots) becoming a Jesuit,
+                    and bringing with him an addition of 5000 florins to the original stock, he was
+                    made rector of the college about 1620. Since that time the superior has been a
+                    Scotch Jesuit. Very few clergymen were educated there afterwards, and of latter
+                    years none at all; the old fund, as may be supposed, being swallowed up by the
+                    latter addition.” (Church History of England, from the year 1500 to the year
+                    1688, vol. ii. p. 42. Brussels, 1737-42, 3 vols. fol.)</p></note></p>
+                <pb break="no" facs="nls:193204530" xml:id="kp-eb0713-4530-0239"/>
+                <p>Bishop Lesley was evidently a man of very superior talents for literature as well
+                    as business. His studies and pursuits had been those of a lawyer and statesman,
+                    rather than a theologian; and his intellect had been much exercised and whetted
+                    by a long course of diplomatic services, of a peculiarly delicate and dangerous
+                    nature. With the accomplishments of an elegant scholar, he united the dexterity
+                    of a man of the world. He is the author of various works, and several of these
+                    must still be considered as valuable. FIis defence of Queen Mary’s honour is
+                    written with no small acuteness and address: the task which he had undertaken
+                    was sufficiently formidable; if the queen was not guilty of adultery and murder,
+                    her conduct had at least exhibited the strongest indications of guilt; but this
+                    zealous and able champion shrinks from no difficulties, and is undismayed by the
+                    most prominent obstacles. His negociations contain some characteristic details,
+                    and furnish some curious materials for history. But the most conspicuous of his
+                    works is his Latin history of Scotland, which is written with a very
+                    considerable degree of elegance, and, in the more recent portion of it, supplies
+                    much important information. The work is divided into ten books; of which the
+                    first seven, ending with the reign of James the First, comprehend little more
+                    than an abridgement of Boyce. As he descends to his own times, he becomes much
+                    more copious and interesting. With the transactions of Mary’s reign, which he
+                    has not however prosecuted beyond the year 1562, he had peculiar opportunities
+                    of becoming familiarly acquainted; and it is useful, as well as interesting, to
+                    compare the statements and reflections of Lesley and Buchanan, the most
+                    distinguished adherents of the popish and protestant parties.</p>
+                <p>Of the works of Lesley we subjoin a catalogue, accompanied with a few notices,
+                    chiefly bibliographical.</p>
+                <p>1. A Defence of the Honour of the right highe, mightye, and noble Princesse
+                    Marie, Queene of Scotlande, and Dowager of France; with a Declaration aswell of
+                    her Right, Title, and Intereste to the Succssioun of the Crowne of Englande, as
+                    that the Regimente of Women ys conformable to the Lawe of God and Nature.
+                    Imprinted at London in Flete Strete at the signe of Iustice Royall against the
+                    Blacke Bell by Eusebius Dicaeophihis, anno Dom. 1569, 8vo. A Treatise concerning
+                    the Defence of the Honovr, &amp;c. Made by Morgan Philippes, Bachelar
+                    ofDi-uinitie, an. 1570. Leodii, apud Gualterum Morberium, 1571,8vo. Here the
+                    tract relating to the succession bears the following title: “A Treatise tovching
+                    the Right, Title, and Interest of the mightic and noble Princesse Marie, Queene
+                    of Scotland, to the Succession of the Croune of England. Made by Morgan
+                    Philippes, Bachelar of Diuini-tie, assisted with the aduise of Antonie Broune,
+                    Knight, one of the Iustices of the Common Place. An. 1567.” This treatise he
+                    afterwards translated into Latin, as well as French, and likewise published the
+                    original in a separate form, “De Titulo et Jure serenissimae Principis Mariae
+                    Scotorum Reginae, quo Regni Angliae Successionem sibi juste vendicat, Libellus,”
+                    &amp;c. Rhemis, 1580, 4to∙ <hi rend="italic">“</hi><hi rend="italic">A</hi>
+                    Treatise towelling the Right, Title, and Interest,” &amp;c. <hi rend="italic"
+                    >An.</hi></p>
+                <p>1584, 8vo. “Du Droict et Tiltre de la serenissime Princesse, Marie Royne
+                    d’Escosse, et de tres illustre Prince Iacqnes VI. Roy d’Escosse son fils, à la
+                    Succession du Royaume d’Angleterre: avec la Genealogie des Roys d’Angleterre
+                    ayans regne depuis cinq cens ans. Premièrement composé en Latin et Anglois, par
+                    R. P. en Dieu Μ. Iean de Lesselie, Euesque de Rosse, Escossois, lors qu’il
+                    estoit Ambassadeur en Angleterre pour sa Majesté, et nouuelle-ment mis en
+                    François par le mesme Autheur.” Rouen, 1587, 8vo. The same work was also
+                    translated into Spanish, under the title of “Declaracion del Titulo y Derecho
+                    que la serenissima Princesa Doña Maria Reina de Escosia tiene a la Sucesion de
+                    Inglaterra·”<note anchored="true" place="bottom" type="authorial"><p>Antonii
+                    Bibliotheca Hispana, tom. ii. p. 354.</p></note> The defence of the queen’s
+                    honour, from the edition of 1571, is reprinted in Anderson’s Collections, vol.
+                    i∙ and the Latin version of the tract on the right of succession in those of
+                    Jebb, “De Vita et Rebus gestis Mariae Scotorum Reginae Autores sedecim,” tom. i.
+                    Lond∙ 1725, 2 tom. fol. Of his tract on female government he also published a
+                    Latin translation. “De illustrium Foeminarum in Repub. administranda, ac
+                    ferendis Legibus, Authoritate, Libellus,” &amp;c. Rhemis, 1580, 4to. This tract
+                    was occasioned by Knox’s “First Blast of the Trumpet against the monstrvovs
+                    Regiment of Women,” published in 1558. His vindication of the queen’s right of
+                    succession was written in answer to a book published in 1560 by John Hales,
+                    clerk of the hanaper. Lesley writes in the character of an Englishman, and
+                    therefore borrows the name of Morgan Philips, who was a popish priest of Douay∙
+                    In order to maintain his assumed character with more propriety, he submitted the
+                    manuscript to his friend and physician Dr Good, “that he might turn into English
+                    any Scottish words in it.”<note anchored="true" place="bottom" type="authorial"
+                    ><p>Anderson’s pref, to Lesley’s Defence, p. xi.</p></note></p>
+                <p>2. Joannis Leslaei Scoti, Episcopi Rossen, pro Libertate impetranda, Oratio, ad
+                    serenissimam Elizabethan! Angliae Reginam. Parisiis, 1574, 8vo. This oration is
+                    reprinted in Nichols’s “Progresses of Queen Elizabeth,” vol. iii.</p>
+                <p>3. Joannis Leslaei Scoti, Episcopi Rossen, libri duo: quorum uno, Piae afflicti
+                    Animi Consolationes, divinaque Remedia; altero, Animi tranquilli Munimentum et
+                    Conservatio, continentur. Ad serenissiman Principem D. Mariam Scotorum Reginam.
+                    His adjecimus ejusdem Principis Epistolam ad Rossensem Episcopum, et Versus item
+                    Gallicos Latino carmine translatos, pias etiam aliquot Preces, &amp;c. Parisiis,
+                    1574, 8vo.</p>
+                <p>4. De Origine, Moribus, et Rebus gestis Scotorum libri decem: e quibus septem
+                    veterum Scotorum res in primis memorabiles contractius, reliqui vero tres
+                    posteriorum regum ad nostra tempora historiam, quae hucusque desiderabatur,
+                    fusius explicant. Accessit nova et accurata Regionum et Insularum Scotiae, cum
+                    vera ejusdem tabula topo-graphica, Descriptio. Authore Joanne Leslaeo, Scoto,
+                    Episcopo Rossensi∙ Romae, 1578, 4to. Nunc denuo recus. anno Domini 1675, 4to.
+                    This latter edition, which is said to have been printed in London, contains a
+                    dedication to the earl of Rothes, subscribed by a George Lesley. That portion of
+                    the history which relates to the reign of Mary, is inserted in the collection of
+                    Dr Jebb, tom. ι</p>
+                <p>ό. Congratulatio serenissimo Principi et illustrissimo Cardinali Alberto
+                    Archiduci Austriae, &amp;c. de fausto ac felici <pb break="no"
+                    facs="nls:193204543" xml:id="kp-eb0713-4543-0240"/>ejus Adventu ad Regimen
+                    Provinciarum Inferioris Germaniae. Per R. in Christo P. Joan. Leslaeum,
+                    Episcopum Rossensem, Scotum. Subjicitur series vitae suae. Bruxel∙ lae, 1596,
+                    8vo. This little work is reprinted in Anderson’s Collections, vol. i. Of the
+                    account of the author’s life, a translation is inserted in vol. iii.</p>
+                <p>6. A Discourse conteyninge a perfect Accompt given to the moste vertuous and
+                    excellent Princesse, Marie Queene of Scots, and her Nobility, by John Lesley,
+                    Bishop of Rosse, Ambassador for her Highnes toward the Queene of England, of his
+                    whole Charge and Proceedings during the time of his Ambassage, from his entres
+                    in England in September 1568, to the 26th of March 1572. This account of the
+                    bishop’s negociations, which extends to 252 pages, was printed, for the first
+                    time, in Anderson’s Collections relating to the History of Mary Queen of
+                    Scotland, vol. iii. Edinb. &amp; Lond. 1727-8, 4 vols. 4to. As the language was
+                    Anglicized by Dr Good, it may be presumed that Lesley intended the work for
+                    immediate publication.</p>
+                <p>7. The History of Scotland, from the death of King James I. in the year <hi
+                    rend="smallcaps">m cccc.xxxvi.</hi> to the year <hi rend="smallcaps"
+                    >m.d.lxi.</hi> By John Lesley, Bishop of Ross. Edinburgh, 1830, 4to. This
+                    valuable relique was edited by Thomas Thomson, Esq. from a MS. belonging to the
+                    earl of Leven and Melville. Prefixed is a portrait of the author, copied from an
+                    old engraving, and representing him as a man of a dignified and sagacious
+                    aspect. Of his Scotish history the Latin is not a mere translation. “The readers
+                    of this volume,” as the editor has remarked, “who may take the trouble of
+                    comparing it with the Latin version, will readily perceive that the alterations
+                    made by the author on his own original sketch do not consist merely in
+                    correction and enlargement; but that, in numerous instances, he has been induced
+                    to suppress or generalize those more minute details and domestic occurrences
+                    which he may have found less susceptible of that classic attire in which he was
+                    naturally ambitious of exhibiting his historical work. In this respect, the
+                    present publication may be found to contribute some few particulars to the
+                    materials of our national history; but a still higher value will probably be
+                    attached to it as a specimen of pure and vigorous composition, in his native
+                    language, by one of the most able and accomplished Scotchmen of the sixteenth
+                    century.” (x.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

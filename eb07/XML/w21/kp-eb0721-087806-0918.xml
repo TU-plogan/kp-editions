@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0721-0918-0878-06" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">WICKLOW</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 21, page 878</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="9" ref="lcsh1910:b4kk94m4s">Sea</term>
+                    <term n="8" ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term n="7" ref="lcsh1910:b43n20j3f">Mountains</term>
+                    <term n="7" ref="lcsh1910:b4wm1410b">Mountaineering</term>
+                    <term n="5" ref="lcsh1910:b4q23r724">Presents</term>
+                    <term n="2" ref="lcsh1910:b4tt4fz4p">Irish</term>
+                    <term n="2" ref="lcsh1910:b48g8fk98">Devil</term>
+                    <term n="1" ref="lcsh1910:b4bk16r27">Protestantism</term>
+                    <term n="1" ref="lcsh1910:b4jw86n9w">Head</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="9" ref="fasttopic:1110395">Seas</term>
+                    <term n="7" ref="fasttopic:1028334">Mountaineering</term>
+                    <term n="7" ref="fasttopic:1028364">Mountaineers</term>
+                    <term n="7" ref="fasttopic:1028366">Mountains</term>
+                    <term n="3" ref="fasttopic:1171139">Water</term>
+                    <term n="3" ref="fasttopic:910709">English</term>
+                    <term n="2" ref="fasttopic:978902">Irish</term>
+                    <term n="2" ref="fasttopic:891974">Devil</term>
+                    <term n="1" ref="fasttopic:1079920">Protestantism</term>
+                    <term n="1" ref="fasttopic:952579">Head</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="5" ref="fastgeo:1205427">Ireland</term>
+                    <term n="1" ref="fastgeo:1219920">England</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ht:chi.12945678&amp;view=1up&amp;seq=918" type="entry">
+                <p><label type="entry">WICKLOW</label>, a maritime county in the province of
+                    Leinster, in Ireland, is bounded on the north by Dublin county, on the east by
+                    St George’s Channel, on the south by Wexford, and on the west by Carlow, a
+                    detached portion of Dublin, and Kildare. It lies between 52° 40', and 53° 14'
+                    north latitude, and 5° 57' and 6° 46' west longitude, extending forty miles in
+                    its greatest length from north to south, and thirty-three in its greatest
+                    breadth from cast to west, and comprehending an area of 781 square miles, or
+                    500,178 acres, of which 405,039 are cultivated land, 94,100 uncultivated
+                    mountain or bog, and 1039 covered with water. It ranks as the eighteenth county
+                    in superficial extent, and the seventeenth in that of cultivated land.</p>
+                <p>According to Ptolemy the geographer, the northern part of the county was the
+                    residence of the tribe of the Cauci, and the southern that of the Menapii. It
+                    was afterwards occupied by the Irish septs of the Byrnes and O’Tooles, who,
+                    though the district was claimed by the English after their settlement, as part
+                    of the county of Dublin, maintained their independence, and carried on an almost
+                    continual war against the new settlers, until the end of the reign of Elizabeth,
+                    after whose death the district was made shireground by her successor James I. in
+                    1605, and placed under the jurisdiction of English magistrates. The inha∙</p>
+                <pb break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=919"
+                    xml:id="kp-eb0721-0919-0879"/>
+                <p>bitants adhered to the royal cause during the war of 1641, until the arrival of
+                    Cromwell, to whose superior force they submitted without opposition. No other
+                    occurrences of historical importance took place until the year 1798, when
+                    several bands of insurgents sought refuge in the mountainous fastnesses here,
+                    after the dispersion of their main body in Wexford, and continued’ to harass the
+                    neighbouring counties, until tranquillity was restored, partly by making terms
+                    with their leaders, and partly by cutting roads and establishing military posts
+                    through the interior of the country, which till then had been nearly
+                    impassable.</p>
+                <p>The county forms one of the four great mountain groups of Ireland. The land rises
+                    from the valley of the Liffey and Dublin Bay on the north, by successive ridges,
+                    increasing in height, and occasionally intersected by deep glens, to the middle
+                    of the county, whence it again subsides to the borders of Wexford and Carlow.
+                    The direction of the range is from north-east at Bray, to south-west, the
+                    central part of the line being usually the most elevated, and the surface
+                    declining to the sea on the east, and the level country of Kildare and Carlow on
+                    the west. Lugnaquilla, to the east of Baltinglas, is the most elevated point of
+                    the range: its summit is 3039 feet above the sea-level. To the north, on the
+                    verge of Dublin county, are the Butter Mountain, 1459, Kippure, 2473, and the
+                    Three-rock Mountain, 1763 feet high; more southerly, Djouce, 2384 feet, and
+                    Sugar-loaf, 1126. In the centre are Thonalagee, 2683; Comaderry, 2296; Lugduff,
+                    2148; Knockreagh, 1559; and Croghan, 2175. The glens form very striking and
+                    picturesque features of this romantic district, being deep, narrow, and several
+                    of them densely covered with wood. The most celebrated are the Dargle, near the
+                    county of Dublin; Glencullen, Glencree, the Glen of the Downs, the Devil’s Glen,
+                    Glenmalur, the Glen of Imail, and the Vale of Ovoca. The rivers are few and
+                    small, all having their sources in the central group. The Liffey, which rises in
+                    Djouce Mountain, and after a circuitous course through Kildare, discharging
+                    itself into Dublin Bay, is known chiefly as having the metropolitan city on its
+                    banks. The Slaney, which rises near Glendalough, is not navigable until it has
+                    traversed the greater part of Wexford county. The Ovoca is formed by the
+                    junction of the Awenmore and Awenbeg at the meeting of the waters in the
+                    romantic Vale of Ovoca. It is afterwards joined by the Daragh or Aghrim from the
+                    west, and empties itself into St George’s Channel at Arklow. The Vartrey, a
+                    small stream, falls into the sea north of Wicklow Head. Numerous lakes lie in
+                    the valleys between the central mountain-ridges. They are small, but generally
+                    surrounded by very picturesque scenery. The most remarkable are Lough Bray, in
+                    Glencree, near the borders of Dublin; Lough Dan, Lough Tay, Luggelagh, and the
+                    lakes of Glendalough. The last form an object of peculiar interest, from their
+                    romantic situation, the remains of ancient ecclesiastical structures in their
+                    neighbourhood, and the popular legends connected with them. The coast presents a
+                    succession of fine prospects, but is much dreaded by mariners, in consequence of
+                    the sand-banks that skirt it. These are, the Kish Bank, each extremity of which
+                    is marked by a floating light; Bray Bank, the Codling, South Ridge, Wicklow, and
+                    Arklow Banks. The southern extremity of the last named is also marked by a
+                    floating light. The only harbours in this line of coast are those of Wicklow and
+                    Arklow, both fit only for small vessels. The projecting point of Wicklow Head is
+                    marked by two fixed lights. A few creeks afford shelter for fishing-craft.
+                    Herrings and round fish are taken off Wicklow Bank, where also oysters and
+                    lobsters are caught; but the business is carried on with so little spirit,
+                    owing, it is said, to the want of capital, that fish is brought from Dublin for
+                    sale. The state of the fisheries in 1836 was as follows:</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> No. </cell>
+                        <cell cols="1" role="data" rows="1"> Tonnage. </cell>
+                        <cell cols="1" role="data" rows="1"> Men. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="4" role="data" rows="1"><p>Decked vessels 39 1174
+                            156</p><p>Half-decked ditto 153 1425 858</p><p>Open sail-boats 57 —
+                            246</p><p>Row-boats 14 — 38</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="4" role="data" rows="1"> Total of fishermen 1298 </cell>
+                    </row>
+                </table>
+                <p>The western side of the county presents one of the great granite formations of
+                    Ireland, extending from Kingstown Harbour to the south-western extremity of the
+                    county. Each side is bordered by a range of clay-slate rock, passing into
+                    greenstone or a greenstone-slate. The rest of the county consists of clay-slate,
+                    graywacke, and graywacke-slate, interspersed in various places with small
+                    patches of granite, quartz-rock, and greenstone-trap protrusions, with
+                    whindykes. The eastern side of the granitic range abounds with metalliferous
+                    veins, while the western is totally destitute of them. Lead has been raised near
+                    Lough Dan, at Luganure in Comaderry Mountain, at Glendalough, and at
+                    Ballyfinshogue; copper at Ballymurtagh and elsewhere. The annual produce of the
+                    lead-mines now in operation is estimated at 2500 tons, valued at L.38,000; and
+                    of copper and lead in other mines at 12,500 tons, value L.35,000. The granite
+                    supplies inexhaustible quantities of stone for building and flagging. Slates for
+                    roofing are procured at Dunganstown and Carnew. The climate, though moist, is
+                    healthy; the lower lands near the sea produce the arbutus, myrtle, and
+                    laurestinus, which flourish in the open air, seldom requiring artificial
+                    protection during winter. The character of the soil is very various; near the
+                    sea, and along the banks of the larger rivers, it is rich, abounding with
+                    limestone, limestone-gravel, and marl. The mountainous tracts have generally a
+                    deep thick covering of heath and turf, based upon disintegrated granite. This
+                    part contains large tracts of bog. Along the verge of Dublin boundary, a
+                    substratum, lying within a few inches of the surface, forms a crust impenetrable
+                    to water, thus rendering the upper soil wholly unprofitable until this layer be
+                    broken up with the axe, for it resists the action of the spade or plough; after
+                    which, when blended with the subjacent clays, it forms a productive soil. Much
+                    of the natural timber with which the county was at a former period nearly
+                    covered, is still preserved, forming an important feature in the landscape; and
+                    young plantations are yearly rising around the mansions and villas with which
+                    this district, the chosen pleasure-ground of Ireland, is thickly studded.</p>
+                <p>The progress of the population, as far as it can be ascertained from authorities
+                    worthy of notice, is as follows:</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Year. </cell>
+                        <cell cols="1" role="data" rows="1"> Authority. </cell>
+                        <cell cols="1" role="data" rows="1"> No. of Inhabitants. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="3" role="data" rows="1"><p>1760 De Burgo 43,872</p><p>1792
+                            Beaufort. 58,000</p><p>1812 Parliamentary census 83,109</p><p>1821 Ditto
+                            110,767</p><p>1831 Ditto 121,557</p></cell>
+                    </row>
+                </table>
+                <p>The latest of these returns gives an average of one inhabitant to ever}’ four
+                    acres. The return of the Commissioners of Public Instruction in J 834, which,
+                    being arranged according to dioceses instead of counties, cannot be deemed
+                    strictly accurate, gives a gross population of 118,661, of whom 25,005 were
+                    members of the established church, 322 Protestant dissenters, and 93,334 Roman
+                    Catholics. The number of children receiving instruction in the public schools at
+                    the under-named periods was,</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"> Males. </cell>
+                        <cell cols="1" role="data" rows="1"> Females. </cell>
+                        <cell cols="1" role="data" rows="1"> Sex not ascertained. </cell>
+                        <cell cols="1" role="data" rows="1"> Total. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="5" role="data" rows="1"><p>1821 5597 3108 8,705</p><p>1824-6
+                            6377 4671 285 11,333</p><p>1836- 7 1151 1012 2,163</p><p>1837- 8 1232
+                            1042 2,274</p><p>1838- 9 1549 1351 2,900</p></cell>
+                    </row>
+                </table>
+                <pb break="no" facs="ht:chi.12945678&amp;view=1up&amp;seq=920"
+                    xml:id="kp-eb0721-0920-0880"/>
+                <p>The number of the children of each religious denomination, as stated in the
+                    return of 1824—6, being the only one in which this point is noticed, was,
+                    members of the established church, 3666; dissenters, 31; Roman Catholics, 7270;
+                    besides 366 whose religion could not be ascertained. The number of schools,
+                    according to the same return, was 258, of which forty-four, having 3526 pupils,
+                    were supported by grants of public money; thirty-eight, with 1619 pupils, by
+                    voluntary subscriptions; and 176, with 6188 pupils, wholly by the fees paid by
+                    the pupils.</p>
+                <p>The county is divided into the seven baronies of Arklow, Ballinacor, Newcastle,
+                    Rathdrum, Shillelagh, Upper and Lower Talbotstown. These are subdivided into
+                    fifty-eight parishes, of which forty-nine are in the diocese of Dublin, two in
+                    Ferns, and seven in Leighlin. The diocese of Glen-dalough, which anciently
+                    comprehended the greater part of the county, having been united to that of
+                    Dublin in 1497, has been so intimately amalgamated with it that their respective
+                    boundaries cannot now be ascertained. The county returned ten members to the
+                    Irish parliament, two for the county at large, and two each for the boroughs of
+                    Baltinglas, thessington, Carysfort, and Wicklow. All the boroughs were
+                    disfranchised at the time of the Union, and those of Wicklow and Baltinglas are
+                    the only two to which corporate privileges are to be granted under the municipal
+                    corporation act. The number of electors was, in</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Year. </cell>
+                        <cell cols="1" role="data" rows="1"> No. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"> 1831 1013 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"> 1832 695 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"> 1833 1566 </cell>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Year. </cell>
+                        <cell cols="1" role="data" rows="1"> No. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"> 1834 1670 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"> 1835 1670 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"> 1836 1679 </cell>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"> Year. </cell>
+                        <cell cols="1" role="data" rows="1"> No. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"> 1837 1679 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"> 1838 1679 </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"> 1839 1380 </cell>
+                    </row>
+                </table>
+                <p>The number of electors is to that of the inhabitants as one to eighty-eight, and
+                    to that of the heads of families as one to fifteen. The county is in the
+                    Leinster circuit. The assizes are held in the town of Wicklow, where the county
+                    court-house, prison, and infirmary, arc built. General sessions of the peace are
+                    also held there and at Baltinglas. The local magistracy consists of a
+                    lieutenant, sixteen deputy-lieutenants, fifty-nine other unsalaried magistrates,
+                    and a stipendiary. Under these is a constabulary force, consisting of a county
+                    inspector, five sub-inspectors, six head constables, and 199 constables and
+                    sub-constables. There is a second infirmary at Baltinglas, and four
+                    feverhospitals, with a number of dispensaries in different parts. Lunatics are
+                    sent to the district asylum in Dublin, into which twenty-two cases from this
+                    county are admissible; but several patients are still kept in the county prison.
+                    Baltinglas, Rathdrum, and Shillelagh, have been fixed on as sites for workhouses
+                    for unions under the poor-law act.</p>
+                <p>The rich low' lands near the sea, and along the banks of the Slaney and Ovoca,
+                    are under tillage, all the operations of which are carried on according to the
+                    most approved systems. Much of the mountain district is adapted for pasturage,
+                    particularly for feeding a small breed of sheep, whose meat is much prized in
+                    the Dublin market. The mountain of Lugnaquilla has a fine sheep-walk on its
+                    summit. Lime and marl are the chief manures: the former is brought by sea from
+                    Howth to the districts near the coast; it is also drawn in large quantities from
+                    Carlow to the inland parts. Butter is made in large quantities in the dairies,
+                    which are generally attached to the farm-houses. The fences in the most highly
+                    improved districts are of white thorn; in other parts earthen mounds, and in the
+                    rocky mountainous heights dry stone-walls</p>
+                <p>The manufacture of flannels was here carried on extensively, and a market-house
+                    for their sale was erected at Rathdrum; but it has declined greatly, and the
+                    woollen manufacture is now nearly confined to the fabrication of friezes and
+                    coarse cloths for home-consumption. Some coarse linen is also wrought for the
+                    same purpose. But the county owes its wealth wholly to its agriculture. Most of
+                    the produce is sent to Dublin; but some is exported from Wicklow and Arklow, and
+                    the quantities are annually increasing. The annual average of the exports and
+                    imports through these places is estimated as follows:</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"/>
+                        <cell cols="2" role="data" rows="1"> Exports. </cell>
+                        <cell cols="2" role="data" rows="1"> Imports. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="2" role="data" rows="1"> Tons. </cell>
+                        <cell cols="1" role="data" rows="1"> L. </cell>
+                        <cell cols="1" role="data" rows="1"> Tons. </cell>
+                        <cell cols="1" role="data" rows="1"> L. </cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="6" role="data" rows="1"><p>Wicklow 16,000 85,000 8,000
+                            15,000</p><p>Arklow 900 8,500 4,000 6,500</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="6" role="data" rows="1"> Total 16,900 93,500 12,000 21,500
+                        </cell>
+                    </row>
+                </table>
+                <p>This is the only county in Ireland in which there is no banking establishment,
+                    either private or joint-stock; yet it is the most thriving in proportion to its
+                    population and extent of productive land. There are loan-societies in eight
+                    places: the sums in the hands of borrowers at the close of 1839 amounted to
+                    L.9315, the number of borrowers during the same year to 9100.</p>
+                <p>Though the high state of prosperity this county displays is mainly attributable
+                    to the well-directed efforts of agricultural industry, yet some portion of it
+                    must be allowed to arise from the number of men of landed property whom the
+                    extraordinary beauty of the country has induced to make it their chosen place of
+                    residence, thus heightening its natural advantages of scenery by the
+                    adventitious ornaments of splendid mansions and villas, surrounded by demesnes
+                    laid out in the most refined style. Two main lines of road conduct the stranger
+                    through it. The one on the eastern side, and mostly near the sea-coast, presents
+                    an almost uninterrupted succession of splendid prospects, through a highly
+                    cultivated country. Proceeding from the city of Dublin, through the Scalp, the
+                    lands of Powerscourt, the Dargle, the Glen of the Downs, Delgany, the Devil’s
+                    Glen, Luggelagh, Glendalough, and the Vale of Ovoca, to Arklow, the eye finds
+                    nothing to rest upon but scenes of rural beauty. The other main road, along the
+                    western side, chiefly through the rich valley of the Slaney, presents a similar
+                    succession of scenery of a less romantic character. Even the intermediate space,
+                    though wholly composed of mountain tracts little capable of high cultivation,
+                    presents several wild landscapes of combined cliff and glen, to which an easy
+                    access is found through the military road already noticed.</p>
+                <p>The peasantry, notwithstanding the proximity of the metropolis, resembles that of
+                    the more remote agricultural districts in habits, dwellings, and mode of life;
+                    the chief article of food being the potato, and the fuel turf, though coal
+                    imported from England is in general use among the wealthier classes, especially
+                    near the sea.</p>
+                <p>There are several cromlechs still existing, and many raths. Ruins of monastic
+                    buildings are to be seen at Baltinglas, Wicklow, Rathdrum, and Glendalough or
+                    “the Glen of the Two Lakes,” where there is a pillar-tower, and the remains of
+                    several places of religious worship, one of them being the cathedral of the
+                    ancient diocese, from which it has acquired the name of “the Seven Churches.” It
+                    had been the site of a city, the metropolis of the sept of the O’Tooles, and is
+                    now a place of great resort for visitors, from its picturesque scenery. Several
+                    castles were built in this county by the English, the sites of most of which can
+                    still be ascertained by what is left of their structures.</p>
+                <p>Wicklow, the assize-town, is built on an elevated spot projecting into the sea
+                    near the mouth of the Vartrey. It was originally the site of a castle erected by
+                    Maurice Fitzgerald, and was long maintained as a post of importance, under the
+                    superintendence of a constable. The town is small and irregularly built, owing
+                    most of its support to the assizes and sessions. It was a borough by
+                    prescription, but its corporate rights were confirmed by a charter of James I.,
+                    granted in 1613, to be enjoyed under a portreeve, burgesses, and freemen, who
+                    had a right of exemption<pb break="no"
+                    facs="ht:chi.12945678&amp;view=1up&amp;seq=921" xml:id="kp-eb0721-0921-0881"/>
+                    from harbour-dues, and of pasturage on the common. The corporate landed property
+                    is about 300 acres. The portreeve held a weekly court for the recovery of debts
+                    to the amount of five marks. By the municipal corporation act, the old
+                    corporation has been dissolved, and, under certain conditions, power is to be
+                    given to create a new one, styled “the portreeve, free burgesses, and commonalty
+                    of the town of Wicklow.” There is a Saturday market, and four fairs annually.
+                    Races are held every year at the Mur-ragh, a border of dry sandy land, extending
+                    for several miles along the sea-shore to the north of the town, forming a
+                    peninsula, which encloses a long narrow basin, in which vessels drawing less
+                    than eight feet of water can enter at spring tides. The population in 1821
+                    amounted to 2146, and in 1831 to 2472. The population of the other towns having
+                    each upwards of 1000 inhabitants was, in 1831, as follows: Bray, 3656; Arklow,
+                    4383; Baltinglas, 1699; and Rathdrum, 1054. (c. P.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0714-3748-0302-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">MASSACHUSETTS</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 14, page 302</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="8" ref="fastgeo:1205688">Connecticut</term>
+                    <term n="6" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1210276">India</term>
+                    <term n="1" ref="fastgeo:1239786">America</term>
+                    <term n="1" ref="fastgeo:1204305">Vermont</term>
+                    <term n="1" ref="fastgeo:1204724">Missouri</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="6" ref="lcsh1910:b4vh5ch72">Americanisms</term>
+                    <term n="8" ref="lcsh1910:b4cc0tv2w">Canals</term>
+                    <term n="1" ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term n="1" ref="lcsh1910:b45t3g226">Unitarianism</term>
+                    <term n="1" ref="lcsh1910:b48911q68">Baptists</term>
+                    <term n="17" ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term n="11" ref="lcsh1910:b4v11vp1v">Dollar</term>
+                    <term n="10" ref="lcsh1910:b4tt4fw6r">East</term>
+                    <term n="9" ref="lcsh1910:b41v5bg0t">Worship</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="11" ref="fasttopic:1744651">Dollarization</term>
+                    <term n="11" ref="fasttopic:896433">Dollar</term>
+                    <term n="9" ref="fasttopic:1181450">Worship</term>
+                    <term n="6" ref="fasttopic:845230">Canals</term>
+                    <term n="7" ref="fasttopic:860364">Church</term>
+                    <term n="6" ref="fasttopic:807480">Americanisms</term>
+                    <term n="6" ref="fasttopic:807485">Americanization</term>
+                    <term n="6" ref="fasttopic:807488">Americans</term>
+                    <term n="1" ref="fasttopic:969307">Indians</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:194203748" type="entry">
+                <p><label type="entry">MASSACHUSETTS</label>, oneofthe United StatesofNorth America,
+                    is bounded on the north by New Hampshire and Vermont, on the south by
+                    Connecticut and Rhode Island, on the east by the Atlantic Ocean, and on the west
+                    by the state of New York. It extends from long. 69. 50. to 73. 10. and from lat.
+                    41. 23. to 43. 52. being 180 miles in length from east to west, and ninety-six
+                    miles in breadth from north to south. The mean width is about fifty miles, and
+                    the area about 7500 square miles. This state presents a surface pleasantly
+                    undulated with hills and valleys, and is naturally divided into three distinct
+                    zones. The first, stretching along the sea-shore, and extending twenty miles
+                    into the interior, is a belt of marine alluvium, little elevated above the
+                    ocean, and naturally fertile only at intervals. This plain is succeeded by a
+                    fine hilly tract, which crosses the state from north to south, and from which
+                    rivers are poured in every direction. The second or middle zone includes part of
+                    the beautiful valley of Connecticut, and is followed by the mountainous but
+                    highly fertile county of Berkshire, which comprises the whole western part of
+                    the state. The soil of Massachusetts is exceedingly various, comprising every
+                    description, from the most sterile to the most productive. In the eastern and
+                    south-eastern parts it is in general light and sandy, interspersed, however,
+                    with numerous fertile tracts. Towards the sea-coast ôn the north it is of better
+                    quality, though not distinguished for fertility. By careful cultivation,
+                    however, both this and other parts of the state have been rendered highly
+                    productive. The middle and western regions have for the most part a strong, rich
+                    soil, excellent for grazing, and suited to most other agricultural purposes.
+                    Viewed at a glance, the surface of this state swells from the Atlantic Ocean to
+                    the hills, then sinks into the richly decorated valley of Connecticut, and again
+                    rises into the mountainous region of Berkshire. The principal mountains are a
+                    part of the Green Mountain range, which stretches from north to south through
+                    the western part of the state. The most elevated summits of this ridge are
+                    Saddle Mountain, near the north-western angle of the state, and Tahconick on the
+                    western border. These mountains present a great variety of beautiful and
+                    impressive scenery, noble elevations alternating with dark green forests and
+                    pleasant well-sheltered valleys. Mount Tom and Mount Holyoke, near the
+                    Connecticut River, are remarkable elevations, which from their summits afford a
+                    beautiful prospect of the surrounding country. A second ridge passes through the
+                    state near its centre. The greatest elevation of this ridge is that of Wachuset,
+                    in the town of Princeton. The state abounds in small lakes, which are generally
+                    called <hi rend="italic">ponds.</hi> The largest of these are the Assa-wapset
+                    and Long Ponds in Middleburgh, Podunk and Quabang Ponds in Brookfield, and the
+                    Naukeag Ponds in Ashburnham. The last named are situated more than 1100 feet
+                    above the level of the sea, and several other ponds in the western part of the
+                    state have a still higher elevation. Massachusetts has no very large rivers
+                    wholly within its bounds. The Connecticut traverses it from north to south, and
+                    is navigable by steam-boats of small draught. The Merrimac passes out of New
+                    Hampshire into the northern division of the state, and empties itself into the
+                    sea at Newburyport. The Housatonic, Charles, Ipswich, Concord, Blackstone,
+                    Miller’s, Chickopee, Deerfield, Westfield, Neponset, and Taunton, though they
+                    have short courses, are pleasant streams. Indeed no country is better provided
+                    with rivers and streams which flow in all directions, and afford abundance of
+                    water for every necessary purpose. The rivers abound in falls, admirably adapted
+                    for mill-sites appropriated to manufacturing operations.</p>
+                <p>Every product which the northern states furnish, and much that is not indigenous
+                    to the soil and climate, have been naturalized in Massachusetts by skill and
+                    careful cultivation. The principal productions are Indian corn, rye, wheat,
+                    oats, barley, peas, beans, buck-wheat, potatoes, hops, <pb break="no"
+                    facs="nls:194203761" xml:id="kp-eb0714-3761-0303"/>flax, and hemp. Beef, pork,
+                    butter, and cheese, are abundant in most parts of the state, and of excellent
+                    quality; the county of Berkshire in particular is distinguished for its
+                    extensive dairies. This state is particularly celebrated for its orchards, where
+                    the finest fruits are produced in abundance. Those principally cultivated are
+                    apples, peaches, pears, quinces, plums, cherries, and currants. Great quantities
+                    of cider are annually made, and this constitutes the common beverage of the
+                    inhabitants. There are several valuable mines in Massachusetts. Bog-iron ore is
+                    found in several parts, and there are numerous establishments for working it.
+                    There is a lead mine in Southampton county, to which a subterranean passage of
+                    one thousand feet has been opened, chiefly through solid rock; but the cheapness
+                    of lead from Missouri and Illinois has suspended operations in this mine. There
+                    are inexhaustible quarries of marble and limestone, and an abundance of granite
+                    of the best description for building. Soapstone, slate, ochre, and other mineral
+                    productions, are also to be met with in various parts.</p>
+                <p>There are a greater number of individuals engaged in commerce in this than in any
+                    other state in the Union. It shares in the greater proportion of the bank and
+                    whale fisheries of the United States. This pursuit employs many thousands of
+                    men, furnishes one of the most important items in these parts of the states, and
+                    trains vast numbers of intrepid and experienced mariners. The shipping is more
+                    extensive than that of any other state; and, in the extent of its foreign
+                    commerce, Massachusetts is second only to New York. The principal articles of
+                    export are fish, beef, pork, lumber, ardent spirits, flax-seed, whale oil,
+                    spermaceti, and various manufactures. The latter are numerous, the principal
+                    being those of cotton cloths, boots and shoes, ardent spirits, leather, cordage,
+                    wrought and cast iron, nails, woollens, straw bonnets, hats, cabinet-work,
+                    paper, oil, and muskets There is an extensive national establishment for the
+                    manufacture of arms at Springfield.</p>
+                <p>There being no large rivers in Massachusetts to facilitate intercourse with the
+                    interior country, a number of artificial channels of communication have been
+                    constructed The Middlesex Canal leaves the Merrimac Canal above its lower falls,
+                    and terminates at Charlestown, opposite Boston, being about twenty-seven miles
+                    in length. Concord River crosses the line of the canal on the summit-level,
+                    twenty-two miles from Charlestown, and five from the junction of the canal with
+                    the Merrimac, thus affording an ample supply of water and lockage in both
+                    directions. Round the falls in Connecticut River, at South Hadley, there is a
+                    canal cut through the solid rock, more than forty feet deep, and three hundred
+                    feet long. There are other falls on the Connecticut, above and below South
+                    Hadley, which have been overcome by canals, dams, and <hi rend="subscript">
+                    ι</hi> other improvements, so that the river is now navigable for boats through
+                    the whole of its course in this state, and as high as Bath in New Hampshire. The
+                    Blackstone Canal is about forty-five miles in length, extending from Provi-lence
+                    to Worcester, and has been in operation for several /ears. The Farmington Canal
+                    extends from the city of Newhaven to the south line of Massachusetts, where it s
+                    connected with the Hampshire and Hampden Canal, vhich goes to Northampton on the
+                    Connecticut River, a ’ listance of about thirty-five miles. A great number of
+                    umpike roads have been constructed by companies incor- ∙orated by the
+                    legislature of the state. These public works ntersect the country in every
+                    direction, and have greatly xcilitated the trade of the state, without, however,
+                    being productive of much emolument to the proprietors. A railroad of three miles
+                    in length has been constructed at Quincy, for the purpose of transmitting the
+                    valuable granite of that town to the navigable port of Boston Harbour. Three
+                    railroads have been very recently constructed from Boston, one to the town of
+                    Lowell, a distance of about twenty-five miles; another to Worcester, forty miles
+                    long; and a third to Providence, about the same length. From Providence a
+                    railroad was commenced in 1833 to Stovington in Connecticut, a distance of about
+                    forty-eight miles. Amongst the public improvements of various kinds which have
+                    been made, may be mentioned the numerous bridges over the Connecticut and other
+                    rivers, and over the arms of Boston Harbour.</p>
+                <p>The principal literary institution is Harvard University, at Cambridge, three
+                    miles west by north of Boston. It is the most wealthy as well as the most
+                    ancient institution of the kind in the United States, having been founded in
+                    1638, less than twenty years after the settlement of New England. It has a
+                    president, eight professors, and six tutors and other teachers, besides four
+                    professors of the medical school and two of the law school. It has a library
+                    containing above 36,000 volumes of choice books, a large and valuable cabinet of
+                    minerals, an excellent anatomical museum, a complete set of philosophical
+                    apparatus, a botanic garden, and other necessary adjuncts of a university.
+                    William’s College in William’s Town, in the north-west corner of the state, was
+                    incorporated in 1793; and Amherst College in Hampshire county in 1825. They have
+                    each a president, and several professors and tutors. At Andover there is a
+                    richly endowed and flourishing theological seminary; and also an academy, the
+                    best endowed and most distinguished in the state. There are, besides, a great
+                    number of other academies throughout Massachusetts, and common schools are
+                    universally established at the public expense. The laws require that every town
+                    or district containing fifty families shall be provided with a school or schools
+                    equivalent in time to six months for one school in a year, one containing a
+                    hundred families twelve months, and so on; and the several towns in the state
+                    are authorized and directed to raise such sums of money as are necessary for the
+                    support of the schools, and to assess and collect the money in the same manner
+                    as other town taxes. Each town is also required to choose annually a school
+                    committee of three, five, or seven persons, to take the general charge and
+                    superintendence of the public schools. The charitable and other establishments
+                    are too numerous to be particularly specified. In respect to education, there is
+                    no country in which it is more strictly attended to, or more universally
+                    diffused. Religious sects are of course numerous in Massachusetts. The
+                    Congregationalists have 491 churches, and 423 ordained ministers, of whom 118
+                    are Unitarians; the Baptists have 129 churches, the Methodists seventy-one
+                    preachers, the Universalists forty-six societies, the Episcopalians thirty-one
+                    ministers, the New Jerusalem church eight societies, the Presbyterians nine
+                    ministers, the Roman Catholics four churches, and the Shakers four
+                    societies.</p>
+                <p>There are now no slaves in this state, nor was their number ever very
+                    considerable. Previously to the declaration of independence, public opinion was
+                    strongly expressed against slavery. The first article in the declaration of
+                    rights contained in the general constitution is, that “all men are born free and
+                    equal and this was decided by the supreme court of Massachusetts, in 1783, to be
+                    equivalent to an abolition of slavery, which was accordingly carried into
+                    effect.</p>
+                <pb break="no" facs="nls:194203774" xml:id="kp-eb0714-3774-0304"/>
+                <p>Counties.Males.Females.Coloured.Total Population.County Towns.Population.Number
+                    of Milesfrom Bostonfrom Washington.Suffolk 28,58631,6931,88362,162Boston «
+                    61,39213,8866,388432446ŕ Salem 14Essex 39,43142,92952782,887√ Newburyport 37466f
+                    Ipswich 2,9516,071273452Middlesex 38,10739,34851377,968ĵ Cambridge 431∣ Concord
+                    2,0174,7513,0577,59217427Plymouth
+                    20,90520,43623,36621,67821,29625,17841042,99341,90149,474Plymouth.
+                    361052439422Norfolk 169Dedham Bristol 930ſNew Bedford....458I Taunton
+                    6,04532431Barnstable 13,9973,3391,70241,54514,363 3,584
+                    1,76842,44916527928,5257,2023,51884,36530,21931,64029,34437,825Barnstable
+                    Nantucket 3,975 7,202 1,509 4,172 3,613 6,784 1,540
+                    1,355681009739466531495394Nantucket Dukes 48371T+ <hi rend="subscript"> f</hi>
+                    &lt;∙1 &lt; <hi rend="superscript"> τ</hi> ∏ rtown.Worcester Worcester Hampshire
+                    14,99915,28814,44718,31014,99516,00314,76518,510225Northampton·. •
+                    918795133376363 QQßHampden 3491321,005Springfield frrpon fipl ŕìFranklin
+                    Berkshire Lenox Oĩ/U363Total 294,458308,5597,006610,023Population of the
+                    Counties and County Towns.For a description of Boston, the capital of
+                    Massachusetts, and of Charlestown, which is connected with it by a bridge over
+                    Charles River, see the articles <hi rend="smallcaps">Boston</hi> and <hi
+                    rend="smallcaps">Charlestown</hi> in this work. In the vicinity of Boston there
+                    are a great number of beautiful villages, some of them large enough to be
+                    classed in the rank of towns. Amongst these may be mentioned Roxbury,
+                    Dorchester, Milton, Cambridge, Waterton, Medford, Chelsea, and Lynn. Salem,
+                    situated thirteen miles north-east of Boston, is built on a projection of land
+                    formed by two arms of the sea called North and South Rivers. Over the former is
+                    a bridge more than fifteen hundred feet in length, connecting Salem with the
+                    populous town of Beverley. The South River forms the harbour, which has good
+                    anchorage, but contains only about twelve feet of water. The situation of the
+                    town is low, but healthy. It is ŵell built, partly of brick, and many of the
+                    houses are large and elegant, with gardens attached to them. Salem contains a
+                    court-house, jail, alms-house, market-house, East India marine museum, and a
+                    lyceum. It has eight banks, five insurance companies, one mutual insurance
+                    company, and an institution for savings. There are two libraries, an athenaeum
+                    containing 6000 volumes, and a mechanics’ library. Three halfweekly and two
+                    weekly papers are published. There are two white-lead factories, sixteen
+                    tanneries, eleven rope and twine factories, and a chemical laboratory. There are
+                    a number of places of worship for various religious· sects, and great attention
+                    is paid to the education of youth. In 1801 a society was incorporated, composed
+                    of such persons as had sailed from this port round the Cape of Good Hope or Cape
+                    Horn in the capacity of masters or supercargoes of vessels. This East India
+                    Marine Society is designed to afford relief to indigent members or their
+                    families, and to promote the knowledge of navigation and trade to the East
+                    Indies, upon which Salem principally depends, and in which it has a large amount
+                    of capital embarked. This town is the second in Massachusetts in point of
+                    population, and probably also in respect of wealth; but New Bedford now
+                    surpasses it in its amount of shipping, and Lowell and some other towns greatly
+                    exceed it in manufactures.</p>
+                <p>Lowell, the chief seat of the cotton manufacture in the United States, is
+                    situated twenty-five miles north-west from Boston, at the confluence of the
+                    rivers Merrimac and Concord. It was formerly a section of the town of
+                    Chelmsford, and derives its name from Francis Lowell, who introduced the
+                    manufacture of cotton into the state. It contains a number of churches and
+                    public buildings, and has had a very rapid growth, having risen into
+                    manufacturing importance only of late years. The source of its riches and power
+                    is the water of the Merrimac, which is conducted to the town by a canal one mile
+                    and a half in length, eight feet deep, and sixty wide, distributed by lateral
+                    branches, and again discharged either into the Merrimac or Concord, the fall
+                    being thirty-two feet. Lowell communicates with Boston by a canal and a railway.
+                    The manufactures comprehend those of cotton and woollen of various kinds,
+                    gunpowder, and other articles. The chief manufacturing establishment is that of
+                    the Merrimac Company, which, in 1832, employed four hundred males and nine
+                    hundred females, and had one thousand looms and twenty-six thousand spindles at
+                    work. In 1833 there were in Lowell altogether 3494 looms and 97,400 spindles,
+                    which gave employment to 1155 males and 4595 females. The number of bales
+                    manufactured per annum was 32,607, or 36,044,000 yards. Of the thirty-six
+                    millions of yards of cloth made, eight millions were printed. Including the
+                    printed goods, which sell at twenty and twenty-eight cents, the whole may be
+                    calculated at ten cents per yard, making about three and a half millions of
+                    dollars per annum. Lowell is connected with the village Belvedere by a bridge
+                    over the river Concord, the water of which is also employed in giving motion to
+                    machinery. Seven newspapers are published, one of which is a daily print. There
+                    are no less than forty religious and benevolent societies, an unusually large
+                    number for the population of the place, but probably arising from the zeal of
+                    the religious sects to cutvie each other in good deeds. By the census of 1832,
+                    the population amounted to 10,254.</p>
+                <p>Marblehead is situated on a peninsula extending more than three miles into
+                    Massachusetts Bay, and varying in breadth from one to two miles. It is four
+                    miles and a half <pb break="no" facs="nls:194203787"
+                    xml:id="kp-eb0714-3787-0305"/>south-east of Salem, and sixteen north-east of
+                    Boston, ir latitude 42. 32. north, longitude 70. 51. west. The town is compactly
+                    built, but the streets are crooked and irregular It contains five places of
+                    public worship, and a customhouse. The harbour, which is a mile long and half a
+                    mile wide, is very safe, except when storms from the north-east prevail. This
+                    town was settled very soon after Salem, by a number of fishermen, and the
+                    inhabitants have* been principally devoted to the Bank fisheries. In this
+                    business Marblehead has greatly excelled all the other American towns.
+                    Previously to the revolution it was in a very flourishing state, but during that
+                    struggle, and also during the last war, it suffered severely. In 1830 it
+                    contained a population of 5150. Beverley is a wealthy mercantile town, and, like
+                    the preceding, largely engaged in the fisheries. It has a population of between
+                    four and five thousand. Newbury port, a post-town and port of entry, is situated
+                    on the south bank of the Merrimac, three miles from its mouth, twenty-four miles
+                    north of Salem, and thirty-two north-north-east of Boston, in latitude 42. 49.
+                    north, and longitude 70. 52. west. This town is very pleasantly situated, and
+                    handsomely built. The streets are regular, and cross each other nearly at right
+                    angles. The dwellinghouses are uncommonly good, and the public buildings are
+                    constructed in a very handsome style. It contains a courthouse, a jail, a
+                    market, a town-hall, several school-houses, and seven churches. There are
+                    several distilleries, a brewery, and manufactures of carriages, shoes, hats,
+                    cordage, morocco leather, and gold and silver plate. It has a respectable amount
+                    of shipping and foreign commerce, and is largely engaged in the fisheries.
+                    Ship-building is carried on to a considerable extent; and although the town is
+                    scarcely in so flourishing a condition as it was formerly, it is still
+                    interesting and important, and is improving. Gloucester is situated on the
+                    peninsula of Cape Ann, sixteen miles north-east of Salem. It is one of the most
+                    considerable fishing towns in the commonwealth, containing six churches, with
+                    several public buildings, and between six and seven thousand inhabitants.</p>
+                <p>New Bedford, a post-town and port of entry, is situated fifty-two miles south of
+                    Boston, in latitude 4L 38. north, longitude 70. 56. west. It stands on an arm of
+                    Buzzard’s Bay, aed is laid out upon ground sloping to the water, in streets
+                    intersecting each other at right angles. This town has rapidly increased in
+                    trade and population, and the inhabitants possess great enterprise, and are very
+                    wealthy. The whale fishery constitutes their principal business, and in it they
+                    have engaged about 150 ships and fifteen brigs. The fishing of cod on the grand
+                    banks is also carried on; and the people are extensively engaged in many other
+                    branches of commerce. New Bedford contains a courthouse, a jail, an alms-house,
+                    three banks, two insurance offices, an academy, a flourishing lyceum, four
+                    printing offices (one of which issues a daily, and the others weekly
+                    newspapers), eleven churches, and a chapel for seamen. Plymouth, a post-town and
+                    port of entry, is situated thirty-six miles south-south-east of Boston. It is
+                    remarkable is the place where the first settlers of New England landed, on the
+                    22d of December 1620. The harbour is spacious, but shallow. The town has
+                    considerable commerce, ιnd valuable manufactures of iron. An elegant hall has
+                    3een erected for the use of the pilgrim society; and there .s a court-house,
+                    which stands in latitude 41. 57. north, and longitude 70. 42. 30. west. A part
+                    of the rock on which the puritan emigrants landed on their arrival from England,
+                    has been conveyed to the centre of the town. Worcester is an inland town,
+                    situated forty miles west by south of Boston. It is a neat and flourishing
+                    place, with considerable trade and manufactures. Amongst the pubic buildings are
+                    a court-house, jail, county penitentiary, lunatic hospital, town-hall, and four
+                    places of public worship. There are three printing offices, from which four
+                    newspapers are issued weekly. The American Antiquarian Society has here a
+                    handsome hall, a valuable cabinet, and a library containing about 8000 volumes,
+                    amongst which are many ancient and rare works on American history. The town was
+                    incorporated in the year 1722, and, on the erection of Worcester county, in
+                    1732, became the capital. Springfield, a town of some size, is situated on the
+                    east side of Connecticut River, ninety-seven miles southwest of Boston. The
+                    houses are well built, and the town has an appearance of great industry and
+                    wealth. There are many new and elegant erections, including several places of
+                    public worship, and the county buildings. On Mill River, which flows into the
+                    Connecticut, there are very extensive mills and factories of various kinds. In
+                    the town is a very extensive government establishment for the manufacture of
+                    arms. The arsenal is situated on an elevated plain, about half a mile from the
+                    town. Springfield is connected with West Springfield by an elegant bridge.
+                    Northampton, a post-town, is situated on the west bank of Connecticut River,
+                    ninety-five miles west of Boston. It is well built, and chiefly consists of two
+                    streets proceeding like radii from a circle, though with many irregularities. It
+                    contains several handsome public buildings, and a number of respectable
+                    seminaries of education, A stream passes near the centre of the town, on which
+                    are erected numerous mills and manufactories, and amongst these are two for
+                    making woollen stuffs. A bridge above 1000 feet in length, connecting this town
+                    with Hadley, was built in 1826. In the vicinity of Northampton there is a noted
+                    mine, which is visited by strangers as a curiosity.</p>
+                <p>Waltham, a post-town, is situated on the north side of Charles River, ten miles
+                    west of Boston. It contains three cotton manufactories, which are amongst the
+                    most extensive and best conducted establishments of the kind in the country. The
+                    quantity of cotton annually used amounts to about 700,000 pounds, and the cloth
+                    made to 2,000,000 yards. There are also bleaching works, at which two tons of
+                    goods are daily bleached, calendered, and packed. In 1830 the population of this
+                    place was 1859. Cambridge, a post-town, is situated on the north side of Charles
+                    River, at the distance of three miles from Boston. It consists of three
+                    principal parts or divisions, namely, Old Cambridge, which contains the
+                    university already noticed, a state arsenal, and several places of public
+                    worship; Cambridge-Port, which is a considerable trading village, containing
+                    four places of public worship, and is connected with the capital of the state by
+                    West Boston Bridge; and East Cambridge, which is a flourishing manufacturing
+                    village, situated on Lechmere Point, and connected with Boston by means of
+                    Craigie’s or Canal Bridge. It contains a court-house, a jail, a large glass
+                    manufactory, and three places of public worship. Concord, a post-town, is
+                    pleasantly situated upon the western bank of the river Merrimac, sixty-three
+                    miles north-north-west of Boston. It contains a state-house and state-prison,
+                    both built of stone, a court-house, three places of public worship, and about
+                    two hundred dwelling-houses. Much of the trade of the upper country centres
+                    here; and the importance of the place is increased by the boat navigation which
+                    is opened between this place and Boston, by means of the Merrimac River and
+                    Middlesex Canal. There are two bridges in Concord across the Merrimac, one in
+                    the north part, the other connecting the town with Pembroke. Taunton is situated
+                    at the junction of Canoe, Rumford, and Taunton Rivers, thirty-two miles south of
+                    Boston. It is a handsome and flourishing place, containing the county buildings,
+                    a bank, an academy, and seven meeting-houses. It has the command of excellent
+                    water power, and there are <pb break="no" facs="nls:194203800"
+                    xml:id="kp-eb0714-3800-0306"/>here several factories for cotton, paper, nails,
+                    and various kinds of iron work. Lynn, a post-town, is situated nine miles
+                    north-north-east of Boston. It is noted for the manufacture of shoes, about
+                    1,500,000 pairs of women’s shoes being made here annually. There is a medicinal
+                    spring in this place, near which is a house for the accommodation of visitors.
+                    In 1830 the population was 6138. Andover, a post-toavnship, is situated on the
+                    south-east side of the Merrimac, twenty miles north of Boston. It is a pleasant
+                    and flourishing place, containing three parishes, in each of which there is a
+                    congregational meeting-house. Andover has some manufactures, but it is chiefly
+                    celebrated for its literary institutions, particularly the theological seminary
+                    already noticed. The population is about 4000. Amongst the manufacturing towns
+                    not already described are Fitchburg and Milbury in the county of Worcester,
+                    Bridgewater and Middleborough, noted for their manufactures of iron, Leominster,
+                    Mendon, Troy, Leicester, and various other places too numerous to mention.</p>
+                <p>Nantucket is an island of Massachusetts, situated to the south of the peninsula
+                    of Cape Cod, at the distance of 120 miles south-south-east of Boston. It is
+                    fifteen miles in length, and at its widest part eleven miles in breadth, being
+                    situated in long. 69. 56. to 70. 13. west, lat. 4L 13. to 41. 22. north. The
+                    island, town, and county of Nantucket have the same limits; but the county of
+                    Dukes is associated with it for several political purposes. A great proportion
+                    of the inhabitants are Quakers, and the land is held in common; but it is sandy
+                    and unproductive. Little attention is paid to agriculture, and the sheep and
+                    cows of all the inhabitants feed on one extensive common. The right of the
+                    island was originally granted by William earl of Stirling, to Thomas Mayhew, and
+                    conveyed by him to nine proprietors, who divided it into twenty-seven shares in
+                    1659. It is mostly a joint property to this day, but the number of shares has
+                    been increased to several thousands. The inhabitants are chiefly engaged in the
+                    whale-fishery, and the seamen are celebrated for their skill and daring. Their
+                    trade suffered severely during the late war, and also by the war of the
+                    revolution, but it is now flourishing; and several very extensive spermaceti
+                    works are in full operation.</p>
+                <p>The port of Nantucket is situated upon the north-west side of the island, and has
+                    a very good harbour. It contains two banks, two insurance offices, and seven
+                    houses of public worship. Education is well attended to, and the habits of the
+                    people are generally moral and industrious. For many years the island has been
+                    destitute of indigenous trees, and few are cultivated. In 1820 the amount of
+                    shipping was 28,512 tons. To the west of Nantucket is another island called
+                    Martha’s Vineyard, but it is of comparatively little importance.</p>
+                <p>In the year 1831 there were in Massachusetts 8981 mills and 339,777 spindles at
+                    work. At the same time, 69,880 spindles were in the course of being erected.
+                    There were sold of yarn during that year 807,366 pounds, and of cloth 79,231,000
+                    yards. Woollen goods are also manufactured to a very considerable extent, and
+                    there are several glasshouses, and paper and other manufactories. In 1833 two
+                    lead manufactories existed in Salem, and made the following quantities, viz.
+                    white lead 2,081,894 pounds, red lead 42,236 pounds, and acetate of lead 20,586
+                    pounds; the value of the whole being 195,000 dollars. The making of braid or
+                    straav bonnets, and palm-leaf hats, is a branch of industry carried on to a
+                    considerable extent; and in 1830 common salt was manufactured in this state to
+                    the amount of 567,239 bushels. The preparing of flax and hemp, the making of
+                    combs and buttons, also constitute considerable branches of domestic industry.
+                    The following are returns for the year 1830 of the quantity of shipping
+                    belonging to Massachusetts:</p>
+                <p>Of registered vessels, 402 ships, 433 brigs, 141 schooners, and three sloops; of
+                    enrolled and licensed vessels, 55 brigs, 1546 schooners, 472 sloops, and eight
+                    steam-boats; of licensed vessels under twenty tons, 54 schooners, and 47 sloops.
+                    The total number of vessels was 3161, manned by 23,270 mariners. Massachusetts
+                    monopolizes nearly the whole of the North American whale-fishery. By returns for
+                    the winter of 1834, above 434 vessels were engaged in this trade, of which 286
+                    belonged to the state of Massachusetts. The number of vessels employed in the
+                    sperm fishing in New Bedford and Nantucket during the same year was 181, and
+                    there were a few more from other ports of Massachusetts. The following is a
+                    statement of the commerce of the state for the year ending September 1833.
+                    Imported in American vessels 19,447,267; in foreign vessels 493,644; total
+                    amount of imports 19,940,911 dollars. Domestic produce exported in American
+                    vessels 4,779,492; in foreign vessels 371,092; total 5,150,584. Foreign produce
+                    exported in American vessels 4,301,004; in foreign vessels 231,534; total
+                    4,532,538. Total value of domestic and foreign produce exported, 9,683,122
+                    dollars. At the commencement of 1834 there were in Massachusetts 102 banks. The
+                    capital amounted to 28,236,250; notes issued were 7,889,110; specie and specie
+                    funds 922,309; deposits 11,666,122; discounts of notes, &amp;c. 45,261,008
+                    dollars. The amount of postage received for the year ending 31st March 1832 was
+                    129,712,20 dollars. In 1810 only thirty-two newspapers were published in
+                    Massachusetts, but in 1834 there were no less than 108 established in the state.
+                    The number of monthly, quarterly, and other periodicals is proportionally
+                    great.</p>
+                <p>The first English settlement made in New England was formed by 101 persons, who
+                    fled from religious persecution in England, landed at Plymouth on the 22d of
+                    December 1620, and laid the foundation of Plymouth colony. The settlement of the
+                    colony of Massachusetts Bay was commenced at Salem in 1628, and in 1630 Boston
+                    was settled. For many years the colonies styled the Plymouth colony and the
+                    colony of Massachusetts continued separate, each electing its own governor and
+                    managing its own affairs independently of the other. In 1685-86, however, they,
+                    with the rest of the New England states, were deprived of their charters, and
+                    placed under the government, first of Joseph Dudley, and afterwards of Sir
+                    Edmond Andros. In 1692 they were united into one colony under a new charter, and
+                    the governors were afterwards appointed by the king. The constitution was formed
+                    in the year1780, and amended in 1821. The legislative power is vested in a
+                    senate and House of Representatives, which together are styled the General Court
+                    of Massachusetts. The members of the House of Representatives are elected
+                    annually, and consist in all of between 500 and 600 individuals. Every corporate
+                    town having 150 rateable polls may elect one representative, and another for
+                    every additional 225 rateable polls. The senate consists of forty members, who
+                    are chosen by districts annually. The governor or supreme executive magistrate
+                    is also elected annually, and is assisted in his office by a council of nine
+                    members, who are chosen, by the joint ballot of the senators and
+                    representatives, from amongst the senators. The general court meets at Boston on
+                    the first Wednesday of January. The right of suffrage is granted to every male
+                    citizen twenty-one years of age (excepting paupers and persons under
+                    guardianship) who has resided within the commonwealth one year, and within the
+                    town or district in which he may claim a right to vote, six calendar months
+                    immediately preceding any election, and who has paid a state or county tax
+                    assessed upon him within two years preceding such election; and also every
+                    citizen who may be by law exempted<pb break="no" facs="nls:194203813"
+                    xml:id="kp-eb0714-3813-0307"/> from taxation, and who may be in all other
+                    respects qualified as above mentioned. The judiciary power is vested in a
+                    supreme court and a court of common pleas, consisting of four members each,
+                    besides such other courts as the legislature may establish. The judges are
+                    appointed by the governor, by and with the advice and consent of the council,
+                    and they hold their offices during good behaviour. Justices of the peace have
+                    original and exclusive jurisdiction in all civil cases in which the debt or
+                    damages demanded do not exceed twenty dollars, except where the title to real
+                    property comes in question. They have concurrent criminal jurisdiction as to
+                    breaches of the peace not aggravated in their nature, and in cases of larceny
+                    where the goods stolen do not exceed the value of five dollars. The court of
+                    common pleas has an appellate jurisdiction in all civil and criminal cases tried
+                    originally before a justice of the peace. It has original and exclusive
+                    jurisdiction in all civil commonlaw cases, where the damage or debt demanded
+                    exceeds the sum of twenty dollars; and final jurisdiction where the damages
+                    demanded do not exceed one hundred dollars. Its criminal jurisdiction depends
+                    generally upon particular statutes. In relation to offences at common law, its
+                    jurisdiction includes everything where the punishment does not extend to life,
+                    demembration, or banishment, except where the punishment is by statute to be
+                    administered by the supreme court. In cases of mortgages, and of forfeitures
+                    annexed to contracts, this court has a concurrent chancery jurisdiction. The
+                    supreme judicial court has appellate jurisdiction in all cases where the debt or
+                    damage exceeds one hundred dollars, and in all criminal cases originally tried
+                    in the court of common pleas or the municipal court of the city of Boston. It
+                    has concurrent jurisdiction in all criminal cases cognisable by the inferior
+                    courts, and original and exclusive jurisdiction in all capital cases. It has
+                    also original and exclusive jurisdiction in all cases of alimony and divorce;
+                    and chancery powers in cases of trusts, specific performance of contracts in
+                    writing, mortgages, settlement of partnership accounts,waste, nuisance, and
+                    forfeitures annexed to contracts. It is the supreme court of probate, entertains
+                    appeals from the probate courts of the counties, and has a general
+                    superintending power over all inferior tribunals by writ of error, certiorari,
+                    quo warranto, &amp;c. The probate courts, of which there is one in each county,
+                    consisting of a single judge, have original and exclusive jurisdiction in the
+                    probate of wills, settlement of estates, and guardianship of minors, idiots,
+                    lunatics, and others. There is in Boston a police court, consisting of three
+                    justices; a justices’ court for the county of Suffolk; and a municipal court,
+                    consisting of one judge who takes cognizance of all crimes not capital committed
+                    within the county of Suffolk, and appellate jurisdiction in all criminal cases
+                    tried before the police court. (κ. <hi rend="smallcaps">r. r.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

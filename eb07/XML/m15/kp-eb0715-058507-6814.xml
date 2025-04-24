@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0715-6814-0585-07" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">MOZART, John Chrysostom-Wolfgang-Theophilus</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 15, page 585</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="18" ref="fasttopic:1030269">Music</term>
+                    <term n="18" ref="fasttopic:1030814">Musicals</term>
+                    <term n="11" ref="fasttopic:1063355">Piano</term>
+                    <term n="5" ref="fasttopic:1095083">Requiems</term>
+                    <term n="6" ref="fasttopic:1046191">Operas</term>
+                    <term n="1" ref="fasttopic:980750">Italians</term>
+                    <term n="1" ref="fasttopic:1737291">Italianization</term>
+                    <term n="1" ref="fasttopic:942100">Germans</term>
+                    <term n="1" ref="fasttopic:942099">Germanization</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="1" ref="lcsh1910:b45m62b4v">Germans</term>
+                    <term n="1" ref="lcsh1910:b4z892g7x">Chapels</term>
+                    <term n="1" ref="lcsh1910:b4r49gb4d">Church</term>
+                    <term n="1" ref="lcsh1910:b47d2q898">Churches</term>
+                    <term n="18" ref="lcsh1910:b42v2ch0v">Music</term>
+                    <term n="11" ref="lcsh1910:b4g44hz0k">Piano</term>
+                    <term n="6" ref="lcsh1910:b4m90251t">Opera</term>
+                    <term n="5" ref="lcsh1910:b4v11vw02">Work</term>
+                    <term n="5" ref="lcsh1910:b4x34mr95">Art</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="3" ref="fastgeo:1754964">Rome</term>
+                    <term n="1" ref="fastgeo:1205401">Switzerland</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193826814" type="entry">
+                <p><label type="entry">MOZART, <hi rend="smallcaps">John
+                    Chrysostom-Wolfgang-Theophilus</hi></label>, the illustrious musical composer,
+                    was born at Salzburg, on the 27th of January 1756. He was the son of Leopold
+                    Mozart, a musician in the employment of the Prince-archbishop of Salzburg, and
+                    Anna Maria Perth Both parents were noted for their uncommon beauty. Mozart was
+                    scarcely three years old when he manifested the most astonishing disposition for
+                    music. With an instinctive perception of beauty, his great delight was to seek
+                    for <hi rend="italic">thirds</hi> on the piano, and nothing could equal his joy
+                    when he found this harmonious chord. At the age of four his father taught him
+                    some minuets, and other pieces of music. Mozart would learn a minuet in half an
+                    hour, and a longer piece in less than twice that time; and immediately
+                    afterwards, he played them with remarkable clearness, and perfectly in time.
+                    Before he was six, he had invented several small pieces himself, and even
+                    attempted compositions of some extent and intricacy. The vivacity of his mind
+                    led him to attach himself easily to every new object that was presented to him.
+                    He pursued the usual tasks of childhood with ardour; and when learning
+                    arithmetic, covered the tables, chairs, and walls with figures which he had
+                    chalked upon them. Music, however, soon became his favourite study, and in his
+                    juvenile efforts in composition, he showed a consistency of thought and a
+                    symmetry of design which promised a maturity of the highest genius.</p>
+                <p>One day, his father returning from church with a friend, found his son busy
+                    writing. “What are you doing there, my little fellow ?” he asked. “I am
+                    composing a concerto for the harpsichord, and have almost got to the end of the
+                    first part.” “Let us see this fine scrawl.” “No, I have not yet finished it.”
+                    The father, however, took the paper, <pb break="no" facs="nls:193826827"
+                    xml:id="kp-eb0715-6827-0586"/>and showed his friend a sheet full of notes, which
+                    could scarcely be deciphered for the blots of ink. The two friends at first
+                    laughed at this heap of scribbling; but after regarding it a little more
+                    seriously, the father’s eyes overflowed with tears of joy and wonder. “Look, my
+                    friend,” said he, with a smile of delight, “every thing is composed according to
+                    rule. It is a pity the piece cannot be made any use of; but it is too difficult;
+                    nobody would be able to play it.” “It is a concerto,” replied the son, “and must
+                    be studied till it can be properly played. This is the style in which it ought
+                    to be executed.” He accordingly began to play, but succeeded only so far as to
+                    give them an idea of what he intended.</p>
+                <p>The extraordinary precocity of his son’s genius induced Leopold Mozart to exhibit
+                    him at the different courts in Germany. As soon therefore as Wolfgang had
+                    attained his sixth year, the Mozart family, consisting of the father, mother, a
+                    young daughter who had made very considerable proficiency on the harpsichord,
+                    and Wolfgang, took a journey to Munich. This expedition succeeded in every
+                    respect. The young artists, delighted at the reception which they had met with,
+                    redoubled their application, and acquired a degree of execution on the piano,
+                    which no longer required the consideration of their youth to render it
+                    remarkable. During the autumn of the year 1762, the whole family repaired to
+                    Vienna, where the children performed before the court. Here they met with the
+                    celebrated Wagenseil. When Mozart, who knew already how to esteem the
+                    approbation of a great master, sat down to play before the Emperor Francis, he
+                    asked his majesty, “Is not Μ. Wagenseil here? we must send for him; he
+                    understands these things.” The emperor sent for Wagenseil, and gave up his place
+                    to him at the side of the piano. “Sir,” said Mozart to the composer, “I am going
+                    to play one of your concertos; you must turn over the leaves for me.”</p>
+                <p>Hitherto the young Mozart had only played upon the harpsichord. On his return
+                    from Vienna to Salzburg, he brought with him a small violin, and amused himself
+                    with it. Wenzl, a skilful violin player, came to consult Leopold Mozart about
+                    some trios he had written. It was proposed to try the music. The father played
+                    the bass, Wenzl the first violin, and Schachtncr, the archbishop’s trumpeter,
+                    was to have played the second; but Wolfang insisted so much en being allowed to
+                    take this part, that his father at last consented to his playing it on his
+                    little violin. It was the first time he had heard his son seriously attempt this
+                    instrument, which, to the astonishment and delight of the party, he played with
+                    marvellous precision.</p>
+                <p>Every day afforded fresh proofs of Mozart’s exquisite organization for music. He
+                    could distinguish and point out the slightest differences of sound; and every
+                    false or even rough note, not softened by some chord, was a torture to him. It
+                    was from this cause that, during the early part of his childhood, and even till
+                    he had attained his tenth year, he had an insurmountable horror for the trumpet
+                    when it was not used merely as an accompaniment. The sight of this instrument
+                    produced upon him much the same impression as that of a loaded pistol does upon
+                    other children when pointed at them in sport. His father thought he could cure
+                    him of this fear by causing the trumpet to be blown in his presence,
+                    notwithstanding his son’s entreaties to be spared that torment; but at the first
+                    blast the boy turned pale, fell upon the floor, and would probably have been in
+                    convulsions if they had not immediately ceased.</p>
+                <p>In 1763, when Mozart was in his seventh year, his family set out upon their first
+                    expedition beyond the boundaries of Germany; and it is from this period that the
+                    celebrity of the name of Mozart in Europe is to be dated. They visited Paris and
+                    many other cities on the Continent; and in the year 1764 came to London, where
+                    the children played before the king. Mozart also played the organ at the Chapel
+                    Royal; and with this the king was even more pleased than with his performance on
+                    the harpsichord. During this visit, he composed six sonatas, which he dedicated
+                    to the queen. He afterwards returned to France, whence he proceeded to Holland
+                    and Switzerland; and on his arrival at his native place in 1766, he composed, at
+                    the request of the Emperor Joseph, the music of an opera-buffa called the <hi
+                    rend="italic">Finta</hi><hi rend="italic">Semplice,</hi> which was approved of
+                    by Hasse and Metastasio. At the dedication of the Church of the Orphans he
+                    composed the music of the mass, and directed this solemn service, in the
+                    presence of the imperial court, although he was at that period only twelve years
+                    old.</p>
+                <p>In the month of December 1769, his father took him to Italy, and in every city
+                    met with an enthusiastic reception. Young Mozart had not as yet ventured out of
+                    the beaten track of composers; but, preserving the old forms of melody and
+                    harmony, he wrote in a style which was particularly learned and correct. His
+                    operas at this period were thought to have an air of stiffness, from the
+                    cen-trapuntal knowledge which they exhibited. What principally distinguished him
+                    from other composers, was the facility with which he scored, and the
+                    extraordinary fluency of his ideas. It was probably, too, from reading
+                    Metastasio at this period that Mozart’s taste in lyric poetry was formed; for in
+                    maturer life he was fastidious in the choice of the words he set to music, and
+                    the uninterrupted flow of melody and versification distinguished his airs from
+                    those of any other composer. Another circumstance of the Italian tour, which
+                    proved influential upon the after life of Mozart, was the daily hearing of the
+                    highest and most pathetic style of church music, Italy having in the latter part
+                    of the last century produced some of her greatest ecclesiastical works. In the
+                    celebrated <hi rend="italic">Requiem,</hi> which was composed purely from love
+                    of the <hi rend="italic">expressive</hi> in sacred music, we may discover the
+                    result of the author’s young devotion to this branch of the art, the consequence
+                    of listening to choral effects in the cathedrals of Italy.</p>
+                <p>Mozart having engaged to produce the first opera for the carnival of Milan, our
+                    travellers proceeded to Bologna, where Wolfgang found an enthusiastic admirer in
+                    Padre Martini, who was astonished to find a boy of fourteen years old capable of
+                    giving answers instantly in the <hi rend="italic">rigore</hi><hi rend="italic"
+                    >modi,</hi> to any subject of fugue laid before him. In Rome Mozart gave a
+                    miraculous attestation of his quickness of ear and extensive memory, by bringing
+                    away from the Sistine Chapel the <hi rend="italic">Miserere</hi> of Allegri, a
+                    work full of imitation and repercussion, mostly for a double choir, and
+                    continually changing in the combination and relation of the parts. He drew out a
+                    sketch of this celebrated composition upon the first hearing, and filled it up
+                    from recollection at home. He then repaired to the second and last performance
+                    with his manuscript in his hat, and corrected it. He afterwards produced his
+                    copy at a concert in Rome, and one of the singers who sang at the performance of
+                    the <hi rend="italic">Miserere</hi> pronounced it perfect. Mozart thus became
+                    famous in Rome, a city where it was most difficult to excite attention in any
+                    thing relating to the fine arts, on account of the numerous productions of art
+                    which were then every day presented, and formed subjects of constant and
+                    familiar contemplation.</p>
+                <p>In December 1770, the first representation of his opera, <hi rend="italic"
+                    >Mitridate Re di Ponto,</hi> took place at Milan. It met with remarkable favour,
+                    and was performed twenty nights in succession. He afterwards wrote several other
+                    operas, one of which, entitled <hi rend="italic">Lucio Silla,</hi> was likewise
+                    represented twenty times. But the epoch at which Mozart’s genius ripened may be
+                    dated from his twentieth year. Constant study and practice had given him ease in
+                    composition, and ideas came thicker with his early manhood. The fire, the <pb
+                    break="no" facs="nls:193826840" xml:id="kp-eb0715-6840-0587"/> melodiousness,
+                    the boldness of harmony, the inexhaustible invention, which characterize his
+                    works, were at this time apparent. He began to think in a manner entirely
+                    independent, and to perform what he had promised as a regenerator of the musical
+                    art.</p>
+                <p>Mozart produced his first great opera, <hi rend="italic">Idomeneo,</hi> in his
+                    twenty-fifth year. He was then enamoured of Mademoiselle Constance Weber, a
+                    celebrated actress, whom he afterwards married. The family of his mistress
+                    having opposed the match, on account of his unsettled habits and situation, he
+                    was desirous of showing them that, although he had no recognised rank in
+                    society, he nevertheless possessed the means of obtaining consideration; and his
+                    attachment to Constance supplied him with the subjects of the impassioned airs
+                    which his work required. The love and vanity of the young composer, thus
+                    stimulated to the highest pitch, enabled him to produce the opera of <hi
+                    rend="italic">Idomeneo,</hi> which he always regarded as one of his best, and
+                    from which he has frequently borrowed ideas for his subsequent works.</p>
+                <p>Mozart being now happily married and settled, gave himself up to his profession.
+                    In 1787 he produced <hi rend="italic">Le</hi><hi rend="italic">Nozze di
+                    Figaro,</hi> and <hi rend="italic">II Don Giovanni,</hi> and afterwards his <hi
+                    rend="italic">Cosi fan</hi><hi rend="italic">Tutte,</hi> and <hi rend="italic"
+                    >La Clemenza di Tito,</hi> an opera of Metastasio, which was performed for the
+                    first time in 1792. He wrote only three German operas, <hi rend="italic"
+                    >Die</hi><hi rend="italic">Zauber-flöte,</hi><hi rend="italic">Die</hi><hi
+                    rend="italic">Entführung aus dem Serail,</hi> and <hi rend="italic">Der
+                    Schauspiel-director.</hi></p>
+                <p>His works composed for the stage consist altogether of twelve operas. He left
+                    seventeen symphonies and instrumental pieces of all kinds, besides masses and
+                    other church compositions. He was one of the first piano-forte performers in
+                    Europe. He played with extraordinary rapidity, and the execution of his left
+                    hand was especially admired. Haydn said, “I never can forget Mozart’s playing;
+                    it went to the heart.”</p>
+                <p>Entirely absorbed in music, this great man was a child in almost every other
+                    respect. His hands were so wedded to the piano, that he could use them for
+                    nothing else. At table his wife carved for him; and in every thing relating to
+                    money, or to the management of his domestic affairs, or even the choice and
+                    arrangement of his amusements, he was entirely under her guidance. But, seated
+                    at the piano-forte, he appeared a being of another order. His mind then took
+                    wing, and his whole attention was directed to the development of his art. His
+                    health was very delicate, and during the latter part of his too short life it
+                    declined rapidly. At times he laboured under a profound melancholy, and in this
+                    state he wrote <hi rend="italic">Die Zauberflote,</hi> the <hi rend="italic"
+                    >Clemenza di Tito,</hi> and his celebrated mass in D minor, commonly known by
+                    the name of his <hi rend="italic">Requiem.</hi> The circumstances which attended
+                    the composition of the last of these works are too remarkable to be omitted in
+                    any notice of the life of Mozart.</p>
+                <p>One day, when his spirits were unusually oppressed, a stranger, of a tall
+                    dignified appearance, was introduced. The manners of this stranger were grave
+                    and impressive, and he told Mozart that he came from a person who did not wish
+                    to be known, to request he would compose a solemn mass, as a requiem for the
+                    soul of a friend whom he had recently lost, and whose memory he was desirous of
+                    commemorating by this solemn service. Mozart undertook the task, and engaged to
+                    have it completed in a month. The stranger begged to know what price he set upon
+                    his work, and having immediately paid him a hundred ducats, took his leave. The
+                    mystery of this visit seemed to have a very strong effect upon the mind of the
+                    musician. He brooded over it for some time, and then suddenly calling for
+                    writing materials, began to compose with extraordinary ardour. This application,
+                    however, was more than his strength could support; it brought on fainting fits,
+                    and his increasing ill ness obliged him to suspend his work. “I am writing this
+                    Requiem for myself,” said he abruptly to his wife one day; “it will serve for my
+                    own funeral service;” and this impression never afterwards left him. At the
+                    expiration of the month, the mysterious stranger appeared, and demanded the
+                    Requiem. “I have found it impossible,” said Mozart, “to keep my word; the work
+                    has interested me more than I expected, and I have extended it beyond my first
+                    design. I shall require another month to finish it.” The stranger made no
+                    objection; but observing, that for this additional trouble it was but just to
+                    increase the premium, laid down fifty ducats more, and promised to return at the
+                    time appointed. Astonished at the whole proceedings, Mozart ordered a servant to
+                    follow this singular personage, and if possible find out who he was; the man,
+                    however, lost sight of him, and was obliged to return as he went. Mozart, now
+                    more than ever persuaded that he was a messenger from the other world sent to
+                    warm him that his end was approaching, applied with fresh zeal to the Requiem,
+                    and, in spite of the exhausted state both of his mind and body, completed it
+                    before the end of the month. At the appointed day the stranger returned; but
+                    Mozart was no more. He died on the 5th of December 1791, before he had completed
+                    his thirty-sixth year.</p>
+                <p>The distinguishing characteristic of the music of Mozart is its power of touching
+                    the deepest feelings of the soul. He has been justly styled the Raffaelle of
+                    music. He had many of the fine qualities and modest perfections of the great
+                    painter, whom he also resembled in the fertility and variety of his genius.
+                    Mozart embraced his art in its whole extent, and excelled in all its
+                    departments. When, indeed, we bring into view all his qualifications as a
+                    composer and a practical musician, the result is astonishing. The same man,
+                    under the age of thirty-six, was at the head of dramatic, sinfonia, and
+                    piano-forte music; he was eminent in the sacred style, and equally at his ease
+                    in every variety, from the elaborate concerto to the simplest pieces of music.
+                    He put forth about eight hundred compositions, including masses, motetts,
+                    operas, and fragments of different kinds; at the same time supporting himself by
+                    teaching and giving public performances, at which he executed concertos on the
+                    piano-forte, the violin, the organ, or played extempore.</p>
+                <p>Of his operas, he esteemed most highly <hi rend="italic">II Don Giovanni</hi> and
+                    <hi rend="italic">Idomeneo.</hi> He seldom spoke of his own works; but of the
+                    <hi rend="italic">Don Giovanni</hi> he one day observed, “This opera was not
+                    composed for the public of Vienna; it is better suited to Prague: but, to say
+                    the truth, I wrote it only for myself and my friends.” In this extraordinary
+                    production, so remarkable for exquisite melodies and profound harmonies, the
+                    playful, the tender, the pathetic, the mysterious, the sublime, and the
+                    terrible, may be distinctly traced. The composer exhibits throughout the work
+                    the most romantic imagination; and in the awful accompaniment to the reply of
+                    the statue, we have a specimen of composition replete with terrific expression,
+                    but at the same time perfectly free from inflation or bombast. The ghost scene
+                    in the last act maybe considered as the greatest effort of dramatic composition.
+                    Well has the style of Mozart been described as that of Shakspeare in music. The
+                    fear of Leporello is painted with true comic spirit; a thing rather unusual with
+                    Mozart. But melancholy is the prevailing passion in this masterpiece; and so
+                    strong, so distinct, so real, is the imagery in which it is presented to the
+                    soul, that minds possessed of the least enthusiasm are sure to be moved.</p>
+                <p>We have already seen that the <hi rend="italic">Idomeneo</hi> was the firstwork
+                    produced by Mozart that raised his name to celebrity as a dramatic composer.
+                    This opera, and the <hi rend="italic">Clemenza di Tito,</hi> are, in the opinion
+                    of judges, considered as the two best serious operas extant. His opera of <hi
+                    rend="italic">Le</hi><hi rend="italic">Nozze di Fi-</hi><pb break="no"
+                    facs="nls:193826853" xml:id="kp-eb0715-6853-0588"/><hi rend="italic">garo</hi>
+                    is also much admired. In this piece, it must be admitted that Mozart has changed
+                    the picture of Beaumarchais. The spirit of the original is preserved only in the
+                    situations; all the characters are altered to the tender and impassioned. But
+                    although the brilliant wit of the French author has not been conveyed, yet, as a
+                    work of pure tenderness and melancholy, entirely divested of any unsuitable
+                    admixture of the majestic and the tragical, the <hi rend="italic">Nozze di
+                    Figaro</hi> is unrivalled. It is difficult to form any idea of the <hi
+                    rend="italic">Zauberflote,</hi> without having seen it. The story, which is like
+                    the wandering of a delirious imagination, harmonizes admirably with the genius
+                    of the musician. The subject of <hi rend="italic">Cosi fan</hi><hi rend="italic"
+                    >Tutte</hi> is unsuitable to Mozart, who could not trifle with love. The tender
+                    parts of the characters in this opera are the best.</p>
+                <p>The sacred compositions of Mozart are celebrated all over Europe, and frequently
+                    performed in the Catholic churches. Of these works the most sublime is the <hi
+                    rend="italic">Requiem</hi><hi rend="italic">;</hi> but several of his other
+                    masses and motetts are noted for their grandeur and beauty. His symphonies,
+                    quartetts, and other works for the orchestra and stringed instruments, rank in
+                    estimation with those of Haydn and Beethoven. His piano-forte writings are also
+                    justly esteemed. Mozart’s sympathy was most extensive; he participated with
+                    Sebastian Bach in the beauty of the fugue, with Handel in the grandeur of church
+                    music, with Gluck in the serious opera, with Haydn in instrumental music, and in
+                    the universality of his genius surpassed them all.</p>
+                <p>In the exterior of Mozart there was nothing remarkable; he was diminutive in
+                    person, and had a very agreeable countenance, which, however, did not at the
+                    first glance discover the greatness of his genius. His eyes were tolerably large
+                    and well shaped, more heavy than fiery in the expression; and when he was thin
+                    they were rather prominent. His sight was quick and strong; but he had an
+                    unsteady, abstracted look, except when seated at the piano-forte, and then the
+                    whole form of his visage changed. His hands were small and beautiful, and he
+                    used them so softly and naturally upon the piano-forte, that the eye was no less
+                    delighted than the ear. His head was rather large in proportion to his body, but
+                    his hands and feet were in perfect symmetry. The stunted growth of Mozart’s body
+                    may have arisen from the efforts of his mind. He was always good humoured, but
+                    very absent, and in answering questions seemed to be thinking of something else.
+                    Mozart had six children, but two sons only survived him. His widow married Μ.
+                    von Nissen, at Vienna, who published, in 1829, a full and excellent biographical
+                    account of the composer. (z. z.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

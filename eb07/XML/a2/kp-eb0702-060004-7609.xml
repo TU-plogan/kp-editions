@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0702-7609-0600-04" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">AMBROSE</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 2, page 600</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="7" ref="fasttopic:1163799">Valentinians</term>
+                    <term n="5" ref="fasttopic:1100116">Romans</term>
+                    <term n="3" ref="fasttopic:814376">Arianism</term>
+                    <term n="3" ref="fasttopic:828176">Basilicas</term>
+                    <term n="2" ref="fasttopic:859599">Christianity</term>
+                    <term n="13" ref="fasttopic:908898">Emperors</term>
+                    <term n="6" ref="fasttopic:833378">Bishops</term>
+                    <term n="6" ref="fasttopic:1198492">Faith</term>
+                    <term n="6" ref="fasttopic:1058072">Periodicals</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="3" ref="lcsh1910:b4xp6v36q">Arianism</term>
+                    <term n="3" ref="lcsh1910:b49k45s7h">Basilicas</term>
+                    <term n="2" ref="lcsh1910:b49c6s277">Christianity</term>
+                    <term n="2" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="2" ref="lcsh1910:b4599z56c">Goths</term>
+                    <term n="13" ref="lcsh1910:b4sq8qm4p">Emperors</term>
+                    <term n="6" ref="lcsh1910:b42804z62">Bishops</term>
+                    <term n="6" ref="lcsh1910:b4z892f8z">Faith</term>
+                    <term n="6" ref="lcsh1910:b4gf0n262">Periodicals</term>
+                    <term n="5" ref="lcsh1910:b4kh0f02c">Death</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="4" ref="fastgeo:1754964">Rome</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193037609" type="entry">
+                <p><label type="entry">AMBROSE</label>, of Alexandria, lived in the beginning of the
+                    third century, and was the intimate friend of Origen. Jerome and Eusebius differ
+                    in the account they give of this man. The one denominates him a Marcionite, the
+                    other a Valentinian; but they both agree that he was converted to the orthodox
+                    faith by the preaching of Origen. As is generally the case with new proselytes,
+                    he became very zealous, and was appointed deacon either at Alexandria, or at
+                    Caesarea, where Protectetus was presbyter. Origen dedicated many of his works,
+                    and among others his book on martyrdom, to Ambrose, at whose desire and expense
+                    they were published. Origen and Ambrose were alike indefatigable in their
+                    application to study, and lived on terms of the most intimate friendship. Origen
+                    being poor, Ambrose assisted him, by providing notaries and amanuenses to copy
+                    his works. In that period of society, when the increase of copies was a work of
+                    immense labour and great expense, these were not only instances of private
+                    friendship, but of public utility. Ambrose is thus justly entitled to rank among
+                    the patrons of learning. He has been blamed by some for having made no provision
+                    at his death for the poor infirm Origen. His friends plead in defence of his
+                    conduct, that Origen chose to live poor, and daily dependent on a divine
+                    Providence. According to some historians, Ambrose died a martyr, along with his
+                    friend Protectetus, in the persecution under Maximin, about the year 236; but
+                    the dedication of Origen’s eight books against Celsus proves, that though he
+                    died before Origen, yet he lived to the year 250, or near that period. Origen
+                    speaks of him as a man of sincere piety, and much devoted to the study of the
+                    sacred Scriptures.</p>
+                <p><hi rend="smallcaps">Ambrose,</hi><hi rend="italic">Saint,</hi> Bishop of Milan,
+                    was one of the most eminent fathers of the church in the fourth century. He was
+                    a citizen of Rome, and born in France; according to some historians, in the year
+                    334, but, according to others, in 340. The birth of Ambrose is said to have been
+                    attended with a remarkable presage of his future eloquence, by a swarm of bees
+                    settling upon his mouth as he lay in his cradle. At the period of his birth his
+                    father was pretorian prefect of Gallia Narbonensis; but upon his death, the
+                    widow repaired to Rome with her family. Ambrose received a religious education,
+                    and was reared in habits of virtuous conduct by his mother, an accomplished
+                    woman, and eminent for her piety. The names of his instructors in the rudiments
+                    of Greek and Roman literature have not been transmitted to posterity; but in
+                    these branches he made early proficiency; and, having directed his attention to
+                    the law, he employed his eloquence with such reputation in the pretorian court
+                    of Anicius Probus, that he was soon deemed worthy of a place in the council.
+                    After he had continued in this station for some time, Probus appointed him
+                    consular of Liguria and Emilia, comprehending the territories of Milan, Liguria,
+                    Turin, Genoa, and Bologna. Milan was chosen for the place of his residence; and,
+                    by the prudent and gentle use of his power, he conducted the affairs of the
+                    province with general approbation and growing popularity.</p>
+                <p>In the year 374 Auxentius, the bishop of that city, died, and his death gave
+                    sudden change to the fortune and literary pursuits of Ambrose. At that period
+                    the tide of religious contention ran high between the Catholics and the Arians,
+                    and there ensued a violent contest concerning the choice of a new bishop. When
+                    the people were assembled in the church to elect, Ambrose, in the character of
+                    governor of the place, presented himself to the assembly, and in a grave,
+                    eloquent, and pathetic address, admonished the multitude to lay aside their
+                    contentions, and, in the spirit of religious meekness, to proceed to the
+                    important work of choosing a bishop. It is reported, that when Ambrose had
+                    finished his address, a child cried out, “Ambrose is bishop.” The agitated
+                    multitude suddenly caught the superstitious flame, and regarding this as a
+                    miraculous intimation, they unanimously elected Ambrose bishop of Milan. Some
+                    suppose that this was entirely a device of Ambrose or his friends, and others
+                    ascribe it to mere accident. Ambrose strongly affected reluctance, and even
+                    pretended to fly from the city in order to avoid the intended honour. It is,
+                    however, unfortunate for the artifice of the governor, that the place of his
+                    concealment was soon discovered, when the emperor’s confirmation of his election
+                    was made known to him. Finding it inconvenient any longer to resist the public
+                    choice, he exchanged the ensigns of civil for those of ecclesiastical dignity;
+                    and, after being baptized, he was ordained bishop of Milan, about the end of the
+                    year 374. But whatever may be the sentiments of mankind concerning the singular
+                    conduct of Ambrose in accepting an office for which he was certainly unqualified
+                    in respect of previous studies, habits, and employments, yet it must be
+                    admitted, that he immediately betook himself to the necessary studies, and
+                    acquitted himself in his new elevation with ability, boldness, and integrity.
+                    Having appropriated his money to the poor, settled his lands upon the church,
+                    with the exception of making his sister tenant during life, and having committed
+                    the care of his family to his brother, he entered upon a regular course of
+                    theological study, under the care of Simplician, a presbyter of Rome, and
+                    devoted himself to the labours of the church.</p>
+                <p>Compelled by the irruption of the Goths and the northern barbarians, who rushed
+                    down upon the Roman empire, spreading terror and desolation all around, Ambrose,
+                    along with several others, fled to Illyricum; but his exile was of short
+                    duration, for the northern invaders having been quickly defeated by the forces
+                    of the emperor, and driven back with considerable loss into their dominions, he
+                    and his companions returned to their respective habitations.</p>
+                <pb break="no" facs="nls:193037622" xml:id="kp-eb0702-7622-0601"/>
+                <p>After his return to the ecclesiastic station, his eloquence and abilities found
+                    ample scope in the dispute between the Arians and Catholics. About this era the
+                    doctrine of Arius concerning the person of Christ had been extensively received,
+                    and had many powerful defenders both among the clergy and the common people.
+                    Ambrose espoused the cause of the Catholics: Gratian, the son of the elder
+                    Valentinian, marshalled on the same side; but the younger Valentinian, who was
+                    now become his colleague in the empire, adopted the opinions of the Arians; and
+                    all the arguments and eloquence of Ambrose were insufficient to reclaim the
+                    young prince to the orthodox faith. Theodosius, the emperor of the East, also
+                    professed the orthodox faith; yet there were numerous adherents to Arius
+                    scattered throughout his dominions. In this distracted state of religious
+                    opinion, two leaders of the Arians, Palladius and Secundianus, confident of
+                    numbers, prevailed upon Gratian to call a general council from all parts of that
+                    empire. This request appeared so equitable that he complied without hesitation;
+                    but Ambrose, aware of the consequence, had the eloquence to persuade the emperor
+                    that a general council was improper, and that the matter could be determined by
+                    a council of the western bishops. The result was, that a synod, composed of 32
+                    bishops, was held at Aquileia in the year 381. Ambrose was elected president;
+                    and Palladius being called upon to defend his opinions, declined, insisting that
+                    the meeting was a partial one, and that the whole bishops of the empire not
+                    being present, the sense of the Christian church concerning the question in
+                    dispute could not be obtained. Ambrose mentioned several precedents in favour of
+                    the authority of the court; and added, that the oriental bishops, being
+                    acquainted with the place and nature of the meeting, might have been present, if
+                    they had deemed the matter in discussion worthy of their attention; therefore
+                    the court, although Palladius persisted in his refusal to plead his cause, put
+                    the vote, and he, along with his associate Secundianus, was ejected from the
+                    episcopal office. If Ambrose displayed great ardour in opposing the errors of
+                    Arius, he was equally zealous in combating the heathen superstitions. Upon the
+                    accession of Valentinian II., many of the senators who remained attached to the
+                    pagan idolatry made a vigorous effort to restore the worship of the heathen
+                    deities. Symmachus, a very opulent man and a great orator, who was at that time
+                    prefect of the city, was intrusted with the management of the pagan cause, and
+                    drew up a petition, praying that the altar of Victory might be restored to its
+                    ancient station in the hall of the senate, and for the proper support of seven
+                    vestal virgins, and the regular observance of the other pagan ceremonies. Great
+                    eloquence and peculiar insinuation characterized the petition. He argued that
+                    this form of religion had long been profitable to the Roman state, reminded the
+                    emperor how much Rome had been indebted to Victory, and that it had been the
+                    uniform custom of the senators to swear fidelity to the government upon that
+                    altar. He likewise produced many facts to prove the advantages derived to the
+                    state from its ancient religious institutions, and insinuated that it was one
+                    divinity that all men worshipped under different forms, so that ancient practice
+                    should not be rashly laid aside. He even proceeded so far as to state the
+                    injustice of increasing the public revenue by robbing the church, and attributed
+                    the late famine which had overtaken the empire to the neglect of the ancient
+                    worship.</p>
+                <p>To this petition Ambrose replied in a letter to Valentinian, arguing that the
+                    devoted worshippers of idols had often been forsaken by their deities; that the
+                    native valour of the Roman soldiers had gained their victories, and not the
+                    pretended influence of pagan priests; that these idolatrous worshippers
+                    requested for themselves what they refused to Christians; that voluntary was
+                    more honourable than constrained virginity; that as the Christian ministers
+                    declined receiving temporal emoluments, they should also be denied to pagan
+                    priests; that it was absurd to suppose that God would inflict a famine upon the
+                    empire for neglecting to support a religious system contrary to his revealed
+                    will in the Scriptures; that the whole process of nature encouraged innovations,
+                    and that all nations had permitted these, even in religion; that heathen
+                    sacrifices were exceedingly offensive to Christians; and that every Christian
+                    prince should suppress these pagan ceremonies.</p>
+                <p>In the epistles of Symmachus and of Ambrose both the petition and the reply are
+                    preserved, in which sophistry, superstition, sound sense, and solid argument,
+                    are strangely blended. It is scarcely necessary to add, that the petition was
+                    unsuccessful.</p>
+                <p>The increasing strength of the Arians proved too formidable for the zealous
+                    Ambrose. The young emperor and Justina, along with a considerable number of
+                    clergy and laity professing the Arian faith, requested from the bishop the use
+                    of two churches, one in the city, the other in the suburbs of Milan. The prelate
+                    believing the bishops to be the guardians both of the temporal and spiritual
+                    interests of the church, and that the religious edifices were the unquestionable
+                    property of the church, positively refused to deliver up the temples of the Lord
+                    into the impious hands of the heretics. Filled with indignation, Justina
+                    resolved to employ the imperial authority of her son in procuring by force what
+                    she could not procure by persuasion. Ambrose was required to answer for his
+                    conduct before the council. He went, attended by a numerous crowd of people,
+                    whose impetuous zeal so overawed the ministers of Valentinian, that he was
+                    permitted to retire without making the surrender of the churches. The day
+                    following, when he was performing divine service in the Basilica, the prefect of
+                    the city came to persuade him to give up at least the Portian church in the
+                    suburbs. Still continuing obstinate, the court proceeded to violent measures:
+                    the officers of the household were commanded to prepare the Basilica and the
+                    Portian churches to celebrate divine service upon the arrival of the emperor and
+                    his mother at the ensuing festival of Easter. The order respecting one of them
+                    was carried into effect; but the court, perceiving the growing strength of the
+                    prelate’s interest, deemed it prudent to use more lenient measures. But all
+                    measures proved in vain; the bishop boldly replied, “If you demand my person, I
+                    am ready to submit: carry me to prison or to death, I will not resist; but I
+                    will never betray the church of Christ. I will not call upon the people to
+                    succour me; I will die at the foot of the altar, rather than desert it. The
+                    tumult of the people I will not encourage; but God alone can appease.” This
+                    strong declaration was followed by a torrent of eloquence from the pulpit,
+                    pursuing his scheme with the most violent zeal. But the court remained
+                    unconvinced, and another attempt being made, under a strong guard of ferocious
+                    Goths, to seize the church of Basilica, when they were about to enter, Ambrose
+                    thundered the sentence of excommunication against them, and so overawed them
+                    that they retired, and he and his friends remained in possession of the
+                    churches. About this time, also, an Arian bishop challenged Ambrose to a dispute
+                    before the emperor; but he declined, saying that matters of faith should be
+                    determined by a council of bishops.</p>
+                <p>Many circumstances in the history of Ambrose are strongly characteristic of the
+                    general spirit of the times. The chief causes of his victory over his opponents
+                    were, <pb break="no" facs="nls:193037635" xml:id="kp-eb0702-7635-0602"/>his
+                    great popularity, and the superstitious reverence paid to the episcopal
+                    character at that period of society. But it must also be admitted, that he used
+                    several indirect means to obtain and support his popular authority. Many
+                    indigent persons were supported by his liberal bounty; in his explanations of
+                    Scripture he made constant and severe allusions to existing and public
+                    characters; the alternate mode of singing had no small effect upon the minds of
+                    the vulgar. At a time when the influence of Ambrose required vigorous support,
+                    he fortunately was admonished in a dream to search for the remains of Gervasius
+                    and Protasius, two martyrs who quietly reposed under the pavement of the church.
+                    The skeletons were found entire, stained with the blood, and the head of one of
+                    them separated from the body. The vulgar crowded in thousands to behold these
+                    venerable relics. According to report, a blind man was restored to sight,
+                    several demons were expelled, and sick persons healed, by touching these bones.
+                    Ambrose exulted in these miracles, and appealed to them in his eloquent sermons;
+                    while the court derided and called in question their existence. The bishop
+                    continued firm in his opinions, the people believed, and the existence of the
+                    miracles was established. And it is a very singular fact that these and many
+                    other miracles obtained current credit among the Christian historians of the
+                    second, third, and fourth centuries. Dr Cave, in speaking of them, says, “I make
+                    no doubt but God suffered them to be wrought, at this time, on purpose to
+                    confront the Arian impieties.”</p>
+                <p>Although the court were displeased with the religious principles and conduct of
+                    Ambrose, yet they respected his great political talents; and when necessity
+                    required, they solicited his aid, which he generously granted. When Maxentius
+                    usurped the supreme power in Gaul, and was meditating a descent upon Italy,
+                    Valentinian sent Ambrose to him, who prevailed upon him to desist from the
+                    undertaking. On a second attempt of the same kind Ambrose was employed; and
+                    although he was unsuccessful, yet, if his advice had been followed upon his
+                    return, the schemes of the usurper would have proved abortive; but, indifferent
+                    to his counsels, the enemy was permitted to enter Italy, and Milan was taken.
+                    Justina and her son fled; but Ambrose remained in his station, and proved
+                    beneficial to many of the sufferers, by causing the plate of the church to be
+                    melted for their relief. Theodosius, the emperor of the East, espoused the cause
+                    of Justina, and by force of arms regained the kingdom.</p>
+                <p>In the year 390 a tumult happened at Thessalonica, in which Botheric, one of the
+                    imperial officers, was slain. At this Theodosius was so enraged, that he issued
+                    a royal mandate for the promiscuous massacre of the inhabitants of that place;
+                    and about seven thousand persons were assassinated, without distinction or
+                    mercy. The courageous Ambrose, informed of this deed, wrote to the emperor a
+                    severe reproof, and an earnest admonition, charging him not to approach the holy
+                    communion with his hands stained with innocent blood. When the emperor was about
+                    to enter the church of Milan to attend upon the service, the bishop met him, and
+                    with a stern countenance prohibited him from approaching the temple of God. The
+                    emperor reminded him that David had been guilty of murder and of adultery. The
+                    bishop replied, “You have imitated David in his guilt; go and imitate him in his
+                    repentance.” The prince obeyed the priest, and, by a course of penitential
+                    sorrow, during the space of eight months, he laboured to regain the favour of
+                    the church. After the termination of this period he was absolved, but at the
+                    same time was made to sign an edict, that an interval of thirty days should
+                    intervene before the sentence of death or confiscation should be put in
+                    execution. When the mind reflects upon the pernicious effects of sudden and
+                    violent passion, this measure was certainly fraught with policy and humanity. If
+                    the reader laments the weakness which subjected the conscience to the clerical
+                    power, he must be gratified that so moderate a use was made of that
+                    authority.</p>
+                <p>The undaunted courage of Ambrose received another severe trial in the year 393,
+                    after the assassination of Valentinian, and the base Eugenio had usurped the
+                    empire of the West. Rather than join the standard of the usurper, he fled from
+                    Milan; but after the army of Theodosius was victorious, he generously
+                    supplicated the emperor for the pardon of those who had supported the cause of
+                    Eugenio. Theodosius, soon after he had acquired the uncontrolled possession of
+                    the Roman empire, died at Milan. The bishop did not long survive the emperor,
+                    but died in the year 397. In his last illness he preserved perfect composure of
+                    mind, informing his friends that he had endeavoured so to conduct himself that
+                    he might neither be ashamed to live nor to die.</p>
+                <p>On many accounts the character of the bishop of Milan stands high among the
+                    fathers of the ancient church. With unvarying steadiness he delivered his
+                    religious sentiments on all occasions; with unwearied assiduity he discharged
+                    the duties of his office; with unabated zeal and boldness he defended the
+                    orthodox cause, in opposition to the Arians; with a liberal hand he fed the
+                    numerous poor who flocked to his dwelling; with uncommon generosity he
+                    manifested kindness to his adversaries; and with Christian affection he sought
+                    the happiness of all men. His general habits were amiable and virtuous, and his
+                    powers of mind were uncommonly vigorous and persevering. Ambition and bigotry
+                    were the chief blemishes in his character.</p>
+                <p>The writings of Ambrose are voluminous, although little more than adulterated
+                    editions of Origen and other Greek fathers. The great design of his writings was
+                    to defend and propagate the Catholic faith. In some of these he recommends
+                    perpetual celibacy as the perfection of Christian virtue. Modern judgment and
+                    taste may perhaps induce some to esteem the writings of Ambrose absurd, trivial,
+                    and even ludicrous; but there is a smartness and vigour in his style, and there
+                    are excellent sentiments interspersed, which render the writings of the bishop
+                    of Milan worthy of a perusal. With his usual severity and acrimony, Gibbon too
+                    severely censures this prelate. “Ambrose,” says he, “could act better than he
+                    could write; his compositions are destitute of taste or genius, without the
+                    spirit of Tertullian, the copious elegance of Lactantius, the lively wit of
+                    Jerome, or the grave energy of Augustin.” The most accurate and complete edition
+                    of his works is that published by the Benedictines, printed at Paris in 1682, in
+                    two volumes folio.</p>
+                <p><hi rend="smallcaps">Ambrose,</hi><hi rend="italic">Saint,</hi> an island in the
+                    South Pacific Ocean, on the coast of Chili, four or five leagues due west from
+                    St Felix Island. At first view it appears like two small islands; but, after a
+                    nearer approach, they are found to be joined by a reef. It lies in long. 80. 55.
+                    W. and lat. 26. 13. S. from Greenwich. There is a large rock four miles to the
+                    northward of the island, called from its appearance <hi rend="italic"
+                    >Sail-rock.</hi> Captain Roberts, who was here in 1792, found St Felix Island
+                    inaccessible. On St Ambrose Island his crew in seven weeks killed 13,000 seals,
+                    and cured the skins, which were of the best quality. The island has little else
+                    to recommend it. Fish and crawfish aboun . The best season for sealing is from
+                    the first of April to the first of August. _ . .</p>
+                <p><hi rend="smallcaps">Ambrose,</hi><hi rend="italic">Isaac,</hi> an eminent
+                    Presbyterian minister, <pb break="no" facs="nls:193037648"
+                    xml:id="kp-eb0702-7648-0603"/>was educated at Brazen-nose College, Oxford, where
+                    he took the degree of bachelor of arts, and became minister of Preston, and
+                    afterwards of Garstang in Lancashire, whence he was ejected for nonconformity in
+                    1662. It was usual for him to retire every year for a month into a little hut in
+                    a wood, where he shunned all society, and devoted himself to religious
+                    contemplation. Dr Calamy observes, that he had a very strong presentiment of the
+                    approach of death, and took a formal leave of his friends at their houses a
+                    little before his departure; and on the last night-of his life he sent his
+                    discourse concerning <hi rend="italic">angels</hi> to the press. The next day he
+                    shut himself up in his parlour, where, to the great surprise and regret of all
+                    who saw him, he was found just expiring. He died in 1663-4, in the 72d year of
+                    his age. He wrote several other books, as the <hi rend="italic">Prima,</hi><hi
+                    rend="italic">Media,</hi><hi rend="italic">et</hi><hi rend="italic">Ultima,</hi>
+                    or the First, Middle, and Last Things; War with Devils; Looking unto Jesus,
+                    &amp;c.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

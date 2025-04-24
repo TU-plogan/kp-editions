@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0702-1434-0125-10" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">ACRE, or Acra</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 2, page 125</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="3" ref="fastgeo:1208755">Egypt</term>
+                    <term n="2" ref="fastgeo:1240495">Asia</term>
+                    <term n="2" ref="fastgeo:1219920">England</term>
+                    <term n="2" ref="fastgeo:1207649">Wales</term>
+                    <term n="2" ref="fastgeo:1206715">Scotland</term>
+                    <term n="1" ref="fastgeo:1208757">Syria</term>
+                    <term n="1" ref="fastgeo:1205427">Ireland</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="4" ref="lcsh1910:b45717v01">Saracens</term>
+                    <term n="4" ref="lcsh1910:b4p26qc7r">Turks</term>
+                    <term n="3" ref="lcsh1910:b49c6s277">Christianity</term>
+                    <term n="2" ref="lcsh1910:b4x34mt4n">Jews</term>
+                    <term n="2" ref="lcsh1910:b4tt4fz4p">Irish</term>
+                    <term n="11" ref="lcsh1910:b48p5vh3c">Perch</term>
+                    <term n="9" ref="lcsh1910:b4hq3s746">Towns</term>
+                    <term n="9" ref="lcsh1910:b4319s59c">Foot</term>
+                    <term n="8" ref="lcsh1910:b4dr2p79d">Land</term>
+                    <term n="7" ref="lcsh1910:b43j39307">Equality</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="5" ref="fasttopic:934209">French</term>
+                    <term n="4" ref="fasttopic:1159574">Turks</term>
+                    <term n="3" ref="fasttopic:859599">Christianity</term>
+                    <term n="3" ref="fasttopic:859760">Christians</term>
+                    <term n="3" ref="fasttopic:910709">English</term>
+                    <term n="11" ref="fasttopic:1057672">Perch</term>
+                    <term n="9" ref="fasttopic:931268">Foot</term>
+                    <term n="7" ref="fasttopic:914456">Equality</term>
+                    <term n="5" ref="fasttopic:1110395">Seas</term>
+                    <term n="5" ref="fasttopic:851789">Chains</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193031434" type="entry">
+                <p><label type="entry">ACRE, or <hi rend="smallcaps">Acra</hi></label>, a town and
+                    seaport of Palestine, in the pachalic of Acre, and formerly a splendid city of
+                    antiquity, called <hi rend="italic">Ptolemais,</hi> from Ptolemy, king of Egypt.
+                    It was named Aera from its fortifications; and by the knights of St John of
+                    Jerusalem it was called St John d’Acre. No town has experienced greater changes
+                    from political revolutions and the calamities of war. It has been successively
+                    possessed by Alexander’s successors, who ruled in Egypt, by the Romans, the
+                    Saracens, the Christian crusaders, and finally by the Turks. According to some
+                    travellers, this city was the Accho of the Scriptures, one of the strongholds of
+                    which the Israelites could not dispossess the Canaanites; and in confirmation of
+                    this supposition, Mr Buckingham, who visited Acre in 1816, found in the ditches
+                    which they were then digging around the wall, fragments of houses which bore
+                    marks of the highest antiquity; consisting of that highly sun-burnt brick, with
+                    a mixture of cement and sand, which was only used in buildings constructed in
+                    the remotest ages. It is only, however, during its possession by Ptolemy, and
+                    when it was called Ptolemais, that history gives any certain account of it. It
+                    was known during those ancient times to be a great city; and although no perfect
+                    monument of its grandeur now remains, yet throughout the modern town are seen
+                    fine marble and granite pillars, used at the thresholds of door-ways, or in the
+                    other parts of ordinary buildings, or lying neglected on the ground. When the
+                    empire of the Romans began to extend over Asia, Ptolemais came into their
+                    possession; and it yielded in like manner to the growing power of the Saracens.
+                    They were expelled from it in 1192 by Richard I. of England and Philip of
+                    France, who purchased this conquest by the sacrifice of 100,000 troops. They
+                    gave the town to the knights of St John of Jerusalem, and it afterwards became
+                    the principal scene of contest between the Crusaders and the Saracens. In 1187
+                    it was recovered from the Christians by Saladin, sultan of Egypt; and after a
+                    siege of three years was retaken by the Christians, in whose possession it
+                    remained during a whole century. It was at this time a large and extensive city,
+                    on the direct route to Jerusalem, and a place of great resort. It was
+                    accordingly populous and wealthy, and contained numerous churches, convents, and
+                    hospitals, of which no traces now remain. The city was under a peculiar system
+                    of government, being ruled by all the Christian powers both of Europe and Asia,
+                    19 of whom exercised independent authority within its bounds. It was taken by
+                    the Saracens after a bloody siege in 1291, during which it suffered severely,
+                    and afterwards fell into decay. So late as the year 1696, Maundrell, who visited
+                    it, states that it had never recovered from its last overthrow; and that, with
+                    the exception of the residences of the French factors, a mosque, and a few poor
+                    cottages, it presented a vast and spacious scene of ruin. Since this period Acre
+                    has again become a considerable city; within the last 30 years it has been
+                    enlarged, and at the same time strengthened and improved. The last siege to
+                    which it was exposed was the celebrated one in 1799, when it was attacked by the
+                    French under Buonaparte; but was gallantly defended by the Turks, animated by
+                    the example and advice of Sir Sydney Smith. During the siege the French
+                    succeeded in making repeated breaches in the <pb break="no" facs="nls:193031447"
+                    xml:id="kp-eb0702-1447-0126"/>walls, through which they rushed to the assault
+                    with the most desperate bravery; but they were as often repulsed with dreadful
+                    carnage by the Turks and their gallant allies, and finally abandoned the attempt
+                    on the 20th of May, after they had continued the siege for 61 days.</p>
+                <p>The town is situated at the extremity of a plain on the edge of the sea-shore,
+                    and at the point of a bay formed by the promontory of Mount Carmel on the
+                    south-west, and the termination of the plain itself on the north-east. This bay
+                    faces the north-west, and from Cape Carmel to the city it may be about ten miles
+                    across. The bay affords no shelter in bad weather, being open to the north-west
+                    winds, which blow violently on the coast; and the port of Acre is a small hollow
+                    basin behind a ruined mole, scarcely capable of containing a dozen of boats.
+                    Vessels coming to this coast, therefore, either to load or discharge their
+                    cargoes, generally frequent the road of Caipha, a place of anchorage at the
+                    bottom of the bay, near which the river Kishon flows into the sea. The town, on
+                    the sides which face towards the sea, is inclosed by a single wall which on the
+                    north-west ranges along a sandy beach, and is unfortified; on the south-west
+                    side it is built on rocks washed by the sea, and is mounted with 40 pieces of
+                    cannon, chiefly brass. The north-east and south-east sides, which face towards
+                    the land, are surrounded by a double wall and ditch. The outer wall, which is
+                    but of very indifferent workmanship, is from 30 to 40 feet in height, provided
+                    with semicircular bastions at stated distances, and with embrasures for cannon;
+                    and it is further strengthened by a dry ditch, from 15 to 20 feet in depth, and
+                    20 to 25 in breadth. The outer walls are the work of Djez-zar Pacha, who, after
+                    the expulsion of the French from Syria, was at great pains to improve the
+                    fortifications of the place. On the outer and inner walls are planted from 100
+                    to 120 pieces of cannon. The only gate of entrance into the city is on the
+                    south-east front near the sea, where is a Turkish cemetery and a small
+                    garden.</p>
+                <p>The town presents in the interior that incongruous appearance of gaudy splendour
+                    and extreme wretchedness which is so common in all the cities of the East. Among
+                    the chief buildings may be reckoned an extensive palace of Suliman Pacha, with
+                    spacious courts, fountains, &amp;c. Opposite to this is a fine mosque, built
+                    also by him, the lofty dome and minaret of which are conspicuous from a
+                    distance, and another palace of Ali Pacha. These buildings have all a fountain
+                    near them in the public street, inclosed by a brass-work frame. They are highly
+                    ornamented, and executed in the style common at Constantinople. The other
+                    mosques, which are six in number, are built in the same fashion as that of
+                    Suliman Pacha; but they are of a smaller size, and are every pne of them
+                    surmounted by the crescent. The other religious edifices are a Catholic convent,
+                    a Greek church, and a Maronite place of worship. The Jews have also a
+                    synagogue.</p>
+                <p>Of the bazaars, besides several ordinary ones, there are two long ranges covered
+                    in by an arched roof, and lighted from above. They are paved with flag-stones,
+                    have benches on each side, and afford shelter both from the sun and rain. The
+                    property deposited is secured by two large gates, which are closed at each end.
+                    They are well supplied with provisions, and at a moderate price.</p>
+                <p>The old khane, or caravansary, is one of the best that is anywhere to be seen. It
+                    consists in general of a large square court, with a fine marble fountain in the
+                    centre, a piazza of arcades going round the whole, and galleries above,
+                    containing rooms for strangers. These galleries are furnished with lattice-work
+                    balconies, or projecting windows, quite in the Arabian style. The whole edifice,
+                    from the peculiar style and furnishing of its ornaments and construction, may be
+                    considered as most interesting, and the only perfect memorial of Saracen
+                    architecture still remaining in the place. Besides the inn allotted to the
+                    Franks, there are several others throughout the town occupied by Christians of
+                    different sects, all resembling caravansaries in their arrangement. There are
+                    also many spacious and well-built magazines, particularly one constructed by the
+                    pacha, having a paved court in the centre, surrounded by a piazza of arcades,
+                    consisting of about 40 granite pillars, taken from the ruins of the ancient
+                    city. The private dwellings are all of stone, differing in size and plan. The
+                    roofs are invariably flat, and provided with terraces for taking the air in the
+                    evenings of summer. The streets are in general narrow and dirty; only one or two
+                    are of any tolerable breadth. Many of them are paved. Near the north-western
+                    extremity of the town is a large space covered with ruined buildings, heaps of
+                    rubbish, and an accumulation of rain water. The population of Acre consists,
+                    one-half of Mahometans, in equal portions of Arabs and Turks; one-fourth of
+                    Christians of different persuasions; and one-fourth of Jews. Acre retains
+                    scarcely any memorials of its ancient state. The Saracenic remains are only
+                    partially to be traced in the inner walls of the town, which have been so often
+                    broken down and repaired as to preserve few traces of the original work. All the
+                    mosques, fountains, bazaars, and other buildings, with the exception of the
+                    caravansary already mentioned, are in a style rather Turkish than Arabic. The
+                    Christian ruins are altogether gone. There is not the slightest trace of any of
+                    the magnificent churches and convents described by Maundrell. Even the three
+                    Gothic arches mentioned by Dr Clarke, and called by the English sailors King
+                    Richard’s Palace, have been razed to the ground. It is not easy to ascertain the
+                    causes which have swept away so many traces of the ancient city between
+                    Maundrell’s visit in 1696, and Dr Clarke’s in 1801; but the subsequent
+                    destruction was occasioned by Djezzar Pacha, when he was improving the
+                    fortifications of the town. The trade of Acre consists in the export of cotton,
+                    and in the importation of manufactures for the consumption of the surrounding
+                    country. It is 23 miles north-north-west of Jerusalem, and 27 south of Tyre.
+                    Long. 39. 25. E. Lat. 32. 40. N.</p>
+                <p><hi rend="smallcaps">Acre,</hi> in Hindostan, the same with lack, signifies the
+                    sum of 100,000 rupees; the rupee is of the value of the French crown of three
+                    livres, or 30 sols of Holland; 100 lacks of rupees make a couron in Hindostan,
+                    or 10,000,000 rupees: the pound sterling is about eight rupees, according to
+                    which proportion a lack of rupees amounts to L.12,500 sterling.</p>
+                <p><hi rend="smallcaps">Acre,</hi> a measure of superficies, and the principal
+                    denomination of land-measure in use throughout the whole of Great Britain. The
+                    word (formed from the Saxon <hi rend="italic">acker,</hi> or the German <hi
+                    rend="italic">aker,</hi> a field) did not originally signify a determinate
+                    quantity of land, but any open ground, especially a wide campaign; and in this
+                    antique sense it seems to be preserved in the names of places, as Castle-acre,
+                    West-acre, &amp;c. The English standard acre, now the imperial acre of Britain,
+                    is a square raised from the basis of the chain of 66 feet, or 22 yards, or
+                    l-80th of a mile. Ten of these squares form the acre, which thus contains 4840
+                    square yards. This is divided into <hi rend="italic">roods,</hi> of which there
+                    are four in the acre; and into <hi rend="italic">poles</hi> or <hi rend="italic"
+                    >perches,</hi> of which there are 40 in each rood, or 160 in the acre. The rood
+                    will thus measure 1210 square yards, and the pole 30½ square yards, according to
+                    the following table, which contains also other denominations useful to be
+                    compared with the acre.</p>
+                <pb break="no" facs="nls:193031460" xml:id="kp-eb0702-1460-0127"/>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Inches.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Links.</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="5" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>62’726</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Feet.</p></cell>
+                        <cell cols="2" role="data" rows="1"/>
+                        <cell cols="3" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>144</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2∙295</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Yards.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Poles or Perch.</p></cell>
+                        <cell cols="3" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1296</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>20661</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="2" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>39204</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>625</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>272į</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>. 301</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Chains.</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>627264</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4356</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>484</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>16</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Roods</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1568160</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>25000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10890</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1210</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>40</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2ł</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Acre-</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>6272640</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>100000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>43560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4840</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1 160</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                    </row>
+                </table>
+                <p>The above is the standard acre of England; but various customary acres are in use
+                    throughout the different counties, deviating considerably from this standard
+                    both in excess and defect, though all of them are now illegal since the act 5
+                    George IV., which establishes the same standard throughout the whole kingdom. In
+                    <hi rend="italic">Bedfordshire,</hi> it is sometimes only two roods; <hi
+                    rend="italic">Cheshire,</hi> formerly, and still in some places, 10,240 square
+                    yards; <hi rend="italic">Cornwall,</hi> sometimes 5760 yards; <hi rend="italic"
+                    >Dorsetshire,</hi> generally 134 perches; <hi rend="italic">Hampshire,</hi> from
+                    107 to 120 perches, but sometimes 180; <hi rend="italic">Herefordshire,</hi>
+                    two-thirds of a statute acre. The acre for <hi rend="italic">hops</hi> contains
+                    1000 plants, and is only equal to half a statute acre; for <hi rend="italic"
+                    >wood,</hi> again, it is 256 perches. <hi rend="italic">Leicestershire,</hi>
+                    2308∣ square yards; <hi rend="italic">Lincolnshire,</hi> five roods,
+                    particularly for copyhold land; <hi rend="italic">Staffordshire,</hi> nearly 2½
+                    acres; <hi rend="italic">Sussex,</hi> 107, 110, 120, 130, or 212 perches; the
+                    <hi rend="italic">short</hi> acre 100 or 120 perches, the <hi rend="italic"
+                    >forest</hi> acre 180 perches. <hi rend="italic">Westmoreland,</hi> 6760 square
+                    yards, or 160 perches of 6½ yards square; in some parts the Irish acre is used:
+                    <hi rend="italic">Worcester,</hi> the <hi rend="italic">hop</hi> acre, of 1000
+                    stocks, 90 perches, sometimes 132 or 141 perches.</p>
+                <p>In North Wales, the <hi rend="italic">Erw</hi> or true acre is 4320 square yards,
+                    the <hi rend="italic">Stang</hi> or customary acre 3240 square yards, as in
+                    Anglesea and Caernarvonshire, making 5½ Llathen, = 160 perches of 4½ yards
+                    square, called <hi rend="italic">paladr</hi><hi rend="italic">:</hi> 8 acres
+                    make an <hi rend="italic">ox-land,</hi> and 8 of these a <hi rend="italic"
+                    >plough-land,</hi> in <hi rend="italic">Pembrokeshire.</hi> In South Wales the
+                    Erw varies greatly with the perch; sometimes this is nine feet square, 160
+                    perches making one stangell, and four stangells one erw of 5760 yards; sometimes
+                    10½ feet square, making a quart or quarter of a Hath, 40 of which make a
+                    stangell, and four stangells an erw, which is thus 7840 yards, equal to the
+                    Irish acre; sometimes 11 feet, called bat or eglwys haw, making the erw 9384
+                    yards, as in <hi rend="italic">Glamorganshire,</hi> one-fifth more = 11,261
+                    yards; sometimes 11½ feet, called a Hath, 48 making a quarter cyvar, and four
+                    cyvars an erw of 11,776 yards; lastly, 12 feet, giving an erw of 10,240 yards,
+                    equal to the Staffordshire acre.</p>
+                <p>Nothing can show more clearly than the existence of such numerous and useless
+                    diversities, the necessity of the late act for establishing a uniform standard
+                    throughout Great Britain, and which only requires to be enforced with strictness
+                    to abolish for ever every other measure. In Scotland the acre is much more
+                    uniform, scarcely deviating in any part more than one per cent, from the
+                    standard. It is raised from the chain of 24 ells; and by the verdict of the jury
+                    assembled at Edinburgh on the 4th February 1826, to determine the proportion
+                    between the existing measures and the imperial, the ell was found, according to
+                    an accurate measurement made by Mr Jardine, civil engineer, 37*0598 inches,
+                    making the chain 74∙1196 feet, and the acre 6104 square yards and ∙12789,
+                    &amp;c. decimals of a yard. It is considerably larger, therefore, than the
+                    imperial acre; and as the act of uniformity establishes this latter in its
+                    stead, it makes an important change throughout Scotland, and it becomes
+                    necessary to know exactly the proportions between them. The imperial, we have
+                    seen, contains 4840 square yards, while the Scotish contains 6104*12789, &amp;c.
+                    They are to each other, therefore, as 1 is to 1’26118345; so that 1000 acres
+                    Scotish are equal to 1261∙18345 imperial; and in every case, to convert Scotish
+                    into imperial, multiply by the fraction 1∙26118345: such minuteness, however, is
+                    seldom required in practice. A ready and very accurate approximation will be
+                    obtained by reckoning one acre Scotish equal to five quarters imperial, and θ
+                    <hi rend="superscript"> 1</hi> θth part ínore. This will give the value of the
+                    acre almost to one-fourth of a square yard in defect. Hence we have this general
+                    rule: <hi rend="italic">To convert Scotish acres into imperial, add one-fourth;
+                    and if that is not sufficiently minute, add -f-Qth more.</hi> Take, for example,
+                    1000 acres, add one-fourth or 250, and we have 1250; add still ∙⅛th, or 11, and
+                    we have 1261. This rule is obtained by expressing the above fraction in a series
+                    of which we take only the first three terms. It is one acre Scotish = 1 + ½ + -
+                    <hi rend="subscript"> g</hi><hi rend="superscript"> 1</hi> θ + &amp; <hi
+                    rend="superscript"> c</hi> ·</p>
+                <p>acres imperial. By a similar rule, it is easy to convert the Scotish <hi
+                    rend="italic">money rates or prices</hi> of land into imperial: we have only to
+                    multiply the Scotish prices by the fraction 0∙792906, the reciprocal of the
+                    other; or <hi rend="italic">deduct one-fifth, from the price, and for greater
+                    accuracy -fξQth more; or what is still simpler, deduct 20įper cent, or 4s. lfd.
+                    in the pound from the Scotish prices.</hi> An estate of 1000 acres, for example,
+                    is to be let at 30s. per acre: What is the rent per imperial acre? Deduct 4s.
+                    l^d. and the half of it for the additional 10s., and we have 6s. 2½d. less, or
+                    on the whole 23s. 9½d. These rules will apply in every practical case; and for
+                    very particular and extremely accurate purposes, recourse must be had to the
+                    original fractions 0∙792906 and 1∙26118345.</p>
+                <p>Such are the relations of the Scotish standard acre to the imperial; but until of
+                    late years, it was the practice of land-surveyors to measure with a chain of 74
+                    feet and 4-10ths of a foot in length, the length of the ell having been
+                    erroneously estimated at 37 inches and 2-10ths of an inch. This practice
+                    increased the acre from 6104∙13448 to 6150∙4 square yards; it made the ratio of
+                    this acre to the imperial as 1 to 1∙27074, &amp;c.; or we may reckon one acre
+                    equal to five quarters imperial, and <hi rend="subscript"> 3</hi> ⅛th more.</p>
+                <p>When this error in the length of the chain came to be discovered, surveyors took
+                    to the chain of exactly 74 feet; this length being recommended by the round
+                    number, and the nearer approach to the standard. By it the acre contains only
+                    6084∙4444, &amp;c. yards; it is to the imperial acre as 1 to 1∙25711662, &amp;c.
+                    or we make one of these acres equal to five quarters imperial, and <hi
+                    rend="subscript"> τ</hi> ½θth more.</p>
+                <p>In Ireland the perch, of which the acre contains as usual 160, is a square of
+                    seven yards. The acre, therefore, contains 7840 square yards. See <hi
+                    rend="smallcaps">Weights and Measures;</hi><hi rend="italic">Parliamentary
+                    Heports of the Commissioners of Weights and Measures; Act</hi> 5 <hi
+                    rend="italic">Geo. IV.;</hi> and Buchanan’s <hi rend="italic">Tables of Weights
+                    and Measures,</hi> where the conversions are all given by inspection. (<hi
+                    rend="subscript"> c</hi>.)</p>
+                <p><hi rend="italic">ACRΕ-Fight,</hi> an old sort of duel fought by English and
+                    Scotish combatants, between the frontiers of their kingdoms, with sword and
+                    lance: it was also called <hi rend="italic">campfight,</hi> and the combatants
+                    <hi rend="italic">champions,</hi> from the open field being the stage of
+                    trial.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

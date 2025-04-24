@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0718-1020-0665-12" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">PROVIDENCE</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 18, page 665</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="1" ref="fastgeo:1239786">America</term>
+                    <term n="1" ref="fastgeo:1208755">Egypt</term>
+                    <term n="1" ref="fastgeo:1205150">Florida</term>
+                    <term n="1" ref="fastgeo:1211575">Jamaica</term>
+                    <term n="1" ref="fastgeo:1209745">Grenada</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="1" ref="lcsh1910:b49c6s277">Christianity</term>
+                    <term n="1" ref="lcsh1910:b4xg9fj36">Platonists</term>
+                    <term n="1" ref="lcsh1910:b4ks6jd02">Spaniards</term>
+                    <term n="1" ref="lcsh1910:b4wh2dj16">Stoics</term>
+                    <term n="1" ref="lcsh1910:b4kk94g8x">Religion</term>
+                    <term n="10" ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term n="9" ref="lcsh1910:b4m90280p">Law</term>
+                    <term n="9" ref="lcsh1910:b4jw86m8z">Man</term>
+                    <term n="9" ref="lcsh1910:b4kh0f02c">Death</term>
+                    <term n="7" ref="lcsh1910:b4xs5jm0g">Evil</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="2" ref="fasttopic:910709">English</term>
+                    <term n="1" ref="fasttopic:859599">Christianity</term>
+                    <term n="1" ref="fasttopic:859760">Christians</term>
+                    <term n="1" ref="fasttopic:1066881">Platonists</term>
+                    <term n="1" ref="fasttopic:1128153">Spaniards</term>
+                    <term n="17" ref="fasttopic:1015978">Men</term>
+                    <term n="9" ref="fasttopic:993678">Law</term>
+                    <term n="9" ref="fasttopic:888613">Death</term>
+                    <term n="6" ref="fasttopic:1086604">Racing</term>
+                    <term n="6" ref="fasttopic:1086436">Race</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193541020" type="entry">
+                <p><label type="entry">PROVIDENCE</label>, the superintendent care which God
+                    exercises over creation, material and spiritual.</p>
+                <p>That there exists a divine providence which attends to the affairs of this world,
+                    and directs their course, has been a received opinion amongst the human race in
+                    every country and in every period of history. Every altar that is erected, every
+                    prayer and every sacrifice that is offered up, affords a proof of this belief.
+                    So fully have men been convinced of the sincerity of each other’s faith upon
+                    this subject, that in one form, that of an appeal to the Divine Ruler of the
+                    world, by the solemnity of an oath, they have introduced it into the most
+                    ordinary as well as the most important business of life.</p>
+                <p>But notwithstanding this universal reception, in some form or other, of the
+                    doctrine of a divine providence, it has in every age met with some opponents.
+                    The most ancient of these were Democritus and Leucippus. They denied the
+                    existence of a Deity, asserted that all things were mechanically necessary, and
+                    maintained that thought and sense were only modifications of matter. This is
+                    atheism in the strictest sense, and the only form of it that has ever been
+                    consistently supported. Epicurus followed upon the same principles; but he
+                    rendered the system altogether absurd, by confessing the freedom of the human
+                    will. To avoid the imputation of atheism, he asserted the existence of God; but
+                    declared that the Deity resided above the heavens, and interfered not in human
+                    affairs. One of his maxims was, that “the blessed and immortal Being neither has
+                    any employment himself, nor troubles himself with others.” Maximus Tyrius justly
+                    observes, that this is rather a description of Sardanapalus than of a Deity,
+                    whose very existence implies his government. And some of the moralists of
+                    antiquity remarked, that they knew many men amongst themselves, possessed of
+                    active and generous minds, whose characters they valued more highly than that of
+                    Epicurus’s god. Some of the ancients also appear to have entertained a strange
+                    notion. They acknowledged the existence of a Supreme and of many inferior
+                    deities; but they at the same time supposed that there is a certain fate which
+                    rules over all, and is superior to the gods themselves.</p>
+                <p>The providence exerted by the Author of nature over his works is usually divided
+                    into two branches; a <hi rend="italic">general,</hi> referring to the management
+                    of the universe at large; and a <hi rend="italic">particular</hi> providence,
+                    chiefly regarding particular men.</p>
+                <p>Upon the first of these, in Wollaston’s <hi rend="italic">Religion of Nature
+                    delineated,</hi> the question is stated somewhat in the following manner. The
+                    world may be said to be governed, or at least cannot be said to fluctuate
+                    fortuitously, if there <pb break="no" facs="nls:193541033"
+                    xml:id="kp-eb0718-1033-0666"/>be laws or rules by which natural causes act; if
+                    the several phenomena in it succeed regularly, and in general the constitution
+                    of things is preserved; if there are rules observed in the production of herbs,
+                    trees, and the like; if the several kinds of animals are furnished with
+                    faculties proper to determine their actions in the different stations which they
+                    hold in the general economy of the world; and, lastly, if rational beings are
+                    taken care of in such a manner as will at last agree best with reason.. By the
+                    providence of God we ought to understand his governing the world by such laws as
+                    these now mentioned; so that if there are such, there must be a divine
+                    providence.</p>
+                <p>With regard to <hi rend="italic">inanimate objects,</hi> the case agrees
+                    precisely with the above supposition. The whole of that universe which we see
+                    around us is one magnificent and well-regulated machine. The world that we
+                    inhabit is a large globe, which, conducted by an invisible power, flies, with a
+                    rapidity of which we have no conception, through an extent of space which sets
+                    at defiance every power of fancy to embody it into any distinct image. A large
+                    flaming orb stands immoveable in the heavens, around which this, and other
+                    worlds of different magnitudes, perform their perpetual revolutions. Hence arise
+                    the expected returns of day and night, and the regular diversity of seasons.
+                    Upon these great operations a thousand other circumstances depend. Hence, for
+                    example, the vapours ascend from the ocean, meet above in clouds, and, after
+                    being condensed, descend in showers to cover the earth with fertility and
+                    beauty. These appearances are regular and permanent. During every age since men
+                    have been placed upon the earth, this astonishing machine has continued steadily
+                    to perform its complicated operations. Nothing is left to chance. The smallest
+                    bodies are not less regular than the largest, and observe continually the same
+                    laws of attraction, repulsion, &amp;c. The apparent variations of nature proceed
+                    only from different circumstances and combinations of things, acting all the
+                    while under their established laws. We ourselves can calculate the effects of
+                    the laws of gravitation and of motion. We can render them subservient to our own
+                    purposes, with entire certainty of success, if we only adhere to the rules
+                    established by nature, that is to say, by providence.</p>
+                <p><hi rend="italic">Vegetables</hi> also live and flourish according to prescribed
+                    methods. Each sort is produced from its proper seed, has the same texture of
+                    fibres, is at all times nourished by the same kind of juices, digested and
+                    prepared by the same vessels. Trees and shrubs receive annually their peculiar
+                    liveries, and bear their proper fruits. So regular are they in this last
+                    respect, that every species may be said to have its profession or trade
+                    appointed to it, by which it •furnishes a certain portion of manufacture, or of
+                    food, to •supply the wants of animals. Being created for the purpose of
+                    consumption, all vegetables produce great quantities of seed to supply the
+                    necessary waste. Here, then, there is evidently a <hi rend="italic"
+                    >regulation</hi> by which the several orders are preserved, and the ends of them
+                    answered according to -their first establishment.</p>
+                <p>With regard to <hi rend="italic">animals,</hi> they too. in structure of their
+                    form, are subject to laws similar to those which govern the vegetable world. In
+                    the sentient part of their constitution they are no less subject to rule. The
+                    lion is always fierce, the fox crafty, and the hare timid. Every species retains
+                    from age to age its appointed place and character in the great family of nature.
+                    The various tribes are created and placed in such a manner as to find proper
+                    means of support and defence. Beasts, birds, fishes, and insects, are all
+                    possessed of organs and faculties adapted to their respective circumstances and
+                    opportunities of finding their proper food and prey.</p>
+                <p><hi rend="italic">Man</hi> is subject to the ordinary laws which other material
+                    and animal substances obey; but he is left more at large in the determination of
+                    his actions. Yet even here things do not fluctuate at random. Individuals do
+                    indeed rise and perish according to fixed rules; and nations themselves have
+                    only a temporary endurance. But the species advances with a steady progress to
+                    intellectual improvement. This progress is often interrupted; but it appears to
+                    be not less sure at the long-run than even the mechanical laws which govern the
+                    material part of our constitution. Amidst the convulsion of states and the ruin
+                    of empires, the useful arts, when once invented, are never lost. These, in
+                    better times, render subsistence easy, and give leisure for reflection and study
+                    to a greater number of individuals. Tyre and Sidon have passed away, Athens
+                    itself has become the prey of barbarians, and the prosperity of ancient Egypt is
+                    departed perhaps for ever; but the ship, and the plough, and the loom, remain,
+                    and have been perpetually improving. Thus every new convulsion of society does
+                    less misehief than the last; and it is hoped that, by the assistance of
+                    printing, the most polished arts and the most refined speculations have at
+                    length become immortal. The world is not then left in a state of confusion; it
+                    is reduced into order, and methodized for ages to come, the several species of
+                    beings having their offices and provinces assigned them. Plants, animals, men,
+                    and nations, are in a state of continual change; but successors are appointed to
+                    relieve them, and to carry on the <hi rend="italic">scheme of
+                    providence.</hi></p>
+                <p>But the great difficulty is how to account for that providence which is called
+                    <hi rend="italic">particular</hi><hi rend="italic">;</hi> for rational beings
+                    and free agents are capable of doing and deserving well or ill; and the safety
+                    or danger, the happiness or unhappiness of a man here, must depend upon many
+                    things which seem scarcely capable of being determined by providence. Besides
+                    himself and his own conduct, he depends upon the conduct of other men, whose
+                    actions, as we naturally suppose, cannot, consistently with their free will, be
+                    controlled for the advantage of another individual. The actions of numbers of
+                    men, proceeding upon their private freedom, with different degrees of ability,
+                    as they cross and impede, or directly oppose each other, must produce very
+                    différent effects upon men of different characters, and thus in a strange manner
+                    embarrass and entangle the general plan. And as to the course of nature, it may
+                    justly be asked, is the force of gravitation to be suspended till a good man
+                    pass by an infirm building? Add to this, that some circumstances appear
+                    absolutely irrcconcileablc∙ The wind which carries one into port drives another
+                    back to sea; and the rains which are just sufficient upon the hills may drown
+                    the inhabitants of the valleys. In short, may we expect miracles? or can there
+                    be a particular providence that foresees and prepares for the several cases of
+                    individuals, without force frequently committed upon the laws of nature and the
+                    freedom of intelligent agents?</p>
+                <p>But in whatever way it is brought about, there is little doubt that something of
+                    this kind must take place. For as the Deity does direct, as already mentioned,
+                    the great and general progress of things in this world, he must also manage
+                    those of less importance. Nations are composed of individuals. The progress of
+                    individuals is the progress of the nation, and the greatest events usually
+                    depend upon the history and the most trifling actions of private persons. The
+                    difficulty is to conceive how the superintendence and management of all this can
+                    be brought about. But as the ways and the thoughts of the Omnipotent Spirit,
+                    whose influence pervades, and rules, and animates nature, resemble not the
+                    limited operations of men, we can only form conjectures concerning the means by
+                    which his government is conducted.</p>
+                <p>We shall next proceed to state some of the chief objections which, in ancient or
+                    modern times, have been brought against the opinion that the world is governed
+                    by a divine providence. And the first of these is, that the system of nature<pb
+                    break="no" facs="nls:193541046" xml:id="kp-eb0718-1046-0667"/> contains many
+                    imperfections which it ought not to do if it be the work of a perfectly wise and
+                    good Being. To avoid the force of this objection, some modern writers have
+                    deserted the ground of supreme and absolute goodness, which the ancient thcists
+                    always occupied, and have asserted that the divine perfection consists in
+                    unlimited power and uncontrolled supremacy of will; that, consequently, the
+                    Deity does not always that which is best, but merely what he himself pleases;
+                    and that for no other reason but because he wills so to do. But this is no
+                    better than atheism itself. For it is of no importance to us whether the
+                    universe is governed by blind fate or chance, that is to say, by nothing at all;
+                    or whether it is governed by an arbitrary sovereign will that is directed by
+                    chance, or at least by no principle of beneficence.</p>
+                <p>The true answer to this objection is, that no created system can have every
+                    perfection, because it must necessarily be destitute of self-existence and
+                    independence; and therefore, if being destitute of some perfections be better
+                    than nothing, it was worthy of infinite power and perfect goodness to create
+                    such beings. In our present state, we mortals stand upon too low ground to take
+                    a commanding view of the whole frame of things. We can only reason concerning
+                    what is unknown from the little that is within our reach. But in this little we
+                    can see that wisdom and goodness reign, that nature always aims to produce
+                    perfection, that many salutary effects result even from the thunder and the
+                    storm; and we doubt not that a view of the whole structure of the universe would
+                    afford an additional triumph to the goodness and skill of its great
+                    Architect.</p>
+                <p>We see a regular ascent in the scale of beings from mere lifeless matter up to
+                    man; and the probability is, that the scale continues to ascend as far above man
+                    in perfection as created beings can possibly be raised. The sole purpose of God
+                    in creating the world must have been to produce happiness. But this would be
+                    most effectually done by creating, in the first place, as many of the most
+                    perfect class of beings as the system could contain; and afterwards other
+                    classes less and less perfect, till the whole universe should be completely
+                    full. We do not positively assert that such a scheme of creation was actually in
+                    the divine Architect’s intention; but that it is possible, is sufficiently
+                    obvious. No man will pretend to say, that this earth could afford a comfortable
+                    subsistence to a greater number of the human race, were all the inferior animals
+                    annihilated, than it could at present, swarming as every element is with life.
+                    Suppose, then, that as many men had been placed at first upon the earth as it
+                    could possibly support, and that matters had been so constituted that the number
+                    should never have been either increased or diminished; we beg leave to ask,
+                    whether, since there would have been evidently room for inferior animals, it
+                    would have been most worthy of infinite goodness to leave the whole globe to
+                    men, or to introduce into it different orders of less perfect beings, which,
+                    whilst they could not incommode the principal inhabitant, would each find
+                    pleasure in its own existence? To this question different answers cannot surely
+                    be given. Let the reader then extend his view, and consider the universe, which,
+                    however vast, cannot be positively infinite, as one system so much united as the
+                    several parts of this globe are ;, let him suppose that there were at first
+                    created as many of the highest order of beings as it could have contained had
+                    creation stopt there; let him also remember that happiness in many different
+                    degrees is valuable; and he will not surely think it any imputation on the
+                    goodness of God that there are in the universe many beings far from perfection.
+                    The most imperfect of these are by themselves better than nothing; and they all
+                    contribute to make up a system which, considered as a whole, we have every
+                    reason to believe to be as perfect as anything not self-existent can possibly
+                    be.</p>
+                <p>If the world be conducted by a benevolent providence, how came evil to be
+                    introduced into it? This question has perplexed mankind in all ages. The ancient
+                    Persians resolved it by asserting the existence of two gods, Oromasdes the
+                    author of good, and Arimanius the author of evil. From them <hi rend="subscript"
+                    > 4</hi> the Christian heretics called Manicheans borrowed their doctrine of two
+                    opposite co-etemal principles. Both the Platonists and Stoics ascribed the
+                    origin of evil to the perverseness or imperfection of matter, which they thought
+                    the Deity could not alter; and Pythagoras imagined a state of pre-existence, in
+                    which the souls of men had committed offences, for which they are here suffering
+                    the punishment. But these hypotheses are, some of them impious, and all
+                    unsatisfactory.</p>
+                <p>Taking the expression in its most extensive sense, the evils to which the human
+                    race are exposed may be reduced to pain, uneasiness, disappointment of
+                    appetites, and death; of which not one could have been wholly prevented without
+                    occasioning greater evils, inconsistent with the perfect goodness of the
+                    Creator. As long as we have solid bodies capable of motion, supported by food,
+                    subject to the influence of the atmosphere, and divisible, they must necessarily
+                    be liable to dissolution or death. But if a man could suffer death, or have his
+                    limbs broken, without feeling pain, the human race would have been long ago
+                    extinct. A fever is a state of the body in which the fluids are in great
+                    disorder. If we felt no uneasiness from that disorder, we should have no
+                    inducement to pay the proper attention to our state, and should certainly die
+                    unawares, without suspecting ourselves to be in danger; whereas, under the
+                    present administration of divine providence, the pain and sickness of the
+                    disease compel us to have recourse to the remedies proper for restoring us to
+                    soundness and health. Of the uneasinesses to which we are liable, and which are
+                    not the effect of immediate pain, the greatest has been sometimes said to arise
+                    from the apprehension of death, which constantly stares us in the face, and
+                    frequently embitters all our pleasures even in the hour of perfect health. But
+                    this dread of death is implanted in our breasts for the very best of purposes.
+                    Had we no horror at the apprehension of death, we should be apt, whenever any
+                    misfortune befell us, to quit this world rashly, and rush unprepared into the
+                    presence of our Judge; but the horror which attends our reflections upon our own
+                    dissolution, arising not from any apprehensions of the pain of dying, but from
+                    our anxiety concerning our future state of existence, tends strongly to make us
+                    act, whilst we are still here, in such a manner as to insure our happiness
+                    hereafter. Add to this, that the fear of death is the greatest support of human
+                    laws. We every day see persons breaking through all the regulations of society
+                    and good life, notwithstanding they know death to be the certain consequence,
+                    and feel all the horrors of it which are natural to man. Were death therefore
+                    divested of these horrors, how insignificant would capital punishments be as
+                    guardians of the law, and how insecure would individuals be in civil
+                    society?</p>
+                <p>With regard to the unavoidable misfortunes and anxieties of our present state,
+                    these, so far from being truly hurtful in themselves, are proofs of divine
+                    beneficence. When we see men displeased with their situation, when we hear them
+                    complain of the difficulties, the miseries, and the cares of life, of the
+                    hardships which they have undergone, and the labours which still lie before
+                    them, instead of accounting them unfortunate, we ought to regard them as active
+                    beings, placed in the only situation which is fit for the improvement of their
+                    nature. That discontent, and these restless wishes to improve their condition,
+                    are so many sure indications that their faculties will not languish. They who
+                    are in the least degree accustomed to observe the human character, know well the
+                    influence which pleasure and repose have in enfeebling every manly principle,
+                    and how capable they are of attaching us even to a sordid and dishonourable
+                    existence.</p>
+                <pb break="no" facs="nls:193541059" xml:id="kp-eb0718-1059-0668"/>
+                <p>Happy indeed it is for the human race, that the number of those men is small whom
+                    providence has placed in situations in which personal activity is unnecessary.
+                    By far the greater number are compelled to exert themselves, and to mix and to
+                    contend with their equals, in the race of fortune and of honour. It is thus that
+                    our powers are called forth, and that our nature reaches its highest perfection.
+                    It is even perhaps a general truth, that they who have struggled with the
+                    greatest variety of hardships, as they always acquire the highest energy of
+                    character, so, if they have retained their integrity, and have not sunk entirely
+                    in the contest, seldom fail to spend their remaining days respectable and happy,
+                    superior to passion, and secured from folly by the possession of a wisdom dearly
+                    earned.</p>
+                <p>The most serious difficulty lies in accounting for the permission of moral evil
+                    or guilt, in a system governed by infinite benevolence and wisdom. Those who in
+                    a consistent manner hold the doctrine of the absolute necessity of human actions
+                    in its full extent, and acknowledge all its consequences, find it easy to elude
+                    this difficulty. They very fairly deny the existence of any such thing as moral
+                    evil in the abstract; and assert, that what we call a <hi rend="italic"
+                    >crime,</hi> is nothing more than an action which we always regard with a
+                    painful sensation; that these apparent evils endure only for a time; and that
+                    all will at last terminate in the perfection and happiness of every intelligent
+                    being.</p>
+                <p>Upon the system of liberty, the shortest answer seems to be this: That some
+                    things are absolutely impossible, not from any weakness in the Deity, but
+                    because they infer absurdity or contradiction. Thus it is impossible for twice
+                    two to be any thing else than four; and thus it is impossible for Omnipotence
+                    itself to confer self-approbation upon an intelligent being who has never
+                    deserved it; that is to say, it is impossible for a man of sense to be pleased
+                    with himself for having done a certain action, whilst he himself is conscious
+                    that he never did that action. But self-approbation constitutes the highest, the
+                    most unmingled, .and the only permanent felicity, of which our nature is
+                    capable. It is not in the power of Omnipotence itself, then, to bestow the
+                    highest and most permanent felicity of our nature; it must be earned and
+                    deserved before it can be obtained. In the same manner good desert, virtue, or
+                    merit, cannot be conferred; they must be acquired. To enable us to acquire
+                    these, we must be exposed to difficulties, and must suffer in a certain degree.
+                    If these difficulties had no influence upon our conduct and feelings, if they
+                    exposed us to no real danger, no fabric of merit and of self-approbation could
+                    be reared upon them. All that the Supreme Being could do for us would have been
+                    to confer such an original constitution and character as should enable us to do
+                    well if we were to exert our utmost powers. The universe is not ruled by favour,
+                    but by justice· Complete felicity must be purchased. Guilt is an abuse of our
+                    freedom, a doing ill where we could have done well, and is entirely the work of
+                    man. Heaven could not avoid permitting its existence, and exposing us to danger;
+                    for temptation is necessary to virtue, and virtue is the perfection of our
+                    nature, our glory, and our happiness.</p>
+                <p>The last objection to the belief of a divine providence arises from the apparent
+                    confusion of human affairs, that all things happen alike to all, that bad men
+                    are prosperous, and that a total want of justice appears to attend the divine
+                    administrations. Even the best men have at times been shaken by this
+                    consideration. But there are many reasons for rendering this world a mixed
+                    scene; it would become unfit for a state of trial and of education to virtue if
+                    it were otherwise.</p>
+                <p>It has been already shown, that physical evil is the parent of moral good; and
+                    therefore it would be absurd to expect that the virtuous should be entirely
+                    exempted from •that evil. For the occasional prosperity of the wicked many
+                    reasons have been assigned, even by those who, in their disquisitions, were not
+                    guided by that revelation which has brought to light life and immortality.
+                    “God,” says Plutarch, “spares the wicked, that he may set to mankind an example
+                    of forbearance, and teach them not to revenge their injuries too hastily on each
+                    other. He spares some wicked men from early punishment, in order to make them
+                    instruments of his justice in punishing others. And he spares all for a time,
+                    that they may have leisure for repentance; for men look at nothing further, in
+                    the punishments which they inflict, than to satisfy their revenge and malice,
+                    and therefore they pursue those who have offended them with the utmost rage and
+                    eagerness; whereas God, aiming at the cure of those who are not utterly
+                    incurable, gives them <hi rend="italic">time to be converted</hi><hi
+                    rend="smallcaps">Providence,</hi> the capital of Rhode Island, one of the United
+                    States of North America. It is situated at the head of the tide-waters of
+                    Naraganset Bay, immediately above the mouth of the Seckhouk, about thirty miles
+                    from the Atlantic Ocean. The town is built on both sides of an arm of the bay,
+                    which is usually called Providence River; and its position is pleasant, although
+                    on the sharp acclivities of hills. The two sections of Providence are connected
+                    by two bridges, one of which is ninety feet in length. This is a wealthy and
+                    flourishing town, and of late years has rapidly increased in importance. The
+                    buildings are chiefly of wood, uniformly painted white; but a number of them are
+                    composed of more substantial materials, as granite and brick. Those of a public
+                    nature are the State-house, the Arcade, the halls of Brown University, the
+                    Dexter Asylum, nearly twenty places of public worship, a number of public
+                    schools, and several large manufacturing establishments. The Arcade is the most
+                    splendid building of the kind in the Union. It presents two fronts of hammered
+                    granite, each seventy-two feet in width, and forming a colonnade of six columns
+                    of pure Grecian Doric. The body of the building is two hundred and twenty-two
+                    feet in length. Several of the churches are handsome structures. Brown
+                    University has two halls, both built of brick, and each containing about fifty
+                    rooms for students and the necessary business of the establishment. It was
+                    founded in the year 1764, and in 1838 contained ten instructors, 1253 alumni,
+                    450 ministers, 187 students, 6000 volumes in the college library, and 5600
+                    volumes in the students’ libraries. There arc also a number of public schools, a
+                    mechanics’ and a manufacturers’ association, an athenaeum, a large asylum for
+                    the poor, a Friends’ boarding school, which is a large and excellent
+                    establishment, and libraries attached to all or most of these, besides the
+                    Providence Library. About twelve newspapers arc published in this city.</p>
+                <p>Providence was early a place of much commercial enterprise; but it is now most
+                    distinguished for its manufactures. There are four or five, cotton factories;
+                    several extensive bleacheries, in which large quantities of cotton cloth from
+                    many of the factories in Rhode Island and other states are bleached and
+                    otherwise prepared; a number of dye-houses, founderies, and machine-shops, the
+                    two latter being employed principally in building cotton machinery. There are,
+                    besides, establishments for the manufacture of steam-engines, files, leather,
+                    shoes, soap, combs, hats, jewellery, and for working in tin and other metals;
+                    and there is also a large glass-house for the manufacture and cutting of
+                    flint-glass. In the year 1831, there were imported 55,707 bales of cotton,
+                    71,369 barrels of flour, 216,662 bushels of com, and 7772 bushels of rye. The
+                    imports in 1831 amounted to 457,717 dollars; and the exports, domestic and
+                    foreign, to 329,634 dollars. The amount of shipping registered tor the same year
+                    was 12,362 tons; that enrolled, 4788 tons. It possesses á fine harbour, there
+                    being water for vessels of nine hundred tons burden close to the wharfs.
+                    Business is greatly promoted by a number of banks, which possess an aggregate
+                    capital <hi rend="subscript"> x</hi> of about five millions of dollars. This <pb
+                    break="no" facs="nls:193541072" xml:id="kp-eb0718-1072-0669"/> town was founded
+                    in the year 1636 by one Williams, who was banished from Massachusetts on account
+                    of his religious tenets. It has repeatedly been nearly destroyed by fire and
+                    storm. In 1831 Providence was incorporated as a city, and divided into six
+                    wards, the municipal government being vested in a mayor, a board of aldermen,
+                    and a common council. The population, which in 1832 was about 20,000, cannot in
+                    1839 be estimated under 30,000. Providence is situated forty miles
+                    south-south-west of Boston, thirty north of Newport, and one hundred and ninety
+                    north-east of New York, in lat. 41. 51. north, and long. 71. 26. west from
+                    Greenwich.</p>
+                <p><hi rend="smallcaps">Providence,</hi> a small island in the Pacific Ocean, seen
+                    by the Felice in the year 1783, in long. 127. 12. E. lat. 4. 2. N. Another in
+                    the Indian Ocean, in long. 52. 36. E. lat. 9. 10. S. And a third in long. 78. E.
+                    lat. 54. 5. N.</p>
+                <p><hi rend="smallcaps">Providence, New,</hi> one of the Bahama Islands, in the West
+                    Indies, situated between longitude 77. 10. and 77. 38. west, and latitude 25. 3.
+                    north. It is twenty-one miles in length from east to west, seven miles in
+                    breadth from north to south, and for the most part flat, and covered with
+                    brushwood and extensive lagoons. A low range of rocky hills traverses part of
+                    the island at a short distance from the sea, in a direction from east to west;
+                    and another ridge, called the Blue Hills, situated about two miles and a half
+                    inland, runs nearly parallel to the former. The soil is in many parts very
+                    productive, and there is abundance of water, which possesses the valuable
+                    property of keeping good at sea for any length of time. Vegetables and fruits
+                    thrive abundantly; beef, mutton, and poultry are good and plentiful, and the
+                    shores abound with fish, including turtle. Amongst the exports are cotton, bark,
+                    broziletto, and fustic. The climate is mild, equable, and salubrious. New
+                    Providence, from its harbour and relative situation with respect to the Florida
+                    channel, is considered as the most important of the Bahamas; and on it is
+                    situated Nassau, the seat of government for the islands, as well as the
+                    head-quarters of the naval and military establishments. It is the centre of
+                    commerce, and possesses a fine harbour nearly land-locked. The streets are
+                    regularly laid out, the buildings are good, and there is an air of liveliness
+                    and cleanliness about the place. The island is divided into parishes, each of
+                    which has its church, clergy, and school liberally provided for. New Providence
+                    was colonized by the English in the year 1629, the natives having by that time
+                    become totally extinct. In 1641 the Spaniards drove out the settlers; but they
+                    returned in 1666, to be again expelled, however, in 1703. In 1783 New
+                    Providence, along with the other Bahama Islands, was restored to Great Britain
+                    by treaty. The population is about 6000.</p>
+                <p><hi rend="smallcaps">Providence, Old,</hi> an island of the Caribbean Sea,
+                    situated about 125 miles from the nearest point of the Mosquito coast, its
+                    centre being in latitude 13. 21. north, and longitude 81. 21. 50. west from
+                    Greenwich. Its shape is an irregular oval, four miles and a quarter in length by
+                    two and a half in breadth. It is surrounded by an extensive coral reef; and at
+                    its northern extremity is another smaller island called Santa Catalina,
+                    separated from Old Providence only by a very narrow channel. Both islands are
+                    very hilly, and present an agreeable variety of scenery. The soil is exceedingly
+                    productive, and vegetation flourishes luxuriantly. The cattle and horses are
+                    excellent; but cotton is the staple export, which, with turtle-shelI and hides,
+                    are the principal articles of trade. These are annually taken away by traders in
+                    exchange for English goods brought from Jamaica. Isabella, the only village on
+                    the island, is situated at the northern extremity, close to the channel, between
+                    the two islands. It was once a populous and flourishing place, but has now
+                    fallen into decay. The island is under the government of New Grenada, and, with
+                    that of St Andrews, forms the ninth canton of the republic. Old Providence is
+                    noted in the history of piracy as having been the resort formerly of bucaneers,
+                    and latterly that of privateers. It is but thinly inhabited, and capable of
+                    supporting a much larger population.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

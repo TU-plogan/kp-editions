@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0704-4463-0396-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">BAROMETRICAL MEASUREMENTS</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 4, page 396</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="27" ref="fasttopic:802066">Air</term>
+                    <term n="26" ref="fasttopic:931268">Foot</term>
+                    <term n="14" ref="fasttopic:1158581">Tubes</term>
+                    <term n="13" ref="fasttopic:1110395">Seas</term>
+                    <term n="11" ref="fasttopic:1171139">Water</term>
+                    <term n="4" ref="fasttopic:910709">English</term>
+                    <term n="2" ref="fasttopic:934209">French</term>
+                    <term n="2" ref="fasttopic:1176346">Witches</term>
+                    <term n="2" ref="fasttopic:1165420">Verniers</term>
+                    <term n="1" ref="fasttopic:899678">Dutch</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="1" ref="lcsh1910:b4vh5ch72">Americanisms</term>
+                    <term n="1" ref="lcsh1910:b45717n5r">Parrots</term>
+                    <term n="1" ref="lcsh1910:b4rx93f63">Chains</term>
+                    <term n="1" ref="lcsh1910:b44q7qs54">Satanism</term>
+                    <term n="1" ref="lcsh1910:b4028pk7k">Museums</term>
+                    <term n="27" ref="lcsh1910:b4jd4pp0f">Air</term>
+                    <term n="26" ref="lcsh1910:b4319s59c">Foot</term>
+                    <term n="14" ref="lcsh1910:b42j68d53">Tubes</term>
+                    <term n="13" ref="lcsh1910:b4kk94m4s">Sea</term>
+                    <term n="11" ref="lcsh1910:b4513v11w">Water</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="5" ref="fastgeo:1219920">England</term>
+                    <term n="2" ref="fastgeo:1206715">Scotland</term>
+                    <term n="2" ref="fastgeo:1207649">Wales</term>
+                    <term n="2" ref="fastgeo:1211700">Mexico</term>
+                    <term n="1" ref="fastgeo:1239717">Alps</term>
+                    <term n="1" ref="fastgeo:1205480">Niger</term>
+                    <term n="1" ref="fastgeo:1210276">India</term>
+                    <term n="1" ref="fastgeo:1239786">America</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:193194463" type="entry">
+                <p><label type="entry">BAROMETRICAL MEASUREMENTS</label>.</p>
+                <p><hi rend="smallcaps">It</hi> was remarked in the preceding article, that the
+                    decisive experiment by which Pascal established the reality of atmospheric
+                    pressure, had likewise suggested to this ingenious philosopher the method of
+                    determining the elevations of distant points on the surface of the globe. But
+                    the first attempts were very rude, proceeding on the inaccurate supposition that
+                    the lower mass of air is a fluid of uniform density. Different authors estimated
+                    variously from eighty to ninety feet as the altitude, which corresponds to a
+                    variation of the tenth part of an inch in the mercurial column. The Torricellian
+                    tube or cane, as it was then called, was, on its first introduction to England,
+                    carried accordingly to the tops of mountains, or conveyed to the bottom of pits
+                    and mines, or even let down to great depths in the sea.</p>
+                <p>Among those experimentalists who laboured most assiduously in the study and
+                    application of the barometer in this part of the island, we may mention George
+                    Sinclair. This ingenious person had been professor of philosophy in the
+                    university of Glasgow, but seems to have conscientiously resigned his office
+                    soon after the Restoration, rather than comply with that hated episcopacy which
+                    the minions of Charles II. had forced upon the people of Scotland. He then
+                    retired to the village of Tranent, not far from Edinburgh, and was employed as a
+                    practical engineer, in tracing the levels of coal-pits, in directing the
+                    machinery employed in the mines at Leadhills, and afterwards in the great
+                    undertaking of conducting water from the heights of the Pentlands to supply the
+                    northern metropolis. Though not a profound mathematician, he was skilled in
+                    mechanics and hydrostatics, and possessed no small share of invention. Sinclair
+                    is said to have been the first who applied to the mercurial tube the name of <hi
+                    rend="italic">baroscope,</hi> or <hi rend="italic">indicator of weight;</hi> the
+                    more definite appellation of <hi rend="italic">barometer,</hi> or <hi
+                    rend="italic">measurer of weight,</hi> not having been appropriated till many
+                    years afterwards. During his excursions in 1668 and 1670, he employed that
+                    instrument to measure the heights of Arthur’s Seat, Leadhills, and Tinto, above
+                    the adjacent plains. He followed the original mode of using a tube sealed at the
+                    top, with a paper scale pasted against the side, which he carried to the top of
+                    the mountain, where he filled it with mercury; and, inverting it in a basin, he
+                    noted the altitude of the suspended column, and repeated the same experiment
+                    below; a very rude method, certainly, but no better was practised in England
+                    during the succeeding thirty years.</p>
+                <p>In a small scarce tract, printed in 1688, and bearing the quaint title of <hi
+                    rend="italic">Proteus bound with Chains,</hi> Sinclair gives some judicious
+                    remarks on the variations of the barometer, considered as a weather-glass, and
+                    delivers very sound opinions, on the whole, respecting the causes of the chief
+                    meteorological phenomena. In a postscript to that piece, he proposes a most
+                    efficient and ingenious method of weighing up wrecks from the bottom of the sea.
+                    It consisted in employing two large arks, or square wooden boxes, fastened to
+                    the sides of the ship, and charged with air carried down to them by a succession
+                    of inverted casks, open at the lower end. An arc of a cubical shape, and twenty
+                    feet in every dimension, the smallest which he mentions, would, as he computes,
+                    have a buoyancy equivalent to 448,000 pounds Troy. It is remarkable that the
+                    celebrated Mr Watt always employed this very mode, using a large gazometer,
+                    floating in a pond dug in the court of his manufactory, and charged gradually by
+                    the action of bellows, for raising the ponderous engines constructed at Soho,
+                    and lifting them over his walls into the boats, which were stationed to receive
+                    them in the adjacent canal.<note anchored="true" place="bottom" type="authorial"
+                    ><p>Sinclair was author of a well-known little book entitled <hi rend="italic"
+                    >Satan’s Invisible World Displayed,</hi> which, at a former period, was sold at
+                    all the public fairs in the country, and devoured with eagerness and dismay by
+                    the Scottish peasantry. In a quarto volume, <hi rend="italic">on Hydrostatics,
+                    and the Working of Coal-mines,</hi> printed in Holland, and published by
+                    subscription in 1C72, he digressed so widely from his subject as to insert <hi
+                    rend="italic">A True Relation of the Witches of Gleniuce.</hi> But this was the
+                    folly of the age, from which several of the most learned men had not been able
+                    to escape. It is painful to observe, that James Gregory, the inventor of the
+                    reflecting telescope, who, although endowed with talents of the highest order,
+                    appears to have had a keen temper, and to have imbibed an hereditary attachment
+                    to royalism and episcopacy, should have stooped to attack an unoffending and
+                    less fortunate rival. He wrote a little tract against Sinclair’s <hi
+                    rend="italic">Hydrostatics,</hi> with the title of the Arŕ <hi rend="italic">of
+                    Weighing Vanity,</hi> and under the thin disguise of Patrick Mather, archbeadle
+                    to the university of St Andrew’s. It is a piece full of low scurrility, and
+                    memorable only for a very short Latin paper appended to it, containing the
+                    series first given to represent the motion of a pendulum in a circular arc. In
+                    the British Museum, there is a letter of Gregory to Collins, the secretary of
+                    the Royal Society, boasting of his project, and soliciting information with
+                    which to overwhelm the poor author. But with all his eagerness to hunt down
+                    Sinclair, he never touches on the strange episode of the Witches of Glenluce.
+                    What a picture of times approaching so near to our own! Sinclair was restored to
+                    his chair at the Revolution, and lived a few years longer. He answered Gregory’s
+                    attack in the same coarse style, charging him with total want of skill in the
+                    use of astronomical instruments, though by help of subscriptions he had erected
+                    a sort of observatory at St Andrew’s. The manuscript of this reply is preserved
+                    in the College Library of Glasgow.</p></note></p>
+                <p>In all the computations hitherto made from different altitudes of the barometer,
+                    the air was considered as a uniform fluid; no regard being had to the gradual
+                    diminution of density which must evidently take place in ascending the
+                    atmosphere. To estimate the effect of that gradation, it became requisite
+                    previously to determine the actual relation subsisting between the density of
+                    the fluid and its elasticity. This was first ascertained in England by Townley,
+                    who inferred, from some experiments of Boyle, that the elastic force which the
+                    air exerts is exactly proportional to its density. A similar conclusion was
+                    about the same time drawn by Mariotte, a French philosopher, from a still better
+                    series of experiments. Following out this very simple law, he thought of
+                    computing heights from barometrical observations, by the rules usually employed
+                    in constructing tables of logarithms; and had, therefore, obtained some glimpse,
+                    no doubt by a sort of conjectural process, of the remarkable result, that the
+                    density of the atmosphere decreases in a geometrical progression, corresponding
+                    to the elevations taken after an arithmetical one. But seemingly not aware of
+                    the importance of the principle at which lie was pointing, Mariotte immediately
+                    deserted it; and calculating from a repeated bisection of the column of air
+                    between the two stations into successive horizontal strata, he contented himself
+                    with interpolating the densities according to a harmonic division, which he next
+                    abandoned for the simplicity of a series with equal differences. This able
+                    experimenter hence only sketched out a mode of investigating the problem of
+                    barometrical measurements, without arriving at any very definite or consistent
+                    rule of solution.</p>
+                <pb break="no" facs="nls:193194476" xml:id="kp-eb0704-4476-0397"/>
+                <p>In 1686 that ingenious and active philosopher Dr Hal-resumed the subject, and
+                    discovered the law that connects the elevation of the atmosphere with its
+                    density; of which he gave a clear demonstration, derived from the well-known
+                    properties of the hyperbola referred to its asymptotes.<note anchored="true"
+                    place="bottom" type="authorial"><p>It appears, however, that he was anticipated
+                    by Huygens, who had found, as early as the year 1662, that the altitudes of
+                    successive strata of air being taken in arithmetical progression, the
+                    corresponding densities will form a geometrical series. This beautiful
+                    proposition he never published, indeed, but left it recorded upon one of the
+                    blank leaves of a Dutch almanac, containing various other speculations, and now
+                    preserved in the library of the university of Leyden.</p></note> Since the
+                    height of the mercury indicates the pressure, and consequently the elasticity of
+                    the external <hi rend="subscript"> a</hi> ir it must be proportioned likewise to
+                    the density. Wherefore the breadth of a given mass of air, or the thickness of a
+                    stratum which corresponds to a certain portion of the mercurial column, will be
+                    inversely as this altitude. Let 0 be the centre of a rectangular hyperbola, of
+                    which OA and OP are the asymptotes; and conceive the distances OA and OB to
+                    represent the heights of the mercury at two stations. The perpendiculars AC and
+                    BD, which are reciprocally as OA and OB, must hence express the relative
+                    thickness of strata corresponding to equal portions of the barometric scale.
+                    Divide AB into a multitude of equal segments, and erect the perpendiculars EM,
+                    FL, GK, and III. The intercluded spaces, from AC to BD, will denote the
+                    successive thickness of the series of strata into which the whole mass of air
+                    between the two stations is subdivided. Consequently the aggregate or
+                    mixtilineal space DBAC, which is proportional to the logarithm of the ratio of
+                    OB to OA, will express the difference of atmospheric elevation when the
+                    mercurial column mounts from B to A. Taking equal ascents, therefore, in the
+                    atmosphere, the corresponding densities must, from the property of the
+                    hyperbola, form a decreasing geometrical series.</p>
+                <p>To apply this elegant theorem, Dr Halley availed himself of the best experiments
+                    which had been performed to determine the relative densities of air, water, and
+                    mercury. In different trials made near the earth’s surface, it was found, when
+                    the barometer stood at 29J inches, that the air is 840, 852, or even 860 times
+                    lighter than water. Employing round numbers, therefore, and assuming the
+                    specific gravity of mercury to be 131, he reckoned 800 × 13-į X 30 = 10,800
+                    inches, or 90 feet, as the altitude of an atmospheric column which, near the
+                    level of the sea, would exert a pressure equivalent to that of an inch of
+                    mercury. For the co-efficient, which answers to the actual constitution of the
+                    atmosphere, Halley should have taken the thirtieth part of ∙4342945, the modulus
+                    of the common system of logarithms, or ∙0144748. But he proceeded less directly,
+                    having satisfied himself with taking the arithmetical mean between the
+                    differences of the logarithms of 29 and 30, and of those of 30 and 31; a
+                    compensation of errors which gives ∙0144765, hardly deviating from the former.
+                    Hence he gave this simple analogy for computing the heights of mountains by the
+                    barometer: <hi rend="italic">As the constant number</hi> Ό144765 <hi
+                    rend="italic">is to the difference between the logarithms of the barometric
+                    columns at the two stations, so is</hi> 900 <hi rend="italic">feet to the
+                    elevation required.</hi> The result of this operation is evidently the same as
+                    if the logarithmic difference had been multiplied by the number 62170; a very
+                    tolerable approximation at all seasons for a northern climate, and quite
+                    accurate, indeed, if the mass of intervening air had a medium temperature of 46°
+                    by Fahrenheit’s scale. Dr Halley supposed that the observations themselves
+                    might, from the influence of heat, differ about a fifteenth part between summer
+                    and winter. But the thermometer was still so imperfect an instrument, that it
+                    could not be applied with confidence in correcting such variations.</p>
+                <p>The principle which Halley thus investigated might be derived from a simpler
+                    process. Conceive the atmosphere to be divided into a multitude of equally thin
+                    horizontal layers, it is evident that each successive stratum would, to the
+                    pressure of the superincumbent stratum, add its own weight, which being as its
+                    density or elasticity, is therefore proportioned to the collective pressure;
+                    and, consequently, those densities must continually increase in going downwards,
+                    exactly in the same way, and after a like progression, as money accumulates at
+                    compound interest, where a constant portion of the aggregate fund is regularly
+                    joined to the capital.<note anchored="true" place="bottom" type="authorial"
+                    ><p>To illustrate still further this comparison; if we reckon the mean altitude
+                    of a uniform atmosphere to be 26000 feet, it will follow that, for every descent
+                    of 26 feet, the density of the air will increase one thousandth <hi
+                    rend="superscript"> i</hi> part. This rate of progression corresponds precisely
+                    with the weekly improvement of money invested at 5 per cent, per annum,
+                    supposing, for the sake of simplicity, the year to contain only 50 weeks. Since
+                    money at the statute interest doubles in 14 ⅛ years, so the air has its
+                    dilatation doubled at the height20 X 50 X 14∙2 or 18466 feet, answering to three
+                    miles and a half.</p></note> Such, in fact, is the distinguishing character of a
+                    geometrical progression, that the increase or decrease of each succeeding term
+                    is always proportional to the term itself. The logarithmic curve is hence the
+                    best adapted for exhibiting the relations which connect the densities with the
+                    elevations in the atmosphere; the axis of the curve expressing the elevation,
+                    while each ordinate represents the corresponding density of the stratum of air.
+                    It being a fundamental property of the logarithmic curve, that every subtangent
+                    applied to it has the same length, the exact determination of this in the case
+                    of our atmosphere is the only thing wanted for the final solution of the general
+                    problem.</p>
+                <p>Let AB, the absciss of a logarithmic curve, represent a line descending
+                    perpendicular through the atmosphere; the ordinates AC and BD will indicate the
+                    elasticity of the strata at A and B, and consequently, abating the influence of
+                    temperature, their densities. Draw the tangent DT, and form the elemental
+                    triangle <hi rend="italic">Ðdò</hi>; then BD: BT:: <hi rend="italic">od</hi>:
+                    ĉD, or inversely BD: <hi rend="italic">od:</hi>: BT: &lt;5D. But the thickness
+                    AD of each accrescent stratum being assumed to be the same, and the subtangent
+                    being constant, from the nature of the curve; the ratio of BT to δD is given;
+                    therefore the ratio of BD to <hi rend="italic">od</hi> is likewise given, or the
+                    increment of the density in the successive strata is proportional to <pb
+                    break="no" facs="nls:193194489" xml:id="kp-eb0704-4489-0398"/> the density
+                    itself, the leading property of air. The pressure of the thin stratum at B is
+                    represented by BD&lt;Z∕&gt;, which is equal to the rectangle under BT and <hi
+                    rend="italic">od.</hi> Hence, drawing the parallel DE, the collective area ABDC,
+                    which represents the weight of the atmosphere between the altitudes A and B, is
+                    equal to the rectangle under the subtangent and EC. But AB expresses the
+                    difference of the logarithms of the ordinates AC and BD, or the densities at A
+                    and B; and consequently this difference multiplied by the length of BT will
+                    indicate AB. In relation to our atmosphere at the point of congelation, the
+                    numerical value of the subtangent is about 26,000 feet, which is very nearly the
+                    product of 60,000 into the <hi rend="italic">'modulus</hi> of the ordinary
+                    logarithms.</p>
+                <p>Eleven years after Dr Halley had given his rule for barometrical measurements,
+                    this philosopher had an opportunity of applying it to discover the height of
+                    Snowdon in North Wales. He found that the barometer which stood at 29∙9 inches
+                    on the sea-shore near Caernarvon, fell a few hours after, when planted on the
+                    summit of the mountain, to 26∙1 inches, the altitude having been ascertained
+                    previously, by a trigonometrical observation, to be 1240 yards.</p>
+                <p>The year 1687 is memorable as being the date of the first publication of the <hi
+                    rend="italic">Principia,</hi> which was drawn up chiefly at the urgent request
+                    of Halley, from disjointed materials that had lain a considerable time in the
+                    author’s closet. In that immortal work, Newton resumed the problem of the
+                    gradation of atmospheric density, and solved it in that general way which suited
+                    his penetrating genius. He demonstrated that, supposing the particles of air,
+                    like other bodies, to have their weight or gravitating tendency diminished as
+                    the squares of their distances from the centre of the earth, if those distances
+                    be taken in harmonic progression, the corresponding densities of the atmosphere
+                    will form a geometrical one. But since the diminution of attraction at the
+                    greatest height we are able to reach amounts only to the two thousandth part of
+                    the whole, this difference is too minute to be adopted in practice; and the
+                    simpler law first established by the sagacity of Halley may be deemed
+                    sufficiently accurate for every real purpose.</p>
+                <p>Newton has given a sort of geometrical solution of the problem. But a more
+                    precise, and, in this case, a clearer investigation, is obtained by help of the
+                    symbols of the integral calculus. Let <hi rend="italic">x</hi> and V express the
+                    altitudes of two strata of atmosphere, <hi rend="italic">y</hi> and <hi
+                    rend="italic">y’</hi> the corresponding densities, <hi rend="italic">r</hi> the
+                    radius of the earth; and suppose further, that <hi rend="italic">e</hi>
+                    represents the altitude of the equiponderant column which measures the
+                    elasticity of the air. Since the density of the air depends on the incumbent
+                    pressure, its decrement must evidently be proportional to the weight of each
+                    superadded minute stratum, or to the density of this stratum multiplied into its
+                    thickness and power of gravitation. Whence — <hi rend="italic">edy = ydx
+                    (~~-</hi> —V, or — <hi rend="italic strikethrough"> =</hi><hi rend="italic
+                    superscript strikethrough"> j3</hi><hi rend="italic strikethrough"> d</hi><hi
+                    rend="italic superscript strikethrough"> χ</hi><hi rend="italic">J » ∖r
+                    A-</hi><hi rend="italic subscript"> x</hi><hi rend="italic">)'</hi><hi
+                    rend="subscript"> y</hi> (r+α?) <hi rend="superscript"> 2</hi>, of which the
+                    complete integral is e Hyp. Log. — = — —-</p>
+                <p>’ <hi rend="italic">y</hi> ’ <hi rend="italic">2</hi> ¶Q rχ; <hi rend="underline"
+                    >__</hi><hi rend="subscript underline"> l</hi><hi rend="subscript"> l</hi></p>
+                <p>— l’ <hi rend="strikethrough">-iM</hi><hi rend="superscript strikethrough">
+                    =</hi> ^ ∙ i— <hi rend="italic">~r</hi> If <hi rend="superscript"> r</hi> be
+                    regarded as indefi-</p>
+                <p><hi rend="italic">r -fX r -t~ x r -↑-</hi><hi rend="italic subscript"> x</hi><hi
+                    rend="italic superscript"> f b</hi> nitely great in comparison of <hi
+                    rend="italic">x,</hi> the expression will pass</p>
+                <p>*</p>
+                <p>into e Hyp. Log. ~- = <hi rend="italic">xļ —</hi><hi rend="italic subscript">
+                    X}</hi> which is only the common formula.</p>
+                <p>Little seemed wanting, therefore, to complete the practice of barometrical
+                    measurements, but the application of the thermometer to correct the results.
+                    This instrument, however, advanced slowly to perfection, and more than forty
+                    years yet elapsed before it came into current use. Some of the continental
+                    philosophers likewise, biassed perhaps, by a secret jealousy of the superiority
+                    which England had acquired in science, began to throw out doubts respecting the
+                    reality or accuracy of the law of geometrical progression in the atmosphere.
+                    Daniel Bernoulli, a man of candour on the whole, as well as ingenuity, but who,
+                    with some proneness to speculative reasoning, had unfortunately imbibed many of
+                    the prejudices of the Cartesian and Leibnitzian schools, proposed in his capital
+                    work, the <hi rend="italic">Hydrodynamica,</hi> which appeared in 1736, some
+                    vague hypotheses regarding the constitution of the atmosphere, as deduced from
+                    certain internal motions attributed to its component strata. The specious
+                    results of those calculations led him hastily to deviate from the principle of
+                    the geometrical progression of density in the upper regions. In this departure
+                    from nice theory he was followed by Cassini and Horrebow, who concluded, from
+                    some partial observations they had made, that the barometer, in its indications
+                    of atmospheric pressure, is subject to irregularity; and that, near the surface
+                    of the earth, it obeys a different law from that which obtains at great
+                    elevations. A strong light, however, was thrown upon the subject in 1753 by
+                    Bouguer, an able mathematician and very skilful and ingenious observer, who,
+                    with other academicians, had been employed for several years in measuring a
+                    degree of the meridian along the stupendous ridge of the Andes. From the
+                    comparison of more than thirty distinct observations, he deduced a simple and
+                    elegant rule for computing heights by means of the barometer. It is this, that
+                    the difference between the logarithms of the mercurial columns at the two
+                    stations being <hi rend="italic">diminished</hi> by one thirtieth part, and the
+                    decimal point shifted four places to the right, will express the required
+                    elevation in <hi rend="italic">toises.</hi> Since the English was to the French
+                    foot nearly as fifteen to sixteen, the rule would be accommodated to our
+                    measures, and the result expressed in feet if the logarithmic difference were
+                    <hi rend="italic">augmented</hi> by the thirtieth part, then multiplied by six,
+                    and the decimal point thrown back four places; or, which is the same thing, ií
+                    that logarithmic difference were multiplied at once by 62,000. But Bouguer
+                    imagined, that this rule would not hold exactly in Europe, or in the lower
+                    regions of the torrid zone; and to explain the deviation, he had recourse to the
+                    forced supposition that the particles of air possess different degrees of
+                    elasticity. Lambert, a philosopher of great originality and penetration,
+                    afterwards published some excellent remarks on the comparison of barometrical
+                    measurements. But no material progress was made till 1755, when Μ. de Luc of
+                    Geneva resumed the subject, and carefully combined experiment with observation.
+                    For the space of fifteen years and upwards, he prosecuted his inquiries with
+                    diligence and perseverance, aided by the peculiar advantages of local situation,
+                    in a city abounding with skilful artists, and seated in the neighbourhood of
+                    lofty mountains. The discrepancies which had hitherto created so much
+                    embarrassment proceeded mostly from the inattention of observers to the -
+                    disturbing influence of heat, and particularly its effect in expanding the air,
+                    and consequently augmenting the elevation due to a given difference of
+                    atmospheric pressure. De Lucs first object was to improve the thermometer of
+                    Reaumur, which, though greatly inferior to that of Fahrenheit, had been adopted
+                    in France and the adjacent parts of the Continent. Having ascertained that
+                    mercury has the valuable property of expanding equably with equal additions of
+                    heat, he substituted that metallic fluid for spirit of wine, but retained its
+                    arbitrary and inconvenient scale of eighty degrees between the points of
+                    freezing and boiling water. He next examined the dilatation of air <pb
+                    break="no" facs="nls:193194502" xml:id="kp-eb0704-4502-0399"/> where ∙ψ denotes
+                    the latitude of the place, T and <hi rend="italic">t</hi> the temperatures of
+                    the air at the two stations, as indicated by the centesimal thermometer, and H
+                    and <hi rend="italic">h</hi> the heights of mercurial columns corrected for the
+                    effects of heat.</p>
+                <p>This active writer has likewise given tables for expediting the calculation of
+                    barometrical measurements; in which he was anticipated, however, by Oltmans of
+                    Berlin, who published, in 1809, large <hi rend="italic">Hypsometrical
+                    Tables,</hi> as they are called, accommodated to the complex formula of Laplace.
+                    Such tables might no doubt prove useful where very frequent computations are
+                    wanted, as in the case of the reduction of the numerous observations brought
+                    home by Baron Humboldt, for which, indeed, they were first designed. But still
+                    they contain a needless profusion of figures, and hold forth a show of extreme
+                    accuracy which the nature of the observations themselves can never justify. The
+                    mere calculation of barometrical measurements is a secondary object. The great
+                    difficulty is to procure good observations, and to combine tolerable accuracy
+                    with expedition. For this purpose, a very portable barometer is still wanted;—an
+                    instrument light and commodious, exempt from injury or derangement, and yet
+                    sensible to minute changes of atmospheric pressure. These properties, indeed,
+                    are seldom conjoined, and one advantage must generally be sacrificed to obtain
+                    another. A modification of the conical barometer already suggested would seem,
+                    on the whole, to be well adapted for the geological traveller. The two unequal
+                    tubes are cemented into a small cylinder of steel, with a fine stop-cock of the
+                    same metal confining the mercury. This renders the instrument so portable that
+                    it may be inclosed in a walkingstick; on turning the steel-cock, and inverting
+                    the staff, the height of the mercurial column is readily found.</p>
+                <p>A barometer of the most improved construction is represented in fig. 19; a
+                    portion of the tube is shown in fig. 20; and a section of its cistern in fig.
+                    21. By help of a screw pressing against the bottom of a leathern bag, inclosed
+                    within a cylindrical ivory box, the mercury is always brought up through a
+                    tubular aperture to the same precise level; or till its convex surface appears
+                    to touch a very thin line of light, which is admitted through a slip of ivory
+                    applied against the side of the chink or separation of this tube from a wider
+                    one immediately over it. The lower end of the mercurial column being thus
+                    adjusted, the length is easily measured by drawing gradually down a hollow brass
+                    tube, divided at intervals by wide slits, covered on one side by thin bits of
+                    ivory, till by that softened light a contact is observed with the edge of a slit
+                    and the convex top of the column. The fine Vernier which the movable tube
+                    carries gives the altitude of the mercury in thousandth parts of an inch. A
+                    thermometer is likewise constantly attached to the instrument, for the purpose
+                    of indicating the temperature of the mercury, which, from the heat of the hand
+                    in carrying, or the influence of the solar beams, is commonly warmer than the
+                    external air.</p>
+                <p>This mountain barometer is suspended fin observation by jimbols from a tripod, as
+                    exhibited in fig. 18; but its several parts can be folded up together into a
+                    convenient compass, tolerably well fitted for carriage, as represented in fig.
+                    19. The whole apparatus may not exceed the weight of ten pounds; yet even this,
+                    moderate as it might seem, would be felt a serious encumbrance by a traveller
+                    who is engaged, day after day, in the labour of climbing mountains. The risk
+                    which the instrument incurs, besides, in transporting it perhaps over rough
+                    precipices, imposes a perpetual constraint, while to make correct observations
+                    with it must always require time and patient attention. A lighter and more
+                    compact, though less accurate, barometer will generally be preferred by the
+                    geo-</p>
+                <p>at different temperatures, and corrected those results by numerous observations
+                    made on the mountains of Savoy, and the mines of the Hartz, in which the
+                    barometer was combined with the thermometer. The <hi rend="italic">formula</hi>
+                    which he thence deduced for the computation of barometrical measurements was, in
+                    1772, published in his <hi rend="italic">Recherches sur les Modifications de l’
+                    Atmosphere,</hi> and seemed to attract, especially in England, a very
+                    considerable degree of notice. Dr Maskelyne, the astronomer-royal, adapted it to
+                    our system of measures, and De Horsley made annotations and comments on it. But,
+                    what was of more importance, other accurate observers, incited by De Luc’s
+                    example, entered the same field of inquiry, provided with instruments of greater
+                    delicacy and much better construction. In 1775 Sir George Shuckburgh Evelyn
+                    visited the Alps, and combined trigonometrical operations with corresponding
+                    observations by barometers and thermometers from the hands of Ramsden; and about
+                    this time likewise, General Roy not only measured, with instruments made by that
+                    excellent artist, some of the principal mountains in Scotland and Wales, but
+                    instituted a series of manometrical experiments. It resulted from all these
+                    researches that, for each degree on Fahrenheit’s scale, mercury expands the
+                    9700th part, and air the 435th part of their respective bulks. It further
+                    appeared that the atmosphere has its temperature almost uniformly diminished at
+                    equal ascents; and that the logarithmic difference, reckoning as integers the
+                    first four digits, expresses in English fathoms the height of an aerial column
+                    as cold as the point of congelation. General Roy proposed likewise another
+                    correction depending on the enfeebled gravity, and consequently the augmented
+                    altitude, of the equiponderant column of atmosphere in the lower latitudes,
+                    occasioned by the influence of centrifugal force arising from the earth’s
+                    rotation. Several years afterwards, Professor Playfair, in a learned paper,
+                    printed in the first volume of the <hi rend="italic">Transactions of the Royal
+                    Society of Edinburgh,</hi> examined all the circumstances which can affect
+                    barometrical measurements, and discussed each question with the correctness and
+                    perspicuity that we [might expect from his distinguished abilities. At nearly an
+                    equal interval of time the celebrated Laplace resumed the subject in his <hi
+                    rend="italic">Mécanique Céleste,</hi> and brought all the conditions together in
+                    a very complicated formula. Such an appearance of extreme accuracy, however, is
+                    perhaps to be regarded merely as a theoretical illusion, unsuited and
+                    inapplicable to any real state of practice. Biot has since attempted to arrive
+                    at a similar conclusion, by setting out <hi rend="italic">a priori</hi> from
+                    some careful experiments on the relative density of air and mercury, performed
+                    by him in conjunction with Arago. He thence infers that, in the latitude of
+                    Paris, and at the point of congelation, air, under a mercurial pressure of 76
+                    metres, or 29,922 English inches, is 10,463 times lighter than mercury at the
+                    temperature of water at its lowest contraction. This would give 26,090 feet for
+                    the height of a column of homogeneous fluid, whose pressure is equivalent to the
+                    elasticity of die atmosphere. The co-efficient adapted to common logarithms, and
+                    adjusted to the force of attraction at the level of the sea, would therefore be
+                    60,148 feet, or 18,334 metres; scarcely differing sensibly from the quantity
+                    which Ramond had deduced from a very numerous set oı experiments made by him on
+                    the Pyrenees. But Biot prefers, as the co-efficient, the number 18,393,
+                    answering oı an elevation of 1200 metres, or about 4000 feet above ıe sea, which
+                    is not far from the general level of such θ <hi rend="superscript"> s</hi> θ <hi
+                    rend="superscript"> rva</hi> tions∙ The f <hi rend="subscript"> ormu</hi> i <hi
+                    rend="subscript"> a</hi> i <hi rend="subscript"> s</hi> hence, in English feet,
+                    δθ,34β(l+ ∙002L <hi rend="subscript"> 3</hi> 7 cos. 24)</p>
+                <p><hi rend="smallcaps">λ</hi> j. 2 (τ+n∖, <hi rend="smallcaps">h</hi></p>
+                <p>0 <hi rend="superscript"> +</hi> ~TŌ()(&gt;-J <hi rend="superscript"> lo</hi> S-T
+                    <hi rend="superscript">;</hi><pb break="no" facs="nls:193194515"
+                    xml:id="kp-eb0704-4515-0400"/>logical traveller, whose object is rather to
+                    extend our acquaintance with the altitudes of mountains, than to aim at a
+                    superfluous and often illusory precision. The portable instrument, invented by
+                    Sir Henry Englefield, and represented in fig. 14, will, on the whole, answer
+                    those views. Its cistern is formed of box-wood, sufficiently tight to hold the
+                    mercury, without preventing the access and impression of the external air. When
+                    this barometer is inverted, the mercury, therefore, subsides very slowly in the
+                    tube, which must be firmly suspended in a vertical position. For greater
+                    security, the mercury is now put into a leathern bag introduced within the
+                    cistern.</p>
+                <p>. A very simple and convenient sort of portable barometer was lately invented in
+                    France by that celebrated chemical philosopher M.. Gay-Lussac. (See fig. 15 and
+                    16.) It consists of rather a wide syphon tube, filled with mercury, and sealed
+                    hermetically at the inverted end, having a very fine capillary hole formed about
+                    an inch under this, by nicely directing the flame of a blow-pipe against the
+                    side of the glass, and drawing a melted spot of it out to a point. The lower
+                    portion of the principal branch has its bore contracted to less than the tenth
+                    part of an inch, to prevent the mercurial column from dividing in the act of
+                    inverting it. The mereury is boiled as usual, and the tube may be concealed in a
+                    walking-stick, or lodged, like the complete mountain barometer, in a cylinder of
+                    brass, with movable sliders bearing the divisions of a Vernier at both ends.
+                    (See fig. 17.) For greater simplicity, however, the larger divisions might be
+                    engraved on the tube itself. This kind of barometer is of ready use, and very
+                    little exposed to hazard in carriage. It is commonly held in a reclined or
+                    inverted position; but, in making an observation, it must be gently turned back,
+                    and kept perpendicular till the mercury descends through the contracted bore,
+                    and slowly rises again in the opposite short branch; the scale is noticed at
+                    both ends of the incurved column, and the difference of those indications gives
+                    its correct altitude.</p>
+                <p>A modification of the conical barometer, which, in travelling, we have ourselves
+                    employed with great ease and advantage, should likewise be mentioned. The
+                    principal part of it consists of a small stop-cock made of steel, and
+                    represented in fig. 13. A glass tube of 31 or 32 inches long, with a bore of the
+                    tenth part of an inch hermetically sealed at the top, and filled with
+                    quicksilver, is cemented into the one end of the stop-cock; and into the other
+                    end is cemented an open and wider tube, 16 inches or more in length, and having
+                    its diameter above the eighth part of an inch. This compound tube is lodged in a
+                    walking-stick, divided into inches and tenths through its whole extent, or only
+                    at the upper part, if uniform tubes be selected. In making an observation, the
+                    cock is turned, and the instrument inverted. The upper column then descends
+                    partly into the lower tube, till it becomes shortened to the proper
+                    altitude.</p>
+                <p>We have already stated the principles on which the calculation of barometrical
+                    measurements proceeds. But there still are some points, either assumed or
+                    overlooked, which may considerably modify the results. It is presumed, that, at
+                    equal successive heights, the temperature of the atmosphere decreases uniformly.
+                    This property, however, does not hold strictly, and it may be shown, from a
+                    comparison of the best observations, that the decrements of heat follow a
+                    quicker progression in the higher regions. But we shall soon have another
+                    opportunity to examine this subject, and trace out its various consequences.</p>
+                <p>The humidity of the air also materially affects its elasticity, and the
+                    hygrometer should therefore be conjoined with the thermometer in correcting
+                    barometrical observations. But nothing satisfactory has yet been done in regard
+                    to that subject. The ordinary hygrometers, or rather hygroscopes, are mere toys,
+                    and their application to science is altogether hypothetical. A most
+                    unphilosophical course has lately been pursued, by multiplying calculations
+                    grounded on very loose data, instead of instituting a nice and elaborate train
+                    of original experiments.</p>
+                <p>In the actual state of physical science, it is preposterous, therefore, to affect
+                    any high refinement in the formula for computing barometrical measurements. The
+                    whole operation may be reduced to a very short and easy process. But the
+                    simplicity of the calculation would be still greater, if the centesimal
+                    thermometer were generally adopted. It will be sufficiently accurate, till
+                    better data are obtained, to assume the expansion of mercury by heat as equal to
+                    the 5000th part of its bulk for every centesimal degree, while that of air is
+                    twenty times greater, being an expansion for each degree of the 250th part of
+                    the bulk of this fluid. 1. <hi rend="italic">Correct the length of the mercurial
+                    column at the upper station, adding to it the product of its multiplication into
+                    twice the difference between the degrees οη the attached thermometers, the
+                    decimal point being shifted four places to the left.</hi> 2. <hi rend="italic"
+                    >Subtract the logarithm of this corrected length from that of the lower column,
+                    multiply by six, and move the decimal point four places to the right-, the
+                    result is the approximate elevation expressed in English fed.</hi> 3. <hi
+                    rend="italic">Correct this approximate elevation by shifting the decimal point
+                    three places bach to the right, and multiplying by twice the sum of the degrees
+                    on the detached thermometers; this product being now added, will give the true
+                    elevation.</hi></p>
+                <p>If it were judged worth while to make any allowance for the effect of centrifugal
+                    force, this will be easily done before the last multiplication takes place, by
+                    adding to twice the degrees on the detached thermometers the fifth part of the
+                    mean temperature corresponding to the latitude. The mean temperature itself is
+                    formed by multiplying the square of the cosine of the latitude by
+                    twenty-nine.</p>
+                <p>In illustration of these rules, we shall subjoin some real examples. General Roy,
+                    in the month of August 1775, observed the barometer on Caernarvon Quay, at 30Ό91
+                    inches, the attached centesimal thermometer indicating 15° ∙7, and the detached
+                    15° ∙6; while, on the peak of Snowdon, the barometer fell to 26’409 inches, and
+                    the attached and detached thermometers marked respectively 10 <hi
+                    rend="superscript"> o,</hi> 0 and 8° ∙8. Here twice the difference of the
+                    attached thermometers is 11° ∙4, and twice the sum of the detached thermometers
+                    is 48° ∙8, which becomes 50 ’ 8 when augmented by the fifth part of the mean
+                    temperature on that parallel. Now, omitting the lower decimals, the first
+                    correction is ∙00264 X 11∙4 —. ∙030, to be added to 26 ’ 409. Wherefore,</p>
+                <p>Log. 30∙091 = 1∙4784866 Log. 26∙439 = <hi rend="underline">1∙4223450</hi></p>
+                <p>Difference = ∙0561416 Constant multiplier = <hi rend="underline">60000</hi></p>
+                <p>Approximate height =≡ 3368∙496 And, for the true height, the correction is 3∙37 ×
+                    50’8 = 171∙2, which gives 3340 for the final result.</p>
+                <p>M <hi rend="superscript"> 7</hi> e shall take another example from the
+                    observations made by Sir George Shuckburgh Evelyn, at the same period, among the
+                    mountains of Savoy. This accurate philosopher found the barometer, placed in a
+                    cabin near the base of the Mole, and only 672 feet above the surface of the lake
+                    of Geneva, to stand at 28’152 inches, while the attached and detached
+                    thermometers indicated 16° ∙3 and and 17° ∙4; but, in another barometer carried
+                    to the summit of that lofty insulated mountain, the mercury sunk to 24Ί76
+                    inches, the attached and detached thermometeis markingr 14 <hi
+                    rend="superscript"> 0,</hi> 4 and 13° ∙4. Wherefore, twice the difference <pb
+                    break="no" facs="nls:193194528" xml:id="kp-eb0704-4528-0401"/> of the degrees on
+                    the attached was 3° ∙8, and twice the sum of the degrees on the detached
+                    thermometers was 6l <hi rend="superscript"> 0</hi> ∙6. Consequently the
+                    correction to be applied to the higher column was ∙0024 × 3∙8 = ∙009, which
+                    makes it M85. Now,</p>
+                <p>Log. 28∙152 = 1∙4495092 Log. 24∙185 = <hi rend="underline">1∙3835461</hi></p>
+                <p>Difference = ∙0659631 Constant multiplier = 60000</p>
+                <p>Approximate elevation = 3957-786</p>
+                <p>To correct this approximate elevation, remove the decimal point three places
+                    back, and multiply it by 61°-6, increased by 2° ∙9, the fifth part of the mean
+                    temperature, corresponding to the latitude; but 3∙96 × 64∙5 = 255∙4, and 3957-8
+                    + 255∙4 = 4213. Hence the summit of the Mole is 4885 feet above the lake of
+                    Geneva, or 6083 feet above the level of the Mediterranean Sea.</p>
+                <p>The last example we shall give is drawn from the observation which Baron Humboldt
+                    made among the Andes, near the summit of Chimboraço, the highest spot ever
+                    approached by man. This celebrated traveller found there, that the barometer
+                    fell to 14∙850 English inches; the attached thermometer in the tent being at
+                    10°, and the detached in open air being 1° ∙6 under zero. But the same
+                    barometer, carried down to the shore of the Pacific Ocean, rose exactly to
+                    thirty inches, while both the attached and detached thermometers stood at 25°-3.
+                    Consequently the correction to be applied to the upper column is = ∙0015 X 30 ’
+                    6 = ∙045. Wherefore,</p>
+                <p>Log. 30-000 = 1∙4771213 Log. 14-895 = 1-1730405</p>
+                <p>Difference = -3040808 Constant multiplier = 60000</p>
+                <p>Approximate elevation = 18244-848 Now, the difference of the detached
+                    thermometers, or 26° ∙9, being doubled and further increased by 5° ∙8, the fifth
+                    part of the mean temperature at the equator, makes 59° ∙6; and the final
+                    correction to be applied is therefore = 18-24 X 59° ∙6 = 1087, which gives
+                    19,332 feet for the true elevation observed, or 2140 feet below the summit of
+                    Chimboraço.</p>
+                <p>_ These calculations are performed by the help of logarithms. It is desirable,
+                    however, to approximate at least to barometrical measurements without such aid.
+                    A very simple rule for this object has been given by Professor Leslie in his <hi
+                    rend="italic">Elements of Geometry.</hi> Since log. — = 2 M (≡^i <hi
+                    rend="superscript"> +</hi> I (⅛t) <hi rend="superscript"> 3</hi> + 5 (⅛D" <hi
+                    rend="superscript"> &amp;c</hi>- )’ ' <hi rend="superscript"> vhere m de</hi>-
+                    notes the modulus of the logarithmic system; when <hi rend="italic">a</hi>
+                    approaches to 6, the lower terms may be rejected without sensible error, or log.
+                    = 2 M (7-qr7)&gt; very nearly, therefore, in reference to our atmosphere, the
+                    modulus is expressed by the equiponderant column of homogeneous fluid, or 60,000
+                    × -4342945 = 26,058 feet, or only 0,000 in round numbers; whence, <hi
+                    rend="italic">as the sum of the Mercurial columns is to their difference, so is
+                    the constant number 52,000feet to the approximate height.</hi> Let General <hi
+                    rend="superscript"> 0</hi> y s observation on Snowdon be resumed as an exam- <hi
+                    rend="superscript"> p e</hi> L <hi rend="superscript"> the anal</hi> °gy is
+                    30-091 + 26-439: 30-091 — 26-439, or ŋ‘Ş30: 3-652:: 52,000: 3,359, the
+                    approximate eleva- <hi rend="superscript"> 1</hi> °n, dmering very little from
+                    the logarithmic result.</p>
+                <p>ns mode of calculation may be deemed sufficiently <hi rend="italic">5000
+                    f</hi><hi rend="italic superscript"> te</hi> f° <hi rend="superscript"> 1</hi>
+                    determining any altitude that exceeds "not feet. But it will extend to greater
+                    elevations if the second term of the series be likewise taken, which is done by
+                    striking off three figures, and cubing the half of this number. Thus, resuming
+                    the mensuration of Chimboraço, 44-895 :15-105:: 52,000: 17,496, and (8-75)^ =
+                    670, making together 18,166 for a nearer approximation.</p>
+                <p>The calculation of barometrical measurements, including the corrections required,
+                    is rendered most easy and expeditious by means of a sliding rule made by Mr
+                    Cary, optician in London. This small instrument should always <hi rend="italic"
+                    >go</hi> along with mountain barometers; and it will be found a very agreeable
+                    companion to every geological traveller.</p>
+                <p>But portable barometers, in spite of every precaution, are yet so liable to be
+                    broken or deranged, that other auxiliary methods are desirable for ascertaining
+                    distant elevations. In this view, the variation of the boiling point of water
+                    was proposed by Fahrenheit as far back as the year 1724; the idea having
+                    occurred to him, as it had done before to Amontons, while engaged with
+                    experiments to perfect his thermometer. Little regard, however, seems to have
+                    been paid to the suggestion till De Luc and Saussure made a series of
+                    observations on the heat of ebullition at different elevations above the
+                    surface. About thirty years since, Cavallo attempted to revive the scheme of
+                    Fahrenheit, but experienced much difficulty in preventing the irregular starts
+                    of the thermometer plunged in boiling water. The best and surest way of
+                    examining the heat of ebullition, is to suspend the bulb of the thermometer iń
+                    the confined steam as it rises from the water.</p>
+                <p>The heat at which water boils, or passes into the form of steam, depends on the
+                    weight of the superincumbent atmosphere. By diminishing this pressure, the point
+                    of ebullition is always lowered. It appears that, while the boiling heat sinks
+                    by equal differences, the corresponding atmospheric pressure decreases exactly,
+                    or at least extremely nearly, in a geometrical progression, it being found that
+                    every time such pressure is reduced to one half, the temperature of boiling
+                    water suffers a regular diminution of about eighteen centesimal degrees. This
+                    beautiful relation assimilates with the law which connects the density and
+                    elevation of the successive strata of the atmosphere. The interval noticed
+                    between the boiling points at two distinct stations must be proportional to
+                    their difference of altitude above the level of the sea. We have, therefore,
+                    only to determine the co-efficient or constant multiplier, which may be
+                    discovered either from an experiment under the rarefied receiver of an air-pump,
+                    or from an actual observation performed at the bottom and on the top of some
+                    lofty mountain. We shall prefer at present the observation made by Saussure on
+                    the summit of Mont Blanc. This diligent philosopher found, by means of a very
+                    delicate thermometer constructed on purpose, that water which boiled at 101° ∙62
+                    in the plain below when the barometer stood at 30-534 English inches, boiled at
+                    86° ∙24 on the top of that mountain, while the barometer had sunk to 17-136.
+                    Wherefore the distance between the points of ebullition, or 15-38 centesimal
+                    degrees, must correspond to an approximate elevation of 15,050 feet, which gives
+                    978į feet of ascent for each degree, supposing the mean temperature of the
+                    atmospheric column to be that of congelation. But it will be more convenient to
+                    assume 1000 for the constant multiplier, which corresponds to the temperature of
+                    5⅜°.</p>
+                <p>To reduce this very simple result into practice, it would be requisite to have a
+                    thermometer with a fine capillary bore, and nicely constructed, the stem six or
+                    eight inches long, and bearing ten or a few more degrees from the boiling point;
+                    these degrees to be divided into twenty or perhaps fifty equal parts engraved on
+                    the tube, which should be rather thick, and terminating in a bulb of about half
+                    an inch diameter. This thermometer, being fitted <pb break="no"
+                    facs="nls:193194541" xml:id="kp-eb0704-4541-0402"/>with a brass ring two inches
+                    above the bulb, should screw into the narrow neck of a small copper flask, which
+                    holds some water, but has a hole perforated near the top for allowing the steam
+                    to escape. The water may be made to boil by the application of a lamp. The
+                    difference between the indications of the thermometers at the two stations being
+                    multiplied by a thousand feet, will give the elevation corresponding to a
+                    temperature of 5^∙ <hi rend="superscript"> o</hi>. The correction for the actual
+                    mean temperature can easily be applied. If a more correct co-effi cient be
+                    afterwards determined, the same thousand, retained as a multiplier, may easily
+                    be adapted to another temperature.</p>
+                <p>This method of measuring elevations on the surface of the globe is, therefore,
+                    capable of great improvement, and might be employed with advantage in a variety
+                    of cases where observations with the barometer are not easily obtained. Its
+                    application would be most important to physical geography, in ascertaining the
+                    capital points for tracing the outline of the profile or vertical section of any
+                    country. The common maps, which exhibit mere superficial extension, are quite
+                    insufficient to represent the great features of nature, since the climate and
+                    productions of any place depend as much on its elevation above the sea as its
+                    latitude. Scientific travellers have accordingly turned their attention of late
+                    years to the framing of vertical sections. As a specimen, we give, in fig. 22,
+                    from Humboldt’s <hi rend="italic">Geography of Plants,</hi> a section across the
+                    American continent, one of the best and most interesting that has yet appeared.
+                    It consists, in fact, of four combined sections, traversing through an extent of
+                    425 miles. The line begins at Acapulco, on the shore of the Pacific Ocean, and
+                    runs 195 miles, about a point of the compass towards the east of north, to the
+                    city of Mexico then 80 miles, a point to the south of east, to La Puebla de los
+                    Angeles; again it holds a north-east direction of 70 miles, to the Cruz Blanca;
+                    and finally bends 80 miles east by south, to Vera Cruz, on the coast of the
+                    Atlantic. A scale of altitudes is annexed, which shows the vast elevation of the
+                    table-land of Mexico An attempt is likewise made in this profile to give some
+                    idea of the geological structure of the external crust. <hi rend="italic"
+                    >Limestone</hi> is represented by straight lines slightly inclined from the
+                    horizontal position; <hi rend="italic">JBasalt,</hi> by straight lines slightly
+                    reclined from the perpendicular; <hi rend="italic">Porphyry,</hi> by waved lines
+                    somewhat reclined; <hi rend="italic">Granite,</hi> by confused hatches; <hi
+                    rend="italic">Amygdaloid,</hi> by confused points.</p>
+                <p>By this mode of distant levelling, a very interesting discovery, in another
+                    quarter of our globe, was made by Engelhardt and Parrot, two Prussian
+                    travellers. They proceeded,, on the 13th July 1814, from the mouth of the Kuban,
+                    at the island of Taman, on the Black Sea; and, examining carefully every day the
+                    state of the barometer, they advanced with fifty-one observations, the distance
+                    of 990 wersts, or 711 English miles, to the mouth of the Terek, on the margin of
+                    the Caspian Sea. Similar observations were repeated and multiplied on their
+                    return. From a diligent comparison of the whole, it follows that the Caspian is
+                    334 English feet below the level of the Black Sea. That the Caspian really
+                    occupies a lower level than the Ocean, had been suspected before, from a
+                    comparison of some registers of barometers kept at St Petersburg, and on the
+                    borders of that inland sea; but the last observation places the question beyond
+                    all doubt. It further appears, that within 250 wersts, or 189 miles, of the
+                    Caspian, the country is already depressed to the level of the Ocean, leaving,
+                    therefore, an immense basin, from which the waters are supposed to have retired
+                    by a subterranean percolation.</p>
+                <p>If the same plan of barometrical measurements had been followed by the
+                    adventurous explorers of the African continent, and the altitudes of the central
+                    lakes ascertained, the question regarding the course of the Niger would have
+                    been much sooner settled, and much vague and unsatisfactory discussion avoided.
+                    Even thermometrical observations of the temperature of springs, or of the ground
+                    at moderate depths, would have furnished an approximation to those elevations
+                    sufficiently near for solving that great problem in geography on scientific
+                    principles alone.</p>
+                <p>The spirit of modern enterprise has more lately carried barometers to the
+                    remotest and loftiest stations on the surface of our globe. It has been thus
+                    ascertained that some of the mountains in the equatorial parts of America attain
+                    the stupendous altitude of 25,000 feet, while the great chain of Upper India
+                    seems to rear its vast summit about 2000 feet still higher. See <hi
+                    rend="smallcaps">Climate, Hygrometry,</hi> and <hi rend="smallcaps">Meteorology.
+                    (b.)</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

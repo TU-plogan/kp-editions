@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0712-6811-0693-04" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb07_v3.0">
+                <title level="a" type="main">KENT</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">7th edition, volume 12, page 693</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="3.0">Version 3.0<date when="2024">2024</date></edition>
+            </editionStmt>
+            <extent>464 MB; 21,116 XML files </extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/79392506" xml:id="mn">Napier,
+                            Macvey, 1776-1847</persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Seventh Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="21" unit="vol">21 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Adam and Charles Black</publisher>
+                        <pubPlace>Edinburgh</pubPlace>
+                        <date from="1830" to="1842">1830-1842</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="NLS"><title>Seventh edition - Encyclopaedia Britannica
+                            [190218838]</title><publisher><orgName
+                            ref="https://digital.nls.uk/encyclopaedia-britannica/archive/190218838"
+                            >National Library of Scotland</orgName></publisher><date when="2019"
+                            >2019</date><idno type="DOI">https://doi.org/10.34812/cg4r-dn40</idno><availability>
+                            <p>National Library of Scotland License: CC BY 4.0</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+                            </licence>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <bibl xml:id="UW-HT">Hathi Trust, from print source at the University of
+                        Wisconsin: vol. 9, pp. 29, 31, 32, 36, 37, 39, 41, 48, 50-55, 57, 59, 62,
+                        63, 66, 67, 69-71, 76, 88; vol. 19 (all).</bibl>
+                    <bibl xml:id="UCH-HT">Hathi Trust, from print source at the University of
+                        Chicago: vol. 10, pp. 7-10; vols. 20, 21 (all).</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        Some OCR errors have been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                    <p>Some volumes of the print edition substituted "c" for "e" letters across
+                        multiple pages. These are silently corrected.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                    <p>Ordinal numbers, such as 1st, 2ndly, etc., are inconsistently italicized in
+                        the printed text; they are normalized as roman throughout.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for entry subsections, but their inclusion is largely
+                        aspirational.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered <gi>div</gi> tags are used throughout.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. It omits volume 1, which consists of
+                    "Dissertations" rather than entries. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fastgeo" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fasttopic" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="15" ref="lcsh1910:b4dr2p79d">Land</term>
+                    <term n="12" ref="lcsh1910:b4n29p91c">Wheat</term>
+                    <term n="9" ref="lcsh1910:b4r785p78">Beans</term>
+                    <term n="9" ref="lcsh1910:b4w08wh05">Bean</term>
+                    <term n="8" ref="lcsh1910:b44f1mp22">Hops</term>
+                    <term n="2" ref="lcsh1910:b4h708258">Surveying</term>
+                    <term n="2" ref="lcsh1910:b4z02zd00">Surveys</term>
+                    <term n="1" ref="lcsh1910:b4222r689">Boys</term>
+                    <term n="1" ref="lcsh1910:b4kh0f72h">Spas</term>
+                    <term n="1" ref="lcsh1910:b4k06x32m">Sandwiches</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="2" ref="fasttopic:1139635">Surveys</term>
+                    <term n="2" ref="fasttopic:1139579">Surveying</term>
+                    <term n="1" ref="fasttopic:839044">British</term>
+                    <term n="1" ref="fasttopic:837358">Boys</term>
+                    <term n="1" ref="fasttopic:888601">Deals</term>
+                    <term n="12" ref="fasttopic:1174325">Wheat</term>
+                    <term n="9" ref="fasttopic:829213">Beans</term>
+                    <term n="8" ref="fasttopic:1182566">Year</term>
+                    <term n="8" ref="fasttopic:960169">Hops</term>
+                    <term n="6" ref="fasttopic:1124682">Soils</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="4" ref="fastgeo:1219920">England</term>
+                    <term n="3" ref="fastgeo:1207649">Wales</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change n="3.0" status="public" when="2024-12-06" who="#pml">v3.0. Includes
+                    significant corrections to the OCR text, predominantly in cases of confusing "c"
+                    and "e." Isolates 90 entries that were mistakenly included at the end of prior
+                    entries in v1 and v2. Normalizes ordinal numbers. Separates metadata in
+                    <gi>teiHeader</gi> into two separate facets: FAST Topical and FAST Geographical.
+                    Moves commas following <gi>pb</gi> in the text to preceding it and removes extra
+                    space around the <gi>pb</gi> tag. Where a word is hyphenated at a <gi>pb</gi>,
+                    the end fragment is now joined to the start fragment, making a machine-readable
+                    word.</change>
+                <change n="2.0" status="public" when="2023-10-11" who="#pml">v2.0. Isolates 42
+                    entries that were mistakenly included at the end of prior entries in v1. Removes
+                    <att>xml:id</att> from the <gi>div</gi> for the entry and adds it to the
+                    <gi>TEI</gi> tag. Adds schema link to all files.</change>
+                <change n="1.0" status="public" when="2022-11-28" who="#pml">v1.0. Initial
+                    release.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="nls:192946811" type="entry">
+                <p><label type="entry">KENT</label>, a maritime county in England, and, reckoning<pb
+                    break="no" facs="nls:192946824" xml:id="kp-eb0712-6824-0694"/> its population,
+                    extent, and fertility, perhaps the first in the island. It is in a peninsular
+                    form, being bounded by the British Channel on the south; by the German Ocean on
+                    the east; by the river Thames, which divides it from Essex, on the north; and by
+                    the counties of Surrey and Sussex on the west. Its length is sixty-six, and its
+                    breadth thirty-six miles. The area is calculated at about 1300 square miles.</p>
+                <p>The divisions of Kent are into five laths, which are subdivided into sixty-three
+                    hundreds and fifteen liberties, and contain two cities, thirty-six towns, and
+                    414 parishes.</p>
+                <p>The population, at the four decennial enumerations, amounted in 1801 to 307,624,
+                    in 1811 to 373,095, in 1821 to 426,016, and in 1831 to 479,155. At the last
+                    census the males were 234,572, and the females 244,583. These are comprehended
+                    in 97,142 families, of whom 31,667 are chiefly employedin agriculture, 29,419
+                    are occupied in trade, manufactures, and handicraft, and 36,056 are not included
+                    in either of the other classes. The number of males above twenty years of age
+                    employed in retail trade or in handicraft, or masters or workmen, was
+                    34,257.</p>
+                <p>The baptisms, burials, and marriages, show the following proportion at different
+                    periods, in the parish register :—</p>
+                <p>One Baptism One Burial One Marriage</p>
+                <p>in in in</p>
+                <p>1796 to 1800 30 41 116</p>
+                <p>1806 to 1810 29 38 115</p>
+                <p>1816 to 1820 31 51 130</p>
+                <p>1826 to 1830 34 49 143</p>
+                <p>Thus it is seen that the increase of population has been going on rather by a
+                    greater degree of longevity than by the increase of births. The only scale of
+                    morals which our present statistical knowledge supplies is that regarding
+                    chastity, by showing the proportion which the number of illegitimate children
+                    bears to the whole of the births. The illegitimates in Kent have only been one
+                    in twenty-four, whereas in the whole of England they were one in twenty; in the
+                    whole of Wales, one in thirteen; and in England and Wales taken together, one in
+                    nineteen.</p>
+                <p>The cities of Kent are two, and the towns whose houses and population exceed 3000
+                    inhabitants, are—</p>
+                <p>Cities. inhabited. Inhabitants.</p>
+                <p>Canterbury 3033 13,649</p>
+                <p>Rochester 1088 9,891</p>
+                <p>Towns.</p>
+                <p>Greenwich 3665 24,553</p>
+                <p>Deptford 4386 19,795</p>
+                <p>Woolwich 2672 17,661</p>
+                <p>Chatham 2840 17,430</p>
+                <p>Maidstone 2844 1,538</p>
+                <p>Dover 2095 11,922</p>
+                <p>Tonbridge 1709 10,380</p>
+                <p>Margate 1808. 10,339</p>
+                <p>Lewisham 1716 9,659</p>
+                <p>Ramsgate 1354 7,985</p>
+                <p>Deal 1391 7,268</p>
+                <p>Minster in Shep-</p>
+                <p>pey, with Sheer- &gt;- 1430 7,922</p>
+                <p>ness</p>
+                <p>Gravesend 756 5,097</p>
+                <p>Dartford 994 4,715</p>
+                <p>Sevenoaks 905 4,709</p>
+                <p>Milton 685 4,348</p>
+                <p>Bromley 669 4,002</p>
+                <p>Faversham 737 3,982</p>
+                <p>Cranbrooke 639 3,844</p>
+                <p>Folkstone 719 3,638</p>
+                <p>Bexley 601 3,206</p>
+                <p>Tenterden 548 3,177</p>
+                <p>Sandwich 595 3,136</p>
+                <p>By the law of 1832, entitled an act to amend the representation of the people of
+                    England, the county of Kent has been divided into the eastern and western parts.
+                    The election for the first of these is held at Canterbury, and the other polling
+                    places are Sittingbourne, Ashford, New Romney, and Ramsgate. The election for
+                    the second or western division is held at Maidstone, and the other polling
+                    places are Bromley, Gravesend, Tonbridge, and Cranbrooke. By the same act, the
+                    boroughs of New Romney and of Queenborough have been disfranchised; and the
+                    borough of Hythe, which before returned two members, can in future elect but
+                    one, and, to make up the competent constituency, the town of Folkstone has been
+                    added to it. Green wich has by the same law been erected into a borough, and
+                    returns two members; and Chatham is also a borough returning one. The other
+                    places, viz. Canterbury, Rochester, Dover, Maidstone, and Sandwich, return, as
+                    before, two members each. Thus the^ representation consists of four members for
+                    the county, and fourteen for the cities and towns.</p>
+                <p>The extent of land in the county appears to be 996,480 acres when the whole area
+                    is included; but, from some not ascertainable cause, the returns from the
+                    several parishes show only 972,240 acres. The annual value of the land,
+                    including that of the houses, was taken'in 1815, for the purpose of the property
+                    tax, at L.l,644,179. The whole of the poor-rates levied in 1833 amounted to
+                    L.450,851; and it had not much varied in the few preceding years.</p>
+                <p>The appearance of Kent is generally acknowledged to be equal, if not superior, in
+                    beauty, to that of any other British county. Its surface is gently undulating;
+                    none of its hills, except on the coast, rise abruptly, nor reach a great
+                    elevation. In all the valleys there are streams of water; the woods and trees
+                    enrich the scenery, and the mixture of pasture and corn land, interspersed with
+                    orchards, fruit-trees, and hop plantations, give to its beauties a character of
+                    softness and grace.</p>
+                <p>The Thames maybe considered as a Kentish river, as it washes its whole northern
+                    boundary, and empties itself into the sea on its shores. The river next in
+                    importance is the Medway, formed by the junction of four small streams, one only
+                    of which rises within the county. It becomes navigable for large barges at
+                    Tunbridge, and continues its course by Maidstone to Chatham, where ships of the
+                    largest size can approach the shore; and there terminates its course, by joining
+                    the Thames at the Nore, beyond the arsenal of Shcerness. The Greater Stoure, the
+                    Lesser Stoure, the Rother, the Cray, the Darent, and the Ravensbourne, are small
+                    rivers, none of them navigable, but all of great benefit, by the fertility they
+                    communicate to the meadow’s on their banks, and by the power they afford to the
+                    many mills erected upon their banks. .</p>
+                <p>Kent is almost exclusively an agricultural county; and though the soil is
+                    generally fertile,; and though there are few extensive tracts of barren or
+                    uncultivated land, yet no part of the kingdom exhibits within so small a compass
+                    so great a variety of soils, of productions, and of modes of cultivation. It has
+                    been judiciously divided into eight districts for the purposes of agricultural
+                    description. The first of these, the Isle of Thanet, is in the north-west angle
+                    of the county. The soil is a light mould on a chalky bottom, and has been highly
+                    enriched by the marine substances that have been administered as manure. The <pb
+                    break="no" facs="nls:192946837" xml:id="kp-eb0712-6837-0695"/> whole island
+                    contains 23,000 acres of arable and 3500 acres of rich marsh land. The most
+                    common rotation of crops is fallow, sometimes with, sometimes without, a crop of
+                    peas: this is followed by barley, clover, and wheat; and on some soils rather
+                    heavier, the course pursued is beans, wheat, and barley. The barley of this
+                    district is very much esteemed, and sought for as seed in other countries.
+                    Besides the common grains, seeds of various kinds are raised for sale to the
+                    London seedsmen, particularly canary, radish, spinach, mustard, and onion seed.
+                    The soil in the marshy parts of the island is a mixture of clay, sea sand, and
+                    small shells, and yields most abundant pasture.</p>
+                <p>The upland farms of East Kent, which surround Canterbury, and extend to Dover on
+                    one side and Ashford and Rochester .on the other, are an open and dry tract of
+                    corn land, intermixed with woods. The soils are very various, all resting on a
+                    subsoil of chalk. Some of them are very heavy loamy clays, with a great quantity
+                    of flint stones on the surface: these are usually cultivated on a four-course
+                    rotation of fallow, barley, beans, and wheat; when the soil is somewhat stiffer,
+                    a variation occurs of fallow, wheat, beans, and oats. In this district the
+                    harvest usually commences from twelve to fourteen days later than in the Isle of
+                    Thanet. The woods in this district usually supply poles to the hop-planters in
+                    the vicinity; they arc cut down after from ten to fourteen years’ growth. There
+                    are in this division some few hop grounds, but they are confined to three or
+                    foür parishes. In the vicinity of Sandwich, Faversham, and Deal, a portion of
+                    land, of a rich sandy loam, receives an almost uniform cultivation; it is nearly
+                    all under the plough, and a four-course rotation is practised, of wheat, beans,
+                    barley, and oats, after a fallow, or sometimes canary occupies the place of
+                    wheat. Some portions of this land are alternately cropped with beans and wheat,
+                    or beans and canary. In the vicinity of Sandwich are many orchards, the apples
+                    of which are partly sent to London, and partly furnish return cargoes to the
+                    vessels that come laden with coals from Newcastle and Sunderland.</p>
+                <p>The district extending from Maidstone to Canterbury, and thence to Sandwich, is
+                    the great garden-tract for the growth of hops. The soils on which hops are
+                    produced are very various: the most productive are those which have a deep loam
+                    surface, with a subsoil of deep loamy brick earth; some of these have a
+                    considerable quantity of tìint- ∙stones mingled with the soil, and, when it
+                    becomes compact, almost covering it. Another soil, provincially called stone
+                    shaken, is very good for the growth of hops; it is mixed with many small
+                    portions of stone and sand, and rests upon the basis of the stone called Kentish
+                    rag, which is burned into excellent lime. The cultivation of hops is a very
+                    fluctuating pursuit, as the produce varies in different years from two to
+                    fifteen hundredweight per acre, and the prices have varied from three to fifteen
+                    pounds. The expense of cultivation is very great, from the quantity of manure
+                    that is required, from the great expense of the poles round which the plants
+                    twine, and the labour of keeping the ground clear and of picking the hops.
+                    Besides hops, the district is very productive of apples, cherries, and filberts,
+                    to the growth of which many fields, from one to ten acres in extent, are
+                    devoted: part of the apples are made into cider; the remainder, with the
+                    cherries and filberts, are principally conveyed to the different markets in
+                    London.</p>
+                <p>The Isle of Sheppey is separated from the rest of Kent by an arm of the sea
+                    called the Swale, which is navigable for ships of 200 tons burden. Its length is
+                    eleven, and its breadth eight miles. About four fifths of this island is either
+                    marsh or dry pasture-land; upon the former many oxen are fattened, and the
+                    latter is appropriated to the breeding and feeding of sheep. About 10,000 acres
+                    of this island is arable land, of great fertility, usually cultivated with beans
+                    and wheat in alternate years, with occasionally a fallow before the beans. This
+                    land is highly fertile, the wheat raised on it being considered as the best that
+                    is brought to London, a bushel frequently weighing sixty-four pounds. This great
+                    productiveness may be in some measure owing to the practice of applying to the
+                    natural heavy clayey soil a frequent dressing of the cockle shells which are
+                    washed on the beach by the sea. It is not unusual to apply thirty cart-loads of
+                    these shells to an acre of land. The uplands of West Kent are extensive and
+                    various in their soils. This part is more woody and enclosed than East Kent. The
+                    ridge of the chalk hills, about six or seven miles in breadth, consists of a
+                    stiff clay, with many surface flints, and requires six horses frequently to
+                    plough it. On these soils the most common rotation is a year’s clean fallow,
+                    then wheat, clover, wheat, and oats. Many large flocks of South Down sheep are
+                    kept on this hilly range. The valleys and the sides of the hills are lighter
+                    soil and easier to work, but do not produce better corn; some of this, but not
+                    to a great extent, is cultivated for hops.</p>
+                <p>The district known as the Weald of Kent was, in former times, an immense forest,
+                    desolate of inhabitants, and only occupied by wild swine and deer; and though it
+                    is now filled with towns and villages, and well peopled, the woods that remain
+                    are extensive; exhibiting some pleasing landscapes, where seats, farms, and
+                    villages, are mixed with cultivated fields, and woods of spreading oaks. The
+                    roads in this district are very bad, many of them impassable for carriages in
+                    the best seasons; and, in winter, horses can only travel by keeping on the
+                    narrow paved tracts that are formed by the sides of the highways. The soil is
+                    principally clay, with a substratum of marl, in some places very heavy, but in
+                    others sufficiently light to be ploughed with oxen. This district produces
+                    wheat, oats, barley, rye-grass, clover, and beans; but so various are the
+                    rotations, that it is scarcely possible to generalise them. The pastures are
+                    very rich and fertile, and fatten annually great numbers of cattle. In the
+                    western part of this district, and in the adjoining Weald of Sussex, there were
+                    formerly many ironworks: the ore is found, and the abundance of wood made the
+                    manufacturing of it profitable; but the substitution of coke for charcoal in
+                    making iron has put a final stop to all the iron-works of Kent and Sussex.</p>
+                <p>The last agricultural division is a rich, level, extensive tract of land, on the
+                    southern coast, containing about forty-five thousand acres of the richest
+                    pasture in the united kingdom. This level is protected from the violence of the
+                    sea, and from inundations, by a dyke of earth of very great thickness, called
+                    Dimchurch-wall. The whole is alluvial land, consisting of a fine, soft, rich
+                    loam, with portions of sea-sand and broken shells intermixed. The subsoil
+                    consists of alternate layers of sand and clay mixed with shells, amongst which
+                    are sometimes found large oak trees in various positions, the wood of which is
+                    as black and as hard as ebony. On this plain there are two towns, Romney and
+                    Lydd, but scarcely any villages, and few other houses than those of the
+                    shepherds and herdsmen who attend upon the numerous cattle that graze on the
+                    marshes.</p>
+                <p>As there are no other fences but dykes, or posts and rails, from the surrounding
+                    heights it has the appearance of one large verdant field covered with sheep and
+                    oxen. The breeding and fattening of sheep is the principal purpose to which this
+                    level is appropriated, and the number bred is greater than on any other tract of
+                    the same extent in the kingdom. The sheep take their denomination from the
+                    district; they are larger than the South Downs, but not of a size equal to the
+                    Lincolnshire sheep. Their flesh is highly esteemed in the London markets, and
+                    their wool is both fine and of a long fibre; the average weight of the fleeces
+                    being about five pounds.</p>
+                <p>The landed property of Kent is much divided; there are some noblemen that have
+                    large, but none such vast estates <pb break="no" facs="nls:192946850"
+                    xml:id="kp-eb0712-6850-0696"/>as to give a preponderating political influence.
+                    The number of freeholders exceeds ten thousand, enjoying estates from the
+                    smallest value that can give a vote, and gradually rising to L.7000 or L.8000
+                    per annum. The copy-hold tenures are very few, and the peculiar tenure of Kent,
+                    known as <hi rend="italic">gavel-kind,</hi> is very much diminished by various
+                    legal operations.</p>
+                <p>The chief manufactures carried on in this county are those connected with the
+                    building and equipping of ships and boats. The males above twenty years of age
+                    employed in the several branches of ship-building, block, rope, and sail making,
+                    amount to 2120; to which are to be added, nearly as many plumbers, glaziers,
+                    painters, joiners, ironmongers, copper-smiths, and other trades who are occupied
+                    more in shipping than in other kinds of business. The larger operations of the
+                    kind are carried on in the king’s yards at Deptford and Woolwich; but there are
+                    many private yards for building and repairing ships on the south bank of the
+                    Thames. At Woolwich, the great manufactory of warlike stores, for the use of the
+                    artillery chiefly, gives occupation to many labourers exclusively of the
+                    soldiers. There mortars and brass cannon are cast, bored, and mounted, the
+                    different kinds of shot prepared, and all the various combustibles used in war
+                    compounded; and in the dockyard at that place, some of the largest ships of war
+                    are always building or repairing.* In Chatham, and at Rochester, the chief
+                    manufactories are those of the government, either for the navy or for the
+                    ordnance department. The private manufacturing establishments are not either
+                    numerous or extensive. The largest in value is paper, which is made at Maidstone
+                    and near Dover, of the best quality; but in other parts, where the water is
+                    adapted for the purpose, that trade is carried on; some especially near
+                    Westerham. The whole number of males above twenty years of age employed in
+                    making paper are 531, of whom 147 reside in the town of Maidstone. The grinding
+                    of wheat is a considerable trade, from the goodness of the wheat grown here, and
+                    the slight expense of conveying the flour by water to the great market of the
+                    metropolis. Some printing of calicoes is carried on, upon the banks of the river
+                    Cray. The principal of these works are at Crayford, where 124, and at Bexley,
+                    where forty males, above twenty years of age, are employed; but this trade, like
+                    that of making paper, gives occupation to many more females than males. At
+                    Dartford there are some large manufactories of gunpowder; at Deptford, of
+                    several chemical preparations; at Greenwich, of machinery and of combs; and at
+                    Maidstone, of bagging for hops.</p>
+                <p>One of the proudest ornaments of the nation, Greenwich Hospital, for the relief
+                    of disabled or aged seamen, is in this county; and, in the park contiguous to
+                    it, the Royal Observatory, to which the eyes of all the navigators of Europe are
+                    directed, as the place from which issues the nautical ephemeris, which all
+                    nations depend on when traversing distant seas.</p>
+                <p>Though Kent is bounded on three sides by the ocean and the river Thames, it has
+                    scarcely any foreign commerce. The harbours are none of them good; those of
+                    Dover and Ramsgate are formed by artificial piers, and the former is dry at low
+                    water when the sluices are open. The only trade from Dover is to Calais,
+                    Dunkirk, and Ostend, for such light goods as can bear the expense of
+                    land-carriage. There is a herring fishery conducted from Folkstone; besides
+                    which, the principal foreign trade consists in smuggling those various articles
+                    whose high duties offer a temptation to encounter such perilous adventures.</p>
+                <p>„ The sea-shores in this county invite numerous visitors, who frequent and fill
+                    various towns during the warm months of summer. The principal of these are
+                    Margate, Ramsgate, and Broadstairs; but, besides these, many of the smaller
+                    places on the coast are resorted to for purposes of health or amusement. On the
+                    western side of the county, the waters of Tunbridge have long been celebrated;
+                    and though the influence of fashion has erected into rivals several other Spas,
+                    yet the company that still resort to it is both numerous and respectable.</p>
+                <p>(See Marshall’s <hi rend="italic">Survey</hi><hi rend="italic">;</hi> Boys’s <hi
+                    rend="italic">Survey</hi><hi rend="italic">;</hi> Brayley’s <hi rend="italic"
+                    >Beauties of England and Wales</hi><hi rend="italic">;</hi> and Hasted’s <hi
+                    rend="italic">Kent.')</hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>
