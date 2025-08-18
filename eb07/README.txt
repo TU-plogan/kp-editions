@@ -50,14 +50,14 @@ DATA & FILE OVERVIEW
      
         eb07            : Root directory for entry files in Encyclopedia Britannica, 7th edition
             TXT         : Directory of plain text entry files for the current version
-                a2      : Subdirectories for entries under the given letter and volume number                
+                a2      : Subdirectories for entries under the given letter and volume number 
                 a3   a4   b4   b5   c5   c6   c7   d7   d8   e8
                 e9   f9   f10  g10  g11  h11  h12  i12  j12  k12
                 l13  m13  m14  m15  n15  n16  o16  p16  p17  p18
                 q18  r19  s19  s20  s21  t21  u21  v21  w21  x21
                 y21  z21
             XML         : Directory of TEI-XML entry files for the current version
-                a2      : Subdirectories for entries under the given letter and volume number                
+                a2      : Subdirectories for entries under the given letter and volume number 
                 a3   a4   b4   b5   c5   c6   c7   d7   d8   e8
                 e9   f9   f10  g10  g11  h11  h12  i12  j12  k12
                 l13  m13  m14  m15  n15  n16  o16  p16  p17  p18
