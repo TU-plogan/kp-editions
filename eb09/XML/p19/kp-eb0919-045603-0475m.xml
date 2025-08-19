@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0919-0475-0456-03" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb09_v1.1">
+                <title level="a" type="main">PONTOON</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">9th edition, volume 19, page 456</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.1">Version 1.1 <date when="2025">2025</date></edition>
+            </editionStmt>
+            <extent>486 MB; 17,775 XML files</extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2025">2025</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/12465694" xml:id="mn">Baynes, T.
+                            Spencer (Thomas Spencer), <date from="1823" to="1887"
+                            >1823-1887</date></persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Ninth Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="25" unit="vol">25 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Charles Scribner's Sons</publisher>
+                        <authority>Authorized reprint from Edinburgh plates</authority>
+                        <pubPlace>New York</pubPlace>
+                        <date from="1875" to="1889">1875-1889</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="ia-uc"><title>Encyclopaedia Britannica: a dictionary of arts,
+                            sciences, and general literature</title><publisher><orgName
+                            ref="https://archive.org/">Internet Archive</orgName><orgName
+                            ref="https://archive.org/details/cdl">University of California
+                            Libraries, California Digital Library</orgName></publisher><date
+                            when="2019">2006</date><idno type="OCLC">592355607</idno><idno
+                            type="ark">13960/t0ks6j612</idno><availability>
+                            <p>Internet Archive: NOT_IN_COPYRIGHT</p>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <desc>Alternate images of the same print editions were substituted when the
+                        primary source had unusable images for those pages.</desc>
+                    <bibl xml:id="um-ht">Hathi Trust, from print source at the University of
+                        Michigan: vol. 14, pp. 34-35; vol. 15, pp. 170-171.</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for future entry subsections.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="3" ref="fastgeo:1239786">America</term>
+                    <term n="3" ref="fastgeo:1210276">India</term>
+                    <term n="1" ref="fastgeo:1208963">Turkey</term>
+                    <term n="1" ref="fastgeo:1240495">Asia</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="6" ref="fasttopic:910709">English</term>
+                    <term n="4" ref="fasttopic:839044">British</term>
+                    <term n="2" ref="fasttopic:807480">Americanisms</term>
+                    <term n="2" ref="fasttopic:934209">French</term>
+                    <term n="2" ref="fasttopic:807485">Americanization</term>
+                    <term n="14" ref="fasttopic:1071012">Pontoons</term>
+                    <term n="12" ref="fasttopic:1171139">Water</term>
+                    <term n="4" ref="fasttopic:1154345">Trafficability</term>
+                    <term n="4" ref="fasttopic:1155007">Transportation</term>
+                    <term n="4" ref="fasttopic:1155410">Transports</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="12" ref="lcsh1910:b4513v11w">Water</term>
+                    <term n="4" ref="lcsh1910:b4xs5jj2j">Transportation</term>
+                    <term n="4" ref="lcsh1910:b4s17t24g">Traffic</term>
+                    <term n="3" ref="lcsh1910:b4n58cv3f">Skins</term>
+                    <term n="1" ref="lcsh1910:b4zw18v1m">War</term>
+                    <term n="2" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="2" ref="lcsh1910:b4vh5ch72">Americanisms</term>
+                    <term n="1" ref="lcsh1910:b4qb9vd72">Scythians</term>
+                    <term n="1" ref="lcsh1910:b4zk55m05">Indians</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change status="public" when="2025-08-15" who="#pml">v1.1. Isolates one entry;
+                    corrects "B.c." and variants; replaces "bom" with "born", removed 783 instances
+                    of extra space before semicolon. Separates metadata in <gi>teiHeader</gi> into
+                    two separate facets: FAST Topical and FAST Geographical.</change>
+                <change status="public" when="2023-02-28" who="#pml">v.1 published</change>
+                <change status="public" when="2023-02-27" who="#pml">v.1 teiHeader XSL
+                    finished</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ia:encyclopediabrit19newyrich/page/n475/mode/1up" type="entry">
+                <p><label type="entry">PONTOON</label>. Pontoons are vessels employed to support the
+                    roadway of floating bridges. They may be either open or closed, heavy and only
+                    movable when floated, or light enough to be taken out of the water and
+                    transported overland, as when required to form part of the equipment of an army
+                    in the field.</p>
+                <p>From time immemorial floating bridges of vessels bearing a roadway of beams and
+                    planks have been employed to facilitate the passage of rivers and arms of the
+                    sea. Xerxes crossed the Hellespont on a double bridge, one line supported on
+                    three hundred and sixty, the other on three hundred and fourteen vessels,
+                    anchored head and stern with their keels in the direction of the current. Darius
+                    threw similar bridges across the Bosphorus and the Danube in his war against the
+                    Scythians, and the Greeks employed a bridge of boats to cross the river Tigris
+                    in their retreat from Persia. Floating bridges have been repeatedly constructed
+                    over rivers in Europe and Asia, not merely temporarily for the passage of an
+                    army, but permanently for the requirements of the country; and to this day many
+                    of the great ft vers in India are crossed, on the lines of the principal roads,
+                    by floating bridges, which are for the most part supported on boats such as are
+                    employed for ordinary traffic on the river.</p>
+                <p>But light vessels which can be taken out of the water and lifted on to carriages
+                    are required for transport with an army in the field. Alexander the Great
+                    occasionally carried with his army vessels divided into portions, which were put
+                    together on reaching the banks of a river, as in crossing the Hydaspes; he is
+                    even said to have carried his army over the Oxus by means of rafts made of the
+                    hide tents of the soldiers stuffed with straw, when he found that all the river
+                    boats had been burnt. Cyrus crossed the Euphrates on stuffed skins. In the 4th
+                    century the emperor Julian crossed the Tigris, Euphrates, and other rivers by
+                    bridges of boats made of skins stretched over osier frames. In the 17 th century
+                    the Germans employed timber frames covered with leather as pontoons, and the
+                    Dutch similar frames covered with tin; and the practice of carrying about skins
+                    to be inflated and employed for the passage of troops across a river, which was
+                    adopted by both Greeks and Romans, still exists in the East, and. has been
+                    introduced into America in a modified form, india-rubber being substituted for
+                    skins.</p>
+                <p>Pontoons have been made of a variety of forms and of almost every conceivable
+                    description of material available for the purpose of combining the two essential
+                    qualities of transportability over land and power of support in water. As these
+                    qualities are not only distinct but conflicting, one of them has been frequently
+                    sacrificed to the other. Thus history records many instances of bridges having
+                    failed because incapable of supporting all the weight they were called on to
+                    bear, or of resisting the force of the current opposed to them; it also records
+                    instances of important strategical operations being frustrated because the
+                    bridge equipment could not be brought up in time to the spot where it was
+                    wanted. Numerous expedients for lightening the equipment have been suggested, in
+                    America more particularly; but the proposers have not always remembered that if
+                    a military bridge is intended to be carried <hi rend="italic">with</hi> an army
+                    it is also intended to <hi rend="italic">carry</hi> the army, with its columns
+                    of infantry and cavalry, its numerous waggons, and its ponderous artillery, and
+                    it ought to do so with certainty and safety, even though a demoralized rabble
+                    should rush upon it in throngs.</p>
+                <p>Pontoons have been made of two forms, open as an undecked boat, or closed as a
+                    decked canoe or cylinder. The advantage claimed for the closed pontoon is that
+                    it cannot be submerged by the river, but only by having to bear a greater load
+                    than its buoyancy admits of; the disadvantages are that it is difficult to make
+                    and keep water-tight, it requires special saddles for the support of the baulks
+                    which carry the roadway, and it cannot be conveniently used as a row-boat.
+                    During the Peninsular War the English employed open bateaus, as did and still do
+                    all the other European nations; but the experience gained in that war induced
+                    the English to abandon the open bateau; for if large it was very difficult to
+                    transport across country, and if small it was only suited for tranquil streams,
+                    being liable to fill and sink should the river rise suddenly or become disturbed
+                    by the wind. Thus closed pontoons came to be introduced into the British army.
+                    General Colleton devised the first substitute for the open bateau, a buoy
+                    pontoon, cylindrical with conical ends and made of wooden staves like a cask.
+                    Then General Pasley introduced demi-pontoons, like decked canoes with pointed
+                    bows and square sterns, a pair, attached sternwise, forming a single “pier” of
+                    support for the roadway; they were constructed of light timber frames covered
+                    with sheet copper and were decked with wood: each demi-pontooa <pb break="no"
+                    facs="ia:encyclopediabrit19newyrich/page/n476/mode/1up"
+                    xml:id="kp-eb0919-0476-0457"/> was divided internally into separate compartments
+                    by partitions which were made as water-tight as possible, and also supplied with
+                    the means of pumping out water; when transported overland with an army, a pair
+                    of demi-pontoons and the superstructure of one bay formed the load for a single
+                    carriage weighing 3110 lb when loaded. The Pasley was superseded by the
+                    Blanshard pontoon, a tin coated cylinder with hemispherical ends, for which
+                    great mobility was claimed, two pontoons and two bays’ superstructure being
+                    carried on one waggon, giving a weight of about 5000 B&gt;, which was intended
+                    to be drawn by four horses. The Blanshard pontoon was long adopted for the
+                    British army, but it is now being discarded; experiments made with it in peace
+                    time showed that it would probably break down under the strain of actual
+                    warfare, and efforts were constantly made to improve on it; when immersed to a
+                    greater depth than the semi-diameter it became very unstable and lively under a
+                    passing load, a defect which Serjeant-Major Forbes proposed to remedy by giving
+                    it a triangular instead of a circular section, thus increasing the stability by
+                    presenting a continually increasing area of bearing surface up to the level of
+                    total immersion; but the angles of these pontoons were found so liable to injury
+                    as to counterbalance any advantages over the cylinders.</p>
+                <p>After many years’ experience of the closed pontoon the English engineers came to
+                    the conclusion that it was desirable to return to the form of the open bateau to
+                    which the engineers of all the Continental armies had meanwhile constantly
+                    adhered. Captain Fowke, R.E., invented a folding open bateau, made of
+                    water-proof canvas attached to sliding ribs, so that for transport it can be
+                    collapsed like the bellows of an accordion and for use it can be extended by a
+                    pair of stretchers; it is very mobile, but it is also deficient in power of
+                    support, for whereas the buoyancy due to the outline form out of the water is
+                    13,600 ft&gt; the actual buoyancy in the water is only 8640 lb, because of the
+                    cavities in the canvas between the ribs which are formed by the pressure of the
+                    water outside; moreover, the surface irregularities cause the pressure exerted
+                    by a current upon a bridge formed of these collapsible pontoons to be about
+                    three times as much as upon one of equal power formed with Blanshard’s or
+                    Pasley’s pontoons; there is thus great risk of the bridge being carried away by
+                    a strong current.</p>
+                <p>The following table shows the powers of various pontoons at present or recently
+                    in use by different nations. The “working power of support” has been calculated
+                    in most instances by deducting from the “available buoyancy” one-fourth for open
+                    and one-tenth for closed vessels :—</p>
+                <p>The Powers of Various Pontoon Bridges.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Pontoon.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Length.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Displacement of Pontoon.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Actual Buoyancy of
+                            Pontoon.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Weight of Pontoon and One Bay of
+                            Superstructure.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Available Buoyancy.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Working Power of Support.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Central Interval in
+                            Bridge.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Power per Lineal Foot of
+                            Roadway.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Greatest Ordinary Load per Foot
+                            Lineal.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Widtlι of Roadway.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Greatest Possible Load at 100 ft per
+                            Foot Superficial of</p><p>Roadway.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Ft.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Cub. Ft.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>ft</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>ft</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>ft</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>ft</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Ft.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>ib</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>ft</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Ft.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>tb</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Gribeauval: open bateau,
+                            oak</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>36'3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>593</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>45,044</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,044</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>37.000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>27,750</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>22-8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,215</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>840</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15∙6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>35,568</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Austrian: open, wooden,
+                            1799</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>27 ∙0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>354</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>22,123</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3,332</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,791</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>14,093</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>166</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>849</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11 ∙4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,924</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Aust.-Birago: open, wooden; two
+                            pieces</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>28 ∙0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>303</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,907</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3,249</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15,658</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11,744</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>21 ∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>542</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>20,181</p><p>20,181</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>,, ,, „ three ,,</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>39 4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>445</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>27,791</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3,884</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>23,907</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>17,930</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>21 ∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>827</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙3</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>,, ,, iron; two pieces</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>28 Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>353</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>22,090</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3,698</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,392</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>13,794</p><p>21,476</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>21 ∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>636</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>20,181</p><p>20,181</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>,, ,, „ three ,,</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>39∙4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>530</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>33,135</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4,501</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>28,634</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>21 ∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>991</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙3</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>French: open, wooden;
+                            reserve</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>30 ∙9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>325</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>20,286</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3,608</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>16,678</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12,509</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>19∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>635</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>105</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>20,685</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>,, „ ,, advanced guard</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>19∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>156</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9,734</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,506</p><p>3,153</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,228</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,171</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>16∙4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>376</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15,252</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>,, ,, „ general</p><p>Prussian: open,
+                            wooden; open order</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>30 ∙9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>321</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>20,065</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>16,912</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12,684</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>19∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>644</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>19,306</p><p>15,147</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>237</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>164</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10,226</p><p>10,226</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,393</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7,833</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,875</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15 ∙3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>384</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙9</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>,, ,, ,, close order</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>23 ∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>164</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>2,213</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,013</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,010</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11 ∙2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>535</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11,088</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>,, ,, iron; open order</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>24 ∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>214</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>13,385</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,209</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11,176</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,382</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15∙3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>561</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15,147</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>,, ,, ,, close order</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>24 ∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>214</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>13,385</p><p>17,660</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,029</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11,356</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,517</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11 ∙2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>759</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9'9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11,088</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Italian: open, wooden; one
+                            piece</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>19∙6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>283</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>3,582</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>14,078</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10,559</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>26 ∙3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>402</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9'8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>25,774</p><p>25,774</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>,, ,, ,, two pieces</p><p>,,
+                            modified; one piece</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>39 ∙2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>565</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>35,320</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4,572</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>30,748</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>23,061</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>26'3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>878</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9'8</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>24 ∙6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>325</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>20,290</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3,401</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>16,889</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12,669</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>23 Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>551</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>22,540</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>,, ,, two pieces</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>49∙2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>649</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>40,580</p><p>13,042</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4,489</p><p>2,355</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>36,091</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>27,068</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>23 ∙0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,178</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>22,540</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>p <hi rend="subscript"> 11ββ</hi> ∙
+                            <hi rend="subscript"> τ</hi>, · ) <hi rend="superscript"> 0</hi> P <hi
+                            rend="superscript"> en</hi> &gt; canvas on ) open order</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>21 ∙0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>209</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>10,687</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,015</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>16 ∙6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>493</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10 ∙4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>17,264</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>( wooden framework; ⅛ close
+                            order</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>21 ∙0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>209</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>13,042</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,083</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10,959</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,219</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>705</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10 ∙4</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12,168</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Belgian: open, iron; one
+                            piece</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>24 ∙8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>297</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,584</p><p>37,168</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3,336</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15,248</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11,436</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>19 ∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>580</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,715</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>,, ,, ,, two pieces</p><p>American ·
+                            1 <hi rend="superscript"> iικ</hi> ∖' <hi rend="superscript"> a</hi>-
+                            <hi rend="superscript"> rubber</hi> &gt; <hi rend="superscript">
+                            tlπ</hi> ' <hi rend="superscript"> ee</hi><hi rend="italic">1</hi> open
+                            order..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>49 ∙2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>595</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>4,548</p><p>1,980</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>32,620</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>24,465</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>19∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,244</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,715</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>20 ∙0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>130</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,125</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>6,145</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,530</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>307</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>580</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11 ∙o</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>19,800</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="superscript"> -</hi> (
+                            cylinders connected ⅛ close order..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>20 Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>130</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,125</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,824</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,301</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,761</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>14 ∙7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>393</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18,370</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">English
+                            Pontoons.</hi> Peninsular ) open, tin; reserve</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>18∙9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>209</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>13,092</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,374</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10,718</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,039</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>16 ∙8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>477</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10 Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>16,800</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>equipment: 1 ,, ,, advanced
+                            guard</p><p>Pasley: closed demi-canoe; copper</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15∙1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>120</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7,520</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,654</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,866</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4,400</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>14Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>314</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9∙0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12,600</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>25 Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>141</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,781</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,103</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,678</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,010</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12 ∙5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>481</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10 Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12,500</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Blanshard: cylinder, tin; open
+                            order</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>22 ∙5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>109</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,785</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,600</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,185</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4,667</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12∙5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>373</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>12,500</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>,, ,, ,, close order</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>22 ∙5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>109</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,785</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,408</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,377</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4,839</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8∙3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>581</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10 0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8,300</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>,, ,, ,, infantry
+                            pattern....</p><p>Fowke: open, collapsible, canvas; open
+                            order.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15'5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>26</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,640</p><p>8,460</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>340</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,300</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,170</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5∙3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>220</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>280</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7∙0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3,710</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>22 ∙0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>134</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>1,246</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7,214</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,411</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10 ∙o</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>541</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10 Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Forbes: closed, spherangular, tin;
+                            open order..</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>24∙2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>128</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7,977</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1,689</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6,288</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5,659</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>514</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10 Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11,000</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Blood: open, wooden;
+                            general</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>21 ∙6</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>280</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>17,500</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2,300</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15,200</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>13,350</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15 Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>890</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>560</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10 Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>15,000</p></cell>
+                    </row>
+                </table>
+                <p>In the English and French equipment the pontoons were originally made of two
+                    sizes, the smaller and lighter for the ‘‘advanced guard,” the larger and heavier
+                    for the “reserve”; in both equipments the same size pontoon is now adopted for
+                    general requirements, the superstructure being strengthened when necessary for
+                    very heavy weights. The Austrian and Italian pontoons are made in three pieces,
+                    two with bows and a middle piece without; not less than two pieces are
+                    ordinarily employed, and the third is introduced when great supporting power is
+                    required, but in all cases a constant interval is maintained between the
+                    pontoons. On the other hand in the Prussian, Russian, Dutch, and American and in
+                    the English Blanshard equipments greater supporting power is obtained not by
+                    increasing the number of supports but by diminishing the central interval
+                    between the pontoons. Within certain limits it does not matter whether the
+                    buoyancy is made up of a large number of small or a small number of large
+                    vessels, so long as the water-way is not unduly contracted and the obstruction
+                    offered to a swift current dangerously increased; but it is to be remembered
+                    that pontoon bridges have failed as frequently from being washed away as from
+                    insufficient buoyancy.</p>
+                <pb break="no" facs="ia:encyclopediabrit19newyrich/page/n477/mode/1up"
+                    xml:id="kp-eb0919-0477-0458"/>
+                <p>On comparing the “available buoyancy” with the “greatest possible load at 100
+                    ft&gt; per foot superficial of roadway” for each of the bridge equipments in the
+                    preceding table, it will be seen that very few of the bridges are really capable
+                    of carrying the maximum load they may be called on to bear. Strictly speaking
+                    the roadway superficies should in all instances be proportioned to the buoyancy
+                    of the pontoon, or, as the central interval between the pontoons cannot be
+                    reduced below certain limits, the width of the roadway should be proportioned to
+                    the buoyancy; in other words the “chesses” or planks which form the roadway
+                    should be made of a shorter length for a bridge which is designed for light
+                    traffic than for one which is designed for heavy traffic. The employment of
+                    chesses of different lengths for the pontoon equipment of an army would,
+                    however, be very inconvenient and troublesome, and this has led to the adoption
+                    of a constant breadth of roadway, on the understanding that the traffic will
+                    always be controlled by the officer in charge of the bridge.</p>
+                <p>The latest form of pontoon for the English army is one with which the name of
+                    Colonel Blood, R. E., is mainly associated. Its powers are given in the lowest
+                    line of the preceding table. It is an open bateau with decked ends and sides
+                    partly decked where the rowlock blocks are fixed. It consists of six sets of
+                    framed ribs connected by a deep kelson, two side streaks, and three bottom
+                    streaks. The sides and bottom are of thin yellow pine with canvas secured to
+                    both surfaces by india-rubber solution, and coated outside with marine glue. The
+                    central interval between the pontoons in forming a bridge is invariably
+                    maintained at 15 feet; for the support of the roadway five baulks are ordinarily
+                    employed, but nine for the passage of siege artillery and the heaviest loads;
+                    they fit on to saddles resting on central saddle beams. The pontoons are not
+                    immersed to within 1 foot of the tops of their “coamings” when carrying ordinary
+                    loads, as of infantry in marching order “in fours” crowded at a check, or the
+                    16-pounder gun, which weighs 4800 lb; nor are they immersed to within 6 inches
+                    when carrying extraordinary loads, such as disorganized infantry, or the
+                    64-pounder gun weighing 11,100 lb. In designing this pontoon the chief points
+                    attended to were—(1) improvement in power of support, (2) simplification in
+                    bridge construction, (3) reduction of weight in transport, and (4) adaptation
+                    for use singly as boats for ferrying purposes. One pontoon with the
+                    superstructure for a single bay constitutes a load for one waggon, with a total
+                    weight behind horses of about 4500 lb.</p>
+                <p>For the British army in India the standard pontoon for many years.was the Pasley;
+                    it was seldom used, however, for boats could almost always be procured on the
+                    spot in sufficient numbers wherever a floating bridge had to be constructed. Of
+                    late years an equipment has been prepared for the Indian army of demi-pontoons,
+                    similar to the Blood pontoon cut in half, and therefore more mobile; each has a
+                    bow and a square stern, and they are joined at the sterns when required to form
+                    a * ‘ pier”; they are fitted with movable covers and can therefore be used in
+                    much rougher water than pontoons of the home pattern, and their power of support
+                    and breadth of roadway are the same.</p>
+                <p>For the British army there is a light form of the Blanshard pontoon suitable for
+                    infantry uncrowded, guns unlimbered, and cavalry in single file. The Berthon
+                    collapsible boat, for infantry in single file, is also employed; when open it is
+                    9 feet long and 4 feet wide; it weighs 109 lb with a pair of oars and a
+                    removable thwart or seat (to enable it to be used as a boat), and can be slung
+                    on to a bamboo and carried by two men; the superstructure for one bay weighs 97
+                    lb, and is also carried by two men; the width of roadway is 18 inches; twelve
+                    boats are required to bridge a stream 100 feet in width.</p>
+                <p>The india-rubber pontoon does not appear to have been generally employed even in
+                    America, where it was invented. The engineer officers with the army of the
+                    Potomac, after full experience of the india-rubber pontoon and countless other
+                    inventions of American genius, adopted the French equipment, which they found
+                    “most excellent, useful, and reliable for all military purposes.” The Russians
+                    in crossing the Danube in their war with Turkey in 1878 employed the Austrian
+                    equipment.</p>
+                <p><hi rend="italic">Authorities.—</hi> Colonel Lovell, R.E., <hi rend="italic"
+                    >Prof. Paper», Royal Engineer»,</hi> vol. xii., 1863; Brig.-Gen. Cnllum, U.S.A.
+                    Engineers, <hi rend="italic">System of Military Bridges in use by the United
+                    Slates Army,</hi> 1863; Gen. Barnard, U.S.A., <hi rend="italic">Report on Army
+                    of Potomac,</hi> 1863; Lord Wolseley, <hi rend="italic">Pocket-Book for Field
+                    Service,</hi> 1882; <hi rend="italic">Military Bridge»,</hi> Chatham, 1879. (J.
+                    T. W.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

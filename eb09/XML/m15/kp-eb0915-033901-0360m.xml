@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0915-0360-0339-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb09_v1.1">
+                <title level="a" type="main">MALTA</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">9th edition, volume 15, page 339</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.1">Version 1.1 <date when="2025">2025</date></edition>
+            </editionStmt>
+            <extent>486 MB; 17,775 XML files</extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2025">2025</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/12465694" xml:id="mn">Baynes, T.
+                            Spencer (Thomas Spencer), <date from="1823" to="1887"
+                            >1823-1887</date></persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Ninth Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="25" unit="vol">25 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Charles Scribner's Sons</publisher>
+                        <authority>Authorized reprint from Edinburgh plates</authority>
+                        <pubPlace>New York</pubPlace>
+                        <date from="1875" to="1889">1875-1889</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="ia-uc"><title>Encyclopaedia Britannica: a dictionary of arts,
+                            sciences, and general literature</title><publisher><orgName
+                            ref="https://archive.org/">Internet Archive</orgName><orgName
+                            ref="https://archive.org/details/cdl">University of California
+                            Libraries, California Digital Library</orgName></publisher><date
+                            when="2019">2006</date><idno type="OCLC">592355607</idno><idno
+                            type="ark">13960/t0ks6j612</idno><availability>
+                            <p>Internet Archive: NOT_IN_COPYRIGHT</p>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <desc>Alternate images of the same print editions were substituted when the
+                        primary source had unusable images for those pages.</desc>
+                    <bibl xml:id="um-ht">Hathi Trust, from print source at the University of
+                        Michigan: vol. 14, pp. 34-35; vol. 15, pp. 170-171.</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for future entry subsections.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="51" ref="fastgeo:1207170">Malta</term>
+                    <term n="5" ref="fastgeo:1239509">Africa</term>
+                    <term n="2" ref="fastgeo:1219920">England</term>
+                    <term n="2" ref="fastgeo:1754964">Rome</term>
+                    <term n="1" ref="fastgeo:1210276">India</term>
+                    <term n="1" ref="fastgeo:1215269">Gibraltar</term>
+                    <term n="1" ref="fastgeo:1208755">Egypt</term>
+                    <term n="1" ref="fastgeo:1204303">Spain</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="13" ref="lcsh1910:b4kp7tx0f">Islands</term>
+                    <term n="9" ref="lcsh1910:b44j09z32">Founding</term>
+                    <term n="8" ref="lcsh1910:b4kk94m4s">Sea</term>
+                    <term n="7" ref="lcsh1910:b4db7vr13">Stone</term>
+                    <term n="7" ref="lcsh1910:b47s7ht9n">Walls</term>
+                    <term n="6" ref="lcsh1910:b4p26qc7r">Turks</term>
+                    <term n="2" ref="lcsh1910:b45717v01">Saracens</term>
+                    <term n="2" ref="lcsh1910:b4xd0r50f">Phoenicians</term>
+                    <term n="2" ref="lcsh1910:b4zw18v1m">War</term>
+                    <term n="2" ref="lcsh1910:b4r49gb4d">Church</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="13" ref="fasttopic:980104">Islands</term>
+                    <term n="11" ref="fasttopic:1182566">Year</term>
+                    <term n="10" ref="fasttopic:1047359">Order</term>
+                    <term n="9" ref="fasttopic:933281">Founding</term>
+                    <term n="8" ref="fasttopic:1110395">Seas</term>
+                    <term n="8" ref="fasttopic:910709">English</term>
+                    <term n="6" ref="fasttopic:1159574">Turks</term>
+                    <term n="5" ref="fasttopic:839044">British</term>
+                    <term n="4" ref="fasttopic:934209">French</term>
+                    <term n="4" ref="fasttopic:1100116">Romans</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change status="public" when="2025-08-15" who="#pml">v1.1. Isolates one entry;
+                    corrects "B.c." and variants; replaces "bom" with "born", removed 783 instances
+                    of extra space before semicolon. Separates metadata in <gi>teiHeader</gi> into
+                    two separate facets: FAST Topical and FAST Geographical.</change>
+                <change status="public" when="2023-02-28" who="#pml">v.1 published</change>
+                <change status="public" when="2023-02-27" who="#pml">v.1 teiHeader XSL
+                    finished</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ia:encyclopediabrit15newyrich/page/n360/mode/1up" type="entry">
+                <p><label type="entry">MALTA</label> is the chief island of the Maltese group,
+                    consisting of Malta, 35° 50' N. lat. and 14° 30' E. long., Gozo, 36° 5' N. lat.
+                    and 14° 10' E. long., Comino, which lies between them, and the two islets
+                    Cominotto and Filfla, a crown colony, and one of the Mediterranean possessions
+                    of Great Britain. Malta is 17} miles long by 9} broad, containing an area of
+                    about 95 square miles (about two-thirds the size of the Isle of Wight), and Gozo
+                    is 9 miles long by 5 wide, with an area of 20 square miles. The islands lie
+                    directly south of Sicily, distant from 55 to 60 miles, near the centre of tho
+                    Mediterranean basin, where they appear as the remains of an ancient chain of
+                    islands, much worn and still wearing away by the sea. Gozo, which has the same
+                    general character as Malta, possesses more moisture and richer soil, and
+                    therefore more verdure. A cluster of single hills, remarkable for their steeply
+                    conical shape, on one of which stands Rabato, the principal village, is near the
+                    middle of the island. Along the northern and eastern shores of Malta the
+                    coast-line is frequently broken by deep indentations and bays (St Paul’s, St
+                    George’s, and St Julian’s Bays); on the peninsulas in and round the most
+                    remarkable of these Valetta and its fortifications are built. The geological
+                    formation is late Eocene, the prevailing rocks being white, grey, reddish, or
+                    yellow sandstone, with <pb break="no"
+                    facs="ia:encyclopediabrit15newyrich/page/n361/mode/1up"
+                    xml:id="kp-eb0915-0361-0340"/> some beds of marl and coral limestone, in many
+                    parts abounding in fossils. The surface of the country is diversified by valleys
+                    and steep hills; there is little water, and no river, brook, or lake exists on
+                    any of the islands. The highest point of Malta is near Casai Dingli, about 750
+                    feet above the sea to the south; a little farther north lies the ancient
+                    capital, Citta Vecchia, upon another steep height; west of these lies the range
+                    of Bingemma Hills running north-east to south-west; from this higher ground the
+                    island slopes somewhat towards the north-west. On the west and south the cliffs
+                    rise sheer from the sea to a height of 300 or 400 feet; on the north the rock in
+                    many places shelves to the water’s edge, though the harbours of Valetta and the
+                    rocks where the apostle Paul was wrecked are an exception to this. At the east
+                    end is the large harbour Marsa Scirocco, into which the south-east sirocco blows
+                    with full force. The general appearance of the land is bare, owing to the want
+                    of woodland, and also to the use of stone walls as enclosures for the fields,
+                    which in the east of the island are smaller than in the west. The dark foliage
+                    of the carob and the singular masses of the prickly pear are, however, very
+                    marked in the landscape, which with its contrasts of blue sea running into the
+                    brown and yellow land, heightened by whatever of green may be, is of fascinating
+                    beauty under the effects of morning light and setting sun. The land is closely
+                    cultivated; often the soil is terraced on the sides of the hills as a safeguard
+                    against the winter rains. The soil is in many places extremely thin; it is,
+                    however, so fertile that it produces two and sometimes three crops in a year.
+                    Large quantities of early potatoes grown for the English market, corn sufficient
+                    to supply the island for four months of the year, cotton, principally for home
+                    use, and a fine red-flowering clover, called <hi rend="italic">sulla,</hi> are
+                    the chief crops; excellent honey is obtained from Gozo; oranges and figs come to
+                    great perfection. Goats abound, but few cows are kept; the mules and asses are
+                    fine; •cattle and sheep for butcher meat are imported from Barbary. Fish is good
+                    and abundant. The flowers of Malta are famous; Cicero mentions the cushions
+                    stuffed with roses used by Verres, and many a lovely garden is hidden behind the
+                    high stone walls. The interesting flora of the islands approaches that of Africa
+                    (to which continent the old geographers considered them to belong, as the French
+                    do still), including the palm, cactus, and other subtropical plants. The scanty
+                    fauna is for the most part European; the Maltese dog is mentioned by Strabo and
+                    other old writers; a few still remain, though not wild. Of birds there are about
+                    ten or twelve indigenous species, but a large number of migratory birds pass or
+                    rest here. The marine plants and animals also offer a rich fund of material to
+                    the student.</p>
+                <p>The winter climate is temperate and healthy, the thermometer ranging from 51° to
+                    71° Fahr. between October and May. In the summer months the heat is almost
+                    tropical; from July to the end of October it ranges between 80° and 90°. Snow is
+                    unknown, but hail occurs in winter, and much rain usually falls between December
+                    and February. The northerly winds are bracing, bub the southeast wind, called
+                    the sirocco, which brings the warm air from the African deserts, and then takes
+                    up the salt sea mists, is very deleterious; it occurs suddenly, chiefly in
+                    August and September, occasionally in the spring, and fortunately lasts usually
+                    but a few hours. The “gregale” (“eurokylon” of Acts xxvii. 14) is a strong
+                    north-east wind which occasionally blows in the winter months with great fury
+                    and force for two or three days together, especially in November and February,
+                    rendering it dangerous to cross the harbour, sometimes tearing up stone walls
+                    and landing-steps, and otherwise doing much damage.</p>
+                <p>The Maltese are a strong well-formed race, the men dark, handsome, and lithe, the
+                    women with black eyes and fine hair and an easy carriage; as in other Eastern
+                    nations, the working classes grow old at a comparatively early age. They are a
+                    cheerful, good-humoured, and industrious people, sober and abstemious, though
+                    quick-tempered and addicted to the use of the knife. Bread or pasta, with a few
+                    olives, a little oil, or milk cheese, forms the chief support of the poor, who
+                    seldom or never eat meat, and drink but little of the light wine of the country.
+                    The gentry have a large admixture of Spanish, Italian, and French, but among the
+                    people in general the Arab race and character predominate, influenced by contact
+                    with Sicily. Of the native language 70 per cent, consists of Arabic words, the
+                    rest being chiefly a corrupt Italian; that spoken in Gozo is the purest Maltese.
+                    The festivals and ceremonials of the Roman Church are kept up to an
+                    extraordinary degree, together with a few that seem to be derived from the Greek
+                    Church. The perpetual ringing of monotonous church bells, and the peculiar
+                    method of striking time, are relics of South Italian customs.</p>
+                <p>Malta is divided into twenty-six casais or village districts, Gozo into nine;
+                    some of the villages are large and populous, each having its church, often large
+                    and handsome. Near the middle of the island, on sharply rising ground, stands
+                    the ancient capital, called Civitas Melita by the Romans and oldest writers,
+                    Medina <hi rend="italic">(i.e.,</hi> the city) by the Saracens, Notabile
+                    (“jocale notabile, et insigne coronae regiae,” as it is called in a charter by
+                    Alphonso, 1428) under the Sicilian rule, and Citta Vecchia (old city) by the
+                    knights. The cathedral, overthrown by an earthquake in 1693, but rebuilt, stands
+                    on the reputed site of the house of Publius, Paul’s friend; many Maltese gentry
+                    live in this town, and the English utilize some of the buildings. The Roman
+                    remains and catacombs of Citta Vecchia must not be forgotten. Since 1570 the
+                    chief town has been Valetta, —a city built on a ridge of rock (Mount Sceberras)
+                    which runs like a tongue into the middle of a bay, which it thus divides into
+                    two great harbours, subdivided again by three other peninsulas into creeks. On
+                    two of these peninsulas, and at their base, are built the aggregate of towns
+                    called the Three Cities, part of which (grown up under the old Fort St Angelo)
+                    is much older than the coming of the knights, and is called Vittoriosa in
+                    commemoration of the siege of 1565. Valetta, including the suburb Florian, is
+                    about 2 miles long and ∣ mile wide; Fort St Elmo, with a lighthouse, stands on
+                    the point; the summer suburb Sliema lies on the point which encloses the west or
+                    Marsamusceit harbour; Fort Ricasoli on the opposite point enclosing the east or
+                    grand harbour. The streets of Valetta, paved with stone, run along and across
+                    the ridge, and end on each side towards the water in steep flights of steps.
+                    Many of the houses, which are of stone throughout, with flat roofs, are large
+                    and luxuriously built; wooden covered balconies project from the windows and
+                    give a peculiar aspect to the streets. There are several fine public buildings,
+                    as the governor’s palace, the new opera-house, the public library, the <hi
+                    rend="italic">auberges</hi> or lodges of the knights, especially the Auberge de
+                    Castile, the English church built by Queen Adelaide and others. Roman Catholic
+                    churches in Valetta are very numerous: the cathedral of St John is famous for
+                    its rich inlaid marbles, its Brussels tapestries, its roof painted by Matteo
+                    Preti (1661-99), and the picture by Caravaggio, the Decollation of John the
+                    Baptist. The hospital of the knights contains one of the longest rooms in
+                    Europe, 503 feet in length, without a central support. The extensive bagnios
+                    under the rock, formerly occupied by the slaves of the knights, are now used for
+                    naval stores. The knights strengthened Valetta and its harbours by bastions,
+                    curtain-walls, lines, <pb break="no"
+                    facs="ia:encyclopediabrit15newyrich/page/n362/mode/1up"
+                    xml:id="kp-eb0915-0362-0341"/> and forts, towards the sea, towards the land, and
+                    on every available point, taking advantage in every particular of the natural
+                    rock and of the marvellous advantages of situation, rendering it then almost
+                    impregnable. The work of fortifying the place with modern armament is carried on
+                    by the British Government, which possesses there the finest naval hospital in
+                    Europe, a military prison, and other necessary institutions, including immense
+                    subterranean stores of grain. New sanitary and water works and dwellings for the
+                    over-crowded poor have lately been undertaken by the local authorities. The city
+                    is clean and well-regulated, gay with the motley throng of all nations that
+                    continually come and go, and presenting many features common to the East; the
+                    influx of winter visitors attracted by the mild climate and social gaieties has
+                    of late years proved a source of wealth to the inhabitants. A railroad from
+                    Valetta to Citta Vecchia,the first in the island, is now nearly completed.</p>
+                <p>The importance of Malta lies, as of old, in its harbours, which render it a
+                    splendid port of call, repair, or refuge, as well as a fine naval station, in
+                    its capabilities as a depot for coals and stores, in its hospitals, and in its
+                    strength as a military station. Its position in the Mediterranean is of the
+                    utmost value towards keeping a clear highway to the East and to India. During
+                    the eighty-two years of British, occupation the population, trade, and produce
+                    have largely increased. The government, created by royal letters patent of 11th
+                    May 1849, consists of a council of eighteen members, eight elected by the
+                    Maltese (about two thousand three hundred electors), nine chosen by the crown,
+                    and the governor, with a salary of £5000, who is usually a military officer. To
+                    these were added by letters patent of May 1881 an executive council of three
+                    members to advise and assist the governor. The council have powers to make laws
+                    and to vote money; this last was restricted by the British Government in 1875,
+                    leading to a protest in the following year by the elected eight. The government
+                    of the islands presents peculiarities owing to the combination of military and
+                    civil duties. Several recent inquiries on taxation, education, &amp;c., have led
+                    to important changes during the last two years. The consolidated revenue is at
+                    the disposal of the crown through the governor and council; Malta is
+                    self-supporting, costing the imperial exchequer little beyond the military and
+                    naval establishments, and even contributing £5000 annually towards the former.
+                    The revenue arises chiefly from import duties (of which a large proportion
+                    accrues from a tax of 10s. a quarter upon grain) and tonnage dues.</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Revenue.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Expenditure.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1879</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>£183,794</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>£185,946</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1880</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>190,661</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>169,318</p></cell>
+                    </row>
+                </table>
+                <p>The tonnage of vessels entering and clearing equals that at Gibraltar; in 1878it
+                    amounted to 6,503,859 (5,669,046 of which was for British vessels), and in 1880
+                    it was 6,147,234. In 1879 the value of imports actually landed was £794,565, and
+                    of exports £216,050,—a value of about £18,700,000 merely touching at the port.
+                    The figures fluctuate; in the following year they fell considerably. In 1837 the
+                    revenue was but £95,600, while but one steamship, of 137 tons, entered the
+                    harbour; in 1879 2894 steamers, with a tonnage of 2,781,806 entered. In the
+                    naval yard numerous vessels are repaired yearly; in 1876— 77 these amounted to
+                    39 ironclad and other ships and 43 smaller vessels. One arm of the harbour is
+                    devoted to a coaling station, where enormous quantities of coal are annually
+                    imported and sold (384,272 tons in 1880). The British Mediterranean fleet is
+                    stationed there for six months of the year, the strength of the naval forces
+                    being usually about 5000 men. The strength of the military in the island is
+                    usually about 6500, the largest garrison in any British colony.</p>
+                <p>The population, which in 1837 was 115,570, was 154,892 in 1880, exclusive of
+                    British troops and their families, about 24,000 being English and foreigners; it
+                    is rapidly increasing, and is unequally distributed, the greater part being
+                    settled in the large casais or villages on the eastern half of Malta, including
+                    the densely populated Valetta; large tracts to the west are bare and but
+                    sparsely inhabited; about one-third of the island is rocky and uncultivated.
+                    Malta has now 1510 inhabitants to the square mile, Gozo 962. In 1879 there were
+                    9868 children (about two-fifths of these at school age) attending elementary
+                    schools, including 768 students at the university and two lyceums; in 1880 the
+                    total was 9595. All the casais of Malta and Gozo (with but one or two
+                    exceptions), besides Valetta and the Cities, have schools, which are now placed
+                    on the same system as the board schools in England; great efforts are being made
+                    to extend the acquisition of the English language, which till recently was
+                    neglected in favour of Italian. The director of public education, besides the
+                    elementary, has under his care several secondary schools, two lyceums in
+                    Vittoriosa and in Valetta, and the university (founded by the knights in 1768),
+                    with faculties of philosophy and arts, law, medicine,’ and theology. In Valetta
+                    is a large public library founded by the knights in 1760, containing 48,000
+                    volumes, open free daily; in Gozo is a smaller one.</p>
+                <p><hi rend="italic">History and Antiquities.—</hi> Malta <hi rend="italic"
+                    >(Melita),</hi> with its sister Gozβ <hi rend="italic">(Gaulus</hi> or <hi
+                    rend="italic">Gaudus),</hi> has from time immemorial been a place of importance
+                    to whatever race wished to hold the highway of the Mediterranean, whether
+                    Phoenician, Punic, Roman, or Arab. Thus even the stories of Homer have a
+                    semblance of truth, for the Ogygian isle where Ulysses took refuge has been
+                    supposed to be Malta or Gozo, in both of which tradition (born of the poem) yet
+                    points out the grottoes of Calypso. The earliest inhabitants of whose presence
+                    we have any actual trace are the Phoenicians, from whom we have several
+                    important inscriptions which tell of them and their temples, several curious
+                    images believed to belong to their worship, and many specimens of their pottery
+                    and glass, chiefly found in tombs, some bearing Phoenician characters and
+                    potters’ marks. Sepulchral caves and clusters of rock-hewn tombs, especially
+                    those in the hills of Bingemma, in several of which terra cotta sarcophagi have
+                    been found, are referred with reason to a Phoenician or a Puħic origin;
+                    Caruana’s <hi rend="italic">Report</hi> gives a list of these in eight places,
+                    distinguishing them from numerous Greek and Christian catacombs which also exist
+                    in the islands. The most remarkable remains are three rough stone erections, one
+                    in Gozo (Torre dei Giganti), and two in Malta, about a mile apart (Hagiar Kim
+                    and Mnaidra), which mainly consist of several apsidal chambers side by side, the
+                    walls ef which are built of enormous horizontal and upright stones. In Malta the
+                    ruins show evidence of much skill in stone-cutting; the entrances to the
+                    chambers consist of three large slabs of stone in place of doorpost, each
+                    smaller than and at a little distance from the one outside it; several have
+                    well-shaped holes for ropes ot other fastening; other slabs have sharply-squared
+                    holes and shelves cut in the solid stone; others again are ornamented with
+                    “pit-markings” or little depressions cut evenly all over the surface of the
+                    stone. A table or altar is also found in some of the rooms, a massive slab of
+                    stone supported on an upright formed like the trunk of a tree; in one case the
+                    two ends of the slab are carefully mortised into the walls at each side, the
+                    chamber being very small, and apparently intended specially for its reception.
+                    Hagiar Kim was excavated by the Government in 1840, when considerable traces of
+                    the action of fire were found on some of the walls, as well as buried ashes. In
+                    other rooms were found quantities of bones, many fragments of pottery, lamps,
+                    bowls, &amp;c., nine images, and a small ornamented altar <hi rend="italic"
+                    >(Archseol.,</hi> vol. xxix. p. 227). The ruins in Gozo were excavated about
+                    1827 <hi rend="italic">(Archaeol.,</hi> vol. xxii. p. 294). All these buildings
+                    stand on commanding positions, high on the side or the shoulder of steep hills.
+                    They have been usually considered Phoenician temples; and, on comparison of them
+                    with what is known of the great temple of Melkart at the south-east corner of
+                    Malta, the presumption is strong that these too were built by the same race, at
+                    some very early period. The bilingual inscription found there belongs to a later
+                    age, the Graeco-Punic time, to which Greek coins found in both islands and a few
+                    other remains bear evidence. It is probable that the islands shared in some
+                    degree the varying fortunes that followed on the wars in Sicily, which took
+                    place as Greek drove cut Phoenician, as Carthaginian drove out Greek and tried
+                    to regain the ancient possession of the mother-land, as finally Rome conquered
+                    all. During the First Punic War (264-241 <hi rend="smallcaps">b.c.</hi>) Malta
+                    seems to have <pb break="no"
+                    facs="ia:encyclopediabrit15newyrich/page/n363/mode/1up"
+                    xml:id="kp-eb0915-0363-0342"/> been conquered and reconquered more than once
+                    (Orosius, iv. c. 8). In the Second Punic War the Carthaginians, under Hamilcar,
+                    son of Gisco, gave it up to Titus Sempronius, 218 <hi rend="smallcaps">b.c.</hi>
+                    (Livy, xxi. 51).</p>
+                <p>In the pursuit of manufactures and commerce Malta had attained a high degree of
+                    prosperity under the Phoenicians, which still existed under the Romans of the
+                    Augustan age. It was especially famous for its textile fabrics (probably of
+                    cotton, which is grown and spun there to this day); the Sicilian praetor Verres
+                    sent there for women’s woven garments. The inhabitants were rich, and there were
+                    many artificers of all kinds. Ovid speaks of it as a fertile island <hi
+                    rend="italic">{Fast.,</hi> iii. 567). The” remains formerly existed
+                    (unfortunately now for the most part dispersed or destroyed) of several fine
+                    Graeco-Roman temples, such as the temple of Juno spoken of by Cicero and
+                    Valerius Maximus, whose ornaments and fine ivories and carved figures of Victory
+                    tempted more than one sacrilegious robber; the temple of Proserpine, which we
+                    learn from an inscription was repaired by Chrestion, a freedman of Augustus,
+                    procurator of Malta; and the temple of Apollo at the chief town Melita, which
+                    with a theatre shared the munificence of a wealthy Maltese under the Antonine
+                    rule; these and the ruins of a princely Roman dwelling with mosaics, system of
+                    water supply, &amp;c., at the same place, are buta few signs of the luxury
+                    enjoyed in the islands. Diodorus noticed the beauty and adornment of the houses
+                    in Malta in his time, a few years after the shipwreck of St Paul. One of the
+                    islanders was a friend of Cicero, who had thoughts of retiring there himself. A
+                    mole and important harbour works, discovered a few years ago, show that the
+                    Romans were not behind in strengthening the natural advantages of the islands
+                    for shelter. Inscriptions recording municipal institutions there date from the
+                    time of Hadrian; how much earlier they possessed them is unknown. Before then we
+                    hear of Chrestion the procurator mentioned above, and a Roman governor under
+                    Augustus, Lucius Castricius, styled <hi rend="italic">πpωτos</hi> Meλι- <hi
+                    rend="italic">τalωv</hi>, “chief man of the Maltese” (Caruana, 1882, p. 134;
+                    1881, pp. 20, 21), just as, half a century later, Publius was <hi rend="italic"
+                    >πpωτos τηs</hi><hi rend="italic">ΐ'ήσ-ου,</hi> “chief man of the island” (Acts
+                    xxviii. 7); all these were probably concerned in the local government. The
+                    Romans retained the Maltese group for many centuries. At the division of the
+                    empire in 337 <hi rend="smallcaps">a.d.</hi> it passed with Italy, Illyria, and
+                    Africa to Constans; after the reunion, and the final division after the death of
+                    Theodosius in 395, Malta, as one of the isles of the Mediterranean, remained
+                    with the empire of the East. History has but little to mention regarding it
+                    during those early times, except that event of ever-living interest, the
+                    shipwreck of St Paul, 58 <hi rend="smallcaps">a,d.,</hi> which it is now
+                    well-ascertained took place in a bay on the north side of Malta. The alleged
+                    conversion of the Maltese to Christianity following the three months’ stay of
+                    the apostle and his companions may be a fact; Chrysostom refers to it <hi
+                    rend="italic">{Hom.</hi> 54 on Acts). Many Christian monograms and inscriptions
+                    have been found, ranging from the 2d to the 9th century; and the tombs and
+                    subterranean cemeteries near Citta Vecchia are said to be arranged like the
+                    Christian cemeteries of subterranean Rome (Caruana, 1881, p. 18). Tradition says
+                    these were used as hiding-places in times of persecution; it is certain that
+                    Ptolemy at the end of the 2d century notes the famous temples of Hercules and
+                    Juno as still in existence; the old religion and the new must have gone on side
+                    by side for a long time. After a time Malta was made a bishopric; according to
+                    R. Pirrus <hi rend="italic">{Sicilia Sacra,</hi> Melitensis Eccl. Not. vii., <hi
+                    rend="italic">s.v.</hi> ‘ ‘Lucilio ”) it was, though considered part of Africa,
+                    subject to the bishop of Palermo (in 6th century primate of Africa); we find
+                    Gregory the Great dealing with a contumacious bishop of Malta and directing the
+                    bishop of Syracuse and others to depose him, and to aid the successor appointed
+                    in his place (Greg., <hi rend="italic">Epist.,</hi> ii. 44; ix. 63; x. 1).</p>
+                <p>The Saracens did not gain possession of-Malta without a struggle of many years;
+                    they invaded it three times, in 828, 836 (when it appears to have been chiefly
+                    Gozo that suffered), and finally in 870, when the inhabitants of Melita, having
+                    massacred the Greek (Byzantine) garrison of 3000, opened their gates to the
+                    invaders. The Arabs are said to have destroyed part of the city so as to bring
+                    the fortifications within smaller compass, rendering it more easy to defend, and
+                    to have changed its name to Medina (great or chief city). In a suburb just
+                    outside the present walls there was discovered in 1881 a burial-place containing
+                    numerous Arab coffins, overlying the remains of the Roman palace mentioned
+                    above, which was thus finally ruined and concealed by the conquerors. It is
+                    known that they built a fortress in 973, at the point of Mount Sceberras where
+                    Fort St Elmo now stands. A few coins are preserved, but otherwise very little
+                    record remains of the Arab dominion, which lasted about two hundred and twenty
+                    years; no more Christian bishops are known until after that time, but tradition
+                    asserts, not without probability, that some of the original natives remained in
+                    certain villages and some Greeks in the capital, among whom were Christians.</p>
+                <p>The Norman knights, who brought their conquering arms into Apulia, Calabria, and
+                    Sicily, and even sent ships to Byzantium, were probably the first to bring a
+                    Teutonic race and influence into λlalta. Through somewhat uncertain dates it
+                    appears that Roger I. (youngest son of Tancred, and brother of Guiscard) about
+                    1090 landed in the island and levied tribute, and that about 1127 Roger II.,
+                    this not being paid, set sail with a fleet, took Medina, then governed by a <hi
+                    rend="italic">gaito,</hi> Maimono, and after setting free all the Christians and
+                    exacting a large sum in money, mules, and horses, completed the conquest of
+                    Malta and Gozo. Walter, bishop of Malta, whose name is found as witness to a
+                    document of 1090, is believed to have been now appointed by Roger I., and
+                    consecrated by the pope. A succession of Christian bislιops, endowments and
+                    buildings made, tithes granted, &amp;c., testify to the restoration of the
+                    church in the islands, while they shared with Sicily the feudal laws and
+                    administration newly established under the Norman rule. In 1193 Malta as a
+                    county gave a title to Margarito Brundusio, grand-admiral of Sicily, and three
+                    successive counts of Malta followed. After the Norman princes had possessed the
+                    islands about a century, the kingdpm of the Two Sicilies, and the Maltese
+                    islands with it, passed in 1194 to the emperor Henry Vl., in professed right of
+                    his wife Constance, daughter and heiress of Roger II. In 1223 a Maltese named
+                    Henry or Arrigo is stated to have been grand-admiral of Sicily (Pirrus, p. 906;
+                    Miège, ii. 38). He is probably the same as the distinguished Henry, count of
+                    Malta, who λvith three hundred Maltese youths in 1205 earned the favours of the
+                    Genoese by brilliantly taking two forts in Tripoli (Caffarus, <hi rend="italic"
+                    >Ann. Genuenses,</hi> in Muratori, t. vi.), and who took part also in the fourth
+                    crusade. No traces of the crusades, however, have been found in these islands,
+                    although it is probable that their leaders would not neglect the advantages of
+                    Maltese ports and sailors.</p>
+                <p>Henceforward Malta, as a fief of Sicily, followed the fortunes of that country.
+                    The Maltese seem to have taken no part in the Sicilian Vespers (1282), but to
+                    have held out for Charles of Anjou until Peter of Aragon, crowned king of
+                    Sicily, August 1282, won a battle at sea against the French, attacked Notabile
+                    and the forts, and thus obtained possession of the islands. For nearly two
+                    hundred and fifty years the Spanish house, through fourteen kings of Aragon,
+                    bore rule over Sicily and Malta. In 1391 the countship was erected into a
+                    marquisate, which lasted two years only. In 1427 a swarm of Moors (18,000)
+                    ravaged Malta and Gozo, but were not able to take the city Notabile; yet the
+                    people, though afflicted by the plagne in 1431—as not unfrequently at other
+                    times—were able to sally forth to conquer Gerbi on the coast of Africa in the
+                    following year. The king at this time (1432) authorized the demolition of the
+                    old castle at Notabile, built three hundred and fifty years before, and gave the
+                    ground on which it stood to the town; but the fortifications of the island were
+                    strengthened (1466), the chief stronghold in the 15th century being the fortress
+                    of St Angelo. The inhabitants, addicted to fighting at sea, were forbidden from
+                    1448 to 1494 to send out armed corsair ships, in order it is said to retain
+                    those capable of defence in the islands, the population of which was at the
+                    beginning of that period very scant. The Jews were expelled from Malta by the
+                    same edict of Ferdinand, in 1492, which turned them out of Spain. By 1514 the
+                    population of Malta had doubled; the two islands together contained 22,000
+                    inhabitants (Miège, ii. 81). They frequently attacked the Moors on the mainland,
+                    and suffered reprisals themselves as late as 1526. Their last king of the
+                    Spanish house, the emperor Charles V., in 1530 granted Malta and Gozo (with the
+                    city of Tripoli) as a noble and free fief to the knights of St John of
+                    Jerusalem, still retaining, however, the suzerainty, by the homage of a falcon
+                    annually to be given by the knights.</p>
+                <p>Malta thus during many centuries occupied the position of a feudal fief of
+                    Sicily; her laws and her church date from the times of the Normans, and both
+                    developed as in other feudal governments. The progress of her political
+                    independence in the 15th century, especially under Alphonso I. and John I., has
+                    been shown by the historian Miège; the history of the relations between Malta
+                    and the monarchs of Sicily affords an interesting example of feudal obligations
+                    with their attendant difficulties. That these fostered a spirit of liberty and
+                    independence in the people, and must have tended largely to the prosperity of
+                    the islands, is shown by numerous diplomas of the Aragonese suzerains preserved
+                    in the archives at Malta (Eton’s <hi rend="italic">Authentic Materials,</hi>
+                    1803, p. 108 <hi rend="italic">sq.},</hi> where it is seen that the inhabitants
+                    acquired many privileges and were also able to pay on emergency considerable
+                    sums of money to increase and preserve their privileges. Thus in 1428, only a
+                    century before the knights came, they paid 30,000 florins of gold to King
+                    Alphonso in order to secure their tenure by the crown of Sicily without any
+                    middle-lords, being the second time they thus bought back their island rights
+                    (Eton, p. 84). These things are to be noticed, because, as has been complained,
+                    the knights unjustly depreciated the value and advantages of the islands, in
+                    order the more readily to obtain the grant from Charles V. Under the kings of
+                    Sicily, Notabile was a <hi rend="italic">università</hi> or commune, with its
+                    popular council and jurats, a captain-justiciar representing the rights of the
+                    crown; in other words, Malta was a republic governed by its own laws; the
+                    principal magistrate was named by the king out of three persons proposed by the
+                    <hi rend="italic">consilio</hi><hi rend="italic">popolarc,</hi> and was liable
+                    to dismissal on complaint by the people. The king protected the island, and in
+                    <pb break="no" facs="ia:encyclopediabrit15newyrich/page/n364/mode/1up"
+                    xml:id="kp-eb0915-0364-0343"/> return the Maltese took a share in his wars. When
+                    the knights took possession the Maltese stipulated that each grand master on
+                    enteriug office should take oath to maintain their ancient rights and liberties
+                    (Eton, pp. 38, 85, 101). The knights began by deceiving the Maltese candidates
+                    for admission into their ranks. Their rule, at first conciliatory, soon became
+                    despotic; in time the overshadowing power of a rich military organization
+                    encroached upon the constitutional government, corruption brought the officials
+                    under the control of the knights, and the people lost their liberties, though
+                    the material prosperity of the islands was in many ways heightened.</p>
+                <p>For the history of the order of St John see <hi rend="smallcaps">St John (Knights
+                    of).</hi> Twenty-eight successive grand masters, from Lisle d’Adam to Hompesch
+                    (1530 to 1798), held the islands. Lisle d’Adam established his convent and
+                    hospital in the Borgo, a city that had grown up on the coast near the castle St
+                    Angelo, opposite the ancient fort St Elmo. In 1541 was made the first survey for
+                    the fortification of Valetta. Ten years later the Turks, led by their famous
+                    naval commander Dragut, ravaged Gozo, and made an attempt upon Malta which
+                    failed. The knights, already famous for their power at sea, were soon engaged in
+                    much skirmishing warfare against the pirates and Turks, winning success and
+                    riches, and the gratitude of Christian nations. In 1565, after eight years of
+                    threatening preparations, during which the knights had been strengthening and
+                    fortifying their island, the Turks besieged them with an immense force; they
+                    defended themselves with such valour that it took a month to reduce Fort St
+                    Elmo, and in rather over two months more the Turks, whose further advance was
+                    successfully resisted, were forced to retire, leaving the knights free to build
+                    their new city Valetta and its fortifications. The admiration and gratitude of
+                    Catholic countries for this service to Christendom showed itself in liberal
+                    donations towards these works; large sums were also raised from the possessions
+                    of the order; and Valetta, the first stone of which •was laid on 26th March
+                    1566, in four years rose upon the ridge of rock, ‘ <hi rend="superscript">
+                    1</hi> a city built by gentlemen for gentlemen,” as it has been well
+                    described,—the original design of which, the cutting down the rock to a level
+                    platform, had only suffered from the continual fear of molestation by the Turks
+                    while building.</p>
+                <p>The order, now firmly established in their island, continued to carry out their
+                    mission, that of keeping the Mediterranean clear from Turkish and Moorish
+                    pirates, and of protecting Christendom against the infidels. Numerous sea-fights
+                    took place during the 16th and 17th centuries, many of them undertaken more to
+                    make up for the neglect of some of the grand masters to supply the islands with
+                    corn, by seizing upon Turkish stores, than for any better reason. Valetta became
+                    in consequence “a vast slave mart.” In 1614, under G. Μ. Vignacourt, an aqueduct
+                    was constructed at a cost of £13,000 to bring water to Valetta from springs near
+                    Citta Vecchia, a work of immense value, and still in use. But the work of
+                    fortifying Malta occupied a large share of money an&lt;l attention, and was
+                    carried on without relaxation by many of the grand masters, down as late as the
+                    building of Fort Tigné in 1793. Besides the great lines and forts in and round
+                    Valetta, the knights have left their mark all over the islands: they made good
+                    roads, improved Citta Vecchia, built watch-towers round the coasts, and erected
+                    towers, country palaces, and gardens. They also established and continually
+                    carried on, at Notabile and Valetta, their hospitals for the sick and wounded.
+                    In 1768 the Jesuits, having given much trouble, were expelled and their property
+                    confiscated. Danger from rebellion twice threatened the knights—in 1722, when
+                    the slaves were believed to be in communication with the Turks, and from 1773 to
+                    1775, when both people and priests were wrought upon by oppression and
+                    misgovernment, which, only mitigated for a time by the better measures of G. Μ.
+                    Rohan, led to the weak and disorganized condition of the order that ended in its
+                    overthrow. In June 1798, the possessions of the order in France having already
+                    been seized by the republicans, Bonaparte on his way to Egypt landed with a
+                    large force in a bay behind Valetta; no resistance was made, and in a few hours
+                    the French were in possession of the whole of Gozo and Malta except the town of
+                    Valetta and one little fort. In four days more, without bombardment, the order
+                    had surrendered Valetta and practically ceased to exist. Bonaparte stayed six
+                    days, laying down laws and regulations with a high hand, and collecting plunder
+                    from churches, &amp;c. He left Vaubois in charge, but in less than three months
+                    the Maltese had revolted from the tyranny of their new masters, and Vaubois
+                    inside Valetta with 6000 men sustained a siege and blockade lasting two years,
+                    during which time Portuguese, Neapolitans, and a small force of English assisted
+                    the Maltese. Sir Alexander Ball commanded in the name of the Sicilian king, .and
+                    was put at the head of their National Council by the Maltese. On 4th September
+                    1800 Vaubois surrendered, and the Maltese (who lost 20,000 men) put themselves
+                    and their islands under the protection of the English,—reunion to the crown of
+                    Sicily, which they Iιad sought, being no longer thought of. The treaty of Amiens
+                    (1802) provided that the islands should be restored to the order of St John,
+                    obviously to the advantage of France, but repugnant to the Maltese. War breaking
+                    out again, the islands remained in the hands of England till in 1814 they were
+                    secured to her by the treaty of Paris (Art. 7), under which she still holds
+                    them.</p>
+                <p>See Kenrick’s <hi rend="italic">Phoenicia,</hi> 1855; A. A. Caruana’s <hi
+                    rend="italic">Reports on Phoenician and Roman Antiquities in Malta,</hi> 1881
+                    and 1882; James Smith, <hi rend="italic">Voyage and Shipwreck of St Paul,</hi>
+                    1866; R. Pirπxs, <hi rend="italic">Sicilia Sacra</hi>; T. Fazello, <hi
+                    rend="italic">Storia</hi><hi rend="italic">di Sicilia,</hi> 1833; C. de Baz
+                    incourt, <hi rend="italic">Histoire</hi><hi rend="italic">de la Sidle,</hi>
+                    1846; G. F. Abela, <hi rend="italic">Malta</hi><hi rend="italic"
+                    >Illustrata,</hi> 1772; J. Quintin, <hi rend="italic">Insulae Melitae</hi><hi
+                    rend="italic">descriptio,</hi> 1536; G. W. von Streit bürg, <hi rend="italic"
+                    >Reyse</hi><hi rend="italic">nach der Insel Malta,</hi> 1632; R. Gregorio, <hi
+                    rend="italic">Gonsiderazioni sopra la</hi><hi rend="italic">Storia</hi><hi
+                    rend="italic">di</hi><hi rend="italic">Sicilia,</hi> 1839; F. A. C. Davalos, <hi
+                    rend="italic">Tableau historique de Malte,</hi> 1816; W. Eton, <hi rend="italic"
+                    >Authentic</hi><hi rend="italic">Materials</hi><hi rend="italic">for History of
+                    Malta,</hi> 1802; Houel, <hi rend="italic">Voyage Pittoresque,</hi> vol. iv.,
+                    1787; G. P. Badger, <hi rend="italic">Description</hi><hi rend="italic">of
+                    Malta</hi><hi rend="italic">and Gozo,</hi> 1858; G. N. Godwin, <hi rend="italic"
+                    >Guide</hi><hi rend="italic">to</hi><hi rend="italic">and</hi><hi rend="italic"
+                    >Natural History of Maltese Islands,</hi> 1880; Whitworth Porter, <hi
+                    rend="italic">History of Knights of Malta,</hi> 1858; A. Bigelow, <hi
+                    rend="italic">Travels in Malta and Sicily,</hi> 1831; Μ. Miège, <hi
+                    rend="italic">Histoire</hi><hi rend="italic">de Malte,</hi> 1840; <hi
+                    rend="italic">Parliamentary Papers—</hi> reports by Mr Rowsell on “Taxation and
+                    Expenditure of Malta,“1878, by Sir P. julyan on “Civil Establishments,” 1880,
+                    and Mr Keenan on the “Educational System," 1880 (the list two deal with the
+                    question of language); F. Vella, <hi rend="italic">Maltese Grammar for the use
+                    of the English,</hi> 1831; <hi rend="italic">Malta Penny Magazine,</hi> 1839-41;
+                    J. T. Mifsud, <hi rend="italic">Biblioteca Maltese,</hi> 1764. Brydone, Teo··ge,
+                    John Dryden, jun., W. Tallack, Rev. H. Seddall, Boisgelin, Rev. W. K. R.
+                    Bedford, W. Η. Bartlett, St Priest, Msgr. Bι∙es, and F. Lacroix have also
+                    written on Malta. For natural science, see the works of Dr A. I.. Adams,
+                    Professor E. Forbes, Captain Spratt, Dr G. Gulia, C. A. Wright, and Wood s <hi
+                    rend="italic">Tourist's Flora.</hi> (I.. T. S.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

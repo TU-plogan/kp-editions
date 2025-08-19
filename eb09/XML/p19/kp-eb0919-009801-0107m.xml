@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0919-0107-0098-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb09_v1.1">
+                <title level="a" type="main">PINDAR</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">9th edition, volume 19, page 98</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.1">Version 1.1 <date when="2025">2025</date></edition>
+            </editionStmt>
+            <extent>486 MB; 17,775 XML files</extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2025">2025</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/12465694" xml:id="mn">Baynes, T.
+                            Spencer (Thomas Spencer), <date from="1823" to="1887"
+                            >1823-1887</date></persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Ninth Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="25" unit="vol">25 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Charles Scribner's Sons</publisher>
+                        <authority>Authorized reprint from Edinburgh plates</authority>
+                        <pubPlace>New York</pubPlace>
+                        <date from="1875" to="1889">1875-1889</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="ia-uc"><title>Encyclopaedia Britannica: a dictionary of arts,
+                            sciences, and general literature</title><publisher><orgName
+                            ref="https://archive.org/">Internet Archive</orgName><orgName
+                            ref="https://archive.org/details/cdl">University of California
+                            Libraries, California Digital Library</orgName></publisher><date
+                            when="2019">2006</date><idno type="OCLC">592355607</idno><idno
+                            type="ark">13960/t0ks6j612</idno><availability>
+                            <p>Internet Archive: NOT_IN_COPYRIGHT</p>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <desc>Alternate images of the same print editions were substituted when the
+                        primary source had unusable images for those pages.</desc>
+                    <bibl xml:id="um-ht">Hathi Trust, from print source at the University of
+                        Michigan: vol. 14, pp. 34-35; vol. 15, pp. 170-171.</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for future entry subsections.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="21" ref="lcsh1910:b4639kc77">Poets</term>
+                    <term n="8" ref="lcsh1910:b4x34mr95">Art</term>
+                    <term n="4" ref="lcsh1910:b42j68967">Songs</term>
+                    <term n="5" ref="lcsh1910:b4v11vw02">Work</term>
+                    <term n="1" ref="lcsh1910:b46688q84">Odes</term>
+                    <term n="3" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="2" ref="lcsh1910:b4ff3m29x">Dorians</term>
+                    <term n="2" ref="lcsh1910:b4ws8hn48">Mothers</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="2" ref="fastgeo:1239509">Africa</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="21" ref="fasttopic:1067778">Poets</term>
+                    <term n="8" ref="fasttopic:817721">Arts</term>
+                    <term n="8" ref="fasttopic:815177">Art</term>
+                    <term n="7" ref="fasttopic:1182566">Year</term>
+                    <term n="5" ref="fasttopic:1355303">Wars</term>
+                    <term n="4" ref="fasttopic:1126120">Songs</term>
+                    <term n="3" ref="fasttopic:947546">Greeks</term>
+                    <term n="2" ref="fasttopic:795626">Achaeans</term>
+                    <term n="2" ref="fasttopic:1128747">Spartanism</term>
+                    <term n="2" ref="fasttopic:1026940">Mothers</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change status="public" when="2025-08-15" who="#pml">v1.1. Isolates one entry;
+                    corrects "B.c." and variants; replaces "bom" with "born", removed 783 instances
+                    of extra space before semicolon. Separates metadata in <gi>teiHeader</gi> into
+                    two separate facets: FAST Topical and FAST Geographical.</change>
+                <change status="public" when="2023-02-28" who="#pml">v.1 published</change>
+                <change status="public" when="2023-02-27" who="#pml">v.1 teiHeader XSL
+                    finished</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ia:encyclopediabrit19newyrich/page/n107/mode/1up" type="entry">
+                <p><label type="entry">PINDAR</label>, the greatest lyric poet of ancient Greece
+                    whose work is represented by large remains, was born about 522 <hi
+                    rend="smallcaps">b.c.,</hi> being thus some thirty-four years younger than
+                    Simonides of Ceos. His father’s name was Dai-phantus; his birthplace the village
+                    of Cynoscephalae near Thebes in Boeotia. The traditions of his family, which
+                    claimed a proud descent, have left their impress on his poetry, and are not
+                    without importance for a correct estimate of his relation to his contemporaries.
+                    The clan of the Aegeidae—tracing their line from the hero Aegeus —belonged to
+                    the “Cadmean” element of Thebes, <hi rend="italic">i.e.,</hi> to the elder
+                    nobility whose supposed date went back to the days of the founder Cadmus. A
+                    branch of the Theban Aegeidae had been settled in Achaean times at Amyclae in
+                    the valley of the Eurotas (Pind. <hi rend="italic">Isthm.</hi> vi. 14), and
+                    after the Dorian conquest of the Peloponnesus had apparently been adopted by the
+                    Spartans into one of the three Dorian tribes. The Spartan Aegeidae helped to
+                    colonize the island of Thera <hi rend="italic">(Pyth.</hi> v. 68). Another
+                    branch of the race was settled at Cyrene in Africa; and Pindar tells how his
+                    Aegid clansmen at Thebes <hi rend="superscript"> u</hi> showed honour <hi
+                    rend="italic">” to</hi> Cyrene as often as they kept the festival of the Carneia
+                    <hi rend="italic">(Pyth.</hi> v. 75). Pindar is to be conceived, then, as
+                    standing within the circle of those families for whom the heroic myths were
+                    domestic records. He had a personal link with the memories which everywhere were
+                    most cherished by Dorians, no less than with those which appealed to men of
+                    “Cadmean” or of Achaean stock. And the wide ramifications of the Aegeidae
+                    throughout Hellas rendered it peculiarly fitting that a member of that
+                    illustrious clan should celebrate the glories of many cities in verse which was
+                    truly Panhellenic.</p>
+                <p>Pindar is said to have received his first lessons in fluteplaying from one
+                    Scopelinus at Thebes, and afterwards to have studied at Athens under the
+                    musicians Apollodorus (or Agathocles) and Lasus of Hermione. In his youth, as
+                    the story went, he was defeated in a poetical contest by the Theban Corinna—who,
+                    in reference to his use of Theban mythology, is said to have advised him “to sow
+                    with the hand, not with the sack.” There is an extant fragment in which Corinna
+                    reproves another Theban poetess, Myrto, <hi rend="italic">“for</hi> that she, a
+                    woman, contended with Pindar” <hi rend="italic">(on βava φoυσ eβa TiwSapoio τroτ
+                    epιv)</hi> —a sentiment, it may be remarked, which does not well accord with the
+                    story of Corinna’s own victory. The facts that stand out from these meagre
+                    traditions are that Pindar was precocious and laborious. Preparatory labour of a
+                    somewhat severe and complex kind was, indeed, indispensable for the Greek lyric
+                    poet of that age. Lyric composition demanded studies not only in metre but in
+                    music, and in the adaptation of both to the intricate movements of the choral
+                    dance <hi rend="italic">(opχησnκη).</hi> Several passages in Pindar’s extant
+                    odes glance at the long technical development of Greek lyric poetry before his
+                    time, and at the various elements of art which the lyrist was required to temper
+                    into a harmonious whole (see, <hi rend="italic">e.g., Ol.</hi> iii. 8, vi. 91,
+                    ix. 1, xiv. 15, xiii. 18; <hi rend="italic">Pyth.</hi> xii. 23, &lt;fcc.). The
+                    earliest ode which can be dated <hi rend="italic">(Pyth. x.)</hi> belongs to the
+                    twentieth year of Pindar’s age (502 <hi rend="smallcaps">b.c.</hi>); the latest
+                    <hi rend="italic">(Olymp,</hi> v.) to the seventieth (452 <hi rend="smallcaps"
+                    >b.c.</hi>). He visited the court of Hiero at Syracuse; Theron, the despot of
+                    Acragas, also entertained him; and his travels perhaps included Cyrene.
+                    Tradition notices the special closeness of his relations with Delphi: “He was
+                    greatly honoured by all the Greeks, because he was so beloved of Apollo that he
+                    even received a share of the offerings; and at the sacrifices the priest would
+                    cry aloud that Pindar come in to the feast of the god.”<note anchored="true"
+                    place="bottom" type="authorial"><p>Πινδάρου <hi rend="italic">yivos,</hi> in ed.
+                    Aid.: <hi rend="italic">ότιμήθη</hi> δe <hi rend="italic">σφόδρα</hi><hi
+                    rend="italic">ύπδ πάντων των</hi><hi rend="italic">'Ελλήνων δια τδ ΰπδ του
+                    ’Απόλλωνος οΰτω</hi><hi rend="italic">φιλtiσθaι κal μeplδa</hi><hi rend="italic"
+                    >των</hi><hi rend="italic">πpoσφtpoμevωv</hi><hi rend="italic">τψ</hi><hi
+                    rend="italic">θtψ λaμβdveιv,</hi><hi rend="italic">καί τδν</hi><hi rend="italic"
+                    >ieρta</hi><hi rend="italic">βοαν</hi><hi rend="italic">iv τaif</hi><hi
+                    rend="italic">θυσlaιs</hi><hi rend="italic">Πίνδαοον</hi><hi rend="italic"
+                    >tπl</hi><hi rend="italic">τό</hi><hi rend="italic">δtιπvov</hi><hi
+                    rend="italic">του</hi><hi rend="italic">θeoυ.</hi></p></note> He is said to have
+                    died at Argos, at the age of seventy-nine, in 443 <hi rend="smallcaps"
+                    >b.c.</hi></p>
+                <pb break="no" facs="ia:encyclopediabrit19newyrich/page/n108/mode/1up"
+                    xml:id="kp-eb0919-0108-0099"/>
+                <p>Among the Greeks of his own and later times, Pindar was pre-eminently
+                    distinguished for his piety towards the gods (∈υσ∈∕2∈στατoς, <hi rend="italic"
+                    >auct.</hi><hi rend="italic">vit.).</hi> He tells us that, “near to the
+                    vestibule” of his house <hi rend="italic">(πap</hi><hi rend="italic
+                    superscript"> ,</hi><hi rend="italic">eμov</hi><hi rend="italic"
+                    >πρόθυρου,</hi><hi rend="italic">Pyth.</hi> iii. 77), choruses of maidens used
+                    to dance and sing by night in praise of the Mother of the Gods (Cybele) and
+                    Pan—deities peculiarly associated with the Phrygian music of the flute, in which
+                    other members of Pindar’s family besides the poet himself are said to have
+                    excelled. A statue and shrine of Cybele, which he dedicated at Thebes, were the
+                    work of the Theban artists, Aristomedes and Socrates. He also dedicated at
+                    Thebes a statue to Hermes Agoraios, and another, by Calamis, to Zeus Ammon. The
+                    latter god claimed his especial veneration because Cyrene, one of the homes of
+                    his Aegid ancestry, stood “where Zeus Ammon hath his seat,” ι.e., near the oasis
+                    and temple (∆toς <hi rend="italic">èv</hi><hi rend="italic">*Aμμωvoς θeμeθhots,
+                    Pyth.</hi> iv. 16). The author of one of the Greek lives of Pindar says that,
+                    “when Pausanias the king of the Lacedaemonians was burning Thebes, some one
+                    wrote on Pindar’s house, ‘ Burn not the house of Pindar the poet;’ and thus it
+                    alone escaped destruction.” This incident, of which the occasion is not further
+                    defined, has been regarded as a later invention.<note anchored="true"
+                    place="bottom" type="authorial"><p>Schaefer, <hi rend="italic"
+                    >Demosthenes</hi><hi rend="italic">und</hi><hi rend="italic">seine</hi><hi
+                    rend="italic">Zeit,</hi> iii. 119.</p></note> Better attested, at least, is the
+                    similar clemency of Alexander the Great, when he sacked Thebes ope hundred and
+                    eight years after the traditional date of Pindar’s death (335 <hi
+                    rend="smallcaps">b.c.</hi>). He spared only (1) the Cadmeia, or citadel, of
+                    Thebes (thenceforth to be occupied by a Macedonian garrison); (2) the temples
+                    and holy places; and (3) Pindar’s house. While the inhabitants were sold into
+                    slavery, exception was made only of (1) priests and priestesses; (2) persons who
+                    had been connected by private <hi rend="italic">ξ,τνία.</hi> with Philip or
+                    Alexander, or by public £ma with the Macedonians; (3) Pindar’s descendants. It
+                    is probable enough, as Dio Chrysostom suggests (ii. 33, 25), that Alexander was
+                    partly moved by personal gratitude to a poet who had celebrated his ancestor
+                    Alexander I. of Macedon. But he must have been also, or chiefly, influenced by
+                    the sacredness which in the eyes of all Hellenes surrounded Pindar’s memory, not
+                    only as that of a great national poet, but also as that of a man who had stood
+                    in a specially close relation to the gods, and, above all, to the Delphian
+                    Apollo.<note anchored="true" place="bottom" type="authorial"><p>It will be
+                    remarked that history requires us to modify the statement in Milton’s famous
+                    lines:—</p><p>“The great Emathian conqueror bade spare The house of Pindarus,
+                    when <hi rend="italic">temple</hi> and tower Went to the ground.”</p><p>Indeed,
+                    the point of the incident depends much on the fact that the temples and Pindar’s
+                    house were classed together for exemption.</p></note> Upwards of six hundred
+                    years after Pindar’s death, the traveller Pausanias saw an iron chair which was
+                    preserved among the most precious treasures of the temple in the sanctuary at
+                    Delphi. It was the chair, he was told, “in which Pindar used to sit, whenever he
+                    came to Delphi, and to chant those of his songs which pertain to Apollo.”</p>
+                <p>During the second half of Pindar’s life, Athens was rising to that supremacy in
+                    literature and art which was to prove more lasting than her political primacy.
+                    Pindar did not live to see the Parthenon, or to witness the mature triumphs of
+                    Sophocles; but he knew the sculpture of Calamis, and he may have known the
+                    masterpieces of Aeschylus. It is interesting to note the feeling of this great
+                    Theban poet, who stands midway between Homeric epos and Athenian drama, towards
+                    the Athens of which Thebes was so often the bitterest foe, but with which he
+                    himself had so large a measure of spiritψιT kinship. A few words remain from a
+                    dithyramb in which he paid a glowing tribute to those “sons of Athens” who “laid
+                    the shining foundations of freedom” (τrαtδ∈ς Α0avatωv <hi rend="italic"
+                    >ϊβάλοντο</hi></p>
+                <p>&lt;∕&gt;aew⅛ <hi rend="italic">κpητrι8' eλevθep''a&lt;s,</hi> fr. 77, Bergk, 4th
+                    ed.), while Athens itself is thus invoked :—ω τaι λtτrapat κaι toστeφavot <hi
+                    rend="italic">και.</hi><hi rend="italic">doι8tμot, Ελλd8oς epεtσμa, κλeιvaι
+                    'AθS,vat,</hi><hi rend="italic">δαιμόνιου</hi><hi rend="italic">πτoλieθpov.</hi>
+                    Isocrates, writing in 353 <hi rend="smallcaps">b.c.,</hi> states that the phrase
+                    Ελλάδος <hi rend="italic">epeurμa,</hi> “stay of Hellas,” so greatly gratified
+                    the Athenians that they conferred on Pindar the high distinction of <hi
+                    rend="italic">πpoξevia (i.e.,</hi> appointed him honorary consul, as it were,
+                    for Athens at Thebes), besides presenting him with a large sum of money <hi
+                    rend="italic">(Λntid.</hi> § 166). One of the letters of the pseudo-Aeschines
+                    <hi rend="italic">(Ep.</hi> iv.) gives an improbable turn to the story by saying
+                    that the Thebans had fined Pindar for his praise of Athens, and that the
+                    Athenians repaid him twice the sum.<note anchored="true" place="bottom"
+                    type="authorial"><p>Compare Jebb, <hi rend="italic">Attic Orators,</hi> vol. ii.
+                    p. 143.</p></note> The notice preserved by Isocrates—less than one hundred years
+                    after Pindar’s death—is good warrant for the belief that Pindar had received
+                    some exceptional honours from Athens. Pausanias saw a statue of Pindar at
+                    Athens, near the temple of Ares (i. 8, 4). Besides the fragment just mentioned,
+                    several passages in Pindar’s extant odes bespeak his love for Athens. Its name
+                    is almost always joined by him with some epithet of praise or ι*everence. In
+                    alluding to the great battles of the Persian wars, while he gives the glory of
+                    Plataea to the Spartans, he assigns that of Salamis to the Athenians <hi
+                    rend="italic">(Pyth.</hi> i. 75). In celebrating the Pythian victory of the
+                    Athenian Megacles, he begins thus :—“Fairest of preludes is the renown of Athens
+                    for the mighty race of the Alcmaeonidae. What home, or what house, could I call
+                    mine by a name that should sound more glorious for Hellas to hear ?” Referring
+                    to the fact that an Aeginetan victor in the games had been trained by an
+                    Athenian, he says— <hi rend="italic">χpη 8'</hi> α√ <hi rend="italic
+                    superscript"> ,</hi><hi rend="italic">Aθavav τεκτov</hi><hi rend="italic"
+                    >αθληταίσι-ν</hi><hi rend="italic">εμμεv</hi><hi rend="italic">(Nem.</hi> V.
+                    49); “meet it is that a shaper of athletes should come from Athens ”—where,
+                    recollecting how often Pindar compares the poet’s efforts to the athlete’s, we
+                    may well believe that he was thinking of his own early training at Athens under
+                    Lasus of Hermione.</p>
+                <p>Pindar’s versatility as a lyric poet is one of the characteristics remarked by
+                    Horace <hi rend="italic">(Carm.</hi> iv. 2), and is proved by the fragments,
+                    though the poems which have come down entire represent only one class of
+                    compositions —the <hi rend="italic">Epinicia,</hi> or odes of victory,
+                    commemorating successes in the great games. The lyric types to which the
+                    fragments belong, though it cannot be assumed that the list is complete, are at
+                    least numerous and varied.</p>
+                <p>1. <hi rend="italic superscript"> a</hi><hi rend="italic">Xμvoι, Hymns</hi> to
+                    deities—as to Zeus Ammon, to Persephone, to Fortune. The fragmentary <hi
+                    rend="italic">υμvos</hi> entitled <hi rend="italic">Qyβaloιs</hi> seems to have
+                    celebrated the deities of Thebes. 2. natares, <hi rend="italic">Paeans,</hi>
+                    expressing prayer or praise for the help of a protecting god, especially Apollo,
+                    Artemis, or Zeus. 3. <hi rend="italic">διθύραμβοι,</hi><hi rend="italic"
+                    >Dithyrambs,</hi> odes of a lofty and impassioned strain, sung by choruses in
+                    honour of Dionysus (cp. Pind., <hi rend="italic">01.</hi> Xiii. 18, ταl <hi
+                    rend="italic">διωυύσου</hi><hi rend="italic">ιroθev iξeφavev</hi><hi
+                    rend="italic">συν</hi><hi rend="italic">βo∙ηKa</hi><hi rend="italic
+                    superscript"> r</hi><hi rend="italic">ra</hi><hi rend="italic">Xàpires</hi><hi
+                    rend="italic">διθυράμβω,—</hi> where Pindar alludes to the choral form given to
+                    the dithyramb, <hi rend="italic">circ.</hi> 600 B.C., by Arion,— <hi
+                    rend="italic">βoηKaτηs,</hi> “ox-driving,” perhaps meaning “winning an ox as
+                    prize ”). 4. <hi rend="italic">Πρoσ6διa, Processional Songs,</hi> choral chants
+                    for worshippers approaching a shrine. One was written by Pindar for the Delians,
+                    another for the Aeginetans. 5. Παp0Aια, <hi rend="italic">Choral Songs for
+                    Maidens.</hi> The reference in Pind. <hi rend="italic">Pyth.</hi> iii. 77 to
+                    maidens worshipping Cybele and Pan near the poet’s house is illustrated by the
+                    fact that one of these <hi rend="italic">Tlapθtvιa</hi> invoked “Pan, lord of
+                    Arcadia, attendant of the Great Mother, watcher of her awful shrine” (fr. 95,
+                    Bergk). 6. <hi rend="italic">'Ύπορχήματα,</hi><hi rend="italic">Choral
+                    Dance-Songs,</hi> adapted to a lively movement, used from an early date in the
+                    cult of Apollo, and afterwards in that of other gods, especially Dionysus. To
+                    this class belongs one of the finest fragments (107), written for the Thebans in
+                    connexion with propitiatory rites after an eclipse of the sun, probably that of
+                    April 30, 463 <hi rend="smallcaps">b.c.</hi> 7. <hi rend="italic"
+                    >'Έτγκώμια,</hi><hi rend="italic">S&lt;mgs of Praise</hi> (for men, while <hi
+                    rend="italic">ύμνοι</hi> were for gods), to be sung by a <hi rend="italic"
+                    >κS&gt;μos,</hi> or festal company. In strictness <hi rend="italic"
+                    >eyκ&lt;iμιov</hi> was the genus of which <hi rend="italic">eπιviκιov</hi> was a
+                    species; but the latter is more conveniently treated as a distinct kind. Pindar
+                    wrote encomia for Theron, despot of Acragas, and for Alexander I. (son of
+                    Amyntas), king of Macedon. 8. ∑κoλtα, <hi rend="italic">Festal Songs.</hi> The
+                    <pb break="no" facs="ia:encyclopediabrit19newyrich/page/n109/mode/1up"
+                    xml:id="kp-eb0919-0109-0100"/> usual sense of <hi rend="italic">σκ6λιov</hi> is
+                    a drinking-song, taken up by one guest after another at a banquet. But Pindar’s
+                    <hi rend="italic">σκόλια</hi> were choral and antistrophic. One was to be sung
+                    at Corinth by a chorus of the <hi rend="italic">iepdδoυλoι</hi> attached to the
+                    temple of Aphrodite Ourania, when a certain Xenophon offered sacrifice before
+                    going to compete at Olympia. Another brilliant fragment, for Theoxenus of
+                    Tenedos, has an erotic character. 9. <hi rend="italic">Θρήνοι,</hi><hi
+                    rend="italic">Dirges,</hi> to be sung with choral dance and the music of the
+                    flute, either at the burial of the dead or in commemorative rituals. Some of the
+                    most beautiful fragments belong to this class (129-133). One of the smaller
+                    fragments (137) —in memory of an Athenian who had been initiated into the
+                    Eleusinian mysteries (ίδώρ <hi rend="italic">κelva)—</hi> has been conjecturally
+                    referred to the <hi rend="italic">Θρηvos</hi> which Pindar is said to have
+                    written (schol. <hi rend="italic">Pyth.</hi> vii. 18) for Hippocrates, the
+                    grandfather of Pericles. A number of small fragments, which cannot be certainly
+                    classified, are usually given as ∈ξ άδήλων <hi rend="italic">tiδωι&gt;,</hi> “of
+                    uncertain class.” On comparing the above list with Horace, <hi rend="italic"
+                    >CarmΛv. 2,</hi> it will be seen that he alludes to No. 3 <hi rend="italic"
+                    >(dithyrambos)</hi>; to Nos. 1, 2, and 7 <hi rend="italic">(seu deos</hi><hi
+                    rend="italic">regesve</hi><hi rend="italic">canit);</hi> and to No. 9 <hi
+                    rend="italic">(flebili</hi><hi rend="italic">sponsae</hi><hi rend="italic"
+                    >juvenemve</hi><hi rend="italic">raptum Plorat),</hi><hi rend="italic">—</hi> as
+                    well as to the extant <hi rend="italic">Epinicia (sive quos</hi><hi
+                    rend="italic">Elea</hi><hi rend="italic">domum reducit</hi><hi rend="italic"
+                    >Palma</hi><hi rend="italic">caelestes).</hi><hi rend="italic">The</hi><hi
+                    rend="italic">Epinicia,-</hi> —The <hi rend="italic">επινίκια</hi> (sc. <hi
+                    rend="italic">μlλη),</hi> or <hi rend="italic">επινίκιοι</hi> (sc. <hi
+                    rend="italic">ύμνοι),</hi> “Odes of Victory,” form a collection of forty-four
+                    odes, traditionally divided into four books, answering to the four great
+                    festivals:—(1) <hi rend="italic">Όλυμπιονΐκαι</hi><hi rend="italic">(sc.
+                    υμvoι)</hi><hi rend="italic">∖</hi> fourteen odes for winners of the wild
+                    olive-wreath in the Olympian games, held at Olympia in honour of Zeus once in
+                    four years; (2) Πυ6ιov7και: twelve odes for winners of the laurel-wreath in the
+                    Pythian games held at Delphi in honour of Apollo, once in four years, the third
+                    of each Olympiad; (3) Nψ,∈oι∕ικαι: seven odes for winners of the pine-wreath in
+                    the Nemean games, held at Nemea, in honour of Zeus, once in two years, the
+                    second and fourth of each Olympiad; and (4) <hi rend="italic"
+                    >Ίσθμιονϊκαι</hi><hi rend="italic">:</hi> eleven odes for winners of the parsley
+                    wreath in the Isthmian games, held at the Isthmus of Corinth, in honour of
+                    Poseidon, once in two years, the first and third of each Olympiad. The Greek way
+                    of citing an ode is by the nomin. <hi rend="italic">plur.</hi> followed by the
+                    numeral, <hi rend="italic">e.g.,</hi> “the ninth Olympian” is Όλυ/ζττιονίκαι
+                    &amp;. The chronological range of the collection (so far as ascertainable) is
+                    from 502 <hi rend="smallcaps">b.c.</hi><hi rend="italic">(Pyth.</hi> x.) to 452
+                    <hi rend="smallcaps">b.c.</hi><hi rend="italic">(01.</hi> v.). With respect to
+                    the native places of the victors, the geographical distribution is as follows
+                    :—for the mainland of Greece proper, 13 odes; for Aegina, 11; for Sicily, 15;
+                    for the Epizephyrian Locrians (southern Italy), 2 <hi rend="italic">; for</hi>
+                    Cyrene (Africa), 3.</p>
+                <p>The general characteristics’ of the odes may be briefly considered under the
+                    following heads :—(1) language; (2) treatment of theme; (3) sentiment—religious,
+                    moral, and political; (4) relation to contemporary art.</p>
+                <p>1. The diction of Pindar is distinct in character from that of every other Greek
+                    poet, being almost everywhere marked by the greatest imaginative boldness. Thus
+                    <hi rend="italic">(a)</hi> metaphor is used even for the expression of common
+                    ideas, or the translation of familiar phrases, as when a cloak is called
+                    ∈υδιαvov <hi rend="italic">φάρμακον</hi><hi rend="italic">avpâv</hi><hi
+                    rend="italic">(01.</hi> ix. 104), “a warm remedy for winds.” (δ) Images for the
+                    highest excellence are drawn from the furthest limits of travel or navigation,
+                    or from the fairest of natural objects; as when the superlative hospitality of a
+                    man who kept open house all the year round is described by saying, “far as to
+                    Phasis was his voyage in summer days, and in winter to the shores of Nile” <hi
+                    rend="italic">(Isthm.</hi> ii. 42); or when Olympia, the “crown <hi
+                    rend="italic">” (κopvφa)</hi> or flower (αωτoς) of festivals, is said to be
+                    excellent as water, bright as gold, brilliant as the noonday sun <hi
+                    rend="italic">(01.</hi> i. <hi rend="italic">ad init.).</hi> This trait might be
+                    called <hi rend="italic">the Pindaric imagery of the superlative. (c)</hi>
+                    Poetical inversion of ordinary phrase is frequent; as, instead of, “he struck
+                    fear into the beasts,” “he gave the beasts to fear” <hi rend="italic"
+                    >(Pyth.</hi> v. 56). <hi rend="italic">(d)</hi> The efforts of the poet’s genius
+                    are represented under an extraordinary number of similitudes, borrowed from
+                    javelin-throwing, chariot driving, leaping, rowing, sailing, ploughing,
+                    building, shooting with the bow, sharpening a knife on a whetstone, mixing wine
+                    in a bowl, and many more, (e) Homely images, from common life, are not rare; as
+                    from accountkeeping, usury, sending merchandise over sea, the <hi rend="italic"
+                    >σκυτάλη</hi> or secret despatch, &lt;fcc. And we have such homely proverbs as,
+                    “he hath his foot in this shoe,” <hi rend="italic">i.e.,</hi> stands in this
+                    case <hi rend="italic">(01.</hi> vi. 8). (∕) The natural order of words in a
+                    sentence is often boldly deranged, while, on the other hand, the syntax is
+                    seldom difficult, <hi rend="italic">(g)</hi> Words not found except in Pindar
+                    are numerous, many of these being compounds which (like <hi rend="italic"
+                    >εvapiμβpoτoς, κaτaφvλλopoειv,</hi> &amp;C.) suited the dactylic metres in their
+                    Pindaric combinations. Horace was right in speaking of Pindar’s “nova verba,”
+                    though they were not confined to the “bold dithyrambs.”</p>
+                <p>2. The actual victory which gave occasion for the ode is seldom treated at length
+                    or in detail,—which, indeed, only exceptional incidents could justify. Pindar’s
+                    method is to take some heroic myth, or group of myths, connected with the
+                    victor’s city or family, and, after a brief prelude, to enter on this, returning
+                    at the close, as a rule, to the subject of the victor’s merit or good fortune,
+                    and interspersing the whole with moral comment. Thus the fourth Pythian is for
+                    Arcesilas, king of Cyrene, which was said to have been founded by men of Thera,
+                    descendants of one of Jason’s comrades. Using this link, Pindar introduces his
+                    splendid narrative of the Argonauts. Many odes, again, contain shorter mythical
+                    episodes,—(as the birth of Iamus <hi rend="italic">(01.</hi> vi), or the vision
+                    of Bellerophon <hi rend="italic">(01.</hi> xiii),—which form small pictures of
+                    masterly finish and beauty. Particular notice is due to the skill with which
+                    Pindar often manages the return from a mythical digression to his immediate
+                    theme. It is bold and swift, yet is not felt as harshly abrupt—justifying his
+                    own phrase at one such turn, <hi rend="italic">καί</hi><hi rend="italic">τιva
+                    dιμov ισaμι βρaχυv (Pyth.</hi> iv. 247). It has been thought that, in the
+                    parenthesis about the Amazons’ shields <hi rend="italic">(quibus</hi><hi
+                    rend="italic">Mos unde</hi><hi rend="italic">deductus</hi><hi rend="italic">. .
+                    .</hi><hi rend="italic">quaerere</hi><hi rend="italic">distuli,</hi><hi
+                    rend="italic">Carm.</hi> iv. 4, 17), Horace was imitating a Pindaric transition;
+                    if so, he has illustrated his own observation as to the peril of imitating the
+                    Theban poet.</p>
+                <p>3. <hi rend="italic">(a)</hi> The religious feeling of Pindar is strongly marked
+                    in the odes. “From the gods are all means of human excellence.” He will not
+                    believe that the gods, when they dined with Tantalus, ate his son Pelops; rather
+                    Poseidon carried off the youth to Olympus. That is, his reason for rejecting a
+                    scandalous story about the gods is purely religious, as distinct from moral; it
+                    shocks his conception of the divine dignity. With regard to oracles, he
+                    inculcates precisely such a view as would have been most acceptable to the
+                    Delphic priesthood, viz., that the gods do illumine their prophets, but that
+                    human wit can foresee nothing which the gods do not choose to reveal. A mystical
+                    doctrine of the soul’s destiny after death appears in some passages (as <hi
+                    rend="italic">01.</hi> ii. 66 <hi rend="italic">sq.).</hi> Pindar was familiar
+                    with the idea of metempsychosis (cp. <hi rend="italic">ib.</hi> 83), but the
+                    attempt to trace Pythagoreanism in some phrases <hi rend="italic">(Pyth.</hi>
+                    ii. 34, iii. 74) appears unsafe. The belief in a fully conscious existence for
+                    the soul in a future state, determined by the character of the earthly life,
+                    entered into the teaching of the Eleusinian and other mysteries. Comparing the
+                    fragment of the Θpτ}ι∕os (no. 137, Bergk), we may probably regard the mystic or
+                    esoteric element in Pindar’s theology as due to such a source.</p>
+                <p>(ό) The moral sentiment pervading Pindar’s odes rests on a constant recognition
+                    of the limits imposed by the divine will on human effort, combined with
+                    strenuous exhortation that each man should strive to reach the limit allowed
+                    in-his own case. Native temperament <hi rend="italic">(φυη)</hi> is the grand
+                    source of all human excellence (αpeτι)), while such excellences as can be
+                    acquired by <pb break="no"
+                    facs="ia:encyclopediabrit19newyrich/page/n110/mode/1up"
+                    xml:id="kp-eb0919-0110-0101"/> study (διδακται <hi rend="italic">apeτai,
+                    01.</hi> ix. 100) are of relatively small scope—the sentiment, we may remark, of
+                    one whose thoughts were habitually conversant with the native qualities of a
+                    poet on the one hand and of an athlete on the other. The elements of υγiειs <hi
+                    rend="italic">όλβος</hi><hi rend="italic">—</hi> “sane happiness,” such as has
+                    least reason to dread the jealousy of the gods, —are substance sufficing for
+                    daily wants and good repute (ευλογία). He who has these should not “seek to be a
+                    god.” “Wealth set with virtues” <hi rend="italic">(πλούτος</hi><hi rend="italic"
+                    >apeτaις 8c8aι8aλμivoς),</hi> as gold with precious gems, is the most fortunate
+                    lot, <hi rend="italic">because</hi> it affords the amplest opportunities for
+                    honourable activity. Pindar does not rise above the ethical standard of an age
+                    which said, “love thy friend and hate thy foe” (cp. <hi rend="italic">Pyth.</hi>
+                    ii. 83; <hi rend="italic">Isthm.</hi> iii. 65). But in one sense he has a moral
+                    elevation which is distinctively his own; he is the glowing prophet of generous
+                    emulation and of reverent self-control.</p>
+                <p>(c) The political sentiments of the Theban poet are suggested by <hi
+                    rend="italic">Pyth.</hi> xi. 53; “In polities I find the middle state crowned
+                    with more enduring good; therefore praise I not the despot’s portion; those
+                    virtues move my zeal which serve the folk.” If in <hi rend="italic">Pyth.</hi>
+                    ii. 86 a democracy is described as <hi rend="italic">b</hi><hi rend="italic"
+                    >λάβρος στρατός,</hi><hi rend="italic">“</hi> the raging crowd,” it is to be
+                    noted that the ode is for Hiero of Syracuse, and that the phrase clearly refers
+                    to the violence of those democratic revolutions which, in the early part of the
+                    5th century <hi rend="smallcaps">b.c.,</hi> more than once convulsed Sicilian
+                    cities. At Thebes, after the Persian wars, a “constitutional oligarchy”
+                    (ολιγαρχία <hi rend="italic">Ισόνομος,</hi> Thue. iii. 62) had replaced the
+                    narrower and less temperate oligarchy of former days (δυναστεία ου p,∈τα <hi
+                    rend="italic">νόμων)</hi>; and in this we may probably recognize the phase of
+                    Greek political life most congenial to Pindar. He speaks of a king’s lot as
+                    unique in its opportunities <hi rend="italic">(01.</hi> i. 113); he sketches the
+                    character of an ideal king <hi rend="italic">(Pyth.</hi> iii. 71); but nothing
+                    in his poetry implies liking for the <hi rend="italic">τvpavviς</hi> as a form
+                    of government. Towards the Greek princes of Sicily and Cyrene his tone is ever
+                    one of manly independence; he speaks as a Greek citizen whose lineage places him
+                    on a level with the proudest of the Dorian race, and whose office invests him
+                    with an almost sacred dignity. In regard to the politics of Hellas at large,
+                    Pindar makes us feel the new sense of leisure for quiet pursuits and civilizing
+                    arts which came after the Persian wars. He honours “Tranquillity, the friend of
+                    cities” ('Aσυχiα <hi rend="italic">φιλόπολις,</hi><hi rend="italic">01.</hi> iv.
+                    16). The epic poet sang of wars; Pindar celebrates the “rivalries of peace.”</p>
+                <p>4. Pindar’s genius was boldly original; at the same time he was an exquisite
+                    artist. “Mine be it to invent new strains, mine the skill to hold my course in
+                    the chariot of the Muses; and may courage go with me, and power of ample grasp”
+                    <hi rend="italic">(τόλμα</hi> δε και <hi rend="italic">aμφιλaφης 8vvaμις</hi><hi
+                    rend="italic">εσποιτο, ΟΙ.</hi> ix. 80). Here we see the exulting sense of
+                    inborn strength; in many other places we perceive the feeling of conscious
+                    art—as in the phrase δαιδάλλειν, so apt for his method of inlaying an ode with
+                    mythical subjects, or when he compares the opening of a song to the front of a
+                    stately building <hi rend="italic">(01.</hi> vi. 3). Pindar’s sympathy with
+                    external nature was deeper and keener than is often discernible in the poetry of
+                    his age. It appears, for example, in hi§ welcome of the season when “the chamber
+                    of the Hours is opened, and delicate plants perceive the fragrant spring” (fr.
+                    75); in the passage where Jason invokes “the rushing strength of waves and
+                    winds, and the nights, and the paths of the deep” <hi rend="italic">(Pyth.</hi>
+                    iv. 194); in the lines on the eclipse of the sun (fr. 107); and in the picture
+                    of the eruption, when Etna, “pillar of the sky, nurse of keen snow all the
+                    year,” sends forth “pure springs of fire unapproachable” <hi rend="italic"
+                    >(Pyth.</hi> i. 20). The poet’s feeling for colour is often noticeable, —as in
+                    the beautiful story of the birth of Iamus—when</p>
+                <p>Evadne lays aside her silver pitcher and her girdle of scarlet web; the babe is
+                    found, “its delicate body steeped in the golden and deep purple rays of pansies”
+                    <hi rend="italic">(01.</hi> vi. 55).</p>
+                <p>The spirit of art, in every form, is represented for Pindar by <hi rend="italic"
+                    >χάρις</hi><hi rend="italic">—</hi> “the source of all delights to mortals” <hi
+                    rend="italic">(01.</hi> i. 30)—or by the personified Charites (Graces). The
+                    Charites were often represented as young maidens, decking themselves with early
+                    flowers—the rose, in particular, being sacred to them as well as to Aphrodite.
+                    In Pindar’s mind, as in the old Greek conception from which the worship of the
+                    Charites sprang, the instinct of beautiful art was inseparable from the sense of
+                    natural beauty. The period from 500 to 460 B.C., to which most of Pindar’s
+                    extant odes belong, marked a stage in the development of Greek sculpture. The
+                    schools of Argos, Sicyon, and Aegina were effecting a transition from archaic
+                    types to the art which was afterwards matured in the age of Phidias. Olympia·
+                    forms the central link between Pindar’s poetry and Greek sculpture. From about
+                    560 <hi rend="smallcaps">b.c.</hi> onwards, sculpture had been applied to the
+                    commemoration of athletes, chiefly at Olympia. In a striking passage <hi
+                    rend="italic">(N^em.</hi> V. <hi rend="italic">ad init.)</hi> Pindar recognizes
+                    sculpture and poetry as sister arts employed in the commemoration of the
+                    athlete, and contrasts the merely local effect of the statue with the wide
+                    diffusion of the poem. “No sculptor I, to fashion images that shall stand idly
+                    on one pedestal for aye; no, go thou forth from Aegina, sweet song of mine, on
+                    every freighted ship, on each light bark.” Many particular subjects were common
+                    to Pindar and contemporary sculpture. Thus (1) the sculptures on the east
+                    pediment of the temple at Aegina represented Heracles coming to seek the aid of
+                    Telamon against Troy—a theme brilliantly treated by Pindar in the fifth
+                    Isthmian; (2) Hiero’s victory in the chariot-race was commemorated at Olympia by
+                    the joint work of the sculptors Onatas and Calamis; (3) the Gigantomachia, (4)
+                    the wedding of Heracles and Hebe, (5) the war of the Centaurs with the Lapithae,
+                    and (6) a contest between Heracles and Apollo are instances of mythical material
+                    treated alike by the poet and by sculptors of his day. The contemporary
+                    improvements in town architecture, introducing spacious and well-paved streets,
+                    such as the <hi rend="italic">σκυρωτή</hi><hi rend="italic">b8oς</hi> at Cyrene
+                    <hi rend="italic">(Pyth.</hi><hi rend="italic smallcaps"> n.</hi> 87), suggest
+                    his frequent comparison of the paths of song to broad and stately causeways
+                    (τrλατειαι πρόσοδοι—εκατόρπεδοι κελευ0oι, <hi rend="italic">Nem.</hi> vi. 47, V.
+                    22). A song is likened to cunning work which blends gold, ivory, and coral <hi
+                    rend="italic">(Nem.</hi> vii. 78). Pindar’s feeling that poetry, though
+                    essentially a divine gift, has a technical side <hi rend="italic">(σοφία),</hi>
+                    and that on this side it has had an historical development like that of other
+                    arts, is forcibly illustrated by his reference to the inventions <hi
+                    rend="italic">(σοφίσματα)</hi> for which Corinth had early been famous. He
+                    instances (1) the development of the dithyramb, (2) certain improvements in the
+                    harnessing and driving of horses, and (3) the addition of the pediment to
+                    temples <hi rend="italic">(01.</hi> xiii.).</p>
+                <p>In the development of Greek lyric poetry two periods are broadly distinguished.
+                    During the first, from about 600 to 500 <hi rend="smallcaps">b.c.,</hi> lyric
+                    poetry is local or tribal—as Alcaeus and Sappho write for Lesbians, Aleman and
+                    Stesichorus for Dorians. During the second period, which takes its rise in the
+                    sense of Hellenic unity created by the Persian wars, the lyric poet addresses
+                    all Greece. Pindar and Simonides are the great representatives of this second
+                    period, to which Bacchylides, the nephew of Simonides, also belongs. These, with
+                    a few minor poets, are classed by German writers as <hi rend="italic"
+                    >die</hi><hi rend="italic">universalen</hi><hi rend="italic">Meliker.</hi> The
+                    Greeks usually spoke, not of “lyric,” but of “melic” poetry <hi rend="italic"
+                    >(i.e.,</hi> meant to be sung, and not, like the epic, recited); and “universal
+                    melic” is lyric poetry addressed to all Greece. But Pindar is more than the
+                    chief extant lyrist. Epic, lyric, and dramatic poetry succeeded each other in
+                    Greek literature<pb break="no"
+                    facs="ia:encyclopediabrit19newyrich/page/n111/mode/1up"
+                    xml:id="kp-eb0919-0111-0102"/> by a natural development. Each of them was the
+                    spontaneous utterance of the age which brought it forth. In Pindar we can see
+                    that phase of the Greek mind which produced Homeric epos passing over into the
+                    phase which produced Athenian drama. His spirit is often thoroughly
+                    dramatic—witness such scenes as the interview between Jason and Pelias <hi
+                    rend="italic">(Pyth.</hi> iv.), the meeting of Apollo and Chiron <hi
+                    rend="italic">(Pyth.</hi> ix,), the episode of Castor and Polydeuces <hi
+                    rend="italic">(N^em.</hi> X.), the entertainment of Heracles by Telamon <hi
+                    rend="italic">(Isthm.</hi> v.). Epic narrative alone was no longer enough for
+                    the men who had known that great trilogy of national life, the Persian
+                    invasions; they longed to see the heroes moving and to hear them speaking. The
+                    poet of Olympia, accustomed to see beautiful forms in vivid action or vivid art,
+                    was well fitted to be the lyric interpreter of the new dramatic impulse. Pindar
+                    has more of the Homeric spirit than any Greek lyric poet known to us. On the
+                    other side, he has a genuine, if less evident, kinship with Aeschylus and
+                    Sophocles. Pindar’s work, like Olympia itself, illustrates the spiritual unity
+                    of Greek art.</p>
+                <p>The fact that certain glosses and lacunae are common to all our MSS. of Pindar
+                    make it probable that these MSS. are derived from a common archetype. Now the
+                    older scholia on Pindar, which appear to have been compiled mainly from the
+                    commentaries of Didymus <hi rend="italic">(circ.</hi> 15 <hi rend="smallcaps"
+                    >b,c.),</hi> sometimes presuppose a purer text than ours. But the compiler of
+                    these older scholia lived after Herodian <hi rend="smallcaps">(160a,d.).</hi>
+                    The archetype of our MSS., then, cannot have been older than the end of the 2d
+                    century. Our MSS. fall into two general classes :—(1) the older, representing a
+                    text which, though often corrupt, is comparatively free from interpolations; (2)
+                    the later, which exhibit the traces of a Byzantine recension, in other words, of
+                    lawless conjecture, down to the 14th or 15th century. To the first class belong
+                    Parisinus 7, breaking off in <hi rend="italic">Pyth.</hi> v.; Ambrosianus 1,
+                    which has only <hi rend="italic">01.</hi> i.-xii.; Mediceus 2; and Vaticanus
+                    2,—the two last-named being of the highest value. The <hi rend="italic">editio
+                    princeps</hi> is the Aldine, Venice, 1513. A modem study of Pindar may be almost
+                    said to have begun with Heyne’s edition (1773). Hermann did much to advance
+                    Pindaric criticism. But Augustus Boeckh (1811-22), who was assisted in the
+                    commentary by L. Dissen, is justly regarded as the founder of a scientific
+                    treatment of the poet. The edition of Theodor Bergk <hi rend="italic">(Poet.
+                    Lyr.)</hi> is marked.by considerable boldness of conjecture, as that of Tycho
+                    Mommsen (1864) by a sometimes excessive adherence to MSS. A recension by W.
+                    Christ has been published in Teubner’s series (1879). The edition of J. W.
+                    Donaldson (Cambridge, 1841) has many merits; but that of C. A. Μ. Fennell
+                    (Cambridge, 1879-83) is better adapted to the needs of English students. The
+                    translation into English prose by Ernest Myers (2d ed., 1883) is excellent.
+                    Pindar’s metres have been analysed by J. H. Schmidt in <hi rend="italic"
+                    >Die</hi><hi rend="italic">Kunstformen der Griechischen Poesie</hi> (Leipsic,
+                    1868-72). For estimates of Pindar see the histories of Greek literature by G.
+                    Bernhardy, K. 0. Miiller, Nicolai, and É. Burnouf. (R. C. J.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

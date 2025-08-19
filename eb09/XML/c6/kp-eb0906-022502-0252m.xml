@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0906-0252-0225-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb09_v1.1">
+                <title level="a" type="main">COMPASS, The Mariner’s</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">9th edition, volume 6, page 225</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.1">Version 1.1 <date when="2025">2025</date></edition>
+            </editionStmt>
+            <extent>486 MB; 17,775 XML files</extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2025">2025</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/12465694" xml:id="mn">Baynes, T.
+                            Spencer (Thomas Spencer), <date from="1823" to="1887"
+                            >1823-1887</date></persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Ninth Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="25" unit="vol">25 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Charles Scribner's Sons</publisher>
+                        <authority>Authorized reprint from Edinburgh plates</authority>
+                        <pubPlace>New York</pubPlace>
+                        <date from="1875" to="1889">1875-1889</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="ia-uc"><title>Encyclopaedia Britannica: a dictionary of arts,
+                            sciences, and general literature</title><publisher><orgName
+                            ref="https://archive.org/">Internet Archive</orgName><orgName
+                            ref="https://archive.org/details/cdl">University of California
+                            Libraries, California Digital Library</orgName></publisher><date
+                            when="2019">2006</date><idno type="OCLC">592355607</idno><idno
+                            type="ark">13960/t0ks6j612</idno><availability>
+                            <p>Internet Archive: NOT_IN_COPYRIGHT</p>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <desc>Alternate images of the same print editions were substituted when the
+                        primary source had unusable images for those pages.</desc>
+                    <bibl xml:id="um-ht">Hathi Trust, from print source at the University of
+                        Michigan: vol. 14, pp. 34-35; vol. 15, pp. 170-171.</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for future entry subsections.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="8" ref="lcsh1910:b40v89k12">Compassion</term>
+                    <term n="5" ref="lcsh1910:b4d50g04r">Compass</term>
+                    <term n="3" ref="lcsh1910:b4p26qc7r">Turks</term>
+                    <term n="3" ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term n="2" ref="lcsh1910:b4td9ng4n">Polo</term>
+                    <term n="12" ref="lcsh1910:b4qr4nr79">Carding</term>
+                    <term n="12" ref="lcsh1910:b4qf8jj4b">Cards</term>
+                    <term n="11" ref="lcsh1910:b4057cw1n">Magnetism</term>
+                    <term n="11" ref="lcsh1910:b4222rc0p">Magnets</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="3" ref="fastgeo:1210276">India</term>
+                    <term n="2" ref="fastgeo:1206073">China</term>
+                    <term n="1" ref="fastgeo:1206715">Scotland</term>
+                    <term n="1" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1204082">Japan</term>
+                    <term n="1" ref="fastgeo:1243192">Borneo</term>
+                    <term n="1" ref="fastgeo:1210572">Iceland</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="12" ref="fasttopic:1939006">Cards</term>
+                    <term n="12" ref="fasttopic:847103">Carding</term>
+                    <term n="11" ref="fasttopic:1005823">Magnetics</term>
+                    <term n="11" ref="fasttopic:1005854">Magnetization</term>
+                    <term n="11" ref="fasttopic:1005921">Magnets</term>
+                    <term n="5" ref="fasttopic:871385">Compassion</term>
+                    <term n="5" ref="fasttopic:871379">Compass</term>
+                    <term n="3" ref="fasttopic:969307">Indians</term>
+                    <term n="3" ref="fasttopic:1159574">Turks</term>
+                    <term n="2" ref="fasttopic:980750">Italians</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change status="public" when="2025-08-15" who="#pml">v1.1. Isolates one entry;
+                    corrects "B.c." and variants; replaces "bom" with "born", removed 783 instances
+                    of extra space before semicolon. Separates metadata in <gi>teiHeader</gi> into
+                    two separate facets: FAST Topical and FAST Geographical.</change>
+                <change status="public" when="2023-02-28" who="#pml">v.1 published</change>
+                <change status="public" when="2023-02-27" who="#pml">v.1 teiHeader XSL
+                    finished</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ia:encyclopediabrit06newyrich/page/n252/mode/1up" type="entry">
+                <p><label type="entry">COMPASS, <hi rend="smallcaps">The Mariner’s</hi></label>,
+                    consists of three principal parts,—the card, the needle on its lower surface,
+                    and the case. The whole is enclosed in the compass-box, or binnacle. The term
+                    compass is said to have been applied to the instrument because the card involves
+                    or compasses the whole plane of the horizon, or because the needle indicates the
+                    whole circle of possible variations of direction. The surface of the card is
+                    divided by radiating lines into 32 parts, each containing 1 l <hi
+                    rend="superscript"> o</hi> 15'; these constitute the 32 points or rhumbs; the
+                    half-points and quarters are subdivisions of the same. The north pole is denoted
+                    on the card by a <hi rend="italic">fleur-de-lis</hi><note anchored="true"
+                    place="bottom" type="authorial"><p>According to Mr T. S. Davies, this may
+                    originally have been an ornamented cross</p></note><hi rend="italic">;</hi> and
+                    the line which joins the north and south poles passes through the axis of the
+                    needle. The points are named according to their proximity to the four cardinal
+                    points; for instance, the point mid-way between N. and N.E. is called
+                    north-north-east, being nearer north than east, and is marked N.N.E; the point
+                    mid-way between N. and N.N.E. is termed north by east, and is marked N. by E.
+                    The circumference of the card is sometimes divided into 360°. The divisions of
+                    the card are shown in the accompanying figure. The card is directed by the
+                    needle, which, with it, is pivoted on a vertical axis. With a little variation,
+                    the needle points nearly to the geographical north, and hence the mode of
+                    steering by the compass. Four or more parallel magnets, with like poles pointing
+                    in like directions, may be combined to form the needle; and by this arrangement
+                    the magnetic moment is increased for a given weight of steel. The needle is
+                    usually suspended on a central cap of ruby or agate, the point of suspension
+                    being of a similar hard material. On the inside of the compass-box is a vertical
+                    line known as lubber’s point; and since this and the pivot of the card are in
+                    the same plane with the ship’s keel, the point on the circumference of the card
+                    opposite to lubber’s point shows the angle the ship’s course makes with the
+                    magnetic meridian. The compass is kept horizontal by the use of a gimbal, or
+                    ring moving freely on an axis, wſlthin which it swings on an axis at right
+                    angles. In the azimuth compass the circumference of the card is divided into
+                    degrees and parts by a vernier, and is fitted up with sight-vanes to take
+                    amplitudes and azimuths, for the purpose of determining the variation of the
+                    compass by observation. The variation is applied to the magnetic course shown by
+                    the steering compass, and thus the true course with respect to the meridian
+                    becomes known.</p>
+                <p>The conditions that chiefly affect the use of the mariner’s compass are those of
+                    the magnetic declination and deviation. The declination is the angle contained
+                    between the geographical or true and the magnetic meridian; or, as Barlowe
+                    defines it, the swerving of the pointing of the magnetical needle in the horizon
+                    from the meridian line there. The angle of declination varies according to
+                    locality, and must be ascertained at sea by means of the <pb break="no"
+                    facs="ia:encyclopediabrit06newyrich/page/n253/mode/1up"
+                    xml:id="kp-eb0906-0253-0226"/> azimuth compass. The discovery of the variation
+                    of declination was made by Stephen Burrowes when voyaging between the north cape
+                    of Finmark and Vaigatch (Vay-gates),and was afterwards determined by Gillebrand,
+                    professor of geometry at Gresham College. In 1683, in a communication to the
+                    Royal Society <hi rend="italic">(Phil. Trans.,</hi> June 16, p. 214), Dr E.
+                    Halley shows that the irregularity observed in the variations of the compass at
+                    sea is not due to the attraction of the land, and comes to the conclusion that
+                    the whole globe of the earth is one great magnet, having four magnetical poles
+                    or points of direction. The declination for any place is subject to secular
+                    variations: thus, at Paris in 1681, it was 2° 30' to the W., in 1865 it was 18°
+                    44' W. Halley, in a paper entitled “Account of the Cause of the Change of the
+                    Variation of the Magnetical Needle” <hi rend="italic">(Phil. Trans.,</hi> Oct.
+                    19, 1692, pp. 563-578), points out, with other instances of secular variation,
+                    that between 1580 and 1692 the direction of the needle at Loudon changed from ll
+                    <hi rend="superscript"> 0</hi> 15' E. to 6° W., or more than 17°, and
+                    demonstrates that.the direction is in no place fixed or constant, though in some
+                    places it changes faster than in others. Besides the secular, there are annual
+                    and diurnal variations of small amount. The existence of the latter was
+                    discovered by Mr Graham about 1719. The deviation of the compass is the
+                    departure of the north and south line from the magnetic meridian, owing to the
+                    magnetism of the ship itself, or that induced in it by the earth’s magnetic
+                    force. It was first observed during 1772— 74 by Mr Wales, the astronomer of
+                    Captain Cook. When surveying along the coast of New Holland in 1801 and 1802,
+                    Captain Matthew Flinders made the discovery that there was a difference in the
+                    direction of the magnetic needle, according as his ship’s head pointed to the E.
+                    or W. —westerly in the former, easterly in the latter case. When the ship’s head
+                    was N. or S. the needle took the same direction, or nearly so, that it would on
+                    shore, and showed a variation from the true meridian which was about a medium
+                    between that given by it when east and when west. He found, also, that the error
+                    in variation was nearly proportionate to the number of points which the ship’s
+                    head was from the north or south. <hi rend="italic">(Phil. Trans.,</hi> 1805, p.
+                    186.) The deviation in wooden shipscan be practically obviated, but in iron
+                    ships it has to be partly allowed for, partly compensated. Barlow used a
+                    correcting plate of iron to overcome the directive action on the compass due to
+                    the magnetism of wooden vessels. On Professor Airy’s method, the permanent
+                    magnetism of ships is compensated by a steel magnet placed at a given distance
+                    below the compass; it is, however, liable to changes of intensity, occasioned by
+                    shocks, vibration, unequal heating, and other causes, a fact which led the late
+                    Dr Scoresby to propose the employment of a compass aloft, out of the region of
+                    the ship’s influence. The induced magnetism of ships can be only imperfectly
+                    compensated, since it varies according to the ship’s bearing, and as she rolls
+                    and pitches; but corrections can be made for the heeling error. The discovery of
+                    the dip of the magnetic needle is ascribed by Gilbert to Robert Norman, a
+                    nautical instrument maker at Wapping, who, about 1590, introduced the employment
+                    of a sliding weight on the needle for the correction of the dip at different
+                    points of the earth’s surface.</p>
+                <p>The earliest references to the use of the compass are to be found in Chinese
+                    history, from which we learn how, in the sixty-fourth year of the reign of
+                    Ho-ang-ti (2634 <hi rend="smallcaps">b.c.),</hi> the emperor Hiuan-yuan, or
+                    Ho-ang-ti, attacked one Tchi-yeou, on the plains of Tchou-lou, and finding his
+                    army embarrassed by a thick fog raised by the enemy, constructed a chariot
+                    (Tchi-nan) for indicating the south, so as to distinguish the four cardinal
+                    points, and was thus enabled to pursue Tchi-yeou, and take him prisoner.
+                    (Klaproth, <hi rend="italic">Lettre à</hi><hi rend="italic">Μ.</hi><hi
+                    rend="italic">le</hi><hi rend="italic">Baron Humboldt</hi><hi rend="italic">sur
+                    l'invention de la Boussole,</hi> Paris, 1834. See also Mailla, <hi rend="italic"
+                    >Histoire générale de la Chine,</hi> torn i. p. 316, Paris, 1777.) Several other
+                    allusions to the compass are contained in early Chinese records, <hi
+                    rend="superscript"> r</hi> ∏ιe power of the loadstone to communicate polarity to
+                    iron is said to be for the first time explicitly mentioned in a Chinese
+                    dictionary, finished in 121 <hi rend="smallcaps">a.d.,</hi> where the loadstone
+                    is defined as “a stone with which an attraction can be given to the needle.” The
+                    first mention of the use of the compass for the purpose of navigation—an art
+                    that has apparently retrograded rather than advanced among the Chinese—occurs in
+                    the Chinese encyclopaedia, <hi rend="italic">Ρoei-wen-yun-fou,</hi> in which it
+                    is stated that under the Tsin dynasty, or between 265 and 419 A.D., “there were
+                    ships directed to the south by the needle.” The Chinese, Mr Davis informs us,
+                    once navigated as far as India, but their most distant voyages at present extend
+                    not further than Java and the Malay Islands to the south <hi rend="italic">(The
+                    Chinese,</hi> vol. iii. p. 14, London, 1844). According to an Arabic manuscript,
+                    a translation of which was published by Eusebius Renaudot (Paris, 1718), they
+                    traded in ships to the Persian Gulf and Red Sea in the 9th century. Staunton, in
+                    vol. i. of his <hi rend="italic">Embassy to China</hi> (London, 1797), after
+                    referring to the early acquaintance of the Chinese with the property of the
+                    magnet to point southwards, remarks (p. 445), “The nature and the cause of the
+                    qualities of the magnet have at all times been subjects of contemplation among
+                    the Chinese. The Chinese name for the compass is <hi rend="italic"
+                    >ting-nan-ching,</hi> or needle pointing to the south; and a distinguishing mark
+                    is fixed on the magnet’s southern pole, as in European compasses upon the
+                    northern one.” “The sphere of Chinese navigation,” he tells us (p. 447), “is too
+                    limited to have afforded experience and observation for forming any system of
+                    laws supposed to govern the variation of the needle. . . . The Chinese had soon
+                    occasion to perceive how much more essential the perfection of the compass was
+                    to the superior navigators of Europe than to themselves, as the commanders of
+                    the ‘Lion’ and ‘H indostan,’ trusting to that instrument, stood out directly
+                    from the land into the sea. The number of points of the compass, according to
+                    the Chinese, is twenty-four, which are reckoned from the south pole; the form
+                    also of the instrument they employ is different from that familiar to Europeans.
+                    The needle is peculiarly poised, with its point of suspension a little below its
+                    centre of gravity, and is exceedingly sensitive; it is seldom more than an inch
+                    in length, and is less than a line in thickness. It appears thus sufficiently
+                    evident that the Chinese are not indebted to Western nations fortheir knowledge
+                    of the use of the compass. “It may be urged," writes Mr T. S. Davies, “that the
+                    different manner of constructing the needle amongst the Chinese and European
+                    navigators shows the independence of the Chinese of us, as theirs is the <hi
+                    rend="italic">worse</hi> method, and had they copied from us, they would have
+                    used the better one ’’ (Thomson’s <hi rend="italic">British Annual,</hi> 1837,
+                    p. 291). On the other hand, it does not seem improbable that a knowledge of the
+                    mariner’s compass was communicated by them directly or indirectly to the early
+                    Arabs, and through the latter was introduced into Europe. Sismondi has remarked
+                    <hi rend="italic">(Literature of Europe,</hi> vol i. ) that it is peculiarly
+                    characteristic of all the pretended discoveries of the Middle Ages that when the
+                    historians mention them for the first time they treat them as things in general
+                    use. Gunpowder, the compass, the Arabic numerals, and paper, are nowhere spoken
+                    of as discoveries, and yet they must have wrought a total change in war, in
+                    navigation, in science, and in education. Tiraboschi <hi rend="italic"
+                    >(Storia</hi><hi rend="italic">della Letteratura Italiana,</hi> tom. iv. lib.
+                    ii. p. 204, <hi rend="italic">et</hi><hi rend="italic">seq.,</hi> ed. 2., 1788),
+                    in support of the conjecture that the compass was introduced into Europe by the
+                    Arabs, adduces their superiority in scientific learning, and their early skill
+                    in navigation. He quotes a passage on the polarity of the loadstone from a
+                    treatise translated by Albertus Magnus, attributed by the latter to Aristotle,
+                    but apparently only an Arabic compilation from the works of various
+                    philosophers. As the terms <hi rend="italic">Zoron</hi> and <hi rend="italic"
+                    >Aphron,</hi> used there to signify the south and north poles, are neither Latin
+                    nor Greek, Tiraboschi suggests that they may be of Arabian origin, and that the
+                    whole passage concerning the loadstone may have been added to the original
+                    treatise by the Arabian translators.</p>
+                <p>Dr W. Robertson asserts <hi rend="italic">(Historical Disquisition concerning
+                    Ancient India,</hi> p. 227) that the Arabs, Turks, and Persians have no original
+                    name for the compass, it being called by them <hi rend="italic">Bossola,</hi>
+                    the Italian name, which shows that the thing signified is foreign to them as
+                    well as the word. The Rev. G. P. Badger has, however, pointed out <hi
+                    rend="italic">(Travels of Ludovico di Varthema,</hi> trans., J. W. Jones, ed. G.
+                    P. Badger, Hakluyt Soc., 1863, note, pp. 31 and 32) that the name of Bushla or
+                    Busba, from the Italian <hi rend="italic">Bussola,</hi> though common among Arab
+                    sailors in the Mediterranean, is very seldom used in the Eastern seas,— <hi
+                    rend="italic">Daïrah</hi> and <hi rend="italic">Beit el-Ibrah</hi> (the Circle,
+                    or House of the Needle) being the ordinary appellatives in the Red Sea, whilst
+                    in the Persian Gulf <hi rend="italic">Kiblah-nâmeh</hi> is in more general use.
+                    Robertson quotes Sir J. Chardin as boldly asserting “that the Asiatics are
+                    beholden to us for this wonderful instrument, which they had from Europe a long
+                    time before the Portuguese conquests. For, first, their compasses are exactly
+                    like ours, and they buy them of Europeans as much as they can, scarce daring to
+                    meddle with their needles themselves. Secondly, it is certain that the old
+                    navigators only coasted it along, which I impute to their want of this
+                    instrument to guide and instruct them in the middle of the ocean I have nothing
+                    but argument to offer <pb break="no"
+                    facs="ia:encyclopediabrit06newyrich/page/n254/mode/1up"
+                    xml:id="kp-eb0906-0254-0227"/> touching this matter, having never met with any
+                    person in Persia or the Indies to inform me when the compass was first known
+                    among them, though I made inquiry of the most learned men in both countries. I
+                    have sailed from the Indies to Persia in Indian ships, when no European has been
+                    aboard but myself. The pilots were all Indians, and they used the forestaff and
+                    quadrant for their observations. These instruments they have from us, and made
+                    by our artists, and they do not in the least vary from ours, except that the
+                    characters are Arabic. The Arabs are the most skilful navigators of all the
+                    Asiatics or Africans; but neither they nor the Indians make use of charts, and
+                    they do not much want them; some they have, but they are copied from ours, for
+                    they are altogether ignorant of perspective." The observations of Chardin, who
+                    flourished between 1643 and 1713, cannot be said to receive support from the
+                    testimony of some earlier authorities. That the Arabs must have been acquainted
+                    with the compass, and with the construction and use of charts, at a period
+                    nearly two centuries previous to Chardin's first voyage to the East, may be
+                    gathered from the description given by Barros of a map of all the coast of
+                    India, shown to Vasco da Gama by a Moor of Guzerat (about the 15th July 1498),
+                    in which the bearings were laid down “after the manner of the Moors,’ or “with
+                    meridians and parallels very small (or close together), without other bearings
+                    of the compass; because, as the squares of these meridians and parallels were
+                    very small, the coast was laid down by these two bearings of N. and S., and E.
+                    and W., with great certainty, without that multiplication of bearings of the
+                    points of the compass usual in our maps, winch serves as the root of the
+                    others/’ Further, we learn from Osorio that the Arabs at the time of Gama “were
+                    instructed in so many of the arts of navigation, that they did not yield much to
+                    the Portuguese mariners in the science and practice of maritime matters.' (See
+                    <hi rend="italic">The Three Voyages of Vasco da Gama,</hi> Hakluyt Soc., 1869;
+                    note to chap, xv by the Hon. H. E. J. Stanley, p. 138.) Also the Arabs that
+                    navigated the Red Sea at the same period are shown by Varthema to have used the
+                    mariner’s chart and compass <hi rend="italic">(Travels,</hi> p. 31)</p>
+                <p>Again, it appears that compasses of a primitive description, which can hardly be
+                    supposed to have been brought from Europe, were employed in the East Indies
+                    certainly as early as several years previous to the close of the 16th century In
+                    William Barlowe's <hi rend="italic">Navigator's Supply,</hi> published in 1597,
+                    we read:—“Some fewe yeeres since, it so fell out that I had severall conferences
+                    with two East Indians which were brought into England by master Candish [Thomas
+                    Cavendish], and had learned our language: The one of them was of Mamil∏a
+                    [Manilla] in the Isle of Luzon, the other of Miaco in Japan. I questioned with
+                    them concerning their shipping and manner of sayling. They described all things
+                    farre different from ours, and shewed, that in steade of our Compas, they use a
+                    ιnag-neticall needle of sixe ynches long, and longer, upon a pinne in a dish of
+                    white <hi rend="italic">China</hi> earth filled with water; In the bottome
+                    whereof they have two crosse lines, for the foure principali windes; the rest of
+                    the divisions being reserved to the skill of their Pilots.’ <hi
+                    rend="superscript"> 1</hi> Baïlak Kibdjaki, also, an Arabian writer, shows in
+                    his <hi rend="italic">Merchant's Treasure,</hi> a work given to the world in
+                    1282, that the magnetized needle, floated on water by means of a splinter of
+                    wood or a reed, was employed on the Syrian seas at the time of his voyage from
+                    Tripoli to Alexandria (1242), and adds :—“They say that the captains who
+                    navigate the Indian seas use, instead of the needle and splinter, a sort of fish
+                    made out of hollow iron, which, when thrown into the water, swims upon the
+                    surface, and points out the north and south with its head and tail” (Klaproth,
+                    <hi rend="italic">Lettre,</hi> p. 57). Furthermore, although the sailors in the
+                    Indian vessels in which Niccola de’Conti traversed the Indian seas in 1420 are
+                    stated to have had no compass, still, on board the ship in which Varthema, less
+                    than a century later, sailed from Borneo to Java, both the mariner’s chart and
+                    compass were used; it has been questioned, however, whether in this case the
+                    compass was of Eastern manufacture <hi rend="italic">{Travels of Varthema,</hi>
+                    Introd, xciv., andp. 249). We have already seen that the Chinese as iate as the
+                    end of the 18th century made voyages with compasses on which but little reliance
+                    could be placed; and it may perhaps be assumed that the compasses early used in
+                    the East were mostly too imp,erfect to be of much assistance to navigators, and
+                    were therefore often dispensed with on customary routes. The simple
+                    water-compass is said to have been used by the Coreans •so late as the middle of
+                    the 18th century; and Dr T. Smith, writing in the <hi rend="italic"
+                    >Philosophical Transactions</hi> for 1683-4, says of the Turks (p. 439), “They
+                    have no genius for Sea-voyages, and consequently are very raw and unexperienced
+                    in the art of Navigation, scarce venturing to sail out of sight of land. I speak
+                    of the natural <hi rend="italic">Turks,</hi> who trade either into the <hi
+                    rend="italic">Hack Sea</hi> or some part of the <hi rend="italic">Morea,</hi> or
+                    between <hi rend="italic">Constantinople</hi> and <hi rend="italic"
+                    >Alexandria,</hi> and not of the Pyrats of <hi rend="italic">Barbary,</hi> who
+                    are for the most part Renegade’s, and learnt their skill in Christendom The
+                    Turkish compass consists but of 8</p>
+                <p>points, the four Cardinal and the four Collateral.” That the value of the compass
+                    was thus, even in the latter part of the 17th century, so imperfectly recognized
+                    in the East may serve to explain how in earlier times that instrument, long
+                    after the first discovery of its properties, may have been generally neglected
+                    by navigators.</p>
+                <p>The Saracen geographer, Edrîsi, who lived about 1100, is said by Boucher to give
+                    an account, though in a confused manner, of the polarity of the magnet (Hallam,
+                    <hi rend="italic">Mid. Ages,</hi> vol. iii. chap. 9, part 2); but the earliest
+                    definite mention as yet known of the use of the mariner’s compass in the Middle
+                    Ages occurs in a treatise entitled <hi rend="italic">De</hi><hi rend="italic"
+                    >Utensilibus,</hi> written by Alexander Neckam in the 12th century. He speaks
+                    there of a needle carried on board ship which, being placed on a pivot, and
+                    allowed to take its own position of repose, shows mariners their course when the
+                    polar star is hidden. In another work, <hi rend="italic">De</hi><hi
+                    rend="italic">Naturis</hi><hi rend="italic">Herum,</hi> lib. ii. c. 89, he
+                    writes,— “Mariners at sea, when, through cloudy weather in the day which hides
+                    the sun, or through the darkness of the night, they lose the knowledge of the
+                    quarter of the world to which they are sailing, touch a needle with the magnet,
+                    which will turn round till, on its motion ceasing, its point will be directed
+                    towards the north" (W. Chappell, <hi rend="italic">Nature,</hi> No. 346, June
+                    15, 1876). The magnetical needle, and its suspension on a stick or straw in
+                    water, are clearly described in <hi rend="italic">La Bible Guiot,</hi> a poem
+                    probably of the 13th century, by Guiot de Provins, wherein we are told that
+                    through the magnet <hi rend="italic">(la manette</hi> or <hi rend="italic"
+                    >Vamanière),</hi> an ugly brown stone to which iron turns of its own accord,
+                    mariners possess an art that cannot fail them. A needle touched by it, and
+                    floated by a stick on water, turns its point towards the pole-star, and a light
+                    being placed near the needle on dark nights, the proper course is known <hi
+                    rend="italic">{Hist,</hi><hi rend="italic">littéraire</hi><hi rend="italic">de
+                    la France,</hi> tom. ix. p. 199; Barbazan, <hi rend="italic">Fabliaux,</hi> tom.
+                    ii. p. 328). Cardinal Jacques de Vitry, bishop of Aeon in Palestine, in his <hi
+                    rend="italic">History</hi> (cap. 89), written about the year 1218, speaks of the
+                    magnetic needle as “most necessary for such as sail the sea;<note
+                    anchored="true" place="bottom" type="authorial"><p>Adamas in India reperitur
+                    Ferrum occulta quadam natura ad se trahit. Acus ferrea postquam adamantem
+                    contigerit, ad stellam septentrionalem semper convertitur, unde valde
+                    necessarius est navigantibus in mari.</p></note><hi rend="superscript"> j</hi>
+                    and another French crusader, his contemporary, Vincent de Beauvais, states that
+                    the adamant (loadstone) is found in Arabia, and mentions a method of using a
+                    needle magnetized by it which is similar to that described by Kibdjaki. From
+                    quotations given by Antonio Capmany <hi rend="italic">(Questiones Criticas)</hi>
+                    from the <hi rend="italic">De</hi><hi rend="italic">Contemplatione</hi> of
+                    Raymond Lully, of the date 1272, it appears that the latter was well acquainted
+                    with the use of the magnet at sea;<note anchored="true" place="bottom"
+                    type="authorial"><p> Sicut acus per naturam vertitur ad septentrionem dum sit
+                    tacta a magnete.—Sicut acus nautica dirigit marinarios in sua
+                    navigatione.</p></note> and before the middle of the 13th century Gauthier
+                    d’Espinois alludes to its polarity, as if generally known, in the lines :—</p>
+                <p>“Tous autres! comme 1 aimant déçoit [détourné] L’aiguillette par force de
+                    vertu,</p>
+                <p>A ma dame tor le mont [monde] retenue Qui sa beauté connoit et aperçoit.”</p>
+                <p>Guido Guinizzelli, a poet of the same period, writes :—“In those parts under the
+                    north are the mountains of loadstone, which give the virtue to the air of
+                    attracting iron; but because it [the loadstone] is far off, [it] wishes to have
+                    the help of a similar stone to make it [the virtue] work, and to direct the
+                    needle towards the star. ’<note anchored="true" place="bottom" type="authorial"
+                    ><p> Ginguené, <hi rend="italic">Hist.</hi><hi rend="italic">lit. de
+                    tItalie,</hi> t. i. p. 413.</p></note> Brunetto Latini also makes reference to
+                    the compass in his encyclopaedia <hi rend="italic">Livres</hi><hi rend="italic"
+                    >don trésor,</hi> composed about 1260; and a letter written in 1269, attributed
+                    to Peter Adsiger, shows that the declination of the needle had already been
+                    observed at that date. From Torfaeus we learn that the compass, fitted into a
+                    box, was already in use among the Norwegians about the middle of the 13th
+                    century <hi rend="italic">(Hist. Per. Norvegicarum,</hi> iv. c. 4, p. 345,
+                    Hafniae, 1711); and it is probable that the use of the magnet at sea was known
+                    in Scotland at or shortly subsequent to that time, though King Robert, in
+                    crossing from Arran to Carrick in 1306, as Barbour writing in 1375 informs us,
+                    “na nedill had na stane," but steered by a fire on the shore.</p>
+                <p>From the above it will have been evident that, as Barlowe remarks concerning the
+                    compass, “the lame tale of one Flavius at Amelphus, in the kingdome of Naples
+                    [Flavio Gioja of Amalphi, cir 1307], for to have devised it, is of very slender
+                    probabilitie;” and as regards the assertion of Dr Gilbert, of Colchester <hi
+                    rend="italic">(De</hi><hi rend="italic">Magnete,</hi> p 4, 1600), that Marco
+                    Polo introduced the compass into Italy from the East in 1260,<note
+                    anchored="true" place="bottom" type="authorial"><p>“According to all the texts
+                    he returned to Venice in 1295 or, as is more probable, in
+                    1296.”—Yule.</p></note> we need only quote the words of Col. Yule <hi
+                    rend="italic">(Book of Marco Polo)</hi> “Respecting the mariner’s compass and
+                    gunpowder, 1 shall say nothing, as no one now, I believe, imagines Marco to have
+                    had anything to do with their introduction."</p>
+                <p>When and by whom the card was added are still matters of conjecture; but the
+                    thirty-two points or rhumbs into which it is divided were recognized at least as
+                    early as the time of Chaucer, who, in 1391, wrote, “Now is thin Orisonte
+                    departed in xxiiii partiez by thi azymutz, in significacion of xxiiii partiez of
+                    the world; al be it so that ship men rikne thilke partiez in xxxii” <hi
+                    rend="italic">(Treatise on the Astrolabe,</hi> ed. Skeat, Early Eng. Text Soc.,
+                    Lond. 1872).</p>
+                <p>The improvement of the compass has been but a slow process. <hi rend="italic">The
+                    Libel of English Policie,</hi> a poem of the first half of the 15th century,
+                    says with reference to Iceland (chap, x.)—</p>
+                <pb break="no" facs="ia:encyclopediabrit06newyrich/page/n255/mode/1up"
+                    xml:id="kp-eb0906-0255-0228"/>
+                <p>“Out of Bristowc, and costes many one, Men haue practised by nedle and by stone
+                    Thider wardes within a litle while.”</p>
+                <p>Hakluyt, <hi rend="italic">Principal Navigations,</hi> p. 201, Lond. 1599.</p>
+                <p>From this it would seem that the compasses used at that time by English mariners
+                    were of a very primitive description. Barlowe, in his treatise <hi rend="italic"
+                    >Magnetical Advertisements,</hi> printed in 1616 (p. 66), complains that “the
+                    Compasse needle, being the most admirable and usefull instrument of the whole
+                    world, is both amongst ours and other nations for the most part, so bungerly and
+                    absurdly contrived, as nothing more.” The form he recommends for the needle is
+                    that of “a true circle, having his Axis going out beyond the circle, at each end
+                    narrow and narrower, unto a reasonable sharpe point, and being pure steele as
+                    the circle it seife is, having in the middest a convenient receptacle to place
+                    the capitell in.” In 1750 Dr Gowan Knight found that the needles of
+                    merchant-ships were made of two pieces of steel bent in the middle and united in
+                    the shape ot a rhombus, and proposed to substitute straight steel bars of small
+                    breadth, suspended edgewise, and hardened throughout. He also showed that the
+                    Chinese mode of suspending the needle conduces most to sensibility. In 1820
+                    Prof. Barlow reported to the Admiralty that half the compasses in the Royal Navy
+                    were mere lumber, and ought to be destroyed. Since then many improved varieties
+                    of ships’ compasses have been introduced, of which may be mentioned, those of
+                    Pope, Preston, Walker, Dent, Stebbing, Gowland, Gray, Duchemin, and Harris. In
+                    the last the needle turns upon a point which is the centre of a doubly-curved
+                    bar of copper, fixed as a diameter to a ring of the same metal. In the Admiralty
+                    compass the bowl is of copper, the card of mica; and compound magnetic bars, as
+                    proposed by Scoresby, are employed.</p>
+                <p>The most remarkable and, as shown by trial, most satisfactory form of the
+                    compassis that patented in 1876 by Sir William Thomson (see fig. 2). The card
+                    consists of a central boss and an outer rim, both of aluminium, connected
+                    together by fine silk cords. Eight or twelve small magnets, 2 to 3 inches long,
+                    having their corresponding ends tied together by threads of equal lengths, are
+                    suspended by silk cords from the rim, to which is attached thin paper marked
+                    with the points of the compass and degrees. The Concentration, in this wise, of
+                    the greater part of the weight in the rim gives a long period of free
+                    oscillation, and consequently great steadiness; and as the card of a 10-ineh
+                    compass, with its suspended needle and sapphire, weighs only 178 grains, the
+                    frictional error is very slight. Owing to the smallness of the needles, a
+                    perfect correction for all latitudes of a quadrantal error of 5 or 6 degrees for
+                    a 10-inch, and of 11 or 12 degrees for a 7-inch compass can be effected by means
+                    of a couple of iron globes not more than 6 inches in diameter, fixed on opposite
+                    sides of the binnacle. The thwart-ship and the fore-and-aft components of the
+                    ship’s magnetic force are neutralized by two adjustable correctors placed one
+                    over the other, and so arranged that in their zero position the middle line of
+                    both is vertically under the centre of the compass. Each corrector consists of
+                    two bar magnets movable round a common horizontal axis perpendicular to their
+                    lengths. To correct the heeling error, an adjustable magnet is applied below the
+                    compass in a line through its centre perpendicular to the deck. For taking
+                    bearings, a new instrument, the azimuth mirror, is provided, whereby the image
+                    of the object reflected from a plane mirror is thrown, as in a camera lucida, on
+                    the graduated circle of the compass card, and is seen through a convex lens.
+                    Another improvement is the use of knife edges instead of journals for supporting
+                    the gimbals. A hemispherical space below the compass-case, nearly filled with
+                    castor-oil, serves to calm the vibrations of the bowl.</p>
+                <p>See articles <hi rend="smallcaps">Magnetism</hi> and <hi rend="smallcaps"
+                    >Navigation;</hi> Cavallo, <hi rend="italic">Treatise on Magnetism,</hi> 2d ed.,
+                    Lond. 1800; Macpherson, <hi rend="italic">Annals of Commerce,</hi> 1805; Airy,
+                    <hi rend="italic">Phil. Trans.,</hi> 1839, and 1846, part i., and <hi
+                    rend="italic">Magnetism,</hi> sect, x., 1870; Johnson, <hi rend="italic">On the
+                    Deviations of the Compass,</hi> 1852; Evans, <hi rend="italic">Phil.
+                    Trans.</hi>, 1860; Scoresby, <hi rend="italic">The Compass in Iron Ships,</hi>
+                    1855, &amp;c.; Evans and Smith, <hi rend="italic">The Admiralty Manual of the
+                    Compass;</hi> Merrifield, <hi rend="italic">Magnetism and the Deviation of the
+                    Compass,</hi> part ii., 1872; Harris, <hi rend="italic">Rud. Treat, on
+                    Magnetism,</hi> 1872; Thomson, in <hi rend="italic">Nature,</hi> vol. x. p. 388,
+                    1874. (F. H. B.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

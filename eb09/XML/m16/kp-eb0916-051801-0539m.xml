@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0916-0539-0518-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb09_v1.1">
+                <title level="a" type="main">MISSISSIPPI</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">9th edition, volume 16, page 518</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.1">Version 1.1 <date when="2025">2025</date></edition>
+            </editionStmt>
+            <extent>486 MB; 17,775 XML files</extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2025">2025</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/12465694" xml:id="mn">Baynes, T.
+                            Spencer (Thomas Spencer), <date from="1823" to="1887"
+                            >1823-1887</date></persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Ninth Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="25" unit="vol">25 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Charles Scribner's Sons</publisher>
+                        <authority>Authorized reprint from Edinburgh plates</authority>
+                        <pubPlace>New York</pubPlace>
+                        <date from="1875" to="1889">1875-1889</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="ia-uc"><title>Encyclopaedia Britannica: a dictionary of arts,
+                            sciences, and general literature</title><publisher><orgName
+                            ref="https://archive.org/">Internet Archive</orgName><orgName
+                            ref="https://archive.org/details/cdl">University of California
+                            Libraries, California Digital Library</orgName></publisher><date
+                            when="2019">2006</date><idno type="OCLC">592355607</idno><idno
+                            type="ark">13960/t0ks6j612</idno><availability>
+                            <p>Internet Archive: NOT_IN_COPYRIGHT</p>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <desc>Alternate images of the same print editions were substituted when the
+                        primary source had unusable images for those pages.</desc>
+                    <bibl xml:id="um-ht">Hathi Trust, from print source at the University of
+                        Michigan: vol. 14, pp. 34-35; vol. 15, pp. 170-171.</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for future entry subsections.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="36" ref="lcsh1910:b4319s59c">Foot</term>
+                    <term n="24" ref="lcsh1910:b4wh2dg8p">Rivers</term>
+                    <term n="13" ref="lcsh1910:b4c53f39x">Mouth</term>
+                    <term n="10" ref="lcsh1910:b4v11vw02">Work</term>
+                    <term n="7" ref="lcsh1910:b4513v11w">Water</term>
+                    <term n="1" ref="lcsh1910:b4zw18v1m">War</term>
+                    <term n="1" ref="lcsh1910:b4h98zp4v">Wars</term>
+                    <term n="1" ref="lcsh1910:b4pn8xd98">Acting</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="1" ref="fasttopic:1355303">Wars</term>
+                    <term n="1" ref="fasttopic:796146">Acting</term>
+                    <term n="1" ref="fasttopic:1170328">War</term>
+                    <term n="36" ref="fasttopic:931268">Foot</term>
+                    <term n="24" ref="fasttopic:1098312">Rivers</term>
+                    <term n="13" ref="fasttopic:1028427">Mouth</term>
+                    <term n="10" ref="fasttopic:1180188">Work</term>
+                    <term n="7" ref="fasttopic:1171139">Water</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="7" ref="fastgeo:1207034">Mississippi</term>
+                    <term n="5" ref="fastgeo:1205075">Ohio</term>
+                    <term n="2" ref="fastgeo:1207035">Louisiana</term>
+                    <term n="1" ref="fastgeo:1239786">America</term>
+                    <term n="1" ref="fastgeo:1204724">Missouri</term>
+                    <term n="1" ref="fastgeo:1211700">Mexico</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change status="public" when="2025-08-15" who="#pml">v1.1. Isolates one entry;
+                    corrects "B.c." and variants; replaces "bom" with "born", removed 783 instances
+                    of extra space before semicolon. Separates metadata in <gi>teiHeader</gi> into
+                    two separate facets: FAST Topical and FAST Geographical.</change>
+                <change status="public" when="2023-02-28" who="#pml">v.1 published</change>
+                <change status="public" when="2023-02-27" who="#pml">v.1 teiHeader XSL
+                    finished</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ia:encyclopediabrit16newyrich/page/n539/mode/1up" type="entry">
+                <p><label type="entry">MISSISSIPPI</label>. The territory drained by the Mississippi
+                    river and its tributaries includes the greater part of the United States of
+                    America lying between the Alleghany Mountains on the east and the Rocky
+                    Mountains on the west, and has an area (1,244,000 square miles) considerably
+                    larger than all central Europe. The central artery through which the drainage of
+                    this region passes is called the Mississippi river for about 1300 miles above
+                    its mouth. The name is then usurped by a tributary, while the main stream
+                    becomes known as the Missouri. From its remote sources in the Rocky Mountains to
+                    the Gulf of Mexico the total length of the river is about 4200 miles. The other
+                    principal tributaries are the Ohio, the Arkansas, and the Red River, but the
+                    Yazoo and the St Francis often make dangerous contributions in seasons of
+                    flood.</p>
+                <p>The tables given below exhibit the hydraulic features of the Mississippi and its
+                    principal tributaries.</p>
+                <p>Below the influx of the Ohio the Mississippi traverses alluvial bottom lands
+                    liable to overflow in flood seasons. The soil is of inexhaustible fertility,
+                    producing large crops of corn in the northern portion, cotton in the middle
+                    district, and sugar, rice, and orange groves near the mouth. These bottom lands,
+                    averaging about 40 miles in width, extend from north to south for a distance of
+                    500 miles, having a general southern slope of 8 inches to the mile. The river
+                    winds through them in a devious course for 1100 miles, occasionally on the east
+                    side washing bluffs from 100 to 300 feet in height, but usually confined by
+                    banks of its own creation, which, as with all sediment-bearing rivers of like
+                    character, are highest near the stream itself. The general lateral slope towards
+                    the foot hills is about 6 inches <pb break="no"
+                    facs="ia:encyclopediabrit16newyrich/page/n540/mode/1up"
+                    xml:id="kp-eb0916-0540-0519"/> in 5000 feet, but the normal fall in the first
+                    mile is about 7 feet. Thus apparently following a low ridge through the bottom
+                    lands, the tawny sea sweeps onward with great velocity, eroding its banks in the
+                    bends and rebuilding them on the points, now forming islands by its deposits,
+                    and now removing them as the direction of the flow is modified by the
+                    never-ending changes in progress. Chief among such changes is the formation of
+                    cut-ofls. Two eroding bends gradually approach each other until the water forces
+                    a passage across the narrow neck. As the channel distance between these bends
+                    may be many miles, a cascade perhaps 5 or 6 feet in height is formed, and the
+                    torrent rushes through with a roar audible for miles. The banks dissolve like
+                    sugar. In a single day the course of the river is changed, and steamboats pass
+                    where a few hours before the plough had been at work. The checking of the
+                    current at the upper and lower mouths of the abandoned channel soon obstructs
+                    them by deposit, and forms in a few years one of the characteristic crescent
+                    lakes which are so marked a feature on the maps.</p>
+                <p>The total area of the bottom lands is about 32,000 square miles, of which only a
+                    narrow strip along the immediate banks of the main river and of its principal
+                    bayous and tributaries has even yet been brought under cultivation. A proper
+                    system of protection against overflow would throw open 2,500,000 acres of rich
+                    sugar land, 7,000,000 acres of the best cotton land in the world, and 1,000,000
+                    acres of corn land of unsurpassed fertility.</p>
+                <p>The work of embankment began in 1717, when the engineer De la Tour erected a dyke
+                    or levee 1 mile long to protect the infant city of New Orleans from overflow.
+                    Progress at first was slow. In 1770 the settlements extended only 30 miles above
+                    and 20 miles below New Orleans; but by 1828 the levees, although quite
+                    insufficient in dimensions, had become continuous nearly to the mouth of Red
+                    River. In 1850 a great impulse was given to systematic embankment by the U.S.
+                    Government, which gave over to the several States all unsold swamp and
+                    overflowed lands within their limits to provide a fund for reclaiming the
+                    districts liable to inundation. The action</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="7" role="data" rows="1"><p><hi rend="italic">Tributaries of the
+                            Lower Mississippi.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>River.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Distance from Mouth.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Elevation above Sea.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Width between Banks.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Range between High and Low
+                            Water.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>High Water Cross Section.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Remarks.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">Missouri—</hi>
+                            Source</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Miles. 2,908 2,824 2,644 1,894 842
+                            484 0</p><p>1,330 998 658 310</p><p>0</p><p>1,265 975
+                            515</p><p>0</p><p>1,514 1,289</p><p>992 522 250</p><p>0</p><p>1,200 820
+                            330 0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Feet. 6,800? 4,319 2,845 2,188
+                            1,065</p><p>756 381</p><p>1,680 1,290</p><p>670 505 381</p><p>1,649 699
+                            432 275</p><p>10,000 3,672 1,658</p><p>418 252 162</p><p>2,450 641
+                            180</p><p>54</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Feet.</p><p>1,500 1,500 2,500 3,000
+                            3,000</p><p>120 1,200 5,000 5,000</p><p>1,200</p><p>3,000</p><p>150
+                            5,000 5,000 1,500 1,500 1,500</p><p>2,000
+                            2,000</p><p>800</p><p>800</p></cell>
+                        <cell cols="1" role="data" rows="1"
+                            ><p>Feet.</p><p>6</p><p>20</p><p>35</p><p>20</p><p>16</p><p>35</p><p>45</p><p>42</p><p>51</p><p>6</p><p>25</p><p>35</p><p>45</p><p>8</p><p>25</p><p>45</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Square Feet.</p><p>75 j
+                            000</p><p>75,000</p><p>ιοό,δοο 100,000
+                            100,000</p><p>50,000</p><p>150’000</p><p>30,000</p><p>70,000</p><p>70,000</p><p>70,000</p><p>12,000</p><p>40’000</p><p>40,000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>-X</p><p>Area of basin, 518,000
+                            square miles; rainfall, 20'9 inches; annual discharge, 3 <hi
+                            rend="subscript"> 1</hi> ⅞⅜ billions <hi rend="italic">[i.e.,</hi>
+                            3,780,000,000,000] cubic feet; ratio between drainage and rainfall, <hi
+                            rend="subscript"> 1</hi> ⅛⅛j mean discharge per second, 120,000 cubic
+                            feet.</p><p>Area of basin, 169,000 square miles; rainfall, 35'2 inches;
+                            annual discharge, 3 <hi rend="subscript"> 1</hi> ⅜ billions cubic feet;
+                            ratio between drainage and rainfall, <hi rend="subscript"> 1</hi> ⅞⅛;
+                            mean discharge per second, 105,000 cubic feet.</p><p>) Area of basin,
+                            214,000 square miles; rainfall, 41'5 1 inches; annual discharge, 5
+                            billions cubic h et; i ratio between drainage and rainfall, <hi
+                            rend="subscript"> ι</hi> ⅜⅛; mean ) discharge per second, 158,000 cubic
+                            feet.</p><p>Area of basin, 189,000 square miles; rainfall, 29 ’ 3
+                            inches; annual discharge, 2 billions cubic feet; ratio between drainage
+                            and rainfall, √&lt;⅛; mean discharge per second, 63,000 cubic
+                            feet.</p><p>√</p><p>Ί Area of basin, 97,000 square miles; rainfall, 39 I
+                            inches; annual discharge, 1 <hi rend="subscript"> 1</hi> ⅜ billions
+                            cubic feet; [ ratio between drainage and rainfall, ^ <hi
+                            rend="subscript"> s</hi> ∙, mean ) discharge per second, 57,000 cubic
+                            feet.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Three Forks</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Fort Benton</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Fort Union</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Sioux City</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>St Joseph</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Mouth</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">Upper Mississippi
+                            —</hi> Source</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Swan River</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>St Paul</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Rock Island</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Mouth</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">Ohio—</hi>
+                            Coudersport</p><p>Pittsburg</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Cincinnati</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Mouth</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">Arkansas—</hi>
+                            Source</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Bent’s Fort</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Great Bend</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Fort Smith</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Little Rock</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Mouth</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">Red River—</hi>
+                            Near source</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Preston</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Shreveport</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Mouth</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="9" role="data" rows="1"><p><hi rend="italic">The Lower
+                            Mississippi.</hi></p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Distance from Mouth.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>High Water Elevation above
+                            Sea.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Fall per Mile.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Width between Banks.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Least Low Water Depth upon the
+                            Bars.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Range between High and Low
+                            Water.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Area of Cross Section at</p><p>High
+                            Water.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Remarks.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Mouth of Missouri</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Miles. 1,286 1,270 1,097 1,076 872
+                            647 378 316 245 193 121 37 17 0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Feet. 416'0 408 Ό 322'0 310'0 221Ό
+                            1490</p><p>66 Ό 49'5 33 ∙9 25 ∙8 15 ∙2</p><p>5∙2 2∙9 0Ό</p></cell>
+                        <cell cols="1" role="data" rows="1"
+                            ><p>Feet</p><p>0'500</p><p>0∙497</p><p>0∙571</p><p>0 436 0∙320
+                            0'309</p><p>0∙266</p><p>0∙220</p><p>0'156</p><p>0Ί47</p><p>0Ί19</p><p>0Ί15</p><p>0171</p></cell>
+                        <cell cols="1" role="data" rows="1"
+                            ><p>Feet.</p><p>4,470</p><p>4,080</p><p>3,000</p><p>2,470</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Feet</p><p>( 2'0</p><p>5'0</p><p>60
+                            j</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Feet.</p><p>37 '0 51'0 47'0
+                            40'0</p><p>51’0 44'3 31'1 24'3</p><p>14'4 4'5 2'3</p><p>0'0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Square Feet.</p><p>191,000</p><p>
+                            199,000 j 200,000 j 199,000</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Drainage area, 1,244,000 square
+                            miles; rainfall, 30'4 inches; annual discharge (including three outlet
+                            bay- - ous), 21 <hi rend="subscript"> 1</hi> ⅛ billions of cubic feet;
+                            ratio between drainage and rainfall, ∙ <hi rend="subscript"> 1</hi> ¾j
+                            mean discharge per second, 675,000 cubic feet.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>St Louis</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Cairo</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Columbus</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Memphis</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Gaines landing</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Natchez</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Red River landing</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Baton Rouge</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Donaldsonville</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Carrollton</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Fort St Philip</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Head of Passes</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Gulf <hi rend="smallcaps"
+                            >λ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <pb break="no" facs="ia:encyclopediabrit16newyrich/page/n541/mode/1up"
+                    xml:id="kp-eb0916-0541-0520"/>
+                <p>resulting from this caused alarm in Louisiana, for the great bottom lands above
+                    were believed to act as reservoirs to receive the highest flood wave; and it was
+                    imagined that if they were closed by levees the lower country would be
+                    overwhelmed whenever the river in flood rose above its natural banks. The aid of
+                    the Government was invoked, and Congress immediately ordered the necessary
+                    investigations and surveys. This work was placed in charge of Captain (now
+                    General) Humphreys, and an elaborate report covering the results of ten years of
+                    investigation was published just after the outbreak of the civil war in 1861.
+                    The second of the tables given above, and indeed most of the physical facts
+                    respecting the river, are quoted from this standard authority.</p>
+                <p>To understand the figures of the table it should be noted that at the mouth of
+                    Red River, 316 miles above the passes, the water surface at the lowest stage is
+                    only 5²⁄₁₀ feet above the level of the Gulf, where the mean tidal oscillation is
+                    about l²⁄₁₀- feet. The river channel in this section is therefore a freshwater
+                    lake, nearly without islands, 2600 feet wide and 100 feet deep along the deepest
+                    line. At the flood stage the surface rises 50 feet at the mouth of Red River,
+                    but of course retains its level at the Gulf, thus giving the head necessary to
+                    force forward the increased volume of discharge. Above the mouth of Red River
+                    the case is essentially different. The width increases and the depth decreases;
+                    islands become numerous; the oscillation between high and low water varies but
+                    little from 50 feet until the mouth of the Ohio is reached—a distance of about
+                    800 miles. Hence the general slope in long distances is here nearly the same at
+                    all stages, and the discharge is regulated by the varying resistances of cross
+                    section, and by local changes in slope due to the passage of flood waves
+                    contributed by the different tributaries. The effect of these different physical
+                    conditions appears in the comparative volumes which pass through the channel. At
+                    New Orleans the maximum discharge hardly reaches 1,200,000 cubic feet per
+                    second, and a rising river at high stages carries only about 100,000 cubic feet
+                    per second more than when falling at the same absolute level; while just below
+                    the mouth of the Ohio the maximum flood volume reaches 1,400,000 cubic feet per
+                    second, and at some stages a rising river may carry one-third more water than
+                    when falling at the same absolute level.</p>
+                <p>The percentage of sedimentary matter carried in suspension by the water varies
+                    greatly at different times, but is certainly not dependent upon the stage above
+                    low water. It is chiefly determined by the tributary whence the water proceeds,
+                    but is also influenced by the caving of the banks, which is always excessive
+                    when the river is rapidly falling after the spring flood. In long periods the
+                    sedimentary matter is to the water by weight nearly as 1 to 1500, and by bulk as
+                    1 to 2900. The amount held in suspension and annually contributed to the Gulf
+                    constitutes a prism 1 mile square and 263 feet high. In addition to this amount
+                    a large volume, estimated at 1 mile square and 27 feet high annually, is pushed
+                    by the current along the bottom and thus transported to the Gulf.</p>
+                <p>The mean annual succession of stages for long periods is quite uniform, but so
+                    many exceptions are noted that no definite prediction can safely be made for any
+                    particular epoch. The river is usually lowest in October. It rises rapidly until
+                    checked by the freezing of the northern tributaries. It begins to rise again in
+                    February, and attains its highest point about the 1st of April. After falling a
+                    few feet it again rises until, early in June, it attains nearly the same level
+                    as before. After this it rapidly recedes to low-water mark. As a rule the river
+                    is above mid-stage from January to August inclusive, and below that level for
+                    the remainder of the year.</p>
+                <p>It has been established by measurement and observation that the great bottom
+                    lands above Red River before the construction of their levees did not serve as
+                    reservoirs to diminish the maximum wave which passed through Louisiana in great
+                    flood seasons. They had already become filled by local rains and by water
+                    escaping into them from the Mississippi through numerous bayous, so that at the
+                    date of highest water the discharge into the river near their southern borders
+                    was fully equal to the volume which the wave had lost in passing along their
+                    fronts.</p>
+                <p>In fine, the investigations between 1850 and 1860 established that no diversion
+                    of tributaries was possible; that no reservoirs artificially constructed could
+                    keep back the spring freshets which caused the floods; that the making of
+                    cutoffs, which had sometimes been advocated as a measure of relief, so far from
+                    being beneficial, was in the highest degree injurious; that, while outlets
+                    within proper limits were theoretically advantageous, they were impracticable
+                    from the lack of suitable sites; and, finally, that levees properly constructed
+                    and judiciously placed would afford protection to the entire alluvial
+                    region.</p>
+                <p>During the civil war (1861-65) the artificial embankments were neglected; but
+                    after its close large sums were expended by the States directly interested in
+                    repairing them. The work was done without concert upon defective plans, and a
+                    great flood early in 1874 inundated the country, causing terrible suffering and
+                    loss. Congress, then in session, passed an Act creating a commission of five
+                    engineers to determine and report on the best system for the permanent
+                    reclamation of the entire alluvial region. Their report, rendered in 1875,
+                    endorsed the conclusions of that of 1861, and advocated a general levee system
+                    on each bank. This system comprised—(1) a main embankment raised to specified
+                    heights sufficient to restrain the floods; and (2), where reasonable security
+                    against caving required considerable areas near the river to be thrown out,
+                    exterior levees of such a height as to exclude ordinary high waters but to allow
+                    free passage to great floods, which as a rule only occur at intervals of five or
+                    six years. The back country would thus be securely protected, and a safe refuge
+                    would be provided for the inhabitants and domestic animals living upon the
+                    portion subject to occasional overflow. An engineering organization was proposed
+                    for constructing and maintaining these levees, and a detailed topographical
+                    survey was recommended to determine their precise location. Congress promptly
+                    approved and ordered the survey; but strong opposition on constitutional grounds
+                    was raised to the construction of the levees by the Government.</p>
+                <p>In the meantime complaints began to be heard respecting the low-water navigation
+                    of the river below the mouth of the Ohio. Forty-three places above the mouth of
+                    Red River afforded depths of less than 10 feet, and thirteen places depths less
+                    than 5 feet, the aggregate length of such places being about 150 miles. A board
+                    of five army engineers, appointed in 1878 to consider a plan of relief, reported
+                    that 10 feet could probably be secured by narrowing ,the wide places to about
+                    3500 feet with hurdle work, brush ropes, or brush dykes designed to cause a
+                    deposit of sediment, and by protecting caving banks, when necessary, by such
+                    light and cheap mattresses as experience should show to be best suited to the
+                    work. Experiments in these methods were soon begun upon the river above Cairo,
+                    and have since proved of decided benefit.</p>
+                <p>In June 1879 Congress created a commission of seven members to mature plans to
+                    correct, permanently determine, and deepen the channel, to protect the banks of
+                    the river, to improve and give safety to navigation, to prevent destructive
+                    floods, and to promote and facilitate commerce. Up to 1882 appropriations
+                    amounting to £1,285,000 were made to execute the plans of this commission, but
+                    with provisos that none of the funds were to be expended in repairing or
+                    building levees for the protection of land against overflow, although such
+                    levees might be constructed if necessary to deepen the channel and improve
+                    navigation. Acting under this authority, the commission have allotted
+                    considerable sums to repair existing breaks in the levees; but their chief
+                    dependence is upon contracting the channel at low water by promoting lateral
+                    deposits, and upon protecting the high-water banks against caving by mats of
+                    brush, wire, &amp;c., ballasted where necessary with stone,—substantially the
+                    plans proposed by the army board of 1878.</p>
+                <p>The bars at the efflux of the passes at the mouth of the Mississippi have long
+                    been recognized as serious impediments to commerce. The river naturally
+                    discharges through three principal branches, the south-west pass, the south
+                    pass, and the north-east pass, the latter through two channels, the most
+                    northern of which is called Pass à 1’Outre. The ruling depth on the several bars
+                    varies with the discharge over them, which in turn is controlled by the
+                    successive advances of the passes. In the natural condition the greatest <pb
+                    break="no" facs="ia:encyclopediabrit16newyrich/page/n544/mode/1up"
+                    xml:id="kp-eb0916-0544-0521"/> depth does not exceed Γ2 or 13 feet. The first
+                    appropriation by Congress to secure increased depth was made in 1837, and was
+                    expended in an elaborate survey and in a system of dredging by buckets, but the
+                    plan of a ship canal was also discussed. At the next appropriation, made in
+                    1852, a board of officers, appointed by the war department, recommended trying
+                    in succession—(1) stirring up the bottom by suitable machinery, (2) dredging by
+                    buckets, (3) constructing parallel jetties 5 miles long at the south-west pass,
+                    to be extended as found necessary, (4) closing lateral outlets, and (5)
+                    constructing a ship canal. A depth of 18 feet was secured by the first plan, and
+                    was maintained until the available funds were exhausted. Under the next
+                    appropriation (1856) an abortive attempt was made to apply the plan of jetties
+                    to the south-west pass. This failed from defects in execution by the
+                    contractors, but a depth of 18 feet was finally secured by dredging and
+                    scraping. The report of 1861 discussed the subject of bar formation at length.
+                    Although it approved the plan of jetties and closure of outlets as correct in
+                    theory, the stirring up of the bottom by scrapers during the flood stages of the
+                    river (six months annually) was recommended by it as the most economicaland
+                    least objectionable. After the war this recommendation was carried into effect
+                    for several years with improved machinery, giving at a moderate annual cost a
+                    depth at times reaching 20 feet at extreme low water, but experience indicated
+                    that not much more than 18 feet could be steadily maintained. This depth,
+                    entirely satisfactory at first, soon became insufficient to meet the growing
+                    demands of commerce, and in 1873 Major Howell, the engineer in charge, revived
+                    the project of a ship canal. The subject was discussed carefully by a board of
+                    army engineers, the majority approving a ship canal. In 1874 Congress
+                    constituted a special board which, after visiting Europe and examining similar
+                    works of improvement there, reported in favour of constructing jetties at the
+                    south pass, substantially upon the plan used by Mr Caland at the mouth of the
+                    Meuse; and in March 1875 Captain J. B. Eads and associates were authorized by
+                    Congress to open by contract a broad and deep channel through the south pass
+                    upon the general plan proposed by this board. This contract called for “the
+                    maintenance of a channel of 30 feet in depth and 350 feet in width for twenty
+                    years” by “the construction of thoroughly substantial and permanent works by
+                    which said channel may be maintained for all time after their completion.” The
+                    jetties were to be not less than 700 feet apart. The sum of £1,080,000 was tobe
+                    pai&lt;ζfor obtaining this channel, and£412,000 for maintaining it for twenty
+                    years. In addition, the contractors were authorized to use any materials on the
+                    public lands suitable for and needed in the work. The south pass was 12 <hi
+                    rend="subscript"> 1</hi> ⅛ miles long. It had an average width of 730 feet and a
+                    minimum interior channel depth of 29 feet. The distance from the 30-foot curve
+                    inside the pass across the bar to the 30-foot curve outside was 11,900 feet. The
+                    minimum depth at average flood tide on the bar was about 8 feet. The discharge
+                    at the mouth was about 57,000 cubic feet of water per second, transporting
+                    annually about 22 million cubic yards of sediment in suspension to the Gulf. A
+                    small island and shoal existed at the head of the pass, the channel there having
+                    a minimum depth of 17 feet. The work was begun on June 2, 1875, and has been so
+                    far successful that during the year ending June 30, 1882, a channel was
+                    maintained having a least depth of 30 feet between the jetties and extending
+                    through the bar. Its least width was 20 feet, the average being 105 feet. The
+                    26-foot channel had a least width of 200 feet, except for a few days. In the
+                    pass itself the 26-foot channel had a least width of 50 feet. A very powerful
+                    dredge-boat was at work between and beyond the jetties 87 days, of which 51 were
+                    devoted to the channel in the Gulf. A deepening of 6 feet has occurred in Pass à
+                    ΓOutre near its head since 1875. Up to the present time the work has proved of
+                    great benefit to the commerce of New Orleans.</p>
+                <p>For further details, see <hi rend="smallcaps">River Engineering.</hi> (H. I..
+                    A.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

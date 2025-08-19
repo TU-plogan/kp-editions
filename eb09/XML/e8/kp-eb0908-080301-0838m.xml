@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0908-0838-0803-01" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb09_v1.1">
+                <title level="a" type="main">EXHIBITIONS</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">9th edition, volume 8, page 803</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.1">Version 1.1 <date when="2025">2025</date></edition>
+            </editionStmt>
+            <extent>486 MB; 17,775 XML files</extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2025">2025</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/12465694" xml:id="mn">Baynes, T.
+                            Spencer (Thomas Spencer), <date from="1823" to="1887"
+                            >1823-1887</date></persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Ninth Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="25" unit="vol">25 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Charles Scribner's Sons</publisher>
+                        <authority>Authorized reprint from Edinburgh plates</authority>
+                        <pubPlace>New York</pubPlace>
+                        <date from="1875" to="1889">1875-1889</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="ia-uc"><title>Encyclopaedia Britannica: a dictionary of arts,
+                            sciences, and general literature</title><publisher><orgName
+                            ref="https://archive.org/">Internet Archive</orgName><orgName
+                            ref="https://archive.org/details/cdl">University of California
+                            Libraries, California Digital Library</orgName></publisher><date
+                            when="2019">2006</date><idno type="OCLC">592355607</idno><idno
+                            type="ark">13960/t0ks6j612</idno><availability>
+                            <p>Internet Archive: NOT_IN_COPYRIGHT</p>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <desc>Alternate images of the same print editions were substituted when the
+                        primary source had unusable images for those pages.</desc>
+                    <bibl xml:id="um-ht">Hathi Trust, from print source at the University of
+                        Michigan: vol. 14, pp. 34-35; vol. 15, pp. 170-171.</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for future entry subsections.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="10" ref="lcsh1910:b4x34mr95">Art</term>
+                    <term n="2" ref="lcsh1910:b4x921m3r">Parks</term>
+                    <term n="1" ref="lcsh1910:b48c9r41n">Arabs</term>
+                    <term n="1" ref="lcsh1910:b45m62b4v">Germans</term>
+                    <term n="7" ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term n="5" ref="lcsh1910:b4319s59c">Foot</term>
+                    <term n="4" ref="lcsh1910:b4d50g08p">Groups</term>
+                    <term n="4" ref="lcsh1910:b4j38kn24">Glass</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="2" ref="fastgeo:1219920">England</term>
+                    <term n="1" ref="fastgeo:1204901">Austria</term>
+                    <term n="1" ref="fastgeo:1239786">America</term>
+                    <term n="1" ref="fastgeo:1205401">Switzerland</term>
+                    <term n="1" ref="fastgeo:1205427">Ireland</term>
+                    <term n="1" ref="fastgeo:1207312">Russia</term>
+                    <term n="1" ref="fastgeo:1204537">Sweden</term>
+                    <term n="1" ref="fastgeo:1210278">Belgium</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="17" ref="fasttopic:918096">Exhibitionism</term>
+                    <term n="2" ref="fasttopic:817721">Arts</term>
+                    <term n="10" ref="fasttopic:815177">Art</term>
+                    <term n="8" ref="fasttopic:918123">Exhibitors</term>
+                    <term n="6" ref="fasttopic:950637">Halls</term>
+                    <term n="5" ref="fasttopic:934209">French</term>
+                    <term n="4" ref="fasttopic:910709">English</term>
+                    <term n="3" ref="fasttopic:839044">British</term>
+                    <term n="2" ref="fasttopic:1053705">Parks</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change status="public" when="2025-08-15" who="#pml">v1.1. Isolates one entry;
+                    corrects "B.c." and variants; replaces "bom" with "born", removed 783 instances
+                    of extra space before semicolon. Separates metadata in <gi>teiHeader</gi> into
+                    two separate facets: FAST Topical and FAST Geographical.</change>
+                <change status="public" when="2023-02-28" who="#pml">v.1 published</change>
+                <change status="public" when="2023-02-27" who="#pml">v.1 teiHeader XSL
+                    finished</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ia:encyclopediabrit08newyrich/page/n838/mode/1up" type="entry">
+                <p><label type="entry">EXHIBITIONS</label>. National and International Exhibitions
+                    may be ranked among the most remarkable features in the industrial records of
+                    the world, and have taken their place as prominent instruments of civilization,
+                    for by their means the diffusion of knowledge has been advanced and extended in
+                    the most wonderful manner.</p>
+                <p>It is to the Society of Arts that the credit is due of having originated national
+                    exhibitions. So far back as the year 1761 that body offered prizes for
+                    agricultural and other machines, and had an exhibition of these in its
+                    apartments. In 1798 France began a series of national expositions under the
+                    direction of Napoleon. The exhibitors at first numbered only 110, and a jury of
+                    niue was appointed to decide upon their merits. A gold medal was offered to the
+                    manufacturer who should deal the heaviest blow to English trade. The second
+                    exposition took place in 1801, and was so successful that the third was fixed to
+                    take place in 1802. Expositions were subsequently held in 1806, 1819, 1823,
+                    1827, 1834, 1839, 1844, and in 1849, in which year there were 4494 exhibitors.
+                    This last was the conclusion of the purely national displays in France before
+                    the great London international exhibition of 1851. So exclusive were the French
+                    at that time that a proposal made for the representation of foreign products in
+                    1849 was deemed by the minister of commerce to have emanated from the enemies of
+                    French industry.</p>
+                <p>In 1820 a series of exhibitions were opened in various cities of Austria, and
+                    national exhibitions were held at Vienna in 1835, 1839, and 1845, which last had
+                    1865 exhibitors. In Germany there were national exhibitions at Berlin in 1822
+                    and 1827, and in 1844 one with 3060 exhibitors. National exhibitions were held
+                    in Saxony between 1824 and 1845, in which last year there were 6013 exhibitors.
+                    Between 1837 and 1848 exhibitions were held at Lausanne, Berne, St Gall, and
+                    Zurich in Switzerland; between 1835 and 1850 at Brussels and Ghent in Belgium;
+                    between 1823 and 1844 at Stockholm in Sweden; between 1829 and 1849 at St
+                    Petersburg, Moscow, and Warsaw in Russia; between 1844 and 1849 at Lisbon in
+                    Portugal; between 1829 and 1855 in the kingdom of Sardinia; between 1827 and
+                    1850 at Madrid; between 1828 and 1844 at New York and Washington in the United
+                    States.</p>
+                <p>In the United Kingdom industrial displays had to fight their way against much
+                    apathy and prejudice. In 1828 an exhibition was formed in London under the
+                    patronage of George IV., which dragged out an unfortunate existence till 1833,
+                    when it was consigned to oblivion as an unsuccessful bazaar. In Ireland
+                    exhibitions of native industry were held triennially in the rooms of the Royal
+                    Dublin Society, commencing in 1829. In 1845, however, an exhibition of
+                    manufactures held in Covent Garden, London, proved a great success; and in 1849
+                    an exposition of industry was held at Birmingham, which was the most complete of
+                    any held till that time in the country.</p>
+                <p>After various proposals made by the Society of Arts between 1846 and 1849, it was
+                    held that the great object of an international exhibition of industry was more
+                    likely to be carried out than hitherto, and at last a royal commission was
+                    issued to take steps for an industrial exhibition to be held in 1851. The
+                    commissioners received a site of upwards of 18 acres in Hyde Park, and erected
+                    the building known as the “Crystal Palace,” from the designs of Mr (afterwards
+                    Sir) Joseph Paxton. Its general plan was a parallelogram 1848 feet long by 408
+                    feet wide. There was also a projection on the north side 936 feet long, the
+                    whole covering a space of 1,000,000 square feet. The exhibition had four great
+                    departments,—raw material, machinery, manufactures, fine arts,—which were
+                    subdivided into 30 classes; and this arrangement has been usually followed in
+                    the great exhibitions since held. In allocating the space for the display of
+                    objects one-half was given to England and the colonies, the other half to
+                    foreign countries. The estimated value of the articles exhibited, excluding the
+                    famous Koh-i-noor diamond, was £1,781,929. This exhibition was opened on 1st May
+                    by Queen Victoria in person, and w as closed on I lth October following, and the
+                    receipts exceeded the expenditure by a sum of £213,305. The building was
+                    afterwards removed to Sydenham, where it forms the main part of the present
+                    “Crystal Palace.”</p>
+                <p>The success of the Great Exhibition of 1851 encouraged the repetition of similar
+                    displays all over the world, a list of which will be found in the table given
+                    below.</p>
+                <p>In 1855 the great Paris international exhibition was held, which was opened by
+                    the emperor of the French on 17th May. The buildings for this exhibition were of
+                    various kinds. There were the palais d’industrie, the palais des beaux arts, and
+                    the panorama; erections were afterwards added for agricultural implements,
+                    carriages, minor articles, &amp;c. The main building, which was of. stone,
+                    brick, and glass, was only 800 feet long by 350 feet wide. This exposition
+                    brought together an assemblage of objects in the industrial and fine arts such
+                    as had never been seen before. The distinguishing feature of the palais
+                    d’industrie was its collection of the works of living artists, while the London
+                    exhibition of 1851 was principally a display of manufactured goods. The
+                    exposition was closed on the 15 th November, when the distribution of medals to
+                    about 12,000 exhibitors took place.</p>
+                <p>In 1862 the second great English international exhibition was held in London in
+                    an immense brick erection adjoining the gardens of the Horticultural Society at
+                    South Kensington. The building consisted of two vast domes of glass, 250 feet
+                    high and 60 feet in diameter, larger than the dome of St Peter’s, connected by a
+                    nave 800 feet long, 100 feet high, and 83 feet wide, with a closed roof lighted
+                    by a range of windows after the manner of the clerestory of a Gothic cathedral.
+                    The domes opened laterally into spacious transepts, and the nave into a wide
+                    central avenue and interminable side aisles and galleries roofed with glass.
+                    These apartments occupied 16 acres, but in addition there were two <hi
+                    rend="italic">annexes</hi> which covered 7∣ acres. The ceremonial with which
+                    this exhibition was inaugurated on 1st May was the most imposing public pageant
+                    which had been seen in Britain for many years. The number of exhibitors iu the
+                    industrial division was 26,348, besides 2305 in art, making in all 28,653. The
+                    fine art collection was very extensive, comprising 901 pieces of sculpture, 1275
+                    engravings, 983 architectural designs, and no less than 3370 paintings. The
+                    classification of the objects was based upon that of 1851, and embraced 36
+                    divisions, in addition to those of the fine arts.</p>
+                <p>In April 1867∙a great international <hi rend="italic">exposition</hi><hi
+                    rend="italic">universelle</hi> was opened in Paris in an immense oval building
+                    erected in the Champ de Mars. It was arranged in twelve concentric aisles, with
+                    a small open central garden. It covered no less than 37 acres, and the total
+                    number of exhibitors was 42,000. It was intended to bring into notice all the
+                    resources which industry can create for satisfying the requirements of mankind,
+                    and it was divided primarily into groups corresponding with the leading wants of
+                    the human family. A great feature was the display of actual examples of the
+                    styles of dbmestic and palatial architecture of most <pb break="no"
+                    facs="ia:encyclopediabrit08newyrich/page/n839/mode/1up"
+                    xml:id="kp-eb0908-0839-0804"/> countries, even the tents of some of the nomad
+                    tribes, such as the Kirghis Tartars, Samoyeds, Bedouin Arabs, &amp;c., being
+                    exhibited. In addition, all kinds of civil and military erections of general
+                    importance were represented.</p>
+                <p>In May 1873 an international exhibition was opened in the Imperial Park at
+                    Vienna. The building in which it was held was of enormous size, covering about
+                    40 acres. The principal part of the edifice was a grand nave nearly 1000 yards
+                    long, in the midst of which rose a vast rotunda or dome of great height. In this
+                    part of the building objects of a trophy character were exhibited, and presented
+                    a <hi rend="italic">coup cl</hi> ’ <hi rend="italic">oβil</hi> of surpassing
+                    grandeur. An immense number of prizes and diplomas were distributed, and the
+                    awards were shared by almost every nation in the world. This exhibition was
+                    closed in November 1873. It was not a success financially, there being a
+                    considerable deficit in the receipts. The building has been converted into a
+                    national museum.</p>
+                <p>In 1876, after five years of preparation, the great international exhibition of
+                    America, a centennial celebration of the Declaration of Independence, was opened
+                    in Fairmount Park, Philadelphia, on the 10th of May. The main building was in
+                    the form of a parallelogram extending east and west, 1880 feet in length and 464
+                    feet in width. Its central span, in which was situated the grand avenue, was
+                    1832 feet long by 120 feet wide, being the longest of such a width ever
+                    introduced into an exhibition building. The greater portion of the structure was
+                    one story high, the interior height being 70 feet. In the centre were four
+                    square towers 120 feet high. The frame work was of iron, filled in with glass
+                    and wood; it covered 20Ό2 acres. With the other buildings attached to the
+                    exhibition, a total space of 60 acres were covered. Besides the main building
+                    there were the machinery hall, the horticultural hall (built in a Moorish
+                    style), the agricultural hall, the memorial hall or art gallery, the Government
+                    building, covering about 2 acres, in which were illustrated the functions of the
+                    Government in time of peace and its resources as a war power. Besides these
+                    there were the women’s pavilion, the judges’ hall, and a great many smaller
+                    erections, including a Swedish schoolhouse, a timber-framed house somewhat in
+                    the style of the 16th century, which formed the head-quarters of the British
+                    commission. A structure having the homely designation of “department of public
+                    comfort” was used as a place of rest and convenience. The total number of
+                    buildings within the inclosure was over 160, and their cost was £1,600,000. The
+                    number of exhibitors was 60,000, derived from 37 nations. The promenades in the
+                    main building were 25 miles in length.</p>
+                <p>In England, after the great displays of 1851 and 1862 a feeling began to gain
+                    ground that as the activity and ingenuity of manufacturers and designers were
+                    constantly directed to fresh efforts, universal expositions would attain such
+                    gigantic proportions as to become quite unmanageable. A resolution was therefore
+                    come to by the British commissioners, as trustees of the fund derived from the
+                    proceeds of the great exhibition of 1851, that the objects suitable for
+                    exhibition should be divided into groups, and that exhibitions of selections
+                    from these groups should be held at more frequent intervals. A plan was then
+                    arranged for a series of exhibitions of the fine arts, recent scientific
+                    inventions and discoveries, and two or three branches only of manufactures,
+                    providing at the same time for the representation of each distinct manufacture
+                    once in ten years. Exhibitions were accordingly held in 1871, 1872, 1873, and
+                    1874, but at last it was found that they lost the attractiveness of novelty, and
+                    failed to draw the multitude of sight-seers who flocked to the great exhibitions
+                    of 1851 and 1862.</p>
+                <p>Notwithstanding these views of the British commissioners, an <hi rend="italic"
+                    >Exposition</hi><hi rend="italic">Universelle</hi> on a great scale was opened
+                    in Paris on 1st May 1878 by the President, Marshal MacMahon. It is expected to
+                    unite the civilized world, as the sciences are represented as well as the arts.
+                    The building, or Industrial Palace, is an enormous erection in the Champ de
+                    Mars, consisting of a series of rectangular galleries in which each country has
+                    been allotted a division more or less important. Besides the main building,
+                    there are about a dozen <hi rend="italic">annexes</hi> without the <hi
+                    rend="italic">enceinte</hi> of the palace. Immediately across the Seine there is
+                    a second palace situated in the Trocadero (so named from a Spanish fort in the
+                    harbour of Cadiz, captured in 1823), amidst ornamental gardens with cascades.
+                    This is devoted to the fine arts and music, and is to remain a permanent
+                    monument of the exhibition. It contains a music gallery even larger than the
+                    Albert Hall, London. The space occupied by the exhibition is about 140 English
+                    acres; and the total expense has been announced by the minister of commerce as
+                    about £1,800,000 sterling.</p>
+                <p>An international exhibition is proposed to be held in 1879 at Melbourne, a city
+                    which in 1851 was a town of but 20,000 inhabitants.</p>
+                <p>Of the London Great Exhibition of 1851 an official catalogue was published the
+                    same year in 4 vols. 8vo, and in 1852 a volume of reports by the juries on the
+                    subjects in the 30 classes into which the exhibition was divided, in royal 8vo.
+                    A sumptuous edition of this catalogue on large paper was printed, of which
+                    copies were presented to distinguished personages and public libraries. Of the
+                    exhibition of 1862 an illustrated catalogue was printed by the commissioners the
+                    same year in 4 vols. 8vo. Of the Paris exposition held in 1855 there was an
+                    official catalogue published the same year; and a <hi rend="italic">Rapport sur
+                    l’Exposition Universelle</hi> (also published) was presented by Prince Napoleon
+                    to the emperor in 1857. Of the exposition of 1867 there was published in London
+                    the same year a translation from the proof-sheets of the French official
+                    catalogue. Of the Vienna exhibition of 1873 there was an official illustrated
+                    general catalogue, with a large number of reports of the juries, &amp;c. Of the
+                    Philadelphia exhibition there was an official catalogue printed in four
+                    languages— English, French, German, and Spanish; a series of reports and awards
+                    under the different groups into which the exhibition was divided is now being
+                    published. Besides the general catalogues of the great international
+                    exhibitions, there have been published an immense number of catalogues of the
+                    exhibits of the different countries at each, which are to be found available for
+                    reference in the South Kensington and other industrial museums. Various
+                    beautifully illustrated books, representing the works of art exhibited, have
+                    been published both in London and Paris; and one, <hi rend="italic">Études sur
+                    l'Exposition de</hi> 1878, intended to be a complete record of the progress made
+                    in all the arts up to the present date, is about to be issued under the
+                    direction of E. Lacroix.</p>
+                <p>The following table shows the statistics of the first six great international
+                    exhibitions :— «</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Acres.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Exhibitors.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Cost.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Days open.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Receipts.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Number of Visitors.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>London of 1851</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>21</p></cell>
+                        <cell cols="1" role="data" rows="1"
+                            ><p>17,000</p><p>21,779</p><p>28,653</p><p>50,226</p><p>42,584</p><p>60,000</p></cell>
+                        <cell cols="1" role="data" rows="1"
+                            ><p>£292,794</p><p>1,000,000</p><p>460,000</p><p>800,000 2,200,000
+                            1,600,000</p></cell>
+                        <cell cols="1" role="data" rows="1"
+                            ><p>144</p><p>200</p><p>171</p><p>217</p><p>186</p><p>159</p></cell>
+                        <cell cols="1" role="data" rows="1"
+                            ><p>£506,100</p><p>128,099</p><p>408,530</p><p>420,735</p><p>206,470</p><p>762,744</p></cell>
+                        <cell cols="1" role="data" rows="1"
+                            ><p>6,039,195</p><p>5,162,330</p><p>6,211,103
+                            10,200,000</p><p>7,254.687</p><p>9,910,966</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Paris of 1855</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>24⅜</p><p>23⅛</p><p>37</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>London of 1862</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Paris of 1867</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Vienna of 1873</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>40</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Philadelphia of 1876</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>60</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <pb break="no" facs="ia:encyclopediabrit08newyrich/page/n840/mode/1up"
+                    xml:id="kp-eb0908-0840-0805"/>
+                <p>The following table shows the minor exhibitions which have been held in various
+                    parts of the world from 1852 to the present time (1878) :—</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1852</p><p>1853</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Exhibition of Irish arts and
+                            manufactures. Do. do. with those of other countries.</p><p>Industrial
+                            exhibition, which cost £200,000. Native industry</p><p>Do. do</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Dublin</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>New York</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>New Brunswick... Madras</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1854</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Madrid</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Industrial arts.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Munich</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>German industry.</p><p>Norwegian arts
+                            and manufactures.</p><p>Belgian arts.</p><p>Exhibition of Art
+                            Manufacture Association.</p><p>Art treasures exhibition.</p><p>Swiss
+                            arts and manufactures; 2050 exhibitors. Italian industry.</p><p>American
+                            industry</p><p>Exhibition, with 296 exhibitors</p><p>Products of 12
+                            northern departments of France.</p><p>National exhibition, with 947
+                            exhibitors.</p><p>Russian products.</p><p>1 Fine art in Tuscany and
+                            Italian silk goods.</p><p><hi rend="superscript"> 1</hi> Dutch
+                            industries.</p><p>Exhibition of articles of common use.</p><p>Exhibition
+                            preliminary to London great exhibition of 1862.</p><p>Turkish produce,
+                            and foreign machinery</p><p>Dutch produce, art, and
+                            industry.</p><p>Industries connected witlι corn and wine.</p><p>Local
+                            art and industry.</p><p>Principally agriculture</p><p>Do. do.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1856</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Christiania</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Brussels</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Edinburgh</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1857</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Manchester</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Bern</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1858</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Sardinia</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>New York</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1859</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Hanover</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Rouen</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Athens</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1860</p><p>1861</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>St
+                            Petersburg</p><p>Florence</p><p>Haarlem</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Brussels</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1863</p><p>1864</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Victoria
+                            -</p><p>Constantinople....</p><p>Amsterdam</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Bayonne</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Malta</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Calcutta</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Lucknow</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>London</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>First working men’s
+                            exhibition.</p><p>Arts and manufactures, attracted 900,000 visitors.
+                            Agriculture and horticulture.</p><p>International fishery
+                            exhibition</p><p>Industrial exhibition.</p><p>Arts, manufactures, and
+                            agriculture; 3911 exhibitors.</p><p>Colonial produce.</p><p>Metals and
+                            trades.</p><p>Working men's industrial exhibition.</p><p>Do.
+                            do.</p><p>Exhibition of industry, with 1451 exhibitors.</p><p>American
+                            produce.</p><p>Scandinavian industries.</p><p>Raw produce, with 2590
+                            exhibitors.</p><p>Intercolonial exhibition, rich in specimens of
+                            minerals.</p><p>working men's exhibition.</p><p>Fishery
+                            exhibition.</p><p>Industries of N.W provinces of
+                            India.</p><p>International maritime exhibition.</p><p>Products of
+                            Chili.</p><p>South London industrial classes
+                            exhibition.</p><p>Netherland Society of Manufacturers; rich in objects
+                            of domestic economy.</p><p>Exhibition of drawing
+                            implements.</p><p>Italian products.</p><p>Russian industrial
+                            exhibition.</p><p>Indian cotton.</p><p>Intercolonial exhibition, with
+                            J914 exhibitors. Workmen’s international exhibition.</p><p>First annual
+                            international exhibition at South</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1865</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Dublin</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Cologne</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Boulogne</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Sieιτa Leone</p><p>Οροιίο <hi
+                            rend="italic">J</hi></p><p>Dunedin, New &gt;</p><p>Zealand
+                            j</p><p>Birmingham</p><p>Vienna</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>London</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Stettin</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1866 <hi rend="subscript">
+                            z</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"
+                            ><p>Philadelphia</p><p>Stockholm</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>.. 1</p><p>1867</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Brazil, Rio de )</p><p>Janeiro
+                            f</p><p>Melbourne</p><p>London</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>The Hague</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Agra</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1868</p><p>1869</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Havre</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Santiago</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>London</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1870</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Amsterdam!</p><p>Berlin</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Turin</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>«</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>St
+                            Petersburg</p><p>Gujerat</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Sydney</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>London</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1871</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Do J</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Milan</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Kensington.</p><p>Exhibition of
+                            selected branches of industry.</p><p>International maritime
+                            exhibition.</p><p>Second annual international exhibition.</p><p>Irish
+                            native produce and fine arts.</p><p>Scandinavian art and industry; 4000
+                            exhibitors. Agriculture, Industrial products, and works of
+                            art.</p><p>Exhibition on celebration of second centenary of Peter the
+                            Great, illustrative of the progress of Russia in
+                            manufactures.</p><p>Products of South America.</p><p>Third annual
+                            international exhibition.</p><p>Fourth and last annual international
+                            exhibition Exhibition of fungi; 7000 specimens shown Industrial
+                            art.</p><p>Agricultural machines and implements. Exhibition of
+                            needlework in Albert Hall. Exhibition of bees, their produce, hives,
+                            and</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Naples</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1872</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>London</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Dublin</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>«</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Copenhagen ..</p><p>Lyons <hi
+                            rend="italic">J</hi></p><p>Moscow .. 5</p><p>Bogota</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1873</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>London.</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Do</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1874</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Aberdeen</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Brussels</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1875</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Paris</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1876</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>London</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Do J</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Paris</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>bee furniture, in Alexandra palace.
+                            Applications of electricity.</p><p>Exhibition of art and industry, and
+                            local antiquities.</p><p>Exhibition of life-saving and hygienic
+                            apparatus. Exhibition of silks, bronzes, casques, wearingapparel, Λc.,
+                            being the fifth of a series since 1872.</p><p>Loan collection of
+                            scientific apparatus.</p><p>Caxton exhibition, illustrative of the art
+                            of</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>’’</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Thurso 1</p><p>Brussels</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1877</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Kioto,
+                            Japan....</p><p>London</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Do I</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Do I</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>printing.</p><p>westminster and
+                            Pimlico working classes in-</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Cape Town -'</p><p>Hamburg</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>dustrial
+                            exhibition.</p><p>Intel-national exhibition of manufactures of all
+                            kinds.</p><p>International dairy exhibition.</p><p>Exhibition of
+                            Industrial Art.</p><p>International exhibition. (J. SM.)</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>Ghent</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>1878</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Ballarat</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI>

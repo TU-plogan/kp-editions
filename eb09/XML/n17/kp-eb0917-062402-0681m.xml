@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0917-0681-0624-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb09_v1.1">
+                <title level="a" type="main">NUMERALS</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">9th edition, volume 17, page 624</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.1">Version 1.1 <date when="2025">2025</date></edition>
+            </editionStmt>
+            <extent>486 MB; 17,775 XML files</extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2025">2025</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/12465694" xml:id="mn">Baynes, T.
+                            Spencer (Thomas Spencer), <date from="1823" to="1887"
+                            >1823-1887</date></persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Ninth Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="25" unit="vol">25 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Charles Scribner's Sons</publisher>
+                        <authority>Authorized reprint from Edinburgh plates</authority>
+                        <pubPlace>New York</pubPlace>
+                        <date from="1875" to="1889">1875-1889</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="ia-uc"><title>Encyclopaedia Britannica: a dictionary of arts,
+                            sciences, and general literature</title><publisher><orgName
+                            ref="https://archive.org/">Internet Archive</orgName><orgName
+                            ref="https://archive.org/details/cdl">University of California
+                            Libraries, California Digital Library</orgName></publisher><date
+                            when="2019">2006</date><idno type="OCLC">592355607</idno><idno
+                            type="ark">13960/t0ks6j612</idno><availability>
+                            <p>Internet Archive: NOT_IN_COPYRIGHT</p>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <desc>Alternate images of the same print editions were substituted when the
+                        primary source had unusable images for those pages.</desc>
+                    <bibl xml:id="um-ht">Hathi Trust, from print source at the University of
+                        Michigan: vol. 14, pp. 34-35; vol. 15, pp. 170-171.</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for future entry subsections.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="3" ref="fastgeo:1210276">India</term>
+                    <term n="2" ref="fastgeo:1204303">Spain</term>
+                    <term n="2" ref="fastgeo:1754964">Rome</term>
+                    <term n="1" ref="fastgeo:1239509">Africa</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="11" ref="fasttopic:996769">Lettering</term>
+                    <term n="11" ref="fasttopic:996779">Letters</term>
+                    <term n="10" ref="fasttopic:861549">Ciphers</term>
+                    <term n="7" ref="fasttopic:812571">Arabism</term>
+                    <term n="7" ref="fasttopic:812576">Arabs</term>
+                    <term n="3" ref="fasttopic:947546">Greeks</term>
+                    <term n="2" ref="fasttopic:1141359">Syrians</term>
+                    <term n="2" ref="fasttopic:969307">Indians</term>
+                    <term n="2" ref="fasttopic:916316">Etruscans</term>
+                    <term n="2" ref="fasttopic:1061214">Phoenicians</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="11" ref="lcsh1910:b4v40jz59">Lettering</term>
+                    <term n="11" ref="lcsh1910:b4cj87n8t">Letters</term>
+                    <term n="10" ref="lcsh1910:b47659h24">Ciphers</term>
+                    <term n="10" ref="lcsh1910:b4g44hq0f">Cipher</term>
+                    <term n="7" ref="lcsh1910:b48c9r41n">Arabs</term>
+                    <term n="3" ref="lcsh1910:b48g8fh7d">Greeks</term>
+                    <term n="2" ref="lcsh1910:b4xd0r50f">Phoenicians</term>
+                    <term n="2" ref="lcsh1910:b4zk55m05">Indians</term>
+                    <term n="2" ref="lcsh1910:b4np1wt1r">Syrians</term>
+                    <term n="1" ref="lcsh1910:b4r785w31">Paper</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change status="public" when="2025-08-15" who="#pml">v1.1. Isolates one entry;
+                    corrects "B.c." and variants; replaces "bom" with "born", removed 783 instances
+                    of extra space before semicolon. Separates metadata in <gi>teiHeader</gi> into
+                    two separate facets: FAST Topical and FAST Geographical.</change>
+                <change status="public" when="2023-02-28" who="#pml">v.1 published</change>
+                <change status="public" when="2023-02-27" who="#pml">v.1 teiHeader XSL
+                    finished</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ia:encyclopediabrit17newyrich/page/n681/mode/1up" type="entry">
+                <p><label type="entry">NUMERALS</label>. The use of visible signs to represent
+                    numbers and aid reckoning is not only older than writing but older than the
+                    development of numerical language on the denary system; we count by tens because
+                    our ancestors counted on their fingers and named numbers accordingly. So used,
+                    the fingers are really numerals, that is, visible <pb break="no"
+                    facs="ia:encyclopediabrit17newyrich/page/n682/mode/1up"
+                    xml:id="kp-eb0917-0682-0625"/> numerical signs; and in antiquity the practice of
+                    counting by these natural signs prevailed in all classes of society. Even at
+                    this day if a Wallachian peasant wants to multiply 8 by 9 he effects this by
+                    making the fingers of each hand, counting from the thumb, represent the numbers
+                    from 6 to 10 consecutively. He therefore sets his question by stretching out the
+                    ring finger of the right hand and the middle finger of the left. He then counts
+                    that in the direction from the thumb there is one more finger on the right hand
+                    and two on the left. Multiplying 1 by 2 he gets 2 as the units of the product
+                    sought. Again the outstretched fingers are respectively the third and fourth
+                    from the thumb; adding 3 and 4 he gets 7 for the tens of the product. By this
+                    rule he does not need to know the multiplication table above 4 times 4. In the
+                    later times of antiquity the finger symbols were developed into a system capable
+                    of expressing all numbers below 10,000. The left hand was held up flat with the
+                    fingers together. The units from 1 to 9 were expressed by various positions of
+                    the third, fourth, and fifth fingers alone, one or more of these being either
+                    closed on the palm or simply bent at the middle joint, according to the number
+                    meant. The thumb and index were thus left free to express the tens by a variety
+                    of relative positions, <hi rend="italic">e.g.,</hi> for 30 their points were
+                    brought together and stretched forward; for 50 the thumb was bent like the Greek
+                    Γ and brought against the ball of the index. The same set of signs if executed
+                    with the thumb and index of the right hand meant hundreds instead of tens, and
+                    the unit signs if performed on the right hand meant thousands.<note
+                    anchored="true" place="bottom" type="authorial"><p>The system is described by
+                    Nicolaus Rhabda of Smyrna (8th century <hi rend="smallcaps">a.d.),</hi> ap. N.
+                    Caussinus, <hi rend="italic">De</hi><hi rend="italic">eloquentia</hi><hi
+                    rend="italic">sacra</hi><hi rend="italic">et humana,</hi> Paris, 1636. Bede
+                    gives essentially the same system, and it has survived in the East to the
+                    present clay; see especially Rüdiger, “Ueber die im Orient gebräuchliche
+                    Fingersprache, &amp;c.,” <hi rend="italic">D. Μ. G.,</hi> 1845, and Palmer in
+                    <hi rend="italic">Jouτn. of Philology,</hi> ii. 247 <hi rend="italic"
+                    >sc∕g.</hi></p></note></p>
+                <p>The fingers serve to express numbers, but to make a permanent note of numbers
+                    some kind of mark or tally is needed. Thus the Romans kept count of years by
+                    yearly driving a nail into the temple of Minerva. The nail in this case is a
+                    sort of hieroglyphic, and in all systems of hieroglyphics signs for numbers
+                    naturally occur. A single stroke is the obvious representation of unity; higher
+                    numbers are indicated by groups of strokes. But when the strokes become many
+                    they are confusing, and so a new sign must be introduced, perhaps for 5, at any
+                    rate for 10, 100, 1000, and so forth. Intermediate numbers are expressed by the
+                    addition of symbols, as in the Roman system ccxxxvi = 236. This simplest way of
+                    writing numbers is well seen in the Babylonian inscriptions, where all numbers
+                    from 1 to 99 are got by repetition of the vertical arrowhead t = 1, and a barbed
+                    sign { = 10. But the most interesting case is the Egyptian, because from its
+                    hieratic form sprang the Phoenician numerals, and from them in turn those of
+                    Palmyra and the Syrians, as illustrated in table 1. Two things are to be noted
+                    in this table—first, the way in which groups of units come to be joined by a
+                    cross line, and then run together into a single symbol, and, further, the
+                    substitution in the hundreds of a principle of multiplication for the mere
+                    addition of symbols. The same thing appears in Babylonia, where a smaller number
+                    put to the right of the sign for 100 (T-) is to be added to it, but put to the
+                    left gives the number of hundreds. Thus T— = 1000, but t*~ =110. The Egyptians
+                    had hieroglyphics for a thousand, a myriad, 100,000 (a frog), a million (a man
+                    with arms stretched out in admiration), and even for ten millions.</p>
+                <p>Alphabetic writing did not do away with the use of numerical symbols, which were
+                    more perspicuous and compendious than words written at length. But the letters
+                    of the alphabet themselves came to be used as numerals. One way of doing this
+                    was to use the initial letter of the name of a number as its sign. This was the
+                    old Greek notation, said to go back to the time of Solon, and usually named
+                    after the grammarian Herodian, who described it about 200 A.D. I stood for 1, ∏
+                    for 5, Δ for 10, H for 100, X for 1000, and Μ for 10,000; ∏ with Δ in its bosom
+                    was 50, with H in its bosom it was 500. Another way of using the alphabet
+                    depended on the fixed order of its letters. The simplest application of this
+                    principle is to use consecutive letters for consecutive numbers. Thus the 24
+                    letters of the Ionic alphabet stood for the numbers 1 to 24, as we still see in
+                    the letters attached to the books of the <hi rend="italic">Iliad.</hi> Another
+                    way common to the Greeks, Hebrews, and Syrians, and which in Greece gradually
+                    displaced the</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Syriac.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Palmyrene.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Phoenician.</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>Hieratic.</p></cell>
+                        <cell cols="2" role="data" rows="1"><p>Hieroglyphic.</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>∕</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>∕</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>rø</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Λ</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">II</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>11</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">Fl</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">m</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>III</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>111</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">FF</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>∕∕∕∕</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>∖lll</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4*tq&lt;η</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>ιιι∣</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>ιιιιι</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >ιιιιι</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>∕y</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>ιιιιιι</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">"Ct</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>ιιιιιι</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>∕∕H</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>∖ Hl III</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">∕Ιf</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>mini</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">Fl^</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>/rø</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="smallcaps">h</hi>
+                            ιιιιιι</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>∣∣∣∣∣1∣1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>ιιιιιιm</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>111 111 III</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">7</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">—7</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">—7</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>∕6× A</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>∩</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>10</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">7</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">Γr</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >l~&gt;</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>lλ</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>ι∩</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>11</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">Fry</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >m~τ&gt;</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>πιιιι 111</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>lllllllll∩</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>19</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">0</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>° 3/ ~ <hi rend="superscript">
+                            ς</hi>,~</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>∩∩</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>20</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>∕ <hi rend="superscript">
+                            o</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">V∖</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>l∩∩</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>21</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>^7°</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">%</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>∩∩∩</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>30</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>0 0</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>S2&gt;</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">V/J</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>∩∩∩∩</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>40</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">y</hi><hi
+                            rend="italic">00</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >~&gt;W</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>∩∩∩∩∩</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>50</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">000</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="smallcaps"
+                            >ôôô</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">∕w</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>n∩∩∩∩∩</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>60</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">y</hi><hi
+                            rend="italic">000</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>∩∩∩ ∩∩∩∩</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>70</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >COΩO</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3S32&gt;</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>ylii</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>∩∩∩∩ ∩∩∩∩</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>80</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >yocoo</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>∩∩∩∩∩∩∩∩∩</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>90</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>~3 <hi rend="superscript"> 3</hi>
+                            ∣</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>^N,ι <hi rend="superscript"> o</hi> ∣
+                            <hi rend="subscript"> z</hi> ∙^ <hi rend="superscript">
+                            j</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >y&gt;</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">7</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>100</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">It</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">^^</hi><hi
+                            rend="italic">≡</hi><hi rend="italic">l</hi><hi rend="italic"
+                            >∣</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>(γ^) <hi rend="smallcaps"
+                            >mi</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">ÿ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">??</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>200</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>“Pill</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic"
+                            >-7&gt;</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>300</p></cell>
+                    </row>
+                </table>
+                <p>Herodian numbers, was to make the first nine letters stand for the units and the
+                    rest for the tens and hundreds. With the old Semitic alphabet of 22 letters this
+                    system broke down at ∏ = 400, and the higher hundreds had to be got by
+                    juxtaposition; but when the Hebrew square character got the distinct final forms
+                    ∏, D, ∣, ≡), f these served for the hundreds from 500 to 900. The Greeks with
+                    their larger alphabet required but three supplemental signs, which they got by
+                    keeping for this purpose two old Phoenician letters which were not used in
+                    writing <hi rend="italic">(F</hi> or <hi rend="italic">5</hi> = Ί = 6, and? = p
+                    = 90), and by adding sampi <hi rend="smallcaps">tλ</hi> for 900.<note
+                    anchored="true" place="bottom" type="authorial"><p>The Arabs, who quite changed
+                    the order of the alphabet and extended it to twenty-eight letters, kept the
+                    original values of the old letters (putting 6-&gt; for D and <hi rend="italic"
+                    >f∙</hi> for B*), while the hundreds from 500 to 1000 were expressed by the new
+                    letters in order from ώ to £. In the time of Caliph Walid (705-715 <hi
+                    rend="smallcaps">a,d.)</hi> the Arabs had as yet no signs of
+                    numeration.</p></note></p>
+                <pb break="no" facs="ia:encyclopediabrit17newyrich/page/n683/mode/1up"
+                    xml:id="kp-eb0917-0683-0626"/>
+                <p>Among the Greeks the first certain use of this system seems to be on coins of
+                    Ptolemy II. The first trace of it on Semitic ground is on Jewish coins of the
+                    Hasmoneans. It is the foundation of gematria as we find it in Jewish books and
+                    in the apocalyptic number of the beast ("∣□ρ ∏"∣J = 666). But we do not know how
+                    old gematria is; the name is borrowed from the Greek.</p>
+                <p>The most familiar case of the use of letters as numerals is the Roman system.
+                    Here C is the initial of centum and Μ of mille; but instead of these signs we
+                    find older forms, consisting of a circle divided vertically for 1000 and
+                    horizontally, θ, or in the cognate Etruscan system divided into quadrants, ∈),
+                    for 100. From the sign for 1000, still sometimes roughly shown in print as °I°,
+                    comes D, the half of the symbol for half the number; and the older forms of L,
+                    viz., 1 or χ, suggest that this also was once half of the hundred symbol. So V
+                    (Etruscan Λ) is half of X, which itself is not a true Roman letter. The system,
+                    therefore, is hardly alphabetic in origin, though the idea has been thrown out
+                    that the signs for 10, 50, and 100 were originally the Greek X, Ψ, Φ, which were
+                    not used in writing Latin.<note anchored="true" place="bottom" type="authorial"
+                    ><p>See further Fabretti, <hi rend="italic">Pornographische
+                    Studien.</hi></p></note></p>
+                <p>When high numbers had to be expressed systems such as we have described became
+                    very cumbrous, and in alphabetic systems it became inevitable to introduce a
+                    principle of periodicity, by which, for example, the signs for 1, 2, 3, &amp;c.,
+                    might be used with a difference to express the same number of thousands.
+                    Language itself suggested this principle, and so we find in Hebrew N or in Greek
+                    ,α = 1000. So further ∕3Mυ, ∕5M., or simply <hi rend="italic">β.</hi> = 20,000
+                    (2 myriads). If now the larger were always written to the left of the smaller
+                    elements of a number the diacritic mark could be dispensed with in such a case
+                    as <hi rend="italic">βωλa,</hi> (instead of <hi rend="subscript"> z</hi> ∕3ωλα)
+                    = 2831, for here it was plain that ∕5 = 2OOO, not = 2, since otherwise it would
+                    not have preceded ω = 800. We have here the germ of the very important notion
+                    that the value of a symbol may be periodic and defined by its position. The same
+                    idea had appeared much earlier among the Babylonians, who reckoned by powers of
+                    60, calling 60 a <hi rend="italic">soss</hi> and 60 sixties a <hi rend="italic"
+                    >sar.</hi> On the tablets of Senkerah a list of squares and cubes is given on
+                    this principle, and here the square of 59 is written 58'1—that is, 58 × 60 + 1;
+                    and the cube of 30 is 7 ’ 30—that is, 7 sar + 30 soss = 7 × 60 <hi
+                    rend="superscript"> 2</hi> + 30 × 60. Here again we have value by position; but,
+                    as there is no zero, it is left to the judgment of the reader to know which
+                    power of 60 is meant in each case. The sexagesimal system, long specially
+                    associated with astronomy, has left a trace in our division of the hour and of
+                    the circle, but as language goes by powers of 10 it is practically very
+                    inconvenient for most purposes of reckoning. The Greek mathematicians used a
+                    sort of decimal system; thus Archimedes was able to solve his problem of stating
+                    a number greater than that of the grains of sand which would fill the sphere of
+                    the fixed stars by dividing numbers into octades, the unit of the second octade
+                    being 10 <hi rend="superscript"> 8</hi> and of the third 10 <hi
+                    rend="superscript"> 16</hi>. So too Apollonius of Perga teaches multiplication
+                    by regarding 7 as the <hi rend="italic">pythmen</hi> of 70, 700, and so forth.
+                    One must then find successively the product of the several pythmens of the
+                    multiplier and the multiplicand, noticing in each case what are tens, what
+                    hundreds, and so on, and adding the results. The want of a sign for zero made it
+                    impossible mechanically to distinguish the tens, hundreds, &amp;c., as we now
+                    do.</p>
+                <p>Very early, however, a mechanical contrivance, the abacus, had been introduced
+                    for keeping numbers of different denominations apart. This was a table with
+                    compartments or columns for counters, each column representing a different value
+                    to be given to a counter placed on it. This might be used either for concrete
+                    arithmetic—say with columns for pence, shillings, and pounds; or for abstract
+                    reckoning—say with the Babylonian sexagesimal system. An old Greek abacus found
+                    at Salamis has columns which, taken from right to left, give a counter the value
+                    of 1, 10, 100, 1000 drachms, and finally of 1 talent (6000 drachms)
+                    respectively. An abacus on the decimal system might be ruled on paper or on a
+                    board strewed with fine sand, and was then a first step to the decimal system.
+                    Two important steps, however, were still lacking: the first was to use instead
+                    of counters distinctive marks (ciphers) for the digits from one to nine; the
+                    second and more important was to get a sign for zero, so that the columns might
+                    be dispensed with, and the denomination of each cipher seen at once by counting
+                    the number of digits following it. These two steps taken, we have at once the
+                    modern so-called Arabic numerals and the possibility of modern arithmetic; but
+                    the invention of the ciphers and zero came but slowly, and their history is a
+                    most obscure problem.</p>
+                <p>What is quite certain is that our present decimal system, in its complete form,
+                    with the zero which enables us to do without the ruled columns of the abacus, is
+                    of Indian origin. From the Indians it passed to the Arabians, probably along
+                    with the astronomical tables brought to Baghdad by an Indian ambassador in 773
+                    <hi rend="smallcaps">a.d.</hi> At all events the system was explained in Arabic
+                    in the early part of the 9th century by the famous Abù Ja'far Mohammed
+                    al-Khârizml, and from that time continued to spread, though at first slowly,
+                    through the Arabian world.</p>
+                <p>In Europe the complete system with the zero was derived from the Arabs in the
+                    12th century, and the arithmetic based on this system was known by the name of
+                    algoritmus, algorithm. This barbarous word is nothing more than a transcription
+                    of Al-Kharizmi, as was conjectured by Reinaud, and has become plain since the
+                    publication of a unique Cambridge MS. containing a Latin translation—perhaps by
+                    Adelhard of Bath—of the lost arithmetical treatise of the Arabian
+                    mathematician.<note anchored="true" place="bottom" type="authorial"><p>Published
+                    by Boncompagni in <hi rend="italic">Trattati d'Aritmetica,</hi> Rome,
+                    1857.</p></note> The arithmetical methods of Khârizmi were simplified by later
+                    Eastern writers, and these simpler methods were introduced to Europe by Leonardo
+                    of Pisa in the West and Maximus Planudes in the East. The term zero appears to
+                    comè from the Arabic sifr through the form zephyro used by Leonardo.</p>
+                <p>Thus far recent inquirers are agreed. The disputed points are— (1) the origin and
+                    age of the Indian system, and (2) whether or not a less developed Indian system,
+                    without the zero but with the nine other ciphers used on an abacus, entered
+                    Europe before the rise of Islam, and prepared the way for a complete decimal
+                    notation.</p>
+                <p>(1) The use of numerals in India can be followed back to the</p>
+                <table>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="2" role="data" rows="1"><p>1</p><p>NanaGhat(Indian)<note
+                            anchored="true" place="bottom" type="authorial"><p>From Sir E. C.
+                            Bayley’s paper in <hi rend="italic">J. R. A. S.,</hi> 1882.</p></note>
+                            —</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>2</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>3</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>4</p><p>¥</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>5</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>6</p><p><hi rend="italic"
+                            >f</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7</p><p>7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9</p><p>7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>0</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Cave Inscriptions (Indian)<note
+                            anchored="true" place="bottom" type="authorial"><p>From Burnell’s <hi
+                            rend="italic">South Indian Palaeography,</hi> 1874.</p></note>
+                            ·!</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>—</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>_r_</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>≡</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">h</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic superscript">
+                            i</hi><hi rend="italic">P</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>J</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>De vanàgari<note anchored="true"
+                            place="bottom" type="authorial"><p>Of the 10th century. (From Burnell,
+                            <hi rend="italic">op. cit.)</hi></p></note></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">Ί</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>C</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>©</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Eastern Arabic<note anchored="true"
+                            place="bottom" type="authorial"><p>Of the 10th century; from a MS.
+                            written at Shirâz. (From Woepcke, <hi rend="italic">Mémoire sur</hi><hi
+                            rend="italic">la propagation</hi><hi rend="italic">des chiffres
+                            Indiens.)</hi></p></note></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>*</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">ϋ</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic superscript">
+                            l</hi><hi rend="italic">J</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">∖e</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">']</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>0</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Ghob⅛<note anchored="true"
+                            place="bottom" type="authorial"><p>From a MS. at Paris. (From Woepcke,
+                            <hi rend="italic">op. cit.)</hi></p></note></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>1</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>t</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>7</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">6</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"><p>9</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic">X</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>0</p></cell>
+                    </row>
+                    <row cols="1" role="data" rows="1">
+                        <cell cols="1" role="data" rows="1"><p>Boetius<note anchored="true"
+                            place="bottom" type="authorial"><p>Erlangen (Altdorf) MS. (From Woepcke,
+                            <hi rend="italic">op. cit.)</hi></p></note> s</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>I</p></cell>
+                        <cell cols="1" role="data" rows="1"><p><hi rend="italic superscript">
+                            h</hi><hi rend="italic">G</hi><hi rend="italic superscript">
+                            t</hi></p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>? Q</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>L·</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                        <cell cols="1" role="data" rows="1"><p>8</p></cell>
+                        <cell cols="1" role="data" rows="1"><p>.9</p></cell>
+                        <cell cols="1" role="data" rows="1"/>
+                    </row>
+                </table>
+                <p>Nânâ Ghât inscriptions, supposed to date from the early part of the 3d century
+                    <hi rend="smallcaps">b. c.</hi> These are signs for units, tens, and hundreds,
+                    as in the other old systems we have dealt with. Like the Indian alphabet, they
+                    are probably derived from abroad, but, as in the case <pb break="no"
+                    facs="ia:encyclopediabrit17newyrich/page/n684/mode/1up"
+                    xml:id="kp-eb0917-0684-0627"/> of the alphabet, their origin is obscure. The
+                    forms of the later Indian numerals for the nine digits appear to be clearly
+                    derived from the earlier system. In table 2 the first two lines give forms
+                    earlier than the introduction of the system of position, while the Devanagari in
+                    the third line was used with a zero and position value. The “cave” numerals were
+                    employed during the first centuries of the Christian era. The earliest known
+                    example of a date written on the modern system is of 738 <hi rend="smallcaps"
+                    >a.d.,</hi> while the old system is found in use as late as the early part of
+                    the 7th century (Bayley). On the other hand, there is some evidence that a
+                    system of value by position was known to Sanskrit writers on arithmetic in the
+                    6th Christian century. These writers, however, do not use ciphers, but
+                    symbolical words and letters, so that it is not quite clear whether they refer
+                    to a system which had a zero, or to a system worked on an abacus, where the zero
+                    is represented by a blank column. There is no proof as yet for the use of any
+                    system of position in India before the 6th century, and nothing beyond
+                    conjecture can be offered as to its origin.</p>
+                <p>(2) In Europe, before the introduction of the algorithm or full Indo-Arabic
+                    system with the zero, we find a transition system in which calculations were
+                    made on the decimal system with an abacus, but instead of unit counters there
+                    were placed in the columns ciphers, with values from one to nine, and of forms
+                    that are at bottom the Indian forms and agree most nearly with the numerals used
+                    by the Arabs of Africa and Spain. For among the Arabs themselves there were
+                    varieties in the forms of the Indian numeral, and in particular an eastern and a
+                    western type. The latter is called ghobar (dust), a name which seems to connect
+                    it with the use of a sand-spread tablet for calculation. The abacus with ciphers
+                    instead of counters was used at Rheims about 970-980 by Gerbert, who afterwards
+                    was pope under the title of Sylvester II., and it became well known in the 11th
+                    century. Where did Gerbert learn the use of the abacus with ciphers? There is no
+                    direct evidence as to this, for the story in William of Malmesbury, that he
+                    stole it from an Arab in Spain, is generally given up as fabulous. On the other
+                    hand, no evidence is offered for an earlier use of the abacus with ciphers,
+                    except a passage describing the system in the <hi rend="italic">Geometria</hi>
+                    ascribed to Boetius. If this book is genuine the Indian numerals were known in
+                    Europe and applied to the abacus in the 5th century, and Gerbert only revived
+                    the long-forgotten system. On this view we have to explain how Boetius got the
+                    ciphers. The <hi rend="italic">Geometria</hi> ascribes the system to the
+                    “Pythagorici ”— <hi rend="italic">i.e.,</hi> the Neo-Pythagoreans—and it has
+                    been thought possible that the Indian forms for the numerals reached Alexandria,
+                    along with the cruder form of value by position involved in the use of the
+                    abacus without a zero, before direct communication between Europe and India
+                    ceased, which it did about the 4th century A.D. It is then further conjectured
+                    by Woepcke that the ghobar numerals of the western Arabs were by them borrowed
+                    from the system of Boetius before the full Indian method with the zero reached
+                    them; and thus the resemblance between these forms and those in MSS. of Boetius,
+                    which are essentially the same as in other MSS. of the 11th century, would be
+                    explained. This view, however, presents great difficulties, of which the total
+                    disappearance of all trace of the system between Boetius and Gerbert is only
+                    one. We have no proof that the Indians ever used such an abacus, or that they
+                    had value by position at so early a date as is required, and the ghobar numerals
+                    are too similar to those of the eastern Arabs to make it very credible that the
+                    two systems had been separated for centuries. The genuineness of the <hi
+                    rend="italic">Geometria</hi> is still ably maintained by Cantor, but it has been
+                    attacked on other grounds than that of the passage about the abacus; and on the
+                    whole it is still an open question whether the abacus with ciphers is not the
+                    outcome of an early imperfect knowledge of the Arabic system, Gerbert or some
+                    other having got the signs and a general idea of value by position without
+                    having an explanation of the zero.</p>
+                <p>See Cantor, <hi rend="italic">Geschichte der Mathematik,</hi> vol. i., Leipsic,
+                    1880, as the most recent general account of the subject; also Chasles, papers in
+                    the <hi rend="italic">Comptes Rendus,</hi> 1843; Friedlein, <hi rend="italic"
+                    >Die</hi><hi rend="italic">Zahlzeichen und das elementare Rechnen der Griechen
+                    und Römer, &amp;e.,</hi> 1869; Woepcke, <hi rend="italic">Sur l'introduction de
+                    l’arithmétique</hi><hi rend="italic">Indien</hi><hi rend="italic">en
+                    occident,</hi> Rome, 1859, and <hi rend="italic">Mémoire sur la propagation des
+                    chiffres Indiens,</hi> Paris, 1863. For the palaeography of the Indian numerals
+                    see Burnell, <hi rend="italic">Elements ofS. Indian Palaeography,</hi> 1874; and
+                    Sir E. C. Bayley in <hi rend="italic">J. R. A. S.,</hi> 1882, 1883. For Boetius
+                    compare Friedlein’s edition of his arithmetic and geometry, Leipsic, 1867, and
+                    Weissenborn in <hi rend="italic">Zeitsch. Math. Phys.,</hi> xxiv. Other
+                    references to the copious literature will be found in Cantor and Friedlein, who
+                    also discuss the subject of the notation for fractions, which cannot be entered
+                    on here. For systems passed over here, see Pihan, <hi rend="italic">Exposé des
+                    signes de numération usités chez les peuples orientaux,</hi> Paris, 1860. (W. R.
+                    S.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

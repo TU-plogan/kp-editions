@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0922-0754-0723-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb09_v1.1">
+                <title level="a" type="main">SUSSEX</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">9th edition, volume 22, page 723</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.1">Version 1.1 <date when="2025">2025</date></edition>
+            </editionStmt>
+            <extent>486 MB; 17,775 XML files</extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2025">2025</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/12465694" xml:id="mn">Baynes, T.
+                            Spencer (Thomas Spencer), <date from="1823" to="1887"
+                            >1823-1887</date></persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Ninth Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="25" unit="vol">25 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Charles Scribner's Sons</publisher>
+                        <authority>Authorized reprint from Edinburgh plates</authority>
+                        <pubPlace>New York</pubPlace>
+                        <date from="1875" to="1889">1875-1889</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="ia-uc"><title>Encyclopaedia Britannica: a dictionary of arts,
+                            sciences, and general literature</title><publisher><orgName
+                            ref="https://archive.org/">Internet Archive</orgName><orgName
+                            ref="https://archive.org/details/cdl">University of California
+                            Libraries, California Digital Library</orgName></publisher><date
+                            when="2019">2006</date><idno type="OCLC">592355607</idno><idno
+                            type="ark">13960/t0ks6j612</idno><availability>
+                            <p>Internet Archive: NOT_IN_COPYRIGHT</p>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <desc>Alternate images of the same print editions were substituted when the
+                        primary source had unusable images for those pages.</desc>
+                    <bibl xml:id="um-ht">Hathi Trust, from print source at the University of
+                        Michigan: vol. 14, pp. 34-35; vol. 15, pp. 170-171.</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for future entry subsections.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="14" ref="fasttopic:1110395">Seas</term>
+                    <term n="3" ref="fasttopic:1102628">Rye</term>
+                    <term n="11" ref="fasttopic:933281">Founding</term>
+                    <term n="8" ref="fasttopic:931268">Foot</term>
+                    <term n="6" ref="fasttopic:1139635">Surveys</term>
+                    <term n="6" ref="fasttopic:910709">English</term>
+                    <term n="5" ref="fasttopic:839044">British</term>
+                    <term n="3" ref="fasttopic:829141">Beacons</term>
+                    <term n="3" ref="fasttopic:836401">Books</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="14" ref="lcsh1910:b4kk94m4s">Sea</term>
+                    <term n="3" ref="lcsh1910:b47h1dv6c">Rye</term>
+                    <term n="11" ref="lcsh1910:b44j09z32">Founding</term>
+                    <term n="8" ref="lcsh1910:b4319s59c">Foot</term>
+                    <term n="7" ref="lcsh1910:b4b27pq8k">Numbers</term>
+                    <term n="3" ref="lcsh1910:b45d8nf5d">Beacons</term>
+                    <term n="3" ref="lcsh1910:b4jw86n9w">Head</term>
+                    <term n="3" ref="lcsh1910:b43775w28">Books</term>
+                    <term n="3" ref="lcsh1910:b4bc3t18v">Saxons</term>
+                </keywords>
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="9" ref="fastgeo:1219920">England</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change status="public" when="2025-08-15" who="#pml">v1.1. Isolates one entry;
+                    corrects "B.c." and variants; replaces "bom" with "born", removed 783 instances
+                    of extra space before semicolon. Separates metadata in <gi>teiHeader</gi> into
+                    two separate facets: FAST Topical and FAST Geographical.</change>
+                <change status="public" when="2023-02-28" who="#pml">v.1 published</change>
+                <change status="public" when="2023-02-27" who="#pml">v.1 teiHeader XSL
+                    finished</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ia:encyclopediabrit22newyrich/page/n754/mode/1up" type="entry">
+                <p><label type="entry">SUSSEX</label>, a maritime county in the south of England,
+                    lying between 50° 43' and 51° 9' N. lat. and 0° 49' E. and 0° 58' W. long. It is
+                    76 miles from Lady Holt Park to Kent Ditch, and 28 miles from Tunbridge Wells to
+                    Beachy Head, and adjoins Kent on the N.E., Surrey on the N., Hampshire on the
+                    W., and the English Channel on the S. Its total area is 933,269 acres or 1458
+                    square miles.</p>
+                <p>The range of chalk hills known as the South Downs divides the county into two
+                    districts—that of the coast and that of the Wealden—which are of unequal extent
+                    and possess very different characteristics. In the western part of the county
+                    the South Downs are about 10 miles distant from the sea; they continue eastwards
+                    for about 45 miles, and terminate in the bold headland of Beachy Head. Their
+                    average height is about 500 feet, though some of the summits reach 700
+                    (Ditchling Beacon, 813 feet; Chanctonbury Ring, 783; Firle Beacon, 700; and the
+                    Devil’s Dyke, 697). The Forest Ridge extends through the northern part of the
+                    county from Petworth to Crowborough, reaching the coast in Fairlight Down. The
+                    principal summits are Crowborough Beacon (796 feet), Brightling Hill (647), and
+                    Fairlight Down (528). The county has suffered greatly from incursions of the
+                    sea. The site of the ancient cathedral of Selsey is now a mile out at sea.
+                    Between 1292 and 1340 upwards of 5500 acres were submerged. In the early part of
+                    the 14th century Pagham harbour was formed by a sudden irruption of the sea,
+                    devastating 2700 acres. Recently all this land has been reclaimed and again
+                    brought under cultivation.</p>
+                <p>There is considerable reason for believing that the whole coast-line of the
+                    county has been slightly raised in the last 800 years (possibly by earthquake
+                    shock), as the large estuaries at the river mouths no longer exist, and the
+                    archipelago round Pevensey <hi rend="italic">(eye</hi> signifies “island ”) has
+                    only a slight elevation above the neighbouring marsh land.</p>
+                <p>The rivers are small and unimportant. The principal are the Rother, the Cuckmere,
+                    the Ouse, the Adur, the Arun, and the Lavant. The Rother rises in the Forest
+                    Ridge, in the parish of Rotherfield, and enters the sea near Rye, its course
+                    having been diverted by a great storm on 12th October 1250, before which date
+                    its exit was 12 miles to the east, beyond Dungeness. The Cuckmere also rises in
+                    the Forest Ridge, near Heathfield, and empties itself into the sea a little to
+                    the east of Seaford. The Ouse rises in St Leonards Forest, to the north-west of
+                    Lindfield, and, passing through Isfield and Lewes, enters the sea at Newhaven,
+                    now the principal port in the county. The former outlet was at Seaford, but in
+                    the reign of Elizabeth the sea broke through the beach bank at some warehouses
+                    just below Bishopstone and formed what is now called the old harbour, which was
+                    in use until the Newhaven one was made a safer exit. The Adur has three sources,
+                    all in the neighbourhood of St Leonards Forest, and flows southwards, entering
+                    the sea at Southwick. The mouth of the river formerly shifted from year to year,
+                    ranging both east and west over a distance of 2 miles. The Arun rises in St
+                    Leonards Forest, in the parish of Slinfold, flows through Amberley and Arundel,
+                    and enters the sea at Littlehampton. The Lavant has its source in Charlton
+                    Forest and encircles Chichester on all sides except the north, entering the sea
+                    through creeks in the extreme south-west corner of the county.</p>
+                <p>The portion of the county to the north of the South Downs is called the Weald; it
+                    formerly formed part of the forest of Andredsweald (“the wood or forest without
+                    habitations”), which was 120 miles in length and about 30 in breadth. The total
+                    area of forests in 1885 was 113,043 acres, being the greatest of any county in
+                    England. About 1660 the total was estimated at over 200,000 acres. The chief
+                    remains of the ancient forests are Tilgate, Ashdown, and St Leonards, but the
+                    names in many parts indicate their former wooded character, as Hurstpierpoint
+                    <hi rend="italic">(hurst</hi> meaning “wood”), Midhurst, Fernhurst,
+                    Billingshurst, Ashurst, and several others. The forests were interspersed with
+                    lagoons, and the rainfall being very great caused marshes and the large river
+                    estuaries; the rainfall, however, abated in consequence of the cutting down of
+                    the Wealden forests for fuel in the extensive ironworks that formerly existed in
+                    that district. The wood was exported in the reign of Edward VI.</p>
+                <p>The greater portion of the county is occupied by the Chalk formation, of which
+                    the South Downs are almost entirely composed. Firestone is found in the west,
+                    and Steyning is built upon it. At the base of the Downs the Greensand crops up,
+                    but is of small extent. The Wealden formations occupy nearly all the inland
+                    district of the county, and in these was found the ironstone from which iron was
+                    extracted. Sussex was at one time the centre of the English iron manufacture;
+                    before 1653 there were 42 iron-forges or mills (reduced to 18 before 1667) and
+                    27 furnaces (reduced to 11 before 1664), which employed 50,000 men<note
+                    anchored="true" place="bottom" type="authorial"><p><hi rend="italic">Suss. Arch.
+                    Coll.,</hi> xxxii. pp. 22-25</p></note> and furnished the main supply of
+                    ordnance for the national defence. The last forge at Ashburnham was not
+                    extinguished until 1809. Between 1872 and 1876 boring was carried on at
+                    Netherfield, near Battle, with the object of discovering what beds were below
+                    the V ealden, and if possible of reaching the Palaeozoic rocks, which at<pb
+                    break="no" facs="ia:encyclopediabrit22newyrich/page/n755/mode/1up"
+                    xml:id="kp-eb0922-0755-0724"/> Kentish Town, Harwich, Ostend, and Calais had
+                    been found at a depth of about 1000 feet below the sea-level. Some slight hope
+                    was entertained of the occurrence of Coal-measures, as in the Boulonnais the
+                    Carboniferous limestone, where last seen, dips south. The boring was continued
+                    to a depth of 1905 feet, the Oxford Clay being reached. The chief result was the
+                    discovery of the unusual thickness of the Kimmeridge Clay, which began at 275
+                    feet from the surface and continued to a depth of about 1469 feet. The most
+                    practical result was the finding of thick beds of gypsum (at about 160 feet),
+                    which were before unknown in the Weald and are now worked at Netherfield. From
+                    Beachy Head to Selsey Bill there lies, south of the Downs, a low and level tract
+                    belonging to the Tertiary period, of which there is no such record at any other
+                    place in England. The towns of Hove, Worthing, Littlehampton, Bognor, &amp;c.,
+                    are built on gravel, sand, and loam of the Post-Pliocene or Pleistocene series,
+                    and these superficial beds overlie the Eocene series in patches and contain a
+                    large fossil fauna. Remains of the mammoth occur in the mud deposit (or <hi
+                    rend="italic">Lutraria</hi> clay) of this district, and the Chichester museum
+                    contains the greater portion of a fine skeleton of the <hi rend="italic">Elephas
+                    antiquus</hi> obtained off Selsey Bill. Of the British Quaternary fossils
+                    forty-five are peculiar to Selsey, and twenty others probably find here their
+                    earliest place in British geological history. The Bracklesham beds occur at the
+                    bay of that name, and their main divisions extend from Wittering on the west to
+                    the Barn Rocks, east of Selsey Bill, a distance of 7 miles. They are full of
+                    fossil shells, particularly nummulitic.<note anchored="true" place="bottom"
+                    type="authorial"><p>Address to Geological Section of British Association,
+                    1882.</p></note></p>
+                <p>An analysis of the flora of the county was placed before the British Association
+                    in 1872 by Mr W. B. Hemsley (<hi rend="italic">Report,</hi> 1872 p. 128), who
+                    stated the total number of indigenous plants to be 1000, to which 59 introduced
+                    species must be added. The most interesting features of the flora are the number
+                    of species to the county area, the species peculiar to certain formations, viz.,
+                    the Chalk (56), maritime species (76), and the rare species, especially of the
+                    Atlantic and Scottish types. Amongst the rarer marsh plants are <hi
+                    rend="italic">Isnαrdiα palustris, Scirpus triqueter, S. carinatus, Pyrola media,
+                    Habeneria albida, Festuca sylvatica</hi> of the “Scottish” type of Watson; this
+                    last is not found in adjoining counties. A prominent feature of the Wealden
+                    flora is the extent of heath land and the large size the heath attains. The
+                    fauna includes 29 species of <hi rend="italic">Mammalia.</hi> The birds are very
+                    numerous, no less than 291 species having been recorded. There are about 76
+                    species of general migratory visitors. Of the 216 species of marine fishes found
+                    round the British coasts 106 have been observed off Sussex, and there are also
+                    19 freshwater fish.<note anchored="true" place="bottom" type="authorial"><p>Good
+                    lists of fauna and flora of certain parts of the eastern divi sion of the county
+                    have been published by the Hastings Literary and Philosophical Society and the
+                    Eastbourne Natural History Society.</p></note></p>
+                <p>The county presents two distinct climates, that of the coast district being mild,
+                    equable, and dry, whilst that of the Wealden district is continental, extreme,
+                    and rainy. The coast rainfall is about 25 to 26 inches annually and that of the
+                    Weald about 33 inches; this is due partly to the South Downs, which rise up in
+                    the path of the rain-clouds, and partly to the large extent of forest. In the
+                    wet years of 1852 and 1872 the rainfall at several Wealden stations exceeded 50
+                    inches. At Crowborough Beacon the average yearly rainfall from 1871 to 1884 was
+                    38T6 inches; at Brighton during the same period it was only 28·87. Temperature
+                    in the Weald at Uckfield has ranged from 98° Fahr. on 14th July to - 4° on 20th
+                    January 1838. The mean daily range of temperature in the Weald is about half as
+                    much again as on the coast. The influence of the sea in modifying the
+                    temperature of the coast district is specially noticeable in the autumn months,
+                    when the temperature is higher than in the Weald and other parts of England
+                    northwards, and fashion has (perhaps unconsciously) selected the period from
+                    September to November for the Brighton season. Sea-bathing, first introduced
+                    about the middle of the 18th century, together with the fresh pure air, has
+                    turned the stream of health-seekers from Bath and Tunbridge Wells and other
+                    watering-places into Sussex. The poor but populous fishing-town of
+                    Brighthelmston developed into the fashionable town of Brighton; the new town of
+                    Worthing sprang up in Broadwater parish; and the fishing village of Eastbourne
+                    rose in importance. The Cinque Port town of Hastings afterwards developed its
+                    fashionable suburb St Leonards, and Seaford was also resorted to; in the western
+                    part of the county the hamlet of Bognor became a fashionable place. The opening
+                    of the railway from London to Brighton in 1840, soon followed by coast lines
+                    from east to west, occasioned a great increase in the coast towns, and now
+                    almost the entire coast (except in its steep parts) presents a line of
+                    fashionable “health resorts” unequalled in any English county; these indeed form
+                    the special distinguishing feature of Sussex amongst other counties.</p>
+                <p>Sussex is divided into the six rapes<note anchored="true" place="bottom"
+                    type="authorial"><p>Probably derived from the Icelandic <hi rend="italic"
+                    >hreppr,</hi> signifying laud divided by a rope. It is first mentioned in the
+                    Domesday survey.</p></note> of Hastings, Pevensey, Lewes, Bramber, Arundel, and
+                    Chichester. The only rapes which exist for practical purposes are that of
+                    Hastings, which has a separate coroner, and the last three, in which the
+                    liability to repair bridges falls as of common right upon the rape instead of
+                    the county division. The Act 19 Hen. VII. cap. 24 directed that for convenience
+                    the county court should be held at Lewes as well as at Chichester, and this
+                    apparently gave rise to the division of Sussex into east and west parts, and
+                    separate quarter sessions are now held for these two divisions. The boroughs of
+                    Hastings, Rye, Brighton, and the city of Chichester have separate commissions of
+                    the peace and courts of quarter sessions. There are eighteen petty and special
+                    sessional divisions. At the time of the Domesday survey the county contained 65
+                    hundreds, but the modem total is 68. Of the 7 municipal boroughs which the
+                    county contains Arundel, Chichester, Hastings, and Bye existed long before the
+                    passing of the Municipal Corporations Act, 1835; Brighton was incorporated in
+                    1854, Lewes in 1881, and Eastbourne in 1883. Winchelsea, Seaford, Pevensey, and
+                    Midhurst were unreformed corporations existing under old charters, the first
+                    being governed by a mayor and the last three by bailiffs, but all their
+                    privileges have lately been abolished. “Sussex,” as Mr Freeman observes,<note
+                    anchored="true" place="bottom" type="authorial"><p><hi rend="italic">English
+                    Towns and Districts,</hi> p. 125.</p></note> “is no shire, no department, but a
+                    component element of England, older than England.” The diocese of Chichester is
+                    nearly coextensive with the county and the old kingdom of Sussex. In the year
+                    681 the county was converted to Christianity by St Wilfrid (afterwards
+                    archbishop of York), who founded the see of Selsey, but in 1075 the see was
+                    transferred from Selsey to Chichester. The diocese consists of two
+                    archdeaconries, Lewes and Chichester, and five deaneries. There are 322 civil
+                    parishes, with parts of seven others.</p>
+                <p>Prior to the Reform Bill of 1832 Sussex returned twenty-eight members to the
+                    House of Commons, two for the county and two each for the boroughs of Arundel,
+                    Bramber, Chichester, East Grinstead, Hastings, Horsham, Lewes, Midhurst, New
+                    Shoreham (with the rape of Bramber), Rye, Seaford, Steyning, and Winchelsea. The
+                    borough of New Shoreham was in 1771 added to the rape of Bramber. In 1832
+                    Bramber, East Grinstead, Seaford, Steyning, and Winchelsea were entirely
+                    disfranchised, the first-named being classed with the worst of the “rotten”
+                    boroughs; Arandel, Horsham, Midhurst, and Rye were each deprived of one member;
+                    the county was divided into two parts (East and West), each returning two
+                    members; and a new borough, Brighton, was created, to which two members were
+                    allotted. Chichester and Lewes were each deprived of one member in 1867, and
+                    Arundel was disfranchised in 1868. The Redistribution of Seats Act, 1885,
+                    disfranchised Chichester, Horsham, Midhurst, New Shoreham (with the rape of
+                    Bramber), and Rye, and deprived Hastings of one member. It also divided the
+                    county into six (instead of two) divisions, viz., Lewes, Southern or Eastbourne,
+                    Eastern or Rye, South-western or Chichester, Northern or East Grinstead,
+                    North-western or Horsham, each returning one member. Brighton still retains two
+                    members.</p>
+                <p>According to the latest owners of land <hi rend="italic">Return</hi> (1873),
+                    there were 11 proprietors with more than 10,000 acres each; 8 of 5000 to 10,000;
+                    1015 of 100 and less than 5000; of 10 and less than 100 acres, 1677; of 1 and
+                    less than 10, 2347; and of less than an acre, 14,675,— making a grand total of
+                    19,733 landowners, having a gross estimated rental of £2,418,522; there were in
+                    addition 23,738 acres of common or waste lands. The eleven principal landowners
+                    were— Lord Leconfield, 30,221 acres; the duke of Norfolk, 19,217; the duke of
+                    Richmond, 17,117; the earl of Chichester, 16,232; the marquis of Abergavenny,
+                    15,364; Rev. John Goring, 14,139; the earl of Ashburnham, 14,051; the earl of
+                    Egmont, 14,021; Viscount Gage, 13,739; the Earl De la Warr, 11,185; and the duke
+                    of Devonshire, 11,062. At the time of the Domesday survey there were 15 tenants
+                    <hi rend="italic">in capite,</hi> 534 under-tenants, and 2497 <hi rend="italic"
+                    >bordarii</hi> (or cottagers), also 765 <hi rend="italic">cotarii</hi> (or
+                    cottars). The custom of borough-English, by which land descends to the youngest
+                    son, prevailed to an extraordinary degree in Sussex, and no less than 140 manors
+                    have been catalogued in which it was found.<note anchored="true" place="bottom"
+                    type="authorial"><p><hi rend="italic">Suss. Arch. Coll.,</hi> vi.
+                    164.</p></note> Gavelkind tenure existed in Rye, in the large manor of Brede,
+                    and in Coustard manor (in Brede parish).</p>
+                <p>The coast district has been under cultivation from the time of the Romans and is
+                    very fertile, being specially suitable for market gardens and for growing fruit
+                    trees. The fig gardens of West Tarring are celebrated. Marshall,<note
+                    anchored="true" place="bottom" type="authorial"><p><hi rend="italic">Rural
+                    Economy of the Southern Counties,</hi> &amp;c.</p></note> describing the Weald
+                    in 1788,<pb break="no" facs="ia:encyclopediabrit22newyrich/page/n756/mode/1up"
+                    xml:id="kp-eb0922-0756-0725"/> says: “The townships of the Weald are in general
+                    very large, owing, as it would seem, to the fewness of sites fit for
+                    habitation.</p>
+                <p>. . . A large portion of the vale lands remain in a state of commonage,
+                    particularly on the outskirts and towards the extremities of the district. . . .
+                    There is scarcely an acre of natural herbage or old grass-land”; of the coast
+                    district he observes that there is strong circumstantial evidence that the lands
+                    were not only brought to their present form but cultivated before the laying out
+                    of townships. He also mentions that in the Isle of Selsey he observed some
+                    common field land, as well as about Chichester. The South Downs afford excellent
+                    pasture for sheep, Sussex being famed for a special breed of blackfaced sheep.
+                    The total number in 1886 was 518,665,—seventh in order amongst English counties.
+                    The total area of land and water in Sussex is 933,269 acres (1881), of which in
+                    1886 there were 682,072 under crops, bare fallow, and grass, made up of 74,518
+                    acres of wheat, 18,067 of barley, 66,509 of oats, 399 of rye, 6307 of beans, and
+                    9493 of pease,—the total of corn crops being 175,293 acres. The green crops were
+                    73,315 acres in extent, including 3405 of potatoes, 28,686 of turnips and
+                    swedes, 12,152 of mangolds, 326 of carrots, 11,847 of cabbage, kohl-rabi, and
+                    rape, and 16,899 of vetches and other green crops. Clover, sainfoin, and grasses
+                    under rotation occupied 63,724 acres (47,851 for hay). Permanent pasture or
+                    grass amounted to 340,352 acres (117,956 for hay), included chiefly in the South
+                    Downs and used for sheep pasture, and the extensive pastures of Pevensey Marsh,
+                    used for fattening stock. The total area cultivated with hops was 10,391 acres,
+                    Sussex ranking next to Kent. In 1833 the total of hops was only 7701 acres. The
+                    number of horses in 1886 was 24,964, of which 20,473 were used solely for
+                    agricultural purposes. Cattle in the same year numbered 115,633, of which 40,693
+                    were cows and heifers in milk or in calf. The total of pigs was 41,064. Poultry
+                    in 1885 included 317,712 fowls, the fattening of which for the London market
+                    forms an important industry in the northeastern part of the county, the centre
+                    being at Heathfield.</p>
+                <p>The earliest statement as to the population of Sussex is made by Bede, who
+                    describes the county as containing in the year 681 land of 7000 families;
+                    allowing ten to a family (not an unreasonable estimate at that date), the total
+                    population would be 70,000. At the time of the Domesday survey (about 400 years
+                    later) the total number of tenants <hi rend="italic">in capite,</hi>
+                    under-tenants, bordarii, cotarii, servi, villani, &amp;c. (in fact all
+                    able-bodied males), was 10,410.<note anchored="true" place="bottom"
+                    type="authorial"><p>Sir H. Ellis, <hi rend="italic">General Introduction to
+                    Domesday Book.</hi></p></note> Assuming each of these to represent a family of
+                    ten, the total population was then 104,100. In 1693 the county is stated<note
+                    anchored="true" place="bottom" type="authorial"><p><hi rend="italic">Account by
+                    John Houghton, F.R.S., of Acres and Houses in each County</hi> (King's
+                    Pamphlets, Brit. Mus.).</p></note> to have contained 21,537 houses. If seven
+                    were allowed to a house at that date, the total population would be 150,759. It
+                    is curious, therefore, to observe that in 1801 the population was only 159,311.
+                    The decline of the Sussex iron-works probably accounts for the small increase of
+                    population during several centuries, although after the massacre of St
+                    Bartholomew upwards of 1500 Huguenots landed at Rye, and in 1685 (after the
+                    revocation of the Edict of Nantes) many more refugees were added to the county.
+                    In 1881 the total population was 490,505, of whom 232,331 were male and 258,174
+                    female. The principal towns were Brighton (population, 107,546; 128,440 in
+                    parliamentary borough), Hastings (42,258; 47,738 in parliamentary borough),
+                    Chichester (8114), Lewes (10,815), and Rye (4667).</p>
+                <p>. Bede records that St Wilfrid, when he visited the county in 681, taught the
+                    people the art of net-fishing. At the time of the Domesday survey the fisheries
+                    were extensive, and no less than 285 salinae (or salt-works) existed. The
+                    customs of the Brighton fishermen were reduced to writing in 1579. The census of
+                    1851 returned 915 fishermen, but a parliamentary return in 1869 stated the
+                    number of men and boys to be 2236, and they manned 780 boats. The census of 1881
+                    returned 1471 fishermen. The approximate value of the fish landed at Brighton
+                    yearly is about £20,000.</p>
+                <p>There are now no important industries; the chief is the brick, tile, and pottery,
+                    the main centre of which is St John’s Common. The census of 1881 returned 1485
+                    brickmakers in the county. The London, Brighton, and South Coast Railway Company
+                    have extensive works at Brighton. There is a daily service of passenger steamers
+                    from Newhaven to Dieppe in France, and large quantities of fruit, vegetables,
+                    butter, and eggs are conveyed from France to London.</p>
+                <p>The earliest settlers in the county were the Celtic tribes whose memorials are
+                    found in the hill-forts of Mount Caburn, Hollingbury, White Hawk, Ditchling
+                    Beacon, Devil’s Dyke, Chanctonbury Hill, Cissbury, &amp;c., the latter being a
+                    great factory for flint implements. They gave the names to the rivers. Little
+                    is, however, known respecting them beyond the fact that they had a distinct
+                    coinage some two centuries before the Roman invasion,—a coarse imitation of the
+                    Greek stater of Philip II. of Macedon. These coins have been found in various
+                    parts of Sussex. At the time of Caesar’s landing (55 <hi rend="smallcaps"
+                    >b.c.</hi> ) the Belgic tribe of the Regni inhabited the county and had their
+                    capital at Regnum (Chichester). Sir G. B. Airy fixed on Pevensey as the place of
+                    Caesar’s landings in 55 and 54 <hi rend="smallcaps">b.c.</hi>; this is, however,
+                    much disputed, and opinion generally puts the landing near Deal. A few years
+                    after this Sussex appears to have formed part of the kingdom of Commius, a
+                    British chieftain, and upon his death seems to have been allotted to his son
+                    Tincommius. These two are the only British rulers of the county whose coins have
+                    been found. Upon the conquest of Britain under Claudius the Romans found a ready
+                    tool in a king named Cogidubnus, who is mentioned by Tacitus, and who was
+                    created imperial legate, and may probably be identified with the king of that
+                    name mentioned in the celebrated inscription on the temple of Neptune and
+                    Minerva found at Chichester. Sussex was reduced to submission prior to the reign
+                    of Vespasian, and Major-General Pitt-Rivers suggests that the hill-fort of Mount
+                    Caburn may have been one of the twenty oppida Suetonius states to have been
+                    reduced by that emperor. Roman settlements became numerous in the county and
+                    villas sprang up, the remains of which are still occasionally found, the chief
+                    being that at Bignor, near Stane Street, the Roman road connecting Chichester
+                    with London and still partly traceable. A fortress was erected at Anderida
+                    (Pevensey), and there was another town named Mutu-antonis, which is thought to
+                    be Lewes; but, having regard to the Antons in West Sussex, it may have been
+                    situated farther west than Lewes, perhaps at Littlehampton. Sussex was the first
+                    county invaded by the Saxons, who in 477 landed under Aelle at Keynor near
+                    Chichester. After fourteen years of struggle they reached the point where the
+                    South Downs abut on the sea at Beachy Head, and in 491, as the <hi rend="italic"
+                    >Saxon Chronicle</hi> grimly records, “Aelle and Cissa beset Audredes-ceaster
+                    (Anderida), and slew all that were therein, nor was there a Briton left there
+                    any more.” This resulted in the formation of a distinct kingdom of South Saxons,
+                    whence its name of <hi rend="italic">Sussex.</hi> The subjugation of the county
+                    was very complete, for it is still one of the most thoroughly Saxon counties in
+                    England, and its inhabitants, speech, place-names, customs, &amp;c., are almost
+                    entirely Saxon. The next important event in the history of the county was the
+                    landing of William of Normandy (28th September 1066), followed by the battle of
+                    Senlac<note anchored="true" place="bottom" type="authorial"><p>The hill of
+                    Senlac is now occupied by the abbey and town of Battle,</p></note> or Hastings
+                    (14th October 1066). The Conqueror erected on the battlefield a state abbey
+                    dedicated to St Martin, but it was not completed until after his death. The next
+                    chief event was the battle of Lewes between Henry III. and the barons under
+                    Simon de Montfort in 1264, which “wiped out the stain—if stain it were—of
+                    Senlac.” The only other important events have been the rebellion of Jack Cade in
+                    1450, which received very substantial support in East Sussex, and the naval
+                    engagement fought off Beachy Head in 1690, in which the English and Dutch fleets
+                    combined were defeated by the French. Charles II. in his flight after the battle
+                    of Worcester escaped in 1651 from Brighton in a fishing-boat.</p>
+                <p>The foremost place amongst the illustrious natives of Sussex must be assigned to
+                    Shelley the poet. Of statesmen we have Richard Cobden and John Selden, and of
+                    eminent ecclesiastics Archbishops Frewen, John Peckham, and William Juxon, also
+                    Archdeacon Hare. Its poets include Thomas Otway, Thomas Sackville (afterwards
+                    earl of Dorset), and John Fletcher. Of antiquaries we find Sir William Burrell,
+                    John Elliot, Rev. Thomas W. Horsfield, Mark Antony Lower, Dr Mantell
+                    (geologist), and Dr Richard Russell (founder of modern Brighton).</p>
+                <p><hi rend="italic">Dialect.—</hi> A large number of Saxon words are still retained
+                    and pronounced in the old style; thus <hi rend="italic">gate</hi> becomes <hi
+                    rend="italic">ge-at.</hi> The letter <hi rend="italic">a</hi> is very broad in
+                    all words, as if followed by <hi rend="italic">u,</hi> and in fact converts
+                    words of one syllable into words of two, as <hi rend="italic">fails</hi> (face),
+                    <hi rend="italic">taust</hi> (taste), &amp;c. Again, <hi rend="italic">a</hi>
+                    before double <hi rend="italic">d</hi> becomes <hi rend="italic">ar,</hi> as <hi
+                    rend="italic">arder</hi> and <hi rend="italic">larder</hi> for <hi rend="italic"
+                    >adder</hi> and <hi rend="italic">ladder; oi</hi> is like a long <hi
+                    rend="italic">i</hi>, as <hi rend="italic">spile</hi> (spoil), <hi rend="italic"
+                    >intment</hi> (ointment); an <hi rend="italic">e</hi> is substituted for <hi
+                    rend="italic">a</hi> in such words as <hi rend="italic">rag, flag,</hi> &amp;c.
+                    The French refugees in the 16th and 17th centuries introduced many words which
+                    are still in use. Thus a Sussex woman when unprepared to receive visitors says
+                    she is in <hi rend="italic">dishabille</hi> (déshabillé, undress); if her child
+                    is unwell, it looks <hi rend="italic">pekid</hi> (piqué), if fretful is a little
+                    <hi rend="italic">peter-grievous</hi> (petit-grief); she cooks with a <hi
+                    rend="italic">broach</hi> (broche, a spit), and talks of <hi rend="italic"
+                    >coasts</hi> (coste, Old French) or ribs of meat, &amp;c. There is an excellent
+                    <hi rend="italic">Dictionary of the Sussex Dialect</hi> by the Rev. W. D.
+                    Parish.</p>
+                <p><hi rend="italic">Bibliography.—</hi> Amongst standard historical works dealing
+                    with Sussex history are E. A. Freeman’s <hi rend="italic">History of the Norman
+                    Conquest</hi> and <hi rend="italic">Life of William Rufus</hi>; J. R. Green’s
+                    <hi rend="italic">Making of England</hi>; W. H. Blaauw’s <hi rend="italic">The
+                    Barons’ War;</hi> and Kemble's <hi rend="italic">Saxons in England.</hi> The
+                    general history of the county is dealt with in Horsfield’s <hi rend="italic"
+                    >History of Sussex</hi>; Dallaway and Cartwright’s <hi rend="italic">History of
+                    the Western Division of the County of Sussex;</hi> M. A. Lower’s <hi
+                    rend="italic">Compendious History of Sussex;</hi> Dudley C. Elwes and Charles J.
+                    Robinson’s <hi rend="italic">History of the Castles, Mansions, and Manors of
+                    Western Sussex</hi>; P. de Putron’s <hi rend="italic">Nooks and Corners of Old
+                    Sussex</hi>; W. R. W. Stephens’s <hi rend="italic">Diocesan Histories (The South
+                    Saxon Diocese: Selsey—Chichester); Sussex Archaeological Society's
+                    Collections,</hi> 34 vols. , and index to the first 25 vols.; <hi rend="italic"
+                    >Domesday Book in relation to the County of Sussex</hi> (1886). See also C.
+                    Fleet, <hi rend="italic">Glimpses of our Sussex Ancestors,</hi> two series;
+                    Swainson, <hi rend="italic">Chichester Cathedral</hi>; Col. Lane-Fox (now
+                    Pitt-Rivers), “Examination into the Character and Probable Origin of the Hill
+                    Forts of Sussex,” in <hi rend="italic">Archxologia,</hi> xln. 2,, and “Further
+                    Remarks,” &amp;c., <hi rend="italic">ib.,</hi> p. 53; G. Slade Butler, <hi
+                    rend="italic">Topographιca Sussex-iana</hi>; M. A. Lower, <hi rend="italic">The
+                    Churches of Sussex</hi> (illustrated by R. Nibbs) and <hi rend="italic">The
+                    Worthies of Sussex;</hi> J. C. Egerton, <hi rend="italic">Sussex Folk and Sussex
+                    Ways; Proceedings of the Brighton and Sussex Natural History Society</hi>; W. E.
+                    Baxter, <hi rend="italic">The Domesday Book for the County of Sussex, being that
+                    portion of a Return of owners of Land in 1873 which refers to Sussex,</hi>
+                    Lewes, 1876; J. D. Perry, <hi rend="italic">Historical and Descriptive</hi><pb
+                    break="no" facs="ia:encyclopediabrit22newyrich/page/n757/mode/1up"
+                    xml:id="kp-eb0922-0757-0726"/><hi rend="italic">Account of the Coast of
+                    Sussex</hi>; Frederick Dixon, <hi rend="italic">The Geology of Sussex</hi>; M.
+                    A. Lower, <hi rend="italic">Chronicles of Pevensey·,</hi> william Topley, <hi
+                    rend="italic">Memoirs of the Geological Survey of England and IVales: Geology of
+                    the Weald, parts of the Counties of Kent, Surrey, Sussex and Hants;</hi> J. G.
+                    Bishop, <hi rend="italic">Brighton Pavilion and its Royal Associations;</hi>
+                    Merrifield, <hi rend="italic">A Sketch, of the Natural History of Brighton and
+                    its Vicinity,</hi> 1864; H. D. Gordon, <hi rend="italic">The History of
+                    Harting</hi>; Basil Champneys, <hi rend="italic">A Quiet Corner of England:
+                    Studies of Landscape and Architecture in Winchelsea, Rye, and the Romney
+                    Marsh</hi> 1874; M. A. Tierney, <hi rend="italic">History and Antiquities of the
+                    Castle and Town of Arundel</hi>; Holloway, <hi rend="italic">History of
+                    Rye</hi>; Horsfield, <hi rend="italic">History and Antiquities of Lewes; W.
+                    D.</hi> Cooper, <hi rend="italic">History of Winchelsea</hi>; M. A. Lower, <hi
+                    rend="italic">Chronicles of Battle Abbey;</hi> Howard, <hi rend="italic"
+                    >Hastings Past and Present,</hi> &amp;c. (F. E. S.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

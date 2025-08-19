@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model  href="https://TU-plogan.github.io/code/odd/tei_kp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="kp-eb0924-0440-0415-02" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="eb09_v1.1">
+                <title level="a" type="main">WAVE</title>
+                <title level="m" type="main">Encyclopaedia Britannica: A machine-readable
+                    transcription</title>
+                <title level="m" type="sub">9th edition, volume 24, page 415</title>
+                <editor>Edited by <persName ref="https://orcid.org/0000-0003-2362-8282"
+                    role="editor" xml:id="pml">Peter Melville Logan</persName></editor>
+                <respStmt>
+                    <orgName xml:id="kp">Nineteenth-Century Knowledge Project Staff,
+                        <affiliation>Temple University</affiliation></orgName>
+                    <resp>OCR transcription and data management</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0001-7819-5360" xml:id="jg">Jane
+                        Greenberg, <affiliation>Metadata Research Center, Drexel
+                        University</affiliation></persName>
+                    <resp>metadata development</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="dk">Don Kretz, <affiliation>Distributed
+                        Proofreading</affiliation></persName>
+                    <resp>data management</resp>
+                </respStmt>
+                <funder><orgName ref="http://viaf.org/viaf/137796012" xml:id="neh">National
+                    Endowment for the Humanities</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/121974598" xml:id="imls">Institute of
+                    Museum and Library Services</orgName></funder>
+                <funder><orgName ref="http://viaf.org/viaf/127396206" xml:id="tu">Temple
+                    University</orgName></funder>
+                <sponsor><orgName ref="http://viaf.org/viaf/3653147665869560670009" xml:id="cci"
+                    >Drexel University, College of Computing &amp; Informatics</orgName></sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.1">Version 1.1 <date when="2025">2025</date></edition>
+            </editionStmt>
+            <extent>486 MB; 17,775 XML files</extent>
+            <publicationStmt>
+                <publisher corresp="kp"><orgName corresp="kp">Nineteenth-Century Knowledge
+                    Project</orgName><email>nckp@temple.edu</email><link
+                    target="https://github.com/TU-plogan/KnowledgeProject"/></publisher>
+                <availability status="free">
+                    <p>Licensed under a Creative Commons Attribution 4.0 International License.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0
+                    </licence>
+                </availability>
+                <date when="2025">2025</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Encyclopaedia Britannica: A machine-readable transcription</title>
+                <editor corresp="pml">Peter Melville Logan</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull xml:lang="en">
+                    <titleStmt>
+                        <title level="m">Encyclopaedia Britannica</title>
+                        <editor><persName ref="http://viaf.org/viaf/12465694" xml:id="mn">Baynes, T.
+                            Spencer (Thomas Spencer), <date from="1823" to="1887"
+                            >1823-1887</date></persName></editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Ninth Edition</edition>
+                    </editionStmt>
+                    <extent><measure quantity="25" unit="vol">25 volumes</measure></extent>
+                    <publicationStmt>
+                        <publisher>Charles Scribner's Sons</publisher>
+                        <authority>Authorized reprint from Edinburgh plates</authority>
+                        <pubPlace>New York</pubPlace>
+                        <date from="1875" to="1889">1875-1889</date>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl xml:id="ia-uc"><title>Encyclopaedia Britannica: a dictionary of arts,
+                            sciences, and general literature</title><publisher><orgName
+                            ref="https://archive.org/">Internet Archive</orgName><orgName
+                            ref="https://archive.org/details/cdl">University of California
+                            Libraries, California Digital Library</orgName></publisher><date
+                            when="2019">2006</date><idno type="OCLC">592355607</idno><idno
+                            type="ark">13960/t0ks6j612</idno><availability>
+                            <p>Internet Archive: NOT_IN_COPYRIGHT</p>
+                            </availability></bibl>
+                    </sourceDesc>
+                </biblFull>
+                <listBibl>
+                    <head>Alternate image sources for this edition:</head>
+                    <desc>Alternate images of the same print editions were substituted when the
+                        primary source had unusable images for those pages.</desc>
+                    <bibl xml:id="um-ht">Hathi Trust, from print source at the University of
+                        Michigan: vol. 14, pp. 34-35; vol. 15, pp. 170-171.</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <ab><list rend="bulleted" type="basic">
+                    <item>Encoding has been done using the recommendations for Level 3 of the "TEI
+                        in Libraries Guidelines."</item>
+                    <item>Individual entries and page-breaks are encoded, but column breaks are
+                        omitted.</item>
+                    <item>Print page headers and side descriptions are not included.</item>
+                    <item>OCR successfully reproduced simple tables, but complex tabular data is not
+                        captured dependably and the results should not be relied upon.</item>
+                    <item>OCR was not able to successfully reproduce math and chemical formulas. The
+                        uncorrected results remain in the text.</item>
+                    <item>Some font formatting is preserved: <val>italic</val>,
+                        <val>smallcaps</val>, <val>strikethrough</val>, <val>subscript</val>,
+                        <val>superscript</val>, <val>underline</val>. The following print styles are
+                        ignored: bold, font size, typeface.</item>
+                    </list></ab>
+                <correction method="markup" status="low">
+                    <p>This electronic text file was created by optical character recognition (OCR).
+                        OCR errors have not been corrected.</p>
+                    <p>Illegible text in the original is indicated using <gi>unclear</gi> or
+                        <gi>gap</gi>, as appropriate. If corrected, the reference source is
+                        indicated with <gi>supplied</gi>.</p>
+                </correction>
+                <normalization method="silent">
+                    <p>Original spelling is preserved. When noticed, obvious misspellings are
+                        combined with the correct spelling as <gi>choice</gi> in the TEI. Ligatures
+                        are reproduced as multiple letters. Original footnote and marginal note
+                        sigla are replaced with sequential numbers for each entry.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Extra space around punctuation marks is removed.</p>
+                </punctuation>
+                <quotation marks="some">
+                    <p>Quotation marks are retained as content in the text. Redundant open quotation
+                        marks at the start of lines inside block quotes are silently removed.</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Soft hyphens are silently removed.</p>
+                </hyphenation>
+                <segmentation>
+                    <p>The <tag>div type="entry"</tag> element divides the text into individual
+                        entries.</p>
+                    <p>The <tag>div type="section"</tag> and <tag>div type="subsection"</tag>
+                        elements are reserved for future entry subsections.</p>
+                </segmentation>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+            <projectDesc>
+                <p>All text was encoded for the Nineteenth-Century Knowledge Project to provide a
+                    machine-readable edition of the Encyclopedia Britannica to analyze using
+                    machine-learning methods.</p>
+                <p>Subject keywords are added to <gi>teiHeader</gi> for each entry; they were
+                    generated by the HIVE2 automated vocabulary server, created by the Metadata
+                    Research Center at Drexel University (<link
+                    target="https://hive2.cci.drexel.edu"/>https://hive2.cci.drexel.edu).</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>This release reproduces the text matter for all entries. It does not include
+                    images, front- or back-matter. The reproduction of tables and formulae is
+                    unreliable. </p>
+            </samplingDecl>
+            <listPrefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fastgeo:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Geographical subject heading
+                        schema derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="fast" matchPattern="(\d+)"
+                    replacementPattern="http://id.worldcat.org/fast/$1">
+                    <p>URIs with the prefix <code>fasttopic:</code> point to terms in the OCLC FAST
+                        (Faceted Application of Subject Terminology) Topical subject heading schema
+                        derived from the Library of Congress Subject Headings (LCSH).</p>
+                </prefixDef>
+                <prefixDef ident="lcsh1910" matchPattern="(\w+)"
+                    replacementPattern="https://n2t.net/ark:/99152/$1">
+                    <p>URIs with the prefix <code>lcsh1910:</code> point to subject terms in <hi
+                        rend="italic">Subject Headings Used in the Dictionary Catalogues of the
+                        Library of Congress</hi>, 2 vols., Library of Congress, 1910.</p>
+                </prefixDef>
+                <prefixDef ident="ht" matchPattern="([\w\-\.;=\&#34;&amp;]+)"
+                    replacementPattern="https://babel.hathitrust.org/cgi/pt?id=$1">
+                    <p>URIs with the prefix <code>ht:</code> point to page images in the Hathi
+                        Trust.</p>
+                </prefixDef>
+                <prefixDef ident="ia" matchPattern="(\w+)"
+                    replacementPattern="https://archive.org/details/$1">
+                    <p>URIs with the prefix <code>ia:</code> point to page images in the Internet
+                        Archive.</p>
+                </prefixDef>
+                <prefixDef ident="nls" matchPattern="([\w?\=]+)"
+                    replacementPattern="https://digital.nls.uk/encyclopaedia-britannica/archive/$1">
+                    <p>URIs with the prefix <code>nls:</code> point to page images in the National
+                        Library of Scotland.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://id.worldcat.org/fast/">
+                    <term n="42" ref="fasttopic:1172900">Waves</term>
+                    <term n="37" ref="fasttopic:1176150">Wire</term>
+                    <term n="1" ref="fasttopic:984032">Journalism</term>
+                    <term n="1" ref="fasttopic:1127099">Sounds</term>
+                    <term n="1" ref="fasttopic:954023">Heating</term>
+                    <term n="37" ref="fasttopic:1171139">Water</term>
+                    <term n="32" ref="fasttopic:1129434">Speed</term>
+                    <term n="31" ref="fasttopic:1027064">Motion</term>
+                </keywords>
+                <keywords scheme="https://id.cci.drexel.edu/">
+                    <term n="42" ref="lcsh1910:b4zg6gc1k">Waves</term>
+                    <term n="37" ref="lcsh1910:b4251fv6s">Wire</term>
+                    <term n="1" ref="lcsh1910:b48c9r443">Journalism</term>
+                    <term n="1" ref="lcsh1910:b4q52ff6p">Heat</term>
+                    <term n="1" ref="lcsh1910:b4g44hr3b">Heating</term>
+                    <term n="37" ref="lcsh1910:b4513v11w">Water</term>
+                    <term n="31" ref="lcsh1910:b4js9hb31">Motion</term>
+                    <term n="9" ref="lcsh1910:b4jd4pp0f">Air</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <listChange>
+                <change status="public" when="2025-08-15" who="#pml">v1.1. Isolates one entry;
+                    corrects "B.c." and variants; replaces "bom" with "born", removed 783 instances
+                    of extra space before semicolon. Separates metadata in <gi>teiHeader</gi> into
+                    two separate facets: FAST Topical and FAST Geographical.</change>
+                <change status="public" when="2023-02-28" who="#pml">v.1 published</change>
+                <change status="public" when="2023-02-27" who="#pml">v.1 teiHeader XSL
+                    finished</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="ia:encyclopediabrit24newyrich/page/n440/mode/1up" type="entry">
+                <p><label type="entry">WAVE</label>. By this term is commonly understood a state of
+                    disturbance which is propagated from one part of a medium to another. Thus it is
+                    energy which passes, and <pb break="no"
+                    facs="ia:encyclopediabrit24newyrich/page/n441/mode/1up"
+                    xml:id="kp-eb0924-0441-0416"/> not matter,—though in some cases the wave
+                    permanently displaces, usually to a small amount only, the medium through which
+                    it has passed. Currents, on the other hand, imply the passage of matter
+                    associated with energy.</p>
+                <p>The subject is one which, except in a few very simple or very special cases, has
+                    as yet been treated only by approximation even when the most formidable
+                    processes of modern mathematics have been employed,—so that this sketch, in
+                    which it is desired that as little as possible of higher mathematics should be
+                    employed, must be confined mainly to the statement of results. And the effects
+                    of viscosity, though very important, cannot be treated.</p>
+                <p>There are few branches of physics which do not present us with some forms of
+                    wave, so that the subject is a very extensive one :—tides, rollers, ripples,
+                    bores, breakers, sounds, radiations (whether luminous or obscure), telegraphic
+                    and telephonic signalling, earthquakes, the propagation of changes of
+                    surface-temperature into the earth’s crust—all are forms of wave-motion. Several
+                    of these phenomena have been treated in other parts of this work, and will now
+                    be but briefly referred to; others require more detailed notice.</p>
+                <p>When a medium is in stable equilibrium, it has no kinetic energy, and its
+                    potential energy is a minimum. Any local disturbance, therefore, in general
+                    involves a communication of energy to part of the medium, and it is usually by
+                    some form of wave-motion that this energy spreads to other parts of the medium.
+                    The mere withdrawal of a quantity of matter (as by lifting a floating body out
+                    of still water), local condensation of vapour in the air, the crushing of a
+                    hollow shell by external pressure, the change of volume resulting from an
+                    explosion, or from the sudden vaporization of a liquid—are known to all as
+                    common sources of violent wave-disturbance.</p>
+                <p>Waves may be <hi rend="italic">free</hi> or <hi rend="italic">forced.</hi> In the
+                    former class the disturbance is produced once for all, and is then propagated
+                    according to the nature of the medium and the form of the disturbance. Or the
+                    disturbance may be continued, provided the waves travel faster than does the
+                    centre of disturbance. In forced waves, on the other hand, the disturbing force
+                    continues to act so as to modify the propagation of the waves already produced.
+                    Thus, while a gale is blowing, the character of the water-waves is continually
+                    being modified; when it subsides, we have regular oscillatory waves, or rollers,
+                    for the longer ones not only outstrip the shorter but are less speedily worn
+                    down by fluid friction. The huge mass of water which some steamers raise,
+                    especially when running at a high speed, is an excellent example of a forced
+                    wave. The ocean-tide is mainly a forced wave, depending on the continued action
+                    of the moon and sun; but the tide-wave in an estuary or a tidal river is
+                    practically free,—being almost independent of moon and sun, and depending mainly
+                    upon the configuration of the channel, the rate of the current, and the tidal
+                    disturbance at the mouth.</p>
+                <p>In what follows we commence with a special case of extreme simplicity, where an
+                    <hi rend="italic">exact</hi> solution is possible. This will be treated fully,
+                    partly on account of its own interest, partly because its results will be of
+                    material assistance in some of the less simple, and sometimes apparently quite
+                    different, cases which will afterwards come up for consideration.</p>
+                <p>(1) <hi rend="italic">Transverse Waves on a Stretched Wire.—</hi> In the article
+                    <hi rend="smallcaps">Mechanics,</hi> § 265, it has been proved by the most
+                    elementary considerations that an inextensible but flexible rope, under uniform
+                    tension, when moving at a certain definite rate through a smooth tube of any
+                    form, exerts no pressure on the interior of the tube. In fact, the rope must
+                    press with a force T/ <hi rend="italic">r</hi> (where T is the tension and <hi
+                    rend="italic">r</hi> the radius of curvature) on the unit of length in
+                    consequence of its tension, and with a force - <hi rend="italic">μv</hi><hi
+                    rend="superscript"> 2</hi> / <hi rend="italic">r</hi> (where <hi rend="italic"
+                    >v</hi> is the speed, and μ the mass of unit length) in consequence of its
+                    inertia. That there may be no pressure on the tube, <hi rend="italic">i.e.,</hi>
+                    that it may be dispensed with, we must therefore have T- <hi rend="italic"
+                    >μv</hi><hi rend="superscript"> 2</hi> = 0, or <hi rend="italic">ν = √</hi> T∕μ.
+                    From this it follows that a disturbance of <hi rend="italic">any</hi> form (of
+                    course with continuous curvature) runs along a stretched rope at this definite
+                    rate, and is unchanged during its progress. In the proof, the influence of
+                    gravity was left out of consideration, and this result may therefore be applied
+                    to the motion of a transverse disturbance along a stretched wire, such as that
+                    of a pianoforte, where the tension is very great in comparison with the weight
+                    of the wire. But the italicized word <hi rend="italic">any,</hi> above, gives an
+                    excellent example of one of the most difficult parts of the whole subject, viz.,
+                    the possibility of a <hi rend="italic">solitary</hi> wave. This is a question
+                    upon which we cannot here enter.</p>
+                <p>If we restrict ourselves to slight disturbances only, theory points out and trial
+                    verifies that they are superposable. In fact, in the great majority of
+                    investigations which have been made with regard to waves, the disturbances have
+                    been assumed to be slight, so that we can avail ourselves of the principle of
+                    <hi rend="italic">superposition of small motions</hi><hi rend="smallcaps"
+                    >(Mechanics,</hi> § 73), which is merely an application of the mathematical
+                    principle of “neglecting the second order of small quantities.” The verification
+                    by <hi rend="italic">trial</hi> is given at once by watching how the
+                    ring-ripples produced by two stones thrown into a pool pass through one another
+                    without any alteration; that by <hi rend="italic">observation</hi> is evident to
+                    any one who sees an object in sunlight, when the whole intervening space is full
+                    of intense wave-motion.</p>
+                <p>Returning to our wire, let us confine ourselves to a small transverse
+                    disturbance, in one plane, and try to discover what happens when the disturbance
+                    reaches one of the fixed ends of the wire. Whether a point of the wire be fixed
+                    or not does not matter, provided it <hi rend="italic">do not move.</hi> In the
+                    figure below, two disturbances are shown, moving in opposite directions (and of
+                    course with equal speed). Of these, either is the <hi rend="italic"
+                    >perversion,</hi> as well as the inversion, of the other. When any part of the
+                    one reaches O, the point halfway between them, so as to displace it upwards, the
+                    other contributes an exactly equal displacement downwards. Thus O remains
+                    permanently at rest, while the two waves pass through it without affecting one
+                    another; and we may therefore assert that the wave A when it reaches the end of
+                    the wire is reflected as B, or rather that each part of A when it reaches O goes
+                    back as the corresponding part of B. B, in the same way, is seen to be reflected
+                    from O as A.</p>
+                <p>Now we can see what happens with a pianoforte wire. Any disturbance A is
+                    reflected from one end O as B, and at the other end is reflected as A again.
+                    Hence the state of the wire, whatever it may be, recurs <hi rend="italic"
+                    >exactly</hi> after such an interval as is required for the disturbance to
+                    travel, twice over, the length of the string.</p>
+                <p>Remembering that the displacements are supposed to be very small, our fundamental
+                    result may now be expressed by saying that the force acting on unit length of
+                    the disturbed wire, to restore it to its undisturbed position, is T/ <hi
+                    rend="italic">r</hi> or <hi rend="italic">μ,v</hi><hi rend="superscript"> 2</hi>
+                    ∕ <hi rend="italic">r</hi>. Thus the <hi rend="italic">ratio of the acceleration
+                    of each element to its curvature is the square of the rate of propagation of the
+                    wave.</hi> It will be shown below that this is the immediate interpretation of
+                    the differential equation of the wave-motion.</p>
+                <pb break="no" facs="ia:encyclopediabrit24newyrich/page/n442/mode/1up"
+                    xml:id="kp-eb0924-0442-0417"/>
+                <p>Let us express the position of a point of the wire, when undisturbed, by <hi
+                    rend="italic">x</hi> its distance (say) from one end. Let <hi rend="italic"
+                    >y</hi> represent its transverse displacement at time <hi rend="italic">t.</hi>
+                    Then, bearing in mind that the disturbance travels with a constant speed <hi
+                    rend="italic">v,</hi> the nature of the motion, so far as we have yet limited
+                    it, will be expressed by saying that the value of <hi rend="italic">y,</hi> at
+                    <hi rend="italic">x,</hi> at time <hi rend="italic">t,</hi> will be the value of
+                    <hi rend="italic">y,</hi> at <hi rend="italic">x + vτ,</hi> at time <hi
+                    rend="italic">t + τ;</hi> or, simply, <hi rend="italic">y</hi> = <hi
+                    rend="italic">f</hi> (<hi rend="italic">vt</hi>- <hi rend="italic">x</hi>).</p>
+                <p>For this expression, whatever be the function <hi rend="italic">f,</hi> is
+                    unchanged in value, if <hi rend="italic">t + τ</hi> be put for <hi rend="italic"
+                    >t,</hi> and <hi rend="italic">x + ντ</hi> for <hi rend="italic">x</hi>; and no
+                    other expression possesses this special property. If there be a disturbance
+                    running the opposite way along the wire, we easily see that it will be
+                    represented by an expression of the form</p>
+                <p>F(<hi rend="italic">vt</hi> + <hi rend="italic">x).</hi></p>
+                <p>These disturbances are superposable, so that <hi rend="italic">y=f(vt-x</hi>) +
+                    F(<hi rend="italic">vt</hi> + <hi rend="italic">x</hi>) (1)</p>
+                <p>expresses the most general state of disturbance which the wire can suffer under
+                    the limitations we have imposed. Before going farther we may use this to
+                    reproduce the results given above.</p>
+                <p>Now <hi rend="italic">x</hi> =0 is one end of the wire, and <hi rend="italic"
+                    >there y</hi> is necessarily always zero. Hence <hi rend="italic">0=f(vt)</hi> +
+                    F(<hi rend="italic">vt</hi>), so that the functions <hi rend="italic">f</hi> and
+                    F differ only in sign. This condition, inserted in (1), gives us at once the
+                    state of matters indicated by the cut above.</p>
+                <p>If <hi rend="italic">x = l</hi> be the other end of the wire, we have the new
+                    condition 0= <hi rend="italic">f</hi> (<hi rend="italic">vt</hi>- <hi
+                    rend="italic">l</hi>) - <hi rend="italic">f</hi> (<hi rend="italic">vt</hi> +
+                    <hi rend="italic">l</hi>).</p>
+                <p>The meaning of this is simply that the disturbance is periodic, the period being
+                    2 <hi rend="italic">l/v</hi>, the other result already obtained.</p>
+                <p>Fourier’s theorem (see <hi rend="smallcaps">Harmonic Analysis,</hi> or <hi
+                    rend="smallcaps">Mechanics,</hi> § 67) now shows that the expression <hi
+                    rend="italic">f</hi> may be broken up into one definite series of sines and
+                    cosines, whence the usual results as to the various simple sounds which can be
+                    produced, together or separately, from a free stretched string.</p>
+                <p>It may be asked, and very naturally, How can this explanation of the nature of
+                    all possible transverse motions of a harp or pianoforte wire, as the result of
+                    sets of equal disturbances <hi rend="italic">running along it</hi> with constant
+                    speed, be consistent with the appearance which it often presents of vibrating as
+                    a whole, or as a number of equal parts separated from one another by <hi
+                    rend="italic">nodes</hi> which remain apparently at rest in spite of the
+                    disturbances to which, if the explanation be correct, they are constantly
+                    subjected? The answer is given at once by a consideration of the expression <hi
+                    rend="italic">y</hi> = sin <hi rend="italic">(i</hi> π/ <hi rend="italic"
+                    >l)</hi> (<hi rend="italic">vt-x) -</hi> sin (<hi rend="italic">i</hi> π/ <hi
+                    rend="italic">l</hi>)(<hi rend="italic">vt</hi> + <hi rend="italic">x)</hi></p>
+                <p>(where <hi rend="italic">i</hi> is any integer), which is a particular case of
+                    the general expression (1), limited to the circumstances of a wire of length <hi
+                    rend="italic">l</hi>. This indicates, as we have seen, two exactly similar and
+                    equal sets of simple harmonic waves running simultaneously, with equal speed, in
+                    opposite directions along the wire. By elementary trigonometry we can put the
+                    expression in the form <hi rend="italic">y=</hi>- 2 sin(<hi rend="italic"
+                    >iπx</hi> / <hi rend="italic">l</hi>) cos(<hi rend="italic">iπvt/l</hi>) <hi
+                    rend="italic">.</hi></p>
+                <p>This indicates— <hi rend="italic">first,</hi> that the points of the string where
+                    <hi rend="italic">x</hi> has the values</p>
+                <p>0, <hi rend="italic">l∣i, 2l∕i, . . .,l</hi> remain constantly at rest (these are
+                    the ends, and the <hi rend="italic">i-1</hi> equidistant nodes by which the wire
+                    is divided into <hi rend="italic">i</hi> practically independent parts); <hi
+                    rend="italic">second,</hi> that the form of the wire, at any instant, is a curve
+                    of sines, and that the ordinates of this curve increase and diminish
+                    simultaneously with a simple harmonic motion,—the wire resuming its undisturbed
+                    form at intervals of time <hi rend="italic">l∕iν.</hi></p>
+                <p>This discussion has been entered into for the purpose of showing, from as simple
+                    a point of view as possible, the production of a <hi rend="italic"
+                    >stationary</hi> or <hi rend="italic">standing</hi> wave. The same principle
+                    applies to more complex cases, so that we need not revert to the question.</p>
+                <p>Recurring to the general expression for <hi rend="italic">y</hi> in (1), it is
+                    clear that if we differentiate it twice with respect to <hi rend="italic"
+                    >t,</hi> and again twice with respect to <hi rend="italic">x,</hi> the results
+                    will differ only by the factor <hi rend="italic">v</hi><hi rend="superscript">
+                    2</hi> which occurs in each term of the first. Thus <hi rend="italic">d2y/dt2 =
+                    (v2)(d2y</hi> is merely another way of writing (1). But in this new form it
+                    admits of the immediate interpretation given above in italics. d <hi
+                    rend="superscript"> 2</hi> y .</p>
+                <p>For (d <hi rend="superscript"> 2</hi> y)/(dt <hi rend="superscript"> 2</hi>) is
+                    the acceleration, and the curvature.</p>
+                <p>(2) <hi rend="italic">Longitudinal Waves in a Wire or Pod.—</hi> If the
+                    displacements of the various parts of the wire be longitudinal instead of
+                    transverse, we may still suppose them to be represented graphically by the
+                    figure above—by laying off the longitudinal displacement of each point in a line
+                    through that point, in a definite plane, and perpendicular to the wire. In the
+                    figure a displacement to the right is represented by an upward line, and a
+                    displacement to the left by a downward line. The extremities of these lines
+                    will, in general, form a curve of continued curvature. And it is easy to see
+                    that the tangent of the inclination of the curve to the axis <hi rend="italic"
+                    >(i.e.,</hi> its steepness at any point) represents the elongation of unit
+                    length of the wire at that point, while the curvature measures the rate at which
+                    this elongation increases per unit of length. The force required to produce the
+                    elongation bears to the elongation itself the ratio E, viz., Young’s modulus.
+                    The acceleration of unit length is the <hi rend="italic">change</hi> of this
+                    force per unit length, divided by μ Hence, by the italicized statement in (1),
+                    we have <hi rend="italic">v =</hi> √E∕p, <hi rend="smallcaps">(Mechanics,</hi> §
+                    270). All the investigations above given apply to this case also, and their
+                    interpretations, with the necessary change of a word or two, remain as
+                    before.</p>
+                <p>Thus, according to our new interpretation of the figure, the front part of A
+                    indicates a wave of compression, its hind part one of elongation, of the
+                    wire,—the displacement of every point, however, being to the right. B is an
+                    equal and similar wave, its front being also a compression, and its rear an
+                    elongation, but in it the displacement of each point of the wire is to the
+                    left.</p>
+                <p>Hence the displacements of O continually compensate one another; and thus a wave
+                    of compression is reflected from the fixed end of the wire as a wave of
+                    compression, but positive displacements are reflected as negative.</p>
+                <p>If we now consider a free rod, set into longitudinal vibration by friction, we
+                    are led to a particular case of reflection of a wave from a <hi rend="italic"
+                    >free</hi> end. The condition is obviously that, at such a point, there can be
+                    neither compression nor elongation. To represent the reflected wave we must
+                    therefore take B of such a form that each part of it, when it meets at O the
+                    corresponding part of A, shall just annul the compression. On account of the
+                    smallness of the displacements, this amounts to saying that the successive parts
+                    of B must be equally inclined to the axis with the corresponding parts of A, but
+                    <hi rend="italic">they must slope the other way.</hi> Thus the proper figure for
+                    this case is and the interpretation is that a wave of compression is reflected
+                    from a free end as an equal and similar wave of elongation; but the disturbance
+                    at each point of the wire in the reflected wave is to the same side of its
+                    equilibrium position as in the incident wave.</p>
+                <p>This enables us to understand the nature of reflexion of a wave of sound from the
+                    end of an open organ pipe, as the former illustration suited the corresponding
+                    phenomenon in a closed one.</p>
+                <p>(3) <hi rend="italic">Waves in a Linear System of Discrete Masses.—</hi> Suppose
+                    the wire above spoken of to be massless, or at least so thin, and of such
+                    materials, that the whole mass of it may be neglected in comparison with the
+                    masses of a system of equal pellets, which we now suppose to be attached to the
+                    wire at equal distances from one another. The weights of these pellets may be
+                    supported by a set of very long vertical strings, one attached to each, so that
+                    the arrangement is unaffected by gravity. The wire may be supposed to be
+                    stretched, as before, with a definite tension which is not affected by small
+                    transverse disturbances. We will take the case of transverse disturbances only,
+                    but it is easy to see that results of precisely the same form will be obtained
+                    for longitudinal <pb break="no"
+                    facs="ia:encyclopediabrit24newyrich/page/n443/mode/1up"
+                    xml:id="kp-eb0924-0443-0418"/> disturbances. A moment’s thought will convince
+                    the reader that there must be a limit to the frequency of the oscillations which
+                    can be transmitted along a system like this, though there was none such with the
+                    continuous wire. It is not difficult to find this limit.</p>
+                <p>Let the transverse displacement, at time <hi rend="italic">t,</hi> of the <hi
+                    rend="italic">n</hi><hi rend="superscript"> th</hi> pellet of the series, be
+                    called <hi rend="italic">y</hi><hi rend="italic subscript"> n</hi>; and let T be
+                    the tension of the wire, <hi rend="italic">m</hi> the mass of a pellet, and <hi
+                    rend="italic">a</hi> the distance from one pellet to the next. Then the equation
+                    of motion is obviously <hi rend="italic">,</hi><hi rend="italic
+                    subscript"> jl</hi><hi rend="italic                     superscript underline">
+                    d</hi><hi rend="italic underline"> ~y</hi><hi rend="italic superscript
+                    underline"> n</hi> _ <hi rend="superscript"> r</hi> p y <hi rend="superscript">
+                    ,ι</hi><hi rend="underline">+</hi><hi rend="superscript underline"> ι</hi><hi
+                    rend="underline">~</hi><hi rend="italic underline"> V</hi><hi rend="italic
+                    superscript"> n</hi><hi rend="italic">_</hi> q ’ <hi rend="underline"
+                    >¾∕n~‰-ι</hi><hi rend="italic">dt'</hi><hi rend="italic superscript"> 2</hi><hi
+                    rend="italic">a a ’</hi><hi rend="smallcaps">4(</hi><hi rend="superscript
+                    smallcaps"> d</hi><hi rend="smallcaps">-</hi><hi rend="superscript smallcaps">
+                    2+</hi><hi rend="smallcaps">d&gt;-∙</hi> d where D stands for g <hi
+                    rend="superscript"> dx</hi>.</p>
+                <p>[We remark in passing that, if <hi rend="italic">a</hi> be very small, this
+                    equation tends to become <hi rend="italic">d</hi><hi rend="italic superscript">
+                    2</hi><hi rend="italic">y</hi> T <hi rend="italic subscript"> 9</hi><hi
+                    rend="italic">ePy dt-a dx-</hi></p>
+                <p>But in this case we have ultimately <hi rend="italic">m = aμ∙,</hi> so that we
+                    recover the equation for transverse vibrations of a uniform wire.]</p>
+                <p>Suppose y <hi rend="subscript"> n</hi> =Acos <hi rend="italic">(pt-qx)</hi>
+                    (where <hi rend="italic">x=na)</hi> to be a possible free motion of the system.
+                    When this value is substituted in the equation above it gives</p>
+                <p>T Γ</p>
+                <p>- wp <hi rend="superscript"> 2</hi> cos <hi rend="italic">(pt - qx) ≈- c,Qs{pt -
+                    q.x + a)</hi><hi rend="italic superscript"> j</hi><hi rend="italic">r cos(pt -
+                    g.x - a) a</hi> L</p>
+                <p>— 2cos(pi-jae)J 2T</p>
+                <p>= - — cos <hi rend="italic">(pt - qx)</hi>. (1 - cos <hi rend="italic">qa"),</hi>
+                    so that</p>
+                <p>4T τnp <hi rend="superscript"> 2</hi> =- sin <hi rend="superscript"> 2</hi><hi
+                    rend="italic">qa∣</hi><hi rend="italic superscript"> c</hi><hi rend="italic"
+                    >l.</hi></p>
+                <p>It appears from the form of this expression that the greatest value of <hi
+                    rend="italic">p</hi> is <hi rend="italic superscript"> c</hi><hi rend="italic"
+                    >λ∖JΥ∣am</hi>; or <hi rend="italic">2v∣a,</hi> if <hi rend="italic">υ</hi> be
+                    the speed of a disturbance in a uniform wire under the same tension, and of the
+                    same actual mass per unit of length. The time of oscillation of a pellet is
+                    2π∕p, and cannot therefore be less than <hi rend="italic">π^fam∣Υ,</hi> or <hi
+                    rend="italic">τrajv.</hi></p>
+                <p>The result is that, if <hi rend="italic">v</hi> be the speed of propagation of a
+                    disturbance in a uniform wire with the same tension and same mass, the period of
+                    the quickest simple harmonic transverse oscillation which can be freely
+                    transmitted in such a system is <hi rend="italic">π</hi> times the time of
+                    running from one pellet to the next with speed <hi rend="italic">v.</hi></p>
+                <p>Instead of pellets on a tended wire, we might have a series of equal bar magnets,
+                    supported horizontally at proper distances from one another, in a line. The
+                    magnetic forces here take the place of the tension; and by arranging the magnets
+                    with their like poles together, <hi rend="italic">i.e.</hi>, by inverting the
+                    alternate ones, we can produce the equivalent of pressure instead of tension
+                    along the series. If the magnets have each bifilar suspension, their masses will
+                    come in, as well as their moments of inertia, in the treatment of transverse
+                    disturbances.</p>
+                <p>This question is closely connected with Stokes’s explanation of fluorescence (see
+                    <hi rend="smallcaps">Light,</hi> vol. xiv. p. 602), for the effect of a
+                    disturbing force, of a shorter period than the limit given above, applied
+                    continuously to one of the pellets, would be to accumulate energy mainly in the
+                    immediate neighbourhood; and this, if we suppose the disturbing force to cease,
+                    would be transmitted along the system in waves of periods equal at least to the
+                    limit. These would correspond to light of lower refrangibility than the
+                    incident, but having as characteristic a definite upper limit of
+                    refrangibility.</p>
+                <p>Such investigations, with their results, prepare us to expect that the usual mode
+                    of investigating the propagation of sound, to which we proceed, cannot be
+                    correct in the case of exceedingly high notes if the medium consist of discrete
+                    particles.</p>
+                <p>(4) <hi rend="italic">Waves of Compression and Dilatation in a Fluid; Sound;
+                    Explosions.—</hi> Consider the case of plane waves, where each layer of the
+                    medium moves perpendicularly to itself, and therefore may suffer dilatation or
+                    compression. The case is practically the same as that treated in (2) above, and
+                    can be represented by the same graphic method. For we may obviously consider
+                    only the matter contained in a <hi rend="italic">rigid</hi> cylinder of unit
+                    sectional area, whose axis is parallel to the displacements. The only point of
+                    difference is in the law connecting pressure and consequent compression, and
+                    that, of course, depends upon the properties of the medium considered.</p>
+                <p>(<hi rend="italic">a</hi>) If the medium be a liquid, such as water, for
+                    instance, the compression may be taken as proportional to the pressure. Thus the
+                    acceleration on unit length of the column, multiplied by its mass (which in this
+                    case is simply the density of the medium), is equal to the increase of pressure
+                    per unit length, <hi rend="italic">i.e.,</hi> to the increase of condensation
+                    per unit length, multiplied by the resistance to compression, R. Thus the speed
+                    of the wave is <hi rend="subscript"> x</hi> ∕R∕p, which is exactly analogous to
+                    the forms of (1) and (2). The density, <hi rend="italic">p,</hi> of water is
+                    62⋅3 lb per cubic foot, and for it R is about 20,000 atmospheres at 0° C., so
+                    that the speed of sound at that temperature is about 4700 feet per second.</p>
+                <p>That even intense differences of pressure take time to adjust themselves over
+                    very short distances in water was well shown by the damage sustained by the <hi
+                    rend="italic">open</hi> copper cases of those of the “Challenger” thermometers
+                    which were crushed by pressure in the deep sea. When a strong glass shell
+                    (containing air only) is enclosed in a stout open iron tube whose length is two
+                    or three of its diameters, and is crushed by water pressure, the tube is
+                    flattened by excess of external pressure before the relief can reach the
+                    outside.</p>
+                <p>(<hi rend="italic">b</hi>) In the case of a gas, such as air, we must take the
+                    adiabatic relation between pressure and density. The pressure increases faster
+                    than, instead of at the same rate with, the density, as it would do if the gas
+                    followed Boyle’s law. Thus the changes of pressure, instead of being equal to
+                    the changes of compression (multiplied by the modulus), exceed them in the
+                    proportion of the specific heat at constant pressure (K) to that at constant
+                    volume (N). Thus the speed of sound is <hi rend="italic subscript"> f</hi><hi
+                    rend="italic">fKjN.p∕p,</hi> where <hi rend="italic">p</hi> is the pressure and
+                    <hi rend="italic">p</hi> the density in the undisturbed air. The ratio of the
+                    two latter quantities, as we know, is very approximately proportional to the
+                    absolute temperature.</p>
+                <p>The questions of the gradual change of type or the dying away even of plane waves
+                    of sound, whether by reason of their form, by fluid friction, or by loss of
+                    energy due to radiation, are much too complex to be treated here.</p>
+                <p>In all ordinary simple sounds even of very high pitch the displacements are
+                    extremely small compared with the wave length, so that the approximate solution
+                    gives the speed with considerable accuracy. And a very refined experimental test
+                    that this speed is independent of the pitch consists in listening to a rapid
+                    movement played by a good band at a great distance. But there seems to be little
+                    doubt that, under certain conditions at least, very loud sounds travel a great
+                    deal faster than ordinary sounds.</p>
+                <p>The above investigation gives the speed of sound relatively to the air.
+                    Relatively to the earth’s surface, it has to be compounded with the motion of
+                    the air itself. But, as the speed of wind usually increases from the surface
+                    upwards, at least for a considerable height, the front of a sound-wave, moving
+                    <hi rend="italic">with</hi> the wind, leans forward, and the sound (being
+                    propagated perpendicularly to the front) moves downwards; if <hi rend="italic"
+                    >against</hi> the wind, upwards.</p>
+                <p>In the case of a disturbance in air due to a very sudden explosion, as of
+                    dynamite or as by the passage of a flash of lightning, it is probable that for
+                    some distance from the source the motion is of a projectile character; <pb
+                    break="no" facs="ia:encyclopediabrit24newyrich/page/n444/mode/1up"
+                    xml:id="kp-eb0924-0444-0419"/> and that part at least of the flash is due to the
+                    heat developed by practically instantaneous and very great compression of each
+                    layer of air to which this violent motion extends.</p>
+                <p>(5) <hi rend="italic">Gravitation and Surface-Tension Waves in Liquids.</hi>
+                    —Leaving out of consideration, as already sufficiently treated in a special
+                    article, the whole subject of <hi rend="smallcaps">Tides,</hi> whether in oceans
+                    or in tidal rivers, there remain many different forms of water-waves all alike
+                    interesting and important. The most usual division of the free waves is into
+                    long waves, oscillatory waves, and ripples. The first two classes run by
+                    gravity, the third mainly by surfacetension (see <hi rend="smallcaps">Capillary
+                    Action).</hi> But, while the long waves agitate the water to nearly the same
+                    amount at all depths, the chief disturbance due to oscillatory waves or to
+                    ripples is confined to the upper layers of the water, from which it dies away
+                    with great rapidity in successive layers below. We will treat of these three
+                    forms in the order named.</p>
+                <p>(6) <hi rend="italic">Long Waves.—</hi> The first careful study of these waves
+                    was made by Scott <hi rend="smallcaps">Russell</hi><hi rend="italic">(q.v.)</hi>
+                    in the course of an inquiry into traffic on canals. He arrived at the remarkable
+                    result that there is a definite speed, depending on the depth of the water, at
+                    which a horse can draw a canal-boat more easily than at any other speed, whether
+                    less or greater. And he pointed out that, when the boat moves at this speed, it
+                    agitates the water less, and therefore damages the banks less, than at any
+                    lower. This particular speed is thus, in fact, that of free propagation of the
+                    wave raised by the boat; and, when the boat rides, as it were, on this wave, its
+                    speed is maintained with but little exertion on the part of the horse. If the
+                    boat be made to move slower, it leaves behind it an everlengthening procession
+                    of waves, of course at the expense of additional labour on the part of the
+                    horse.</p>
+                <p>The theory of the motion of such a wave is based on the hypothesis that all
+                    particles in a transverse section of the canal have, at the same instant, the
+                    same horizontal speed. However great this horizontal motion may be, the vertical
+                    motion of the water may be very small, for it depends on the change of
+                    horizontal speed from section to section only. In the investigation which
+                    follows, the energy of this vertical motion will be neglected (even at the
+                    surface, where it is greatest) in comparison with that of the horizontal motion.
+                    The hypothesis is proved to be well grounded by the actual observation of the
+                    motion of the water when a long wave of slight elevation or depression passes. A
+                    long box, with parallel sides of glass, partly filled with water, represents the
+                    canal; and the wave is produced by slowly and slightly tilting the box, and at
+                    once restoring it to the horizontal position. The nature of the motion of the
+                    water is shown by particles of bran suspended in it. Such an apparatus may be
+                    usefully employed in verifying the theoretical result below, as to the connexion
+                    between the speed of the wave and the depth of the water,—observations of the
+                    passage of the crest being made with great exactness by means of a ray of light
+                    reflected from the surface of the water in a vertical plane parallel to the
+                    length of the canal. It may also be employed, by tilting it about an inclined
+                    position, for the study of the changes which take place in the wave as it passes
+                    from deeper to shallower water, or the reverse.</p>
+                <p>The statement of (1) above is immediately applicable to this question. For, if
+                    <hi rend="italic">h</hi> be the (undisturbed) depth of the water, ρ its density,
+                    <hi rend="italic">y</hi> and <hi rend="italic">y</hi> ' the elevations in two
+                    successive transverse sections at unit distance from one another, the difference
+                    of pressures (at the same level) in the two sections is <hi rend="italic">gp(f —
+                    y).</hi> The acceleration of a horizontal cylinder of unit section is the
+                    difference of pressures divided by <hi rend="italic">ρ.</hi> But the whole depth
+                    is increased at each point in proportion as the thickness of a transverse slice
+                    is diminished. Hence, by the reasoning in (2) above, sτ&gt;(√-y) <hi
+                    rend="italic">p'-p ..tf-y</hi> z — <hi rend="superscript"> υ</hi> λ *</p>
+                <p>PP« or <hi rend="italic">υ-≈gh;</hi> and the speed of propagation of the wave is
+                    that which a stone would acquire by falling through half the depth of the water.
+                    That the speed ought to be independent of the density of the liquid is clear
+                    from the fact that it is the weight of the disturbed portion which causes the
+                    motion, and that this (for equal waves in different liquids) changes
+                    proportionally to the mass to be moved.</p>
+                <p>Since we have made no hypothesis as to the form of the wave, our only assumptions
+                    being that the vertical motion is not only small in comparison with the depth,
+                    but inconsiderable in comparison with the horizontal motion, while the latter is
+                    the same at all depths in any one transverse section, it is clear that, under
+                    the same limitations, a wave of depression will run at the same speed as does a
+                    wave of elevation.</p>
+                <p>A solitary wave of elevation obviously carries across any fixed transverse plane
+                    a quantity of water equal to that which lies above the undisturbed level. If H
+                    be the mean height of this raised water, <hi rend="italic">b</hi> the breadth of
+                    the canal (supposed rectangular), and λ the length of the wave, the volume of
+                    this water is <hi rend="italic">b</hi> λH. But all particles in the transverse
+                    section behave alike; and, when the wave has passed, the particles in <hi
+                    rend="italic">all</hi> transverse sections have been treated alike. Hence the
+                    final result of the passage of the wave is that the whole of the water of the
+                    canal has been translated, in the direction of the wave’s motion, through the
+                    space <hi rend="italic">b</hi> λH∕ <hi rend="italic">bh</hi>, or λH∕ <hi
+                    rend="italic">h</hi>. If the wave had been one of depression, the translation of
+                    the water would have been in the opposite direction to that of the wave’s
+                    motion. Hence, when the wave consists of an elevation followed by a depression
+                    of equal volume, it leaves the water as it found it. Thus any permanent
+                    displacement of the water is due to inequality of troughs and crests.</p>
+                <p>A hint, though a very imperfect one, as to the formation of breakers on a gently
+                    sloping beach, is given by considering that in shallow water the front and rear
+                    of an ordinary surface-wave must move at different rates, the front being in
+                    shallower water than the rear and therefore allowing the rear to gain upon
+                    it.</p>
+                <p>(7) <hi rend="italic">Oscillatory Waves.—</hi> The typical example of these waves
+                    is found in what is called a “swell,” or the regular rolling waves which
+                    continue to run in deep water after a storm. Their character is essentially
+                    periodic, and this feature at once enables us to select from the general
+                    integrals of the equations of non-rotatory fluid-motion the special forms which
+                    we require. The investigation may, without sensible loss of completeness for
+                    application, be still further simplified by the assumption that the disturbance
+                    is two-dimensional, <hi rend="italic">i.e.,</hi> that the motion is precisely
+                    the same in any two vertical planes drawn parallel to the direction in which the
+                    waves are travelling. The investigation is, unfortunately, very much more simple
+                    in an analytical than in a geometrical form.</p>
+                <p>If the axis of <hi rend="italic">x</hi> be taken in the surface of the
+                    undisturbed water, in the direction in which the waves are travelling, and that
+                    of <hi rend="italic">y</hi> vertically <hi rend="italic">downwards,</hi> the
+                    equation for the velocity-potential (see <hi rend="smallcaps"
+                    >Hydromechanics)</hi> is simply <hi rend="italic">d</hi><hi rend="italic
+                    superscript"> i</hi><hi rend="italic">Φ</hi><hi rend="italic subscript">
+                    ι</hi><hi rend="italic">d-φ dx</hi><hi rend="italic superscript"> i +</hi><hi
+                    rend="italic">dy'</hi><hi rend="italic                     superscript">
+                    i</hi></p>
+                <p>This is merely the “equation of continuity,”—the condition that no liquid is
+                    generated, aud none annihilated, during the motion.</p>
+                <p>The type of solution we seek, as above, is represented by <hi rend="italic"
+                    >φ</hi> = Y cos (<hi rend="italic">mt - nx) ,</hi> where Y depends on <hi
+                    rend="italic">y</hi> alone. If this can be made to satisfy the <pb break="no"
+                    facs="ia:encyclopediabrit24newyrich/page/n445/mode/1up"
+                    xml:id="kp-eb0924-0445-0420"/> equation of continuity, we may proceed to further
+                    tests and restrictions of it. Substitution leads to rf <hi rend="superscript">
+                    2</hi> Y „, <hi rend="subscript"> T n</hi> _ <hi rend="subscript"> n</hi>-∖ = 0,
+                    so that Y = <hi rend="italic">AS</hi><hi rend="italic superscript"> n</hi><hi
+                    rend="italic">* +</hi> Bs ~"v, where A and B are arbitrary constants.</p>
+                <p>(<hi rend="italic">a</hi>) If the depth of the water be unlimited, the value of A
+                    must be zero, for otherwise we should be dealing with disturbances which
+                    increase, without limit, as we go farther down. Hence, in this case, a
+                    particular integral of the equation, corresponding to a disturbance which can
+                    exist by itself, is <hi rend="italic">φ</hi> = B S ^ <hi rend="superscript">
+                    w</hi> ∙' <hi rend="superscript"> y</hi> cos <hi rend="italic">(mt -
+                    nx).</hi></p>
+                <p>We will now avail ourselves of the supposition under which, as we have seen,
+                    disturbances are necessarily superposable, <hi rend="italic">i.e.,</hi> assume
+                    terms in B <hi rend="superscript"> 2</hi> to be negligible. The ordinary kinetic
+                    equation <hi rend="smallcaps">(Hydkomechanics)</hi> then becomes</p>
+                <p>C+7Vp = &lt;7y-(⅛)</p>
+                <p><hi rend="italic">= gy +</hi> ?nBg ~ <hi rend="superscript"> n,j</hi> sin <hi
+                    rend="italic">(mt - nx).</hi></p>
+                <p>If we differentiate this expression with regard to <hi rend="italic">t,</hi> and
+                    apply the result to the surface only, where <hi rend="italic">υ</hi> is
+                    constant, and remember that ⅛-C⅛) we have simply</p>
+                <p>0 = - <hi rend="italic">ng + m</hi><hi rend="italic superscript"> 2</hi><hi
+                    rend="italic">,</hi> which is the condition that no water <hi rend="italic"
+                    >crosses</hi> the bounding surface. This determines <hi rend="italic">n,</hi>
+                    without ambiguity, when <hi rend="italic">m</hi> is given, and thus gives a
+                    relation between the period of a wave and its length, or between the period or
+                    the length and the speed of propagation. For we may write <hi rend="italic">mt -
+                    nx *=-(υt-x) ,</hi> where λ is the wave-length, and <hi rend="italic">v</hi> the
+                    speed; so that <hi rend="italic">2πv 2π</hi><hi rend="italic">m= , n =
+                    —</hi></p>
+                <p>λ ’ λ ∙</p>
+                <p>Thus we have <hi rend="italic">, gh</hi><hi rend="italic superscript"> v</hi><hi
+                    rend="italic">"~2π ’</hi> and the longer waves move faster, even when the
+                    vertical displacement is small in both. This is quite different from the result
+                    for sound-waves.</p>
+                <p>The components of the velocity of the particle of water whose mean position is
+                    <hi rend="italic">x, y</hi> are</p>
+                <p>J = Bug ^ <hi rend="superscript"> ni,</hi> sin (wii-rø), parallel to <hi
+                    rend="italic">x,</hi> aud (^U^) <hi rend="superscript"> =</hi> ~ <hi
+                    rend="superscript"> C0S</hi> ^ <hi rend="superscript"> ,nt</hi> ~ <hi
+                    rend="superscript"> nx</hi> ^ ’ parallel to <hi rend="italic">y .</hi></p>
+                <p>Hence the path is a circle whose radius is <hi rend="italic">_ n</hi><hi
+                    rend="subscript"> r</hi>, nι</p>
+                <p>B— g^ <hi rend="superscript"> n</hi> ^, or B —g-«ÿ.</p>
+                <p><hi rend="italic">to g</hi></p>
+                <p>At the surface this is <hi rend="smallcaps">B</hi><hi rend="italic smallcaps">
+                    m</hi><hi rend="smallcaps">∕</hi><hi rend="italic smallcaps"> g</hi><hi
+                    rend="smallcaps">,</hi> as in fact we see at once by the equation for the
+                    pressure, which gives for the form of the surface</p>
+                <p>C = <hi rend="italic">gη + m</hi><hi rend="smallcaps">B</hi> sin <hi
+                    rend="italic">(mt - nx).</hi></p>
+                <p>Each surface-particle is at the highest point of its circular path, and moving
+                    forwards, when the crest of the wave passes it. When the trough passes, it is at
+                    the lowest point of its circle and moving backwards. The radii of the circles
+                    diminish in geometrical progression at depths increasing in arithmetical
+                    progression. The factor is g <hi rend="superscript"> -</hi><hi rend="italic
+                    superscript"> ny</hi><hi rend="italic">= ζ~^y∕h</hi><hi rend="italic
+                    subscript"> f</hi><hi rend="subscript"> so</hi> that at a depth of <hi
+                    rend="italic">one</hi> wave-length only the disturbance is reduced to S^^ <hi
+                    rend="superscript"> 2π</hi> or about 1/535 of its surfacevalue.</p>
+                <p>From the investigation above we see that Atlantic rollers, of a wave-length of
+                    (say) 300 feet, travel at the rate of about 40 feet per second, or 27 miles an
+                    hour. But, even if they be of 40 feet height from trough to crest (which is
+                    probably an exaggerated estimate), the utmost disturbance of a water particle at
+                    a depth of 300 feet is not quite half an inch from its mean position. This
+                    shows, in a very striking manner, what a mere surface-effect is in this way due
+                    to winds, and how the depths of the ocean are practically undisturbed by such
+                    causes.</p>
+                <p>This investigation has been carried to a second, and even to a third,
+                    approximation by Stokes, with the result that the form of a section of the
+                    surface is no longer the curve of sines, in which the crests and troughs are
+                    equal. The crests are steeper and higher, and the troughs wider and shallower,
+                    than the first approximation shows. Also the forward horizontal motion of each
+                    particle under the crest is no longer quite compensated for by its backward
+                    motion under the trough, so that what sailors call the “heave of the sea” is
+                    explained. The water is permanently displaced forwards by each succeeding wave.
+                    But this effect, like the whole disturbance, is greatest in the surface-layer
+                    and diminishes rapidly for each lower layer. The third approximation shows that
+                    the speed of the waves is greater than that above assigned, by a term depending
+                    on the square of the ratio of the height to the length of a wave.</p>
+                <p>(6) When the depth of the water is limited, we cannot make the simplification
+                    adopted in the last investigation.</p>
+                <p>If <hi rend="italic">h</hi> be the depth of the water, our condition is that the
+                    vertical motion vanishes at that depth, and the relation between <hi
+                    rend="italic">m</hi> and <hi rend="italic">n</hi> is now <hi rend="italic"
+                    >m</hi><hi rend="italic superscript"> 2</hi><hi rend="italic">= ng( ζ'</hi><hi
+                    rend="italic superscript"> ικ</hi><hi rend="italic">-ζ-</hi><hi rend="italic
+                    superscript"> nh</hi><hi rend="italic">')∕(ξ</hi><hi rend="italic
+                    superscript"> nk</hi><hi rend="italic">+S-«*).</hi></p>
+                <p>If <hi rend="italic">h</hi> be regarded as infinite this gives as before <hi
+                    rend="italic">m</hi><hi rend="italic superscript"> 2</hi><hi rend="italic">=
+                    ng.</hi></p>
+                <p>If, on the other hand, <hi rend="italic">h</hi> be small compared with the
+                    wave-length, the equation approximates to <hi rend="italic">m</hi><hi
+                    rend="italic superscript"> 2</hi><hi rend="italic">= n</hi><hi rend="italic
+                    superscript"> 2</hi><hi rend="italic">gh,</hi> or <hi rend="italic">v</hi><hi
+                    rend="italic superscript"> 2</hi><hi rend="italic">=gh;</hi> and we have the
+                    formula for long waves again. Thus the expression above includes both
+                    extremes,—though, so far as long waves go, it limits them to harmonic forms of
+                    section.</p>
+                <p>The surface-section is still the curve of sines, but the paths of the individual
+                    particles are now ellipses whose major axes are horizontal. Both axes decrease
+                    with great rapidity for particles considered at gradually increasing depths; but
+                    the minor axes diminish faster than the major, so that the particles at the
+                    bottom oscillate in horizontal lines.</p>
+                <p>(8) <hi rend="italic">Ripples.—</hi> Stokes in 1848 pointed out that the
+                    surface-tension of a liquid should be taken account of in finding the pressure
+                    at the free surface, but this seems not to have been done till 1871, when W.
+                    Thomson discussed its consequences. If T be the surface-tension, and <hi
+                    rend="italic">r</hi> the radius of curvature of the (cylindrical) surface, in
+                    the case of oscillatory waves, the pressure at the free surface must be
+                    considered as differing from that in the air by the quantity T/ <hi
+                    rend="italic">r</hi><hi rend="smallcaps">(Capillary Action). As</hi><hi
+                    rend="italic">T/gρ</hi> is usually a small quantity, this. term will be
+                    negligible unless <hi rend="italic">r</hi> is very small. If the waves be
+                    oscillatory, this means that their lengths must be very short, so that the depth
+                    of the fluid may be treated as infinite in comparison.</p>
+                <p>The curvature is practically <hi rend="italic">cPη∕dx</hi><hi rend="italic
+                    superscript"> 2</hi><hi rend="italic">,</hi> because η∕λ is small; so that the
+                    term - <hi rend="italic">Υd</hi><hi rend="italic superscript"> 2</hi><hi
+                    rend="italic">η∕dx</hi><hi rend="italic superscript"> 2</hi> must be introduced
+                    into the kinetic equation along with <hi rend="italic">p.</hi> The result is
+                    that</p>
+                <p>„ n <hi rend="superscript"> 3</hi> T <hi rend="italic">m~=ng-i ,</hi><hi
+                    rend="italic superscript"> j</hi><hi rend="italic">mp ., gK 2π</hi> T or <hi
+                    rend="italic subscript"> υ</hi><hi rend="italic">&gt;=V-</hi><hi rend="italic
+                    subscript"> +</hi><hi rend="italic">--.</hi><hi rend="italic">2τr K p</hi></p>
+                <p>Thus the speed is, in all cases, increased by the surface-tension; and the more
+                    so the shorter is the wave-length. Hence, as the speed increases indefinitely
+                    with increase of wave-length when gravity alone acts, and also increases
+                    indefinitely the shorter the wave when surface-tension alone acts, there must be
+                    a <hi rend="italic">minimum</hi> speed, for some definite wave-length, when both
+                    causes are at work. It is easily seen that <hi rend="italic">v</hi><hi
+                    rend="italic superscript"> 2</hi> is a minimu <hi rend="underline">m wh</hi>
+                    en</p>
+                <p>λ = λ <hi rend="subscript"> 0</hi> = 2τr√T∕gf∕&gt;, and that the corresponding
+                    value of <hi rend="italic">υ</hi><hi rend="italic superscript"> 2</hi> is <hi
+                    rend="italic">2∖∕gΥ∣p.</hi></p>
+                <p>In the case of water the value of λ <hi rend="subscript"> 0</hi> is about 0⋅68
+                    inch, and <hi rend="italic">v</hi><hi rend="italic subscript"> 0</hi> is 0⋅76 in
+                    feet-seconds, nearly.</p>
+                <p>This slowest-moving oscillatory wave may therefore be regarded as the limit
+                    between waves proper and ripples. That ripples run faster the shorter they are
+                    is easily seen by watching the apparently rigid pattern of them which precedes a
+                    body moving uniformly through still water. The more rapid the motion the closer
+                    do the ripple-ridges approach one another. Excellent examples of ripples are
+                    produced by applying the stem of a vibrating tuning-fork to one side of a large
+                    rectangular box full of liquid. From the pitch of the note, and the wave-length
+                    of the ripples, we can make (by the use of the above formula) an approximate
+                    determination of surface-tension, a quantity somewhat difficult to measure by
+                    statical processes.</p>
+                <pb break="no" facs="ia:encyclopediabrit24newyrich/page/n446/mode/1up"
+                    xml:id="kp-eb0924-0446-0421"/>
+                <p>The conditions of production of ripples by wind, or generally in a surface of
+                    separation of two fluids, each of which has any motion parallel to this surface,
+                    are given in <hi rend="smallcaps">Hydromechanics.</hi></p>
+                <p>(9) <hi rend="italic">Interference of Waves.—</hi> While the disturbances
+                    considered are so small as to be superposable, <hi rend="italic">i.e.,</hi>
+                    independent of one another, the effect of superposition is merely a kinematical
+                    question, and, as such, has been very fully treated under <hi rend="smallcaps"
+                    >Mechanics</hi> (§§ 56-G7). See also <hi rend="smallcaps">Acoustics, Light,</hi>
+                    and <hi rend="smallcaps">Wave Theory.</hi> Thus ripplepatterns, ordinary beats
+                    of musical sounds, composition of lunar and solar ocean tides, diffraction,
+                    phenomena of polarized light in crystals or in transparent bodies in the
+                    magnetic field, &amp;c., are all, in <hi rend="italic">principle</hi> at least,
+                    simple kinematical consequences of superposition. But the phenomena called
+                    Tartini’s beats, breakers, a bore, a jabble, and (generally) cases in which a
+                    sufficient approximation cannot be obtained by omitting powers of the
+                    displacements higher than the first, are not of this simple character.</p>
+                <p>As a single illustration, take one case of the first of these phenomena. The <hi
+                    rend="italic">fact</hi> to be explained is that when two pure musical sounds, of
+                    frequencies 2 and 3 (say), that is, forming a “perfect fifth,” are sounded
+                    together, we hear in addition to them a graver note, viz., that of which the
+                    first sound is the octave and the second the twelfth. When a resonator,
+                    carefully tuned to this graver note, is applied to the ear the note is usually
+                    not heard. Hence Helmholtz attributes its production to the fact that the drum
+                    of the ear (in consequence of the attachments of the ossicles) has different
+                    elastic properties for inward and for outward displacements.</p>
+                <p>The force tending to restore the drum from a displacement <hi rend="italic"
+                    >x</hi> may therefore be represented approximately by <hi rend="italic">-
+                    p</hi><hi rend="italic superscript"> 2</hi><hi rend="italic">x + qx</hi><hi
+                    rend="italic superscript"> 2</hi><hi rend="italic">.</hi></p>
+                <p>Thus, when the drum is exposed to the two sounds above mentioned, its equation of
+                    motion is <hi rend="italic">Cl/“X</hi><hi rend="italic">-^</hi><hi rend="italic
+                    subscript"> 1</hi><hi rend="italic">+p</hi><hi rend="italic
+                    superscript"> 2</hi><hi rend="italic">x^-gx</hi><hi rend="italic superscript">
+                    2</hi><hi rend="italic">+ αsm 3mi + b</hi> sin <hi rend="italic">(2mt +
+                    β</hi><hi rend="italic superscript"> y</hi><hi rend="italic">).</hi></p>
+                <p>By successive approximations, it is found that there is a term in the value of
+                    <hi rend="italic">x</hi> of the form <hi rend="italic">abq</hi> cos <hi
+                    rend="italic">(mt - β)</hi><hi rend="italic">(p</hi><hi rend="italic
+                    superscript"> 2</hi>- 9wι <hi rend="superscript"> 2</hi>)(<hi rend="italic"
+                    >p</hi><hi rend="italic                     superscript"> 1</hi><hi
+                    rend="italic">- 4m</hi><hi rend="italic superscript"> 2</hi><hi rend="italic"
+                    >)(p</hi><hi rend="italic superscript"> 2</hi><hi rend="italic">- m</hi><hi
+                    rend="italic superscript"> 2</hi><hi rend="italic">~)</hi> ’ which is the
+                    “difference-tone” referred to. This, of course, is communicated to the internal
+                    ear.</p>
+                <p>Helmholtz points out, however, that such sounds may be produced objectively,
+                    provided the interfering disturbances are sufficiently great. No one seems yet
+                    to have obtained any really accurate notion of the smallness of the disturbances
+                    of air which can be heard as sound. That they are excessively small has long
+                    been shown by many processes, but even more perfectly by the comparatively
+                    recent invention of the telephone.</p>
+                <p>(10) <hi rend="italic">Waves in an Elastic Solid.—</hi> Some of the more
+                    elementary parts of this very difficult question have been treated from a
+                    theoretical point of view in the article <hi rend="smallcaps">Elasticity.</hi>
+                    From an observational and experimental point of view some are treated under <hi
+                    rend="smallcaps">Earthquake.</hi> See also <hi rend="smallcaps">Light,</hi> and
+                    <hi rend="smallcaps">Wave Theory,</hi> for the luminiferous medium appears to
+                    behave like an elastic solid.</p>
+                <p>(11) <hi rend="italic">Waves of Temperature and of Electric Potential.</hi> —In
+                    <hi rend="smallcaps">Heat</hi> (§ 78), and specially in the mathematical
+                    appendix to that article, will be found Fourier’s treatment of heat-waves
+                    produced by periodic sources of various characters. It is sufficient to call
+                    attention here to the form of the equation for the linear motion of heat (which
+                    is the same as that for electricity and for diffusion), viz., cfø_ <hi
+                    rend="italic">d ίjflv ∖ di dx∖ dx J ’</hi> where <hi rend="italic">v</hi>
+                    represents temperature, <hi rend="italic">c</hi> specific heat, and <hi
+                    rend="italic">k</hi> thermal conductivity.</p>
+                <p>When <hi rend="italic">c</hi> and <hi rend="italic">k</hi> are constants, this
+                    takes the very simple form <hi rend="italic">dν _ d</hi><hi rend="italic
+                    superscript"> 2</hi><hi rend="italic">v di</hi><hi rend="italic superscript">
+                    κ</hi><hi rend="italic">dx</hi><hi rend="italic superscript"> 2</hi><hi
+                    rend="italic">*</hi></p>
+                <p>If plane harmonic waves of the type v=X cos <hi rend="italic">(mt - nx)</hi> are
+                    to be transmitted, we must have simultaneously ^-n <hi rend="superscript">
+                    2</hi> X=0, <hi rend="italic">2κη</hi><hi rend="italic superscript"> c</hi><hi
+                    rend="italic">^≈-mX.</hi></p>
+                <p>The first gives</p>
+                <p>X = AS <hi rend="superscript"> nx</hi> + Bε^ <hi rend="superscript"> njc</hi>
+                    5</p>
+                <p>and the second, by means of this, gives</p>
+                <p>2κn <hi rend="superscript"> 2</hi> (AS' <hi rend="superscript"> uc</hi>-BS <hi
+                    rend="superscript"> -</hi> " <hi rend="superscript"> z</hi>) = -m(AS <hi
+                    rend="superscript"> nx</hi> + Bε <hi rend="superscript"> nx</hi>).</p>
+                <p>Thus A vanishes, which implies that the amplitude of the waves must continuously
+                    diminish as they progress. Also</p>
+                <p>2∕&lt;ll <hi rend="superscript"> 2</hi> = 71l, so that tt=Bg^" <hi
+                    rend="superscript"> x</hi> cos <hi rend="italic">(2κn</hi><hi rend="italic
+                    superscript"> 2</hi><hi rend="italic">t-nx).</hi></p>
+                <p>If the conductivity be not constant, then, even in the simple case of</p>
+                <p>⅛=⅛ <hi rend="subscript"> 0</hi> (l + αi&gt;), where <hi rend="italic">α</hi> is
+                    small, the wave throws off others of inferior amplitude and of a different
+                    period.</p>
+                <p>12. <hi rend="italic">Works and Memoirs on Waves.—</hi> The literature is very
+                    extensive, so a few references only are given. The works of Lagrange, Laplace,
+                    Poisson, and Cauchy may be specially cited. Weber’s <hi rend="italic"
+                    >Wellenlehre,</hi> and Scott Russell's papers, contain valuable experimental
+                    details. Theoretical papers of importance by Earnshaw, Kelland, Green, &amp;c.,
+                    treat of long waves. The collected works of Rankine, and particularly those of
+                    Stokes, deal in part with oscillatory waves. Stokes’s “Reports on
+                    Hydrodynamics,” in the <hi rend="italic">Trans. of the British Association,</hi>
+                    are of great value in themselves, and contain numerous references. A very
+                    complete discussion of the mathematics of the subject is given by Professor
+                    Greenhill in the <hi rend="italic">American Journal of Mathematics.</hi> Lord
+                    Rayleigh’s <hi rend="italic">Sound,</hi> and the memoirs of De St Venant and Von
+                    Helmholtz, together with a remarkable series of papers by Sir W. Thomson, in
+                    recent volumes of the <hi rend="italic">Phil. Mag.</hi> and <hi rend="italic"
+                    >Proc. R. S. E.,</hi> may fitly conclude the list. (P. G. T.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>
