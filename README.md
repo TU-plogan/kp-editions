@@ -8,8 +8,8 @@ Britannica_. Editions are provided in two formats:
 - Plain text (TXT)
 - TEI (XML)
 
-This site is managed by the Nineteenth Century Knowledge Project, directed by Peter Melville
-Logan at Temple University. Contact them at [nckp@temple.edu](mailto:nckp@temple.edu)
+This site is managed by the Nineteenth-Century Knowledge Project, directed by Peter Melville
+Logan at Temple University. Contact them at [19kp@temple.edu](mailto:19kp@temple.edu)
 
 When complete, the repository will include the text of four Britannica Editions:
 

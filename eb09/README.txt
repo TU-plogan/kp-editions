@@ -74,7 +74,6 @@ DATA & FILE OVERVIEW
             o	-eb0901 	= Encyclopedia Britannica, 9th ed., print vol. 1
             o	-009905 	= print page 0099, 5th entry beginning on the page
             o	-1114 		= last 4 digits of the source image filename (insures URI uniqueness)
-            o	-v1 		= version 1
             o	.txt 		= plain text (or .xml for TEI)
 
     3. Other Versions
@@ -117,7 +116,7 @@ METHODOLOGICAL INFORMATION
 			Bethany Farrell
 			Ian Gates
 			Tyler Gittelman
-			Mateline Hammell
+			Madeline Hammell
 			Luling Huang
 			James Kopaczewski
 			Nhan Nguyen
